@@ -25,3 +25,5 @@ CheckApp is an AI-powered fact-checking system that analyzes claims and generate
 | [Fact-Checking Workflow](docs/fact-checking-workflow-description.md) | Detailed explanation of each step in the fact-checking pipeline |
 | [Supported Models](docs/supported_models.md) | List of supported AI models and configuration options |
 | [Running Evaluations](docs/run-evaluation.md) | Benchmark LLMs using the evaluation framework |
+| [Evaluation Results](docs/evaluation-results.md) | Performance benchmarks and comparison of different models |
+| [Model Quantization](docs/model-quantization.md) | Guide for model quantization setup |
