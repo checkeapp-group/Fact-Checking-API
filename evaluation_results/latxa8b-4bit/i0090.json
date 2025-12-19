@@ -1,0 +1,630 @@
+{
+    "question": "Los migrantes no contagian el tifus en Canarias",
+    "answer": "Según el texto [1], el Servicio Canario de Salud ha confirmado que no se ha registrado ningún caso de tifus en las Islas Canarias, ni entre la población residente ni entre los migrantes. Esto sugiere que la situación actual de los casos de tifus en Canarias es de cero casos en el año 2025.\n\nEl texto [1] indica que no se ha registrado ningún caso de tifus entre los migrantes en Canarias, lo que sugiere que no hay una relación directa entre la migración y la propagación del tifus en la región. Sin embargo, el texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\nEl texto [3] cita a Conrado Rodríguez, director del Instituto Canario de Bioantropología, quien explica que las grandes epidemias llegaron a Canarias por las mismas causas que en el resto del mundo, lo que sugiere que los expertos en epidemiología y salud pública consideran que la migración podría haber jugado un papel en la propagación del tifus en el pasado. Sin embargo, el texto [1] sugiere que en la actualidad no hay una relación directa entre la migración y la propagación del tifus en Canarias.\n\nEl texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que hubo brotes de tifus relacionados con la migración en la región. Además, el texto [3] menciona que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\nEn resumen, la evidencia disponible sugiere que en la actualidad no hay casos de tifus en Canarias, ni entre la población residente ni entre los migrantes. Sin embargo, en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en la región. Por lo tanto, la afirmación \"Los migrantes contagian el tifus en Canarias\" es **falsa** en la actualidad, pero **verdadera** en el pasado.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.eldiario.es/canariasahora/migraciones/tifus-aumento-criminalidad-datos-desmontan-bulos-inmigracion-canarias_1_10636184.html",
+            "source": "www.eldiario.es",
+            "favicon": "https://www.eldiario.es/favicon.png"
+        },
+        "2": {
+            "url": "https://www.museosdetenerife.org/blog/articulo-de-divulgacion-tenerife-y-la-fiebre-amarilla-por-conrado-rodriguez-maffiotte-martin/",
+            "source": "www.museosdetenerife.org",
+            "favicon": "https://museosdetenerife.b-cdn.net/wp-content/uploads/2019/06/favicon32.png"
+        },
+        "3": {
+            "url": "https://www.eleconomista.es/canarias/noticias/10959817/12/20/Grandes-miserias-en-la-historia-de-Canarias.html",
+            "source": "www.eleconomista.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los migrantes no contagian el tifus en Canarias",
+        "categories": [
+            "Salud pública",
+            "Migración",
+            "Epidemiología"
+        ],
+        "label": "Fake",
+        "main_claim": "Los migrantes no contagian el tifus en Canarias en la actualidad, pero sí en el pasado",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.0103942349996942,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.0103942349996942,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:58:01",
+                    "run_time": 1.0103942349996942,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos migrantes contagian el tifus en Canarias\n\n**Critical Research Questions:**\n1. ¿Cuál es la situación actual de los casos de tifus en Canarias en el año 2025?\n2. ¿Qué relación existe entre la migración y la propagación del tifus en Canarias según los informes de salud pública?\n3. ¿Qué dicen los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias?\n4. ¿Hay antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado?\n5. ¿Qué políticas de salud pública han sido implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"tifus en Canarias casos confirmados 2025\", \"relación migración tifus Canarias informes salud pública\", \"tifus y migración expertos en epidemiología salud pública\", \"tifus brotes migración Canarias antecedentes históricos\", \"políticas salud pública Canarias prevención control tifus migrantes\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 41.26595682900006,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 41.26595682900006,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:58:44",
+                    "run_time": 41.26595682900006,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "tifus en Canarias casos confirmados 2025",
+                                "relación migración tifus Canarias informes salud pública",
+                                "tifus y migración expertos en epidemiología salud pública",
+                                "tifus brotes migración Canarias antecedentes históricos",
+                                "políticas salud pública Canarias prevención control tifus migrantes"
+                            ],
+                            "results": {
+                                "tifus en Canarias casos confirmados 2025 | relación migración tifus Canarias informes salud pública | tifus y migración expertos en epidemiología salud pública | tifus brotes migración Canarias antecedentes históricos | políticas salud pública Canarias prevención control tifus migrantes": [
+                                    {
+                                        "text": "El criterio básico para incluir una enfermedad, infección o infestación en la lista es su potencial de propagación internacional; a éste, vienen a sumarse otros condicionantes, tales como:\n\nAl menos un país ha demostrado la ausencia efectiva o inminente de la enfermedad, infección o infestación en animales susceptibles.\n\nExiste un método de detección y diagnóstico fiable y se dispone de una definición precisa de los casos que permite identificarlos claramente y distinguirlos de otras enfermedades, infecciones o infestaciones.\n\nSe ha demostrado: a. La transmisión natural de la enfermedad al ser humano y la infección humana se asocia con consecuencias graves; o b. La enfermedad tiene un impacto significativo en la sanidad de los animales en un país o zona teniendo en cuenta la frecuencia y gravedad de los signos clínicos, incluyendo las pérdidas directas de producción y mortalidad; o c. Se demuestra o las pruebas científicas indican que la enfermedad tiene un impacto significativo en la sanidad de la fauna silvestre, teniendo en cuenta la frecuencia y la gravedad de los signos clínicos, incluyendo las pérdidas económicas directas, la mortalidad y cualquier amenaza sobre la viabilidad de una población de fauna silvestre.\n\n\n\nTodo ello se recoge en el capítulo 1.2 tanto del “Código Sanitario para los animales terrestres” como del “Código Sanitario para los animales acuáticos”\n\nEl actual sistema de notificación de la OMSA, no sólo tiene en cuenta la enfermedad en sí, sino también toma en consideración ciertos acontecimientos relevantes que, de producirse, exigirán una notificación urgente.\n\nPor otro lado cabe destacar que, a raíz de resoluciones adoptadas por el Comité Internacional y recomendaciones emitidas por las Comisiones Regionales, se han sustituido las antiguas listas A y B por una lista única de enfermedades de declaración obligatoria para animales terrestres y acuáticos.\n\nPara el año 2023, la lista de EDO de la OMSA incluye 122 enfermedades animales, infecciones e infestaciones:.\n\nLista de enfermedades de la OMSA\n\n",
+                                        "metadata": {
+                                            "url": "https://www.mapa.gob.es/es/ganaderia/temas/sanidad-animal-higiene-ganadera/sanidad-animal/alertas-sanitarias/lista_enfermedades_edo",
+                                            "source": "www.mapa.gob.es",
+                                            "favicon": "https://www.mapa.gob.es/.resources/mgnl-mapa-frontend/webresources/img/magrama-favicon.ico",
+                                            "title": "Lista de enfermedades de declaración obligatoria",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mapa.gob.es",
+                                            "snippet": "Para el año 2023, la lista de EDO de la OMSA incluye 122 enfermedades animales, infecciones e infestaciones:. Lista de enfermedades de la OMSA. Lista de la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.\n\nEl Servicio Canario de Salud ha confirmado a esta redacción que no se ha registrado ningún caso de esta enfermedad en las Islas, ni entre la población residente, ni entre los migrantes. El edil será denunciado ante la Fiscalía por el PSOE, que lo acusa de un delito de odio al comparar también a las personas migrantes con animales. “Como no les pongan una marca como a los animales, que les ponen una pulserita o algo de eso, no sé qué control van a tener estas criaturas que van a empezar a vagar por ahí”, dijo.\n\nEl ministro de Sanidad en funciones, José Miñones, ha criticado también las declaraciones del alcalde de Medina del Campo (Valladolid), Guzmán Gómez, que acusó a los migrantes llegados a Canarias de ser causantes de enfermedades.\n\n“Sobre esos bulos, esas mentiras que se han estado vertiendo además por responsables políticos, solo las puedo calificar como lo más ruin que me he encontrado en política”, dijo. El ministro de Sanidad ha asegurado que “los protocolos sanitarios están funcionando” y que hasta el momento “no hay constancia por parte de las comunidades autónomas de ningún tipo de contagio”.\n\nDelincuencia\n\nComo en anteriores crisis migratorias vividas en el Archipiélago, estos meses también se ha intentado vincular la inmigración con la criminalidad. El concejal de Málaga ha sido uno de ellos. “No sabemos por dónde van a ir, si te van a robar un coche…”, afirmó. En 2021, el PP y Vox protagonizaron este discurso, responsabilizando también a los migrantes de la propagación de la COVID-19.\n\nLa fiscal superior de Canarias, María Farnés, afirmó este lunes que no hay “ningún dato, ni de lejos” que avale un supuesto aumento de la delincuencia en el Archipiélago debido a la llegada de migrantes. Después de presentar la Memoria de la Fiscalía de 2022, Farnés aseveró que “los fiscales de guardia, ni siquiera en una conversación informal, le han hecho aseveraciones en esa línea”.\n\nPor el contrario, la fiscal subrayó que los migrantes “sí necesitan atención humanitaria”, por lo que ha demandado estructuras de acogida estables y permanentes en el Archipiélago.\n\nDerivaciones ''intencionadas''\n\nLas derivaciones de migrantes desde Canarias a la Península también han desatado el rechazo de algunos líderes del PP. Entre ellos, el diputado Rafael Hernando, que acusó al Gobierno de España de colaborar con las mafias y de tráfico de personas por reubicar a los migrantes en diferentes puntos de la red de acogida estatal.\n\nLa presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, también ha cuestionado el “más que posible traslado” de migrantes a la capital española. “Para variar no hemos sido informados absolutamente de nada”. Ayuso también señaló que “no se les puede tratar (a los migrantes) como fardos que se envían y se van dejando por la Península”.\n\nPor su parte, el vicepresidente del Gobierno de Canarias, Manuel Domínguez (PP), ha intentado este viernes desmarcarse de las declaraciones de sus compañeros de partido. Los ha invitado a presenciar el desembarco de un cayuco para así tener más “empatía”.\n\nSin embargo, ha criticado que el Gobierno de España, competente en materia de acogida de migrantes, derive de forma ''unilateral'' a migrantes a la Península. Además, Domínguez ha dicho que las derivaciones a comunidades gobernadas por el PP son ''intencionadas''. ''¿Cuántos han derivado a las del PSOE, cuántos del PSOE, catalanes o vascos han levantado la mano para decir: traiganlos ustedes aquí? Esta es una desviación intencionada“.\n\nLos datos desmienten estas afirmaciones. Cataluña, presidida por ERC, ha recibido cerca de 2.000 personas llegadas a las Islas. Al País Vasco, según han publicado medios locales, también han llegado 36 supervivientes rescatados en las Islas. Las derivaciones también se han dado hacia Asturias, gobernada por el PSOE.\n\nBarcos nodriza\n\nOtro de los bulos que circulan es el de los barcos nodriza. Hasta ahora, no existe ningún dato ni prueba que confirme la existencia de buques que aproximen los cayucos a las islas para que sus ocupantes sean rescatados en aguas españolas.\n\nEste discurso, que pretende restar peligrosidad a la ruta y cuestionar el estado en el que llegan las personas migrantes, ya fue utilizado en 2021. Entonces, fue la exdiputada de CC en el Congreso de los Diputados Ana Oramas la que aseguró que buques nodriza despliegan “decenas de cayucos que llegan a Canarias en perfectas condiciones”.\n\nEl Ministerio del Interior afirmó entonces que no existía constancia de la utilización de este tipo de barcos, tratándose además de una ruta monitorizada y donde la actividad de prevención se produce también en los puntos de salida. Hace solo tres días, la Marina de Senegal interceptó cuatro cayucos con 616 personas que pretendían salir del país hacia España.\n\nEn una entrevista concedida a la Agencia Efe en 2020, preguntado por si había visto alguna vez un barco nodriza, un trabajador de Salvamento Marítimo aseveró que no tenían constancia de este tipo de embarcaciones. “En todas las búsquedas que hemos realizado, algunas a larga distancia, hemos ido encontrando embarcaciones precarias que vienen navegando desde los puntos de salida a 200 millas, a 150, a 100… y nunca hemos encontrado un barco nodriza”.\n\nLa muerte de cientos de personas en cayucos es otra prueba del riesgo que asumen las personas al cruzar el océano. El 16 de agosto fue localizado en Cabo Verde un cayuco senegalés que trataba de llegar a Canarias. En la embarcación viajaban 38 supervivientes junto a los cadáveres de otros siete migrantes. El número de desaparecidos ascendía a 50.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/canariasahora/migraciones/tifus-aumento-criminalidad-datos-desmontan-bulos-inmigracion-canarias_1_10636184.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "Ni tifus, ni aumento de la criminalidad: los datos que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "El Servicio Canario de Salud no ha registrado ningún caso de esta enfermedad en las Islas, ni entre la población residente ni entre ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "When you use our sites and apps, we use cookies to:\n\nAccept all', we and If you click '', we and our partners , including 237 who are part of the IAB Transparency & Consent Framework, will also store and/or access information on a device (in other words, use cookies) and use precise geolocation data and other personal data such as IP address and browsing and search data, for analytics, personalized advertising and content, advertising and content measurement, and audience research and services development.\n\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\n\nIf you would like to customise your choices, click 'Manage privacy settings'.\n\nYou can withdraw your consent or change your choices at any time by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps. Find out more about how we use your personal data in our privacy policy and cookie policy.",
+                                        "metadata": {
+                                            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_d4582828-f09b-41c3-a59d-bf90483bf218",
+                                            "source": "es-us.noticias.yahoo.com",
+                                            "favicon": "https://s.yimg.com/oa/build/images/favicons/yahoo.png",
+                                            "title": "Cuatro bulos sobre inmigración desmontados desde la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://es-us.noticias.yahoo.com",
+                                            "snippet": "Los migrantes nos traen enfermedades? Nada más lejos de la realidad. La población migrante, independientemente de su origen, suele tener un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.\n\nLa pandemia del coronavirus Covid-19, que ha dejado decenas de muertos en Canarias desde que aparecieron los primeros casos el pasado mes de febrero, no es un episodio desconocido para los habitantes de las Islas. Las primeras epidemias se remontan a la época prehistórica. Los aborígenes canarios tuvieron que hacer frente a enfermedades introducidas por los europeos, que llegaban al Archipiélago con fines evangelizadores y afán conquistador.\n\nGracias a las fuentes etnohistóricas sabemos de un episodio de epidemia en Gran Canaria en el siglo XIV. Tal vez, la llegada de unos monjes mallorquines a la Isla fuera el desencadenante del contagio entre los aborígenes grancanarios. Las referencias en las crónicas son escasas y no aclaran si fue peste o gripe.\n\nLos isleños interpretaron la muerte de sus paisanos como un castigo divino impuesto a la comunidad por los infanticidios femeninos que llevaban a cabo ante el aumento desmedido de la población.\n\nMucho más sabemos de la epidemia de modorra que dejó unos 5.000 muertos entre el otoño de 1494 y el invierno de 1495 en Tenerife. El historiador José de Viera y Clavijo, en el siglo XVIII, aseguraba que esta, “consistía en fiebres malignas o agudas pleuresías, que terminan en una letargia o sueño venenoso que llamamos modorra”.\n\nSu propagación se produjo en plena campaña militar de la conquista de Tenerife y después de que los guanches hubieran salido victoriosos de la primera de las batallas de Acentejo.\n\nSin embargo, este virus, con cuadros similares a la gripe, permitió a las tropas españolas acelerar la conquista de Tenerife. Los conquistadores vieron en la propagación de la enfermedad un acto milagroso enviado por Dios, que se había puesto de su parte para vencer a los aborígenes.\n\nEl historiador Pedro Quintana Andrés lleva décadas buscando en los archivos de Canarias documentos con los que seguir reconstruyendo la historia de las Islas. Este doctor en Historia asegura que las enfermedades contagiosas durante la etapa moderna en Canarias “fueron periódicas y reiterativas”. Es decir, “se dieron a lo largo de todo el proceso histórico hasta el presente destacando, sobre todo, tres por su incidencia sobre la población: la peste, de la que tenemos constancia hasta principios del siglo XVII, la fiebre amarilla y el cólera morbo”.\n\nLa peste, una enfermedad de origen bacteriano, fue una de las primeras epidemias que llegó a Canarias tras la conquista. En 1506 se desató un brote en Gran Canaria que corrió con rapidez por Fuerteventura, Lanzarote y Tenerife. En esta última, duró dos años y produjo decenas de muertes entre los guanches que aún residían en Anaga.\n\nA finales del siglo XVI, hacia 1582, un nuevo brote de peste sacudió Tenerife. Esta vez con más virulencia y miles de muertes. Se calcula que, entre unas 5.000 y 7.000 personas causaron baja en una población que no debía de superar los 20.000.\n\nLa tradición asegura que el origen está en el deseo del nuevo gobernador de Tenerife, Lázaro Moreno de León, de contribuir en la solemnidad del Corpus de Tenerife adornando el balcón de su casa con unos tapices orientales traídos de Flandes. Estas colgaduras serían las portadoras de la epidemia de peste bubónica.\n\nEstudios más recientes plantean la posibilidad de que el origen fueran las personas y ropas que llegaron en un barco procedente de Las Palmas, donde estaba en degredo la flota de Indias afectada por el contagio. Al parecer, no se tomaron medidas sobre el peligro que suponía en Tenerife hasta después de que llegara el aviso de la enfermedad desde Gran Canaria.\n\nLa epidemia se extendió por La Laguna y Santa Cruz. Como medida para frenar el contagio, se recurrió a rogativas a la Virgen de Candelaria y un cordón sanitario entre La Laguna y el puerto de Santa Cruz con penas de 200 latigazos, e incluso, la horca para quienes lo traspasaran.\n\nLos episodios de peste se sucedieron durante el siglo XVI en Gran Canaria. Una de las más virulentas fue la de 1523. En esa ocasión, los habitantes de Gran Canaria se pusieron bajo la protección del Cristo de Vera Cruz al que dedicaron rogativas. Parece que el Cristo los oyó y la epidemia acabó desapareciendo. Como seña de gratitud, los grancanarios levantaron una ermita en Las Palmas para venerar la imagen.\n\nEl catedrático de Historia Moderna Manuel Lobo reconoce que las medidas para frenar las epidemias en esa época eran “bastante escasas” y explica cómo estas enfermedades llegaban a Canarias a través de sus puertos.\n\nComo medida de protección, se hacían visitas a los barcos que llegaban a las Islas. Una era la “visita de guerra” para saber si los barcos procedían de algún lugar con el que España estuviera en conflicto y la otra respondía a la “visita de salud”. “Si se sabía que el barco procedía de una zona donde había epidemias no se dejaba salir a los tripulantes ni a la mercancía porque muchas veces el virus se contagiaba a través de la carga. Luego se establecía una cuarentena de 40 días”, explica el investigador.\n\nEl historiador Carmelo Torres asegura que las medidas de vigilancia llegaron, incluso, al punto de situar vigías en las atalayas para impedir el desembarco de personas y mercancías, “llegando a penarse hasta con la muerte cualquier contacto no permitido en esos tiempos de enfermedad”.\n\nA los fallecidos y enfermos se unían los efectos que sobre la actividad comercial tuvieron las arribadas de enfermedades contagiosas. La cuarentena a las mercancías originaba “importantísimas pérdidas económicas, al tener que sumergirse en vinagre, tratarse con cal o estar expuestas al sol y el viento durante toda la cuarentena, alcanzando en el caso de los tejidos o alimentos a poder darse por perdida toda la carga”, añade Torres.\n\nLa peste de 1601\n\nLa desobediencia de la tripulación de un barco procedente de Sevilla fue la causante de un nuevo episodio de peste en Tenerife en 1601. Hasta el puerto de Garachico llegaron dos embarcaciones por esas fechas procedentes de Sevilla. Se les prohibió la entrada, pero uno de ellos desobedeció. La enfermedad no tardó en extenderse por los municipios de Los Realejos, Icod, Los Silos y el puerto de Santa Cruz. Desde Tenerife, se propagó a Gran Canaria y de ahí a Fuerteventura y Lanzarote.\n\nA principios del siglo XVIII, un barco volvió a traer la desgracia al Archipiélago. Una embarcación procedente de La Habana extendió, por primera vez en Tenerife, la fiebre amarilla o vómito negro. Se calcula que de 6.000 a 9.000 personas acabaron contagiadas. Para frenar el contagio se recurrió a la virgen de Candelaria para que mediara con sus poderes divinos.\n\nLos episodios de fiebre amarilla continuaron durante todo el siglo junto a otras enfermedades como el tabardillo, con fiebres muy elevadas. En 1810, un barco procedente de Cádiz trajo otro brote de fiebre amarilla a Tenerife. A principios del verano de 1811 la epidemia se desató en la ciudad de Las Palmas, detectándose el primer brote en el barrio de Triana. La alarma cundió y algunos capitulares se trasladaron a la ciudad de Telde, entre ellos el ilustrado José Viera y Clavijo.\n\nEl historiador Pedro Quintana Andrés explica que, durante esos siglos, las enfermedades “van sustituyéndose, de una forma natural las unas a las otras, pero siempre asociadas a las carencias de alimentación y el hacinamiento en la ciudad porque casi todas ellas surgen ahí y luego se propagan al campo”.\n\nCiudades insalubres\n\nEl estado de las ciudades canarias ayudaba a la propagación de las enfermedades. Manuel Lobo comenta que, en esos siglos, las urbes de las Islas tenían “un problema tremendo que era la falta de higiene y de elementos sanitarios. La basura se tiraba cerca de las casas, los animales en las calles… eran elementos propios para que los contagios se propagaran con bastante intensidad”. Tampoco ayudaba a frenar su propagación que, en muchos sitios, se enterraran a las personas en las iglesias, lo que suponía un foco de transmisión para quienes acudían a los oficios religiosos.\n\nLos cabildos eran los que tenían las competencias para frenar el avance de las epidemias, pero los medios para remediarlos eran pocos. Se recurría al aislamiento, cordones sanitarios con multas a quienes se lo saltaran y labores de desinfección a base de cal que usaban para encalar las paredes.\n\nTambién tenían que luchar con la falta de médicos. En la mayoría de las islas, por esas fechas, no había y en Gran Canaria y Tenerife no debía de haber más de uno o dos. Empleaban como remedio medicinal sangrías y aguas con hierbas.\n\nEn 1851, la población de Gran Canaria vivió una de las mayores epidemias de su historia: un brote de cólera morbo que provocó un0s 6.000 fallecidos. El origen fue un navío procedente de Cuba. Parece ser que el brote se inició a través de una lavandera del barrio de San José, María de la Luz Guzmán que, supuestamente, al lavar la ropa de los tripulantes se contagió. Cuentan los historiadores que los contagios fueron tan grandes que en los arenales de Las Palmas se hicieron fosas para enterrar a las personas.\n\nLa propagación del virus no tardó en extenderse por el resto de Las Palmas. Fueron muchos los que huyeron de la ciudad para refugiarse en pueblos del interior.\n\nLa epidemia del hambre\n\nLa falta de documentación en los archivos sobre Fuerteventura y Lanzarote durante los primeros siglos de historia hace difícil conocer las enfermedades que padecieron los habitantes de estas dos islas. Sabemos que hasta ellas llegaron brotes de peste como la de 1506 o la de 1554 en Fuerteventura, tal vez motivada por el comercio que la Isla mantenía con los puertos de Madeira, Portugal y Marruecos.\n\nPara el historiador Manuel Lobo estas dos Islas tuvieron, durante esos siglos, “una epidemia continua que, muchas veces, no llegaba del exterior. En estas islas, las epidemias las ocasionaban las sequías que hacían que no se produjera alimentación ni pasto para los animales y derivara todo en una mortandad tremenda”.\n\nLobo explica que a Fuerteventura y Lanzarote, a pesar de tener una actividad comercial con Gran Canaria y Tenerife para proveerla de cereales en años buenos y de carne, las epidemias realmente “no le llegaban con la intensidad” con la que lo hacían en otros puntos del Archipiélago.\n\nAun así, el Cabildo de Fuerteventura durante el Antiguo Régimen no bajó la guardia y cada vez que se enteraba de que en las islas de Gran Canaria y Tenerife había brotes de peste, las autoridades majoreras mandaban el cierre de los puertos de la isla: El Tostón, en El Cotillo y los de Caleta de Fuste y Pozo Negro.\n\nTambién, estaba en sus preocupaciones mantener medidas de salubridad en las fuentes y separadas las de consumo humanos de aquellas donde bebían los animales para evitar la propagación de enfermedades como el tifus. Los vecinos, divididos por turnos, debían cumplir la obligación dictada por el Cabildo de limpiar las fuentes. Casi siempre en primavera, entre los meses de abril y junio, después del periodo de lluvias.",
+                                        "metadata": {
+                                            "url": "https://diariodefuerteventura.com/noticia/peste-fiebre-amarilla-c%C3%B3lera-las-otras-epidemias-que-azotaron-canarias",
+                                            "source": "diariodefuerteventura.com",
+                                            "favicon": "https://diariodefuerteventura.com/sites/all/themes/diario_lanzarote/favicon.ico",
+                                            "title": "Peste, fiebre amarilla, cólera... las otras epidemias que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://diariodefuerteventura.com",
+                                            "snippet": "Gracias a las fuentes etnohistóricas sabemos de un episodio de epidemia en Gran Canaria en el siglo XIV. Tal vez, la llegada de unos monjes ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Desde el mismo momento de la conquista, Tenerife tuvo que enfrentarse a epidemias terribles que, en la inmensa mayoría de las ocasiones, le llegaban por el mar. Santa Cruz y Garachico, puerto de gran importancia entre los siglos XVI y XVIII, fueron la puerta de entrada de enfermedades infecto-contagiosas que castigaron cómo auténticos flagelos a la población de la isla. La peste, el tifus exantemático epidémico, la gripe, la viruela y, por supuesto, la muy temida fiebre amarilla, entre otras, azotaron de una manera cruel en muchas ocasiones a los tinerfeños. Lo peor de esas calamidades es que, no pocas veces, se unían a las recurrentes sequías y hambrunas producidas en el archipiélago lo que favorecía la inmigración hacia la isla capitalina de muchos habitantes de otras islas en busca de mejor fortuna. Ese hecho propició que el impacto de las esas epidemias fuera aún peor por el aumento de la densidad de la población y la insalubridad de los lugares habitados debido a la pobreza, ello al margen de la debilidad producida por el hambre en no pocas personas (especialmente la población más vulnerable: niños y ancianos).\n\nAlgunos de los estallidos epidémicos más graves en todas las Canarias, y especialmente en Tenerife, fueron los de fiebre amarilla (término acuñado por el clérigo y naturalista galés Griffin Hughes en 1750). A la fiebre amarilla se le ha llegado a dar más de 150 nombres diferentes a lo largo de la historia, siendo los más conocidos los de «vómito negro», «enfermedad de Siam», «enfermedad de Barbados» o «plaga americana». El virus causante de la misma acabó con la vida de miles de tinerfeños en los sucesivos brotes ocurridos desde los inicios del siglo XVIII hasta el XIX.\n\nHagamos un somero repaso por las características epidemiológicas, clínicas y geográficas de esta enfermedad para luego profundizar en cómo se sucedieron los hechos en el mundo y en nuestra isla.\n\nUn poco de epidemiología de la fiebre amarilla\n\nLa fiebre amarilla está causada por un virus del tipo Flaviviridae (ARN), siendo su reservorio los monos y, en menor medida, el ser humano, el armadillo y los marsupiales, en la fiebre amarilla selvática y el ser humano en la urbana. El vector de la enfermedad es el mosquito: Aedes aegypti en la urbana o epidémica que se transmite de humano infectado a humano sano por la picadura del mismo y el Aedes aegypti, el Aedes simpsoni y el Aedes africanus en la selvática o endémica – en África – y el Haemagogus en América, transmitida de animal a ser humano a través de esos vectores. Actualmente la fiebre amarilla se distribuye por las selvas de América Central y del Sur (Venezuela, Colombia, Ecuador, Perú y Brasil son los países más afectados) y de África.\n\nCuadro clínico\n\nSe trata de una enfermedad infecto-contagiosa aguda que, después de un período de incubación corto de 3-6 días, comienza de forma abrupta con escalofríos y fiebre alta, cefaleas intensas (dolores de cabeza) y dolores articulares y musculares que duran tres días. Transcurrido ese período, la enfermedad puede seguir dos caminos: la remisión total (la mayoría de los casos actuales se comporta así gracias a las medidas terapéuticas existentes ) o una remisión aparente tras la cual el cuadro se agrava apareciendo bradicardia (pulso lento y débil), ictericia que va en aumento a medida que evoluciona el cuadro (de ahí el nombre de la enfermedad), anuria (disminución o supresión de la secreción urinaria), alucinaciones y hemorragias nasales (epistaxis), orales y digestivas (vómitos hemorrágicos oscuros – por eso fue conocida también cómo «vómito negro»- y melenas o heces oscuras). El final cursa con convulsiones, coma y muerte a los 8-10 días. Los enfermos recuperados presentan inmunidad permanente.\n\nLa fiebre amarilla es una enfermedad difícil de diagnosticar en ausencia de pruebas de laboratorio y ha sido confundida con el dengue, la fiebre recurrente epidémica, la malaria o paludismo, la fiebre tifoidea, el tifus exantemático epidémico e incluso con la propia gripe. Su tratamiento es sintomático al no existir medicación (antivirales específicos).\n\nProfilaxis (prevención) de la enfermedad\n\nAunque el médico norteamericano Josiah Nott fue el primero en lanzar la idea del mosquito como transmisor de la enfermedad en la primera mitad del siglo XIX, sería el científico y médico cubano Carlos Finlay (1881) el primero en demostrar que, en efecto, el vector de la fiebre amarilla era ese y que la enfermedad no se transmitía por contacto directo. Este descubrimiento pasó desapercibido en su momento hasta que fue confirmado usando voluntarios – de los que fallecieron no pocos – por el médico militar norteamericano Walter Reed en América Central y el Caribe en 1900. Basándose en estos hallazgos, otro oficial médico del Ejército de los Estados Unidos, William Gorgas, comenzó a desarrollar una campaña muy efectiva para la erradicación de la fiebre amarilla de La Habana (capital de Cuba) en 1901 y Panamá tres años después. Dado el éxito de esas campañas, Gorgas se propuso como meta la erradicación definitiva de esa enfermedad del planeta y para ello contó desde 1915 con el apoyo de la Rockefeller Foundation, centrándose primero en América Latina para, ya en la década de 1920, comenzar a actuar en el Continente Africano. Aunque dichas campañas mejoraron mucho las perspectivas, es obvio que la fiebre amarilla no ha logrado erradicarse totalmente y continúan existiendo diversos focos en América y África. Curiosamente, Asia ha estado siempre limpia de esa enfermedad.\n\nEn 1927 se logró aislar el virus responsable y entre 1936 y 1937 el médico surafricano, especializado en virología, Max Theiler y su equipo desarrollarían la primera vacuna efectiva contra la enfermedad, conocida como 17D, que fue ampliamente utilizada durante la II Guerra Mundial en las zonas de conflicto con focos de fiebre amarilla. El uso de la vacuna, especialmente por parte de los aliados, salvó miles de vidas y consiguió que no se produjeran bajas por esta enfermedad. Max Theiler fue galardonado con el Premio Nobel de Medicina en 1951.\n\nAl margen de la vacuna, otras medidas profilácticas consisten en la destrucción de las larvas del mosquito, el uso de insecticidas como el dicloro difenil tricloroetano (DDT, descubierto y puesto en uso por el suizo Paul Hermann Müller, Premio Nobel de Medicina en 1948) – aunque hoy el DDT ha sido prohibido por su toxicidad, utilizándose otros compuestos – y medidas mecánicas de protección. En la actualidad, la OMS y otras instituciones han alertado sobre la relajación del control del mosquito en el Hemisferio Occidental y por las bajas tasas de vacunación en áreas de riesgo. Según dicha organización, en el mundo se producen en la actualidad más de 200000 casos al año causando entre 25000 y 30000 víctimas mortales.\n\nUNA SÍNTESIS HISTÓRICA DE LA FIEBRE AMARILLA\n\nDesde la aparición de las primeras epidemias de esta enfermedad en el siglo XVII y, sobre todo, a partir de los descubrimientos sobre la misma de finales del XIX y comienzos del XX, ha existido un debate – aún no aclarado – sobre su auténtico origen. Para unos estaría en América y, para otros – la mayoría – en África. Los últimos estudios histórico-epidemiológicos e histórico-médicos sitúan la aparición del virus en África en torno al año 1000 AEC y desde allí saltaría al Nuevo Mundo muchos siglos más adelante.\n\nEl primer brote epidémico de fiebre amarilla surgió en las islas Barbados (Pequeñas Antillas de las Indias Occidentales, en el Caribe) en 1647. Para 1648 la enfermedad había pasado a Yucatán (México) cuyos indígenas la denominarían «vómito negro» y, prácticamente, a toda América Central y del Sur. Entre 1649 y 1685 aparecerían diversos brotes muy graves en las Américas siendo uno de los más serios el de Brasil que produjo miles de muertos en Recife y Olinda. En el siglo XVIII surgirían las primeras epidemias en Europa, siendo la segunda (tras Tenerife, de la cual hablaremos más adelante) la de Cádiz en 1730 que dejó miles de enfermos y 2200 muertos. Desde entonces, diversos estallidos de la enfermedad se sucederían en el Viejo y Nuevo Mundo produciendo millones de fallecimientos. España sería uno de los países europeos más castigados por la plaga, calculándose que durante el siglo XIX se produjo medio de millón de muertes por esa enfermedad. Otro de los países más afectados fue Estados Unidos donde estuvo apareciendo de modo recurrente desde el siglo XVII hasta el XIX con un saldo de varios centenares de miles de óbitos. Epidemias terribles de fiebre amarilla, por citar solo algunas, tuvieron lugar en Portugal (1857), Buenos Aires, Argentina (entre 1853 y 1871) y África Occidental (1900).\n\nA modo de ejemplo de lo terrible que resultaba esta enfermedad (hoy casi del todo olvidada en los países del llamado Primer Mundo), baste con señalar que durante la guerra entre España y Estados Unidos de 1898, murieron más soldados de ambos bandos por esta calamidad que por las heridas recibidas en combate y, en 1905, aproximadamente el 85% de los más de 20000 obreros que trabajaban en la construcción del Canal de Panamá enfermaron gravemente por ella o por paludismo, muriendo muchos de ellos.\n\nYa durante el siglo XX seguirían apareciendo algunos brotes importantes en África, cómo el de Etiopía de 1961 que produjo miles de muertes o el de Mali de 2005 que produjo relativamente pocos fallecimientos, pero bastantes afectados. Los últimos brotes africanos, con aproximadamente 130000 casos confirmados y casi 80000 muertes (más del 65% de mortalidad), han sucedico entre 2012 y este mismo año 2020, siendo muy grave el de Angola en 2015. En América, sin alcanzar esa magnitud, el último tuvo lugar en el sureste de Brasil y norte de Argentina y Paraguay en 2008.\n\nEl impacto de la fiebre amarilla en Tenerife\n\nSegún algunos historiadores de la medicina y de la epidemiología, en 1494, se producirían los primeros casos con clínica similar a la de la fiebre amarilla fuera de África … y ¿dónde? pues ni más ni menos que en Canarias. Obviamente, los datos de aquella época no son fiables y, por tanto, hay que ponerlos en cuarentena (nunca mejor dicho) pero no es de extrañar – por el tráfico marítimo existente entre las islas y el continente africano – que pudiera tratarse de esa enfermedad (recordemos que Tenerife aún no había sido conquistado).\n\nEl primer contacto de nuestra isla con la fiebre amarilla tuvo lugar en 1701, siendo el primer lugar en Europa en sufrir la terrible enfermedad. La epidemia fue importada desde Cuba y el saldo final de fallecimientos fue auténticamente aterrador fluctuando entre los 6000 y los 9000 en toda la isla que apenas superaba los 50000 habitantes, es decir el virus mató entre el 12 y el 18% de la población total. Nos recuerda Luis Cola, en su magnífico Santa Cruz, bandera amarilla (1996) que la epidemia coincidió con una tremenda hambruna que afligía al archipiélago lo que contribuyó a la inmigración de otras islas hacia esta y al hacinamiento de gente, un cóctel perfecto para que el brote tuviera mayor expansión e impacto demográfico. Para desgracia de nuestra isla, sus efectos aún se verían más agravados dos años más tarde por un brote de tifus exantemático epidémico que costaría muchas vidas.\n\nLa segunda epidemia de «vómito negro» ocurrió setenta años después de la primera, entre 1771 y 1772 coincidiendo al igual que en la anterior con un episodio de hambruna muy importante. También esta vez el foco procedía de La Habana, en Cuba. Su saldo no fue tan aterrador como en aquella, pero costó 700 muertos solo en Santa Cruz, aproximadamente un 12% de su gente.\n\nEl tercer estallido aconteció entre los años 1810 y 1811 y, para todos los historiadores de la isla, constituyó una de las más grandes catástrofes sanitarias, demográficas y sociales sufridas por la capital tinerfeña en sus más de cinco siglos de historia. Una vez más, la enfermedad entró por el puerto de Santa Cruz en un barco procedente de Cádiz que llegó el 11 de septiembre. En las primeras semanas originó más de 2600 enfermos (más del 85% de los habitantes) que colapsaron los hospitales de la capital – el Hospital de Nª Sª de los Desamparados (ubicación actual del Museo de Naturaleza y Arqueología, MUNA) (Imagen 1) y el Hospital Militar (Imagen 2), el Hospicio de San Carlos y otros lugares adaptados a la función de lazaretos. El número de fallecidos ascendió, solo en la capital – que contaba en aquel entonces con unos 3000 habitantes porque el resto había huido -, a más de 1300 (casi el 45% de la población y más del 50% de los afectados). Eran tantos los fallecidos que tuvo que construirse el primer cementerio de nuestra ciudad, el de San Rafael y San Roque (Imagen 3), en 1811. El problema, al igual que había sucedido con otras epidemias anteriormente en muchos lugares de nuestro país, fue la tardía declaración por parte de las autoridades capitalinas y la escasísima eficacia de las medidas preventivas que fueron aplicadas. Ese hecho trajo como consecuencia lo que casi siempre ocurría (y aún ocurre, como hemos podido comprobar tan recientemente) en estos casos como ya hemos comentado más arriba: la huida masiva de vecinos hacia otros lugares de la isla e incluso hacia otras islas, calculándose que más de la mitad de los habitantes de Santa Cruz huyeron de la capital, especialmente hacia San Cristóbal de La Laguna. Para cuando se decretó el aislamiento total, con controles a la altura de la Cuesta, ya era demasiado tarde y, lógicamente, la dispersión de la enfermedad por el resto de la isla fue casi inmediata. Otros dos puntos especialmente castigados por este brote fueron La Orotava y su Puerto (actual Puerto de la Cruz) perdiendo entre los dos casi 700 personas. La epidemia fue oficialmente dada por terminada a finales de enero de 1811.\n\nEl cuarto episodio en la isla tinerfeña sucedió en 1846 – coincidiendo una vez más con una época de escasez y hambre en todo el archipiélago – y, de nuevo, la fuente de la misma fue un barco procedente de La Habana. Como casi siempre, la declaración de epidemia se hizo muy tarde por parte del gobernador civil. Aunque su saldo final en muertes no tuvo el impacto demográfico de las anteriores, causando menos de un centenar de víctimas mortales, su tasa de ataque fue aterradora ya que afectó en mayor o menor medida a las tres cuartas partes de la población chicharrera, es decir en torno a 7000 personas, aunque con no demasiados casos graves. Eso no influyó para que no se produjeran importantes problemas por el consiguiente colapso en los hospitales, centros de cuarentena y de atención médica.\n\nEl quinto y último encuentro de Tenerife con la fiebre amarilla fue el ocurrido entre 1862 y 1863 con la llegada de la hoy famosa fragata Nivaria procedente de La Habana y Vigo, a finales de agosto, con bandera amarilla. Dada la situación de patente sucia del buque se le obligó a fondear en la bahía para cumplir cuarentena pero contactos entre tripulantes de la fragata y algunos habitantes de la ciudad hicieron estallar el brote. A pesar de que el Doctor Vergara Díaz diagnóstico correctamente los primeros casos aparecidos en Santa Cruz, una vez más, la declaración de epidemia se hizo de forma tardía (en contra de la opinión de los médicos de la capital que apoyaron a Vergara). Esto, de nuevo, motivó la huida de más de la mitad de los habitantes hacia otras zonas de la isla dejando a la ciudad con menos de 6000 personas y contribuyendo, cómo no, a la propagación y dispersión de la epidemia por la práctica totalidad del territorio insular. Se volvieron a utilizar los hospitales y los lazaretos y el resultado final fue de unos 2200 enfermos de los que fallecieron alrededor de 550, exactamente el 40% de los infectados, cuando se dio por terminado el episodio en marzo de 1863 tras más de medio año de batallar contra la enfermedad.\n\nNunca más se ha tenido que enfrentar Tenerife a esta tan temida calamidad.\n\nConrado Rodríguez-Maffiotte Martín\n\nDirector del Instituto Canario de Bioantropología y del Museo Arqueológico de Tenerife . Museo de Naturaleza y Arqueología",
+                                        "metadata": {
+                                            "url": "https://www.museosdetenerife.org/blog/articulo-de-divulgacion-tenerife-y-la-fiebre-amarilla-por-conrado-rodriguez-maffiotte-martin/",
+                                            "source": "www.museosdetenerife.org",
+                                            "favicon": "https://museosdetenerife.b-cdn.net/wp-content/uploads/2019/06/favicon32.png",
+                                            "title": "Artículo de divulgación: «Tenerife y la fiebre amarilla",
+                                            "type": "web_search",
+                                            "base_url": "https://www.museosdetenerife.org",
+                                            "snippet": "El tercer estallido aconteció entre los años 1810 y 1811 y, para todos los historiadores de la isla, constituyó una de las más grandes catá ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Canarias ha sufrido las grandes epidemias que han asolado la Humanidad desde la Conquista, cuando la \"modorra\" acabó con la mitad de los guanches de Tenerife, pero la pandemia más devastadora que llegó a las islas fue el cólera de 1851: en menos de un mes dejó 6.000 muertos en Gran Canaria.\n\nLas grandes epidemias llegaron a Canarias por las mismas causas -el transporte marítimo- y tuvieron las mismas consecuencias que en el resto del mundo, salvo que al tratarse de islas ha sido mucho más llamativa la pérdida de población, explica Conrado Rodríguez, director del Instituto Canario de Bioantropología.\n\nUna epidemia de cólera impidió que el naturalista Charles Darwin desembarcase del \"Beagle\" en Tenerife, en 1832.\n\nConrado Rodríguez detalla que ya desde los textos bíblicos y los clásicos de la medicina, al no poder identificar con precisión el origen de la enfermedad, se alude a las enfermedades infecciosas como \"peste, plaga o mortandad\".\n\nEn realidad la peste es una más de las enfermedades de origen bacteriano y fue una de las primeras epidemias que llegó a Canarias en 1506, algo normal como puerto marítimo importante ya en esa época y con contactos con África, América y Europa. La peste hizo estragos en Europa -la peste negra puso fin a la Edad Media- y el primer brote que llegó a las islas tuvo su origen en Gran Canaria, Fuerteventura y Lanzarote en 1506, pasó a Tenerife y duró dos años.\n\nAunque se procedió al cierre de los puertos, la epidemia se extendió por Tenerife y causó una gran mortandad, especialmente entre la población de guanches que aún residía en la zona de Anaga. Sin embargo, la epidemia de peste más grave que afectó a Tenerife fue la de 1582, un auténtico desastre socio-sanitario y demográfico que hizo estragos en el área Santa Cruz-La Laguna a pesar de haberse tomado medidas de control y aislamiento.\n\nEl saldo final fue aterrador: entre 5.000 y 7.000 muertos en una isla de menos de 20.000 habitantes. Como muestra, la capital tinerfeña pasó de contar con unos 600 habitantes a algo más de 200.\n\nPero la primera epidemia histórica en Tenerife que aparece en las crónicas es la de 1494, cuando \"una gran pestilencia\" afectó al 50-80 % de la población guanche del norte de la isla, y causó la muerte de más de la mitad. El cuadro clínico, explica Conrado Rodríguez, consistía en fiebre muy alta, inflamación de la pleura, rinitis, estornudos y coma letal, el principal síntoma y que dio nombre a la enfermedad.\n\nEllo apunta a que con toda probabilidad la epidemia fuese una gripe complicada con encefalitis letárgica y neumonía, y su alta tasa de morbilidad y mortalidad entre los aborígenes se debió al hecho de que fuese \"en suelo virgen\", es decir, carecían de defensas frente al virus. Las consecuencias demográficas fueron catastróficas: en el momento de la Conquista la isla tenía entre 15.000 y 25.000 habitantes y se calcula que murieron entre 8.000 y 10.000, sobre todo en el norte de Tenerife, lo que facilitó la conquista de los castellanos.\n\nLas islas también sufrieron las consecuencias de la malaria, la fiebre tifoidea, el tifus exantemático, el sarampión, la difteria -que afectó sobre todo a los niños y provocó el colapso de los hospitales de la capital tinerfeña- y la viruela, y en este caso Tenerife fue uno de los primeros lugares de España en los que se usó la vacuna, a finales del siglo XVIII.\n\nSin embargo, la epidemia más devastadora que ha sufrido el archipiélago fue la del cólera morbo que afectó a la capital grancanaria en 1851 y que contribuyó a exacerbar el pleito insular. Ello se debe a que Las Palmas se sintió aislada y desasistida por Tenerife, entonces capital única de Canarias.\n\nEn la capital tinerfeña, sin embargo, fue la fiebre amarilla o \"vómito negro\" la que causó una de las mayores catástrofes de su historia cuando entre 1810 y 1811, un barco procedente de Cádiz propagó la enfermedad y dejó unos 1.400 muertos, el 20 % de la población, lo que obligó a habilitar un nuevo cementerio, el de San Rafael y San Roque.\n\nConrado Rodríguez señala que uno de los factores que ayudaban a la propagación de las epidemias es el de que, a pesar de que se decretaba la cuarentena y los barcos sospechosos debían lucir una bandera amarilla y fondear fuera del puerto, se tenían contactos clandestinos con ellos y así llegaba a tierra la infección.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/canarias/noticias/10959817/12/20/Grandes-miserias-en-la-historia-de-Canarias.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Grandes miserias en la historia de Canarias",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "Pero la primera epidemia histórica en Tenerife que aparece en las crónicas es la de 1494, cuando \"una gran pestilencia\" afectó al 50-80 % de la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En Tenerife, donde se mantiene activo este protocolo de vigilancia tras la detección de ejemplares de Aedes albopictus en el mes de septiembre, se ha detectado un nuevo ejemplar en el Puerto de Santa Cruz de Tenerife En Gran Canaria, tras la activación del protocolo para la detección y vigilancia del mosquito Aedes aegypti, se está ya realizando una primera actuación de prevención, ampliando la ratio de colocación de trampas en diferentes puntos a los establecidos en el protocolo habitual Es importante recordar que la presencia del mosquito no supone que se produzca transmisión de enfermedades como el dengue o la fiebre amarilla, ya que éstas no están presentes en nuestro territorio Al correo vectores.scs@gobiernodecanarias.org se puede enviar fotos de mosquitos sospechosos de pertenecer a la especie Aedes o de picaduras llamativas. La colaboración ciudadana resulta clave para su control y erradicación\n\nLa Consejería de Sanidad del Gobierno de Canarias, a través de la Dirección General de Salud Pública, informa de que, mediante las actuaciones llevadas a cabo por el Sistema de Vigilancia Entomológico de Canarias, se han detectado dos ejemplares de mosquito, uno en Gran Canaria y otro en Tenerife. En concreto se ha hallado:\n\n-Un ejemplar adulto de mosquito Aedes aegypti en la Terminal de Cruceros del Muelle Santa Catalina del Puerto.\n\n-Un ejemplar adulto de Aedes albopictus en la Terminal de Cruceros del Puerto de Santa Cruz de Tenerife.\n\nTras estas detecciones en zonas concretas de ambas islas se ha procedido a activar el protocolo del sistema de vigilancia, con la instalación de trampas en las zonas aledañas y el inicio de la inspección y localización de posibles criaderos, entre otras actuaciones.\n\nAdemás, la Dirección General de Salud Pública ha informado a las Autoridades Portuarias, a los ayuntamientos de Las Palmas de Gran Canaria y de Santa Cruz de Tenerife y a Sanidad Exterior de estos hallazgos, fruto de las acciones emprendidas por el Sistema de Vigilancia Entomológica de Canarias, coordinado por Salud Pública con el objeto de coordinar las acciones previstas en el protocolo de actuación.\n\nEl equipo del Sistema de Vigilancia y de Salud Pública, coordinado por la Dirección General de Salud Pública en colaboración con el Instituto Universitario de Enfermedades Tropicales y de Salud Pública de la Universidad de La Laguna, está ya realizando una primera actuación de prevención, ampliando la ratio de colocación de trampas en diferentes puntos a los establecidos en el protocolo habitual. Las trampas se están instalando en los puntos de mayor riesgo como son los lugares donde han sido detectados y zonas próximas.\n\nEs importante recordar que la presencia del mosquito no supone que se produzca transmisión de enfermedades como el dengue, el zika, la fiebre amarilla o el chikungunya, ya que éstas no están presentes en nuestro territorio, salvo casos esporádicos importados.\n\nPuntos de cría\n\nLos mosquitos Aedes suelen picar durante el día y no por la noche y su picadura genera una fuerte reacción inflamatoria que va acompañada de un gran escozor. Se mueven cerca del suelo ágilmente y no se escucha ningún zumbido. Las hembras del mosquito son las que pican, ya que necesitan alimentarse de sangre para reproducirse. También necesitan agua (puntos de cría) para completar su desarrollo. En el agua depositan sus huevos, de los que emergerán las larvas que luego se transformarán en pupas (ambas acuáticas) y que finalmente se convertirán en mosquitos.\n\nLos mosquitos que pican al ser humano necesitan estar criando muy cerca de éste. Por eso la medida más efectiva frente a ellos es vigilar o eliminar sus puntos de cría.\n\nColaboración ciudadana\n\nDesde el inicio de este programa de vigilancia se ha considerado muy importante la colaboración ciudadana para identificar posibles mosquitos invasores y la eliminación de sus puntos de cría.\n\nSe activa un programa de vigilancia de picaduras en todos los centros sanitarios de la isla y en las oficinas de farmacia, mediante la realización de encuestas por los profesionales sanitarios.\n\nSe ha activado el siguiente correo corporativo para la notificación por parte de la población de la presencia de este tipo de mosquitos o sus picaduras: vectores.scs@gobiernodecanarias.org\n\nSi hubiera notificación de picaduras, los inspectores de Salud Pública analizan cada caso mediante una encuesta, fotografía de la picadura e inspección de la vivienda para la búsqueda e identificación del mosquito, sus larvas o sus huevos si los hubiera.\n\nExperiencia en detección\n\nCanarias dispone desde 2013 de un Sistema de Vigilancia Entomológica, coordinado por la Dirección General de Salud Pública en colaboración con el Instituto Universitario de Enfermedades Tropicales y de Salud Pública de la Universidad de la Laguna, con el objeto de detectar precozmente la posible aparición de mosquitos invasores.\n\nEl objetivo del Sistema de Vigilancia Entomológica de Canarias es detectar precozmente ejemplares adultos, huevos o larvas de mosquitos invasores.\n\nPara ello, entre otras acciones, se monitorizan diversos dispositivos implantados en los principales puntos de entrada de mosquitos en el Archipiélago, como son los puertos y aeropuertos y determinados invernaderos.\n\nEtiquetas",
+                                        "metadata": {
+                                            "url": "https://www3.gobiernodecanarias.org/noticias/sanidad-activa-el-sistema-de-vigilancia-entomologica-tras-detectar-un-ejemplar-de-mosquito-aedes-en-gran-canaria/",
+                                            "source": "www3.gobiernodecanarias.org",
+                                            "favicon": "https://www3.gobiernodecanarias.org/noticias/wp-content/themes/tema_gobcan_noticias/assets/favicon-noticias.png",
+                                            "title": "Sanidad activa el Sistema de Vigilancia Entomológica tras ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www3.gobiernodecanarias.org",
+                                            "snippet": "Canarias dispone desde 2013 de un Sistema de Vigilancia Entomológica, coordinado por la Dirección General de Salud Pública en colaboración con ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.585549462997733,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.585549462997733,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:58:48",
+                    "run_time": 3.585549462997733,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la situación actual de los casos de tifus en Canarias en el año 2025?": [
+                                {
+                                    "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.": null
+                                },
+                                {
+                                    "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.": null
+                                },
+                                {
+                                    "Según algunos historiadores de la medicina y de la epidemiología, en 1494, se producirían los primeros casos con clínica similar a la de la fiebre amarilla fuera de África … y ¿dónde? pues ni más ni menos que en Canarias. Obviamente, los datos de aquella época no son fiables y, por tanto, hay que ponerlos en cuarentena (nunca mejor dicho) pero no es de extrañar – por el tráfico marítimo existente entre las islas y el continente africano – que pudiera tratarse de esa enfermedad (recordemos que Tenerife aún no había sido conquistado).": null
+                                }
+                            ],
+                            "¿Qué relación existe entre la migración y la propagación del tifus en Canarias según los informes de salud pública?": [
+                                {
+                                    "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.": null
+                                },
+                                {
+                                    "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.": null
+                                },
+                                {
+                                    "El Servicio Canario de Salud ha confirmado a esta redacción que no se ha registrado ningún caso de esta enfermedad en las Islas, ni entre la población residente, ni entre los migrantes. El edil será denunciado ante la Fiscalía por el PSOE, que lo acusa de un delito de odio al comparar también a las personas migrantes con animales. “Como no les pongan una marca como a los animales, que les ponen una pulserita o algo de eso, no sé qué control van a tener estas criaturas que van a empezar a vagar por ahí”, dijo.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias?": [
+                                {
+                                    "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.": null
+                                },
+                                {
+                                    "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.": null
+                                },
+                                {
+                                    "Las grandes epidemias llegaron a Canarias por las mismas causas -el transporte marítimo- y tuvieron las mismas consecuencias que en el resto del mundo, salvo que al tratarse de islas ha sido mucho más llamativa la pérdida de población, explica Conrado Rodríguez, director del Instituto Canario de Bioantropología.": null
+                                }
+                            ],
+                            "¿Hay antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado?": [
+                                {
+                                    "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.": null
+                                },
+                                {
+                                    "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.": null
+                                },
+                                {
+                                    "Desde el mismo momento de la conquista, Tenerife tuvo que enfrentarse a epidemias terribles que, en la inmensa mayoría de las ocasiones, le llegaban por el mar. Santa Cruz y Garachico, puerto de gran importancia entre los siglos XVI y XVIII, fueron la puerta de entrada de enfermedades infecto-contagiosas que castigaron cómo auténticos flagelos a la población de la isla. La peste, el tifus exantemático epidémico, la gripe, la viruela y, por supuesto, la muy temida fiebre amarilla, entre otras, azotaron de una manera cruel en muchas ocasiones a los tinerfeños. Lo peor de esas calamidades es que, no pocas veces, se unían a las recurrentes sequías y hambrunas producidas en el archipiélago lo que favorecía la inmigración hacia la isla capitalina de muchos habitantes de otras islas en busca de mejor fortuna. Ese hecho propició que el impacto de las esas epidemias fuera aún peor por el aumento de la densidad de la población y la insalubridad de los lugares habitados debido a la pobreza, ello al margen de la debilidad producida por el hambre en no pocas personas (especialmente la población más vulnerable: niños y ancianos).": null
+                                }
+                            ],
+                            "¿Qué políticas de salud pública han sido implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante?": [
+                                {
+                                    "La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.": null
+                                },
+                                {
+                                    "La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.": null
+                                },
+                                {
+                                    "El Servicio Canario de Salud ha confirmado a esta redacción que no se ha registrado ningún caso de esta enfermedad en las Islas, ni entre la población residente, ni entre los migrantes. El edil será denunciado ante la Fiscalía por el PSOE, que lo acusa de un delito de odio al comparar también a las personas migrantes con animales. “Como no les pongan una marca como a los animales, que les ponen una pulserita o algo de eso, no sé qué control van a tener estas criaturas que van a empezar a vagar por ahí”, dijo.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.184652910000295,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.184652910000295,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:59:02",
+                    "run_time": 12.184652910000295,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos migrantes contagian el tifus en Canarias\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la situación actual de los casos de tifus en Canarias en el año 2025?\n¿Qué relación existe entre la migración y la propagación del tifus en Canarias según los informes de salud pública?\n¿Qué dicen los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias?\n¿Hay antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado?\n¿Qué políticas de salud pública han sido implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante?\n\n3. Here are the text sources you should use as your source of information:\n[0] La llegada de personas en cayucos a Canarias ha vuelto a desatar una oleada de bulos contra la inmigración. Más allá de las redes sociales, la política también ha actuado como fuente de falsedades en las últimas semanas. “En Canarias ya está el tifus”, aseveró en una entrevista radiofónica el concejal del PP de Málaga Salvador Escudero. Pero no es verdad.\n[0] El Servicio Canario de Salud ha confirmado a esta redacción que no se ha registrado ningún caso de esta enfermedad en las Islas, ni entre la población residente, ni entre los migrantes. El edil será denunciado ante la Fiscalía por el PSOE, que lo acusa de un delito de odio al comparar también a las personas migrantes con animales. “Como no les pongan una marca como a los animales, que les ponen una pulserita o algo de eso, no sé qué control van a tener estas criaturas que van a empezar a vagar por ahí”, dijo.\n[1] La historia de Canarias cuenta con capítulos dedicados a las epidemias, enfermedades contagiosas que llegaban al Archipiélago a través de los puertos que conectaban con la Península, Europa y América. Episodios de peste, tifus, vómito, fiebre amarilla, cólera… azotaban las Islas y mermaban a una población ya de por sí castigada por la falta de recursos sanitarios y con el fantasma del hambre y las sequías al acecho.\n[2] Según algunos historiadores de la medicina y de la epidemiología, en 1494, se producirían los primeros casos con clínica similar a la de la fiebre amarilla fuera de África … y ¿dónde? pues ni más ni menos que en Canarias. Obviamente, los datos de aquella época no son fiables y, por tanto, hay que ponerlos en cuarentena (nunca mejor dicho) pero no es de extrañar – por el tráfico marítimo existente entre las islas y el continente africano – que pudiera tratarse de esa enfermedad (recordemos que Tenerife aún no había sido conquistado).\n[2] Desde el mismo momento de la conquista, Tenerife tuvo que enfrentarse a epidemias terribles que, en la inmensa mayoría de las ocasiones, le llegaban por el mar. Santa Cruz y Garachico, puerto de gran importancia entre los siglos XVI y XVIII, fueron la puerta de entrada de enfermedades infecto-contagiosas que castigaron cómo auténticos flagelos a la población de la isla. La peste, el tifus exantemático epidémico, la gripe, la viruela y, por supuesto, la muy temida fiebre amarilla, entre otras, azotaron de una manera cruel en muchas ocasiones a los tinerfeños. Lo peor de esas calamidades es que, no pocas veces, se unían a las recurrentes sequías y hambrunas producidas en el archipiélago lo que favorecía la inmigración hacia la isla capitalina de muchos habitantes de otras islas en busca de mejor fortuna. Ese hecho propició que el impacto de las esas epidemias fuera aún peor por el aumento de la densidad de la población y la insalubridad de los lugares habitados debido a la pobreza, ello al margen de la debilidad producida por el hambre en no pocas personas (especialmente la población más vulnerable: niños y ancianos).\n[3] Las grandes epidemias llegaron a Canarias por las mismas causas -el transporte marítimo- y tuvieron las mismas consecuencias que en el resto del mundo, salvo que al tratarse de islas ha sido mucho más llamativa la pérdida de población, explica Conrado Rodríguez, director del Instituto Canario de Bioantropología.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los migrantes contagian el tifus en Canarias"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Situación actual de los casos de tifus en Canarias en el año 2025**\n\nSegún el texto [0], el Servicio Canario de Salud ha confirmado que no se ha registrado ningún caso de tifus en las Islas Canarias, ni entre la población residente ni entre los migrantes. Esto sugiere que la situación actual de los casos de tifus en Canarias es de cero casos en el año 2025.\n\n**Relación entre la migración y la propagación del tifus en Canarias según los informes de salud pública**\n\nEl texto [0] indica que no se ha registrado ningún caso de tifus entre los migrantes en Canarias, lo que sugiere que no hay una relación directa entre la migración y la propagación del tifus en la región. Sin embargo, el texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Opiniones de los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias**\n\nEl texto [3] cita a Conrado Rodríguez, director del Instituto Canario de Bioantropología, quien explica que las grandes epidemias llegaron a Canarias por las mismas causas que en el resto del mundo, lo que sugiere que los expertos en epidemiología y salud pública consideran que la migración podría haber jugado un papel en la propagación del tifus en el pasado. Sin embargo, el texto [0] sugiere que en la actualidad no hay una relación directa entre la migración y la propagación del tifus en Canarias.\n\n**Antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado**\n\nEl texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que hubo brotes de tifus relacionados con la migración en la región. Además, el texto [3] menciona que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante**\n\nNo hay información en los textos proporcionados sobre las políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible sugiere que en la actualidad no hay casos de tifus en Canarias, ni entre la población residente ni entre los migrantes. Sin embargo, en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en la región. Por lo tanto, la afirmación \"Los migrantes contagian el tifus en Canarias\" es **falsa** en la actualidad, pero **verdadera** en el pasado."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.7086389929972938,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.7086389929972938,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:59:04",
+                    "run_time": 1.7086389929972938,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los migrantes contagian el tifus en Canarias\nArticle: **Situación actual de los casos de tifus en Canarias en el año 2025**\n\nSegún el texto [0], el Servicio Canario de Salud ha confirmado que no se ha registrado ningún caso de tifus en las Islas Canarias, ni entre la población residente ni entre los migrantes. Esto sugiere que la situación actual de los casos de tifus en Canarias es de cero casos en el año 2025.\n\n**Relación entre la migración y la propagación del tifus en Canarias según los informes de salud pública**\n\nEl texto [0] indica que no se ha registrado ningún caso de tifus entre los migrantes en Canarias, lo que sugiere que no hay una relación directa entre la migración y la propagación del tifus en la región. Sin embargo, el texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Opiniones de los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias**\n\nEl texto [3] cita a Conrado Rodríguez, director del Instituto Canario de Bioantropología, quien explica que las grandes epidemias llegaron a Canarias por las mismas causas que en el resto del mundo, lo que sugiere que los expertos en epidemiología y salud pública consideran que la migración podría haber jugado un papel en la propagación del tifus en el pasado. Sin embargo, el texto [0] sugiere que en la actualidad no hay una relación directa entre la migración y la propagación del tifus en Canarias.\n\n**Antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado**\n\nEl texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que hubo brotes de tifus relacionados con la migración en la región. Además, el texto [3] menciona que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante**\n\nNo hay información en los textos proporcionados sobre las políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible sugiere que en la actualidad no hay casos de tifus en Canarias, ni entre la población residente ni entre los migrantes. Sin embargo, en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en la región. Por lo tanto, la afirmación \"Los migrantes contagian el tifus en Canarias\" es **falsa** en la actualidad, pero **verdadera** en el pasado.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los migrantes contagian el tifus en Canarias\nArticle: **Situación actual de los casos de tifus en Canarias en el año 2025**\n\nSegún el texto [0], el Servicio Canario de Salud ha confirmado que no se ha registrado ningún caso de tifus en las Islas Canarias, ni entre la población residente ni entre los migrantes. Esto sugiere que la situación actual de los casos de tifus en Canarias es de cero casos en el año 2025.\n\n**Relación entre la migración y la propagación del tifus en Canarias según los informes de salud pública**\n\nEl texto [0] indica que no se ha registrado ningún caso de tifus entre los migrantes en Canarias, lo que sugiere que no hay una relación directa entre la migración y la propagación del tifus en la región. Sin embargo, el texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Opiniones de los expertos en epidemiología y salud pública sobre la relación entre la migración y el tifus en Canarias**\n\nEl texto [3] cita a Conrado Rodríguez, director del Instituto Canario de Bioantropología, quien explica que las grandes epidemias llegaron a Canarias por las mismas causas que en el resto del mundo, lo que sugiere que los expertos en epidemiología y salud pública consideran que la migración podría haber jugado un papel en la propagación del tifus en el pasado. Sin embargo, el texto [0] sugiere que en la actualidad no hay una relación directa entre la migración y la propagación del tifus en Canarias.\n\n**Antecedentes de brotes de tifus relacionados con la migración en Canarias en el pasado**\n\nEl texto [2] menciona que en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que hubo brotes de tifus relacionados con la migración en la región. Además, el texto [3] menciona que la migración podría haber jugado un papel en la propagación del tifus en el pasado.\n\n**Políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante**\n\nNo hay información en los textos proporcionados sobre las políticas de salud pública implementadas por la Comunidad Autónoma de Canarias para prevenir y controlar la propagación del tifus entre la población migrante.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible sugiere que en la actualidad no hay casos de tifus en Canarias, ni entre la población residente ni entre los migrantes. Sin embargo, en el pasado, las epidemias como el tifus llegaban a Canarias a través del transporte marítimo, lo que sugiere que la migración podría haber jugado un papel en la propagación del tifus en la región. Por lo tanto, la afirmación \"Los migrantes contagian el tifus en Canarias\" es **falsa** en la actualidad, pero **verdadera** en el pasado."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los migrantes no contagian el tifus en Canarias\", \"categories\": [\"Salud pública\", \"Migración\", \"Epidemiología\"], \"label\": \"Fake\", \"main_claim\": \"Los migrantes no contagian el tifus en Canarias en la actualidad, pero sí en el pasado\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

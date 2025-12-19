@@ -1,0 +1,498 @@
+{
+    "question": "En 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables",
+    "answer": "Sí, existe evidencia que apoya la afirmación de que **en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables**. Según datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\" de Red Eléctrica, la presidenta de Redeia, Beatriz Corredor, afirmó que **España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación** [1]. Adicionalmente, el informe indica que **el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%**, sobrepasando su récord por sexto año consecutivo [1]. Es más, a 31 de diciembre de 2024, **España contaba con 129 GW de potencia de generación instalada, de los que el 66% eran renovables** [1]. Esto sugiere una alta capacidad de generación renovable en el país.\n\nNo se encontró evidencia explícita en los textos proporcionados que refute directamente la afirmación de que más de la mitad de la electricidad generada en España en 2024 provino de fuentes renovables. Aunque el informe de la Unión Española Fotovoltaica (UNEF) menciona desafíos para el sector, como la **caída del 31% en la potencia instalada de autoconsumo respecto a 2023** y el aumento de las horas cero y vertidos técnicos y económicos [2], estos puntos no niegan el hecho de que más de la mitad de la electricidad generada haya sido renovable. De hecho, los datos de UNEF también resaltan que durante 2024 se instalaron **7.221 MW nuevos, principalmente en suelo, con 6.039 MW nuevos de fotovoltaica**, lo que demuestra un crecimiento significativo en la capacidad de generación renovable [2]. Los desafíos mencionados en el informe de UNEF se refieren más a la necesidad de implementar medidas de impulso y reformas para alcanzar objetivos futuros y optimizar la integración de las renovables, en lugar de contradecir la proporción de generación renovable ya alcanzada en 2024 [2].\n\nCon base en la información proporcionada, la afirmación de que en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables es **verdadera**. Los informes de Red Eléctrica indican claramente que **España alcanzó récords en producción renovable y en su porcentaje dentro del mix de generación en 2024**, con un **66% de la potencia instalada total siendo de origen renovable** y un aumento considerable en la producción de energía hidráulica y fotovoltaica [1]. Aunque existen retos en la instalación de autoconsumo y la gestión de la red para el futuro, como se detalla en el informe de UNEF [2], estos no invalidan la proporción de generación renovable alcanzada durante el año 2024.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.energias-renovables.com/panorama/casi-57-generacion-renovable-espana-20250318",
+            "source": "www.energias-renovables.com",
+            "favicon": "https://www.energias-renovables.com/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.unef.es/es/comunicacion/comunicacion-post/el-sector-fotovoltaico-se-estabilizo-en-2024-pero-urge-cambios-para-su-crecimiento-como-el-necesario-avance-de-la-electrificacion",
+            "source": "www.unef.es",
+            "favicon": "https://www.unef.es/images/favicon.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "En 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables",
+        "categories": [
+            "Energía",
+            "Medio ambiente",
+            "Política"
+        ],
+        "label": "True",
+        "main_claim": "En 2024, más de la mitad de la electricidad generada en España provino de fuentes renovables es verdadera",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "google/gemini-2.5-pro",
+                "gen_searches_agent": "google/gemini-2.5-flash",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "google/gemini-2.5-flash",
+                "article_writer": "google/gemini-2.5-flash",
+                "metadata_agent": "google/gemini-2.5-flash",
+                "image_prompt": "google/gemini-2.5-flash",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "newtral.es",
+                    "rtve.es",
+                    "educaweb.com",
+                    "verificat.cat",
+                    "maldita.es",
+                    "ec-europa-eu.translate.goog",
+                    "ciencia.nasa.gov",
+                    "uoc.edu",
+                    "vozpopuli.com",
+                    "masquemedicos.com",
+                    "normoncontigo.normon.com",
+                    "efe.com",
+                    "elpais.com",
+                    "lefebvre.es",
+                    "huffingtonpost.es",
+                    "observatoriodelalquiler.org",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "lasexta.com",
+                    "clinicaalemana.cl",
+                    "bbva.com",
+                    "cambioenergetico.com",
+                    "datosmacro.expansion.com",
+                    "sistemaelectrico-ree.es",
+                    "cadenaser.com",
+                    "theconversation.com",
+                    "infobae.com",
+                    "sjme.org",
+                    "elblogsalmon.com",
+                    "pmp.org.es",
+                    "gacetamedica.com",
+                    "elconfidencial.com",
+                    "www-iaea-org.translate.goog",
+                    "elplural.com",
+                    "cincodias.elpais.com",
+                    "antena3.com",
+                    "nyc.gov",
+                    "medlineplus.gov",
+                    "primabiotic.es",
+                    "oftalmologos.org.ar",
+                    "ine.es",
+                    "lamoncloa.gob.es",
+                    "albalactanciamaterna.org",
+                    "verifica.efe.com",
+                    "sepe.es",
+                    "agrodiario.com",
+                    "realinstitutoelcano.org",
+                    "theobjective.com",
+                    "jacc.org",
+                    "europapress.es",
+                    "coches.net",
+                    "ree.es",
+                    "caixabankresearch.com",
+                    "myfisioclinic.com",
+                    "worldwildlife.org",
+                    "kidshealth.org",
+                    "es.weforum.org",
+                    "20minutos.es",
+                    "defensa.gob.es",
+                    "who.int",
+                    "publico.es",
+                    "instituteforenergyresearch.org",
+                    "hopkinsmedicine.org",
+                    "larazon.es",
+                    "es.euronews.com",
+                    "lavanguardia.com",
+                    "nationalgeographic.com.es",
+                    "xataka.com",
+                    "bankinter.com",
+                    "abc.es",
+                    "salud.nih.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "cancer.gov",
+                    "feminismo.maldita.es"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": false,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0005534,
+                "total_run_time": 1.3561139890007325,
+                "average_cost_per_call": 0.0005534,
+                "average_time_per_call": 1.3561139890007325,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 13:39:36",
+                    "run_time": 1.3561139890007325,
+                    "cost": 0.0005534,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: \"official [topic] statistics 2025 government data\"\n- For controversial statements: \"[topic] expert analysis research studies\" + \"[topic] criticism opposing views\"\n- For recent events: \"[specific event] 2025 official statement news\"\n- For comparisons: \"[entity A] vs [entity B] comparison study data\"\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn 2024 más de la mitad de electricidad generada en España provino de fuentes renovables\n\n**Critical Research Questions:**\n1. Cuál fue el porcentaje exacto de electricidad generada a partir de fuentes renovables en España durante el año 2024 según el informe de Red Eléctrica de España (REE)?\n2. Cuál fue el desglose por tecnología (eólica, solar fotovoltaica, hidráulica, nuclear, ciclo combinado) del mix de generación eléctrica en España en 2024?\n3. Cómo se compara la cuota de generación eléctrica renovable en España en 2024 con los datos oficiales de 2023 y 2022?\n4. Qué análisis han publicado asociaciones del sector como la AEE o UNEF sobre los resultados de producción de energía renovable en España para el año 2024?\n5. Existen informes o análisis publicados en 2025 que cuestionen o maticen los datos oficiales de Red Eléctrica de España sobre la generación renovable de 2024?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"Red Eléctrica de España informe anual 2024 generación eléctrica renovable porcentaje mix energético\", \"porcentaje electricidad renovable España 2024 Red Eléctrica de España comparación 2023 2022\", \"informe AEE UNEF producción energía renovable España 2024\", \"análisis crítica datos generación renovable España 2024 Red Eléctrica 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.004,
+                "total_run_time": 1.4634836620007263,
+                "average_cost_per_call": 0.004,
+                "average_time_per_call": 1.4634836620007263,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 13:39:37",
+                    "run_time": 1.4634836620007263,
+                    "cost": 0.004,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "Red Eléctrica de España informe anual 2024 generación eléctrica renovable porcentaje mix energético",
+                                "porcentaje electricidad renovable España 2024 Red Eléctrica de España comparación 2023 2022",
+                                "informe AEE UNEF producción energía renovable España 2024",
+                                "análisis crítica datos generación renovable España 2024 Red Eléctrica 2025"
+                            ],
+                            "results": {
+                                "Red Eléctrica de España informe anual 2024 generación eléctrica renovable porcentaje mix energético | porcentaje electricidad renovable España 2024 Red Eléctrica de España comparación 2023 2022 | informe AEE UNEF producción energía renovable España 2024 | análisis crítica datos generación renovable España 2024 Red Eléctrica 2025": [
+                                    {
+                                        "text": "Miércoles, 19 de marzo de 2025\n\nEstos son algunos de los datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\", dos documentos de Red Eléctrica, la empresa de Redeia -matriz de Red Eléctrica- responsable del transporte y la operación del sistema eléctrico español.\n\nEstos, documentos que analizan el comportamiento del sistema eléctrico durante el pasado ejercicio, han sido presentados hoy en el Ministerio para la Transición Ecológica y Reto Demográfico en un acto en el que también se ha analizado la evolución del sistema energético nacional a lo largo de los últimos años, con motivo del 40 aniversario de la compañía.\n\nBeatriz Corredor, presidenta de Redeia: \"España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación. El sistema eléctrico español ha experimentado una gran evolución en estas cuatro décadas, un tiempo en el que nos hemos consolidado en la vanguardia de la transición energética en Europa\".\n\nRenovables en 2024\n\nDurante 2024, el sistema eléctrico español instaló 7,3 nuevos GW renovables, la mayor parte de tecnología solar fotovoltaica, un dato que supone la mayor cantidad incorporada en un año. En concreto, con 6 GW puestos en servicio durante este 2024, la fotovoltaica se ha convertido en la tecnología reina en cuanto a potencia instalada, con una participación del 25,1%; seguida por la eólica, que suma 1,3 nuevos GW en este año y alcanza el 24,9%.\n\nAdemás, el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%, hasta sobrepasar su récord por sexto año consecutivo.\n\nAdemás de las nuevas plantas de producción que iniciaron su actividad el año pasado, la potencia instalada nacional también se ha visto modificada por el cese definitivo de la actividad de la central de carbón gallega de As Pontes, que resta 1,4 GW no renovables. Así, a 31 de diciembre de 2024, España cuenta con 129 GW de potencia de generación instalada, de los que el 66% son renovables.\n\nCon este impulso a las energías limpias, las emisiones de CO2 equivalente derivadas de la producción eléctrica han registrado en este 2024 su mínimo histórico: 27 millones de tCO2 equivalente, lo que supone un descenso del 16,8% respecto al ejercicio anterior. En términos globales, el 76,8% de toda la energía española generada en 2024 fue libre de emisiones.\n\nIndicadores de almacenamiento energético\n\nEntre las novedades que introduce Red Eléctrica en sus informes, destaca la inclusión de magnitudes de almacenamiento energético como las baterías o el bombeo, dos tecnologías que optimizan la integración de la generación renovable y permiten la devolución posterior de energía al sistema. Por este motivo, algunos de los indicadores de generación o de potencia instalada se han actualizado respecto a ediciones anteriores, si bien la compañía ya dispone de los datos modificados en sus diferentes plataformas de información (sección Datos de la web, en la app redOS o en eSios).\n\nDemanda\n\nPor otro lado, la demanda eléctrica en España aumentó un 1,4% respecto al mismo periodo del año anterior, una vez aplicados los efectos de la laboralidad y las temperaturas. En términos brutos, la demanda eléctrica de 2024 se ha situado en los 248.811 GWh, un 0,9% más, una variación que se mantiene alineada con los países el entorno europe\n\nRedes\n\nPor su parte, el índice de disponibilidad de la red de transporte en el sistema eléctrico nacional alcanzó un valor del 98%, mientras el registrado en Baleares y Canarias se encuentra en un 98,5% y un 98,8%, respectivamente. En 2024, Red Eléctrica sumó 487 nuevos km de circuito de líneas eléctricas, hasta alcanzar los 45.674 km en todo el país, una cifra muy alejada de los 10.500 km con los que contaba Red Eléctrica en el momento de su nacimiento en 1985.\n\nEn estos últimos 40 años, nuestro país ha puesto en servicio varios proyectos de interconexiones internacionales con países vecinos como Francia o Portugal, lo que ha permitido que 2024 sea el tercer año consecutivo que el sistema eléctrico español cierra el ejercicio como exportador de electricidad hacia sus países vecinos, con un saldo de 10.227 GWh.\n\nArtículos relacionados",
+                                        "metadata": {
+                                            "url": "https://www.energias-renovables.com/panorama/casi-57-generacion-renovable-espana-20250318",
+                                            "source": "www.energias-renovables.com",
+                                            "favicon": "https://www.energias-renovables.com/favicon.ico",
+                                            "title": "Casi el 57% de toda la electricidad que generó España en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.energias-renovables.com",
+                                            "snippet": "El 56,8% de toda la electricidad producida en España en 2024 tuvo su origen en fuentes naturales como el viento, el sol o el agua, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Durante el año pasado se instalaron un total de 7.221 MW, principalmente en suelo, con 6.039 MW nuevos MW instalados\n\nSin embargo, el autoconsumo registra una caída del 31% en la potencia instalada respecto a 2023, con solo 1.182 MW nuevos a cierre de 2024\n\nEl sector de la energía solar aportó el pasado año 10.694 millones de euros al PIB español, suponiendo el 0,7% del total, y suma 146.764 empleos a cierre del año pasado.\n\nLa fotovoltaica nacional invierte en innovación más del doble que la media de las empresas españolas: 521 millones que supusieron un 3,78 % de sus ingresos\n\nLa industria sigue teniendo un importante peso en las exportaciones, con 3400 millones exportados el año pasado, aunque registra un ligero descenso del 5,7%\n\nMadrid, 7 de octubre de 2025. Bajo el título “La energía fotovoltaica, motor de industrialización”, la Unión Española Fotovoltaica ha presentado hoy su Informe Anual, que ofrece, con la colaboración de la Universidad de Castilla-La Mancha, un análisis en profundidad de la situación de la industria fotovoltaica en España y en el contexto internacional.\n\nEspaña, con 7221 MW de nueva potencia instalada y un acumulado de 40.294 MW, se mantuvo a cierre del año pasado, entre los 10 principales mercados mundiales, en un año en el que la energía fotovoltaica se consolidó como la tecnología renovable con mayor nueva potencia instalada en el mundo, con 602 GWp de nueva capacidad global y alcanzando un total acumulado de 2.246 GWp en todo el mundo.\n\nLa fotovoltaica en España: Un avance lento que necesita medidas de impulso\n\nDurante 2024 se añadieron 6.039 MW de nueva potencia fotovoltaica en suelo en España, llegando a un acumulado de 32.157 MW.\n\nSin embargo, el sector del autoconsumo ha enfrentado dificultades, registrando una caída del 31% en la potencia instalada respecto a 2023. Los 1.182 MW instalados durante el año pasado, elevan el total acumulado de autoconsumo fotovoltaico a 8.137 MW. Una realidad que recuerda que, aunque hemos avanzado significativamente, aún estamos lejos de los 19 GW que establece el PNIEB para 2030 en autoconsumo.\n\nUna de las figuras más disruptivas del sistema eléctrico son las Comunidades Energéticas, que suelen comenzar por un autoconsumo colectivo y que permiten la participación ciudadana activa y efectiva en el sector eléctrico. El pasado año vimos cómo continuaron aumentando: En 2024 se identificaron 659 proyectos activos, frente a unos 500 estimados el año anterior. Un avance que, aunque positivo, sigue siendo lento y evidencia que su desarrollo necesita aún medidas de impulso, como un marco normativo nacional propio y específico, para el que UNEF ha presentado propuestas concretas.\n\nEn almacenamiento, España acumuló 2.205 MWh de capacidad detrás del contador desde 2022, aunque el ritmo de instalación cayó un 34 % en 2024 respecto al año anterior. Existen ya más de 9,5 GW de almacenamiento con permisos de acceso, pero es necesario acelerar la regulación para su desarrollo a gran escala.\n\nMás de 10.694 millones al PIB, 146.000 empleos y más de 520 millones en I+D+i\n\nEn términos económicos, la fotovoltaica generó en 2024 una aportación al PIB nacional de 10.694 millones de euros, lo que representa en torno al 0.7 % del PIB español.\n\nEl sector también sigue contribuyendo significativamente a la balanza comercial española. Con una industria exportadora fuerte en segmentos como inversores, seguidores solares y estructuras; el año pasado la industria fotovoltaica española exportó 3400 millones de euros. Un dato que, aunque supone un ligero descenso del 5,7%, sigue siendo muy significativo.\n\nEn términos de empleo, a cierre de 2024 el sector fotovoltaico acumulaba un total de 146.764 empleos en España, incluyendo empleos directos, indirectos e inducidos.\n\nLas empresas del sector fotovoltaico destinaron 521 M€ a I+D+i, lo que supuso una intensidad de innovación del 3,78 % sobre sus ingresos. Aunque el porcentaje total de gasto en I+D+i haya bajado ligeramente con respecto a 2023, sigue suponiendo más del doble que la media de las empresas españolas (1,61 %) y se sitúa muy por encima del promedio de la industria nacional (1,36 %). Unas cifras que demuestran el destacado efecto tractor del sector sobre el conjunto del tejido económico e industrial español.\n\nUn sector estratégico en peligro de estancamiento\n\n“Aunque la potencia instalada en suelo apunta a un posible récord en 2025, los números esconden una realidad compleja para 2026”, comenta José Donoso, director general de UNEF.\n\nUno de los problemas más acuciantes es el incremento de las horas cero y los vertidos técnicos y económicos. Solo hasta septiembre de 2025 se han acumulado 693 horas cero, igualando ya el total del año anterior. “Este fenómeno, unido a precios capturados bajos e inestables, pone de manifiesto la urgencia de introducir reformas en el sistema de precios eléctricos, para poder avanzar en el cumplimiento de los objetivos a 2030.” añade Donoso.\n\n“Para revertir esta situación, la electrificación de la demanda debe convertirse en una prioridad nacional. La planificación de redes a 2030 muestra que hay ya 75 GW de puntos de conexión concedidos, frente a una demanda media actual de apenas 25 GW. La convocatoria de concursos de demanda ayudará a identificar los proyectos viables, desbloquear las inversiones e impulsar la industrialización asociada a ellas”\n\nEl segundo gran reto es el despliegue del almacenamiento, clave para estabilizar los precios y dar estabilidad al sistema eléctrico. “La hibridación con baterías se perfila como una solución imprescindible, pero su avance depende de cambios normativos: dotar de personalidad jurídica a estas instalaciones, resolver la suma de potencias y simplificar los estudios de impacto ambiental cuando se ubiquen en plantas ya evaluadas”, añade.\n\nEn paralelo, la caída de los contratos bilaterales (PPAs) como vía de financiación obliga a relanzar las subastas renovables, “que deben ofrecer certidumbre a los inversores e integrar el almacenamiento”.\n\nLa integración social de los proyectos es otro de los grandes retos para el desarrollo de la tecnología. “Sigue siendo un elemento fundamental para definir nuestro futuro”, comenta Donoso. “A menudo, se subrayan conflictos puntuales y no se visualizan los grandes beneficios que el desarrollo de esta tecnología está teniendo en el impulso socio económico los territorios y en el mundo rural, como el aumento de la población, la creación de empleos o el notable incremento de ingresos municipales que permiten mejorar la calidad de vida de los habitantes de estos municipios”.\n\nEn cuanto al autoconsumo, UNEF reclama la aplicación de medidas concretas de forma urgente, que eliminen las barreras identificadas y proporcionen incentivos.\n\n“Con la situación actual, alcanzar los objetivos de 19 GW de autoconsumo que marca el PNIEB es una utopía. El Gobierno trabaja estos meses en un Real Decreto de autoconsumo del que ya ha anunciado cambios que aplaudimos, como la ampliación de las distancias permitidas de 2 a 5 kilómetros, incluir la figura del gestor de autoconsumo o la posibilidad de compartir excedentes y permitir que un autoconsumidor pueda estar acogido a más de una modalidad de autoconsumo”, apunta Donoso.\n\n“Pero debemos ir más allá. La exención de solicitar permiso de acceso y conexión debe fijarse no en función de la potencia instalada, sino de lo que realmente se va a inyectar en la red. También necesitamos desgravaciones fiscales como en otros países: exención o reducción del IVA y deducciones en impuestos sobre sociedades para empresas e IRPF para ciudadanos. Las comunidades autónomas que aún no lo han hecho deben extender la exención de autorización administrativa de construcción a instalaciones de menos de 500 kilovatios. Y se deben agilizar las conexiones con incentivos y penalizaciones: es inaceptable que proyectos industriales de autoconsumo tarden meses o incluso más de un año”, subraya el CEO de UNEF.\n\n“El “cero eléctrico” vivido en abril de 2025 ha tenido efectos disruptivos a corto plazo, con más vertidos e incertidumbre, pero también abre oportunidades a medio plazo como la participación de las renovables en el mercado de control de tensión o el desarrollo del grid forming”.\n\n“El año 2025 se nos está terminando sin haber dado una respuesta adecuada a los desafíos con los que lo empezamos. Tendremos que hacer todos los deberes en el 2026. El futuro de nuestro sector y el aprovechamiento de la oportunidad económica que puede ofrecer a nuestro país nos va en ello”, concluyó Donoso durante la presentación de la radiografía del sector.\n\nConsulta el informe completo",
+                                        "metadata": {
+                                            "url": "https://www.unef.es/es/comunicacion/comunicacion-post/el-sector-fotovoltaico-se-estabilizo-en-2024-pero-urge-cambios-para-su-crecimiento-como-el-necesario-avance-de-la-electrificacion",
+                                            "source": "www.unef.es",
+                                            "favicon": "https://www.unef.es/images/favicon.png",
+                                            "title": "El sector fotovoltaico se estabilizó en 2024 pero urge ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.unef.es",
+                                            "snippet": "Durante 2024 se añadieron 6.039 MW de nueva potencia fotovoltaica en suelo en España, llegando a un acumulado de 32.157 MW. Sin embargo, el ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0029356,
+                "total_run_time": 4.421190754001145,
+                "average_cost_per_call": 0.0029356,
+                "average_time_per_call": 4.421190754001145,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 13:39:42",
+                    "run_time": 4.421190754001145,
+                    "cost": 0.0029356,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn 2024 más de la mitad de electricidad generada en España provino de fuentes renovables\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\nRed Eléctrica de España informe anual 2024 generación eléctrica renovable porcentaje mix energético\nporcentaje electricidad renovable España 2024 Red Eléctrica de España comparación 2023 2022\ninforme AEE UNEF producción energía renovable España 2024\nanálisis crítica datos generación renovable España 2024 Red Eléctrica 2025\n\n3. Here are the text sources you should use as your source of information:\n[0] Miércoles, 19 de marzo de 2025 Estos son algunos de los datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\", dos documentos de Red Eléctrica, la empresa de Redeia -matriz de Red Eléctrica- responsable del transporte y la operación del sistema eléctrico español. Estos, documentos que analizan el comportamiento del sistema eléctrico durante el pasado ejercicio, han sido presentados hoy en el Ministerio para la Transición Ecológica y Reto Demográfico en un acto en el que también se ha analizado la evolución del sistema energético nacional a lo largo de los últimos años, con motivo del 40 aniversario de la compañía. Beatriz Corredor, presidenta de Redeia: \"España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación. El sistema eléctrico español ha experimentado una gran evolución en estas cuatro décadas, un tiempo en el que nos hemos consolidado en la vanguardia de la transición energética en Europa\". Renovables en 2024 Durante 2024, el sistema eléctrico español instaló 7,3 nuevos GW renovables, la mayor parte de tecnología solar fotovoltaica, un dato que supone la mayor cantidad incorporada en un año. En concreto, con 6 GW puestos en servicio durante este 2024, la fotovoltaica se ha convertido en la tecnología reina en cuanto a potencia instalada, con una participación del 25,1%; seguida por la eólica, que suma 1,3 nuevos GW en este año y alcanza el 24,9%. Además, el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%, hasta sobrepasar su récord por sexto año consecutivo. Además de las nuevas plantas de producción que iniciaron su actividad el año pasado, la potencia instalada nacional también se ha visto modificada por el cese definitivo de la actividad de la central de carbón gallega de As Pontes, que resta 1,4 GW no renovables. Así, a 31 de diciembre de 2024, España cuenta con 129 GW de potencia de generación instalada, de los que el 66% son renovables. Con este impulso a las energías limpias, las emisiones de CO2 equivalente derivadas de la producción eléctrica han registrado en este 2024 su mínimo histórico: 27 millones de tCO2 equivalente, lo que supone un descenso del 16,8% respecto al ejercicio anterior. En términos globales, el 76,8% de toda la energía española generada en 2024 fue libre de emisiones. Indicadores de almacenamiento energético Entre las novedades que introduce Red Eléctrica en sus informes, destaca la inclusión de magnitudes de almacenamiento energético como las baterías o el bombeo, dos tecnologías que optimizan la integración de la generación renovable y permiten la devolución posterior de energía al sistema. Por este motivo, algunos de los indicadores de generación o de potencia instalada se han actualizado respecto a ediciones anteriores, si bien la compañía ya dispone de los datos modificados en sus diferentes plataformas de información (sección Datos de la web, en la app redOS o en eSios). Demanda Por otro lado, la demanda eléctrica en España aumentó un 1,4% respecto al mismo periodo del año anterior, una vez aplicados los efectos de la laboralidad y las temperaturas. En términos brutos, la demanda eléctrica de 2024 se ha situado en los 248.811 GWh, un 0,9% más, una variación que se mantiene alineada con los países el entorno europe Redes Por su parte, el índice de disponibilidad de la red de transporte en el sistema eléctrico nacional alcanzó un valor del 98%, mientras el registrado en Baleares y Canarias se encuentra en un 98,5% y un 98,8%, respectivamente. En 2024, Red Eléctrica sumó 487 nuevos km de circuito de líneas eléctricas, hasta alcanzar los 45.674 km en todo el país, una cifra muy alejada de los 10.500 km con los que contaba Red Eléctrica en el momento de su nacimiento en 1985. En estos últimos 40 años, nuestro país ha puesto en servicio varios proyectos de interconexiones internacionales con países vecinos como Francia o Portugal, lo que ha permitido que 2024 sea el tercer año consecutivo que el sistema eléctrico español cierra el ejercicio como exportador de electricidad hacia sus países vecinos, con un saldo de 10.227 GWh. Artículos relacionados\n[1] Durante el año pasado se instalaron un total de 7.221 MW, principalmente en suelo, con 6.039 MW nuevos MW instalados Sin embargo, el autoconsumo registra una caída del 31% en la potencia instalada respecto a 2023, con solo 1.182 MW nuevos a cierre de 2024 El sector de la energía solar aportó el pasado año 10.694 millones de euros al PIB español, suponiendo el 0,7% del total, y suma 146.764 empleos a cierre del año pasado. La fotovoltaica nacional invierte en innovación más del doble que la media de las empresas españolas: 521 millones que supusieron un 3,78 % de sus ingresos La industria sigue teniendo un importante peso en las exportaciones, con 3400 millones exportados el año pasado, aunque registra un ligero descenso del 5,7% Madrid, 7 de octubre de 2025. Bajo el título “La energía fotovoltaica, motor de industrialización”, la Unión Española Fotovoltaica ha presentado hoy su Informe Anual, que ofrece, con la colaboración de la Universidad de Castilla-La Mancha, un análisis en profundidad de la situación de la industria fotovoltaica en España y en el contexto internacional. España, con 7221 MW de nueva potencia instalada y un acumulado de 40.294 MW, se mantuvo a cierre del año pasado, entre los 10 principales mercados mundiales, en un año en el que la energía fotovoltaica se consolidó como la tecnología renovable con mayor nueva potencia instalada en el mundo, con 602 GWp de nueva capacidad global y alcanzando un total acumulado de 2.246 GWp en todo el mundo. La fotovoltaica en España: Un avance lento que necesita medidas de impulso Durante 2024 se añadieron 6.039 MW de nueva potencia fotovoltaica en suelo en España, llegando a un acumulado de 32.157 MW. Sin embargo, el sector del autoconsumo ha enfrentado dificultades, registrando una caída del 31% en la potencia instalada respecto a 2023. Los 1.182 MW instalados durante el año pasado, elevan el total acumulado de autoconsumo fotovoltaico a 8.137 MW. Una realidad que recuerda que, aunque hemos avanzado significativamente, aún estamos lejos de los 19 GW que establece el PNIEB para 2030 en autoconsumo. Una de las figuras más disruptivas del sistema eléctrico son las Comunidades Energéticas, que suelen comenzar por un autoconsumo colectivo y que permiten la participación ciudadana activa y efectiva en el sector eléctrico. El pasado año vimos cómo continuaron aumentando: En 2024 se identificaron 659 proyectos activos, frente a unos 500 estimados el año anterior. Un avance que, aunque positivo, sigue siendo lento y evidencia que su desarrollo necesita aún medidas de impulso, como un marco normativo nacional propio y específico, para el que UNEF ha presentado propuestas concretas. En almacenamiento, España acumuló 2.205 MWh de capacidad detrás del contador desde 2022, aunque el ritmo de instalación cayó un 34 % en 2024 respecto al año anterior. Existen ya más de 9,5 GW de almacenamiento con permisos de acceso, pero es necesario acelerar la regulación para su desarrollo a gran escala. Más de 10.694 millones al PIB, 146.000 empleos y más de 520 millones en I+D+i En términos económicos, la fotovoltaica generó en 2024 una aportación al PIB nacional de 10.694 millones de euros, lo que representa en torno al 0.7 % del PIB español. El sector también sigue contribuyendo significativamente a la balanza comercial española. Con una industria exportadora fuerte en segmentos como inversores, seguidores solares y estructuras; el año pasado la industria fotovoltaica española exportó 3400 millones de euros. Un dato que, aunque supone un ligero descenso del 5,7%, sigue siendo muy significativo. En términos de empleo, a cierre de 2024 el sector fotovoltaico acumulaba un total de 146.764 empleos en España, incluyendo empleos directos, indirectos e inducidos. Las empresas del sector fotovoltaico destinaron 521 M€ a I+D+i, lo que supuso una intensidad de innovación del 3,78 % sobre sus ingresos. Aunque el porcentaje total de gasto en I+D+i haya bajado ligeramente con respecto a 2023, sigue suponiendo más del doble que la media de las empresas españolas (1,61 %) y se sitúa muy por encima del promedio de la industria nacional (1,36 %). Unas cifras que demuestran el destacado efecto tractor del sector sobre el conjunto del tejido económico e industrial español. Un sector estratégico en peligro de estancamiento “Aunque la potencia instalada en suelo apunta a un posible récord en 2025, los números esconden una realidad compleja para 2026”, comenta José Donoso, director general de UNEF. Uno de los problemas más acuciantes es el incremento de las horas cero y los vertidos técnicos y económicos. Solo hasta septiembre de 2025 se han acumulado 693 horas cero, igualando ya el total del año anterior. “Este fenómeno, unido a precios capturados bajos e inestables, pone de manifiesto la urgencia de introducir reformas en el sistema de precios eléctricos, para poder avanzar en el cumplimiento de los objetivos a 2030.” añade Donoso. “Para revertir esta situación, la electrificación de la demanda debe convertirse en una prioridad nacional. La planificación de redes a 2030 muestra que hay ya 75 GW de puntos de conexión concedidos, frente a una demanda media actual de apenas 25 GW. La convocatoria de concursos de demanda ayudará a identificar los proyectos viables, desbloquear las inversiones e impulsar la industrialización asociada a ellas” El segundo gran reto es el despliegue del almacenamiento, clave para estabilizar los precios y dar estabilidad al sistema eléctrico. “La hibridación con baterías se perfila como una solución imprescindible, pero su avance depende de cambios normativos: dotar de personalidad jurídica a estas instalaciones, resolver la suma de potencias y simplificar los estudios de impacto ambiental cuando se ubiquen en plantas ya evaluadas”, añade. En paralelo, la caída de los contratos bilaterales (PPAs) como vía de financiación obliga a relanzar las subastas renovables, “que deben ofrecer certidumbre a los inversores e integrar el almacenamiento”. La integración social de los proyectos es otro de los grandes retos para el desarrollo de la tecnología. “Sigue siendo un elemento fundamental para definir nuestro futuro”, comenta Donoso. “A menudo, se subrayan conflictos puntuales y no se visualizan los grandes beneficios que el desarrollo de esta tecnología está teniendo en el impulso socio económico los territorios y en el mundo rural, como el aumento de la población, la creación de empleos o el notable incremento de ingresos municipales que permiten mejorar la calidad de vida de los habitantes de estos municipios”. En cuanto al autoconsumo, UNEF reclama la aplicación de medidas concretas de forma urgente, que eliminen las barreras identificadas y proporcionen incentivos. “Con la situación actual, alcanzar los objetivos de 19 GW de autoconsumo que marca el PNIEB es una utopía. El Gobierno trabaja estos meses en un Real Decreto de autoconsumo del que ya ha anunciado cambios que aplaudimos, como la ampliación de las distancias permitidas de 2 a 5 kilómetros, incluir la figura del gestor de autoconsumo o la posibilidad de compartir excedentes y permitir que un autoconsumidor pueda estar acogido a más de una modalidad de autoconsumo”, apunta Donoso. “Pero debemos ir más allá. La exención de solicitar permiso de acceso y conexión debe fijarse no en función de la potencia instalada, sino de lo que realmente se va a inyectar en la red. También necesitamos desgravaciones fiscales como en otros países: exención o reducción del IVA y deducciones en impuestos sobre sociedades para empresas e IRPF para ciudadanos. Las comunidades autónomas que aún no lo han hecho deben extender la exención de autorización administrativa de construcción a instalaciones de menos de 500 kilovatios. Y se deben agilizar las conexiones con incentivos y penalizaciones: es inaceptable que proyectos industriales de autoconsumo tarden meses o incluso más de un año”, subraya el CEO de UNEF. “El “cero eléctrico” vivido en abril de 2025 ha tenido efectos disruptivos a corto plazo, con más vertidos e incertidumbre, pero también abre oportunidades a medio plazo como la participación de las renovables en el mercado de control de tensión o el desarrollo del grid forming”. “El año 2025 se nos está terminando sin haber dado una respuesta adecuada a los desafíos con los que lo empezamos. Tendremos que hacer todos los deberes en el 2026. El futuro de nuestro sector y el aprovechamiento de la oportunidad económica que puede ofrecer a nuestro país nos va en ello”, concluyó Donoso durante la presentación de la radiografía del sector. Consulta el informe completo\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En 2024 más de la mitad de electricidad generada en España provino de fuentes renovables"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "Sí, existe evidencia que apoya la afirmación de que **en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables**. Según datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\" de Red Eléctrica, la presidenta de Redeia, Beatriz Corredor, afirmó que **España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación** [0]. Adicionalmente, el informe indica que **el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%**, sobrepasando su récord por sexto año consecutivo [0]. Es más, a 31 de diciembre de 2024, **España contaba con 129 GW de potencia de generación instalada, de los que el 66% eran renovables** [0]. Esto sugiere una alta capacidad de generación renovable en el país.\n\nNo se encontró evidencia explícita en los textos proporcionados que refute directamente la afirmación de que más de la mitad de la electricidad generada en España en 2024 provino de fuentes renovables. Aunque el informe de la Unión Española Fotovoltaica (UNEF) menciona desafíos para el sector, como la **caída del 31% en la potencia instalada de autoconsumo respecto a 2023** y el aumento de las horas cero y vertidos técnicos y económicos [1], estos puntos no niegan el hecho de que más de la mitad de la electricidad generada haya sido renovable. De hecho, los datos de UNEF también resaltan que durante 2024 se instalaron **7.221 MW nuevos, principalmente en suelo, con 6.039 MW nuevos de fotovoltaica**, lo que demuestra un crecimiento significativo en la capacidad de generación renovable [1]. Los desafíos mencionados en el informe de UNEF se refieren más a la necesidad de implementar medidas de impulso y reformas para alcanzar objetivos futuros y optimizar la integración de las renovables, en lugar de contradecir la proporción de generación renovable ya alcanzada en 2024 [1].\n\nCon base en la información proporcionada, la afirmación de que en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables es **verdadera**. Los informes de Red Eléctrica indican claramente que **España alcanzó récords en producción renovable y en su porcentaje dentro del mix de generación en 2024**, con un **66% de la potencia instalada total siendo de origen renovable** y un aumento considerable en la producción de energía hidráulica y fotovoltaica [0]. Aunque existen retos en la instalación de autoconsumo y la gestión de la red para el futuro, como se detalla en el informe de UNEF [1], estos no invalidan la proporción de generación renovable alcanzada durante el año 2024.\n\n**Verdadera.**"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0007417,
+                "total_run_time": 1.1639994100005424,
+                "average_cost_per_call": 0.0007417,
+                "average_time_per_call": 1.1639994100005424,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 13:39:43",
+                    "run_time": 1.1639994100005424,
+                    "cost": 0.0007417,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En 2024 más de la mitad de electricidad generada en España provino de fuentes renovables\nArticle: Sí, existe evidencia que apoya la afirmación de que **en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables**. Según datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\" de Red Eléctrica, la presidenta de Redeia, Beatriz Corredor, afirmó que **España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación** [0]. Adicionalmente, el informe indica que **el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%**, sobrepasando su récord por sexto año consecutivo [0]. Es más, a 31 de diciembre de 2024, **España contaba con 129 GW de potencia de generación instalada, de los que el 66% eran renovables** [0]. Esto sugiere una alta capacidad de generación renovable en el país.\n\nNo se encontró evidencia explícita en los textos proporcionados que refute directamente la afirmación de que más de la mitad de la electricidad generada en España en 2024 provino de fuentes renovables. Aunque el informe de la Unión Española Fotovoltaica (UNEF) menciona desafíos para el sector, como la **caída del 31% en la potencia instalada de autoconsumo respecto a 2023** y el aumento de las horas cero y vertidos técnicos y económicos [1], estos puntos no niegan el hecho de que más de la mitad de la electricidad generada haya sido renovable. De hecho, los datos de UNEF también resaltan que durante 2024 se instalaron **7.221 MW nuevos, principalmente en suelo, con 6.039 MW nuevos de fotovoltaica**, lo que demuestra un crecimiento significativo en la capacidad de generación renovable [1]. Los desafíos mencionados en el informe de UNEF se refieren más a la necesidad de implementar medidas de impulso y reformas para alcanzar objetivos futuros y optimizar la integración de las renovables, en lugar de contradecir la proporción de generación renovable ya alcanzada en 2024 [1].\n\nCon base en la información proporcionada, la afirmación de que en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables es **verdadera**. Los informes de Red Eléctrica indican claramente que **España alcanzó récords en producción renovable y en su porcentaje dentro del mix de generación en 2024**, con un **66% de la potencia instalada total siendo de origen renovable** y un aumento considerable en la producción de energía hidráulica y fotovoltaica [0]. Aunque existen retos en la instalación de autoconsumo y la gestión de la red para el futuro, como se detalla en el informe de UNEF [1], estos no invalidan la proporción de generación renovable alcanzada durante el año 2024.\n\n**Verdadera.**\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En 2024 más de la mitad de electricidad generada en España provino de fuentes renovables\nArticle: Sí, existe evidencia que apoya la afirmación de que **en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables**. Según datos extraídos del \"Informe del sistema eléctrico español 2024\" y \"Las renovables en el sistema eléctrico español 2024\" de Red Eléctrica, la presidenta de Redeia, Beatriz Corredor, afirmó que **España alcanzó en 2024 sus mejores indicadores con un doble récord tanto en producción renovable como en el porcentaje que supone en el mix de generación** [0]. Adicionalmente, el informe indica que **el impulso de la potencia instalada de generación renovable, así como unas condiciones meteorológicas favorables durante 2024, permitieron que la hidráulica aumentase su producción un 35,5% respecto a 2023 y que la solar fotovoltaica creciera un 18,9%**, sobrepasando su récord por sexto año consecutivo [0]. Es más, a 31 de diciembre de 2024, **España contaba con 129 GW de potencia de generación instalada, de los que el 66% eran renovables** [0]. Esto sugiere una alta capacidad de generación renovable en el país.\n\nNo se encontró evidencia explícita en los textos proporcionados que refute directamente la afirmación de que más de la mitad de la electricidad generada en España en 2024 provino de fuentes renovables. Aunque el informe de la Unión Española Fotovoltaica (UNEF) menciona desafíos para el sector, como la **caída del 31% en la potencia instalada de autoconsumo respecto a 2023** y el aumento de las horas cero y vertidos técnicos y económicos [1], estos puntos no niegan el hecho de que más de la mitad de la electricidad generada haya sido renovable. De hecho, los datos de UNEF también resaltan que durante 2024 se instalaron **7.221 MW nuevos, principalmente en suelo, con 6.039 MW nuevos de fotovoltaica**, lo que demuestra un crecimiento significativo en la capacidad de generación renovable [1]. Los desafíos mencionados en el informe de UNEF se refieren más a la necesidad de implementar medidas de impulso y reformas para alcanzar objetivos futuros y optimizar la integración de las renovables, en lugar de contradecir la proporción de generación renovable ya alcanzada en 2024 [1].\n\nCon base en la información proporcionada, la afirmación de que en 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables es **verdadera**. Los informes de Red Eléctrica indican claramente que **España alcanzó récords en producción renovable y en su porcentaje dentro del mix de generación en 2024**, con un **66% de la potencia instalada total siendo de origen renovable** y un aumento considerable en la producción de energía hidráulica y fotovoltaica [0]. Aunque existen retos en la instalación de autoconsumo y la gestión de la red para el futuro, como se detalla en el informe de UNEF [1], estos no invalidan la proporción de generación renovable alcanzada durante el año 2024.\n\n**Verdadera.**"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"En 2024 más de la mitad de la electricidad generada en España provino de fuentes renovables\", \"categories\": [\"Energía\", \"Medio ambiente\", \"Política\"], \"label\": \"True\", \"main_claim\": \"En 2024, más de la mitad de la electricidad generada en España provino de fuentes renovables es verdadera\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.036735699999999996,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "google/gemini-2.5-pro",
+                    "gen_searches_agent": "google/gemini-2.5-flash",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "google/gemini-2.5-flash",
+                    "article_writer": "google/gemini-2.5-flash",
+                    "metadata_agent": "google/gemini-2.5-flash",
+                    "image_prompt": "google/gemini-2.5-flash",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "newtral.es",
+                        "rtve.es",
+                        "educaweb.com",
+                        "verificat.cat",
+                        "maldita.es",
+                        "ec-europa-eu.translate.goog",
+                        "ciencia.nasa.gov",
+                        "uoc.edu",
+                        "vozpopuli.com",
+                        "masquemedicos.com",
+                        "normoncontigo.normon.com",
+                        "efe.com",
+                        "elpais.com",
+                        "lefebvre.es",
+                        "huffingtonpost.es",
+                        "observatoriodelalquiler.org",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "lasexta.com",
+                        "clinicaalemana.cl",
+                        "bbva.com",
+                        "cambioenergetico.com",
+                        "datosmacro.expansion.com",
+                        "sistemaelectrico-ree.es",
+                        "cadenaser.com",
+                        "theconversation.com",
+                        "infobae.com",
+                        "sjme.org",
+                        "elblogsalmon.com",
+                        "pmp.org.es",
+                        "gacetamedica.com",
+                        "elconfidencial.com",
+                        "www-iaea-org.translate.goog",
+                        "elplural.com",
+                        "cincodias.elpais.com",
+                        "antena3.com",
+                        "nyc.gov",
+                        "medlineplus.gov",
+                        "primabiotic.es",
+                        "oftalmologos.org.ar",
+                        "ine.es",
+                        "lamoncloa.gob.es",
+                        "albalactanciamaterna.org",
+                        "verifica.efe.com",
+                        "sepe.es",
+                        "agrodiario.com",
+                        "realinstitutoelcano.org",
+                        "theobjective.com",
+                        "jacc.org",
+                        "europapress.es",
+                        "coches.net",
+                        "ree.es",
+                        "caixabankresearch.com",
+                        "myfisioclinic.com",
+                        "worldwildlife.org",
+                        "kidshealth.org",
+                        "es.weforum.org",
+                        "20minutos.es",
+                        "defensa.gob.es",
+                        "who.int",
+                        "publico.es",
+                        "instituteforenergyresearch.org",
+                        "hopkinsmedicine.org",
+                        "larazon.es",
+                        "es.euronews.com",
+                        "lavanguardia.com",
+                        "nationalgeographic.com.es",
+                        "xataka.com",
+                        "bankinter.com",
+                        "abc.es",
+                        "salud.nih.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "cancer.gov",
+                        "feminismo.maldita.es"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": false,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

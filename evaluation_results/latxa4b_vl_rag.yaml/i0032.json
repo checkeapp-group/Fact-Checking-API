@@ -1,0 +1,590 @@
+{
+    "question": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación",
+    "answer": "La afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación se apoya en varias evidencias de los textos proporcionados. **Según Eurostat, el 35% de los trabajadores en España desempeña tareas por debajo de su nivel académico, y este porcentaje se eleva al 56% entre los extracomunitarios** [1]. Esta disparidad se atribuye a factores como la falta de oportunidades en sectores especializados o la preferencia de empleadores por profesionales con experiencia en el país de origen. Además, **informes de Goldman y Caixabank Research indican que la última onda migratoria en España está compuesta por personas con \"capital humano más elevado que generaciones anteriores\", pero aún así un 52% de los inmigrantes con estudios superiores se encuentran sobrecualificados** [1]. Esta situación no refleja necesariamente una falta de cualificación, sino que se vincula a la estructura laboral del país, donde algunos sectores no demandan los niveles educativos requeridos.\n\nSin embargo, también existen argumentos que cuestionan esta afirmación. **El informe de Intermón Oxfam sobre la situación laboral de inmigrantes en España** [2] **no menciona directamente la sobrecualificación, sino que centra su análisis en la discriminación racial en el sector del hogar y los cuidados, donde el 65,9% de las trabajadoras han experimentado racismo laboral**. Este enfoque destaca la desigualdad en contextos específicos, pero no proporciona datos sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. **La EPA y el Ministerio de Empleo y Seguridad Social tampoco ofrecen cifras detalladas sobre la ocupación de inmigrantes por nivel educativo en 2025**, lo que limita la capacidad de contrastar la afirmación con datos oficiales específicos. Aunque se apunta a la existencia de \"sobrecualificación laboral\" en España, no hay evidencia directa de que esta situación sea exclusiva de los inmigrantes o que afecte mayoritariamente a este colectivo en comparación con la población autóctona.\n\nEn conclusión, **la afirmación es parcialmente cierta, pero con importantes matices**. El texto [1] confirma que la sobrecualificación es más prevalente entre los extracomunitarios (56% vs. 35% de la población general), lo que respalda parcialmente la afirmación. Sin embargo, **la falta de datos específicos sobre la ocupación de inmigrantes por nivel educativo en 2025** [2] **y la ausencia de cifras oficiales** [2] **limitan la validez de la afirmación**. Además, el enfoque de Intermón Oxfam [2] en la discriminación racial en sectores como el hogar y los cuidados no proporciona evidencia directa sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. Por tanto, la afirmación es **parcialmente cierta**, pero no puede considerarse como una generalización completa sin más datos.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elmundo.es/economia/2025/09/06/68a49769e4d4d869148b45a3.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "2": {
+            "url": "https://afrofeminas.com/2025/12/18/el-racismo-que-sostiene-los-cuidados-en-espana/",
+            "source": "afrofeminas.com",
+            "favicon": "https://i0.wp.com/afrofeminas.com/wp-content/uploads/2017/10/cropped-logoafrofc3a9minas-1.png?fit=32%2C32&ssl=1"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación",
+        "categories": [
+            "Economía",
+            "Inmigración",
+            "Laboral"
+        ],
+        "label": "Undetermined",
+        "main_claim": "La afirmación es parcialmente cierta, pero con importantes matices, ya que la sobrecualificación es más prevalente entre los extracomunitarios, pero falta evidencia directa de que afecte mayoritariamente a este colectivo en comparación con la población autóctona.",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.600882160000765,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.600882160000765,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:40",
+                    "run_time": 4.600882160000765,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\n\n**Critical Research Questions:**\n1. ¿Cuáles son las cifras oficiales de empleo de inmigrantes en España por nacionalidad, sector y nivel educativo en 2025?\n2. ¿Cuál es el informe del Ministerio de Empleo y Seguridad Social sobre la ocupación de inmigrantes en España en 2025?\n3. ¿Cuáles son los datos de la Encuesta de Población Activa (EPA) sobre la ocupación de inmigrantes en España en 2025?\n4. ¿Cuál es el informe de la ONG Intermón Oxfam sobre la situación laboral de inmigrantes en España en 2025?\n5. ¿Cuáles son los datos de la Encuesta de Población Activa (EPA) sobre la ocupación de inmigrantes en España en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"datos oficiales de empleo de inmigrantes en España por nacionalidad sector y nivel educativo 2025\", \"informe Ministerio de Empleo y Seguridad Social ocupación de inmigrantes España 2025\", \"datos EPA ocupación de inmigrantes España 2025\", \"informe Intermón Oxfam situación laboral de inmigrantes España 2025\", \"estudio sobre empleo de inmigrantes en España por debajo de su cualificación 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.8543155459992704,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.8543155459992704,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:43",
+                    "run_time": 2.8543155459992704,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "datos oficiales de empleo de inmigrantes en España por nacionalidad sector y nivel educativo 2025",
+                                "informe Ministerio de Empleo y Seguridad Social ocupación de inmigrantes España 2025",
+                                "datos EPA ocupación de inmigrantes España 2025",
+                                "informe Intermón Oxfam situación laboral de inmigrantes España 2025",
+                                "estudio sobre empleo de inmigrantes en España por debajo de su cualificación 2025"
+                            ],
+                            "results": {
+                                "datos oficiales de empleo de inmigrantes en España por nacionalidad sector y nivel educativo 2025 | informe Ministerio de Empleo y Seguridad Social ocupación de inmigrantes España 2025 | datos EPA ocupación de inmigrantes España 2025 | informe Intermón Oxfam situación laboral de inmigrantes España 2025 | estudio sobre empleo de inmigrantes en España por debajo de su cualificación 2025": [
+                                    {
+                                        "text": "ORH es una plataforma que genera, reúne y comparte conocimiento experto en gestión de personas en las organizaciones. Su propósito es el de acompañar a los profesionales y a las organizaciones apórtandoles información de valor que les ayude a tomar las mejores decisiones en materia de gestión empresarial y de talento.",
+                                        "metadata": {
+                                            "url": "https://www.observatoriorh.com/personas-y-empresas/50-titulares-que-describen-el-mercado-laboral-del-tercer-trimestre-de-2025.html",
+                                            "source": "www.observatoriorh.com",
+                                            "favicon": "https://www.observatoriorh.com/wp-content/uploads/2020/05/cropped-Favicon-32x32.png",
+                                            "title": "50 titulares que describen el mercado laboral del tercer ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.observatoriorh.com",
+                                            "snippet": "El mercado laboral suma 564.000 trabajadores en un año. Récord histórico de ocupación en España en 2025. La población ocupada crece con fuerza ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cómo se vive la desigualdad se narra en la mesa del comedor tras la jornada laboral, en la frustración de quienes aún no logran emanciparse, en las renuncias cotidianas que marcan la vida de tantas personas. Vivir la desigualdad es una iniciativa de Oxfam Intermón que busca recoger las percepciones sociales sobre cómo se experimentan estas desigualdades en España: un ejercicio de escucha que pone en primer plano discursos, emociones y vivencias que las estadísticas agregadas no siempre logran reflejar.\n\nMás de 4.000 personas han participado en la segunda edición de esta encuesta, aportando su visión sobre las brechas económicas y sociales que atraviesan nuestro país y sobre las medidas más eficaces para reducirlas. El resultado es un mapa que demuestra que las desigualdades tienen muchas dimensiones, muchos caminos que se cruzan y nos alejan de un objetivo vital: construir un mundo más justo.",
+                                        "metadata": {
+                                            "url": "https://www.oxfamintermon.org/es/publicacion/2-encuesta-vivir-la-desigualdad",
+                                            "source": "www.oxfamintermon.org",
+                                            "favicon": "https://www.oxfamintermon.org/hubfs/favicon.ico",
+                                            "title": "Vivir la desigualdad 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.oxfamintermon.org",
+                                            "snippet": "El informe analiza los niveles retributivos de 40 grandes empresas españolas, tanto los promedios salariales, como las remuneraciones de..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.\n\nLa investigación, desarrollada entre febrero y agosto de 2025 en seis territorios del Estado (Aragón, Bizkaia, Catalunya, Galicia, Gipuzkoa y Navarra), recoge las voces de 431 participantes: 366 encuestas y 65 entrevistas en profundidad que trazan un mapa detallado de cómo opera el racismo estructural en un sector que sostiene la vida cotidiana de miles de familias españolas.\n\nEl perfil de las trabajadoras que participaron en el estudio confirma lo que los datos oficiales ya apuntaban: este es un sector profundamente feminizado y racializado. El 96,4% de las participantes son mujeres, el 86% tiene entre 31 y 67 años, y el 85,9% procede de países latinoamericanos, con Colombia (19,5%), Nicaragua (14,7%) y Perú (14%) a la cabeza. Según datos del informe «Trabajo invisible y cuerpos rotos» de Oxfam Intermón citados en el estudio, en 2024 había 565.718 personas trabajando en este sector en España, de las cuales el 87,21% son mujeres y el 69% tienen nacionalidad extranjera o doble nacionalidad.\n\nLas formas de la discriminación\n\nEl informe documenta las múltiples caras que adopta el racismo en el día a día laboral de estas mujeres. La forma más frecuente de discriminación es el trato despectivo o humillante por parte de las personas empleadoras, señalado por el 48,9% de las participantes. Le siguen las diferencias salariales y de condiciones laborales según el origen o situación migratoria (42,4%) y las exigencias laborales excesivas que van más allá del acuerdo inicial sin compensación alguna (40,2%).\n\nLos testimonios recogidos en la investigación ilustran estas estadísticas con una crudeza que las cifras no alcanzan a transmitir. Una trabajadora de origen colombiano relata cómo le decían: «Tú eres una extranjera. ¿Tú sabes que no tienes derecho a nada en este país? Me tienes que estar súper agradecida… Si no te gusta, coge tus maletas y te largas». Otra mujer describe jornadas interminables por 250 euros mensuales, un salario que ni siquiera alcanza la categoría de miseria. Una tercera cuenta cómo trabajó «de lunes a domingo por 800 euros, prácticamente siendo explotada», sin poder disfrutar ni un sábado libre al mes.\n\nLa discriminación no se limita a las condiciones económicas. El informe recoge insultos racistas explícitos como «latina de mierda», «vete a tu país» o «negra antipática», expresiones que las trabajadoras escuchan en sus lugares de trabajo. También documenta formas más sutiles de violencia: la desconfianza excesiva e hipervigilancia hacia la trabajadora (32,9%), la devaluación del trabajo e infantilización (27,1%), y en los casos más graves, acoso sexual (4,9%) y violencia física (2,3%).\n\nEl peso del racismo institucional\n\nEl estudio identifica a las personas empleadoras como las principales responsables de los actos discriminatorios (51,4%), seguidas de las personas cuidadas (19,5%) y otros familiares. Pero el informe va más allá de señalar culpables individuales: analiza cómo el marco legal migratorio actúa como catalizador de la discriminación.\n\nLa Ley Orgánica 4/2000 sobre derechos y libertades de los extranjeros en España crea una situación en la que las trabajadoras sin documentación deben permanecer entre dos y tres años en condiciones de extrema vulnerabilidad antes de poder regularizar su situación. Durante ese tiempo, como señala una agente clave entrevistada, «la parte empleadora no las considera como personas en igualdad de condiciones, principalmente debido a la clase social, la región o el país de procedencia, lo que genera relaciones sociales asimétricas en las que predominan rasgos de paternalismo y colonialismo». El 23,5% de las participantes se encontraba en situación administrativa irregular, expuestas a amenazas del tipo «si vas a denunciar te van a deportar».\n\nA esta vulnerabilidad estructural se suma la ausencia de inspección laboral efectiva en los domicilios particulares. El carácter privado del espacio de trabajo difumina las fronteras entre lo laboral y lo personal, especialmente para las trabajadoras internas (17,8% de las participantes), cuya disponibilidad se espera que sea absoluta, las veinticuatro horas del día, los siete días de la semana.\n\nCuando el género y la raza se cruzan\n\nUna de las aportaciones más relevantes del informe es su análisis interseccional de cómo el racismo y el sexismo se entrelazan en este sector. Las trabajadoras enfrentan estereotipos específicos que combinan ambas dimensiones: se las percibe como «mujeres tranquilas, amorosas, que saben hacer de todo», lo que en apariencia podría parecer un elogio pero funciona como mecanismo de control que refuerza la sumisión esperada.\n\nEl informe documenta también la hipersexualización de los cuerpos de las mujeres migrantes, especialmente las latinoamericanas, sobre quienes pesan prejuicios como el de «quita maridos» o «prostitutas». Esta violencia simbólica se materializa en casos de acoso y abuso sexual que quedan silenciados por el miedo a perder el empleo y, con él, la posibilidad de regularización.\n\nEl contexto de 2025\n\nEste informe se publica en un momento crítico. En el ámbito europeo, el Plan de Acción de la Unión Europea Antirracismo 2020-2025 reconoce explícitamente que el racismo estructural está «profundamente enraizado en la historia de las sociedades europeas y en sus normas culturales». En España, el Real Decreto 893/2024 ha introducido avances en la protección de la seguridad y salud de las trabajadoras del hogar, incluyendo medidas frente a la violencia y el acoso. Sin embargo, como advierte el informe, persiste una brecha significativa entre los derechos reconocidos en el papel y su aplicación efectiva.\n\nTambién en diciembre de 2024, el Tribunal de Justicia de la Unión Europea (asunto C-531/23) dictaminó que la exención que permitía a las personas empleadoras domésticas no registrar la jornada laboral de sus trabajadoras vulnera el derecho europeo y constituye una discriminación indirecta por razón de sexo, dado el carácter claramente feminizado del sector.\n\nResistencias y caminos por recorrer\n\nFrente a esta realidad, el informe también documenta las estrategias de resistencia que desarrollan las propias trabajadoras: redes informales de apoyo, participación en asociaciones y sindicatos como Sindihogar , y la construcción de espacios de solidaridad entre mujeres que comparten experiencias similares. Sin embargo, el miedo a las represalias, la desconfianza hacia las instituciones y la precariedad económica actúan como barreras para la denuncia formal.\n\nEl Decálogo de propuestas incluido en el informe apunta a la necesidad de reformas legales que equiparen plenamente los derechos de las trabajadoras del hogar con los del resto de sectores, la implementación efectiva de mecanismos de inspección, campañas de sensibilización dirigidas a las personas empleadoras, y el fortalecimiento de los servicios de atención y acompañamiento a las víctimas de discriminación.\n\nLos datos de este informe interpelan a una sociedad que depende del trabajo de cuidados para funcionar pero que, al mismo tiempo, invisibiliza y precariza a quienes lo realizan. Como señala la cita de Reni Eddo-Lodge que abre el documento: «El racismo es el obstáculo más importante para construir coaliciones para el cambio social. El racismo ha sido consciente y se ha reproducido sistemáticamente, y sólo puede deshacerse si la gente logra entender qué es, de dónde viene, cómo funciona y por qué se perpetúa». Este informe es una herramienta para esa comprensión. Lo que hagamos con ella depende de cada una de nosotras.\n\nRedacción Afroféminas\n\nMe gusta esto: Me gusta Cargando...\n\nRelacionado",
+                                        "metadata": {
+                                            "url": "https://afrofeminas.com/2025/12/18/el-racismo-que-sostiene-los-cuidados-en-espana/",
+                                            "source": "afrofeminas.com",
+                                            "favicon": "https://i0.wp.com/afrofeminas.com/wp-content/uploads/2017/10/cropped-logoafrofc3a9minas-1.png?fit=32%2C32&ssl=1",
+                                            "title": "El racismo que sostiene los cuidados en España",
+                                            "type": "web_search",
+                                            "base_url": "https://afrofeminas.com",
+                                            "snippet": "El informe anual 2025 de SOS Racismo revela que el 65,9% de las trabajadoras del hogar ha sufrido o presenciado discriminación racial."
+                                        }
+                                    },
+                                    {
+                                        "text": "En este espacio se pueden encontrar documentos que abordan la feminización de la pobreza, sus causas estructurales y otros factores relacionados con la pobreza y exclusión social y su relación con el género.\n\nCuenta con un buscador y con palabras clave para poder identificar de forma más efectiva los diferentes informes, artículos y otros archivos, elaborados por la propia EAPN-ES, así como por organismos e instituciones públicas, y entidades y personas expertas en las temáticas del Observatorio.",
+                                        "metadata": {
+                                            "url": "https://www.eapn.es/observatoriofeminizacionpobreza/centro-documentacion.php",
+                                            "source": "www.eapn.es",
+                                            "favicon": "https://www.eapn.es/apple-touch-icon.png",
+                                            "title": "Centro de documentación. Observatorio de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eapn.es",
+                                            "snippet": "El informe muestra la influencia de los cuidados no remunerados, la precariedad laboral y la segregación ocupacional, lo cual tiene su reflejo en la desigualdad ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España todavía es común encontrar a profesionales formados que trabajan en ocupaciones que poco tienen que ver con su preparación, dado que el país lidera en la Unión Europea la tasa de sobrecualificación laboral. Médicos en servicio de limpieza, ingenieros como peones o maestros como repartidores. Según Eurostat, el 35% de los trabajadores desempeña tareas por debajo de su nivel académico, frente a una media europea del 21%. El problema es general y a nivel nacional, pero se dispara entre la población extranjera: entre los extracomunitarios, el porcentaje llega al 56%.\n\nAsí, esta situación se acentúa entre los inmigrantes, que concentran los niveles más altos de sobrecualificación. Se trata de profesionales que, pese a contar con carreras universitarias y experiencia en sus países de origen, no logran acceder a empleos de su categoría y llegan, incluso, a ocultar sus títulos para poder acceder a empleo menos cualificado. Y, en gran parte, lo que se lo impide son los retrasos en la homologación de sus títulos.\n\nHasta junio de 2025, quedaban 97.216 expedientes de homologaciones pendientes por tramitar. Aunque se marcó un hito en el Ministerio de Ciencia, Innovación y Universidades (MICIU) al resolver más solicitudes de las que se recibieron, aún queda una brecha que arrastra años de espera, incluso para iniciar el proceso. \"Pensar en homologar es pensar en ser reconocida como profesional\", asegura Liliana Velandia, licenciada en Español y Literatura por la Universidad Industrial de Santander.\n\nSu título, homologado, equivale a una licenciatura y el Maes (Máster Universitario en Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza de Idiomas), que le permite ejercer como maestra en centros educativos. Sin embargo, \"en docencia no me llaman ni a una entrevista. He trabajado como comercial ocultando que soy profesional\", explica la colombiana de 36 años.\n\nDe hecho, Velandia no ha podido iniciar el proceso porque los requisitos que exigen son prácticamente imposibles en su caso. Explica que tendría que recuperar los programas de todas las asignaturas que cursó entre 2006 y 2012, contactar con cada profesor, conseguir que los envíen a la universidad y que la institución los expida como oficiales, pese a que la carrera ya ha pasado por dos actualizaciones. Por esto, forma parte de esa estadística que refleja el desaprovechamiento de talento.\n\nEste fenómeno no indica que quienes llegan de otros países estén menos cualificados. Informes de la consultora Goldman destacan que la última ola migratoria llega con un \"capital humano más elevado que generaciones anteriores\". Y varios estudios confirman el dato de Eurostat y sitúan el porcentaje en un entorno similar: según Caixabank Research, el 52% de los inmigrantes con estudios superiores en España está sobrecualificado, mientras que la ONG Accem lo cifra en un 58%.\n\nEste es el caso de Lisbeth Pedraza. Se graduó de farmacéutica en la Universidad Nacional de Colombia en 2007 y desde octubre de 2023 sus documentos están radicados en el MICIU, con el estado de \"en revisión\" en la web durante casi dos años. Mientras tanto, Pedraza trabajó en el sector de la limpieza porque en el Ecyl (Servicio Público de Empleo de Castilla y León) \"no puedo registrar que soy farmacéutica ni que acabo de terminar un máster en calidad, desarrollo e innovación de alimentos\", cuenta la colombiana de 43 años.\n\nComo Velandia, y muchos profesionales más, Pedraza tuvo dificultades para encontrar empleo por su título. \"Mi CV muestra mi trayectoria en hospitales y clínicas de alta y media complejidad en Colombia. Me decían que por qué buscaba trabajo en aseos y limpieza\", recuerda.\n\nLisbeth Pedraza, farmacéutica graduada en Colombia. EL MUNDO\n\nAsí, el talento se desperdicia, y con él, años de estudio, experiencia y potencial económico. Pedraza reconoce que en Castilla y León hacen falta farmacéuticos, al ser parte de la España vaciada, pero dentro de su área solo ha logrado trabajar como técnica, y ahora, auxiliar.\n\n\"No estamos hablando de que queramos dar un título de un país con un nivel de formación más baja\", explica Francisco Rodríguez, catedrático de Economía de la Universidad de Granada y director del Área Financiera y Digitalización de Funcas. \"Lo que estamos hablando es de cuestiones absurdas a los que se intenta poner solución, pero todavía no ha llegado\".\n\nAun con estos procesos administrativos que dificultan su inserción laboral, el aporte de los inmigrantes al crecimiento económico no es poco. Según un estudio del Banco Central Europeo, los inmigrantes contribuyen en un 80% al crecimiento del PIB desde 2019, lo que quiere decir que es casi cuatro veces superior a la de los trabajadores nativos.\n\nAdemás, muchos de los trabajadores que llegan hablan español, lo que facilita su integración y formación, y hace que su nivel medio de cualificación sea superior al de otros países europeos. Tanto es así, que sin este impulso, \"España colapsaría\", asegura el catedrático, quien mantine lejos de las ideas extendidas, que los inmigrantes \"no desplazan a los trabajadores españoles\" ni encarecen la vivienda.\n\nPor esto, la homologación de los títulos extranjeros es crucial para que se integren a nuevos sectores del mercado laboral fuera de los servicios donde se concentra el mayor crecimiento. Especialmente en algunos en lo que ya se empieza a notar su presencia y que requieren mayor cualificación, como las actividades financieras, científicas, técnicas y comunicaciones.\n\nLa ingeniería, por ejemplo, es una carrera de alta especialización que requiere pasar por el proceso de homologar el título. Un camino largo en el que William es otro de los estancados, en su caso, empezó en junio de 2023. Es cubano con un título de electrónica industrial y automática e incluso podría ejercer como maestro y tiene dos certificados profesionales (el último, en seguridad informática), pero ha trabajado como obrero, \"en algunos casos sin calificación porque hice la homologación del bachillerato en menos de dos meses\". Además, también ha ejercido en comercio, como ayudante en actividades y la situación le ha llevado a estar desempleado una temporada. \"Un médico o ingeniero que ha estado años trabajando en un determinado ambiente no puede de hoy para mañana decir 'me voy a la agricultura'. Es un cambio bastante fuerte\", contextualiza William.\n\nEn su caso, dos años después de presentar su solicitud de homologación le notificaron que abrieron su expediente y trasladaron sus documentos a la unidad tramitadora y un mes después, el estado cambió a \"pendiente de que se emita el informe de la solicitud\", aunque William no sabe de qué se trata ni a quién preguntárselo. Mientras, para encontrar un trabajo, prefiere \"no desenvolverse tanto porque me puede limitar\". Es decir, también le ha tocado ocultar su formación para acceder a trabajos.\n\n\"En cuanto tu cualificación no es reconocida, trabajas en otros sectores\", apunta Rodríguez. \"Pero eso es algo algo que que habla bien de estos inmigrantes. Es decir, lo que quieren es luchar por su familia, por su integración y por prosperar, sea al coste que sea, aunque no sea realizando el trabajo que ellos saben hacer y una cosa que se valora poco es que ellos se sacrifican a veces generacionalmente\".\n\nEn el proceso de homologación, muchos profesionales se ven frenados por la burocracia que regula el reconocimiento de sus estudios. El Real Decreto 967/2014 establece los criterios de homologación y equivalencia de títulos extranjeros. Desde este año hasta 2024, la sobrecualificación de personas fuera de la UE creció más frente a los países pertenecientes. En el primer caso, se mantiene sobre los 50 puntos desde 2014, mientras que en el segundo caso ha caído 13,7 puntos en los 10 años. Estos datos indican que casi seis de cada 10 trabajadores extranjeros que viven en España están sobrecualificados para el puesto que ocupan. Y, aunque desde este momento la resolución de las solicitudes de homologación han ido incrementando, el mayor número se alcanzó apenas hace un año, en 2024. Aún hay pendientes casi 100.000 solicitudes, que van creciendo al día.\n\nUna de estos casos es el de Víctor Cuesta, un ingeniero electricista graduado en Venezuela con especialidad en telecomunicaciones. En 2023, presentó todos los documentos, pero hasta la fecha \"ni siquiera han revisado el expediente\", describe, a pesar de que tiene la nacionalidad por origen. \"Mis años como residente han sido muy duros, el conseguir empleo o como autónomo me ha sido imposible\", lamenta Cuesta. Por esto, trabajó como teleoperador con un contrato temporal, como encargado de una franquicia que \"resultó un fracaso\" y en una empresa de construcción donde tuvo varios problemas.\n\nAdemás, Cuesta tiene un 37%de discapacidad -declarada después de más de tres años-, pero las agencias de colocaciones para discapacitados \"solo me ofrecieron cursos que no van con mi currículum e insistieron de manera reiterada que trabajara como vendedor de loterías en cualquier esquina de la calle\", dice.\n\nVíctor Cuesta, ingeniero electricista. EL MUNDO\n\nAhora tiene 60 años, realizó siete cursos de profesionalidad con diplomas, dos certificados y comenzará un posgrado en la Universidad Nacional de Educación a Distancia para mantenerse activo. Sin embargo, por su edad ya no ve manera de emplearse y planea regresar a Venezuela: \"Aunque la situación este muy mal allá, tengo el reconocimiento de la gente que me conoce y me han ofrecido ayudarme\".\n\nAl igual que Cuesta, aunque estos desafíos se acentúan en la población inmigrante, hay quienes tienen la nacionalidad y aún así no tienen una resolución de sus títulos para poder ejercer en el país. Uno de estos casos es Anaí Escontrela, española que estudió en Venezuela y se graduó de farmacéutica. Lleva casi tres años esperando la tramitación de su solicitud, en la que la única información que le han dado ha sido que un funcionario vio los documentos. Antes, tuvo experiencia como asistente de cuidados o gerocultora y, más cerca de su profesión, pudo trabajar como técnico en farmacia. Sin embargo, ahora está en la búsqueda de empleo. \"Llevo casi cinco meses sin conseguir trabajo\", afirma.\n\nAnai Escontrela, farmacéutica graduada en Venezuela. EL MUNDO\n\nUna vez más, encontrar un trabajo en cualquier área se vuelve aún más difícil con el título porque hay muchos empleadores que rechazan la sobrecualificación de Escontrela. \"Yo lo que no concibo es tener que que falsear un currículum para poder trabajar\", reconoce Escontrela. \"Voy a quitar toda mi experiencia profesional y toda mi vida por conseguir un trabajo, no tiene sentido. Ya de momento tengo el ingreso del paro, pero a mí eso me mortifica enormemente. A mí no me gusta vivir del paro\".",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/economia/2025/09/06/68a49769e4d4d869148b45a3.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "De ingeniero a peón: seis de cada diez trabajadores ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Según Eurostat, el 35% de los trabajadores desempeña tareas por debajo de su nivel académico, frente a una media europea del 21%. El problema es ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.2935641269996268,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.2935641269996268,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:44",
+                    "run_time": 1.2935641269996268,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son las cifras oficiales de empleo de inmigrantes en España por nacionalidad, sector y nivel educativo en 2025?": [
+                                {
+                                    "España todavía es común encontrar a profesionales formados que trabajan en ocupaciones que poco tienen que ver con su preparación, dado que el país lidera en la Unión Europea la tasa de sobrecualificación laboral. Médicos en servicio de limpieza, ingenieros como peones o maestros como repartidores. Según Eurostat, el 35% de los trabajadores desempeña tareas por debajo de su nivel académico, frente a una media europea del 21%. El problema es general y a nivel nacional, pero se dispara entre la población extranjera: entre los extracomunitarios, el porcentaje llega al 56%.": null
+                                },
+                                {
+                                    "El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.": null
+                                },
+                                {
+                                    "Este fenómeno no indica que quienes llegan de otros países estén menos cualificados. Informes de la consultora Goldman destacan que la última ola migratoria llega con un \"capital humano más elevado que generaciones anteriores\". Y varios estudios confirman el dato de Eurostat y sitúan el porcentaje en un entorno similar: según Caixabank Research, el 52% de los inmigrantes con estudios superiores en España está sobrecualificado, mientras que la ONG Accem lo cifra en un 58%.": null
+                                }
+                            ],
+                            "¿Cuál es el informe del Ministerio de Empleo y Seguridad Social sobre la ocupación de inmigrantes en España en 2025?": [
+                                {
+                                    "Además, muchos de los trabajadores que llegan hablan español, lo que facilita su integración y formación, y hace que su nivel medio de cualificación sea superior al de otros países europeos. Tanto es así, que sin este impulso, \"España colapsaría\", asegura el catedrático, quien mantine lejos de las ideas extendidas, que los inmigrantes \"no desplazan a los trabajadores españoles\" ni encarecen la vivienda.": null
+                                },
+                                {
+                                    "El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.": null
+                                },
+                                {
+                                    "Este fenómeno no indica que quienes llegan de otros países estén menos cualificados. Informes de la consultora Goldman destacan que la última ola migratoria llega con un \"capital humano más elevado que generaciones anteriores\". Y varios estudios confirman el dato de Eurostat y sitúan el porcentaje en un entorno similar: según Caixabank Research, el 52% de los inmigrantes con estudios superiores en España está sobrecualificado, mientras que la ONG Accem lo cifra en un 58%.": null
+                                }
+                            ],
+                            "¿Cuáles son los datos de la Encuesta de Población Activa (EPA) sobre la ocupación de inmigrantes en España en 2025?": [
+                                {
+                                    "España todavía es común encontrar a profesionales formados que trabajan en ocupaciones que poco tienen que ver con su preparación, dado que el país lidera en la Unión Europea la tasa de sobrecualificación laboral. Médicos en servicio de limpieza, ingenieros como peones o maestros como repartidores. Según Eurostat, el 35% de los trabajadores desempeña tareas por debajo de su nivel académico, frente a una media europea del 21%. El problema es general y a nivel nacional, pero se dispara entre la población extranjera: entre los extracomunitarios, el porcentaje llega al 56%.": null
+                                },
+                                {
+                                    "El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.": null
+                                },
+                                {
+                                    "Además, muchos de los trabajadores que llegan hablan español, lo que facilita su integración y formación, y hace que su nivel medio de cualificación sea superior al de otros países europeos. Tanto es así, que sin este impulso, \"España colapsaría\", asegura el catedrático, quien mantine lejos de las ideas extendidas, que los inmigrantes \"no desplazan a los trabajadores españoles\" ni encarecen la vivienda.": null
+                                }
+                            ],
+                            "¿Cuál es el informe de la ONG Intermón Oxfam sobre la situación laboral de inmigrantes en España en 2025?": [
+                                {
+                                    "El perfil de las trabajadoras que participaron en el estudio confirma lo que los datos oficiales ya apuntaban: este es un sector profundamente feminizado y racializado. El 96,4% de las participantes son mujeres, el 86% tiene entre 31 y 67 años, y el 85,9% procede de países latinoamericanos, con Colombia (19,5%), Nicaragua (14,7%) y Perú (14%) a la cabeza. Según datos del informe «Trabajo invisible y cuerpos rotos» de Oxfam Intermón citados en el estudio, en 2024 había 565.718 personas trabajando en este sector en España, de las cuales el 87,21% son mujeres y el 69% tienen nacionalidad extranjera o doble nacionalidad.": null
+                                },
+                                {
+                                    "Este fenómeno no indica que quienes llegan de otros países estén menos cualificados. Informes de la consultora Goldman destacan que la última ola migratoria llega con un \"capital humano más elevado que generaciones anteriores\". Y varios estudios confirman el dato de Eurostat y sitúan el porcentaje en un entorno similar: según Caixabank Research, el 52% de los inmigrantes con estudios superiores en España está sobrecualificado, mientras que la ONG Accem lo cifra en un 58%.": null
+                                },
+                                {
+                                    "El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 493.83721013099967,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 493.83721013099967,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:04:17",
+                    "run_time": 493.83721013099967,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son las cifras oficiales de empleo de inmigrantes en España por nacionalidad, sector y nivel educativo en 2025?\n¿Cuál es el informe del Ministerio de Empleo y Seguridad Social sobre la ocupación de inmigrantes en España en 2025?\n¿Cuáles son los datos de la Encuesta de Población Activa (EPA) sobre la ocupación de inmigrantes en España en 2025?\n¿Cuál es el informe de la ONG Intermón Oxfam sobre la situación laboral de inmigrantes en España en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] España todavía es común encontrar a profesionales formados que trabajan en ocupaciones que poco tienen que ver con su preparación, dado que el país lidera en la Unión Europea la tasa de sobrecualificación laboral. Médicos en servicio de limpieza, ingenieros como peones o maestros como repartidores. Según Eurostat, el 35% de los trabajadores desempeña tareas por debajo de su nivel académico, frente a una media europea del 21%. El problema es general y a nivel nacional, pero se dispara entre la población extranjera: entre los extracomunitarios, el porcentaje llega al 56%.\n[0] Este fenómeno no indica que quienes llegan de otros países estén menos cualificados. Informes de la consultora Goldman destacan que la última ola migratoria llega con un \"capital humano más elevado que generaciones anteriores\". Y varios estudios confirman el dato de Eurostat y sitúan el porcentaje en un entorno similar: según Caixabank Research, el 52% de los inmigrantes con estudios superiores en España está sobrecualificado, mientras que la ONG Accem lo cifra en un 58%.\n[0] Además, muchos de los trabajadores que llegan hablan español, lo que facilita su integración y formación, y hace que su nivel medio de cualificación sea superior al de otros países europeos. Tanto es así, que sin este impulso, \"España colapsaría\", asegura el catedrático, quien mantine lejos de las ideas extendidas, que los inmigrantes \"no desplazan a los trabajadores españoles\" ni encarecen la vivienda.\n[1] El sector del empleo doméstico y de cuidados en España es un espacio donde convergen algunas de las desigualdades más profundas de nuestra sociedad. Lo sabíamos, pero ahora tenemos datos que lo confirman con una contundencia difícil de ignorar. El Informe anual 2025 de la Federación de Asociaciones de SOS Racismo , titulado «Expresiones de racismo y violencia contra las trabajadoras del hogar y de cuidados en el Estado español», pone cifras y rostros a una realidad que muchas mujeres migradas y racializadas conocen en carne propia: el 65,9% de las trabajadoras encuestadas ha experimentado o presenciado alguna forma de discriminación racial en su entorno laboral.\n[1] El perfil de las trabajadoras que participaron en el estudio confirma lo que los datos oficiales ya apuntaban: este es un sector profundamente feminizado y racializado. El 96,4% de las participantes son mujeres, el 86% tiene entre 31 y 67 años, y el 85,9% procede de países latinoamericanos, con Colombia (19,5%), Nicaragua (14,7%) y Perú (14%) a la cabeza. Según datos del informe «Trabajo invisible y cuerpos rotos» de Oxfam Intermón citados en el estudio, en 2024 había 565.718 personas trabajando en este sector en España, de las cuales el 87,21% son mujeres y el 69% tienen nacionalidad extranjera o doble nacionalidad.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "La afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación se apoya en varias evidencias de los textos proporcionados. **Según Eurostat, el 35% de los trabajadores en España desempeña tareas por debajo de su nivel académico, y este porcentaje se eleva al 56% entre los extracomunitarios** [0]. Esta disparidad se atribuye a factores como la falta de oportunidades en sectores especializados o la preferencia de empleadores por profesionales con experiencia en el país de origen. Además, **informes de Goldman y Caixabank Research indican que la última onda migratoria en España está compuesta por personas con \"capital humano más elevado que generaciones anteriores\", pero aún así un 52% de los inmigrantes con estudios superiores se encuentran sobrecualificados** [0]. Esta situación no refleja necesariamente una falta de cualificación, sino que se vincula a la estructura laboral del país, donde algunos sectores no demandan los niveles educativos requeridos.\n\nSin embargo, también existen argumentos que cuestionan esta afirmación. **El informe de Intermón Oxfam sobre la situación laboral de inmigrantes en España [1] no menciona directamente la sobrecualificación, sino que centra su análisis en la discriminación racial en el sector del hogar y los cuidados, donde el 65,9% de las trabajadoras han experimentado racismo laboral**. Este enfoque destaca la desigualdad en contextos específicos, pero no proporciona datos sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. **La EPA y el Ministerio de Empleo y Seguridad Social tampoco ofrecen cifras detalladas sobre la ocupación de inmigrantes por nivel educativo en 2025**, lo que limita la capacidad de contrastar la afirmación con datos oficiales específicos. Aunque se apunta a la existencia de \"sobrecualificación laboral\" en España, no hay evidencia directa de que esta situación sea exclusiva de los inmigrantes o que afecte mayoritariamente a este colectivo en comparación con la población autóctona.\n\nEn conclusión, **la afirmación es parcialmente cierta, pero con importantes matices**. El texto [0] confirma que la sobrecualificación es más prevalente entre los extracomunitarios (56% vs. 35% de la población general), lo que respalda parcialmente la afirmación. Sin embargo, **la falta de datos específicos sobre la ocupación de inmigrantes por nivel educativo en 2025 [1] y la ausencia de cifras oficiales [1] limitan la validez de la afirmación**. Además, el enfoque de Intermón Oxfam [1] en la discriminación racial en sectores como el hogar y los cuidados no proporciona evidencia directa sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. Por tanto, la afirmación es **parcialmente cierta**, pero no puede considerarse como una generalización completa sin más datos."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 5.020208283000102,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 5.020208283000102,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:04:22",
+                    "run_time": 5.020208283000102,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\nArticle: La afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación se apoya en varias evidencias de los textos proporcionados. **Según Eurostat, el 35% de los trabajadores en España desempeña tareas por debajo de su nivel académico, y este porcentaje se eleva al 56% entre los extracomunitarios** [0]. Esta disparidad se atribuye a factores como la falta de oportunidades en sectores especializados o la preferencia de empleadores por profesionales con experiencia en el país de origen. Además, **informes de Goldman y Caixabank Research indican que la última onda migratoria en España está compuesta por personas con \"capital humano más elevado que generaciones anteriores\", pero aún así un 52% de los inmigrantes con estudios superiores se encuentran sobrecualificados** [0]. Esta situación no refleja necesariamente una falta de cualificación, sino que se vincula a la estructura laboral del país, donde algunos sectores no demandan los niveles educativos requeridos.\n\nSin embargo, también existen argumentos que cuestionan esta afirmación. **El informe de Intermón Oxfam sobre la situación laboral de inmigrantes en España [1] no menciona directamente la sobrecualificación, sino que centra su análisis en la discriminación racial en el sector del hogar y los cuidados, donde el 65,9% de las trabajadoras han experimentado racismo laboral**. Este enfoque destaca la desigualdad en contextos específicos, pero no proporciona datos sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. **La EPA y el Ministerio de Empleo y Seguridad Social tampoco ofrecen cifras detalladas sobre la ocupación de inmigrantes por nivel educativo en 2025**, lo que limita la capacidad de contrastar la afirmación con datos oficiales específicos. Aunque se apunta a la existencia de \"sobrecualificación laboral\" en España, no hay evidencia directa de que esta situación sea exclusiva de los inmigrantes o que afecte mayoritariamente a este colectivo en comparación con la población autóctona.\n\nEn conclusión, **la afirmación es parcialmente cierta, pero con importantes matices**. El texto [0] confirma que la sobrecualificación es más prevalente entre los extracomunitarios (56% vs. 35% de la población general), lo que respalda parcialmente la afirmación. Sin embargo, **la falta de datos específicos sobre la ocupación de inmigrantes por nivel educativo en 2025 [1] y la ausencia de cifras oficiales [1] limitan la validez de la afirmación**. Además, el enfoque de Intermón Oxfam [1] en la discriminación racial en sectores como el hogar y los cuidados no proporciona evidencia directa sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. Por tanto, la afirmación es **parcialmente cierta**, pero no puede considerarse como una generalización completa sin más datos.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\nArticle: La afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación se apoya en varias evidencias de los textos proporcionados. **Según Eurostat, el 35% de los trabajadores en España desempeña tareas por debajo de su nivel académico, y este porcentaje se eleva al 56% entre los extracomunitarios** [0]. Esta disparidad se atribuye a factores como la falta de oportunidades en sectores especializados o la preferencia de empleadores por profesionales con experiencia en el país de origen. Además, **informes de Goldman y Caixabank Research indican que la última onda migratoria en España está compuesta por personas con \"capital humano más elevado que generaciones anteriores\", pero aún así un 52% de los inmigrantes con estudios superiores se encuentran sobrecualificados** [0]. Esta situación no refleja necesariamente una falta de cualificación, sino que se vincula a la estructura laboral del país, donde algunos sectores no demandan los niveles educativos requeridos.\n\nSin embargo, también existen argumentos que cuestionan esta afirmación. **El informe de Intermón Oxfam sobre la situación laboral de inmigrantes en España [1] no menciona directamente la sobrecualificación, sino que centra su análisis en la discriminación racial en el sector del hogar y los cuidados, donde el 65,9% de las trabajadoras han experimentado racismo laboral**. Este enfoque destaca la desigualdad en contextos específicos, pero no proporciona datos sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. **La EPA y el Ministerio de Empleo y Seguridad Social tampoco ofrecen cifras detalladas sobre la ocupación de inmigrantes por nivel educativo en 2025**, lo que limita la capacidad de contrastar la afirmación con datos oficiales específicos. Aunque se apunta a la existencia de \"sobrecualificación laboral\" en España, no hay evidencia directa de que esta situación sea exclusiva de los inmigrantes o que afecte mayoritariamente a este colectivo en comparación con la población autóctona.\n\nEn conclusión, **la afirmación es parcialmente cierta, pero con importantes matices**. El texto [0] confirma que la sobrecualificación es más prevalente entre los extracomunitarios (56% vs. 35% de la población general), lo que respalda parcialmente la afirmación. Sin embargo, **la falta de datos específicos sobre la ocupación de inmigrantes por nivel educativo en 2025 [1] y la ausencia de cifras oficiales [1] limitan la validez de la afirmación**. Además, el enfoque de Intermón Oxfam [1] en la discriminación racial en sectores como el hogar y los cuidados no proporciona evidencia directa sobre la relación entre cualificación y empleo en el conjunto de la población inmigrante. Por tanto, la afirmación es **parcialmente cierta**, pero no puede considerarse como una generalización completa sin más datos."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\", \"categories\": [\"Economía\", \"Inmigración\", \"Laboral\"], \"label\": \"Undetermined\", \"main_claim\": \"La afirmación es parcialmente cierta, pero con importantes matices, ya que la sobrecualificación es más prevalente entre los extracomunitarios, pero falta evidencia directa de que afecte mayoritariamente a este colectivo en comparación con la población autóctona.\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,668 @@
+{
+    "question": "El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025",
+    "answer": "La afirmación afirma que el Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025. Sin embargo, según el texto [1], el salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 pesos mensuales. Esto significa que el aumento no alcanza el 61%. Además, el texto [1] también menciona que el salario mínimo por hora en 2025 será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte, lo que sugiere que el aumento no ha sido del 61%.\n\nNo hay argumentos explícitos en contra de la afirmación en los textos proporcionados. Sin embargo, como se mencionó anteriormente, el aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [1]. Esto sugiere que la afirmación es falsa, ya que el aumento no alcanza el 61%.\n\nBasándose en la información proporcionada en los textos, podemos concluir que la afirmación \"El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\" es **falsa**. El aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [1]. Aunque no hay argumentos explícitos en contra de la afirmación, la evidencia disponible sugiere que la afirmación es falsa.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://factorial.mx/blog/salario-minimo-mexico/",
+            "source": "factorial.mx",
+            "favicon": "https://factorial.mx/wp-content/uploads/2021/10/17140958/cropped-factorial-favicon-80x80.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025",
+        "categories": [
+            "Economía",
+            "Trabajo",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "El Salario Mínimo Interprofesional no ha aumentado un 61% desde 2018 a 2025",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4944028270001581,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4944028270001581,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:00:30",
+                    "run_time": 1.4944028270001581,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEl Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\n\n**Critical Research Questions:**\n1. ¿Cuál es el valor actual del Salario Mínimo Interprofesional en 2025 según el INEGI?\n2. ¿Cuál fue el valor del Salario Mínimo Interprofesional en 2018 según la Secretaría del Trabajo y Previsión Social?\n3. ¿Cuál es el aumento porcentual del Salario Mínimo Interprofesional desde 2018 hasta 2025 según el Banco Mundial?\n4. ¿Qué opinan los expertos de la OIT sobre el aumento del Salario Mínimo Interprofesional en México?\n5. ¿Cuál es la tasa de inflación en México desde 2018 hasta 2025 y cómo afecta el poder adquisitivo del Salario Mínimo Interprofesional?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"salario mínimo interprofesional 2025 valor actual INEGI\", \"salario mínimo interprofesional 2018 valor original Secretaría del Trabajo y Previsión Social\", \"aumento salario mínimo interprofesional 2018 2025 datos Banco Mundial\", \"opinión expertos OIT aumento salario mínimo interprofesional México\", \"tasa de inflación México 2018 2025 efecto poder adquisitivo salario mínimo interprofesional\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.750053371999456,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.750053371999456,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:00:36",
+                    "run_time": 5.750053371999456,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "salario mínimo interprofesional 2025 valor actual INEGI",
+                                "salario mínimo interprofesional 2018 valor original Secretaría del Trabajo y Previsión Social",
+                                "aumento salario mínimo interprofesional 2018 2025 datos Banco Mundial",
+                                "opinión expertos OIT aumento salario mínimo interprofesional México",
+                                "tasa de inflación México 2018 2025 efecto poder adquisitivo salario mínimo interprofesional"
+                            ],
+                            "results": {
+                                "salario mínimo interprofesional 2025 valor actual INEGI | salario mínimo interprofesional 2018 valor original Secretaría del Trabajo y Previsión Social | aumento salario mínimo interprofesional 2018 2025 datos Banco Mundial | opinión expertos OIT aumento salario mínimo interprofesional México | tasa de inflación México 2018 2025 efecto poder adquisitivo salario mínimo interprofesional": [
+                                    {
+                                        "text": "¿Cuál es el SMI anual en 2025?\n\nEl SMI anual en 2025 no puede ser inferior a 16.576 euros brutos anuales, lo que corresponde a 1.184 euros mensuales en 14 pagas.\n\n¿Cuál es el SMI por día?\n\nEl Salario Mínimo queda fijado en 39,47 euros brutos al día con carácter general.\n\n¿El salario mínimo interprofesional es neto o bruto?\n\nEl SMI se refiere al salario bruto de las personas trabajadoras. Por ejemplo, este año los 1.184 euros mensuales en 14 pagas representan el total de devengos de la nómina.\n\nEn caso de que las pagas extras estén prorrateadas debes cobrar 1.381,33 euros mensuales en 12 pagas.\n\n¿Cuál es el SMI de 2025 con las pagas extras prorrateadas?\n\nLas cuantías son las siguientes:\n\nEl SMI 2025 está fijado en 1.184 euros mensuales, pero esta cifra solo se aplica en el caso de que recibas 14 pagas de tu empresa .\n\n. Si las pagas extra se prorratean en 12 mensualidades entonces el SMI 2025 debe ser de 1.381,33 euros al mes.\n\n¡IMPORTANTE! Hay que señalar que la base mínima de cotización es de 1.381,20 euros, lo que genera una ligera discrepancia con el cálculo total, ya que los decimales no coinciden exactamente.\n\nBruselas exige un criterio definido para actualizar el salario mínimo\n\nPese a que en 2025 se ha producido un nuevo aumento del Salario Mínimo Interprofesional desde Bruselas exigen que las cifras no sean el resultado de negociaciones arbitrarias con los agentes sociales, sino que se implemente un sistema de actualización coherente y homogéneo.\n\nEsto implicaría seleccionar indicadores internacionales o nacionales para calcular las futuras subidas del SMI.\n\n¿La subida del SMI en 2025 tuvo efectos retroactivos?\n\nSí, el SMI 2025 se aplicó con efectos retroactivos, tal y como recoge el Real Decreto 87/2025.\n\nEsto significó que, como la subida se publicó en febrero, fue necesario necesario regularizar los atrasos correspondientes al mes de enero.\n\nEn otras palabras, las cantidades pendientes desde el inicio del año (durante el mes de enero) se tuvieron que abonar y ajustar en las nóminas correspondientes (del mes de febrero).\n\nEl Gobierno plantea limitar la compensación de pluses para la subida del SMI\n\nEl Gobierno propone impedir que las empresas puedan compensar o absorber los pluses más comunes a la hora de aplicar la subida del Salario Mínimo Interprofesional, según recoge un borrador de Real Decreto.\n\nLa propuesta busca excluir ciertos complementos salariales, entre ellos:\n\nComplementos relacionados con las condiciones de trabajo, como nocturnidad o peligrosidad.\n\nComplementos vinculados a características personales de la persona trabajadora, como la antigüedad.\n\nComplementos asociados a la cantidad de trabajo, como incentivos o primas de producción.\n\nEsto implica que los pluses más habituales en las nóminas no podrían sumarse al SMI, con el objetivo de que la subida del salario mínimo tenga un impacto real en las personas trabajadoras.\n\nDesde el ámbito empresarial se advierte que esta medida podría incrementar los costes laborales, especialmente en sectores con alta proporción de complementos salariales.\n\nLa cuestión es que hasta ahora el Tribunal Supremo había reconocido en varias sentencias la posibilidad de absorber o compensar pluses salariales si el salario de la persona trabajadora superaba el SMI.\n\nHabrá que esperar para ver cómo evoluciona la medida. De momento, te dejamos más información sobre las sentencias más relevantes del Tribunal Supremo sobre compensación de pluses y SMI, a continuación.\n\n¿Las empresas pueden subir el SMI absorbiendo los pluses de antigüedad?\n\nTras una sentencia del Tribunal Supremo de 26 de enero de 2022 este avaló que las empresas pudiesen subir el SMI en 2022 absorbiendo los pluses de antigüedad.\n\nAsí se complementaba el sueldo del trabajador para llegar al SMI vigente en 2022 de 1.000 euros al mes.\n\nEs decir, esta sentencia indica que la cuantía que se percibe por el complemento de antigüedad forma parte del salario y, por tanto, se incluirá dentro de ese salario en consonancia con el aumento del SMI.\n\nTe contamos con más detalle el caso: el Tribunal Superior de Justicia de Cataluña falló a favor de la Associació Empresarial D`Economía Social y consideró que la subida del SMI podía realizarse sumando los trienios que cumplieran los trabajadores.\n\nSegún el Tribunal Supremo si un trabajador cobra un salario base inferior al SMI, pero percibe un complemento de antigüedad que hace que el salario sea superior al SMI, ya estaría compensada dicha subida.\n\nNo se procedería a un aumento del salario, sino que el incremento del salario tras la subida del SMI saldría del dinero extra que recibe el empleado por su antigüedad.\n\nLos complementos de antigüedad no se suman al salario, sino que ya estarán incluidos dentro del salario a percibir por el trabajo, salvo que el convenio diga lo contrario.\n\nLas empresas, por tanto, podrían adaptarse a las subidas progresivas del SMI a través de los complementos de antigüedad.\n\nAsimismo, encontramos la sentencia Rec. 169/2019 que extiende esa situación a todos los complementos salariales.\n\n¿Se puede compensar la subida del SMI con las percepciones extrasalariales?\n\nPor su parte, la sentencia Rec. 60/2020 indica que quedan excluidas las percepciones extrasalariales.\n\nEs decir, no se va a poder compensar el incremento del SMI con complementos que sean de naturaleza extrasalarial.\n\nAdemás, si una persona trabajadora realiza horas extras complementarias la cuantía del SMI no va a influir en su cobro.\n\nEl SMI hace referencia a la jornada ordinaria de una persona empleada. Si esa persona realiza horas extra deberán ser abonadas de manera adicional.\n\nLo mismo ocurre con la nocturnidad. La cuantía a percibir por realizar horas en horario nocturno debe quedar determinada en el convenio colectivo y requerirá un abono específico, independiente al SMI.\n\nSalvo que por la propia naturaleza de la actividad se acuerde la compensación de la nocturnidad con descansos.\n\n¿Qué complementos pueden usar los autónomos para aumentar el sueldo de sus empleados y alcanzar el SMI? Una pregunta común entre los autónomos es la siguiente: ¿Cómo ajustar el salario al SMI vigente y qué opciones tienen para lograrlo? Es importante tener en cuenta que los complementos salariales son clave para lograr este objetivo. Por ejemplo, como comentamos, el plus de antigüedad es un complemento que se suma al salario base y ayuda a alcanzar el SMI. Sin embargo, es crucial realizar un cálculo anual para asegurarse de que la persona trabajadora alcance efectivamente el SMI. Esto se debe a que algunos complementos pueden variar de mes a mes, lo que significa que habrá meses en los que se reciba más y otros en los que se reciba menos. Es importante destacar que los complementos extrasalariales no pueden utilizarse para compensar la subida del SMI. Estos complementos no forman parte del salario y no pueden absorberse para cumplir con los requisitos del SMI. En resumen, los complementos salariales, como el plus de antigüedad, son esenciales para ajustar el salario al SMI, pero es crucial realizar un seguimiento anual y comprender que los complementos extrasalariales no pueden utilizarse para este fin.\n\nEl Supremo ratifica que la subida del SMI no anula los convenios ya firmados\n\nComo te comentábamos el Gobierno plantea una reforma para limitar la posibilidad de que las empresas compensen los complementos salariales con la subida del SMI.\n\nNo obstante, el Tribunal Supremo ha desestimado un recurso del Ministerio de Trabajo, que cuestionaba las tablas salariales del Convenio Colectivo de la Industria Textil y de la Confección de 2023.\n\nEl Ministerio alegaba que algunas categorías quedaban por debajo del SMI.\n\nSin embargo, tanto la Audiencia Nacional como el Supremo consideran que el SMI debe calcularse de forma global y anual, incluyendo todos los conceptos salariales (salario base + complementos), y no solo el salario base .\n\n. El Supremo recalca que un convenio firmado antes de la subida del SMI no se vuelve ilegal por esa subida posterior, siempre que en la práctica se cumpla con el mínimo legal.\n\nPese a ello, Trabajo insiste en limitar la absorción de pluses en el SMI.\n\nPara ello, plantean modificar el real decreto que regula el SMI prohibiendo expresamente que las empresas puedan compensar o absorber las subidas con otros conceptos retributivos.\n\nEste cambio se aprobaría por vía reglamentaria, sin necesidad de pasar por el Parlamento, y supondría un giro frente a la práctica actual avalada en varias sentencias que permite a las empresas integrar complementos, como el de antigüedad para alcanzar el SMI.\n\nCon esta medida Trabajo busca que las futuras subidas del salario mínimo tengan un efecto real en la nómina de las personas trabajadoras blindando que lleguen íntegras y no se diluyan con otros pluses.\n\nNo es posible impugnar un convenio sin demostrar con claridad qué categorías incumplen el SMI.",
+                                        "metadata": {
+                                            "url": "https://www.grupo2000.es/asi-sera-tu-nomina-en-2020-tras-congelarse-el-salario-minimo/",
+                                            "source": "www.grupo2000.es",
+                                            "favicon": "https://www.grupo2000.es/wp-content/uploads/2025/05/cropped-isotipo_grupo2000-32x32.png",
+                                            "title": "SMI en 2025: el Salario Mínimo Interprofesional está fijado ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.grupo2000.es",
+                                            "snippet": "El SMI anual en 2025 no puede ser inferior a 16.576 euros brutos anuales, lo que corresponde a 1.184 euros mensuales en 14 pagas. ¿Cuál es el SMI por día? El ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las y los integrantes del Consejo determinaron que a partir del 1 de enero del próximo año el salario mínimo general se incremente de 248.93 a 278.80 pesos diarios y que el salario mínimo de la Zona Libre de la Frontera Norte (ZLFN) se incremente de 374.89 a 419.88 pesos diarios.\n\nAsimismo, los salarios mínimos profesionales del listado integrado por 61 profesiones, oficios y trabajos especiales se incrementarán en 12%.\n\nConsulta la tabla de salarios mínimos generales y profesionales para 2025\n\nEl aumento de los salarios mínimos generales se integra a partir del salario mínimo vigente en 2024, más la suma de un Monto Independiente de Recuperación (MIR) de 19.36 pesos para la ZLFN y de 12.85 pesos para la Zona del Salario Mínimo General, y un incremento por fijación de 6.5%.\n\nEl MIR, que se aplicó por primera vez en la fijación de los salarios mínimos vigentes en 2017, es un mecanismo cuya única finalidad es la recuperación del poder adquisitivo de los salarios mínimos, y es una cantidad absoluta en pesos, que no debe ser utilizada como referente para fijar otros salarios vigentes como los contractuales, federales, estatales, ni municipales.",
+                                        "metadata": {
+                                            "url": "https://www.gob.mx/conasami/articulos/incremento-a-los-salarios-minimos-para-2025",
+                                            "source": "www.gob.mx",
+                                            "favicon": "https://framework-gb.cdn.gob.mx/applications/cms/favicon.png",
+                                            "title": "Incremento a los Salarios Mínimos para 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.gob.mx",
+                                            "snippet": "Asimismo, los salarios mínimos profesionales del listado integrado por 61 profesiones, oficios y trabajos especiales se incrementarán en 12%."
+                                        }
+                                    },
+                                    {
+                                        "text": "En cumplimiento del mandato al Gobierno para fijar anualmente el salario mínimo interprofesional, contenido en el artículo 27.1 del texto refundido de la Ley del Estatuto de los Trabajadores aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, se procede mediante este real decreto a establecer las cuantías que deberán regir a partir del 1 de enero de 2019, tanto para los trabajadores fijos como para los eventuales o temporeros, así como para los empleados de hogar.\n\nLas nuevas cuantías, que representan un incremento del 22,3 por ciento respecto de las vigentes entre el 1 de enero y el 31 de diciembre de 2018, son el resultado de tomar en consideración de forma conjunta todos los factores contemplados en el citado artículo 27.1 del texto refundido de la Ley del Estatuto de los Trabajadores.\n\nEl citado incremento atiende a la mejora de las condiciones generales de la economía y tiene como objetivo prevenir la pobreza en el trabajo y fomentar un crecimiento salarial general más dinámico. Para ello y en línea con las recomendaciones internacionales, para garantizar el ejercicio efectivo del derecho a una remuneración equitativa y reconocer el derecho de los trabajadores a una remuneración suficiente que les proporcione a ellos y a sus familias un nivel de vida decoroso, el Comité Europeo de Derechos Sociales ha interpretado que dicho umbral se sitúa en el 60 % del salario medio de los trabajadores. Elevar el salario mínimo interprofesional a 900 euros mensuales nos acerca a dicha recomendación.\n\nPor último, la subida del salario mínimo interprofesional es un factor decisivo para que la creación de empleo y la recuperación económica se traduzcan en una progresiva reducción real de la pobreza en todas sus dimensiones y de la desigualdad salarial, ayudando a promover un crecimiento económico sostenido, sostenible e inclusivo, con lo que España contribuye al cumplimiento de la Agenda 2030, en particular de las Metas 1.2 y 10.4 de los Objetivos de Desarrollo Sostenible.\n\nEste real decreto ha sido consultado a las organizaciones sindicales y asociaciones empresariales más representativas.\n\nEn su virtud, a propuesta de la Ministra de Trabajo, Migraciones y Seguridad Social, y previa deliberación del Consejo de Ministros en su reunión del día 21 de diciembre de 2018,\n\nDISPONGO:\n\nArtículo 1. Cuantía del salario mínimo interprofesional.\n\nEl salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de los trabajadores, queda fijado en 30 euros/día o 900 euros/mes, según que el salario esté fijado por días o por meses.\n\nEn el salario mínimo se computa únicamente la retribución en dinero, sin que el salario en especie pueda, en ningún caso, dar lugar a la minoración de la cuantía íntegra en dinero de aquel.\n\nEste salario se entiende referido a la jornada legal de trabajo en cada actividad, sin incluir en el caso del salario diario la parte proporcional de los domingos y festivos. Si se realizase jornada inferior se percibirá a prorrata.\n\nPara la aplicación en cómputo anual del salario mínimo se tendrán en cuenta las reglas sobre compensación que se establecen en los artículos siguientes.\n\nArtículo 2. Complementos salariales.\n\nAl salario mínimo consignado en el artículo 1 se adicionarán, sirviendo el mismo como módulo, en su caso, y según lo establecido en los convenios colectivos y contratos de trabajo, los complementos salariales a que se refiere el artículo 26.3 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, así como el importe correspondiente al incremento garantizado sobre el salario a tiempo en la remuneración a prima o con incentivo a la producción.\n\nArtículo 3. Compensación y absorción.\n\nA efectos de aplicar el último párrafo del artículo 27.1 del texto refundido de la Ley del Estatuto de los Trabajadores, en cuanto a compensación y absorción en cómputo anual por los salarios profesionales del incremento del salario mínimo interprofesional, se procederá de la forma siguiente:\n\n1. La revisión del salario mínimo interprofesional establecida en este real decreto no afectará a la estructura ni a la cuantía de los salarios profesionales que viniesen percibiendo los trabajadores cuando tales salarios en su conjunto y en cómputo anual fuesen superiores a dicho salario mínimo.\n\nA tales efectos, el salario mínimo en cómputo anual que se tomará como término de comparación será el resultado de adicionar al salario mínimo fijado en el artículo 1 de este real decreto los devengos a que se refiere el artículo 2, sin que en ningún caso pueda considerarse una cuantía anual inferior a 12.600 euros.\n\n2. Estas percepciones son compensables con los ingresos que por todos los conceptos viniesen percibiendo los trabajadores en cómputo anual y jornada completa con arreglo a normas legales o convencionales, laudos arbitrales y contratos individuales de trabajo en vigor en la fecha de promulgación de este real decreto.\n\n3. Las normas legales o convencionales y los laudos arbitrales que se encuentren en vigor en la fecha de promulgación de este real decreto subsistirán en sus propios términos, sin más modificación que la que fuese necesaria para asegurar la percepción de las cantidades en cómputo anual que resulten de la aplicación del apartado 1 de este artículo, debiendo, en consecuencia, ser incrementados los salarios profesionales inferiores al indicado total anual en la cuantía necesaria para equipararse a este.\n\nArtículo 4. Trabajadores eventuales y temporeros y empleados de hogar.\n\n1. Los trabajadores eventuales y temporeros cuyos servicios a una misma empresa no excedan de ciento veinte días percibirán, conjuntamente con el salario mínimo a que se refiere el artículo 1, la parte proporcional de la retribución de los domingos y festivos, así como de las dos gratificaciones extraordinarias a que, como mínimo, tiene derecho todo trabajador, correspondientes al salario de treinta días en cada una de ellas, sin que la cuantía del salario profesional pueda resultar inferior a 42,62 euros por jornada legal en la actividad.\n\nEn lo que respecta a la retribución de las vacaciones de los trabajadores a que se refiere este artículo, dichos trabajadores percibirán conjuntamente con el salario mínimo interprofesional fijado en el artículo 1, la parte proporcional de este correspondiente a las vacaciones legales mínimas en los supuestos en que no existiera coincidencia entre el periodo de disfrute de las vacaciones y el tiempo de vigencia del contrato. En los demás casos, la retribución del periodo de vacaciones se efectuará de acuerdo con el artículo 38 del texto refundido de la Ley del Estatuto de los Trabajadores y demás normas de aplicación.\n\n2. De acuerdo con el artículo 8.5 del Real Decreto 1620/2011, de 14 de noviembre, por el que se regula la relación laboral de carácter especial del servicio del hogar familiar, que toma como referencia para la determinación del salario mínimo de los empleados de hogar que trabajen por horas, en régimen externo, el fijado para los trabajadores eventuales y temporeros y que incluye todos los conceptos retributivos, el salario mínimo de dichos empleados de hogar será de 7,04 euros por hora efectivamente trabajada.\n\n3. En las cuantías del salario mínimo por días u horas fijadas en los apartados anteriores se computa únicamente la retribución en dinero, sin que el salario en especie pueda, en ningún caso, dar lugar a la minoración de la cuantía íntegra en dinero de aquellas.\n\nDisposición transitoria única. Reglas de afectación de las nuevas cuantías del salario mínimo interprofesional a las referencias contenidas en normas no estatales y relaciones privadas.\n\n1. Siempre que exista una habilitación legal expresa y, dado el carácter excepcional del incremento establecido por este real decreto, las nuevas cuantías del salario mínimo interprofesional que se establecen no serán de aplicación:\n\na) A las normas vigentes a la fecha de entrada en vigor de este real decreto de las comunidades autónomas, de las ciudades de Ceuta y Melilla y de las entidades que integran la Administración local que utilicen el salario mínimo interprofesional como indicador o referencia del nivel de renta para determinar la cuantía de determinadas prestaciones o para acceder a determinadas prestaciones, beneficios o servicios públicos, salvo disposición expresa en contrario de las propias comunidades autónomas, de las ciudades de Ceuta y Melilla o de las entidades que integran la Administración local.\n\nb) A cualesquiera contratos y pactos de naturaleza privada vigentes a la fecha de entrada en vigor de este real decreto que utilicen el salario mínimo interprofesional como referencia a cualquier efecto, salvo que las partes acuerden la aplicación de las nuevas cuantías del salario mínimo interprofesional.\n\n2. En los supuestos a que se refiere el apartado anterior, salvo disposición o acuerdo en contrario, la cuantía del salario mínimo interprofesional se entenderá referida durante 2019 a:\n\na) Las establecidas en el Real Decreto 1171/2015, de 29 de diciembre, incrementadas en el mismo porcentaje en que se incremente el indicador público de renta de efectos múltiples (IPREM) para 2019, respecto de las normas no estatales y contratos de naturaleza privada que estuvieran también vigentes a 1 de enero del 2017.\n\nb) Las establecidas en el Real Decreto 742/2016, de 30 de diciembre incrementadas en el mismo porcentaje en que se incremente el IPREM para 2019, respecto de las normas no estatales y contratos de naturaleza privada que entraron en vigor o se celebraron después del 1 de enero de 2017 y que estaban vigentes el 1 de enero del 2018.\n\nc) Las establecidas en el Real Decreto 1077/2017, de 29 de diciembre, por el que se fija el salario mínimo interprofesional para 2018, respecto de las normas no estatales y contratos de naturaleza privada que entraron en vigor o se celebraron después del 1 de enero de 2018 y vigentes a la fecha de entrada en vigor del presente real decreto.\n\n3. Lo dispuesto en los apartados anteriores se entiende sin perjuicio de que deban ser modificados los salarios establecidos en contratos o pactos de naturaleza privada inferiores en su conjunto y en cómputo anual a las cuantías del salario mínimo interprofesional que se establecen para 2019 en el presente real decreto en la cuantía necesaria para asegurar la percepción de dichas cuantías, siendo de aplicación las reglas sobre compensación y absorción que se establecen en el artículo 3.\n\nDisposición final primera. Habilitación para la aplicación y desarrollo.\n\nSe autoriza a la Ministra de Trabajo, Migraciones y Seguridad Social para dictar las disposiciones de aplicación y desarrollo de este real decreto.\n\nDisposición final segunda. Entrada en vigor y periodo de vigencia.\n\nEste real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y surtirá efectos durante el período comprendido entre el 1 de enero y el 31 de diciembre de 2019, procediendo, en consecuencia, el abono del salario mínimo en el mismo establecido con efectos del 1 de enero de 2019.\n\nDado en Madrid, el 21 de diciembre de 2018.\n\nFELIPE R.\n\nLa Ministra de Trabajo, Migraciones y Seguridad Social,\n\nMAGDALENA VALERIO CORDERO",
+                                        "metadata": {
+                                            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-17773",
+                                            "source": "www.boe.es",
+                                            "favicon": "https://www.boe.es/favicon.ico",
+                                            "title": "BOE-A-2018-17773 Real Decreto 1462/2018, de 21 de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.boe.es",
+                                            "snippet": "El salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Real Decreto 1077/2017, de 29 de diciembre, por el que se fija el salario mínimo interprofesional para 2018.\n\nEl salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de los trabajadores, queda fijado en 24,53 euros/día o 735,9 euros/mes, según que el salario esté fijado por días o por meses. En ningún caso puede considerarse una cuantía anual inferior a 10.302,6 euros. (735,9 € x 14 pagas).\n\nLos trabajadores eventuales y temporeros cuyos servicios a una misma empresa no excedan de ciento veinte días percibirán, conjuntamente con el salario mínimo, la parte proporcional de la retribución de los domingos y festivos, así como de las dos gratificaciones extraordinarias a que, como mínimo, tiene derecho todo trabajador, correspondientes al salario de treinta días en cada una de ellas, sin que en ningún caso la cuantía del salario profesional pueda resultar inferior a 34,85 euros por jornada legal en la actividad.\n\nDe acuerdo con el artículo 8.5 del Real Decreto 1620/2011, de 14 de noviembre, por el que se regula la relación laboral de carácter especial del servicio del hogar familiar, que toma como referencia para la determinación del salario mínimo de los empleados de hogar que trabajen por horas, en régimen externo, el fijado para los trabajadores eventuales y temporeros y que incluye todos los conceptos retributivos, el salario mínimo de dichos empleados de hogar será de 5,76 euros por hora efectivamente trabajada.\n\nPara más información, ver BOE",
+                                        "metadata": {
+                                            "url": "https://dgte.cantabria.es/-/salario-minimo-interprofesional-para-2018",
+                                            "source": "dgte.cantabria.es",
+                                            "favicon": "https://dgte.cantabria.es/o/dgte-theme/images/favicon.ico",
+                                            "title": "Salario mínimo interprofesional para 2018",
+                                            "type": "web_search",
+                                            "base_url": "https://dgte.cantabria.es",
+                                            "snippet": "En ningún caso puede considerarse una cuantía anual inferior a 10.302,6 euros. (735,9 € x 14 pagas). Los trabajadores eventuales y temporeros cuyos servicios a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Les informamos que el pasado día 30 diciembre 2017, se publicó en el BOE, el Real Decreto 1077/2017 de 29 de diciembre, por el que se fija el Salario Mínimo Interprofesional para el año 2018, quedando establecido en las siguientes cuantías:\n\nImporte diario: 24,53 euros.\n\nImporte mensual: 735,90 euros.\n\nImporte anual: 10.302,60 euros.\n\nEsta subida salarial se ha establecido en base al acuerdo social alcanzado entre sindicatos y patronal el pasado 26 de diciembre en el Palacio de La Moncloa y que ha establecido las subidas salariales para los próximos tres años.\n\nPara el año 2019 la subida del SMI prevista es de un 5%, resultando 773 euros al mes en 14 pagas y 10.819 euros al año.\n\nPara el año 2020 la subida será del 10% alcanzando así los 850 euros al mes en 14 pagas y 11.901 euros al año.\n\nEste acuerdo de subida salarial persigue:\n\nReducir la brecha salarial entre hombres y mujeres, además de otros colectivos en riesgo de exclusión. La cohesión del mercado de trabajo y un reparto más equitativo de la renta. La mejora de la calidad en le trabajo. El impulso del consumo. El aumento de los ingresos a la Seguridad Social a través de unas mayores cotizaciones.\n\nFuente: La Viña Hostelería",
+                                        "metadata": {
+                                            "url": "https://www.jenasa.com/fiscal-laboral-y-contable/salario-minimo-interprofesional-para-2018-fijado-en-73590-e/",
+                                            "source": "www.jenasa.com",
+                                            "favicon": "https://www.jenasa.com/wp-content/uploads/2016/01/cropped-Captura-de-pantalla-2016-01-31-a-las-12.30.48-32x32.png",
+                                            "title": "Salario Mínimo Interprofesional para 2018 fijado en 735,90",
+                                            "type": "web_search",
+                                            "base_url": "https://www.jenasa.com",
+                                            "snippet": "Salario Mínimo Interprofesional para 2018 fijado en 735,90 € · Importe diario: 24,53 euros. · Importe mensual: 735,90 euros. · Importe anual: ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En la misma fecha se ha publicado también el Real Decreto-ley 20/2017, de 29 de diciembre, por el que se prorrogan y aprueban diversas medidas tributarias y otras medidas urgentes en materia social, el cual prevé incrementos del 5% y del 10% para los años 2019 y 2020, respectivamente, aunque la materialización de lo acordado por el Gobierno y los interlocutores sociales se sujeta a que la economía registre un crecimiento del PIB real del 2,5% o superior y un incremento de la afiliación media a la Seguridad Social superior a las 450.000 personas, todo ello en términos interanuales. De este modo, de cumplirse dichos requisitos, en 2019 el salario mínimo interprofesional quedaría fijado en 772,80 €/mes y 25,76 €/día, mientras que en 2020 el importe sería de 850,08 €/mes y 28,34 €/día.\n\nPor otro lado, se ha publicado también el Real Decreto 1079/2017, de 29 de diciembre, sobre revalorización de pensiones de clases pasivas, de las pensiones del sistema de la Seguridad Social y de otras prestaciones sociales públicas para el ejercicio 2018 que, entre otros aspectos, establece con carácter general un incremento del 0,25% en las pensiones y otras prestaciones públicas.\n\nA través de los siguientes enlaces se puede acceder a las normas anteriormente indicadas:\n\nhttps://www.boe.es/boe/dias/2017/12/30/pdfs/BOE-A-2017-15836.pdf\n\nhttps://www.boe.es/boe/dias/2017/12/30/pdfs/BOE-A-2017-15848.pdf",
+                                        "metadata": {
+                                            "url": "https://www.garrigues.com/es_ES/noticia/publicado-el-salario-minimo-interprofesional-para-el-ano-2018-asi-como-la-revalorizacion-de",
+                                            "source": "www.garrigues.com",
+                                            "favicon": "https://www.garrigues.com/themes/custom/garriguestheme/img/imagenes/favicon.png",
+                                            "title": "Publicado el Salario Mínimo Interprofesional para el año ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.garrigues.com",
+                                            "snippet": "De este modo, de cumplirse dichos requisitos, en 2019 el salario mínimo interprofesional quedaría fijado en 772,80 €/mes y 25,76 €/día, mientras ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los últimos ajustes en los salarios mínimos de México y Chile fueron destacados por una experta de la Organización Internacional del Trabajo (OIT) porque, en el primer caso, significa una recuperación del poder adquisitivo del 110 por ciento y, en el segundo, incluye la reducción de la jornada de trabajo.\n\nLa coordinadora del informe Panorama Laboral 2023, Roxana Maurizio, explicó en rueda de prensa virtual que “el último ajuste acordado para salarios mínimos (de México) es del 20 por ciento para 2024” y que, con esa medida, “el poder adquisitivo se recupera en 110 por ciento”.\n\nEste ajuste del salario mínimo “es uno de los mayores crecimientos entre los países de la OCDE (Organización para la Cooperación y el Desarrollo Económicos)” con relación a los salarios mínimos de la región que están cayendo, anotó Maurizio.\n\nLa experta agregó que era de “destacar los avances en mejora de salario mínimo y reducción de la jornada de trabajo en 2024”, anunciados por Chile.\n\nEl Panorama Laboral 2023 reveló que en 6 de 17 países de la región, el valor del salario mínimo fue menor que en 2019, y que solo en ocho países el valor real es significativamente más elevado que en aquel año.\n\nMaurizio añadió que Chile es un “caso particular” porque no ha recuperado completamente la tasa de participación y de ocupación laboral prepandemia, “pero la tasa de informalidad es una de las más bajas de la región”, pues Latinoamérica y el Caribe tienen un promedio de 48 % de informalidad.\n\nAdemás, en el caso de Chile se ha ralentizado el ingreso de jóvenes al mercado laboral porque ha incrementado el número de éstos en los centros de estudios a raíz de una “mayor implementación de la gratuidad de la educación técnica y universitaria”, señaló Maurizio.\n\nEn el caso de Argentina, la coordinadora del informe indicó que se proyecta una caída en el nivel de actividad económica de 2.5 por ciento en este año y otra probable contracción para el 2024, lo cual provoca “un desafío importante en la generación de empleo formal”.\n\n“Habrá que mirar con la dinámica del tipo de cambio real cómo derivan esos impactos (…) en la generación de empleo”, expresó Maurizio.\n\nDurante la presentación del Panorama Laboral 2023, la directora regional de la oficina de OIT para América Latina y Caribe, Claudia Coenjaerts, alertó que hay persistencia de la informalidad laboral (48 por ciento en promedio), que en algunos países supera el 70 por ciento, y que “no se han visto reducciones en los años de mayor crecimiento” en esa tasa.\n\nEn tanto, la tasa de participación de las mujeres es de 51 por ciento, frente a la de los hombres que es 74 por ciento, lo cual responde a que llevan una mayor carga de cuidado doméstico, que no siempre permite la participación de las mujeres en el mercado laboral, indicó.\n\nPor su parte, los jóvenes de la región regresaron más rápido al mercado laboral, pero sufren del 58 por ciento de informalidad y un 14.4 por ciento de ocupación laboral.\n\nSobre los retos del sector, la directora regional resaltó la necesidad de aumentar la productividad y la cobertura de protección social, la creación de empleos formales, fortalecer el diálogo social y dar empleos a quienes más lo necesitan.\n\n“Nos enfrentamos a un escenario complejo, que exige elaborar políticas audaces”, comentó.\n\nCon información de EFE",
+                                        "metadata": {
+                                            "url": "https://lopezdoriga.com/economia-y-finanzas/oit-aplaude-aumento-al-salario-minimo-en-mexico-recupera-poder-adquisitivo-resalta/",
+                                            "source": "lopezdoriga.com",
+                                            "favicon": "https://lopezdoriga.com/wp-content/themes/lopezd-theme/dist/images/icons/apple-touch-icon-57x57.png",
+                                            "title": "OIT aplaude aumento al salario mínimo en México",
+                                            "type": "web_search",
+                                            "base_url": "https://lopezdoriga.com",
+                                            "snippet": "La OIT define que ajuste del salario mínimo en México \"es uno de los mayores crecimientos entre los países de la OCDE\""
+                                        }
+                                    },
+                                    {
+                                        "text": "Bloomberg Línea hace una recopilación sobre cómo es el esquema de negociación del salario mínimo para 2026 en los principales mercados de Latinoamérica.\n\nSalario mínimo para 2026 en Latinoamérica: así son las negociaciones para acordar nuevo valor.Foto referencial de pesos mexicanos.(Mauricio Palos)\n\nBloomberg Línea — Los cálculos para definir el salario mínimo de 2026 están por iniciarse en países como Brasil y Colombia, en tanto que otros como Argentina o Chile han acordado ajustes progresivos al valor.\n\nEn Brasil, el Gobierno propuso que el salario mínimo aumente desde los R$1.518 actuales (unos US$281,8 de hoy) a R$1.631 (US$302) el próximo año, de acuerdo al Proyecto de Ley de Presupuesto Anual (PLOA) que presentó al Congreso en agosto.\n\nPUBLICIDAD\n\nLa cifra definitiva del aumento del salario mínimo en Brasil solo se conocerá en diciembre próximo, cuando se divulgue el INPC (Índice Nacional de Precios al Consumidor) de noviembre, que es una cifra base para la definición.\n\nVer más: Estos son los países de Latinoamérica más endeudados con el FMI a octubre 2025\n\nSalario mínimo en BrasilUn empleado del Banco Central de Brasil muestra los nuevos billetes de real tras una rueda de prensa en Brasilia, Brasil, el lunes 13 de diciembre de 2010.(Bloomberg/Adriano Machado)\n\nEn agosto del 2024, el presidente brasileño, Luiz Inácio Lula da Silva, sancionó la ley que garantiza el aumento permanente del salario mínimo a partir de 2024, ajustándose con base en la inflación anual (tal y como lo dicta la Constitución del país) más la variación positiva del producto interior bruto (PIB).\n\nPUBLICIDAD\n\nYa en 2024, Lula sancionó una ley que limita el crecimiento del salario mínimo con un techo del 2,5 % por encima de la inflación hasta 2030.\n\nEn el gigante sudamericano, el salario mínimo sirve como referencia para el ajuste de las pensiones y otras prestaciones. Asimismo, tiene impacto indirecto en el salario promedio y en el poder adquisitivo del país.\n\nDe acuerdo a cifra del Departamento Interunitario de Estadística y Estudios Socioeconómicos (Diesese), unas 59,9 millones de personas en Brasil tienen como referencia el salario mínimo.\n\nSalario mínimo en Colombia\n\nEn Colombia se tiene previsto que a partir de la primera semana de noviembre se instalarán las sesiones para empezar a discutir el incremento del salario mínimo, adelantó el ministro de Trabajo colombiano, Antonio Sanguino.\n\nEn ese país sudamericano, el salario mínimo se negocia en la Comisión Permanente de Concertación de Políticas Salariales y Laborales, en la que participan el Gobierno, las centrales de trabajadores y los representantes de los gremios empresariales.\n\nSalario mínimo en Colombia.Peso colombiano.(Shutterstock)\n\nEl salario mínimo de 2026 en Colombia se acordará a partir de criterios como la meta de inflación del año siguiente fijada por la Junta del Banco de la República y la productividad acordada por el comité tripartito de productividad que coordina el Ministerio de Trabajo y Seguridad Social.\n\nTambién se consideran en las discusiones la contribución de los salarios al ingreso nacional, el incremento del producto interno bruto (PIB)y el Índice de precios al consumidor (IPC).\n\nEl salario mínimo en Colombia se ubica en la actualidad en los COP$1.423.500 (unos US$367), sin auxilio de transporte, tras un incremento de 9,54% para este 2025.\n\nAjustes en Argentina y Chile\n\nEn Argentina, el Gobierno decretó aumentos escalonados al Salario Mínimo Vital y Móvil (SMVM), por lo que desde agosto pasó a ARS$322.000 para mensualizados y ARS$1.610 por hora para jornalizados.\n\nLuego de que el Consejo del Salario y las cámaras empresariales no lograron consensuar una cifra de aumento, el Ejecutivo optó por avanzar por decreto, como ya lo había hecho en ocasiones anteriores desde el inicio de su gestión.\n\nLa actualización del salario mínimo en Argentina tiene un impacto directo en el cálculo de distintos beneficios sociales y laborales, como de la Asignación Universal por Hijo, becas y programas de empleo.\n\nSalario mínimo en ArgentinaPesos argentinos(Bloomberg/Tomas Cuesta)\n\nVer más: Así quedó el monto del Salario Mínimo, Vital y Móvil para 2025\n\nDe otra parte, en Chile el Congreso aprobó incrementar el Ingreso Mensual Mínimo (IMM) desde los CLP$510.000 a CLP$529.000 (de US$541 a US$561) para los trabajadores (desde el 1 de mayo).\n\nEn una segunda etapa, el salario mínimo subirá a CLP$539.000 a partir del 1 de enero de 2026 (US$611).\n\nEl bufete de abogados Garrigues ha explicado a Bloomberg Línea que el salario mínimo en Chile se establece por Ley, debiendo iniciarse su tramitación mediante un mensaje (presentación del proyecto) por parte del presidente de la República.\n\nPosteriormente, de acuerdo a esa fuente, debe ser aprobado por la cámara de Diputados y el Senado.\n\nMás allá de la tramitación constitucional, suelen participar en el debate los representantes de los trabajadores (Central Unitaria de Trabajadores) y de los gremios empresariales, tanto de pymes como grandes empresas.\n\nExpectativa por el salario mínimo en México\n\nGarrigues explica a Bloomberg Línea que los incrementos al salario mínimo en México se fijan anualmente por la Comisión Nacional de los Salarios Mínimos (Conasami), integrada por los representantes de los trabajadores, los patrones y el Gobierno.\n\nLos montos se fijan teniendo en cuenta las condiciones generales de la economía del país, los principales cambios observados en la evolución de las actividades económicas y las variaciones en el costo de vida de las familias.\n\nTambién se tiene en cuenta el impacto de la fijación de los salarios mínimos que entraron en vigor el año inmediato anterior sobre el empleo y la estructura salarial.\n\nUna particularidad importante en el caso mexicano es que el salario mínimo no se encuentra completamente unificado en todo el país, de acuerdo con Ley Federal del Trabajo.\n\nEn México existe un salario mínimo general, aplicable en razón del área geográfica en donde la persona trabajadora preste sus servicios subordinados y un salario mínimo profesional, aplicable a las personas trabajadoras de las ramas de actividades económicas, profesionales, oficios, o trabajos especiales que se determinan dentro de una o varias zonas geográficas de aplicación.\n\nSalario mínimo en MéxicoPeso mexicano(Bloomberg/Mauricio Palos)\n\nDe acuerdo a Garrigues, existen dos áreas geográficas principales para la aplicación del salario mínimo.\n\nLa primera es la Zona Libre de la Frontera Norte (ZLFN), que comprende los municipios fronterizos con Estados Unidos y tiene el salario más alto por su mayor costo de vida, y el resto del país, que incluye el resto de los municipios y las demarcaciones territoriales de la Ciudad de México.\n\nLa Conasami acordó aumentar el salario mínimo a MXN$278,80 diarios para 2025 (unos US$15), el primer año del sexenio de Sheinbaum.\n\nLo anterior implicó un incremento al salario mínimo general de 12% para 2025, en el cual estuvieron de acuerdo los empresarios, sindicatos y Gobierno.\n\nSheinbaum dijo en su conferencia matutina del viernes 12 de septiembre que el objetivo que tiene en su sexenio es que en 2030 un salario mínimo alcance para comprar 2,5 canasta básicas. “Este es el objetivo y lo vamos a alcanzar”, afirmó. Con el salario mínimo vigente en 2025 -apuntó- alcanza para comprar 1,7 canastas básicas.\n\nSi se materializa un incremento de 12%, como lo ha manifestado Sheinbaum, el salario mínimo general rondaría los MXN$310 diarios para 2026 (unos US$16,7), de acuerdo con un cálculo de Bloomberg Línea.\n\nVer más: https://www.bloomberglinea.com/latinoamerica/mexico/cuanto-aumentara-el-salario-minimo-en-2026-esto-preve-sheinbaum/\n\nPerú, en medio de la transición política\n\nSalario mínimo en Perú.Imagen del sol peruano.(Bloomberg)\n\nPerú definirá un nuevo salario mínimo en medio de la transición política que afronta en la actualidad tras el cese de la presidenta Dina Boluarte por parte del Congreso.\n\nEl presidente del Congreso, José Jerí, tomó posesión como jefe de Estado y se comprometió a encabezar un gobierno de transición que asegure la celebración de las elecciones generales de 2026 conforme al calendario establecido.\n\nEn el país, la determinación del salario mínimo está a cargo del Ministerio de Trabajo y Promoción del Empleo, que deberá liderar y brindar las bases para la negociación.\n\nTambién lideran las discusiones los principales gremios empresariales y centrales sindicales, así como el Poder Ejecutivo, que se encarga de aprobar y determinar el salario mínimo luego del proceso de consulta.\n\nEl bufete de abogados de Garrigues señala que en Perú el salario mínimo (localmente llamado “Remuneración mínima vital”) es unificado, y por ende aplicable para todos los trabajadores sujetos al régimen laboral de la actividad privada.\n\nVer más: Perú registra crecimiento económico mayor al previsto y resiste la turbulencia política\n\n“En Perú, no existe una norma que establezca los factores a ser considerados para el establecimiento del salario mínimo. Por lo tanto, este monto no se encuentra sujeto a mecanismos de reajuste automático”, indicaron en una nota los abogados de Garrigues.\n\nSin perjuicio de ello, explican que se toman como referencia los lineamientos técnicos propuestos por el Consejo Nacional de Trabajo y Promoción del Empleo en el año 2007, a partir de los cuales el salario mínimo debe fijarse teniendo en cuenta la inflación subyacente proyectada y la variación porcentual de la productividad multifactorial.\n\nEn la actualidad, el salario mínimo en Perú se ubica en los S/1.130 o unos US$332.\n\nDefinición de los salarios mínimos más altos\n\nSalario mínimo en Costa RicaColones costarricenses.(Cortesía: Me Encanta Costa Rica)\n\nEn la región, los salarios mínimos más altos en la actualidad están en Uruguay y Costa Rica.\n\nEn Uruguay, los salarios mínimos se determinan mediante Convenios Colectivos negociados en los Consejos de Salarios, donde participan sindicatos, empleadores y el gobierno, según la firma de servicios profesionales Castellán.\n\nEstos consejos fijan los salarios, las categorías laborales, los incrementos y otros beneficios mediante negociación colectiva.\n\nDe acuerdo a información de la Organización Internacional del Trabajo (OIT), el Salario Mínimo Nacional (SMN) fue introducido en Uruguay a través del Decreto 1534/969 del 28 de noviembre de 1969.\n\nEn enero pasado, el Gobierno uruguayo anunció un incremento del 6% en el salario mínimo.\n\nDe esta forma, el piso a partir del cual se le puede pagar a un trabajador subió a UYU$23.604 (US$591).\n\nEn Costa Rica, de acuerdo a la OIT, el salario mínimo lo fija el Consejo Nacional de Salarios (CNS), un órgano técnico permanente, y se actualiza anualmente.\n\nEn el país centroamericano, el salario mínimo es “un derecho fundamental establecido en la Constitución”, subraya la OIT.\n\nEn Costa Rica, el Consejo Nacional de Salarios acordó el año pasado un ajuste del 2,37% general para los salarios mínimos del sector privado para el 2025. En el caso de los trabajadores en ocupación no calificada genérica es de CRC$367.108,55 (US$731).\n\nEsta semana, el Consejo Nacional de Salarios acordó un nuevo ajuste general de 1,63% en los salarios mínimos del sector privado para 2026.\n\nEl Ministerio de Trabajo y Seguridad Social detalló que este aumento entrará a regir el 1º de enero de 2026 y será de aplicación obligatoria para todos los patronos de país.\n\nVer más: Inclusión financiera en Latinoamérica mejora en 2025 con impulso de Argentina, Chile y Panamá",
+                                        "metadata": {
+                                            "url": "https://www.bloomberglinea.com/economia/salario-minimo-para-2026-en-latinoamerica-asi-se-negociara-el-nuevo-valor-de-ese-ingreso/",
+                                            "source": "www.bloomberglinea.com",
+                                            "favicon": "https://www.bloomberglinea.com/pf/resources/images/favicon.png?d=2190",
+                                            "title": "Salario mínimo para 2026 en Latinoamérica: así se negociará ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bloomberglinea.com",
+                                            "snippet": "La Conasami acordó aumentar el salario mínimo a MXN$278,80 diarios para 2025 (unos US$15), el primer año del sexenio de Sheinbaum. Lo anterior ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "México tuvo un favorable incremento en oportunidades laborales durante 2017, de acuerdo al Panorama Laboral 2017 de la Organización Internacional del Trabajo (OIT); sin embargo, pese a que el campo laboral en el país tuvo buenos resultados, el índice salarial se ubica en el último lugar de la tabla: hay trabajo pero con malos salarios.\n\nDe acuerdo con la medición de la OIT en México y Centroamérica los salarios tanto del sector público como privado y trabajadores domésticos es menor en comparación a países como Argentina, Chile o Uruguay sin dejar de señalar que recientemente en México se aprobó un aumento al salario mínimo pasando de 80.04 pesos a 88.36 que entró en vigor el primero de diciembre.\n\nEl Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) establece un mínimo de 97 pesos diarios para poder cubrir la línea de bienestar.",
+                                        "metadata": {
+                                            "url": "https://adnoticias.mx/mexico-mejoro-en-empleos-pero-no-en-salarios-oit-78123/amp/?nonamp=1/",
+                                            "source": "adnoticias.mx",
+                                            "favicon": "https://adnoticias.mx/wp-content/uploads/2024/04/ad2.svg",
+                                            "title": "México mejoró en empleos pero no en salarios: OIT",
+                                            "type": "web_search",
+                                            "base_url": "https://adnoticias.mx",
+                                            "snippet": "El Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) establece un mínimo de 97 pesos diarios para poder cubrir la línea de bienestar."
+                                        }
+                                    },
+                                    {
+                                        "text": "Recursos de expertos que informan e inspiran.\n\nDescubra por qué Statista es la elección de confianza para obtener datos e información fiables. Ofrecemos una plataforma todo en uno para simplificar la investigación y respaldar sus decisiones estratégicas. Más información\n\nStatista R identifica y premia a los líderes de diferentes industrias, a los mejores proveedores y a marcas excepcionales a través de exclusivos rankings y listados en colaboración con renombradas marcas de medios de comunicación de todo el mundo. Descubra más en nuestro sitio web.\n\nTransformando datos en marketing y diseño de contenidos\n\nEstrategia y desarrollo para una economía basada en datos\n\nServicio de investigación de mercado y análisis de datos\n\nStatista+ ofrece servicios adicionales que se adaptan a sus necesidades específicas. Somos su socio para el éxito, basado en datos, combinando la experiencia en investigación, estrategia y comunicaciones de marketing.\n\nAcceso directo a más de un millón de datos y a tendencias de 170 industrias en más de 150 países.\n\nEl portal de estadísticas\n\nInformación detallada sobre más de 39.000 tiendas y mercados online\n\nDatos sobre las actitudes y los comportamientos de los consumidores de todo el mundo\n\nPrevisiones de mercado y KPIs especializadas para más de 600 segmentos en más de 150 países\n\nAnuncio\n\nAnuncio\n\nDebe crear una cuenta de empleado para poder marcar estadísticas como favoritas. Luego puede acceder a sus estadísticas favoritas mediante la estrella en la cabecera. Regístrese\n\nEn estos momentos está usando una cuenta compartida. Para usar las funciones individuales (p. ej. agregar estadísticas a favoritos, colocar alertas estadísticas), por favor inicie la sesión con su cuenta personal. Si usted tiene cuenta administrativa, por favor autentifíquese iniciando una nueva sesión. Iniciar sesión\n\nAcceso a todas las estadísticas a partir de 2.388 € al año *\n\n* Solo para uso comercial Basic Account Para usuarios individuales 0 € Siempre gratis Inscribirse El acceso está limitado a las estadísticas gratuitas. No se incluyen las estadísticas premium. Estadísticas gratuitas En función de sus intereses Starter Account Para usuarios individuales 199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas\n\nEstadísticas premium Professional Account Hasta 5 personas 1.199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas y premium\n\nInformes\n\nMarket Insights Comparar cuentas\n\nAcceso a todas las estadísticas a partir de 2.388 € al año * * Solo para uso comercial Basic Account Para usuarios individuales 0 € Siempre gratis Inscribirse El acceso está limitado a las estadísticas gratuitas. No se incluyen las estadísticas premium. Estadísticas gratuitas En función de sus intereses Starter Account Para usuarios individuales 199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas\n\nEstadísticas premium Professional Account Hasta 5 personas 1.199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas y premium\n\nInformes\n\nMarket Insights Comparar cuentas Descubra cómo Statista puede ser útil para su empresa. Concertar webinar\n\nFMI. (octubre 15, 2024). Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 [Gráfica]. In Statista . Recuperado el 31 de octubre de 2025, de https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/\n\nFMI. \"Evolución anual de la tasa de inflación en México desde 2015 hasta 2029.\" Tabla. octubre 15, 2024. Statista. Acceso el 31 de octubre de 2025. https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/\n\nFMI. (2024). Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 . Statista . Statista GmbH. Accessed: octubre 31, 2025. https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/\n\nFMI. \"Evolución Anual De La Tasa De Inflación En México Desde 2015 Hasta 2029.\" Statista , Statista GmbH, 15 oct. 2024, https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/\n\nFMI, Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 Statista, https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/ (last visited 31 de octubre de 2025)\n\nEvolución anual de la tasa de inflación en México desde 2015 hasta 2029 [Gráfica], FMI, octubre 15, 2024. [En línea]. Disponible: https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/",
+                                        "metadata": {
+                                            "url": "https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/",
+                                            "source": "es.statista.com",
+                                            "favicon": "https://cdn.statcdn.com/static/favicon.svg",
+                                            "title": "Tasa de inflación en México hasta 2029",
+                                            "type": "web_search",
+                                            "base_url": "https://es.statista.com",
+                                            "snippet": "Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 ; 2025*, 3,79% ; 2024*, 4,68% ; 2023, 5,53% ; 2022, 7,9%."
+                                        }
+                                    },
+                                    {
+                                        "text": "El salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 mensuales. Este ajuste, aprobado por la Comisión Nacional de los Salarios Mínimos (Conasami), impactará a más de 8.9 millones de trabajadores en el país.\n\nEstos ajustes buscan proteger el poder adquisitivo de los trabajadores frente a la inflación y, al mismo tiempo, forman parte de una estrategia más amplia para mejorar las condiciones laborales en México.\n\nUn salario mínimo más alto contribuye a reducir la brecha salarial, fortalecer el bienestar económico de las familias y fomentar un mayor acceso a bienes y servicios esenciales. Además, el incremento puede impulsar el consumo interno y dinamizar la economía, beneficiando tanto a los trabajadores como a los sectores productivos del país.\n\nEn este artículo, te explicamos todo lo que debes saber sobre el aumento al salario mínimo en México en 2025, incluyendo los montos actualizados, su impacto en diferentes sectores y cómo afecta a empresas y colaboradores.\n\nTabla de contenidos\n\n¿Qué es el salario mínimo?\n\nEl salario mínimo en México es la remuneración económica mínima que debe recibir todo trabajador.\n\nEste mínimo está garantizado por la Ley Federal del Trabajo, ya que en su artículo 85 establece: “El salario debe ser remunerador y nunca menor al fijado como mínimo”. Esto quiere decir que ningún sueldo en México puede ser inferior a la cantidad establecida como salario mínimo.\n\nEl salario mínimo es la base sobre la que se fijan los sueldos, pero su propósito va más allá: garantizar que los colaborales reciban un ingreso suficiente para cubrir sus necesidades básicas y mantener una vida digna. Por esta razón, la ley prohíbe aplicar descuentos o retenciones sobre esta cantidad.\n\n¿Qué necesidades debe cubrir esta remuneración? Entre las principales, podemos reconocer:\n\nComida\n\nVivienda\n\nEducación para sus hijos.\n\nEl salario mínimo es un derecho fundamental de los colaborales y una obligación para los empleadores. Al establecer las compensaciones, las empresas deben asegurarse de que ningún sueldo sea inferior al salario mínimo vigente en 2025.\n\n👉 Aprende más: ¿Qué son los salarios caídos en México?\n\n¿Cuánto es el sueldo mínimo en México 2025?\n\nEl salario mínimo en México aumentará un 12% a partir del 1 de enero de 2025, un incremento que supera más de tres veces la inflación esperada. Así lo anunció la presidenta Claudia Sheinbaum al presentar la nueva cifra.\n\nCon este ajuste, el salario mínimo diario se establece en $278.80 pesos, lo que equivale a un ingreso mensual aproximado de $8,364 pesos.\n\nSegún Luis Felipe Munguía, presidente de la Comisión Nacional de los Salarios Mínimos (Conasami), este aumento beneficiará a 8.9 millones de empleados en el país.\n\n¿Cuál es el salario mínimo por hora?\n\nEn México, otra forma de medir el salario mínimo es por hora. Considerando una jornada laboral estándar de 8 horas, en 2025 el salario mínimo por hora será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte.\n\nSalario mínimo en México 2025 en la frontera\n\nEs importante recordar que, en México, el salario mínimo varía según la región, y una de las principales diferencias se encuentra en la Zona Libre de la Frontera Norte (ZLFN). Este esquema divide el país en dos categorías:\n\nSalario mínimo general : aplica en los 26 estados restantes del país.\n\nSalario mínimo en la ZLFN : aplica en municipios específicos de seis estados fronterizos.\n\nEsta distinción responde a factores económicos y fiscales. La Zona Libre de la Frontera Norte cuenta con incentivos fiscales para estimular la inversión y la competitividad, dado su dinamismo comercial y la cercanía con Estados Unidos. Como resultado, el salario mínimo en esta región es más alto en comparación con el resto del país.\n\nA partir del 1 de enero de 2025, el salario mínimo diario en la ZLFN será de $419.88 pesos, lo que representa un aumento del 12%. Este ajuste beneficiará a los empleados de 43 municipios fronterizos distribuidos en Baja California, Sonora, Chihuahua, Coahuila, Nuevo León y Taamulipas.\n\nSalario mínimo profesional 2025\n\nAsí como hay nuevos montos para el salario mínimo general y de la frontera, el incremento aplica para el salario mínimo profesional 2025. ¿De qué se trata esta remuneración?\n\nSe refiere a la retribución que reciben por su trabajo aquellos que ejercen una profesión u oficio especializado.\n\nEste tipo de labor requiere de conocimientos y destrezas específicas, por lo que se trata de puestos de trabajo que solo pueden ser cubiertos por aquellos profesionales que reúnan las condiciones adecuadas.\n\nDebido a estas características, el salario mínimo profesional en México suele ser más alto que el salario mínimo general. De acuerdo con el Boletín publicado por la Secretaría del Trabajo y Previsión Social (STPS) la remuneración mínima de los profesionales también recibirá un incremento del 12% en 2025.\n\nLo que impactará en 61 profesiones, oficios y trabajos especiales tales como albañiles, cocineros, choferes, jornaleros, mecánicos, reporteros, vendedores, trabajadores del hogar, boticarios, cajeros, entre otros.\n\nPara ver la diferencia en términos reales entre el salario mínimo general y el profesional, te compartimos algunos ejemplos:\n\nAlbañil. Cobrará un mínimo de $321.63 pesos diarios.\n\nCocinero/a. Cobrará un mínimo de $325.71 pesos diarios.\n\nCosturero/a en confección de ropa en talleres o fábricas. Cobrará un mínimo de $289.94 pesos diarios.\n\nOperador/a de draga. Cobrará un mínimo de $340.04 pesos diarios.\n\nTrabajador/a del hogar. Cobrará un mínimo de $303.07 pesos diarios.\n\nPuedes revisar cómo quedarán los salarios mínimos para el resto de profesiones en la página de la Comisión Nacional del Salario Mínimo . Ahí podrás ver los salarios mínimos que deben recibir por ley estos trabajadores según su oficio y zona geográfica.\n\n✅ Descarga GRATIS, la calculadora de sueldo neto en Excel. Conoce cuáles son las percepciones y deducciones y ten tu nómina actualizada.\n\n¿Cómo se determina el salario mínimo en México 2025?\n\nLa principal norma protectora del salario de los trabajadores es precisamente la Ley Federal del Trabajo. Pero para poder instrumentar este sueldo de base se han creado organismos como la Conasami. Es esta entidad la que se encarga de discutir, aprobar, modificar y regular los salarios mínimos en México.\n\n¿Cómo lo hace? La Conasami está integrada por representantes del gobierno, empresarios y trabajadores. Cada sector presenta su propuesta de incremento y se discuten allí los argumentos para su aprobación. Por lo general, se llega a un consenso entre las 3 posturas.\n\nOtro factor muy importante cuando se trata del salario mínimo es el UMA. Es un indicador económico que fue establecido para evitar que el aumento del salario mínimo afecte en el pago de algunas obligaciones, como las multas.\n\nUna vez establecido el nuevo monto del salario mínimo, este se publica en el Diario Oficial de la Federación para que la población trabajadora y el resto de actores en el mercado laboral, tomen conocimiento de los valores que regirán al año siguiente.\n\n👉 Gestiona el salario de tus trabajadores con el sistema de nóminas adecuado. ¡Prueba gratis!\n\nSalario promedio en México\n\nAnalizando distintas categorías salariales que rigen las empresas del país, se puede llegar a un salario promedio en México. Este sirve de parámetro para entender el nivel de ingresos de la fuerza laboral en el país. Según la Encuesta Nacional de Ocupación y Empleo (ENOE), el ingreso promedio de un trabajador es de aproximadamente $9.475 pesos por mes.\n\nEn México, el 47% de los trabajadores cobran un salario mínimo. Mientras que alrededor del 36% reciben entre uno y dos salarios mínimos.\n\nEvolución del salario mínimo en México de los últimos años\n\nEl ex presidente Andrés Manuel López Obrador calificó como histórico el aumento al salario mínimo en 2024, ya que este se sumó a los incrementos durante su mandato, cumpliendo la promesa de duplicar el salario mínimo en términos reales. Esta política de aumento sostenido se mantiene bajo la presidencia de Claudia Sheinbaum, quien continúa con la misma visión de mejorar el poder adquisitivo de los trabajadores mexicanos.\n\nEs importante recordar que cuando López Obrador asumió la presidencia en 2018, el salario mínimo era de $88 pesos. En contraste, el nuevo aumento que entrará en vigor el 1 de enero de 2025 refleja un avance significativo en el camino hacia una mejora económica para los trabajadores.\n\nLos aumentos consecutivos del salario mínimo han tenido un impacto positivo en la reducción de la pobreza en México. Según el Consejo Nacional de Evaluación de la Política de Desarrollo Social (Coneval), entre 2018 y 2022, 5.1 millones de personas salieron de la pobreza, lo que representa una disminución del 5.6%, y coloca la tasa de pobreza en 36.3% de la población. Este progreso refleja el impacto directo de las políticas de incremento salarial en el bienestar de millones de mexicanos.\n\nOrganiza el salario de tus trabajadores con Factorial\n\nGestionar desde Recursos Humanos el incremento del salario mínimo es mucho más que pagar más de nómina. También equivale a hacer nuevos cálculos sobre el costo de las cuotas obrero, patronales y demás conceptos y prestaciones que integran el sueldo del personal.\n\nPor ello, hacer una buena planificación de la nómina de los trabajadores es esencial para garantizar el aumento del salario mínimo 2024. Así como los costos asociados a ello, sin que se resienta la plantilla. En otras palabras, evitando la reducción de personal.\n\nPara realizar una adecuada planificación de presupuesto necesitas herramientas acordes a la tarea. Aquellas que te ayuden a reunir fácilmente información para analizar con más precisión dónde puedes hacer ajustes.\n\nEl software de Recursos Humanos de Factorial te ofrece una solución todo en uno para que puedas administrar de forma ágil y eficiente los gastos relacionados con el talento, las nóminas y todo lo que impacta en ellas, como las horas trabajadas por tu equipo.",
+                                        "metadata": {
+                                            "url": "https://factorial.mx/blog/salario-minimo-mexico/",
+                                            "source": "factorial.mx",
+                                            "favicon": "https://factorial.mx/wp-content/uploads/2021/10/17140958/cropped-factorial-favicon-80x80.png",
+                                            "title": "Salario mínimo en México 2025, ¿cuánto subió?",
+                                            "type": "web_search",
+                                            "base_url": "https://factorial.mx",
+                                            "snippet": "El salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 mensuales. Este ajuste, aprobado ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.165456489999997,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.165456489999997,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:00:39",
+                    "run_time": 3.165456489999997,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el valor actual del Salario Mínimo Interprofesional en 2025 según el INEGI?": [
+                                {
+                                    "En este artículo, te explicamos todo lo que debes saber sobre el aumento al salario mínimo en México en 2025, incluyendo los montos actualizados, su impacto en diferentes sectores y cómo afecta a empresas y colaboradores.": null
+                                },
+                                {
+                                    "En México, otra forma de medir el salario mínimo es por hora. Considerando una jornada laboral estándar de 8 horas, en 2025 el salario mínimo por hora será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte.": null
+                                },
+                                {
+                                    "El salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 mensuales. Este ajuste, aprobado por la Comisión Nacional de los Salarios Mínimos (Conasami), impactará a más de 8.9 millones de trabajadores en el país.": null
+                                }
+                            ],
+                            "¿Cuál fue el valor del Salario Mínimo Interprofesional en 2018 según la Secretaría del Trabajo y Previsión Social?": [
+                                {
+                                    "Les informamos que el pasado día 30 diciembre 2017, se publicó en el BOE, el Real Decreto 1077/2017 de 29 de diciembre, por el que se fija el Salario Mínimo Interprofesional para el año 2018, quedando establecido en las siguientes cuantías:": null
+                                },
+                                {
+                                    "Debido a estas características, el salario mínimo profesional en México suele ser más alto que el salario mínimo general. De acuerdo con el Boletín publicado por la Secretaría del Trabajo y Previsión Social (STPS) la remuneración mínima de los profesionales también recibirá un incremento del 12% en 2025.": null
+                                },
+                                {
+                                    "Con este ajuste, el salario mínimo diario se establece en $278.80 pesos, lo que equivale a un ingreso mensual aproximado de $8,364 pesos.": null
+                                }
+                            ],
+                            "¿Cuál es el aumento porcentual del Salario Mínimo Interprofesional desde 2018 hasta 2025 según el Banco Mundial?": [
+                                {
+                                    "Pese a que en 2025 se ha producido un nuevo aumento del Salario Mínimo Interprofesional desde Bruselas exigen que las cifras no sean el resultado de negociaciones arbitrarias con los agentes sociales, sino que se implemente un sistema de actualización coherente y homogéneo.": null
+                                },
+                                {
+                                    "En este artículo, te explicamos todo lo que debes saber sobre el aumento al salario mínimo en México en 2025, incluyendo los montos actualizados, su impacto en diferentes sectores y cómo afecta a empresas y colaboradores.": null
+                                },
+                                {
+                                    "El salario mínimo es un derecho fundamental de los colaborales y una obligación para los empleadores. Al establecer las compensaciones, las empresas deben asegurarse de que ningún sueldo sea inferior al salario mínimo vigente en 2025.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos de la OIT sobre el aumento del Salario Mínimo Interprofesional en México?": [
+                                {
+                                    "Los últimos ajustes en los salarios mínimos de México y Chile fueron destacados por una experta de la Organización Internacional del Trabajo (OIT) porque, en el primer caso, significa una recuperación del poder adquisitivo del 110 por ciento y, en el segundo, incluye la reducción de la jornada de trabajo.": null
+                                },
+                                {
+                                    "De acuerdo con la medición de la OIT en México y Centroamérica los salarios tanto del sector público como privado y trabajadores domésticos es menor en comparación a países como Argentina, Chile o Uruguay sin dejar de señalar que recientemente en México se aprobó un aumento al salario mínimo pasando de 80.04 pesos a 88.36 que entró en vigor el primero de diciembre.": null
+                                },
+                                {
+                                    "México tuvo un favorable incremento en oportunidades laborales durante 2017, de acuerdo al Panorama Laboral 2017 de la Organización Internacional del Trabajo (OIT); sin embargo, pese a que el campo laboral en el país tuvo buenos resultados, el índice salarial se ubica en el último lugar de la tabla: hay trabajo pero con malos salarios.": null
+                                }
+                            ],
+                            "¿Cuál es la tasa de inflación en México desde 2018 hasta 2025 y cómo afecta el poder adquisitivo del Salario Mínimo Interprofesional?": [
+                                {
+                                    "En este artículo, te explicamos todo lo que debes saber sobre el aumento al salario mínimo en México en 2025, incluyendo los montos actualizados, su impacto en diferentes sectores y cómo afecta a empresas y colaboradores.": null
+                                },
+                                {
+                                    "FMI, Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 Statista, https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/ (last visited 31 de octubre de 2025)": null
+                                },
+                                {
+                                    "El salario mínimo en México aumentará un 12% a partir del 1 de enero de 2025, un incremento que supera más de tres veces la inflación esperada. Así lo anunció la presidenta Claudia Sheinbaum al presentar la nueva cifra.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 6.456124808000823,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 6.456124808000823,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:00:47",
+                    "run_time": 6.456124808000823,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEl Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el valor actual del Salario Mínimo Interprofesional en 2025 según el INEGI?\n¿Cuál fue el valor del Salario Mínimo Interprofesional en 2018 según la Secretaría del Trabajo y Previsión Social?\n¿Cuál es el aumento porcentual del Salario Mínimo Interprofesional desde 2018 hasta 2025 según el Banco Mundial?\n¿Qué opinan los expertos de la OIT sobre el aumento del Salario Mínimo Interprofesional en México?\n¿Cuál es la tasa de inflación en México desde 2018 hasta 2025 y cómo afecta el poder adquisitivo del Salario Mínimo Interprofesional?\n\n3. Here are the text sources you should use as your source of information:\n[0] En este artículo, te explicamos todo lo que debes saber sobre el aumento al salario mínimo en México en 2025, incluyendo los montos actualizados, su impacto en diferentes sectores y cómo afecta a empresas y colaboradores.\n[0] En México, otra forma de medir el salario mínimo es por hora. Considerando una jornada laboral estándar de 8 horas, en 2025 el salario mínimo por hora será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte.\n[0] El salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 mensuales. Este ajuste, aprobado por la Comisión Nacional de los Salarios Mínimos (Conasami), impactará a más de 8.9 millones de trabajadores en el país.\n[0] Debido a estas características, el salario mínimo profesional en México suele ser más alto que el salario mínimo general. De acuerdo con el Boletín publicado por la Secretaría del Trabajo y Previsión Social (STPS) la remuneración mínima de los profesionales también recibirá un incremento del 12% en 2025.\n[0] Con este ajuste, el salario mínimo diario se establece en $278.80 pesos, lo que equivale a un ingreso mensual aproximado de $8,364 pesos.\n[0] El salario mínimo es un derecho fundamental de los colaborales y una obligación para los empleadores. Al establecer las compensaciones, las empresas deben asegurarse de que ningún sueldo sea inferior al salario mínimo vigente en 2025.\n[0] El salario mínimo en México aumentará un 12% a partir del 1 de enero de 2025, un incremento que supera más de tres veces la inflación esperada. Así lo anunció la presidenta Claudia Sheinbaum al presentar la nueva cifra.\n[1] Les informamos que el pasado día 30 diciembre 2017, se publicó en el BOE, el Real Decreto 1077/2017 de 29 de diciembre, por el que se fija el Salario Mínimo Interprofesional para el año 2018, quedando establecido en las siguientes cuantías:\n[2] Pese a que en 2025 se ha producido un nuevo aumento del Salario Mínimo Interprofesional desde Bruselas exigen que las cifras no sean el resultado de negociaciones arbitrarias con los agentes sociales, sino que se implemente un sistema de actualización coherente y homogéneo.\n[3] Los últimos ajustes en los salarios mínimos de México y Chile fueron destacados por una experta de la Organización Internacional del Trabajo (OIT) porque, en el primer caso, significa una recuperación del poder adquisitivo del 110 por ciento y, en el segundo, incluye la reducción de la jornada de trabajo.\n[4] De acuerdo con la medición de la OIT en México y Centroamérica los salarios tanto del sector público como privado y trabajadores domésticos es menor en comparación a países como Argentina, Chile o Uruguay sin dejar de señalar que recientemente en México se aprobó un aumento al salario mínimo pasando de 80.04 pesos a 88.36 que entró en vigor el primero de diciembre.\n[4] México tuvo un favorable incremento en oportunidades laborales durante 2017, de acuerdo al Panorama Laboral 2017 de la Organización Internacional del Trabajo (OIT); sin embargo, pese a que el campo laboral en el país tuvo buenos resultados, el índice salarial se ubica en el último lugar de la tabla: hay trabajo pero con malos salarios.\n[5] FMI, Evolución anual de la tasa de inflación en México desde 2015 hasta 2029 Statista, https://es.statista.com/estadisticas/608330/tasa-de-inflacion-mexico/ (last visited 31 de octubre de 2025)\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación afirma que el Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025. Sin embargo, según el texto [0], el salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 pesos mensuales. Esto significa que el aumento no alcanza el 61%. Además, el texto [0] también menciona que el salario mínimo por hora en 2025 será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte, lo que sugiere que el aumento no ha sido del 61%.\n\n**Argumentos en contra de la afirmación**\n\nNo hay argumentos explícitos en contra de la afirmación en los textos proporcionados. Sin embargo, como se mencionó anteriormente, el aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Esto sugiere que la afirmación es falsa, ya que el aumento no alcanza el 61%.\n\n**Conclusión**\n\nBasándose en la información proporcionada en los textos, podemos concluir que la afirmación \"El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\" es **falsa**. El aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Aunque no hay argumentos explícitos en contra de la afirmación, la evidencia disponible sugiere que la afirmación es falsa."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.802009924000231,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.802009924000231,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:00:49",
+                    "run_time": 1.802009924000231,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación afirma que el Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025. Sin embargo, según el texto [0], el salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 pesos mensuales. Esto significa que el aumento no alcanza el 61%. Además, el texto [0] también menciona que el salario mínimo por hora en 2025 será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte, lo que sugiere que el aumento no ha sido del 61%.\n\n**Argumentos en contra de la afirmación**\n\nNo hay argumentos explícitos en contra de la afirmación en los textos proporcionados. Sin embargo, como se mencionó anteriormente, el aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Esto sugiere que la afirmación es falsa, ya que el aumento no alcanza el 61%.\n\n**Conclusión**\n\nBasándose en la información proporcionada en los textos, podemos concluir que la afirmación \"El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\" es **falsa**. El aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Aunque no hay argumentos explícitos en contra de la afirmación, la evidencia disponible sugiere que la afirmación es falsa.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación afirma que el Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025. Sin embargo, según el texto [0], el salario mínimo en México en 2025 aumentó un 12%, fijando la nueva cifra en $278.80 pesos diarios y $8,364 pesos mensuales. Esto significa que el aumento no alcanza el 61%. Además, el texto [0] también menciona que el salario mínimo por hora en 2025 será de aproximadamente $34.85 pesos en el resto del país y $52.48 pesos en la Zona Libre de la Frontera Norte, lo que sugiere que el aumento no ha sido del 61%.\n\n**Argumentos en contra de la afirmación**\n\nNo hay argumentos explícitos en contra de la afirmación en los textos proporcionados. Sin embargo, como se mencionó anteriormente, el aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Esto sugiere que la afirmación es falsa, ya que el aumento no alcanza el 61%.\n\n**Conclusión**\n\nBasándose en la información proporcionada en los textos, podemos concluir que la afirmación \"El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\" es **falsa**. El aumento real del salario mínimo en México desde 2018 a 2025 es un 12%, según el texto [0]. Aunque no hay argumentos explícitos en contra de la afirmación, la evidencia disponible sugiere que la afirmación es falsa."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"El Salario Mínimo Interprofesional ha aumentado un 61% desde 2018 a 2025\", \"categories\": [\"Economía\", \"Trabajo\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"El Salario Mínimo Interprofesional no ha aumentado un 61% desde 2018 a 2025\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

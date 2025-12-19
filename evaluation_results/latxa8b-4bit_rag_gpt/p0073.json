@@ -1,0 +1,642 @@
+{
+    "question": "En España hay casi un millón de puestos de trabajo vacantes",
+    "answer": "Según el texto [1], el número medio de vacantes en España durante 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019 y 2,3 veces superior a los datos registrados en 2013. Además, en el primer trimestre de 2024, este número ha aumentado hasta rozar las 150.000. Esto sugiere que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años.\n\nAdemás, el texto [2] menciona que se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Esto podría contribuir a un aumento en el número de puestos de trabajo vacantes. El texto [1] también menciona que el desequilibrio entre oferta y demanda de empleo es uno de los principales problemas en nuestro país, lo que podría estar relacionado con la falta de candidatos con la cualificación adecuada para estos puestos de trabajo.\n\nAunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo, también hay algunas contrapuntos que debemos considerar. Por ejemplo, el texto [1] menciona que España registra una de las menores tasas de vacantes del continente europeo, con un 0,9% de los puestos sin cubrir, mientras que en Europa el problema escala al 2,9%. Esto sugiere que, aunque el número de puestos de trabajo vacantes en España es importante, no es tan alto como podría sugerir la afirmación.\n\nAdemás, el texto [3] menciona que los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando. Esto sugiere que la falta de candidatos con la cualificación adecuada para estos puestos de trabajo puede ser un problema más complejo y multifacético que simplemente el número de puestos vacantes.\n\nEn resumen, aunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años, también hay contrapuntos que debemos considerar. La afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser considerada como parcialmente verdadera, ya que hay evidencia de que el número de puestos vacantes es importante, pero también hay evidencia de que la situación es más compleja y multifacética de lo que sugiere la afirmación.\n\nLa afirmación es **falsa** porque no hay evidencia de que el número de puestos de trabajo vacantes en España sea casi un millón. El número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón. Además, el texto [1] menciona que España registra una de las menores tasas de vacantes del continente europeo, lo que sugiere que el número de puestos vacantes en España no es tan alto como podría sugerir la afirmación.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.eleconomista.es/economia/noticias/12883828/06/24/el-problema-de-las-vacantes-espana-tiene-148000-empleos-sin-cubrir-un-44-mas-desde-la-pandemia.html",
+            "source": "www.eleconomista.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "2": {
+            "url": "https://www.rrhhdigital.com/secciones/actualidad/764947/la-paradoja-del-mercado-laboral-en-2025-creacion-de-empleo-y-vacantes-sin-cubrir/",
+            "source": "www.rrhhdigital.com",
+            "favicon": "https://www.rrhhdigital.com/favicon.ico"
+        },
+        "3": {
+            "url": "https://brainsre.news/seis-formas-falta-mano-obra-construccion/",
+            "source": "brainsre.news",
+            "favicon": "https://brainsre.news/wp-content/uploads/2020/05/cropped-BrainsRE_logonuevo_isotipo_turquesa-01-2-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "En España hay casi un millón de puestos de trabajo vacantes",
+        "categories": [
+            "Economía",
+            "Trabajo",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "La afirmación de que en España hay casi un millón de puestos de trabajo vacantes es falsa debido a que el número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón.",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.7431247909989906,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.7431247909989906,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:32:30",
+                    "run_time": 2.7431247909989906,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn España hay casi un millón de puesto de trabajo vancantes\n\n**Critical Research Questions:**\n1. ¿Cuál es el número oficial de puestos de trabajo vacantes en España según el Instituto Nacional de Estadística (INE) o otras fuentes oficiales en 2025?\n2. ¿Qué informes o estudios recientes sobre el mercado laboral español mencionan el número de puestos de trabajo vacantes?\n3. ¿Qué opinan los expertos en empleo y economía española sobre el número de puestos de trabajo vacantes en el país?\n4. ¿Qué fuentes secundarias y terciarias confirman la cifra de puestos de trabajo vacantes en España?\n5. ¿Qué causas subyacen a la falta de mano de obra en España y cómo se está abordando este problema?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"INE España empleo vacante 2025\", \"numeros de puestos de trabajo vacantes en España 2025 informe oficial\", \"estudios sobre mercado laboral español 2025 vacantes\", \"opinión expertos empleo economía España vacantes\", \"causas falta mano de obra España soluciones\", \"INE España empleo vacante 2025 informe detallado\", \"mercado laboral español 2025 cifras oficiales vacantes\", \"estudios sobre impacto vacantes en la economía española 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.512203820002469,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.512203820002469,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:32:36",
+                    "run_time": 5.512203820002469,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "INE España empleo vacante 2025",
+                                "numeros de puestos de trabajo vacantes en España 2025 informe oficial",
+                                "estudios sobre mercado laboral español 2025 vacantes",
+                                "opinión expertos empleo economía España vacantes",
+                                "causas falta mano de obra España soluciones"
+                            ],
+                            "results": {
+                                "INE España empleo vacante 2025 | numeros de puestos de trabajo vacantes en España 2025 informe oficial | estudios sobre mercado laboral español 2025 vacantes | opinión expertos empleo economía España vacantes | causas falta mano de obra España soluciones": [
+                                    {
+                                        "text": "El empleo en el primer trimestre de 2025 ha traído consigo un panorama laboral desafiante en España\n\nHablemos de Empleo. Según el informe de Randstad Research, basado en los datos de la Encuesta de Población Activa (EPA), el país ha experimentado una pérdida de empleo significativa y un repunte en la tasa de paro.\n\nCon un aumento de 193.700 personas desempleadas, la tasa de paro ha subido seis décimas, situándose en 11,36%, lo que marca el peor primer trimestre desde 2013.\n\nUn inicio de año complicado para el empleo.\n\n\n\nEl informe revela que el empleo ha disminuido en 92.500 personas, dejando la cifra de ocupados en 21,77 millones.\n\nA pesar de este retroceso trimestral, el empleo ha crecido un 2,43% en el último año, con un incremento de 515.400 ocupados en los últimos doce meses.\n\nEste crecimiento se ha concentrado principalmente en los asalariados indefinidos a tiempo completo en el sector privado, mientras que el empleo temporal ha sufrido una reducción del 2,8%, situando la tasa de temporalidad en 15,1%.\n\nImpacto regional: Madrid y el País Vasco lideran la creación de empleo.\n\n\n\nEl informe también destaca que la pérdida de empleo ha afectado a la mayoría de las comunidades autónomas, con Baleares y Valencia como las más perjudicadas. Sin embargo, Madrid y el País Vasco han liderado la creación de empleo en este trimestre.\n\nEn términos interanuales, los 515.400 empleos creados se han distribuido entre todas las comunidades, con crecimientos más intensos en Madrid y Andalucía. Cantabria ha sido la única región que ha registrado un leve descenso del empleo en el último año.\n\nEl aumento del paro y sus implicaciones\n\nEl incremento de 193.700 personas desempleadas ha elevado el número total de parados a 2,79 millones, lo que representa el peor trimestre desde 2013. Este aumento ha afectado a todas las comunidades autónomas, especialmente a Cataluña y Baleares.\n\nEn este trimestre, solo diez comunidades autónomas han registrado tasas de paro inferiores al 10%, mientras que Ceuta y Melilla mantienen tasas superiores al 20%.\n\nEIP International Business School: Una apuesta por el empleo\n\nAnte este panorama, instituciones como EIP International Business School han tomado medidas para combatir la pérdida de empleo y fomentar la creación de oportunidades laborales. A través de sus programas de formación, EIP busca preparar a los profesionales para un mercado laboral en constante evolución, asegurando que el talento tenga un futuro prometedor.\n\nPor ello, ante un periodo desafiante para el empleo en España, con una pérdida significativa de puestos de trabajo y un aumento en la tasa de paro, el crecimiento interanual del empleo y las iniciativas de instituciones como EIP International Business School ofrecen una perspectiva optimista para el futuro.\n\nLa clave estará en la adaptación a las nuevas dinámicas del mercado laboral y en la apuesta por la formación y el desarrollo profesional\n\nEmpleo en el primer trimestre de 2025\n\nFuente: Randstad",
+                                        "metadata": {
+                                            "url": "https://eiposgrados.com/eip-empleo/empleo-el-mercado-laboral-espana-2025/",
+                                            "source": "eiposgrados.com",
+                                            "favicon": "https://eiposgrados.com/wp-content/uploads/2022/12/cropped-favicon-2023-32x32.png",
+                                            "title": "Análisis del empleo en el primer trimestre de 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://eiposgrados.com",
+                                            "snippet": "Un inicio de año complicado para el empleo. El informe revela que el empleo ha disminuido en 92.500 personas, dejando la cifra de ocupados en 21 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cookies de Google Analytics Se usan con fines analíticos, ayudan a recoger datos que permiten a los servicios entender cómo interactúa con un servicio en particular. Esta información se usa para mejorar el contenido de los servicios y sus funciones, y así ofrecerle una mejor experiencia. Si las desactiva: No podremos acceder a los datos estadísticos de navegación de los usuarios, lo que no podrá permitirnos mejorar y ofrecerles contenido y funcionalidades que se traduzcan en servirles una mejor experiencia de navegación.\n\nDesactivadas Activadas\n\nCookies de Siteimprove Se usan con fines analíticos, ayudan a recoger datos que permiten a los servicios entender cómo interactúa con un servicio en particular. Esta información se usa para mejorar el contenido de los servicios y sus funciones, y así ofrecerle una mejor experiencia. Si las desactiva: No podremos acceder a los datos estadísticos de navegación de los usuarios, lo que no podrá permitirnos mejorar y ofrecerles contenido y funcionalidades que se traduzcan en servirles una mejor experiencia de navegación.\n\nDesactivadas Activadas\n\nCookies de Twitter Estas cookies le brindan una experiencia mejor, más rápida y segura en Twitter. Mantiene su sesión abierta en Twitter, guardan sus preferencias y comprenden cómo interactúa con nuestros servicios y dónde podemos mejorar. Si las desactiva: No podrá usar la aplicación mientras esté navegando por nuestra web. De igual forma, no podrá compartir ni comentar ninguna de las publicaciones sujetas a Twitter que estén dentro de nuestra página web.\n\nDesactivadas Activadas",
+                                        "metadata": {
+                                            "url": "https://www.mites.gob.es/es/sec_trabajo/analisis-mercado-trabajo/index.htm",
+                                            "source": "www.mites.gob.es",
+                                            "favicon": "https://www.mites.gob.es/img2/favicon.ico",
+                                            "title": "Análisis del mercado de trabajo",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mites.gob.es",
+                                            "snippet": "Sitio web del Ministerio de Trabajo y Economía Social: Contiene la página principal del sitio web del Ministerio: Análisis del mercado de trabajo."
+                                        }
+                                    },
+                                    {
+                                        "text": "El mercado laboral español cierra el año 2024 con más empleo que nunca, alcanzando los 21.337.962 afiliados a la Seguridad Social en diciembre, una cifra que supone un récord histórico para ese mes, según los datos del Ministerio del Trabajo. El país ha registrado la incorporación de 501.952 puestos de trabajo, experimentando un crecimiento notable en la cantidad de empleos disponibles. Sin embargo, este crecimiento de la oferta laboral viene acompañado de importantes desafíos; vacantes sin cubrir y la necesidad de perfiles profesionales con niveles formativos iniciales e intermedios en distintos sectores clave.\n\nOferta y demanda laboral en desajuste\n\nEl desequilibrio entre oferta y demanda de empleo supone uno de los principales problemas en nuestro país, a pesar de la creación de puestos de trabajo. Según el Informe Laboral de Coste Laboral del Instituto Nacional de Estadística (INE), en 2024, cerca de 150.000 vacantes de empleo en industrias clave quedaron sin cubrir. Estos vacíos reflejan una falta de candidatos con la cualificación adecuada para estos puestos de trabajo. Los sectores más afectados por esta crisis incluyen el logístico, agrario, alimentario, hostelero y turístico.\n\nEl informe elaborado por el Observatorio de las Ocupaciones del Servicio Público de Empleo Estatal (SEPE) «El ajuste de la oferta y la demanda de empleo en el mercado de trabajo 2024” también ha resaltado que la falta de perfiles que puedan ocupar estas vacantes continúa presentándose como un gran reto para el crecimiento y la sostenibilidad de estas industrias, un hecho que subraya la necesidad de políticas activas de empleo y formación en el mercado laboral español.\n\n“Para cerrar la brecha entre oferta y demanda laboral, debemos priorizar políticas activas de formación que permitan capacitar a las personas con las habilidades específicas que solicitan las empresas, especialmente en puestos que requieren niveles formativos iniciales e intermedios, altamente demandados actualmente en el mercado de trabajo», señala Sílvia Balcells, directora general de Synergie España, multinacional de soluciones de Recursos Humanos. La empresa ha lanzado Synergie Search, una división especializada en la selección de personal profesional con niveles formativos iniciales e intermedios, con el objetivo de garantizar a las empresas la búsqueda de perfiles adecuados, reduciendo el desajuste entre oferta y demanda laboral.\n\nSobrecualificación en auge\n\nLa sobrecualificación constituye otro fenómeno que sigue afectando en gran medida al mercado laboral. España lidera la tasa de sobrecualificación en el marco de la Unión Europea. En 2024, un 35,9% de los trabajadores con educación superior ha desempeñado empleos que no requieren ese tipo de cualificación, en comparación con el 22,2% en la UE, según un informe de la Fundación de Conocimiento y Desarrollo (CYD). “Es preocupante que un porcentaje tan elevado de trabajadores no pueda aprovechar al máximo su potencial profesional y que, a su vez, 8 de cada 10 empresas se encuentren con dificultades serias para cubrir sus vacantes”, comenta Balcells.\n\nLa relación entre la tasa de desempleo y las cualificaciones profesionales\n\nEl nivel de cualificación de los trabajadores influye significativamente en la tasa de paro, mostrando desigualdades entre los distintos niveles formativos. En 2023, el desempleo entre los trabajadores que disponían de formación básica o secundaria superó el 20%, una cifra mucho más alta que la tasa de paro del 7,3%, existente entre los titulados con educación superior, según los datos de la Encuesta de Población Activa (EPA). Así pues, se demuestra una necesidad urgente de abordar las brechas de cualificación para conseguir una integración más efectiva de los perfiles menos cualificados en el mercado laboral.\n\nLos efectos mixtos de la reforma laboral\n\nLa reforma laboral de 2021 ha impulsado un aumento en los contratos indefinidos, lo cual es un avance significativo. Sin embargo, también ha generado desafíos en algunos sectores, donde los ceses de empleo han alcanzado cifras históricas. En 2024, España rozó el umbral de un millón de despidos, con un aumento del 145% en ceses. ‘La puesta en vigor de la Reforma Laboral ha traído tensiones en términos de flexibilidad en la contratación, especialmente en sectores con una alta estacionalidad y temporalidad. Es un momento para reflexionar sobre cómo lograr un equilibrio sostenible entre estabilidad y adaptabilidad en el mercado laboral’, afirma la directora general de Synergie.\n\nPlanteamiento del mercado laboral en 2025\n\nSegún el panel de Funcas, se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Además, 2025 trae un desafío claro en términos de la cualificación y la cobertura de vacantes. El futuro del mercado laboral en España dependerá de la capacidad del sistema educativo y de las políticas laborales para adaptarse a las demandas del mercado.",
+                                        "metadata": {
+                                            "url": "https://www.rrhhdigital.com/secciones/actualidad/764947/la-paradoja-del-mercado-laboral-en-2025-creacion-de-empleo-y-vacantes-sin-cubrir/",
+                                            "source": "www.rrhhdigital.com",
+                                            "favicon": "https://www.rrhhdigital.com/favicon.ico",
+                                            "title": "La paradoja del mercado laboral en 2025: creación de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.rrhhdigital.com",
+                                            "snippet": "La paradoja del mercado laboral en 2025: creación de empleo y vacantes sin cubrir · España lidera la tasa de sobrecualificación en la UE con un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Sin embargo, una pregunta que continuamente se hacen muchos profesionales es ¿Por qué el crecimiento no se está trasladando en la percepción de los trabajadores sobre el rumbo de la economía? Y esta pregunta generalizada, ciertamente tiene bastante conexión con la realidad que está viviendo nuestro mercado laboral.\n\nEn los últimos 3 años, España ha sumado de 1.58 millones de nuevos asalariados por cuenta ajena. De estos puestos de trabajo, 1 millón de empleos están concentrados en 10 ramas de actividad del total de 96 en las que el INE desglosa la actividad empresarial. Estos datos, tienen 3 reacciones: Es una buena noticia que se cree tanto empleo, es regular que el empleo se concentre en diez ramas de actividad y la pésima noticia son las retribuciones de estos sectores.\n\nSegún los datos del Instituto Nacional de Estadística a través de sus encuestas de estructura salarial, el salario mediano de estas 10 ramas de actividad oscila entre los 14,961 euros brutos anuales del sector de “Servicios de comidas y Bebidas” a los 33,437 del sector de la programación. Es decir, el 50% del millón de puestos de trabajo creado por estas 10 ramas de actividad tienen salarios netos mensuales que oscilan entre los 900 y los 1.790 euros.\n\nSi seguimos analizando los datos de estas ramas de actividad y nos situamos en el percentil 90, es decir, la cifra que únicamente superan el 10% de asalariados de cada una de las ramas encontramos datos bastante mediocres para una economía avanzada. En 4 de las 10 ramas de actividad nunca podrás alcanzar 2.000€ de salario neto mensual excepto que te sitúes entre el 10% de los mejor posicionados de tu sector. En otras 4 ramas de actividad podrás superar estas horquillas y solo en 2 de ellas, un privilegiado 10%, superará los 3.000€ netos mensuales.\n\nPero la preguntas es ¿Cuánto empleo han generado las industrias con mayores salarios medios? Si cogemos las 9 ramas de actividad de nuestra economía cuyo salario medio es superior a 40.000€ nos quedamos con las siguientes:\n\nLa realidad es bastante desoladora para el mercado laboral de una economía occidental. De los 1.58 Millones de empleos creados en los últimos 36 meses (2022 – 2025), solo 32.496 puestos de trabajo han sido en ramas de actividad de alto valor añadido con salarios promedios superiores a los 40.000€ brutos anuales. Es decir, las ramas de actividad con mejores salarios solo han creado 2 de cada 100 puestos de trabajo generados en este periodo. De hecho, 3 de las 9 ramas de actividad han reducido su número de empleados expulsando del mercado a casi 6.000 trabajadores.\n\n\n\nPor tanto, queda claro a través de los datos que proporciona el Instituto Oficial de Estadística y el Ministerio de Inclusión y Seguridad Social que la economía crece, el empleo crece, pero no estamos siendo capaces de generar empleo bien remunerado en sectores de alto valor añadido. El objetivo no es señalar si un empleo es más digno que otro, puesto cualquier trabajo lo es, el objetivo es señalar que el mercado de trabajo es la piedra angular de la generación de riqueza de un país y el motor del estado del bienestar al que estamos acostumbrados y el cual esperamos disfrutar. Sin embargo, la realidad, la que vive a pie de calle cada trabajador y desempleado, está desconectada de las aparentes deslumbrantes cifras de la economía. Deberemos seguir trabajando para tener una economía y un tejido empresarial con la capacidad de invertir, internacionalizarse y atraer talento que lleve a las organizaciones al siguiente nivel. La única vía para aumentar la riqueza de una sociedad es a través del crecimiento económico con incrementos reales de la productividad, la disminución del desempleo y la lucha por el capital humano.",
+                                        "metadata": {
+                                            "url": "https://www.estrategiasdeinversion.com/analisis/bolsa-y-mercados/el-experto-opina/espana-esta-generando-empleo-pero-no-el-tipo-de-n-846625",
+                                            "source": "www.estrategiasdeinversion.com",
+                                            "favicon": "https://www.estrategiasdeinversion.com/apple-touch-icon.png?v=2.0.68.8",
+                                            "title": "España esta generando empleo, pero no del tipo que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.estrategiasdeinversion.com",
+                                            "snippet": "España está generando empleo pero no del tipo que sustenta a una economía avanzada. Es regular que el empleo se concentre en diez ramas de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.\n\nUna vacante se define como un puesto de trabajo que o bien ha sido creado recientemente, o no está ocupado, o está a punto de quedar libre y para el cual el empleador está tomando medidas activas para encontrar un candidato adecuado fuera de la empresa. El doble efecto de reducción del número de parados e incremento del número de afiliados que ha vivido España en la recuperación económica se está saldando también con un mayor número de vacantes, según los expertos.\n\n\"Aunque el problema es menos grave que en la mayoría de países europeos, supone un cambio inesperado para muchas empresas que va a intensificarse en el futuro por la reducción del desempleo, el menor tamaño de las cohortes de jóvenes, la jubilación de la generación del baby boom, la emigración de talento al exterior y los desajustes formativos\", explican los expertos del Instituto Valenciano de Investigación Económica (IVIE) y la Fundación BBVA.\n\nLos puestos sin cubrir determinan en una mayor dificultad para que las empresas produzcan, menos salarios e impuestos pagados y, en definitiva, una pérdida de dinamismo para la actividad. Según aproximan en el trabajo dedicado al capital humano, el coste estimado de los empleos que no se pudieron cubrir, en términos de menor PIB para el país, se sitúa en torno a los 8.150 millones de euros. En la actualidad, esto supondría el 0,55% del PIB. La economía podría haber crecido por encima del 3% el año pasado en el escenario ideal de un mercado de empleo sin vacantes.\n\nEsta cifra \"podría triplicarse en el futuro si el mercado laboral español sigue convergiendo al patrón europeo\". En España, la tasa de vacantes es del 0,9%, una de las más bajas, y en Europa el problema ya escala al 2,9% de los puestos. \"Se trata de una situación especialmente preocupante si se considera el intenso proceso de envejecimiento demográfico que afecta a España\", advierten desde el IVIE y la Fundación BBVA.\n\n¿Por qué se producen? Los expertos apuntan a la diversidad de causas que dan lugar a puestos sin cubrir. En ocasiones, puede ser síntoma de la buena salud que goza una empresa o un sector que se acerca al pleno empleo, con vacantes de forma residual. Este es el escenario ideal, sin apenas desempleo, pero no siempre se cumple.\n\nEn otras ocasiones \"responde a problemas de naturaleza más estructural, debido a un deficiente funcionamiento de las instituciones laborales o el sistema formativo\". El problema reside en la falta de correspondencia entre el perfil de los parados y las necesidades productivas. \"Este segundo tipo de problema se agrava, lógicamente, en la medida que el cambio tecnológico es más intenso, rápido y disruptivo y las políticas activas de empleo y el sistema de formación son menos eficientes y ágiles en responder a los cambios\".\n\nLas estadísticas no dejan lugar a dudas, pese a que en la comparativa europea salgamos 'bien parados': a lo largo de 2023 el número medio de vacantes fue de 148.212, multiplicando por 2,3 veces el dato de hace una década y aumentando un 44% respecto a 2019, el año previo a la pandemia, tomando como referencia los datos del INE. En el primer trimestre de 2024 ha vuelto a aumentar hasta rozar las 150.000.\n\nUn problema creciente\n\n\"Las señales de alarma por las dificultades para encontrar trabajadores son cada vez más frecuentes y generales. Los últimos resultados de la Encuesta del Banco de España sobre la Actividad Empresarial (EBAE), referidos al segundo trimestre de este año, indican que el 41,1% de las compañías declararon un impacto negativo sobre su actividad derivado de la falta de disponibilidad de mano de obra, un condicionante mucho más relevante que la falta de demanda o los problemas de suministros, semejante en importancia a los costes energéticos y solo algo por detrás de la incertidumbre política\", indican.\n\nNo obstante, la magnitud del problema es, en varios sentidos, un fenómeno nuevo en el caso español, caracterizado desde hace décadas por niveles muy elevados de paro, a diferencia de otros países más acostumbrados a situaciones próximas al pleno empleo y que cuentan con potentes políticas activas de empleo y sistemas de formación e inserción laboral contrastados, como es el caso de los países escandinavos y centroeuropeos.\n\nLos problemas para encontrar trabajadores, aunque revisten naturalmente diferente intensidad según la ocupación, el sector o la región de que se trate, presentan cada vez un carácter más general, afectando tanto al sector privado como al público, explican en el informe. De hecho, los últimos datos sobre vacantes del INE muestran que entre los principales sectores afectados se encuentran la Administración Pública (36,6% del total de vacantes), la Educación y las Actividades Sanitarias. Juntas suman prácticamente la mitad, 69.000 vacantes.\n\nDentro del sector privado las vacantes afectan a todo tipo de sectores, algunos que requieren trabajadores relativamente más cualificados, como las actividades profesionales, científicas y técnicas (8,1% del total), y otros más tradicionales, como el comercio (10,9%) y la hostelería (3,8%).\n\nNo hay una formula secreta para paliar el problema y aplacar los efectos negativos, aunque el IVIE y la Fundación BBVA exponen varias vías: el aumento de la tasa de actividad, el incentivo a la prolongación de la vida laboral, la potenciación de políticas activas de empleo que primen la cualificación y activación más que el subsidio a los parados, la mejora de la formación, la atracción de talento foráneo o la retención del nacional.\n\n\"El sector público y el sistema educativo tienen un papel importante en esta tarea, pero también las empresas tendrán que replantearse sus estrategias de reclutamiento y de formación interna y reconfigurar el conjunto de características, salariales y no salariales, de los puestos de trabajo que ofrecen para aumentar su atractivo y atraer más y mejores candidatos\", cierran.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/economia/noticias/12883828/06/24/el-problema-de-las-vacantes-espana-tiene-148000-empleos-sin-cubrir-un-44-mas-desde-la-pandemia.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "El problema de las vacantes: España tiene 148.000 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "El problema de las vacantes: España tiene 148.000 empleos sin cubrir, un 44% más desde la pandemia. España ha registrado en los últimos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La falta de mano de obra cualificada es un problema que afecta a empresas de todos los tamaños y sectores. En un mundo en constante cambio impulsado por avances tecnológicos y cambios en las demandas del mercado, la necesidad de contar con empleados altamente capacitados es más crítica que nunca.\n\n4 de cada 10 empresas tienen problemas para encontrar mano de obra para su actividad, según datos del Banco de España. Y esta proporción sube a más de 5 de cada 10 en los sectores de hostelería y construcción. De hecho, más del 50% de las empresas de estos sectores declaran que se ven afectadas por estas dificultades.\n\n¿Cuáles son las causas de esta falta de trabajadores?\n\nLa realidad es que muchas empresas se enfrentan a ciertos desafíos a la hora de encontrar candidatos adecuados para sus puestos vacantes. Algunas de las razones que dificultan esta situación son:\n\nAusencia de cualificación necesaria para los puestos vacantes.\n\nDificultad para retener a los empleados.\n\nDescenso de la facturación en ciertas empresas que dificultan la contratación.\n\n¿Qué solución tienen las empresas para cubrir la falta de mano de obra?\n\nSegún las causas indicadas, la búsqueda de personal adecuado puede ser un proceso arduo y agotador, pero es esencial para que la empresa sea eficiente y tenga un crecimiento continuo. Estas dos opciones que te contamos pueden ayudarte a encontrar esa mano de obra que te falta:\n\nDesarrollar el talento interno\n\nUna estrategia efectiva es invertir en el desarrollo de tus propios empleados. Esto implica capacitar y promover a trabajadores actuales para que asuman roles más avanzados. Sin embargo, no solo fomenta la lealtad de los empleados, sino que también garantiza que tengas un flujo constante de trabajadores cualificados.\n\nPara ello, la formación continua bonificada puede ser una gran aliada. Que tus trabajadores puedan reciclar sus conocimientos y habilidades mejorará la eficiencia en tu empresa. Incluso, puedes beneficiarte de los créditos FUNDAE de formación, para que estos cursos sean gratuitos.\n\nContratar en modalidad de contrato de formación en alternancia\n\nContratar a tus empleados con un contrato en alternancia proporciona ventajas tanto para tu empresa como para tu empleado. Esto es así porque puedes disfrutar de una disminución en los costes a la seguridad social, por lo que pagarás menos por un empleado contratado en esta modalidad que en otra.\n\nAdemás, a la vez que el trabajador se forma, desempeña una función laboral en tu negocio. Incluso podrás recibir otros incentivos como los de tutorización y bonificaciones por conversión del contrato de formación en indefinido.\n\nEjemplos de especialidades formativas para cubrir esta escasez de mano de obra\n\nPor ejemplo, si tu empresa pertenece al sector de la edificación y obra civil, puedes contratar a tus empleados con un contrato de formación como albañil, escayolista, operador del hormigón, peón de la construcción o pintor, entre otros.\n\nEn el caso de pertenecer al sector de hostelería y turismo, contrátalo como camarero, cocinero, conserje, jefe de barra o cafetería, pinche de cocina… y todo bajo modalidad de contrato en alternancia.\n\nSi tu empresa pertenece a otro sector, seguro que también puedes beneficiarte de las ventajas de un contrato en alternancia. En el nuestro catálogo puedes ver todas las especialidades formativas para contratar bajo esta modalidad.\n\nLa dificultad para encontrar mano de obra cualificada es un desafío que afrontan muchas empresas en la actualidad. Sin embargo, con las estrategias adecuadas, puedes superar este obstáculo y construir un equipo altamente capacitado que impulse el éxito de tu compañía.\n\n¿Nuestro consejo? No te rindas y busca ese equipo perfecto para hacer crecer tu negocio. Tienes al alcance de tu mano distintas vías para superar esas dificultades y encontrar trabajadores adecuados para tu empresa. Si necesitas más información, siempre puedes contactar con nosotros a través del 952 10 14 94 o enviando un correo a info@audiolis.com.\n\nOtros artículos de interés",
+                                        "metadata": {
+                                            "url": "https://www.audiolis.com/blog/cubrir-falta-de-mano-de-obra-en-empresas/",
+                                            "source": "www.audiolis.com",
+                                            "favicon": "https://www.audiolis.com/wp-content/uploads/2018/11/favicon.png",
+                                            "title": "¿Cómo cubrir la falta de mano de obra en las empresas?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.audiolis.com",
+                                            "snippet": "¿Cuáles son las causas de esta falta de trabajadores? · Ausencia de cualificación necesaria para los puestos vacantes. · Dificultad para retener a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La construcción siempre ha sido uno de los motores más importantes de la economía español, representando un total del 5% del PIB nacional, pero en los últimos años el sector ha tenido que afrontar un gran reto: la falta de mano de obra y la escasez de profesionales cualificados.\n\nEl 49% de las empresas constructoras en España prevé que la dificultad para contratar nuevos talentos tenga un impacto negativo en su actividad, según la Encuesta sobre la Actividad Empresarial (EBAE) del Banco de España, correspondiente al cuarto trimestre de 2022.\n\n¿Las causas? Los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando.\n\na pesar de que este año el desempleo en esta industria ha disminuido en 38.300 parados menos, tal y como muestra la última Encuesta trimestral de Población Activa (EPA) del INE, ante esta situación, el mercado laboral de la edificación aún tiene por delante un desafío clave en un contexto marcado por los fondos Next Generation.\n\nSegún la Confederación Nacional de la Construcción, el sector necesitaría captar 700.000 nuevos puestos de trabajo hasta 2026 para poder afrontar el aluvión de obras que se tienen que poner en marcha con las ayudas europeas.\n\nPor esto, buscar estrategias que solucionen el problema se vuelve una prioridad urgente para las empresas. Los expertos de Sto, multinacional especializada en el desarrollo de sistemas de aislamiento térmico y materiales de construcción, proponen seis fórmulas:",
+                                        "metadata": {
+                                            "url": "https://brainsre.news/seis-formas-falta-mano-obra-construccion/",
+                                            "source": "brainsre.news",
+                                            "favicon": "https://brainsre.news/wp-content/uploads/2020/05/cropped-BrainsRE_logonuevo_isotipo_turquesa-01-2-32x32.png",
+                                            "title": "Seis formas de solucionar la falta de mano de obra en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://brainsre.news",
+                                            "snippet": "¿Las causas? Los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Falta de personal: cómo solventar los problemas de falta de mano de obra\n\nEn aquellas empresas en donde el trabajo humano es indispensable, (ya sea para la elaboración de un producto, o la ejecución de un proyecto o servicio), no contar con la cantidad de empleados suficientes como para realizar un procedimiento, ¡puede ser un gran problema!\n\nEsto ocasiona fallas de producción, pérdida de reconocimiento en el mercado, insatisfacción de proveedores o de clientes, o pérdidas de materiales que tienen un tiempo de vida exacto.\n\nSon muchos los riesgos de no contar con empleados suficientes y entre ellos se corre el riesgo de sobrecargar a los trabajadores fijos de la planta, en la búsqueda de poder cumplir con todas las actividades demandadas para el momento.\n\nPor eso, lo mejor es evaluar constantemente la productividad de la compañía y la relación entre esta y los trabajadores. La intención es diagnosticar falta de personal a tiempo y solventarlas con las soluciones que hemos preparado para ti hoy.\n\n¿Cuándo se considera que existe falta de personal?\n\nLa falta de personal en una empresa, se entiende como aquella situación en donde que se tiene menos trabajadores de los que se necesitan realmente, para llevar a cabo el objetivo propuesto, lo que ocasiona ciertas fallas en la productividad de la empresa.\n\nEsto se mide en base a fórmulas específicas y en las que se suma el tiempo de elaboración de un producto, el IP y la demanda en el mercado.\n\nCon este cálculo, se conocerá cuántos trabajadores debe tener cada paso en la empresa y así se puede determinar si se requieren más empleados en un momento dado.\n\nDe todos modos, la falta de personal comienza a notarse por bajas de rendimiento, sobrecarga de trabajo y problemas para realizar un proyecto en el tiempo estimado. Al ocurrir los primeros signos de la falta de personal, es importante diagnosticar el problema.\n\nPero, no hay que confundirse con la escasez de trabajadores, la cual habla sobre la poca cantidad de personas disponibles para emplear o para aplicar a un cargo muy específico, por ejemplo.\n\nEn la falta de personal, no necesariamente hay imposibilidad para llenar un cargo, pero si ausencia de un puesto en el momento exacto que atraviesa la empresa. Es totalmente circunstancial y en muchos casos ocurre en temporadas altas o picos de trabajo.\n\n¿Cómo solventar la falta de personal en una empresa?\n\nPrecisamente, porque es una falta interna de la empresa (y existen opciones en el mercado para solventarla), existen diferentes soluciones a las que puede acceder una empresa para erradicar la problemática de falta de personal y poder normalizar la producción en planta:\n\n1. Reclutamiento y selección\n\nLas situaciones de crisis pueden dejar en evidencia ciertas necesidades de tu empresa. Por eso, evalúa junto a un consultor, contador y los ejecutivos, cuáles cargos estratégicos pueden ocuparse para solventar la falta de personal.\n\nLa contratación no puede ser masiva porque corres el riesgo de luego no poder cumplir con toda la nómina luego. Por eso, la intención es ubicar una necesidad de la empresa, hacer una evaluación de la productividad del cargo a largo plazo y en base a ello contratar.\n\nLuego, con ayuda de tu departamento de Recursos Humanos, vas a comenzar a hacer un proceso de reclutamiento de candidatos, para luego elegir al mejor con rondas de entrevistas y evaluaciones.\n\n2. Trabajadores de medio tiempo\n\nEn caso de considerar necesitar un trabajador para realizar un contrato indeterminado en la empresa, la figura del trabajo a medio tiempo puede ser una alternativa a la hora de suplir solo las necesidades más urgentes.\n\nLa intención es contar con ayuda en horarios donde la producción o salida del proyecto sea mayor, y así tener un pago de nómina proporcional a las necesidades de la planta o de la empresa en general.\n\n3. Empresa de Trabajo Temporal\n\nExisten compañías que cuentan con empleados preparados para asignarlos en un contrato temporal (un tiempo aproximado de 6 meses en la mayoría). Estas tienen perfiles específicos como Developers, especialistas en Marketing Digital, u otros oficios.\n\nAl contratarlas, podrás tener un acuerdo con trabajadores por tiempo limitado y que te ayude a solventar la necesidad de más empleados en la participación de los proyectos, sin que eso implique contratarlos de forma indeterminada ni tenerlos en tu plantilla.\n\n4. Outsourcing\n\nEl Outsourcing o también conocido como externalización de servicios, consiste en contratar los servicios de una empresa proveedora para suplir una necesidad dentro de la empresa en un cargo determinado, un departamento completo o procesos auxiliares.\n\nAsí, si tienes fallas en áreas comerciales, de programación de software, de Marketing, e incluso RRHH, una empresa que brinda sus propios servicios será de gran utilidad.\n\nEl Outsourcing se diferencia con las empresas de trabajo temporal, porque estas ponen a tu disposición empleados en calidad temporal para contratarlos.\n\nAdemás, el Outsourcing, brinda una prestación directa sin realizar lazos con los empleados en sí, ya que se paga por un servicio.\n\nLa falta de personal conocemos de primera mano que puede ocasionar muchas pérdidas, por eso, antes de que esto ocurra, evalúa las condiciones de tu empresa y comienza a estudiar las alternativas más viables para ti.",
+                                        "metadata": {
+                                            "url": "https://www.adecco.es/insights/trabajo-temporal/falta-de-personal-como-solventar-los-problemas-de-falta-de-mano-de-obra",
+                                            "source": "www.adecco.es",
+                                            "favicon": "https://www.adecco.es/insights/trabajo-temporal/-/media/adeccogroup/brands/adecco-global-2016/france/media/shared/favicon.ico?rev=f7c30753028a430ba3dff8e11dbdda18",
+                                            "title": "Falta de personal: cómo solventar los problemas de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.adecco.es",
+                                            "snippet": "La falta de personal es uno de los grandes problemas tanto si necesitas personal altamente especializado como si tienes picos de trabajo."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0009557599999999999,
+                "total_run_time": 0.7422572449977451,
+                "average_cost_per_call": 0.0009557599999999999,
+                "average_time_per_call": 0.7422572449977451,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:32:37",
+                    "run_time": 0.7422572449977451,
+                    "cost": 0.0009557599999999999,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número oficial de puestos de trabajo vacantes en España según el Instituto Nacional de Estadística (INE) o otras fuentes oficiales en 2025?": [
+                                {
+                                    "Las estadísticas no dejan lugar a dudas, pese a que en la comparativa europea salgamos 'bien parados': a lo largo de 2023 el número medio de vacantes fue de 148.212, multiplicando por 2,3 veces el dato de hace una década y aumentando un 44% respecto a 2019, el año previo a la pandemia, tomando como referencia los datos del INE. En el primer trimestre de 2024 ha vuelto a aumentar hasta rozar las 150.000.": null
+                                },
+                                {
+                                    "España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.": null
+                                },
+                                {
+                                    "Según el panel de Funcas, se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Además, 2025 trae un desafío claro en términos de la cualificación y la cobertura de vacantes. El futuro del mercado laboral en España dependerá de la capacidad del sistema educativo y de las políticas laborales para adaptarse a las demandas del mercado.": null
+                                }
+                            ],
+                            "¿Qué informes o estudios recientes sobre el mercado laboral español mencionan el número de puestos de trabajo vacantes?": [
+                                {
+                                    "España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.": null
+                                },
+                                {
+                                    "El desequilibrio entre oferta y demanda de empleo supone uno de los principales problemas en nuestro país, a pesar de la creación de puestos de trabajo. Según el Informe Laboral de Coste Laboral del Instituto Nacional de Estadística (INE), en 2024, cerca de 150.000 vacantes de empleo en industrias clave quedaron sin cubrir. Estos vacíos reflejan una falta de candidatos con la cualificación adecuada para estos puestos de trabajo. Los sectores más afectados por esta crisis incluyen el logístico, agrario, alimentario, hostelero y turístico.": null
+                                },
+                                {
+                                    "Esta cifra \"podría triplicarse en el futuro si el mercado laboral español sigue convergiendo al patrón europeo\". En España, la tasa de vacantes es del 0,9%, una de las más bajas, y en Europa el problema ya escala al 2,9% de los puestos. \"Se trata de una situación especialmente preocupante si se considera el intenso proceso de envejecimiento demográfico que afecta a España\", advierten desde el IVIE y la Fundación BBVA.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en empleo y economía española sobre el número de puestos de trabajo vacantes en el país?": [
+                                {
+                                    "España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.": null
+                                },
+                                {
+                                    "El desequilibrio entre oferta y demanda de empleo supone uno de los principales problemas en nuestro país, a pesar de la creación de puestos de trabajo. Según el Informe Laboral de Coste Laboral del Instituto Nacional de Estadística (INE), en 2024, cerca de 150.000 vacantes de empleo en industrias clave quedaron sin cubrir. Estos vacíos reflejan una falta de candidatos con la cualificación adecuada para estos puestos de trabajo. Los sectores más afectados por esta crisis incluyen el logístico, agrario, alimentario, hostelero y turístico.": null
+                                },
+                                {
+                                    "Esta cifra \"podría triplicarse en el futuro si el mercado laboral español sigue convergiendo al patrón europeo\". En España, la tasa de vacantes es del 0,9%, una de las más bajas, y en Europa el problema ya escala al 2,9% de los puestos. \"Se trata de una situación especialmente preocupante si se considera el intenso proceso de envejecimiento demográfico que afecta a España\", advierten desde el IVIE y la Fundación BBVA.": null
+                                }
+                            ],
+                            "¿Qué fuentes secundarias y terciarias confirman la cifra de puestos de trabajo vacantes en España?": [
+                                {
+                                    "Las estadísticas no dejan lugar a dudas, pese a que en la comparativa europea salgamos 'bien parados': a lo largo de 2023 el número medio de vacantes fue de 148.212, multiplicando por 2,3 veces el dato de hace una década y aumentando un 44% respecto a 2019, el año previo a la pandemia, tomando como referencia los datos del INE. En el primer trimestre de 2024 ha vuelto a aumentar hasta rozar las 150.000.": null
+                                },
+                                {
+                                    "Esta cifra \"podría triplicarse en el futuro si el mercado laboral español sigue convergiendo al patrón europeo\". En España, la tasa de vacantes es del 0,9%, una de las más bajas, y en Europa el problema ya escala al 2,9% de los puestos. \"Se trata de una situación especialmente preocupante si se considera el intenso proceso de envejecimiento demográfico que afecta a España\", advierten desde el IVIE y la Fundación BBVA.": null
+                                },
+                                {
+                                    "España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.": null
+                                }
+                            ],
+                            "¿Qué causas subyacen a la falta de mano de obra en España y cómo se está abordando este problema?": [
+                                {
+                                    "El desequilibrio entre oferta y demanda de empleo supone uno de los principales problemas en nuestro país, a pesar de la creación de puestos de trabajo. Según el Informe Laboral de Coste Laboral del Instituto Nacional de Estadística (INE), en 2024, cerca de 150.000 vacantes de empleo en industrias clave quedaron sin cubrir. Estos vacíos reflejan una falta de candidatos con la cualificación adecuada para estos puestos de trabajo. Los sectores más afectados por esta crisis incluyen el logístico, agrario, alimentario, hostelero y turístico.": null
+                                },
+                                {
+                                    "\"Las señales de alarma por las dificultades para encontrar trabajadores son cada vez más frecuentes y generales. Los últimos resultados de la Encuesta del Banco de España sobre la Actividad Empresarial (EBAE), referidos al segundo trimestre de este año, indican que el 41,1% de las compañías declararon un impacto negativo sobre su actividad derivado de la falta de disponibilidad de mano de obra, un condicionante mucho más relevante que la falta de demanda o los problemas de suministros, semejante en importancia a los costes energéticos y solo algo por detrás de la incertidumbre política\", indican.": null
+                                },
+                                {
+                                    "¿Las causas? Los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 14.02876663799907,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 14.02876663799907,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:32:53",
+                    "run_time": 14.02876663799907,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn España hay casi un millón de puesto de trabajo vancantes\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número oficial de puestos de trabajo vacantes en España según el Instituto Nacional de Estadística (INE) o otras fuentes oficiales en 2025?\n¿Qué informes o estudios recientes sobre el mercado laboral español mencionan el número de puestos de trabajo vacantes?\n¿Qué opinan los expertos en empleo y economía española sobre el número de puestos de trabajo vacantes en el país?\n¿Qué fuentes secundarias y terciarias confirman la cifra de puestos de trabajo vacantes en España?\n¿Qué causas subyacen a la falta de mano de obra en España y cómo se está abordando este problema?\n\n3. Here are the text sources you should use as your source of information:\n[0] Las estadísticas no dejan lugar a dudas, pese a que en la comparativa europea salgamos 'bien parados': a lo largo de 2023 el número medio de vacantes fue de 148.212, multiplicando por 2,3 veces el dato de hace una década y aumentando un 44% respecto a 2019, el año previo a la pandemia, tomando como referencia los datos del INE. En el primer trimestre de 2024 ha vuelto a aumentar hasta rozar las 150.000.\n[0] España ha registrado en los últimos ejercicios un importante incremento de los puestos de trabajo sin cubrir. Este desajuste del mercado laboral ha dado lugar a un aumento del número de vacantes hasta 148.000 trabajos sin cubrir, un 44% respecto a 2019. Esta cifra es 2,3 veces superior a los datos registrados en 2013, cuando había unas 63.000 vacantes. Pese al notable problema de los puestos sin cubrir, España registra una de las menores tasas de vacantes del continente europeo.\n[0] Esta cifra \"podría triplicarse en el futuro si el mercado laboral español sigue convergiendo al patrón europeo\". En España, la tasa de vacantes es del 0,9%, una de las más bajas, y en Europa el problema ya escala al 2,9% de los puestos. \"Se trata de una situación especialmente preocupante si se considera el intenso proceso de envejecimiento demográfico que afecta a España\", advierten desde el IVIE y la Fundación BBVA.\n[0] \"Las señales de alarma por las dificultades para encontrar trabajadores son cada vez más frecuentes y generales. Los últimos resultados de la Encuesta del Banco de España sobre la Actividad Empresarial (EBAE), referidos al segundo trimestre de este año, indican que el 41,1% de las compañías declararon un impacto negativo sobre su actividad derivado de la falta de disponibilidad de mano de obra, un condicionante mucho más relevante que la falta de demanda o los problemas de suministros, semejante en importancia a los costes energéticos y solo algo por detrás de la incertidumbre política\", indican.\n[1] Según el panel de Funcas, se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Además, 2025 trae un desafío claro en términos de la cualificación y la cobertura de vacantes. El futuro del mercado laboral en España dependerá de la capacidad del sistema educativo y de las políticas laborales para adaptarse a las demandas del mercado.\n[1] El desequilibrio entre oferta y demanda de empleo supone uno de los principales problemas en nuestro país, a pesar de la creación de puestos de trabajo. Según el Informe Laboral de Coste Laboral del Instituto Nacional de Estadística (INE), en 2024, cerca de 150.000 vacantes de empleo en industrias clave quedaron sin cubrir. Estos vacíos reflejan una falta de candidatos con la cualificación adecuada para estos puestos de trabajo. Los sectores más afectados por esta crisis incluyen el logístico, agrario, alimentario, hostelero y turístico.\n[2] ¿Las causas? Los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En España hay casi un millón de puesto de trabajo vancantes"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\nLa afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser analizada a partir de los textos proporcionados.\n\n**Soporte a la afirmación**\n\nSegún el texto [0], el número medio de vacantes en España durante 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019 y 2,3 veces superior a los datos registrados en 2013. Además, en el primer trimestre de 2024, este número ha aumentado hasta rozar las 150.000. Esto sugiere que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años.\n\nAdemás, el texto [1] menciona que se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Esto podría contribuir a un aumento en el número de puestos de trabajo vacantes. El texto [0] también menciona que el desequilibrio entre oferta y demanda de empleo es uno de los principales problemas en nuestro país, lo que podría estar relacionado con la falta de candidatos con la cualificación adecuada para estos puestos de trabajo.\n\n**Contra la afirmación**\n\nAunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo, también hay algunas contrapuntos que debemos considerar. Por ejemplo, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, con un 0,9% de los puestos sin cubrir, mientras que en Europa el problema escala al 2,9%. Esto sugiere que, aunque el número de puestos de trabajo vacantes en España es importante, no es tan alto como podría sugerir la afirmación.\n\nAdemás, el texto [2] menciona que los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando. Esto sugiere que la falta de candidatos con la cualificación adecuada para estos puestos de trabajo puede ser un problema más complejo y multifacético que simplemente el número de puestos vacantes.\n\n**Conclusión**\n\nEn resumen, aunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años, también hay contrapuntos que debemos considerar. La afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser considerada como parcialmente verdadera, ya que hay evidencia de que el número de puestos vacantes es importante, pero también hay evidencia de que la situación es más compleja y multifacética de lo que sugiere la afirmación.\n\nLa afirmación es **falsa** porque no hay evidencia de que el número de puestos de trabajo vacantes en España sea casi un millón. El número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón. Además, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, lo que sugiere que el número de puestos vacantes en España no es tan alto como podría sugerir la afirmación."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.511097955000878,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.511097955000878,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:32:55",
+                    "run_time": 2.511097955000878,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En España hay casi un millón de puesto de trabajo vancantes\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser analizada a partir de los textos proporcionados.\n\n**Soporte a la afirmación**\n\nSegún el texto [0], el número medio de vacantes en España durante 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019 y 2,3 veces superior a los datos registrados en 2013. Además, en el primer trimestre de 2024, este número ha aumentado hasta rozar las 150.000. Esto sugiere que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años.\n\nAdemás, el texto [1] menciona que se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Esto podría contribuir a un aumento en el número de puestos de trabajo vacantes. El texto [0] también menciona que el desequilibrio entre oferta y demanda de empleo es uno de los principales problemas en nuestro país, lo que podría estar relacionado con la falta de candidatos con la cualificación adecuada para estos puestos de trabajo.\n\n**Contra la afirmación**\n\nAunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo, también hay algunas contrapuntos que debemos considerar. Por ejemplo, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, con un 0,9% de los puestos sin cubrir, mientras que en Europa el problema escala al 2,9%. Esto sugiere que, aunque el número de puestos de trabajo vacantes en España es importante, no es tan alto como podría sugerir la afirmación.\n\nAdemás, el texto [2] menciona que los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando. Esto sugiere que la falta de candidatos con la cualificación adecuada para estos puestos de trabajo puede ser un problema más complejo y multifacético que simplemente el número de puestos vacantes.\n\n**Conclusión**\n\nEn resumen, aunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años, también hay contrapuntos que debemos considerar. La afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser considerada como parcialmente verdadera, ya que hay evidencia de que el número de puestos vacantes es importante, pero también hay evidencia de que la situación es más compleja y multifacética de lo que sugiere la afirmación.\n\nLa afirmación es **falsa** porque no hay evidencia de que el número de puestos de trabajo vacantes en España sea casi un millón. El número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón. Además, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, lo que sugiere que el número de puestos vacantes en España no es tan alto como podría sugerir la afirmación.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En España hay casi un millón de puesto de trabajo vancantes\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser analizada a partir de los textos proporcionados.\n\n**Soporte a la afirmación**\n\nSegún el texto [0], el número medio de vacantes en España durante 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019 y 2,3 veces superior a los datos registrados en 2013. Además, en el primer trimestre de 2024, este número ha aumentado hasta rozar las 150.000. Esto sugiere que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años.\n\nAdemás, el texto [1] menciona que se prevé un crecimiento moderado en la creación de empleo para este año, con un incremento estimado del 1,8%. Esto podría contribuir a un aumento en el número de puestos de trabajo vacantes. El texto [0] también menciona que el desequilibrio entre oferta y demanda de empleo es uno de los principales problemas en nuestro país, lo que podría estar relacionado con la falta de candidatos con la cualificación adecuada para estos puestos de trabajo.\n\n**Contra la afirmación**\n\nAunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo, también hay algunas contrapuntos que debemos considerar. Por ejemplo, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, con un 0,9% de los puestos sin cubrir, mientras que en Europa el problema escala al 2,9%. Esto sugiere que, aunque el número de puestos de trabajo vacantes en España es importante, no es tan alto como podría sugerir la afirmación.\n\nAdemás, el texto [2] menciona que los expertos señalan la falta de relevo generacional, la necesidad de mayor diversidad e inclusión laboral, la alta siniestralidad de este sector y, muy especialmente, la escasez de trabajadores cualificados capaces de abordar las nuevas innovaciones y tecnologías que están llegando. Esto sugiere que la falta de candidatos con la cualificación adecuada para estos puestos de trabajo puede ser un problema más complejo y multifacético que simplemente el número de puestos vacantes.\n\n**Conclusión**\n\nEn resumen, aunque hay evidencia de que el número de puestos de trabajo vacantes en España es significativo y ha estado creciendo en los últimos años, también hay contrapuntos que debemos considerar. La afirmación \"En España hay casi un millón de puesto de trabajo vacantes\" puede ser considerada como parcialmente verdadera, ya que hay evidencia de que el número de puestos vacantes es importante, pero también hay evidencia de que la situación es más compleja y multifacética de lo que sugiere la afirmación.\n\nLa afirmación es **falsa** porque no hay evidencia de que el número de puestos de trabajo vacantes en España sea casi un millón. El número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón. Además, el texto [0] menciona que España registra una de las menores tasas de vacantes del continente europeo, lo que sugiere que el número de puestos vacantes en España no es tan alto como podría sugerir la afirmación."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"En España hay casi un millón de puestos de trabajo vacantes\", \"categories\": [\"Economía\", \"Trabajo\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"La afirmación de que en España hay casi un millón de puestos de trabajo vacantes es falsa debido a que el número medio de vacantes en 2023 fue de 148.212, lo que es un aumento del 44% con respecto a 2019, pero no llega a alcanzar el millón.\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00595576,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

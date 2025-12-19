@@ -1,0 +1,726 @@
+{
+    "question": "La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19",
+    "answer": "La afirmación sugiere que la Agencia Europea del Medicamento (EMA) nunca autorizó las vacunas contra la COVID-19. Sin embargo, hay evidencia que sugiere lo contrario. Según el texto [1], actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen. Esto indica que la EMA sí ha autorizado al menos algunas vacunas contra la COVID-19.\n\nAdemás, el texto [2] menciona que el Comité de Medicamentos de Uso Humano (CHMP) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, evaluó científicamente la vacuna Comirnaty y recomendó su autorización de comercialización condicional. Esto sugiere que la EMA sí ha evaluado y autorizado al menos una vacuna contra la COVID-19.\n\nTambién se menciona en el texto [3] que la EMA ha aprobado la vacuna Comirnaty para su empleo en la Unión Europea, lo que indica que la agencia ha dado su visto bueno a esta vacuna.\n\nNo se encuentra ninguna evidencia en los textos proporcionados que sugiera que la EMA nunca haya autorizado las vacunas contra la COVID-19. De hecho, los textos [1], [2] y [3] proporcionan evidencia clara de que la EMA ha autorizado al menos algunas vacunas contra la COVID-19.\n\nBasándose en la evidencia proporcionada en los textos [1], [2] y [3], podemos concluir que la afirmación \"La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\" es **falsa**. La EMA sí ha autorizado al menos algunas vacunas contra la COVID-19, como se menciona en los textos [1], [2] y [3].",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.clinicbarcelona.org/asistencia/enfermedades/covid-19/vacunas-covid-19",
+            "source": "www.clinicbarcelona.org",
+            "favicon": "https://www.clinicbarcelona.org/build/img/favicon/apple-touch-icon-57x57.dcd4320713b8272a035020e7132c670b.png"
+        },
+        "2": {
+            "url": "https://www.aemps.gob.es/informa/la-ema-recomienda-la-autorizacion-de-la-primera-vacuna-frente-a-la-covid-19/",
+            "source": "www.aemps.gob.es",
+            "favicon": "https://www.aemps.gob.es/wp-content/uploads/2022/10/logo_aemps2-removebg-preview.png"
+        },
+        "3": {
+            "url": "https://www.andavac.es/la-ema-aprueba-la-primera-vacuna-frente-al-covid-19-para-su-empleo-en-la-union-europea/",
+            "source": "www.andavac.es",
+            "favicon": "https://www.andavac.es/wp-content/uploads/2020/07/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19",
+        "categories": [
+            "Salud",
+            "Ciencia",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "La Agencia Europea del Medicamento ha autorizado las vacunas contra la COVID-19",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.195546691000345,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.195546691000345,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:29",
+                    "run_time": 2.195546691000345,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\n\n**Critical Research Questions:**\n1. ¿Qué vacunas contra la COVID-19 fueron aprobadas por la Agencia Europea del Medicamento?\n2. ¿Cuándo se aprobó la primera vacuna contra la COVID-19 por parte de la Agencia Europea del Medicamento?\n3. ¿Qué dicen los expertos en salud pública y vacunas sobre la aprobación de vacunas contra la COVID-19 por parte de la Agencia Europea del Medicamento?\n4. ¿Qué informes y comunicados de prensa de la Agencia Europea del Medicamento relacionados con la aprobación de vacunas contra la COVID-19 están disponibles?\n5. ¿Cómo se evaluó y monitoreó la seguridad y eficacia de las vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"vacunas contra la COVID-19 autorizadas por la Agencia Europea del Medicamento\", \"primeras vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento\", \"comentarios de expertos en salud pública sobre vacunas COVID-19 Agencia Europea del Medicamento\", \"comunicados de prensa Agencia Europea del Medicamento vacunas COVID-19\", \"evaluación y monitoreo seguridad eficacia vacunas COVID-19 Agencia Europea del Medicamento\", \"vacunas COVID-19 aprobadas por la Agencia Europea del Medicamento eficacia seguridad\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 6.123993633998907,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 6.123993633998907,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:35",
+                    "run_time": 6.123993633998907,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "vacunas contra la COVID-19 autorizadas por la Agencia Europea del Medicamento",
+                                "primeras vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento",
+                                "comentarios de expertos en salud pública sobre vacunas COVID-19 Agencia Europea del Medicamento",
+                                "comunicados de prensa Agencia Europea del Medicamento vacunas COVID-19",
+                                "evaluación y monitoreo seguridad eficacia vacunas COVID-19 Agencia Europea del Medicamento"
+                            ],
+                            "results": {
+                                "vacunas contra la COVID-19 autorizadas por la Agencia Europea del Medicamento | primeras vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento | comentarios de expertos en salud pública sobre vacunas COVID-19 Agencia Europea del Medicamento | comunicados de prensa Agencia Europea del Medicamento vacunas COVID-19 | evaluación y monitoreo seguridad eficacia vacunas COVID-19 Agencia Europea del Medicamento": [
+                                    {
+                                        "text": "La Agencia Europea de Medicamentos (EMA) y la Comisión están haciendo pleno uso de las disposiciones de la legislación de la UE para situaciones de emergencia a fin de acelerar el procedimiento de autorización, garantizando al mismo tiempo que se evalúen exhaustivamente todos los requisitos en materia de eficacia, calidad y seguridad de la vacuna.\n\nAnte la urgencia provocada por la pandemia de COVID-19, la EMA ha establecido procedimientos de examen acelerados para evaluar las solicitudes en los plazos más breves posibles, sin menoscabar la solidez de los dictámenes científicos. La clave para acelerar el proceso son las revisiones continuas, que permiten a la EMA, en situaciones de emergencia sanitaria, evaluar los datos sobre vacunas o medicamentos prometedores a medida que se va disponiendo de ellos, en lugar de esperar para iniciar su labor a que todos los ensayos hayan concluido.\n\nMerced a estas revisiones continuas, la EMA puede empezar a evaluar los datos mientras el desarrollo sigue en curso y antes de que el desarrollador de la vacuna haya presentado una solicitud de autorización de comercialización. En la revisión continua se evalúan los datos sobre la calidad de la vacuna, así como los resultados de los análisis de laboratorio. La EMA también examina los resultados relativos a la eficacia de la vacuna y los datos iniciales de seguridad extraídos de los ensayos clínicos a gran escala, a medida que van estando disponibles. De esta forma se reducen considerablemente los plazos normales de evaluación, al tiempo que se respetan los principios de calidad, seguridad y eficacia.\n\nEn el contexto de las revisiones continuas se ha creado un grupo de expertos específico, el grupo operativo de la EMA para la pandemia de COVID-19, dedicado al desarrollo, la autorización y el seguimiento de la seguridad de las vacunas contra esta enfermedad, y encargado de evaluar exhaustivamente los datos científicos. De ahí que, cuando se solicita una autorización de comercialización, la evaluación formal pueda efectuarse mucho más deprisa, pues los datos ya han sido examinados minuciosamente durante la revisión continua.\n\nAdemás, la EMA evalúa los datos con vistas a expedir una autorización condicional de comercialización. Este tipo de autorización garantiza que se han demostrado la seguridad, la eficacia y la calidad de la vacuna y que sus beneficios prevalecen sobre sus riesgos, al tiempo que permite a sus desarrolladores presentar datos adicionales también después de haberse autorizado la comercialización (contrariamente a una autorización normal de comercialización, para la que todos los datos se presentan antes de concederla).\n\nLa Comisión Europea vela igualmente por que el proceso conducente a la autorización de comercialización pueda discurrir lo más rápido posible, acortando trámites administrativos tales como el plazo para consultar a los Estados miembros y permitiendo que la traducción de la información sobre el producto a todas las lenguas oficiales se realice, en primera instancia, en formato electrónico, a fin de ahorrar tiempo.\n\nMientras que el proceso estándar medio para la autorización de medicamentos dura 67 días, incluidos los 22 días para la consulta a los Estados miembros, la Comisión, recurriendo a las disposiciones establecidas específicamente en la legislación de la UE para las situaciones de emergencia, puede proceder a la autorización de comercialización en un plazo de 3 días tras la recomendación favorable de la EMA.",
+                                        "metadata": {
+                                            "url": "https://commission.europa.eu/strategy-and-policy/coronavirus-response/safe-covid-19-vaccines-europeans/questions-and-answers-covid-19-vaccination-eu_es",
+                                            "source": "commission.europa.eu",
+                                            "favicon": "https://commission.europa.eu/themes/contrib/oe_theme/images/favicons/ec/favicon.ico",
+                                            "title": "Vacunación contra la COVID-19 en la UE",
+                                            "type": "web_search",
+                                            "base_url": "https://commission.europa.eu",
+                                            "snippet": "Vacunación contra la COVID-19 en la UE · 1. ¿Qué vacuna está autorizada ahora? · 2. ¿Qué vacunas potenciales está revisando actualmente la EMA? · 3. ¿Con qué ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A nivel mundial se está realizando un gran esfuerzo para acelerar el desarrollo de vacunas que protejan frente al nuevo coronavirus (SARS-CoV-2). La Agencia Europea del Medicamento (EMA, en sus siglas en inglés) es el organismo competente para garantizar la evaluación científica, la supervisión y el seguimiento de la seguridad de los medicamentos de uso humano y veterinario en la Unión Europea (UE). Las vacunas se van a adquirir de manera conjunta con todos los países de la Unión Europea, coordinados por la Comisión Europea.\n\nActualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen.",
+                                        "metadata": {
+                                            "url": "https://www.clinicbarcelona.org/asistencia/enfermedades/covid-19/vacunas-covid-19",
+                                            "source": "www.clinicbarcelona.org",
+                                            "favicon": "https://www.clinicbarcelona.org/build/img/favicon/apple-touch-icon-57x57.dcd4320713b8272a035020e7132c670b.png",
+                                            "title": "¿Qué vacunas hay contra la COVID-19?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.clinicbarcelona.org",
+                                            "snippet": "Actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Hoy, hace justo un año, en muchas oficinas -la nuestra incluida- recogíamos nuestras pertenecías en el trabajo pensando que tardaríamos poco tiempo en volver. A los dos días, el presidente del Gobierno declaraba el estado de alarma, una situación que se prolongó hasta el 20 de junio de 2020. Un año después, y con más de 3 millones de personas infectadas en nuestro país, analizamos con Salvador Iborra, investigador del Departamento de Inmunología, Oftalmología y ORL de la Universidad Complutense de Madrid el hito más esperanzador de estos doce meses, la vacuna. Con él, respondemos a preguntas que la ciudadanía se ha planteado desde que comenzase la vacunación.\n\nUn año después, cerca de cinco millones de personas ya han recibido al menos una dosis en España. / Shutterstock.\n\nS.I./M.M.- ¿Por qué ha sido posible en un solo año el desarrollo de vacunas con alta efectividad?\n\nComo dijo Isaac Newton, los científicos siempre caminamos a hombros de gigantes. Las vacunas se remontan a 1796, cuando Edward Jenner comenzó a inocular el material de una llaga de viruela vacuna, una enfermedad relativamente benigna que padecían las personas que ordeñaban vacas para comprobar su hipótesis: sufrir la viruela vacuna protegía frente a la viruela humana, mortal en uno de cada tres o cuatro casos.\n\nGracias a numerosos esfuerzos, se ha reducido el tiempo necesario para que hoy se puedan hacer ensayos y probar nuevas tecnologías. Otro factor clave ha sido la liberación urgente de fondos de investigación públicos y privados para la covid19, reduciendo los plazos de meses a días.\n\nLa competición entre distintos laboratorios y compañías farmacéuticas para llegar los primeros a la meta también ha jugado un papel importante, así como la combinación de forma simultánea de las fases I y II en ensayos clínicos.\n\n¿Por qué tenemos que confiar en la vacunación? ¿Nos están introduciendo el virus como tal en esas vacunas?\n\nEn ausencia de una terapia específica y eficaz para combatir al SARS-CoV-2, tenemos fundamentalmente dos armas para combatirlo: neutralizarlo con anticuerpos cuando está fuera de nuestras células o reconocer las células que se han infectado y eliminarlas. Todas las vacunas aprobadas por la Agencia Europea del Medicamento permiten que nuestro sistema inmunitario fabrique anticuerpos frente a la proteína S (spike), clave para que el SARS-CoV-2 infecte nuestras células, y educan a nuestros linfocitos T para que puedan reconocer a las células infectadas y eliminarlas. Las vacunas son prácticamente inocuas. Ninguna de las vacunas autorizadas por la Unión Europea (UE) contienen ningún tipo de coronavirus, ni vivo, ni desactivado. Sólo las vacunas CoronaVac y Sinopharm, que se están desarrollando en China, emplean esta estrategia.\n\n\"Ninguna de las vacunas autorizadas por la Unión Europea contienen ningún tipo de coronavirus, ni vivo ni desactivado\"\n\nLa seguridad de las vacunas aprobadas por la UE se ha evaluado de forma concienzuda, confirmando además que estimulan el sistema inmunitario en distintas fases en las que se van incrementando progresivamente el número de voluntarios, desde unos pocos (fase I), para después inocular a miles (fase III) con la vacuna o un placebo, en los que además se establecen grupos diferentes (edad, sexo), se valora su eficacia y se intentan encontrar efectos adversos poco frecuentes.\n\n¿Qué tipos de vacunas se administran ahora en España y qué diferencia hay entre cada una de ellas?\n\nAhora mismo se están administrando tres vacunas: Pfizer, Moderna y AstraZéneca. Las vacunas de Pfizer-BioNTech y Moderna, se basan en un ARN mensajero encapsulado en lípidos para facilitar su entrada en nuestras células. Este ARN es un fragmento de información, del “software” del coronavirus, que el “hardware” de nuestras células interpreta para fabricar una proteína S.\n\nLas tres vacunas que se están administrando ahora mismo. / Elfmoondance.\n\nLas vacunas de Oxford/AstraZeneca y la de Johnson & Johnson -esta última aprobada ayer por la Agencia Europea del Medicamento- emplean una estrategia más clásica. Estas vacunas se basan en adenovirus incapaces de replicarse, de origen humano (Johnson & Johnson) o de chimpancé (AstraZéneca) y que porta la información genética del coronavirus en forma de ADN, una especie de “copia de seguridad” del ARN mensajero. El virus infecta nuestras células sin replicarse y la información que porta se traduce a un ARN mensajero similar al de las vacunas Pfizer y Moderna.\n\n¿La vacuna de AstraZeneca es la “mala”?\n\nEn realidad, no hay ninguna mala. La mayor estabilidad del ADN permite que esta vacuna, junto con la de Johnson & Johnson, pueda ser almacenada en una nevera durante varias semanas, mientras que las anteriores requieren un sistema de ultracongelación más costoso y no siempre disponible. De hecho, las vacunas basadas en adenovirus son mucho más baratas. Por otro lado, la vacuna de Johnson & Johnson sólo requiere una dosis, lo que supone una gran ventaja, dados los problemas logísticos y de producción, que a veces dificultan inocular la segunda dosis en el momento oportuno.\n\nEs cierto que parecen tener una menor eficacia que las basadas en ARN, aunque aún se requiere de tiempo para confirmar estas diferencias. La eficacia de la vacuna de Johnson & Johnson está en torno al 72% en la población de EEUU, y se habla de un 70% para AstraZeneca en Europa, frente al 95% de las vacunas de sus competidoras. Pero esta menor eficacia sólo se observa cuando se incluyen los casos de infección leves y moderados. Además, las vacunas de AstraZeneca y Johnson & Johnson llevan cierto retraso con respecto a sus competidoras, por lo que aun se necesita tiempo para confirmar esta menor eficacia.\n\n\"Las cuatro vacunas son eficaces para prevenir casos graves y hospitalizaciones\"\n\nLas cuatro vacunas son eficaces a la hora de prevenir casos graves y prevenir hospitalizaciones, incluso las causadas por las temidas nuevas variantes británica, sudafricana o brasileña si bien se necesita más tiempo para evaluar dicha eficacia. Incluso si esta fuese reducida, sería relativamente sencillo adaptar las vacunas actuales modificando la información que portan. También parece que las vacunas basadas en adenovirus podrían causar efectos secundarios (fatiga, fiebre, dolor de cabeza, malestar, etc…) un poco más molestos que sus competidoras, sobre todo en personas jóvenes con un sistema inmunitario más “robusto”. Se cree que la menor eficacia y los efectos secundarios de las vacunas basadas en adenovirus pueden estar relacionados con que hayamos sido o no infectados con un adenovirus antes de vacunarnos.\n\nUna enfermera recibe la primera dosis en un centro de salud de Madrid. / Raquel García.\n\nNuestro sistema inmunitario podría reconocer al adenovirus de la vacuna, reduciendo su inmunogenicidad y su eficacia, siendo esta su principal desventaja. No obstante, no suele ser habitual que sepamos si hemos sufrido o no una infección previa con un adenovirus, por lo que, por lo general, carecemos de un criterio objetivo para rechazar esta vacuna o llamarla “mala”.\n\n¿Se pueden evitar las reacciones que provocan en las siguientes 24/48 horas después de su administración?\n\nComo comentábamos anteriormente, las vacunas pueden causar molestias y efectos secundarios adversos. Estos reflejan que nuestro sistema inmunitario está reaccionando contra un ARN extraño, la proteína S o los diferentes componentes del adenovirus, según el tipo de vacuna. Para evitar estos síntomas, podemos utilizar analgésicos como el paracetamol. El ministerio de Sanidad ha autorizado utilizar una dosis de 1 gramo previa a la vacunación, siguiendo las pautas habituales después de la vacunación hasta la desaparición de los síntomas.\n\n¿Por qué ha sido más fácil desarrollar una vacuna para la COVID-19 en menos de un año que para otros virus como el VIH?\n\nLos patógenos han ido evolucionando y adaptándose a su hospedador de formas muy diferentes, adoptando diversas estrategias que hacen que sea más o menos fácil de erradicarlos mediante una vacuna. En el caso del SARS-CoV-2, vacunar presenta ciertas ventajas: el virus no tiene una tasa de mutación muy elevada, a diferencia del virus de la gripe o del VIH. Esto facilita que pueda ser controlado por anticuerpos que lo neutralicen. Además, el virus no es capaz de causar una infección crónica como el virus del VIH, el virus de la hepatitis C, o como algunas bacterias, como la que causa la tuberculosis.",
+                                        "metadata": {
+                                            "url": "https://www.ucm.es/otri/noticias-resolvemos-las-dudas-mas-frecuentes-sobre-las-vacunas-contra-la-covid-19",
+                                            "source": "www.ucm.es",
+                                            "favicon": "https://www.ucm.es/themes/ucm16/media/img/favicon-192.png",
+                                            "title": "Resolvemos las dudas más frecuentes sobre las vacunas ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ucm.es",
+                                            "snippet": "Ninguna de las vacunas autorizadas por la Unión Europea (UE) contienen ningún tipo de coronavirus, ni vivo, ni desactivado. Sólo las vacunas CoronaVac y ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Formato pdf Fecha de publicación: 21 de diciembre de 2020\n\nCategoría: la AEMPS, Medicamentos de Uso Humano, Vacunas, COVID-19\n\nReferencia: AEMPS, 38/2020\n\nComirnaty es el nombre de la vacuna desarrollada por BioNTech y Pfizer, que previne la enfermedad causada por SARS-CoV-2 en personas a partir de los 16 años\n\nEl CHMP, formado por expertos de las autoridades competentes, entre ellas la AEMPS, ha completado su evaluación científica concluyendo por consenso que el balance beneficio-riesgo es positivo y se dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de esta vacuna\n\nAllana así el camino para que la Comisión Europea otorgue la autorización de comercialización condicional al medicamento y se convierta en la primera vacuna autorizada la Unión Europea\n\nEl ensayo clínico ha contado con la participación de unas 44.000 personas y ha demostrado una eficacia del 95%\n\nLa Agencia Europea del Medicamento (EMA, por sus siglas en inglés) ha recomendado que se otorgue una autorización condicional a Comirnaty, la vacuna frente a la COVID-19 desarrollada por BioNTech y Pfizer. Este medicamento, que previene la enfermedad causada por el SARS-CoV-2 en personas a partir de los 16 años, se convertirá así en la primera vacuna con una autorización de comercialización en la Unión Europea.\n\nEl Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.\n\nLa autorización de comercialización condicional es un instrumento contemplado en la legislación europea que permite una autorización ante una necesidad médica no cubierta, en la medida en que el beneficio para la salud pública de su inmediata disponibilidad es superior a la incertidumbre derivada de la limitación de los datos disponibles. Este tipo de autorización no es específica para esta situación; se ha concedido fuera y dentro de la pandemia y requiere de más datos que una autorización para situaciones de emergencia como la que se concede en otras regiones regulatorias.\n\nUn ensayo clínico con 44.000 participantes\n\nEl ensayo clínico de Comirnaty, con diseño doble-ciego (se administra la vacuna o un placebo enmascarados de manera que se impida su identificación a simple vista), ha contado con la participación de unas 44.000 personas. La eficacia se ha calculado en más de 36.000 voluntarios mayores de 16 años (incluidas personas mayores de 75 años) que no presentaban signos de infección previa. El estudio ha mostrado una reducción en el número de casos sintomáticos de COVID-19 en las personas que recibieron la vacuna. Un total de ocho casos de 18.198 desarrollaron síntomas en comparación con los 162 casos de 18.325 que mostraron síntomas en el grupo placebo. Esto lleva a la conclusión de que la vacuna ha demostrado un 95% de eficacia en el ensayo clínico.\n\nEl ensayo clínico también ha demostrado en torno a un 95% de eficacia en los participantes con un alto riesgo de desarrollar síntomas graves, incluyendo aquellos con asma, enfermedades crónicas pulmonares, diabetes, hipertensión o un índice de masa corporal ≥ 30 kg/m2. Este índice de eficacia también se ha mantenido entre etnias y sexos.\n\nLa administración de Comirnaty consiste en dos inyecciones en el brazo con una separación de 21 días. Las reacciones adversas más frecuentes han sido leves o moderadas y mejoraron al cabo de unos días después de la vacunación. Entre estas reacciones, se incluye dolor e inflamación en la zona de inyección, fatiga, dolor de cabeza, dolor muscular y de articulaciones, escalofríos y fiebre. La seguridad y eficacia de la vacuna se monitorizará entre todos los Estados miembros, a través del sistema de farmacovigilancia y los estudios adicionales que realizará la compañía y las autoridades europeas.",
+                                        "metadata": {
+                                            "url": "https://www.aemps.gob.es/informa/la-ema-recomienda-la-autorizacion-de-la-primera-vacuna-frente-a-la-covid-19/",
+                                            "source": "www.aemps.gob.es",
+                                            "favicon": "https://www.aemps.gob.es/wp-content/uploads/2022/10/logo_aemps2-removebg-preview.png",
+                                            "title": "La EMA recomienda la autorización de la primera vacuna ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.aemps.gob.es",
+                                            "snippet": "La Agencia Europea del Medicamento (EMA, por sus siglas en inglés) ha recomendado que se otorgue una autorización condicional a Comirnaty, la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Agencia Europea del Medicamento (EMA) ha aprobado hoy 21 de diciembre 2021 la primera vacuna frente al COVID-19 para su empleo en la Unión Europea, comercializada con el nombre de Comirnaty®. (acceso a la ficha técnica: https://www.ema.europa.eu/en/documents/product-information/comirnaty-product-information-approved-chmp-21-december-2020-pending-endorsement-european-commission_en.pdf).\n\nEs previsible que, tal y como se ha adelantado por diferentes fuentes, que la vacunación comience en España dentro de unos días, presumiblemente a partir del 27-28 de diciembre. La vacuna aprobada es de una prometedora tecnología, basada en ARN mensajero, de los laboratorios Pfizer y BioNTech. Se ha ensayado en más de 43.000 voluntarios, con unos datos excelentes de eficacia clínica para la prevención de COVID-19 (95% de eficacia), y con unos datos de seguridad buenos a corto plazo. Desde el 8 de diciembre se está empleando en Reino Unido, y desde hace una semana en Estados Unidos.",
+                                        "metadata": {
+                                            "url": "https://www.andavac.es/la-ema-aprueba-la-primera-vacuna-frente-al-covid-19-para-su-empleo-en-la-union-europea/",
+                                            "source": "www.andavac.es",
+                                            "favicon": "https://www.andavac.es/wp-content/uploads/2020/07/favicon.ico",
+                                            "title": "La EMA aprueba la primera vacuna frente al COVID-19 para ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.andavac.es",
+                                            "snippet": "La vacuna aprobada es de una prometedora tecnología, basada en ARN mensajero, de los laboratorios Pfizer y BioNTech. Se ha ensayado en más de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El lunes 21/dic de 2020 la European Medicines Agency (EMA) ha recomendado la autorización de Comirnaty, la primera vacuna de la covid (BNT162b2 de BioNTech&Pfizer) (nota de prensa, 21/dic de 2020).\n\nEl paso siguiente, y último antes del inicio del uso de esta vacuna, es la autorización formal de la Comisión Europea, requisito que se ha culminado en la misma tarde del 21 de diciembre de 2020, según informan medios de información especializados.\n\nEsta vacuna ha sido también aprobada en Reino Unido, EE. UU., Canadá, Suiza, México, Baréin, Catar, Singapur y Arabia Saudí.\n\nLa Comisión Europea autoriza el uso de la primera vacuna de la covid, después de la opinión favorable de la EMA\n\nSe trata de una autorización de comercialización condicional, modalidad distinta a la \"autorización de emergencia\" adoptada en Reino Unido y EE. UU. para esta misma vacuna. Según la normativa de la Unión Europea (UE), la autorización condicional tiene una validez de un año, tras el cual puede renovarse o transformarse en una autorización estándar, y es un procedimiento específico para ciertas situaciones como la actual, en la que:\n\nEl medicamento satisface una necesidad médica no satisfecha.\n\nEl balance beneficio-riesgo del medicamento es favorable, a pesar de la limitada información disponible.\n\nEs probable que el solicitante pueda proporcionar datos completos después de la autorización.\n\nEl beneficio de la disponibilidad inmediata del medicamento es mayor que el riesgo inherente al hecho de que aún se requieren datos adicionales.\n\nToda la información se encuentra en la web de la EMA dedicada a la covid, en el apartado dedicado a los tratamientos y vacunas:\n\nVacunación contra la covid en niños y adolescentes\n\nLa vacuna Comirnaty está recomendada en personas de 16 o más años de edad. Aunque los datos relativos a los adolescentes de 16 y 17 años son limitados, se asume que les son de aplicación los datos de los mayores de 18 años de edad.\n\nSin embargo, las autoridades canadienses (National Advisory Committee on Immunization, NACI, actualizado el 12/dic, consultado el 21/dic de 2020) consideran que los adolescentes de 12 a 15 años de edad con riesgo elevado de exposición y con factores de muy alto riesgo de enfermedad grave pueden ser informados y optar a la vacunación tras una evaluación beneficio/riesgo individualizado.\n\nEn nuestro ámbito, también las comunidades autónomas podrían añadir alguna matización que permita que ciertos adolescentes de alto riesgo pudieran acceder a la vacunación en ciertas condiciones. Por ejemplo, el protocolo de Asturias, el único conocido hasta ahora, admite tal posibilidad :\n\n\"... Por otra parte, las enfermedades neurológicas en los menores podrían incrementar el riesgo de sufrir formas graves de COVID-19 en caso de infectarse por SARS-CoV-2. Por ello, se podría considerar la realización de una valoración individualizada de la vacunación de menores de 16 años de edad, con discapacidad neurológica grave, que acuden regularmente a centros de atención a estas situaciones\".\n\nLa EMA ha exigido a las empresas que desarrollan vacunas de la covid que pretenden ser evaluadas en la UE un plan de investigación en la población infantil, y dispone de procedimientos rápidos para evaluar la información que pueda generar la investigación (Paediatric investigation plans, PIP). Ver, al final, más información sobre la investigación de las vacunas de la covid en niños y adolescentes.\n\nLa AEMPS lanza una campaña en apoyo de la vacunación de la covid\n\nNota de prensa de la AEMPS (21/dic de 2020) informando de la opinión favorable de la EMA a la autorización de la vacuna Comirnaty.\n\nCoincidiendo con la recomendación de la EMA, la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) ha lanzado la campaña \"Vacunas con garantías\" con el objetivo de \"explicar a la ciudadanía por qué se ha acelerado tanto el desarrollo, la evaluación y la adquisición de las vacunas sin reducir los estándares de calidad, seguridad y eficacia\".\n\n-oOo-\n\nEstrategia de vacunación contra la covid en España (20/dic de 2020) ● Primera actualización de la estrategia de vacunación contra la covid en España (20/dic de 2020)\n\n-oOo-\n\nInvestigación de las vacunas de la covid en niños y adolescentes",
+                                        "metadata": {
+                                            "url": "https://vacunasaep.org/profesionales/noticias/la-union-europea-autoriza-la-primera-vacuna-de-la-covid-comirnaty",
+                                            "source": "vacunasaep.org",
+                                            "favicon": "https://vacunasaep.org/sites/vacunasaep.org/files/vacunas_favicon_2.ico",
+                                            "title": "La Unión Europea autoriza la primera vacuna de la covid",
+                                            "type": "web_search",
+                                            "base_url": "https://vacunasaep.org",
+                                            "snippet": "El lunes 21/dic de 2020 la European Medicines Agency (EMA) ha recomendado la autorización de Comirnaty, la primera vacuna de la covid ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Requisitos reglamentarios\n\nEl programa de ensayos clínicos debe seguir un conjunto estricto de criterios, procedimientos y protocolos establecidos por las autoridades reguladoras. Todo el proceso, desde el concepto inicial hasta la autorización, puede durar hasta diez años.\n\nSin embargo, en las emergencias de salud pública, el proceso puede ser más rápido. Este fue el caso de las vacunas contra la COVID-19, desarrolladas a un ritmo acelerado debido a los importantes esfuerzos de la comunidad científica y a las inversiones en respuesta a la pandemia. Todos estos factores se basaron en décadas de investigación sobre nuevas tecnologías de vacunas. Sin embargo, este proceso siguió los mismos requisitos reglamentarios de calidad, seguridad y eficacia que para otras vacunas.\n\nPara obtener más información sobre el desarrollo y la autorización de vacunas, véase:\n\nResultados y control de calidad\n\nUna vez finalizado el programa de ensayos, el desarrollador de la vacuna presenta los resultados a la EMA como parte de una solicitud de autorización de comercialización. Las autoridades reguladoras solo pueden aprobar una vacuna si la evaluación científica de los resultados de los ensayos demuestra que los beneficios de la vacuna son superiores a sus riesgos.\n\nLas autoridades reguladoras de los medicamentos pueden llevar a cabo inspecciones para comprobar la fiabilidad de la información proporcionada por el desarrollador de la vacuna. También pueden llevar a cabo ensayos para asegurarse de que los lotes de vacunas comercializados tienen la calidad esperada y han sido fabricados correctamente.\n\nLas empresas están obligadas a realizar ensayos rigurosos en cada uno de los lotes de vacunas comercializados en el mercado de la UE. Las autoridades nacionales deciden los criterios de aceptación correspondientes.\n\nPara obtener más información sobre los beneficios de las vacunas, véase:",
+                                        "metadata": {
+                                            "url": "https://vaccination-info.europa.eu/es/acerca-de-las-vacunas/aprobacion-de-vacunas-en-la-ue",
+                                            "source": "vaccination-info.europa.eu",
+                                            "favicon": "https://vaccination-info.europa.eu/sites/default/themes/ecdc_vaccine/favicon.ico",
+                                            "title": "Aprobación de vacunas en la UE",
+                                            "type": "web_search",
+                                            "base_url": "https://vaccination-info.europa.eu",
+                                            "snippet": "Todas las vacunas deben pasar por varias fases de ensayo para garantizar su seguridad y eficacia antes de ser aprobadas para el uso en la UE."
+                                        }
+                                    },
+                                    {
+                                        "text": "A continuación, encontrará respuestas a preguntas formuladas frecuentemente en relación con la seguridad de las vacunas. Las preguntas de esta sección se irán incluyendo en el apartado de respuestas a preguntas frecuentes relacionadas con la seguridad de vacunas frente a la COVID-19. También se pueden consultar otras preguntas y respuestas sobre la vacunación en los siguientes enlaces institucionales:\n\nAl igual que todos los medicamentos, las vacunas pueden provocar reacciones adversas. No obstante, en los estudios clínicos realizados para su autorización se ha observado que la mayoría de ellas son leves, de corta duración y no todas las personas las sufren. En las vacunas para las que se necesitará recibir dos dosis, aunque después de recibir la primera aparezca algún efecto adverso leve, no deje de administrarse la segunda, ya que si bien con la primera dosis se consigue cierto grado de protección frente al virus, solo estará realmente protegido cuando reciba la segunda dosis. Las reacciones adversas más frecuentes identificadas para las vacunas frente a la COVID-19 actualmente autorizadas incluyen: Sensación (que suele ser más intensa durante las primeras 24-48h) de dolor, pesadez y/o sensibilidad en el brazo donde se le puso la inyección\n\nCansancio, dolor muscular\n\nDolor de cabeza\n\nMalestar general y síntomas leves similares a los de la gripe\n\nNáuseas\n\nFiebre También puede aparecer inflamación de los ganglios unos días después de la vacunación que puede prolongarse hasta dos semanas. Es una reacción esperable y constituye una señal de que el sistema inmunológico está respondiendo a la vacuna. En cualquier caso, estos síntomas son leves y suelen durar unos días. Si se prolongan en el tiempo o se agravan, no dude en consultar a su médico. Puede conocer con más detalle las reacciones adversas que se han descrito para cada una de las vacunas frente a la COVID-19 consultando su ficha técnica y su prospecto, disponibles en la página web de la Agencia Española de Medicamentos y Productos Sanitarios (CIMA). Además, esta Agencia elaborará notas informativas específicas cuando tenga que comunicar nueva información relevante sobre la seguridad de estas vacunas. 19/01/2021\n\nLo más usual es que las reacciones adversas debidas a las vacunas aparezcan durante los primeros días tras recibir la misma, siendo excepcional que pudieran aparecer después de los primeros meses tras vacunarse. En cualquier caso, se sigue vigilando la seguridad de la vacuna de forma continua para detectar reacciones adversas muy poco frecuentes, las que pudieran ocurrir en poblaciones no incluidas en los ensayos clínicos o aquellas que pudiesen ocurrir tras periodos más prolongados. 19/01/2021\n\nNo, los problemas de salud que ocurran tras recibir la vacuna no significa que estén causados por ella; puede tratarse de acontecimientos que hubieran ocurrido igualmente sin haber recibido la vacuna. A modo de ejemplo, por cada millón de habitantes en el año 2018 se produjeron en un periodo de dos meses: 205 ingresos hospitalarios debidos a un infarto agudo de miocardio\n\n357 ingresos hospitalarios debidos a una enfermedad cerebrovascular aguda\n\n77 ingresos hospitalarios debidos a asma\n\n123 nuevos casos de epilepsia o convulsiones\n\n580 nuevos casos de diabetes mellitus Fuentes de datos: Cálculo de ingresos hospitalarios: datos de 2018 del Registro de Actividades de Atención Especializada-RAE-CMBD, Subdirección General de Información Sanitaria y datos del INE para población residente en España. Cálculo nuevos casos diagnosticados: datos del programa BIFAP 2018. En personas mayores de 75 años, estos números son más elevados. Actualmente, la AEMPS dentro de un gran proyecto europeo, el proyecto ACCESS, y con los datos del Programa BIFAP, se están calculando las frecuencias de aparición de los acontecimientos adversos de especial interés para el seguimiento de la seguridad de las vacunas. Esto permitirá posteriormente vigilar si en la población que reciba la vacuna estas frecuencias se modifican o si el número de acontecimientos adversos que se reciban superan los casos esperados. 29/12/2020\n\nDe esto se encarga la farmacovigilancia. Todas las notificaciones de acontecimientos que se reciben se analizan exhaustivamente, revisando con detalle si existen otros factores que puedan haberlos causado y si el número de casos que se notifican es mayor que el que se esperaría que ocurrieran si no se hubiese administrado la vacuna. Esto además se complementa con una evaluación más amplia en la red de agencias de la Unión Europea dentro del Comité Europeo para la Evaluación de Riesgos en Farmacovigilancia, comité que coordina la Agencia Europea de Medicamentos. En esta evaluación se tiene en cuenta todos los datos disponibles a nivel mundial. Las recomendaciones que se deriven de esta evaluación, se aplican en todos los países de la Unión Europea y las nuevas reacciones adversas que se hayan confirmado se incluyen en la ficha técnica y prospecto de la vacuna correspondiente. 29/12/2020\n\nNo, no es posible contraer la COVID-19 a través de la vacunación, ya que ninguna de estas vacunas contiene virus vivos. Lo que sí podría suceder es que una persona vacunada frente a la COVID-19 estuviera incubando la infección o estuviera pasando la enfermedad sin síntomas en el momento de recibir la vacuna. En este caso, y puesto que las vacunas necesitan un tiempo tras su administración para que el organismo desarrolle la protección frente al virus, esta persona, podría transmitir la infección a otros después de haberse vacunado, pero no por haber recibido la vacuna en sí sino por estar infectada previamente. Tampoco hay que olvidar que ninguna vacuna es eficaz al cien por cien; las de la COVID-19 tampoco lo son, por lo que algunas personas podrían no generar protección frente al virus a pesar de haber sido vacunadas, de tal modo que podrían contraer la enfermedad a pesar de haber recibido la vacuna. 29/12/2020\n\nPuede colaborar notificando cualquier acontecimiento adverso que ocurra después de recibir la vacuna y que sospeche que está relacionado con ella, bien comunicándolo a su profesional sanitario o bien directamente a través de un formulario que encontrará en www.notificaRAM.es. Si es profesional sanitario y tiene que priorizar la notificación recuerde que, al igual que con el resto de medicamentos, interesan especialmente los acontecimientos adversos graves o no conocidos. 29/12/2020\n\nEs cierto que estas vacunas se han desarrollado gracias a una tecnología muy novedosa ya que contiene material genético del virus, su ARNm. Las vacunas de ARNm funcionan de manera diferente a como lo hacen las vacunas tradicionales. Estas últimas, utilizan antígenos de virus (o bacterias) para “entrenar” al sistema inmune de tal manera que este responda de una manera rápida si entra en contacto con el virus (o la bacteria). Las vacunas de ARNm, por el contrario, no introducen partes del virus en el organismo de la persona vacunada, lo que hacen es proporcionar las instrucciones necesarias para que el organismo humano produzca por sí mismo los antígenos virales y genere defensas contra ellos, de tal manera que cuando entre en contacto con el virus no se desarrolle la enfermedad. Antes del desarrollo de estas vacunas, ya se habían realizado múltiples ensayos con vacunas mRNA en animales y algunos estudios en pacientes. En cualquier caso, es preciso aclarar que todas y cada una de las vacunas frente a la COVID-19, independientemente de la tecnología con la que hayan sido fabricadas, se someten a rigurosas pruebas, controles y estudios antes de su autorización. 19/01/2021\n\nLas mujeres embarazadas tienen un riesgo mayor de COVID-19 grave que la población general. También se ha observado que las embarazadas que padecen la enfermedad tienen mayor riesgo de presentar resultados adversos relacionados con la gestación, como por ejemplo el parto pretérmino. Recientemente se han publicado los resultados preliminares de un registro (el registro V-safe), realizado en los Estados Unidos, en el que se identificaron 36.591 mujeres que habían sido vacunadas con las vacunas de ARNm (Comirnaty o Spikevax) estando embarazadas o en el periodo preconcepción. Tanto el perfil de reacciones adversas locales y sistémicas tras la vacunación, como la mayor frecuencia de aparición de dichas reacciones tras la administración de la segunda dosis, están en línea con el perfil de reactogenicidad observado en las mujeres no embarazadas. Además, en las mujeres que habían completado el embarazo (827), la tasa de pérdida del embarazo fue similar a la esperada en la población general. Cabe destacar que la mayoría de estas mujeres habían sido vacunadas durante el segundo y tercer trimestre del embarazo. Actualmente se recomienda la vacunación a las mujeres embarazadas con las vacunas de ARNm (Comirnaty o Spikevax), independientemente de la edad que tenga la mujer. El riesgo de complicaciones asociadas a la infección COVID-19, tanto para la mujer como para el feto, es mayor durante la fase final del segundo trimestre de la gestación y, en particular, durante el tercero. La experiencia sobre la vacunación en el primer trimestre del embarazo es todavía muy limitada, aunque datos recientemente publicados apuntan a que estas vacunas no aumentarían el riesgo de aborto espontáneo en fases tempranas del embarazo. Por ello, se recomienda la vacunación preferiblemente a partir de la semana 14 de embarazo, con el fin alcanzar la pauta de vacunación completa antes de llegar al periodo de máximo riesgo de complicaciones de la infección natural. La vacunación durante el primer trimestre puede valorarse de modo individual en aquellas mujeres embarazadas en las que, por la presencia de comorbilidades o alto riesgo de exposición, se considere que el beneficio supera los potenciales riesgos. Hasta el momento no se ha observado que la vacunación tenga efectos adversos sobre la lactancia o el recién nacido lactante. Teniendo en cuenta que el tipo de vacunas actualmente autorizadas en la Unión Europea son vacunas que no contienen virus vivos y carecen de capacidad infectiva, no se considera que puedan suponer un riesgo para el lactante. El Ministerio de Sanidad recomienda utilizar las vacunas de ARNm (Comirnaty, Spikevax) en estos casos. No sería necesario suspender la lactancia durante los días posteriores a la vacunación. Documentación de apoyo Recomendaciones FACME para la vacunación frente a la COVID-19 en mujeres embarazadas.\n\nLauren H. Zauche et al. Receipt of mRNA Covid-19 vaccines and risk of spontaneous abortion. New Engl J Med (8 sept 2021). DOI: 10.1056/NEJMc2113891 10/09/2021\n\nLa ficha técnica indica que la vacuna está contraindicada en personas alérgicas a alguno de los componentes de la misma. Tampoco se debe administrar si se ha sufrido una reacción alérgica grave (anafilaxia) a una dosis previa de la vacuna frente a la COVID-19. Puede consultarse la lista de excipientes y principios activos de las vacunas autorizadas en su prospecto, publicado en la web del Centro de Información Online de Medicamentos de la AEMPS (CIMA). La AEMPS recomienda no administrar una segunda dosis de la vacuna a aquellos pacientes que hayan presentado una reacción alérgica clínicamente relevante (anafilaxia, angioedema, urticaria generalizada, manifestaciones respiratorias como asma o rinitis) tras recibir la primera dosis y derivar al paciente a un servicio de alergología para estudio. La vacunación no está contraindicada en personas con alergias alimentarias, a medicamentos, animales, insectos, alérgenos del ambiente o látex. En cualquier caso, es necesario disponer de medicación para el tratamiento de una reacción alérgica y acceso a atención médica inmediata en los puntos de vacunación y se debe garantizar una vigilancia de la persona vacunada durante un periodo de tiempo adecuado. Como medida de precaución general, tras la administración de la vacuna, se mantendrá bajo observación a todos los vacunados durante al menos 15 minutos. En personas con alergias a otras vacunas o a medicamentos con otros componentes diferentes a los de la vacuna frente a la COVID-19, deberá administrarse con precaución manteniendo a los vacunados bajo observación durante un tiempo más prolongado. 19/01/2021\n\nLa evidencia disponible hasta el momento indica que la vacunación no modifica los resultados de pruebas diagnósticas mediante PCR y test de antígenos. Las pruebas serológicas o de anticuerpos podrían dar falsos positivos según el test utilizado. PCR en exudado nasofaríngeo Con Comirnaty y con la vacuna de Moderna se administra un fragmento de ARNm del COVID-19 que acaba produciendo la proteína S del virus. Este ARNm se degrada rápidamente tras la administración intramuscular de la vacuna, no llega a alcanzar las vías respiratorias y, por tanto, no puede ser detectado en la mucosa nasofaríngea de la persona vacunada. Además, la técnica de determinación por PCR identifica otras secuencias del material genético del virus diferentes al ARNm de las vacunas y el resultado solo es positivo cuando tiene lugar la identificación de varios genes del contenido genético del virus que es diferente a ARNm de la vacuna. Test de antígenos en exudado nasofaríngeo Los test de detección de antígenos incluyen en su composición anticuerpos contra fragmentos de las proteínas del virus (que actúan como antígeno), identificando la presencia de la proteína S del virus (presente en las espículas de la corona del virus). Sin embargo, la producción de dicha proteína tras la vacunación, tiene lugar a nivel local en el sitio en el que se ha administrado la vacuna y no parece posible que pueda llegar hasta las vías respiratorias en cantidad detectable. Por lo tanto, se considera que los test de antígenos tampoco mostrarían falsos positivos tras la vacunación frente a COVID-19. Test serológicos o de anticuerpos Los test de anticuerpos disponibles identifican anticuerpos en sangre (Inmunoglobulina G/IgG y/o inmunoglobulina M/IgM) frente a dos tipos de proteínas del virus, la proteína S de las espículas y/o la proteína N de la nucleocápside del virus. Dado que la vacuna genera anticuerpos frente a la proteína S, aquellos test que identifican estos anticuerpos anti-proteína S podrían dar resultados falsos positivos. Por lo tanto, es muy importante saber qué tipo de anticuerpos identifica el test utilizado. Aquellos que únicamente identifican anticuerpos frente a proteína N del virus, no darán falsos positivos en relación con haberse vacunado. Aquellos que identifican anticuerpos anti-proteína S, sí los pueden dar. En las recomendaciones de FACME se describen los anticuerpos detectados por distintos test. En resumen, podría decirse que la posibilidad de que se produzca un falso positivo tras la vacunación con alguna de estas vacunas mediante prueba PCR o test de antígenos en muestras de exudado nasofaríngeo es la misma que la posibilidad de que se produzca un falso positivo en la población general no vacunada. Por este motivo, todo paciente, haya sido vacunado o no, en el que se obtenga un resultado positivo en un test de antígenos o en una determinación de PCR en exudado nasofaríngeo, deberá ser considerado a todos los efectos como un paciente SARS-CoV-2 positivo. PCR o test antigénicos positivos significan infección. Documentación de apoyo Recomendaciones FACME para la vacunación frente a COVID-19: Interpretación de pruebas diagnósticas de SARS-CoV-2 tras la vacunación. https://facme.es/wp-content/uploads/2021/01/20210128-FACMEtests-diagnosticos-2801.pdf\n\nCenters for Disease Control and Prevention (CDC). Interim Clinical Considerations for Use of mRNA COVID-19 Vaccines Currently Authorized in the United States. https://www.cdc.gov/vaccines/covid-19/info-by-product/clinical-considerations.html\n\nOrganización Mundial de la Salud (OMS). Pruebas diagnósticas para el SARS-CoV-2: orientaciones provisionales, 11 de septiembre de 2020. https://apps.who.int/iris/handle/10665/335830\n\nOrganización Mundial de la Salud (OMS). Detección de antígenos para el diagnóstico de la infección por el SARS-CoV-2 mediante inmunoanálisis rápidos: orientaciones provisionales, 11 de septiembre de 2020. https://apps.who.int/iris/bitstream/handle/10665/336028/WHO-2019-nCoV-Antigen_Detection-2020.1-spa.pdf?sequence=1&isAllowed=y 08/02/2021\n\nEn el caso de reacciones alérgicas tras la vacunación: Reacciones alérgicas graves (anafilaxia): no se debe administrar la segunda dosis de la vacuna y el paciente debe ser valorado por un especialista en alergología.\n\nReacciones alérgicas clínicamente relevantes (angioedema, urticaria generalizada, manifestaciones respiratorias como asma o rinitis): la AEMPS recomienda no administrar la segunda dosis de la vacuna y el paciente debe ser valorado por un especialista en alergología. Las reacciones alérgicas pueden aparecer tras la administración de la segunda dosis de la vacuna aunque no se hayan presentado tras la primera dosis. Ver también la respuesta a la pregunta sobre vacunación en personas alérgicas. En caso de reacciones locales y/o sistémicas tras la administración de la vacuna: Las reacciones locales en el lugar de la inyección y los síntomas tipo gripe en los primeros días tras la vacunación, son frecuentes. Estas reacciones son pasajeras. Los datos procedentes de los ensayos clínicos indican que estas reacciones son más frecuentes en personas más jóvenes que en mayores de 65 años. En el caso de las vacunas de ARNm, los datos de los ensayos clínicos mostraron que la aparición de estas reacciones es más probable tras la segunda dosis. Para la vacuna de AstraZeneca, en cambio, se ha descrito que es menos probable su aparición tras la segunda dosis (consultar fichas técnicas de las vacunas en el Centro de Información Online de Medicamentos de la AEMPS (CIMA). La segunda dosis de las vacunas frente a la COVID-19 debe administrase aunque se hayan presentado estas reacciones a la primera dosis para completar el esquema de vacunación y poder obtener la protección completa que aporta la vacuna. Recientemente, se han publicado una serie de casos de reacciones adversas locales retardadas con la vacuna Moderna. Estas reacciones son reversibles. Documentación de apoyo Delayed Large Local Reactions to mRNA-1273 Vaccine against SARS-CoV-2. The New England Journal of Medicine. https://www.nejm.org/doi/full/10.1056/nejmc2102131 02/03/2021\n\nEn las personas con infección previa, la vacuna supone un segundo contacto con los antígenos virales y, por ello, pudiera esperarse una mayor reactogenicidad como consecuencia de una respuesta más intensa del sistema inmunológico. Datos recientemente dados a conocer, pero aún no revisados ni publicados (Krammer F et al., ZOE COVID Symptom Study), sugieren que podría ser esperable un aumento de la incidencia de reacciones sistémicas tras la vacunación en personas que han pasado la enfermedad. En los ensayos clínicos con las tres vacunas disponibles hubo participantes con serología basal positiva, aunque no eran pacientes que hubieran pasado la enfermedad sintomática o grave previamente, y no se observó que estos participantes mostraran mayor frecuencia de acontecimientos adversos que los participantes sin contacto previo con el virus. Aún no se dispone de los datos suficientemente contrastados, adicionales a los ensayos clínicos, que permitan conocer con exactitud esta mayor frecuencia o probabilidad de reacciones adversas. Por lo tanto, esta posibilidad no se puede afirmar pero tampoco descartar. Documentación de apoyo Recomendaciones FACME para la vacunación frente a COVID-19: administración de la segunda dosis de vacuna frente a COVID-19 en caso de reacciones adversas a la primera dosis. https://facme.es/wp-content/uploads/2021/02/TC20210202-FACME-2a-dosis-tras-alergia-o-enfermedad-2801-v2.0.pdf\n\nFlorian Krammer, Komal Srivastava, the PARIS team, Viviana Simon. Robust spike antibody responses and increased reactogenicity in seropositive individuals after a single dose of SARS-CoV-2 mRNA vaccine. Preprint: https://doi.org/10.1101/2021.01.29.21250653\n\nCOVID Symptom Study press release. Vaccine after effects more common in those who already had COVID. https://covid.joinzoe.com/post/vaccine-after-effects-more-common-in-those-who-already-had-covid 02/03/2021\n\nLas personas en tratamiento crónico con anticoagulantes (Sintrom u otros) o que presenten algún trastorno de coagulación pueden vacunarse frente a la COVID-19, ya que esto no supone una contraindicación para la vacunación. No obstante, ya que estas vacunas se administran por vía intramuscular, se deben tomar ciertas precauciones en el momento de la administración de la vacuna para evitar la aparición de hematomas y se debe consultar previamente con el médico para valorar el riesgo de hemorragia según la situación de cada paciente. Las precauciones a tener en cuenta para la administración de estas vacunas en pacientes anticoagulados no difieren de las conocidas para otras vacunas que se les vienen administrando. En pacientes con coagulopatías (por ejemplo hemofilias), tampoco está contraindicada la administración de las vacunas frente a la COVID-19, aunque es conveniente consultar con el hematólogo previamente. En los documentos abajo referenciados se puede encontrar información adicional para situaciones concretas como, por ejemplo, las recomendaciones para pacientes con trombocitopenia (recuento bajo de plaquetas en sangre). Documentación de apoyo Recomendaciones vacuna COVID-19 en paciente hematológico. Sociedad Española de Hematología y Hemoterapia y otras sociedades científicas y organizaciones. https://www.sehh.es/covid-19/vacunacion/124452-recomendaciones-vacuna-covid-19-en-paciente-hematologico\n\nRecomendaciones FACME para la vacunación frente a la COVID-19 en grupos de potencial riesgo: ¿se debe administrar la vacuna frente a la COVID-19 a pacientes anticoagulados o con trastornos de la coagulación? https://facme.es/wp-content/uploads/2021/01/20201229-FAC-Pacientes-anticoagulados-recomendaciones-de-vacunacion-frente-a-COVID-19.pdf 02/03/2021\n\nSi tengo problemas de coagulación de la sangre, antecedentes familiares o personales de trombocitopenia (disminución en el número de plaquetas de la sangre) o factores de riesgo de trombosis, ¿me puedo vacunar? Sí, puede vacunarse. Por el momento no se ha identificado ningún factor que predisponga o contribuya a desarrollar este acontecimiento adverso. Por lo que no se recomienda adoptar medidas especiales en ningún grupo concreto. Los pacientes con coagulopatías que cursan con trombocitopenia pueden consultar con su hematólogo. ¿Es aconsejable tomar anticoagulantes o antiagregantes antes o después de la administración de esta vacuna? No, el uso de antiagregantes o anticoagulantes no está recomendado en absoluto en personas que no utilizaban previamente este tipo de medicamentos por una circunstancia o enfermedad previa a la vacunación. ¿Hay algún síntoma ante el que haya mostrarse especialmente atento tras la vacunación y acudir al médico en caso de que aparezca? Tenga presente que tras la vacunación es frecuente que aparezca: dolor de cabeza, malestar general, febrícula, dolor muscular, náuseas y vómitos. Ante estos síntomas no hay que hacer nada especial ya que suelen durar tan solo unos pocos días y pueden tratarse con paracetamol. Si el cuadro es persistente y no se resuelve de forma espontánea en unos días, puede consultar con un profesional sanitario. Deberá por el contrario mostrase atento ante la aparición de determinados síntomas, denominados de alarma, ya que su aparición hace aconsejable consultar con su médico de la manera más inmediata posible: dificultad para respirar; dolor en el pecho; hinchazón de piernas; dolor abdominal persistente; dolor de cabeza intenso o persistente que empeora al tumbarse y es máximo por la mañana, al despertar; visión doble, dificultad para caminar o hablar; pérdida de fuerza o de sensibilidad; aparición de múltiples pequeños hematomas en la piel (lo que se conoce con el nombre de petequias) en un lugar diferente al de la vacunación. Documentación de apoyo Reanudación de la vacunación con AstraZeneca. Preguntas frecuentes: https://www.mscbs.gob.es/profesionales/saludPublica/prevPromocion/vacunaciones/covid19/docs/Nota_AZ_PreguntasyRespuestas_Reanudacion.pdf\n\nVaxzevria (vacuna frente a la COVID-19 de AstraZeneca): actualización sobre el riesgo de trombosis. /informa/notasinformativas/medicamentosusohumano-3/seguridad-1/2021-seguridad-1/vaxzevria-vacuna-frente-a-la-covid-19-de-astrazeneca-actualizacion-sobre-el-riesgo-de-trombosis/\n\nFACME: Recomendaciones relativas al seguimiento de sospecha de trombosis y trombocitopenias tras la vacunacion frente a Covid-19 (Astrazeneca). https://facme.es/wp-content/uploads/2021/03/FACME-sobre-trombosis-trombocitopenicas-ASTRAZENECA-20210329.pdf 05/04/2021\n\nEs posible que tras haber sido vacunada frente a la COVID-19 los ganglios linfáticos situados en la axila del brazo en el que se ha administrado la vacuna se inflamen en mayor o menor medida. Este proceso, que se conoce con el nombre de linfadenopatía, constituye una reacción adversa conocida que no tiene trascendencia clínica ni precisa de consulta ni pruebas específicas y suele resolverse espontáneamente en unos días. Si el aumento de tamaño de los ganglios persiste en el tiempo más de 6 semanas sin observar disminución progresiva de los mismos, puede consultar con su médico. En caso de que durante el tiempo en que experimente esta inflamación de los ganglios tenga su cita habitual de mamografía, comunique al médico esta circunstancia con el fin de facilitar la interpretación del estudio. A las mujeres a las que se les esté realizando seguimiento periódico de una mama, es recomendable para una mejor interpretación del estudio, que la vacuna les sea administrada en el brazo contralateral. Documentación de apoyo Recomendaciones de la Sociedad Española de Diagnóstico por Imagen de la Mama (SEDIM) para el manejo de mujeres con antecedente de vacunación para COVID-19 reciente. Disponible en: https://www.sedim.es/nueva/recomendaciones-manejo-mujeres-vacunacion-covid-reciente/ 05/05/2021\n\nCon la administración de Vaxzevria pueden aparecer muy raramente casos de trombosis con trombocitopenia (en algunos casos acompañados de hemorragia), más frecuentes en menores de 60 años sin que hasta el momento se hayan podido identificar factores de riesgo específicos que predispongan a su aparición. Las trombosis pueden aparecer en localizaciones inusuales como los senos venosos cerebrales o las venas del abdomen (denominadas venas esplácnicas), así como trombosis arteriales. Hasta el 30 de mayo de 2021, se han registrado en España 21 casos que se consideran relacionados con la vacuna y 5 fallecimientos, tras la administración de la primera dosis de Vaxzevria. El número de casos notificados en relación con las dosis administradas por grupo de edad es de 1-2 casos por 100.000 dosis administradas en las personas menores de 50 años y de 0,2 casos por 100.000 dosis administradas en personas mayores de 50 años. En lo que respecta a la segunda dosis, la experiencia que existe hasta la fecha es limitada. El Reino Unido es hasta el momento el país que ha administrado más segundas dosis, pero la mayoría en personas mayores, población que tiene menos riesgo de aparición de este síndrome. Por tanto, actualmente el riesgo tras la segunda dosis de Vaxzevria en menores de 60 años no se conoce, ya que los datos disponibles son limitados y no concluyentes. Documentación de apoyo Ficha técnica de Vaxzevria, disponible en el Centro de información Online de Medicamentos de la AEMPS (CIMA).\n\n5º Informe de Farmacovigilancia sobre Vacunas COVID-19 de la AEMPS. 11/06/2021\n\nEl trometamol es un excipiente que se incluye en algunas de las presentaciones de las vacunas frente a la COVID-19. Este excipiente está presente actualmente en la vacuna de Moderna (Spikevax) y en algunas presentaciones de la de BioNTech/Pfizer (Comirnaty). También se puede encontrar en otros medicamentos. La alergia a trometamol es muy rara y actualmente no existe evidencia de que las reacciones alérgicas que se pueden presentar tras la vacunación sean debidas a este excipiente. De hecho, la tasa de notificación de reacciones alérgicas graves registradas en España no difiere entre los vacunados con Comirnaty (presentación sin trometamol) y los vacunados con Spikevax (contiene trometamol), oscilando en ambos casos entre 1 y 2 casos por 100.000 dosis administradas. Por tanto, las vacunas frente a la COVID-19 solo están contraindicadas en aquellas personas que han sufrido reacciones alérgicas previas a la vacuna o tienen alergia conocida y contrastada a alguno de sus excipientes. Los pacientes con algún otro tipo de alergia no tienen más contraindicaciones que la población general. La vacunación no está contraindicada en personas con alergias alimentarias, a medicamentos, animales, insectos, alérgenos del ambiente o látex. La AEMPS recomienda no administrar la vacuna a aquellos pacientes que hayan presentado una reacción alérgica clínicamente relevante (anafilaxia, angioedema, urticaria generalizada, manifestaciones respiratorias como asma o rinitis) tras recibir una dosis previa de la misma vacuna y derivar al paciente a un servicio de alergología para estudio. 26/01/2022",
+                                        "metadata": {
+                                            "url": "https://www.aemps.gob.es/la-aemps/ultima-informacion-de-la-aemps-acerca-del-covid-19/vacunas-contra-la-covid-19/farmacovigilancia-de-vacunas/respuestas-a-preguntas-frecuentes-relacionadas-con-la-seguridad-de-vacunas-frente-a-la-covid-19/",
+                                            "source": "www.aemps.gob.es",
+                                            "favicon": "https://www.aemps.gob.es/wp-content/uploads/2022/10/logo_aemps2-removebg-preview.png",
+                                            "title": "Respuestas a preguntas frecuentes relacionadas con la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.aemps.gob.es",
+                                            "snippet": "A continuación, encontrará respuestas a preguntas formuladas frecuentemente en relación con la seguridad de las vacunas. Las preguntas de esta sección se ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Marco Cavaleri, Jefe del Departamento de Amenazas a la Salud Pública en la EMA, participó la semana pasada como ponente en el primer bloque del programa formativo ‘Inmunización a lo largo de la vida’, organizado por la Asociación Española de Vacunología.\n\nCavaleri se unió a la Agencia Europea del Medicamento en 2005 y se convirtió en Jefe de Antiinfecciosos y Vacunas en 2009. Desde entonces colabora con organizaciones internacionales como la OMS y forma parte de diferentes grupos de expertos.\n\n¿Cuáles son las principales claves que se tienen en cuenta a la hora de aprobar una vacuna?\n\nLa vacuna debe demostrar ser satisfactoria en cuanto a calidad, seguridad y eficacia. Los datos sobre la fabricación son escrutados para garantizar que la vacuna tenga una calidad de acuerdo con los estándares de la EMA e internacionales. Los datos clínicos deben mostrar que la vacuna es segura en la población de uso prevista y, normalmente, se requiere una base de datos de seguridad de 3000 individuos vacunados o incluso más. Los ensayos clínicos aleatorizados son el estándar de oro para demostrar eficacia. Cuando se establecen correlatos de protección o hay un marcador inmunológico que probablemente prediga la eficacia, los datos clínicos de inmunogenicidad pueden ser suficientes para respaldar la aprobación de la vacuna. Tras la evaluación de todos los datos disponibles, la vacuna debe demostrar un balance positivo entre beneficio y riesgo para ser aprobada.\n\n¿Qué vacunas podría aprobar la EMA a corto/medio plazo?\n\nActualmente hay varias vacunas en desarrollo. Entre ellas, hay nuevas vacunas basadas en la tecnología de ARNm para cubrir virus respiratorios como el VSR y la influenza, incluida la opción de vacunas combinadas que abarquen diferentes virus respiratorios. También podrían aprobarse en un futuro cercano vacunas para enfermedades transmitidas por mosquitos como el virus del Chikungunya. Para patógenos bacterianos, recientemente se han aprobado o podrían aprobarse pronto nuevas vacunas con una cobertura más amplia para Streptococcus pneumoniae. Las vacunas para otros patógenos como Shigella o Streptococcus del grupo B están en desarrollo. Se espera que estas vacunas tengan un impacto positivo en la resistencia antimicrobiana. Se están realizando esfuerzos para avanzar en vacunas para prevenir la tuberculosis en adultos y adolescentes, y se están investigando nuevas vacunas contra la malaria. La vacuna para el VIH parece ser un objetivo lejano, pero se esperan más esfuerzos en este sentido.\n\n¿A qué retos se enfrentan las vacunas en la actualidad?\n\nTras la pandemia de COVID-19, y a pesar de que las vacunas han salvado millones de vidas en el mundo, hay un aumento en la reticencia a la vacunación, y el cansancio por las vacunas en la población está poniendo en riesgo programas clave de vacunación como los de sarampión y otras vacunas durante los primeros años de vida. Existe la necesidad de una comunicación efectiva sobre los beneficios y riesgos de las vacunas y de explicar con rigor científico el valor de la prevención ejercida por la vacunación. El calendario de vacunación es bastante completo en la infancia y cada vez hay más vacunas disponibles para ancianos y mujeres embarazadas. El desarrollo de vacunas combinadas sería valioso para reducir el número de administraciones.\n\nComo responsable de la estrategia vacunal de la Agencia Europea del Medicamento, ¿qué le diría a aquellos que critican o recelan de la seguridad de las vacunas?\n\nSi bien ningún medicamento está completamente libre de efectos secundarios, las vacunas siguen siendo los medicamentos más seguros que tenemos. Las vacunas se administran en cantidades minúsculas y los antígenos desaparecen rápidamente después de la administración. Los eventos adversos, cuando ocurren, están relacionados con la respuesta inmunitaria que se desencadena poco después de la vacunación. Los reguladores evalúan minuciosamente los datos en la aprobación y monitorean constantemente la seguridad posterior a la aprobación para identificar eventos adversos raros que no se pudieron identificar antes de la aprobación debido al tamaño de la muestra necesario. De hecho, los eventos adversos raros requieren el uso de las vacunas en grandes cantidades de personas para ser identificados. Las autoridades deben informar rápidamente al público cuando estos eventos se confirman como relacionados con la vacunación y ser transparentes en torno a sus evaluaciones científicas.\n\nEn su opinión, ¿la consecución de qué vacuna ha supuesto un antes y un después en el mundo de la Medicina?\n\nLa erradicación de la viruela gracias a las vacunas y el impacto de las vacunas contra la polio en la carga de enfermedad asociada con este virus están entre los éxitos más notables de la vacunación en la historia de la medicina. Estos ejemplos ilustran bien el valor de las vacunas, que siguen siendo uno de los medicamentos más efectivos que tenemos; un bien social precioso. Las nuevas tecnologías, como la forma de producir vacunas basadas en proteínas, el uso de adyuvantes y más recientemente, durante la pandemia, la llegada de las vacunas de ARNm, también son hitos importantes en la historia de las vacunas.\n\n¿Le preocupan los movimientos antivacunas? ¿Cómo podrían combatirse?\n\nEl creciente movimiento antivacunas y su capacidad para utilizar eficazmente las redes sociales para difundir información errónea y desinformación es motivo de gran preocupación. Si bien la demanda de ciertas partes del público de garantías sobre la seguridad de las vacunas es legítima, las opiniones anticientíficas y los intentos de manipular y distorsionar la evidencia para difundir la duda y culpar a las vacunas de efectos negativos no probados tienen un efecto considerablemente perjudicial en la salud pública. Las autoridades deben llegar proactivamente al público y estar preparadas para ofrecer una perspectiva científica transparente sobre la evidencia actual, sin temor a explicar que a veces no todo está completamente comprendido y que pueden existir algunas incertidumbres en las investigaciones científicas.\n\nEs un honor para la Asociación Española de Vacunología haber contado con usted como ponente para uno de nuestros cursos, ¿cree que asociaciones como la nuestra son importantes para el avance de la ciencia?\n\nEl honor es mío. Gracias por la oportunidad que me han brindado. Asociaciones científicas como la Asociación Española de Vacunología pueden desempeñar un papel clave en la defensa de la información científica correcta sobre la vacunación y su valor, interactuando con profesionales de la salud y el público en general en nuestro esfuerzo común por proteger la salud pública de la mejor manera posible.",
+                                        "metadata": {
+                                            "url": "https://vacunas.org/marco-cavaleri-ningun-medicamento-esta-completamente-libre-de-efectos-secundarios-pero-las-vacunas-siguen-siendo-los-mas-seguros-que-tenemos/",
+                                            "source": "vacunas.org",
+                                            "favicon": "https://vacunas.org/wp-content/uploads/2023/06/Logo-cuadrado-60.png",
+                                            "title": "Marco Cavaleri: “Ningún medicamento está ...",
+                                            "type": "web_search",
+                                            "base_url": "https://vacunas.org",
+                                            "snippet": "Si bien ningún medicamento está completamente libre de efectos secundarios, las vacunas siguen siendo los medicamentos más seguros que tenemos."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Comisión Europea se encarga de negociar acuerdos de compra anticipada de vacunas en nombre de los Estados miembros. A cambio del derecho a comprar un número determinado de dosis de vacunas en un período determinado y a un precio determinado, la Comisión financia una parte de los costes iniciales afrontados por los productores de vacunas con cargo al Instrumento de Ayuda en Emergencias. Este enfoque reduce los riesgos para las empresas, al tiempo que acelera e incrementa la fabricación.\n\nEn el apartado de Última Información de la página web de la AEMPS está recogida toda la actualidad acerca de los contratos que la Comisión Europea está cerrando con los fabricantes de vacunas. En la web de la Comisión Europea también se puede consultar la última hora y los detalles de estos contratos.",
+                                        "metadata": {
+                                            "url": "https://www.aemps.gob.es/la-aemps/ultima-informacion-de-la-aemps-acerca-del-covid-19/vacunas-contra-la-covid-19/estrategia-europea-de-vacunas-frente-a-la-covid-19/",
+                                            "source": "www.aemps.gob.es",
+                                            "favicon": "https://www.aemps.gob.es/wp-content/uploads/2022/10/logo_aemps2-removebg-preview.png",
+                                            "title": "Estrategia Europea de Vacunas frente a la COVID-19",
+                                            "type": "web_search",
+                                            "base_url": "https://www.aemps.gob.es",
+                                            "snippet": "El 17 de junio de 2020, la Comisión Europea presentó la Estrategia Europea de Vacunas para acelerar el desarrollo, la fabricación y la utilización de estos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Resumen de privacidad\n\nEsta web utiliza cookies para que podamos ofrecerte la mejor experiencia de usuario posible. La información de las cookies se almacena en tu navegador y realiza funciones tales como reconocerte cuando vuelves a nuestra web o ayudar a nuestro equipo a comprender qué secciones de la web encuentras más interesantes y útiles.",
+                                        "metadata": {
+                                            "url": "https://vacunas.org/noticias-covid-19/",
+                                            "source": "vacunas.org",
+                                            "favicon": "https://vacunas.org/wp-content/uploads/2023/06/Logo-cuadrado-60.png",
+                                            "title": "Noticias Covid-19 - Vacunas",
+                                            "type": "web_search",
+                                            "base_url": "https://vacunas.org",
+                                            "snippet": "Según ha comunicado la Agencia Europea del Medicamento, sus técnicos han comenzado la revisión continuada (rolling review) de una versión adaptada de Comirnaty ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Una vez autorizados y comercializados, todos los medicamentos, incluidas las vacunas, son objeto de una estrecha vigilancia en la UE.\n\nEstadísticamente hablando, los efectos adversos son raros o incluso muy raros. La seguridad y la eficacia de las vacunas contra la COVID-19 autorizadas serán objeto de una vigilancia estricta, como en el caso de todos los medicamentos, a través del sistema de farmacovigilancia establecido en la UE.",
+                                        "metadata": {
+                                            "url": "https://commission.europa.eu/strategy-and-policy/coronavirus-response/safe-covid-19-vaccines-europeans/covid-19-vaccines-making-sure-they-are-safe_es",
+                                            "source": "commission.europa.eu",
+                                            "favicon": "https://commission.europa.eu/themes/contrib/oe_theme/images/favicons/ec/favicon.ico",
+                                            "title": "Vacunas contra la COVID-19: garantizar su seguridad",
+                                            "type": "web_search",
+                                            "base_url": "https://commission.europa.eu",
+                                            "snippet": "La Agencia Europea de Medicamentos (EMA) realiza una vigilancia constante de los casos notificados de efectos secundarios de una vacuna una vez que empieza a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La autorización de las vacunas frente a la COVID-19 se realiza a través del llamado procedimiento centralizado, que supone que una vez que el medicamento esté aprobado, puede comercializarse en todo el territorio europeo.\n\nPara ello, en primer lugar, la EMA debe emitir una evaluación positiva y, posteriormente con este dictamen, la Comisión Europea debe autorizar la comercialización. De acuerdo con la legislación farmacéutica, el plazo estándar para la evaluación de un medicamento es de 210 días activos como máximo. La Agencia Europea, sin embargo, ha acelerado este proceso, lo que permite reducir el cronograma de evaluación a menos de 150 días hábiles.\n\nProceso de evaluación de vacunas frente a la COVID-19: rolling review\n\nPara lograr esta reducción de los tiempos, la evaluación de vacunas frente a la COVID-19 se realiza a través del llamado rolling review, un mecanismo excepcional por el cual las agencias evalúan los datos conforme se van generando. Esta revisión continua es una herramienta reguladora activada por la EMA para acelerar la evaluación de un medicamento prometedor durante una emergencia sanitaria.\n\nNormalmente, todos los datos sobre la eficacia, seguridad y calidad de un medicamento o vacuna y la documentación requerida deben estar listos al comienzo de la evaluación en una solicitud formal de autorización de comercialización.\n\nEn el caso de una revisión continua, el Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, en el que participan los técnicos de la AEMPS, revisa los datos de los estudios en curso, a medida que estos están disponibles. Una vez que el CHMP decide que hay suficientes datos disponibles, la empresa debe presentar una solicitud formal de autorización de su vacuna. Al revisar los datos a medida que estén disponibles, el CHMP puede emitir una opinión sobre la autorización del medicamento antes.\n\nDurante la revisión continua, y durante toda la pandemia, la EMA y sus comités científicos cuentan con el apoyo de un grupo de trabajo que reúne a expertos de toda la red europea de regulación de medicamentos para asesorar sobre el desarrollo, la autorización y el control de la seguridad de medicamentos y vacunas para la COVID-19, y así facilitar una acción reguladora rápida y coordinada.\n\nLa autorización de comercialización condicional es una herramienta contemplada en la legislación europea que permite a los reguladores aprobar un medicamento de forma rápida y segura cuando existe una necesidad urgente.\n\nUna autorización de comercialización condicional garantiza que la vacuna aprobada:\n\nCumple con los rigurosos estándares de la UE en materia de calidad, seguridad y eficacia\n\nSe fabrica y controla en instalaciones aprobadas y certificadas de acuerdo con los altos estándares farmacéuticos compatibles con la comercialización a gran escala\n\nLa autorización de comercialización condicional es diferente a la denominada autorización de uso de emergencia, que algunos países utilizan para permitir el uso temporal de un medicamento no autorizado en una situación de emergencia sanitaria. Esta herramienta de uso de emergencia, sin embargo, no es una autorización de comercialización.\n\nLa legislación de la UE prevé que la autorización de comercialización condicional se utilice como procedimiento de autorización de vía rápida durante emergencias de salud pública para acelerar la aprobación y salvar vidas. Es la herramienta más adecuada para permitir el acceso a una vacuna a toda la ciudadanía de la UE y para respaldar las campañas de vacunación masiva.",
+                                        "metadata": {
+                                            "url": "https://www.aemps.gob.es/la-aemps/ultima-informacion-de-la-aemps-acerca-del-covid-19/vacunas-contra-la-covid-19/evaluacion-y-autorizacion-de-vacunas/",
+                                            "source": "www.aemps.gob.es",
+                                            "favicon": "https://www.aemps.gob.es/wp-content/uploads/2022/10/logo_aemps2-removebg-preview.png",
+                                            "title": "Evaluación y autorización de vacunas",
+                                            "type": "web_search",
+                                            "base_url": "https://www.aemps.gob.es",
+                                            "snippet": "Esta revisión continua es una herramienta reguladora activada por la EMA para acelerar la evaluación de un medicamento prometedor durante una emergencia ..."
+                                        }
+                                    },
+                                    {
+                                        "text": ".\n\nSince January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.",
+                                        "metadata": {
+                                            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483629/",
+                                            "source": "pmc.ncbi.nlm.nih.gov",
+                                            "favicon": "https://pmc.ncbi.nlm.nih.gov/static/img/favicons/apple-touch-icon.png",
+                                            "title": "Efectividad y seguridad de las vacunas para el SARS-CoV-2 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://pmc.ncbi.nlm.nih.gov",
+                                            "snippet": "de JJG Marco · 2021 · Citado por 65 — Actualmente, tenemos disponibles cuatro vacunas con el objetivo común de disminuir la morbimortalidad de la COVID-19, pero con plataformas tecnológicas, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "BIBLIOGRAFÍA\n\n1 Logunov DY, Dolzhikova IV, Zubkova OV, Tukhvatullin AI, Shcheblyakov DV, Dzharullaeva AS, et al. Safety and immunogenicity of an rAd26 and rAd5 vector-based heterologous prime-boost COVID-19 vaccine in two formulations: two open, non-randomised phase 1/2 studies from Russia. Lancet. 2020;396:887-97. [ Links ]\n\n2 Voysey M, Clemens SAC, Madhi SA, Weckx LY, Folegatti PM, Aley PK, et al. Safety and efficacy of the ChAdOx1 nCoV-19 vaccine (AZD1222) against SARS-CoV-2: an interim analysis of four randomised controlled trials in Brazil, South Africa, and the UK. Lancet. 2021;397:99-111. [ Links ]\n\n3 Voysey M, Costa Clemens SA, Madhi SA, Weckx LY, Folegatti PM, Aley PK, et al. Single-dose administration and the influence of the timing of the booster dose on immunogenicity and efficacy of ChAdOx1 nCoV-19 (AZD1222) vaccine: a pooled analysis of four randomised trials. Lancet. 2021;397:881-91. [ Links ]\n\n4 Sadoff J, Gray G, Vandebosch A, Cárdenas V, Shukarev G, Grinsztejn B, et al. Safety and Efficacy of Single-Dose Ad26.COV2.S Vaccine against Covid-19. N Engl J Med. 2021;384:2187-201. [ Links ]\n\n5 Grupo de trabajo de efectividad de vacunación COVID-19. Análisis de la efectividad de la vacunación frente a COVID-19 en España. 2º informe, 13 de octubre de 2021 [en línea] [consultado el 23/11/2021]. Disponible en www.sanidad.gob.es/profesionales/saludPublica/prevPromocion/vacunaciones/covid19/docs/Efectividad_VacunacionCOVID-19_Espana.pdf [ Links ]\n\n6 Grupo de Trabajo Técnico de Vacunación COVID-19. Estrategia de vacunación frente a COVID19 en España, 2 de noviembre de 2021. Ponencia de Programa y Registro de Vacunaciones [en línea] [consultado el 23/11/2021]. Disponible en www.mscbs.gob.es/profesionales/saludPublica/prevPromocion/vacunaciones/covid19/Actualizaciones_EstrategiaVacunacionCOVID-19.htm [ Links ]\n\n7 Polack FP, Thomas SJ, Kitchin N, Absalon J, Gurtman A, Lockhart S, et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med. 2020;383:2603-15. [ Links ]\n\n8 Thomas SJ, Moreira ED, Kitchin N, Absalon J, Gurtman A, Lockhart S, et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine through 6 Months. N Engl J Med. 2021;385:1761-73. [ Links ]\n\n9 Frenck RW, Klein NP, Kitchin N, Gurtman A, Absalon J, Lockhart S, et al. Safety, Immunogenicity, and Efficacy of the BNT162b2 Covid-19 Vaccine in Adolescents. N Engl J Med. 2021;385:239-50. [ Links ]\n\n10 Walter EB, Talaat KR, Sabharwal C, Gurtman A, Lockhart S, Paulsen GC, et al. Evaluation of the BNT162b2 Covid-19 Vaccine in Children 5 to 11 Years of Age. N Engl J Med. 2021;386:35-46. [ Links ]\n\n11 Ali K, Berman G, Zhou H, Deng W, Faughnan V, Coronado-Voges M, et al. Evaluation of mRNA-1273 SARS-CoV-2 Vaccine in Adolescents. N Engl J Med. 2021;385:2241-51. [ Links ]\n\n12 Heath PT, Galiza EP, Baxter DN, Boffito M, Browne D, Burns F, et al. Safety and Efficacy of NVX-CoV2373 Covid-19 Vaccine. N Engl J Med. 2021;385:1172-83. [ Links ]\n\n13 Al Kaabi N, Zhang Y, Xia S, Yang Y, Al Qahtani MM, Abdulrazzaq N, et al. Effect of 2 Inactivated SARS-CoV-2 Vaccines on Symptomatic COVID-19 Infection in Adults: A Randomized Clinical Trial. JAMA. 2021; 326:35-45. [ Links ]\n\n14 Bueno SM, Abarca K, González PA, Gálvez NMS, Soto JA, Duarte LF, et al. Safety and Immunogenicity of an Inactivated SARS-CoV-2 Vaccine in a Subgroup of Healthy Adults in Chile. Clin Infect Dis. 2021;ciab823. [ Links ]\n\n15 Palacios R, Batista A, Albuquerque C, Patiño E, Santos J, Conde M, et al. Efficacy and Safety of a COVID-19 Inactivated Vaccine in Healthcare Professionals in Brazil: The PROFISCOV Study. SSRN Electron J. 2021; 3822780. [ Links ]\n\n16 Monge S, Olmedo C, Alejos B, Lapeña MF, Sierra MJ, Limia A, et al. Direct and Indirect Effectiveness of mRNA Vaccination against Severe Acute Respiratory Syndrome Coronavirus 2 in Long-Term Care Facilities, Spain. Emerg Infect Dis. 2021;27:2595-603. [ Links ]\n\n17 Dagan N, Barda N, Kepten E, Miron O, Perchik S, Katz MA, et al. BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting. N Engl J Med. 2021;384:1412-23. [ Links ]\n\n18 Vasileiou E, Simpson CR, Shi T, Kerr S, Agrawal U, Akbari A, et al. Interim findings from first-dose mass COVID-19 vaccination roll-out and COVID-19 hospital admissions in Scotland: a national prospective cohort study. Lancet. 2021;397:1646-57. [ Links ]\n\n19 Baraniuk C. How long does covid-19 immunity last? BMJ. 2021;373:n1605. [ Links ]\n\n20 Chemaitelly H, Tang P, Hasan MR, AlMukdad S, Yassine HM, Benslimane FM, et al. Waning of BNT162b2 Vaccine Protection against SARS-CoV-2 Infection in Qatar. N Engl J Med. 2021;385:e83. [ Links ]\n\n21 Chen M, Yuan Y, Zhou Y, Deng Z, Zhao J, Feng F, et al. Safety of SARS-CoV-2 vaccines: a systematic review and meta-analysis of randomized controlled trials. Infect Dis Poverty. 2021;10:94. [ Links ]\n\n22 Pottegård A, Lund LC, Karlstad Ø, Dahl J, Andersen M, Hallas J, et al. Arterial events, venous thromboembolism, thrombocytopenia, and bleeding after vaccination with Oxford-AstraZeneca ChAdOx1-S in Denmark and Norway: population based cohort study. BMJ. 2021;373:n1114. [ Links ]\n\n23 Gargano JW, Wallace M, Hadler SC, Langley G, Su JR, Oster ME, et al. Use of mRNA COVID-19 Vaccine After Reports of Myocarditis Among Vaccine Recipients: Update from the Advisory Committee on Immunization Practices - United States, June 2021. MMWR Morb Mortal Wkly Rep. 2021;70:977-82. [ Links ]\n\n24 Witberg G, Barda N, Hoss S, Richter I, Wiessman M, Aviv Y, et al. Myocarditis after Covid-19 Vaccination in a Large Health Care Organization. N Engl J Med. 2021;385:2132-9. [ Links ]\n\n25 Borobia AM, Carcas AJ, Pérez-Olmeda M, Castaño L, Bertran MJ, García-Pérez J, et al. Immunogenicity and reactogenicity of BNT162b2 booster in ChAdOx1-S-primed participants (CombiVacS): a multicentre, open-label, randomised, controlled, phase 2 trial. Lancet. 2021;398:121-30. [ Links ]\n\n26 Duarte-Salles T, Prieto-Alhambra D. Heterologous vaccine regimens against COVID-19. Lancet. 2021; 398:94-5. [ Links ]\n\n27 Gros R, Zanoni M, Seidel A, Conzelmann C, Gilg A, Krnavek D, et al. Heterologous ChAdOx1 nCoV-19 and BNT162b2 prime-boost vaccination elicits potent neutralizing antibody responses and T cell reactivity. EBioMedicine. 2022;75:103761. [ Links ]\n\n28 Hillus D, Schwarz T, Tober-Lau P, Vanshylla K, Hastor H, Thibeault C, et al. Safety, reactogenicity, and immunogenicity of homologous and heterologous prime-boost immunisation with ChAdOx1 nCoV-19 and BNT162b2: a prospective cohort study. Lancet Respir Med. 2021;9:1255-65. [ Links ]\n\n29 Liu X, Shaw RH, Stuart ASV, Greenland M, Aley PK, Andrews NJ, et al. Safety and immunogenicity of heterologous versus homologous prime-boost schedules with an adenoviral vectored and mRNA COVID-19 vaccine (Com-COV): a single-blind, randomised, non-inferiority trial. Lancet. 2021;398:856-69. [ Links ]\n\n30 Barros-Martins J, Hammerschmidt SI, Cossmann A, Odak I, Stankov MV, Morillas Ramos G, et al. Immune responses against SARS-CoV-2 variants after heterologous and homologous ChAdOx1 nCoV-19/BNT162b2 vaccination. Nat Med. 2021;27:1525-9. [ Links ]\n\n31 Normark J, Vikström I, Gwon YD, Persson IL, Edin A, Björsell T, et al. Heterologous ChAdOx1 nCoV-19 and mRNA-1273 Vaccination. N Engl J Med. 2021;385: 1049-51. [ Links ]\n\n32 Schmidt T, Klemis V, Schub D, Mihm J, Hielscher F, Marx S, et al. Immunogenicity and reactogenicity of heterologous ChAdOx1 nCoV-19/mRNA vaccination. Nat Med. 2021;27:1530-5. [ Links ]\n\n33 Di Mascio D, Buca D, Berghella V, Khalil A, Rizzo G, Odibo A, et al. Counseling in maternal-fetal medicine: SARS-CoV-2 infection in pregnancy. Ultrasound Obstet Gynecol. 2021;57:687-97. [ Links ]\n\n34 Sculli MA, Formoso G, Sciacca I. COVID-19 vaccination in pregnant and lactating diabetic women. Nutr Metab Cardiovasc Dis. 2021;31:2151-5. [ Links ]\n\n35 Zambrano LD, Ellington S, Strid P, Galang RR, Oduyebo T, Tong VT, et al. Update: Characteristics of Symptomatic Women of Reproductive Age with Laboratory-Confirmed SARS-CoV-2 Infection by Pregnancy Status - United States, January 22-October 3, 2020. MMWR Morb Mortal Wkly Rep. 2020;69:1641-7. [ Links ]\n\n36 Shimabukuro TT, Kim SY, Myers TR, Moro PL, Oduyebo T, Panagiotakopoulos I, et al. Preliminary Findings of mRNA Covid-19 Vaccine Safety in Pregnant Persons. N Engl J Med. 2021;385:1536. [ Links ]\n\n37 Bookstein Peretz S, Regev N, Novick I, Nachshol M, Goffer E, Ben-David A, et al. Short-term outcome of pregnant women vaccinated with BNT162b2 mRNA COVID-19 vaccine. Ultrasound Obstet Gynecol. 2021; 58:450-6. [ Links ]\n\n38 Collier ARY, McMahan K, Yu J, Tostanoski LH, Aguayo R, Ansel J, et al. Immunogenicity of COVID-19 mRNA Vaccines in Pregnant and Lactating Women. JAMA. 2021;325:2370-80. [ Links ]\n\n39 Beharier O, Plitman Mayo R, Raz T, Nahum Sacks K, Schreiber I, Suissa-Cohen Y, et al. Efficient maternal to neonatal transfer of antibodies against SARS-CoV-2 and BNT162b2 mRNA COVID-19 vaccine. J Clin Invest. 2021;131:e150319. [ Links ]\n\n40 Beharier O, Plitman Mayo R, Raz T, Nahum Sacks K, Schreiber I, Suissa-Cohen Y, et al. Efficient maternal to neonatal transfer of antibodies against SARS-CoV-2 and BNT162b2 mRNA COVID-19 vaccine. J Clin Invest. 2021;131:e154834 [ Links ]\n\n41 Goldshtein I, Nevo D, Steinberg DM, Rotem RS, Gorfine M, Chodick G, et al. Association Between BNT162b2 Vaccination and Incidence of SARS-CoV-2 Infection in Pregnant Women. JAMA. 2021;326:728-35. [ Links ]\n\n42 Dagan N, Barda N, Biron-Shental T, Makov-Assif M, Key C, Kohane IS, et al. Effectiveness of the BNT162b2 mRNA COVID-19 vaccine in pregnancy. Nat Med. 2021;27:1693-5. [ Links ]",
+                                        "metadata": {
+                                            "url": "https://scielo.isciii.es/scielo.php?pid=S1139-76322022000100038&script=sci_arttext",
+                                            "source": "scielo.isciii.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Eficacia y seguridad de las vacunas contra el SARS-CoV-2",
+                                            "type": "web_search",
+                                            "base_url": "https://scielo.isciii.es",
+                                            "snippet": "de M Esparza Olcina · 2022 · Citado por 1 — En la Unión Europea hasta diciembre de 2021 se han autorizado cinco vacunas contra la COVID-19: Comirnaty (Pfizer-BioNTech) el 21 de diciembre de 2020, Spikevax ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00246974,
+                "total_run_time": 1.038723645000573,
+                "average_cost_per_call": 0.00246974,
+                "average_time_per_call": 1.038723645000573,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:36",
+                    "run_time": 1.038723645000573,
+                    "cost": 0.00246974,
+                    "history_entry": {
+                        "data": {
+                            "¿Qué vacunas contra la COVID-19 fueron aprobadas por la Agencia Europea del Medicamento?": [
+                                {
+                                    "Actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen.": null
+                                },
+                                {
+                                    "El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.": null
+                                },
+                                {
+                                    "La Agencia Europea del Medicamento (EMA) ha aprobado hoy 21 de diciembre 2021 la primera vacuna frente al COVID-19 para su empleo en la Unión Europea, comercializada con el nombre de Comirnaty®. (acceso a la ficha técnica: https://www.ema.europa.eu/en/documents/product-information/comirnaty-product-information-approved-chmp-21-december-2020-pending-endorsement-european-commission_en.pdf).": null
+                                }
+                            ],
+                            "¿Cuándo se aprobó la primera vacuna contra la COVID-19 por parte de la Agencia Europea del Medicamento?": [
+                                {
+                                    "El lunes 21/dic de 2020 la European Medicines Agency (EMA) ha recomendado la autorización de Comirnaty, la primera vacuna de la covid (BNT162b2 de BioNTech&Pfizer) (nota de prensa, 21/dic de 2020).": null
+                                },
+                                {
+                                    "El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.": null
+                                },
+                                {
+                                    "La Agencia Europea del Medicamento (EMA) ha aprobado hoy 21 de diciembre 2021 la primera vacuna frente al COVID-19 para su empleo en la Unión Europea, comercializada con el nombre de Comirnaty®. (acceso a la ficha técnica: https://www.ema.europa.eu/en/documents/product-information/comirnaty-product-information-approved-chmp-21-december-2020-pending-endorsement-european-commission_en.pdf).": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en salud pública y vacunas sobre la aprobación de vacunas contra la COVID-19 por parte de la Agencia Europea del Medicamento?": [
+                                {
+                                    "El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.": null
+                                },
+                                {
+                                    "La Agencia Europea de Medicamentos (EMA) y la Comisión están haciendo pleno uso de las disposiciones de la legislación de la UE para situaciones de emergencia a fin de acelerar el procedimiento de autorización, garantizando al mismo tiempo que se evalúen exhaustivamente todos los requisitos en materia de eficacia, calidad y seguridad de la vacuna.": null
+                                },
+                                {
+                                    "En el contexto de las revisiones continuas se ha creado un grupo de expertos específico, el grupo operativo de la EMA para la pandemia de COVID-19, dedicado al desarrollo, la autorización y el seguimiento de la seguridad de las vacunas contra esta enfermedad, y encargado de evaluar exhaustivamente los datos científicos. De ahí que, cuando se solicita una autorización de comercialización, la evaluación formal pueda efectuarse mucho más deprisa, pues los datos ya han sido examinados minuciosamente durante la revisión continua.": null
+                                }
+                            ],
+                            "¿Qué informes y comunicados de prensa de la Agencia Europea del Medicamento relacionados con la aprobación de vacunas contra la COVID-19 están disponibles?": [
+                                {
+                                    "Nota de prensa de la AEMPS (21/dic de 2020) informando de la opinión favorable de la EMA a la autorización de la vacuna Comirnaty.": null
+                                },
+                                {
+                                    "El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.": null
+                                },
+                                {
+                                    "La Agencia Europea de Medicamentos (EMA) y la Comisión están haciendo pleno uso de las disposiciones de la legislación de la UE para situaciones de emergencia a fin de acelerar el procedimiento de autorización, garantizando al mismo tiempo que se evalúen exhaustivamente todos los requisitos en materia de eficacia, calidad y seguridad de la vacuna.": null
+                                }
+                            ],
+                            "¿Cómo se evaluó y monitoreó la seguridad y eficacia de las vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento?": [
+                                {
+                                    "La Agencia Europea de Medicamentos (EMA) y la Comisión están haciendo pleno uso de las disposiciones de la legislación de la UE para situaciones de emergencia a fin de acelerar el procedimiento de autorización, garantizando al mismo tiempo que se evalúen exhaustivamente todos los requisitos en materia de eficacia, calidad y seguridad de la vacuna.": null
+                                },
+                                {
+                                    "La seguridad de las vacunas aprobadas por la UE se ha evaluado de forma concienzuda, confirmando además que estimulan el sistema inmunitario en distintas fases en las que se van incrementando progresivamente el número de voluntarios, desde unos pocos (fase I), para después inocular a miles (fase III) con la vacuna o un placebo, en los que además se establecen grupos diferentes (edad, sexo), se valora su eficacia y se intentan encontrar efectos adversos poco frecuentes.": null
+                                },
+                                {
+                                    "El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.15607332700165,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.15607332700165,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:45",
+                    "run_time": 9.15607332700165,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Qué vacunas contra la COVID-19 fueron aprobadas por la Agencia Europea del Medicamento?\n¿Cuándo se aprobó la primera vacuna contra la COVID-19 por parte de la Agencia Europea del Medicamento?\n¿Qué dicen los expertos en salud pública y vacunas sobre la aprobación de vacunas contra la COVID-19 por parte de la Agencia Europea del Medicamento?\n¿Qué informes y comunicados de prensa de la Agencia Europea del Medicamento relacionados con la aprobación de vacunas contra la COVID-19 están disponibles?\n¿Cómo se evaluó y monitoreó la seguridad y eficacia de las vacunas contra la COVID-19 aprobadas por la Agencia Europea del Medicamento?\n\n3. Here are the text sources you should use as your source of information:\n[0] Actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen.\n[1] El Comité de Medicamentos de Uso Humano (CHMP, por sus siglas en inglés) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, entre ellos la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), ha completado su evaluación científica concluyendo por consenso que dispone de datos suficientemente sólidos sobre la calidad, seguridad y eficacia de la vacuna para recomendar una autorización de comercialización condicional. De esta manera, se allana el camino para que la Comisión Europea otorgue esta autorización y se convierta así en la primera vacuna frente a la COVID-19 que consigue el visto bueno de los reguladores europeos. Será entonces cuando este medicamento podrá distribuirse en todos los Estados miembro de la UE.\n[2] La Agencia Europea del Medicamento (EMA) ha aprobado hoy 21 de diciembre 2021 la primera vacuna frente al COVID-19 para su empleo en la Unión Europea, comercializada con el nombre de Comirnaty®. (acceso a la ficha técnica: https://www.ema.europa.eu/en/documents/product-information/comirnaty-product-information-approved-chmp-21-december-2020-pending-endorsement-european-commission_en.pdf).\n[3] El lunes 21/dic de 2020 la European Medicines Agency (EMA) ha recomendado la autorización de Comirnaty, la primera vacuna de la covid (BNT162b2 de BioNTech&Pfizer) (nota de prensa, 21/dic de 2020).\n[3] Nota de prensa de la AEMPS (21/dic de 2020) informando de la opinión favorable de la EMA a la autorización de la vacuna Comirnaty.\n[4] La Agencia Europea de Medicamentos (EMA) y la Comisión están haciendo pleno uso de las disposiciones de la legislación de la UE para situaciones de emergencia a fin de acelerar el procedimiento de autorización, garantizando al mismo tiempo que se evalúen exhaustivamente todos los requisitos en materia de eficacia, calidad y seguridad de la vacuna.\n[4] En el contexto de las revisiones continuas se ha creado un grupo de expertos específico, el grupo operativo de la EMA para la pandemia de COVID-19, dedicado al desarrollo, la autorización y el seguimiento de la seguridad de las vacunas contra esta enfermedad, y encargado de evaluar exhaustivamente los datos científicos. De ahí que, cuando se solicita una autorización de comercialización, la evaluación formal pueda efectuarse mucho más deprisa, pues los datos ya han sido examinados minuciosamente durante la revisión continua.\n[5] La seguridad de las vacunas aprobadas por la UE se ha evaluado de forma concienzuda, confirmando además que estimulan el sistema inmunitario en distintas fases en las que se van incrementando progresivamente el número de voluntarios, desde unos pocos (fase I), para después inocular a miles (fase III) con la vacuna o un placebo, en los que además se establecen grupos diferentes (edad, sexo), se valora su eficacia y se intentan encontrar efectos adversos poco frecuentes.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que la Agencia Europea del Medicamento (EMA) nunca autorizó las vacunas contra la COVID-19. Sin embargo, hay evidencia que sugiere lo contrario. Según el texto [0], actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen. Esto indica que la EMA sí ha autorizado al menos algunas vacunas contra la COVID-19.\n\nAdemás, el texto [1] menciona que el Comité de Medicamentos de Uso Humano (CHMP) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, evaluó científicamente la vacuna Comirnaty y recomendó su autorización de comercialización condicional. Esto sugiere que la EMA sí ha evaluado y autorizado al menos una vacuna contra la COVID-19.\n\nTambién se menciona en el texto [2] que la EMA ha aprobado la vacuna Comirnaty para su empleo en la Unión Europea, lo que indica que la agencia ha dado su visto bueno a esta vacuna.\n\n**Contra la afirmación**\n\nNo se encuentra ninguna evidencia en los textos proporcionados que sugiera que la EMA nunca haya autorizado las vacunas contra la COVID-19. De hecho, los textos [0], [1] y [2] proporcionan evidencia clara de que la EMA ha autorizado al menos algunas vacunas contra la COVID-19.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada en los textos [0], [1] y [2], podemos concluir que la afirmación \"La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\" es **falsa**. La EMA sí ha autorizado al menos algunas vacunas contra la COVID-19, como se menciona en los textos [0], [1] y [2]."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4584968220005976,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4584968220005976,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:46",
+                    "run_time": 1.4584968220005976,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que la Agencia Europea del Medicamento (EMA) nunca autorizó las vacunas contra la COVID-19. Sin embargo, hay evidencia que sugiere lo contrario. Según el texto [0], actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen. Esto indica que la EMA sí ha autorizado al menos algunas vacunas contra la COVID-19.\n\nAdemás, el texto [1] menciona que el Comité de Medicamentos de Uso Humano (CHMP) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, evaluó científicamente la vacuna Comirnaty y recomendó su autorización de comercialización condicional. Esto sugiere que la EMA sí ha evaluado y autorizado al menos una vacuna contra la COVID-19.\n\nTambién se menciona en el texto [2] que la EMA ha aprobado la vacuna Comirnaty para su empleo en la Unión Europea, lo que indica que la agencia ha dado su visto bueno a esta vacuna.\n\n**Contra la afirmación**\n\nNo se encuentra ninguna evidencia en los textos proporcionados que sugiera que la EMA nunca haya autorizado las vacunas contra la COVID-19. De hecho, los textos [0], [1] y [2] proporcionan evidencia clara de que la EMA ha autorizado al menos algunas vacunas contra la COVID-19.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada en los textos [0], [1] y [2], podemos concluir que la afirmación \"La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\" es **falsa**. La EMA sí ha autorizado al menos algunas vacunas contra la COVID-19, como se menciona en los textos [0], [1] y [2].\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que la Agencia Europea del Medicamento (EMA) nunca autorizó las vacunas contra la COVID-19. Sin embargo, hay evidencia que sugiere lo contrario. Según el texto [0], actualmente hay cuatro vacunas autorizadas en la Unión Europea frente a la COVID-19, la Comirnaty de Pfizer/BioNTech, la de Moderna, la de Oxford/AstraZeneca y la de Janssen. Esto indica que la EMA sí ha autorizado al menos algunas vacunas contra la COVID-19.\n\nAdemás, el texto [1] menciona que el Comité de Medicamentos de Uso Humano (CHMP) de la EMA, formado por expertos de las autoridades competentes de los diferentes Estados Miembros de la UE, evaluó científicamente la vacuna Comirnaty y recomendó su autorización de comercialización condicional. Esto sugiere que la EMA sí ha evaluado y autorizado al menos una vacuna contra la COVID-19.\n\nTambién se menciona en el texto [2] que la EMA ha aprobado la vacuna Comirnaty para su empleo en la Unión Europea, lo que indica que la agencia ha dado su visto bueno a esta vacuna.\n\n**Contra la afirmación**\n\nNo se encuentra ninguna evidencia en los textos proporcionados que sugiera que la EMA nunca haya autorizado las vacunas contra la COVID-19. De hecho, los textos [0], [1] y [2] proporcionan evidencia clara de que la EMA ha autorizado al menos algunas vacunas contra la COVID-19.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada en los textos [0], [1] y [2], podemos concluir que la afirmación \"La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\" es **falsa**. La EMA sí ha autorizado al menos algunas vacunas contra la COVID-19, como se menciona en los textos [0], [1] y [2]."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La Agencia Europea del Medicamento ha dicho que nunca autorizó las vacunas contra la COVID-19\", \"categories\": [\"Salud\", \"Ciencia\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"La Agencia Europea del Medicamento ha autorizado las vacunas contra la COVID-19\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.007469740000000001,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

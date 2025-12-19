@@ -1,0 +1,630 @@
+{
+    "question": "Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero",
+    "answer": "La afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" encuentra soporte en varias partes de los textos proporcionados. En primer lugar, se menciona que \"el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera\" en la Región de Murcia, lo que convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real ([1]). Esto sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.\n\nAdemás, el sociólogo Andrés Pedreño explica que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, y que esta región históricamente minera ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector ([2]). Esto sugiere que la presencia de trabajadores extranjeros en el sector agrícola de Murcia es una tendencia habitual y que la región ha dependido históricamente de la mano de obra migrante para sostener su economía.\n\nAunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. En primer lugar, se menciona que \"la mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero\" ([1]). Esto sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola.\n\nAdemás, el presidente de COAG Murcia, José Miguel Marín, afirma que \"el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias»\" ([3]). Esto sugiere que la mano de obra agrícola en la región no es exclusivamente de origen extranjero, ya que también hay trabajadores españoles en el sector.\n\nEn conclusión, aunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. La afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" parece ser cierta en base a los datos proporcionados, pero también hay evidencia que sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola. Por lo tanto, la afirmación se considera **verdadera**.\n\nEs importante destacar que la afirmación no es absoluta, ya que hay una pequeña proporción de trabajadores españoles en el sector agrícola de la región. Sin embargo, la evidencia general sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://rrnews.es/2025/07/el-85-del-empleo-en-torre-pacheco-es-manual-y-agrario-sin-inmigrantes-el-campo-no-funciona.html",
+            "source": "rrnews.es",
+            "favicon": "https://rrnews.es/wp-content/uploads/2023/09/logo-trans-web-150x120.png"
+        },
+        "2": {
+            "url": "https://www.eldiario.es/murcia/millonario-negocio-agricola-torre-pacheco-depende-migrantes-no-tira_1_12488519.html",
+            "source": "www.eldiario.es",
+            "favicon": "https://www.eldiario.es/favicon.png"
+        },
+        "3": {
+            "url": "https://www.laopiniondemurcia.es/comunidad/2025/08/24/region-comunidades-atractivas-trabajar-120878705.html",
+            "source": "www.laopiniondemurcia.es",
+            "favicon": "https://www.laopiniondemurcia.es/cds-statics/OMU/favicons/android-icon-48x48.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero",
+        "categories": [
+            "Economía",
+            "Inmigración",
+            "Trabajo"
+        ],
+        "label": "True",
+        "main_claim": "La mano de obra en el campo de Murcia es principalmente de origen extranjero",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4043711389986129,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4043711389986129,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:52:26",
+                    "run_time": 1.4043711389986129,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nMás de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\n\n**Critical Research Questions:**\n1. ¿Cuál es la proporción de la mano de obra agrícola extranjera en Murcia según el último censo de población y vivienda del INE?\n2. ¿Qué porcentaje de la fuerza laboral agrícola en Murcia es de origen español según el informe de la Consejería de Agricultura y Pesca de la Región de Murcia?\n3. ¿Qué opinan los expertos sobre la presencia de la mano de obra extranjera en el sector agrícola de Murcia?\n4. ¿Qué datos proporcionan las organizaciones de agricultores y ganaderos sobre la composición de la fuerza laboral agrícola en la provincia?\n5. ¿Cómo se compara la proporción de mano de obra agrícola extranjera en Murcia con otros territorios de la región?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"mano de obra agrícola extranjera en Murcia porcentaje INE censo población vivienda 2021\", \"composición fuerza laboral agrícola Murcia origen español informe Consejería Agricultura Pesca Región Murcia\", \"opinión expertos mano de obra extranjera sector agrícola Murcia\", \"datos composición fuerza laboral agrícola Murcia organizaciones agricultores ganaderos\", \"comparación mano de obra agrícola extranjera Murcia otros territorios región\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 32.10802359899935,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 32.10802359899935,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:00",
+                    "run_time": 32.10802359899935,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "mano de obra agrícola extranjera en Murcia porcentaje INE censo población vivienda 2021",
+                                "composición fuerza laboral agrícola Murcia origen español informe Consejería Agricultura Pesca Región Murcia",
+                                "opinión expertos mano de obra extranjera sector agrícola Murcia",
+                                "datos composición fuerza laboral agrícola Murcia organizaciones agricultores ganaderos",
+                                "comparación mano de obra agrícola extranjera Murcia otros territorios región"
+                            ],
+                            "results": {
+                                "mano de obra agrícola extranjera en Murcia porcentaje INE censo población vivienda 2021 | composición fuerza laboral agrícola Murcia origen español informe Consejería Agricultura Pesca Región Murcia | opinión expertos mano de obra extranjera sector agrícola Murcia | datos composición fuerza laboral agrícola Murcia organizaciones agricultores ganaderos | comparación mano de obra agrícola extranjera Murcia otros territorios región": [
+                                    {
+                                        "text": "Situando el cursor sobre una zona del mapa aparece una leyenda con el nombre del municipio al que corresponde. El porcentaje de población con nacionalidad extranjera en la Región de Murcia en 2024 es de 15,4%. NOTA: Datos con fecha de referencia a 1 de Enero de cada año. CREM. Censo de Población Anual",
+                                        "metadata": {
+                                            "url": "https://econet.carm.es/poblacion-con-nacionalidad-extranjera",
+                                            "source": "econet.carm.es",
+                                            "favicon": "https://econet.carm.es/carm-theme/images/favicons/crem.ico",
+                                            "title": "Población con nacionalidad extranjera - CREM",
+                                            "type": "web_search",
+                                            "base_url": "https://econet.carm.es",
+                                            "snippet": "El porcentaje de población con nacionalidad extranjera en la Región de Murcia en 2024 es de 15,4%. NOTA: Datos con fecha de referencia a 1 de Enero de cada ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Región de Murcia, según los datos ofrecidos en el último informe de ‘Movilidad geográfica de la contratación en España’ referidos a 2024, se coloca como la quinta comunidad con mayor saldo positivo de contratos de trabajadores llegados de otras regiones, solo por detrás de Aragón, País Vasco, Islas Baleares y Comunidad de Madrid.\n\nSon un total de 111.011 los contratos registrados pertenecientes a personas procedentes de otros puntos del país, mientras que 104.762 son trabajadores que ejercían su labor en la Región de Murcia el año anterior han salido de las fronteras murcianas para trabajar en otro lugar del país. Por otro lado, 463.196 contratos permanecen. Sin embargo, se trata del saldo de contratos más bajo de los últimos años, con un balance positivo de 6.249, y lejos de las cifras alcanzadas en 2017 y 2021, cuando se rondaban los 40.000.\n\nLa tasa de movilidad interautonómica en 2024 es del 18.89%, siendo la tercera más alta del país. Esto indica una importante temporalidad en los contratos ofertados en nuestra Comunidad, algo relacionado con las habituales condiciones ofrecidas en el sector agrario, que registra menor porcentaje de contratos que se mantienen de forma estable año tras año.\n\nImpacto de la agricultura\n\nEl sector agrícola concentra el saldo receptor con 68.719 contratos que entran y 50.948 que salen. Un 34.9% más. Su tasa de movilidad alcanza el 28.82%. Solo el sector de Actividades administrativas y servicios auxiliares mantiene también un saldo positivo. En el sector de la Industria entran 4.312 y salen 4.774, con un déficit de 462 contratos. En el de construcción, entran 5.264 y salen 6.523, resultando un balance negativo de 1.259. En el sector servicios se produce uno de los saldos negativos más importantes. Son 32.716 los que entran desde otros puntos del país y 42.516 los que salen de la Región.\n\nLos datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).\n\nEstos datos están muy relacionados con el mundo agrario, sector económico vital en la Región. Y es que el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias», afirma José Miguel Marín, presidente de COAG Murcia.\n\nCon respecto a el amplio número de trabajadores extranjeros, Marín afirma que «actualmente la demanda mano de obra en el sector agrícola es muy alta» y que ante la falta de trabajadores «están dando respuesta a estas necesidades y que fundamentalmente se concentra en frutas y hortalizas».\n\nDestinos y procedencias\n\nPor otro lado, el informe publicado por el Servicio Público de Empleo Estatal (SEPE) también desglosa a dónde van los trabajadores que salen de la Región y de dónde vienen los que llegan. Las principales comunidades autónomas de destino y procedencia son, en ambos sentidos, la Comunidad Valenciana, Andalucía y Castilla - La Mancha, por su cercanía con la Región. También destacan Cataluña y la Comunidad de Madrid. Las provincias de procedencia más usuales son Alicante (31.447), Almería (15.452), Albacete (8.419), Madrid (7.644) y Valencia (4.805). Las salidas más numerosas son hacia Alicante (24.540), Almería (13.846), Madrid (10.495), Albacete (10.143) y Valencia (7.168).\n\nPor grupos de edad\n\nPor grupos de edad, los tres conjuntos principales resultan un balance positivo. En primer lugar, el grupo de entre 30 y 45 años es el que mejor balance presenta, con un saldo de 3.322 contratos. Son 42.032 los que entran y 38.710 los que salen. El grupo de menores de 30 años también crece, con un saldo de 1.793 personas.\n\nLos mayores de 45 años son los que presentan un saldo más moderado, con 1.134 más. Un balance que, en general, está muy marcado por la influencia del sector agrario en la economía de la Región de Murcia.\n\nLos más preparados ‘escapan’ a otras comunidades\n\nUno de los datos más destacados del informe de ‘Movilidad geográfica de la contratación en España’ es el éxodo de las personas que poseen títulos académicos. El grupo más destacado es el del nivel formativo de Educación Secundaria Obligatoria. 16.568 de ellos han marchado de la Región para trabajar fuera de ella, mientras que de otras comunidades solo han llegado 14.347, resultando en un saldo negativo de 2.221 trabajadores. También destaca la marcha de personas con el título de Bachillerato (-1.487), Ciclos Formativos (-879) o Educación Superior (-1.968). Al revés sucede con las personas con estudios primarios o sin acreditar, cuyo balance es positivo y alcanza los 12.815 de diferencia.\n\nEs una tendencia habitual en la Región, ya que el perfil de trabajador agrario, cuyo sector es de los más potentes de la Comunidad, tiene entre sus características poseer estudios primarios o básicos. En cambio, preocupa el déficit de trabajadores existente en el resto de áreas.\n\nInformación y comunicaciones, el sector que más exporta\n\nEl informe presentado por el Servicio Público de Empleo Estatal (SEPE) recoge también datos sobre aquellos sectores en los que sus trabajadores ‘emigran’ a otros lugares del país y llegan en menor número a la Región, resultando en un balance negativo.\n\nLas secciones con un especialmente alto saldo emisor son información y comunicaciones, comercio al por mayor y al por menor, hostelerÍa, construcción y actividades sanitarias y servicios sociales.\n\nPor grupos ocupacionales, el carácter receptor se concentra en el de ocupaciones elementales (aquellos empleos relacionados con la limpieza, trabajos agrícolas, forestales y pesqueros, minería, construcción, transporte...) ya que en el resto presenta saldos negativos, especialmente en los de técnicos y profesionales científicos e intelectuales, trabajadores de los servicios de restauración, personales, protección y vendedores y empleados contables, administrativos y otros empleados de oficina.",
+                                        "metadata": {
+                                            "url": "https://www.laopiniondemurcia.es/comunidad/2025/08/24/region-comunidades-atractivas-trabajar-120878705.html",
+                                            "source": "www.laopiniondemurcia.es",
+                                            "favicon": "https://www.laopiniondemurcia.es/cds-statics/OMU/favicons/android-icon-48x48.png",
+                                            "title": "La Región, una de las comunidades más atractivas para ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.laopiniondemurcia.es",
+                                            "snippet": "Con respecto a el amplio número de trabajadores extranjeros, Marín afirma que «actualmente la demanda mano de obra en el sector agrícola es muy ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El cielo amenaza con venirse abajo removiendo el aire, salado, más fresco de lo habitual sobre el laberinto de caminos de tierra marrón, inconsistente y rebosante de nutrientes del Campo de Cartagena. Esto, en pleno julio, es un respiro que por desgracia, ellos lo saben, no durará mucho, pero es un alivio recoger melón bajo este manto de nubes aunque sea solo por un día. Un grupo de trabajadores faena al rebufo del rastrillo de un tractor que remolca un gran contenedor en el que van volcando los melones que sacan de la tierra. “Estos son bereberes. Del norte de África. No son árabes. Eran agricultores en Marruecos. Alguno que otro ya es jefe de cuadrilla. Aquí trabajan desde las seis de la mañana hasta la una y media o las dos, a pleno sol, con 35 grados. Este es un trabajo duro, duro de verdad”, cuenta Daniel, un agricultor veterano de la zona que maneja el tractor.\n\nEl Campo de Cartagena debía ser una tierra baldía y de secano que, milagros de la hidráulica, ha terminado siendo una de las tierras de cultivo más productivas de todo el mundo. Para que puedan hacerse una idea, en el año 2019, la Región exportó más de 2,5 millones de toneladas de productos agrícolas: melón, lechuga, brócoli, acelga, berenjena o alcachofa. Las tierras orientales de Carrascoy llenan las despensas de medio mundo. “Yo lo he vivido todo, cuando esto era secano puro. Había cuatro pozos nada más. La zona regable era una décima parte de lo que hay ahora. Esto empezó a cambiar con el trasvase, y con él vino la mecanización… y sobre todo, la inmigración. Sin inmigrantes esto no es viable. No es que no sea rentable, es que no es posible”, continúa.\n\nLa presencia masiva de trabajadores inmigrantes está justificada con la necesidad casi ilimitada de mano de obra de un campo que nunca jamás deja de cultivarse: “Aquí el 80% de la mano de obra son inmigrantes. Y si me apuras, en algunos tajos, el 100%. Si mañana los marroquíes, los latinos y los rumanos se van, aquí no se recoge ni un melón”. El sociólogo Andrés Pedreño explica a elDiario.es Región de Murcia que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, una región históricamente minera que ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector. “Cuando se produce la gran transformación al regadío en los ochenta, se presenta un problema de escasez de mano de obra. El país se estaba modernizando y las bolsas de jornaleros del sur se iban a otros sectores de la economía que estaban en alza, como la construcción, la hostelería o el turismo. En el 86 entramos en la Comunidad Económica Europea (CEE) y en el 91 el mercado único europeo, y ahí es cuando Murcia especializa su territorio en lo que luego se llamó la 'huerta de Europa'”.\n\nDaniel no quiere aparecer en cámara ni que se muestre su nombre, porque “luego vienen los sindicatos, las cámaras, la tele. Y ya te montan el circo de la esclavitud y no sé qué. Hace 30 años, vale. Pero ahora, sin papeles no trabaja nadie. Y por menos de ocho euros la hora no te viene ni Dios”. Brahim, trabajador marroquí de veinte años, lo confirma: “El trabajo es duro, a veces para morirse, pero está bien pagado. Yo llevo dos años trabajando en el melón y en la lechuga y merece la pena”. Pese a que los sigue habiendo, los casos de explotación laboral en el campo se han ido reduciendo paulatinamente con los años, en parte gracias a la presencia constante de inspectores de trabajo.\n\nA pesar de su veteranía trabajando la huerta, Daniel lamenta que no se vaya a dar un relevo generacional: “Mi hijo, por ejemplo, es bioquímico. Tiene un máster en Enología en la Politécnica de Madrid. No quiere saber nada del campo. Los españoles no quieren trabajar aquí. ¿Por qué? Porque es más cómodo tener un sueldo, aunque sea pequeño, que ser empresario. No te imaginas la cantidad de papeles que se requieren para llevar esto medio en condiciones. Esto no es solo sudar: es papeleo, es responsabilidad, es desgaste. Y de mano de obra, mucho menos. Hay poca, y a veces problemática”.\n\nDe casa al trabajo, y del trabajo a casa\n\nEntre la población marroquí, muchos de ellos naturalizados o nacionalizados españoles, sí que se está adquiriendo esa transmisión del oficio de padres a hijos. Según Daniel, “hay alguno que ya se mete a emprendedor. Les gusta la mecánica, montan talleres, venta ambulante, incluso alquilan fincas. Tienen iniciativa. Más que muchos de los nuestros, que se van a otros oficios y se olvidan del campo”.\n\nA las dos de la tarde, cuando el calor rompe los relojes y el horizonte vibra por la temperatura, Omar pedalea de vuelta a casa. Son veinte minutos en bicicleta bajo la solanera. Veinte minutos de polvo, sudor y silencio, desde la finca hasta el piso donde vive con su familia. Lleva veinte años trabajando en el campo. Lo ha hecho todo: ha recogido melones, limones, ha trabajado en almacenes, sabe lo que es cargar cajas en agosto y arrancar lechuga con escarcha en diciembre. Omar habla con una sinceridad que corta: “Esto, si no fuera por nosotros, no tira. Nosotros hacemos el trabajo; ellos ganan, y nosotros cobramos. Y seguimos”. Se refiere a los patrones, a los almacenes, al engranaje entero. “En los melones, en los limones, solo trabajamos marroquíes. Españoles, ninguno. Solo como jefes o tractoristas”.\n\nLa semana pasada, cuando se desataron las cacerías racistas en Torre Pacheco, se encerró en casa con su mujer y sus hijos. “No salí para nada. Solo del trabajo a casa y de casa al trabajo. En bici, claro”. No pisó la plaza ni la tienda ni la calle, no asomó su rostro, reconocible para la turba solo por el color de su piel, por el umbral de la puerta. Solo al tajo y al hogar. “Los que montaron el lío no eran de aquí. Vinieron de fuera a buscar pelea. Pero nosotros seguimos con lo nuestro”.\n\nPese al relato que trata de imponerse, la población migrante de Torre Pacheco hace lo posible por convivir, trabajar y, sobre todo, prosperar. Ya hay familias con tres o cuatro generaciones que comienzan a medrar en la sociedad aupados por las espaldas dobladas de sus padres y abuelos. Mohammed es supervisor de finca. Llegó en 1990, cuando tenía veinte años, en una época en la que apenas había marroquíes y los pocos que había se repartían entre la industria y el campo. Empezó abajo del todo, haciendo lo que nadie quería, y ahora dirige cuadrillas, coordina cultivos y organiza la recogida.\n\nUna cadena de mando bien jerarquizada\n\n“No hay españoles haciendo nuestro trabajo”, dice. “Camioneros, tractoristas, jefes, sí. Pero en la tierra, muy pocos”. Habla con claridad, sin queja, sin heroísmo, asumiendo que forma parte de algo más grande que él, pero que también es suyo. “Esto sigue funcionando gracias a los que vinimos y a los que siguen viniendo”. Mientras en el centro del pueblo se multiplicaban los bulos y las agresiones, en los bancales de melón y lechuga apenas se notó el temblor. Como si el campo viviera al margen del ruido, ajeno al odio y entregado a otra lógica: la de madrugar, rendir y regresar a casa con lo justo para volver a empezar el día siguiente.\n\nLa llaman “la jefa” y lo es. Lleva 25 años en el campo y ha tenido a su cargo hasta 200 personas. Es ecuatoriana y aún recuerda cuando aterrizó en Barajas en un avión de la KLM lleno de compatriotas que venían, como ella, con la intención de trabajar hasta caer rendidos. Hoy, tras décadas de viajes en autobús y de horarios imposibles, gestiona peones, reparte tareas y decide quién vale y quién se queda fuera.\n\nPara Andrés Pedreño, una de las claves de la altísima productividad, es el saber hacer de los capataces para llevar a sus trabajadores: “La explotación del trabajo marroquí se ha basado en mantenerlos en posiciones subalternas y subordinadas, no es contradictorio que los agricultores reconozcan que son indispensables y, al mismo tiempo, mantengan una posición racista, porque es una estrategia para tener trabajadores sumisos y ordenados. Lo sorprendente es que esto haya sido aceptado tan silenciosamente por la población migrante, y esto se debe a que se han encontrado un entorno político, institucional y social muy reacio a reconocerles la ciudadanía. Hay que preguntarse cuántas escuelas concertadas y privadas existen en un pueblo como este”.\n\n“Yo me fijo mucho en el comportamiento. Si alguien se aprovecha, mañana no trabaja más conmigo”, cuenta, sin levantar la voz. Su liderazgo se basa en la firmeza y en haberlo pasado todo: “Jornales impagados, amenazas, botellas rotas, turnos de sol a sol...” explica la encargada.\n\nA su lado, un agricultor español de poco más de treinta años asiente. Lleva meses sin encontrar gente para recoger y reconoce que ya no sabe qué más hacer. “Falta mano de obra, y faltan empresarios que quieran tirar pa’lante”. Sabe que el problema no es solo el rechazo de los jóvenes a trabajar en el campo, sino también el miedo de muchos pequeños propietarios a asumir el “problema” de contratar en regla: seguridad social, ETT, inspecciones laborales y costes; pese a los millonarios beneficios que este sector arroja todos los años. “Esto lo estamos sosteniendo entre cuatro”, suelta. Y se marcha a seguir recogiendo plásticos del bancal donde hace unos días aún se recogían melones que acabarán en las próximas horas en un supermercado de Berlín.\n\nPozo Estrecho, París, Londres\n\nLa productividad de estas tierras roza lo irreal, y casi brotan nada más cosecharlas, y llenan y llenan almacenes que trabajan sin descanso, llenan camiones que salen día y noche en dirección a cada capital europea; Pozo Estrecho-París-Londres, el barbecho no es una opción. Las cintas no paran: cajas y más cajas, lechugas calibradas al milímetro, melones enfriados en tiempo récord y hasta brócolis que se etiquetan por talla como si fueran trajes de chaqueta, que van todos a parar a hileras infinitas de camiones que vienen a explicar que cada ciclo de riego es un envío internacional y cada jornada de tajo acaba en una lonja poco después.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/murcia/millonario-negocio-agricola-torre-pacheco-depende-migrantes-no-tira_1_12488519.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "El millonario negocio agrícola de Torre Pacheco depende ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "Un tercio de la población activa del municipio es de origen extranjero y es la principal fuerza de trabajo en el campo, el motor económico ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El 85% del empleo en Torre Pacheco es manual y agrario: sin inmigrantes, el campo no funciona\n\nBBVA Research, Funcas o el Consejo Económico y Social han demostrado con estudios el importante aporte a la economía murciana que supone la mano de obra inmigrante. La patronal agraria murciana guarda silencio sobre los disturbios en Torre Pacheco\n\nEn Torre Pacheco, uno de cada tres vecinos es de origen extranjero. A fecha 1 de enero de 2025, el municipio cuenta con 12.904 personas inmigrantes, lo que supone el 32% de su población total -algo más de 40.000 habitantes-. La mayoría procede de países no comunitarios, especialmente del norte de África. Según datos municipales, 11.927 de estos inmigrantes no tienen nacionalidad de la Unión Europea, frente a los 977 que sí la tienen. La comunidad más numerosa es la marroquí, con más de 6.300 personas empadronadas, muchas de ellas concentradas en barrios como San Antonio o El Jimenado. Representan más de la mitad del colectivo extranjero en el municipio.\n\nPero más allá de las cifras, hay una verdad incómoda que conviene repetir sin paños calientes: en Torre Pacheco se está agrediendo a personas por su origen, su idioma o el color de su piel. Y no solo a inmigrantes. También a ciudadanos españoles de nacimiento, hijos de padres magrebíes, con papeles, con cotizaciones al día y, en muchos casos, con más aportación fiscal que varios de los que gritan «¡Fuera!» con la banderita en la muñeca.\n\nMientras algunos pasean su odio por las calles, conviene recordar quién levanta cada día el motor económico del municipio. La economía local gira en torno al campo. Y el campo, sin la mano de obra inmigrante, se para. Así de simple. Según el Servicio Regional de Empleo (SEF) y el propio Ayuntamiento, el 83% de los contratos laborales en Torre Pacheco se firman en el sector agrario. Y de ellos, un 85% corresponden a trabajos manuales: recolección, selección, envasado de productos hortofrutícolas. Gran parte de esos trabajadores son extranjeros, muchos con residencia regular y contratos temporales. Son los que, bajo el sol o bajo plástico, sacan adelante las cosechas.\n\nEn total, se estima que más de 5.000 inmigrantes trabajan en el campo de Cartagena. Lo hacen en condiciones duras, con salarios exiguos. Algunos cobran el SMI si la empresa respeta el convenio agrícola. Otros trabajan a destajo. Y lo hacen porque nadie más quiere ocupar ese puesto por ese sueldo. Porque no hay mano de obra española dispuesta a soportar esas condiciones.\n\nLa mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.\n\nLo que está ocurriendo en Torre Pacheco no es un brote aislado. Es el reflejo de un clima social envenenado por discursos populistas, bulos racistas y una indiferencia institucional que ya no se puede esconder. El presidente López Miras tardó más de 24 horas en reaccionar y romper su silencio después de los primeros disturbios. Y lo hizo después del presidente nacional del PP, Alberto Nuñez Feijóo. Pero ni una palabra para condenar a los agresores. Ni una mención a los agitadores. Nada. Sigue sin condenar el discurso racista del presidente regional de Vox, José Ángel Antelo con quien ha pactado los presupuestos regionales de 2025.\n\nEn Torre Pacheco se está atacando a los que trabajan. A los que sostienen el campo. A los que hacen el trabajo que otros no quieren. A los que pagan impuestos. A los que también son, aunque a algunos les escueza, parte de este país. Igualmente resulta ensordecedor el silencio de la patronal agraria murciana.\n\nInmigración: el pilar silencioso del empleo en la Región de Murcia\n\nLa Región Murcia depende del trabajo inmigrante para sostener su crecimiento económico, pero no lo reconoce. Más de la mitad del empleo creado en Murcia desde 2021 ha sido cubierto por inmigrantes, según BBVA Research. Los inmigrantes realizan trabajos que los españoles no quieren hacer.\n\nConcretamente, el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera. En el conjunto de España, ese porcentaje se queda en el 47 %. Esto convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real. No es ideología, son cifras.\n\nMás datos. La población nacida en el extranjero que reside en la Región de Murcia realiza una contribución fiscal neta positiva y generó el 35% del crecimiento económico regional entre 2005 y 2019. Éstas son algunas de las conclusiones del estudio ‘El impacto económico de la inmigración en la Región de Murcia’, realizado por profesores de la Universidad Politécnica de Cartagena (UPCT) y encargado por el Consejo Económico y Social (CES) de la Región.\n\nPor cada euro recibido en prestaciones, los nacidos en el extranjero ingresan 1,72 euros al erario pública, cifra que supera en un 30% a los 1,32 euros que aportan los nacidos en España residentes en la Región y también superior a los 1,63 euros de los nacidos en el extranjero que residen en el resto de España, según detalla el informe.",
+                                        "metadata": {
+                                            "url": "https://rrnews.es/2025/07/el-85-del-empleo-en-torre-pacheco-es-manual-y-agrario-sin-inmigrantes-el-campo-no-funciona.html",
+                                            "source": "rrnews.es",
+                                            "favicon": "https://rrnews.es/wp-content/uploads/2023/09/logo-trans-web-150x120.png",
+                                            "title": "El 85% del empleo en Torre Pacheco es manual y agrario",
+                                            "type": "web_search",
+                                            "base_url": "https://rrnews.es",
+                                            "snippet": "El 85% del empleo en Torre Pacheco es manual y agrario: sin inmigrantes, el campo no funciona · Inmigración: el pilar silencioso del empleo en la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Este sector está ampliamente dominado por Agricultura y ganadería (CNAE 01) que, con 704.928 ocupados, representa el 93% del sector. Por su parte, Silvicultura, pesca y acuicultura (CNAE 02-03), con 53.811 ocupados, representa el 7% de la ocupación. El decrecimiento interanual del 0,4% en el primer trimestre de 2025 se debe principalmente a la disminución del 22,5% en Silvicultura, pesca y acuicultura.\n\nEn el área de Agricultura, ganadería y pesca predomina el empleo asalariado, representando el 63,8% de los ocupados, un porcentaje considerablemente inferior a la media de todos los sectores (85%). Por tipo de contrato, el 66% de los asalariados, en el primer trimestre de 2025, tenían un contrato indefinido, lo que indica que la temporalidad es considerablemente alta en la industria, con un 34% de los asalariados con contratos temporales.",
+                                        "metadata": {
+                                            "url": "https://www.randstadresearch.es/mercado-trabajo-sector-agricultura-ganaderia-pesca/",
+                                            "source": "www.randstadresearch.es",
+                                            "favicon": "https://d2xlh7jfmz7hr5.cloudfront.net/wp-content/themes/randstad-research/img/randicon.ico?x91883",
+                                            "title": "Mercado de trabajo - Agricultura, ganadería y pesca 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.randstadresearch.es",
+                                            "snippet": "En el área de Agricultura, ganadería y pesca predomina el empleo asalariado, representando el 63,8% de los ocupados, un porcentaje ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Anuario de Estadística Agraria de la Región de Murcia es una publicación anual que recoge los datos más relevantes sobre la agricultura, la ganadería, la pesca y la alimentación en la región. Esta publicación es el resultado del trabajo de recopilación y análisis de datos de la Consejería de Agua, Agricultura y Medio Ambiente de la Región de Murcia. Este Anuario es una herramienta fundamental para conocer el estado actual y las tendencias del sector agrario en la región, así como para la toma de decisiones por parte de los profesionales, empresas e instituciones relacionadas con el sector.\n\nEste Anuario incluye información detallada sobre la superficie cultivada, la producción y los precios de los diferentes cultivos, la evolución del censo ganadero, la producción pesquera, la industria alimentaria y las exportaciones. Su publicación refleja el compromiso de la Consejería de Agua, Agricultura, Ganadería y Pesca con la transparencia, la calidad y la accesibilidad de los datos estadísticos, y con la promoción de un sector agrario más sostenible y competitivo en la Región de Murcia.\n\nEn los siguientes enlaces pueden visualizar y descargarse el texto completo:",
+                                        "metadata": {
+                                            "url": "https://esam.carm.es/2025/10/06/publicado-el-nuevo-anuario-de-estadistica-agraria-de-la-region-de-murcia-2022-2023/",
+                                            "source": "esam.carm.es",
+                                            "favicon": "https://esam.carm.es/wp-content/uploads/2023/12/favicon.png",
+                                            "title": "PUBLICADO EL NUEVO ANUARIO DE ESTADÍSTICA ...",
+                                            "type": "web_search",
+                                            "base_url": "https://esam.carm.es",
+                                            "snippet": "El Anuario de Estadística Agraria de la Región de Murcia es una publicación anual que recoge los datos más relevantes sobre la agricultura, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "MURCIA. El campo murciano destaca por su relevancia en todo el panorama nacional. Esta pujanza no es ningún secreto en una región conocida como la 'huerta de Europa', pero sí resulta llamativo destacar las consecuencias que tiene este sector en el empleo, donde representa 1 de cada 10 trabajadores.\n\nEn total, son 77.887 las personas vinculadas a la ganadería y la pesca en la Región de Murcia, lo que la convierte en la segunda Comunidad con mayor presencia de esta actividad en cifras absolutas tan solo por detrás de Andalucía, que suma 237.556 trabajadores, según el informe 'Mercado de trabajo en el sector de agricultura, ganadería y pesca' elaborado por Randstad Research.\n\nSin embargo, en términos relativos la Región sí logra posicionarse como la primera de todo el ranking, pues el campo representa el 11,4% de todo el empleo, cuadruplicando así el 3,1% que se aprecia en la media nacional. De hecho, eleva en dos puntos y medio al segundo clasificado, Extremadura (8,9%) y supera en más de cuatro puntos a La Rioja (7%) y Andalucía (6,8%).\n\nEn consecuencia, no es de extrañar que la comunidad murciana concentre 1 de cada 10 trabajadores vinculados en España al sector agro, pues cuenta con 11,4% de los empleados totales del país. De esta forma, mantiene la segunda posición en relevancia por detrás de Andalucía y supera ampliamente al tercer clasificado, Castilla y León, que suma 54.406 personas en este sector.\n\nEn cualquier caso, no todo es la agricultura y la ganadería, pues la Región también cuenta con 2.182 empleados dedicados a la pesca, la acuicultura y la silvicultura, lo que representa el 3,5% del total nacional. En esta ocasión, se trata de resultados más modestos, pues se trata de la sexta comunidad en el ranking nacional que lidera ampliamente Galicia con el 40% del global. Además, la pesca tan solo aporta el 0,3% de los puestos de trabajo de la Región.\n\nDatos nacionales\n\nDe acuerdo con este informe, basado en datos del INE, el SEPE y la Seguridad Social, el sector primario nacional mantiene su peso estratégico en la economía española, ya que la agricultura, la ganadería y la pesca da trabajo a 759.000 personas en España, es decir, el 3,4% del empleo total del país, pero afronta retos estructurales como la caída en algunos subsectores, el envejecimiento de su fuerza laboral y la dependencia de mano de obra extranjera.\n\nDe esta forma, el 72% de los ocupados en agricultura, ganadería y pesca son españoles (546.000 personas en el primer trimestre de 2025), mientras que los extranjeros se mantienen estables en torno a los 200.000 trabajadores. Su peso es especialmente reducido en silvicultura, pesca y acuicultura, donde representan solo el 14% del empleo, mientras se eleva en la ganadería, donde el empleo extranjero se disparó un 53% interanual, frente al retroceso del 1,3% de los trabajadores españoles.\n\nA modo de curiosidad, destaca que la ganadería lidera el crecimiento del empleo extranjero en el sector primario, con un aumento del 53% en solo un año, mientras que el de trabajadores españoles retrocedió un 1,3%.",
+                                        "metadata": {
+                                            "url": "https://murciaplaza.com/murciaplaza/empresas-murcia/la-region-de-murcia-concentra-1-de-cada-10-trabajadores-del-campo-de-espana",
+                                            "source": "murciaplaza.com",
+                                            "favicon": "https://murciaplaza.com/web/assets_new/img/murciaplaza.com/favicons/favicon.ico",
+                                            "title": "El sector agrícola de la Región exhibe su poderío y ...",
+                                            "type": "web_search",
+                                            "base_url": "https://murciaplaza.com",
+                                            "snippet": "En consecuencia, no es de extrañar que la comunidad murciana concentre 1 de cada 10 trabajadores vinculados en España al sector agro, pues ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8852042250000522,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8852042250000522,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:02",
+                    "run_time": 1.8852042250000522,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la proporción de la mano de obra agrícola extranjera en Murcia según el último censo de población y vivienda del INE?": [
+                                {
+                                    "Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).": null
+                                },
+                                {
+                                    "La mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.": null
+                                },
+                                {
+                                    "Concretamente, el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera. En el conjunto de España, ese porcentaje se queda en el 47 %. Esto convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real. No es ideología, son cifras.": null
+                                }
+                            ],
+                            "¿Qué porcentaje de la fuerza laboral agrícola en Murcia es de origen español según el informe de la Consejería de Agricultura y Pesca de la Región de Murcia?": [
+                                {
+                                    "Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).": null
+                                },
+                                {
+                                    "La mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.": null
+                                },
+                                {
+                                    "Concretamente, el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera. En el conjunto de España, ese porcentaje se queda en el 47 %. Esto convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real. No es ideología, son cifras.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos sobre la presencia de la mano de obra extranjera en el sector agrícola de Murcia?": [
+                                {
+                                    "La mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.": null
+                                },
+                                {
+                                    "Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).": null
+                                },
+                                {
+                                    "La presencia masiva de trabajadores inmigrantes está justificada con la necesidad casi ilimitada de mano de obra de un campo que nunca jamás deja de cultivarse: “Aquí el 80% de la mano de obra son inmigrantes. Y si me apuras, en algunos tajos, el 100%. Si mañana los marroquíes, los latinos y los rumanos se van, aquí no se recoge ni un melón”. El sociólogo Andrés Pedreño explica a elDiario.es Región de Murcia que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, una región históricamente minera que ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector. “Cuando se produce la gran transformación al regadío en los ochenta, se presenta un problema de escasez de mano de obra. El país se estaba modernizando y las bolsas de jornaleros del sur se iban a otros sectores de la economía que estaban en alza, como la construcción, la hostelería o el turismo. En el 86 entramos en la Comunidad Económica Europea (CEE) y en el 91 el mercado único europeo, y ahí es cuando Murcia especializa su territorio en lo que luego se llamó la 'huerta de Europa'”.": null
+                                }
+                            ],
+                            "¿Qué datos proporcionan las organizaciones de agricultores y ganaderos sobre la composición de la fuerza laboral agrícola en la provincia?": [
+                                {
+                                    "Estos datos están muy relacionados con el mundo agrario, sector económico vital en la Región. Y es que el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias», afirma José Miguel Marín, presidente de COAG Murcia.": null
+                                },
+                                {
+                                    "Es una tendencia habitual en la Región, ya que el perfil de trabajador agrario, cuyo sector es de los más potentes de la Comunidad, tiene entre sus características poseer estudios primarios o básicos. En cambio, preocupa el déficit de trabajadores existente en el resto de áreas.": null
+                                },
+                                {
+                                    "Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).": null
+                                }
+                            ],
+                            "¿Cómo se compara la proporción de mano de obra agrícola extranjera en Murcia con otros territorios de la región?": [
+                                {
+                                    "Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).": null
+                                },
+                                {
+                                    "La mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.": null
+                                },
+                                {
+                                    "Concretamente, el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera. En el conjunto de España, ese porcentaje se queda en el 47 %. Esto convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real. No es ideología, son cifras.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 13.401604061000398,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 13.401604061000398,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:18",
+                    "run_time": 13.401604061000398,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nMás de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la proporción de la mano de obra agrícola extranjera en Murcia según el último censo de población y vivienda del INE?\n¿Qué porcentaje de la fuerza laboral agrícola en Murcia es de origen español según el informe de la Consejería de Agricultura y Pesca de la Región de Murcia?\n¿Qué opinan los expertos sobre la presencia de la mano de obra extranjera en el sector agrícola de Murcia?\n¿Qué datos proporcionan las organizaciones de agricultores y ganaderos sobre la composición de la fuerza laboral agrícola en la provincia?\n¿Cómo se compara la proporción de mano de obra agrícola extranjera en Murcia con otros territorios de la región?\n\n3. Here are the text sources you should use as your source of information:\n[0] Los datos que arroja el informe reflejan la importancia de la agricultura en la economía murciana y el perfil del trabajador agrario. Son más las mujeres que salen que las que entran (-3.626). Y en los hombres, al contrario (9.875). Por otro lado, son más los españoles que salen fuera de la Región de Murcia de los que entran (-7.785). En cambio, el número de extranjeros que entran es muy superior al de los que salen (14.034).\n[0] Estos datos están muy relacionados con el mundo agrario, sector económico vital en la Región. Y es que el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias», afirma José Miguel Marín, presidente de COAG Murcia.\n[0] Es una tendencia habitual en la Región, ya que el perfil de trabajador agrario, cuyo sector es de los más potentes de la Comunidad, tiene entre sus características poseer estudios primarios o básicos. En cambio, preocupa el déficit de trabajadores existente en el resto de áreas.\n[1] La mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero. Ni en la calle, ni en las tiendas, ni en la escalera de su edificio. Que recojan, que carguen, que suden, pero que no existan.\n[1] Concretamente, el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera. En el conjunto de España, ese porcentaje se queda en el 47 %. Esto convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real. No es ideología, son cifras.\n[2] La presencia masiva de trabajadores inmigrantes está justificada con la necesidad casi ilimitada de mano de obra de un campo que nunca jamás deja de cultivarse: “Aquí el 80% de la mano de obra son inmigrantes. Y si me apuras, en algunos tajos, el 100%. Si mañana los marroquíes, los latinos y los rumanos se van, aquí no se recoge ni un melón”. El sociólogo Andrés Pedreño explica a elDiario.es Región de Murcia que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, una región históricamente minera que ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector. “Cuando se produce la gran transformación al regadío en los ochenta, se presenta un problema de escasez de mano de obra. El país se estaba modernizando y las bolsas de jornaleros del sur se iban a otros sectores de la economía que estaban en alza, como la construcción, la hostelería o el turismo. En el 86 entramos en la Comunidad Económica Europea (CEE) y en el 91 el mercado único europeo, y ahí es cuando Murcia especializa su territorio en lo que luego se llamó la 'huerta de Europa'”.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" encuentra soporte en varias partes de los textos proporcionados. En primer lugar, se menciona que \"el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera\" en la Región de Murcia, lo que convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real ([1]). Esto sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.\n\nAdemás, el sociólogo Andrés Pedreño explica que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, y que esta región históricamente minera ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector ([2]). Esto sugiere que la presencia de trabajadores extranjeros en el sector agrícola de Murcia es una tendencia habitual y que la región ha dependido históricamente de la mano de obra migrante para sostener su economía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. En primer lugar, se menciona que \"la mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero\" ([1]). Esto sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola.\n\nAdemás, el presidente de COAG Murcia, José Miguel Marín, afirma que \"el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias»\" ([0]). Esto sugiere que la mano de obra agrícola en la región no es exclusivamente de origen extranjero, ya que también hay trabajadores españoles en el sector.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. La afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" parece ser cierta en base a los datos proporcionados, pero también hay evidencia que sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola. Por lo tanto, la afirmación se considera **verdadera**.\n\nEs importante destacar que la afirmación no es absoluta, ya que hay una pequeña proporción de trabajadores españoles en el sector agrícola de la región. Sin embargo, la evidencia general sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.3425436769994121,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.3425436769994121,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:19",
+                    "run_time": 1.3425436769994121,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" encuentra soporte en varias partes de los textos proporcionados. En primer lugar, se menciona que \"el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera\" en la Región de Murcia, lo que convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real ([1]). Esto sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.\n\nAdemás, el sociólogo Andrés Pedreño explica que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, y que esta región históricamente minera ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector ([2]). Esto sugiere que la presencia de trabajadores extranjeros en el sector agrícola de Murcia es una tendencia habitual y que la región ha dependido históricamente de la mano de obra migrante para sostener su economía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. En primer lugar, se menciona que \"la mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero\" ([1]). Esto sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola.\n\nAdemás, el presidente de COAG Murcia, José Miguel Marín, afirma que \"el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias»\" ([0]). Esto sugiere que la mano de obra agrícola en la región no es exclusivamente de origen extranjero, ya que también hay trabajadores españoles en el sector.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. La afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" parece ser cierta en base a los datos proporcionados, pero también hay evidencia que sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola. Por lo tanto, la afirmación se considera **verdadera**.\n\nEs importante destacar que la afirmación no es absoluta, ya que hay una pequeña proporción de trabajadores españoles en el sector agrícola de la región. Sin embargo, la evidencia general sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" encuentra soporte en varias partes de los textos proporcionados. En primer lugar, se menciona que \"el 54 % de los 41.300 empleos generados entre 2021 y 2024 fueron cubiertos por trabajadores de nacionalidad extranjera\" en la Región de Murcia, lo que convierte a Murcia en una de las regiones más dependientes del aporte migrante para sostener su economía real ([1]). Esto sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero.\n\nAdemás, el sociólogo Andrés Pedreño explica que la mayor parte de los marroquíes que hoy pueblan Torre Pacheco provienen de la provincia de Uchda, en el oriente del país, y que esta región históricamente minera ya trasvasó en los años sesenta a muchos trabajadores a la Sierra Minera de Cartagena y que, al ver la metamorfosis del campo, cambiaron de sector ([2]). Esto sugiere que la presencia de trabajadores extranjeros en el sector agrícola de Murcia es una tendencia habitual y que la región ha dependido históricamente de la mano de obra migrante para sostener su economía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. En primer lugar, se menciona que \"la mano de obra inmigrante sostiene la agricultura de la Región de Murcia, pero a muchos les incomoda verlos fuera del invernadero\" ([1]). Esto sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola.\n\nAdemás, el presidente de COAG Murcia, José Miguel Marín, afirma que \"el perfil del trabajador que llega a nuestra Comunidad muestra los principales rasgos del trabajador agrario: «Por lo general, la gran mayoría de trabajadores suelen ser hombres. y de una edad intermedia. Depende también de si hablamos de agricultores autónomos o mano de obra contratada. En general, hablamos de edades intermedias»\" ([0]). Esto sugiere que la mano de obra agrícola en la región no es exclusivamente de origen extranjero, ya que también hay trabajadores españoles en el sector.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero, también hay algunas contradicciones a esta afirmación. La afirmación \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\" parece ser cierta en base a los datos proporcionados, pero también hay evidencia que sugiere que no todos los murcianos están de acuerdo con la presencia de trabajadores extranjeros en el sector agrícola. Por lo tanto, la afirmación se considera **verdadera**.\n\nEs importante destacar que la afirmación no es absoluta, ya que hay una pequeña proporción de trabajadores españoles en el sector agrícola de la región. Sin embargo, la evidencia general sugiere que una gran proporción de la mano de obra agrícola en la región es de origen extranjero."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Más de la mitad de la mano de obra en el campo en Murcia es de origen extranjero\", \"categories\": [\"Economía\", \"Inmigración\", \"Trabajo\"], \"label\": \"True\", \"main_claim\": \"La mano de obra en el campo de Murcia es principalmente de origen extranjero\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

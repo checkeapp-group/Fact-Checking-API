@@ -1,0 +1,652 @@
+{
+    "question": "Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social",
+    "answer": "Hay evidencia en las fuentes disponibles que apoya la afirmación de que **una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social**. Un informe del Instituto Santalucía de 2024 señala que **casi cuatro de cada diez trabajadores domésticos en España no estaban dados de alta** en la Seguridad Social [1]. Las fuentes también describen de forma consistente la situación de vulnerabilidad y “limbo legal” del trabajo en domicilios, señalando que la naturaleza del trabajo a puerta cerrada y un marco legal históricamente deficitario han dejado al sector expuesto a violaciones de derechos y a una **elevada tasa de irregularidad**, estimándose que una parte significativa ejercía su labor sin estar dada de alta, lo que les priva de prestaciones como baja por enfermedad, desempleo o jubilación [2]. Además, se reconoce explícitamente que **aún persisten casos de informalidad y falta de protección laboral** en el sector y que la regularización es un asunto relevante en España, dado que muchas familias emplean trabajadoras domésticas (lo que implica que el fenómeno es amplio y estructural) [3]. El hecho de que en 2022 el Real Decreto 16/2022 habilitara la equiparación de condiciones (incluido el derecho al paro) y la obligación de los empleadores de asumir la cotización de estas trabajadoras también respalda implícitamente que existía —y existe— un problema de cobertura que requería corrección normativa [3].\n\nTambién hay elementos en las mismas fuentes que pueden matizar o contradecir en parte la afirmación absoluta de que “continúa” una proporción muy alta sin alta, aunque ninguna de estas fuentes aporta datos contrarios numéricos directos. Por un lado, se mencionan **medidas activas de sensibilización y promoción de la regularización** impulsadas por autoridades y sindicatos, así como la actuación de la Inspección de Trabajo que impone multas para disuadir a los empleadores y fomentar la formalización [3]. En particular, la Inspección puede imponer **multas de hasta 12.000 euros** por tener a una empleada del hogar sin alta, considerándose la infracción como grave según la LISOS, lo que constituye un mecanismo sancionador dirigido a reducir la informalidad [3]. Sin embargo, **las fuentes no contienen datos cuantitativos ni series temporales** que permitan verificar o refutar la evolución concreta del fenómeno entre 2019 y 2025: no hay cifras de afiliación al Sistema Especial para Empleados de Hogar por año (2019–2025) ni del último mes disponible de 2025; no hay las cifras trimestrales o medias anuales de ocupación según la Encuesta de Población Activa (CNAE 97) 2019–2025; no hay datos que permitan calcular la tasa de cobertura Seguridad Social/EPA en 2019–2021 o 2024–2025; tampoco aparecen en las fuentes comparaciones o porcentajes de la Organización Internacional del Trabajo (OIT/ILOSTAT) o Eurostat para España ni comparaciones con Italia, Portugal o Francia en 2019–2025; y no se facilitan números de inspecciones, infracciones detectadas o altas regularizadas por la Inspección de Trabajo en el periodo 2019–2025. En resumen: **hay indicios y estimaciones cualitativas y una cifra puntual (Santalucía 2024) que apoyan la afirmación, pero no existe en las fuentes la información estadística detallada requerida por las preguntas críticas**.\n\nValorando la fuerza de la evidencia, las fuentes proporcionadas apuntan de manera consistente y repetida a un problema real y de cierta magnitud: la referencia explícita de que **casi el 40%** de trabajadoras domésticas no estaban dadas de alta (Informe Instituto Santalucía, 2024) junto a múltiples descripciones de “elevada tasa de irregularidad” y persistencia de informalidad constituyen una base sólida para aceptar la afirmación en términos generales. No obstante, la ausencia de series oficiales y datos concretos en las fuentes sobre 2019–2025, comparaciones internacionales y resultados inspecciónales impide una verificación completa y cuantitativa año a año. Por tanto, con la evidencia disponible y considerando que no se aporta información contradictoria en las fuentes, concluyo que la afirmación es **verdadera** en términos generales (hay suficiente evidencia cualitativa y una estimación concreta que la respalda) pero **con la salvedad de que faltan los datos estadísticos solicitados para cuantificar con precisión la magnitud y la evolución 2019–2025**. Decisión: Verdadero.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elmundo.es/economia/2025/09/16/68c82b65e85ece40098b4577.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.elnacional.cat/oneconomia/es/economia/inspeccion-trabajo-avisa-hasta-12000-multa-por-no-dar-alta-empleadas-hogar_1490234_102.html",
+            "source": "www.elnacional.cat",
+            "favicon": "https://www.elnacional.cat/uploads/static/oneconomia/apple-touch-icon-152x152.png"
+        },
+        "3": {
+            "url": "https://www.segre.com/es/sociedad/241218/trabajo-multa-12-000-euros-casas-tengan-empleadas-hogar-dar-alta_671236.html",
+            "source": "www.segre.com",
+            "favicon": "https://www.segre.com/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social",
+        "categories": [
+            "Economía",
+            "Sociedad",
+            "Política"
+        ],
+        "label": "True",
+        "main_claim": "Las empleadas del hogar en España trabajan sin estar dadas de alta en la Seguridad Social, y la afirmación es verdadera",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "openai/gpt-5",
+                "gen_searches_agent": "openai/gpt-5-mini",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "openai/gpt-5-nano",
+                "article_writer": "openai/gpt-5-mini",
+                "metadata_agent": "openai/gpt-5-nano",
+                "image_prompt": "openai/gpt-5-nano"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0026655,
+                "total_run_time": 19.991172391999953,
+                "average_cost_per_call": 0.0026655,
+                "average_time_per_call": 19.991172391999953,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:17:28",
+                    "run_time": 19.991172391999953,
+                    "cost": 0.0026655,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nUna proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social\n\n**Critical Research Questions:**\n1. ¿Cuántas personas están afiliadas al Sistema Especial para Empleados de Hogar en España según los boletines de afiliación de la Seguridad Social en cada año de 2019 a 2025 y cuál es la cifra del último mes disponible de 2025?\n2. Según la Encuesta de Población Activa del INE, ¿cuántas personas trabajan en España en “Actividades de los hogares como empleadores de personal doméstico (CNAE 97)” en cada trimestre y promedio anual de 2019 a 2025?\n3. Con los datos de afiliación del Sistema Especial para Empleados de Hogar y de ocupación en CNAE 97 de la EPA, ¿cuál es la tasa de cobertura de la Seguridad Social del empleo doméstico en España en 2024–2025 y cómo se compara con 2019–2021?\n4. ¿Qué informan la OIT/ILOSTAT y Eurostat sobre la proporción de trabajadoras domésticas sin cobertura de Seguridad Social en España y cómo se compara España con Italia, Portugal y Francia en el periodo 2019–2025?\n5. ¿Qué resultados reporta la Inspección de Trabajo de España entre 2019 y 2025 respecto a infracciones por falta de alta en el sector de empleo del hogar, incluyendo número de inspecciones, infracciones detectadas y altas regularizadas?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"boletín afiliación Seguridad Social sistema especial empleados de hogar 2019 2020 2021 2022 2023 2024 2025 serie mensual último mes 2025\", \"INE EPA CNAE 97 actividades de los hogares como empleadores de personal doméstico ocupados por trimestre y promedio anual 2019 2020 2021 2022 2023 2024 2025 tablas descargables\", \"afiliados sistema especial empleados de hogar vs ocupados EPA CNAE 97 tasa de cobertura Seguridad Social empleo del hogar 2019 2020 2021 2022 2023 2024 2025 análisis datos comparativa\", \"ILOSTAT trabajadores domésticos protección social España Italia Portugal Francia 2019 2020 2021 2022 2023 2024 2025 Eurostat comparativa cobertura\", \"Inspección de Trabajo informe empleo del hogar 2019 2020 2021 2022 2023 2024 2025 inspecciones infracciones falta de alta altas regularizadas\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.163986392999959,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.163986392999959,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:17:31",
+                    "run_time": 3.163986392999959,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "boletín afiliación Seguridad Social sistema especial empleados de hogar 2019 2020 2021 2022 2023 2024 2025 serie mensual último mes 2025",
+                                "INE EPA CNAE 97 actividades de los hogares como empleadores de personal doméstico ocupados por trimestre y promedio anual 2019 2020 2021 2022 2023 2024 2025 tablas descargables",
+                                "afiliados sistema especial empleados de hogar vs ocupados EPA CNAE 97 tasa de cobertura Seguridad Social empleo del hogar 2019 2020 2021 2022 2023 2024 2025 análisis datos comparativa",
+                                "ILOSTAT trabajadores domésticos protección social España Italia Portugal Francia 2019 2020 2021 2022 2023 2024 2025 Eurostat comparativa cobertura",
+                                "Inspección de Trabajo informe empleo del hogar 2019 2020 2021 2022 2023 2024 2025 inspecciones infracciones falta de alta altas regularizadas"
+                            ],
+                            "results": {
+                                "boletín afiliación Seguridad Social sistema especial empleados de hogar 2019 2020 2021 2022 2023 2024 2025 serie mensual último mes 2025 | INE EPA CNAE 97 actividades de los hogares como empleadores de personal doméstico ocupados por trimestre y promedio anual 2019 2020 2021 2022 2023 2024 2025 tablas descargables | afiliados sistema especial empleados de hogar vs ocupados EPA CNAE 97 tasa de cobertura Seguridad Social empleo del hogar 2019 2020 2021 2022 2023 2024 2025 análisis datos comparativa | ILOSTAT trabajadores domésticos protección social España Italia Portugal Francia 2019 2020 2021 2022 2023 2024 2025 Eurostat comparativa cobertura | Inspección de Trabajo informe empleo del hogar 2019 2020 2021 2022 2023 2024 2025 inspecciones infracciones falta de alta altas regularizadas": [
+                                    {
+                                        "text": "AÑO 2025\n\n\n\nBASES DE COTIZACIÓN (Desde el 01/01/2025)\n\nORDEN PJC/178/2025, de 25/02 (BOE del 26/02)\n\nTramo Retribución mensual incrementada con la proporción de pagas extras (euros/mes) Base de cotización\n\neuros/mes 1.º Hasta 319,00 296,00 2.º Desde 319,01 hasta 495,00 423,00 3.º Desde 495,01 hasta 672,00 584,00 4.º Desde 672,01 hasta 850,00 761,00 5.º Desde 850,01 hasta 1029,00 941,00 6.º Desde 1029,01 hasta 1204,00 1116,00 7.º Desde 1204,01 hasta 1381,20 1381,20 8.º\n\nDesde 1381,21\n\nRetribución mensual\n\n\n\nTIPOS DE COTIZACIÓN (%) CONTINGENCIAS EMPLEADOR TRABAJADOR TOTAL COMUNES 23,60 4,70 28,3 DESEMPLEO\n\nDuración\n\nIndefinida\n\nDeterminada\n\n\n\n5,50\n\n6,70\n\n\n\n1,55\n\n1,60\n\n\n\n7,05\n\n8,30 FOGASA\n\n0,2\n\n\n\nMEI\n\n0,67 0,13 0,8 PROFESIONALES (AT/EP)\n\nTarifa de primas disposición adicional cuarta Ley 42/2006, de 28 de diciembre, de Presupuestos Generales del Estado para 2007, siendo la cuota resultante a cargo exclusivo del empleador.\n\n\n\n\n\nAÑO 2024 BASES DE COTIZACIÓN (Desde el 01/01/2024)\n\nORDEN PJC/51/2024, de 29/01 (BOE del 30/01) y ORDEN PJC/281/2024, de 27/03 (BOE del 28/03) Tramo Retribución mensual incrementada con la proporción de pagas extras (euros/mes) Base de cotización\n\neuros/mes 1.º Hasta 306,00 284,00 2.º Desde 306,01 hasta 474,00 405,00 3.º Desde 474,01 hasta 644,00 559,00 4.º Desde 644,01 hasta 814,00 729,00 5.º Desde 814,01 hasta 986,00 901,00 6.º Desde 986,01 hasta 1.153,00 1.069,00 7.º Desde 1.153,01 hasta 1.323,00 1.323,00 8.º\n\nDesde 1.323,01\n\nRetribución mensual\n\n\n\nTIPOS DE COTIZACIÓN (%) CONTINGENCIAS EMPLEADOR TRABAJADOR TOTAL COMUNES 23,60 4,70 28,3 DESEMPLEO\n\nDuración\n\nIndefinida\n\nDeterminada\n\n\n\n5,50\n\n6,70\n\n\n\n1,55\n\n1,60\n\n\n\n7,05\n\n8,30 FOGASA\n\n0,2\n\n\n\nMEI\n\n0,58 0,12 0,7 PROFESIONALES (AT/EP)\n\nTarifa de primas disposición adicional cuarta Ley 42/2006, de 28 de diciembre, de Presupuestos Generales del Estado para 2007, siendo la cuota resultante a cargo exclusivo del empleador.\n\n\n\nAÑO 2023 BASES DE COTIZACIÓN (Desde el 01/01/2023)\n\nORDEN PCM/313/2023, de 30 de marzo Tramo Retribución mensual incrementada con la proporción de pagas extras (euros/mes) Base de cotización euros/mes 1.º Hasta 291,00 270,00 2.º Desde 291,01 hasta 451,00 386,00 3.º Desde 451,01 hasta 613,00 532,00 4.º Desde 613,01 hasta 775,00 694,00 5.º Desde 775,01 hasta 939,00 858,00 6.º Desde 939,01 hasta 1.098,00 1.018,00 7.º Desde 1.098,01 hasta 1.260,00 1.260,00 8.º\n\nDesde 1.260,01\n\nRetribución mensual\n\n\n\nTIPOS DE COTIZACIÓN (%) CONTINGENCIAS EMPLEADOR TRABAJADOR TOTAL COMUNES 23,60 4,70 28,3 DESEMPLEO\n\nDuración\n\nIndefinida\n\nDeterminada\n\n\n\n5,50\n\n6,70\n\n\n\n1,55\n\n1,60\n\n\n\n7,05\n\n8,30 FOGASA\n\n0,2\n\n\n\nMEI*\n\n0,5 0,1 0,6 PROFESIONALES (AT/EP)\n\nTarifa de primas disposición adicional cuarta Ley 42/2006, de 28 de diciembre, de Presupuestos Generales del Estado para 2007, siendo la cuota resultante a cargo exclusivo del empleador.\n\n(*) MEI: Desde el 1 de enero de 2024, será el 0,7 por ciento aplicable sobre la base de cotización por contingencias, del que el 0,58 por ciento será a cargo del empleador y el 0,12 por ciento será a cargo del empleado.",
+                                        "metadata": {
+                                            "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/10721/10957/9932/2288",
+                                            "source": "www.seg-social.es",
+                                            "favicon": "https://www.seg-social.es/wps/contenthandler/wss/!ut/p/digest!CkTeUCRkBTz67iNKEjt4TQ/war/POINThemeStatic/themes/Portal8.5/css/img/favicon.ico",
+                                            "title": "Sistema Especial para Empleados de Hogar",
+                                            "type": "web_search",
+                                            "base_url": "https://www.seg-social.es",
+                                            "snippet": "Sistema Especial para Empleados de Hogar ; 2.º, Desde 306,01 hasta 474,00, 405,00 ; 3.º, Desde 474,01 hasta 644,00, 559,00 ; 4.º, Desde 644,01 hasta 814,00, 729,00."
+                                        }
+                                    },
+                                    {
+                                        "text": "The page you are trying to access is not available in the language you requested. We are sorry for the inconvenience this may cause.\n\nLanguages available:\n\nThe page you are trying to access is not available in the language you requested. We are sorry for the inconvenience this may cause.\n\nLanguages available:",
+                                        "metadata": {
+                                            "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/est8",
+                                            "source": "www.seg-social.es",
+                                            "favicon": "https://www.seg-social.es/wps/contenthandler/wss/!ut/p/digest!CkTeUCRkBTz67iNKEjt4TQ/war/POINThemeStatic/themes/Portal8.5/css/img/favicon.ico",
+                                            "title": "Estadísticas de Afiliación y alta de Trabajadores",
+                                            "type": "web_search",
+                                            "base_url": "https://www.seg-social.es",
+                                            "snippet": "Afiliación y alta de Trabajadores · Metodología · Afiliaciones en alta laboral · Altas y Bajas de afiliación · Afiliados en ERTE · Histórico de estadísticas de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Esta Guía proporciona una visión detallada de los indicadores del mercado laboral incluidos en el Marco de Indicadores Globales de los Objetivos de Desarrollo Sostenible. Pretende ser un manual de buenas prácticas para el cálculo y la interpretación de los indicadores del mercado laboral de los ODS, con el fin de supervisar los progresos realizados a nivel nacional e internacional hacia la consecución de los ODS.",
+                                        "metadata": {
+                                            "url": "https://ilostat.ilo.org/es/topics/social-protection/",
+                                            "source": "ilostat.ilo.org",
+                                            "favicon": "https://ilostat.ilo.org/wp-content/uploads/2019/08/cropped-ILO100_digital_high-res_EN-32x32.png",
+                                            "title": "Estadísticas sobre protección social",
+                                            "type": "web_search",
+                                            "base_url": "https://ilostat.ilo.org",
+                                            "snippet": "Este manual presenta directrices sobre los indicadores estadísticos del trabajo decente y los indicadores del marco jurídico. Se divide en once capítulos que ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Elaboramos estadísticas laborales a partir de numerosas fuentes, como las encuestas de población activa, las encuestas de establecimientos y los registros administrativos.\n\nTambién elaboramos indicadores del mercado laboral a partir de los microdatos de las encuestas nacionales de hogares y estimamos las cifras a nivel nacional, regional y mundial mediante modelos econométricos.",
+                                        "metadata": {
+                                            "url": "https://ilostat.ilo.org/es/",
+                                            "source": "ilostat.ilo.org",
+                                            "favicon": "https://ilostat.ilo.org/wp-content/uploads/2019/08/cropped-ILO100_digital_high-res_EN-32x32.png",
+                                            "title": "ILOSTAT: La principal fuente de estadísticas del trabajo",
+                                            "type": "web_search",
+                                            "base_url": "https://ilostat.ilo.org",
+                                            "snippet": "ILOSTAT es la referencia mundial en materia de estadísticas internacionales del trabajo, y proporciona bases de datos y recursos exhaustivos para la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.\n\nSin embargo, toda persona que contrata a alguien para trabajar en su casa tiene la obligación de dar de alta al empleado. Desde 2023, los empleadores son los únicos responsables de tramitar el alta o la baja ante la Tesorería General de la Seguridad Social, así como de comunicar todas las variaciones de la jornada, el tipo de contrato o las retribuciones que se produzcan.\n\nAsimismo, en el caso de que la empleada doméstica no cuente con un contrato laboral por escrito cuatro semanas después de empezar a desarrollar su labor, la Inspección de Trabajo puede imponer a su empleador una multa de hasta 7.500 euros. \"Además, si no tiene contrato, se va a presumir que ella trabaja en tu casa con contrato indefinido y a jornada completa\", añade Miguel Benito, abogado especialista en derecho laboral.\n\nEn su artículo 7, la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS) señala que \"no formalizar por escrito el contrato de trabajo, cuando este requisito sea exigible o lo haya solicitado la persona trabajadora\", se considera una infracción grave.\n\nLa cantidad de la multa depende de la gravedad de los hechos\n\nLa propia LISOS, en su artículo 40, establece que la sanción por tener a una persona trabajando sin un contrato de trabajo (como puede ser una empleada del hogar), se establecerá en función de la gravedad de los hechos:\n\nGrado mínimo : de 751 a 1.500 euros.\n\n: de 751 a 1.500 euros. Grado medio : de 1.501 a 3.750 euros.\n\n: de 1.501 a 3.750 euros. Grado máximo: de 3.751 a 7.500 euros.\n\nPor otra parte, si la empleada no está dada de alta en la Seguridad Social, el empleador puede enfrentarse también al pago de todas las cotizaciones atrasadas con recargos e intereses. El alta, sus modificaciones y las condiciones salariales deben constar adecuadamente por escrito.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/economia/2025/09/16/68c82b65e85ece40098b4577.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "hasta 7.500 euros de multa si tienes empleada del hogar ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "La Inspección de Trabajo avisa: hasta 7.500 euros de multa si tienes empleada del hogar sin contrato escrito. Casi 4 de cada 10 trabajadores ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En la intimidad de los hogares se desarrolla una actividad laboral que sostiene miles de vidas y dinámicas familiares, pero que a menudo queda relegada a un limbo legal. Las empleadas del hogar continúan siendo uno de los colectivos profesionales más expuestos a la vulneración de sus derechos fundamentales. La naturaleza del trabajo, realizado a puerta cerrada y sin supervisión inmediata, unida a un marco legal históricamente deficitario, las sitúa en una posición de desventaja donde incluso los derechos más básicos pueden ser ignorados.\n\nUno de los problemas estructurales más graves es la elevada tasa de irregularidad. Se estima que una parte significativa de estas profesionales ejerce su labor sin estar dada de alta en la Seguridad Social. Esta situación no solo las priva de acceso a prestaciones esenciales como la baja por enfermedad, el desempleo o la jubilación, sino que también las coloca en una situación de total dependencia de la buena fe del empleador.\n\n\n\nSin embargo, lo que para muchos empleadores puede parecer un \"arreglo informal\" o una forma de ahorro, constituye a los ojos de la ley una infracción grave con consecuencias económicas severas. La Ley sobre Infracciones y Sanciones en el Orden Social (LISOS) es clara al respecto. Su artículo 22.2 tipifica como infracción grave \"no solicitar la afiliación inicial o el alta de los trabajadores que ingresen a su servicio\".\n\nEsta falta conlleva una sanción económica que puede alcanzar los 12.000 euros, dependiendo de su grado:\n\n-Grado mínimo: de 3.750 a 7.500 euros.\n\n-Grado medio: de 7.501 a 9.600 euros.\n\n-Grado máximo: de 9.601 a 12.000 euros.\n\nLa norma es contundente al señalar que la sanción se aplicará \"por cada uno de los trabajadores afectados\". Además, el hecho de regularizar la situación únicamente como consecuencia de una actuación inspectora también se considera una infracción grave, lo que elimina cualquier posible beneficio por regularizarse de forma tardía bajo presión.\n\n\n\nLa sanción inicial es solamente la primera parte del coste para el empleador infractor. La LISOS establece una consecuencia aún más onerosa en su artículo 23.1 b): la obligación de abonar íntegramente todas las cuotas a la Seguridad Social que debería haber pagado durante el tiempo que la trabajadora permaneció en la irregularidad.\n\nEsta cantidad no es un simple reembolso. Se calcula aplicando un porcentaje adicional sobre el total evadido, que actúa como recargo:\n\n-Grado mínimo: Multa del 100,01% al 115% del importe defraudado.\n\n-Grado medio: Multa del 115,01% al 130%.\n\n-Grado máximo: Multa del 130,01% al 150%.\n\nEsto significa que un empleador que haya dejado de pagar 5.000 euros en cuotas, por ejemplo, podría verse obligado a desembolsar, solo por este concepto, hasta 7.500 euros (el 150% de la deuda), a lo que habría que sumar la sanción principal por no dar el alta.\n\n\n\nMás allá del impacto económico directo, la LISOS prevé en su artículo 46 una sanción accesoria de gran calado para los empleadores infractores: la pérdida automática de cualquier ayuda, bonificación o beneficio público relacionado con programas de empleo. Esta pérdida se aplica de forma proporcional al número de trabajadores afectados y retroactiva a la fecha en que se cometió la infracción.\n\nAdicionalmente, las empresas o particulares sancionados podrán ser excluidos del acceso a estas ayudas por un período máximo de dos años a partir de la resolución sancionadora, lo que supone un lastre significativo para su situación financiera futura.\n\n\n\nEste entramado sancionador sirve como un claro recordatorio de que la relación con una empleada del hogar es, ante todo, una relación laboral con derechos y obligaciones recíprocos protegidos por ley. La regularización no es solo una cuestión de evitar sanciones, sino una obligación ética y legal para garantizar la protección de unas trabajadoras esenciales para nuestra sociedad. La puerta de casa no puede ser, ni es, una frontera para los derechos laborales.",
+                                        "metadata": {
+                                            "url": "https://www.elnacional.cat/oneconomia/es/economia/inspeccion-trabajo-avisa-hasta-12000-multa-por-no-dar-alta-empleadas-hogar_1490234_102.html",
+                                            "source": "www.elnacional.cat",
+                                            "favicon": "https://www.elnacional.cat/uploads/static/oneconomia/apple-touch-icon-152x152.png",
+                                            "title": "La Inspección de Trabajo avisa: hasta 12.000 € de multa ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elnacional.cat",
+                                            "snippet": "La Inspección de Trabajo avisa: hasta 12.000 € de multa por no dar de alta a empleadas del hogar. La norma es contundente al señalar que la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las empleadas del hogar siguen siendo uno de los colectivos más expuestos a la precariedad laboral en nuestro país, de ahí que estén en el punto de mira de la Inspección de Trabajo. Su trabajo, desarrollado en domicilios particulares y en muchas ocasiones sin supervisión externa, provoca que sus derechos sean frecuentemente ignorados. Esto se traduce en condiciones laborales frágiles, sin acceso a prestaciones sociales, sin protección ante el despido y sin posibilidad de cotizar para su jubilación.\n\nA pesar de los avances normativos, una parte significativa de este colectivo continúa desempeñando su actividad sin estar registrada en la Seguridad Social, lo que supone una vulneración grave de sus derechos y deja a estas trabajadoras en una situación de indefensión absoluta ante cualquier eventualidad, como una baja médica o un accidente laboral.\n\nLeer más: La Comisión de Trabajo del Congreso aprueba adelantar la jubilación en la industria química y del refino\n\nDar de alta es una obligación legal, no una elección\n\nLa Inspección de Trabajo y Seguridad Social ha querido recordar en las últimas semanas que no registrar a una empleada del hogar es una infracción grave según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS). En su artículo 22.2, la norma es clara: “no solicitar la afiliación inicial o el alta de los trabajadores que ingresen a su servicio” constituye una infracción sancionable.\n\nEsto significa que cualquier persona que contrate a una trabajadora doméstica debe tramitar su alta antes de que comience su actividad. Hacerlo después, y especialmente si se detecta tras una actuación inspectora, también se considera una infracción. Además, cada trabajadora sin alta se computa como una infracción independiente, lo que multiplica el riesgo de sanciones si hay varias personas contratadas en el mismo domicilio.\n\nNo dar de alta a una empleada del hogar puede suponer multas que van desde los 3.750 hasta los 12.000 euros, dependiendo de su gravedad. Según el artículo 40 de la LISOS, la sanción se clasifica en tres tramos:\n\nGrado mínimo: entre 3.750 y 7.500 euros.\n\nentre 3.750 y 7.500 euros. Grado medio: entre 7.501 y 9.600 euros.\n\nentre 7.501 y 9.600 euros. Grado máximo: entre 9.601 y 12.000 euros.\n\nLa Inspección de Trabajo y Seguridad Social ha dejado claro que no se trata solo de una advertencia simbólica, sino de un régimen sancionador efectivo que busca erradicar la economía sumergida en este sector. La medida también tiene un componente disuasorio: fomentar que las familias regularicen la situación de sus empleadas domésticas para garantizar su protección social y sus derechos laborales básicos.\n\nProductos de limpieza\n\nDeber de pagar las cuotas atrasadas\n\nPero la multa no es la única consecuencia. El empleador deberá abonar todas las cuotas a la Tesorería General de la Seguridad Social correspondientes al tiempo que la trabajadora haya estado sin alta, tal y como recoge el artículo 23.1 b) de la LISOS.\n\nEn este supuesto, la infracción se considera muy grave y se castiga con un recargo proporcional sobre las cuotas no ingresadas:\n\nDel 100,01 al 115% del importe no pagado en su grado mínimo.\n\ndel importe no pagado en su grado mínimo. Del 115,01 al 130% en su grado medio.\n\nen su grado medio. Y del 130,01 al 150% en su grado máximo.\n\nEsto implica que, además de tener que pagar todas las cotizaciones atrasadas con intereses y recargos, el coste final para el empleador puede multiplicarse, llegando a suponer varios miles de euros adicionales.\n\nOtra consecuencia de gran calado para quienes incumplen la normativa es la pérdida automática de cualquier ayuda, subvención o bonificación relacionada con el empleo o la formación profesional. El artículo 46 de la LISOS establece que esta pérdida se aplicará de forma proporcional al número de trabajadores no dados de alta, con efectos desde la fecha en que se cometió la infracción.\n\nAdemás, la norma prevé que el empleador podrá ser excluido del acceso a nuevas ayudas o bonificaciones durante un plazo de hasta dos años, contados desde la resolución sancionadora. Esto supone un golpe importante para aquellos que compatibilizan la contratación de empleadas del hogar con otras actividades empresariales que dependan de ayudas públicas.\n\nUna advertencia de la Inspección de Trabajo que busca dignificar el trabajo doméstico\n\nCon esta ofensiva sancionadora, la Inspección de Trabajo y Seguridad Social pretende lanzar un mensaje contundente: la contratación de una empleada del hogar implica las mismas obligaciones legales que cualquier otra relación laboral. Dar de alta a la trabajadora, cotizar mensualmente y respetar sus derechos no es solo una exigencia legal, sino también una cuestión de justicia social.\n\nEl objetivo final es erradicar el trabajo en negro que sigue siendo frecuente en el sector doméstico y que priva a miles de trabajadoras —en su mayoría mujeres y muchas de ellas migrantes— de una red de protección mínima. Regularizar su situación no solo evita sanciones, sino que les permite acceder a prestaciones por desempleo, bajas médicas, pensiones y cobertura en caso de accidente.\n\nEn definitiva, el mensaje de la Inspección de Trabajo y Seguridad Social es claro: tener a una empleada del hogar sin dar de alta puede salir muy caro. Las sanciones de hasta 12.000 euros, la obligación de pagar todas las cuotas atrasadas con recargos y la pérdida de beneficios públicos convierten este incumplimiento en una apuesta de alto riesgo para cualquier empleador.\n\nLa única vía segura y justa es formalizar la relación laboral desde el primer día, garantizando así tanto los derechos de la trabajadora como la tranquilidad legal de quien la contrata. Una medida que, más allá de evitar multas, supone un paso necesario hacia la dignificación y profesionalización del trabajo doméstico en nuestro país.",
+                                        "metadata": {
+                                            "url": "https://www.economiadigital.es/sociedad/multas-12-000-euros-mensaje-inspeccion-trabajo-personas-empleadas-hogar-sin-dar-alta.html",
+                                            "source": "www.economiadigital.es",
+                                            "favicon": "https://www.economiadigital.es/wp-content/uploads/2024/12/ed-icon.png",
+                                            "title": "Multas de hasta 12.000 euros: el mensaje de la Inspección ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.economiadigital.es",
+                                            "snippet": "La Inspección de Trabajo y Seguridad Social endurece los controles y sanciones para frenar el empleo doméstico no declarado."
+                                        }
+                                    },
+                                    {
+                                        "text": "Publicado por Segre Creado: Actualizado:\n\nDesde 2022 las condiciones de las empleadas del hogar deben ser las mismas que la de cualquier otro trabajador por cuenta ajena, incluido el derecho al paro. Así lo establece el Real Decreto 16/2022, que determina la obligación de que los empleadores asuman la cotización de estas trabajadoras.\n\nLa Inspección de Trabajo en España puede imponer multas de hasta 12.000 euros a los empleadores que tengan trabajando a una empleada del hogar sin haberla dado de alta en la Seguridad Social. Esta infracción se considera grave según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS).\n\nEl artículo 22.2 de la LISOS establece que no solicitar la afiliación inicial o el alta de los trabajadores que ingresen al servicio del empleador, o hacerlo fuera de plazo como consecuencia de una actuación inspectora, se considera una infracción grave. Las sanciones por esta infracción van desde los 3.750 hasta los 12.000 euros, dependiendo del grado de gravedad.\n\nPlazo para dar de alta a una empleada del hogar\n\nEs importante conocer los plazos establecidos por la Seguridad Social para dar de alta a las trabajadoras del hogar. Según se indica en la página web del organismo, la solicitud de alta debe presentarse con antelación al inicio de la actividad laboral, pudiendo hacerlo hasta 60 días antes. Como máximo, podrá realizarse el día anterior a su primer día de trabajo.\n\nEl trámite de alta se realiza a través del apartado 'Altas, bajas y modificaciones' del portal 'Import@ass', al que se puede acceder con certificado digital, sistema Cl@ve, DNI electrónico o por SMS, si se tiene el móvil registrado en la Seguridad Social. Desde el Real Decreto Ley 16/2022 del 6 de septiembre, son los empleadores quienes deben tramitar el alta de las empleadas del hogar en todos los casos, independientemente de las horas de trabajo pactadas.\n\nDatos requeridos para formalizar el alta\n\nAl realizar el trámite de alta, se solicitarán diversos datos tanto del empleador como de la trabajadora del hogar, entre los que se encuentran:\n\nDNI, NIE y número de la Seguridad Social de la empleada.\n\nJornada y salario pactados.\n\nNúmero de cuenta para domiciliar el pago de las cuotas.\n\nPermiso de trabajo para los trabajadores extracomunitarios.\n\nDerechos de las empleadas del hogar\n\nEs fundamental recordar que las empleadas del hogar, al igual que el resto de trabajadores, tienen derecho a exigir un contrato de trabajo por escrito. Este derecho puede ejercerse en cualquier momento de la relación laboral. En caso de que no se formalice el contrato, se entenderá que la trabajadora es indefinida a jornada completa, salvo que pueda acreditarse lo contrario.\n\nAdemás de las multas impuestas por la Inspección de Trabajo, el empleador que no haya dado de alta a su empleada del hogar deberá abonar todas las cuotas no satisfechas a la Seguridad Social durante el tiempo que la tuvo trabajando sin estar regularizada.\n\nLa regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.\n\nLas autoridades y sindicatos han impulsado campañas de sensibilización y medidas para fomentar la regularización de las empleadas del hogar, destacando la importancia de garantizar sus derechos laborales y su acceso a prestaciones sociales. La imposición de multas por parte de la Inspección de Trabajo busca disuadir a los empleadores de mantener situaciones irregulares y promover la formalización de estos contratos.",
+                                        "metadata": {
+                                            "url": "https://www.segre.com/es/sociedad/241218/trabajo-multa-12-000-euros-casas-tengan-empleadas-hogar-dar-alta_671236.html",
+                                            "source": "www.segre.com",
+                                            "favicon": "https://www.segre.com/favicon.ico",
+                                            "title": "Trabajo multa con hasta 12.000 euros a las casas que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.segre.com",
+                                            "snippet": "La Inspección de Trabajo en España puede imponer multas de hasta 12.000 euros a los empleadores que tengan trabajando a una empleada del hogar ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Nat21\n\nNat21 9 de mayo de 2024\n\n9 de mayo de 2024\n\nLas inspecciones por el registro de jornada aumentan un 45% en 2023 con multas por 15,5 millones de euros… y en 2025 la inspección crecerá\n\nEl próximo 12 de mayo de 2024 se cumplen 5 años de la entrada en vigor de la normativa de registro y las cifras de la inspección son demoledoras:\n\ncifras de la inspección en 2023\n\n14.292 infracciones detectadas en jornada laboral y horas extra, un 45% más que en 2022\n\ny horas extra, un impuso sanciones por importe de 15,5 millones de euros por incumplimientos\n\npor incumplimientos 147.861 trabajadores afectados, un 31% más que en el ejercicio precedente.\n\nque en el ejercicio precedente. 35.501 actuaciones en materia de tiempo de trabajo y horas extraordinarias\n\nen materia de tiempo de trabajo y horas extraordinarias 9.226 requerimientos\n\nMINISTRA DE TRABAJO. A través de un mensaje en sus redes sociales, la vicepresidenta segunda del Gobierno y ministra de Trabajo y Economía Social, Yolanda Díaz:\n\nha dado las gracias a la Inspección «por perseguir a quienes vulneran los derechos laborales»\n\nha recordado además que «toda persona trabajadora que no tenga garantizadas unas condiciones dignas puede denunciarlo anónimamente» en el BUZÓN CONTRA EL FRAUDE laboral. En dicho buzón se puede denunciar de manera anónima cualquier incumplimiento de la normativa laboral, incluidos supuestos de discriminación, de Seguridad Social o de Prevención de Riesgos Laborales.\n\nRecordar la obligatoriedad adicional de las empresas y organizaciones de disponer de un canal de denuncia ley 2/2023 al menos para dar soporte a los protocolos de acoso laboral www.sistemadeinformacion.es\n\nFUTURO 2025 La inspección no para:\n\nACCESO EN REMOTO AL REGISTRO HORARIO Para cumplir con el objetivo de rebajar la jornada laboral semanal a 38,5 horas este año y a 37,5 horas en 2025, la vicepresidenta se ha propuesto reformar el registro horario al que están obligadas las empresas: eliminando el registro en papel y permitiendo que la Inspección pueda acceder de manera telemática\n\nPara cumplir con el objetivo de rebajar la jornada laboral semanal a 38,5 horas este año y a 37,5 horas en 2025, la vicepresidenta se ha propuesto reformar el registro horario al que están obligadas las empresas: ENDURECIMIENTO DE SANCIONES Trabajo pretende reforzar el aparato sancionador: que las sanciones no se produzcan por empresa, sino por cada trabajador, lo que elevaría el montante de las multas.",
+                                        "metadata": {
+                                            "url": "https://www.miregistrolaboral.es/las-inspecciones-por-el-registro-de-jornada-aumentan-un-45-en-2023-con-multas-por-155-millones-de-euros-y-en-2025-la-inspeccion-crecera/",
+                                            "source": "www.miregistrolaboral.es",
+                                            "favicon": "https://www.miregistrolaboral.es/wp-content/uploads/2025/06/cropped-cropped-favicon-32x32.png",
+                                            "title": "Las inspecciones por el registro de jornada aumentan un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.miregistrolaboral.es",
+                                            "snippet": "14.292 infracciones detectadas en jornada laboral y horas extra, un 45% más que en 2022 · impuso sanciones por importe de 15,5 millones de euros ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00069589,
+                "total_run_time": 0.48794949900002393,
+                "average_cost_per_call": 0.00069589,
+                "average_time_per_call": 0.48794949900002393,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:17:32",
+                    "run_time": 0.48794949900002393,
+                    "cost": 0.00069589,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuántas personas están afiliadas al Sistema Especial para Empleados de Hogar en España según los boletines de afiliación de la Seguridad Social en cada año de 2019 a 2025 y cuál es la cifra del último mes disponible de 2025?": [
+                                {
+                                    "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.": null
+                                },
+                                {
+                                    "Desde 2022 las condiciones de las empleadas del hogar deben ser las mismas que la de cualquier otro trabajador por cuenta ajena, incluido el derecho al paro. Así lo establece el Real Decreto 16/2022, que determina la obligación de que los empleadores asuman la cotización de estas trabajadoras.": null
+                                },
+                                {
+                                    "La regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.": null
+                                }
+                            ],
+                            "Según la Encuesta de Población Activa del INE, ¿cuántas personas trabajan en España en “Actividades de los hogares como empleadores de personal doméstico (CNAE 97)” en cada trimestre y promedio anual de 2019 a 2025?": [
+                                {
+                                    "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.": null
+                                },
+                                {
+                                    "La regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.": null
+                                },
+                                {
+                                    "En la intimidad de los hogares se desarrolla una actividad laboral que sostiene miles de vidas y dinámicas familiares, pero que a menudo queda relegada a un limbo legal. Las empleadas del hogar continúan siendo uno de los colectivos profesionales más expuestos a la vulneración de sus derechos fundamentales. La naturaleza del trabajo, realizado a puerta cerrada y sin supervisión inmediata, unida a un marco legal históricamente deficitario, las sitúa en una posición de desventaja donde incluso los derechos más básicos pueden ser ignorados.": null
+                                }
+                            ],
+                            "Con los datos de afiliación del Sistema Especial para Empleados de Hogar y de ocupación en CNAE 97 de la EPA, ¿cuál es la tasa de cobertura de la Seguridad Social del empleo doméstico en España en 2024–2025 y cómo se compara con 2019–2021?": [
+                                {
+                                    "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.": null
+                                },
+                                {
+                                    "Desde 2022 las condiciones de las empleadas del hogar deben ser las mismas que la de cualquier otro trabajador por cuenta ajena, incluido el derecho al paro. Así lo establece el Real Decreto 16/2022, que determina la obligación de que los empleadores asuman la cotización de estas trabajadoras.": null
+                                },
+                                {
+                                    "La regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.": null
+                                }
+                            ],
+                            "¿Qué informan la OIT/ILOSTAT y Eurostat sobre la proporción de trabajadoras domésticas sin cobertura de Seguridad Social en España y cómo se compara España con Italia, Portugal y Francia en el periodo 2019–2025?": [
+                                {
+                                    "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.": null
+                                },
+                                {
+                                    "La regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.": null
+                                },
+                                {
+                                    "Uno de los problemas estructurales más graves es la elevada tasa de irregularidad. Se estima que una parte significativa de estas profesionales ejerce su labor sin estar dada de alta en la Seguridad Social. Esta situación no solo las priva de acceso a prestaciones esenciales como la baja por enfermedad, el desempleo o la jubilación, sino que también las coloca en una situación de total dependencia de la buena fe del empleador.": null
+                                }
+                            ],
+                            "¿Qué resultados reporta la Inspección de Trabajo de España entre 2019 y 2025 respecto a infracciones por falta de alta en el sector de empleo del hogar, incluyendo número de inspecciones, infracciones detectadas y altas regularizadas?": [
+                                {
+                                    "Las autoridades y sindicatos han impulsado campañas de sensibilización y medidas para fomentar la regularización de las empleadas del hogar, destacando la importancia de garantizar sus derechos laborales y su acceso a prestaciones sociales. La imposición de multas por parte de la Inspección de Trabajo busca disuadir a los empleadores de mantener situaciones irregulares y promover la formalización de estos contratos.": null
+                                },
+                                {
+                                    "La Inspección de Trabajo en España puede imponer multas de hasta 12.000 euros a los empleadores que tengan trabajando a una empleada del hogar sin haberla dado de alta en la Seguridad Social. Esta infracción se considera grave según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS).": null
+                                },
+                                {
+                                    "Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0061867499999999995,
+                "total_run_time": 66.40622679600028,
+                "average_cost_per_call": 0.0061867499999999995,
+                "average_time_per_call": 66.40622679600028,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:18:40",
+                    "run_time": 66.40622679600028,
+                    "cost": 0.0061867499999999995,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nUna proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuántas personas están afiliadas al Sistema Especial para Empleados de Hogar en España según los boletines de afiliación de la Seguridad Social en cada año de 2019 a 2025 y cuál es la cifra del último mes disponible de 2025?\nSegún la Encuesta de Población Activa del INE, ¿cuántas personas trabajan en España en “Actividades de los hogares como empleadores de personal doméstico (CNAE 97)” en cada trimestre y promedio anual de 2019 a 2025?\nCon los datos de afiliación del Sistema Especial para Empleados de Hogar y de ocupación en CNAE 97 de la EPA, ¿cuál es la tasa de cobertura de la Seguridad Social del empleo doméstico en España en 2024–2025 y cómo se compara con 2019–2021?\n¿Qué informan la OIT/ILOSTAT y Eurostat sobre la proporción de trabajadoras domésticas sin cobertura de Seguridad Social en España y cómo se compara España con Italia, Portugal y Francia en el periodo 2019–2025?\n¿Qué resultados reporta la Inspección de Trabajo de España entre 2019 y 2025 respecto a infracciones por falta de alta en el sector de empleo del hogar, incluyendo número de inspecciones, infracciones detectadas y altas regularizadas?\n\n3. Here are the text sources you should use as your source of information:\n[0] Al desarrollar su actividad en el interior de los domicilios, las empleadas del hogar son un colectivo muy vulnerable a la hora de que se respeten sus derechos laborales. De hecho, según un informe publicado por el Instituto Santalucía en 2024, casi cuatro de cada 10 trabajadores domésticos en España no estaban dados de alta en la Seguridad Social.\n[1] Desde 2022 las condiciones de las empleadas del hogar deben ser las mismas que la de cualquier otro trabajador por cuenta ajena, incluido el derecho al paro. Así lo establece el Real Decreto 16/2022, que determina la obligación de que los empleadores asuman la cotización de estas trabajadoras.\n[1] La regularización de las empleadas del hogar es un tema de gran relevancia en España, donde muchas familias cuentan con trabajadoras domésticas para el cuidado del hogar y de personas dependientes. Sin embargo, aún persisten casos de informalidad y falta de protección laboral en este sector.\n[1] Las autoridades y sindicatos han impulsado campañas de sensibilización y medidas para fomentar la regularización de las empleadas del hogar, destacando la importancia de garantizar sus derechos laborales y su acceso a prestaciones sociales. La imposición de multas por parte de la Inspección de Trabajo busca disuadir a los empleadores de mantener situaciones irregulares y promover la formalización de estos contratos.\n[1] La Inspección de Trabajo en España puede imponer multas de hasta 12.000 euros a los empleadores que tengan trabajando a una empleada del hogar sin haberla dado de alta en la Seguridad Social. Esta infracción se considera grave según la Ley sobre Infracciones y Sanciones en el Orden Social (LISOS).\n[2] En la intimidad de los hogares se desarrolla una actividad laboral que sostiene miles de vidas y dinámicas familiares, pero que a menudo queda relegada a un limbo legal. Las empleadas del hogar continúan siendo uno de los colectivos profesionales más expuestos a la vulneración de sus derechos fundamentales. La naturaleza del trabajo, realizado a puerta cerrada y sin supervisión inmediata, unida a un marco legal históricamente deficitario, las sitúa en una posición de desventaja donde incluso los derechos más básicos pueden ser ignorados.\n[2] Uno de los problemas estructurales más graves es la elevada tasa de irregularidad. Se estima que una parte significativa de estas profesionales ejerce su labor sin estar dada de alta en la Seguridad Social. Esta situación no solo las priva de acceso a prestaciones esenciales como la baja por enfermedad, el desempleo o la jubilación, sino que también las coloca en una situación de total dependencia de la buena fe del empleador.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "Hay evidencia en las fuentes disponibles que apoya la afirmación de que **una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social**. Un informe del Instituto Santalucía de 2024 señala que **casi cuatro de cada diez trabajadores domésticos en España no estaban dados de alta** en la Seguridad Social [0]. Las fuentes también describen de forma consistente la situación de vulnerabilidad y “limbo legal” del trabajo en domicilios, señalando que la naturaleza del trabajo a puerta cerrada y un marco legal históricamente deficitario han dejado al sector expuesto a violaciones de derechos y a una **elevada tasa de irregularidad**, estimándose que una parte significativa ejercía su labor sin estar dada de alta, lo que les priva de prestaciones como baja por enfermedad, desempleo o jubilación [2]. Además, se reconoce explícitamente que **aún persisten casos de informalidad y falta de protección laboral** en el sector y que la regularización es un asunto relevante en España, dado que muchas familias emplean trabajadoras domésticas (lo que implica que el fenómeno es amplio y estructural) [1]. El hecho de que en 2022 el Real Decreto 16/2022 habilitara la equiparación de condiciones (incluido el derecho al paro) y la obligación de los empleadores de asumir la cotización de estas trabajadoras también respalda implícitamente que existía —y existe— un problema de cobertura que requería corrección normativa [1].\n\nTambién hay elementos en las mismas fuentes que pueden matizar o contradecir en parte la afirmación absoluta de que “continúa” una proporción muy alta sin alta, aunque ninguna de estas fuentes aporta datos contrarios numéricos directos. Por un lado, se mencionan **medidas activas de sensibilización y promoción de la regularización** impulsadas por autoridades y sindicatos, así como la actuación de la Inspección de Trabajo que impone multas para disuadir a los empleadores y fomentar la formalización [1]. En particular, la Inspección puede imponer **multas de hasta 12.000 euros** por tener a una empleada del hogar sin alta, considerándose la infracción como grave según la LISOS, lo que constituye un mecanismo sancionador dirigido a reducir la informalidad [1]. Sin embargo, **las fuentes no contienen datos cuantitativos ni series temporales** que permitan verificar o refutar la evolución concreta del fenómeno entre 2019 y 2025: no hay cifras de afiliación al Sistema Especial para Empleados de Hogar por año (2019–2025) ni del último mes disponible de 2025; no hay las cifras trimestrales o medias anuales de ocupación según la Encuesta de Población Activa (CNAE 97) 2019–2025; no hay datos que permitan calcular la tasa de cobertura Seguridad Social/EPA en 2019–2021 o 2024–2025; tampoco aparecen en las fuentes comparaciones o porcentajes de la Organización Internacional del Trabajo (OIT/ILOSTAT) o Eurostat para España ni comparaciones con Italia, Portugal o Francia en 2019–2025; y no se facilitan números de inspecciones, infracciones detectadas o altas regularizadas por la Inspección de Trabajo en el periodo 2019–2025. En resumen: **hay indicios y estimaciones cualitativas y una cifra puntual (Santalucía 2024) que apoyan la afirmación, pero no existe en las fuentes la información estadística detallada requerida por las preguntas críticas**.\n\nValorando la fuerza de la evidencia, las fuentes proporcionadas apuntan de manera consistente y repetida a un problema real y de cierta magnitud: la referencia explícita de que **casi el 40%** de trabajadoras domésticas no estaban dadas de alta (Informe Instituto Santalucía, 2024) junto a múltiples descripciones de “elevada tasa de irregularidad” y persistencia de informalidad constituyen una base sólida para aceptar la afirmación en términos generales. No obstante, la ausencia de series oficiales y datos concretos en las fuentes sobre 2019–2025, comparaciones internacionales y resultados inspecciónales impide una verificación completa y cuantitativa año a año. Por tanto, con la evidencia disponible y considerando que no se aporta información contradictoria en las fuentes, concluyo que la afirmación es **verdadera** en términos generales (hay suficiente evidencia cualitativa y una estimación concreta que la respalda) pero **con la salvedad de que faltan los datos estadísticos solicitados para cuantificar con precisión la magnitud y la evolución 2019–2025**. Decisión: Verdadero."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0009683,
+                "total_run_time": 23.331508455999938,
+                "average_cost_per_call": 0.0009683,
+                "average_time_per_call": 23.331508455999938,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:19:04",
+                    "run_time": 23.331508455999938,
+                    "cost": 0.0009683,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social\nArticle: Hay evidencia en las fuentes disponibles que apoya la afirmación de que **una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social**. Un informe del Instituto Santalucía de 2024 señala que **casi cuatro de cada diez trabajadores domésticos en España no estaban dados de alta** en la Seguridad Social [0]. Las fuentes también describen de forma consistente la situación de vulnerabilidad y “limbo legal” del trabajo en domicilios, señalando que la naturaleza del trabajo a puerta cerrada y un marco legal históricamente deficitario han dejado al sector expuesto a violaciones de derechos y a una **elevada tasa de irregularidad**, estimándose que una parte significativa ejercía su labor sin estar dada de alta, lo que les priva de prestaciones como baja por enfermedad, desempleo o jubilación [2]. Además, se reconoce explícitamente que **aún persisten casos de informalidad y falta de protección laboral** en el sector y que la regularización es un asunto relevante en España, dado que muchas familias emplean trabajadoras domésticas (lo que implica que el fenómeno es amplio y estructural) [1]. El hecho de que en 2022 el Real Decreto 16/2022 habilitara la equiparación de condiciones (incluido el derecho al paro) y la obligación de los empleadores de asumir la cotización de estas trabajadoras también respalda implícitamente que existía —y existe— un problema de cobertura que requería corrección normativa [1].\n\nTambién hay elementos en las mismas fuentes que pueden matizar o contradecir en parte la afirmación absoluta de que “continúa” una proporción muy alta sin alta, aunque ninguna de estas fuentes aporta datos contrarios numéricos directos. Por un lado, se mencionan **medidas activas de sensibilización y promoción de la regularización** impulsadas por autoridades y sindicatos, así como la actuación de la Inspección de Trabajo que impone multas para disuadir a los empleadores y fomentar la formalización [1]. En particular, la Inspección puede imponer **multas de hasta 12.000 euros** por tener a una empleada del hogar sin alta, considerándose la infracción como grave según la LISOS, lo que constituye un mecanismo sancionador dirigido a reducir la informalidad [1]. Sin embargo, **las fuentes no contienen datos cuantitativos ni series temporales** que permitan verificar o refutar la evolución concreta del fenómeno entre 2019 y 2025: no hay cifras de afiliación al Sistema Especial para Empleados de Hogar por año (2019–2025) ni del último mes disponible de 2025; no hay las cifras trimestrales o medias anuales de ocupación según la Encuesta de Población Activa (CNAE 97) 2019–2025; no hay datos que permitan calcular la tasa de cobertura Seguridad Social/EPA en 2019–2021 o 2024–2025; tampoco aparecen en las fuentes comparaciones o porcentajes de la Organización Internacional del Trabajo (OIT/ILOSTAT) o Eurostat para España ni comparaciones con Italia, Portugal o Francia en 2019–2025; y no se facilitan números de inspecciones, infracciones detectadas o altas regularizadas por la Inspección de Trabajo en el periodo 2019–2025. En resumen: **hay indicios y estimaciones cualitativas y una cifra puntual (Santalucía 2024) que apoyan la afirmación, pero no existe en las fuentes la información estadística detallada requerida por las preguntas críticas**.\n\nValorando la fuerza de la evidencia, las fuentes proporcionadas apuntan de manera consistente y repetida a un problema real y de cierta magnitud: la referencia explícita de que **casi el 40%** de trabajadoras domésticas no estaban dadas de alta (Informe Instituto Santalucía, 2024) junto a múltiples descripciones de “elevada tasa de irregularidad” y persistencia de informalidad constituyen una base sólida para aceptar la afirmación en términos generales. No obstante, la ausencia de series oficiales y datos concretos en las fuentes sobre 2019–2025, comparaciones internacionales y resultados inspecciónales impide una verificación completa y cuantitativa año a año. Por tanto, con la evidencia disponible y considerando que no se aporta información contradictoria en las fuentes, concluyo que la afirmación es **verdadera** en términos generales (hay suficiente evidencia cualitativa y una estimación concreta que la respalda) pero **con la salvedad de que faltan los datos estadísticos solicitados para cuantificar con precisión la magnitud y la evolución 2019–2025**. Decisión: Verdadero.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social\nArticle: Hay evidencia en las fuentes disponibles que apoya la afirmación de que **una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social**. Un informe del Instituto Santalucía de 2024 señala que **casi cuatro de cada diez trabajadores domésticos en España no estaban dados de alta** en la Seguridad Social [0]. Las fuentes también describen de forma consistente la situación de vulnerabilidad y “limbo legal” del trabajo en domicilios, señalando que la naturaleza del trabajo a puerta cerrada y un marco legal históricamente deficitario han dejado al sector expuesto a violaciones de derechos y a una **elevada tasa de irregularidad**, estimándose que una parte significativa ejercía su labor sin estar dada de alta, lo que les priva de prestaciones como baja por enfermedad, desempleo o jubilación [2]. Además, se reconoce explícitamente que **aún persisten casos de informalidad y falta de protección laboral** en el sector y que la regularización es un asunto relevante en España, dado que muchas familias emplean trabajadoras domésticas (lo que implica que el fenómeno es amplio y estructural) [1]. El hecho de que en 2022 el Real Decreto 16/2022 habilitara la equiparación de condiciones (incluido el derecho al paro) y la obligación de los empleadores de asumir la cotización de estas trabajadoras también respalda implícitamente que existía —y existe— un problema de cobertura que requería corrección normativa [1].\n\nTambién hay elementos en las mismas fuentes que pueden matizar o contradecir en parte la afirmación absoluta de que “continúa” una proporción muy alta sin alta, aunque ninguna de estas fuentes aporta datos contrarios numéricos directos. Por un lado, se mencionan **medidas activas de sensibilización y promoción de la regularización** impulsadas por autoridades y sindicatos, así como la actuación de la Inspección de Trabajo que impone multas para disuadir a los empleadores y fomentar la formalización [1]. En particular, la Inspección puede imponer **multas de hasta 12.000 euros** por tener a una empleada del hogar sin alta, considerándose la infracción como grave según la LISOS, lo que constituye un mecanismo sancionador dirigido a reducir la informalidad [1]. Sin embargo, **las fuentes no contienen datos cuantitativos ni series temporales** que permitan verificar o refutar la evolución concreta del fenómeno entre 2019 y 2025: no hay cifras de afiliación al Sistema Especial para Empleados de Hogar por año (2019–2025) ni del último mes disponible de 2025; no hay las cifras trimestrales o medias anuales de ocupación según la Encuesta de Población Activa (CNAE 97) 2019–2025; no hay datos que permitan calcular la tasa de cobertura Seguridad Social/EPA en 2019–2021 o 2024–2025; tampoco aparecen en las fuentes comparaciones o porcentajes de la Organización Internacional del Trabajo (OIT/ILOSTAT) o Eurostat para España ni comparaciones con Italia, Portugal o Francia en 2019–2025; y no se facilitan números de inspecciones, infracciones detectadas o altas regularizadas por la Inspección de Trabajo en el periodo 2019–2025. En resumen: **hay indicios y estimaciones cualitativas y una cifra puntual (Santalucía 2024) que apoyan la afirmación, pero no existe en las fuentes la información estadística detallada requerida por las preguntas críticas**.\n\nValorando la fuerza de la evidencia, las fuentes proporcionadas apuntan de manera consistente y repetida a un problema real y de cierta magnitud: la referencia explícita de que **casi el 40%** de trabajadoras domésticas no estaban dadas de alta (Informe Instituto Santalucía, 2024) junto a múltiples descripciones de “elevada tasa de irregularidad” y persistencia de informalidad constituyen una base sólida para aceptar la afirmación en términos generales. No obstante, la ausencia de series oficiales y datos concretos en las fuentes sobre 2019–2025, comparaciones internacionales y resultados inspecciónales impide una verificación completa y cuantitativa año a año. Por tanto, con la evidencia disponible y considerando que no se aporta información contradictoria en las fuentes, concluyo que la afirmación es **verdadera** en términos generales (hay suficiente evidencia cualitativa y una estimación concreta que la respalda) pero **con la salvedad de que faltan los datos estadísticos solicitados para cuantificar con precisión la magnitud y la evolución 2019–2025**. Decisión: Verdadero."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Una proporción muy alta de empleadas de hogar continúa trabajando sin estar dada de alta en la Seguridad Social\", \"categories\": [\"Economía\", \"Sociedad\", \"Política\"], \"label\": \"True\", \"main_claim\": \"Las empleadas del hogar en España trabajan sin estar dadas de alta en la Seguridad Social, y la afirmación es verdadera\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.05228768999999999,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "openai/gpt-5",
+                    "gen_searches_agent": "openai/gpt-5-mini",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "openai/gpt-5-nano",
+                    "article_writer": "openai/gpt-5-mini",
+                    "metadata_agent": "openai/gpt-5-nano",
+                    "image_prompt": "openai/gpt-5-nano"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

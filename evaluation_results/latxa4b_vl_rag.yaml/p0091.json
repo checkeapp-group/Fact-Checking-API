@@ -1,0 +1,618 @@
+{
+    "question": "La tasa de empleos temporales de España es menor que la media de la UE",
+    "answer": "La tasa de empleos temporales en España ha experimentado una reducción significativa desde 2019, alcanzando el 15,1% en el primer trimestre de 2025 según la Encuesta de Población Activa (EPA), lo que sitúa a España cerca de la media de la UE (12,4% en ese período) [1]. Esta disminución se debe a la reforma laboral, que ha reducido la temporalidad a mínimos históricos, aunque el sector público aún presenta una tasa elevada del 28,0% [1]. No obstante, España sigue siendo un país con alta precariedad laboral, con una calidad del empleo un 26% inferior a la media de la UE en términos de ingresos, estabilidad, conciliación, formación y participación [2]. Además, el empleo en España muestra una fuerte polarización, con puestos de alta cualificación junto a otros de baja calidad y escasa protección, lo que dificulta la consolidación de proyectos personales y familiares [3]. \n\nA pesar de la reducción de la temporalidad, España no ha logrado alcanzar la media de la UE en todos los aspectos relacionados con la calidad del empleo. La precariedad laboral en España se traduce en una mayor desigualdad en la distribución de la renta, situándose por debajo de países como Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria [2]. Además, la inestabilidad contractual, la parcialidad y la baja remuneración persisten como factores que dificultan la inclusión social y el desarrollo personal [3]. Estos datos indican que, aunque la tasa de empleos temporales ha disminuido, la calidad del empleo en España aún se encuentra por debajo de la media de la UE en múltiples dimensiones. \n\nEn conclusión, la tasa de empleos temporales en España es actualmente menor que la media de la UE (15,1% frente al 12,4% en 2025), pero la calidad del empleo en España sigue siendo significativamente inferior en términos de estabilidad, remuneración, formación y perspectivas laborales [2][3]. Aunque la temporalidad ha disminuido, la precariedad persiste en otros aspectos clave, lo que impide que España alcance la media de la UE en la calidad del empleo. Por lo tanto, la afirmación que la tasa de empleos temporales en España es menor que la media de la UE es **parcialmente correcta**, pero debe contextualizarse con la realidad de la precariedad laboral en el país.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.bbvaresearch.com/publicaciones/espana-menos-temporalidad-mas-estabilidad/",
+            "source": "www.bbvaresearch.com",
+            "favicon": "https://www.bbvaresearch.com/wp-content/themes/bbvaresearch/images/favicon_32px.png"
+        },
+        "2": {
+            "url": "https://www.elmundo.es/economia/macroeconomia/2025/12/08/6932fea6e4d4d8d43d8b4583.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "3": {
+            "url": "https://fundacionadecco.org/blog-diversidad-inclusion/lo-que-necesitamos-saber-del-ix-informe-foessa-la-urgencia-de-generar-empleo-sostenible-y-apoyar-a-los-mas-vulnerables/",
+            "source": "fundacionadecco.org",
+            "favicon": "https://i0.wp.com/fundacionadecco.org/blog-diversidad-inclusion/wp-content/uploads/2021/06/cropped-fav.png?fit=32%2C32&ssl=1"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La tasa de empleos temporales de España es menor que la media de la UE",
+        "categories": [
+            "Economía",
+            "Laboral",
+            "Social"
+        ],
+        "label": "True",
+        "main_claim": "La tasa de empleos temporales en España es menor que la media de la UE, pero la calidad del empleo sigue siendo inferior",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.129159426999649,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.129159426999649,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:42:49",
+                    "run_time": 4.129159426999649,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa tasa de empleos temporales de España es menor que la media de la UE\n\n**Critical Research Questions:**\n1. ¿Cuál es la tasa de empleos temporales en España en 2025 según datos del INE y Eurostat?\n2. ¿Cuál es la media de temporalidad laboral en la UE en 2025 y cómo se compara con España?\n3. ¿Cómo ha evolucionado la temporalidad en España desde 2020 hasta 2025?\n4. ¿Cuáles son las principales causas de la temporalidad en España y cómo se comparan con las de la UE?\n5. ¿Existen estudios o informes de OIT, FOESSA o la CEOE sobre la temporalidad en España y en la UE?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"tasa de empleos temporales España 2025 INE Eurostat datos oficiales\", \"media temporalidad laboral UE 2025 comparación con España OIT FOESSA\", \"evolución temporalidad en España 2020-2025 INE Eurostat datos\", \"causas temporalidad España 2025 análisis OIT CEOE FOESSA\", \"informes OIT FOESSA CEOE temporalidad en España UE 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.698379534000196,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.698379534000196,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:42:51",
+                    "run_time": 2.698379534000196,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "tasa de empleos temporales España 2025 INE Eurostat datos oficiales",
+                                "media temporalidad laboral UE 2025 comparación con España OIT FOESSA",
+                                "evolución temporalidad en España 2020-2025 INE Eurostat datos",
+                                "causas temporalidad España 2025 análisis OIT CEOE FOESSA",
+                                "informes OIT FOESSA CEOE temporalidad en España UE 2025"
+                            ],
+                            "results": {
+                                "tasa de empleos temporales España 2025 INE Eurostat datos oficiales | media temporalidad laboral UE 2025 comparación con España OIT FOESSA | evolución temporalidad en España 2020-2025 INE Eurostat datos | causas temporalidad España 2025 análisis OIT CEOE FOESSA | informes OIT FOESSA CEOE temporalidad en España UE 2025": [
+                                    {
+                                        "text": "España atraviesa un proceso inédito de fragmentación social: la clase media se contrae desplazando a muchas familias hacia estratos inferiores. Tras dos décadas de crisis encadenadas, las fases de recuperación no han cerrado la brecha y han llevado a España a contar con una de las tasas de desigualdad más altas de Europa. La integración social se erosiona y la exclusión grave permanece muy por encima de los niveles de 2007. En 2024, la exclusión severa se sitúa un 52% por encima de 2007, lo que arroja un saldo de 4,3 millones de personas.\n\nAsí se desprende del IX Informe FOESSA sobre Exclusión y Desarrollo Social en España, realizado por un equipo de 140 investigadores procedentes de 51 universidades, centros de investigación, fundaciones y entidades del Tercer Sector. El estudio ha sido presentado este miércoles por Natalia Peiro, secretaria general de Cáritas Española, y Raúl Flores, secretario técnico de la Fundación FOESSA y coordinador del informe.\n\nLa fuente principal de esta investigación ha sido la sexta Encuesta sobre Integración y Necesidades Sociales (EINSFOESSA), realizada en el primer semestre de 2024 a 12.289 hogares en todo el país y cuyos datos podrán explotarse próximamente a través de la web de la Fundación FOESSA.\n\nAdemás del estudio general, se han elaborado otros 22 informes territoriales con la colaboración de otras 40 personas investigadoras, que serán presentados entre los meses de noviembre y febrero en las 17 comunidades autónomas y en las ciudades de Ceuta, Melilla, Ibiza y Albacete, además de la Diócesis de Barcelona.\n\nDurante su intervención, la secretaria general de Cáritas señaló que el IX Informe FOESSA “llega en un momento histórico de profunda complejidad”. “Tras décadas de transformaciones aceleradas que han reconfigurado su estructura social, económica y territorial, el país se encuentra en una encrucijada que define no solo su presente, sino el horizonte de posibilidades para las próximas décadas. Aspiramos a que este estudio ayude a comprender esta realidad compleja, ofreciendo un análisis riguroso que permita no solo interpretar los procesos en curso, sino identificar las palancas necesarias para una transformación que sitúe la justicia social y el bien común en el centro de nuestro proyecto colectivo”, añadió.\n\nNo fallan las personas, falla el sistema\n\nEl IX Informe FOESSA señala que pese a las dificultades que afrontan a diario los hogares en exclusión severa, tres de cada cuatro activan estrategias de inclusión, es decir, buscan empleo, se forman, activan redes y ajustan gastos, pero chocan con barreras estructurales, se topan con dispositivos fragmentados, con recursos escasos y muy poco personalizados. La activación en estos hogares pasó del 68% en 2021 al 77% en 2024.\n\n“El mito de la pasividad de las personas en situación de pobreza y exclusión, esa idea de que viven de prestaciones sociales sin buscar soluciones o emprender acciones para su inclusión, es falsa. Esta realidad demuestra que no fallan las personas, falla el sistema”, aseguró Flores.\n\nVivienda inaccesible y empleo precario, los grandes motores de la exclusión\n\nLos principales motores de la exclusión social en España son la vivienda y el empleo. “La vivienda es hoy el factor que está activamente reconfigurando nuestra estructura social, expulsando a uno de cuatro hogares de una vida digna, y triturando el difícil equilibrio de las clases medias”, aseguró Flores.\n\nLos datos son claros. El 45% de la población que vive en régimen de alquiler se encuentra en riesgo de pobreza y exclusión social, la cifra más alta de la UE. El alquiler se ha convertido en una trampa de pobreza.\n\nAunque el empleo mejora macroeconómicamente, ha perdido gran parte de su capacidad protectora e integradora. La precariedad laboral se ha convertido en la nueva normalidad, afectando a casi la mitad (47,5%) de la población activa. Se trata de 11,5 millones de personas atrapadas en diversas formas de inseguridad laboral. De hecho, más de un tercio de la población excluida moderada o severa trabaja.\n\nBachillerato y FP, el nuevo cortafuego contra la pobreza\n\nA estos dos grandes motores se suman otros cuatro factores multiplicadores de la exclusión: la educación, el origen familiar, la salud y las relaciones sociales. El informe demuestra que la ESO ya no protege. El «cortafuegos» contra la pobreza y la exclusión se ha desplazado al Bachillerato y a la FP. El dato es rotundo: si una persona no consigue completar estudios superiores a la ESO, su riesgo de caer en exclusión severa se multiplica por 2,7.\n\nEl segundo factor multiplicador es el origen familiar. Los hijos de personas con bajo nivel educativo tienen más del doble de probabilidades de caer en situaciones de pobreza que los de progenitores altamente formados.\n\n“La conclusión del informe es un golpe a nuestra promesa de igualdad de oportunidades. La exclusión social se hereda, y es necesario actuar para compensar las desigualdades de origen porque el código postal y la mochila familiar pesan más que la capacidad y que el esfuerzo”, indicó el secretario técnico de la Fundación FOESSA.\n\nLa desigualdad se mide en años de vida\n\nEl informe FOESSA introduce otro factor determinante: la salud. La desigualdad también se mide en años de vida. Además del deterioro de la salud asociado a la malnutrición, el informe detecta cómo las listas de espera y la dificultad para conseguir cita están minando el acceso a la sanidad.\n\nEl dato más grave es que el 6% de las familias más vulnerables que tenían una enfermedad grave no recibió atención médica el año pasado. El doble que en el conjunto de la sociedad. La salud mental también se resiente. Los diagnósticos de depresión, ansiedad o trastorno adaptativo alcanzan al 6% de la sociedad, pero superan el 12% entre quienes viven en exclusión severa. “El informe pone sobre la mesa que cuando el sistema público se atasca, y retrasa la detección precoz de enfermedades, o no cubre completamente puntos fundamentales como la salud mental, la única alternativa es el pago, convirtiendo un derecho fundamental en un privilegio”, apostilló.\n\nCrece el aislamiento entre personas en exclusión severa\n\nLa herida más profunda de todas es la ausencia de una red de relaciones. Aunque a nivel general, en España, la soledad absoluta (no tener a nadie a quien acudir) es minoritaria e incluso ha bajado -del 6,2% de hogares en 2007 al 4,7% en 2024-, las personas en exclusión severa sufren una fractura aterradora.\n\nEl nivel de aislamiento de las personas en exclusión severa se ha quintuplicado, pasando del 3,2% en 2018 al 16,6% en 2024. “El informe nos alerta sobre cómo nuestro ‘escudo comunitario’, se está debilitando justo donde más se necesita. Donde se tejen vínculos, la exclusión se vuelve reversible; donde se rompen, la dependencia se acelera. Reconstruir esos lazos exige reconocer lo relacional como estratégico: las políticas deben medir y fortalecer el capital social (familia, vecindad, asociaciones) con acciones preventivas y comunitarias”, indicó Flores.\n\nLa exclusión grave crece en los hogares encabezados por mujeres\n\nEl primer grupo que sufre especialmente esta fractura social son las mujeres. La exclusión sigue creciendo y penalizando a los hogares encabezados por mujeres, pasando del 17% de exclusión en 2007 al 21% en 2024, y especialmente en las familias monoparentales que han pasado del 12% en 2007 al 29% en 2024. De hecho, del total de hogares excluidos graves, casi la mitad están encabezados por mujeres (el 42%, más de 15 puntos porcentuales desde 2007).\n\n“En general, las mujeres asumen una doble e invisible carga: la parcialidad, la precariedad laboral y la brecha salarial fuera de casa, así como el trabajo de cuidados dentro. La falta de corresponsabilidad real es un acelerador directo de la pobreza femenina”, señaló.\n\nLa situación administrativa irregular, un multiplicador de la exclusión\n\nLa exclusión no es un problema que España haya importado. El 69%, la gran mayoría, de las personas en exclusión son españolas. “Lo que vemos no es un problema inherente al origen, sino el resultado de barreras estructurales y políticas fallidas”, apostilló.\n\nSin embargo, los datos muestran una brecha persistente y preocupante: casi la mitad (47,4%) de la población de origen inmigrante está en exclusión, una tasa que casi triplica la de la población autóctona (15,3%).\n\nDe hecho, un multiplicador directo de esta exclusión es la situación administrativa. El 68% de las personas extracomunitarias en situación irregular sufre exclusión, frente al 43% de quienes tienen permiso. Es una evidencia que esta irregularidad está repuntando, agravada por la lentitud de los trámites que deja a miles de personas en un limbo, el 62% de quienes no tienen papeles afirma estar intentando regularizarse.\n\nLa discriminación étnica se ha duplicado desde 2018 y alimenta la exclusión, especialmente entre población africana. “Históricamente, nuestras políticas migratorias se han centrado en el control y la gestión laboral, relegando la integración social a un segundo plano. Esta falta de una política pública de integración ambiciosa y transversal desde el primer momento es una asignatura pendiente que genera y perpetúa la exclusión”, señaló.\n\nLa infancia y la juventud, los grandes perdedores\n\nLos grandes perdedores del modelo socioeconómico actual son los jóvenes y los niños. Un tercio de toda la exclusión severa en España corresponde a menores de edad, cuya tasa de pobreza se sitúa en el 29%, la más alta de todos los grupos de edad y de las mayores de Europa. A ellos se suma buena parte de la juventud que vive una situación de bloqueo vital: 2,5 millones de jóvenes están atrapados en una precariedad estructural, enfrentando tasas de temporalidad, parcialidad involuntaria y salarios bajos que duplican la media española.\n\nLa desigualdad salarial se enquista, golpeando especialmente a la juventud, que accede a su primer empleo en peores condiciones y con salarios entre un 15% y un 30% inferiores a las generaciones anteriores, rompiendo el equilibrio intergeneracional. Este “efecto cicatriz” que persiste sobre los salarios y la trayectoria laboral, genera pérdidas salariales acumuladas significativas a lo largo de la carrera profesional.\n\n“Esta no es una ‘crisis juvenil’, es una crisis de sociedad que nos hipoteca a todos: fractura la cohesión social, amenaza la sostenibilidad del Estado de Bienestar (pensiones, natalidad) y deteriora nuestra salud democrática”, precisó el coordinador del estudio.\n\nUn modelo que genera desigualdad y fractura\n\nEl informe señala que todos estos problemas son síntomas de un modelo de sociedad que genera estructuralmente desigualdad, precariedad y fractura. “Llegamos a la paradoja central que define nuestro tiempo como una sociedad del desasosiego. Coexiste esa bonanza económica aparente con malestares estructurales profundos: vidas bloqueadas, soledad, angustia ecológica, desesperanza. Vivimos en una sociedad ecológicamente vulnerable, anímicamente desasosegada y socialmente desgarrada”, apuntó Flores.\n\nEcológicamente insostenible\n\nEl actual modelo socioeconómico vive de espaldas a los límites del planeta. La huella ecológica de España triplica la capacidad de su territorio. Esto quiere decir que si todo el mundo viviera como lo hace la población en España, necesitaríamos el equivalente a 2,5 planetas.\n\nLa crisis social (pobreza, exclusión) y la crisis ecológica (cambio climático, extinción masiva) son dos problemáticas interconectadas en las que emerge la desigualdad como un fenómeno transversal. Los hogares con mayores ingresos consumen hasta 3 veces más energía residencial y hasta 4 veces más en transporte privado que los de menores ingresos, generando emisiones igualmente desproporcionadas. El resultado es una paradoja en la que conviven «élites climáticas» con consumos sobredimensionados, con 1,8 millones de hogares en vulnerabilidad energética que no pueden mantener su vivienda en condiciones térmicas adecuadas.\n\n“Esta crisis climática y ecológica no es un problema aparte; es una «metacrisis», una crisis sistémica y universal que atraviesa y agrava todas las demás dimensiones sociales, económicas y políticas que hemos analizado. Abordarlas por separado o con las lógicas actuales resulta contradictorio e ineficaz”, precisó.\n\nAnímicamente desasosegada\n\nSegún el IX Informe FOESSA, la mezcla de precariedad vital, desigualdad creciente y la crisis ecológica alimenta una «sociedad del miedo». Paradójicamente, la conciencia cada vez mayor de los riesgos globales (sociales, climáticos) no se está traduciendo en acción colectiva transformadora, sino en un repliegue individualista, en un «sálvese quien pueda» que resulta ineficaz y peligroso. Este repliegue se manifiesta en una baja confianza generalizada hacia las instituciones y la propia democracia, percibida como ineficaz.\n\nLo más grave es que esta desconfianza y este miedo se instrumentalizan políticamente. Se construyen identidades excluyentes y «enemigos simbólicos» para desviar la atención de las causas estructurales. “A menudo, se señala a la población migrante, proyectando sobre ella miedos e inseguridades, a pesar de que los datos de este informe, como hemos repetido, demuestran que la exclusión no tiene su origen ni causa en la inmigración, aunque sí algunas de sus peores consecuencias”, advirtió el coordinador del estudio.\n\nEl auge del individualismo se refleja también en un cambio paulatino de valores: si hace décadas se priorizaba la igualdad, ahora se antepone a menudo la libertad personal a la igualdad social. Y sobre este individualismo imperante cabalga el persistente mito de la meritocracia, la idea del «hombre hecho a sí mismo», a pesar de que la evidencia demuestra que el origen familiar, la herencia y el capital social son decisivos.\n\nPara los autores del IX Informe FOESSA este relato no es inocente, ya que legitima la desigualdad, las individualiza y oculta las barreras estructurales. “Premia el yo y desintegra el nosotros que fragua la cohesión social, lo que obstaculiza la adopción de políticas redistributivas y predistributivas más audaces que realmente compensen las desigualdades de origen”, apuntó Flores.\n\nSocialmente desgarrada\n\nEl resultado humano de este modelo socioeconómico son vidas precarizadas y bloqueadas: jóvenes sin poder emanciparse y familias angustiadas por la vivienda y el empleo precario.\n\n“Vivimos una sociedad fragmentada, donde el individualismo rompe la red comunitaria y nos aísla. Una sociedad herida que se manifiesta con desesperanza, especialmente en las nuevas generaciones, como angustia ecológica. Cuando la conciencia del riesgo no genera acción colectiva, sino repliegue, la esperanza se quiebra, dejando una profunda cicatriz emocional”, alertó el coordinador del estudio.\n\nEsta sociedad insatisfecha y advertida se niega a caer en la indigencia material y moral. A pesar del ruido, la polarización y el miedo, el informe también detecta capacidad de resistencia. “Las vemos en los movimientos sociales, en las redes comunitarias que persisten, en la acción cotidiana de miles de personas. Existe una voluntad de transformar la realidad, una negativa a resignarse que necesita expandirse”, explicó Flores.\n\nHacia un cambio de paradigma\n\nEl informe constata que continuar con los modelos y políticas actuales, es decir, seguir haciendo lo mismo de siempre, conduce al colapso social y ecológico. A lo largo de sus más de 700 páginas, el informe reúne más de 85 propuestas concretas con capacidad para traducirse en políticas sociales, planes o programas de intervención diferenciados por ámbitos y procesos de exclusión —empleo, vivienda, garantía de ingresos, educación, salud, alimentación, familia y cuidados, lucha contra la discriminación, igualdad de género, transición energética, entre otros—.\n\nAunque la puesta en marcha de estas políticas resulta urgente, el informe advierte de que siguen siendo insuficientes para corregir las desigualdades estructurales y prevenir nuevas formas de exclusión, como las de carácter tecnológico o ambiental.\n\n“Necesitamos un cambio radical de paradigma civilizatorio, un nuevo pacto social basado en valores diferentes que ponga en el centro la interdependencia, la ecodependencia y el cuidado. No somos individuos aislados y autosuficientes. Dependemos los unos de los otros y dependemos de la naturaleza”, insistió el coordinador del IX Informe FOESSA.\n\nEsto supone también girar la mirada del mero bienestar, a menudo reducido al consumo material individual, hacia un concepto más profundo y colectivo: el «biencuidar». “Cuidarnos mutuamente y cuidar nuestro entorno, es decir, avanzar hacia “una democracia del cuidado”, apostilló.\n\n“En definitiva, este informe nos sitúa ante una encrucijada. Podemos seguir por el camino actual, el del individualismo, la desigualdad y la insostenibilidad, que nos lleva a una sociedad del miedo. O podemos elegir un cambio de rumbo valiente, construir un nuevo imaginario social basado en el cuidado mutuo, la justicia y la responsabilidad compartida. Ese es el camino que, desde FOESSA y Cáritas, creemos posible y necesario”, concluyó Flores.\n\nSobre la Fundación FOESSA\n\nLa Fundación FOESSA (Fomento de Estudios Sociales y de Sociología Aplicada) fue creada por Cáritas Española en 1965 con el objetivo de servir a la sociedad a través de la realización de estudios de investigación sobre la realidad social, cultural y económica de España. A lo largo de estas seis décadas se han presentado nueve macrodiagnósticos: 1966, 1970, 1975, 1980-83, 1994, 2008, 2014, 2019 y 2025.\n\nDESCARGAR NOTA\n\nDESCARGAR IMAGEN\n\nVER RESUMEN INFORME\n\nVER INFORME COMPLETO",
+                                        "metadata": {
+                                            "url": "https://www.foessa.es/blog/ix-informe-foessa-advierte-proceso-inedito-fragmentacion-social-espana-se-contrae-clase-media/",
+                                            "source": "www.foessa.es",
+                                            "favicon": "https://www.foessa.es/main-files/themes/foessa/static/img/favicon/apple-icon-180x180.png",
+                                            "title": "El IX Informe FOESSA advierte sobre un proceso inédito ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.foessa.es",
+                                            "snippet": "05 Noviembre 2025. El IX Informe FOESSA advierte sobre un proceso inédito de fragmentación social en España en el que se contrae la clase media."
+                                        }
+                                    },
+                                    {
+                                        "text": "Pese al crecimiento del número de trabajadores que ha experimentado España en los últimos años, su precariedad sigue siendo una de las asignaturas clave del país, con una calidad del empleo un 26% inferior a la media de la Unión Europea y siendo el peor país del grupo de los 27 tanto en ingresos como en estabilidad del trabajo.\n\nAsí lo concluye el último informe de la fundación por el Fomento de Estudios Sociales y Sociología Aplicada (FOESSA) para Cáritas, realizado por investigadores procedentes de 51 universidades, centros de investigación, fundaciones y entidades del tercer sector a partir de una encuesta a 12.289 hogares españoles. En él se señala este factor como uno de los determinantes del aumento de la desigualdad en España.\n\n\"Aunque el empleo mejora macroeconómicamente, ha perdido gran parte de su capacidad protectora e integradora. La precariedad laboral se ha convertido en la nueva normalidad, afectando a casi la mitad (47,5%) de la población activa. Se trata de 11,5 millones de personas atrapadas en diversas formas de inseguridad laboral. De hecho, más de un tercio de la población con exclusión moderada o severa trabaja\", recoge el documento.\n\nLa precariedad laboral es uno de los elementos fundamentales de la desigualdad y la situación de pobreza de muchas familias en el país. \"España atraviesa un proceso inédito de fragmentación social: la clase media se contrae desplazando a muchas familias hacia estratos inferiores. Tras dos décadas de crisis encadenadas, las fases de recuperación no han cerrado la brecha y han llevado a España a contar con una de las tasas de desigualdad más altas de Europa. La integración social se erosiona y la exclusión grave permanece muy por encima de los niveles de 2007. En 2024, la exclusión severa se sitúa un 52% por encima de 2007, lo que arroja un saldo de 4,3 millones de personas\", advierten.\n\nEn el caso del empleo, esta precariedad viene determinada no sólo por los salarios, sino también por la estabilidad y perspectivas a futuro, el tiempo de trabajo y la conciliación, las condiciones, la formación y la participación. Estos seis elementos permiten conformar el Índice de Calidad del Empleo, que en España es un 26% inferior a la media de la Unión Europea.\n\n\"España tiene una posición próxima a la media en todas las dimensiones excepto ingresos y, sobre todo, estabilidad, donde presenta el valor mínimo de la UE\", advierten los autores, si bien precisan que los efectos de la reforma laboral de 2022 podrían mejorar estos resultados a medio/largo plazo.\n\nTiempo parcial y bajos salarios\n\nDentro de estos seis elementos, nuestro país puntúa mal en la intensidad del empleo, con una tasa de trabajadores que trabajan a tiempo parcial de forma involuntaria (es decir, cuando querrían hacerlo a jornada completa) del 49,3% -prácticamente la mitad de quienes tienen contrato a tiempo parcial- frente a un promedio europeo del 19,4%.\n\nEsta brecha es relevante, dado que los trabajadores con contratos a tiempo parcial tienen unos salarios medios anuales que en las últimas dos décadas han fluctuado entre el 35% y el 45% de los salarios anuales de trabajadores a tiempo completo. Esa menor ganancia es el resultado de jornadas de trabajo más cortas, pero también de un salario por hora un 29% inferior.\n\nOtra manifestación de desigualdad en el mercado de trabajo es la presencia de \"empleo de salarios bajos\", caracterizados por un nivel de cualificación escaso, por pertenecer a ramas más sensibles al ciclo económico y con más rotación y tránsitos del paro a la inactividad. En España, la proporción de este tipo de empleo está estancada en torno al 18% desde el año 2005, a pesar de las subidas que se han producido en el Salario Mínimo Interprofesional (SMI), especialmente desde 2019.\n\nEstos empleos son más comunes entre las mujeres (25-30%), los jóvenes, sobre todo los menores de 25 años ( más del 40%), los trabajadores extranjeros (más del 25%) y las personas que viven en Andalucía, Canarias, Extremadura, Murcia e incluso la Comunidad Valenciana y Galicia, donde se registra una incidencia superior al 20% en todos o casi todos los años.\n\nCrece la desigualdad\n\nLa precariedad laboral contribuye a que España siga siendo uno de los países de la UE donde el reparto de la renta es menos igualitario, según el informe, sólo situándose mejor que Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria.\n\n\"La desigualdad es resultado de la compleja interacción entre factores económicos, demográficos y sociales con varios elementos relacionados con la intervención pública, entre los que desempeñan un papel esencial tanto el diseño como la intensidad protectora de los impuestos y las prestaciones sociales\", explican.\n\nEn este sentido, aunque España ha avanzado en los últimos años en el establecimiento del Estado del Bienestar, la capacidad de corregir la desigualdad del sector público está muy por detrás de la de otros países como Alemania o Francia. De hecho, esta capacidad se encontraba en 2022 todavía por debajo de los niveles previos a la pandemia.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/economia/macroeconomia/2025/12/08/6932fea6e4d4d8d43d8b4583.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "La calidad del empleo en España está un 26% por debajo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Estos seis elementos permiten conformar el Índice de Calidad del Empleo, que en España es un 26% inferior a la media de la Unión Europea. \" ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cualquiera que se asome a la historia de la sociología en España puede observar el lugar privilegiado que ocupan los Informes FOESSA en su desarrollo. El impulso “modernizador” que estos informes supusieron para la sociología española ocupa ya un lugar clásico dentro del pensamiento social contemporáneo. Rigor, creatividad, colaboración e innovación han acompañado el despliegue comprensivo de los diversos trabajos de la Fundación.\n\nLa Iglesia, en su recorrido de acompañamiento a las personas socialmente vulnerables, entiende que comprender la realidad es una dimensión esencial de la caridad. Por esa razón, los estudios de FOESSA son investigaciones rigurosas, coherentes y profundamente enraizadas en la experiencia. Son análisis amasados con la vida y el compromiso de personas voluntarias, profesionales de la acción social y proyectos que se han gastado y desgastado acompañando a las personas más frágiles.\n\nEl desarrollo de todo este proyecto no habría sido posible sin la colaboración de muchas personas e instituciones. Empezando por los 180 investigadores procedentes de 51 universidades, institutos y equipos de investigación que han contribuido al IX Informe FOESSA y a los 22 informes territoriales que concretan el diagnóstico general en las comunidades y ciudades autónomas, en la diócesis de Barcelona, la isla de Ibiza y el municipio de Albacete.\n\nTampoco podemos olvidar al conjunto de 300 personas entrevistadoras que han recorrido todo el país, llamando a más de 145.000 puertas y recogiendo la información de 31.015 personas de 12.289 hogares, en entrevistas de más de una hora de duración, realizadas para conocer a fondo su situación.\n\nQuiero reconocer también el esfuerzo de quienes han coordinado los seis capítulos que componen este trabajo, del amplio y generoso consejo científico que lo ha asesorado, y del equipo técnico de la Fundación FOESSA, que ha acompañado y coordinado el conjunto del proceso.\n\nEste informe se nutre de múltiples disciplinas de las ciencias sociales —sociología, economía, psicología, trabajo social, pedagogía o filosofía— y contiene más de 1.000 referencias bibliográficas. Se apoya en las principales fuentes estadísticas nacionales y europeas, pero también incorpora la información procedente de la mayor encuesta sobre integración y necesidades sociales realizada por una entidad privada en España.\n\nAnaliza el conjunto de la sociedad, observando el desarrollo social a través de las estructuras económicas, sociales y familiares, y profundiza en el marco cultural y de valores. Pero, sobre todo, presta especial atención a la realidad de la vulnerabilidad y la exclusión social.\n\nDesde hace más de 18 años, FOESSA mide las condiciones de vida con una mirada multidimensional, entendiendo la exclusión social como el proceso por el cual las personas se alejan del centro de la sociedad, se separan, son separadas o expulsadas de los espacios centrales de participación. Para ello, utiliza 37 indicadores que miden la participación en el empleo, la capacidad de renta, el acceso a derechos básicos como la vivienda, la salud, la educación o la participación política, así como la ausencia de lazos sociales y las relaciones conflictivas.\n\nDe este modo, alcanzamos un indicador que refleja con precisión y profundidad las condiciones de vida de las familias en España.\n\nEl IX Informe FOESSA sobre exclusión y desarrollo social en España llega en un momento histórico de profunda complejidad. Tras décadas de transformaciones aceleradas que han reconfigurado nuestra estructura social, económica y territorial, el país se encuentra en una encrucijada que define no solo su presente, sino también el horizonte de posibilidades de las próximas décadas.\n\nAspiramos a que este informe contribuya a comprender la realidad compleja que vivimos, ofreciendo un análisis riguroso que permita no solo interpretar los procesos en curso, sino también identificar las palancas necesarias para impulsar una transformación que sitúe la justicia social y el bien común en el centro de nuestro proyecto colectivo.\n\nNo se trata de un ejercicio académico neutro, sino de un esfuerzo intelectual comprometido con la construcción de una sociedad más justa, equitativa y sostenible. Las ciencias sociales aquí desplegadas están al servicio de la acción: buscan desentrañar los mecanismos que perpetúan la desigualdad y la exclusión, pero también identificar las grietas por las que puede emerger la transformación social.\n\nEl Papa Francisco, en su exhortación apostólica Evangelii Gaudium, nos recuerda que “resolver las causas estructurales de la pobreza es una urgencia que no puede esperar; no solo por una exigencia pragmática de obtener resultados y ordenar la sociedad, sino para sanarla de una enfermedad que la vuelve frágil e indigna”.\n\nEl Papa nos invita a mirar el modelo del buen samaritano, cuyas últimas palabras en la parábola son: “Ve y haz tú lo mismo”. Es un mandamiento que todos los cristianos —y todas las personas de buena voluntad— debemos oír resonar en nuestro corazón.",
+                                        "metadata": {
+                                            "url": "https://www.foessa.es/blog/el-ix-informe-foessa-una-mirada-profunda-a-la-exclusion-y-el-desarrollo-social-en-la-espana-de-hoy/",
+                                            "source": "www.foessa.es",
+                                            "favicon": "https://www.foessa.es/main-files/themes/foessa/static/img/favicon/apple-icon-180x180.png",
+                                            "title": "El IX Informe FOESSA: una mirada profunda a la exclusión ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.foessa.es",
+                                            "snippet": "Desde hace más de 18 años, FOESSA mide las condiciones de vida con una mirada multidimensional, entendiendo la exclusión social como el proceso ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Puntos clave:\n\nDesde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).\n\nEsta evolución tiene algunos matices. Primero, la temporalidad en el sector público continúa siendo elevada (28,0% en el primer trimestre de 2025) y apenas ha disminuido con la reforma.\n\nSegundo, a pesar del fuerte incremento en el número de contratos fijos discontinuos, las afiliaciones a la Seguridad Social se han estabilizado en torno a las 920.000 desde comienzos de 2023.\n\nTercero, España sigue destacando en Europa por su elevada rotación laboral: cada trimestre más de 3,4 millones de personas entre 20 y 59 años cambian de situación laboral.",
+                                        "metadata": {
+                                            "url": "https://www.bbvaresearch.com/publicaciones/espana-menos-temporalidad-mas-estabilidad/",
+                                            "source": "www.bbvaresearch.com",
+                                            "favicon": "https://www.bbvaresearch.com/wp-content/themes/bbvaresearch/images/favicon_32px.png",
+                                            "title": "España | Menos temporalidad, ¿más estabilidad?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bbvaresearch.com",
+                                            "snippet": "Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. · Esta evolución tiene algunos matices."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Puede hoy el empleo sacar de la exclusión? El IX Informe FOESSA 2025 ofrece una respuesta incómoda, pero también orientaciones nítidas. En España trabajar protege, pero ya no inmuniza: uno de cada diez ocupados vive en exclusión social y más de un tercio de quienes están en exclusión moderada o severa tienen empleo. Sin embargo, cuando falta el empleo, el golpe es devastador: casi seis de cada diez personas desempleadas están en exclusión, y en hogares cuyo sustentador está en paro, más del 80% sufre exclusión y más de la mitad, exclusión severa.\n\nLo que dicen los datos del IX informe Foessa\n\nLa exclusión social continúa muy por encima de los niveles previos a la crisis de 2008 -un 52% más alta que en 2007-. La desigualdad, la inestabilidad en el empleo y la dificultad para acceder a una vivienda están erosionando la cohesión social y minando la confianza en el futuro colectivo.\n\n-un 52% más alta que en 2007-. La desigualdad, la inestabilidad en el empleo y la dificultad para acceder a una vivienda están erosionando la cohesión social y minando la confianza en el futuro colectivo. España vive un proceso sin precedentes de fractura social , en el que la clase media se reduce y cada vez más familias descienden a estratos económicos inferiores. Después de dos décadas marcadas por crisis sucesivas, las etapas de recuperación no han logrado revertir esa tendencia, situando al país entre los que presentan mayores índices de desigualdad en Europa.\n\n, en el que la y cada vez más familias descienden a estratos económicos inferiores. Después de dos décadas marcadas por crisis sucesivas, las etapas de recuperación no han logrado revertir esa tendencia, situando al país entre los que presentan mayores índices de desigualdad en Europa. Hoy, el lugar donde se nace y las condiciones del hogar de origen pesan más que el esfuerzo individual , marcando las oportunidades de movilidad social más que el mérito o la capacidad. Además, la educación obligatoria ha dejado de ser suficiente para evitar la pobreza. El verdadero “cortafuegos” frente a la exclusión se sitúa ahora en los estudios postobligatorios -Bachillerato y Formación Profesional-, lo que aumenta la vulnerabilidad de quienes no logran completarlos.\n\n, marcando las oportunidades de movilidad social más que el mérito o la capacidad. Además, la educación obligatoria ha dejado de ser suficiente para evitar la pobreza. El verdadero “cortafuegos” frente a la exclusión se sitúa ahora en los estudios postobligatorios -Bachillerato y Formación Profesional-, lo que aumenta la vulnerabilidad de quienes no logran completarlos. La precariedad laboral es la nueva norma: afecta al 47,5% de la población activa ( 11,5 millones de personas), entre parcialidad involuntaria, subempleo u ocupaciones sin protección. Es especialmente intensa en trabajos elementales y en servicios de restauración y cuidados .\n\nes la nueva norma: afecta al de la población activa ( de personas), entre parcialidad involuntaria, subempleo u ocupaciones sin protección. Es especialmente intensa en y en . El empleo en España muestra una fuerte polarización : conviven puestos de alta cualificación con otros de baja calidad y escasa protección. La i nestabilidad contractual, la parcialidad y la baja remuneración impiden consolidar proyectos personales y familiares. Si no se acomete una reforma estructural, el trabajo dejará de ser un verdadero motor de inclusió\n\n: conviven puestos de alta cualificación con otros de baja calidad y escasa protección. La nestabilidad contractual, la parcialidad y la baja remuneración impiden consolidar proyectos personales y familiares. Si no se acomete una reforma estructural, el trabajo dejará de ser un verdadero motor de inclusió Menos temporalidad no equivale a más estabilidad. La conversión a “indefinidos” no siempre garantiza estabilidad real. La reforma de 2022 redujo la temporalidad, pero buena parte de las conversiones solo mejoran el indicador: persisten la intermitencia, las pocas horas, los salarios bajos y la falta de recorrido -incluidos los fijos discontinuos-. Para que el “indefinido” sea estable de verdad, hacen falta horas suficientes y previsibles, salarios dignos, formación y acompañamiento.\n\nLa conversión a “indefinidos” no siempre garantiza estabilidad real. La reforma de 2022 redujo la temporalidad, pero buena parte de las conversiones solo mejoran el indicador: persisten la intermitencia, las pocas horas, los salarios bajos y la falta de recorrido -incluidos los fijos discontinuos-. Para que el “indefinido” sea estable de verdad, hacen falta horas suficientes y previsibles, salarios dignos, formación y acompañamiento. Los contratos a tiempo parcial cronifican los bajos ingresos: En la mitad de los casos son involuntarios; al año se cobra solo entre el 35% y el 45% de un sueldo a jornada completa y, además, cada hora se paga un 29% menos. La penalización es mayor en las mujeres, lo que dificulta superar las situaciones de inestabilidad y exclusión laboral.\n\nEn la mitad de los casos son involuntarios; al año se cobra solo entre el 35% y el 45% de un sueldo a jornada completa y, además, cada hora se paga un 29% menos. La penalización es mayor en las mujeres, lo que dificulta superar las situaciones de inestabilidad y exclusión laboral. La vivienda se ha convertido en uno de los principales focos de exclusión social. Uno de cada cuatro hogares afronta dificultades para acceder a una casa adecuada o vive en condiciones inseguras o insalubres, y en la última década 1,7 millones de personas han perdido su hogar. .\n\nSin trabajo la exclusión se acelera: estos son los grupos sociales más afectados\n\nAunque los datos de desempleo muestran una ligera mejoría, esta evolución convive con la expansión de empleos que no ofrecen suficientes garantías. Por ello, trabajar ya no siempre asegura salir de la exclusión social. Desde la Fundación Adecco hablamos de “empleos poco sostenibles”: trabajos que facilitan una inserción inicial, pero que no ofrecen las condiciones necesarias para la autonomía económica, la estabilidad ni la inclusión duradera. La respuesta pasa, por tanto, por mejorar la calidad del empleo, acompañando de forma personalizada a quienes afrontan más barreras y también ofreciendo a las empresas un marco institucional que les ayude a generar empleo sostenible.\n\nHay que tener en cuenta que la ausencia de empleo o inestabilidad laboral acelera y agrava la exclusión. El IX Informe FOESSA identifica a los grupos sociales que la experimentan en mayor medida, y para los que el empleo digno y el acompañamiento adecuado pueden marcar una diferencia real.\n\nMujeres (especialmente al frente de familias monoparentales). Más exposición a la inestabilidad laboral y a la parcialidad involuntaria, con la sobrecarga de cuidados que limita la búsqueda y la permanencia en el empleo. Casi la mitad de los hogares en exclusión severa (42%) están encabezados por mujeres, un porcentaje que ha crecido más de 15 puntos desde 2007. En el caso de las familias monoparentales, la situación es aún más preocupante: la exclusión se ha casi triplicado, pasando del 12% al 29% en ese mismo periodo.\n\nMás exposición a la inestabilidad laboral y a la parcialidad involuntaria, con la sobrecarga de cuidados que limita la búsqueda y la permanencia en el empleo. Casi En el caso de las familias monoparentales, la situación es aún más preocupante: la exclusión se ha casi triplicado, pasando del 12% al 29% en ese mismo periodo. Personas nacidas fuera de España. Mayor concentración en sectores estacionales y peor remunerados (cuidados, doméstico, hostelería, agricultura), con barreras añadidas administrativas y de acceso a derechos.\n\nMayor concentración en sectores estacionales y peor remunerados (cuidados, doméstico, hostelería, agricultura), con barreras añadidas administrativas y de acceso a derechos. Jóvenes. Entrada al mercado con salarios bajos, contratos inestables y “efecto cicatriz” que retrasa la autonomía y cronifica la vulnerabilidad. El “efecto cicatriz” es la penalización duradera que sufren quienes entran al mercado laboral en plena crisis: empiezan con salarios más bajos, más probabilidad de contratos inestables y menos oportunidades de formación y promoción, y esa desventaja persiste años aunque la economía mejore.\n\nEntrada al mercado con salarios bajos, contratos inestables y “efecto cicatriz” que retrasa la autonomía y cronifica la vulnerabilidad. El “efecto cicatriz” es la penalización duradera que sufren quienes entran al mercado laboral en plena crisis: empiezan con salarios más bajos, más probabilidad de contratos inestables y menos oportunidades de formación y promoción, y esa desventaja persiste años aunque la economía mejore. Personas desempleadas de larga duración. La ausencia de ingresos y cotización dispara la pobreza y/o exclusión, dificultando volver a empleos de calidad.\n\nLa ausencia de ingresos y cotización dispara la pobreza y/o exclusión, dificultando volver a empleos de calidad. Personas trabajadoras en empleos de baja calidad. Aun con contrato, la rotación, las horas insuficientes y los salarios bajos impiden salir de la pobreza laboral.\n\nAun con contrato, la rotación, las horas insuficientes y los salarios bajos impiden salir de la pobreza laboral. Personas con menor nivel educativo. No completar estudios postobligatorios multiplica el riesgo y reduce las alternativas de inclusión laboral.\n\nNo completar estudios postobligatorios multiplica el riesgo y reduce las alternativas de inclusión laboral. Personas con discapacidad y/o problemas de salud mental. Necesitan apoyos específicos para acceder y sostener un empleo estable. Participan más en programas de inclusión -buscan apoyo- pero sostienen menos la búsqueda intensiva, por falta de acompañamiento integral, formación flexible y apoyos en el puesto.\n\nNecesitan apoyos específicos para acceder y sostener un empleo estable. Participan más en programas de inclusión -buscan apoyo- pero sostienen menos la búsqueda intensiva, por falta de acompañamiento integral, formación flexible y apoyos en el puesto. Comunidad gitana. Acumula barreras estructurales que requieren una estrategia integral con el empleo digno como eje.\n\nQué puede funcionar para avanzar hacia empleos sostenibles\n\nPara hacer frente a esta realidad, el informe FOESSA presenta varias líneas de actuación:\n\nDignificar sectores esenciales\n\nCuidados, hostelería, servicios personales: revisar salarios, reducir rotación, asegurar cotización, profesionalizar y acreditar competencias. Esto impacta especialmente en mujeres y migrantes.\n\nAtajar la parcialidad involuntaria\n\nIncentivos y regulación para convertir horas, cláusulas de preferencia por jornada completa, y vigilancia de la brecha de salario/hora.\n\nTransición justa y digitalización con derechos\n\nFormación en competencias verdes y digitales, reciclaje profesional en regiones en reconversión (donde ciertos sectores económicos están en declive o transformación, para que puedan adaptarse a nuevas actividades y no quedarse fuera del mercado de trabajo) y apoyos a hogares vulnerables para que nadie se quede atrás.\n\nItinerarios integrales con acompañamiento\n\nOrientación individualizada, apoyo psicológico, conciliación y cuidados, protección a las personas con discapacidad y/o problemas de salud mental, así como empleo protegido para casos de mayor fragilidad.\n\nJóvenes: cortar la cicatriz\n\nPrácticas remuneradas, primer empleo de calidad con tutoría, FP dual y ayudas a la emancipación (vivienda asequible), para que el salto al trabajo no sea una caída al vacío.\n\nIgualdad efectiva en casa y en el trabajo\n\nCorresponsabilidad real: permisos igualitarios e intransferibles bien remunerados, red pública de 0 a 3 años, y evaluación de impacto de género en todas las políticas de empleo.\n\nApoyos sociales y de salud mental\n\nAyudas de conciliación, transporte, cuidado de menores y atención psicológica para sostener el proceso de búsqueda de empleo, especialmente en los casos de las personas que afrontan situaciones de mayor vulnerabilidad.\n\nCoordinación estable\n\nEntre servicios sociales, empleo y entidades del barrio: todos remando en la misma dirección. Sin ese “andamiaje” conjunto, la capacitación aislada rara vez acaba en empleo estable: faltan red, experiencia, tiempo y apoyos para mantener una búsqueda activa de empleo continuada.\n\nA estas medidas expuestas por FOESSA, la Fundación Adecco añade:\n\nFortalecer a las empresas para generar salarios dignos\n\nLas empresas necesitan un marco institucional que impulse su competitividad y les permita crear empleo de calidad con salarios dignos. Fortalecer a las empresas mediante incentivos e instrumentos adecuados, como ajustes en las cotizaciones sociales, es esencial para equilibrar sostenibilidad económica y cohesión social y garantizar que los salarios dignos sean viables y duraderos.\n\n“El empleo sigue siendo la herramienta por excelencia de inclusión social, pero solo si es digno, formal y sostenible. En otras palabras, no basta con crear puestos de trabajo: es necesario que cada empleo permita vivir con dignidad, desarrollar un proyecto vital y participar plenamente en la sociedad. Para lograrlo, necesitamos una acción coordinada entre todos los agentes sociales, con políticas activas de empleo centradas en las personas, que ofrezcan orientación individualizada, formación continua, apoyo psicológico y acompañamiento integral.\n\nLas empresas son el espacio donde la inclusión se hace realidad, pero requieren un marco institucional que impulse su competitividad y les permita generar empleo de calidad. Fortalecer a las empresas, con incentivos e instrumentos adecuados, es también una forma de proteger a los trabajadores. En este sentido, medidas como la reducción de las cotizaciones sociales, especialmente para la contratación de personas con mayores dificultades, pueden ser clave para equilibrar la sostenibilidad empresarial con la cohesión social y avanzar hacia salarios dignos y sostenibles en el tiempo. En este proceso, las entidades sociales y del tercer sector tenemos una labor imprescindible: acompañar de cerca a quienes más lo necesitan y actuar como puente entre personas, empresas y administraciones para construir juntos un modelo de inclusión verdaderamente efectivo», señala Francisco Mesonero, director general de la Fundación Adecco.",
+                                        "metadata": {
+                                            "url": "https://fundacionadecco.org/blog-diversidad-inclusion/lo-que-necesitamos-saber-del-ix-informe-foessa-la-urgencia-de-generar-empleo-sostenible-y-apoyar-a-los-mas-vulnerables/",
+                                            "source": "fundacionadecco.org",
+                                            "favicon": "https://i0.wp.com/fundacionadecco.org/blog-diversidad-inclusion/wp-content/uploads/2021/06/cropped-fav.png?fit=32%2C32&ssl=1",
+                                            "title": "IX informe FOESSA: la urgencia de generar empleo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://fundacionadecco.org",
+                                            "snippet": "¿Puede hoy el empleo sacar de la exclusión? El IX Informe FOESSA 2025 ofrece una respuesta incómoda, pero también orientaciones nítidas."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cáritas ha presentado el 5 de noviembre el IX Informe FOESSA sobre Exclusión y Desarrollo Social en España, realizado por un equipo de 140 investigadores procedentes de 51 universidades, centros de investigación, fundaciones y entidades del Tercer Sector.\n\n\n\nDesde la Fundación Secretariado Gitano valoramos que de manera ya regular y sistemática se incorpore la mirada específica hacia la población gitana en el análisis y la investigación social, especialmente en este Informe reconocido por su rigor.\n\nEn los últimos años, este amplio informe (el de 2025 cuenta con 712 páginas) viene recogiendo referencias a la situación de la población gitana en distintos apartados, incluido este año uno específico con el revelador título de “La población gitana en España, una comunidad más amplia de lo que se suele considerar” (pp. 359-363).\n\nSegún se indica en el informe, se han incorporado de forma sistemática instrumentos para la identificación de la población gitana. A partir de los datos obtenidos, se puede estimar una población gitana en España superior al millón de personas, hasta 1,3 millones si se incluyen los “casos de autoidentificación”. Su peso demográfico sería equiparable al de comunidades autónomas como Aragón.\n\nEstas cifras, que ya se indicaban en el informe anterior, superan sustancialmente las que se han venido utilizando en los últimos años (alrededor de las 750.000 personas) por lo que es importante actualizar este aspecto en las políticas públicas (aparte de preguntase por qué estos indicadores no los realizan las encuestas oficiales).\n\nPor otro lado, es también muy reveladora la presencia de la población gitana en los apartados dedicados a exclusión social y pobreza: más de la mitad de la población gitana (50,5%) y más de 4 de cada 10 hogares gitanos (44,2%) se encontraban en situación de exclusión severa (entre 520 mil y 669 mil personas de etnia gitana).\n\nSi bien los niveles de pobreza entre hogares y personas gitanas han disminuido ligeramente, menos de una cuarta parte de la población gitana se encuentra fuera de situaciones de pobreza.\n\nEspecialmente alarmante es la situación de los menores de edad gitanos: 7 de cada 10 se encuentran en exclusión severa. La juventud gitana (18-29 años) presenta tasas de exclusión similares a las de 2009 lo que supone que el 61,5% de los jóvenes gitanos están fuera del empleo y la educación.\n\nEl desempleo entre la población gitana supera en más de tres veces el registrado entre la población no gitana (50,6% en 2024). Y, “a diferencia de lo observado en la población mayoritaria, no puede afirmarse que se estén alcanzando cifras históricas de mejora, ya que los niveles de desempleo entre esta minoría se han mantenido relativamente constantes a lo largo de las últimas dos décadas”.\n\nLos problemas relacionados con la vivienda, señalados en este informe como una situación de verdadera emergencia, afectan de forma más aguda a los hogares gitanos. La proporción de viviendas con tenencia en precario en esta población (30,6%) multiplica por cinco la de los hogares no gitanos (6,1%). Del mismo modo, el hacinamiento grave alcanza al 18,4% de los hogares gitanos, frente al 3,2% en los no gitanos, lo que implica una diferencia de 15,2 puntos.\n\nRespecto a la discriminación y el racismo, la discriminación étnica percibida se ha duplicado en 6 años en España. En tres de cada cuatro hogares de etnia gitana se señalan experiencias de discriminación.\n\nTambién se recogen referencias a las desigualdades en salud, que muestran peores indicadores que en la población general. La esperanza de vida de las mujeres gitanas en España es significativamente más corta que la de las mujeres de la población general.\n\nRespecto a las políticas públicas existentes, se cita la Estrategia para la Igualdad, Inclusión y Participación del Pueblo Gitano 2021-2030 como marco clave para la inclusión del pueblo gitano.\n\nComo conclusión significativa se indica que “La lectura de conjunto del impacto de las sucesivas crisis en la población gitana evidencia con claridad que esta ha sido especialmente vulnerable a sus efectos sociales y económicos. Y si bien ha sufrido con mayor rigor e intensidad las consecuencias de las crisis, ha quedado al margen de los procesos de recuperación que han beneficiado al conjunto de la sociedad”.",
+                                        "metadata": {
+                                            "url": "https://www.gitanos.org/actualidad/ix_informe_foessa_sobre_exclusion_y_desarrollo_social_en_espana__2025_/",
+                                            "source": "www.gitanos.org",
+                                            "favicon": "https://www.gitanos.org/assets/img/favicon.ico",
+                                            "title": "Informe FOESSA 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.gitanos.org",
+                                            "snippet": "En los últimos años, este amplio informe (el de 2025 cuenta con 712 páginas) viene recogiendo referencias a la situación de la población gitana ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5685331229997246,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5685331229997246,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:42:54",
+                    "run_time": 2.5685331229997246,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la tasa de empleos temporales en España en 2025 según datos del INE y Eurostat?": [
+                                {
+                                    "Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).": null
+                                },
+                                {
+                                    "Esta evolución tiene algunos matices. Primero, la temporalidad en el sector público continúa siendo elevada (28,0% en el primer trimestre de 2025) y apenas ha disminuido con la reforma.": null
+                                },
+                                {
+                                    "Pese al crecimiento del número de trabajadores que ha experimentado España en los últimos años, su precariedad sigue siendo una de las asignaturas clave del país, con una calidad del empleo un 26% inferior a la media de la Unión Europea y siendo el peor país del grupo de los 27 tanto en ingresos como en estabilidad del trabajo.": null
+                                }
+                            ],
+                            "¿Cuál es la media de temporalidad laboral en la UE en 2025 y cómo se compara con España?": [
+                                {
+                                    "Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).": null
+                                },
+                                {
+                                    "Esta evolución tiene algunos matices. Primero, la temporalidad en el sector público continúa siendo elevada (28,0% en el primer trimestre de 2025) y apenas ha disminuido con la reforma.": null
+                                },
+                                {
+                                    "Pese al crecimiento del número de trabajadores que ha experimentado España en los últimos años, su precariedad sigue siendo una de las asignaturas clave del país, con una calidad del empleo un 26% inferior a la media de la Unión Europea y siendo el peor país del grupo de los 27 tanto en ingresos como en estabilidad del trabajo.": null
+                                }
+                            ],
+                            "¿Cómo ha evolucionado la temporalidad en España desde 2020 hasta 2025?": [
+                                {
+                                    "Esta evolución tiene algunos matices. Primero, la temporalidad en el sector público continúa siendo elevada (28,0% en el primer trimestre de 2025) y apenas ha disminuido con la reforma.": null
+                                },
+                                {
+                                    "Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).": null
+                                },
+                                {
+                                    "es la nueva norma: afecta al de la población activa ( de personas), entre parcialidad involuntaria, subempleo u ocupaciones sin protección. Es especialmente intensa en y en . El empleo en España muestra una fuerte polarización : conviven puestos de alta cualificación con otros de baja calidad y escasa protección. La i nestabilidad contractual, la parcialidad y la baja remuneración impiden consolidar proyectos personales y familiares. Si no se acomete una reforma estructural, el trabajo dejará de ser un verdadero motor de inclusió": null
+                                }
+                            ],
+                            "¿Cuáles son las principales causas de la temporalidad en España y cómo se comparan con las de la UE?": [
+                                {
+                                    "En el caso del empleo, esta precariedad viene determinada no sólo por los salarios, sino también por la estabilidad y perspectivas a futuro, el tiempo de trabajo y la conciliación, las condiciones, la formación y la participación. Estos seis elementos permiten conformar el Índice de Calidad del Empleo, que en España es un 26% inferior a la media de la Unión Europea.": null
+                                },
+                                {
+                                    "Pese al crecimiento del número de trabajadores que ha experimentado España en los últimos años, su precariedad sigue siendo una de las asignaturas clave del país, con una calidad del empleo un 26% inferior a la media de la Unión Europea y siendo el peor país del grupo de los 27 tanto en ingresos como en estabilidad del trabajo.": null
+                                },
+                                {
+                                    "La precariedad laboral contribuye a que España siga siendo uno de los países de la UE donde el reparto de la renta es menos igualitario, según el informe, sólo situándose mejor que Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria.": null
+                                }
+                            ],
+                            "¿Existen estudios o informes de OIT, FOESSA o la CEOE sobre la temporalidad en España y en la UE?": [
+                                {
+                                    "Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).": null
+                                },
+                                {
+                                    "En el caso del empleo, esta precariedad viene determinada no sólo por los salarios, sino también por la estabilidad y perspectivas a futuro, el tiempo de trabajo y la conciliación, las condiciones, la formación y la participación. Estos seis elementos permiten conformar el Índice de Calidad del Empleo, que en España es un 26% inferior a la media de la Unión Europea.": null
+                                },
+                                {
+                                    "Hay que tener en cuenta que la ausencia de empleo o inestabilidad laboral acelera y agrava la exclusión. El IX Informe FOESSA identifica a los grupos sociales que la experimentan en mayor medida, y para los que el empleo digno y el acompañamiento adecuado pueden marcar una diferencia real.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 18.718086998999752,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 18.718086998999752,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:43:13",
+                    "run_time": 18.718086998999752,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa tasa de empleos temporales de España es menor que la media de la UE\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la tasa de empleos temporales en España en 2025 según datos del INE y Eurostat?\n¿Cuál es la media de temporalidad laboral en la UE en 2025 y cómo se compara con España?\n¿Cómo ha evolucionado la temporalidad en España desde 2020 hasta 2025?\n¿Cuáles son las principales causas de la temporalidad en España y cómo se comparan con las de la UE?\n¿Existen estudios o informes de OIT, FOESSA o la CEOE sobre la temporalidad en España y en la UE?\n\n3. Here are the text sources you should use as your source of information:\n[0] Desde la entrada en vigor de la reforma, la tasa de temporalidad ha caído a mínimos históricos. Según la Encuesta de Población Activa, pasó del 26,3% en 2019 al 15,1% en el primer trimestre de 2025, aproximándose al promedio de la UE (12,4%).\n[0] Esta evolución tiene algunos matices. Primero, la temporalidad en el sector público continúa siendo elevada (28,0% en el primer trimestre de 2025) y apenas ha disminuido con la reforma.\n[1] Pese al crecimiento del número de trabajadores que ha experimentado España en los últimos años, su precariedad sigue siendo una de las asignaturas clave del país, con una calidad del empleo un 26% inferior a la media de la Unión Europea y siendo el peor país del grupo de los 27 tanto en ingresos como en estabilidad del trabajo.\n[1] En el caso del empleo, esta precariedad viene determinada no sólo por los salarios, sino también por la estabilidad y perspectivas a futuro, el tiempo de trabajo y la conciliación, las condiciones, la formación y la participación. Estos seis elementos permiten conformar el Índice de Calidad del Empleo, que en España es un 26% inferior a la media de la Unión Europea.\n[1] La precariedad laboral contribuye a que España siga siendo uno de los países de la UE donde el reparto de la renta es menos igualitario, según el informe, sólo situándose mejor que Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria.\n[2] es la nueva norma: afecta al de la población activa ( de personas), entre parcialidad involuntaria, subempleo u ocupaciones sin protección. Es especialmente intensa en y en . El empleo en España muestra una fuerte polarización : conviven puestos de alta cualificación con otros de baja calidad y escasa protección. La i nestabilidad contractual, la parcialidad y la baja remuneración impiden consolidar proyectos personales y familiares. Si no se acomete una reforma estructural, el trabajo dejará de ser un verdadero motor de inclusió\n[2] Hay que tener en cuenta que la ausencia de empleo o inestabilidad laboral acelera y agrava la exclusión. El IX Informe FOESSA identifica a los grupos sociales que la experimentan en mayor medida, y para los que el empleo digno y el acompañamiento adecuado pueden marcar una diferencia real.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La tasa de empleos temporales de España es menor que la media de la UE"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "La tasa de empleos temporales en España ha experimentado una reducción significativa desde 2019, alcanzando el 15,1% en el primer trimestre de 2025 según la Encuesta de Población Activa (EPA), lo que sitúa a España cerca de la media de la UE (12,4% en ese período) [0]. Esta disminución se debe a la reforma laboral, que ha reducido la temporalidad a mínimos históricos, aunque el sector público aún presenta una tasa elevada del 28,0% [0]. No obstante, España sigue siendo un país con alta precariedad laboral, con una calidad del empleo un 26% inferior a la media de la UE en términos de ingresos, estabilidad, conciliación, formación y participación [1]. Además, el empleo en España muestra una fuerte polarización, con puestos de alta cualificación junto a otros de baja calidad y escasa protección, lo que dificulta la consolidación de proyectos personales y familiares [2].  \n\nA pesar de la reducción de la temporalidad, España no ha logrado alcanzar la media de la UE en todos los aspectos relacionados con la calidad del empleo. La precariedad laboral en España se traduce en una mayor desigualdad en la distribución de la renta, situándose por debajo de países como Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria [1]. Además, la inestabilidad contractual, la parcialidad y la baja remuneración persisten como factores que dificultan la inclusión social y el desarrollo personal [2]. Estos datos indican que, aunque la tasa de empleos temporales ha disminuido, la calidad del empleo en España aún se encuentra por debajo de la media de la UE en múltiples dimensiones.  \n\nEn conclusión, la tasa de empleos temporales en España es actualmente menor que la media de la UE (15,1% frente al 12,4% en 2025), pero la calidad del empleo en España sigue siendo significativamente inferior en términos de estabilidad, remuneración, formación y perspectivas laborales [1][2]. Aunque la temporalidad ha disminuido, la precariedad persiste en otros aspectos clave, lo que impide que España alcance la media de la UE en la calidad del empleo. Por lo tanto, la afirmación que la tasa de empleos temporales en España es menor que la media de la UE es **parcialmente correcta**, pero debe contextualizarse con la realidad de la precariedad laboral en el país."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.7592741570006183,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.7592741570006183,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:43:15",
+                    "run_time": 2.7592741570006183,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La tasa de empleos temporales de España es menor que la media de la UE\nArticle: La tasa de empleos temporales en España ha experimentado una reducción significativa desde 2019, alcanzando el 15,1% en el primer trimestre de 2025 según la Encuesta de Población Activa (EPA), lo que sitúa a España cerca de la media de la UE (12,4% en ese período) [0]. Esta disminución se debe a la reforma laboral, que ha reducido la temporalidad a mínimos históricos, aunque el sector público aún presenta una tasa elevada del 28,0% [0]. No obstante, España sigue siendo un país con alta precariedad laboral, con una calidad del empleo un 26% inferior a la media de la UE en términos de ingresos, estabilidad, conciliación, formación y participación [1]. Además, el empleo en España muestra una fuerte polarización, con puestos de alta cualificación junto a otros de baja calidad y escasa protección, lo que dificulta la consolidación de proyectos personales y familiares [2].  \n\nA pesar de la reducción de la temporalidad, España no ha logrado alcanzar la media de la UE en todos los aspectos relacionados con la calidad del empleo. La precariedad laboral en España se traduce en una mayor desigualdad en la distribución de la renta, situándose por debajo de países como Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria [1]. Además, la inestabilidad contractual, la parcialidad y la baja remuneración persisten como factores que dificultan la inclusión social y el desarrollo personal [2]. Estos datos indican que, aunque la tasa de empleos temporales ha disminuido, la calidad del empleo en España aún se encuentra por debajo de la media de la UE en múltiples dimensiones.  \n\nEn conclusión, la tasa de empleos temporales en España es actualmente menor que la media de la UE (15,1% frente al 12,4% en 2025), pero la calidad del empleo en España sigue siendo significativamente inferior en términos de estabilidad, remuneración, formación y perspectivas laborales [1][2]. Aunque la temporalidad ha disminuido, la precariedad persiste en otros aspectos clave, lo que impide que España alcance la media de la UE en la calidad del empleo. Por lo tanto, la afirmación que la tasa de empleos temporales en España es menor que la media de la UE es **parcialmente correcta**, pero debe contextualizarse con la realidad de la precariedad laboral en el país.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La tasa de empleos temporales de España es menor que la media de la UE\nArticle: La tasa de empleos temporales en España ha experimentado una reducción significativa desde 2019, alcanzando el 15,1% en el primer trimestre de 2025 según la Encuesta de Población Activa (EPA), lo que sitúa a España cerca de la media de la UE (12,4% en ese período) [0]. Esta disminución se debe a la reforma laboral, que ha reducido la temporalidad a mínimos históricos, aunque el sector público aún presenta una tasa elevada del 28,0% [0]. No obstante, España sigue siendo un país con alta precariedad laboral, con una calidad del empleo un 26% inferior a la media de la UE en términos de ingresos, estabilidad, conciliación, formación y participación [1]. Además, el empleo en España muestra una fuerte polarización, con puestos de alta cualificación junto a otros de baja calidad y escasa protección, lo que dificulta la consolidación de proyectos personales y familiares [2].  \n\nA pesar de la reducción de la temporalidad, España no ha logrado alcanzar la media de la UE en todos los aspectos relacionados con la calidad del empleo. La precariedad laboral en España se traduce en una mayor desigualdad en la distribución de la renta, situándose por debajo de países como Portugal, Italia, Rumania, Letonia, Lituania y Bulgaria [1]. Además, la inestabilidad contractual, la parcialidad y la baja remuneración persisten como factores que dificultan la inclusión social y el desarrollo personal [2]. Estos datos indican que, aunque la tasa de empleos temporales ha disminuido, la calidad del empleo en España aún se encuentra por debajo de la media de la UE en múltiples dimensiones.  \n\nEn conclusión, la tasa de empleos temporales en España es actualmente menor que la media de la UE (15,1% frente al 12,4% en 2025), pero la calidad del empleo en España sigue siendo significativamente inferior en términos de estabilidad, remuneración, formación y perspectivas laborales [1][2]. Aunque la temporalidad ha disminuido, la precariedad persiste en otros aspectos clave, lo que impide que España alcance la media de la UE en la calidad del empleo. Por lo tanto, la afirmación que la tasa de empleos temporales en España es menor que la media de la UE es **parcialmente correcta**, pero debe contextualizarse con la realidad de la precariedad laboral en el país."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La tasa de empleos temporales de España es menor que la media de la UE\", \"categories\": [\"Economía\", \"Laboral\", \"Social\"], \"label\": \"True\", \"main_claim\": \"La tasa de empleos temporales en España es menor que la media de la UE, pero la calidad del empleo sigue siendo inferior\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

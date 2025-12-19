@@ -1,0 +1,654 @@
+{
+    "question": "La mayoría de peticiones de asilo en España son rechazadas",
+    "answer": "Se puede argumentar que la mayoría de peticiones de asilo en España son rechazadas debido a la baja tasa de reconocimiento de protección internacional en el país. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, solo se concedió protección nacional al 18% de los solicitantes de asilo, lo que es la tasa más baja de todos los países de la UE, donde la media del reconocimiento es del 46% ([1]). Esto sugiere que la mayoría de las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, España fue el país de la UE que menos porcentaje de solicitudes de asilo concedió, con un 12% (menos cuatro puntos en comparación con 2022) ([2]). Esto indica que la mayoría de las peticiones de asilo en España son rechazadas.\n\nSin embargo, también hay evidencia que sugiere que la afirmación no es del todo precisa. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, un 98% de los expedientes de asilo resueltos en España en relación con ciudadanos procedentes de Venezuela recibieron una autorización de residencia temporal por razones humanitarias ([1]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, la tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria ([3]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\nEn conclusión, aunque hay evidencia que sugiere que la mayoría de peticiones de asilo en España son rechazadas, también hay evidencia que sugiere que no todas las peticiones de asilo en España son rechazadas. La tasa de reconocimiento de protección internacional en España es baja, pero hay casos en los que se concede protección nacional o autorizaciones de residencia temporal por razones humanitarias. Por lo tanto, la afirmación \"la mayoría de peticiones de asilo en España son rechazadas\" es parcialmente verdadera, ya que no todas las peticiones de asilo en España son rechazadas, pero la mayoría sí lo son.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elmundo.es/espana/2025/07/17/6878f20cfdddff430f8b4584.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.eldiario.es/desalambre/espana-pais-ue-porcentaje-solicitudes-asilo-concede-pese-recibir-vez_1_11449364.html",
+            "source": "www.eldiario.es",
+            "favicon": "https://www.eldiario.es/favicon.png"
+        },
+        "3": {
+            "url": "https://www.cear.es/informes/",
+            "source": "www.cear.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La mayoría de peticiones de asilo en España son rechazadas",
+        "categories": [
+            "Política",
+            "Migración",
+            "Sociedad"
+        ],
+        "label": "Undetermined",
+        "main_claim": "La afirmación \"la mayoría de peticiones de asilo en España son rechazadas\" es parcialmente verdadera",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.9191259010003705,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.9191259010003705,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:28:56",
+                    "run_time": 1.9191259010003705,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa mayoría de peticiones de asilo en España son rechazadas\n\n**Critical Research Questions:**\n1. ¿Cuál es el número total de solicitudes de asilo presentadas en España en 2025?\n2. ¿Cuál es el porcentaje de solicitudes de asilo aprobadas en España en 2025?\n3. ¿Cuáles son las razones principales por las que se rechazan las solicitudes de asilo en España?\n4. ¿Cómo compara la tasa de rechazo de solicitudes de asilo en España con la de otros países europeos?\n5. ¿Qué opinan los expertos sobre la política de asilo en España y sus implicaciones?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"numero de solicitudes de asilo en España 2025 datos oficiales\", \"porcentaje de solicitudes de asilo aprobadas en España 2025 gobierno de España\", \"razones de rechazo de solicitudes de asilo en España informes de la ONU\", \"tasa de rechazo de solicitudes de asilo en España vs otros países europeos comparativa\", \"opinión de expertos sobre política de asilo en España revistas académicas\", \"informes de la Comisión Europea sobre política de asilo en España 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 6.316289779000726,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 6.316289779000726,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:29:02",
+                    "run_time": 6.316289779000726,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "numero de solicitudes de asilo en España 2025 datos oficiales",
+                                "porcentaje de solicitudes de asilo aprobadas en España 2025 gobierno de España",
+                                "razones de rechazo de solicitudes de asilo en España informes de la ONU",
+                                "tasa de rechazo de solicitudes de asilo en España vs otros países europeos comparativa",
+                                "opinión de expertos sobre política de asilo en España revistas académicas"
+                            ],
+                            "results": {
+                                "numero de solicitudes de asilo en España 2025 datos oficiales | porcentaje de solicitudes de asilo aprobadas en España 2025 gobierno de España | razones de rechazo de solicitudes de asilo en España informes de la ONU | tasa de rechazo de solicitudes de asilo en España vs otros países europeos comparativa | opinión de expertos sobre política de asilo en España revistas académicas": [
+                                    {
+                                        "text": "La Oficina de Asilo y Refugio (OAR), dependiente del Ministerio del Interior, ha publicado los avances estadísticos correspondientes al mes de septiembre de 2025 en materia de protección internacional y protección temporal, ofreciendo una visión detallada del volumen de solicitudes y resoluciones adoptadas en lo que va de año.\n\nEn un contexto global marcado por los conflictos en Oriente Medio, la inestabilidad política en América Latina y las tensiones en el Sahel, España mantiene su papel como país de acogida clave dentro de la Unión Europea.\n\n⏺️ Protección Internacional: más de 108.000 solicitudes en nueve meses\n\nEntre el 1 de enero y el 30 de septiembre de 2025 se registraron en España 108.649 solicitudes de protección internacional, un incremento del 12% respecto a agosto.\n\nLos principales países de origen de las personas solicitantes fueron:\n\nVenezuela: 63.326 solicitudes\n\nColombia: 11.845 solicitudes\n\nMali: 11.321 solicitudes\n\nSenegal: 2.951 solicitudes\n\nPerú: 2.937 solicitudes\n\nLa tendencia confirma nuevamente el liderazgo de América Latina (Venezuela y Colombia) como principal región de procedencia, junto con la creciente representación de países del África Occidental y el Sahel (Mali, Senegal).\n\nEn cuanto al lugar de presentación:\n\n102.450 solicitudes se realizaron en territorio nacional\n\n4.084 en puestos fronterizos\n\n611 en centros de internamiento de extranjeros (CIE)\n\n1.504 a través de embajadas (extensiones familiares)\n\n⏺️ Distribución territorial\n\nLas solicitudes se concentran en las grandes comunidades receptoras:\n\nComunidad de Madrid: 31.539\n\nAndalucía: 15.512\n\nCataluña: 12.567\n\nCanarias: 5.837\n\nPaís Vasco: 5.649\n\nLa presión continúa especialmente en los principales núcleos urbanos, que afrontan un alto volumen de tramitaciones y demanda de recursos de acogida.\n\n⏺️ Tasa de reconocimiento y tasa de protección\n\nDurante los primeros nueve meses del año, la tasa de reconocimiento (concesión de asilo o protección subsidiaria) se situó en el 10,12%, mientras que la tasa de protección total —que incluye las resoluciones favorables por razones humanitarias— alcanzó el 45,73%. Esto refleja que, aunque el número de reconocimientos estrictos sigue siendo limitado, casi la mitad de los solicitantes obtiene algún tipo de protección en España, destacando el peso de las concesiones por razones humanitarias, especialmente en el caso de nacionales de Venezuela y Colombia.\n\n⏺️ Protección temporal: 2.922 resoluciones en septiembre\n\nEn el ámbito de la protección temporal, la OAR registró 2.922 resoluciones durante el mes de septiembre de 2025.\n\nLas comunidades con mayor número de resoluciones fueron:\n\nAndalucía: 698 (principalmente Málaga, con 597)\n\nComunitat Valenciana: 666 (Alicante 446, Valencia 198)\n\nComunidad de Madrid: 658\n\nCataluña: 305\n\nCanarias: 120\n\nPor provincias, destacan Alicante (446), Madrid (658), Málaga (597) y Barcelona (168) como los principales puntos de tramitación y concesión.\n\n⏺️ España, país clave en materia de protección y acogida\n\nCon más de 108.000 solicitudes en nueve meses y casi 3.000 resoluciones de protección temporal en un solo mes, España reafirma su posición como uno de los países europeos con mayor compromiso en materia de protección internacional y humanitaria.\n\n⏺️ ¿Necesitas asesoramiento?\n\nEn ARC Legal acompañamos a solicitantes de asilo, protección internacional y protección temporal en España, ofreciendo asesoramiento jurídico especializado desde la presentación de la solicitud hasta la resolución final. Nuestro compromiso es garantizar tus derechos y acompañarte en cada etapa del proceso. Contacta con nuestro equipo.\n\nPublicaciones relacionadas\n\nPrefer to read this article in English 🇬🇧? Read it in English here: Spain registers over 108,000 asylum applications in the first nine months of 2025\n\nLa información proporcionada en este artículo tiene un carácter meramente informativo y no constituye asesoramiento legal. Aunque nos esforzamos por ofrecer datos actualizados y precisos, la normativa de extranjería está sujeta a cambios y a interpretaciones por parte de las autoridades competentes. Para obtener un asesoramiento personalizado y actualizado, recomendamos consultar con un abogado especializado",
+                                        "metadata": {
+                                            "url": "https://www.arc-legal.es/espana-registra-mas-de-108-000-solicitudes-de-asilo-en-los-nueve-primeros-meses-de-2025/",
+                                            "source": "www.arc-legal.es",
+                                            "favicon": "https://www.arc-legal.es/storage/2024/06/cropped-favicon-32x32.png",
+                                            "title": "España registra más de 108.000 solicitudes de asilo en los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.arc-legal.es",
+                                            "snippet": "Entre el 1 de enero y el 30 de septiembre de 2025 se registraron en España 108.649 solicitudes de protección internacional, un incremento del 12 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España registró la cifra más alta de solicitudes de protección internacional de su historia en 2024: 167 366 solicitudes, si bien esta cifra supone un ligero incremento respecto de la registrada en 2023 (163 220, +2,5%). Fue el segundo país receptor de solicitudes de protección internacional de la Unión Europea. América Latina, el norte de África y África occidental fueron las principales regiones de origen de las personas solicitantes: Venezuela y Colombia se mantuvieron como los principales países de origen, mientras que Mali desplazó a Perú (que pasó al cuarto lugar) como tercer país de origen. Senegal, Marruecos, Nicaragua, Honduras, Mauritania y Ecuador completan la lista de los diez principales países.\n\nLa tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria (frente a la menor concesión de la mayor protección ofrecida por el estatuto de persona refugiada). A pesar del aumento, España sigue a la cola de la Unión Europea, y muy por debajo de la media europea del 46,6%.\n\nEn total, se resolvieron 96 281 expedientes, un incremento del 4% respecto a 2023, continuando con la tendencia al alza que se viene registrando desde 2019.\n\nSin embargo, el número de solicitudes pendientes de resolución aumentó en un 26,6% con respecto al año anterior, con 242 056 personas a la espera de una decisión de la que dependen sus vidas.",
+                                        "metadata": {
+                                            "url": "https://www.cear.es/informes/",
+                                            "source": "www.cear.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Informes CEAR",
+                                            "type": "web_search",
+                                            "base_url": "https://www.cear.es",
+                                            "snippet": "Más que cifras ... España registró la cifra más alta de solicitudes de protección internacional de su historia en 2024: 167 366 solicitudes, si bien esta cifra ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Accem presenta el nuevo Informe AIDA 2025, un análisis riguroso, desde un punto de vista tanto cuantitativo como cualitativo, sobre el sistema de protección internacional en España durante el año 2024.\n\nEste documento forma parte del Asylum Information Database (AIDA), una iniciativa del European Council on Refugees and Exiles (ECRE), que recoge anualmente los distintos informes elaborados por un total de 23 países, entre los que se incluyen 19 estados pertenecientes a la Unión Europea. Todo este conocimiento se ha consolidado como una documentación actualizada de referencia a nivel europeo, utilizado por instituciones comunitarias para orientar políticas en materia de asilo y migración.\n\nAccem es la entidad responsable de elaborar el informe en España desde hace 10 años, aportando datos actualizados, análisis en profundidad y una visión crítica sobre la evolución del sistema de protección internacional y temporal en nuestro país.",
+                                        "metadata": {
+                                            "url": "https://www.accem.es/informe-aida/",
+                                            "source": "www.accem.es",
+                                            "favicon": "https://www.accem.es/wp-content/uploads/2017/11/Accem-favicon-1.png",
+                                            "title": "Día Mundial de las Personas Refugiadas - Informe AIDA",
+                                            "type": "web_search",
+                                            "base_url": "https://www.accem.es",
+                                            "snippet": "España recibió un total de 167.366 solicitudes de protección internacional. · Las principales nacionalidades de origen fueron Venezuela, Colombia, Mali, Perú y ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A pesar del deterioro de la estabilidad en algunos países de África subsahariana y su consiguiente reflejo en el incremento de las llegadas a Europa por la vía irregular en el primer trimestre de 2014, en España se registraron 1.040 peticiones de asilo, un 10% menos que en el mismo periodo del año pasado. Organizaciones especializadas denuncian los obstáculos impuestos al acceso a la protección internacional en el estado español, relacionados con la baja armonización entre el control fronterizo y el derecho de asilo. ¿Dónde falla? El informe “Acceso a la protección: un derecho humano” de la Comisión Española de Ayuda al Refugiado (CEAR) profundiza en algunas de las claves.\n\nPrimera traba: acuerdos bilaterales de readmisión\n\nSon aquellos tratados firmados entre España y determinados países de origen o de tránsito de los inmigrantes con el objetivo de devolver a los extranjeros que lleguen territorio español de forma irregular. A cambio, los estados “aliados” reciben algún tipo de beneficio, como la cooperación al desarrollo. Según CEAR, estos acuerdos se caracterizan por “un enfoque casi exclusivamente policial y de seguridad, con unas herramientas administrativas escuetas que dificultan al máximo la defensa de los derechos fundamentales de las personas extranjeras”. En general, estos documentos no introducen garantías que permitan el acceso al asilo que, sin embargo, si son mencionadas por tratados internacionales y por la propia legislación española: asistencia letrada, intérprete o información sobre la denegación de entrada.\n\nEl acuerdo hispano-marroquí de 1992, tantas veces formulado durante los últimos meses para justificar las devoluciones ilegales de inmigrantes una vez pisado territorio español, acepta la “readmisión” de inmigrantes [marroquíes o no] siempre y cuando sean identificados en un plazo de 10 días. No menciona como requisito de devolución el respeto de derechos humanos de las personas expulsadas. Diversas organizaciones multinacionales nacionales e internacionales llevan años denunciando los malos tratos recibidos por las personas de origen subsahariano en este país.\n\nPor su parte, el pacto con Mauritania -el otro país al que España puede devolver inmigrantes aunque no sean procedentes de este- tampoco contempla el respeto por los derechos humanos en el destino. Según ha podido comprobar CEAR, los malienses “son repatriados a diversos puntos de su frontera común”, mientras que las personas con otras nacionalidades son trasladados a “el puesto fronterizo de Rosso, en la frontera con Senegal”. Además, el Estado español tiene acuerdos de características similares -aunque sólo permiten la readmisión de sus nacionales- firmados con Argelia, Ghana, Guinea Bissaou, Níger, Cabo Verde, Gambia y Guinea.\n\nVigilancia marítima y devoluciones en el agua\n\nEstos acuerdos incluyen la cooperación entre los países firmantes que incluyen la aportación de patrulleras marítimas mixtas de vigilancia costera, a lo que se suma la dotación económica y de material para potenciar el rastreo costero en los estados de tránsito. España ha impulsado operaciones propias de control fronterizo como el Sistema Integrado de Vigilancia cuyas operaciones pueden actuar en aguas españolas y en aguas internacionales.\n\nEl informe advierte que, en ocasiones, las autoridades españolas devuelven pateras interceptadas en alta mar excusándose en que en aguas internacionales no se aplica la ley nacional. Sin embargo, CEAR recuerda una sentencia del Tribunal Europeo de Derechos Humanos de 2012 por la que “desde el mismo momento en que los imigrantes se encuentran bajo el control efectivo de las autoridades de un Estado Miembro”, estas personas “no pueden ser devueltas aunque sean interceptadas en alta mar o aguas de un tercer estado”.\n\nLas “ciudades cárceles” de Ceuta y Melilla\n\nLos solicitantes de asilo en las ciudades autónomas españolas están discriminados con respecto al resto de personas que demandan protección internacional en España, según las organizaciones españolas especializadas en migración, el Alto Comisionado de Naciones Unidas y el Relator Especial de la ONU contra el Racismo y la Xenofobia.\n\nEl motivo es la prohibición de acceder a la península ibérica hasta que no se resuelva su petición, un proceso que suele durar una media de dos años, mientras que la Ley de Asilo garantiza la libertad de circulación por todo el territorio español. Esta limitación provoca que muchas personas que huyen de sus países de origen se nieguen a pedir asilo en Ceuta o Melilla para mantener abierta la posibilidad de cruzar el Estrecho.\n\nDevoluciones colectivas en frontera\n\nSe ha llevado a cabo durante años en la clandestinidad aunque eran denunciadas a gritos por organizaciones de derechos humanos con la melillense Prodein a la cabeza. Las devoluciones inmediatas en las frontera de Ceuta y Melilla una vez que los inmigrantes pisan suelo español son ilegales según la Ley de Extranjería y según el acuerdo bilateral con Marruecos -que exige la identificación en un plazo de 10 días-, pero las autoridades españolas continúan efectuándolas. Tras la tragedia de Ceuta, las cámaras pueden enfocar las entregas de subsaharianos a las fuerzas de seguridad marroquíes.\n\nLa normativa española obliga a la apertura de un proceso administrativo que garantice la asistencia letrada del inmigrante y el conocimiento de sus derechos, como la posibilidad de solicitar asilo. Si se suprime este paso se incumple la legislación internacional, ya que pueden ser expulsadas personas que huyeron de sus países en busca de protección, vulnerando el principio de “no devolución”.\n\nFalta de información y garantías jurídicas\n\nEl informe añade otros problemas de procedimiento de asilo en España que suponen trabas para el acceso efectivo a este derecho, como que no se garantiza el recurso efectivo contra una decisión negativa porque apelar no suspende la orden de expulsión que pese sobre el solicitante, que la formación de agentes especializados no sea una realidad o que no se facilite información en los Centros de Internamiento sobre la posibilidad de pedir protección internacional.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/desalambre/motivos-bajas-cifras-peticiones-espana_1_4864555.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "Cinco razones para entender las bajas cifras de peticiones ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "Organizaciones especializadas denuncian los obstáculos impuestos al acceso a la protección internacional en el estado español, relacionados con ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Ley reguladora del Derecho de Asilo y la Protección Subsidiaria configura el asilo, reconocido en el Artículo 13.4 de la Constitución Española, como la protección dispensada por España a los nacionales no comunitarios o a los apátridas a quienes se reconozca la condición de Refugiado de acuerdo con esta Ley, con la Convención de Ginebra de 1951 y el Protocolo de Nueva York de 1967.\n\nPor una parte, la condición de refugiado se reconoce a toda persona que, debido a fundados temores de ser perseguida por motivos de raza, religión, nacionalidad, opiniones políticas, pertenencia a determinado grupo social, de género u orientación sexual, se encuentra fuera del país de su nacionalidad y no puede o, a causa de dichos temores, no quiere acogerse a la protección de tal país, o al apátrida que, careciendo de nacionalidad y hallándose fuera del país donde antes tuviera su residencia habitual, por los mismos motivos no puede o, a causa de dichos temores, no quiere regresar a él.\n\nDe otra, el derecho a la protección subsidiaria es el dispensado a las personas de otros países y a los apátridas que, sin reunir los requisitos para obtener el asilo o ser reconocidas como refugiadas, pero respecto de las cuales se den motivos fundados para creer que si regresasen a su país de origen en el caso de los nacionales o, al de su anterior residencia habitual en el caso de los apátridas, se enfrentarían a un riesgo real de sufrir alguno de los daños graves previstos, y que no pueden o, a causa de dicho riesgo, no quieren, acogerse a la protección del país de que se trate.\n\nEl amparo concedido con la protección internacional (término que engloba tanto el derecho de asilo como la protección subsidiaria) consiste en la no devolución ni expulsión de las personas a quienes se les haya reconocido, así como en la adopción de las medidas contempladas en la normativa española, la de la Unión Europea y en los Convenios internacionales ratificados por España mientras subsistan las circunstancias en virtud de las cuales se les concede el derecho de asilo o de protección subsidiaria.\n\nQuedarán excluidas de la condición de refugiado las personas a quienes las autoridades del país donde hayan fijado su residencia les hayan reconocido los derechos y obligaciones inherentes o equivalentes a sus nacionales o quienes se encuentren comprendidos en el ámbito de aplicación del Artículo 1.D o en algunos de los supuestos previstos en los Artículos 1.F y 33.2 de la referida Convención de Ginebra:\n\nEl mencionado Artículo 1.F señala que las disposiciones de la Convención no serán aplicables a persona alguna respecto de la cual existan motivos fundados para considerar: Que ha cometido un delito contra la paz, un delito de guerra o un delito contra la humanidad, de los definidos en los instrumentos internacionales elaborados para adoptar disposiciones respecto de tales delitos. Que ha cometido un grave delito común, fuera del país del refugio, antes de ser admitida en él como refugiada. Que se ha hecho culpable de actos contrarios a las finalidades y a los principios de la Naciones Unidas. Estos motivos también se aplicarán a las personas que participen o inciten a la comisión de estos delitos Por su parte, el Artículo 33.2 establece que no podrá invocar los beneficios de la presente disposición (prohibición de expulsión y de devolución) el refugiado que sea considerado, por razones fundadas, como un peligro para la seguridad del país donde se encuentra o que, habiendo sido objeto de una condena definitiva por delito particularmente grave, constituya una amenaza para la comunidad de tal país.\n\n\n\nAdemás de lo expuesto, también quedarán excluidas de la condición de beneficiarias de la protección subsidiaria aquellas personas que constituyan un peligro para la seguridad interior o exterior de España o para el orden público.\n\nEl Artículo 25.3 de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social establece que los requisitos de entrada en territorio español no son de aplicación a los extranjeros que soliciten acogerse al derecho de asilo en el momento de su entrada en España.\n\nLos nacionales de los Estados miembros de la Unión Europea y aquellos a quienes sea de aplicación el régimen comunitario se regirán por la legislación de la Unión Europea, siéndoles de aplicación la Ley Orgánica 4/2000, de 20 de noviembre, sobre derechos y libertades de los extranjeros en España y su integración social, así como las normas reglamentarias vigentes sobre la materia, en aquellos aspectos que les pudieran ser mas favorables.",
+                                        "metadata": {
+                                            "url": "https://www.policia.es/_eu/extranjeria_asilo_y_refugio.php",
+                                            "source": "www.policia.es",
+                                            "favicon": "https://www.policia.es/apple-touch-icon.png",
+                                            "title": "Asilo y refugio",
+                                            "type": "web_search",
+                                            "base_url": "https://www.policia.es",
+                                            "snippet": "La presentación de las solicitudes de protección internacional se comunicará al ACNUR, quien podrá informarse de la situación de los expedientes, estar presente ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El ministerio del Interior aceptó 11.163 peticiones de protección internacional frente a las 163.220 peticiones recibidas. Esto supone una caída de cuatro puntos en comparación a 2022 (14.235) y, con un 12%, convierte a España en el país de la UE que menos porcentaje de solicitudes de asilo concede. La media europea está en el 42%.\n\n“Nadie quiere abandonar su hogar”, dice Wafa Ghosien, palestina refugiada en España, durante la presentación del último informe publicado por la Comisión Española de Ayuda al Refugiado (CEAR). En contraposición con el número de solicitudes aceptadas, en 2023 España recibió un número histórico de peticiones para la protección internacional; un “aumento sin precedentes” que se traduce en un 37,3% más que el año anterior.\n\nWafa llegó junto con sus dos hijas en 2022, cuando la ofensiva en Gaza hizo imposible continuar con normalidad su vida. “Nos fuimos porque queríamos que nuestros hijos tuvieran un futuro. Nadie puede aguantar lo que se está viviendo en Gaza”. A diferencia de ella, su marido y su madre siguen en la Franja de Gaza. Desde que empezó la destrucción por parte del ejército de Israel, Wafa ha perdido a 15 miembros de su familia.\n\n“Ellos se mueren del bombardeo, yo me muero de la desesperación”, dice. Si bien el informe destaca un aumento en el reconocimiento de protección por razones humanitarias (47%) a la mayoría de solicitantes venezolanos, el número de protección subsidiaria y reconocimiento del Estatuto de Refugiado disminuyó un 40% respecto al año anterior. Además, el 19% de las solicitudes fueron presentadas por menores.\n\n“La realidad es que estas cifras son incompletas, hay un tapón de solicitudes que no están en trámite, sino pendientes”, señala Manuel Valiente, cordirector de CEAR. Según el informe, más de la mitad de las solicitudes están pendientes de tramitación (56%). En su mayoría, las personas que buscan protección en el territorio español son de nacionalidad venezolana o colombiana, seguidas por personas de procedentes de Perú, Honduras y Cuba. Las personas procedentes de Colombia son las que acumulan más de la mitad de las denegaciones realizadas, seguidas por Marruecos, Perú, Honduras y Senegal.\n\nFrente a ello, CEAR sigue alertando de la diferenciación en cuanto a la concesión de protección temporal que se ofreció ante la emergencia humanitaria de Ucrania. Datos recogidos por la organización señalan que en 2023 hubo un total de 33.928 de nuevas concesiones para personas desplazadas por la guerra en Ucrania.\n\nEn ese sentido, Valiente denuncia que actualmente “España se encuentra en una encrucijada”. “Por una parte el Gobierno valora una respuesta solidaria, pero por otra parte apoya el Pacto Europeo sobre Migración y Asilo [aprobado en abril de 2024] y que supone el mayor retroceso desde su creación”.\n\nJunto con la persistencia de conflictos enquistados –Ucrania, Siria, Afganistán o Sudán– y la aparición de las grandes emergencias humanitarias– , CEAR hace un llamamiento a la Unión Europea a “implementar el Nuevo Pacto Europeo de Migración de Asilo de manera solidaria y garantista con los derechos de las personas migrantes y refugiadas” ante el avance de posiciones “racistas y xenófobas”.\n\nA una semana de cumplirse dos años de la Tragedia de Melilla –que terminó con, al menos 23 personas muertas, 76 desaparecidas y 470 devoluciones a Marruecos de forma sumaria y sin garantías por la policía española–, la comisión pide que se cree un mecanismo independiente de seguimiento y monitoreo de los derechos humanos en los procedimientos de asilo, con especial atención a los de frontera.\n\nInsalubridad y retrasos administrativos\n\nEl informe señala algunos de los principales problemas que dificultan el acceso a la protección internacional, haciendo un especial énfasis en las trabas administrativas. “No es posible que el proceso de tramitación se retrase unos tres años”, sostiene Valiente.\n\nElena Muñoz, coordinadora estatal jurídica de CEAR, sostiene que esto se debe a la “insuficiencia de recursos humanos y materiales durante los procesos administrativos”. “Pueden pasar meses hasta que no se consigue una cita para la realización de las entrevistas”. Muñoz destaca que, ya sea por el incremento de solicitudes o por la falta de los recursos personales, estas entrevistas suelen ser “escuetas” y que un 93% de ellas se hacen en territorio español y con la ausencia de letrados. La presencia de los abogados no es una obligación, sino un derecho, pero su ausencia junto con la falta de personal cualificado –como policías e intérpretes con conocimientos de lenguas minoritarias– favorece que no se tenga en cuenta el “tratamiento diferenciado en función de las necesidades de los solicitantes”, según acoge el marco europeo.\n\n“Si el procedimiento tiene carencias de calidad, las solicitudes no tienen toda la información que necesitan y, consecuentemente, la administración las rechaza”, concluye Muñoz. “Mi marido aún no ha podido terminar de cumplimentar la documentación”, dice Wafa. En su casa, la reagrupación familiar tampoco es posible porque piden un permiso de residencia permanente que no dispone.\n\nLas dificultades para acceder a la información y a la asistencia necesaria para solicitar protección internacional también se ven en los Centros de Internamiento de Extranjeros (CIE). Datos recogidos por la organización aseguran que hay personas que, tras solicitar protección en territorio y ser internadas en el CIE, no pudieron acceder a los recursos legales necesarios para defender sus derechos. Unas prácticas que “violan los derechos” de las personas internadas y “demuestran la ineficacia” de estos centros para cumplir sus objetivos.\n\nPor otra parte, el retraso de los procesos administrativos “dejan a algunas personas en situación de desprotección y en riesgo de exclusión social”, sostiene la entidad. Ejemplo de ello son las condiciones de los solicitantes que se encuentran en espera de la formalización de la solicitud de asilo en el Aeropuerto Adolfo Suárez Madrid-Barajas. Con retrasos de 30 días y sin una atención a sus necesidades específicas –como puede ser la detección de posibles víctimas de trata–, en diciembre del año anterior 250 personas estaban hacinadas en condiciones de “insalubridad” en las salas de aeropuerto.\n\nTanto CEAR y El Defensor del Pueblo, tomaron medidas legales contra la administración. Por su parte, Mónica López, codirectora junto a Valiente de CEAR, destaca las consecuencias mentales que se derivan de este tiempo de espera: “El hecho que una persona no pueda manifestar su derecho al asilo, que no puede entrar dentro del proceso de protección ni de tener de acceso a un techo, comida o ni siquiera a una identificación de vulnerabilidades, es algo muy duro y que es una consecuencia de no habilitar una coherencia en procesos de acceso rápidos”.\n\nRepunte histórico en la ruta canaria\n\nA consecuencia de la inestabilidad política en el Sahel y Senegal, casi tres cuartas partes de las llegadas al territorio español (70%) se concentraron en la ruta hacia Canarias. Este drástico repunte migratorio desencadenó una situación de emergencia humanitaria sin precedentes desde la llamada ‘crisis de los cayucos’ que tuvo lugar en 2006. 2023 también fue el año más letal para las personas migrantes y se estima que 959 personas fallecieron durante la ruta hacia las Islas Canarias.\n\nCEAR “celebra” la rapidez con la que el Gobierno activó medidas extraordinarias como la declaración de emergencia y la apertura de nuevas plazas de acogida en la Península. La activación de Centros de Acogida de Emergencia (CAED) facilitó que no se repitieran situaciones de hacinamiento como las que se dieron en 2021 en el muelle de Arguineguín. En ese sentido, López sostiene que estas medidas cortoplacistas “sirven para descongestionar la situación” y que, frente a ello, “España debe contar con una estructura estable de acogida, tanto en las islas como en la Península, que dé respuesta a las cada vez más frecuentes, situaciones de grandes llegadas”.\n\nLa ruta canaria experimentó también un aumento de llegadas de menores no acompañados, lo que sobrepasó la capacidad del sistema de protección en el archipiélago. El informe destaca la respuesta del Gobierno de Canarias en la tramitación de la modificación de la Ley de Extranjería para articular un sistema de reparto de la acogida de menores entre comunidades autónomas. Sin embargo, aún se desconoce cuándo se va empezar a ejercer su aplicación.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/desalambre/espana-pais-ue-porcentaje-solicitudes-asilo-concede-pese-recibir-vez_1_11449364.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "España es el país de la UE que menos porcentaje ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "El ministerio del Interior aceptó 11.163 peticiones de protección internacional frente a las 163.220 peticiones recibidas. Esto supone una caí ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El informe revela que, por primera vez, España ocupa el segundo lugar en la lista de países que más solicitudes de protección internacional recibieron en 2024 (167.366), solo por detrás de Alemania. Por otra parte, ha bajado el porcentaje de personas a las que se les reconoce el estatus de refugiado, del 8,3 al 6,6 % de 2023. Asimismo, en 2024 se acumularon 242.056 expedientes de protección internacional pendientes de resolver, un 26,6 % más que el año anterior.\n\nPor noveno año consecutivo, Venezuela es el país con más solicitantes de asilo —por delante de Colombia y de Mali—, con 66.134 peticiones, el 39,5 % del total. De 33.458 expedientes resueltos de este país en 2024, un 98 % recibió una autorización de residencia temporal por razones humanitarias, «que no es una figura de protección internacional pero permite vivir y trabajar en España durante un año», aclara CEAR. A este respecto, la codirectora de CEAR, Mónica López, ha señalado que desde la entidad se mantienen «observantes» ante un posible desvío de solicitantes de este país desde Estados Unidos tras las políticas restrictivas hacia la inmigración de Donald Trump, lo cual podría ya explicar el aumento del 42 % en solicitudes de este país en el primer cuatrimestre de 2025.\n\nAunque el informe observa una presencia elevada de familias monomarentales, el perfil de solicitante es de un hombre (57,7 %), joven, que realiza su trayecto solo, principalmente desde América Central y del Sur y África del Norte y Occidental.\n\nFuente: alfayomega.es",
+                                        "metadata": {
+                                            "url": "https://observatorio.dominicos.org/espana-es-el-pais-de-europa-que-menos-asilo-concede/",
+                                            "source": "observatorio.dominicos.org",
+                                            "favicon": "https://i0.wp.com/observatorio.dominicos.org/wp-content/uploads/2020/05/cropped-icon-sambamartine.png?fit=32%2C32&ssl=1",
+                                            "title": "España es el país de Europa que menos asilo concede",
+                                            "type": "web_search",
+                                            "base_url": "https://observatorio.dominicos.org",
+                                            "snippet": "Según sus datos España concede protección internacional apenas al 18,5 % de las personas que lo solicitan, una tasa que es la más baja de toda ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "FOCUS ON SPANISH SOCIETY | MAYO 2025\n\nFecha: 19 mayo 2025\n\nDescargar (formato PDF)\n\nSolo le supera Alemania y se sitúa por delante de Italia y Francia\n\n\n\nEspaña recibe el 90% de las solicitudes de asilo de venezolanos y el 79% de las de colombianos\n\n\n\nCaen las entradas irregulares por el Mediterráneo Central, hacia Italia, pero aumentan las llegadas por el Atlántico occidental, en particular a través de Canarias\n\n\n\nLos españoles tienen una de las actitudes más positivas de la UE hacia la inmigración\n\nMadrid, 19/05/2025 | España fue el segundo país de los 27 de la Unión Europea (UE) que más primeras solicitudes de asilo recibió en 2024, con el 18% del total, hasta el máximo histórico de 164.000 peticiones, solo por detrás de Alemania, que concentró el 25%. Les siguieron Italia (151.000) y Francia (130.000). Según Focus on Spanish Society, publicación editada por Funcas, es el segundo año consecutivo que España se sitúa en esa posición, un lugar que ha ocupado de forma estable —entre el segundo y el tercer puesto— desde 2019. En total, en 2024, la UE registró cerca de un millón de solicitudes de asilo (912.000), lo que supone una caída del 13% respecto a 2023.\n\nAunque las solicitudes de asilo han aumentado con fuerza en toda la UE desde la pandemia, su reparto sigue siendo muy desigual. Países de Europa Central y del Este como Hungría (25 solicitudes), Eslovaquia (135) y Lituania (295) apenas han recibido peticiones. Este desequilibrio histórico se ha consolidado, alimentando el debate sobre la solidaridad y el reparto de responsabilidades en la UE.\n\nEl perfil de las solicitudes de asilo en España es muy distinto al del resto de Europa, con una fuerte concentración respecto al origen de los solicitantes. En 2024, España fue el principal destino europeo para solicitantes de Latinoamérica, en especial de Venezuela (40% de las solicitudes en España), Colombia (24%) y, en menor medida, Perú (6%). Las 65.000 solicitudes de venezolanos y las 40.000 de colombianos representaron el 90% y el 79%, respectivamente, del total de solicitudes de estas nacionalidades en la UE.\n\nMás allá de Latinoamérica, España también se consolidó el año pasado como un destino clave para solicitantes de asilo de algunos países de África Occidental. Destacan los casos de Mali y Senegal. Aunque aún representan un porcentaje reducido del total de solicitudes en España—6% en el caso de Mali y 5% en el de Senegal—, desde 2023 han multiplicado por 8,5 y por 3,5 sus cifras, respectivamente, lo que apunta a una posible tendencia emergente.\n\nEn la última década, el perfil de solicitantes de asilo en España ha estado menos vinculado a desplazamientos por conflictos inmediatos y más a lazos lingüísticos, culturales e históricos con Latinoamérica. Sin embargo, el reciente aumento de solicitudes procedentes de Mali —impulsado por un conflicto cada vez más intenso—podría marcar un cambio y apuntar a que España desempeñe un papel más relevante ante potenciales crisis en África Occidental.\n\nLos datos de 2024 confirman fuertes diferencias en el perfil nacional de los solicitantes de asilo entre los países de la UE. Alemania sigue siendo el principal destino para personas que huyen de zonas de conflicto, sobre todo de Siria, Afganistán y Turquía. El segundo destino más común para sirios y afganos fue Grecia, mientras que, en el caso de los turcos, el segundo país de destino fue Francia, que además recibió más de la mitad (53%) de las solicitudes de ucranianos. Italia, por su parte, se ha convertido en el principal destino para solicitantes de Bangladesh. También es el país que más solicitudes recibe de peruanos, con un 58% de las solicitudes de esa nacionalidad, por encima de España.\n\nEntradas irregulares\n\nLas entradas irregulares por las fronteras del sur de la UE han fluctuado en la última década en función de los cambios geopolíticos, el refuerzo de controles y la reorganización de las redes de tráfico de personas. En 2024, estas entradas cayeron un 38% respecto a 2023, principalmente por la fuerte reducción de llegadas por la ruta del Mediterráneo Central debido a medidas más estrictas contra el tráfico de migrantes por parte de países de origen y tránsito, especialmente Túnez. Estas acciones fueron clave para frenar los flujos hacia Italia, donde las entradas irregulares se redujeron desde el máximo de 157.652 en 2023 a 66.617 el año pasado.\n\nEn contraste con la caída de las llegadas por esa vía, aumentaron las entradas por la ruta atlántica occidental, en particular a través de Canarias. Así, España anotó en 2024 un máximo de 63.970 entradas irregulares, cifra que duplica la registrada en 2006 con la “crisis de los cayucos”. En un contexto cada vez más inestable, esta dinámica sugiere que España ha dejado de ser una ruta periférica y se ha convertido en un actor central en la geografía de entradas irregulares a Europa.\n\nEspaña: una de las actitudes más positivas hacia la inmigración en Europa\n\nSegún la Encuesta Social Europea (ESS) de 2024, la opinión pública española destaca como una de las más positivas del continente. Ante la pregunta de si la inmigración es buena o mala para la economía del país, España se mantiene entre los países más favorables, con una puntuación de 6,2, frente a la media de 4,5 y 6,5 de la mayoría de los Estados de la UE15 con datos disponibles y con la excepción de Grecia, que presenta sistemáticamente las opiniones más negativas en todos los indicadores.\n\nUn indicador revelador es el porcentaje de personas que opinan que no debería permitirse la entrada de ningún inmigrante procedente de países pobres no europeos. En 2009, en plena Gran Recesión, un 15% de la población española compartía esta visión. En 2024, esa cifra se redujo al 6%, lo que coloca a España entre los países con menos partidarios del cierre total, superado solo por Noruega (2%) y Suecia (2%).\n\nEn cuanto a la relación entre ideología y apoyo a medidas restrictivas, comparando cuatro años clave —2002, 2009, 2015 y 2024— emerge un patrón claro en todos los países europeos para los que se dispone de datos: cuanto más a la derecha se sitúan los encuestados en la escala ideológica, mayor es la probabilidad de que apoyen restricciones a la migración. Sin embargo, esta relación ha cambiado con el tiempo. En 2009, casi un 40% de las personas de izquierda respaldaban algún tipo de restricción, frente al 70% de los que se ubicaban en la derecha. En 2024, estas cifras han caído en todos los tramos del espectro ideológico: hasta algo más del 10% de los que se sitúan a la izquierda y alrededor del 50% de los que se posicionan a la derecha. Esta evolución es similar a la observada en otros países europeos. No obstante, España destaca en un aspecto clave: mientras que el apoyo a las restricciones entre personas de izquierda está ahora en línea con la media europea, en España quienes se identifican con la derecha son menos restrictivos. En 2024, algo más del 50% de los votantes de derechas apoyaba restricciones migratorias, frente a una media del 68% entre sus homólogos europeos.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/prensa/espana-repite-como-el-segundo-pais-de-la-ue-con-mas-solicitudes-de-asilo-y-llega-al-record-de-164-000-en-2024/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "España repite como el segundo país de la UE con más ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "Solo le supera Alemania y se sitúa por delante de Italia y Francia · España recibe el 90% de las solicitudes de asilo de venezolanos y el 79% de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España es ya el país de la UE con más solicitantes de asilo, por encima de Alemania, que hasta ahora batía todos los récords. Durante el mes de mayo hemos recibido un total de 12.788 solicitudes, una cantidad que nos sitúa por delante de Italia, donde se han presentado 12.266, Francia, con 11.868,Alemania, con 9.916, y Grecia, con 3.722.\n\nLas cifras han sido facilitadas a EL MUNDO por fuentes de la Agencia de Asilo de la UE en un avance del informe que será publicado oficialmente este viernes. Esta agencia, que tiene su sede en Malta, ha registrado 64.000 solicitudes procedentes de toda Europa a lo largo de mayo y ha visto que se ha producido en una bajada en relación en el mismo periodo de 2024 debido ha que ha descendido de forma \"extremadamente abrupta\" el número de ciudadanos sirios tras la caída del régimen de Assad el pasado diciembre. En todo 2024, España recibió 167.366 peticiones de protección internacional, menos que en Alemania.\n\nSegún ha adelantado este jueves el Financial Times, si el pasado octubre hubo 16.000 solicitudes de sirios en la UE, este mayo sólo se han registrado 3.100. En Alemania, destino popular entre los solicitantes de esta nacionalidad, la cifra total de peticiones ha bajado de las 18.700 que hubo en mayo de 2024 a 9.916 este mayo. Y en España, que ahora es el principal país de acogida de los solicitantes de asilo, se ha pasado de 16.300 solicitudes en mayo de 2024 a 12.788 de mayo de 2025. Aunque el número total ha descendido, se han incrementado las peticiones de las personas que escapan de la crisis política y económica que se vive en Venezuela. Es, por tanto, el aumento de la migración venezolana, la que ha disparado las cifras.\n\nAsilo restrictivo en España\n\nEn cualquier caso, un informe reciente de la Comisión Española de Ayuda al Refugiado (Cear) muestra que España es también el país de la UE que menos asilo concede, pues sólo reciben protección nacional el 18% de los que lo solicitan, la tasa más baja de todos los países, donde la media del reconocimiento es del 46%. Eso sí, de los 33.458 expedientes de asilo resueltos en España en 2024 de ciudadanos procedentes de Venezuela, un 98% recibió una autorización de residencia temporal por razones humanitarias, que les permite vivir y trabajar en nuestro país durante un año, aunque no es propiamente una figura de protección internacional.\n\nNunca España había registrado tanta población como hasta ahora. Estamos ya en 49.153.849 millones de habitantes, una cifra récord. De ellos, 6.947.711 son extranjeros, según las últimas cifras del Instituto Nacional de Estadística (INE), que constatan que, mientras los españoles apenas aumentan por la caída de la natalidad y el aumento de la esperanza de vida, de un año para otro los inmigrantes se han incrementado en un 5,39%. Cada año llegan alrededor de 500.000 extranjeros. El fenómeno sólo es comparable con la oleada migratoria que se produjo en la década de 2000, al calor de la burbuja inmobiliaria. La crisis económica de 2008 y después el Covid frenaron las llegadas, que se han intensificado a partir de 2022.\n\n40% de las solicitudes\n\nEl INE refleja que las principales nacionalidades de los inmigrantes durante el primer trimestre de 2025 fueron la colombiana (con 39.800 llegadas a España), la marroquí (25.900) y la venezolana (25.000). Según un estudio de Funcas, en 2024, España fue el principal destino europeo para solicitantes de Latinoamérica, en especial de Venezuela (40% de las solicitudes en España), Colombia (24%) y, en menor medida, Perú (6%). Las 65.000 solicitudes de venezolanos y las 40.000 de colombianos representaron el 90% y el 79%, respectivamente, del total de solicitudes de estas nacionalidades en la UE.\n\nMás allá de Latinoamérica, España también se consolidó el año pasado como un destino clave para solicitantes de asilo de algunos países de África Occidental. Destacan los casos de Mali y Senegal. Aunque aún representan un porcentaje reducido del total de solicitudes en España -6% en el caso de Mali y 5% en el de Senegal-, desde 2023 han multiplicado por 8,5 y por 3,5 sus cifras, respectivamente, lo que apunta a una posible tendencia emergente.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/espana/2025/07/17/6878f20cfdddff430f8b4584.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "España se convierte en el país de la UE con ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "España es ya el país de la UE con más solicitantes de asilo, por encima de Alemania, que hasta ahora batía todos los récords."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.3908985900015978,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.3908985900015978,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:29:04",
+                    "run_time": 2.3908985900015978,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número total de solicitudes de asilo presentadas en España en 2025?": [
+                                {
+                                    "Entre el 1 de enero y el 30 de septiembre de 2025 se registraron en España 108.649 solicitudes de protección internacional, un incremento del 12% respecto a agosto.": null
+                                },
+                                {
+                                    "Prefer to read this article in English 🇬🇧? Read it in English here: Spain registers over 108,000 asylum applications in the first nine months of 2025": null
+                                },
+                                {
+                                    "Madrid, 19/05/2025 | España fue el segundo país de los 27 de la Unión Europea (UE) que más primeras solicitudes de asilo recibió en 2024, con el 18% del total, hasta el máximo histórico de 164.000 peticiones, solo por detrás de Alemania, que concentró el 25%. Les siguieron Italia (151.000) y Francia (130.000). Según Focus on Spanish Society, publicación editada por Funcas, es el segundo año consecutivo que España se sitúa en esa posición, un lugar que ha ocupado de forma estable —entre el segundo y el tercer puesto— desde 2019. En total, en 2024, la UE registró cerca de un millón de solicitudes de asilo (912.000), lo que supone una caída del 13% respecto a 2023.": null
+                                }
+                            ],
+                            "¿Cuál es el porcentaje de solicitudes de asilo aprobadas en España en 2025?": [
+                                {
+                                    "Entre el 1 de enero y el 30 de septiembre de 2025 se registraron en España 108.649 solicitudes de protección internacional, un incremento del 12% respecto a agosto.": null
+                                },
+                                {
+                                    "Prefer to read this article in English 🇬🇧? Read it in English here: Spain registers over 108,000 asylum applications in the first nine months of 2025": null
+                                },
+                                {
+                                    "El informe revela que, por primera vez, España ocupa el segundo lugar en la lista de países que más solicitudes de protección internacional recibieron en 2024 (167.366), solo por detrás de Alemania. Por otra parte, ha bajado el porcentaje de personas a las que se les reconoce el estatus de refugiado, del 8,3 al 6,6 % de 2023. Asimismo, en 2024 se acumularon 242.056 expedientes de protección internacional pendientes de resolver, un 26,6 % más que el año anterior.": null
+                                }
+                            ],
+                            "¿Cuáles son las razones principales por las que se rechazan las solicitudes de asilo en España?": [
+                                {
+                                    "El informe añade otros problemas de procedimiento de asilo en España que suponen trabas para el acceso efectivo a este derecho, como que no se garantiza el recurso efectivo contra una decisión negativa porque apelar no suspende la orden de expulsión que pese sobre el solicitante, que la formación de agentes especializados no sea una realidad o que no se facilite información en los Centros de Internamiento sobre la posibilidad de pedir protección internacional.": null
+                                },
+                                {
+                                    "A pesar del deterioro de la estabilidad en algunos países de África subsahariana y su consiguiente reflejo en el incremento de las llegadas a Europa por la vía irregular en el primer trimestre de 2014, en España se registraron 1.040 peticiones de asilo, un 10% menos que en el mismo periodo del año pasado. Organizaciones especializadas denuncian los obstáculos impuestos al acceso a la protección internacional en el estado español, relacionados con la baja armonización entre el control fronterizo y el derecho de asilo. ¿Dónde falla? El informe “Acceso a la protección: un derecho humano” de la Comisión Española de Ayuda al Refugiado (CEAR) profundiza en algunas de las claves.": null
+                                },
+                                {
+                                    "La normativa española obliga a la apertura de un proceso administrativo que garantice la asistencia letrada del inmigrante y el conocimiento de sus derechos, como la posibilidad de solicitar asilo. Si se suprime este paso se incumple la legislación internacional, ya que pueden ser expulsadas personas que huyeron de sus países en busca de protección, vulnerando el principio de “no devolución”.": null
+                                }
+                            ],
+                            "¿Cómo compara la tasa de rechazo de solicitudes de asilo en España con la de otros países europeos?": [
+                                {
+                                    "El ministerio del Interior aceptó 11.163 peticiones de protección internacional frente a las 163.220 peticiones recibidas. Esto supone una caída de cuatro puntos en comparación a 2022 (14.235) y, con un 12%, convierte a España en el país de la UE que menos porcentaje de solicitudes de asilo concede. La media europea está en el 42%.": null
+                                },
+                                {
+                                    "La tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria (frente a la menor concesión de la mayor protección ofrecida por el estatuto de persona refugiada). A pesar del aumento, España sigue a la cola de la Unión Europea, y muy por debajo de la media europea del 46,6%.": null
+                                },
+                                {
+                                    "En cualquier caso, un informe reciente de la Comisión Española de Ayuda al Refugiado (Cear) muestra que España es también el país de la UE que menos asilo concede, pues sólo reciben protección nacional el 18% de los que lo solicitan, la tasa más baja de todos los países, donde la media del reconocimiento es del 46%. Eso sí, de los 33.458 expedientes de asilo resueltos en España en 2024 de ciudadanos procedentes de Venezuela, un 98% recibió una autorización de residencia temporal por razones humanitarias, que les permite vivir y trabajar en nuestro país durante un año, aunque no es propiamente una figura de protección internacional.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos sobre la política de asilo en España y sus implicaciones?": [
+                                {
+                                    "El informe añade otros problemas de procedimiento de asilo en España que suponen trabas para el acceso efectivo a este derecho, como que no se garantiza el recurso efectivo contra una decisión negativa porque apelar no suspende la orden de expulsión que pese sobre el solicitante, que la formación de agentes especializados no sea una realidad o que no se facilite información en los Centros de Internamiento sobre la posibilidad de pedir protección internacional.": null
+                                },
+                                {
+                                    "A pesar del deterioro de la estabilidad en algunos países de África subsahariana y su consiguiente reflejo en el incremento de las llegadas a Europa por la vía irregular en el primer trimestre de 2014, en España se registraron 1.040 peticiones de asilo, un 10% menos que en el mismo periodo del año pasado. Organizaciones especializadas denuncian los obstáculos impuestos al acceso a la protección internacional en el estado español, relacionados con la baja armonización entre el control fronterizo y el derecho de asilo. ¿Dónde falla? El informe “Acceso a la protección: un derecho humano” de la Comisión Española de Ayuda al Refugiado (CEAR) profundiza en algunas de las claves.": null
+                                },
+                                {
+                                    "Los solicitantes de asilo en las ciudades autónomas españolas están discriminados con respecto al resto de personas que demandan protección internacional en España, según las organizaciones españolas especializadas en migración, el Alto Comisionado de Naciones Unidas y el Relator Especial de la ONU contra el Racismo y la Xenofobia.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.738297883999621,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.738297883999621,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:29:14",
+                    "run_time": 9.738297883999621,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa mayoría de peticiones de asilo en España son rechazadas\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número total de solicitudes de asilo presentadas en España en 2025?\n¿Cuál es el porcentaje de solicitudes de asilo aprobadas en España en 2025?\n¿Cuáles son las razones principales por las que se rechazan las solicitudes de asilo en España?\n¿Cómo compara la tasa de rechazo de solicitudes de asilo en España con la de otros países europeos?\n¿Qué opinan los expertos sobre la política de asilo en España y sus implicaciones?\n\n3. Here are the text sources you should use as your source of information:\n[0] Entre el 1 de enero y el 30 de septiembre de 2025 se registraron en España 108.649 solicitudes de protección internacional, un incremento del 12% respecto a agosto.\n[0] Prefer to read this article in English 🇬🇧? Read it in English here: Spain registers over 108,000 asylum applications in the first nine months of 2025\n[1] Madrid, 19/05/2025 | España fue el segundo país de los 27 de la Unión Europea (UE) que más primeras solicitudes de asilo recibió en 2024, con el 18% del total, hasta el máximo histórico de 164.000 peticiones, solo por detrás de Alemania, que concentró el 25%. Les siguieron Italia (151.000) y Francia (130.000). Según Focus on Spanish Society, publicación editada por Funcas, es el segundo año consecutivo que España se sitúa en esa posición, un lugar que ha ocupado de forma estable —entre el segundo y el tercer puesto— desde 2019. En total, en 2024, la UE registró cerca de un millón de solicitudes de asilo (912.000), lo que supone una caída del 13% respecto a 2023.\n[2] El informe revela que, por primera vez, España ocupa el segundo lugar en la lista de países que más solicitudes de protección internacional recibieron en 2024 (167.366), solo por detrás de Alemania. Por otra parte, ha bajado el porcentaje de personas a las que se les reconoce el estatus de refugiado, del 8,3 al 6,6 % de 2023. Asimismo, en 2024 se acumularon 242.056 expedientes de protección internacional pendientes de resolver, un 26,6 % más que el año anterior.\n[3] El informe añade otros problemas de procedimiento de asilo en España que suponen trabas para el acceso efectivo a este derecho, como que no se garantiza el recurso efectivo contra una decisión negativa porque apelar no suspende la orden de expulsión que pese sobre el solicitante, que la formación de agentes especializados no sea una realidad o que no se facilite información en los Centros de Internamiento sobre la posibilidad de pedir protección internacional.\n[3] A pesar del deterioro de la estabilidad en algunos países de África subsahariana y su consiguiente reflejo en el incremento de las llegadas a Europa por la vía irregular en el primer trimestre de 2014, en España se registraron 1.040 peticiones de asilo, un 10% menos que en el mismo periodo del año pasado. Organizaciones especializadas denuncian los obstáculos impuestos al acceso a la protección internacional en el estado español, relacionados con la baja armonización entre el control fronterizo y el derecho de asilo. ¿Dónde falla? El informe “Acceso a la protección: un derecho humano” de la Comisión Española de Ayuda al Refugiado (CEAR) profundiza en algunas de las claves.\n[3] La normativa española obliga a la apertura de un proceso administrativo que garantice la asistencia letrada del inmigrante y el conocimiento de sus derechos, como la posibilidad de solicitar asilo. Si se suprime este paso se incumple la legislación internacional, ya que pueden ser expulsadas personas que huyeron de sus países en busca de protección, vulnerando el principio de “no devolución”.\n[3] Los solicitantes de asilo en las ciudades autónomas españolas están discriminados con respecto al resto de personas que demandan protección internacional en España, según las organizaciones españolas especializadas en migración, el Alto Comisionado de Naciones Unidas y el Relator Especial de la ONU contra el Racismo y la Xenofobia.\n[4] El ministerio del Interior aceptó 11.163 peticiones de protección internacional frente a las 163.220 peticiones recibidas. Esto supone una caída de cuatro puntos en comparación a 2022 (14.235) y, con un 12%, convierte a España en el país de la UE que menos porcentaje de solicitudes de asilo concede. La media europea está en el 42%.\n[5] La tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria (frente a la menor concesión de la mayor protección ofrecida por el estatuto de persona refugiada). A pesar del aumento, España sigue a la cola de la Unión Europea, y muy por debajo de la media europea del 46,6%.\n[6] En cualquier caso, un informe reciente de la Comisión Española de Ayuda al Refugiado (Cear) muestra que España es también el país de la UE que menos asilo concede, pues sólo reciben protección nacional el 18% de los que lo solicitan, la tasa más baja de todos los países, donde la media del reconocimiento es del 46%. Eso sí, de los 33.458 expedientes de asilo resueltos en España en 2024 de ciudadanos procedentes de Venezuela, un 98% recibió una autorización de residencia temporal por razones humanitarias, que les permite vivir y trabajar en nuestro país durante un año, aunque no es propiamente una figura de protección internacional.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La mayoría de peticiones de asilo en España son rechazadas"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSe puede argumentar que la mayoría de peticiones de asilo en España son rechazadas debido a la baja tasa de reconocimiento de protección internacional en el país. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, solo se concedió protección nacional al 18% de los solicitantes de asilo, lo que es la tasa más baja de todos los países de la UE, donde la media del reconocimiento es del 46% ([6]). Esto sugiere que la mayoría de las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, España fue el país de la UE que menos porcentaje de solicitudes de asilo concedió, con un 12% (menos cuatro puntos en comparación con 2022) ([4]). Esto indica que la mayoría de las peticiones de asilo en España son rechazadas.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la afirmación no es del todo precisa. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, un 98% de los expedientes de asilo resueltos en España en relación con ciudadanos procedentes de Venezuela recibieron una autorización de residencia temporal por razones humanitarias ([6]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, la tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria ([5]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la mayoría de peticiones de asilo en España son rechazadas, también hay evidencia que sugiere que no todas las peticiones de asilo en España son rechazadas. La tasa de reconocimiento de protección internacional en España es baja, pero hay casos en los que se concede protección nacional o autorizaciones de residencia temporal por razones humanitarias. Por lo tanto, la afirmación \"la mayoría de peticiones de asilo en España son rechazadas\" es parcialmente verdadera, ya que no todas las peticiones de asilo en España son rechazadas, pero la mayoría sí lo son."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.1139392189998034,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.1139392189998034,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:29:16",
+                    "run_time": 2.1139392189998034,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La mayoría de peticiones de asilo en España son rechazadas\nArticle: **Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSe puede argumentar que la mayoría de peticiones de asilo en España son rechazadas debido a la baja tasa de reconocimiento de protección internacional en el país. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, solo se concedió protección nacional al 18% de los solicitantes de asilo, lo que es la tasa más baja de todos los países de la UE, donde la media del reconocimiento es del 46% ([6]). Esto sugiere que la mayoría de las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, España fue el país de la UE que menos porcentaje de solicitudes de asilo concedió, con un 12% (menos cuatro puntos en comparación con 2022) ([4]). Esto indica que la mayoría de las peticiones de asilo en España son rechazadas.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la afirmación no es del todo precisa. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, un 98% de los expedientes de asilo resueltos en España en relación con ciudadanos procedentes de Venezuela recibieron una autorización de residencia temporal por razones humanitarias ([6]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, la tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria ([5]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la mayoría de peticiones de asilo en España son rechazadas, también hay evidencia que sugiere que no todas las peticiones de asilo en España son rechazadas. La tasa de reconocimiento de protección internacional en España es baja, pero hay casos en los que se concede protección nacional o autorizaciones de residencia temporal por razones humanitarias. Por lo tanto, la afirmación \"la mayoría de peticiones de asilo en España son rechazadas\" es parcialmente verdadera, ya que no todas las peticiones de asilo en España son rechazadas, pero la mayoría sí lo son.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La mayoría de peticiones de asilo en España son rechazadas\nArticle: **Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSe puede argumentar que la mayoría de peticiones de asilo en España son rechazadas debido a la baja tasa de reconocimiento de protección internacional en el país. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, solo se concedió protección nacional al 18% de los solicitantes de asilo, lo que es la tasa más baja de todos los países de la UE, donde la media del reconocimiento es del 46% ([6]). Esto sugiere que la mayoría de las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, España fue el país de la UE que menos porcentaje de solicitudes de asilo concedió, con un 12% (menos cuatro puntos en comparación con 2022) ([4]). Esto indica que la mayoría de las peticiones de asilo en España son rechazadas.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la afirmación no es del todo precisa. Según el informe de la Comisión Española de Ayuda al Refugiado (CEAR), en 2024, un 98% de los expedientes de asilo resueltos en España en relación con ciudadanos procedentes de Venezuela recibieron una autorización de residencia temporal por razones humanitarias ([6]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\nAdemás, según el informe de Focus on Spanish Society, en 2024, la tasa de reconocimiento de protección internacional en España aumentó seis puntos, hasta alcanzar el 18,5%, si bien esto se debió principalmente al aumento exponencial de la concesión de la protección subsidiaria ([5]). Esto sugiere que no todas las peticiones de asilo en España son rechazadas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la mayoría de peticiones de asilo en España son rechazadas, también hay evidencia que sugiere que no todas las peticiones de asilo en España son rechazadas. La tasa de reconocimiento de protección internacional en España es baja, pero hay casos en los que se concede protección nacional o autorizaciones de residencia temporal por razones humanitarias. Por lo tanto, la afirmación \"la mayoría de peticiones de asilo en España son rechazadas\" es parcialmente verdadera, ya que no todas las peticiones de asilo en España son rechazadas, pero la mayoría sí lo son."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La mayoría de peticiones de asilo en España son rechazadas\", \"categories\": [\"Política\", \"Migración\", \"Sociedad\"], \"label\": \"Undetermined\", \"main_claim\": \"La afirmación \\\"la mayoría de peticiones de asilo en España son rechazadas\\\" es parcialmente verdadera\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

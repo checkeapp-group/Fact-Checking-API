@@ -1,0 +1,647 @@
+{
+    "question": "España es el país de la Unión Europea con la mayor esperanza de vida al nacer",
+    "answer": "Según el texto [1], la esperanza de vida al nacer en España en 2025 es de 84,0 años. Este valor es ligeramente inferior al de 2020, cuando la esperanza de vida era de 82,4 años. Sin embargo, es importante destacar que la esperanza de vida ha aumentado significativamente desde 1950, cuando era de 62,0 años.\n\nSegún el texto [1], la comparativa de esperanza de vida al nacer en 10 países de la UE (1950-2025) muestra que España tiene una esperanza de vida algo menor que la de algunos países como Francia (83,1 años) e Italia (82,9 años) en 2025. Sin embargo, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania (81,5 años), Países Bajos (82,2 años) y Portugal (81,8 años).\n\nSegún el texto [2], la esperanza de vida al nacer en España alcanzó los 83,77 años en 2023, lo que es una de las tasas más altas a nivel global. Además, el texto [3] menciona que la esperanza de vida en España es la más alta de la Unión Europea, con 84 años, seguida de cerca por Italia, Suecia y Francia.\n\nLos textos [2] y [3] mencionan que la esperanza de vida en España es la más alta de la Unión Europea. Además, el texto [1] proporciona datos comparativos de la esperanza de vida en 10 países de la UE, lo que permite contrastar la situación de España con la de otros países.\n\nAunque el texto [1] muestra que la esperanza de vida en España es inferior a la de algunos países como Francia e Italia en 2025, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania, Países Bajos y Portugal. Además, el texto [4] menciona que la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores. Esto podría sugerir que la esperanza de vida en España no es tan alta como se afirma.\n\nEn conclusión, la afirmación de que España es el país de la Unión Europea con mayor esperanza de vida al nacer es parcialmente cierta. Aunque la esperanza de vida en España es alta y supera a la de algunos países como Alemania, Países Bajos y Portugal, es inferior a la de otros países como Francia e Italia en 2025. Además, la expectativa de vida saludable a partir de los 65 años ha descendido, lo que podría sugerir que la esperanza de vida en España no es tan alta como se afirma. Sin embargo, es importante destacar que la esperanza de vida en España es una de las tasas más altas a nivel global, según el texto [2]. Por lo tanto, la afirmación es **verdadera**, pero con algunas reservas.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://institutoeuropeo.es/esperanza-de-vida-en-espana-2025/",
+            "source": "institutoeuropeo.es",
+            "favicon": "https://institutoeuropeo.es/wp-content/uploads/2025/05/cropped-logo-webp-instituto-europeo-32x32.webp"
+        },
+        "2": {
+            "url": "https://lawebdelasalud.com/espana-avanza-hacia-una-nueva-longevidad/",
+            "source": "lawebdelasalud.com",
+            "favicon": "https://i0.wp.com/lawebdelasalud.com/wp-content/uploads/2022/04/cropped-FAVICON_Mesa-de-trabajo-1.png?fit=32%2C32&ssl=1"
+        },
+        "3": {
+            "url": "https://www.funcas.es/prensa/espana-tiene-la-mayor-esperanza-de-vida-de-la-ue-y-15-ccaa-estan-entre-las-50-regiones-europeas-mas-longevas/",
+            "source": "www.funcas.es",
+            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png"
+        },
+        "4": {
+            "url": "https://www.democrata.es/sanidad/espana-mantiene-alta-esperanza-vida-disminuye-calidad-post-65-anos-revela-estudio/",
+            "source": "www.democrata.es",
+            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España es el país de la Unión Europea con la mayor esperanza de vida al nacer",
+        "categories": [
+            "Salud",
+            "Demografía",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "España tiene la mayor esperanza de vida al nacer en la Unión Europea, aunque con algunas reservas",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.0136684729986882,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.0136684729986882,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:59",
+                    "run_time": 2.0136684729986882,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña es el país de la Unión Europea con mayor esperanza de vida al nacer\n\n**Critical Research Questions:**\n1. ¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?\n2. ¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?\n3. ¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?\n4. ¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?\n5. ¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"esperanza de vida al nacer en españa 2025 datos oficiales\", \"esperanza de vida al nacer en españa comparativa europa 2025\", \"expertos sobre esperanza de vida al nacer en españa europa 2025\", \"esperanza de vida al nacer en españa vs otros paises europa 2025 datos oficiales\", \"esperanza de vida al nacer en españa 2025 estudios académicos\", \"esperanza de vida al nacer en españa europa 2025 fuentes oficiales\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 33.20888382299927,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 33.20888382299927,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:40:33",
+                    "run_time": 33.20888382299927,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "esperanza de vida al nacer en españa 2025 datos oficiales",
+                                "esperanza de vida al nacer en españa comparativa europa 2025",
+                                "expertos sobre esperanza de vida al nacer en españa europa 2025",
+                                "esperanza de vida al nacer en españa vs otros paises europa 2025 datos oficiales",
+                                "esperanza de vida al nacer en españa 2025 estudios académicos"
+                            ],
+                            "results": {
+                                "esperanza de vida al nacer en españa 2025 datos oficiales | esperanza de vida al nacer en españa comparativa europa 2025 | expertos sobre esperanza de vida al nacer en españa europa 2025 | esperanza de vida al nacer en españa vs otros paises europa 2025 datos oficiales | esperanza de vida al nacer en españa 2025 estudios académicos": [
+                                    {
+                                        "text": "Sin dar muchos rodeos, la media de vida en España se sitúa en 84 años. Pero tal y como podrás ver en este articulo esta cifra es distinta para hombres y mujeres. ¿Por qué tenemos medias de vida distintas? Bien esto se debe a muchos factores que podrás observar más adelante, y algunos te interesarán.\n\nCada vez existen más casos de personas longevas, o como cariñosamente los llamamos «Super Centenarios», y tratamos de darle la máxima visibilidad posible, por que tenemos el deber de reconocer a estas personas por todo el trabajo durante tantos años, y por qué la vida es un regalo.\n\nEvolución de la Esperanza de vida en España (1950–2025)\n\nLa evolución de la esperanza durante dos siglos ha sido optima, como diríamos ha ido a in «crescendo» hemos de tener en cuenta que también han hecho mella acciones como la pandemia de covid-19 en el 2020, donde la tasa de mortalidad en esos meses subió lamentablemente. Pero aquí tienes la gráfica.\n\nRecuerda que no hablamos sin saber, esto sale de Instituto Nacional de Estadística, además los avances tecnológicos en el sector sanitario nos hace aumentar la esperanza con el paso de los años.\n\nDiferencias por sexo: ¿por qué viven más las mujeres?\n\nEs un dato objetivo que las mujeres acaban sus días con más años de vida, la sanidad Española es consciente de esto, y a pesar de que España lidera la esperanza de vida en la ue. Las mujeres EN 2025 tienen una esperanza de vida de 85.5 años.\n\nPero respondiendo a la gran incógnita las mujeres viven más por una serie de puntos que son los siguientes:\n\nCromosomas y Estrógenos\n\nLas mujeres tienen dos cromosomas, X y X mientras que los hombres tienen uno X y el otro Y, los cromosomas X tienen genes que ayudan a protegerse contra las enfermedades, por así decirlo las mujeres tienen una «copia de seguridad» y los hombres no.\n\nLos estrógenos (hormona femenina) también hacen mella en este asunto de la longevidad, por qué estas hormonas femeninas son sinónimo de protección contra enfermedades cardiovasculares entre otras, y la testosterona es todo lo contrario, siempre ha estado asociado a mayor riesgo de enfermedades.\n\nEstilo de vida\n\nLos hombres son más sencillos para todo, incluso para ir al médico y pedir ayuda sanitaria cuando se necesita, ellas son más reticentes a este pensamiento y buscan atención médica con facilidad, además tienen menos probabilidades de fumar o beber alcohol compulsivamente.\n\nSegún diferentes estudios realizados en Estados Unidos la tasa de alcoholismo es del 5.5% en hombres en comparación con el de las mujeres de tan solo 1.9%.\n\nLas 5 comunidades autónomas con mayor esperanza de vida en España\n\nLa brecha de la longevidad no es tan grande entre las top 5 en primera posición tenemos a Madrid en 84 años casi, todos estos datos están sacados del Gobierno Español y del ministerio de sanidad. Y las 5 comunidades autónomas no bajan de los 83 años según Datosmacro.\n\nTop 5 comunidades autónomas con mayor esperanza de vida al nacer (hombres y mujeres) Comunidad Autónoma Hombres (años) Mujeres (años) Comunidad de Madrid 82,9 87,9 Comunidad Foral de Navarra 82,4 87,5 Castilla y León 82,2 87,3 País Vasco 82,1 87,2 La Rioja 82,0 87,0\n\nLlegar a los 65 años de vida saludable es algo primordial, todos tenemos un pariente que nos comunica que se encuentra muy mal de salud, que en el 2019 tuvo una operación en 2022 otra y está obsesionado con que es su último año de vida.\n\nPodemos ponerle solución a este pensamiento y en el penúltimo punto podrás observar 6 factores que elevan la esperanza de vida.\n\n¿Por qué estás 5 comunidades autónomas son las que tienen mayor esperanza de vida?\n\nBásicamente influyen una serie de factores como por ejemplo:\n\nAcceso a sanidad: Estas comunidades tienen un acceso más rápido a la sanidad, con tiempos de espera mucho más bajos.\n\nCalidad ambiental: Estas comunidades de España siguen a la cabeza del aire más puro, esto es un indicador de que el medioambiente es un factor que influye\n\nLas 5 comunidades autónomas con menor esperanza de vida: una mirada incómoda\n\nEn primera posición tenemos a Ceuta y Melilla con unos 79 años de media, a la que lo sigue Andalucía con una esperanza de unos 81 años.\n\n¡Pero no te asustes! en el siguiente punto podrás observar como puedes elevar tu esperanza de vida.\n\nTop 5 comunidades autónomas con menor esperanza de vida al nacer (hombres y mujeres) Comunidad Autónoma Hombres (años) Mujeres (años) Ceuta 77,7 83,5 Melilla 78,5 84,2 Andalucía 79,7 85,2 Murcia 80,2 85,6 Canarias 80,4 85,7\n\n6 factores que elevan (o hunden) tu esperanza de vida\n\nEsta es la gran pregunta que se hace la gente. ¿Pero por qué? Pese a que mucha gente no lo piense a diario, la vida es una bendición y a todos nos gustaría vivir más y mejor, ya sea para llevar a cabo más planes de vida, poder disfrutar\n\nAcceso universal y de calidad al sistema sanitario\n\nTener un sistema sanitario óptimo es una fuente de seguridad para vivir más y mejores, por ejemplo la Comunidad de Madrid tiene un buen sistema sanitario con buenos, tiempos. Pero si eres capaz de disponer de una buena calidad sanitaria, estás un pasito más cerca de vivir más y mejor.\n\nHábitos alimenticios\n\nEl filosofo alemán Ludwig Feuerbach dijo la famosa frase «somos lo que comemos» y es así, llevar una dieta mediterránea equilibrada favorece a una longevidad de calidad, los alimentos buenos te van a aportar muchas cosas positivas, tanto las proteínas como los carbohidratos y las grasas saludables.\n\nPráctica regular de actividad física\n\nEl deporte es vida, fin. Hay multitud de deportes que puedes practicar, además de darle fuerza a una longevidad saludable también te hará controlar el siguiente punto.\n\nNosotros desde el Instituto Europeo de Salud y Bienestar Social hacemos referencia a que todos los factores son importantes, pero este deberías tratarlo como un fundamental.\n\nGestión del estrés\n\nNo vamos a entrar en factores que elevan el estrés por qué esto estaría asociado con la psicología. Pero evitar a toda costa que se eleve el cortisol.\n\nEn el SIGLO XXI hemos aplicado vivir en «fast», dormir menos, más prisas para todo, todo el día conectados a las redes, y esto es un coctel perfecto, tenlo en cuenta.\n\nEntornos con baja contaminación\n\nVivir en un entorno con poca contaminación te garantiza de primeras una vida saludable al nacer, posteriormente los otros factores si nos cuidas se reducirán las posibilidades de una longevidad de calidad.\n\n¿Crees que es casualidad que la mayoría de longevos estén en entornos rurales? Pues no, no lo es. Pero no te preocupes, por qué si sigues los consejos que te hemos dado vivirás más y mejor.\n\nComparativa internacional: ¿Dónde está España frente al resto del mundo?\n\nEstamos a la cabeza de países de la ue con 84 años. Sabemos que el estallido de la pandemia del coronavirus hizo estragos pero no te dejes guiar por esto, en la tabla de abajo podrás observar todos los datos.\n\nComparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4",
+                                        "metadata": {
+                                            "url": "https://institutoeuropeo.es/esperanza-de-vida-en-espana-2025/",
+                                            "source": "institutoeuropeo.es",
+                                            "favicon": "https://institutoeuropeo.es/wp-content/uploads/2025/05/cropped-logo-webp-instituto-europeo-32x32.webp",
+                                            "title": "Esperanza de vida al nacer en España | Liderando con 84 años",
+                                            "type": "web_search",
+                                            "base_url": "https://institutoeuropeo.es",
+                                            "snippet": "Esperanza de vida al nacer en España: Liderando con 84 años en 2025. Estamos a la cabeza de la UE en comparación con otros países de Europa."
+                                        }
+                                    },
+                                    {
+                                        "text": "España continúa avanzando hacia una sociedad cada vez más envejecida. Casi 10 millones de personas de 65 años o más residen actualmente en el país, representando el 20,4% de la población total. El envejecimiento de la población española continúa acelerándose. La proporción de mayores de 80 años alcanza el 6,1%, y los mayores de 90 años suman más de 650.000, evidenciando un proceso de sobreenvejecimiento que se acentuará con la llegada a la vejez de las generaciones del baby boom. Las proyecciones del Instituto Nacional de Estadística (IN) indican que en 2045 la población mayor podría superar los 15,9 millones, lo que equivaldría al 29,2% del total de habitantes.\n\nEsta y otras conclusiones han sido detalladas hoy por personal del Departamento Población del Consejo Superior de Investigaciones Científicas (CSIC), organismo dependiente del Ministerio de Ciencia, Innovación y Universidades, que ha reunido datos sobre las condiciones de vida de las personas mayores en España en el informe Un perfil de las personas mayores en España 2025. La iniciativa, impulsada desde la iniciativa Envejecimiento en red, cuenta con el apoyo y la financiación de la PTI+ Salud Global del CSIC.\n\nEl informe también revela que en 2024 se alcanzó un nuevo máximo histórico de personas centenarias, con casi 16.000, de las cuales más del 80% son mujeres. La feminización de la vejez se mantiene como un fenómeno constante: entre los mayores de 65 años, las mujeres superan en número a los hombres en un 29,5%. La edad media de la población española ha seguido aumentando, situándose en 44,37 años, lo que consolida a España entre los países más envejecidos de Europa, un reflejo de las transformaciones demográficas y de la prolongación de la vida.\n\nEn este apartado demográfico, el informe constata un fenómeno en crecimiento: la presencia de más de medio millón de personas mayores extranjeras (5,1% del total de mayores), lo que evidencia que España sigue siendo un país atractivo para el retiro y la residencia en la vejez.\n\nSalud y esperanza de vida: más años, pero con retos en la calidad de esos años\n\nLa esperanza de vida al nacer en España se mantiene entre las más altas del mundo, alcanzando en 2023 los 83,77 años, con 86,34 años para las mujeres y 81,11 para los hombres. La esperanza de vida a los 65 años también se sitúa en niveles elevados: 21,68 años adicionales de media, 19,56 para los hombres y 23,49 para las mujeres. Sin embargo, la esperanza de vida en buena salud a los 65 años se mantiene en torno a 9,7 años, con una ligera diferencia de género: 9,5 años para las mujeres y 9,8 años para los hombres. Más de la mitad de los mayores de 85 años padece enfermedades crónicas, mientras que un 10,9% de los mayores de 65 años presenta limitaciones graves en su capacidad para realizar actividades cotidianas.\n\nJulio Pérez Díaz, demógrafo del Instituto de Economía, Geografía y Demografía (IEGD-CSIC) y coordinador del informe: “El proceso de envejecimiento de la población española plantea una cuestión central: no solo cuántos años pueden esperar vivir las personas mayores, sino cuántos de esos años transcurrirán en buena salud. Este interrogante, clave para el bienestar individual, tiene también una dimensión pública, al incidir directamente en la planificación de los servicios sanitarios, sociales y de cuidados”.\n\nLos hábitos de vida influyen de manera significativa en la salud: en el grupo de mayores de 65 años, un 47,2% de los hombres y un 36,4% de las mujeres presentan sobrepeso, y la actividad física regular se realiza en un 42,5% de las personas de 65 a 69 años, mientras que el sedentarismo afecta a un 38,5%. El acceso a servicios sanitarios es alto, aunque persisten barreras económicas y geográficas, especialmente para quienes viven solos.\n\n“El mantenimiento de un peso saludable, la práctica regular de ejercicio físico y la ausencia de consumo de tabaco se consolidan como los principales factores de prevención frente a enfermedades crónicas y pérdida de autonomía funcional”, indica Diego Ramiro Fariñas, investigador del IEGD y coautor del informe.\n\nRecursos económicos y vida tras la jubilación\n\nEn febrero de 2025, la Seguridad Social registraba casi 10,3 millones de pensiones contributivas, de las cuales más de 6,5 millones correspondían a jubilación. La brecha de género sigue siendo relevante: la pensión media mensual es de 1.717 euros para los hombres y de 1.194,43 euros para las mujeres. La actividad laboral entre los mayores de 65 años crece lentamente, vinculada a la reforma del sistema de pensiones y al aumento de la edad legal de jubilación. España se mantiene entre los países con mayor esperanza de vida tras la jubilación: 22 años para los hombres y 26,5 para las mujeres.\n\nEl gasto medio de los hogares liderados por personas mayores asciende a 28.863 € anuales, concentrándose principalmente en vivienda, alimentación y sanidad, mientras que el riesgo de pobreza entre la vejez se sitúa en el 16,9%, con un 18,9% de mujeres afectadas frente al 14,4% de los hombres.\n\nCuidados, dependencia y servicios públicos\n\nUna de las novedades de este informe respecto al año anterior es que, en lugar de centrarse en la felicidad autodeclarada, la implicación de los mayores en tareas domésticas o el cuidado de personas dependientes, se ha analizado en profundidad: los cuidados a mayores dependientes proporcionados por servicios de ayuda a domicilio, la discriminación percibida en el trato administrativo y el uso del transporte público por parte de las personas mayores. En 2024, uno de cada cuatro hogares con personas mayores contaba con miembros en situación de dependencia, y solo un 38,4% de ellos recibía servicios de ayuda a domicilio. La financiación pública de estos servicios ha aumentado, pero más de 530.000 hogares siguen teniendo necesidades no cubiertas.\n\n“En conjunto, los indicadores reflejan un país que vive más y mejor que nunca, pero en el que la salud en los años de vejez sigue siendo un ámbito prioritario de intervención pública. La promoción de estilos de vida saludables, el acceso equitativo a los servicios sanitarios y la atención a la cronicidad y la dependencia se consolidan como pilares esenciales para garantizar un envejecimiento activo y saludable en las próximas décadas”, señala Pérez Díaz.\n\nEl 7,7% de las personas mayores que han tenido contacto con la administración pública perciben discriminación, principalmente por edad o problemas de salud. Por otro lado, el 64% de los mayores de 65 años no son usuarios frecuentes del transporte público, destacando diferencias según sexo y disponibilidad local.\n\nEducación, brecha digital y autonomía\n\nAunque la mayoría de las personas mayores aún cuenta con estudios primarios, se observa una tendencia generacional hacia niveles educativos superiores y una notable reducción de la brecha digital. El 70,5% de los mayores de 65 a 74 años utilizan Internet a diario, mientras que en el grupo de 75 años o más, el uso diario alcanza el 34,6%, con variaciones según edad, educación y nivel de ingresos. El aumento en el uso de tecnologías permite a los mayores comunicarse, informarse, gestionar servicios y realizar operaciones bancarias, fortaleciendo su autonomía y participación social.\n\nEste informe constituye una referencia fundamental para todas las entidades e instituciones implicadas en el bienestar de las personas mayores, proporcionando datos actualizados y fiables sobre demografía, salud, economía, educación, digitalización, cuidados y participación social. Los hallazgos permiten orientar políticas públicas, servicios sociales y sanitarios, y diseñar estrategias que promuevan una vejez activa, inclusiva y de calidad. Sus autores destacan: “El reto para los próximos años no será únicamente vivir más, sino vivir mejor, con más salud y autonomía durante una vida cada vez más larga”.\n\nEn conjunto, Un perfil de las personas mayores en España 2025 ofrece una radiografía completa del envejecimiento poblacional, combinando indicadores demográficos, de salud, económicos y sociales. Los datos reflejan avances significativos en esperanza de vida, salud y digitalización, así como mejoras en la cobertura de servicios de cuidados y atención domiciliaria. Al mismo tiempo, destacan desigualdades de género, territoriales y socioeconómicas que persisten en pensiones, educación, acceso a servicios y tecnologías. Esta información constituye una herramienta clave para la planificación de políticas públicas, el diseño de servicios sociales y sanitarios, y la promoción de una vejez activa, autónoma e inclusiva, reafirmando la misión del CSIC de proporcionar conocimiento riguroso y actualizado que contribuya al bienestar de la población y al desarrollo de estrategias basadas en evidencia científica.\n\nCCHS-CSIC Comunicación\n\ncomunicacion@csic.es",
+                                        "metadata": {
+                                            "url": "https://www.csic.es/es/actualidad-del-csic/espana-combina-longevidad-record-con-desafios-en-atencion-la-dependencia-y-las-enfermedades-cronicas",
+                                            "source": "www.csic.es",
+                                            "favicon": "https://www.csic.es/sites/default/files/favicon.ico",
+                                            "title": "España combina longevidad récord con desafíos en ...",
+                                            "type": "web_search",
+                                            "base_url": "http://www.csic.es",
+                                            "snippet": "La esperanza de vida a los 65 años también se sitúa en niveles elevados: 21,68 años adicionales de media, 19,56 para los hombres y 23,49 para ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n\n\nAquí puedes consultar:\n\nRelacionado:\n\n⇲ Nacimientos: datos mensuales y anuales\n\n⇲ Mortalidad: datos semanales y anuales\n\n⇲ Matrimonios, divorcios y separaciones, datos y estadísticas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEsperanza de vida en España: cifras del INE\n\nLa esperanza de vida al nacimiento aumentó casi siete décimas en 2023, hasta situarse en 83,77 años. Por sexo, la de los hombres subió 0,75 años, hasta 81,11, y la de las mujeres subió 0,60 años, hasta 86,34, cifra que se supera por primera vez. Así lo revelan las cifras del estudio 'Movimiento Natural de la Población / Indicadores Demográficos Básicos' del Instituto Nacional de Estadística (INE).\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://www.epdata.es/datos/esperanza-vida-espana-salud-graficos-estadisticas/739",
+                                            "source": "www.epdata.es",
+                                            "favicon": "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jYWRMWhTURSG/3PfS5umtdVAm2BFtIQMz0ERcSlS6HMoig5igzpUXGpRwUV0cMgguKgVhOLUoVkElVqkkxgUh6jgINWGQo1kUdOaF9P0pclLbu5xKG1ek6I/XLic+53/nHMPoUHDln2YgKsABgGePKlr3UQ4AeAVGBMjXb6km9c3LhHL9gJ4CGAUgFiPkgCxACgEIATCaGylOA6i2yOdPokNMGLZOoAXAMbqydtKB9FNAFNThaKAC44CGPpHYqMuEOgaAIiIZQcB3GgkqkqpjF1W84UyHKVUkwVzNLZS7NABjgDkdb/lShWVSGen1xz58h3gC3o9fddDPUO9bZ76eER+AKcFQP1bjRnJpcL4miOHYRpzMI0PmXL11OzSSqy5C/ST/2NqkoCj9RhUznYGYBp5N7sjsbjv0YHdKY1oswtmPNeP7e/WWzXhHkExQzxrKHZxzy6gYUN/ajUp7IrUAYRcJwxwNJJd3QQjli0+Sz5yZyHz6WuhpJgZAPCrVF2m8PyPKwcDXRNETRPOAHgCQAf4EjMdZ/Db9+nsXK8mzp7p3Rmc/pk/T4gnewZCgVSgo7WjyWIbMVg6VfX0zbel/KojbwmYxvKXTP5eWdaad72NCKRL5nMejx6HadgCAHK2czeRtmaLFflfk4JTVYl0NpazyzPrhhuKJ1u8Hu1BuKdzrM/fLlo0seXHy7KmUpZdWfy9er8iVRSmobYa1I0OaYIu+9tbB9t0bS8DKFXl91yx8loxP4ZpLLjxv0tx7y1Ag4dXAAAAAElFTkSuQmCC",
+                                            "title": "Esperanza de vida en España, en gráficos",
+                                            "type": "web_search",
+                                            "base_url": "https://www.epdata.es",
+                                            "snippet": "La esperanza de vida al nacer en España fue de 83,1 años (80,3 en hombre y 85,8 en mujeres), según cifras del Ministerio de Sanidad ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "FOCUS ON SPANISH SOCIETY | SEPTIEMBRE 2025\n\nFecha: 22 septiembre 2025\n\nDescargar (formato PDF)\n\nLas españolas son las mujeres del continente que viven más años (86,7), mientras que los españoles, con 81,3, ocupan el quinto puesto\n\n\n\nMadrid encabeza el ranking general de todas las regiones europeas, con 86,1 años de esperanza de vida, seguida de Navarra (4º puesto) y Castilla y León (6º)\n\nMadrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.\n\nEl mapa europeo muestra un patrón claro: los países del sur y algunos del norte lideran la longevidad, mientras que los del este -sobre todo Letonia, Bulgaria, Rumanía y Hungría- se sitúan en los niveles más bajos, con diferencias de más de ocho años a lo ancho del continente.\n\nLas mujeres europeas viven de media 84,4 años, frente a 79,2 los hombres. España repite este patrón, pero con una brecha algo mayor: las españolas son las más longevas de Europa, con 86,7 años, uno más que las francesas, mientras que los españoles, con 81,3 años, ocupan el quinto puesto, a solo 0,4 años (cinco meses) de Luxemburgo y Suecia, que comparten la primera posición con 81,7 años. La diferencia entre mujeres y hombres se ha reducido en España en las tres últimas décadas. En 1990, las mujeres vivían de media 7,3 años más que los hombres (9,1% más); en 2023, la brecha bajó a 5,4 años (6,2%). La razón es que los hombres han ganado más esperanza de vida (+8 años desde 1990, frente a +6,1 en las mujeres).\n\nEl liderazgo español se refuerza al analizar los datos regionales. Madrid encabeza el ranking de las regiones europeas, con 86,1 años de esperanza de vida, seguida de Navarra (4º puesto) y Castilla y León (6º). En total, 15 comunidades autónomas se encuentran en el top 50 europeo (de 242 regiones con datos disponibles). Solo Canarias (82,8 años), Andalucía (82,7), Melilla (81,6) y Ceuta (81,3) quedan fuera.\n\nEl caso de las mujeres es aún más llamativo. En Madrid alcanzan los 88,3 años de esperanza de vida, cifra solo superada por la de Åland (Finlandia). Castilla y León (87,7), Navarra (87,6) y el País Vasco (87,4) completan el top 5 europeo. En este ranking, 10 regiones españolas figuran entre las 15 primeras. Un ejemplo ilustra la magnitud de las desigualdades regionales y de género: una mujer en Madrid vive 8,3 años más que un hombre en Andalucía, lo que equivale a un 10,3% más de vida.\n\nEl aumento de la esperanza de vida también tiene un impacto directo en la forma en que viven las personas mayores. En Europa, el panorama es diverso: en los países bálticos y nórdicos, más del 40% de los mayores de 65 años viven solos, mientras que en el sur y el este es más común compartir vivienda con la pareja y/o con familiares. España se distingue por tener uno de los porcentajes más bajos de mayores que viven solos, un 23% frente al 32% de la media europea. En cambio, casi dos de cada tres mayores viven en pareja y el 22% convive con familiares, una cifra muy superior a la media europea, del 12%. Se observan, sin embargo, claras diferencias de género, en consonancia con la diferente longevidad de unos y otras. En España, el 30% de las mujeres mayores vive sola, frente al 14% de los hombres.\n\nCambios en la brecha de género ideológica entre los jóvenes\n\nEste Focus on Spanish Society también se ocupa de la evolución de la brecha de género ideológica entre los jóvenes. Hay evidencias de que la llamada Generación Z, es decir, los que en 2025 tienen menos de 28 años, ve el mundo de manera distinta a las generaciones anteriores. La tradicional diferencia ideológica entre hombres y mujeres jóvenes parece haberse invertido: ellos tienden ahora más hacia la derecha que ellas, tendencia visible en EEUU, gran parte de Europa, Asia e incluso algunos países de África.\n\nEn España, este cambio se ha acelerado en los últimos años. Desde 2020, los jóvenes ya no son el grupo más de izquierdas, y la brecha ideológica entre hombres y mujeres ha crecido desde 2014. La explicación está en un giro leve hacia la izquierda de las jóvenes, que parece haberse frenado en 2024, y, sobre todo, en un desplazamiento claro hacia la derecha entre los hombres jóvenes. En 2024, ellos se situaron en una media de 5,4 en la escala ideológica de 0 (izquierda) a 10 (derecha), frente al 4,4 de ellas, lo que supone la mayor distancia registrada entre ambos sexos, distancia que en otros grupos de edad no existe.\n\nEn comparación con otros 19 países de la UE, los hombres jóvenes españoles son algo más de derechas que la media (5,4 frente a 5,1), solo por detrás de Polonia, Lituania, Eslovenia, Finlandia, Eslovaquia y Letonia. Las mujeres, en cambio, están por debajo de la media europea (4,4 frente a 4,6), lo que coloca a España entre los países en que ellas son más de izquierdas. En conjunto, la brecha ideológica española es la sexta mayor de Europa, solo por detrás de las de Portugal, Suecia, Polonia, Finlandia y Bélgica.\n\nEl caso español encaja en la tendencia internacional de polarización ideológica entre hombres y mujeres jóvenes. Los datos muestran que esta división coincide con diferencias en la percepción de desigualdad de género en el mercado laboral, mientras que en otros actitudes o percepciones habitualmente consideradas como progresistas, como los derechos de gays y lesbianas, la inmigración o el cambio climático, la juventud española, tanto hombres como mujeres, mantiene posturas más bien afines a ese enfoque.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/prensa/espana-tiene-la-mayor-esperanza-de-vida-de-la-ue-y-15-ccaa-estan-entre-las-50-regiones-europeas-mas-longevas/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "España tiene la mayor esperanza de vida de la UE y 15 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "Las mujeres europeas viven de media 84,4 años, frente a 79,2 los hombres. España repite este patrón, pero con una brecha algo mayor: las ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los avances en medicina y la concienciación de las personas han incrementado notablemente la esperanza de vida en las últimas tres décadas. Esta imagen publicada por Funcas, elaborada con datos de Eurostat, refleja la diferencia que hay entre los años de vida de las mujeres europeas con respecto a los hombres en el año 2023.\n\nLa esperanza de vida media en los países de la Unión Europea es de 81,7 años. Al analizar el dato por sexo, las mujeres viven de media 84,4 años, mientras que la esperanza de vida de los hombres es de 79,2 años.\n\nCabe destacar que España presenta los valores más altos dentro de la Unión, con 84 años de media, aunque el dato de las mujeres (86,7 años) es mayor que el de los hombres (81,3 años). Estas cifras son superiores a las registradas en 1990, cuando la esperanza de vida de las mujeres españolas se situaba en 80,6 años y la de los hombres en 73,3 años.\n\nCompletan el podio de los países con mayor esperanza de vida Italia y Malta, seguidos por Suecia, Luxemburgo, Francia, Chipre, Irlanda, Bélgica y Portugal, que completan el ‘top 10’. En contraposición, el país europeo con menos esperanza de vida es Letonia (75,6 años).\n\nAdemás, Madrid también se ha consolidado como la región con mayor esperanza de vida de Europa, con una media de 86,1 años. En el ranking también se encuentran Navarra y Castilla y León, que ocupan el cuarto y sexto puesto, respectivamente.",
+                                        "metadata": {
+                                            "url": "https://www.idealista.com/news/finanzas/economia/2025/09/24/861127-espana-se-corona-como-el-pais-con-mayor-esperanza-de-vida-de-la-ue",
+                                            "source": "www.idealista.com",
+                                            "favicon": "https://st1.idealista.com/news/news9/themes/custom/idealista_news/favicon.ico",
+                                            "title": "España se corona como el país con mayor esperanza de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.idealista.com",
+                                            "snippet": "La esperanza de vida media en los países de la Unión Europea es de 81,7 años. Al analizar el dato por sexo, las mujeres viven de media 84,4 años ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.\n\nEl almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.\n\nEl almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.\n\nEl almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.\n\nEstadísticas Estadísticas",
+                                        "metadata": {
+                                            "url": "https://aquieuropa.com/espana-se-situa-entre-los-paises-con-mayor-esperanza-de-vida-en-la-ue-con-84-anos/",
+                                            "source": "aquieuropa.com",
+                                            "favicon": "https://aquieuropa.com/wp-content/uploads/2024/07/favicon_aqui_europa.ico",
+                                            "title": "España se sitúa entre los países con mayor esperanza de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://aquieuropa.com",
+                                            "snippet": "España se sitúa entre los países con mayor esperanza de vida en la UE con 84 años ... Según los datos preliminares de 2024 publicados por Eurostat ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En 2023, la esperanza de vida al nacer en España se ubica entre las más elevadas a nivel global, alcanzando los 83,77 años. No obstante, la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores.\n\nEl periodo con la mayor esperanza de vida en buena salud se registró en 2017 y 2019, con aproximadamente 12,3 años, según el informe ‘Un perfil de las personas mayores en España 2025’ del CSIC, vinculado al Ministerio de Ciencia, Innovación y Universidades, que analiza la situación de los mayores en el país.\n\nProblemas de salud y limitaciones en mayores\n\nMás de la mitad de los mayores de 85 años sufre de enfermedades crónicas, y un 10,9 por ciento de los mayores de 65 años enfrenta serias limitaciones para realizar actividades diarias.\n\n«El proceso de envejecimiento de la población española plantea una cuestión central: no solo cuántos años pueden esperar vivir las personas mayores, sino cuántos de esos años transcurrirán en buena salud. Este interrogante, clave para el bienestar individual, tiene también una dimensión pública, al incidir directamente en la planificación de los servicios sanitarios, sociales y de cuidados», ha señalado Julio Pérez, demógrafo del Instituto de Economía, Geografía y Demografía (IEGD-CSIC) y coordinador del informe.\n\nEntre los mayores de 65 años, un 47,2 por ciento de los hombres y un 36,4 por ciento de las mujeres tienen sobrepeso, mientras que el 42,5 por ciento de las personas de 65 a 69 años realiza actividad física regularmente y el 38,5 por ciento es sedentario. A pesar del alto acceso a servicios sanitarios, existen barreras económicas y geográficas, especialmente para quienes viven solos.\n\n«El mantenimiento de un peso saludable, la práctica regular de ejercicio físico y la ausencia de consumo de tabaco se consolidan como los principales factores de prevención frente a enfermedades crónicas y pérdida de autonomía funcional», indica Diego Ramiro Fariñas, investigador del IEGD y coautor del informe.\n\nCrecimiento del envejecimiento en España\n\nEl informe destaca que casi 10 millones de personas (9.928.368), o el 20,4 por ciento de la población total, tienen 65 años o más, reflejando un rápido envejecimiento de la sociedad española. La proporción de mayores de 80 años es del 6,1 por ciento, y los mayores de 90 años superan los 650.000, un indicio del progresivo sobreenvejecimiento que se intensificará con el envejecimiento de la generación del ‘baby boom’. Según proyecciones del Instituto Nacional de Estadística (IN), en 2045 la población mayor podría superar los 15,9 millones, representando el 29,2 por ciento del total.\n\nEn 2024 se alcanzó un récord de casi 16.000 personas centenarias, más del 80 por ciento mujeres, manteniendo la feminización de la vejez. La edad media de la población española ha aumentado a 44,37 años, consolidando a España entre los países más envejecidos de Europa. Además, más de medio millón de personas mayores extranjeras residen en España, un 5,1% del total de mayores, lo que destaca la atractividad del país como destino de retiro.",
+                                        "metadata": {
+                                            "url": "https://www.democrata.es/sanidad/espana-mantiene-alta-esperanza-vida-disminuye-calidad-post-65-anos-revela-estudio/",
+                                            "source": "www.democrata.es",
+                                            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png",
+                                            "title": "España mantiene alta esperanza de vida pero disminuye ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.democrata.es",
+                                            "snippet": "La esperanza de vida en España sigue siendo de las más altas con 83,77 años, aunque la vida saludable después de los 65 disminuye. · Problemas de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Esta generación está cambiando los patrones clásicos de la vejez. Lo confirma un diálogo con investigadores del CSIC, a propósito de la presentación del informe “Un perfil de las personas mayores en 2025” y, por otra parte, las reflexiones del I Congreso: el rol de la comunicación en los retos del envejecimiento, que se desarrolló en la Universidad Complutense de Madrid\n\nPor: Violeta Villar Liste\n\nUna de cada cinco personas tiene más de 65 años en España. La proporción de personas de 80 años o más representa el 6,1% y los mayores de 90 años, son el 1,3% de la población.\n\nEl 2024 marca récord con el número de personas centenarias: Son 15.911, superando las mujeres (82,2%) a los hombres (17,8%).\n\nLa población mayor crece. Pero esta vejez es distinta a lo que conocíamos: son personas activas, digitales y quieren erradicar estereotipos.\n\nEstos datos están compartidos en el informe Un perfil de las personas mayores en España 2025, producido por el Laboratorio Envejecimiento en red y Estadísticas experimentales. El Laboratorio, a su vez, forma parte del Departamento de Población del Consejo Superior de Investigaciones Científicas (CSIC).\n\nJulio Pérez Díaz, demógrafo del Instituto de Economía, Geografía y Demografía (IEGD-CSIC) y coordinador del informe, durante encuentro con los medios, destacó los elementos más relevantes de la investigación y la novedad: hay una nueva manera de entender la vejez con gente mayor más dinámica y participativa que cambia el entendimiento de esta etapa de la vida.\n\nJulio Pérez Díaz\n\nDe hecho, “desde 2019, los españoles de entre 65 y 74 años han superado a sus homólogos de la zona euro en el uso de Internet, según datos de Eurostat, lo que refleja una notable mejora en la adopción de las Tecnologías de la Información y la Comunicación (TIC) por parte de la población mayor en España”, de acuerdo con el informe.\n\nEn 2024, “el 82,61% de este grupo ha utilizado Internet en los últimos tres meses, una cifra que evidencia un alto grado de integración digital y que supera ampliamente la media de la Unión Europea”.\n\nEstos datos sobre la nueva vejez son coherentes con las conclusiones del I Congreso: el rol de la comunicación con los retos del envejecimiento. Organizado entre la Facultad de Ciencias de la Información de la Universidad Complutense de Madrid (UCM) y el Instituto Smart Ageing, expertos y expertas de diferentes disciplinas demostraron que es preciso resignificar esta etapa de la vida: hombres y mujeres mayores que estudian, emprenden y están activos en las redes, hablan de una manera distinta de envejecer que ya no admite sesgos.\n\nLas cifras humanas del envejecimiento\n\nUn perfil de las personas mayores en España, 2025, describe que “en 2023, la esperanza de vida al nacer en España alcanzó los 83,77 años, recuperando la tendencia ascendente que había sido interrumpida por la pandemia de COVID-19. Este valor supera incluso los niveles previos a la crisis sanitaria, cuando la esperanza de vida se situaba en 83,53 años”.\n\nSon las mujeres quienes viven más. “En 2023, la esperanza de vida al nacer de las mujeres es de 86,34 años, lo que las coloca algo más de cinco años por delante de los hombres, cuya esperanza de vida se sitúa en 81,11 años”. En comparación con el año anterior, la esperanza de vida de los hombres aumentó en casi un año (0,75 años), mientras que en las mujeres el incremento fue de más de medio año (0,6 años).\n\nJulio Pérez Díaz, dijo que está ocurriendo una transformación tremenda: Las nuevas generaciones de mayores serán femeninas y llegarán con iguales o más estudios que los hombres, tendencia que cambiará la relación con la productividad y el empleo.\n\nAl evaluar los servicios digitales más utilizados por la población de entre 75 y 84 años “el más común es la mensajería instantánea, que destaca con un 47,3% de usuarios en este grupo de edad. Usar Internet para realizar llamadas telefónicas y videollamadas es el siguiente servicio más utilizado con un 33,1%, y un 31,7% lo hace para leer noticias, periódicos y revistas online”.\n\nEn términos de servicios financieros digitales, señala el estudio, la banca online es utilizada por un 23,1% de los mayores de 75 a 84 años, limitándose a un 6,2% el porcentaje de personas mayores de 85 años que utiliza este servicio.\n\n“Entre la población mayor de 75 años, se observa una clara relación entre el nivel educativo y el uso de Internet: a mayor formación académica, mayor es el porcentaje de personas que utilizan esta tecnología. Más del 80% de quienes han completado estudios universitarios acceden a Internet, mientras que esta cifra desciende drásticamente al 15% entre quienes tienen un nivel educativo inferior a la educación primaria”.\n\nAna Belén Castillo, coautora en el estudio, señaló que al equipo de investigadores les ha sorprendido el uso de la tecnología de la información y las comunicaciones: “Nos dimos cuenta que prácticamente todos los mayores de 75 años tienen su teléfono móvil y los mayores de 80 años usan el WhatsApp de manera masiva. Esta tendencia comenzó a partir del COVID y ahora se ha generalizado”.\n\nDe igual modo, usan otras tecnologías para leer el periódico, ver la televisión y el fútbol. “Antes se pensaba que el uso de la tecnología respondía a un perfil joven pero ya no es así: Cada vez más gente mayor, y con mayor formación, la utiliza”.\n\nExplicó que hasta ahora se definía a la persona mayor con el corte de edad en los 65 años, asociado al inicio de la jubilación.\n\nSin embargo, este criterio merece ser repensado porque muchas personas mayores de 65 años se mantienen activas.\n\nDe cara al informe del 2026, se podría revisar este umbral y establecer el nuevo corte a partir de los 70 años, con lo cual se reflejaría con mayor precisión la realidad demográfica, laboral y social.\n\nEl edadismo, que es la discriminación a causa de la edad, en particular de los mayores, es una realidad que llama a la reflexión.\n\n“La mentalidad de las personas debería cambiar porque los mayores son una parte de nosotros. Nos han cuidado y ahora debemos atenderlos, prestarles atención y evitar los estereotipos”, dijo.\n\nEl demógrafo Pérez Díaz reflexionó que cuando las personas se jubilan “parece que desaparecen del mundo”, cuando en realidad los mayores siguen presentes en la vida de la sociedad e incluso generando prosperidad.\n\n“Los mayores en España tienen la mejor situación económica porque son generaciones que comenzaron a trabajar con 15 años”. De hecho, más de 90% son dueños de su vivienda y el dinero por concepto de jubilaciones, en 70% se redistribuye y dinamiza la economía.\n\nEl gasto medio de los hogares liderados por personas mayores asciende a 28.863 € anuales, concentrándose principalmente en vivienda, alimentación y sanidad, mientras que el riesgo de pobreza entre la vejez se sitúa en el 16,9%, con un 18,9% de mujeres afectadas frente al 14,4% de los hombres. Fuente: España combina longevidad récord con desafíos en atención a la dependencia y las enfermedades crónicas\n\nSalud: «Los hábitos de vida influyen de manera significativa en la salud: en el grupo de mayores de 65 años, un 47,2% de los hombres y un 36,4% de las mujeres presentan sobrepeso, y la actividad física regular se realiza en un 42,5% de las personas de 65 a 69 años, mientras que el sedentarismo afecta a un 38,5%. El acceso a servicios sanitarios es alto, aunque persisten barreras económicas y geográficas, especialmente para quienes viven solos». Fuente: España combina longevidad récord con desafíos en atención a la dependencia y las enfermedades crónicas\n\nUn nuevo lenguaje para una nueva vejez\n\nPatricia Núñez Gómez, catedrática de Ciencias de la Comunicación Aplicada de la Facultad de Ciencias de la Información de la Universidad Complutense de Madrid (UCM), institución coorganizadora del I Congreso: El rol de la comunicación en los retos del envejecimiento, destacó que los comunicadores del futuro tienen que aprender a interpretar, y contar esta realidad de la nueva longevidad, porque “pueden hacer mucho para cambiar la percepción de la sociedad”.\n\nMaría Jesús González-Espejo es la CEO del Instituto de Smart Ageing (coorganizador)y la autora del libro El arte de envejecer sabiamente.\n\nPatricia Núñez Gómez (izquierda) y María Jesús González-Espejo\n\nReflexiona que no basta con hacer ejercicio, dormir y comer bien: hace falta tener salud financiera, salud jurídica, una buena red de apoyo mutua, repensar dónde quieres vivir, cómo quieres que sea tu vivienda… es un proceso que va más allá del cuidado de la salud.\n\nHabla de un “envejecimiento inteligente” que considere nueve pilares: finanzas, seguros, jubilación y trabajo, área legal, hogar, tecnología, salud y bienestar, enfermedad y muerte y cuidado del mayor.\n\nDijo que países de Latinoamérica ya comparten la realidad de España: una pirámide poblacional invertida y una longevidad cada vez mayor que obliga a los países a plantear cómo afrontar los retos del envejecimiento.\n\nEste cambio es también del lenguaje: “Quizás el mayor problema es que la palabra mayor tiene connotaciones negativas y, por tanto, no soy mayor o no quiero reconocer que lo soy”.\n\nEntre los estereotipos negativos: se vincula al mayor con dependencia, fragilidad física, resistencia al cambio, declive cognitivo, inutilidad social o laboral.\n\nDel lado positivo, se les reconoce sabiduría, experiencia, tranquilidad, paciencia, bondad o ternura, “estereotipos que también pueden ser limitantes”, dijo González-Espejo.\n\n“El mundo del mayor es también el mundo del eufemismo: Persona de la tercera edad, adulto mayor, gente grande, persona longeva, sabia, persona en años dorados…”\n\nSu invitación es a ampliar el mundo del lenguaje. Incluir el tema del envejecimiento inteligente en el discurso político y fomentar prácticas que mejoren la sociedad\n\nDato: El 7,7% de las personas mayores que han tenido contacto con la administración pública perciben discriminación, principalmente por edad o problemas de salud. Fuente: informe Un perfil de las personas mayores en España 2025,\n\n.Durante este congreso que espera inaugurar futuras ediciones, se compartieron visiones y proyectos que entienden esta nueva manera de ser mayor.\n\nLa profesora Margarita Álvarez, filóloga y profesora de Lengua y Literatura, advirtió que el lenguaje de los medios implica no solo el lenguaje de los periodistas sino de otras personas que aparecen en los medios.\n\n“Las personas mayores están poco representadas en los medios de comunicación, salen en programas determinados y se crea una información específica para mayores, con lo cual se genera un edadismo autoinfligido cuando la gente mayor cree que puede estar interesada en esos contenidos”.\n\nSubrayó palabras y construcciones, que al intentar significar el envejecimiento, lo estigmatizan: desde “el gasto sanitario”, la “bomba de relojería demográfica” o el tsunami de plata.\n\n“Metáforas” como “la vieja guardia” o los “dinosaurios políticos” tampoco ayudan a la construcción de un lenguaje que haga justicia a esta etapa de la vida.\n\n“El de los mayores es un debate que no está cerrado. Se ha hablado de la tercera edad con una connotación muy negativa; no hay primera ni segunda edad. En cambio, tercera tiene un sentido tan peyorativo como un vagón de tercera clase”, alertó la catedrática.\n\nReivindica el ser viejo; ser ancianos. “Sí lo somos y aquí estamos” . Por supuesto, aplausos merecidos del auditorio.\n\nSusana Carrizosa, periodista del diario El País, recordó que el 40% del consumo en España se le atribuye a los mayores de 60 años.\n\nEn su diaria labor periodística, observa a gente mayor de 60 años al frente de sus empresas y, sin embargo, el 40% de las noticias que se publican sobre los mayores se asocian a temas vulnerables.\n\nEstá convencida que se debe cambiar la narrativa y contribuir al debate.\n\nIsabel Hernández Toribio, profesora del departamento de Lengua Española y Teoría de la Literatura, quien está estudiando la evolución del lenguaje publicitario, observa de manera positiva que hay una evolución: de alabar el aspecto físico y colocar en el pedestal “la eterna juventud”, ahora se valoran otros aspectos, cambia el concepto de belleza y hay un reconocimiento de la edad, con sus atributos y consecuencias.\n\nEn esta perspectiva de pasar de la teoría a la acción, Beatriz Sánchez Guitián, directora general de la Fundación Más Humano, habló del programa que desarrollan con la Fundacion Endesa. Se llama Generación Savia y busca la reinserción de profesionales mayores de 50 años que necesitan mantenerse activos.\n\nCon este proyecto conectan el talento de más de 45,000 profesionales senior con cerca de 700 organizaciones.\n\nEstán tan retadores que ahora avanzan y quieren reinsertar a personas de 65 a los 80 años con ganar de seguir aportando su conocimiento.\n\nSon más de 23 años de este proyecto que busca contribuir a dar sentido a la vida a quienes desean incorporarse al trabajo de manera activa.\n\nDe igual modo, han lanzado campañas para romper los estereotipos y demostrar la capacidad de adaptación, trabajo y valores que esta generación está dispuesta a aportar.\n\nMaría Leal, CEO de Plennio, confirma los datos del informe del CSIC: los estudios actuariales hablan de personas centenarias que viven cada vez mejor, así que frases como “deja al abuelo tranquilo”, que no maneje o no se mueva, hace inútiles a personas con plenas capacidades.\n\n“La buena noticia es que estos estereotipos caerán por el propio peso de la situación demográfica y vamos a cambiar”, dijo.\n\nDurante el congreso también se abordaron las nuevas tecnologías para comunicarse con los mayores, con los aportes de Carmen Llorente, profesora de la UCM; de María Sánchez Valle, profesora e investigadora en la Universidad CEU San Pablo; Agustín Cuenca, emprendedor y fundador de entaina.ai y de Ernest Companys, CEO de Serenia Solutions.\n\nDe palabras con propósito desde los medios y la publicidad, bajo la moderación de Carlos Berbel (editor Confilegal), conversaron Marta Jurado, periodista en 65ymás; Eduardo Vizcaíno de Sas, editor de RRHH digital y Carlos Salas, periodista y experto en story telling, quienes coinciden que el cambio en la manera de comunicar contenidos está cambiando hacia un modelo que piense en la nueva longevidad.\n\nPor: Violeta Villar Liste | [email protected]",
+                                        "metadata": {
+                                            "url": "https://lawebdelasalud.com/espana-avanza-hacia-una-nueva-longevidad/",
+                                            "source": "lawebdelasalud.com",
+                                            "favicon": "https://i0.wp.com/lawebdelasalud.com/wp-content/uploads/2022/04/cropped-FAVICON_Mesa-de-trabajo-1.png?fit=32%2C32&ssl=1",
+                                            "title": "España avanza hacia una nueva longevidad",
+                                            "type": "web_search",
+                                            "base_url": "https://lawebdelasalud.com",
+                                            "snippet": "Un perfil de las personas mayores en España, 2025, describe que “en 2023, la esperanza de vida al nacer en España alcanzó los 83,77 años, ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.478666427001372,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.478666427001372,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:40:38",
+                    "run_time": 4.478666427001372,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?": [
+                                {
+                                    "Es un dato objetivo que las mujeres acaban sus días con más años de vida, la sanidad Española es consciente de esto, y a pesar de que España lidera la esperanza de vida en la ue. Las mujeres EN 2025 tienen una esperanza de vida de 85.5 años.": null
+                                },
+                                {
+                                    "Un perfil de las personas mayores en España, 2025, describe que “en 2023, la esperanza de vida al nacer en España alcanzó los 83,77 años, recuperando la tendencia ascendente que había sido interrumpida por la pandemia de COVID-19. Este valor supera incluso los niveles previos a la crisis sanitaria, cuando la esperanza de vida se situaba en 83,53 años”.": null
+                                },
+                                {
+                                    "Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.": null
+                                }
+                            ],
+                            "¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?": [
+                                {
+                                    "Comparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4": null
+                                },
+                                {
+                                    "Es un dato objetivo que las mujeres acaban sus días con más años de vida, la sanidad Española es consciente de esto, y a pesar de que España lidera la esperanza de vida en la ue. Las mujeres EN 2025 tienen una esperanza de vida de 85.5 años.": null
+                                },
+                                {
+                                    "Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?": [
+                                {
+                                    "Comparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4": null
+                                },
+                                {
+                                    "En 2023, la esperanza de vida al nacer en España se ubica entre las más elevadas a nivel global, alcanzando los 83,77 años. No obstante, la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores.": null
+                                },
+                                {
+                                    "Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.": null
+                                }
+                            ],
+                            "¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?": [
+                                {
+                                    "Comparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4": null
+                                },
+                                {
+                                    "Madrid encabeza el ranking general de todas las regiones europeas, con 86,1 años de esperanza de vida, seguida de Navarra (4º puesto) y Castilla y León (6º)": null
+                                },
+                                {
+                                    "Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.": null
+                                }
+                            ],
+                            "¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?": [
+                                {
+                                    "Comparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4": null
+                                },
+                                {
+                                    "Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.": null
+                                },
+                                {
+                                    "En 2023, la esperanza de vida al nacer en España se ubica entre las más elevadas a nivel global, alcanzando los 83,77 años. No obstante, la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.58433436100131,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.58433436100131,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:40:48",
+                    "run_time": 9.58433436100131,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña es el país de la Unión Europea con mayor esperanza de vida al nacer\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?\n¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?\n¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?\n¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?\n¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?\n\n3. Here are the text sources you should use as your source of information:\n[0] Es un dato objetivo que las mujeres acaban sus días con más años de vida, la sanidad Española es consciente de esto, y a pesar de que España lidera la esperanza de vida en la ue. Las mujeres EN 2025 tienen una esperanza de vida de 85.5 años.\n[0] Comparativa de esperanza de vida al nacer en 10 países de la UE (1950–2025) País 1950 1960 2000 2010 2020 2025 España 62,0 69,0 78,8 82,2 82,4 84,0 Francia 65,4 70,5 79,1 82,0 82,5 83,1 Italia 65,0 69,5 78,7 81,6 82,4 82,9 Alemania 64,0 67,8 77,7 80,2 80,9 81,5 Países Bajos 70,0 72,4 78,6 80,5 81,7 82,2 Portugal 59,0 63,5 76,2 80,0 81,1 81,8 Grecia 63,5 68,0 78,3 81,0 81,5 82,0 Polonia 61,0 66,0 72,0 76,2 77,1 78,3 Hungría 60,0 65,5 71,4 74,9 76,5 77,2 Bulgaria 59,5 64,2 71,0 74,6 75,1 76,4\n[1] Un perfil de las personas mayores en España, 2025, describe que “en 2023, la esperanza de vida al nacer en España alcanzó los 83,77 años, recuperando la tendencia ascendente que había sido interrumpida por la pandemia de COVID-19. Este valor supera incluso los niveles previos a la crisis sanitaria, cuando la esperanza de vida se situaba en 83,53 años”.\n[2] Madrid, 22/09/2025 | En 2023, la esperanza de vida al nacer alcanzó en España los 84 años, la más alta de la Unión Europea, seguida de cerca por Italia, Suecia y Francia, y por encima de la media (81,7). Como explica el último Focus on Spanish Society, publicación editada por Funcas, en las últimas décadas todos los países europeos han visto crecer paulatinamente la esperanza de vida, una de las grandes conquistas de las sociedades modernas, fruto de la mejora de las condiciones de vida, la alimentación y la atención sanitaria.\n[2] Madrid encabeza el ranking general de todas las regiones europeas, con 86,1 años de esperanza de vida, seguida de Navarra (4º puesto) y Castilla y León (6º)\n[3] En 2023, la esperanza de vida al nacer en España se ubica entre las más elevadas a nivel global, alcanzando los 83,77 años. No obstante, la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España es el país de la Unión Europea con mayor esperanza de vida al nacer"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?**\n\nSegún el texto [0], la esperanza de vida al nacer en España en 2025 es de 84,0 años. Este valor es ligeramente inferior al de 2020, cuando la esperanza de vida era de 82,4 años. Sin embargo, es importante destacar que la esperanza de vida ha aumentado significativamente desde 1950, cuando era de 62,0 años.\n\n**¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?**\n\nSegún el texto [0], la comparativa de esperanza de vida al nacer en 10 países de la UE (1950-2025) muestra que España tiene una esperanza de vida algo menor que la de algunos países como Francia (83,1 años) e Italia (82,9 años) en 2025. Sin embargo, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania (81,5 años), Países Bajos (82,2 años) y Portugal (81,8 años).\n\n**¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?**\n\nSegún el texto [1], la esperanza de vida al nacer en España alcanzó los 83,77 años en 2023, lo que es una de las tasas más altas a nivel global. Además, el texto [2] menciona que la esperanza de vida en España es la más alta de la Unión Europea, con 84 años, seguida de cerca por Italia, Suecia y Francia.\n\n**¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?**\n\nLos textos [1] y [2] mencionan que la esperanza de vida en España es la más alta de la Unión Europea. Además, el texto [0] proporciona datos comparativos de la esperanza de vida en 10 países de la UE, lo que permite contrastar la situación de España con la de otros países.\n\n**¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?**\n\nAunque el texto [0] muestra que la esperanza de vida en España es inferior a la de algunos países como Francia e Italia en 2025, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania, Países Bajos y Portugal. Además, el texto [3] menciona que la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores. Esto podría sugerir que la esperanza de vida en España no es tan alta como se afirma.\n\n**Conclusión**\n\nEn conclusión, la afirmación de que España es el país de la Unión Europea con mayor esperanza de vida al nacer es parcialmente cierta. Aunque la esperanza de vida en España es alta y supera a la de algunos países como Alemania, Países Bajos y Portugal, es inferior a la de otros países como Francia e Italia en 2025. Además, la expectativa de vida saludable a partir de los 65 años ha descendido, lo que podría sugerir que la esperanza de vida en España no es tan alta como se afirma. Sin embargo, es importante destacar que la esperanza de vida en España es una de las tasas más altas a nivel global, según el texto [1]. Por lo tanto, la afirmación es **verdadera**, pero con algunas reservas.\n\n**Verdadero**"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4190682459993695,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4190682459993695,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:40:49",
+                    "run_time": 1.4190682459993695,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España es el país de la Unión Europea con mayor esperanza de vida al nacer\nArticle: **Análisis de la afirmación**\n\n**¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?**\n\nSegún el texto [0], la esperanza de vida al nacer en España en 2025 es de 84,0 años. Este valor es ligeramente inferior al de 2020, cuando la esperanza de vida era de 82,4 años. Sin embargo, es importante destacar que la esperanza de vida ha aumentado significativamente desde 1950, cuando era de 62,0 años.\n\n**¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?**\n\nSegún el texto [0], la comparativa de esperanza de vida al nacer en 10 países de la UE (1950-2025) muestra que España tiene una esperanza de vida algo menor que la de algunos países como Francia (83,1 años) e Italia (82,9 años) en 2025. Sin embargo, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania (81,5 años), Países Bajos (82,2 años) y Portugal (81,8 años).\n\n**¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?**\n\nSegún el texto [1], la esperanza de vida al nacer en España alcanzó los 83,77 años en 2023, lo que es una de las tasas más altas a nivel global. Además, el texto [2] menciona que la esperanza de vida en España es la más alta de la Unión Europea, con 84 años, seguida de cerca por Italia, Suecia y Francia.\n\n**¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?**\n\nLos textos [1] y [2] mencionan que la esperanza de vida en España es la más alta de la Unión Europea. Además, el texto [0] proporciona datos comparativos de la esperanza de vida en 10 países de la UE, lo que permite contrastar la situación de España con la de otros países.\n\n**¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?**\n\nAunque el texto [0] muestra que la esperanza de vida en España es inferior a la de algunos países como Francia e Italia en 2025, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania, Países Bajos y Portugal. Además, el texto [3] menciona que la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores. Esto podría sugerir que la esperanza de vida en España no es tan alta como se afirma.\n\n**Conclusión**\n\nEn conclusión, la afirmación de que España es el país de la Unión Europea con mayor esperanza de vida al nacer es parcialmente cierta. Aunque la esperanza de vida en España es alta y supera a la de algunos países como Alemania, Países Bajos y Portugal, es inferior a la de otros países como Francia e Italia en 2025. Además, la expectativa de vida saludable a partir de los 65 años ha descendido, lo que podría sugerir que la esperanza de vida en España no es tan alta como se afirma. Sin embargo, es importante destacar que la esperanza de vida en España es una de las tasas más altas a nivel global, según el texto [1]. Por lo tanto, la afirmación es **verdadera**, pero con algunas reservas.\n\n**Verdadero**\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España es el país de la Unión Europea con mayor esperanza de vida al nacer\nArticle: **Análisis de la afirmación**\n\n**¿Cuál es la esperanza de vida al nacer promedio en España según los últimos datos disponibles en 2025?**\n\nSegún el texto [0], la esperanza de vida al nacer en España en 2025 es de 84,0 años. Este valor es ligeramente inferior al de 2020, cuando la esperanza de vida era de 82,4 años. Sin embargo, es importante destacar que la esperanza de vida ha aumentado significativamente desde 1950, cuando era de 62,0 años.\n\n**¿Cómo compara la esperanza de vida al nacer de España con la de otros países de la Unión Europea en 2025?**\n\nSegún el texto [0], la comparativa de esperanza de vida al nacer en 10 países de la UE (1950-2025) muestra que España tiene una esperanza de vida algo menor que la de algunos países como Francia (83,1 años) e Italia (82,9 años) en 2025. Sin embargo, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania (81,5 años), Países Bajos (82,2 años) y Portugal (81,8 años).\n\n**¿Qué dicen los expertos sobre la situación de España en términos de esperanza de vida al nacer en comparación con otros países de la UE?**\n\nSegún el texto [1], la esperanza de vida al nacer en España alcanzó los 83,77 años en 2023, lo que es una de las tasas más altas a nivel global. Además, el texto [2] menciona que la esperanza de vida en España es la más alta de la Unión Europea, con 84 años, seguida de cerca por Italia, Suecia y Francia.\n\n**¿Qué fuentes oficiales o estudios apoyan la afirmación de que España tiene la mayor esperanza de vida al nacer en la UE?**\n\nLos textos [1] y [2] mencionan que la esperanza de vida en España es la más alta de la Unión Europea. Además, el texto [0] proporciona datos comparativos de la esperanza de vida en 10 países de la UE, lo que permite contrastar la situación de España con la de otros países.\n\n**¿Qué evidencia contradice la afirmación de que España es el país con la mayor esperanza de vida al nacer en la UE?**\n\nAunque el texto [0] muestra que la esperanza de vida en España es inferior a la de algunos países como Francia e Italia en 2025, es importante destacar que la esperanza de vida en España es superior a la de otros países como Alemania, Países Bajos y Portugal. Además, el texto [3] menciona que la expectativa de vida saludable a partir de los 65 años ha descendido a 9,7 años, lo que supone una reducción respecto a mediciones anteriores. Esto podría sugerir que la esperanza de vida en España no es tan alta como se afirma.\n\n**Conclusión**\n\nEn conclusión, la afirmación de que España es el país de la Unión Europea con mayor esperanza de vida al nacer es parcialmente cierta. Aunque la esperanza de vida en España es alta y supera a la de algunos países como Alemania, Países Bajos y Portugal, es inferior a la de otros países como Francia e Italia en 2025. Además, la expectativa de vida saludable a partir de los 65 años ha descendido, lo que podría sugerir que la esperanza de vida en España no es tan alta como se afirma. Sin embargo, es importante destacar que la esperanza de vida en España es una de las tasas más altas a nivel global, según el texto [1]. Por lo tanto, la afirmación es **verdadera**, pero con algunas reservas.\n\n**Verdadero**"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España es el país de la Unión Europea con la mayor esperanza de vida al nacer\", \"categories\": [\"Salud\", \"Demografía\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"España tiene la mayor esperanza de vida al nacer en la Unión Europea, aunque con algunas reservas\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

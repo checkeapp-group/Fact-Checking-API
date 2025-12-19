@@ -1,0 +1,614 @@
+{
+    "question": "La metformina retrasa el envejecimiento en personas sanas",
+    "answer": "Existen varios estudios que han demostrado que la metformina puede tener efectos positivos en la longevidad y el envejecimiento saludable. Por ejemplo, el estudio \"Targeting Aging by Metformin\" es un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos. Además, un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias.\n\n**Sin embargo, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Aunque algunos estudios han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento. Además, los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros, y algunos expertos sugieren que la metformina puede tener efectos secundarios negativos en la salud de las personas sanas.\n\n**En conclusión, aunque hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Es importante destacar que la investigación en este área es aún incipiente y se necesitan más estudios para determinar los efectos a largo plazo de la metformina en la salud de las personas sanas. Por lo tanto, la afirmación de que la metformina retrasa el envejecimiento en personas sanas es **verdadera**, pero con la importante advertencia de que la investigación es aún incipiente y se necesitan más estudios para confirmar los efectos de la metformina en la longevidad y el envejecimiento saludable.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {},
+    "related_questions": {},
+    "metadata": {
+        "title": "La metformina retrasa el envejecimiento en personas sanas",
+        "categories": [
+            "Salud",
+            "Ciencia",
+            "Investigación"
+        ],
+        "label": "Undetermined",
+        "main_claim": "La metformina retrasa el envejecimiento en personas sanas, pero la investigación es aún incipiente",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5147043779979867,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5147043779979867,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:41:00",
+                    "run_time": 2.5147043779979867,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa metformina retrasa el envejecimiento en personas sanas\n\n**Critical Research Questions:**\n1. ¿Qué estudios clínicos han demostrado que la metformina retrasa el envejecimiento en personas sanas?\n2. ¿Cuáles son los resultados de los ensayos clínicos más recientes sobre el efecto de la metformina en el envejecimiento?\n3. ¿Qué dicen los expertos en geriatría y medicina interna sobre el uso de la metformina para retrasar el envejecimiento?\n4. ¿Qué evidencia científica existe sobre los efectos a largo plazo de la metformina en la salud de las personas sanas?\n5. ¿Cómo se compara el efecto de la metformina en el envejecimiento con otros tratamientos o intervenciones para retrasar el envejecimiento?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"metformina y envejecimiento estudios clínicos personas sanas\", \"efecto de la metformina en el envejecimiento personas saludables ensayos clínicos 2025\", \"expertos en geriatría y medicina interna metformina envejecimiento recomendaciones\", \"efectos a largo plazo metformina salud personas sanas evidencia científica\", \"comparación metformina otros tratamientos intervenciones retrasar envejecimiento personas sanas\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 52.17653734099804,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 52.17653734099804,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:41:57",
+                    "run_time": 52.17653734099804,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "metformina y envejecimiento estudios clínicos personas sanas",
+                                "efecto de la metformina en el envejecimiento personas saludables ensayos clínicos 2025",
+                                "expertos en geriatría y medicina interna metformina envejecimiento recomendaciones",
+                                "efectos a largo plazo metformina salud personas sanas evidencia científica",
+                                "comparación metformina otros tratamientos intervenciones retrasar envejecimiento personas sanas"
+                            ],
+                            "results": {
+                                "metformina y envejecimiento estudios clínicos personas sanas | efecto de la metformina en el envejecimiento personas saludables ensayos clínicos 2025 | expertos en geriatría y medicina interna metformina envejecimiento recomendaciones | efectos a largo plazo metformina salud personas sanas evidencia científica | comparación metformina otros tratamientos intervenciones retrasar envejecimiento personas sanas": [
+                                    {
+                                        "text": "Estudian conexión entre metformina y el envejecimiento saludable\n\nAmparo Tolosa, Genotipia\n\nUn estudio que combina información genómica y epidemiológica ofrece nuevas evidencias de que la metformina, un fármaco utilizado en el tratamiento de la diabetes, puede promover un envejecimiento saludable y tener un efecto protector frente a enfermedades asociadas a la edad.\n\nEn la actualidad, la metformina es un fármaco de primera línea para el tratamiento de la diabetes tipo 2, a través de su función para controlar los niveles de azúcar en sangre. En paralelo a su utilización en el contexto de la diabetes, diferentes estudios empiezan a plantear si la metformina podría promover un envejecimiento más sano.\n\nCon el objetivo de aportar nuevas evidencias sobre esta posibilidad un equipo de investigadores de la Universidad de Hong Kong ha estudiado a nivel genético el efecto de la metformina sobre diferentes características relacionadas con el envejecimiento. Esta aproximación, conocida como randomización mendeliana, aprovecha las combinaciones aleatorias de variantes genéticas presentes en cada persona y reduce los posibles sesgos que ocurren en estudios observacionales.\n\nConexión entre variación genética y características de envejecimiento\n\nPara el estudio los investigadores utilizaron la información genética de 321 412 participantes del Biobanco de Reino Unido, de los que había disponible información genómica y fenotípica.\n\nDentro de la información genética, el equipo consideró la variación genética de los 10 genes relacionados con las cuatro dianas supuestas de la metformina: AMPK, ETFDH, GPD1 y PEN2 y estudió su variabilidad respecto a las variables de interés relacionadas con el envejecimiento: edad cronológica, nueve marcadores clínicos y la longitud de los telómeros de los leucocitos.\n\nTras analizar los datos, los investigadores detectaron asociación entre algunos de los genes estudiados y características de envejecimiento saludable. Por ejemplo, la reducción genética en los niveles de hemoglobina glicosilada inducida por la metformina a través de GPD1, estaba asociada a una edad biológica más joven y longitud mayor de los telómeros. En el caso de otra diana de la metformina, AMPKγ2, el equipo detectó una asociación con la edad biológica.\n\n«Cada vez hay más pruebas que sugieren que la metformina también puede ejercer su efecto a través de vías independientes de la glucemia. La mejor comprensión de los mecanismos de acción de la metformina a través de aproximaciones de big data y diferentes ómicas está garantizada y mejora la evaluación de su potencial de reposicionamiento», ha señalado Luo Shan Investigador en la Universidad de Hong Kong que ha participado en el estudio.\n\nEvidencias para el reposicionamiento de la metformina\n\nLos resultados del trabajo, publicados en The Lancet Healthy Longevity, proporcionan nuevas evidencias genéticas de que la metformina podría promover el envejecimiento saludable a través de dianas como GDP1 y AMPKγ2. Estas conclusiones apoyan la realización de nuevas investigaciones dirigidas a reposicionar el fármaco metformina, desde su utilización como tratamiento de la diabetes, a la regulación de la biología relacionada con el envejecimiento.\n\nEntre los futuros estudios dirigidos a determinar los efectos y mecanismos exactos de la metformina en relación a la longevidad, destaca el ensayo clínico TAME (Metformina Dirigida al Envejecimiento en sus siglas en inglés), aprobado por la FDA y en la actualidad en sus primeras etapas.\n\nUna ventaja para este reposicionamiento es que la metformina es un fármaco asequible a nivel económico y ya aprobado (por lo que se conoce su perfil de seguridad).\n\n«Nuestro trabajo ha demostrado la utilidad de utilizar estudios epidemiológicos a gran escala y datos genómicos para evaluar las oportunidades de reposicionamiento de fármacos. Los estudios de validación genética, como el presente, contribuirán a mejorar la tasa de éxito de los ensayos clínicos posteriores», ha señalado Ryan Au Yeung Shiu-lun, investigador en la Universidad de Hong Kong.\n\nReferencia científica: Luo S, et al. Effects of putative metformin targets on phenotypic age and leukocyte telomere length: a mendelian randomisation study using data from the UK Biobank. Lancet Healthy Longev. 2023 Jul;4(7):e337-e344. doi: http://dx.doi.org/10.1016/S2666-7568(23)00085-5\n\nFuente: HKUMed finds metformin could promote healthy ageing based on genetics. https://sph.hku.hk/en/News-And-Events/Press-Releases/2023/HKUMed-finds-metformin-could-promote-healthy-ageing-based-on-genetics\n\nSi te ha gustado esta noticia y quieres aprender más sobre Genética en Medicina, te interesan nuestros cursos y formación universitaria, como el “Experto en Genética Clínica y Enfermedades Raras” así como nuestro canal audiovisual, Genotipia TV.",
+                                        "metadata": {
+                                            "url": "https://genotipia.com/genetica_medica_news/conexion-genetica-metformina-envejecimiento-saludable/",
+                                            "source": "genotipia.com",
+                                            "favicon": "https://genotipia.com/wp-content/uploads/2023/07/cropped-Favicon-32x32.png",
+                                            "title": "Estudian conexión entre metformina y el envejecimiento ...",
+                                            "type": "web_search",
+                                            "base_url": "https://genotipia.com",
+                                            "snippet": "Un estudio ofrece nuevas evidencias de que la metformina,utilizada para tratar la diabetes, puede promover un envejecimiento saludable."
+                                        }
+                                    },
+                                    {
+                                        "text": "El envejecimiento es un proceso gradual, natural y continuo por el que el ser humano sufre una serie de cambios desde que nace y que van produciendo una degeneración generalizada de las funciones fisiológicas. Aunque no seamos conscientes de ello, empezamos a envejecer desde el momento en el que nacemos y los hábitos que adoptamos desde la infancia van a ir condicionando la manera en la que iremos envejeciendo.\n\nExisten diferentes aproximaciones para definir en un individuo su edad, como son la edad cronológica (cantidad de tiempo que una persona está viva), la edad biológica (edad aparente del organismo en función de parámetros celulares que controlan el envejecimiento) y la edad psicológica (edad que cada persona siente tener).\n\nLas personas, y cualquier ser vivo, pueden envejecer a un ritmo acorde a su edad biológica, pero también pueden envejecer a un ritmo acelerado y retardado. El envejecimiento acelerado es aquel en el que los procesos por los que el organismo comienza a sufrir degeneración se adelantan en el curso normal del envejecimiento en la especie, por lo que los síntomas del envejecimiento se adelantan. En cambio, el envejecimiento retardado es justo lo contrario, consiste en la aparición de los signos claros del envejecimiento posteriormente al curso normal de la especie.\n\nEl proceso de envejecimiento provoca el aumento del riesgo a desarrollar determinadas enfermedades, como la diabetes mellitus tipo 2 (DM2), enfermedades neurodegenerativas o el desarrollo de tumores. La DM2 se caracteriza por una pérdida del control del metabolismo de la glucosa, que está asociada al desarrollo de resistencia a la insulina, hiperinsulinemia e hiperlipidemia. A largo plazo, en la DM2, se produce una disfunción de las células b-pancreáticas, que culmina con la destrucción de las mismas. Existen diferentes factores, genéticos y ambientales, que pueden predisponer a un individuo a desarrollar DM2, como la obesidad, el sedentarismo o la dieta. Se conoce que la DM2 predispone al paciente a desarrollar comorbilidades relacionadas con el envejecimiento, como son las enfermedades cardiovasculares, las disfunciones renales, urinarias y neurodegenerativas. Por ello, se estima que la DM2 predispone a un envejecimiento acelerado.\n\nLa DM2 es una enfermedad que afecta al metabolismo de la glucosa, alterando rutas centrales de la regulación del metabolismo. Dentro de las rutas metabólicas afectadas en la DM2 destaca la vía de señalización de la adenosín monofosfato proteína quinasa (AMPK), que está siendo investigada como diana terapéutica para el tratamiento de esta enfermedad. La enzima AMPK es un regulador fundamental del metabolismo y es sensible a nutrientes. Se activa cuando los niveles energéticos de la célula son bajos y coordina la activación de rutas que generan la producción de energía a nivel celular. Se conoce que una desregulación de esta ruta está implicada en el desarrollo de la resistencia a la insulina y la disfunción metabólica que caracteriza a la DM2, ya que la activación de la AMPK mejora la sensibilidad a la insulina y la homeostasis de la glucosa.\n\nA nivel celular la activación de la AMPK produce la inhibición de los procesos de liponeogénesis y gluconeogénesis, que son los procesos de síntesis de lípidos y de síntesis de novo de glucosa, respectivamente. Uno de los principales tratamientos para la DM2, la metformina, inhibe por medio de la activación de la AMPK, ambos procesos, que son claves en el control de la DM2. Diversos estudios han demostrado que la capacidad de activar la AMPK está reducida en individuos envejecidos1,2. El envejecimiento se caracteriza por que los tejidos envejecidos presentan elevados niveles inflamatorios de tipo crónico y estos suprimen la activación de la AMPK. Además, se han identificado diferentes rutas relacionadas con la longevidad en la que la AMPK actúa como regulador clave, como la inhibición del factor nuclear k B (NF- k B), la inhibición del complejo I de la diana mecanística de la rapamicina (mTORC1) o la activación de la ruta de las sirtuinas o de la proteína Forkhead box O1 (FOXO1).\n\nEL PROCESO DE ENVEJECIMIENTO PROVOCA EL AUMENTO DEL RIESGO A DESARROLLAR DETERMINADAS ENFERMEDADES, COMO LA DIABETES MELLITUS TIPO 2 (DM2), ENFERMEDADES NEURODEGENERATIVAS O EL DESARROLLO DE TUMORES.\n\nPor lo tanto, numerosos estudios han investigado si la promoción de un mantenimiento efectivo de la activación de la AMPK puede proteger contra la DM2 y promover un envejecimiento más saludable. Como se ha comentado anteriormente, entre las moléculas que tienen la capacidad de activar la AMPK están algunas biguanidas que tienen efectos hipoglucémicos y entre las que se encuentra la metformina, que es la única que está disponible comercialmente, la fenformina o la buformina. Estas dos últimas son mucho más potentes que la metformina, pero tienen numerosos efectos secundarios, de ahí que no se prescriban. La metformina activa de manera indirecta a la AMPK por medio de la inhibición parcial de la actividad del complejo I de la cadena transportadora de electrones mitocondrial, lo que aumenta el ratio adenosín monofosfato/adenosín trifosfato (AMP/ATP). Dicho ratio es un indicador del estado energético de la célula y un elevado ratio AMP/ATP produce la activación de la AMPK.\n\nNumerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.\n\nComo se ha mencionado anteriormente, la obesidad es el principal factor de riesgo para el desarrollo de la DM2. La obesidad implica una sobreexposición a nutrientes que conlleva la liberación mantenida de insulina que produce, a largo plazo, la resistencia a dicha hormona. Por ello, una manera de contener la DM2 es mediante el ejercicio y/o la restricción calórica, que se pueden considerar eventos de estrés metabólico que también pueden inducir a la activación de la AMPK, estimulando la captación de glucosa de la sangre y la biogénesis mitocondrial, es decir, aportando las herramientas para una mejora del rendimiento energético a nivel celular. La restricción calórica consiste en la reducción de la ingesta de calorías sin malnutrición y se ha determinado que esta intervención prolonga la esperanza de vida en diferentes organismos modelo. Se puede realizar con una aproximación que consiste en limitar el número de calorías ingeridas al día o limitar en cada ingesta el número de calorías. También existen otros tipos de aproximaciones como es el ayuno intermitente, que consiste en restringir la ingesta de nutrientes durante un periodo determinado de tiempo. Se ha confirmado que el ayuno intermitente puede prevenir e incluso revertir la DM2 en modelos de ratón6. Estudios en roedores han determinado que a nivel molecular el ayuno intermitente produce un aumento de la sensibilidad de la señalización del receptor de insulina, facilitando que la insulina estimule más fácilmente la captación de glucosa por parte de las células. Adicionalmente, el ayuno intermitente produce una reducción de la señalización de la ruta de la proteína diana de la rapamicina (mTOR) y una mejora de la función mitocondrial y de la autofagia7. En humanos el ayuno intermitente reduce los niveles de colesterol en la circulación, produciendo mejoras a nivel cardiovascular, lo que contribuye a conseguir un envejecimiento más saludable8.\n\nOtra intervención que puede tener efectos positivos en el control de la DM2 y en el envejecimiento es intervenir en el aporte de macronutrientes en la dieta. Se conoce que las dietas ricas en carbohidratos y pobres en proteínas promueven la salud y la longevidad en modelos murinos, mientras que las dietas pobres en proteínas promueven la delgadez y un mejor control glucémico en humanos9. El aporte de los aminoácidos que forman las proteínas tiene un fuerte impacto en el metabolismo y está asociado con obesidad, envejecimiento prematuro y fragilidad en ratones9. Recientemente, se han realizado estudios nutricionales que han ayudado a elucidar la interacción entre la composición de la dieta y la densidad energética. Se ha visto que la actividad del mTORC1, que tiene un papel central en la regulación metabólica y que es sensible a los niveles de aminoácidos procedentes de la dieta, está reducida en animales alimentados con dietas hipoproteicas, lo cual contribuye a aumentar las esperanzas de salud y de vida6,9,10. Estudios independientes han determinado que una dieta pobre en metionina, uno de los 20 aminoácidos que forman parte de nuestras proteínas, se traduce en un mejor control de la homeostasis de la glucosa, produce mejoras en la sensibilidad a la insulina y en la tolerancia a la glucosa, y un aumento de la b-oxidación de los ácidos grasos. Estudios paralelos han demostrado que la restricción de la metionina favorece la esperanza de vida en diferentes organismos modelo, como roedores11. Muchos de los resultados observados en modelos de ratón se han confirmado en ensayos clínicos llevados a cabo en humanos11.\n\nEn este punto, se puede establecer un punto de unión entre la metformina y la restricción de la síntesis de la metionina, puesto que, en modelos animales, la metformina produce alteraciones en el ciclo del folato, el cual produce los sustratos para la síntesis endógena de la metionina12. Otro tipo de aminoácidos son los ramificados, que son la leucina, la isoleucina y la valina, denominados así por la cadena ramificada de átomos de carbono unida al grupo alifático que conforman su estructura. Ya en el siglo XX se correlacionaron los niveles de este tipo de aminoácidos con la obesidad y la resistencia a la insulina y actualmente se conoce que elevados niveles de este grupo de aminoácidos se asocian a una mayor incidencia de DM26,10. Una de las principales vías de señalización activadas por estos aminoácidos es la ruta mTOR. En los últimos años se ha desarrollado un gran interés en inhibidores farmacológicos del mTOR. Es relevante comentar que la rapamicina, el más extensamente utilizado inhibidor de mTORC1, produce un aumento en la esperanza de vida en ratones13. Es interesante que la rapamicina genera intolerancia a la glucosa por medio de la alteración del complejo 2 de mTOR (mTORC2)14. En este sentido, esta dicotomía, ya que la misma molécula aumenta la longevidad y produce intolerancia a la glucosa, se puede explicar porque la inhibición de la señalización celular del complejo mTORC1 producida por la rapamicina inhibe la señalización de la ruta de la insulina a nivel del sustrato del receptor de la insulina 115.\n\nPara concluir, es importante indicar que la dieta y los hábitos de vida juegan un papel fundamental en la predisposición a la DM2 y al envejecimiento prematuro. Un control en la ingesta de determinados macronutrientes puede favorecer un mejor estado de la salud metabólica y un mejor envejecimiento. La restricción calórica o las dietas hipoproteicas son dos ejemplos de cómo el control de la dieta puede proteger del desarrollo de enfermedades y complicaciones asociadas con la edad, como es el caso de la DM2. Por otro lado, el sedentarismo predispone a un envejecimiento acelerado y a la aparición de las complicaciones ya citadas, por lo que es importante combatir dicho hábito con el ejercicio físico. Por último, es necesario enfatizar que en los últimos años se ha avanzado mucho en el conocimiento de intervenciones farmacológicas que pueden producir un envejecimiento óptimo, sin enfermedades crónicas, a través de promover un exquisito control del metabolismo de la glucosa. En este sentido, las investigaciones que se están realizando en la actualidad, entre las que destaca el proyecto “Targeting Aging by Metformin”, dictarán el potencial que tienen intervenciones para el tratamiento de la DM2 en la promoción de un envejecimiento exitoso.\n\nReferencias:",
+                                        "metadata": {
+                                            "url": "https://www.revistadiabetes.org/investigacion/pueden-los-tratamientos-contra-la-diabetes-promover-un-envejecimiento-mas-saludable-evidencias-moleculares-para-conseguir-un-envejecimiento-exitoso/",
+                                            "source": "www.revistadiabetes.org",
+                                            "favicon": "https://www.revistadiabetes.org/wp-content/uploads/cropped-favicon_20-32x32.png",
+                                            "title": "¿Pueden los tratamientos contra la diabetes promover un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.revistadiabetes.org",
+                                            "snippet": "de A Martín-Montalvo — Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La metformina es el fármaco más prescrito para el tratamiento de la diabetes o prediabetes. Sin embargo, a veces se descubren nuevas aplicaciones de algunos fármacos en lo que se denomina un uso “fuera de prospecto” o en su versión inglesa, el “off-label”, que puede llevar a la aprobación de un nuevo uso terapéutico. En el caso de la metformina, se están desvelando sus propiedades contra el envejecimiento.\n\nEl uso de fármacos “fuera de prospecto” o bien “off-label” tiene lugar cuando se utiliza el medicamento con un fin terapeútico no aprobado por las agencias reguladoras (como la Agencia Española del Medicamento). Este tipo de usos, puede estar desaconsejado, por no haber sido probado suficientemente en ensayos clínicos, y por tanto, no haberse constatado de forma rigurosa su eficacia y efectos secundarios. Artículo publicado en la revista Alimente el 28/09/2020.\n\nSin embargo, en los últimos años no han sido pocos los ejemplos de nuevas aplicaciones de fármacos tradicionales, descubiertas a partir de estudios de investigación o bien a partir de la práctica clínica. Estos procesos pueden finalmente llevar a lo que se denomina reposicionamiento o readaptación del fármaco, cuando se pasa por el proceso regulatorio de aprobación para su uso.\n\nUn ejemplo sería la zidovudina, más conocida como AZT, que se desarrolló en los años 60 del siglo XX para el tratamiento del cáncer, sin éxito, y que veinte años después fue uno de los primeros tratamientos disponibles para los enfermos de VIH. O el sildenafilo, inicialmente desarrollado para la hipertensión, y que posteriormente encontró un uso en la disfunción eréctil, como la conocida Viagra.\n\nLa Metformina es el fármaco más prescrito para el tratamiento de la diabetes pero se están desvelando sus propiedades contra el envejecimiento.\n\nLa metformina es sin lugar a dudas el fármaco más prescrito para el control de los niveles de glucosa en sangre, en diabéticos y prediabéticos. Es un fármaco de bajo coste, con efectos secundarios leves, especialmente a nivel digestivo (nausea, vómitos o diarrea). Uno de los usos fuera de prescripción de la metformina, es en mujeres con síndrome de ovario poliquístico, que se asocia a la resistencia a la insulina.\n\nEl mecanismo de acción de la metformina se relaciona con una enzima denominada AMPK, que indica a las células cuando deben captar glucosa para obtener energía. Además, también actúa en las mitocondrias, esas plantas generadoras de energía en nuestras células, de las que hablamos en nuestro reciente artículo sobre la coenzima Q10, «Coenzima Q10: Más allá de las cremas antiedad«, Gente Sana, 2020.\n\nEl interés por el uso de la metformina como agente antienvejecimiento se desprende de modelos animales, en los que se ha demostrado que aquellos tratados con el fármaco aumentaban su longevidad. En humanos, los indicios de que la metformina podría prolongar la vida se desprenden de estudios observacionales en los que se comprobó que los diabéticos tratados con metformina, tenían mejores tasas de supervivencia incluso comparado con individuos control no diabéticos. Un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias, «Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis«, PubLMed, 2017.\n\nLa Metformina parece afectar a la obtención de energía en las mitocondrias de nuestras células, lo que también puede estar relacionado con sus efectos geroprotectores.\n\nLos mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros. Por una parte, parece que esta sustancia es capaz de regular la vía denominada AMPK, con un efecto similar al inducido por la restricción calórica o el ayuno, que también se ha comprobado que son estrategias que pueden prolongar la vida, «Ayuno intermitente, algo más que una moda«, Gente Sana, 2020. Además, la metformina parece afectar a la obtención de energía en las mitocondrias de nuestras células, lo que también puede estar relacionado con sus efectos geroprotectores.\n\nOtro mecanismo en el que la metformina parece actuar, es otra ruta celular de nombre esotérico, denominada mTORC1. La restricción calórica y algunos fármacos como la rapamicina, han demostrado que inhibiendo la activación de mTORC1, se puede prolongar la vida en modelos animales. La metformina también actúa de esta manera, lo que puede también contribuir a sus efectos en la longevidad, «Metformin, independent of AMPK, inhibits mTORC1 in a rag GTPase-dependent manner«, PubLMed, 2010.\n\nLa metformina podría también activar las sirtuinas, una ruta también relacionada con los efectos antienvejecimiento de la restricción calórica, o con fármacos como el ribósido de nicotinamida, del que hablamos en este espacio,»¿La píldora de la juventud?«, Gente Sana, 2020. Y por si fuera poco, la metformina también parece modular de forma positiva la microbiota intestinal, aumentando las especies capaces de producir ácidos grasos de cadena corta, beneficiosos para la salud y entre otros, también para el control de los niveles de glucosa en sangre. Recientemente, se ha comprobado que la metformina puede también reducir la inflamación hepática, «El efecto inesperado de la metformina sobre el hígado«, Alimente, 2020.\n\n¿Puede la metformina alargar la vida en humanos?\n\nEn definitiva, todos son mecanismos en estudio, con mayor o menor grado de confirmación. Pero la pregunta del millón es: ¿Puede la metformina alargar la vida en humanos? Y la respuesta solo puede venir de la mano de un ensayo clínico bien controlado. Eso es a lo que intenta responder el estudio MILES (Metformin in Longevity Study). Este es un ensayo clínico doble ciego con placebo, en el que participan 14 sujetos desde 2014. La intervención se basa en la toma de 1.700mg al día de metformina, y se quiere comprobar si la expresión de ciertos genes relacionados con el envejecimiento mejora en las personas mayores que participan en el estudio. Los primeros resultados del estudio indican que el perfil genético en el músculo y el tejido adiposo de los sujetos era afectado de forma positiva por la metformina, «Metformin regulates metabolic and nonmetabolic pathways in skeletal muscle and subcutaneous adipose tissues of older adults«, PubLMed, 2018.\n\nOtro ensayo clínico en preparación es el TAME (Targeting Aging with Metformin), «Metformin as a Tool to Target Aging«, PMC, 2016, que planea incluir a 3.000 individuos de entre 65 a 79 años y verificar el efecto sobre varias alteraciones relacionadas con el envejecimiento tales como infarto, ictus, cáncer, diabetes tipo 2, enfermedades neurodegenerativas o muerte. La intervención usará una dosis de 1.500mg de metformina durante 6 años.\n\nAunque los efectos secundarios de la metformina son por lo general leves, si que hay que tener precaución y no tomar sin control un fármaco que está sujeto a prescripción médica.\n\nY a diferencia de MILES, la intervención se hará en sujetos no diabéticos al inicio del estudio, lo que lo hace más interesante para trasladar los resultados a población sana. Este es además el primer ensayo aprobado por la FDA americana para valorar el efecto de la metformina en la longevidad, un gran hito, ya que es la antesala de considerar al propio envejecimiento como una enfermedad sobre la que se puede intervenir, «Aging Fits the Disease Criteria of the International Classification of Diseases«, SciencieDirect, 2020.\n\nUna reciente revisión «Benefits of Metformin in Attenuating the Hallmarks of Aging«, Cell Metabolism, 2020, del principal investigador del estudio TAME, Nir Barzilai, analiza en profundidad los beneficios del la metformina sobre las causas profundas del envejecimiento, que tan brillantemente definió nuestro investigador Carlos Lopez-Otín y sus colaboradores en 2013, «The Hallmarks of Aging«, Cell, 2013.\n\nAunque los efectos secundarios de la metformina son por lo general leves, si que hay que tener precaución con ciertos aspectos y no lanzarse a tomar sin control un fármaco que, por otro lado, está sujeto a prescripción médica. Se ha comprobado por ejemplo como en pacientes diabéticos, el uso prolongado de metformina puede inducir deficiencia de vitamina B12, «Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study«, PMC, 2016\n\nLa Metformina es uno de los fármacos que están en el punto de mira, como uno de los agentes antienvejecimiento más prometedores, pero el estilo de vida, sigue siendo, por el momento una de las mejores estrategias para vivir más y mejor.\n\nY esta deficiencia podría desembocar a la larga en problemas neurológicos o anemia, especialmente con una dieta pobre en esta vitamina. La metformina también aumenta levemente los niveles de lactato en sangre, algo poco relevante en sujetos sanos, pero que podría ser peligroso en caso de insuficiencia renal y el desarrollo de una acidosis láctica. Y una incertidumbre adicional, es que parece que hay respondedores y no respondedores a la metformina, lo que podría estar relacionado con ciertos genes. Por tanto, quizás los efectos beneficiosos de la metformina no sean para todos, «Metformin as Anti-Aging Therapy: Is It for Everyone?», Cell, 2019.\n\nEn definitiva, la metformina es uno de los fármacos que están en el punto de mira, como uno de los agentes antienvejecimiento más prometedores. Como siempre, no debemos poner todas nuestras esperanzas en una pastilla, y el estilo de vida es por el momento una de las mejores estrategias para vivir más y mejor. Pero si se confirma en los ensayos en marcha esas promesas de la metformina, puede sin duda ser un muy bienvenido complemento a una vida saludable.\n\nClínica Dr. Durántez para un envejecimiento saludable",
+                                        "metadata": {
+                                            "url": "https://clinicaneleva.com/__trashed/",
+                                            "source": "clinicaneleva.com",
+                                            "favicon": "https://clinicaneleva.com/wp-content/uploads/2025/02/favicon-neleva.png",
+                                            "title": "Metformina: Una nueva estrategia antienvejecimiento",
+                                            "type": "web_search",
+                                            "base_url": "https://clinicaneleva.com",
+                                            "snippet": "La Metformina es el fármaco más prescrito para el tratamiento de la diabetes pero se están desvelando sus propiedades contra el envejecimiento. ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Este estudio clínico se centra en personas que viven con VIH y tienen 50 años o más. El objetivo es evaluar el efecto de un medicamento llamado Metformina en comparación con un placebo para ver si puede ayudar a revertir el envejecimiento acelerado que a veces se observa en personas con VIH. La Metformina es un medicamento comúnmente utilizado para tratar la diabetes tipo 2, pero en este estudio se investiga su potencial efecto anti-envejecimiento.\n\nLos participantes del estudio recibirán ya sea Metformina o un placebo, y se les hará un seguimiento durante un período de tiempo para observar cualquier cambio en su envejecimiento biológico. El envejecimiento biológico se mide a través de ciertos marcadores en el cuerpo que pueden indicar cómo está envejeciendo una persona a nivel celular. El estudio busca determinar si la Metformina puede influir en estos marcadores y, por lo tanto, en el proceso de envejecimiento.\n\nEl estudio se llevará a cabo durante un período de tiempo específico, y los participantes serán monitoreados para evaluar cualquier cambio en su salud y en los marcadores de envejecimiento. La investigación se centra en personas con VIH que tienen una carga viral suprimida, lo que significa que el virus está controlado en su cuerpo. El propósito es ver si la Metformina puede ofrecer beneficios adicionales más allá del control del virus, específicamente en términos de envejecimiento biológico.",
+                                        "metadata": {
+                                            "url": "https://www.ensayosclinicos.es/ensayo/estudio-sobre-el-efecto-de-la-metformina-en-el-envejecimiento-acelerado-en-personas-con-vih-mayores-de-50-anos/",
+                                            "source": "www.ensayosclinicos.es",
+                                            "favicon": "https://www.ensayosclinicos.es/wp-content/themes/lemmony/favicon.ico",
+                                            "title": "Estudio sobre el efecto de la Metformina en el envejecimiento ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ensayosclinicos.es",
+                                            "snippet": "En este ensayo clínico, se está evaluando su efecto anti-envejecimiento en personas que viven con VIH, tienen 50 años o más y tienen la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Desde tiempos inmemoriales, la humanidad ha buscado fórmulas para ralentizar o frenar el envejecimiento. El avance de la ciencia ha permitido entender que el envejecimiento no solo afecta la apariencia física, sino que está relacionado con enfermedades crónicas como el cáncer, la diabetes y las enfermedades cardiovasculares. En este contexto, surge la metformina, un fármaco tradicionalmente usado para tratar la diabetes tipo 2, pero que hoy es el centro de investigaciones prometedoras por su posible papel en la longevidad y el envejecimiento saludable.\n\nUsos de la metformina\n\nLa metformina es un fármaco ampliamente recetado para controlar los niveles de glucosa en pacientes con diabetes tipo 2. Funciona mejorando la sensibilidad a la insulina y reduciendo la producción de glucosa en el hígado. Su eficacia y seguridad a largo plazo han sido demostradas durante décadas, convirtiéndola en un tratamiento de referencia.\n\nMás allá de su papel en la el tratamiento de la diabetes, los estudios han observado que los pacientes tratados con metformina parecen tener una mayor esperanza de vida y menor incidencia de enfermedades crónicas, lo que despertó el interés científico en su posible mecanismo de acción en las enfermedades relacionadas con el envejecimiento.\n\nEscrito por Marianela Segura Flores, farmacéutica y docente de INESALUD.\n\n¿Por qué se cree que podría retrasar el envejecimiento?\n\nLa teoría que sugiere que la metformina puede retrasar el envejecimiento se basa en sus efectos a nivel celular. La metformina activa una enzima llamada AMPK (proteína quinasa activada por AMP), que regula el metabolismo energético y favorece procesos como la autofagia (reciclaje de componentes celulares dañados).\n\nEstos procesos están relacionados con la reducción del estrés oxidativo y la inflamación, dos factores clave en el envejecimiento. Además, la metformina podría influir en las vías metabólicas relacionadas con la longevidad, como la señalización de insulina y los mecanismos de reparación del ADN.\n\nEstudios clave: Lo que sabemos hasta ahora\n\nUno de los estudios observacionales más ambiciosos sobre metformina y envejecimiento es el ensayo TAME (Targeting Aging with Metformin). Este proyecto busca evaluar si la metformina puede retrasar la aparición de enfermedades asociadas al envejecimiento, como el cáncer y las patologías cardiovasculares.\n\nPor otro lado, un equipo de investigación de la Clínica Universidad de Navarra está llevando a cabo un estudio que analiza el papel de la metformina en pacientes con EPOC (enfermedad pulmonar obstructiva crónica). Su intención es frenar la pérdida acelerada de la función pulmonar, que es una de las manifestaciones clínicas del envejecimiento acelerado, en los pacientes con EPOC.\n\nAunque todavía no hay resultados definitivos de los estudios, las investigaciones preliminares han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos. Sin embargo, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento.\n\nEl envejecimiento: Más allá de las arrugas\n\nEl envejecimiento no es solo una cuestión estética. A nivel biológico, representa el deterioro progresivo de las funciones celulares y orgánicas. Este proceso está vinculado con una mayor susceptibilidad a enfermedades crónicas que afectan la calidad de vida y la longevidad.\n\nSi un fármaco como la metformina pudiera ralentizar estos procesos biológicos, su impacto sería transformador, no solo en términos de prolongar la vida, sino también de mejorar la salud en la vejez.\n\nA pesar del entusiasmo, los expertos subrayan que aún no hay pruebas suficientes para recomendar la metformina como un fármaco antienvejecimiento generalizado. Los ensayos actuales son preliminares, y es necesario garantizar que los beneficios de la metformina observados en estudios pequeños se traduzcan a la población general.\n\nAdemás, la metformina no está exenta de efectos secundarios, como molestias gastrointestinales y riesgo de acidosis láctica en casos extremos. Por ello, su uso debe limitarse a indicaciones médicas bien fundamentadas hasta que haya más evidencias.\n\nEl futuro dependerá de los resultados de investigaciones más amplias y rigurosas, como el ensayo TAME, que determinarán si este fármaco realmente puede cambiar nuestra forma de envejecer. Mientras tanto, una vida saludable basada en una buena alimentación, ejercicio regular y control médico sigue siendo la mejor estrategia para disfrutar de una vejez plena.\n\nFormaciones\n\nSi quieres ampliar tus conocimientos en farmacia, te recomendamos nuestro Máster en Monitorización de Ensayos Clínicos y Desarrollo Farmacéutico + 60 Créditos ECTS\n\nAdemás, al matricularte en un curso o máster de INESALUD, tendrás acceso a My LXP, el servicio de suscripción en el que tendrás acceso completamente gratuito a cientos de cursos, webinars y masterclass. ¡Tu formación nunca había sido más completa!\n\nReferencias\n\nUn ensayo clínico busca frenar el envejecimiento acelerado causado por la EPOC con metformina, fármaco para la diabetes. (n.d.). https://www.cun.es. Retrieved January 13, 2025, from https://www.cun.es/actualidad/noticias/ensayo-clinico-epoc-frenar-envejecimiento-metformina\n\nBarzilai N, Crandall JP, Kritchevsky SB, Espeland MA. Metformin as a Tool to Target Aging. Cell Metab. 2016 Jun 14;23(6):1060-1065. doi: 10.1016/j.cmet.2016.05.011. PMID: 27304507; PMCID: PMC5943638.",
+                                        "metadata": {
+                                            "url": "https://www.inesalud.com/actualidad-sanitaria/investigacion/metformina-antienvejecimiento",
+                                            "source": "www.inesalud.com",
+                                            "favicon": "https://www.inesalud.com/themes/custom/inesalud/favicons/apple-touch-icon.png",
+                                            "title": "Metformina: el fármaco que podría frenar el envejecimiento",
+                                            "type": "web_search",
+                                            "base_url": "https://www.inesalud.com",
+                                            "snippet": "La teoría que sugiere que la metformina puede retrasar el envejecimiento se basa en sus efectos a nivel celular. La metformina activa una enzima ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los médicos comúnmente recetan metformina para ayudar a las personas con diabetes tipo 2 a reducir sus niveles de azúcar en la sangre. El medicamento aumenta la sensibilidad a la insulina a través de sus efectos sobre el metabolismo de la glucosa.\n\nLa metformina puede tener beneficios sorprendentes en la lucha contra las enfermedades relacionadas con la edad. Sin embargo, aunque existe evidencia clara de la efectividad de la metformina, los científicos no entienden completamente cómo interactúa con las células y los tejidos a nivel molecular.\n\nAhora, un nuevo estudio de Cell Reports ha mapeado la actividad de metformina en el hígado y arrojó algunos resultados sorprendentes. Utilizando cultivos celulares y ratones, los investigadores identificaron numerosos interruptores bioquímicos para activar y desactivar diversos procesos celulares y moleculares.\n\nLos hallazgos arrojan luz no solo sobre el mecanismo de control de glucosa de la metformina, sino también sobre un sorprendente número de otras reacciones y vías. Los investigadores sugieren, por ejemplo, que los nuevos hallazgos podrían ayudar a explicar las revelaciones recientes sobre la aparente capacidad de la metformina para promover un envejecimiento saludable.\n\nYa se están realizando ensayos clínicos a gran escala de metformina para evaluar la efectividad del medicamento para extender la vida útil y la salud, es decir, la proporción de la vida de una persona que pasan en buena salud. Sin embargo, la bioquímica subyacente no ha sido clara.\n\nLos equipos de tres centros de investigación trabajaron en el estudio: el Instituto Salk de Estudios Biológicos, el Instituto de Investigación Scripps, ambos en La Jolla, California, y el Colegio Médico Weill Cornell en Nueva York.\n\n«Estos resultados», dice Reuben J. Shaw, uno de los autores correspondientes del estudio, «nos proporcionan nuevas vías para explorar con el fin de comprender cómo funciona la metformina como un medicamento para la diabetes, junto con sus efectos que extienden la duración de la salud».\n\n«Estas son vías que ni nosotros ni nadie más habríamos imaginado», agrega. Shaw es profesor de biología molecular y celular en el Instituto Salk y director del Centro de Cáncer Salk.\n\nUna droga vieja con muchos usos potenciales\n\nLos humanos comenzaron a usar metformina como medicamento para reducir la glucosa hace más de 60 años. Los investigadores han mostrado una fuente confiable que el tratamiento reduce las muertes prematuras entre personas con diabetes tipo 2 .\n\nMás recientemente, los científicos han descubierto que la metformina puede ser efectiva en una serie de otras afecciones, como la obesidad, el cáncer, el síndrome metabólico, el síndrome de ovario poliquístico y la enfermedad del hígado graso no alcohólico.\n\nOtra investigación reciente también ha sugerido que la metformina puede tener efectos antienvejecimiento y la capacidad de proteger los huesos, especialmente durante las primeras fases de la artritis reumatoide.\n\nHasta el nuevo estudio, la comprensión de los científicos sobre los efectos bioquímicos de la metformina se limitaba a saber que el medicamento activa una vía de señalización llamada AMPK. Esta vía juega un papel clave en el equilibrio de los niveles de energía en las células.\n\nEl profesor Shaw también descubrió que cuando los niveles de nutrientes son bajos, la vía AMPK frena el crecimiento celular y altera el metabolismo. Los investigadores han visto este efecto en el cáncer. Saber esto llevó al profesor Shaw y sus colegas a preguntarse si la metformina también podría funcionar a través de otras vías.\n\nNuevas vías pueden explicar los efectos antienvejecimiento\n\nPara el nuevo estudio, los equipos utilizaron una «plataforma de proteómica cuantitativa» para detectar quinasas. Estas son proteínas de señalización que pueden activar y desactivar los procesos celulares.\n\nLos investigadores encontraron cientos de quinasas cuya actividad de cambio responde rápidamente a la metformina con un impacto potencial en el envejecimiento saludable. Muchas de las vías de señalización funcionan independientemente de AMPK.\n\nLos científicos ya conocían dos de las vías, la proteína quinasa D y MAPKAPK2, y que se refieren al estrés celular. Esto podría explicar el vínculo con el envejecimiento saludable y los impactos en la prolongación de la vida útil y la salud.\n\nLos nuevos hallazgos sugieren que los beneficios de la metformina para el envejecimiento saludable podrían ser a través de su interacción con la proteína quinasa D y MAPKAPK2. «Nunca imaginamos que estas dos quinasas tendrían algo que ver con la metformina», comenta el profesor Shaw.\n\nLos investigadores también identificaron nuevos objetivos y mecanismos celulares que controla la vía AMPK que también pueden ser cruciales para el éxito de la metformina.\n\nLos equipos planean continuar estudiando las nuevas vías de señalización para profundizar su comprensión de los muchos efectos de la metformina. Están interesados ​​en descubrir cómo todas las personas, no solo aquellas con diabetes tipo 2, podrían beneficiarse de la metformina y qué objetivos podrían estar involucrados.\n\n«Los resultados amplían nuestra comprensión de cómo la metformina induce un estrés leve que activa los sensores para restaurar el equilibrio metabólico, explicando algunos de los beneficios reportados anteriormente, como el envejecimiento saludable prolongado en organismos modelo que toman metformina».\n\nFuente: https://www.medicalnewstoday.com\n\nReferencia: Stein D, Calzolari D, Hellberg K, et al. Quantitative in vivo proteomics of metformin response in liver reveals AMPK-dependent and -independent signaling networks. Cell Reports, 2019; 29 (10): 3331.",
+                                        "metadata": {
+                                            "url": "https://www.sochob.cl/web1/estudio-revela-como-un-medicamento-para-la-diabetes-promueve-el-envejecimiento-saludable/",
+                                            "source": "www.sochob.cl",
+                                            "favicon": "https://www.sochob.cl/web1/wp-content/themes/sochob/favicon.ico",
+                                            "title": "ESTUDIO REVELA CÓMO UN MEDICAMENTO PARA LA ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sochob.cl",
+                                            "snippet": "Otra investigación reciente también ha sugerido que la metformina puede tener efectos antienvejecimiento y la capacidad de proteger los huesos, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En el siguiente artículo se analizan algunos marcadores de longevidad de primates como pistas sobre cómo la metformina aumenta la esperanza de vida y en qué medida. El artículo profundiza en el ritmo de envejecimiento de los distintos sistemas orgánicos. Los monos se utilizan como sujetos de experimentación porque envejecen más de 3 veces más despacio y, sin embargo, sus resultados son similares y traducibles a los humanos.\n\n¿Qué es la metformina y por qué es importante?\n\nMetformina es un medicamento derivado de la planta lila francesa, sintetizado por primera vez en la década de 1920. Fue aprobado por la Administración de Alimentos y Medicamentos de EE.UU. (FDA) en 1994 como tratamiento de la diabetes de tipo 2. La metformina disminuye los niveles de azúcar en sangre, mejora la sensibilidad a la insulina y reduce la producción de glucosa en el hígado.\n\nPor qué es importante: Más allá de su uso principal, se ha observado que la metformina tiene diversos efectos beneficiosos sobre el organismo, como el control del peso y la protección cardiovascular. Estas observaciones han llevado a los científicos a investigar sus posibles propiedades antienvejecimiento.\n\nEl estudio pionero: Una mirada más atenta\n\nUn reciente estudio publicado en la prestigiosa revista Transducción de señales y terapia dirigida, ha aportado pruebas convincentes de que la metformina puede tener efectos geroprotectores, es decir, podría proteger contra los procesos biológicos que conducen al envejecimiento.\n\nResumen del estudio:\n\nTemas: Monos cynomolgus machos sanos (un tipo de primate no humano) de entre 13 y 16 años, lo que equivale aproximadamente a 40-50 años humanos.\n\nMonos cynomolgus machos sanos (un tipo de primate no humano) de entre 13 y 16 años, lo que equivale aproximadamente a 40-50 años humanos. Duración: 3,3 años, aproximadamente 10 años humanos.\n\n3,3 años, aproximadamente 10 años humanos. Grupos: Grupo Metformin: Los monos recibieron una dosis diaria de metformina de 20 mg por kilogramo de peso corporal. Grupo de control: Los monos no recibieron metformina. Grupos adicionales: Monos jóvenes de 3-5 años y monos de mediana edad de 10-12 años para las comparaciones de referencia.\n\nMétodos: Los investigadores utilizaron técnicas avanzadas para analizar los cambios en la metilación del ADN, la expresión génica (transcriptoma), los niveles de proteínas (proteoma) y el metabolismo (metaboloma) en 79 tejidos y órganos diferentes.\n\n¿Cómo se realizó el estudio?\n\nPosología y administración:\n\nDosis de Metformina: Cada mono del grupo de tratamiento recibió 20 mg diarios de metformina por kilogramo de peso corporal.\n\nCada mono del grupo de tratamiento recibió 20 mg diarios de metformina por kilogramo de peso corporal. Administración: La medicación se administró por vía oral, mezclada con su comida habitual para garantizar una ingesta constante.\n\nMétodos de recogida de datos:\n\nAnálisis de metilación del ADN: Examina las modificaciones químicas del ADN que afectan a la expresión génica sin cambiar la secuencia del ADN.\n\nExamina las modificaciones químicas del ADN que afectan a la expresión génica sin cambiar la secuencia del ADN. Secuenciación del ARN (ARN-seq): Una técnica para estudiar el transcriptoma, que revela qué genes están activos y cómo de activos son.\n\nUna técnica para estudiar el transcriptoma, que revela qué genes están activos y cómo de activos son. Proteómica y metabolómica: Estos campos estudian todo el conjunto de proteínas y metabolitos de las células, proporcionando una imagen completa de la función celular.\n\nAnálisis estadístico:\n\nLos investigadores desarrollaron un Modelo de regresión de red elástica para integrar datos de múltiples fuentes y calcular \"puntuaciones de rescate del envejecimiento\". Este modelo ayuda a determinar en qué medida el tratamiento con metformina \"rescató\" o invirtió los marcadores de envejecimiento en comparación con el grupo de control.\n\nExplicación de las principales conclusiones\n\n1. Ralentizar el reloj biológico\n\nReducción de la edad de las proteínas: El tratamiento con metformina disminuyó la \"edad proteica\" calculada en una media de 6,41 años en comparación con el grupo de control.\n\nLo que esto significa: Las proteínas son esenciales para prácticamente todas las funciones celulares. Un perfil proteico más joven sugiere una actividad celular más saludable.\n\n2. Reversión de la edad de la metilación del ADN\n\nLóbulo frontal: Edad reducida en 6,1 años .\n\nEdad reducida en . Pulmón: Edad reducida en 5,11 años .\n\nEdad reducida en . Corteza renal: Edad reducida en 4,9 años .\n\nEdad reducida en . El hígado: Edad reducida en 3,95 años .\n\nEdad reducida en . La piel: Edad reducida en 2,65 años.\n\nLo que esto significa: Los patrones de metilación del ADN cambian a medida que envejecemos, afectando a la expresión de los genes. La reversión de estos cambios sugiere una ralentización o inversión del proceso de envejecimiento a nivel genético.\n\n3. Mejora de la salud cerebral\n\nLas células neuronales mostraron una reducción significativa de la edad: Microglía (células inmunitarias del cerebro): Edad reducida en 6,86 años . Oligodendrocitos (células que aíslan las fibras nerviosas): Edad reducida en 6,79 años . Astrocitos (células de apoyo del cerebro): Edad reducida en 6,08 años . Neuronas (células nerviosas): Edad reducida en aproximadamente 5,5 años .\n\nLo que esto significa: El envejecimiento cerebral se ralentizó significativamente, lo que podría tener implicaciones para enfermedades neurodegenerativas como el Alzheimer.\n\n4. Reducción de los marcadores de envejecimiento\n\nDisminución de células p21 positivas: La p21 es una proteína asociada al envejecimiento celular y la senescencia (cuando las células dejan de dividirse). La metformina redujo el número de estas células en órganos clave.\n\nInterpretación: Menos células envejecidas significan tejidos y órganos más sanos.\n\nLa p21 es una proteína asociada al envejecimiento celular y la senescencia (cuando las células dejan de dividirse). La metformina redujo el número de estas células en órganos clave. Interpretación: Menos células envejecidas significan tejidos y órganos más sanos. Atenuación de la inflamación y el estrés oxidativo: La metformina inhibió las vías que conducen a la inflamación y la producción de especies reactivas del oxígeno (ROS) perjudiciales.\n\nPor qué es importante: La inflamación crónica y el estrés oxidativo contribuyen en gran medida al envejecimiento y a las enfermedades relacionadas con la edad.\n\n5. Reactivación de Youthful Pathways\n\nMejora del metabolismo lipídico: Un mejor procesamiento de las grasas puede conducir a un mejor aprovechamiento energético y a una menor acumulación de grasa.\n\nUn mejor procesamiento de las grasas puede conducir a un mejor aprovechamiento energético y a una menor acumulación de grasa. Activación de la señalización Wnt: Esta vía es crucial para el crecimiento y la regeneración celular.\n\nEsta vía es crucial para el crecimiento y la regeneración celular. Mecanismos de reparación del ADN: La mejora de la reparación del ADN conduce a células más sanas y a la prevención de mutaciones.\n\nComprender la bioestadística\n\nModelo de regresión de red elástica:\n\n¿Qué es? Método estadístico que combina las propiedades de otros dos métodos (Lasso y regresión Ridge) para tratar datos complejos.\n\nMétodo estadístico que combina las propiedades de otros dos métodos (Lasso y regresión Ridge) para tratar datos complejos. ¿Por qué utilizarlo? Integrar grandes cantidades de datos procedentes de distintas fuentes (ADN, ARN, proteínas, metabolitos) e identificar patrones que modelos más simples podrían pasar por alto.\n\nIntegrar grandes cantidades de datos procedentes de distintas fuentes (ADN, ARN, proteínas, metabolitos) e identificar patrones que modelos más simples podrían pasar por alto. Partituras de rescate del envejecimiento: Este modelo calculó en qué medida la metformina \"rescataba\" o invertía los marcadores de envejecimiento, cuantificando el efecto en años.\n\nInterpretación laica: Piense en el modelo como una sofisticada herramienta que ayuda a los científicos a estimar cuánto más jóvenes se volvieron las células y los tejidos debido a la metformina, de forma similar a medir cuántos años se retrasó un reloj.\n\n¿Por qué son significativos estos resultados?\n\nImpacto potencial en las enfermedades relacionadas con la edad:\n\nEnfermedad de Alzheimer: Al reducir los niveles de proteína tau y la acumulación de beta-amiloide -ambas características del Alzheimer-, la metformina podría retrasar o prevenir la aparición de esta debilitante enfermedad.\n\nDato estadístico: El Alzheimer afecta a unos 15% de personas mayores de 65 años . Retrasar su aparición podría mejorar millones de vidas.\n\nAl reducir los niveles de proteína tau y la acumulación de beta-amiloide -ambas características del Alzheimer-, la metformina podría retrasar o prevenir la aparición de esta debilitante enfermedad. Dato estadístico: El Alzheimer afecta a unos . Retrasar su aparición podría mejorar millones de vidas. Salud cardiovascular: La reducción de la inflamación y la mejora del metabolismo de los lípidos pueden reducir el riesgo de cardiopatías.\n\nTratamiento asequible y accesible:\n\nLa metformina es barata y está ampliamente disponible, lo que la convierte en una candidata práctica para su uso generalizado en la terapia antienvejecimiento.\n\nPerfil de seguridad:\n\nDécadas de uso han establecido que la metformina es un medicamento seguro con efectos secundarios manejables, principalmente problemas gastrointestinales que suelen remitir con el tiempo.\n\n¿Cómo actúa la metformina contra el envejecimiento?\n\nActivación de la vía Nrf2:\n\nNrf2 (Nuclear factor erythroid-derived 2-like 2): Proteína que regula la expresión de las proteínas antioxidantes.\n\nProteína que regula la expresión de las proteínas antioxidantes. Bajo estrés: Normalmente, la Nrf2 está inactiva, pero bajo estrés oxidativo, se desplaza al núcleo de la célula y activa genes protectores.\n\nNormalmente, la Nrf2 está inactiva, pero bajo estrés oxidativo, se desplaza al núcleo de la célula y activa genes protectores. El papel de la metformina: Ayuda a liberar Nrf2, mejorando la capacidad de la célula para combatir el estrés oxidativo.\n\nExplicación simplificada: La metformina refuerza el sistema de defensa natural de las células, ayudándolas a combatir los daños que conducen al envejecimiento.\n\nCambios epigenéticos:\n\nRestauración H3K9me3: Se trata de una modificación química de las proteínas asociadas al ADN (histonas) que influye en la expresión de los genes.\n\nSe trata de una modificación química de las proteínas asociadas al ADN (histonas) que influye en la expresión de los genes. Por qué es importante: La pérdida de H3K9me3 está relacionada con el envejecimiento acelerado. La metformina ayuda a restaurar estos niveles, favoreciendo una función génica saludable.\n\nImplicaciones en el mundo real\n\nEnsayos en humanos en curso:\n\nEnsayo TAME (Targeting Aging with Metformin): Un estudio a gran escala con más de 3.000 participantes de entre 65 y 79 años investiga los efectos de la metformina en el envejecimiento.\n\nUn estudio a gran escala con más de 3.000 participantes de entre 65 y 79 años investiga los efectos de la metformina en el envejecimiento. Resultados esperados: Los investigadores esperan confirmar la capacidad de la metformina para retrasar enfermedades relacionadas con la edad como el cáncer, las cardiopatías y el deterioro cognitivo.\n\nConsideraciones de género:\n\nImportancia de incluir a las mujeres: Dado que las mujeres presentan tasas más elevadas de ciertas enfermedades relacionadas con la edad, futuros estudios deberán evaluar los efectos de la metformina en función del sexo.\n\n¿Qué significa esto para usted?\n\nAunque es demasiado pronto para empezar a tomar metformina únicamente con fines antienvejecimiento, estos resultados son alentadores. Sugieren que un medicamento bien conocido y ampliamente disponible podría utilizarse algún día para prolongar la esperanza de vida.\n\nNotas importantes:\n\nConsulte a su médico: Nunca empiece o cambie un régimen de medicación sin consejo médico profesional.\n\nNunca empiece o cambie un régimen de medicación sin consejo médico profesional. El estilo de vida sigue siendo importante: La dieta, el ejercicio y otros factores del estilo de vida siguen siendo cruciales para un envejecimiento saludable.\n\nConclusión\n\nLa posibilidad de que un medicamento común para la diabetes como la metformina pueda ralentizar el envejecimiento es emocionante y esperanzadora. Si comprendemos y aprovechamos sus mecanismos, quizá estemos a las puertas de una nueva era de la medicina, en la que el envejecimiento deje de ser un declive inevitable para convertirse en un aspecto controlable de la vida.\n\nA medida que avance la investigación, le mantendremos informado de los últimos hallazgos. Siga atento a nuestro blog para obtener más información sobre cómo la ciencia está dando forma al futuro de la salud y la longevidad.\n\nDescargo de responsabilidad: Este artículo sólo tiene fines informativos y no sustituye el asesoramiento médico profesional. Consulte siempre a un profesional sanitario cualificado para obtener orientación adaptada a su estado de salud.\n\nEn CanadianInsulin.com, nos dedicamos a proporcionar información actualizada y medicamentos de calidad para apoyar sus necesidades de salud. Explore nuestra gama de agonistas del receptor GLP-1 y consulte a nuestros farmacéuticos para obtener más información.",
+                                        "metadata": {
+                                            "url": "https://canadianinsulin.com/es/articles/desvelar-los-secretos-de-la-longevidad-como-la-metformina-podria-ser-la-clave-para-envejecer-con-gracia/?srsltid=AfmBOooyNDQHBw8VKv1POiyattSojE-7BpwpgPhOARmqUVs6LAs0YJDQ",
+                                            "source": "canadianinsulin.com",
+                                            "favicon": "https://canadianinsulin.com/wp-content/uploads/2025/05/cdi-favicon-100x100.png",
+                                            "title": "Cómo la metformina podría ser la clave para envejecer ...",
+                                            "type": "web_search",
+                                            "base_url": "https://canadianinsulin.com",
+                                            "snippet": "Reducción de la edad de las proteínas: El tratamiento con metformina disminuyó la \"edad proteica\" calculada en una media de 6,41 años en ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0017668299999999998,
+                "total_run_time": 0.9778774039987184,
+                "average_cost_per_call": 0.0017668299999999998,
+                "average_time_per_call": 0.9778774039987184,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:41:58",
+                    "run_time": 0.9778774039987184,
+                    "cost": 0.0017668299999999998,
+                    "history_entry": {
+                        "data": {
+                            "¿Qué estudios clínicos han demostrado que la metformina retrasa el envejecimiento en personas sanas?": [
+                                {
+                                    "Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.": null
+                                },
+                                {
+                                    "En definitiva, todos son mecanismos en estudio, con mayor o menor grado de confirmación. Pero la pregunta del millón es: ¿Puede la metformina alargar la vida en humanos? Y la respuesta solo puede venir de la mano de un ensayo clínico bien controlado. Eso es a lo que intenta responder el estudio MILES (Metformin in Longevity Study). Este es un ensayo clínico doble ciego con placebo, en el que participan 14 sujetos desde 2014. La intervención se basa en la toma de 1.700mg al día de metformina, y se quiere comprobar si la expresión de ciertos genes relacionados con el envejecimiento mejora en las personas mayores que participan en el estudio. Los primeros resultados del estudio indican que el perfil genético en el músculo y el tejido adiposo de los sujetos era afectado de forma positiva por la metformina, «Metformin regulates metabolic and nonmetabolic pathways in skeletal muscle and subcutaneous adipose tissues of older adults«, PubLMed, 2018.": null
+                                },
+                                {
+                                    "Aunque todavía no hay resultados definitivos de los estudios, las investigaciones preliminares han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos. Sin embargo, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento.": null
+                                }
+                            ],
+                            "¿Cuáles son los resultados de los ensayos clínicos más recientes sobre el efecto de la metformina en el envejecimiento?": [
+                                {
+                                    "Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.": null
+                                },
+                                {
+                                    "Aunque todavía no hay resultados definitivos de los estudios, las investigaciones preliminares han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos. Sin embargo, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento.": null
+                                },
+                                {
+                                    "Un estudio a gran escala con más de 3.000 participantes de entre 65 y 79 años investiga los efectos de la metformina en el envejecimiento. Resultados esperados: Los investigadores esperan confirmar la capacidad de la metformina para retrasar enfermedades relacionadas con la edad como el cáncer, las cardiopatías y el deterioro cognitivo.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en geriatría y medicina interna sobre el uso de la metformina para retrasar el envejecimiento?": [
+                                {
+                                    "Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.": null
+                                },
+                                {
+                                    "Desde tiempos inmemoriales, la humanidad ha buscado fórmulas para ralentizar o frenar el envejecimiento. El avance de la ciencia ha permitido entender que el envejecimiento no solo afecta la apariencia física, sino que está relacionado con enfermedades crónicas como el cáncer, la diabetes y las enfermedades cardiovasculares. En este contexto, surge la metformina, un fármaco tradicionalmente usado para tratar la diabetes tipo 2, pero que hoy es el centro de investigaciones prometedoras por su posible papel en la longevidad y el envejecimiento saludable.": null
+                                },
+                                {
+                                    "El interés por el uso de la metformina como agente antienvejecimiento se desprende de modelos animales, en los que se ha demostrado que aquellos tratados con el fármaco aumentaban su longevidad. En humanos, los indicios de que la metformina podría prolongar la vida se desprenden de estudios observacionales en los que se comprobó que los diabéticos tratados con metformina, tenían mejores tasas de supervivencia incluso comparado con individuos control no diabéticos. Un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias, «Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis«, PubLMed, 2017.": null
+                                }
+                            ],
+                            "¿Qué evidencia científica existe sobre los efectos a largo plazo de la metformina en la salud de las personas sanas?": [
+                                {
+                                    "Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.": null
+                                },
+                                {
+                                    "El interés por el uso de la metformina como agente antienvejecimiento se desprende de modelos animales, en los que se ha demostrado que aquellos tratados con el fármaco aumentaban su longevidad. En humanos, los indicios de que la metformina podría prolongar la vida se desprenden de estudios observacionales en los que se comprobó que los diabéticos tratados con metformina, tenían mejores tasas de supervivencia incluso comparado con individuos control no diabéticos. Un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias, «Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis«, PubLMed, 2017.": null
+                                },
+                                {
+                                    "Un estudio que combina información genómica y epidemiológica ofrece nuevas evidencias de que la metformina, un fármaco utilizado en el tratamiento de la diabetes, puede promover un envejecimiento saludable y tener un efecto protector frente a enfermedades asociadas a la edad.": null
+                                }
+                            ],
+                            "¿Cómo se compara el efecto de la metformina en el envejecimiento con otros tratamientos o intervenciones para retrasar el envejecimiento?": [
+                                {
+                                    "Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.": null
+                                },
+                                {
+                                    "El interés por el uso de la metformina como agente antienvejecimiento se desprende de modelos animales, en los que se ha demostrado que aquellos tratados con el fármaco aumentaban su longevidad. En humanos, los indicios de que la metformina podría prolongar la vida se desprenden de estudios observacionales en los que se comprobó que los diabéticos tratados con metformina, tenían mejores tasas de supervivencia incluso comparado con individuos control no diabéticos. Un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias, «Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis«, PubLMed, 2017.": null
+                                },
+                                {
+                                    "Los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros. Por una parte, parece que esta sustancia es capaz de regular la vía denominada AMPK, con un efecto similar al inducido por la restricción calórica o el ayuno, que también se ha comprobado que son estrategias que pueden prolongar la vida, «Ayuno intermitente, algo más que una moda«, Gente Sana, 2020. Además, la metformina parece afectar a la obtención de energía en las mitocondrias de nuestras células, lo que también puede estar relacionado con sus efectos geroprotectores.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 7.970192914999643,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 7.970192914999643,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:42:06",
+                    "run_time": 7.970192914999643,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa metformina retrasa el envejecimiento en personas sanas\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Qué estudios clínicos han demostrado que la metformina retrasa el envejecimiento en personas sanas?\n¿Cuáles son los resultados de los ensayos clínicos más recientes sobre el efecto de la metformina en el envejecimiento?\n¿Qué dicen los expertos en geriatría y medicina interna sobre el uso de la metformina para retrasar el envejecimiento?\n¿Qué evidencia científica existe sobre los efectos a largo plazo de la metformina en la salud de las personas sanas?\n¿Cómo se compara el efecto de la metformina en el envejecimiento con otros tratamientos o intervenciones para retrasar el envejecimiento?\n\n3. Here are the text sources you should use as your source of information:\n[0] Numerosos estudios experimentales han demostrado que la metformina retrasa numerosos procesos del envejecimiento y aumenta la esperanza de vida en individuos sanos3. Entre los procesos que modula la metformina se encuentra la desregulación de la cascada de señalización insulina/factor de crecimiento similar a la insulina tipo 1 (INS/IGF1) o la acumulación de daño oxidativo4. En base a estas y muchas otras evidencias científicas se ha propuesto el uso de metformina en humanos para promover un envejecimiento más saludable. En este sentido, es remarcable el estudio “Targeting Aging by Metformin”, que ha supuesto un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos5. Sin duda, los resultados de este estudio serán fundamentales para conocer el potencial del uso de intervenciones que se emplean para el tratamiento de la DM2 para promover un envejecimiento exitoso.\n[1] En definitiva, todos son mecanismos en estudio, con mayor o menor grado de confirmación. Pero la pregunta del millón es: ¿Puede la metformina alargar la vida en humanos? Y la respuesta solo puede venir de la mano de un ensayo clínico bien controlado. Eso es a lo que intenta responder el estudio MILES (Metformin in Longevity Study). Este es un ensayo clínico doble ciego con placebo, en el que participan 14 sujetos desde 2014. La intervención se basa en la toma de 1.700mg al día de metformina, y se quiere comprobar si la expresión de ciertos genes relacionados con el envejecimiento mejora en las personas mayores que participan en el estudio. Los primeros resultados del estudio indican que el perfil genético en el músculo y el tejido adiposo de los sujetos era afectado de forma positiva por la metformina, «Metformin regulates metabolic and nonmetabolic pathways in skeletal muscle and subcutaneous adipose tissues of older adults«, PubLMed, 2018.\n[1] El interés por el uso de la metformina como agente antienvejecimiento se desprende de modelos animales, en los que se ha demostrado que aquellos tratados con el fármaco aumentaban su longevidad. En humanos, los indicios de que la metformina podría prolongar la vida se desprenden de estudios observacionales en los que se comprobó que los diabéticos tratados con metformina, tenían mejores tasas de supervivencia incluso comparado con individuos control no diabéticos. Un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias, «Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis«, PubLMed, 2017.\n[1] Los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros. Por una parte, parece que esta sustancia es capaz de regular la vía denominada AMPK, con un efecto similar al inducido por la restricción calórica o el ayuno, que también se ha comprobado que son estrategias que pueden prolongar la vida, «Ayuno intermitente, algo más que una moda«, Gente Sana, 2020. Además, la metformina parece afectar a la obtención de energía en las mitocondrias de nuestras células, lo que también puede estar relacionado con sus efectos geroprotectores.\n[2] Aunque todavía no hay resultados definitivos de los estudios, las investigaciones preliminares han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos. Sin embargo, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento.\n[2] Desde tiempos inmemoriales, la humanidad ha buscado fórmulas para ralentizar o frenar el envejecimiento. El avance de la ciencia ha permitido entender que el envejecimiento no solo afecta la apariencia física, sino que está relacionado con enfermedades crónicas como el cáncer, la diabetes y las enfermedades cardiovasculares. En este contexto, surge la metformina, un fármaco tradicionalmente usado para tratar la diabetes tipo 2, pero que hoy es el centro de investigaciones prometedoras por su posible papel en la longevidad y el envejecimiento saludable.\n[3] Un estudio a gran escala con más de 3.000 participantes de entre 65 y 79 años investiga los efectos de la metformina en el envejecimiento. Resultados esperados: Los investigadores esperan confirmar la capacidad de la metformina para retrasar enfermedades relacionadas con la edad como el cáncer, las cardiopatías y el deterioro cognitivo.\n[4] Un estudio que combina información genómica y epidemiológica ofrece nuevas evidencias de que la metformina, un fármaco utilizado en el tratamiento de la diabetes, puede promover un envejecimiento saludable y tener un efecto protector frente a enfermedades asociadas a la edad.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La metformina retrasa el envejecimiento en personas sanas"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Sí hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas.**\n\nExisten varios estudios que han demostrado que la metformina puede tener efectos positivos en la longevidad y el envejecimiento saludable. Por ejemplo, el estudio \"Targeting Aging by Metformin\" es un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos. Además, un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias.\n\n**Sin embargo, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Aunque algunos estudios han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento. Además, los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros, y algunos expertos sugieren que la metformina puede tener efectos secundarios negativos en la salud de las personas sanas.\n\n**En conclusión, aunque hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Es importante destacar que la investigación en este área es aún incipiente y se necesitan más estudios para determinar los efectos a largo plazo de la metformina en la salud de las personas sanas. Por lo tanto, la afirmación de que la metformina retrasa el envejecimiento en personas sanas es **verdadera**, pero con la importante advertencia de que la investigación es aún incipiente y se necesitan más estudios para confirmar los efectos de la metformina en la longevidad y el envejecimiento saludable."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5150220319992513,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5150220319992513,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:42:09",
+                    "run_time": 2.5150220319992513,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La metformina retrasa el envejecimiento en personas sanas\nArticle: **Sí hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas.**\n\nExisten varios estudios que han demostrado que la metformina puede tener efectos positivos en la longevidad y el envejecimiento saludable. Por ejemplo, el estudio \"Targeting Aging by Metformin\" es un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos. Además, un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias.\n\n**Sin embargo, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Aunque algunos estudios han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento. Además, los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros, y algunos expertos sugieren que la metformina puede tener efectos secundarios negativos en la salud de las personas sanas.\n\n**En conclusión, aunque hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Es importante destacar que la investigación en este área es aún incipiente y se necesitan más estudios para determinar los efectos a largo plazo de la metformina en la salud de las personas sanas. Por lo tanto, la afirmación de que la metformina retrasa el envejecimiento en personas sanas es **verdadera**, pero con la importante advertencia de que la investigación es aún incipiente y se necesitan más estudios para confirmar los efectos de la metformina en la longevidad y el envejecimiento saludable.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La metformina retrasa el envejecimiento en personas sanas\nArticle: **Sí hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas.**\n\nExisten varios estudios que han demostrado que la metformina puede tener efectos positivos en la longevidad y el envejecimiento saludable. Por ejemplo, el estudio \"Targeting Aging by Metformin\" es un hito en la investigación biomédica, ya que es la primera vez que se ha propuesto y aceptado el uso de una intervención farmacológica para tratar el envejecimiento en humanos. Además, un meta-análisis encontró que la metformina reducía las tasas de mortalidad total y la incidencia de cáncer, frente a los no diabéticos no tratados con metformina. También se encontraron menores tasas de enfermedad cardiovascular que en los diabéticos tratados con otras terapias.\n\n**Sin embargo, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Aunque algunos estudios han mostrado resultados alentadores en modelos animales y en algunos análisis retrospectivos en humanos, se necesitan ensayos clínicos más sólidos para confirmar estos efectos y determinar si la metformina realmente puede considerarse un fármaco antienvejecimiento. Además, los mecanismos por los que la metformina actúa como agente antienvejecimiento, no están del todo claros, y algunos expertos sugieren que la metformina puede tener efectos secundarios negativos en la salud de las personas sanas.\n\n**En conclusión, aunque hay evidencia que sugiere que la metformina puede retrasar el envejecimiento en personas sanas, también hay evidencia que sugiere que la metformina no es un panacea para retrasar el envejecimiento.** Es importante destacar que la investigación en este área es aún incipiente y se necesitan más estudios para determinar los efectos a largo plazo de la metformina en la salud de las personas sanas. Por lo tanto, la afirmación de que la metformina retrasa el envejecimiento en personas sanas es **verdadera**, pero con la importante advertencia de que la investigación es aún incipiente y se necesitan más estudios para confirmar los efectos de la metformina en la longevidad y el envejecimiento saludable."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La metformina retrasa el envejecimiento en personas sanas\", \"categories\": [\"Salud\", \"Ciencia\", \"Investigación\"], \"label\": \"Undetermined\", \"main_claim\": \"La metformina retrasa el envejecimiento en personas sanas, pero la investigación es aún incipiente\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00676683,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,654 @@
+{
+    "question": "La viruela ha sido erradicada a nivel mundial",
+    "answer": "La declaración de erradicación de la viruela por parte de la Organización Mundial de la Salud (OMS) en 1980 es un hecho bien documentado. Según se menciona en el texto [1], después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la OMS en 1980. Además, el último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977 [2]. Esto sugiere que la viruela ya no es una amenaza para la salud pública global.\n\nSin embargo, recientemente se ha informado de casos de viruela en varios países, lo que plantea una cuestión sobre la verdadera naturaleza de la erradicación de la enfermedad. En 2022, la OMS registró 34.386 casos de mpox (viruela del mono), y se informó la muerte de 138 personas relacionadas con la enfermedad [3]. Esto sugiere que el virus de la viruela sigue circulando en algunos lugares del mundo y que sigue siendo una amenaza para la salud pública.\n\nA pesar de estos informes recientes, es importante destacar que la vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad. Según se menciona en el texto [1], los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad. Además, la vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo [1]. Esto sugiere que la vacunación es una herramienta efectiva para prevenir la transmisión de la viruela.\n\nEn conclusión, aunque haya habido casos recientes de viruela, la declaración de erradicación de la viruela por parte de la OMS en 1980 sigue siendo un hecho bien documentado. La vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad, y la OMS ha registrado una disminución significativa en los casos de viruela desde la declaración de erradicación. Por lo tanto, la afirmación de que la viruela ha sido erradicada a nivel mundial es **verdadera**.\n\nNota: Es importante destacar que la viruela ha sido erradicada a nivel mundial, pero aún hay casos aislados de viruela en algunos lugares del mundo, lo que sugiere que la enfermedad sigue siendo una amenaza para la salud pública en ciertas áreas.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.bbc.com/mundo/articles/cj9le83xzj0o",
+            "source": "www.bbc.com",
+            "favicon": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/mundo/images/icons/icon-192x192.png"
+        },
+        "2": {
+            "url": "https://www.farmaindustria.es/web/reportaje/viruela-como-una-vacuna-consiguio-erradicar-la-primera-enfermedad-contagiosa-en-el-mundo/",
+            "source": "www.farmaindustria.es",
+            "favicon": "https://www.farmaindustria.es/web/wp-content/themes/farmaindustria_v1/images/iconos/apple-icon-57x57.png"
+        },
+        "3": {
+            "url": "https://diarioenfermero.es/la-oms-registra-mas-de-34-000-casos-y-138-muertes-por-viruela-del-mono-en-el-mundo-en-lo-que-va-de-2025/",
+            "source": "diarioenfermero.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La viruela ha sido erradicada a nivel mundial",
+        "categories": [
+            "Salud",
+            "Medicina",
+            "Vacunación"
+        ],
+        "label": "True",
+        "main_claim": "La viruela ha sido erradicada a nivel mundial, aunque aún hay casos aislados en algunos lugares del mundo",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.5833619949989952,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.5833619949989952,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:34:46",
+                    "run_time": 1.5833619949989952,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa viruela ha sido erradicada a nivel mundial\n\n**Critical Research Questions:**\n1. ¿Qué es lo que la OMS dice sobre la situación actual de la viruela?\n2. ¿Cuáles son los países donde se han reportado casos recientes de viruela?\n3. ¿Qué es lo que los expertos en enfermedades infecciosas dicen sobre la situación de la viruela?\n4. ¿Cuáles son las medidas de control implementadas para prevenir la transmisión de la viruela?\n5. ¿Qué es lo que la vacunación contra la viruela ha demostrado en términos de efectividad en prevenir la transmisión de la enfermedad?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"OMS situación actual viruela 2025\", \"países reportes casos viruela recientes 2025\", \"expertos enfermedades infecciosas viruela actualidad\", \"medidas control prevención transmisión viruela OMS\", \"efectividad vacunación viruela prevención transmisión enfermedad\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 11.674932502999582,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 11.674932502999582,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:34:58",
+                    "run_time": 11.674932502999582,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "OMS situación actual viruela 2025",
+                                "países reportes casos viruela recientes 2025",
+                                "expertos enfermedades infecciosas viruela actualidad",
+                                "medidas control prevención transmisión viruela OMS",
+                                "efectividad vacunación viruela prevención transmisión enfermedad"
+                            ],
+                            "results": {
+                                "OMS situación actual viruela 2025 | países reportes casos viruela recientes 2025 | expertos enfermedades infecciosas viruela actualidad | medidas control prevención transmisión viruela OMS | efectividad vacunación viruela prevención transmisión enfermedad": [
+                                    {
+                                        "text": "¿Qué es la mpox (viruela símica)?\n\nEs una zoonosis viral causada por el virus de la viruela símica, que pertenece al género Orthopoxvirus, este incluye al virus variola (causante de la viruela). La viruela símica se caracteriza por erupción o lesiones cutáneas que suelen concentrarse en la cara, las palmas de las manos y las plantas de los pies.\n\nLa mpox (viruela símica) se detectó por primera vez en África en 1970. Hay dos cepas genéticamente diferenciadas del virus de la mpox: la cepa de la cuenca del Congo (África central) y la cepa de África occidental. Las infecciones humanas con la cepa de África occidental parecen causar una enfermedad menos grave en comparación con la cepa de la cuenca del Congo.\n\nEl 14 de agosto de 2024, el Director General de la OMS declaró que el incremento del mpox en la República Democrática del Congo (RDC) y en un número creciente de países de África, constituye una emergencia de salud pública de importancia internacional (ESPII) bajo el marco del Reglamento Sanitario Internacional (2005) (RSI). La aparición y rápida propagación de la nueva cepa del virus del clado 1b en la RDC, su detección en países vecinos y la posibilidad de que siga propagándose dentro de África y fuera del continente, fueron factores importantes para la declaración de la ESPII.\n\nEsta es la segunda determinación de ESPII relacionada con el mpox en los últimos dos años. En julio de 2022, un brote multinacional de mpox fue declarado ESPII debido a una rápida propagación que se extendió rápidamente en una serie de países donde el virus no se había detectado antes. Esta ESPII se declaró finalizada en mayo de 2023 tras un descenso sostenido de los casos globales.",
+                                        "metadata": {
+                                            "url": "https://www.paho.org/es/mpoxenfermedad",
+                                            "source": "www.paho.org",
+                                            "favicon": "https://www.paho.org/themes/paho/favicon.ico",
+                                            "title": "Mpox (viruela símica) - OPS/OMS",
+                                            "type": "web_search",
+                                            "base_url": "https://www.paho.org",
+                                            "snippet": "En julio de 2022, un brote multinacional de mpox fue declarado ESPII debido a una rápida propagación que se extendió rápidamente en una serie de países donde el ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El número de casos y muertes se redujo en República Democrática del Congo y otros países de África, lo que motivó la decisión. Sin embargo, esto \"no significa que la amenaza haya terminado\", advirtió el organismo.\n\nEl jefe de la Organización Mundial de la Salud (OMS) anunció este viernes (05.09.2025) que el mpox, que afecta principalmente a África, dejó de ser una urgencia de salud pública internacional debido a la caída del número de casos y muertes.\n\nEl mpox es una enfermedad causada por un virus de la misma familia que el de la viruela. Se caracteriza por lesiones cutáneas, como pústulas, fiebre y dolores musculares.\n\n\"Hace más de un año, declaré la emergencia de salud pública internacional por la propagación del mpox en África, siguiendo el consejo de un comité de emergencia\", pero el jueves el grupo consideró que ya no era necesario y \"acepté su opinión\", declaró Tedros Adhanom Ghebreyesus en una rueda de prensa.\n\nUn hombre recibe una vacuna contra el mpox como parte de una campaña en Kamanyola, República Democrática del Congo (06.10.2025) Imagen: Ernest Muhero/DW\n\nDeclaración \"no significa que la amenaza haya terminado\"\n\n\"Esta decisión se basa en la disminución sostenida del número de casos y muertes en República Democrática del Congo y en otros países afectados, en particular Burundi, Sierra Leona y Uganda\", indicó.\n\nSin embargo, Tedros advirtió que esto \"no significa que la amenaza haya terminado\", ni que la respuesta de la OMS \"vaya a detenerse\".\n\nIdentificada por primera vez en República Democrática del Congo en 1970, el mpox permaneció confinado durante mucho tiempo a una decena de países africanos. Pero en 2022 comenzó a extenderse al resto del mundo, especialmente a países desarrollados donde el virus nunca había circulado.\n\nrr afp/reuters",
+                                        "metadata": {
+                                            "url": "https://www.dw.com/es/el-mpox-deja-de-ser-una-emergencia-mundial-de-salud-anuncia-la-oms/a-73900892",
+                                            "source": "www.dw.com",
+                                            "favicon": "https://www.dw.com/images/icons/favicon-16x16.png",
+                                            "title": "OMS: el mpox deja de ser una emergencia mundial de salud",
+                                            "type": "web_search",
+                                            "base_url": "https://www.dw.com",
+                                            "snippet": "OMS: el mpox deja de ser una emergencia mundial de salud. 05/09/2025 5 de septiembre de 2025. El número de casos y muertes se redujo en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Organización Mundial de la Salud (OMS) ha registrado 34.386 casos de mpox -viruela del mono-, periodo en el que también ha notificado la muerte de 138 personas relacionadas con la enfermedad, tras lo que ha advertido que el virus sigue circulando en 84 países y que, en caso de no contener su circulación, seguirá representando un riesgo de transmisión comunitaria sostenida.\n\nLos datos, que abarcan el periodo de entre el 1 de enero y el 31 de julio, muestran que la mayoría de los casos se concentran en África, siendo República Democrática del Congo (RDC) el más afectado, con 15.377 casos y 30 muertos; seguido de Uganda, con 6.522 detecciones y 35 fallecidos; de Sierra Leona, con 5.149 identificados y 52 muertos; y de Burundi, con 1.394 notificaciones de mpox.\n\nSenegal\n\nDesde la última edición de este informe, que data de finales de julio, Senegal ha notificado casos de mpox por primera vez, aunque aún se desconoce el clado correspondiente, mientras que Turquía también ha registrado por primera vez casos del clado Ib.\n\nSolo en el mes de julio, 47 países confirmaron 3.924 casos y 30 fallecimientos, con las regiones del Sudeste asiático y del Pacífico occidental en una situación al alza, frente a la baja de África, Europa y América. La región del Mediterráneo Oriental, por su parte, no ha llegado a reportar ningún caso en ese mes.\n\nCabe destacar que hasta 21 países africanos han registrado una transmisión continua de mpox durante las últimas seis semanas, con el clado IIb presente en los países de África occidental, el clado Ib en los países de África oriental, y ambos clados presentes en los países de África central.\n\nTransmisión comunitaria\n\nAunque la tendencia a la baja en África se debe principalmente a la disminución de casos en RDC, Sierra Leona y Uganda, países como Kenia han seguido experimentando una transmisión comunitaria y una tendencia al alza a lo largo del año, principalmente en adultos jóvenes, con 370 casos. Todas sus muertes (seis) se han producido en personas con el virus de la inmunodeficiencia humana (VIH).\n\nPor su parte, China, Alemania, Turquía y Reino Unido han notificado casos adicionales de mpox debido al clado Ib desde el último informe, y se han relacionado con viajeros a países en los que existe una transmisión comunitaria.\n\nEl pasado 20 de agosto, el director general de la OMS, Tedros Adhanom Ghebreyesus, prorrogó durante doce meses las recomendaciones vigentes sobre mpox emitidas a los Estados miembros para prevenir y reducir la propagación internacional del virus.\n\nEuropa Press",
+                                        "metadata": {
+                                            "url": "https://diarioenfermero.es/la-oms-registra-mas-de-34-000-casos-y-138-muertes-por-viruela-del-mono-en-el-mundo-en-lo-que-va-de-2025/",
+                                            "source": "diarioenfermero.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "La OMS registra más de 34.000 casos y 138 muertes por ...",
+                                            "type": "web_search",
+                                            "base_url": "https://diarioenfermero.es",
+                                            "snippet": "La OMS registra más de 34.000 casos y 138 muertes por viruela del mono en el mundo en lo que va de 2025 · Senegal · Transmisión comunitaria · Sobre ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Ante la emergencia de salud pública declarada por la Organización Mundial de la Salud, la Fundación para la Cooperación Internacional de la Organización Médica Colegial (FCOMCI) ha conformado un nuevo grupo de expertos que abordarán la temática de la Viruela del mono (Monkeypox). El objetivo de este grupo de trabajo es ...\n\nAnte la emergencia de salud pública declarada por la Organización Mundial de la Salud, la Fundación para la Cooperación Internacional de la Organización Médica Colegial (FCOMCI) ha conformado un nuevo grupo de expertos que abordarán la temática de la Viruela del mono (Monkeypox).\n\nEl objetivo de este grupo de trabajo es el de informar, divulgar y promover acciones para ayudar a los ciudadanos a entender mejor esta enfermedad, así como su presencia actual en España y en el resto del mundo.\n\nEn este sentido, desde la FCOMCI se van a lanzar durante las próximas semanas varias informaciones y vídeos sobre la situación de esta enfermedad infecciosa en España y en el resto del mundo. De esta forma, la Fundación busca aportar información veraz y contrastada de la mano de expertos para realizar un dibujo claro de la enfermedad, conocer los principales síntomas, evitar el alarmismo y actualizar la información en relación con la conocida como Viruela del Mono (Monkeypox).\n\nAyudar e investigar en el epicentro de la emergencia\n\nEl grupo de expertos, algunos de ellos en el epicentro de la epidemia en África, destaca la importancia de abordar esta emergencia en el continente africano y de comenzar a destinar recursos tanto para frenar allí esta enfermedad como para la investigación por su mayor impacto y utilidad tanto en el presente como en el futuro.\n\nPor ello, la FCOMCI se ha sumado a la iniciativa promovida por la ONG Coopera, que busca conseguir fondos para apoyar al equipo del Centro de Salud de Katanga, situado al sur de la República Democrática del Congo, uno de los epicentros de esta enfermedad.\n\nJunto a la ONG Coopera, la Fundación IO, Centro de Investigación en Ciencias Naturales (CRSN) de Lwiro, el Centro de Rehabilitación de Primates de Lwiro (CRPL) y One Health Conservation Initiative (OHCI), la FCOMCI quiere ayudar a recaudar fondos para este destino, que en la actualidad atraviesa un momento crítico por la limitación de recursos sanitarios y la gran proliferación de esta enfermedad infecciosa en esta zona.\n\nEste grupo de trabajo está encabezado por el Dr. Jose Luis Casado, adjunto de Enfermedades Infecciosas en el Hospital Ramón y Cajal; Luis Flores, veterinario jefe del CRPL; Dr. Diego Torrús, adjunto de Medicina Interna y de Enfermedades Infecciosas en el Hospital General Universitario de Alicante; y el Dr. Manuel Linares, microbiólogo clínico con dedicación intensiva en el campo de las Enfermedades Infecciosas, entre otros expertos.",
+                                        "metadata": {
+                                            "url": "https://www.immedicohospitalario.es/noticia/47512/la-fcomci-conforma-un-grupo-de-expertos-para-informar-sobre-la-viruela.html",
+                                            "source": "www.immedicohospitalario.es",
+                                            "favicon": "https://www.immedicohospitalario.es/assets/img/favicon.png",
+                                            "title": "La FCOMCI conforma un grupo de expertos para informar ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.immedicohospitalario.es",
+                                            "snippet": "El grupo de expertos tiene como objetivo divulgar sobre la Viruela del mono aportando datos veraces y contrastados. Así, durante las próximas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cómo la viruela se convirtió hace más de 4 décadas en la única enfermedad humana que se logró erradicar\n\nFuente de la imagen, Getty Images Pie de foto, La erdicación de la viruela fue un logro de la colaboración internacional, a través de la OMS.\n\nAutor, María Elena Navas* Título del autor, BBC News Mundo\n\n17 agosto 2024\n\n\n\nA raíz de la declaración de la Organización Mundial de la Salud (OMS) de una emergencia sanitaria internacional por un brote de mpox (antes conocida como viruela del mono) en África, echamos la mirada atrás para ver qué pasó hace más de 4 décadas con la viruela humana, la única enfermedad que se logró erradicar.\n\nFue una de las enfermedades más temidas del mundo y se calcula que, solo en el siglo XX, provocó unas 500 millones de muertes.\n\nEra la viruela, una infección altamente contagiosa causada por un virus que se transmitía principalmente por la inhalación de las gotas que exhalaba por la nariz o boca una persona contagiada.\n\nSus síntomas incluían fiebre y fatiga y, después, la enfermedad producía una característica erupción en la piel con pústulas que formaban cicatrices y dejaban, a los que lograban sobrevivir, con terribles desfiguraciones.\n\nOtros quedaban ciegos debido a las lesiones que la infección dejaba en las córneas.\n\nLa viruela era mortal en hasta en el 30% de los casos.\n\nPero después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la Organización Mundial de la Salud en 1980.\n\nSe convirtió así en la única enfermedad en humanos que se ha logrado erradicar y, para los expertos, se trata de uno de los mayores triunfos de la salud pública global.\n\n\"Fue un éxito formidable\", le dijo a BBC Mundo el profesor Paul Fine, experto en epidemiología de enfermedades transmisibles de la Escuela de Higiene y Medicina Tropical de Londres.\n\n\"Ha habido éxitos enormes en salud pública, como la provisión de agua limpia, los antibióticos, y muchos otros. Pero este, sin duda, fue un tremendo triunfo\", agregó.\n\nFuente de la imagen, Getty Images Pie de foto, Las jornadas de vacunación en contra de la viruela se extendieron por todo el mundo, como en Pakistán en 1967\n\nLa única enfermedad en humanos erradicada\n\nSaltar WhatsApp y continuar leyendo Únete a nuestro WhatsApp Recibe el mejor contenido de BBC News Mundo en tu celular Suscríbete aquí Fin de WhatsApp\n\n¿Cómo se logró esta erradicación? Y ¿por qué este hito de la salud pública global no ha logrado repetirse?\n\n\"Hay que aclarar primero que en el control de las enfermedades hay cuatro niveles\", le dijo a BBC Mundo José Esparza, profesor del Instituto de Virología Humana de la Escuela de Medicina de la Universidad de Maryland, en Estados Unidos.\n\n\"El primer nivel es el control: cuando la enfermedad continúa en la población pero las medidas que se implementan la mantienen en un nivel bajo que hace que sea controlable\".\n\n\"Después está la eliminación: cuando la enfermedad desaparece de una parte del mundo, pero continúa en otra región\".\n\n\"Posteriormente viene la erradicación: cuando la enfermedad ha sido borrada del mapa en todo el mundo. Y hay un nivel más alto que se llama extinción, cuando el agente, o virus, ya no existe ni en la naturaleza ni en el laboratorio\", explica el experto.\n\n\"De manera que así, la única enfermedad humana que ha sido erradicada es la viruela\", agrega.\n\nHay una segunda enfermedad que también ha logrado erradicarse, pero esta es una enfermedad animal: la peste bovina.\n\nEl camino a la erradicación\n\nFuente de la imagen, Getty Images Pie de foto, Rahima Banu, de 3 años, fue el último caso que se reportó de la variante Variola major de la viruela -la más contagiosa- en 1975 en Bangladesh.\n\nEl último caso reportado de viruela ocurrió en Somalia en 1977.\n\nDesde entonces, aparte de un caso en Reino Unido en 1978 por un contagio en un laboratorio, no se han detectado nuevas infecciones de la enfermedad.\n\nPero el camino hacia la erradicación de la viruela había comenzado 200 años antes, con el famoso descubrimiento del científico británico Edward Jenner que condujo al desarrollo de la vacuna contra la viruela en 1796.\n\nEsta, se puede decir, fue la primera vacuna humana.\n\nLa vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo.\n\n\"La viruela estaba asociada con una mortalidad muy alta, y era una enfermedad muy temida\", explicó Paul Fine, quien formó parte de la campaña de erradicación de viruela de la OMS.\n\n\"Para los años 50 todos los países ricos del mundo habían logrado eliminar la enfermedad. Así que cuando la OMS fue creada, después de la Segunda Guerra Mundial, se propuso la erradicación de la viruela como uno de sus grandes objetivos\".\n\nFuente de la imagen, Getty Images Pie de foto, Las campañas para la erradicación de la viruela en países ricos como EE.UU. llevaban desarrollándose desde finales del siglo XIX.\n\nEn 1967, la OMS se puso la meta de erradicar la enfermedad en una década y ese año comenzó la campaña para lograrlo.\n\nCuando comenzó la campaña de erradicación, se registraron 2,7 millones de muertes por viruela en el mundo.\n\n\"La meta de erradicación finalmente fue alcanzada en 1978 y para entonces el mundo vio como la viruela desaparecía rápidamente como consecuencia del uso global y efectivo de las vacunas\", le dijo Fine a BBC Mundo.\n\nEn efecto, los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad.\n\nPero también hubo otros factores que facilitaron esta erradicación.\n\nEl profesor David Heymann, experto en enfermedades infecciosas de la Escuela de Higiene y Medicina Tropical de Londres, participó en el programa de erradicación de viruela en India.\n\nTal como le dijo a BBC Mundo, la viruela fue un \"blanco fácil\" de erradicar.\n\n\"En primer lugar, cada infección de viruela era visible. Los pacientes tenían signos físicos claros de la enfermedad y esta se presentaba de la misma forma. Además, no había infecciones asintomáticas\", señaló el profesor Heymann.\n\n\"Así que fue fácil erradicarla porque se podía localizar a los pacientes y aislarlos. Después se buscaba a quienes habían tenido contacto con este y se los vacunaba. Y así terminábamos sin ningún caso en esa determinada zona\".\n\n\"Esa fue la estrategia llamada 'búsqueda y contención’\", explicó el experto.\n\nCondiciones\n\nFuente de la imagen, Getty Images Pie de foto, La viruela era causada por el virus variola.\n\nEl virus de la viruela, entonces, cumplía con las condiciones ideales para poder ser erradicado, como explicó el virólogo José Esparza.\n\n\"Son varias condiciones: una es que no haya casos asintomáticos, que no haya personas que no saben que están infectadas y transmitiendo el virus. Otra condición es que no sean casos crónicos, que no sea una infección que se extienda por toda la vida del paciente\", señaló el experto.\n\n\"Otra condición muy importante es que no hayan reservorios animales, porque uno puede controlar la infección en los humanos pero la infección se mantiene en animales. Y la otra condición es que el virus no tenga variantes antigénicas y que sea un solo tipo de virus\".\n\n\"Pero lo principal es que exista una vacuna efectiva contra ese virus. En el caso de la viruela se cumplían de manera casi perfecta todas estas condiciones\", le dijo Esparza a BBC Mundo.\n\nPero estas condiciones \"casi perfectas\" no se han visto en otras enfermedades, a pesar de los esfuerzos enormes que se han hecho para su erradicación.\n\nActualmente la OMS tiene objetivos de eliminación de enfermedades como la polio, la malaria, el sarampión y la rubéola. Pero ninguna cumple las condiciones necesarias para erradicación.\n\n\"La viruela fue un blanco más fácil que muchas de las otras enfermedades que ahora estamos tratando de controlar o eliminar\", le dijo a BBC Mundo Paul Fine.\n\n\"Y es que todos podían reconocer a un paciente con viruela, pero con algo como la polio, donde la mayoría de las infecciones no se manifiestan clínicamente, se pierden la mayoría de los contagios que están circulando. Este es un enorme problema con la polio\".\n\n\"Pero además, las vacunas de la polio no son tan efectivas como lo fue la vacuna de viruela\", agregó el experto.\n\nLecciones\n\nFuente de la imagen, Getty Images Pie de foto, Los enfermos de viruela eran aislados y vacunados junto con todas las personas que habían tenido contacto con ellos.\n\nAlgo que demostró la erradicación de la viruela es que no se requiere solamente de las iniciativas científicas para combatir una enfermedad.\n\nTambién son necesarios enormes esfuerzos políticos, económicos y sociales para que las campañas de salud sean exitosas.\n\nPero los expertos coinciden en que quizás la mayor lección que dejó la erradicación de la viruela es la importancia de la cooperación internacional.\n\n\"La erradicación de la viruela ocurrió en lo más álgido de la Guerra Fría, y sin embargo, los que estuvimos en el programa trabajamos al lado de gente de todo el mundo, incluida la Unión Soviética\", señaló David Heymann.\n\n\"Si el mundo trabaja junto se puede hacer mucho para combatir las infecciones, ya sea para un programa de erradicación o un programa para combatir una pandemia\".\n\nPaul Fine, por su parte, estuvo de acuerdo.\n\n\"Cuando se llevó a cabo el programa de erradicación había una fricción tremenda entre el Este y el Oeste. Pero el mundo se unió y hubo un apoyo de 100% para el programa de erradicación\", aseguró.\n\n*Esta es una historia publicada originalmente en BBC Mundo en 2020 y que fue actualizada.\n\nHaz clic aquí para leer más historias de BBC News Mundo.\n\nTambién puedes seguirnos en YouTube, Instagram, TikTok, X, Facebook y en nuestro nuevo canal de WhatsApp, donde encontrarás noticias de última hora y nuestro mejor contenido.",
+                                        "metadata": {
+                                            "url": "https://www.bbc.com/mundo/articles/cj9le83xzj0o",
+                                            "source": "www.bbc.com",
+                                            "favicon": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/mundo/images/icons/icon-192x192.png",
+                                            "title": "Cómo la viruela se convirtió hace más de 4 décadas en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bbc.com",
+                                            "snippet": "El profesor David Heymann, experto en enfermedades infecciosas de la Escuela de Higiene y Medicina Tropical de Londres, participó en el programa ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La vacunación es una historia de éxito. Este año se conmemora el 40 aniversario de la declaración, por parte de la 33ª Asamblea Mundial de la Salud, de la erradicación de la viruela, una enfermedad contagiosa que afectó a millones de personas durante miles de años y que sólo en el siglo XX acabó con la vida de 300 millones de personas.\n\nLa Organización Mundial de Salud (OMS) celebró en diciembre el acto de apertura de un año de celebraciones a propósito de este triunfo de la ciencia biomédica, colocando una placa de bronce en su sede en Ginebra (Suiza) en la misma sala en la que, en 1979, los 19 miembros de la Comisión Mundial para la Certificación de la Erradicación de la Viruela corroboraron que la enfermedad había desaparecido en todo el mundo.\n\nEn el evento, el director general de la OMS, Tedros Adhanom Ghebreyesus, afirmó que “hoy, la viruela es la única enfermedad humana erradicada, una prueba de lo que podemos conseguir cuando todas las naciones trabajamos juntas. Ante las enfermedades epidémicas, tenemos una obligación y un destino compartidos. Con esta placa conmemoramos a los héroes del mundo que unieron sus fuerzas para luchar contra la viruela y trabajaron por la seguridad de las generaciones futuras”.\n\nLa historia de la viruela se remonta al siglo XVIII cuando Lady Montagu, una escritora británica, durante su estancia en Turquía, observó que mujeres que ordeñaban vacas no contraían la viruela. Los animales estaban infectados con la enfermedad, pero de una variedad más leve que, al contagiarse a las granjeras, las hacía inmunes incluso a las manifestaciones más virulentas de la patología. Esta mujer fue la primera que impregnó agujas con el pus de la viruela que tenían las vacas e inoculó el virus a su hijo, incluso a herederos de monarcas europeos, pero su técnica acabó siendo rechazada y muchos médicos en Inglaterra no confiaron en su método.\n\nFue en 1796 cuando Edward Jenner, un médico compatriota de Montagu, confirmó las observaciones de la escritora sobre uno de los virus que más personas ha matado en el mundo. Jenner decidió inocular a James Phipps, un niño de 8 años hijo de su jardinero, las raspaduras del virus de una vaca llamada Blossom. El pequeño tuvo fiebre durante un par de días, pero no desarrolló ninguna infección grave ni mostró ningún síntoma de viruela.\n\nEn España los avances de Jenner llegaron a oídos del cirujano Javier de Balmis, que se lo contó al rey Carlos IV y organizaron la llamada Expedición Filantrópica de la Vacuna, que partió de La Coruña en 1803 con destino a Centroamérica. Balmis viajó con 22 niños huérfanos, que transportarían la vacuna a través de su propia inmunización. La viruela de las vacas se inoculaba en uno de ellos y a los 10 días le salían unos pocos granos que exhalaban el llamado fluido vacunal. Este se recogía y se inoculaba en otro niño. Y así se mantenía la cadena. Aunque se perdieron vidas por el camino, se estima que más de 500.000 personas fueron inmunizadas directamente por la Expedición Balmis y que millones de personas fueron salvadas de morir gracias a la creación, en los lugares por los que pasaba, de Juntas Sanitarias y Casas de Vacunación públicas.\n\nEl último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977. Gracias al eficaz Programa de Erradicación de la Viruela se obtuvieron instrumentos y conocimientos fundamentales sobre la vigilancia de la morbilidad, los beneficios de la vacunación en anillo (que consiste en vacunar a todas las personas que han estado en contacto con algún infectado, creando así un anillo de protección) y la importancia de la promoción de la salud en la lucha contra enfermedades como la poliomielitis y la enfermedad por el virus del Ébola.\n\nTambién sirvió para establecer en el mundo las bases de programas nacionales mejorados de inmunización que ayudaron a consolidar el establecimiento de la atención primaria de salud en muchos países y a trabajar por una cobertura sanitaria universal.",
+                                        "metadata": {
+                                            "url": "https://www.farmaindustria.es/web/reportaje/viruela-como-una-vacuna-consiguio-erradicar-la-primera-enfermedad-contagiosa-en-el-mundo/",
+                                            "source": "www.farmaindustria.es",
+                                            "favicon": "https://www.farmaindustria.es/web/wp-content/themes/farmaindustria_v1/images/iconos/apple-icon-57x57.png",
+                                            "title": "Viruela: cómo una vacuna consiguió erradicar la primera ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.farmaindustria.es",
+                                            "snippet": "El éxito de la vacunación contra la viruela no es un caso aislado. Existen más de 40 vacunas desarrolladas contra 25 enfermedades que han logrado controlar los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Se manifiesta con síntomas generales que suelen aparecer dentro de las tres semanas posteriores a la exposición: fiebre, escalofríos, linfadenitis, astenia, mialgias, cefalea, odinofagia o tos, dando lugar a un cuadro pseudogripal. Estos síntomas se acompañan de exantemas que transitan las fases de mácula, pápula, vesícula y costra. Es característico encontrar las lesiones cutáneas en el mismo estadio de evolución. Las lesiones pueden aparecer en cualquier zona del cuerpo, incluyendo la palma de las manos y la planta de los pies, la cara, la boca y la garganta, las ingles, los genitales y el ano.",
+                                        "metadata": {
+                                            "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/enfermedades/profesionales/viruelaM_mpox.htm",
+                                            "source": "www.sanidad.gob.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Vacunas y programas de vacunación - Viruela M (mpox)",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sanidad.gob.es",
+                                            "snippet": "¿Cómo se transmite la enfermedad? Se transmite de persona a persona, por contacto estrecho con un caso de viruela M. Aunque la principal vía de transmisión ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Un nuevo estudio recientemente publicado1, ha recopilado los datos de todos los casos registrados de viruela del mono (mpox) en Reino Unido durante todo el 2023, con el fin de estimar la efectividad de la vacuna de tercera generación IMVANEX (de Bavarian Nordic)2, disponible en la actualidad y autorizada por la Agencia Europea del Medicamento para la prevención de mpox en personas a partir de los 18 años.\n\nEl pasado mes de abril se detectó por primera vez el subclado Ib de mpox en la República Democrática del Congo (RDC), que se ha propagado a otros países colindantes, con casos confirmados en Burundi, Congo, Ruanda, Uganda, República Centroafricana y Kenia, y con casos importados notificados en Suecia y Tailandia3. Este brote asociado con el subclado Ib afecta principalmente a adultos y se está transmitiendo, sobre todo, a través de contacto sexual, del mismo modo que en el caso del brote anterior de mpox en 2022, aunque en este brote, se han documentado diversos modos de transmisión (el contacto estrecho y prolongado no asociado a relaciones sexuales a nivel doméstico o sanitario). Esto, sumado a la rápida expansión y a la probable mayor gravedad de los casos declarados, ha llevado a que la Organización Mundial de la Salud, el 14 de agosto de 2024, declarase este brote como una Emergencia de Salud Pública de Importancia Internacional (ESPII).\n\nEn España, desde el inicio del brote en abril 2022 hasta el 3 de septiembre de 2024 se han notificado un total de 8193 casos confirmados de infección por mpox4. En España y los países de la UE/EEE, desde la finalización del anterior brote internacional de 2022 por clado II y hasta el momento actual, se ha mantenido una circulación de mpox en niveles muy bajos, con un perfil epidemiológico estable. En el momento actual no se ha detectado ningún caso producido por este subclado Ib en España.\n\nDada la situación epidemiológica actual declarada por la OMS, cobra mayor importancia aún los datos reportados por el estudio mencionado, aportando unos datos de efectividad vacunal tras la primera dosis del 84 % (IC 95 %: 74 %-91 %), siendo la efectividad vacunal tras la segunda dosis del 80% (IC 95 %: 69 %-83 %), y la efectividad combinada del 82 % (IC 95 %: 74 %-88 %).\n\nLas recomendacione de vacunación vigentes en España5 indican una pauta de dos dosis con un intervalo de al menos 28 días. Sin embargo, los datos recopilados indican que un 50 % de las personas vacunadas hasta ahora han recibido una sola dosis, siendo crucial promover la administración de la segunda dosis vacunal en estas personas.\n\nEn un estudio realizado en España6, se observó una efectividad vacunal de una dosis por vía subcutánea, del 65 % a partir de los 7 días (IC 95 %: 22,9-88,0) y del 79 % a partir de los 14 días (IC 95 %: 33,3-100,0) de su administración.\n\nAunque la mayor experiencia actual es con el clado II, es esperable que la efectividad frente al clado Ib sea similar, de modo que, a la espera de la evolución del brote actual, de mayor propagación, potencial transmisión y probable mayor gravedad, contar con un preparado vacunal de esta efectividad constatada, aporta una medida de Salud Pública de enorme utilidad para el control de esta potencial emergencia sanitaria.\n\nBibliografía y referencias:",
+                                        "metadata": {
+                                            "url": "https://www.livemed.in/es/blog/efectividad-vacuna-frente-viruela-mono-mpox/",
+                                            "source": "www.livemed.in",
+                                            "favicon": "https://www.livemed.in/static/livemed_tlkg/favicon/favicon.png",
+                                            "title": "Efectividad de la vacuna frente a la viruela del mono",
+                                            "type": "web_search",
+                                            "base_url": "https://www.livemed.in",
+                                            "snippet": "En un estudio realizado en España6, se observó una efectividad vacunal de una dosis por vía subcutánea, del 65 % a partir de los 7 días (IC 95 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En los Estados Unidos, las vacunas antivariólicas autorizadas son ACAM2000, una vacuna de virus vaccinia vivo capaz de replicarse, y JYNNEOS, una vacuna de virus vaccinia Ankara modificado (MVA) atenuado (con deficiencia de replicación) (1). Esta vacuna atenuada (debilitada) no se replica en la persona que la recibe. (Véase también CDC: Smallpox Vaccine Basics.)\n\nEl virus vaccinia está relacionado con la viruela y proporciona inmunidad cruzada. La vacuna ACAM2000 se administra con una aguja bifurcada sumergida en vacuna reconstituida. La aguja debe introducirse y retirarse rápidamente 15 veces en un área de alrededor de 5 mm de diámetro con fuerza suficiente para que salga una pequeña gota de sangre. El sitio donde se aplica la vacuna debe cubrirse con un vendaje para evitar la diseminación del virus a otras regiones del cuerpo o a los contactos cercanos. La semana siguiente a la vacuna el paciente suele presentar fiebre, malestar general y mialgias. La vacunación se considera exitosa cuando aparece una pústula hacia el séptimo día. Las personas en las que no se identifican los signos mencionados de vacunación exitosa deben recibir otra dosis.\n\nLa vacunación con ACAM2000 es peligrosa y no se recomienda en algunas personas, en especial aquellas con los siguientes factores de riesgo:\n\nSistema inmunitario debilitado (como en pacientes con sida o que reciben inmunosupresores)\n\nTrastornos cutáneos (en particular, dermatitis atópica [eccema])\n\nInflamación ocular\n\nEnfermedad cardíaca\n\nEdad menor de 1 año\n\nEmbarazo\n\nJYNNEOS se administra en 2 inyecciones subcutáneas con 4 semanas de diferencia. Está autorizada por la FDA para personas de 18 años y mayores. La vacuna JYNNEOS puede desempeñar un papel particular en la vacunación de personas en las que ACAM2000 puede estar contraindicada, como aquellos con estados de inmunodepresión o dermatitis atópica (véase la lista anterior). Sin embargo, las personas que tienen un sistema inmunitario debilitado pueden presentar menor respuesta a la vacuna JYNNEOS.\n\nOtra vacuna experimental a virus vivos, la vacuna contra la viruela de Aventis Pasteur (APSV), también está disponible en la Reserva Nacional Estragética en caso de emergencia.\n\nDespués de una sola vacunación, la inmunidad comienza a desaparecer después de 5 años y probablemente sea insignificante después de 20 años. Si las personas han sido revacunadas con éxito una o más veces, puede persistir cierta inmunidad residual durante ≥ 30 años.\n\nHasta que se informe un brote epidémico en la población, la vacunación previa a la exposición sigue reservándose para las personas con riesgo elevado de exponerse al virus (p. ej., técnicos de laboratorio [2]).\n\nEnfermedad por el virus vaccinia Enfermedad por el virus vaccinia: progresiva (compromiso de la piel descrito como enfermedad necrosante por el virus vaccinia) La enfermedad por el virus vaccinia progresiva es una lesión vesiculosa que no cicatriza, se desarrolla después de la vacunación contra la viruela y se disemina en forma difusa con compromiso de la piel fuera del sitio de inmunización y en profundidad, con afectación de los huesos y las vísceras. Ocurre casi exclusivamente en receptores de vacunas con un defecto subyacente en la inmunidad mediada por células. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention. Vacunas: progresivas (compromiso de los tejidos profundos) La enfermedad por el virus vaccinia progresiva es una lesión vesiculosa que no cicatriza, se desarrolla después de la vacunación contra la viruela y se disemina en forma difusa con compromiso de la piel fuera del sitio de inmunización y en profundidad, con afectación de los huesos y las vísceras. Ocurre casi exclusivamente en receptores de vacunas con un defecto subyacente en la inmunidad mediada por células. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention. Eccema vacunal El eccema vacunal es una vaccinia que se desarrolla en pacientes con piel eccematosa. El eccema activo puede no ser clínicamente evidente en los sitios afectados. Los pacientes pueden presentar edema después de recibir la vacuna o por el contacto físico con alguien que la ha recibido. ... obtenga más información Image courtesy of Arthur E. Kaye via the Public Health Image Library of the Centers for Disease Control and Prevention. Vaccinia: generalizada La enfermedad generalizada por el virus vaccinia son las lesiones vacunales de distribución difusa causadas por la diseminación hematógena del virus después de la vacunación. A pesar de su posible aspecto grave, la enfermedad por el virus vaccinia generalizada suele ser benigna. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention. Enfermedad por el virus vaccinia: progresiva (compromiso de la piel descrito como enfermedad necrosante por el virus vaccinia) La enfermedad por el virus vaccinia progresiva es una lesión vesiculosa que no cicatriza, se desarrolla después de la vacunación contra la viruela y se disemina en forma difusa con compromiso de la piel fuera del sitio de inmunización y en profundidad, con afectación de los huesos y las vísceras. Ocurre casi exclusivamente en receptores de vacunas con un defecto subyacente en la inmunidad mediada por células. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention. Vacunas: progresivas (compromiso de los tejidos profundos) La enfermedad por el virus vaccinia progresiva es una lesión vesiculosa que no cicatriza, se desarrolla después de la vacunación contra la viruela y se disemina en forma difusa con compromiso de la piel fuera del sitio de inmunización y en profundidad, con afectación de los huesos y las vísceras. Ocurre casi exclusivamente en receptores de vacunas con un defecto subyacente en la inmunidad mediada por células. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention. Eccema vacunal El eccema vacunal es una vaccinia que se desarrolla en pacientes con piel eccematosa. El eccema activo puede no ser clínicamente evidente en los sitios afectados. Los pacientes pueden presentar edema después de recibir la vacuna o por el contacto físico con alguien que la ha recibido. ... obtenga más información Image courtesy of Arthur E. Kaye via the Public Health Image Library of the Centers for Disease Control and Prevention. Vaccinia: generalizada La enfermedad generalizada por el virus vaccinia son las lesiones vacunales de distribución difusa causadas por la diseminación hematógena del virus después de la vacunación. A pesar de su posible aspecto grave, la enfermedad por el virus vaccinia generalizada suele ser benigna. ... obtenga más información Image courtesy of Dr. Allen W. Mathies of the Immunization Branch of the California Emergency Preparedness Office (Calif/EPO) via the Public Health Image Library of the Centers for Disease Control and Prevention.\n\nComplicaciones de la vacuna con el virus vaccinia vivo Los factores de riesgo de complicaciones de la vacuna con virus vaccinia capaz de replicarse (ACAM2000) incuyen trastornos cutáneos extensos (en particular, eccema), enfermedades o tratamientos inmunosupresores, inflamación ocular, embarazo, cardiopatías y edad menor de 1 año. No se recomienda la vacunación universal de la población debido a los riesgos asociados con esta práctica. Las complicaciones graves se producen aproximadamente en 1 de cada 10.000 pacientes después de su primera vacunación (primaria) e incluyen: Encefalitis posterior a la vacunación\n\nVacuna progresiva\n\nEccema vacunal\n\nVacuna generalizada\n\nMiocarditis, pericarditis o ambas\n\nQueratitis por virus vaccinia\n\nErupciones no infecciosas La encefalitis posterior a la vacunación se identifica en 1 cada 300.000 receptores de vacunas primarias, típicamente entre 8 y 15 días después de la administración de la vacuna. La vaccinia progresiva (viruela necrosante) provoca una lesión cutánea vacunal (vesiculosa) que no cicatriza y se disemina en primer lugar a la piel adyacente, y luego, a otras áreas cutáneas, huesos y órganos. Las complicaciones pueden aparecer tras la vacunación primaria o en la revacunación, pero se observa casi exclusivamente en pacientes con un defecto subyacente en la inmunidad celular. Pueden ser mortales. El eccema vacunal provoca lesiones cutáneas vacunales en áreas con eccema activo o incluso cicatrizal. La vaccinia generalizada es el resultado de la diseminación hematógena del virus vacuna y causa lesiones vacunales en numerosos sitios del cuerpo, en general con evolución benigna. La queratitis por virus vaccinia ocurre raramente, cuando el virus vaccinia se implanta de forma inadvertida en los ojos. Algunas complicaciones graves de la vaccinia se tratan con inmunoglobulina contra la vacuna (VIG); se informó un caso de eccema tratado aparentemente con éxito con VIG, cidofovir y tecovirimat. En el pasado, los pacientes con riesgo elevado que debían vacunarse tras exponerse al virus recibían simultáneamente VIG en un intento por prevenir las complicaciones. La eficacia de esta práctica se desconoce y los CDC no la recomiendan. La VIG sólo puede adquirirse a través de los CDC.\n\nProfilaxis posexposición La vacunación después de la exposición con una vacuna de replicación competente puede evitar o limitar significativamente la gravedad de la enfermedad y se indica a los miembros de la familia y los contactos personales estrechos de pacientes con viruela. Su administración precoz es más eficaz, pero se observaron algunos efectos beneficiosos cuando se indicó la vacuna hasta 7 días después de la exposición.",
+                                        "metadata": {
+                                            "url": "https://www.msdmanuals.com/es/professional/enfermedades-infecciosas/poxvirus/viruela",
+                                            "source": "www.msdmanuals.com",
+                                            "favicon": "https://www.msdmanuals.com/professional/_next/static/media/favicon.f7343459.ico",
+                                            "title": "Viruela - Enfermedades infecciosas - Manual MSD versión ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.msdmanuals.com",
+                                            "snippet": "La enfermedad por el virus vaccinia progresiva es una lesión vesiculosa que no cicatriza, se desarrolla después de la vacunación contra la viruela y se disemina ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0010345399999999998,
+                "total_run_time": 0.6982840150012635,
+                "average_cost_per_call": 0.0010345399999999998,
+                "average_time_per_call": 0.6982840150012635,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:34:59",
+                    "run_time": 0.6982840150012635,
+                    "cost": 0.0010345399999999998,
+                    "history_entry": {
+                        "data": {
+                            "¿Qué es lo que la OMS dice sobre la situación actual de la viruela?": [
+                                {
+                                    "Pero después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la Organización Mundial de la Salud en 1980.": null
+                                },
+                                {
+                                    "En el evento, el director general de la OMS, Tedros Adhanom Ghebreyesus, afirmó que “hoy, la viruela es la única enfermedad humana erradicada, una prueba de lo que podemos conseguir cuando todas las naciones trabajamos juntas. Ante las enfermedades epidémicas, tenemos una obligación y un destino compartidos. Con esta placa conmemoramos a los héroes del mundo que unieron sus fuerzas para luchar contra la viruela y trabajaron por la seguridad de las generaciones futuras”.": null
+                                },
+                                {
+                                    "A raíz de la declaración de la Organización Mundial de la Salud (OMS) de una emergencia sanitaria internacional por un brote de mpox (antes conocida como viruela del mono) en África, echamos la mirada atrás para ver qué pasó hace más de 4 décadas con la viruela humana, la única enfermedad que se logró erradicar.": null
+                                }
+                            ],
+                            "¿Cuáles son los países donde se han reportado casos recientes de viruela?": [
+                                {
+                                    "La Organización Mundial de la Salud (OMS) ha registrado 34.386 casos de mpox -viruela del mono-, periodo en el que también ha notificado la muerte de 138 personas relacionadas con la enfermedad, tras lo que ha advertido que el virus sigue circulando en 84 países y que, en caso de no contener su circulación, seguirá representando un riesgo de transmisión comunitaria sostenida.": null
+                                },
+                                {
+                                    "El último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977. Gracias al eficaz Programa de Erradicación de la Viruela se obtuvieron instrumentos y conocimientos fundamentales sobre la vigilancia de la morbilidad, los beneficios de la vacunación en anillo (que consiste en vacunar a todas las personas que han estado en contacto con algún infectado, creando así un anillo de protección) y la importancia de la promoción de la salud en la lucha contra enfermedades como la poliomielitis y la enfermedad por el virus del Ébola.": null
+                                },
+                                {
+                                    "Fuente de la imagen, Getty Images Pie de foto, Rahima Banu, de 3 años, fue el último caso que se reportó de la variante Variola major de la viruela -la más contagiosa- en 1975 en Bangladesh.": null
+                                }
+                            ],
+                            "¿Qué es lo que los expertos en enfermedades infecciosas dicen sobre la situación de la viruela?": [
+                                {
+                                    "En efecto, los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad.": null
+                                },
+                                {
+                                    "\"En primer lugar, cada infección de viruela era visible. Los pacientes tenían signos físicos claros de la enfermedad y esta se presentaba de la misma forma. Además, no había infecciones asintomáticas\", señaló el profesor Heymann.": null
+                                },
+                                {
+                                    "\"Pero lo principal es que exista una vacuna efectiva contra ese virus. En el caso de la viruela se cumplían de manera casi perfecta todas estas condiciones\", le dijo Esparza a BBC Mundo.": null
+                                }
+                            ],
+                            "¿Cuáles son las medidas de control implementadas para prevenir la transmisión de la viruela?": [
+                                {
+                                    "Fuente de la imagen, Getty Images Pie de foto, Los enfermos de viruela eran aislados y vacunados junto con todas las personas que habían tenido contacto con ellos.": null
+                                },
+                                {
+                                    "\"Pero lo principal es que exista una vacuna efectiva contra ese virus. En el caso de la viruela se cumplían de manera casi perfecta todas estas condiciones\", le dijo Esparza a BBC Mundo.": null
+                                },
+                                {
+                                    "\"En primer lugar, cada infección de viruela era visible. Los pacientes tenían signos físicos claros de la enfermedad y esta se presentaba de la misma forma. Además, no había infecciones asintomáticas\", señaló el profesor Heymann.": null
+                                }
+                            ],
+                            "¿Qué es lo que la vacunación contra la viruela ha demostrado en términos de efectividad en prevenir la transmisión de la enfermedad?": [
+                                {
+                                    "En efecto, los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad.": null
+                                },
+                                {
+                                    "La vacunación es una historia de éxito. Este año se conmemora el 40 aniversario de la declaración, por parte de la 33ª Asamblea Mundial de la Salud, de la erradicación de la viruela, una enfermedad contagiosa que afectó a millones de personas durante miles de años y que sólo en el siglo XX acabó con la vida de 300 millones de personas.": null
+                                },
+                                {
+                                    "La vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 14.842756048998126,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 14.842756048998126,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:35:16",
+                    "run_time": 14.842756048998126,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa viruela ha sido erradicada a nivel mundial\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Qué es lo que la OMS dice sobre la situación actual de la viruela?\n¿Cuáles son los países donde se han reportado casos recientes de viruela?\n¿Qué es lo que los expertos en enfermedades infecciosas dicen sobre la situación de la viruela?\n¿Cuáles son las medidas de control implementadas para prevenir la transmisión de la viruela?\n¿Qué es lo que la vacunación contra la viruela ha demostrado en términos de efectividad en prevenir la transmisión de la enfermedad?\n\n3. Here are the text sources you should use as your source of information:\n[0] Pero después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la Organización Mundial de la Salud en 1980.\n[0] A raíz de la declaración de la Organización Mundial de la Salud (OMS) de una emergencia sanitaria internacional por un brote de mpox (antes conocida como viruela del mono) en África, echamos la mirada atrás para ver qué pasó hace más de 4 décadas con la viruela humana, la única enfermedad que se logró erradicar.\n[0] Fuente de la imagen, Getty Images Pie de foto, Rahima Banu, de 3 años, fue el último caso que se reportó de la variante Variola major de la viruela -la más contagiosa- en 1975 en Bangladesh.\n[0] En efecto, los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad.\n[0] \"En primer lugar, cada infección de viruela era visible. Los pacientes tenían signos físicos claros de la enfermedad y esta se presentaba de la misma forma. Además, no había infecciones asintomáticas\", señaló el profesor Heymann.\n[0] \"Pero lo principal es que exista una vacuna efectiva contra ese virus. En el caso de la viruela se cumplían de manera casi perfecta todas estas condiciones\", le dijo Esparza a BBC Mundo.\n[0] Fuente de la imagen, Getty Images Pie de foto, Los enfermos de viruela eran aislados y vacunados junto con todas las personas que habían tenido contacto con ellos.\n[0] La vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo.\n[1] En el evento, el director general de la OMS, Tedros Adhanom Ghebreyesus, afirmó que “hoy, la viruela es la única enfermedad humana erradicada, una prueba de lo que podemos conseguir cuando todas las naciones trabajamos juntas. Ante las enfermedades epidémicas, tenemos una obligación y un destino compartidos. Con esta placa conmemoramos a los héroes del mundo que unieron sus fuerzas para luchar contra la viruela y trabajaron por la seguridad de las generaciones futuras”.\n[1] El último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977. Gracias al eficaz Programa de Erradicación de la Viruela se obtuvieron instrumentos y conocimientos fundamentales sobre la vigilancia de la morbilidad, los beneficios de la vacunación en anillo (que consiste en vacunar a todas las personas que han estado en contacto con algún infectado, creando así un anillo de protección) y la importancia de la promoción de la salud en la lucha contra enfermedades como la poliomielitis y la enfermedad por el virus del Ébola.\n[1] La vacunación es una historia de éxito. Este año se conmemora el 40 aniversario de la declaración, por parte de la 33ª Asamblea Mundial de la Salud, de la erradicación de la viruela, una enfermedad contagiosa que afectó a millones de personas durante miles de años y que sólo en el siglo XX acabó con la vida de 300 millones de personas.\n[2] La Organización Mundial de la Salud (OMS) ha registrado 34.386 casos de mpox -viruela del mono-, periodo en el que también ha notificado la muerte de 138 personas relacionadas con la enfermedad, tras lo que ha advertido que el virus sigue circulando en 84 países y que, en caso de no contener su circulación, seguirá representando un riesgo de transmisión comunitaria sostenida.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La viruela ha sido erradicada a nivel mundial"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**La viruela ha sido erradicada a nivel mundial**\n\nLa declaración de erradicación de la viruela por parte de la Organización Mundial de la Salud (OMS) en 1980 es un hecho bien documentado. Según se menciona en el texto [0], después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la OMS en 1980. Además, el último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977 [1]. Esto sugiere que la viruela ya no es una amenaza para la salud pública global.\n\nSin embargo, recientemente se ha informado de casos de viruela en varios países, lo que plantea una cuestión sobre la verdadera naturaleza de la erradicación de la enfermedad. En 2022, la OMS registró 34.386 casos de mpox (viruela del mono), y se informó la muerte de 138 personas relacionadas con la enfermedad [2]. Esto sugiere que el virus de la viruela sigue circulando en algunos lugares del mundo y que sigue siendo una amenaza para la salud pública.\n\nA pesar de estos informes recientes, es importante destacar que la vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad. Según se menciona en el texto [0], los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad. Además, la vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo [0]. Esto sugiere que la vacunación es una herramienta efectiva para prevenir la transmisión de la viruela.\n\nEn conclusión, aunque haya habido casos recientes de viruela, la declaración de erradicación de la viruela por parte de la OMS en 1980 sigue siendo un hecho bien documentado. La vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad, y la OMS ha registrado una disminución significativa en los casos de viruela desde la declaración de erradicación. Por lo tanto, la afirmación de que la viruela ha sido erradicada a nivel mundial es **verdadera**.\n\nNota: Es importante destacar que la viruela ha sido erradicada a nivel mundial, pero aún hay casos aislados de viruela en algunos lugares del mundo, lo que sugiere que la enfermedad sigue siendo una amenaza para la salud pública en ciertas áreas."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.762501917000918,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.762501917000918,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:35:19",
+                    "run_time": 2.762501917000918,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La viruela ha sido erradicada a nivel mundial\nArticle: **La viruela ha sido erradicada a nivel mundial**\n\nLa declaración de erradicación de la viruela por parte de la Organización Mundial de la Salud (OMS) en 1980 es un hecho bien documentado. Según se menciona en el texto [0], después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la OMS en 1980. Además, el último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977 [1]. Esto sugiere que la viruela ya no es una amenaza para la salud pública global.\n\nSin embargo, recientemente se ha informado de casos de viruela en varios países, lo que plantea una cuestión sobre la verdadera naturaleza de la erradicación de la enfermedad. En 2022, la OMS registró 34.386 casos de mpox (viruela del mono), y se informó la muerte de 138 personas relacionadas con la enfermedad [2]. Esto sugiere que el virus de la viruela sigue circulando en algunos lugares del mundo y que sigue siendo una amenaza para la salud pública.\n\nA pesar de estos informes recientes, es importante destacar que la vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad. Según se menciona en el texto [0], los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad. Además, la vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo [0]. Esto sugiere que la vacunación es una herramienta efectiva para prevenir la transmisión de la viruela.\n\nEn conclusión, aunque haya habido casos recientes de viruela, la declaración de erradicación de la viruela por parte de la OMS en 1980 sigue siendo un hecho bien documentado. La vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad, y la OMS ha registrado una disminución significativa en los casos de viruela desde la declaración de erradicación. Por lo tanto, la afirmación de que la viruela ha sido erradicada a nivel mundial es **verdadera**.\n\nNota: Es importante destacar que la viruela ha sido erradicada a nivel mundial, pero aún hay casos aislados de viruela en algunos lugares del mundo, lo que sugiere que la enfermedad sigue siendo una amenaza para la salud pública en ciertas áreas.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La viruela ha sido erradicada a nivel mundial\nArticle: **La viruela ha sido erradicada a nivel mundial**\n\nLa declaración de erradicación de la viruela por parte de la Organización Mundial de la Salud (OMS) en 1980 es un hecho bien documentado. Según se menciona en el texto [0], después de al menos 3.000 años en los que esta infección estuvo presente en el mundo, la viruela fue oficialmente declarada erradicada por la OMS en 1980. Además, el último brote endémico de viruela se declaró y contuvo rápidamente en Somalia en 1977 [1]. Esto sugiere que la viruela ya no es una amenaza para la salud pública global.\n\nSin embargo, recientemente se ha informado de casos de viruela en varios países, lo que plantea una cuestión sobre la verdadera naturaleza de la erradicación de la enfermedad. En 2022, la OMS registró 34.386 casos de mpox (viruela del mono), y se informó la muerte de 138 personas relacionadas con la enfermedad [2]. Esto sugiere que el virus de la viruela sigue circulando en algunos lugares del mundo y que sigue siendo una amenaza para la salud pública.\n\nA pesar de estos informes recientes, es importante destacar que la vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad. Según se menciona en el texto [0], los expertos coinciden en que la viruela logró erradicarse gracias a que el mundo contaba con una vacuna muy eficiente contra la enfermedad. Además, la vacunación contra la viruela se hizo rutinaria en muchos países durante el siglo XIX y para mediados del siglo XX ya se llevaba a cabo en todos los países del mundo [0]. Esto sugiere que la vacunación es una herramienta efectiva para prevenir la transmisión de la viruela.\n\nEn conclusión, aunque haya habido casos recientes de viruela, la declaración de erradicación de la viruela por parte de la OMS en 1980 sigue siendo un hecho bien documentado. La vacunación contra la viruela ha demostrado ser efectiva en prevenir la transmisión de la enfermedad, y la OMS ha registrado una disminución significativa en los casos de viruela desde la declaración de erradicación. Por lo tanto, la afirmación de que la viruela ha sido erradicada a nivel mundial es **verdadera**.\n\nNota: Es importante destacar que la viruela ha sido erradicada a nivel mundial, pero aún hay casos aislados de viruela en algunos lugares del mundo, lo que sugiere que la enfermedad sigue siendo una amenaza para la salud pública en ciertas áreas."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La viruela ha sido erradicada a nivel mundial\", \"categories\": [\"Salud\", \"Medicina\", \"Vacunación\"], \"label\": \"True\", \"main_claim\": \"La viruela ha sido erradicada a nivel mundial, aunque aún hay casos aislados en algunos lugares del mundo\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00603454,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

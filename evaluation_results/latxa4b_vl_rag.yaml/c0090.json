@@ -1,0 +1,654 @@
+{
+    "question": "Los antibióticos curan la gripe",
+    "answer": "**Argumentos a favor de la afirmación (si existen):** \nNo se encuentra evidencia en los textos proporcionados que respalde la idea de que los antibióticos curan la gripe. Sin embargo, se puede inferir que **no se apoya** la afirmación, ya que **ningún texto** menciona que los antibióticos sean efectivos contra la gripe. Los textos se centran en la ineficacia de los antibióticos en infecciones virales y en el papel de los antivirales o el tratamiento simptomático. \n\n**Argumentos en contra de la afirmación (si existen):** \nLos textos proporcionados refutan claramente la afirmación. Por ejemplo: \n- [1] \"Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\" \n- [2] \"La neumóloga advierte de que no se deben emplear los antibióticos. 'No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas'.\" \n- [3] \"No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\" \n\n**Conclusión:** \nLa afirmación \"Los antibióticos curan la gripe\" es **falsa**. Los textos proporcionados refutan esta idea al explicar que los antibióticos actúan contra bacterias y no contra virus, y que la gripe es una infección viral. Además, se advierte que el uso de antibióticos en gripe no solo es ineficaz, sino que puede generar resistencias. No hay evidencia en los textos que respalde la afirmación de que los antibióticos curan la gripe.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elespanol.com/ciencia/salud/20251129/espana-encalla-lucha-resistencia-bacteriana-sigue-tomando-antibioticos-resfriado/1003744035059_0.html",
+            "source": "www.elespanol.com",
+            "favicon": "https://s3.elespanol.com/2020/02/26/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.elmundo.es/ciencia-y-salud/salud/2025/12/16/6941324efdddfff50e8b4578.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.saludonnet.com/blog/gripe-a-sintomas-como-evoluciona-y-cuanto-dura-realmente/",
+            "source": "www.saludonnet.com",
+            "favicon": "https://www.saludonnet.com/blog/wp-content/themes/saludonnet/img/common/faviconnet-150x150.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los antibióticos curan la gripe",
+        "categories": [
+            "Salud",
+            "Medicina",
+            "Ciencia"
+        ],
+        "label": "Fake",
+        "main_claim": "Los antibióticos no curan la gripe, ya que no son efectivos contra infecciones virales",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 604.2134352989997,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 604.2134352989997,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:17",
+                    "run_time": 604.2134352989997,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos antibióticos curan la gripe\n\n**Critical Research Questions:**\n1. ¿Cuál es el mecanismo de acción de los antibióticos?\n2. ¿Son efectivos los antibióticos contra las infecciones virales?\n3. ¿Qué es la gripe y es una infección viral o bacteriana?\n4. ¿Cuáles son las recomendaciones médicas oficiales sobre el tratamiento de la gripe?\n5. ¿Existe evidencia de que los antibióticos sean efectivos en el tratamiento de la gripe?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"mecanismo de acción de los antibióticos contra bacterias 2025\", \"eficacia de los antibióticos contra infecciones virales 2025\", \"qué es la gripe gripe viral gripe bacteriana 2025\", \"recomendaciones médicas gripe tratamiento antibióticos 2025\", \"evidencia antibióticos gripe eficacia tratamiento 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 6.754234910999912,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 6.754234910999912,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:24",
+                    "run_time": 6.754234910999912,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "mecanismo de acción de los antibióticos contra bacterias 2025",
+                                "eficacia de los antibióticos contra infecciones virales 2025",
+                                "qué es la gripe gripe viral gripe bacteriana 2025",
+                                "recomendaciones médicas gripe tratamiento antibióticos 2025",
+                                "evidencia antibióticos gripe eficacia tratamiento 2025"
+                            ],
+                            "results": {
+                                "mecanismo de acción de los antibióticos contra bacterias 2025 | eficacia de los antibióticos contra infecciones virales 2025 | qué es la gripe gripe viral gripe bacteriana 2025 | recomendaciones médicas gripe tratamiento antibióticos 2025 | evidencia antibióticos gripe eficacia tratamiento 2025": [
+                                    {
+                                        "text": "El descubrimiento de antimicrobianos con nuevos mecanismos de acción, es decir, que actúen de forma totalmente diferente a los que se utilizan en terapéutica, ha sido un proceso frustrante ya que ninguno ha alcanzado un uso clínico en los últimos 30 años. Solo unos pocos con estas características están ahora en fase de ensayos clínicos avanzados.\n\nLos aprobados recientemente por la EMA o la FDA tiene estructuras químicas ya conocidas en las que se introducen modificaciones en su estructura química para favorecer que se administren mejor, tengan escasa toxicidad y eviten parcialmente mecanismos de resistencia. En algunos casos se han asociado antibióticos ya conocidos (por ejemplo, cefalosporinas o carbapenemas) con inhibidores de mecanismos de resistencia (por ejemplo, los nuevos inhibidores de beta-lactamasas).\n\nEncontrar un compuesto con actividad antimicrobiana con un mecanismo de actuación realmente novedoso constituye un hito en la lucha frente a las bacterias resistentes. Aunque queda aún un camino por recorrer hasta llegar a la clínica, los autores del manuscrito muestran el descubrimiento de una nueva clase de antimicrobianos con estructura peptídica. Presentan a la lariocidina, que actúa sobre la síntesis de proteínas, pero de una forma totalmente diferente y sobre dianas distintas a otros antimicrobianos que también interfieren esta síntesis, como son los aminoglicósidos o las tetraciclinas.\n\nLa mayor parte de los antimicrobianos que empleamos en la actualidad se han descubierto siguiendo el método iniciado por Alexander Fleming con el descubrimiento de la penicilina. Este antibiótico se produce por un hongo (Penicillinum notatum) que inhibe el crecimiento de bacterias, como Staphylococcus aureus. Los autores, curiosamente, en el descubrimiento de la lariocidina parten de un método muy similar al descrito por Fleming de antibiosis. Parten de extractos obtenidos de microorganismos aislados del medioambiente midiendo la inhibición del crecimiento de diferentes bacterias, incluyendo microorganismos multirresistentes. No obstante, con posterioridad lo combinan con técnicas moleculares modernas de secuenciación del genoma para confirmar el origen de su producción y la identificación de su mecanismo de acción. La lariocidina se produce por la bacteria Paenibacillus sp., bacteria que se puede aislar de la rizosfera y que se ha usado como biocontrolador de fitopatógenos.\n\nLa lariocidina tiene un amplio espectro de actuación ya que es eficaz sobre bacterias Gram-positivas y Gram-negativas, incluyendo las señaladas como prioritarias por la Organización Mundial de la Salud en la búsqueda de nuevos antimicrobianos por el perfil de multirresistencia que tienen. Aspectos destacados de este nuevo antibiótico son su escasa toxicidad sobre las células humanas y baja capacidad para seleccionar mutante resistente, lo que abre un horizonte óptimo en su posible utilización. No obstante, los autores dejan abierta la posibilidad de modificar su estructura o identificar compuestos similares que mejoren a la lairocidina y sean candidatos a utilizarse en terapéutica. En este proceso serán necesarios ensayos clínicos que confirme su escasa toxicidad y eficacia clínica.",
+                                        "metadata": {
+                                            "url": "https://sciencemediacentre.es/descubren-una-nueva-clase-de-antibioticos-la-lariocidina",
+                                            "source": "sciencemediacentre.es",
+                                            "favicon": "https://sciencemediacentre.es/themes/custom/b4subtheme/favicon.ico",
+                                            "title": "Descubren una nueva clase de antibióticos, la lariocidina",
+                                            "type": "web_search",
+                                            "base_url": "https://sciencemediacentre.es",
+                                            "snippet": "Este antibiótico se produce por un hongo (Penicillinum notatum) que inhibe el crecimiento de bacterias, como Staphylococcus aureus."
+                                        }
+                                    },
+                                    {
+                                        "text": "Nuestro sitio web www.isglobal.org (el “Sitio Web”) utiliza una tecnología denominada “cookies” con la finalidad de poder recabar información acerca del uso del Sitio Web.\n\nUna cookie es un archivo que se descarga en su equipo (ordenador o dispositivo móvil) con la finalidad de almacenar datos que podrán ser actualizados y recuperados por la entidad responsable de su instalación.\n\nLa información recabada a través de las cookies puede incluir la fecha y hora de visitas al Sitio Web, las páginas visionadas, el tiempo que ha estado en nuestro Sitio Web y los sitios visitados justo antes y después del mismo.\n\nLe informamos de que podemos utilizar cookies con la finalidad de facilitar su navegación a través del Sitio Web, proporcionarle una mejor experiencia en el uso del mismo, distinguirle de otros usuarios, e identificar problemas para mejorar nuestro Sitio Web. Asimismo, en caso de que preste su consentimiento, utilizaremos cookies que nos permitan obtener más información acerca de sus preferencias y personalizar nuestro Sitio Web de conformidad con sus intereses individuales.\n\nLa presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en nuestro Sitio Web (la “Política de Cookies”). En caso de que quiera recabar más información sobre las cookies que utilizamos en el Sitio Web, podrá remitir un correo electrónico a la siguiente dirección: lopd@isglobal.org.\n\nTipo de cookies que se usan en el Sitio Web\n\nNuestro Sitio Web utiliza las cookies que se describen a continuación:\n\nCookies propias\n\nSon aquellas cookies que son enviadas a su ordenador y gestionadas exclusivamente por nosotros para el mejor funcionamiento del Sitio Web. La información que recabamos se emplea para mejorar la calidad de nuestro servicio y su experiencia como usuario. Estas cookies permanecen en su navegador más tiempo, permitiéndonos reconocerle como visitante recurrente del Sitio Web y adaptar el contenido para ofrecerle contenidos que se ajusten a sus preferencias.\n\nCookies analíticas de terceros\n\nSi interactúa con el contenido de nuestro Sitio Web también pueden establecerse cookies de terceros (por ejemplo, al pulsar botones de redes sociales o reproducir vídeos alojados en otro sitio web). Las cookies de terceros, son aquellas establecidas por un dominio diferente de nuestro Sitio Web. No podemos acceder a los datos almacenados en las cookies de otros sitios web cuando navegue en los citados sitios web.\n\nEn nuestro Sitio Web utilizamos el sistema de medición de audiencia Google Analytics, Facebook, First Party, Twitter, Vimeo, Youtube, Instagram, Issuu y Opinion Stage. Estas herramientas nos permiten conocer cómo interactúan los usuarios de nuestro Sitio Web. Las cookies usadas se consideran “persistentes”, es decir, que los datos siguen almacenados en el terminal y pueden ser accedidos y tratados durante un periodo definido por el responsable de la cookie y que puede ir de unos minutos a varios años.\n\nA continuación, detallamos la clasificación de las cookies según la finalidad para la que se traten los datos obtenidos:\n\nCookies técnicas : aquellas que permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de vídeos o sonido o compartir contenidos a través de redes sociales.\n\n: aquellas que permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de vídeos o sonido o compartir contenidos a través de redes sociales. Cookies de personalización : permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma, el tipo de navegador a través del cual accede al servicio, la configuración regional desde donde accede al servicio, etc.\n\n: permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma, el tipo de navegador a través del cual accede al servicio, la configuración regional desde donde accede al servicio, etc. Cookies de análisis : permiten al responsable de estas, el seguimiento y análisis del comportamiento de los usuarios de los sitios web a los que están vinculadas. La información recogida mediante este tipo de cookies se utiliza en la medición de la actividad de los sitios web, aplicación o plataforma y para la elaboración de perfiles de navegación de los usuarios de dichos sitios, aplicaciones y plataformas, con el fin de introducir mejoras en función del análisis de los datos de uso que hacen los usuarios del servicio.\n\n: permiten al responsable de estas, el seguimiento y análisis del comportamiento de los usuarios de los sitios web a los que están vinculadas. La información recogida mediante este tipo de cookies se utiliza en la medición de la actividad de los sitios web, aplicación o plataforma y para la elaboración de perfiles de navegación de los usuarios de dichos sitios, aplicaciones y plataformas, con el fin de introducir mejoras en función del análisis de los datos de uso que hacen los usuarios del servicio. Cookies publicitarias : permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios.\n\n: permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios. Cookies de publicidad comportamental: almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función de este.\n\ncomportamental: almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función de este. Cookies de redes sociales externas: se utilizan para que los visitantes puedan interactuar con el contenido de diferentes plataformas sociales (facebook, youtube, twitter, linkedIn, etc..) y que se generen únicamente para los usuarios de dichas redes sociales. Las condiciones de utilización de estas cookies y la información recopilada se regula por la política de privacidad de la plataforma social correspondiente.\n\nEstas cookies, junto con nuestros archivos de registro del servidor, nos permiten conocer el número total de usuarios que visitan nuestro Sitio Web y aquellas partes del mismo que gozan de mayor popularidad. Gracias a ellas obtenemos una información que puede ayudarnos a mejorar la navegación y dar un mejor servicio a usuarios y clientes.\n\nIncluimos a continuación el enlace al sitio web de Google donde puede consultar la descripción del tipo de cookies que utiliza Google Analytics y su periodo de expiración.\n\nConsentimiento\n\nAl navegar y continuar en nuestro Sitio Web, estará consintiendo el uso de las cookies antes enunciadas, por los plazos señalados y en las condiciones contenidas en la presente Política de Cookies.\n\nDeshabilitar y bloquear cookies\n\nEn cualquier caso, le informamos de que dado que las cookies no son necesarias para el uso de nuestro Sitio Web, puede bloquearlas o deshabilitarlas activando la configuración de su navegador que le permite rechazar la instalación de todas las cookies o de algunas de ellas. La práctica mayoría de los navegadores permiten advertir de la presencia de cookies o rechazarlas automáticamente. Si las rechaza podrá seguir usando nuestro Sitio Web, aunque el uso de algunos de sus servicios podrá ser limitado y por tanto su experiencia en nuestro Sitio Web menos satisfactoria.\n\nRevocar mi consentimiento\n\nSi quisiese revocar en cualquier momento su consentimiento relacionado con la presente Política de Cookies, deberá eliminar las cookies almacenadas en su equipo (ordenador o dispositivo móvil) a través de los ajustes y configuraciones de su navegador de Internet. Para mayor información sobre la eliminación, deshabilitación o bloqueo de las cookies por favor visite esta página.\n\nModificación de la configuración y ajustes sobre cookies\n\nSalvo que haya ajustado la configuración de su navegador, nuestro sistema creará cookies en cuanto visite nuestro Sitio Web. Tenga presente que todos los navegadores de Internet permiten el cambio de dicha configuración. Para más información sobre la forma de ajustar sus configuraciones de cookies en los siguientes navegadores, le remitimos al enlace pertinente:\n\nInternet Explorer:\n\nCambios en la Política de Cookies\n\nEs posible que actualicemos la Política de Cookies de nuestro Sitio Web, por ello le recomendamos revisar esta política cada vez que acceda a nuestro Sitio Web con el objetivo de estar adecuadamente informado sobre cómo y para qué usamos las cookies. La Política de Cookies se actualizó por última vez a fecha de 6 de julio de 2018.\n\nContacto\n\nSi tuviera alguna duda, comentario o sugerencia sobre la Política de Cookies, por favor escriba a la persona Delegada de Protección de Datos: lopd@isglobal.org.\n\n[Actualizado en 11 de marzo de 2020 · Photo: Christopher Burns / Unsplash]",
+                                        "metadata": {
+                                            "url": "https://www.isglobal.org/healthisglobal/-/custom-blog-portlet/nuevos-antibioticos-contra-la-resistencia-bacteriana-el-potencial-de-las-moleculas-de-oro",
+                                            "source": "www.isglobal.org",
+                                            "favicon": "https://www.isglobal.org/o/isglobal-new-theme/assets/favicons/apple-touch-icon.png",
+                                            "title": "Nuevos antibióticos contra la resistencia bacteriana",
+                                            "type": "web_search",
+                                            "base_url": "https://www.isglobal.org",
+                                            "snippet": "Puede el oro salvar vidas? Un nuevo antibiótico desarrollado por ISGlobal podría frenar las bacterias resistentes. Descubre esta innovadora."
+                                        }
+                                    },
+                                    {
+                                        "text": "Investigadores del Instituto de Química Física Blas Cabrera (IQF-CSIC) y de la Universidad de Notre Dame (Indiana, EE. UU.) han identificado un compuesto que bloquea la capacidad de la bacteria Staphylococcus aureus para sobrevivir a los antibióticos. Este patógeno está considerado como una superbacteria debido a su capacidad para desarrollar mecanismos que le permiten esquivar la acción de múltiples antibióticos, un fenómeno que se conoce como resistencia, y que dificulta el tratamiento de las infecciones que causa, algunas de ellas potencialmente mortales.\n\nEn particular, las cepas de S. aureus resistentes al antibiótico meticilina (MRSA, por sus siglas en inglés) son especialmente problemáticas porque han extendido su resistencia a una amplia gama de antibióticos, lo que hace que sean difíciles de combatir, especialmente en entornos hospitalarios.\n\nEste nuevo compuesto, ahora sintetizado (denominado compuesto 4) y basado en bencimidazol, utilizado habitualmente para combatir parásitos gastrointestinales y hongos, ha sido seleccionado entre 11 millones de moléculas candidatas por su capacidad para bloquear una proteína clave de este patógeno (denominada BlaR1), que pone en marcha el mecanismo que inactiva a los antibióticos utilizados para combatirla.\n\nLa combinación del compuesto 4 junto con los antibióticos oxacilina y meropenem se ha mostrado eficaz para bloquear el mecanismo de resistencia de la bacteria y acabar con la infección en modelos de ratón, validando así la potencialidad de esta estrategia terapéutica innovadora como modelo para desarrollar terapias similares frente a otras bacterias resistentes.\n\nEn la actualidad, la resistencia de Staphylococcus aureus a múltiples antibióticos, especialmente a los denominados β-lactámicos como la penicilina, complica significativamente el tratamiento, aumentando la mortalidad y los costes sanitarios asociados. Pero esta investigación, publicada en el último número de la revista Nature Chemical Biology, de la que ha sido portada, ofrece una vía para permitir de nuevo el uso de estos antibióticos, durante mucho tiempo eficaces contra esta bacteria, que actualmente no pueden utilizarse contra cepas resistentes de este patógeno responsable de infecciones que van desde afecciones cutáneas hasta neumonías y septicemias.\n\nCri stalografía de rayos X con el Sincrotrón ALBA\n\nUn aspecto destacado de este trabajo, en el que ha participado el grupo de Juan Hermoso, del Instituto de Química Física Blas Cabrera, es la utilización de la cristalografía de rayos X usando la línea de luz XALOC del Sincrotrón ALBA. Los rayos X de luz del sincrotrón generados en el acelerador del ALBA han hecho posible determinar la estructura de BlaR1 unida al inhibidor. Este análisis estructural reveló que el compuesto 4 se une al sitio activo de BlaR1, proporcionando información crucial sobre el mecanismo de acción del inhibidor y orientando el futuro diseño de terapias dirigidas.\n\nLos investigadores han llegado a una etapa preclínica testando este compuesto 4, después de comprobar que funciona en 40 cepas resistentes de S. aureus resistente y de probarlo en ratones, donde se ha mostrado muy eficaz. “El siguiente paso sería pasar a la etapa clínica, donde ya se puedan hacer desarrollos en humanos y mejorar las propiedades farmacocinéticas”, explica Juan Hermoso.\n\nEste hallazgo representa un avance significativo en la lucha contra las infecciones por MRSA, ya que ofrece una vía para reutilizar antibióticos β-lactámicos previamente ineficaces contra estas cepas multirresistentes, ampliando las opciones terapéuticas disponibles, lo que permitiría mejorar los resultados clínicos en pacientes afectados por estas infecciones difíciles de tratar. Además, reduciría la necesidad de usar antibióticos de último recurso, como vancomicina o linezolid, lo que ayuda a mantener su eficacia y a reducir los costes del tratamiento.\n\nUso indiscriminado de antibióticos\n\nLos antibióticos representan uno de los descubrimientos más revolucionarios de la historia de la humanidad. Sentaron los cimientos de la medicina moderna, permitieron curar infecciones que eran letales antes de 1941, año en que se empezaron a utilizar. Su uso en la práctica clínica permitió también llevar a cabo intervenciones nuevas y transformadoras, como cirugías invasivas, trasplantes o quimioterapia inmunosupresora. Sin embargo, el uso excesivo de antibióticos ha causado un aumento espectacular de resistencias en las bacterias, hasta el punto de considerarse una pandemia silenciosa que constituye en una de las amenazas más urgentes para la salud, como recoge el Informe Ciencia para las Políticas Públicas del CSIC dedicado a la Resistencia de las bacterias a los antibióticos. La resistencia a los antibióticos es una de las principales amenazas para la salud pública a nivel mundial y compromete la capacidad de prevenir y tratar enfermedades infecciosas, poniendo en riesgo procedimientos médicos como intervenciones quirúrgicas y aumentando la mortalidad, según advierte la Organización Mundial de la Salud (OMS).\n\nEn Europa, MRSA es una de las principales causas de infecciones hospitalarias que generan complicaciones graves. Se estima que alrededor del 10% de las infecciones hospitalarias en la región están causadas por esta bacteria resistente. En Estados Unidos, el problema es igualmente alarmante, con más de 119.000 casos de infecciones en 2017 y más de 20.000 muertes anuales relacionadas con este patógeno.\n\ncomunicacion@csic.es\n\nCSIC Comunicación",
+                                        "metadata": {
+                                            "url": "https://www.csic.es/es/actualidad-del-csic/desarrollan-una-estrategia-innovadora-para-reducir-la-resistencia-los-antibioticos-de-una-superbacteria",
+                                            "source": "www.csic.es",
+                                            "favicon": "https://www.csic.es/sites/default/files/favicon.ico",
+                                            "title": "Desarrollan una estrategia innovadora para reducir la ...",
+                                            "type": "web_search",
+                                            "base_url": "http://www.csic.es",
+                                            "snippet": "La combinación del compuesto 4 junto con los antibióticos oxacilina y meropenem se ha mostrado eficaz para bloquear el mecanismo de resistencia ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Un reciente reporte del 13 de octubre, elaborado por la Organización Mundial de la Salud (OMS) encendió nuevamente las alertas: alrededor del 17 % de las infecciones bacterianas confirmadas en laboratorio ya no responden a los tratamientos antibióticos más comunes. En otras palabras, una de cada seis infecciones bacterianas es resistente, un dato que revela el avance preocupante de un fenómeno conocido desde hace décadas, pero que hoy se consolida como una crisis sanitaria global.\n\nEl informe, citado por el Financial Times, advierte que esta tendencia no es homogénea. Mientras algunos países muestran una disminución en la resistencia de ciertas bacterias, otros enfrentan tasas alarmantes, sobre todo en entornos hospitalarios donde las infecciones asociadas a procedimientos médicos siguen siendo una amenaza constante.\n\nEl costo humano y económico de las infecciones bacterianas\n\nLa resistencia a los antimicrobianos (RAM) no solo prolonga la duración de las enfermedades infecciosas: también incrementa la mortalidad, el número de hospitalizaciones y los costos sanitarios. Según estimaciones de la OMS, si la tendencia actual se mantiene, en las próximas décadas podrían morir anualmente hasta 10 millones de personas por infecciones que hoy deberían ser tratables.\n\nCada vez que un antibiótico deja de funcionar, los médicos deben recurrir a terapias de segunda o tercera línea: más caras, más prolongadas y con más efectos secundarios. En países en desarrollo, donde el acceso a estos medicamentos es limitado, el problema se agrava. Además, las infecciones resistentes tienden a propagarse con mayor facilidad dentro de hospitales, generando brotes difíciles de controlar y sobrecargando los sistemas de salud.\n\nDesde una perspectiva económica, la resistencia bacteriana representa pérdidas de productividad, costos de hospitalización prolongada y tratamientos fallidos, lo que en conjunto se traduce en miles de millones de dólares al año. Pero más allá de las cifras, lo que está en juego es la eficacia de la medicina moderna: sin antibióticos funcionales, procedimientos comunes como una cirugía, un parto o una prótesis podrían volver a ser riesgosos.\n\n¿Por qué ocurre la resistencia?\n\nLas bacterias han desarrollado mecanismos naturales de defensa a lo largo de millones de años. Sin embargo, la presión constante del uso (y abuso) de antibióticos acelera este proceso. Cada vez que un paciente recibe un tratamiento innecesario o lo interrumpe antes de tiempo, sobrevive un pequeño grupo de bacterias más resistentes, que se multiplica y hereda esa capacidad.\n\nA ello se suma el uso de antibióticos en la agricultura y ganadería, donde se emplean para promover el crecimiento o prevenir enfermedades en animales sanos. Este uso extensivo facilita que los genes de resistencia circulen entre diferentes especies bacterianas y lleguen, eventualmente, al ser humano.\n\nOtro factor clave es la falta de diagnóstico microbiológico oportuno. En muchos hospitales, los tratamientos se inician de manera empírica, sin identificar con precisión el microorganismo causante ni su perfil de sensibilidad. Esto, aunque clínicamente necesario en ciertos casos, contribuye a mantener la presión selectiva que alimenta el problema.\n\nLa lucha contra la resistencia bacteriana no depende solo de desarrollar nuevos antibióticos, sino de usar con inteligencia los que ya existen. La prevención sigue siendo la estrategia más eficaz y sostenible.\n\nControl de infecciones en hospitales: mantener protocolos estrictos de higiene, esterilización y aislamiento de pacientes infectados.\n\nmantener protocolos estrictos de higiene, esterilización y aislamiento de pacientes infectados. Diagnóstico microbiológico rápido: permite elegir el antibiótico correcto desde el inicio y evitar tratamientos inefectivos.\n\npermite elegir el antibiótico correcto desde el inicio y evitar tratamientos inefectivos. Programas de uso racional de antibióticos (stewardship): equipos clínicos que supervisan las prescripciones y fomentan la educación continua en torno al tema.\n\nequipos clínicos que supervisan las prescripciones y fomentan la educación continua en torno al tema. Educación al paciente: comprender que los antibióticos no curan enfermedades virales ni deben usarse sin indicación médica.\n\nAdemás, se están impulsando nuevas tecnologías que permiten identificar infecciones en cuestión de horas mediante pruebas moleculares o de secuenciación genética. Estas herramientas reducen el uso empírico y mejoran la precisión terapéutica.\n\nImagen: Gaceta UNAM\n\nUna responsabilidad compartida\n\nLa resistencia bacteriana es un problema global, pero con soluciones locales. Cada hospital, cada profesional de la salud y cada paciente tienen un papel que desempeñar. La cooperación entre instituciones médicas, autoridades sanitarias y empresas del sector es esencial para promover protocolos de prevención y tratamiento basados en evidencia.\n\nLa OMS insiste en que abordar este reto requiere una combinación de vigilancia epidemiológica, innovación diagnóstica, educación médica y políticas públicas. Es una tarea multidisciplinaria que va más allá del campo clínico: involucra la gestión ambiental, la investigación científica y la conciencia social.\n\nUn futuro optimista\n\nEl dato del 17 % no es solo una cifra estadística: es un recordatorio de que el tiempo apremia. La resistencia bacteriana amenaza con socavar uno de los pilares más importantes de la medicina moderna. Sin una acción coordinada y sostenida, podríamos enfrentar un futuro donde una infección posoperatoria común sea potencialmente mortal.\n\nPero también hay motivos para el optimismo. Cada vez más instituciones médicas adoptan programas de control y diagnóstico temprano, y se están desarrollando nuevos enfoques terapéuticos, como el uso de bacteriófagos, péptidos antimicrobianos o biomateriales que reducen el riesgo de infección en cirugías como Stimulan.\n\nLa prevención, la ciencia y el uso racional de las terapias siguen siendo nuestra mejor defensa. En un mundo donde las bacterias evolucionan rápido, la respuesta debe ser igual de inteligente.\n\nFuentes:\n\nOne in six bacterial infections now resistant to treatment, says WHO. (2025, octubre 13). Financial Times. Financial Times\n\nWHO warns of surging levels of antibiotic resistance. (2025, octubre 13). Reuters. Reuters\n\nSharp global rise in antibiotic-resistant infections in hospitals, WHO finds. (2025, octubre 13). The Guardian. The Guardian\n\nOne in six laboratory-confirmed, common bacterial infections were resistant to antibiotic treatments. (2025). Health Policy Watch. Health Policy Watch\n\nOne in six bacterial infections is now resistant to standard drugs, WHO warns. (2025, octubre 13). Euronews. euronews.com",
+                                        "metadata": {
+                                            "url": "https://biotechsa.com/2/medicina-y-salud/las-infecciones-bacterianas-ya-no-responden/",
+                                            "source": "biotechsa.com",
+                                            "favicon": "https://biotechsa.com/2/wp-content/uploads/2025/09/cropped-Logo-Centrado-verde-negro-y-blanco-01-scaled-1-32x32.webp",
+                                            "title": "Las infecciones bacterianas ya no responden a antibióticos",
+                                            "type": "web_search",
+                                            "base_url": "https://biotechsa.com",
+                                            "snippet": "En un reporte del 13 de octubre de la OMS, se dio a conocer que el 17% de las infecciones bacterianas ya no responde a los antibióticos más ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Tras saltar las alarmas hace dos semanas, la explosión de casos de gripe ya está aquí. Como refleja el SiVIRA (Sistema de Vigilancia de las Infecciones Respiratorias Agudas) del Instituto de Salud Carlos III (ISCIII), los casos de infecciones respiratorias agudas casi se han doblado desde la alerta de la circulación de una cepa más contagiosa: de 479,3 a 840,1. Y lo que sí se ha duplicado es la tasa de síndrome gripal en solo siete días hasta los 164,6 casos/100.000 habitantes, situándose por primera vez sobre el umbral epidémico.\n\nSuperar los 162 casos por 100.000 habitantes, en el último informe del SiVIRA, coloca a nuestro país en el nivel de alerta medio frente a la gripe, como apunta un documento del ISCIII donde se contempla que los umbrales establecidos a nivel estatal. Con todo, este umbral pasará a alto si esta semana se superan los 219 o muy alto si alcanza los 250. En cualquier caso, frente a las previsiones marcadas en este documento, este año el pico de gripe es más pronunciado que los anteriores y se se confirma un adelanto de hasta dos y tres semanas, en comparación las temporadas postpandémicas.\n\n¿Cuáles son los síntomas predominantes de la gripe A (H3N2) según el SiVIRA?\n\nEl SiVIRA recoge que en la presentación clínica de los casos de gripe predominan la fiebre, la tos, el malestar general, la congestión nasal y el dolor de garganta en seis de cada diez pacientes. También, en menor medida, los pacientes sufren cefalea, mialgia, escalofríos, disnea, vómitos y diarrea.\n\nLos problemas estomacales que no aparecían en las primeras semanas de la epidemia ya afectan a uno de cada diez pacientes.\n\nEsta situación puede empeorar las enfermedades crónicas que ya tienen los pacientes: hipertensión arterial, enfermedad respiratoria (asma), enfermedad metabólica (diabetes), enfermedad cardiovascular crónica, enfermedad renal, inmunodeficiencias y patologías hepáticas.\n\nLos niños, los \"supercontagiadores\": el grupo más afectado\n\nMientras el virus respiratorio sincitial (VRS) este año no supone una amenaza (por la prevención) en los menores, la gripe sigue siendo la que más crece y se hace con el espacio de los otros virus respiratorios.\n\nLos grupos de edad más afectados son los menores de 1 a 4 años, donde pasa de 762,9 a 1349,6, y los que tienen entre 5 y 19 años, que crece de 471,5 a 925,2 en una semana. El crecimiento se estabiliza moderadamente en los menores de 1 año, pasando de 675,8 la semana pasada a 714,9.\n\nFrancisco Álvarez García, miembro del comité Asesor de Vacunas de la Asociación Española de Pediatría (AEP) indica que \"antes de Navidad siempre hay un pico epidémico, que afecta sobre todo a los niños\". Los datos de SiVIRA confirman que en las últimas semanas se han disparado las detecciones de los casos en menores de 19 años.\n\n\n\nLa clave infantil: ¿por qué vacunar a los niños es esencial para frenar los casos de gripe?\n\nExisten razones para evitar que el niño se contagie: transmite más y de forma silenciosa. Álvarez García explica este fenómeno: \"Los niños excretan el virus de la gripe en títulos más altos, es decir, con mucha mayor intensidad. Los adultos normalmente empiezan a contagiar un día antes. Los menores pueden hacerlo hasta en los cinco o seis días previos a los síntomas\".\n\nY, además, una vez superado el proceso infeccioso, \"los adultos normalmente al cuarto o quinto día ya no contagian, mientras que los niños pueden hacerlo hasta 15 días después\", advierte el portavoz de la AEP. \"Ellos son verdaderos vectores\".\n\nPreparar el botiquín: ¿Cómo se trata la gripe?\n\nNuria Bruguera, neumóloga y miembro del grupo de infecciones respiratorias de la SOCAP (Sociedad Catalana de Neumología), apuesta por la vacunación y pone sobre la mesa la necesidad de que \"los pacientes con patologías respiratorias previas, ante la persistencia de síntomas que agraven sus dolencias, vayan al médico\".\n\nBrugera incide en que la fórmula para enfrentarse a la gripe \"es básicamente paracetamol e hidratación. Es el tratamiento propio de cualquier infección vírica\". También asume que el papel que juegan los antigripales. \"Los que se pueden comprar sin receta, van bien porque ya es una mezcla un poco de paracetamol a dosis bajas, un poco de antihistamínico. Te obligan a disolverlos con agua, con lo cual sería un tratamiento apropiado para una gripe leve o un resfriado común\".\n\nLa neumóloga advierte de que no se deben emplear los antibióticos. \"No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas\", subraya Bruguera.\n\n¿Cómo es la nueva cepa A(H3N2) subclado K que supera la protección de la vacuna?\n\nEl Grupo de Trabajo en Enfermedades Infecciosas de la Sociedad Española de Medicina de Familia y Comunitaria (semFYC), advertía hace tres semanas en un comunicado sobre la posible circulación en España del subclado K del virus gripal A(H3N2).\n\n\"Se trata de un cambio antigénico en la hemaglutinina, la proteína externa del virus que permite su acceso a las células respiratorias. Cuando el sistema inmune no reconoce bien esa estructura, el virus penetra más fácilmente\".\n\nEstas características lo hacen \"más invasivo y más transmisible\", incluso en personas vacunadas, \"porque la vacuna de este año contiene una variante H3N2 con una composición ligeramente distinta\", argumentaba José María Molero, su portavoz. \"Todo indica que es un virus más transmisible, aunque no más grave en sí mismo\".\n\n¿Sigue siendo eficaz la vacuna frente al virus A(H3N2) y a quién está recomendada ahora?\n\nAunque frente al subclado K la protección pueda ser menor, la vacuna sigue evitando infecciones graves por el resto de virus incluidos en su composición\", argumenta Molero. A ello se suma que la vacuna también protege frente a variantes H3N2 sin estos cambios, frente al virus A(H1N1) y frente a virus B, todos ellos potencialmente circulantes. La efectividad de la vacuna estacional ronda el 65%.\n\nTodos los expertos consultados estas semanas, desde el inicio de la epidemia, son tajantes: \"Hay que seguir vacunándose. Todavía es buen momento\". La vacuna reduce la transmisión y consigue convertir una infección grave con riesgo de hospitalización en una leve. Si, como señalan todos los indicadores, \"la temporada de gripe está adelantada, se debe animar a la vacunación a todos los colectivos de riesgo\", subraya García-Martínez de Artola.\n\nLas recomendaciones de vacunación \"deberían ser para todos los grupos de edad, aunque insistamos en los mayores de 65 y con enfermedades crónicas que los hacen más vulnerables a los efectos de la infección\", subraya Jaime Jesús Pérez, presidente de la Asociación Española de Vacunología (AEV).\n\nAdemás, ya es el tercer año que también se recomienda a la inmunización de los menores de seis años, desde los seis meses. \"Hay una vacuna intranasal a partir de los dos años que es comodísima, los niños salen encantados, y además tiene una efectividad un poco mayor que la inactivada, la que se inyecta\", insiste el portavoz de los pediatras.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/ciencia-y-salud/salud/2025/12/16/6941324efdddfff50e8b4578.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "La explosión de casos de gripe A H3N2 sitúa a España al ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "También, en menor medida, los pacientes sufren cefalea, mialgia, escalofríos, disnea, vómitos y diarrea."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Consejería de Sanidad, a través la Dirección General de Salud Pública, desarrolla cada año la Campaña de vacunación antigripal.\n\nEl objetivo de la campaña es reducir la mortalidad y morbilidad asociada a la gripe y el impacto de la enfermedad en la comunidad. Por ello va dirigida fundamentalmente a proteger a las personas que tienen un mayor riesgo de presentar complicaciones en caso de padecer la gripe por razón de edad u otras condiciones y a las que pueden transmitir la enfermedad a otras que tienen un alto riesgo de complicaciones.\n\nLa Campaña de Vacunación frente a la Gripe comienza el 15 de octubre de 2025 y finalizará el 31 de enero de 2026, salvo que por motivos epidemiológicos sea necesario modificar la fecha prevista.\n\nLa campaña se desarrolla en los centros de salud, consultorios y hospitales del Servicio Madrileño de Salud (SERMAS), en los Centros Municipales de Salud Comunitaria del Ayuntamiento de Madrid, en hospitales y centros médicos privados acreditados, y en otras instituciones como residencias de mayores, instituciones penitenciarias, etc. Es fundamental aprovechar cualquier contacto con el sistema sanitario para establecer la recomendación de vacunación.\n\nEsta campaña se desarrolla de modo simultáneo a la campaña de vacunación frente a la COVID-19, con vacunas adaptadas a las nuevas variantes. Ver más información.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/servicios/salud/gripe",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "Gripe | Comunidad de Madrid",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "La gripe estacional es una enfermedad muy contagiosa originada por los virus de la gripe. En las personas produce en una infección respiratoria aguda que ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La gripe A continúa siendo una de las infecciones respiratorias más estudiadas debido a su capacidad de provocar brotes estacionales y, en algunos casos, complicaciones importantes en personas vulnerables. Aunque suele confundirse con un resfriado fuerte, sus síntomas, su forma de contagio y su evolución clínica presentan diferencias claras que conviene conocer. Identificar qué síntomas tiene la gripe A, cuánto dura y cómo se transmite ayuda a reconocerla a tiempo y actuar de manera adecuada.\n\nLa gripe A está causada por el virus influenza A, un microorganismo con gran facilidad para cambiar y adaptarse, lo que explica la aparición de cepas nuevas cada ciertos años. Este comportamiento obliga a actualizar la vacuna anualmente y a mantener medidas de prevención durante la temporada de gripe. En la mayoría de los casos provoca un cuadro agudo, intenso, pero limitado en el tiempo. Sin embargo, existen perfiles de riesgo donde la infección puede complicarse rápidamente.\n\nSíntomas de la gripe A: cómo se manifiesta\n\nEl inicio de la gripe A suele ser brusco. Muchas personas describen que “estaban bien por la mañana y, de repente, estaba todo el cuerpo dolorido y con fiebre”. El patrón es característico y permite diferenciarla de otras infecciones respiratorias más leves.\n\nLos síntomas que da la gripe A incluyen:\n\nFiebre alta , habitualmente por encima de 38 °C, que aparece de manera repentina.\n\n, habitualmente por encima de 38 °C, que aparece de manera repentina. Dolor muscular intenso y sensación de agotamiento profundo.\n\ny sensación de agotamiento profundo. Dolor de cabeza persistente.\n\npersistente. Tos seca , que puede volverse más productiva con los días.\n\n, que puede volverse más productiva con los días. Dolor de garganta moderado.\n\nmoderado. Congestión nasal o secreción acuosa.\n\no secreción acuosa. Escalofríos y malestar general.\n\ny malestar general. Pérdida de apetito y, en ocasiones, náuseas.\n\nAunque la fiebre es uno de los signos más característicos, algunas personas —especialmente mayores y pacientes inmunodeprimidos— pueden cursar con poca fiebre o incluso sin fiebre, lo que dificulta el diagnóstico inicial. En estos casos predominan la debilidad, la tos persistente y la dificultad para respirar.\n\nPor qué se producen estos síntomas\n\nEl virus influenza A infecta las células que recubren las vías respiratorias, desde la nariz hasta los pulmones. El organismo activa una respuesta inflamatoria para combatirlo, y esa reacción es la responsable de la mayoría de los síntomas.\n\nLa fiebre surge como mecanismo de defensa para frenar la replicación viral.\n\nsurge como mecanismo de defensa para frenar la replicación viral. El dolor muscular aparece por la liberación de sustancias inflamatorias en sangre.\n\naparece por la liberación de sustancias inflamatorias en sangre. La tos se produce para intentar eliminar secreciones y restos celulares.\n\nse produce para intentar eliminar secreciones y restos celulares. El cansancio extremo refleja el esfuerzo del sistema inmune para controlar la infección.\n\nEste comportamiento explica por qué la gripe A puede dejar a una persona en cama varios días, incluso sin complicaciones. No significa necesariamente gravedad, sino que el cuerpo está empleando muchos recursos en combatir el virus.\n\nDuración de la gripe A: cuánto dura realmente\n\nUna de las preguntas más habituales es cuánto dura una gripe o cuánto dura la gripe A. Aunque cada organismo responde de forma distinta, existe un patrón bastante repetido:\n\nDuración media de la gripe A\n\nFase aguda (fiebre y síntomas intensos): entre 2 y 4 días .\n\n(fiebre y síntomas intensos): entre . Mejoría progresiva : a partir del día 4 o 5 , la fiebre suele remitir.\n\n: a partir del , la fiebre suele remitir. Recuperación completa : entre 7 y 10 días .\n\n: entre . Tos residual o cansancio leve: pueden prolongarse hasta 2 semanas.\n\nEn niños, embarazadas, mayores y personas con enfermedades crónicas, la gripe A puede ser más duradera y presentar recaídas pasajeras.\n\nLa duración está relacionada también con la carga viral inicial, el estado del sistema inmune y los tratamientos de soporte utilizados. Descanso, hidratación y control adecuado de la fiebre suelen acortar la fase más intensa.\n\nCómo se contagia la gripe A\n\nEl virus de la gripe A se transmite con gran facilidad. Lo habitual es el contagio por:\n\nGotas respiratorias que se expulsan al toser, estornudar o hablar.\n\nque se expulsan al toser, estornudar o hablar. Superficies contaminadas , donde el virus puede sobrevivir durante horas.\n\n, donde el virus puede sobrevivir durante horas. Ambientes cerrados con poca ventilación, que favorecen la concentración de partículas virales en el aire.\n\nUna persona infectada puede contagiar desde 24 horas antes de presentar síntomas, lo que explica la rapidez con la que se propagan los brotes. El periodo de contagio se mantiene durante 5 a 7 días desde el inicio de los síntomas, más prolongado en niños y personas inmunodeprimidas.\n\nDiferencias entre gripe A y otros virus respiratorios\n\nAunque comparten síntomas, la gripe A se diferencia del resfriado común o de infecciones como el virus respiratorio sincitial o algunos coronavirus:\n\nEl inicio es repentino , no progresivo.\n\n, no progresivo. La fiebre es más alta y los dolores musculares más intensos.\n\ny los dolores musculares más intensos. Suele provocar malestar general severo , no solo congestión nasal.\n\n, no solo congestión nasal. Tiene mayor probabilidad de generar complicaciones pulmonares.\n\nEstas características ayudan a orientar el diagnóstico clínico sin necesidad de pruebas en muchos casos, aunque los test rápidos de gripe disponibles en centros sanitarios pueden confirmar la infección.\n\nPersonas con mayor riesgo de complicaciones\n\nLa mayoría de los casos evolucionan de forma favorable, pero existen grupos donde la gripe A puede avanzar hacia una neumonía viral o bacteriana, descompensaciones respiratorias o problemas cardiovasculares.\n\nLos perfiles con mayor riesgo son:\n\nMayores de 65 años .\n\n. Personas con asma , EPOC u otras enfermedades respiratorias.\n\n, EPOC u otras enfermedades respiratorias. Pacientes con diabetes , enfermedades cardíacas o insuficiencia renal.\n\n, enfermedades cardíacas o insuficiencia renal. Personas con inmunosupresión .\n\n. Embarazadas.\n\nNiños pequeños, especialmente menores de 2 años.\n\nEn estos casos, la aparición de falta de aire, fiebre persistente más allá del quinto día, deshidratación o somnolencia excesiva requiere valoración médica.\n\nTratamiento de la gripe A: cómo aliviar los síntomas\n\nNo existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\n\nEl tratamiento habitual incluye:\n\nAntitérmicos como el paracetamol para controlar la fiebre y el malestar.\n\ncomo el paracetamol para controlar la fiebre y el malestar. Hidratación constante para compensar la pérdida de líquidos con la fiebre.\n\npara compensar la pérdida de líquidos con la fiebre. Descanso absoluto durante los primeros días.\n\ndurante los primeros días. Humidificación ambiental y lavados nasales si hay congestión intensa.\n\nsi hay congestión intensa. Antivirales en casos seleccionados, siempre bajo prescripción médica.\n\nLos antibióticos no son útiles salvo que exista una infección bacteriana secundaria, como una neumonía o una otitis.\n\nPrevención: cómo reducir el riesgo de contagio\n\nLa prevención sigue siendo la herramienta más efectiva para disminuir los contagios durante la temporada de gripe.\n\nEntre las medidas más eficaces destacan:\n\nVacunación anual , recomendada especialmente en grupos de riesgo.\n\n, recomendada especialmente en grupos de riesgo. Lavado frecuente de manos.\n\nCubrir boca y nariz al toser o estornudar.\n\nVentilar espacios cerrados.\n\nEvitar acudir a lugares concurridos en los días de mayor contagio.\n\nQuedarse en casa ante los primeros síntomas para cortar la cadena de transmisión.\n\nGripe A en la vida cotidiana: señales de alarma\n\nAunque gran parte de los casos cursan de forma moderada, conviene buscar atención médica si aparecen:\n\nDificultad respiratoria o sensación de “no poder llenar los pulmones”.\n\nDolor torácico.\n\nFiebre que no baja tras 4–5 días.\n\nConfusión o somnolencia excesiva.\n\nSignos de deshidratación.\n\nEmpeoramiento brusco tras una mejoría inicial.\n\nEstos signos pueden indicar una complicación que requiere tratamiento específico.\n\nCuidar la salud respiratoria desde hoy\n\nLa gripe A continúa siendo una infección altamente contagiosa, pero predecible y tratable en la mayoría de los casos. Reconocer sus síntomas, saber cuánto dura una gripe y adoptar medidas de prevención permite atravesar el proceso con mayor seguridad. Para quienes pertenecen a grupos de riesgo o presentan síntomas intensos, contar con una valoración profesional es clave para evitar complicaciones.\n\nEn SaludOnNet es posible acceder a especialistas en medicina general, neumología y pruebas diagnósticas sin esperas, facilitando un diagnóstico rápido y un tratamiento adecuado durante la temporada de gripe. Una atención temprana puede marcar la diferencia en la evolución de la enfermedad y en el bienestar general.",
+                                        "metadata": {
+                                            "url": "https://www.saludonnet.com/blog/gripe-a-sintomas-como-evoluciona-y-cuanto-dura-realmente/",
+                                            "source": "www.saludonnet.com",
+                                            "favicon": "https://www.saludonnet.com/blog/wp-content/themes/saludonnet/img/common/faviconnet-150x150.png",
+                                            "title": "Gripe A: síntomas, cómo evoluciona y cuánto dura realmente",
+                                            "type": "web_search",
+                                            "base_url": "https://www.saludonnet.com",
+                                            "snippet": "La gripe A está causada por el virus influenza A, un microorganismo con gran facilidad para cambiar y adaptarse, lo que explica la aparición de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\n\nA pesar de ello, uno de cada cuatro adultos sigue tomando antibióticos para tratarse el resfriado, según los datos manejados por la Base de Datos Cínicos de Atención Primaria, que gestiona el Ministerio de Sanidad.\n\nEl 24,9% de los mayores de 15 años que han acudido al médico para tratarse un resfriado común retiró una dispensación de antibióticos en los 10 días siguientes.\n\nDividido por sexos, fueron el 24% de los hombres frente al 25,5% de las mujeres. En niños menores de 14 años, el porcentaje fue mucho menor: 11,8% para ambos sexos.\n\nRafael Cantón, portavoz de la Sociedad Española de Enfermedades Infecciosas y Microbiología Clínica (SEIMC), señala que estos datos son claramente \"excesivos\".\n\nEste consumo excesivo no es baladí. \"Genera presión selectiva sobre las bacterias y puede acabar creando resistencias a los mismos antibióticos\", apunta.\n\nEstos fármacos han supuesto un antes y un después en la medicina, salvando las vidas de millones de personas.\n\nEste éxito tiene una cara B, sin embargo: con el paso de las décadas, han proliferado cepas bacterianas resistentes a estos fármacos.\n\nNo hay nada malo en consumir antibióticos. Lo malo es hacerlo cuando no son necesarios, pues aumenta el riesgo de esa presión selectiva sin aportar beneficios terapéuticos.\n\nDe hecho, hay algunos que ya han perdido su eficacia. \"En bacterias gram-negativas e infecciones urinarias, las penicilinas por sí solas ya no funcionan bien\", apunta Cantón, que es jefe de Microbiología del Hospital Ramón y Cajal de Madrid.\n\nEn ciertas indicaciones, la amoxicilina y las quinolonas (otros antibióticos de amplio uso) también han visto reducida su eficacia.\n\nSe calcula que las bacterias resistentes a antibióticos causan 35.000 muertes al año en Europa y generan un gasto sanitario de 1.500 millones de euros.\n\nPor eso, hace una década se puso en marcha en España el Plan Nacional de Resistencia a Antibióticos. Entre 2015 y 2023, el consumo ha caído un 14%, si bien lleva creciendo desde 2020, cuando alcanzó su punto más bajo por las restricciones de la pandemia.\n\nLa mayor parte de las prescripciones de antibióticos se dan en atención primaria y en la sanidad privada.\n\nDe las 24,2 dosis diarias por 1.000 habitantes que se calculan para 2023, 16,1 pertenecen a receta oficial del sistema nacional de salud, 6,5 a receta privada y solo 1,5 a uso hospitalario.\n\nPrescripción de complacencia\n\nEs en este último ámbito donde las resistencias causan más estragos, pero también donde el uso está más restringido. En primaria queda un amplio margen.\n\n\"Existen hojas de rutas para la prescripción antibiótica, pero a lo mejor subyace la presión que pueden ejercer los propios pacientes para que se los receten\", aventura Cantón. Es la llamada \"prescripción de complacencia\".\n\nLos datos de los resfriados no son los únicos que le llaman la atención de los extraídos de la Base de Datos Clínicos de Atención Primaria.\n\n\"Un 70% de uso en infecciones urinarias es normal, pero en faringoamigdalitis aguda es quizá un poco alto\", sostiene. \"Hay pruebas rápidas de detección de patógenos que pueden guiar estos tratamientos\".\n\nPero lo que más le sorprende es que solo en el 20% de las ocasiones se utilizan los fármacos priorizados por las guías clínicas.\n\n\"Este dato es muy mejorable\", lamenta. \"Es posible que, por costumbre o por conocer mejor su perfil de seguridad, se prescriban unos antibióticos frente a otros, como las quinolonas, que se utilizan en demasía\".\n\nCon todo, el experto advierte que los resultados obtenidos cruzando los datos de diagnósticos y dispensaciones tienen sus limitaciones.\n\n\"Se identifican códigos asociados a infecciones y se mira si esos pacientes han retirado medicación antibiótica en los 10 días siguientes, que es un periodo amplio. Pero son datos y tienen su interés\".\n\nEntre otras cosas, porque servirán para mejorar la prescripción. \"Pero hay que generar datos más locales, que orienten la formación a los prescriptores y se puedan mejorar las resistencias a antibióticos\".",
+                                        "metadata": {
+                                            "url": "https://www.elespanol.com/ciencia/salud/20251129/espana-encalla-lucha-resistencia-bacteriana-sigue-tomando-antibioticos-resfriado/1003744035059_0.html",
+                                            "source": "www.elespanol.com",
+                                            "favicon": "https://s3.elespanol.com/2020/02/26/favicon.ico",
+                                            "title": "España encalla en la lucha contra la resistencia bacteriana",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elespanol.com",
+                                            "snippet": "Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Grupo de Trabajo de Vacunas y Resistencias Antibióticas de la AEV insiste en la necesidad de reforzar los programas de vacunación, esenciales para prevenir infecciones que podrían requerir tratamiento antibiótico\n\nLos expertos aseguran que solo mediante un enfoque integral que incluya la vacunación será posible contener esta amenaza para la salud global que podría causar 10 millones de muertes para 2050\n\nLa resistencia a los antibióticos ya está presente en 1 de cada 6 infecciones bacterianas diagnosticadas en el laboratorio, según la OMS\n\nLa AEV recuerda que las medidas de prevención como el lavado de manos pueden reducir las resistencias a antibióticos y las infecciones asociadas a la atención hospitalaria hasta en un 70%\n\nLa resistencia a antibióticos causa 1.140.000 muertes cada año. Unas cifras preocupantes que han llevado a la OMS a considerar la resistencia a los antimicrobianos como una de las grandes amenazas para la salud pública a nivel mundial.\n\nCon motivo del Día Europeo para el Uso Prudente de los Antibióticos, el Grupo de Trabajo de Vacunas y Resistencias Antibióticas de la Asociación Española de Vacunología alerta sobre el aumento global de la resistencia a los antibióticos y recuerda el papel clave de la vacunación en su prevención.\n\nLos expertos de la AEV se hacen eco del reciente informe de la Organización Mundial de la Salud (OMS), que advierte del preocupante incremento mundial de la resistencia a los antibióticos, ya presente, aproximadamente, en 1 de cada 6 infecciones bacterianas diagnosticadas en el laboratorio. Una tendencia que, tal y como explican, “compromete la eficacia de los tratamientos habituales y supone una grave amenaza para la salud pública”. Además de que podría acarrear alrededor de 10 millones de muertes para el año 2050.\n\nA través de una infografía elaborada por el Grupo de Trabajo de la AEV, recuerdan el papel de la vacunación en la lucha frente a este problema. De hecho, los expertos señalan que un mejor uso de las vacunas podría reducir en un 22% el consumo global de antibióticos cada año. Las vacunas son una herramienta esencial para prevenir infecciones que podrían requerir tratamiento antibiótico, contribuyendo así a frenar la aparición y diseminación de resistencias. “Además, permiten reducir significativamente el consumo de antibióticos y proteger a las poblaciones más vulnerables”, apuntan.\n\nPor este motivo, insisten en la necesidad de reforzar los programas de inmunización y sensibilizar tanto a profesionales sanitarios como a la población general sobre el papel de las vacunas en la lucha contra la resistencia antimicrobiana. “Solo mediante un enfoque integral que incluya la vacunación es posible contener esta creciente amenaza para la salud global”, afirman.\n\nAdemás de la vacunación, esencial para prevenir enfermedades y reducir el uso de antibióticos, la AEV señala otras medidas básicas para hacer frente a la resistencia antibiótica, como utilizarlos de manera responsable, ya que los programas de optimización han permitido reducir su consumo hasta en un 40%, lo que ayuda a preservar su efectividad y proteger la salud pública. Por último recuerdan que las intervenciones de control de infección, incluido el lavado de manos, pueden reducir las resistencias a antibióticos y las infecciones asociadas a la atención hospitalaria hasta en un 70%.",
+                                        "metadata": {
+                                            "url": "https://vacunas.org/la-asociacion-espanola-de-vacunologia-recuerda-un-mejor-uso-de-las-vacunas-podria-reducir-el-consumo-anual-de-antibioticos-mas-de-un-20/",
+                                            "source": "vacunas.org",
+                                            "favicon": "https://vacunas.org/wp-content/uploads/2023/06/Logo-cuadrado-60.png",
+                                            "title": "un mejor uso de las vacunas podría reducir el consumo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://vacunas.org",
+                                            "snippet": "De hecho, los expertos señalan que un mejor uso de las vacunas podría reducir en un 22% el consumo global de antibióticos cada año. Las vacunas ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.945439138999973,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.945439138999973,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:27",
+                    "run_time": 2.945439138999973,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el mecanismo de acción de los antibióticos?": [
+                                {
+                                    "Encontrar un compuesto con actividad antimicrobiana con un mecanismo de actuación realmente novedoso constituye un hito en la lucha frente a las bacterias resistentes. Aunque queda aún un camino por recorrer hasta llegar a la clínica, los autores del manuscrito muestran el descubrimiento de una nueva clase de antimicrobianos con estructura peptídica. Presentan a la lariocidina, que actúa sobre la síntesis de proteínas, pero de una forma totalmente diferente y sobre dianas distintas a otros antimicrobianos que también interfieren esta síntesis, como son los aminoglicósidos o las tetraciclinas.": null
+                                },
+                                {
+                                    "El descubrimiento de antimicrobianos con nuevos mecanismos de acción, es decir, que actúen de forma totalmente diferente a los que se utilizan en terapéutica, ha sido un proceso frustrante ya que ninguno ha alcanzado un uso clínico en los últimos 30 años. Solo unos pocos con estas características están ahora en fase de ensayos clínicos avanzados.": null
+                                },
+                                {
+                                    "En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.": null
+                                }
+                            ],
+                            "¿Son efectivos los antibióticos contra las infecciones virales?": [
+                                {
+                                    "En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.": null
+                                },
+                                {
+                                    "La neumóloga advierte de que no se deben emplear los antibióticos. \"No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas\", subraya Bruguera.": null
+                                },
+                                {
+                                    "No hay nada malo en consumir antibióticos. Lo malo es hacerlo cuando no son necesarios, pues aumenta el riesgo de esa presión selectiva sin aportar beneficios terapéuticos.": null
+                                }
+                            ],
+                            "¿Qué es la gripe y es una infección viral o bacteriana?": [
+                                {
+                                    "En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.": null
+                                },
+                                {
+                                    "La gripe A está causada por el virus influenza A, un microorganismo con gran facilidad para cambiar y adaptarse, lo que explica la aparición de cepas nuevas cada ciertos años. Este comportamiento obliga a actualizar la vacuna anualmente y a mantener medidas de prevención durante la temporada de gripe. En la mayoría de los casos provoca un cuadro agudo, intenso, pero limitado en el tiempo. Sin embargo, existen perfiles de riesgo donde la infección puede complicarse rápidamente.": null
+                                },
+                                {
+                                    "La gripe A continúa siendo una de las infecciones respiratorias más estudiadas debido a su capacidad de provocar brotes estacionales y, en algunos casos, complicaciones importantes en personas vulnerables. Aunque suele confundirse con un resfriado fuerte, sus síntomas, su forma de contagio y su evolución clínica presentan diferencias claras que conviene conocer. Identificar qué síntomas tiene la gripe A, cuánto dura y cómo se transmite ayuda a reconocerla a tiempo y actuar de manera adecuada.": null
+                                }
+                            ],
+                            "¿Cuáles son las recomendaciones médicas oficiales sobre el tratamiento de la gripe?": [
+                                {
+                                    "Brugera incide en que la fórmula para enfrentarse a la gripe \"es básicamente paracetamol e hidratación. Es el tratamiento propio de cualquier infección vírica\". También asume que el papel que juegan los antigripales. \"Los que se pueden comprar sin receta, van bien porque ya es una mezcla un poco de paracetamol a dosis bajas, un poco de antihistamínico. Te obligan a disolverlos con agua, con lo cual sería un tratamiento apropiado para una gripe leve o un resfriado común\".": null
+                                },
+                                {
+                                    "No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.": null
+                                },
+                                {
+                                    "La gripe A continúa siendo una infección altamente contagiosa, pero predecible y tratable en la mayoría de los casos. Reconocer sus síntomas, saber cuánto dura una gripe y adoptar medidas de prevención permite atravesar el proceso con mayor seguridad. Para quienes pertenecen a grupos de riesgo o presentan síntomas intensos, contar con una valoración profesional es clave para evitar complicaciones.": null
+                                }
+                            ],
+                            "¿Existe evidencia de que los antibióticos sean efectivos en el tratamiento de la gripe?": [
+                                {
+                                    "En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.": null
+                                },
+                                {
+                                    "La neumóloga advierte de que no se deben emplear los antibióticos. \"No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas\", subraya Bruguera.": null
+                                },
+                                {
+                                    "No hay nada malo en consumir antibióticos. Lo malo es hacerlo cuando no son necesarios, pues aumenta el riesgo de esa presión selectiva sin aportar beneficios terapéuticos.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 15.480071112999667,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 15.480071112999667,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:43",
+                    "run_time": 15.480071112999667,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos antibióticos curan la gripe\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el mecanismo de acción de los antibióticos?\n¿Son efectivos los antibióticos contra las infecciones virales?\n¿Qué es la gripe y es una infección viral o bacteriana?\n¿Cuáles son las recomendaciones médicas oficiales sobre el tratamiento de la gripe?\n¿Existe evidencia de que los antibióticos sean efectivos en el tratamiento de la gripe?\n\n3. Here are the text sources you should use as your source of information:\n[0] Encontrar un compuesto con actividad antimicrobiana con un mecanismo de actuación realmente novedoso constituye un hito en la lucha frente a las bacterias resistentes. Aunque queda aún un camino por recorrer hasta llegar a la clínica, los autores del manuscrito muestran el descubrimiento de una nueva clase de antimicrobianos con estructura peptídica. Presentan a la lariocidina, que actúa sobre la síntesis de proteínas, pero de una forma totalmente diferente y sobre dianas distintas a otros antimicrobianos que también interfieren esta síntesis, como son los aminoglicósidos o las tetraciclinas.\n[0] El descubrimiento de antimicrobianos con nuevos mecanismos de acción, es decir, que actúen de forma totalmente diferente a los que se utilizan en terapéutica, ha sido un proceso frustrante ya que ninguno ha alcanzado un uso clínico en los últimos 30 años. Solo unos pocos con estas características están ahora en fase de ensayos clínicos avanzados.\n[1] En plena ola de virus respiratorios invernales, conviene recordarlo. Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\n[1] No hay nada malo en consumir antibióticos. Lo malo es hacerlo cuando no son necesarios, pues aumenta el riesgo de esa presión selectiva sin aportar beneficios terapéuticos.\n[2] La neumóloga advierte de que no se deben emplear los antibióticos. \"No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas\", subraya Bruguera.\n[2] Brugera incide en que la fórmula para enfrentarse a la gripe \"es básicamente paracetamol e hidratación. Es el tratamiento propio de cualquier infección vírica\". También asume que el papel que juegan los antigripales. \"Los que se pueden comprar sin receta, van bien porque ya es una mezcla un poco de paracetamol a dosis bajas, un poco de antihistamínico. Te obligan a disolverlos con agua, con lo cual sería un tratamiento apropiado para una gripe leve o un resfriado común\".\n[3] La gripe A está causada por el virus influenza A, un microorganismo con gran facilidad para cambiar y adaptarse, lo que explica la aparición de cepas nuevas cada ciertos años. Este comportamiento obliga a actualizar la vacuna anualmente y a mantener medidas de prevención durante la temporada de gripe. En la mayoría de los casos provoca un cuadro agudo, intenso, pero limitado en el tiempo. Sin embargo, existen perfiles de riesgo donde la infección puede complicarse rápidamente.\n[3] La gripe A continúa siendo una de las infecciones respiratorias más estudiadas debido a su capacidad de provocar brotes estacionales y, en algunos casos, complicaciones importantes en personas vulnerables. Aunque suele confundirse con un resfriado fuerte, sus síntomas, su forma de contagio y su evolución clínica presentan diferencias claras que conviene conocer. Identificar qué síntomas tiene la gripe A, cuánto dura y cómo se transmite ayuda a reconocerla a tiempo y actuar de manera adecuada.\n[3] No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\n[3] La gripe A continúa siendo una infección altamente contagiosa, pero predecible y tratable en la mayoría de los casos. Reconocer sus síntomas, saber cuánto dura una gripe y adoptar medidas de prevención permite atravesar el proceso con mayor seguridad. Para quienes pertenecen a grupos de riesgo o presentan síntomas intensos, contar con una valoración profesional es clave para evitar complicaciones.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los antibióticos curan la gripe"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Fact-check: \"Los antibióticos curan la gripe\"**  \n\n**Argumentos a favor de la afirmación (si existen):**  \nNo se encuentra evidencia en los textos proporcionados que respalde la idea de que los antibióticos curan la gripe. Sin embargo, se puede inferir que **no se apoya** la afirmación, ya que **ningún texto** menciona que los antibióticos sean efectivos contra la gripe. Los textos se centran en la ineficacia de los antibióticos en infecciones virales y en el papel de los antivirales o el tratamiento simptomático.  \n\n**Argumentos en contra de la afirmación (si existen):**  \nLos textos proporcionados refutan claramente la afirmación. Por ejemplo:  \n- [1] \"Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\"  \n- [2] \"La neumóloga advierte de que no se deben emplear los antibióticos. 'No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas'.\"  \n- [3] \"No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\"  \n\nEstos fragmentos indican que los antibióticos no son efectivos contra la gripe (infección viral) y que su uso indebido genera resistencias bacterianas.  \n\n**Conclusión:**  \nLa afirmación \"Los antibióticos curan la gripe\" es **falsa**. Los textos proporcionados refutan esta idea al explicar que los antibióticos actúan contra bacterias y no contra virus, y que la gripe es una infección viral. Además, se advierte que el uso de antibióticos en gripe no solo es ineficaz, sino que puede generar resistencias. No hay evidencia en los textos que respalde la afirmación de que los antibióticos curan la gripe."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.266315081999892,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.266315081999892,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:46",
+                    "run_time": 3.266315081999892,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los antibióticos curan la gripe\nArticle: **Fact-check: \"Los antibióticos curan la gripe\"**  \n\n**Argumentos a favor de la afirmación (si existen):**  \nNo se encuentra evidencia en los textos proporcionados que respalde la idea de que los antibióticos curan la gripe. Sin embargo, se puede inferir que **no se apoya** la afirmación, ya que **ningún texto** menciona que los antibióticos sean efectivos contra la gripe. Los textos se centran en la ineficacia de los antibióticos en infecciones virales y en el papel de los antivirales o el tratamiento simptomático.  \n\n**Argumentos en contra de la afirmación (si existen):**  \nLos textos proporcionados refutan claramente la afirmación. Por ejemplo:  \n- [1] \"Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\"  \n- [2] \"La neumóloga advierte de que no se deben emplear los antibióticos. 'No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas'.\"  \n- [3] \"No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\"  \n\nEstos fragmentos indican que los antibióticos no son efectivos contra la gripe (infección viral) y que su uso indebido genera resistencias bacterianas.  \n\n**Conclusión:**  \nLa afirmación \"Los antibióticos curan la gripe\" es **falsa**. Los textos proporcionados refutan esta idea al explicar que los antibióticos actúan contra bacterias y no contra virus, y que la gripe es una infección viral. Además, se advierte que el uso de antibióticos en gripe no solo es ineficaz, sino que puede generar resistencias. No hay evidencia en los textos que respalde la afirmación de que los antibióticos curan la gripe.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los antibióticos curan la gripe\nArticle: **Fact-check: \"Los antibióticos curan la gripe\"**  \n\n**Argumentos a favor de la afirmación (si existen):**  \nNo se encuentra evidencia en los textos proporcionados que respalde la idea de que los antibióticos curan la gripe. Sin embargo, se puede inferir que **no se apoya** la afirmación, ya que **ningún texto** menciona que los antibióticos sean efectivos contra la gripe. Los textos se centran en la ineficacia de los antibióticos en infecciones virales y en el papel de los antivirales o el tratamiento simptomático.  \n\n**Argumentos en contra de la afirmación (si existen):**  \nLos textos proporcionados refutan claramente la afirmación. Por ejemplo:  \n- [1] \"Los resfriados comunes no se curan con antibióticos: estos se dirigen a bacterias, no a los virus. A la gripe, la covid o el virus respiratorio sincitial no le hacen nada los antibióticos.\"  \n- [2] \"La neumóloga advierte de que no se deben emplear los antibióticos. 'No van a hacer nada. Al contrario, nos van a generar resistencias bacterianas'.\"  \n- [3] \"No existe un tratamiento específico para eliminar el virus de inmediato, pero sí medidas que reducen la duración de los síntomas y previenen complicaciones.\"  \n\nEstos fragmentos indican que los antibióticos no son efectivos contra la gripe (infección viral) y que su uso indebido genera resistencias bacterianas.  \n\n**Conclusión:**  \nLa afirmación \"Los antibióticos curan la gripe\" es **falsa**. Los textos proporcionados refutan esta idea al explicar que los antibióticos actúan contra bacterias y no contra virus, y que la gripe es una infección viral. Además, se advierte que el uso de antibióticos en gripe no solo es ineficaz, sino que puede generar resistencias. No hay evidencia en los textos que respalde la afirmación de que los antibióticos curan la gripe."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los antibióticos curan la gripe\", \"categories\": [\"Salud\", \"Medicina\", \"Ciencia\"], \"label\": \"Fake\", \"main_claim\": \"Los antibióticos no curan la gripe, ya que no son efectivos contra infecciones virales\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

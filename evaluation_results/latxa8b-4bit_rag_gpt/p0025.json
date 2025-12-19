@@ -1,0 +1,618 @@
+{
+    "question": "Andalucía fue la región con más empresas a cierre de 2024",
+    "answer": "La afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" encuentra soporte en varios puntos de los textos proporcionados. Primero, según [1], Andalucía registró 15.341 nuevas sociedades mercantiles en 2024, lo que representa el 18,4% del total nacional, superando el promedio nacional del 14,3%. Esto sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024.\n\nFinalmente, según [2], en el primer trimestre del año se registraron 11.488 extinciones de sociedades, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2023. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%. Esto sugiere que, aunque hubo una disminución en el número de empresas extinguidas, la tasa de extinciones sigue siendo significativa en Andalucía.\n\nAunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay algunos puntos que pueden contradecir la afirmación. Según [3], en el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales. Esto sugiere que, en realidad, Andalucía no fue la región con más empresas a cierre de 2024, sino que experimentó una disminución en el número de empresas.\n\nEn conclusión, aunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay puntos que sugieren una disminución en el número de empresas en la región. Sin embargo, la mayoría de la evidencia apoya la idea de que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024. Por lo tanto, considero que la afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" es **falsa** debido a la disminución en el número de empresas en la región, pero **verdadera** en el sentido de que fue una de las regiones con mayor crecimiento en el número de empresas en 2024.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://memoria2024.cea.es/la-economia-andaluza-en-2024/",
+            "source": "memoria2024.cea.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "2": {
+            "url": "https://www.elconciso.es/coyuntura/constitucion-nuevas-empresas-baja-7-trimestre-andalucia_0_2003745967.html",
+            "source": "www.elconciso.es",
+            "favicon": "https://static.grupojoly.com/joly/public/file/2025/0926/09/favicon-el-conciso-svg.svg"
+        },
+        "3": {
+            "url": "https://www.elconciso.es/empresas/creacion-empresas-andalucia-desciende-7_0_2004114963.html",
+            "source": "www.elconciso.es",
+            "favicon": "https://static.grupojoly.com/joly/public/file/2025/0926/09/favicon-el-conciso-svg.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Andalucía fue la región con más empresas a cierre de 2024",
+        "categories": [
+            "Economía",
+            "Negocios",
+            "Análisis"
+        ],
+        "label": "Undetermined",
+        "main_claim": "Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024, pero no la región con más empresas a cierre de 2024",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.6774771669988695,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.6774771669988695,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:28:36",
+                    "run_time": 1.6774771669988695,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nAndalucía fue la región con más empresas a cierre de 2024\n\n**Critical Research Questions:**\n1. ¿Cuál fue el número total de empresas existentes en Andalucía a finales de 2024, según el INE?\n2. ¿Cuál fue la distribución de empresas por región en España a finales de 2024, según el INE?\n3. ¿Qué perspectivas y opiniones ofrecen las fuentes especializadas en economía y emprendimiento sobre la situación de las empresas en Andalucía?\n4. ¿Cuál fue la tasa de creación y cierre de empresas en Andalucía durante el año 2024, en comparación con la media nacional?\n5. ¿Qué iniciativas de apoyo a las empresas y emprendedores implementaron las instituciones de Andalucía en 2024?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"empresas en Andalucía INE 2024\", \"distribución empresas por región España INE 2024\", \"perspectivas economía emprendimiento Andalucía 2024\", \"tasa creación cierre empresas Andalucía 2024 comparativa nacional\", \"initiativas apoyo empresas emprendedores Andalucía 2024\", \"INE informe empresas Andalucía 2024\", \"empresas en Andalucía cifras 2024\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 23.397106697997515,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 23.397106697997515,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:28:59",
+                    "run_time": 23.397106697997515,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "empresas en Andalucía INE 2024",
+                                "distribución empresas por región España INE 2024",
+                                "perspectivas economía emprendimiento Andalucía 2024",
+                                "tasa creación cierre empresas Andalucía 2024 comparativa nacional",
+                                "initiativas apoyo empresas emprendedores Andalucía 2024"
+                            ],
+                            "results": {
+                                "empresas en Andalucía INE 2024 | distribución empresas por región España INE 2024 | perspectivas economía emprendimiento Andalucía 2024 | tasa creación cierre empresas Andalucía 2024 comparativa nacional | initiativas apoyo empresas emprendedores Andalucía 2024": [
+                                    {
+                                        "text": "Recursos de expertos que informan e inspiran.\n\nDescubra por qué Statista es la elección de confianza para obtener datos e información fiables. Ofrecemos una plataforma todo en uno para simplificar la investigación y respaldar sus decisiones estratégicas. Más información\n\nStatista R identifica y premia a los líderes de diferentes industrias, a los mejores proveedores y a marcas excepcionales a través de exclusivos rankings y listados en colaboración con renombradas marcas de medios de comunicación de todo el mundo. Descubra más en nuestro sitio web.\n\nTransformando datos en marketing y diseño de contenidos\n\nEstrategia y desarrollo para una economía basada en datos\n\nServicio de investigación de mercado y análisis de datos\n\nStatista+ ofrece servicios adicionales que se adaptan a sus necesidades específicas. Somos su socio para el éxito, basado en datos, combinando la experiencia en investigación, estrategia y comunicaciones de marketing.\n\nAcceso directo a más de un millón de datos y a tendencias de 170 industrias en más de 150 países.\n\nEl portal de estadísticas\n\nInformación detallada sobre más de 39.000 tiendas y mercados online\n\nDatos sobre las actitudes y los comportamientos de los consumidores de todo el mundo\n\nPrevisiones de mercado y KPIs especializadas para más de 600 segmentos en más de 150 países\n\nAnuncio\n\nAnuncio\n\nInicie sesión o regístrese para acceder a datos precisos. Obtener acceso\n\nDebe crear una cuenta de empleado para poder marcar estadísticas como favoritas. Luego puede acceder a sus estadísticas favoritas mediante la estrella en la cabecera. Regístrese\n\nEn estos momentos está usando una cuenta compartida. Para usar las funciones individuales (p. ej. agregar estadísticas a favoritos, colocar alertas estadísticas), por favor inicie la sesión con su cuenta personal. Si usted tiene cuenta administrativa, por favor autentifíquese iniciando una nueva sesión. Iniciar sesión\n\nNecesita una cuenta de Statista para poder descargar esta estadística como XLS\n\nNecesita una cuenta de Statista para poder descargar esta estadística como PNG\n\nNecesita una cuenta de Statista para poder descargar esta estadística como PDF\n\nNecesita una cuenta de Statista para poder descargar esta estadística como PPT\n\nComo usuario Premium, recibirás fuentes detalladas e información general sobre esta estadística.\n\nAcceda a más datos relevantes sobre la estadística con la Starter Account.\n\nTan pronto como exista una actualización disponible para esta estadística, recibirá una notificación por correo electrónico.\n\n… para incorporar la estadística en su presentación en cualquier momento.\n\nEs necesaria una Starter Account para utilizar esta función.\n\n¿Quiere ver las cifras exactas? Inicie sesión o suba de categoría su cuenta para desbloquear los valores ocultos.\n\nAcceso a todas las estadísticas a partir de 2.388 € al año *\n\n* Solo para uso comercial Basic Account Para usuarios individuales 0 € Siempre gratis El acceso está limitado a las estadísticas gratuitas. No se incluyen las estadísticas premium. Estadísticas gratuitas En función de sus intereses Starter Account Para usuarios individuales 199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas\n\nEstadísticas premium La estadística de esta página es una estadística premium y está incluida en esta cuenta. Professional Account Hasta 5 personas 1.199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas y premium\n\nInformes\n\nMarket Insights Comparar cuentas\n\nOtros contenidos: También le podría interesar Temas El desempleo en España\n\nAcceso a todas las estadísticas a partir de 2.388 € al año * * Solo para uso comercial Basic Account Para usuarios individuales 0 € Siempre gratis El acceso está limitado a las estadísticas gratuitas. No se incluyen las estadísticas premium. Estadísticas gratuitas En función de sus intereses Starter Account Para usuarios individuales 199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas\n\nEstadísticas premium La estadística de esta página es una estadística premium y está incluida en esta cuenta. Professional Account Hasta 5 personas 1.199 € al mes, facturación anual 1 Comprar Estadísticas gratuitas y premium\n\nInformes\n\nMarket Insights Comparar cuentas Descubra cómo Statista puede ser útil para su empresa. Concertar webinar\n\nINE. (noviembre 20, 2024). Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma [Gráfica]. In Statista . Recuperado el 31 de octubre de 2025, de https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n\nINE. \"Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma .\" Tabla. noviembre 20, 2024. Statista. Acceso el 31 de octubre de 2025. https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n\nINE. (2024). Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma . Statista . Statista GmbH. Accessed: octubre 31, 2025. https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n\nINE. \"Distribución Porcentual Del Total De Empresas De España En 2024, Por Comunidad Autónoma .\" Statista , Statista GmbH, 20 nov. 2024, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n\nINE, Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma Statista, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/ (last visited 31 de octubre de 2025)\n\nDistribución porcentual del total de empresas de España en 2024, por comunidad autónoma [Gráfica], INE, noviembre 20, 2024. [En línea]. Disponible: https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/",
+                                        "metadata": {
+                                            "url": "https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/",
+                                            "source": "es.statista.com",
+                                            "favicon": "https://cdn.statcdn.com/static/favicon.svg",
+                                            "title": "Distribución de empresas por comunidad autónoma 2024",
+                                            "type": "web_search",
+                                            "base_url": "https://es.statista.com",
+                                            "snippet": "Más estadísticas sobre el tema. Sector empresarial en España · Número total de empresas de España en 2023 y 2024, por comunidad autónoma · Número de empresas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "1. Los envidiosos.\n\nEl informe de enero de 2025 del Fondo Monetario Internacional1\n\n(FMI) se subtitula sinceramente “Crecimiento mundial dispar e incierto”, lo cual orienta cualquier análisis o comentario de los muchos que luego han realizado políticos, técnicos y “expertos” a través de varios canales de comunicación. Efectivamente, el crecimiento y la evolución económica en general ha sido dispar en 2024 y se presume que lo siga siendo en 2025, con un ligero empeoramiento presidido por la ya habitual incertidumbre.\n\nEl denominador común de las opiniones de los políticos en el poder va siempre en defensa y alabanza de su gestión, opiniones trufadas con falacias y medias verdades sobre los datos que, como su nombre indica, son “dados” por entidades e individuos “interesados” y, aunque ciertos, no dejan de ser reduccionistas y matizables2.\n\nEn lo macro, la brecha económica entre EE. UU. y la UE se agranda, y el saliente Biden se apunta al ditirambo proclamando que su país es la “envidia del mundo”, para qué andar con matices socioeconómicos.\n\nTambién se proclama por la prensa nacional que España ha sido “la gran economía desarrollada” que más creció en 2024, por encima del 3,1% alcanzado por los yankis, o sea que también deben envidiarnos. Y si ya en suelo patrio tratamos de Andalucía, su gobierno y órganos estadísticos se apoyan en la Contabilidad Regional para proclamar que el crecimiento supera el promedio nacional y las políticas aplicadas impulsan a la región “como motor económico de España” (sic). Envidiable también.\n\n2. Digresión sobre la envidia y el dataísmo3\n\nPerdonen que no pueda dejar de hacer un ligero comentario sobre la envidia, pecado capital que dicen se combate con caridad y empatía, y también sobre los datos. Cierto que la envidia se predica más de las personas que de los países y que la responsabilizan del cainismo y del robo, cuando no del origen de la lucha de clases. Pero su lado positivo es contiguo a la emulación, a la imitación y al juego limpio competitivo, y eso excusa su utilización metafórica por los políticos. Además. los que tienen el poder se sienten más imputados que testigos (supongo), y por lo tanto autorizados a mentir, a proferir exageraciones y mentirijillas.\n\nSin duda la ciencia y la ingeniería empiezan y progresan con la métrica: la capacidad de medir y evaluar cuantitativamente. Me permito tomar prestadas palabras del filósofo Daniel Innerarity para reconocer una situación de abundancia de medidas e informaciones, y recomendar cierta prudencia ante el exceso de datos, “vivimos en el régimen de la omnimetría, donde todo puede medirse y nada se valora con objetividad sin las cantidades”. “Hay una permanente medición y valoración de cosas, personas, profesiones e instituciones”. “Los números transmiten precisión, claridad, simplificación, imparcialidad, objetividad, verificabilidad y neutralidad” y son por ello eficaces elementos argumentativos que seducen fácilmente. Pero “los parámetros cuantitativos son siempre reduccionistas” y “la cuantificación hace que destaquen determinados aspectos e invisibiliza a otros”4\n\nOtros prestigiosos científicos han denominado “dataísmo” esa sesgada y enfervorizada adhesión a la avalancha de datos y algoritmos. Para Carlos López-Otín5\n\n, destacado catedrático de Bioquímica y Biología Molecular, el dataísmo se puede convertir “en una religión agnóstica en la que las respuestas preceden a las preguntas, porque no se formula ninguna hipótesis, nada se postula a priori, se acumulan cantidades ingentes de datos sobre un problema y se deja que ellos hablen y nos ayuden a elaborar las hipótesis que nos guíen en su resolución.”\n\nAnte esta situación (“avalancha de datos, mega datos y metadatos”) es recomendable un cierto escepticismo crítico alimentado por la duda razonable que acompaña a todo proceso científico. Así mismo procede el rechazo de las innecesarias exageraciones, la instauración ordenada y limitada del dataísmo, la utilización de fuentes solventes y procedimientos adecuados, la explicación y contrastación de resultados y la referencia al contexto. No es fácil hacerlo en un mundo de cambio continuo, acelerado y volátil. Pero es posible, al menos, alejarse de sesgos ideológicos y políticos de flagrante visibilidad.\n\n3. Volviendo al fondo (FMI) y al fondo de la cuestión.\n\nEn esta Memoria 2024 de la CEA se encuentran suficientes datos, comentarios y referencias para formarse un criterio y opinión sobre lo acontecido en el ámbito socioeconómico en 2024 y sobre las perspectivas para 2025 intentando cumplir las condiciones citadas anteriormente y teniendo a la empresa como centro del análisis. Debemos aquí ahorrarnos su repetición, limitándonos a resaltar aspectos complementarios, aunque relevantes.\n\nYa en octubre de 2024 en la asamblea anual del FMI, su directora gerente Kristalina Georgieva señaló que, así como se había conseguido contener la inflación (“la gran ola de inflación mundial está en retirada”) sin provocar una recesión, quedaban sin embargo graves problemas abiertos relativos principalmente al bajo crecimiento y el enorme incremento de la deuda pública a punto de alcanzar los 100 billones de dólares en el mundo. Se presentaba un entorno geopolítico peligroso que desestabilizaba los mercados de petróleo y gas, y se incrementaban las tensiones comerciales, circunstancias que hoy no solamente no han desaparecido, sino que han provocado claros impulsos proteccionistas que fragmentan lo positivo de la globalización. El FONDO pedía a los países (191 miembros) reducción de la deuda y consolidación fiscal.\n\nEn el Informe de Enero referenciado al principio, poco antes de la investidura de Trump, se cifraban para 2025 en el 2,8% el crecimiento de Estados Unidos, 0,8% para la Zona Euro, cayendo Alemania un -0,2% y alcanzando España el 3,1%. Para 2025 las previsiones decrecimiento eran EE. UU 2,7%, Zona Euro 1,4%, Alemania 0,3% y España 2,3%.\n\nYa en enero de 2025, en la Encuesta Mundial elaborada por PwC, a partir de la opinión de 4.701 presidentes y consejeros delegados (CEO) de compañías de 109 países, recogida en la edición anual de esta encuesta, presentada en el World Economic Forum, WEF (el Foro de Davos), el porcentaje de los que piensan que la actividad global evolucionará favorablemente es muy superior al 38% registrado el año pasado y al 18%, hace dos años.\n\nComo es lógico, los riesgos geopolíticos detectados dependen de las áreas geográficas, de la dotación de factores y de la especialización productiva de los países, y todo ello de las políticas públicas implementadas.\n\n4. Andalucía en España\n\nEl moderado optimismo respecto de los datos españoles6\n\ntiene cierta correspondencia con los andaluces. Según los datos disponibles de la Contabilidad Regional, Andalucía creció en 2024 en torno al 3,5%. crecimiento del 3,3% en el número de asalariados y máximo histórico de empresas inscritas en la Seguridad Social con 270.000 compañías y 2.541.015 personas empleadas.\n\nEl gobierno andaluz ha logrado una duradera estabilidad política superada la pandemia y suavizada la sequía. Las amenazas más importantes son de carácter exógeno, situándose muchas en competencias y en regulaciones de otros niveles políticos nacionales e internacionales.\n\nLa superposición de riesgos provoca la aparición de crisis superpuestas tanto exógenas como endógenas, con la envolvente de las calificadas como geoestratégicas o globales que nos afectan según nuestra integración material e inmaterial con el entorno.\n\nNotas positivas han sido la contención de la inflación, el descenso de los costes de financiación7\n\ny la importancia de los fondos europeos para mantener una liquidez que a través de rentas y crédito han conseguido que el consumo privado y público soporte el crecimiento manteniendo una inversión residual.\n\nEl análisis de los Presupuestos de la Junta de Andalucía y documentos anexos (véase el Informe Económico Financiero) para 2025, aprobados en tiempo y forma, son de gran utilidad para conocer la realidad andaluza y las políticas del gobierno para mejorarla. En su momento la CEA informó el presupuesto y presentó un completo informe y sugerencias al mismo, aquí sólo cabria reiterar algunos aspectos que en gran parte son habituales en los comentarios sobre los presupuestos y la actividad administrativa, Así, entre ellos se solicitaba:\n\nImpulsar la eficiencia en la gestión de lo público Reforzar los instrumentos que posibilitan la participación institucional de los agentes económicos y sociales Abrir las políticas sociales a una mayor colaboración con la iniciativa privada, y evitar efectos expulsión del mercado, lo que, además, ayudaría a mejorar la prestación y calidad de estos servicios públicos Y de forma especial, seguir reforzando los programas de gasto público específicos que favorecen el desarrollo económico de Andalucía y su convergencia con las regiones más avanzadas de la Unión Europa, mediante actuaciones dirigidas a apoyar, diversificar y mejorar la estructura productiva y la competitividad empresarial de Andalucía.\n\nEl “Observatorio Regional” 22 de octubre del 4º Trimestre 2024 de BBVA Research (bbvaresearch.com) corrobora y complementa con más detalle los comentarios anteriores añadiendo antecedentes de 2023 y previsiones 2025 y 2026 para todas las Comunidades Autónomas. Al mismo remito, aunque cabe aquí destacar que ya se advertía, como resumen, que para 2024 “el crecimiento se revisa al alza por el impulso del consumo interno y del turismo. La finalización de la sequía, la mejora de la economía europea, y la reducción de los tipos de interés, ayudarán a sostener el crecimiento, afectado por el impacto de la DANA y los posibles cambios en la política arancelaria en EE. UU. Para 2025 la producción agraria y la fortaleza que se espera del consumo privado y del público llevan el liderazgo del crecimiento hacia las comunidades del sur de España. Los posibles cambios arancelarios, junto con los problemas en el sector del automóvil y el todavía bajo crecimiento en la eurozona inducen mayores revisiones a la baja en las perspectivas de crecimiento para 2025 en las comunidades autónomas industriales y exportadoras.”\n\nPara 2026 se espera “que la desaceleración continúe, afectando en mayor medida al Mediterráneo y a las islas por el agotamiento del empuje del turismo, la vuelta a niveles normales del crecimiento en el sector agrario y reglas fiscales que restringirán el avance del gasto público.”\n\nSegún el referido Informe el PIB de Andalucía crecerá un 2,7% tanto en 2024 como en 2025. Esto permitirá crear 154 mil empleos y reducir la tasa de paro hasta el 16,0% en 2025.\n\nDesde la perspectiva económico-social, el balance del año 2024 no es negativo, en cuanto a empleo. Éste creció a una tasa situada en el 2,45% de las personas afiliadas a la Seguridad Social. La tasa de paro en el promedio del año 2024 se situaría en el 16,8%, una ratio 1,4 p.p. inferior a la del año anterior. Para 2025, se prevé un aumento del empleo del 1,9%, en tanto que la cifra de parados se reduciría en un 4,5%, estimándose una tasa de paro del 15,9% (11,0% en España).\n\nAunque evitamos caer en el dataísmo invasivo no podemos, finalmente, dejar de referirnos a la Encuesta de Población Activa del IV Trimestre de 2024 publicada el 23 de enero de 2025. que corrobora lo anterior con datos regionales y provinciales de ocupación y paro8\n\n.\n\n5. La empresa, al centro\n\nResulta obligado reiterar que hacen falta en Andalucía más empresas y más grandes. La empresa es una organización que combina capital y trabajo de forma consensuada y eficiente que ha demostrado su capacidad para hacer progresar a los seres humanos en el contexto de la economía de mercado y de la democracia liberal.\n\nLa empresa y lo autónomos andaluces se enfrentan a riesgos cercanos que tienen que ver con los mercados de productos, de factores, de bienes y servicios, y también otros más inmateriales como el reputacional. Se añaden los regulatorios que tienen importantes repercusiones, principalmente en costes. A los fiscales se añaden en las sociedades modernas los sociales, los ambientales, los de responsabilidad social corporativa, los de objetivos secundarios, y otros tipos de riesgo imposibles de asegurar.\n\nEn estos momentos de cierto optimismo de carácter económico (liquidez abundante, incremento del gasto público, menosprecio de los efectos a largo plazo de la deuda, incremento de la recaudación fiscal, buenos datos macro) se ha extendido la opinión de que queda margen fiscal para incrementar los impuestos sin que la producción y el empleo se vean afectados.\n\nDesde el Gobierno se defiende que la reducción de la jornada laboral no provoca el crecimiento del coste salarial e incluso que incrementa la productividad. Así, se subió el Salario Mínimo Interprofesional más de un 60% en los últimos 6 años y se redujo de hecho notablemente la jornada laboral en casi todas las empresas, lejos por supuesto de las 40 horas del Estatuto de las Trabajadores. La empresas españolas, en su mayoría pequeñas y medianas, acusan sus efectos, y sus representantes han argumentado principalmente una razón objetiva y otra de procedimiento, La primera alude a que una población de empresas y autónomos tan heterogénea en sectores y tamaños, exige un tratamiento más diversificado o específico, una economía de precisión; en segundo lugar, que la cuestión debería dilucidarse dentro del diálogo social entre trabajadores y empresarios, Centrales Sindicales y Organizaciones Empresariales, actuando el Gobierno como moderador y relator. Sin embargo, el Gobierno, o parte de él, exhibe una ideología anti-empresa privada, toma partido, y amenaza con el BOE. El 28 de enero Gobierno y sindicatos llegaron a un acuerdo para tramitar la reducción de la jornada laboral a 37,5 horas semanales por el procedimiento de urgencia, incluyendo otras medidas como el nuevo registro horario y la desconexión digital.\n\nEl 29 de enero la Ministra de Trabajo anunció que El Gobierno había tomado la decisión, con el visto bueno de los sindicatos, pero no de las patronales, de aumentar el salario mínimo interprofesional (SMI) para 2025 en 50 euros, lo que elevó su cuantía un 4,41%, hasta los 1.184 euros brutos mensuales repartidos en 14 pagas (16.576 euros al año). Su aplicación sería retroactiva.\n\n6. “Demografía“ empresarial\n\nA fecha de 1 de enero de 2024,\n\ncontaba con 3.255.276 empresas activas, lo que representa un incremento del 1% respecto al año anterior. La distribución sectorial de estas empresas es la siguiente:\n\nResto de Servicios: 63,3% (2.060.614 empresas)\n\nComercio: 19,5% (635.234 empresas)\n\nConstrucción: 11,8% (383.622 empresas)\n\nIndustria: 5,4% (175.806 empresas)\n\nEn cuanto al tamaño, las empresas españolas se caracterizan por su reducida dimensión. Más de 1,69 millones de empresas (52% del total) no empleaban a ningún asalariado, y otras 955.079 (29,3%) contaban con uno o dos empleados. En conjunto, el 81,3% de las empresas tenían dos o menos asalariados. En términos de antigüedad, el 18,6% de las empresas activas tenían 20 o más años, y el 19,1% menos de dos años, indicando un tejido empresarial dinámico con una notable presencia de empresas jóvenes. Por comunidades autónomas, Cataluña concentraba el 18,5% del total de empresas activas, seguida de Andalucía (16,3%) y la Comunidad de Madrid (15,8%).\n\nA diciembre de 2023,\n\nregistró un total de 635.349 empresas activas, lo que representa un incremento del 2,17% respecto al año anterior. Este crecimiento se traduce en 130.584 nuevos empleos, alcanzando un total de 2.877.286 trabajadores en la comunidad.\n\nDistribución por provincias: Málaga: 136.230 empresas (21,44% del total andaluz). Sevilla: 132.839 empresas (20,91%). Granada: 71.006 empresas. Cádiz: 67.005 empresas. Almería: 65.125 empresas. Córdoba: 61.949 empresas. Jaén: 54.973 empresas. Huelva: 30.156 empresas. Además, 16.066 empresas tienen centros de negocio en Andalucía, aunque su sede se encuentra fuera de la comunidad.\n\nEn términos de creación de empresas, durante 2024 se registraron 15.341 nuevas sociedades mercantiles en Andalucía, la cifra más alta desde 2007, representando el 18,4% del total nacional. Este incremento del 16,2% respecto a 2023 supera el promedio nacional del 14,3%. A nivel nacional, en 2024 se crearon 119.801 nuevas empresas en España, un aumento del 10% respecto al año anterior y la cifra más alta desde 2007. Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana.\n\nEstas iniciativas y datos reflejan la dinámica y diversidad del tejido empresarial andaluz, así como los esfuerzos por fomentar el crecimiento y la inclusión en el ámbito económico de la región. Del orden del 7,5% de la población andaluza (en edad de trabajar) se encuentra relacionada con el desarrollo de algún proyecto empresarial. Un nivel similar al existente antes de la crisis sanitaria, y donde viene ganando peso la participación de las mujeres empresarias.\n\nFinal, como al comienzo: envidia (NVIDIA) y dataísmo9\n\nEl lunes 27 de enero pasado pensé por un momento que habíamos retrocedido al 2000 con su carga milenaria y su golpe a las tecnológicas. El fuerte y brusco descenso del S&P 500 (-1,46%) y del Nasdaq 100 (-2,97%) nos devolvía a la crisis de las tecnológicas del comienzo del milenio. El miedo reaparece fácilmente en los mercados, más bien el olvidado y contagioso pánico. El miedo siempre está latente. Es el que pincha las burbujas.\n\nEl comportamiento inicial de las tecnológicas fue muy dispar, insuficiente para un “pinchazo sectorial por ahora: mientras NVIDIA bajaba un 17%, Apple subía un 3%; INTEL bajaba 2,6%; META subía un 2%; Broadcom caía un 17,4% Microsoft bajaba 2,1%; Alphabet caía un 4,2%; Softbank subía 1,6% (hoy de madrugada 0,25%) y Oracle bajaba 13,7%. En la siguiente sesión NVIDIA se recuperaría un 7%.\n\nEl motivo inicial era chino y se concretaba en la “start up” DeepSeek. Desarrolladora de un producto del género Inteligencia Artificial que puede competir en precio, prestaciones y calidad con Open AI o META, y que afectaría a toda la cadena de suministro, necesitando menos chips de NVIDIA, que gozaba de un “envidiable” poder de mercado. La reacción en cadena no se hizo esperar y se trasladó rápidamente a los mercados financieros globales.\n\nLos mercados se llenaron de análisis y conjeturas que coincidían en un enfrentamiento tecnológico-comercial China-EE. UU. en el que China habría efectuado un importante 10.\n\nPara dar fin a este ya demasiado largo artículo, me proponía a hacer un breve llamamiento a la innovación e internacionalización de la empresa andaluza, siempre insuficientes. Preferí predicar con el ejemplo. Este artículo ha sido redactado por el método habitual de reflexiones, lecturas y referencias. Salvo el epígrafe “Demografía Empresarial”, cuyo autor es el artificialmente inteligente ChatGPT. Saquen conclusiones.",
+                                        "metadata": {
+                                            "url": "https://memoria2024.cea.es/la-economia-andaluza-en-2024/",
+                                            "source": "memoria2024.cea.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "La economía andaluza en 2024",
+                                            "type": "web_search",
+                                            "base_url": "https://memoria2024.cea.es",
+                                            "snippet": "Según los datos disponibles de la Contabilidad Regional, Andalucía creció en 2024 en torno al 3,5%. crecimiento del 3,3% en el número de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El número de nuevas sociedades inscritas en los Registros Mercantiles ha alcanzado en el primer trimestre de 2025 las 30.601 empresas constituidas, lo que supone una reducción del 6,7% en comparación con el mismo periodo de 2024, cuando se constituyeron 32.788, según los últimos datos del Colegio de Registradores. La Estadística Mercantil presentada para para ver la evolución del tejido empresarial nacional deja, sin embargo, un buen dato en el cómputo anual. De este modo, en los últimos doce meses las constituciones de sociedades han registrado un total de 117.228 nuevas inscripciones que suponen un aumento del 6,6% interanual, frente a las 110.039 empresas constituidas en el periodo anterior.\n\nSólo en el mes de marzo se constituyeron 10.690 nuevas empresas, la gran mayoría (10.525) como sociedad limitada, mientras que 41 fueron sociedad anónima y 124 se registraron con otras formas jurídicas. El trimestre se cierra nuevamente por encima de las 100.000 constituciones interanuales, un umbral que se ha mantenido como base sólida de la serie desde el segundo trimestre de 2021.\n\nPor comunidades y sectores\n\nEl comportamiento por comunidades ha sido dispar y las mayores subidas en la creación de nuevas sociedades mercantiles se han registrado en Cantabria (19,8%), Ceuta y Melilla (17,1%) y Aragón (16,7%); mientras que, en el lado opuesto, los descensos más acusados se ha producido en Castilla-La Mancha (-15,2%), Asturias (-12,5%) y La Rioja (-10,1%). Andalucía registra un dato negativo de -7,1%, por lo que supera en 0,4 puntos la media nacional.\n\nLa distribución entre las actividades se mantiene similar a la de trimestres anteriores y destacan las actividades profesionales, científicas y técnicas con un 16,1% del total de constituciones; seguidas del comercio tanto al por mayor como al por menor, con un 15,6% de las nuevas empresas constituidas; y las actividades inmobiliarias, también con un 15,6%.\n\nCapitalización y extinciones\n\nEn el primer trimestre de 2025 se contabilizaron 9.697 ampliaciones de capital (2.673 de ellas en marzo), lo que supone un incremento del 1,9% frente al mismo trimestre de 2024. En términos de importe de capital ampliado se desembolsaron 6.850 millones de euros, un 7% menos que en el mismo período del año anterior, lo que arroja un importe medio por operación de 706.437 euros, un 8,7% inferior al registrado en el mismo periodo de 2024.\n\nEn cuanto a las extinciones de sociedades, durante el primer trimestre del año se registraron 11.488, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2024. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%.\n\nInsolvencia y traslados de sede social\n\nLa Estadística Mercantil de este trimestre arrojael dato en cuanto al número de sociedades en situación de insolvencia de la inscripción de 1.033 concursos de acreedores, lo que supone un descenso del 7,5% respecto al mismo trimestre del año anterior. Sólo en el mes de marzo se inscribieron 395 concursos, un 9% menos que en el mismo mes de 2024. 36 de esas inscripciones se hicieron en Andalucía por las 39 de marzo de 2024.\n\nPor otro lado, los traslados de sede social de las empresas reflejan que el mayor número de salidas se ha dado en la Comunidad de Madrid, hasta 453; seguida de Cataluña, 196 salidas; Andalucía, 151, y la Comunidad Valenciana, 117 cambios de sede fuera de la comunidad.\n\nEl balance respecto a la salida y entrada de empresas ha resultado positivo en el Principado de Asturias, con un saldo a favor de 44 empresas, seguida de Andalucía con 24 y Cantabria con 14; mientras que, en el otro extremo, se sitúan la Cataluña con un saldo en contra de 49 empresas, seguida a bastante distancia por Castilla y León, con 15 salidas netas.\n\nEl flujo en el traslado de sede social en Andalucía es principalmente con Madrid, a donde han salido 77 empresas y de cuya comunidad han llegado 94, con un saldo positivo de 17 empresas. En las salidas desde Andalucía destacan en este primer trimestre empresas con destino a Cataluña (18), Canarias (11) y Navarra (10). En cuanto a las llegadas, además del dato de Madrid le sigue la Comunidad Valenciana (19) y Cataluña (15).",
+                                        "metadata": {
+                                            "url": "https://www.elconciso.es/coyuntura/constitucion-nuevas-empresas-baja-7-trimestre-andalucia_0_2003745967.html",
+                                            "source": "www.elconciso.es",
+                                            "favicon": "https://static.grupojoly.com/joly/public/file/2025/0926/09/favicon-el-conciso-svg.svg",
+                                            "title": "La constitución de nuevas empresas baja un 7,1% en el ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elconciso.es",
+                                            "snippet": "Andalucía registra un dato negativo de -7,1%, por lo que supera en 0,4 puntos la media nacional. La distribución entre las actividades ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Andalucía constituyó 1.974 sociedades mercantiles en abril, un 7,5% menos que en ese mismo mes el pasado año, cuando se registraron 2.133. A pesar de la caída, se trata del segundo mejor dato de constitución de empresas en un mes de abril en la región de la serie histórica del Instituto Nacional de Estadística (INE).\n\nEstos datos regionales contrastan con los del conjunto de España, ya que la creación de empresas creció un 0,3% interanual, hasta sumar un total de 11.794 empresas, su mayor cifra desde marzo de 2023. De este modo, rompe con tres meses consecutivos de retrocesos interanuales.\n\nEn el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales.\n\nCentrándonos en este año, el mes de abril ha sido el que más empresas suscritas ha tenido en Andalucía (1.974), frente a las 1.804 de marzo (+9,42% de variación porcentual mensual); las 1.292 de febrero y las 1.864 de enero. Asimismo, el territorio andaluz es el tercero con mejor dato en el cuarto mes del año en toda España, solo por detrás de Madrid (2.784 sociedades) y Cataluña (2.431).\n\nDesgranando las empresas, las sociedades limitadas representaron 1.971 de las empresas constituidas en abril (un 7,33% menos interanual), frente a las tres sociedades anónimas, una menos que en abril de 2024.\n\nPara constituir las 1.974 empresas creadas el mes de abril se suscribieron algo más de 85,95 millones de euros, lo que supone un 10,15% más que en el mismo mes de 2024. Por su parte, el número de sociedades mercantiles que ampliaron capital bajó un 1,9% en Andalucía en abril, hasta las 363 empresas. El capital suscrito en dichas ampliaciones alcanzó los 142,62 millones de euros, cifra un 5,1% inferior a la de abril de 2024.\n\nPor otro lado, 285 empresas echaron el cierre el pasado mes de abril en Andalucía, de las que 250 lo hicieron voluntariamente; seis por fusión con otras sociedades y las 29 restantes por otras causas.\n\nDatos nacionales\n\nPara la creación de las 11.794 empresas constituidas el pasado mes de abril (+0,3%) de España se suscribieron casi 426,8 millones de euros, lo que supone un 11,6% menos que en igual mes de 2024, mientras que el capital medio suscrito, que se situó en 36.187 euros, bajó un 11,9%.\n\nPor su parte, la disolución de empresas bajó un 10,5% interanual en el cuarto mes del año, con 1.653 sociedades desaparecidas, lo que supone que cada día del mes de abril se cerraron 55 empresas. De las 1.653 empresas que se disolvieron en abril, el 84,4% lo hicieron voluntariamente.\n\nPor su parte, el número de sociedades mercantiles que ampliaron capital se redujo un 13,9% en abril en tasa interanual, hasta las 2.437 empresas. El capital suscrito en dichas ampliaciones superó los 1.428 millones de euros, cifra un 32,3% inferior a la de abril de 2024, mientras que el capital medio fue de 586.220 euros, un 21,3% menos.\n\nEn tasa mensual (abril sobre marzo), la constitución de empresas aumentó un 13,23%, mientras que las disoluciones descendieron un 16,7%. En los cuatro primeros meses del año, el número de nuevas empresas retrocedió un 5,2%, en tanto que el volumen de sociedades disueltas descendió un 0,6%.",
+                                        "metadata": {
+                                            "url": "https://www.elconciso.es/empresas/creacion-empresas-andalucia-desciende-7_0_2004114963.html",
+                                            "source": "www.elconciso.es",
+                                            "favicon": "https://static.grupojoly.com/joly/public/file/2025/0926/09/favicon-el-conciso-svg.svg",
+                                            "title": "La creación de empresas en Andalucía desciende un 7,5% ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elconciso.es",
+                                            "snippet": "En el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Detalles\n\nEl Programa Andalucía Open Future es una iniciativa de apoyo al emprendimiento de base tecnológica basado en la innovación, impulsada por la Junta de Andalucía, Telefónica,Promálga( Ayuntamiento de Málaga), Ayuntamiento de Almería, Instituto Municipal de Desarrollo Económico y Empleo de Córdoba (Ayuntamiento de Córdoba) y Parque Científico y Tecnológico Cartuja.\n\nQUÉ BUSCAMOS\n\nBuscamos seleccionar hasta 30 startups de base tecnológica, que dispongan de un modelo de negocio innovador, para su entrada en la red de hubs de AOF, donde se impulsará la maduración de los proyectos a través de una metodología de aceleración específica. Los espacios están ubicados en Sevilla (El Cubo), Málaga (La Farola), Almería (El Cable) y Córdoba (El Patio). Estas startups deberán contar con un producto mínimo viable en ejecución o desarrollo, de potencial lanzamiento en cuatro meses y un equipo de al menos 3 personas. Queremos retener y atraer talento a Andalucía y por tanto también buscamos proyectos y equipos que, aunque no se hayan gestado en la Comunidad Autónoma de Andalucía, quieran establecerse en ella.\n\nQUÉ OFRECEMOS\n\nAndalucía Open Future ofrece a las startups un periodo de aceleración de ocho meses que combina la asistencia personalizada presencial y en remoto durante el que tienen la oportunidad de participar en actividades formativas y de networking, así como obtener visibilidad y acceder a iniciativas de financiación pública y privada. Los emprendedores disponen de un equipo de mentores compuesto por más de 80 expertos en áreas estratégicas de la empresa con los que trabajarán para lograr un crecimiento real en su empresa y la validación de su modelo de negocio en el mercado. Más de 244 startups han sido aceleradas desde su puesto en marcha en 2014 .",
+                                        "metadata": {
+                                            "url": "https://www.openfuture.org/es/challenge/andalucia-open-future-2024",
+                                            "source": "www.openfuture.org",
+                                            "favicon": "https://www.openfuture.org/chtemplatesPlugin/base/img/favicon.ico?v=v2.629.1-95-g8d8cb5b7f5-s",
+                                            "title": "Andalucía Open Future 2024",
+                                            "type": "web_search",
+                                            "base_url": "https://www.openfuture.org",
+                                            "snippet": "Andalucía Open Future ofrece un ecosistema de apoyo integral para emprendedores y startups a través de sus diferentes hubs de aceleración."
+                                        }
+                                    },
+                                    {
+                                        "text": "Un tema que interesa a la mayoría de empresarios andaluces es el de las ayudas de la Junta de Andalucía para 2024. ¿Qué podemos esperar de este año en materia de subvenciones y apoyo social?\n\nLa Junta de Andalucía se destaca como una de las Comunidades Autónomas que asigna un mayor presupuesto a subvenciones y ayudas sociales. Según el proyecto de ley de presupuestos para 2024, el gasto social representa el 80% del total, con un incremento del 3,6% respecto al año anterior. En este blog, vamos a analizar las principales líneas de actuación de la administración andaluza y las oportunidades que se abren para los emprendedores, los trabajadores y las familias.\n\nTransformación digital. Una prioridad ineludible para la Junta de Andalucía\n\nLa era digital ha llegado para quedarse, y la Junta de Andalucía está a la vanguardia de esta revolución.\n\nEn los últimos años, hemos sido testigos de una evolución significativa tanto en la asignación de subvenciones como en la creciente importancia de la transformación digital en Andalucía. Durante 2022 y 2023, la Junta de Andalucía ha intensificado sus esfuerzos, lanzando programas y ayudas específicas para fomentar la digitalización en sectores clave. Estas iniciativas han tenido un impacto directo en el tejido empresarial, alentando la innovación y la adopción de nuevas tecnologías.\n\nCon un enfoque progresista, se espera que se asignen fondos considerables para impulsar la transformación digital en diversos sectores. Esto incluirá iniciativas para fomentar la adopción de tecnologías innovadoras en empresas y otros ámbitos.\n\nEl año 2024 promete ser un hito importante en el impulso de la transformación digital en Andalucía. La Junta de Andalucía, consciente de la importancia estratégica de este proceso, se prepara para lanzar nuevas y potentes ayudas en este ámbito. Las convocatorias, que se esperan más robustas que nunca, abarcarán desde el apoyo a la digitalización de procesos empresariales hasta la promoción de proyectos innovadores de I+D+i. Las empresas andaluzas pueden anticipar un año lleno de oportunidades para fortalecer su posición en el mercado a través de la transformación digital. La Junta de Andalucía se compromete a respaldar iniciativas que impulsen la competitividad, la eficiencia y la resiliencia en un entorno empresarial en constante evolución. Este 2024 se presenta como un año clave para abrazar la revolución digital y aprovechar al máximo las oportunidades que brinda.\n\nEspecial mención en la transformación digital: TRADE, antigua Agencia IDEA de la Junta de Andalucía.\n\nEn el dinámico escenario del 2024, la Junta de Andalucía se alza como protagonista indiscutible de la transformación digital, marcando un hito significativo con la implementación de un robusto sistema de incentivos empresariales gestionado a través de Andalucía TRADE. Esta iniciativa, respaldada por la Consejería de Economía, Hacienda y Fondos Europeos, se presenta como un motor clave para potenciar la actividad de las empresas andaluzas, fomentar su internacionalización y brindar un sólido respaldo a proyectos emprendedores. Con una asignación de 279,16 millones de euros, cofinanciados con FEDER, las cinco líneas de incentivos abordarán mateiras como marketing, desarrollo industrial o inversiones en I+D+i.\n\nLas cuatro líneas destinadas al desarrollo industrial abarcan proyectos de inversión para crear actividad económica y mejorar la competitividad de las pymes, así como la puesta en marcha de pequeñas empresas y el respaldo a emprendedores. Pero es la cuarta línea, la de Transformación Digital, la que emerge como la joya de la corona. Con un límite de financiamiento de hasta 200,000 euros por proyecto, esta subvención tiene como objetivo primordial favorecer la digitalización de los procesos empresariales en las pymes de Andalucía, consolidándose como una fuerza impulsora en la revolución tecnológica. Dentro del espectro de ayudas a la I+D+i, la quinta línea destaca con subvenciones para Proyectos de Investigación Industrial y Desarrollo Experimental.\n\nEs esencial subrayar que estas ayudas no discriminan: pymes, autónomos y empresas de economía social pueden beneficiarse de este respaldo económico. Las cuantías de las subvenciones varían, ofreciendo porcentajes atractivos sobre la inversión subvencionable, brindando así un amplio rango de apoyo financiero.\n\nAdemás de abordar la transformación digital, estas aydas tienen objetivos estratégicos claros: fomentar, promocionar y diversificar el sistema productivo andaluz, internacionalizar la economía regional, impulsar la transferencia de conocimiento y aumentar la participación de la mujer en el tejido empresarial andaluz. Andalucía TRADE, entidad encargada de gestionar este ambicioso programa, dirigirá sus esfuerzos hacia el desarrollo empresarial, la potenciación de nuevas actividades económicas, la digitalización, la innovación empresarial y el fomento del capital riesgo en la región. También se enfocará en impulsar el desarrollo urbano sostenible y facilitar el acceso a servicios bancarios presenciales en áreas rurales.\n\nCon una mirada hacia la internacionalización, Andalucía TRADE buscará no solo potenciar la salida al exterior de las empresas andaluzas sino también atraer proyectos de inversión empresarial a la región. La transferencia de conocimiento se convertirá en un pilar clave, con servicios avanzados y especializados, innovación abierta y apoyo a la compra pública de innovación. Además, se promoverán acciones para la incorporación, consolidación y visibilización de la mujer en el entorno empresarial, buscando equidad tanto cuantitativa como cualitativa.\n\nLos autónomos van a serguir siendo clave para la Junta de Andalucía\n\nLos autónomos andaluces, un pilar clave para el desarrollo económico, han sido objeto de especial atención por parte de la Junta de Andalucía en los últimos años. Su contribución significativa a la generación de riqueza y empleo ha llevado a la implementación de diversas medidas de apoyo, y es que la situación económica de los últimos tiempos ha sido muy desfavorable, y, especialmente, los que tienen negocios más pequeños requieren un poco de apoyo para seguir adelante. Las ayudas y subvenciones son un recurso esencial en este momento. Porque vivimos en un contexto de inflación global, y las pymes o los autónomos con una iniciativa propia son, sin duda, los que más dificultades tienen para enfrentarlo.\n\nEs importante conocer algunas de las ayudas para pymes y autónomos que estarán disponibles para encarar un nuevo año profesional con éxito y esperanza. Aunque la Junta de Andalucía tiene varios planes para mejorar la vida laboral de las pymes, hay algunos que sobresalen por encima de otros. Sobre todo, los que no solo buscan ayudar, sino también mejorar algunos aspectos de los diferentes proyectos, como es, por ejemplo, la transformación digital.\n\nLas subvenciones destinadas a los autónomos han experimentado un notable aumento desde el año 2020, reflejando el compromiso continuo de la Junta. Partiendo de los 28,7 millones de euros en 2020, la cifra se elevó a 215,6 millones en 2021 y a 250 millones en 2022. Más de 100,000 autónomos andaluces se han beneficiado de estas ayudas en estos tres años, respaldando la creación, consolidación y competitividad de sus negocios.\n\nMirando hacia el futuro, el año 2024 se presenta como una nueva oportunidad para reforzar el apoyo a los autónomos en Andalucía. Se espera que la Junta continúe su compromiso, convocando nuevas subvenciones adaptadas a las necesidades y demandas del colectivo. Estas iniciativas buscan impulsar la recuperación económica y social, así como fomentar el emprendimiento, la innovación y la competitividad entre los trabajadores autónomos.\n\nEn el inicio de este nuevo año, la convocatoria de Cuota Cero ya está abierta, destacándose como una subvención que bonificará los dos primeros años de actividad para los nuevos autónomos que se den de alta en el territorio andaluz. Además, se mantienen otras líneas de ayuda destinadas a facilitar el acceso al crédito, mejorar la competitividad y modernización de los negocios, así como promover la conciliación familiar y laboral.\n\nCon estas acciones, la Junta reafirma su compromiso con el colectivo autónomo, uno de los más afectados por la crisis económica derivada de la pandemia, y continúa respaldando su vital papel en la economía andaluza. Es recomendable prestar atención a las próximas novedades sobre las ayudas y subvenciones para autónomos y pymes durante el próximo 2024. Desde Invepat, nos comprometemos a mantenerle informado de cada nueva ayuda que se anuncie mediante nuestra newsletter. A través de esta plataforma, le proporcionaremos actualizaciones oportunas y detalladas sobre las iniciativas autonómicas, asegurándonos de que esté al tanto de todas las oportunidades disponibles para su negocio.\n\nLa suscripción a nuestra newsletter garantiza que reciba información valiosa directamente en su bandeja de entrada, permitiéndole tomar decisiones informadas y aprovechar al máximo los recursos que la Junta de Andalucía ponga a disposición de autónomos y pymes durante el próximo año. No tardaremos en proporcionarle las últimas noticias y orientaciones para que pueda gestionar su negocio de manera efectiva en el cambiante entorno económico.\n\nLa Junta de Andaluacía busca fortalecer el empleo. Otra de las prioridades para este año.\n\nLas subvenciones de la Junta de Andalucía destinadas a nuevas contrataciones y al mantenimiento del empleo han experimentado una evolución positiva en los últimos años, con especial énfasis en 2022 y 2023. Estos programas específicos se han centrado en respaldar a los sectores más afectados por la crisis sanitaria y la transición ecológica. Para el año 2024, se espera la continuidad de estas iniciativas y la introducción de medidas adicionales que promuevan la creación y sostenibilidad del empleo de calidad en la región.\n\nLas ayudas para contrataciones propuestas por la Junta abarcan diversas áreas, desde incentivar la contratación indefinida, especialmente entre jóvenes, mujeres y colectivos vulnerables, hasta respaldar empleos en sectores estratégicos como turismo, industria o servicios sociales. La variedad de subvenciones demuestra el compromiso de la administración autonómica en abordar diferentes aspectos del mercado laboral, reduciendo el desempleo y mejorando la calidad del trabajo.\n\nEn este sentido, se destaca la atención específica a colectivos más vulnerables, como jóvenes, mujeres, mayores de 45 años, personas con discapacidad o en riesgo de exclusión social. Además, se reconocen las subvenciones destinadas a la adaptación de los puestos de trabajo a las nuevas condiciones derivadas de la pandemia, incluyendo la implantación del teletrabajo, mejoras en la seguridad y salud laboral, y formación en competencias digitales y verdes.\n\nLa Junta de Andalucía, consciente de que los trabajadores son el motor de la actividad productiva y del bienestar ciudadano, reafirma su compromiso con la protección y fomento del empleo. Las medidas adoptadas en los últimos años han demostrado ser fundamentales para impulsar el desarrollo económico y social de la región, y se espera que en 2024 se mantenga esta tendencia positiva.\n\nSostenibilidad y economía verde\n\nLas ayudas de la Junta de Andalucía sobre sostenibilidad o economía verde son subvenciones dirigidas a impulsar la actividad económica de las personas trabajadoras autónomas, las microempresas, las cooperativas y las sociedades laborales que contribuyan a la transición hacia un modelo productivo más respetuoso con el medio ambiente y más adaptado a las nuevas tecnologías. Estas ayudas se enmarcan dentro del Plan de Recuperación, Transformación y Resiliencia para Andalucía y de la Estrategia Andaluza de Economía Azul Sostenible, y tienen como objetivo promover acciones frente al cambio climático, la mejora de la calidad de vida en las zonas rurales, la protección y conservación de la biodiversidad y el patrimonio natural, el aumento de la competitividad y resiliencia de las explotaciones y empresas forestales, la selvicultura sostenible, el fomento de la economía circular y la gestión sostenible de los residuos.\n\nLa evolución de los fondos destinados a estas ayudas ha sido creciente en los últimos años, pasando de unos 20 millones de euros en 2019 a unos 250 millones de euros en el año 2023. Estas cifras reflejan el compromiso de la Junta de Andalucía con el desarrollo sostenible y la innovación.\n\nUn ejemplo de ayuda de economía verde lanzada por la Junta de Andalucía en 2023 que fue interesante es el programa de incentivos para la instalación de paneles solares en viviendas y edificios públicos. El programa consistía en subvencionar hasta el 50% del coste de la instalación, con un límite de 10.000 euros por beneficiario. Los requisitos eran estar empadronado en Andalucía, tener una vivienda o edificio con una superficie mínima de 50 m2 y una orientación adecuada para la captación solar, y solicitar la ayuda antes del 31 de diciembre de 2023. El programa fue interesante porque contribuyó a reducir las emisiones de gases de efecto invernadero, a fomentar el autoconsumo eléctrico y a generar empleo en el sector de las energías renovables. Según la Junta de Andalucía, más de 20.000 personas se beneficiaron de esta ayuda, lo que supone un ahorro medio anual de 300 euros en la factura eléctrica y una reducción de 60 toneladas de CO2 al año por cada instalación.\n\nPara el año 2024 se espera que estas ayudas sigan aumentando su presupuesto y su alcance, abarcando más sectores y actividades relacionadas con la economía verde o digital. Asimismo, se espera que se simplifiquen los trámites y requisitos para acceder a las mismas, así como que se agilicen los plazos de resolución y pago. De esta forma, se pretende facilitar el acceso a estas ayudas a todas las personas y entidades que quieran contribuir a una economía más verde y digital en Andalucía.\n\nComo se puede ver, las ayudas de la Junta de Andalucía para 2024 ofrecen una amplia variedad de opciones para mejorar las condiciones de vida y trabajo de los andaluces. Si quieres estar al día de todas las novedades y oportunidades, te invitamos a seguir nuestro blog y a contactar con nosotros si necesitas asesoramiento personalizado.",
+                                        "metadata": {
+                                            "url": "https://invepat.com/ayudas-de-la-junta-de-andalucia-para-2024-que-podemos-esperar/",
+                                            "source": "invepat.com",
+                                            "favicon": "https://invepat.com/wp-content/uploads/2024/07/cropped-Diseno-sin-titulo-12-32x32.png",
+                                            "title": "Ayudas y Subvenciones de la Junta de Andalucía para 2024",
+                                            "type": "web_search",
+                                            "base_url": "https://invepat.com",
+                                            "snippet": "Ayudas de la Junta de Andalucía para 2024, unas de las más esperadas por los empresarios andaluces en la mejora de su competitividad."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00158899,
+                "total_run_time": 1.0625873030003277,
+                "average_cost_per_call": 0.00158899,
+                "average_time_per_call": 1.0625873030003277,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:29:00",
+                    "run_time": 1.0625873030003277,
+                    "cost": 0.00158899,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál fue el número total de empresas existentes en Andalucía a finales de 2024, según el INE?": [
+                                {
+                                    "En términos de creación de empresas, durante 2024 se registraron 15.341 nuevas sociedades mercantiles en Andalucía, la cifra más alta desde 2007, representando el 18,4% del total nacional. Este incremento del 16,2% respecto a 2023 supera el promedio nacional del 14,3%. A nivel nacional, en 2024 se crearon 119.801 nuevas empresas en España, un aumento del 10% respecto al año anterior y la cifra más alta desde 2007. Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana.": null
+                                },
+                                {
+                                    "En el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales.": null
+                                },
+                                {
+                                    "Distribución por provincias: Málaga: 136.230 empresas (21,44% del total andaluz). Sevilla: 132.839 empresas (20,91%). Granada: 71.006 empresas. Cádiz: 67.005 empresas. Almería: 65.125 empresas. Córdoba: 61.949 empresas. Jaén: 54.973 empresas. Huelva: 30.156 empresas. Además, 16.066 empresas tienen centros de negocio en Andalucía, aunque su sede se encuentra fuera de la comunidad.": null
+                                }
+                            ],
+                            "¿Cuál fue la distribución de empresas por región en España a finales de 2024, según el INE?": [
+                                {
+                                    "INE, Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma Statista, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/ (last visited 31 de octubre de 2025)": null
+                                },
+                                {
+                                    "Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma [Gráfica], INE, noviembre 20, 2024. [En línea]. Disponible: https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/": null
+                                },
+                                {
+                                    "INE. \"Distribución Porcentual Del Total De Empresas De España En 2024, Por Comunidad Autónoma .\" Statista , Statista GmbH, 20 nov. 2024, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/": null
+                                }
+                            ],
+                            "¿Qué perspectivas y opiniones ofrecen las fuentes especializadas en economía y emprendimiento sobre la situación de las empresas en Andalucía?": [
+                                {
+                                    "Estas iniciativas y datos reflejan la dinámica y diversidad del tejido empresarial andaluz, así como los esfuerzos por fomentar el crecimiento y la inclusión en el ámbito económico de la región. Del orden del 7,5% de la población andaluza (en edad de trabajar) se encuentra relacionada con el desarrollo de algún proyecto empresarial. Un nivel similar al existente antes de la crisis sanitaria, y donde viene ganando peso la participación de las mujeres empresarias.": null
+                                },
+                                {
+                                    "Un tema que interesa a la mayoría de empresarios andaluces es el de las ayudas de la Junta de Andalucía para 2024. ¿Qué podemos esperar de este año en materia de subvenciones y apoyo social?": null
+                                },
+                                {
+                                    "Los autónomos andaluces, un pilar clave para el desarrollo económico, han sido objeto de especial atención por parte de la Junta de Andalucía en los últimos años. Su contribución significativa a la generación de riqueza y empleo ha llevado a la implementación de diversas medidas de apoyo, y es que la situación económica de los últimos tiempos ha sido muy desfavorable, y, especialmente, los que tienen negocios más pequeños requieren un poco de apoyo para seguir adelante. Las ayudas y subvenciones son un recurso esencial en este momento. Porque vivimos en un contexto de inflación global, y las pymes o los autónomos con una iniciativa propia son, sin duda, los que más dificultades tienen para enfrentarlo.": null
+                                }
+                            ],
+                            "¿Cuál fue la tasa de creación y cierre de empresas en Andalucía durante el año 2024, en comparación con la media nacional?": [
+                                {
+                                    "En términos de creación de empresas, durante 2024 se registraron 15.341 nuevas sociedades mercantiles en Andalucía, la cifra más alta desde 2007, representando el 18,4% del total nacional. Este incremento del 16,2% respecto a 2023 supera el promedio nacional del 14,3%. A nivel nacional, en 2024 se crearon 119.801 nuevas empresas en España, un aumento del 10% respecto al año anterior y la cifra más alta desde 2007. Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana.": null
+                                },
+                                {
+                                    "En el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales.": null
+                                },
+                                {
+                                    "En cuanto a las extinciones de sociedades, durante el primer trimestre del año se registraron 11.488, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2024. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%.": null
+                                }
+                            ],
+                            "¿Qué iniciativas de apoyo a las empresas y emprendedores implementaron las instituciones de Andalucía en 2024?": [
+                                {
+                                    "En el dinámico escenario del 2024, la Junta de Andalucía se alza como protagonista indiscutible de la transformación digital, marcando un hito significativo con la implementación de un robusto sistema de incentivos empresariales gestionado a través de Andalucía TRADE. Esta iniciativa, respaldada por la Consejería de Economía, Hacienda y Fondos Europeos, se presenta como un motor clave para potenciar la actividad de las empresas andaluzas, fomentar su internacionalización y brindar un sólido respaldo a proyectos emprendedores. Con una asignación de 279,16 millones de euros, cofinanciados con FEDER, las cinco líneas de incentivos abordarán mateiras como marketing, desarrollo industrial o inversiones en I+D+i.": null
+                                },
+                                {
+                                    "El año 2024 promete ser un hito importante en el impulso de la transformación digital en Andalucía. La Junta de Andalucía, consciente de la importancia estratégica de este proceso, se prepara para lanzar nuevas y potentes ayudas en este ámbito. Las convocatorias, que se esperan más robustas que nunca, abarcarán desde el apoyo a la digitalización de procesos empresariales hasta la promoción de proyectos innovadores de I+D+i. Las empresas andaluzas pueden anticipar un año lleno de oportunidades para fortalecer su posición en el mercado a través de la transformación digital. La Junta de Andalucía se compromete a respaldar iniciativas que impulsen la competitividad, la eficiencia y la resiliencia en un entorno empresarial en constante evolución. Este 2024 se presenta como un año clave para abrazar la revolución digital y aprovechar al máximo las oportunidades que brinda.": null
+                                },
+                                {
+                                    "Mirando hacia el futuro, el año 2024 se presenta como una nueva oportunidad para reforzar el apoyo a los autónomos en Andalucía. Se espera que la Junta continúe su compromiso, convocando nuevas subvenciones adaptadas a las necesidades y demandas del colectivo. Estas iniciativas buscan impulsar la recuperación económica y social, así como fomentar el emprendimiento, la innovación y la competitividad entre los trabajadores autónomos.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 13.242335750001075,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 13.242335750001075,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:29:16",
+                    "run_time": 13.242335750001075,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nAndalucía fue la región con más empresas a cierre de 2024\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál fue el número total de empresas existentes en Andalucía a finales de 2024, según el INE?\n¿Cuál fue la distribución de empresas por región en España a finales de 2024, según el INE?\n¿Qué perspectivas y opiniones ofrecen las fuentes especializadas en economía y emprendimiento sobre la situación de las empresas en Andalucía?\n¿Cuál fue la tasa de creación y cierre de empresas en Andalucía durante el año 2024, en comparación con la media nacional?\n¿Qué iniciativas de apoyo a las empresas y emprendedores implementaron las instituciones de Andalucía en 2024?\n\n3. Here are the text sources you should use as your source of information:\n[0] En términos de creación de empresas, durante 2024 se registraron 15.341 nuevas sociedades mercantiles en Andalucía, la cifra más alta desde 2007, representando el 18,4% del total nacional. Este incremento del 16,2% respecto a 2023 supera el promedio nacional del 14,3%. A nivel nacional, en 2024 se crearon 119.801 nuevas empresas en España, un aumento del 10% respecto al año anterior y la cifra más alta desde 2007. Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana.\n[0] Distribución por provincias: Málaga: 136.230 empresas (21,44% del total andaluz). Sevilla: 132.839 empresas (20,91%). Granada: 71.006 empresas. Cádiz: 67.005 empresas. Almería: 65.125 empresas. Córdoba: 61.949 empresas. Jaén: 54.973 empresas. Huelva: 30.156 empresas. Además, 16.066 empresas tienen centros de negocio en Andalucía, aunque su sede se encuentra fuera de la comunidad.\n[0] Estas iniciativas y datos reflejan la dinámica y diversidad del tejido empresarial andaluz, así como los esfuerzos por fomentar el crecimiento y la inclusión en el ámbito económico de la región. Del orden del 7,5% de la población andaluza (en edad de trabajar) se encuentra relacionada con el desarrollo de algún proyecto empresarial. Un nivel similar al existente antes de la crisis sanitaria, y donde viene ganando peso la participación de las mujeres empresarias.\n[1] En el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales.\n[2] INE, Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma Statista, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/ (last visited 31 de octubre de 2025)\n[2] Distribución porcentual del total de empresas de España en 2024, por comunidad autónoma [Gráfica], INE, noviembre 20, 2024. [En línea]. Disponible: https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n[2] INE. \"Distribución Porcentual Del Total De Empresas De España En 2024, Por Comunidad Autónoma .\" Statista , Statista GmbH, 20 nov. 2024, https://es.statista.com/estadisticas/511369/proporcion-de-empresas-en-espana-por-comunidad-autonoma/\n[3] Un tema que interesa a la mayoría de empresarios andaluces es el de las ayudas de la Junta de Andalucía para 2024. ¿Qué podemos esperar de este año en materia de subvenciones y apoyo social?\n[3] Los autónomos andaluces, un pilar clave para el desarrollo económico, han sido objeto de especial atención por parte de la Junta de Andalucía en los últimos años. Su contribución significativa a la generación de riqueza y empleo ha llevado a la implementación de diversas medidas de apoyo, y es que la situación económica de los últimos tiempos ha sido muy desfavorable, y, especialmente, los que tienen negocios más pequeños requieren un poco de apoyo para seguir adelante. Las ayudas y subvenciones son un recurso esencial en este momento. Porque vivimos en un contexto de inflación global, y las pymes o los autónomos con una iniciativa propia son, sin duda, los que más dificultades tienen para enfrentarlo.\n[3] En el dinámico escenario del 2024, la Junta de Andalucía se alza como protagonista indiscutible de la transformación digital, marcando un hito significativo con la implementación de un robusto sistema de incentivos empresariales gestionado a través de Andalucía TRADE. Esta iniciativa, respaldada por la Consejería de Economía, Hacienda y Fondos Europeos, se presenta como un motor clave para potenciar la actividad de las empresas andaluzas, fomentar su internacionalización y brindar un sólido respaldo a proyectos emprendedores. Con una asignación de 279,16 millones de euros, cofinanciados con FEDER, las cinco líneas de incentivos abordarán mateiras como marketing, desarrollo industrial o inversiones en I+D+i.\n[3] El año 2024 promete ser un hito importante en el impulso de la transformación digital en Andalucía. La Junta de Andalucía, consciente de la importancia estratégica de este proceso, se prepara para lanzar nuevas y potentes ayudas en este ámbito. Las convocatorias, que se esperan más robustas que nunca, abarcarán desde el apoyo a la digitalización de procesos empresariales hasta la promoción de proyectos innovadores de I+D+i. Las empresas andaluzas pueden anticipar un año lleno de oportunidades para fortalecer su posición en el mercado a través de la transformación digital. La Junta de Andalucía se compromete a respaldar iniciativas que impulsen la competitividad, la eficiencia y la resiliencia en un entorno empresarial en constante evolución. Este 2024 se presenta como un año clave para abrazar la revolución digital y aprovechar al máximo las oportunidades que brinda.\n[3] Mirando hacia el futuro, el año 2024 se presenta como una nueva oportunidad para reforzar el apoyo a los autónomos en Andalucía. Se espera que la Junta continúe su compromiso, convocando nuevas subvenciones adaptadas a las necesidades y demandas del colectivo. Estas iniciativas buscan impulsar la recuperación económica y social, así como fomentar el emprendimiento, la innovación y la competitividad entre los trabajadores autónomos.\n[4] En cuanto a las extinciones de sociedades, durante el primer trimestre del año se registraron 11.488, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2024. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Andalucía fue la región con más empresas a cierre de 2024"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" encuentra soporte en varios puntos de los textos proporcionados. Primero, según [0], Andalucía registró 15.341 nuevas sociedades mercantiles en 2024, lo que representa el 18,4% del total nacional, superando el promedio nacional del 14,3%. Esto sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024.\n\nAdemás, según [0], Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana. Esto implica que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024.\n\nFinalmente, según [4], en el primer trimestre del año se registraron 11.488 extinciones de sociedades, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2023. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%. Esto sugiere que, aunque hubo una disminución en el número de empresas extinguidas, la tasa de extinciones sigue siendo significativa en Andalucía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay algunos puntos que pueden contradecir la afirmación. Según [1], en el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales. Esto sugiere que, en realidad, Andalucía no fue la región con más empresas a cierre de 2024, sino que experimentó una disminución en el número de empresas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay puntos que sugieren una disminución en el número de empresas en la región. Sin embargo, la mayoría de la evidencia apoya la idea de que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024. Por lo tanto, considero que la afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" es **falsa** debido a la disminución en el número de empresas en la región, pero **verdadera** en el sentido de que fue una de las regiones con mayor crecimiento en el número de empresas en 2024."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.7410300100018503,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.7410300100018503,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:29:18",
+                    "run_time": 2.7410300100018503,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Andalucía fue la región con más empresas a cierre de 2024\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" encuentra soporte en varios puntos de los textos proporcionados. Primero, según [0], Andalucía registró 15.341 nuevas sociedades mercantiles en 2024, lo que representa el 18,4% del total nacional, superando el promedio nacional del 14,3%. Esto sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024.\n\nAdemás, según [0], Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana. Esto implica que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024.\n\nFinalmente, según [4], en el primer trimestre del año se registraron 11.488 extinciones de sociedades, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2023. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%. Esto sugiere que, aunque hubo una disminución en el número de empresas extinguidas, la tasa de extinciones sigue siendo significativa en Andalucía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay algunos puntos que pueden contradecir la afirmación. Según [1], en el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales. Esto sugiere que, en realidad, Andalucía no fue la región con más empresas a cierre de 2024, sino que experimentó una disminución en el número de empresas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay puntos que sugieren una disminución en el número de empresas en la región. Sin embargo, la mayoría de la evidencia apoya la idea de que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024. Por lo tanto, considero que la afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" es **falsa** debido a la disminución en el número de empresas en la región, pero **verdadera** en el sentido de que fue una de las regiones con mayor crecimiento en el número de empresas en 2024.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Andalucía fue la región con más empresas a cierre de 2024\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" encuentra soporte en varios puntos de los textos proporcionados. Primero, según [0], Andalucía registró 15.341 nuevas sociedades mercantiles en 2024, lo que representa el 18,4% del total nacional, superando el promedio nacional del 14,3%. Esto sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024.\n\nAdemás, según [0], Madrid y Cataluña lideraron este crecimiento, seguidas de Andalucía y la Comunidad Valenciana. Esto implica que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024.\n\nFinalmente, según [4], en el primer trimestre del año se registraron 11.488 extinciones de sociedades, lo que representa un incremento del 1,5% en comparación con el mismo periodo de 2023. En Andalucía fueron 1.485 las empresas extinguidas. La proporción de extinciones sobre constituciones se situó en el 37,5%. Esto sugiere que, aunque hubo una disminución en el número de empresas extinguidas, la tasa de extinciones sigue siendo significativa en Andalucía.\n\n**Contradicciones a la afirmación**\n\nAunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay algunos puntos que pueden contradecir la afirmación. Según [1], en el acumulado del año, Andalucía registra una disminución interanual del 7,84%, pasando de 7.524 empresas creadas de enero a abril de 2024 a 6.934 en los mismos meses de 2025. Y es que la región encadena cuatro meses de caídas interanuales. Esto sugiere que, en realidad, Andalucía no fue la región con más empresas a cierre de 2024, sino que experimentó una disminución en el número de empresas.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que Andalucía tuvo un crecimiento significativo en el número de empresas en 2024, también hay puntos que sugieren una disminución en el número de empresas en la región. Sin embargo, la mayoría de la evidencia apoya la idea de que Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024. Por lo tanto, considero que la afirmación \"Andalucía fue la región con más empresas a cierre de 2024\" es **falsa** debido a la disminución en el número de empresas en la región, pero **verdadera** en el sentido de que fue una de las regiones con mayor crecimiento en el número de empresas en 2024."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Andalucía fue la región con más empresas a cierre de 2024\", \"categories\": [\"Economía\", \"Negocios\", \"Análisis\"], \"label\": \"Undetermined\", \"main_claim\": \"Andalucía fue una de las regiones con mayor crecimiento en el número de empresas en 2024, pero no la región con más empresas a cierre de 2024\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00658899,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

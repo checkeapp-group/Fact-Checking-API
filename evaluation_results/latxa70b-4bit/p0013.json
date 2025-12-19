@@ -1,0 +1,623 @@
+{
+    "question": "El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025",
+    "answer": "Hay varios argumentos y evidencias que respaldan la afirmación de que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025. **Según la fuente** [1] **, la Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025**. Esto sugiere que el presupuesto ha aumentado en términos absolutos y porcentuales en comparación con el año anterior. Además, **la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%**, lo que indica una tendencia de aumento en la inversión en educación superior. **La fuente** [2] **también menciona que la dotación para las universidades públicas representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid**, lo que sugiere que la educación superior es una prioridad para el gobierno regional.\n\nSin embargo, también hay algunas voces críticas que cuestionan el aumento del presupuesto para las universidades públicas. **La fuente** [3] **menciona que la Universidad Complutense se encuentra en una situación crítica y ha tenido que recurrir a un préstamo de 34,5 millones de euros**, lo que sugiere que la situación financiera de algunas universidades puede ser más compleja de lo que indica el aumento del presupuesto. Además, **la fuente** [3] **también menciona que los responsables de la universidad han hablado de \"presupuestos de guerra\" para los próximos tres años**, lo que sugiere que la situación puede ser más grave de lo que se espera. Sin embargo, **la fuente** [4] **menciona que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales**, lo que sugiere que el aumento del presupuesto puede ser más significativo de lo que se critica.\n\nEn conclusión, **hay evidencia que sugiere que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**, con un aumento del 6,5% en términos absolutos y porcentuales en comparación con el año anterior. Sin embargo, **también hay voces críticas que cuestionan la efectividad y la suficiencia del aumento del presupuesto**, destacando la situación financiera compleja de algunas universidades y la necesidad de una mayor inversión en educación superior. En general, **la evidencia sugiere que el aumento del presupuesto es real, pero su impacto y efectividad pueden ser objeto de debate**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.eldiariodemadrid.es/articulo/economia/ayuso-financiacion-universidades-publicas/20251029100722112946.amp.html",
+            "source": "www.eldiariodemadrid.es",
+            "favicon": "https://www.eldiariodemadrid.es/media/eldiariodemadrid/images/2023/07/14/2023071413200898097.png"
+        },
+        "2": {
+            "url": "https://www.comunidad.madrid/noticias/2025/10/29/comunidad-madrid-aumentara-753-millones-financiacion-universidades-publicas-2026-subida-65-record-inversion",
+            "source": "www.comunidad.madrid",
+            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg"
+        },
+        "3": {
+            "url": "https://opinioniberica.com/educacion/ayuso-eleva-un-65-el-presupuesto-universitario-pero-insuficiente/",
+            "source": "opinioniberica.com",
+            "favicon": "https://opinioniberica.com/wp-content/uploads/2025/07/ICONO-OPINIONIBERICA-1-60x60.png"
+        },
+        "4": {
+            "url": "https://www.democrata.es/politica/criticas-gestion-universitaria-comunidad-madrid-parte-madrid-psoe/",
+            "source": "www.democrata.es",
+            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025",
+        "categories": [
+            "Educación",
+            "Política",
+            "Economía"
+        ],
+        "label": "True",
+        "main_claim": "El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.046639747997688,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.046639747997688,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:52:33",
+                    "run_time": 12.046639747997688,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEl presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\n\n**Critical Research Questions:**\n1. ¿Cuál es el presupuesto total asignado por la Comunidad de Madrid a las universidades públicas en 2025?\n2. ¿En qué porcentaje ha aumentado el presupuesto de la Comunidad de Madrid para universidades públicas en 2025 en comparación con 2024?\n3. ¿Qué porcentaje del presupuesto total de la Comunidad de Madrid se destina a las universidades públicas en 2025?\n4. ¿Qué opinan los expertos en educación y finanzas públicas sobre el impacto del aumento del presupuesto en las universidades públicas?\n5. ¿Qué críticas o opiniones contrarias han surgido en torno al aumento del presupuesto para universidades públicas en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"presupuesto universidades públicas Comunidad de Madrid 2025 datos oficiales gobierno regional\", \"aumento presupuesto universidades públicas Comunidad de Madrid 2025 comparativo 2024 informe económico\", \"porcentaje presupuesto total Comunidad de Madrid universidades públicas 2025 análisis experto educación finanzas públicas\", \"impacto aumento presupuesto universidades públicas Comunidad de Madrid 2025 opinión expertos educación economía\", \"críticas aumento presupuesto universidades públicas Comunidad de Madrid 2025 noticias artículos de opinión fuentes credibles\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 8.289669082001637,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 8.289669082001637,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:52:42",
+                    "run_time": 8.289669082001637,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "presupuesto universidades públicas Comunidad de Madrid 2025 datos oficiales gobierno regional",
+                                "aumento presupuesto universidades públicas Comunidad de Madrid 2025 comparativo 2024 informe económico",
+                                "porcentaje presupuesto total Comunidad de Madrid universidades públicas 2025 análisis experto educación finanzas públicas",
+                                "impacto aumento presupuesto universidades públicas Comunidad de Madrid 2025 opinión expertos educación economía",
+                                "críticas aumento presupuesto universidades públicas Comunidad de Madrid 2025 noticias artículos de opinión fuentes credibles"
+                            ],
+                            "results": {
+                                "presupuesto universidades públicas Comunidad de Madrid 2025 datos oficiales gobierno regional | aumento presupuesto universidades públicas Comunidad de Madrid 2025 comparativo 2024 informe económico | porcentaje presupuesto total Comunidad de Madrid universidades públicas 2025 análisis experto educación finanzas públicas | impacto aumento presupuesto universidades públicas Comunidad de Madrid 2025 opinión expertos educación economía | críticas aumento presupuesto universidades públicas Comunidad de Madrid 2025 noticias artículos de opinión fuentes credibles": [
+                                    {
+                                        "text": "Esta dotación representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid, que en los dos últimos años ha aumentado el importe para sufragar la universidad pública en 122,6 millones, con una subida porcentual acumulada del 11%.\n\nLas cuentas públicas de la Consejería de Educación, Ciencia y Universidades para el próximo ejercicio reflejan así el compromiso del Ejecutivo presidido por Isabel Díaz Ayuso de dotar a la Complutense, Autónoma, Politécnica, Carlos III, Rey Juan Carlos y de Alcalá con los recursos necesarios para seguir impulsando una Educación Superior libre, plural y de calidad.\n\nEsta apuesta se confirma con el nuevo modelo de financiación que se recogerá en la nueva Ley de Enseñanzas Superiores, Universidades y Ciencia (LESUC), que incluirá tres conceptos: financiación básica para el normal funcionamiento; por necesidades específicas como mantenimiento de edificios e instalaciones, y por la consecución de objetivos relacionados con su actividad académica e investigadora, capítulo este último que podrá llegar a recibir 10 millones de euros anuales.\n\nTambién se produce un importante crecimiento en Educación Infantil, Primaria y Especial (1.379,5 millones, +3,5%), y Secundaria y FP (1.528,5 millones, +6,1%). Estas cantidades permitirán seguir incorporando nuevos docentes, con 2.725 maestros y profesores más que han empezado a dar clases este curso 2025/26, o el avance en la bajada de ratios de alumnos por aula, que ya es una realidad en todo el segundo ciclo de Infantil y 1º de Primaria (de 25 a 20 alumnos) y en los tres primeros cursos de Secundaria (de 30 a 25 estudiantes).\n\nBecas, actividades extraescolares y patios abiertos\n\nLas becas y ayudas al estudio se incrementan hasta 256,6 millones de euros, récord en un año natural que permitirá sufragar programas tan importantes como las becas comedor, las de Infantil o las ayudas para cursar FP de Grado Medio y Superior en centros privados. Además, otros 5 millones subvencionarán a los ayuntamientos a desplegar los programas de actividades extraescolares, apertura de centros en días no lectivos y el recién estrenado Patios Abiertos.\n\nLas inversiones en infraestructuras educativas alcanzarán los 115 millones y las ayudas al transporte escolar crecen hasta los 27 millones, 5 más que en el actual ejercicio. Por su parte, el presupuesto de Investigación y Desarrollo (I+D) sube un 1,8% para reforzar la labor de los siete Institutos Madrileños de Estudios Avanzados (IMDEA), y potenciar la atracción y retención de investigadores en centros de la región a través de los programas de ayudas César Nombela y Gabriela Morreale.\n\nLa Consejería de Educación, Ciencia y Universidades dispondrá en 2026 de un presupuesto de 6.959 millones, 259,4 más que en las anteriores cuentas (+3,9%). Con más de un 22% del total, es el segundo departamento del Ejecutivo autonómico con mayor dotación, solo por detrás de la Consejería de Sanidad.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/noticias/2025/10/29/comunidad-madrid-aumentara-753-millones-financiacion-universidades-publicas-2026-subida-65-record-inversion",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "La Comunidad de Madrid aumentará 75,3 millones ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "La Comunidad de Madrid destinará el próximo año un total de 1.239,7 millones de euros a la financiación de las universidades públicas, 75,3 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.\n\nLa presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%, lo que supone 75,3 millones de euros más respecto al ejercicio anterior.\n\nCon esta dotación, la inversión autonómica en educación superior alcanzará los 1.239,7 millones, la cifra más alta de la historia, según recoge el proyecto de Ley de Presupuestos Generales de la Comunidad de Madrid para 2026, que será aprobado por el Consejo de Gobierno y remitido posteriormente a la Asamblea regional.\n\nRécord histórico en la financiación de la universidad pública madrileña\n\nEl nuevo presupuesto consolida la apuesta del Ejecutivo autonómico por la educación superior y sitúa a Madrid a la cabeza en financiación universitaria dentro del conjunto nacional.\n\nEn los dos últimos años, la inversión en este ámbito ha aumentado en 122,6 millones de euros, con una subida acumulada del 11%, un esfuerzo que el Gobierno regional considera esencial para “impulsar una Educación Superior libre, plural y de calidad”.\n\nLa dotación beneficiará a las seis universidades públicas madrileñas: Complutense, Autónoma, Politécnica, Carlos III, Rey Juan Carlos y Alcalá, que contarán con más recursos para avanzar en investigación, innovación y captación de talento.\n\nUn nuevo modelo de financiación adaptado a la LESUC\n\nEl Ejecutivo regional subraya que esta subida se enmarca en el nuevo modelo de financiación universitaria previsto en la Ley de Enseñanzas Superiores, Universidades y Ciencia (LESUC).\n\nEste modelo contempla tres líneas de apoyo:\n\nFinanciación básica , para el funcionamiento ordinario de las universidades.\n\n, para el funcionamiento ordinario de las universidades. Financiación por necesidades específicas , como mantenimiento de infraestructuras.\n\n, como mantenimiento de infraestructuras. Financiación por objetivos, ligada a la actividad académica e investigadora, que podrá alcanzar hasta 10 millones de euros anuales.\n\nCrece también la inversión en Educación Infantil, Primaria, Secundaria y FP\n\nMás allá del ámbito universitario, el presupuesto global de la Consejería de Educación, Ciencia y Universidades asciende a 6.959 millones de euros, un incremento del 3,9% respecto a 2025. El aumento se traduce en mejoras en todas las etapas educativas:\n\nEducación Infantil, Primaria y Especial : 1.379,5 millones (+3,5%).\n\n: 1.379,5 millones (+3,5%). Secundaria y Formación Profesional: 1.528,5 millones (+6,1%).\n\nEstas partidas permitirán continuar con la incorporación de 2.725 nuevos docentes en el curso 2025/26 y consolidar la reducción de ratios en las aulas: de 25 a 20 alumnos en Infantil y 1º de Primaria, y de 30 a 25 estudiantes en los tres primeros cursos de Secundaria.\n\nBecas, infraestructuras y apoyo a la investigación\n\nLas becas y ayudas al estudio también alcanzan cifras récord: 256,6 millones de euros destinados a programas como las becas comedor, las ayudas para Educación Infantil y la Formación Profesional en centros privados.\n\nAdemás, se destinarán cinco millones a los ayuntamientos para financiar actividades extraescolares y proyectos como el programa “Patios Abiertos”.\n\nLas infraestructuras educativas contarán con 115 millones, mientras que el transporte escolar dispondrá de 27 millones, cinco más que el ejercicio anterior.\n\nPor su parte, la inversión en Investigación y Desarrollo (I+D) crecerá un 1,8%, con el objetivo de reforzar la labor de los Institutos Madrileños de Estudios Avanzados (IMDEA) y potenciar la atracción de investigadores mediante los programas César Nombela y Gabriela Morreale.\n\nEducación, segundo pilar del presupuesto regional\n\nCon más del 22% del presupuesto total de la Comunidad de Madrid, Educación se consolida como el segundo departamento con mayor dotación, solo por detrás de Sanidad.\n\nEl Gobierno regional destaca que este esfuerzo económico demuestra su “compromiso firme con la excelencia educativa, la libertad de elección de centro y la investigación científica como motores del progreso y la competitividad madrileña”.",
+                                        "metadata": {
+                                            "url": "https://www.eldiariodemadrid.es/articulo/economia/ayuso-financiacion-universidades-publicas/20251029100722112946.amp.html",
+                                            "source": "www.eldiariodemadrid.es",
+                                            "favicon": "https://www.eldiariodemadrid.es/media/eldiariodemadrid/images/2023/07/14/2023071413200898097.png",
+                                            "title": "Más becas, más docentes y récord en universidad",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiariodemadrid.es",
+                                            "snippet": "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Gobierno de la Comunidad de Madrid ha aprobado el segundo proyecto de presupuestos de la XIII Legislatura. Se trata de unos presupuestos eficientes que garantizan la excelencia y calidad en los servicios públicos, con marcado carácter social y con especial atención a quienes más lo necesitan, y que consolidan y profundizan el gran avance para nuestros servicios que supusieron las cuentas aprobadas para 2024.\n\nPara 2025, la cifra global del Presupuesto alcanza los 28.662,6 millones de euros en gasto no financiero, lo que supone un 4% de incremento adicional sobre los del año anterior; por encima tanto del aumento de los precios como del crecimiento previsto del PIB (en torno al 3%).\n\nEl presupuesto 2025 experimenta un crecimiento total de 1.104 millones de euros, los principales incrementos se destinan a Sanidad (294 millones de euros), Educación (239,5 millones de euros), Vivienda, Transportes e Infraestructuras (197,1 millones de euros) y Familia, Juventud y Asuntos Sociales (84,5 millones de euros), sumando entre estas cuatro consejerías un aumento superior a los 800 millones de euros. El gasto social supone prácticamente el 90% del presupuesto total, siendo las mayores partidas las dedicadas a Sanidad (el 36,5% del total) y a Educación (23,2%).\n\nEl importante incremento de más de un 10% del presupuesto destinado a la Consejería de Digitalización permitirá que la Comunidad de Madrid haga frente, con todas las garantías, a los retos que nos trae la nueva revolución digital en la que nos encontramos inmersos.\n\nDestaca también en este Presupuesto, de manera particular, el crecimiento, cercano al 7%, en el capítulo de inversiones, entre las que sobresalen infraestructuras estratégicas de gran importancia para sentar las bases necesarias que aseguren la actualización, modernización y avance de servicios públicos tan esenciales como el transporte, la sanidad o la justicia.\n\nEntre las inversiones que se inician o continúan su desarrollo con un impacto significativo en las cuentas de 2025 figuran, de manera destacada, la ampliación de la línea 11 de Metro de Madrid, la Ciudad de la Justicia en Valdebebas y el gran proyecto de la Ciudad de la Salud en el entorno del actual hospital de La Paz.\n\nEn consonancia con esta estrategia, y ante el fin en 2026 de la ejecución del Mecanismo de Recuperación y Resiliencia, las actuaciones vinculadas al mismo se concentran en el ámbito de la inversión.\n\nEl Proyecto de Presupuestos se enmarca en un contexto macroeconómico y financiero que, para 2024, ha resultado más favorable de lo inicialmente previsto y que para 2025 contempla como muy probable un escenario de una ligera desaceleración generalizada. A pesar de ello, las estimaciones para la Comunidad de Madrid recogen un diferencial de crecimiento positivo respecto al conjunto nacional.\n\nA la previsible ralentización del crecimiento en Europa y España, y la creciente incertidumbre provocada por una inestabilidad política en aumento, se suma la más que probable ausencia o, cuando menos, el importante retraso de unos Presupuestos Generales del Estado para 2025. Esta situación se agrava aún más por las numerosas incógnitas acerca de un Plan de Ajuste comprometido con la UE del cual se ignoran las medidas concretas que se incorporarán, tanto de ingreso como de gasto. Además, en estos momentos se mantiene un escenario de incertidumbre sobre los objetivos básicos que habremos de cumplir en 2025 y años siguientes, en aplicación del nuevo marco europeo de reglas fiscales. A todo ello se añade la amenaza de una reforma que podría incrementar hasta cuatro puntos más una presión tributaria ya excesiva que se traduce, dadas las características de nuestra economía, en un esfuerzo impositivo insostenible para ciudadanos y empresas.\n\nEste contexto exige adoptar para nuestra región un presupuesto que, sin dejar de ser ambicioso, mantenga unos márgenes de prudencia que permitan aportar a los servicios públicos el crédito necesario para mantener su excelencia y continuar su desarrollo, sin poner en riesgo el atractivo de Madrid como región de inversión y emprendimiento ni generar unos desequilibrios en forma de deuda que constituyan un freno al crecimiento futuro de la región y una carga para las siguientes generaciones de madrileños.\n\nEl dinamismo económico fruto de las políticas económicas y fiscales desarrolladas por la Comunidad de Madrid nos ha llevado a ser la primera economía de España, a liderar la creación de empresas, la generación de empleo y la atracción de inversión extranjera, al tiempo que nos mantenemos como la región con mayor competitividad fiscal, con menor deuda entre las que no disponen de un régimen especial, y con plena solvencia en los mercados financieros. Esto nos permite presentar un presupuesto que mantiene con firmeza los principios del Gobierno regional, y con un récord absoluto en los recursos que dedicamos a nuestros servicios públicos.\n\nConsolidamos así el esfuerzo presupuestario de los últimos dos años, alcanzando cotas del 20% de crecimiento. El incremento es del 42% si se hace referencia a 2019, momento en que Isabel Díaz Ayuso asumió por primera vez el cargo de presidenta de la Comunidad de Madrid.\n\nEn el apartado de ingresos, el presupuesto está elaborado de acuerdo con la comunicación recibida por parte del Gobierno de España respecto de las entregas a cuenta y las previsiones de liquidación, si bien debemos señalar la duda que existe sobre en qué influirá en próximos ejercicios el acuerdo político alcanzado entre el Gobierno y Esquerra Republicana de Cataluña para otorgar a Cataluña un régimen equivalente al de concierto económico. Su alcance y consecuencias para el resto de regiones de régimen común se desconoce.\n\nSegún el último dato consolidado, Madrid contribuyó en 2022 al Fondo de Garantía de los Servicios Públicos Fundamentales con 5.168,5 millones de euros, el 76,9% de la parte autonómica de este Fondo. En 2025, Madrid continuará siendo la comunidad más solidaria, aportando al Fondo de Garantía 7.125 millones, y otros 1.086 millones al Fondo de Suficiencia.\n\nEn lo que se refiere a la política tributaria, la Comunidad de Madrid consolidará las bajadas fiscales aprobadas en ejercicios anteriores a las que se unirán bonificaciones específicas que tienen por objeto favorecer a sectores especialmente vulnerables e incentivar la ya acreditada capacidad de Madrid como punto de atracción de la inversión internacional.\n\nDe este modo, el presupuesto para 2025 constituirá, una vez más, el marco en el que continuaremos desarrollando las políticas de libertad, apoyo a la empresa, competitividad y corresponsabilidad fiscal, seguridad jurídica, defensa de las instituciones, gasto eficiente y rigor en las cuentas públicas, que son la clave de nuestra prosperidad, de la excelencia de los servicios públicos que ofrecemos a los madrileños y de nuestra solidaridad con el resto de regiones de España.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/gobierno/hacienda/presupuestos-generales-comunidad-madrid-2025",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "Presupuestos Generales de la Comunidad de Madrid 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "Para 2025, la cifra global del Presupuesto alcanza los 28.662,6 millones de euros en gasto no financiero, lo que supone un 4% de incremento adicional sobre los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Gobierno de la Comunidad de Madrid, liderado por la presidenta Isabel Díaz Ayuso, ha anunciado un aumento del 6,5% en el presupuesto destinado a las universidades públicas, lo que se traduce en 75,3 millones de euros adicionales. Con esta medida, la financiación total alcanzará una cifra récord de 1.239,7 millones de euros en el próximo año, según informaron fuentes del Ejecutivo regional. Sin embargo, esta cifra se queda corta frente a las exigencias de los rectores de las seis universidades públicas, quienes advierten sobre una situación límite que podría afectar la nómina de sus trabajadores.\n\nEl conflicto entre los rectores y la presidenta Ayuso no es nuevo. En el año anterior, los responsables universitarios solicitaron un incremento de 200 millones de euros, lo que representaba un aumento próximo al 20%. Sin embargo, la respuesta inicial del Gobierno fue un modesto 0,9%, que posteriormente se revisó a un incremento de 47,3 millones de euros. Actualmente, el aumento anunciado no satisface las demandas básicas de las universidades, que enfrentan graves deficiencias en infraestructuras y recursos.\n\nDesafíos en las universidades\n\nLas universidades afectadas, como la Complutense y la Rey Juan Carlos, han expresado su preocupación por la falta de recursos para mantener la operatividad y satisfacer las necesidades de su plantilla. La vicerrectora de la Complutense, María Begoña García Greciano, ha señalado que requieren al menos 64 millones de euros para garantizar la continuidad de sus actividades educativas. Por su parte, el rector de esta misma universidad, Abraham Duarte, ha cifrado en 45 millones de euros el déficit proyectado para el año 2025.\n\nLa Complutense se encuentra en una situación crítica, teniendo que recurrir a un préstamo de 34,5 millones de euros, lo que ha llevado a sus responsables a hablar de “presupuestos de guerra” para los próximos tres años. En contraste, el equipo de Ayuso considera que el presupuesto propuesto es un éxito, ya que refleja el compromiso del Gobierno con las universidades y busca impulsar una educación superior de calidad.\n\nInversión educativa en comparación\n\nLa situación de las universidades no es homogénea. La Universidad de Alcalá, por ejemplo, recibe cofinanciación del Gobierno de Castilla-La Mancha, mientras que la Universidad Politécnica ha tenido que recurrir a un Expediente de Regulación de Empleo (ERE) para su personal administrativo. A nivel nacional, España presenta una media de inversión en educación universitaria de 0,6% del Producto Interior Bruto (PIB), una cifra que está muy por debajo de la media europea, que se sitúa en 1,2%.\n\nEl Gobierno de Pedro Sánchez ha instado a las comunidades autónomas a comprometerse a alcanzar un gasto del 1% para el año 2030, pero la Comunidad de Madrid no asistió a la reunión de trabajo celebrada el pasado viernes, lo que ha suscitado críticas y descontento entre los rectores.\n\nA pesar de los intentos de diálogo, la relación entre los rectores y el consejero de Educación, Emilio Viciana, sigue siendo tensa. En un intento de mejorar las relaciones, varios rectores viajaron con Ayuso a Miami, donde afirmaron haber encontrado a la presidenta “receptiva”. Sin embargo, las expectativas de un cambio en la política educativa se han visto frustradas, y la situación ha continuado deteriorándose.\n\nEn el ámbito de la educación no universitaria, el presupuesto para la Educación Infantil, Primaria y Especial ha aumentado un 3,5%, alcanzando 1.379,5 millones de euros, mientras que en Secundaria y Formación Profesional se ha incrementado un 6,1%, totalizando 1.528,5 millones de euros. Según el Gobierno regional, estos fondos permitirán incorporar a 2.725 nuevos docentes que comenzarán a impartir clases en el curso 2025/26.\n\nAún queda por determinar si este será el presupuesto definitivo, dado que todavía puede ser modificado en la Asamblea de Madrid, donde el Partido Popular goza de mayoría absoluta. La comunidad educativa espera con interés las reacciones frente a estas cifras y cómo afectarán la percepción pública sobre la gestión educativa del Gobierno de Ayuso. La falta de soluciones a problemas como ayudas educativas sin tramitar o fondos inaccesibles en la Complutense pone de manifiesto que la crisis en la educación superior aún está lejos de resolverse.",
+                                        "metadata": {
+                                            "url": "https://opinioniberica.com/educacion/ayuso-eleva-un-65-el-presupuesto-universitario-pero-insuficiente/",
+                                            "source": "opinioniberica.com",
+                                            "favicon": "https://opinioniberica.com/wp-content/uploads/2025/07/ICONO-OPINIONIBERICA-1-60x60.png",
+                                            "title": "Ayuso eleva un 6,5% el presupuesto universitario, pero ...",
+                                            "type": "web_search",
+                                            "base_url": "https://opinioniberica.com",
+                                            "snippet": "El Gobierno de Ayuso aumenta la financiación universitaria, aunque no satisface las demandas de los rectores. por Redacción29 octubre, 2025."
+                                        }
+                                    },
+                                    {
+                                        "text": "El consejero de Educación, Ciencias y Universidades de la Comunidad de Madrid, Emilio Viciana, ha recordado a la ministra de Universidades, Diana Morant, que \"no tiene ningún tipo de sustento\" que las universidades públicas reciban el 1% del Producto Interior Bruto (PIB).\n\n\"En la Ley Orgánica del Sistema Universitario (LOSU), hay un objetivo programático de que se llegue a una inversión de al menos el 1% del PIB en las universidades. Después de muchos análisis jurídicos y análisis económicos, está muy claro que ese deseo no tiene ningún tipo de sustento\", ha defendido en la sesión de control al Gobierno en la Asamblea de Madrid.\n\nHace unos días, Morant expresaba, en una entrevista en 'La Vanguardia' , que su \"obsesión\" es que las comunidades autónomas cumplan en financiación con la universidad pública y criticó que las comunidades no cubran sus gastos fijos.\n\nEn este sentido, el diputado socialista Horacio Díez ha reclamado en su turno de palabra al Ejecutivo autonómico que alcance el 1% del PIB en inversión y en financiación pública universitaria \"que pide la Unión Europea y que pide la OCDE\".\n\n\"Lo tenemos todo para ser una de las mejores regiones en innovación de la Unión Europea. Pero su ley regional va en la otra dirección, es el asalto definitivo a la universidad pública. Más tasas al alumnado, más fuga de talento, depender de la iniciativa privada y cronificar la falta de financiación\", ha criticado.\n\nEn la réplica, Viciana ha recalcado que, desde el punto de vista contable, la LOSU es \"un desastre porque no tiene en cuenta las diferencias entre las universidades y entre las comunidades autónomas\". Ha defendido que el porcentaje de los servicios \"no debe calcularse conforme al PIB sino conforme al esfuerzo presupuestario\".\n\n\"La ministra ha creado un grupo de trabajo porque sabe que no puede obligar a las comunidades autónomas a llegar a ese 1%. Yo les anuncio aquí que Madrid no va a participar en ese grupo de trabajo porque vamos a seguir apoyando a las universidades públicas y a mejorar el presupuesto, pero a nuestra manera\", ha insistido.\n\nAsimismo, Viciana ha defendido que la Comunidad de Madrid \"está haciendo el mayor esfuerzo histórico por las universidades públicas y va a seguir haciéndolo\". \"No como hacen ustedes con la LOSU\", ha concluido.",
+                                        "metadata": {
+                                            "url": "https://www.madridactual.es/noticias-regionales/educacion/madrid-la-comunidad-remarca-no-ningun-tipo-sustento-20251023-8062951.html",
+                                            "source": "www.madridactual.es",
+                                            "favicon": "https://www.madridactual.es/images/favicon16x16.png",
+                                            "title": "Debate sobre financiación universitaria en Madrid",
+                                            "type": "web_search",
+                                            "base_url": "https://www.madridactual.es",
+                                            "snippet": "El consejero Emilio Viciana critica la falta de sustento de la LOSU sobre financiar universidades públicas con el 1% del PIB, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Más Madrid y PSOE han expresado su descontento hacia la Comunidad de Madrid por considerarla un «Cofidis» o «prestamista particular» de la educación superior pública, acusándola de haber propiciado una situación de «quiebra» en este sector. Por su parte, el PP sostiene que ha incrementado los fondos destinados a estas instituciones en el presupuesto regional.\n\nEn la rueda de prensa posterior a la Junta de Portavoces de la Cámara de Vallecas, se ha debatido sobre la situación económica de la Universidad Rey Juan Carlos y la inminente aprobación de un préstamo para la Universidad Complutense de Madrid (UCM) por parte del gobierno regional.\n\nManuela Bergerot, portavoz de Más Madrid, ha denunciado un plan para «quebrar las universidades públicas y favorecer al sector privado», subrayando la falta de fondos en la UCM para abonar los salarios del profesorado. Además, ha reclamado un «aumento estructural» de 300 millones de euros para resolver la situación, criticando la solución del préstamo como insuficiente y contraproducente.\n\nMar Espinar, del PSOE, ha coincidido en que existe una «estrategia clara» del PP que ha reducido la financiación pública desde 2009 en un 30%, limitando la capacidad de las universidades públicas de funcionar adecuadamente.\n\nEn contraposición, Carlos Díaz-Pache del PP, ha argumentado que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales y situándose por encima de la media de otras comunidades autónomas.\n\nÍñigo Henríquez de Luna, de Vox, ha sugerido que se debería tratar a las universidades públicas como entidades maduras y responsables, destacando que el problema radica en la gestión y no en la financiación.",
+                                        "metadata": {
+                                            "url": "https://www.democrata.es/politica/criticas-gestion-universitaria-comunidad-madrid-parte-madrid-psoe/",
+                                            "source": "www.democrata.es",
+                                            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png",
+                                            "title": "Críticas a la gestión universitaria de la Comunidad ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.democrata.es",
+                                            "snippet": "Más Madrid y PSOE critican a la Comunidad de Madrid por tratar a la educación pública como un negocio, mientras que el PP defiende el ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.5588483900028223,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.5588483900028223,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:52:43",
+                    "run_time": 1.5588483900028223,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el presupuesto total asignado por la Comunidad de Madrid a las universidades públicas en 2025?": [
+                                {
+                                    "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.": null
+                                },
+                                {
+                                    "El nuevo presupuesto consolida la apuesta del Ejecutivo autonómico por la educación superior y sitúa a Madrid a la cabeza en financiación universitaria dentro del conjunto nacional.": null
+                                },
+                                {
+                                    "La presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%, lo que supone 75,3 millones de euros más respecto al ejercicio anterior.": null
+                                }
+                            ],
+                            "¿En qué porcentaje ha aumentado el presupuesto de la Comunidad de Madrid para universidades públicas en 2025 en comparación con 2024?": [
+                                {
+                                    "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.": null
+                                },
+                                {
+                                    "Esta dotación representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid, que en los dos últimos años ha aumentado el importe para sufragar la universidad pública en 122,6 millones, con una subida porcentual acumulada del 11%.": null
+                                },
+                                {
+                                    "La presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%, lo que supone 75,3 millones de euros más respecto al ejercicio anterior.": null
+                                }
+                            ],
+                            "¿Qué porcentaje del presupuesto total de la Comunidad de Madrid se destina a las universidades públicas en 2025?": [
+                                {
+                                    "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.": null
+                                },
+                                {
+                                    "Esta dotación representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid, que en los dos últimos años ha aumentado el importe para sufragar la universidad pública en 122,6 millones, con una subida porcentual acumulada del 11%.": null
+                                },
+                                {
+                                    "El nuevo presupuesto consolida la apuesta del Ejecutivo autonómico por la educación superior y sitúa a Madrid a la cabeza en financiación universitaria dentro del conjunto nacional.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en educación y finanzas públicas sobre el impacto del aumento del presupuesto en las universidades públicas?": [
+                                {
+                                    "El nuevo presupuesto consolida la apuesta del Ejecutivo autonómico por la educación superior y sitúa a Madrid a la cabeza en financiación universitaria dentro del conjunto nacional.": null
+                                },
+                                {
+                                    "La Complutense se encuentra en una situación crítica, teniendo que recurrir a un préstamo de 34,5 millones de euros, lo que ha llevado a sus responsables a hablar de “presupuestos de guerra” para los próximos tres años. En contraste, el equipo de Ayuso considera que el presupuesto propuesto es un éxito, ya que refleja el compromiso del Gobierno con las universidades y busca impulsar una educación superior de calidad.": null
+                                },
+                                {
+                                    "En contraposición, Carlos Díaz-Pache del PP, ha argumentado que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales y situándose por encima de la media de otras comunidades autónomas.": null
+                                }
+                            ],
+                            "¿Qué críticas o opiniones contrarias han surgido en torno al aumento del presupuesto para universidades públicas en 2025?": [
+                                {
+                                    "La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.": null
+                                },
+                                {
+                                    "La Complutense se encuentra en una situación crítica, teniendo que recurrir a un préstamo de 34,5 millones de euros, lo que ha llevado a sus responsables a hablar de “presupuestos de guerra” para los próximos tres años. En contraste, el equipo de Ayuso considera que el presupuesto propuesto es un éxito, ya que refleja el compromiso del Gobierno con las universidades y busca impulsar una educación superior de calidad.": null
+                                },
+                                {
+                                    "Más allá del ámbito universitario, el presupuesto global de la Consejería de Educación, Ciencia y Universidades asciende a 6.959 millones de euros, un incremento del 3,9% respecto a 2025. El aumento se traduce en mejoras en todas las etapas educativas:": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 70.32305512099992,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 70.32305512099992,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:54:01",
+                    "run_time": 70.32305512099992,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEl presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el presupuesto total asignado por la Comunidad de Madrid a las universidades públicas en 2025?\n¿En qué porcentaje ha aumentado el presupuesto de la Comunidad de Madrid para universidades públicas en 2025 en comparación con 2024?\n¿Qué porcentaje del presupuesto total de la Comunidad de Madrid se destina a las universidades públicas en 2025?\n¿Qué opinan los expertos en educación y finanzas públicas sobre el impacto del aumento del presupuesto en las universidades públicas?\n¿Qué críticas o opiniones contrarias han surgido en torno al aumento del presupuesto para universidades públicas en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] La Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025, dentro de un presupuesto educativo total que alcanza los 6.959 millones.\n[0] El nuevo presupuesto consolida la apuesta del Ejecutivo autonómico por la educación superior y sitúa a Madrid a la cabeza en financiación universitaria dentro del conjunto nacional.\n[0] La presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%, lo que supone 75,3 millones de euros más respecto al ejercicio anterior.\n[0] Más allá del ámbito universitario, el presupuesto global de la Consejería de Educación, Ciencia y Universidades asciende a 6.959 millones de euros, un incremento del 3,9% respecto a 2025. El aumento se traduce en mejoras en todas las etapas educativas:\n[1] Esta dotación representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid, que en los dos últimos años ha aumentado el importe para sufragar la universidad pública en 122,6 millones, con una subida porcentual acumulada del 11%.\n[2] La Complutense se encuentra en una situación crítica, teniendo que recurrir a un préstamo de 34,5 millones de euros, lo que ha llevado a sus responsables a hablar de “presupuestos de guerra” para los próximos tres años. En contraste, el equipo de Ayuso considera que el presupuesto propuesto es un éxito, ya que refleja el compromiso del Gobierno con las universidades y busca impulsar una educación superior de calidad.\n[3] En contraposición, Carlos Díaz-Pache del PP, ha argumentado que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales y situándose por encima de la media de otras comunidades autónomas.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**\n\nHay varios argumentos y evidencias que respaldan la afirmación de que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025. **Según la fuente [0], la Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025**. Esto sugiere que el presupuesto ha aumentado en términos absolutos y porcentuales en comparación con el año anterior. Además, **la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%**, lo que indica una tendencia de aumento en la inversión en educación superior. **La fuente [1] también menciona que la dotación para las universidades públicas representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid**, lo que sugiere que la educación superior es una prioridad para el gobierno regional.\n\nSin embargo, también hay algunas voces críticas que cuestionan el aumento del presupuesto para las universidades públicas. **La fuente [2] menciona que la Universidad Complutense se encuentra en una situación crítica y ha tenido que recurrir a un préstamo de 34,5 millones de euros**, lo que sugiere que la situación financiera de algunas universidades puede ser más compleja de lo que indica el aumento del presupuesto. Además, **la fuente [2] también menciona que los responsables de la universidad han hablado de \"presupuestos de guerra\" para los próximos tres años**, lo que sugiere que la situación puede ser más grave de lo que se espera. Sin embargo, **la fuente [3] menciona que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales**, lo que sugiere que el aumento del presupuesto puede ser más significativo de lo que se critica.\n\nEn conclusión, **hay evidencia que sugiere que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**, con un aumento del 6,5% en términos absolutos y porcentuales en comparación con el año anterior. Sin embargo, **también hay voces críticas que cuestionan la efectividad y la suficiencia del aumento del presupuesto**, destacando la situación financiera compleja de algunas universidades y la necesidad de una mayor inversión en educación superior. En general, **la evidencia sugiere que el aumento del presupuesto es real, pero su impacto y efectividad pueden ser objeto de debate**.\n\nDecisión: **Verdadero**"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 16.81034098099917,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 16.81034098099917,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:54:18",
+                    "run_time": 16.81034098099917,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\nArticle: **El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**\n\nHay varios argumentos y evidencias que respaldan la afirmación de que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025. **Según la fuente [0], la Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025**. Esto sugiere que el presupuesto ha aumentado en términos absolutos y porcentuales en comparación con el año anterior. Además, **la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%**, lo que indica una tendencia de aumento en la inversión en educación superior. **La fuente [1] también menciona que la dotación para las universidades públicas representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid**, lo que sugiere que la educación superior es una prioridad para el gobierno regional.\n\nSin embargo, también hay algunas voces críticas que cuestionan el aumento del presupuesto para las universidades públicas. **La fuente [2] menciona que la Universidad Complutense se encuentra en una situación crítica y ha tenido que recurrir a un préstamo de 34,5 millones de euros**, lo que sugiere que la situación financiera de algunas universidades puede ser más compleja de lo que indica el aumento del presupuesto. Además, **la fuente [2] también menciona que los responsables de la universidad han hablado de \"presupuestos de guerra\" para los próximos tres años**, lo que sugiere que la situación puede ser más grave de lo que se espera. Sin embargo, **la fuente [3] menciona que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales**, lo que sugiere que el aumento del presupuesto puede ser más significativo de lo que se critica.\n\nEn conclusión, **hay evidencia que sugiere que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**, con un aumento del 6,5% en términos absolutos y porcentuales en comparación con el año anterior. Sin embargo, **también hay voces críticas que cuestionan la efectividad y la suficiencia del aumento del presupuesto**, destacando la situación financiera compleja de algunas universidades y la necesidad de una mayor inversión en educación superior. En general, **la evidencia sugiere que el aumento del presupuesto es real, pero su impacto y efectividad pueden ser objeto de debate**.\n\nDecisión: **Verdadero**\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\nArticle: **El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**\n\nHay varios argumentos y evidencias que respaldan la afirmación de que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025. **Según la fuente [0], la Comunidad de Madrid destinará 1.239,7 millones de euros a las universidades públicas madrileñas, un 6,5% más que en 2025**. Esto sugiere que el presupuesto ha aumentado en términos absolutos y porcentuales en comparación con el año anterior. Además, **la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso, reforzará en 2026 la financiación de las universidades públicas madrileñas con una subida del 6,5%**, lo que indica una tendencia de aumento en la inversión en educación superior. **La fuente [1] también menciona que la dotación para las universidades públicas representa más del 4% del presupuesto total en el próximo ejercicio en la Comunidad de Madrid**, lo que sugiere que la educación superior es una prioridad para el gobierno regional.\n\nSin embargo, también hay algunas voces críticas que cuestionan el aumento del presupuesto para las universidades públicas. **La fuente [2] menciona que la Universidad Complutense se encuentra en una situación crítica y ha tenido que recurrir a un préstamo de 34,5 millones de euros**, lo que sugiere que la situación financiera de algunas universidades puede ser más compleja de lo que indica el aumento del presupuesto. Además, **la fuente [2] también menciona que los responsables de la universidad han hablado de \"presupuestos de guerra\" para los próximos tres años**, lo que sugiere que la situación puede ser más grave de lo que se espera. Sin embargo, **la fuente [3] menciona que la inversión en universidades públicas ha crecido un 4% en el último presupuesto, superando los 42 millones de euros adicionales**, lo que sugiere que el aumento del presupuesto puede ser más significativo de lo que se critica.\n\nEn conclusión, **hay evidencia que sugiere que el presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025**, con un aumento del 6,5% en términos absolutos y porcentuales en comparación con el año anterior. Sin embargo, **también hay voces críticas que cuestionan la efectividad y la suficiencia del aumento del presupuesto**, destacando la situación financiera compleja de algunas universidades y la necesidad de una mayor inversión en educación superior. En general, **la evidencia sugiere que el aumento del presupuesto es real, pero su impacto y efectividad pueden ser objeto de debate**.\n\nDecisión: **Verdadero**"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\", \"categories\": [\"Educación\", \"Política\", \"Economía\"], \"label\": \"True\", \"main_claim\": \"El presupuesto de la Comunidad de Madrid para las universidades públicas ha aumentado en 2025\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,647 @@
+{
+    "question": "La incidencia de autismo es similar entre personas vacunadas y no vacunadas",
+    "answer": "La incidencia de autismo en personas vacunadas y no vacunadas es **similar**, según los estudios epidemiológicos y metaanálisis publicados en 2025. Las grandes investigaciones a gran escala, revisións sistemáticas y metaanálisis realizados por instituciones sanitarias internacionales como la OMS y las agencias regulatorias de medicamentos coinciden en que **no existe una asociación clínica ni vinculación epidemiológica entre las vacunas y el desarrollo de autismo** [1]. Estos estudios concluyen que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados, reafirmando que las vacunas no son la causa de este trastorno [1]. Además, la OMS ha reiterado de manera contundente que no hay evidencia de un vínculo causal entre las vacunas y los trastornos del espectro autista (TEA), respaldando el perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo [2]. \n\nSin embargo, existen algunos estudios que han generado controversia. El Centro para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos ha publicado un comunicado que plantea que la afirmación \"las vacunas no causan autismo\" carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo, y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación [3]. Aunque estas afirmaciones son controvertidas, los estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola (MMR) [4]. \n\n**Conclusión**: La evidencia disponible indica que la incidencia de autismo es similar entre personas vacunadas y no vacunadas. Los estudios epidemiológicos y metaanálisis a gran escala, así como las revisiones sistemáticas de la OMS y el CDC, refutan cualquier relación causal entre las vacunas y el autismo. Sin embargo, la controversia persiste en algunos círculos, ya que el CDC ha publicado un comunicado que cuestiona la afirmación de que las vacunas no causan autismo. A pesar de esta controversia, la comunidad científica internacional ha avalado la seguridad de las vacunas y ha descartado la vinculación con el autismo.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.seipweb.es/los-expertos-alzan-la-voz-en-la-defensa-de-las-vacunas-son-los-farmacos-mas-seguros-y-no-guardan-relacion-con-el-autismo/",
+            "source": "www.seipweb.es",
+            "favicon": "https://www.seipweb.es/wp-content/themes/seip2019/apple-touch-icon.png"
+        },
+        "2": {
+            "url": "https://news.un.org/es/story/2025/12/1540897",
+            "source": "news.un.org",
+            "favicon": "https://news.un.org/es/themes/custom/un_base_theme/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.ispch.gob.cl/noticia/evidencia-cientifica-sobre-el-mito-de-vacunas-y-autismo-comunicado-del-instituto-de-salud-publica/",
+            "source": "www.ispch.gob.cl",
+            "favicon": "https://www.ispch.gob.cl/wp-content/themes/ispch/assets/favicon/apple-icon-57x57.png"
+        },
+        "4": {
+            "url": "https://www.factcheck.org/es/2025/11/la-version-revisada-de-la-pagina-web-de-los-cdc-sobre-el-autismo-y-las-vacunas-no-esta-basada-en-evidencia-cientifica/",
+            "source": "www.factcheck.org",
+            "favicon": "https://www.factcheck.org/apple-icon-57x57.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La incidencia de autismo es similar entre personas vacunadas y no vacunadas",
+        "categories": [
+            "Salud Pública",
+            "Medicina",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "Las vacunas no causan autismo, según la evidencia científica",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.868842063000557,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.868842063000557,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:58:05",
+                    "run_time": 4.868842063000557,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa incidencia de autismo es similar entre personas vacunadas y no vacunadas\n\n**Critical Research Questions:**\n1. ¿Cuáles son los estudios epidemiológicos y metaanálisis publicados en 2025 sobre la relación entre vacunaciones y autismo? \n2. ¿Cuáles son los datos de incidencia de autismo en poblaciones vacunadas y no vacunadas en 2025? \n3. ¿Cuáles son los informes de la OMS y el CDC sobre vacunas y autismo? \n4. ¿Cuáles son los estudios clínicos controlados que hayan evaluado la relación entre vacunas y autismo? \n5. ¿Cuáles son los datos de incidencia de autismo en diferentes países y grupos de edad en 2025? \n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"estudios epidemiológicos 2025 relación entre vacunaciones y autismo metaanálisis\", \"datos de incidencia autismo poblaciones vacunadas y no vacunadas 2025\", \"informes OMS y CDC sobre vacunas y autismo 2025\", \"estudios clínicos controlados 2025 relación entre vacunas y autismo\", \"datos de incidencia autismo diferentes países grupos de edad 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 17.208500466999794,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 17.208500466999794,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:58:23",
+                    "run_time": 17.208500466999794,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "estudios epidemiológicos 2025 relación entre vacunaciones y autismo metaanálisis",
+                                "datos de incidencia autismo poblaciones vacunadas y no vacunadas 2025",
+                                "informes OMS y CDC sobre vacunas y autismo 2025",
+                                "estudios clínicos controlados 2025 relación entre vacunas y autismo",
+                                "datos de incidencia autismo diferentes países grupos de edad 2025"
+                            ],
+                            "results": {
+                                "estudios epidemiológicos 2025 relación entre vacunaciones y autismo metaanálisis | datos de incidencia autismo poblaciones vacunadas y no vacunadas 2025 | informes OMS y CDC sobre vacunas y autismo 2025 | estudios clínicos controlados 2025 relación entre vacunas y autismo | datos de incidencia autismo diferentes países grupos de edad 2025": [
+                                    {
+                                        "text": "Inicio Los expertos alzan la voz en la defensa de las vacunas: «Son los fármacos más seguros y no guardan relación con el autismo”\n\nLos expertos alzan la voz en la defensa de las vacunas: «Son los fármacos más seguros y no guardan relación con el autismo”\n\nLa Asociación Española de Vacunología ha hecho público un manifiesto, respaldado por diversas sociedades y asociaciones científicas, para responder a la reciente publicación de los CDC de EE. UU. sobre la seguridad vacunal.\n\nLas entidades recuerdan que la supuesta relación entre vacunas y autismo ha sido “exhaustivamente estudiada y categóricamente descartada” por la comunidad científica.\n\nEl manifiesto, promovido por la AEV, está avalado por SEMERGEN, AEEMT, SEFAC, SEMG, CAV-AEP, ANENVAC, SEMPSPGS y SEIP.\n\nMiércoles, 3 de diciembre de 2025 – Las vacunas son los fármacos más seguros que existen y no producen autismo. Así de contundente se ha mostrado la Asociación Española de Vacunología en un posicionamiento apoyado por otras sociedades y asociaciones científicas con el objetivo de dar respuesta a la polémica en torno a las vacunas y el autismo, tras la reciente publicación de los Centros para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos (EE. UU.) sobre la seguridad de las vacunas.\n\nLos CDC han modificado en su medio oficial de difusión electrónica la afirmación que durante años sostuvieron basada en la evidencia científica respecto a la seguridad de las vacunas en relación con el autismo. En estos momentos, su página web recoge que “La afirmación ‘las vacunas no causan autismo’ no es una afirmación basada en la evidencia, porque los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo”. Esta modificación parece responder a cambios en la estructura interna de la agencia, que han supuesto la sustitución de personal técnico con amplia experiencia y trayectoria por asesores que, históricamente, han sostenido posturas discrepantes, basadas en interpretaciones erróneas o no alineadas con el consenso científico vigente.\n\nEl escrito de la AEV comienza recordando que, antes de obtener la autorización de las agencias del medicamento, las vacunas se estudian en poblaciones más numerosas que otros medicamentos, y que en los últimos 50 años han salvado 154 millones de vidas en todo el mundo. “Además, una vez autorizadas y en uso, se mantienen múltiples niveles de vigilancia de seguridad mientras se distribuyen, lo que reafirma que su uso en la población es seguro”, explican.\n\nPor otro lado, el manifiesto recoge los orígenes de la atribución del autismo a las vacunas, que se remontan a un artículo de una revista científica británica publicado en 1998. En él se establecía falsamente una conexión entre la vacuna contra el sarampión y el desarrollo del autismo. La AEV recuerda que este artículo fue retractado por los editores de la revista después de descubrir que habían sido manipulados con datos falseados. En consecuencia, el Consejo Médico General del Reino Unido declaró al autor culpable de fraude y violación de los protocolos éticos. Como resultado, le revocaron la licencia para ejercer la medicina en el país. “Pese al descubrimiento del fraude, la creencia errónea de que la vacunación causa autismo se arraigó en un grupo pequeño de población que, como podemos ver, sigue teniendo gran importancia”, señalan desde la AEV.\n\nA raíz de este escándalo, la relación causal entre la administración de vacunas y el autismo ha sido exhaustivamente estudiada y categóricamente descartada por la comunidad científica internacional a lo largo de las últimas dos décadas. Por tanto, el posicionamiento de las sociedades científicas es claro: las noticias que vinculan las vacunas, particularmente la triple vírica (sarampión, paperas y rubéola), con el autismo carecen de evidencia científica.\n\nEstudios epidemiológicos a gran escala, metaanálisis rigurosos y revisiones sistemáticas llevadas a cabo por las principales instituciones de salud mundial (como la OMS y las agencias regulatorias de medicamentos) coinciden en que no existe una asociación clínica ni una vinculación epidemiológica entre los componentes vacunales (incluyendo el timerosal) y el desarrollo de autismo.\n\nPor ello, los expertos insisten en que nunca se han detectado señales de seguridad que relacionen las vacunas con el autismo o el trastorno del espectro autista, y que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados. En este sentido, el manifiesto explica que las causas del autismo son complejas, multifactoriales y, en gran medida, desconocidas.\n\nRiesgos inmediatos para la salud pública\n\nEl cambio de posición adoptado por los CDC de Estados Unidos, basado en premisas ya descartadas por la comunidad científica, supone un riesgo real e innecesario para la salud pública global. La desconfianza generada por la desinformación sobre vacunas tiene consecuencias directas e inmediatas. Por ejemplo, la disminución de coberturas de vacunación infantil pone en peligro la inmunidad comunitaria, exponiendo a poblaciones vulnerables y facilitando el resurgimiento de enfermedades prevenibles.\n\nSegún un reciente estudio publicado en JAMA, un descenso del 10% en las coberturas vacunales se traduciría en 11,1 millones de casos de sarampión en Estados Unidos en 25 años. Si los descensos fueran del 50%, los números serían catastróficos: 51,2 millones de casos de sarampión, 4,3 millones de casos de poliomielitis y un total de 159.200 muertes por enfermedades inmunoprevenibles infantiles.\n\nPor este motivo, el manifiesto insta a los profesionales sanitarios a seguir siendo la principal fuente de información confiable para las familias, y a la población a consultar a sus profesionales sanitarios y vacunólogos ante cualquier duda.\n\nOrganizaciones firmantes\n\nManifiesto promovido por la Asociación Española de Vacunología y avalado por:\n\nSociedad Española de Médicos de Atención Primaria (SEMERGEN)\n\nAsociación Española de Especialistas en Medicina del Trabajo (AEEMT)\n\nSociedad Española de Farmacia Clínica, Familiar y Comunitaria (SEFAC)\n\nSociedad Española de Médicos Generales y de Familia (SEMG)\n\nComité Asesor de Vacunas e Inmunizaciones de la Asociación Española de Pediatría (CAV-AEP)\n\nAsociación Nacional de Enfermería y Vacunas (ANENVAC)\n\nSociedad Española de Medicina Preventiva, Salud Pública y Gestión Sanitaria (SEMPSPGS)\n\nSociedad Española de Infectología Pediátrica (SEIP)\n\nPuedes consultar el manifiesto completo aquí.",
+                                        "metadata": {
+                                            "url": "https://www.seipweb.es/los-expertos-alzan-la-voz-en-la-defensa-de-las-vacunas-son-los-farmacos-mas-seguros-y-no-guardan-relacion-con-el-autismo/",
+                                            "source": "www.seipweb.es",
+                                            "favicon": "https://www.seipweb.es/wp-content/themes/seip2019/apple-touch-icon.png",
+                                            "title": "Los expertos alzan la voz en la defensa de las vacunas",
+                                            "type": "web_search",
+                                            "base_url": "https://www.seipweb.es",
+                                            "snippet": "Las entidades recuerdan que la supuesta relación entre vacunas y autismo ha sido “exhaustivamente estudiada y categóricamente descartada” por la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Diferentes Sociedades Científicas españolas como AEC, AEP, SEIP, SEMERGEN, AEEMET, SEFAC, SEMG, ANENVAC Y SEMPSPGS han firmado recientemente un manifiesto conjunto reafirmando la evidencia científica que descarta la relación entre las vacunas y el trastorno del espectro autista.\n\nEste manifiesto responde al cambio de redacción de la web oficial de los Centros para el Control y la Prevención de Enfermedades de Estados Unidos (CDC) sobre la seguridad de las vacunas y su supuesta relación con el trastorno del espectro del autismo, recientemente actualizada.\n\nEl mensaje esencial del manifiesto es que las vacunas no causan autismo. Estas sociedades científicas denuncian que la nueva redacción publicada en la web oficial del CDC contradice décadas de investigación científica rigurosa descartando cualquier relación causal entre la administración de vacunas y el desarrollo de autismo. Asimismo, el manifiesto reitera que las vacunas son seguras, eficaces y no están relacionadas con el autismo, todo ello apoyándose en numerosos estudios epidemiológicos de gran consenso en la comunidad científica, metaanálisis y revisiones sistemáticas a nivel internacional. Un posicionamiento que se alinea plenamente con el Informe Técnico sobre autismo y vacunas elaborado por el Centro Español sobre Trastorno del Espectro del Autismo.\n\nLas entidades firmantes del manifiesto señalan que décadas de evidencia científica rigurosa avalan la afirmación de que las vacunas no causan autismo, mientras que el cambio de redacción de la CDC no responde a nuevos datos ni estudios científicos. Las vacunas son uno de los instrumentos más seguros y eficaces de salud pública, sometidos a controles estrictos antes y después de su autorización. Afirmaciones como la que se denuncia generan confusión y desinformación, poniendo en riesgo la confianza social en la vacunación y, con ella, la salud pública al poner en riesgo la inmunidad colectiva y favorecer el resurgimiento de enfermedades como el sarampión o la polio.\n\nAdemás, a fecha 11 de diciembre, la Organización Mundial de la Salud (OMS) ha publicado un comunicado de su Grupo Asesor Mundial sobre Seguridad de las Vacunas, reafirmando de manera inequívoca que no existe un vínculo causal entre las vacunas y el trastorno del espectro autista. Tras una revisión exhaustiva de la evidencia científica disponible, incluyendo 31 estudios primarios publicados entre 2010 y agosto de 2025 y evaluaciones de componentes como el timerosal y los adyuvantes de aluminio, el Comité ha confirmado que las vacunas utilizadas en la infancia y durante el embarazo mantienen un perfil de seguridad altamente positivo y no están asociadas con el autismo. Esta conclusión refuerza las posiciones científicas anteriores de la OMS y subraya que las políticas de inmunización deben estar fundamentadas en la evidencia más sólida disponible.\n\nPostura de Autismo España\n\nDesde Autismo España, alineados con las sociedades científicas, el Centro Español sobre Autismo y la Organización Mundial de la Salud, insistimos por tanto en la necesidad de recordar que:",
+                                        "metadata": {
+                                            "url": "https://autismo.org.es/actualidad/noticias/manifiesto-vacunas-autismo/",
+                                            "source": "autismo.org.es",
+                                            "favicon": "https://autismo.org.es/wp-content/uploads/2022/07/cropped-AUT_Favicon-32x32.png",
+                                            "title": "Las vacunas no causan autismo",
+                                            "type": "web_search",
+                                            "base_url": "https://autismo.org.es",
+                                            "snippet": "Asimismo, el manifiesto reitera que las vacunas son seguras, eficaces y no están relacionadas con el autismo, todo ello apoyándose en numerosos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Organización Mundial de la Salud (OMS) reafirmó que no existe ninguna relación causal entre las vacunas y los trastornos del espectro autista (TEA), tras una nueva y exhaustiva revisión de la evidencia científica, frente a los llamamientos del gobierno de Estados Unidos de reabrir un debate sobre esta cuestión.\n\nEl Comité Asesor Global sobre Seguridad Vacunal, integrado por expertos internacionales independientes, analizó un conjunto de 31 estudios publicados entre 2010 y 2025 en varios países, que examinaban tanto las vacunas que contienen timerosal, un conservante con base de mercurio que se ha usado de forma segura durante décadas, como el conjunto de las vacunas infantiles.\n\nSegún la OMS, los datos “confirman de manera contundente la ausencia de un vínculo causal entre las vacunas y el autismo” y respaldan el sólido perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo.\n\nEl aluminio tampoco causa autismo\n\nOPS/Baro Brizuela\n\nLa revisión también evaluó la evidencia acumulada desde 1999 sobre los adyuvantes de aluminio, componentes utilizados para mejorar la respuesta inmunitaria. Los estudios disponibles, incluyendo un reciente análisis de cohorte basado en los registros nacionales de todos los niños nacidos en Dinamarca entre 1997 y 2018, mostraron que no existe ninguna asociación entre el aluminio presente en algunas vacunas y el autismo.\n\nTras concluir su evaluación, el comité reiteró oficialmente sus conclusiones previas de 2002, 2004 y 2012.\n\n“Todos llegaron a la misma conclusión: las vacunas no causan autismo. Las vacunas causan adultos”, dijo el director de la OMS, el doctor Tedros Adhanom Gebreysus, en rueda de prensa.\n\nLa OMS instó a los gobiernos a basar sus políticas de inmunización en la evidencia científica más sólida y recordó que la vacunación infantil es uno de los mayores logros de salud pública contemporánea. En los últimos 50 años, las campañas de inmunización han salvado al menos 154 millones de vidas en todo el mundo.\n\nDesacuerdos con Estados Unidos\n\nPreguntado en rueda de prensa sobre los desacuerdos entre la OMS y Estados Unidos en esta cuestión, Tedros dijo que son una prueba de la independencia de la organización.\n\nEl mes pasado, el secretario de Sanidad de Estados Unidos, Robert F. Kennedy Jr. dijo en una entrevista que había instruido personalmente a los Centros para el Control y la Prevención de Enfermedades (CDC) para que cambiaran su postura de larga data de que las vacunas no causan autismo.\n\nEl pasado viernes, el panel de vacunación de los CDC recomendó que solo los bebés nacidos de mujeres que den positivo en hepatitis B reciban la primera dosis en un plazo de 24 horas después del nacimiento. La decisión revocó la recomendación de décadas de que todos los recién nacidos debían estar protegidos contra la infección incurable. Sin embargo, muchos bebés en Estados Unidos nacen de mujeres que nunca tienen la oportunidad de hacerse pruebas.",
+                                        "metadata": {
+                                            "url": "https://news.un.org/es/story/2025/12/1540897",
+                                            "source": "news.un.org",
+                                            "favicon": "https://news.un.org/es/themes/custom/un_base_theme/favicon.ico",
+                                            "title": "Las vacunas no causan autismo, reafirma la OMS tras un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://news.un.org",
+                                            "snippet": "La Organización Mundial de la Salud (OMS) reafirmó que no existe ninguna relación causal entre las vacunas y los trastornos del espectro autista ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Bajo la dirección de Robert F. Kennedy Jr., quien ha luchado contra las vacunas por mucho tiempo y ahora es secretario de Salud y Servicios Humanos, los Centros para el Control y la Prevención de Enfermedades modificaron su página web para indicar que su declaración anterior de que “las vacunas no causan autismo”, “no es una afirmación basada en evidencia”. Pero la versión revisada de la página web es la que induce a error sobre las vacunas.\n\nEl 19 de noviembre, los CDC reemplazaron su página web sobre autismo y vacunas con una nueva que se basa en la desacreditada idea de que las vacunas podrían causar autismo. Múltiples estudios rigurosos han repetidamente fracasado en su intento de identificar cualquier vínculo entre la vacunación y el autismo.\n\n“La afirmación de que ‘las vacunas no causan autismo’ carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo”, dice la página web. “Las autoridades sanitarias han ignorado los estudios que respaldan esta relación”.\n\nUn destacado subtítulo que indica que “Las vacunas no causan autismo” sigue presente en la página web, pero ahora con un asterisco. Una nota al pie explica que la frase no se eliminó por un acuerdo con el senador republicano Bill Cassidy de Luisiana. Cassidy, médico y firme defensor de las vacunas, decidió respaldar la nominación de Kennedy como secretario de Salud y Servicios Humanos solo después de que Kennedy prometiera no retirar las declaraciones de los CDC que afirman que las vacunas no causan autismo, entre otras concesiones para proteger la vacunación. El voto de Cassidy en un comité del Senado era necesario para que la nominación de Kennedy pasara al pleno del Senado.\n\nLa página web comienza señalando el aumento en el número de vacunas administradas a bebés desde 1986 y menciona una correlación con la creciente prevalencia del autismo. Si bien reconoce que una correlación no implica causalidad, cita un estudio de 2014 realizado por un investigador vinculado a grupos antivacunas que afirmaba haber encontrado una correlación entre el aluminio presente en las vacunas y el autismo. Otras investigaciones más sólidas, que la página web revisada de los CDC malinterpreta, contradicen la idea de que el aluminio de las vacunas esté asociado con el autismo.\n\nLa página web continúa argumentando que “no existen estudios” que demuestren que siete vacunas administradas antes del año de edad no causen autismo. También alega que la sólida evidencia de que la vacuna contra el sarampión, las paperas y la rubéola (MMR, por sus siglas en inglés) no causa autismo es débil, haciendo hincapié en que todos los estudios son epidemiológicos y retrospectivos, los cuales, a diferencia de los ensayos controlados aleatorizados, “no pueden probar la causalidad”.\n\nUna vista de la página web antigua (arriba) y nueva (abajo) de los CDC sobre autismo y vacunas.\n\nComo explicaremos, estos argumentos son engañosos.\n\n“Esto es una locura absoluta y un cambio de reglas absurdo”, nos comentó por correo electrónico David S. Mandell, profesor de psiquiatría en la Facultad de Medicina Perelman de la Universidad de Pensilvania y director del Centro de Salud Mental de Penn. “Como bien sabe cualquier científico, no se puede ‘probar’ la falta de asociación. Se realizan estudios relacionados una y otra vez hasta que la mayor parte de la evidencia demuestra que no existe ninguna asociación”.\n\nAñadió: “La página de los CDC es el equivalente a decir ‘no han probado que los fantasmas no existen’ o, quizás más pertinente, ‘no han probado que conducir durante el embarazo no causa autismo, por lo que las mujeres embarazadas deberían dejar de conducir’”.\n\nComo nos comentó el Dr. Paul Offit, pediatra y experto en vacunas del Hospital Infantil de Filadelfia, en una entrevista telefónica y como explicó en una publicación de Substack, los científicos nunca pueden probar una negación. De esta manera, afirmó, la página web se aprovecha de un tecnicismo del método científico, a pesar de que existe evidencia abrumadora que demuestra que no hay relación entre las vacunas y el autismo.\n\nEnviamos un correo electrónico a los CDC solicitando más detalles sobre las afirmaciones de la página web acerca de las vacunas y el autismo, así como sobre los motivos de la revisión. El director de comunicaciones del Departamento de Salud y Servicios Humanos (HHS, por sus siglas en inglés), Andrew Nixon, respondió: “Esta es una actualización de sentido común que alinea el sitio web de los CDC con nuestro compromiso de transparencia y rigor científico”. Reiteró las afirmaciones de la página web y añadió que las actualizaciones forman parte de un “esfuerzo más amplio para garantizar que toda la información pública refleje la investigación científica en curso”.\n\nEn una publicación en X el 20 de noviembre, Cassidy abordó el cambio en el sitio web. “Lo que los padres necesitan saber ahora mismo es que las vacunas contra el sarampión, la poliomielitis, la hepatitis B y otras enfermedades infantiles son seguras y eficaces, y no causan autismo. Cualquier afirmación en sentido contrario es errónea, irresponsable y perjudica la salud de los estadounidenses”, escribió, haciendo referencia a varios brotes recientes de enfermedades prevenibles mediante vacunación. “Desviar la atención hacia factores que sabemos con certeza que NO causan autismo, les niega a las familias las respuestas que merecen”, añadió (el énfasis en negritas es suyo).\n\nSegún informes del Washington Post y STAT, antiguos líderes de los CDC y funcionarios actuales de la agencia han dicho que el personal de carrera no estuvo involucrado ni al tanto de la actualización de los CDC.\n\nArgumento engañoso sobre las vacunas infantiles\n\nLa afirmación central de la nueva página web es que no se ha demostrado que siete vacunas infantiles (DTaP, hepatitis B, polio, neumococo, Hib, rotavirus e influenza) no causen autismo. Esto es engañoso, ya que la mayoría de estas vacunas se han estudiado de alguna forma previamente en relación con el autismo, aunque no necesariamente de forma separada.\n\n“Esto es una inversión de la carga de la prueba. Así no funciona la ciencia”, nos dijo en un correo electrónico Anders Hviid, jefe del departamento de investigación epidemiológica del Statens Serum Institut de Dinamarca.\n\nEl científico señaló que las afirmaciones sobre las vacunas infantiles y el autismo se han centrado en la presencia de pequeñas cantidades de aluminio, que se añade para potenciar la respuesta inmunitaria. Los adyuvantes de aluminio están presentes en las vacunas que protegen contra la hepatitis B, Haemophilus influenzae tipo b (Hib), el neumococo (PCV) y la difteria, el tétanos y la tos ferina (DTaP). Diversos estudios, incluidos los de Hviid, han puesto a prueba esta hipótesis y no han encontrado ninguna relación entre el aluminio presente en las vacunas y el autismo.\n\nDe hecho, como ya hemos explicado, se han investigado las posibles relaciones entre las vacunas infantiles y el autismo basándose en hipótesis específicas. En un principio, se afirmó que la vacuna contra el sarampión, las paperas y la rubéola podría causar autismo. Posteriormente, la atención se centró en el timerosal, un conservante a base de mercurio, lo que dio lugar a estudios sobre vacunas como la de la hepatitis B, la Hib, la gripe y la difteria, el tétanos y la tos ferina. Más tarde, surgieron los adyuvantes de aluminio y la idea de que existían demasiadas vacunas.\n\nUna y otra vez, los estudios no lograron identificar una asociación con el autismo. Esto incluye un estudio de 2013 que abarcó diversas vacunas administradas durante los dos primeros años de vida, buscando una relación entre el autismo y un número creciente de proteínas y azúcares presentes en las vacunas. Si bien no todas las vacunas se han probado individualmente, la evidencia en contra de cada una de estas hipótesis es abrumadoramente consistente.\n\n“Desde 1998, investigadores independientes de siete países han llevado a cabo más de 40 estudios de alta calidad con la participación de más de 5,6 millones de personas. La conclusión es clara e inequívoca: no existe ninguna relación entre las vacunas y el autismo. Quien repita este mito perjudicial está mal informado o intenta engañar intencionadamente a los padres”, declaró la Dra. Susan J. Kressly, presidenta de la Academia Estadounidense de Pediatría, en un comunicado en respuesta al cambio en el sitio web de los CDC.\n\nEstudios refutan relación entre las vacunas MMR y el autismo\n\nLos estudios han fracasado repetidamente en encontrar una relación entre las vacunas contra el sarampión, las paperas y la rubéola (MMR o triplevíricas) y el autismo.\n\n“Esta es la vacuna más estudiada”, dijo Mandell. “Ninguna otra posible causa ambiental del autismo ha sido estudiada tanto como esta vacuna específica”.\n\nToda esta atención a la vacuna MMR se debe a que fue objeto de afirmaciones iniciales sobre una posible relación entre el autismo y las vacunas, perpetuadas por un estudio fraudulento del investigador británico Andrew Wakefield que posteriormente fue retractado. Tras este trabajo, se realizaron estudios para evaluar si la supuesta conexión entre la vacuna y el autismo era real.\n\nLa nueva página web de los CDC afirma correctamente que las revisiones han encontrado “con un alto grado de evidencia que no existe asociación entre los trastornos del espectro autista” y la vacunación contra el sarampión, las paperas y la rubéola, pero especifica que esto se basa únicamente en “evidencia observacional” y no en ensayos aleatorios.\n\nLos estudios disponibles son observacionales por necesidad, ya que hace mucho tiempo que se demostró que las vacunas MMR son seguras y eficaces.\n\nNo se realizaría un ensayo aleatorizado que comparara la vacunación contra el sarampión, las paperas y la rubéola con la ausencia de vacunación, “porque no es ético negar la vacuna deliberadamente”, afirmó Mandell. “Por lo tanto, aplicamos métodos causales muy rigurosos a los datos observacionales. Tampoco realizamos ensayos aleatorizados con paracaídas por la misma razón”.\n\n“Éticamente, no se puede negar las vacunas a los niños sabiendo que existen enfermedades que podrían causarles sufrimiento o la muerte”, dijo Offit.\n\nLa página web de los CDC también pone en duda la investigación existente por varias razones. Por ejemplo, desestima los datos daneses que no encuentran ninguna relación entre las vacunas MMR y el autismo, argumentando que los datos “podrían no ser fiables para la población estadounidense”. Sin embargo, Hviid, coautor del estudio danés de 2002 al que se hace referencia, así como de un estudio de 2019 que tampoco encontró ninguna relación, nos comentó: “No veo por qué esto no se podría generalizar a Estados Unidos”.\n\nAdemás, estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola.\n\nLa evidencia contradice la relación entre el autismo y el aluminio\n\nLa nueva página web de los CDC intenta promover la idea de que el aluminio en las vacunas puede estar relacionado con el autismo, a pesar de las investigaciones que demuestran lo contrario.\n\nEl estudio de 2014 citado como prueba de esta relación analizó datos sobre casos de autismo a lo largo del tiempo en un grupo de niños derivados a servicios y los comparó con las tendencias en la cantidad de aluminio en las vacunas del calendario infantil de los CDC.\n\nEste tipo de estudio, que se basa en comparar tendencias generales en lugar de analizar datos individuales, se denomina estudio ecológico. “Esta es la forma más débil de evidencia epidemiológica, y solo realizamos este tipo de estudios si no contamos con otras pruebas”, afirmó Mandell.\n\n“En el mejor de los casos, dicha comparación podría generar hipótesis, y la mejor evidencia disponible no respalda esa hipótesis”, dijo Hviid.\n\nHviid coescribió un estudio publicado el 15 de julio que utilizó registros a nivel individual sobre la exposición al aluminio proveniente de vacunas y los resultados de salud en más de 1,2 millones de niños daneses, y no encontró ninguna asociación entre las vacunas y el autismo u otras afecciones.\n\n“Nuestros resultados no respaldan una asociación” entre el autismo y el contenido de aluminio en las vacunas infantiles, reafirmó Hviid en un correo electrónico en respuesta a la nueva página web de los CDC. Añadió que la mejor evidencia disponible no respalda una relación entre el autismo y el aluminio en las vacunas.\n\nEn lugar de citar esto como la evidencia tranquilizadora que es, la página web de los CDC selecciona datos de solo dos de las 15 figuras y tablas complementarias del artículo para poner en duda sus conclusiones. Esto corresponde directamente con el uso indebido del estudio por parte de Kennedy, sobre el cual ya hemos escrito en detalle.\n\nEn una citada cifra complementaria del estudio, se muestra un mayor riesgo de un diagnóstico específico relacionado con el autismo durante solo una parte del período estudiado, basándose en un número reducido de casos de dicho diagnóstico. Los resultados principales del artículo, así como otras figuras que realizan comparaciones distintas, no hallaron tal relación.\n\nLa probabilidad de encontrar un resultado estadísticamente significativo por mera casualidad aumenta con el número de comparaciones realizadas. “Los análisis secundarios exploraron más de 540 comparaciones, por lo que es de esperar que algunas resulten estadísticamente significativas por mera casualidad”, escribió el editor jefe de la revista que publicó el estudio danés en una respuesta del 11 de agosto.\n\n“No puedes simplemente revisar páginas y páginas y páginas de tablas y elegir una pequeña que te guste e ignorar todas las demás”, nos dijo en ese momento Jeffrey S. Morris, director de la división de bioestadística de la Facultad de Medicina Perelman de la Universidad de Pensilvania.\n\nExpertos también nos dijeron que una segunda cifra complementaria citada, además de haber sido seleccionada arbitrariamente, no debería haberse utilizado para intentar inferir si el aluminio en las vacunas causaba autismo, ya que violaba las reglas estadísticas sobre cómo comparar adecuadamente grupos de personas.\n\n“Esto es una gigantesca expedición de pesca para ver si pueden encontrar algún lugar donde parezca haber incluso una leve correlación entre el aluminio y el autismo”, nos dijo Mandell en respuesta a las nuevas afirmaciones de la página web de los CDC.\n\nTraducción de Google Translate editada por Catalina Jaramillo.\n\nFactCheck.org no acepta publicidad. Dependemos de subvenciones y donaciones individuales de personas como usted. Por favor considere una donación. Las donaciones con tarjeta de crédito se pueden hacer a través de nuestra página para donar. Si prefiere donar con un cheque, envíelo a: FactCheck.org, Annenberg Public Policy Center, P.O. Box 58100, Philadelphia, PA 19102.",
+                                        "metadata": {
+                                            "url": "https://www.factcheck.org/es/2025/11/la-version-revisada-de-la-pagina-web-de-los-cdc-sobre-el-autismo-y-las-vacunas-no-esta-basada-en-evidencia-cientifica/",
+                                            "source": "www.factcheck.org",
+                                            "favicon": "https://www.factcheck.org/apple-icon-57x57.png",
+                                            "title": "La versión revisada de la página web de los CDC sobre el ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.factcheck.org",
+                                            "snippet": "La versión revisada de la página web de los CDC sobre el autismo y las vacunas no está basada en evidencia científica · El 19 de noviembre, los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Evidencia científica sobre el mito de vacunas y autismo: comunicado del Instituto de Salud Pública\n\n21 noviembre, 2025\n\nRecientemente el Centro para el Control y la Prevención de Enfermedades, de Estados Unidos, (CDC, por sus siglas en inglés) publicó un comunicado que plantea que la afirmación «las vacunas no causan autismo», previamente defendida por ese organismo, carecería de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación.\n\nEl Instituto de Salud Pública ha analizado su contenido y estima importante aclarar que no existe evidencia científica robusta que demuestre tal vínculo. Estudios y expertos independientes que asesoran a la Organización Mundial de la Salud (OMS) han confirmado reiteradamente que las vacunas, incluidas las que contienen tiomersal o sales de aluminio, no causan autismo ni otros trastornos del desarrollo.\n\nLas vacunas son seguras y efectivas; después del agua potable se consideran la segunda intervención más importante en salud pública. Los mitos que las relacionan con el autismo se originaron en estudios mal diseñados, incluso retirados de revistas científicas y en análisis ecológicos que no permiten establecer causalidad.\n\nAlgunas vacunas utilizan sales de aluminio dentro de su formulación y han sido utilizadas por casi un siglo para mejorar la respuesta inmune de las vacunas. La evidencia demuestra que estas vacunas son seguras: no se ha encontrado relación entre el aluminio y enfermedades autoinmunes, trastornos del desarrollo neurológico o efectos adversos graves. Investigaciones han demostrado que los niveles de aluminio en bebés vacunados no difieren significativamente y están muy por dejado de los umbrales de seguridad. Además, un estudio en Dinamarca que siguió a más de 1,2 millones de niños durante 24 años no encontró asociación entre la vacunación y 50 enfermedades crónicas, incluido el autismo.\n\nPor lo anterior, es necesario reforzar que la vacunación e inmunización es una de las medidas más efectivas para prevenir enfermedades graves. Difundir información basada en la mejor evidencia científica disponible es clave para proteger la salud pública y evitar que mitos pongan en riesgo la vida de la población.\n\nEl Instituto seguirá pendiente de esta y otras preocupaciones relacionadas con la seguridad de las vacunas y de otros productos bajo su responsabilidad sanitaria y comunicará oportunamente la información que estime relevante para resguardar la salud pública.\n\nReferencias:",
+                                        "metadata": {
+                                            "url": "https://www.ispch.gob.cl/noticia/evidencia-cientifica-sobre-el-mito-de-vacunas-y-autismo-comunicado-del-instituto-de-salud-publica/",
+                                            "source": "www.ispch.gob.cl",
+                                            "favicon": "https://www.ispch.gob.cl/wp-content/themes/ispch/assets/favicon/apple-icon-57x57.png",
+                                            "title": "Evidencia científica sobre el mito de vacunas y autismo",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ispch.gob.cl",
+                                            "snippet": "La evidencia demuestra que estas vacunas son seguras: no se ha encontrado relación entre el aluminio y enfermedades autoinmunes, trastornos del ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Noticias\n\nEl Comité Asesor Mundial sobre Seguridad de las Vacunas (GACVS, por sus siglas en inglés), grupo que asesora y orienta sobre inmunización a la Organización Mundial de la Salud (OMS), ha concluido que no existe relación causal entre las vacunas y los trastornos del espectro autista (TEA) tras un nuevo análisis de la evidencia disponible.\n\nLeer más",
+                                        "metadata": {
+                                            "url": "https://www.cgcom.es/noticias/la-oms-reafirma-que-las-vacunas-no-causan-autismo-tras-un-nuevo-analisis",
+                                            "source": "www.cgcom.es",
+                                            "favicon": "https://www.cgcom.es/sites/main/files/favicon.ico",
+                                            "title": "La OMS reafirma que las vacunas no causan autismo tras ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.cgcom.es",
+                                            "snippet": "La OMS reafirma que las vacunas no causan autismo tras un nuevo análisis. 12 Dic 2025."
+                                        }
+                                    },
+                                    {
+                                        "text": "Autismo en Argentina: Estadísticas y avances en la inclusión Según estimaciones de la Sociedad Argentina de Pediatría, más de 500.000 argentinos viven con algún grado de Trastorno del Espectro Autista (TEA), siendo la prevalencia más alta en varones. A nivel global, el TEA afecta a aproximadamente 1 de cada 100 personas, independientemente de su origen racial, étnico o nivel socioeconómico y se presenta con mayor frecuencia en hombres, siendo casi cinco veces más común en ellos que en las mujeres. Además, un informe del Ministerio de Salud de la Nación indica que, de las personas con certificado único de discapacidad (CUD) con condiciones de salud vinculadas al TEA, el 85.7% se encuentran en el grupo etario de 0 a 14 años. En cuanto a la edad de diagnóstico del autismo, se estima que ha disminuido a entre los 2 y los 3 años. En esta tabla comparativa te presentamos una mirada a la diversidad neurofuncional en cifras:\n\nIndicador Argentina Promedio Global Prevalencia del TEA 1 de cada 54 niños 1 de cada 100 niños (OMS) Edad promedio de diagnóstico 4-6 años 4-5 años Legislación específica Ley Nacional de Autismo 27.043 Varía según el país Acceso a tratamientos (estimado) 60% con acceso parcial Depende del sistema de salud Tasa de inclusión escolar 40% en escuelas regulares Datos variables\n\nSeñales y síntomas: ¿Cuándo sospechar del Autismo? Las características del TEA pueden variar de una persona a otra. Por ejemplo, las dificultades en la interacción social son uno de los rasgos más característicos de los niños con autismo. Desde edades tempranas, muchos niños con TEA no responden a gestos o miradas, evitan el contacto social y suelen preferir actividades en solitario en lugar de interactuar con otras personas. Por otro lado, también son comunes los problemas en la comunicación, tanto verbal como no verbal. Algunos niños tienen un lenguaje poco comprensible, repiten palabras o frases que escuchan (ecolalia) o emplean términos de una forma peculiar, diferente a su significado habitual. Estas alteraciones pueden complicar su capacidad para expresarse y comprender a los demás. En cuanto a los patrones de conducta en los niños con autismo, presentan comportamientos repetitivos o inflexibles, como enfocarse de manera excesiva en ciertos objetos como por ejemplo, ruedas de autos o juguetes específicos o realizar movimientos estereotipados, como aletear las manos. También suelen insistir en seguir rutinas rígidas, incluso cuando no tienen una función aparente. Entre los síntomas del autismo más comunes se encuentran: Dificultad para conectar con el entorno.\n\nMovimientos repetitivos o estereotipados.\n\nAnomalías en el desarrollo y uso del lenguaje.\n\nProblemas marcados en la comunicación no verbal.\n\nRigidez en la adherencia a rutinas y rituales. Lectura recomendada: ¿Cómo tratar a un niño del Espectro Autista?\n\n¿Qué causa el Autismo? En Diagnóstico Rojas, comprendemos la importancia de abordar preguntas clave sobre el Trastorno del Espectro Autista (TEA) y sus posibles causas. Aunque aún no existe una respuesta definitiva, los estudios actuales indican que el TEA no tiene una única causa, sino que resulta de una interacción compleja entre factores genéticos y ambientales que influyen en el desarrollo del cerebro. Causas y factores de riesgo del TEA La predisposición genética es un elemento clave. Algunos niños heredan ciertas variaciones genéticas que aumentan su probabilidad de desarrollar TEA. Sin embargo, es importante aclarar que los genes no actúan de manera aislada; en la mayoría de los casos, su impacto puede ser desencadenado por factores externos o ambientales. Entre los principales factores asociados al riesgo de autismo se encuentran: Predisposición genética : Variaciones en ciertos genes vinculados al desarrollo cerebral.\n\nEdad de los padres al momento de la concepción.\n\nComplicaciones durante el embarazo: Como infecciones o exposición a sustancias tóxicas.\n\nCondiciones biológicas y metabólicas , incluyendo anomalías en el sistema digestivo o disfunciones inmunológicas. Lectura recomendada: Autismo en Adultos: Reconociendo las 4 Diferencias del TEA en Hombres y Mujeres Factores genéticos y su influencia Hasta ahora, se han identificado aproximadamente 30 genes relacionados con el riesgo de TEA. Estos genes, como CHD8, SHANK3 o SYNGAP1, están asociados al crecimiento y funcionamiento del cerebro, desempeñando un rol en cómo las células nerviosas se comunican entre sí. Sin embargo, no existe un único rasgo genético común a todas las personas con autismo, lo que subraya la complejidad del trastorno.\n\nEs por ello que en Diagnóstico Rojas, trabajamos para sensibilizar y generar un entendimiento más profundo sobre el TEA en el marco del Día Mundial del Autismo, destacando la importancia de la investigación científica y el apoyo a las familias en su recorrido hacia un diagnóstico y tratamiento adecuado.\n\nTipos de Trastorno del Espectro Autista: ¿Qué los diferencia y cómo reconocerlos? El Manual Diagnóstico y Estadístico de los Trastornos Mentales (DSM-5) clasifica el Trastorno del Espectro Autista (TEA) según la gravedad de los síntomas y su impacto en la vida diaria, dividiéndolo en tres niveles de apoyo necesarios: Leve, moderado y severo. TEA Nivel 1: Necesidad de apoyo leve En este nivel, los síntomas pueden pasar desapercibidos en interacciones sociales cotidianas. Las personas suelen presentar dificultades sutiles para socializar y comunicarse, como problemas para entender normas sociales implícitas o interpretar emociones. Además, pueden tener intereses específicos y una preferencia marcada por las rutinas. Con un diagnóstico temprano y apoyo adecuado, es posible mejorar significativamente sus habilidades sociales y de adaptación. TEA Nivel 2: Necesidad de apoyo moderado Este nivel implica desafíos más evidentes que afectan tanto la comunicación como las relaciones sociales. Las personas pueden tener dificultades para iniciar o mantener conversaciones, interpretar señales sociales o adaptarse a cambios en sus rutinas. Los comportamientos repetitivos y la rigidez suelen ser más pronunciados, lo que puede dificultar su desarrollo. El apoyo terapéutico estructurado y constante es esencial para favorecer su autonomía y bienestar. TEA Nivel 3: Necesidad de apoyo severo El nivel más significativo del espectro incluye limitaciones graves en la comunicación verbal y no verbal, así como en la interacción social. Las personas pueden experimentar sensibilidad extrema a estímulos sensoriales y comportamientos repetitivos que afectan su calidad de vida. En estos casos, se requiere un apoyo constante y especializado para las actividades diarias. La intervención intensiva y temprana puede marcar una gran diferencia en su desarrollo y calidad de vida. En Diagnóstico Rojas, trabajamos para fomentar la comprensión y el abordaje adecuado del TEA, ofreciendo información y orientación que contribuyan al bienestar de las personas con esta condición y sus familias. ¡Unite a nuestra campaña por el Día Mundial del Autismo!\n\nDiagnóstico y tratamiento del TEA El diagnóstico del TEA, generalmente, se realiza mediante la observación de comportamientos y la evaluación del desarrollo del niño o adulto por parte de profesionales de la salud especializados. Una vez diagnosticado, el tratamiento del TEA puede incluir una variedad de enfoques, que pueden adaptarse a las necesidades individuales de cada persona. Estos pueden ser: Terapia conductual , como la terapia cognitivo-conductual (TCC) o la terapia de juego.\n\nTerapia del habla y del lenguaje , para mejorar la comunicación verbal y no verbal.\n\nTerapia ocupacional , para ayudar a manejar las sensibilidades sensoriales y mejorar las habilidades motoras.\n\nEducación especializada, que se adapte a las necesidades individuales del estudiante.\n\nMedicamentos para tratar síntomas específicos , como ansiedad o hiperactividad, aunque no hay medicamentos que curen el TEA en sí. Es importante destacar que el tratamiento del TEA es un proceso continuo y puede requerir una combinación de intervenciones a lo largo del tiempo. Si vos o alguien cercano está preocupado por la posibilidad de un TEA, es fundamental buscar el acompañamiento de un profesional especializado para obtener un diagnóstico preciso y recibir el tratamiento adecuado. Día Mundial del Autismo 2025: Recursos y apoyo para pacientes y sus familias En Diagnóstico Rojas entendemos que el entorno familiar es el pilar fundamental para el desarrollo pleno y armonioso de cualquier niño, incluido aquel que vive con Trastorno del Espectro Autista (TEA). Por ende, todos los niños tienen derecho a crecer en un ambiente familiar que respalde su crecimiento personal, emocional y social. Sin embargo, cuando se trata de un niño con autismo, el rol de la familia puede enfrentar desafíos únicos. Es natural que surjan dudas sobre cómo fomentar su autonomía, ofrecer el apoyo necesario y, al mismo tiempo, evitar la sobreprotección que puede limitar su aprendizaje y desarrollo. El equilibrio entre apoyo y autonomía Para que un niño con TEA pueda alcanzar su máximo potencial, es esencial exponerlo al aprendizaje continuo y a experiencias que le permitan gestionar su entorno. Si bien protegerlos es un instinto natural, situaciones como vestirlos, tomar decisiones por ellos o evitar cambios para prevenir conflictos pueden restringir su independencia y reforzar conductas rígidas. Algunas acciones que promueven su autonomía incluyen: Incentivar su participación en tareas cotidianas, como recoger su habitación o poner la mesa.\n\nPermitirles elegir su ropa y practicar habilidades como abrochar botones o atar cordones.\n\nOfrecerles nuevas actividades deportivas o de ocio, fomentando interacciones fuera del núcleo familiar.\n\nEnseñarles a gestionar dinero desde pequeños y usar el transporte público con seguridad.\n\nDarles espacio para tomar decisiones, cometer errores y aprender de ellos. Acompañar sin limitar Ser padres o cuidadores de un niño con autismo implica encontrar un balance entre ofrecer el soporte necesario y permitirles crecer con independencia. Esto no significa dejar de guiarlos, sino confiar en sus capacidades y alentarlos a superar retos en función de su edad y habilidades. En Diagnóstico Rojas, creemos que la familia tiene un rol transformador en la vida de los niños con TEA. Al empoderarlos con amor, paciencia y las herramientas adecuadas, podemos contribuir a que se conviertan en adultos más autónomos y resilientes. Por ello, ¡nos sumamos al Día del Autismo!",
+                                        "metadata": {
+                                            "url": "https://www.diagnosticorojas.com.ar/blog/salud/dia-mundial-del-autismo/",
+                                            "source": "www.diagnosticorojas.com.ar",
+                                            "favicon": "https://www.diagnosticorojas.com.ar/wp-content/uploads/2018/06/favicon.png",
+                                            "title": "Día Mundial del Autismo 2025: Cómo Reconocer el TEA a ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.diagnosticorojas.com.ar",
+                                            "snippet": "Prevalencia del TEA, 1 de cada 54 niños, 1 de cada 100 niños (OMS) ; Edad promedio de diagnóstico, 4-6 años, 4-5 años ; Legislación específica ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "PREVALENCIA\n\nEn los últimos años hemos comprobado un aumento exponencial de los casos de TEA en el mundo. Actualmente se estima que en España pueden haber unas 450.000 personas con TEA y en Galicia unas 27.000. Lo cierto es que el número de nacimientos de niños/as con diágnostico de TEA sigue aumentando, dando un incremento en la prevalancia de un caso de TEA cada 100 nacimientos.\n\nAunque no disponemos de datos censales, registros, y apenas contamos con estudios poblacionales, tenemos algunas investigaciones que apuntan datos de prevalencia consensuados internacionalmente.\n\nPrevalencia, estudios e investigación.\n\nCuando miramos hacia atrás, vemos que el diagnóstico se ha incrementado significativamente en los últimos 30-40 años. Hace 10 años, la prevalencia se situaba en, aproximadamente, un caso de TEA por cada 150. Investigaciones más recientes (Centro para el Control y la Prevención de Enfermedades de Atlanta (CDC 2025) apuntan a que 1 de cada 31 niños y niñas de 4-8 años podrían presentar autismo.\n\nEl consenso internacional avala los datos de prevalencia recogidos en el Manual Diagnóstico y Estadístico de los Trastornos Mentales -DSM V- (APA, 2013), que refiere que el 1% de la población podría presentar autismo. 1 persona con TEA por cada 100 nacimientos (Autism-Europe aisbl 2015).\n\nDestacamos que en el año 2015 en Europa comienza un estudio “Autism Spectrum Disorders in Europe” (ASDEU) para investigar el diagnóstico, la prevalencia y las intervenciones con el objetivo de mejorar la atención y apoyo a las personas con autismo.\n\nEste estudio está coordinado por el Instituto de Salud Carlos III, con el Dr. Manuel Posada como director del Proyecto y el Dr. Joaquín Fuentes como asesor. Han participado 14 países europeos, entre ellos España, donde el análisis de la población se ha centrado en la provincia de Guipúzcoa (9.138 niños y niñas de entre 7 y 9 años). Como resultados hasta el momento se ha indicado una prevalencia de 12,2 por cada 1000 ( 1 de cada 89 ) en niños y niñas de una edad de 7 a 9 años.\n\nEn España, no existen censos oficiales sobre personas con TEA, sin embargo, los datos de prevalencia, que apuntan los estudios epidemiológicos realizados en Europa, hablan de un caso de TEA por cada cien nacimientos. Por ello, se calcula que hay más de 450.000 personas con TEA en nuestro país, cifra que se eleva a casi un millón y medio de personas vinculadas al trastorno si tenemos en cuenta también el impacto que produce en sus familias.\n\nPosibles causas del incremento de prevalencia en los últimos años\n\nEl incremento de la prevalencia experimentado en las últimas décadas puede explicarse parcialmente por el avance en el conocimiento científico sobre el TEA, la mejora en las herramientas diagnóstica o formación de los profesionales.\n\nAsimismo, existen otros factores, como como la mayor concienciación social, el mejor reconocimiento de las señales de alerta por parte de las familias y de los profesionales, y la adopción de mejores prácticas para el diagnóstico, que también pueden haber contribuido ha dicho incremento.\n\nNo obstante, las propias metodologías empleadas en la recogida de datos poblacionales y en los estudios de investigación señalan que el tamaño de las muestras empleadas, las herramientas de recogida de los datos, las categorías empleadas, etc.) puede incidir en las cifras de prevalencia existentes, y hacer que éste sea un área compleja de análisis.\n\nLa prevalencia señalada no tiene una variación en función de la edad, manteniendo estable en todos ellos excepto en el caso de edades muy avanzadas, etapa en la que parece disminuir ligeramente (Brugha, 2016). Esto podría explicarse por el error diagnóstico en personas con Tea muy mayor y por la sensibilidad de las herramientas diagnósticas en evaluación de personas con edad avanzada. Adecuadas para el diagnóstico en jóvenes pero adultos, pero no en etapas posteriores. Los autores de la investigación también apuntan a que podría relacionarse con una menor expectativa de vida para las personas con TEA.\n\nOtros autores como (Niekerk et al., 2010) señal como factor importante que también podría tener relevancia el hecho de que tradicionalmente se ha concebido el autismo con un trastorno infantil, por lo que la identificación y el reconocimiento de las necesidades de las personas adultas no hayan sido atendidas.\n\nLa prevalencia en función del género.\n\nUna de las variables que más se está investigando es la relación de la prevalencia en función del género de la persona que presenta el diagnóstico de TEA.\n\nHasta hace unos años, las investigaciones han apuntado que el TEA se presenta 4 veces más en el caso de los hombres que en las mujeres (Dworzynski, Ronald, Bolton y Happé, 2012; Rutter, 2005). Pero estos datos se están cuestionando, por el aumento de diagnóstico en niñas y mujeres que se está produciendo en los últimos años ( National Association of Special Educational Needs, 2016; Gould y Asthon-Smith, 2011) (Gould, 2017).\n\nEstos estudios plantean que las mujeres con TEA presentan mayor riesgo de pasar desapercibidas, los resultados son significativos para señalar que muchas mujeres no están siendo identificadas o que sus características están siendo enmascaradas o confundidas con otro tipo de trastorno, como depresión, ansiedad, trastorno de la alimentación.\n\nAutores (Brugha, 2016) considera la preconcepción de los TEA como un trastorno que se presenta significativamente más en hombres. Además, como en el caso de la edad, también encontramos que autores señalan que los instrumentos de detección y diagnóstico pueden no ser del todo sensibles para identificar las manifestaciones en mujeres con TEA. Y es importante señalar que otros estudios, hablan del desconocimiento sobre si estos elementos diferenciadores se relacionan con el género de la persona, sino también con la socialización, la construcción de la identidad o los sesgos de género que influyen a la sociedad (García,2010)\n\nDe todas formas tenemos que señalar que los resultados en las diferencias encontradas aún son limitados.\n\nPor cualquier consulta te recordamos que en la Federación Autismo Galicia cuentas con:\n\nUNA RED DE SERVICIOS PARA PERSONAS CON TEA\n\nUNA RED DE SERVICIOS PARA FAMILIAS\n\nPara más información sobre ésto o culaquier otro tema no dudes en consultarnos, estamos aquí para atenderte. Llámanos o ponte en contacto a través de ÉSTE FORMULARIO.",
+                                        "metadata": {
+                                            "url": "https://www.autismogalicia.org/index.php?V_dir=MSC&V_mod=showart&id=312",
+                                            "source": "www.autismogalicia.org",
+                                            "favicon": "https://www.autismogalicia.org/favicon.ico",
+                                            "title": "prevalencia",
+                                            "type": "web_search",
+                                            "base_url": "https://www.autismogalicia.org",
+                                            "snippet": "Investigaciones más recientes (Centro para el Control y la Prevención de Enfermedades de Atlanta (CDC 2025) apuntan a que 1 de cada 31 niños y niñas de 4-8 añ ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.3985935029995744,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.3985935029995744,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:58:26",
+                    "run_time": 2.3985935029995744,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los estudios epidemiológicos y metaanálisis publicados en 2025 sobre la relación entre vacunaciones y autismo? ": [
+                                {
+                                    "Estudios epidemiológicos a gran escala, metaanálisis rigurosos y revisiones sistemáticas llevadas a cabo por las principales instituciones de salud mundial (como la OMS y las agencias regulatorias de medicamentos) coinciden en que no existe una asociación clínica ni una vinculación epidemiológica entre los componentes vacunales (incluyendo el timerosal) y el desarrollo de autismo.": null
+                                },
+                                {
+                                    "Miércoles, 3 de diciembre de 2025 – Las vacunas son los fármacos más seguros que existen y no producen autismo. Así de contundente se ha mostrado la Asociación Española de Vacunología en un posicionamiento apoyado por otras sociedades y asociaciones científicas con el objetivo de dar respuesta a la polémica en torno a las vacunas y el autismo, tras la reciente publicación de los Centros para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos (EE. UU.) sobre la seguridad de las vacunas.": null
+                                },
+                                {
+                                    "Las entidades recuerdan que la supuesta relación entre vacunas y autismo ha sido “exhaustivamente estudiada y categóricamente descartada” por la comunidad científica.": null
+                                }
+                            ],
+                            "¿Cuáles son los datos de incidencia de autismo en poblaciones vacunadas y no vacunadas en 2025? ": [
+                                {
+                                    "Miércoles, 3 de diciembre de 2025 – Las vacunas son los fármacos más seguros que existen y no producen autismo. Así de contundente se ha mostrado la Asociación Española de Vacunología en un posicionamiento apoyado por otras sociedades y asociaciones científicas con el objetivo de dar respuesta a la polémica en torno a las vacunas y el autismo, tras la reciente publicación de los Centros para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos (EE. UU.) sobre la seguridad de las vacunas.": null
+                                },
+                                {
+                                    "Cuando miramos hacia atrás, vemos que el diagnóstico se ha incrementado significativamente en los últimos 30-40 años. Hace 10 años, la prevalencia se situaba en, aproximadamente, un caso de TEA por cada 150. Investigaciones más recientes (Centro para el Control y la Prevención de Enfermedades de Atlanta (CDC 2025) apuntan a que 1 de cada 31 niños y niñas de 4-8 años podrían presentar autismo.": null
+                                },
+                                {
+                                    "Por ello, los expertos insisten en que nunca se han detectado señales de seguridad que relacionen las vacunas con el autismo o el trastorno del espectro autista, y que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados. En este sentido, el manifiesto explica que las causas del autismo son complejas, multifactoriales y, en gran medida, desconocidas.": null
+                                }
+                            ],
+                            "¿Cuáles son los informes de la OMS y el CDC sobre vacunas y autismo? ": [
+                                {
+                                    "Según la OMS, los datos “confirman de manera contundente la ausencia de un vínculo causal entre las vacunas y el autismo” y respaldan el sólido perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo.": null
+                                },
+                                {
+                                    "La Organización Mundial de la Salud (OMS) reafirmó que no existe ninguna relación causal entre las vacunas y los trastornos del espectro autista (TEA), tras una nueva y exhaustiva revisión de la evidencia científica, frente a los llamamientos del gobierno de Estados Unidos de reabrir un debate sobre esta cuestión.": null
+                                },
+                                {
+                                    "Recientemente el Centro para el Control y la Prevención de Enfermedades, de Estados Unidos, (CDC, por sus siglas en inglés) publicó un comunicado que plantea que la afirmación «las vacunas no causan autismo», previamente defendida por ese organismo, carecería de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación.": null
+                                }
+                            ],
+                            "¿Cuáles son los estudios clínicos controlados que hayan evaluado la relación entre vacunas y autismo? ": [
+                                {
+                                    "Los estudios han fracasado repetidamente en encontrar una relación entre las vacunas contra el sarampión, las paperas y la rubéola (MMR o triplevíricas) y el autismo.": null
+                                },
+                                {
+                                    "“La afirmación de que ‘las vacunas no causan autismo’ carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo”, dice la página web. “Las autoridades sanitarias han ignorado los estudios que respaldan esta relación”.": null
+                                },
+                                {
+                                    "Además, estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola.": null
+                                }
+                            ],
+                            "¿Cuáles son los datos de incidencia de autismo en diferentes países y grupos de edad en 2025? ": [
+                                {
+                                    "Cuando miramos hacia atrás, vemos que el diagnóstico se ha incrementado significativamente en los últimos 30-40 años. Hace 10 años, la prevalencia se situaba en, aproximadamente, un caso de TEA por cada 150. Investigaciones más recientes (Centro para el Control y la Prevención de Enfermedades de Atlanta (CDC 2025) apuntan a que 1 de cada 31 niños y niñas de 4-8 años podrían presentar autismo.": null
+                                },
+                                {
+                                    "El consenso internacional avala los datos de prevalencia recogidos en el Manual Diagnóstico y Estadístico de los Trastornos Mentales -DSM V- (APA, 2013), que refiere que el 1% de la población podría presentar autismo. 1 persona con TEA por cada 100 nacimientos (Autism-Europe aisbl 2015).": null
+                                },
+                                {
+                                    "En los últimos años hemos comprobado un aumento exponencial de los casos de TEA en el mundo. Actualmente se estima que en España pueden haber unas 450.000 personas con TEA y en Galicia unas 27.000. Lo cierto es que el número de nacimientos de niños/as con diágnostico de TEA sigue aumentando, dando un incremento en la prevalancia de un caso de TEA cada 100 nacimientos.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 19.79858829099976,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 19.79858829099976,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:58:46",
+                    "run_time": 19.79858829099976,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa incidencia de autismo es similar entre personas vacunadas y no vacunadas\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los estudios epidemiológicos y metaanálisis publicados en 2025 sobre la relación entre vacunaciones y autismo? \n¿Cuáles son los datos de incidencia de autismo en poblaciones vacunadas y no vacunadas en 2025? \n¿Cuáles son los informes de la OMS y el CDC sobre vacunas y autismo? \n¿Cuáles son los estudios clínicos controlados que hayan evaluado la relación entre vacunas y autismo? \n¿Cuáles son los datos de incidencia de autismo en diferentes países y grupos de edad en 2025? \n\n3. Here are the text sources you should use as your source of information:\n[0] Estudios epidemiológicos a gran escala, metaanálisis rigurosos y revisiones sistemáticas llevadas a cabo por las principales instituciones de salud mundial (como la OMS y las agencias regulatorias de medicamentos) coinciden en que no existe una asociación clínica ni una vinculación epidemiológica entre los componentes vacunales (incluyendo el timerosal) y el desarrollo de autismo.\n[0] Miércoles, 3 de diciembre de 2025 – Las vacunas son los fármacos más seguros que existen y no producen autismo. Así de contundente se ha mostrado la Asociación Española de Vacunología en un posicionamiento apoyado por otras sociedades y asociaciones científicas con el objetivo de dar respuesta a la polémica en torno a las vacunas y el autismo, tras la reciente publicación de los Centros para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos (EE. UU.) sobre la seguridad de las vacunas.\n[0] Las entidades recuerdan que la supuesta relación entre vacunas y autismo ha sido “exhaustivamente estudiada y categóricamente descartada” por la comunidad científica.\n[0] Por ello, los expertos insisten en que nunca se han detectado señales de seguridad que relacionen las vacunas con el autismo o el trastorno del espectro autista, y que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados. En este sentido, el manifiesto explica que las causas del autismo son complejas, multifactoriales y, en gran medida, desconocidas.\n[1] Cuando miramos hacia atrás, vemos que el diagnóstico se ha incrementado significativamente en los últimos 30-40 años. Hace 10 años, la prevalencia se situaba en, aproximadamente, un caso de TEA por cada 150. Investigaciones más recientes (Centro para el Control y la Prevención de Enfermedades de Atlanta (CDC 2025) apuntan a que 1 de cada 31 niños y niñas de 4-8 años podrían presentar autismo.\n[1] El consenso internacional avala los datos de prevalencia recogidos en el Manual Diagnóstico y Estadístico de los Trastornos Mentales -DSM V- (APA, 2013), que refiere que el 1% de la población podría presentar autismo. 1 persona con TEA por cada 100 nacimientos (Autism-Europe aisbl 2015).\n[1] En los últimos años hemos comprobado un aumento exponencial de los casos de TEA en el mundo. Actualmente se estima que en España pueden haber unas 450.000 personas con TEA y en Galicia unas 27.000. Lo cierto es que el número de nacimientos de niños/as con diágnostico de TEA sigue aumentando, dando un incremento en la prevalancia de un caso de TEA cada 100 nacimientos.\n[2] Según la OMS, los datos “confirman de manera contundente la ausencia de un vínculo causal entre las vacunas y el autismo” y respaldan el sólido perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo.\n[2] La Organización Mundial de la Salud (OMS) reafirmó que no existe ninguna relación causal entre las vacunas y los trastornos del espectro autista (TEA), tras una nueva y exhaustiva revisión de la evidencia científica, frente a los llamamientos del gobierno de Estados Unidos de reabrir un debate sobre esta cuestión.\n[3] Recientemente el Centro para el Control y la Prevención de Enfermedades, de Estados Unidos, (CDC, por sus siglas en inglés) publicó un comunicado que plantea que la afirmación «las vacunas no causan autismo», previamente defendida por ese organismo, carecería de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación.\n[4] Los estudios han fracasado repetidamente en encontrar una relación entre las vacunas contra el sarampión, las paperas y la rubéola (MMR o triplevíricas) y el autismo.\n[4] “La afirmación de que ‘las vacunas no causan autismo’ carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo”, dice la página web. “Las autoridades sanitarias han ignorado los estudios que respaldan esta relación”.\n[4] Además, estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La incidencia de autismo es similar entre personas vacunadas y no vacunadas"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "La incidencia de autismo en personas vacunadas y no vacunadas es **similar**, según los estudios epidemiológicos y metaanálisis publicados en 2025. Las grandes investigaciones a gran escala, revisións sistemáticas y metaanálisis realizados por instituciones sanitarias internacionales como la OMS y las agencias regulatorias de medicamentos coinciden en que **no existe una asociación clínica ni vinculación epidemiológica entre las vacunas y el desarrollo de autismo** [0]. Estos estudios concluyen que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados, reafirmando que las vacunas no son la causa de este trastorno [0]. Además, la OMS ha reiterado de manera contundente que no hay evidencia de un vínculo causal entre las vacunas y los trastornos del espectro autista (TEA), respaldando el perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo [2].  \n\nSin embargo, existen algunos estudios que han generado controversia. El Centro para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos ha publicado un comunicado que plantea que la afirmación \"las vacunas no causan autismo\" carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo, y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación [3]. Aunque estas afirmaciones son controvertidas, los estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola (MMR) [4].  \n\n**Conclusión**: La evidencia disponible indica que la incidencia de autismo es similar entre personas vacunadas y no vacunadas. Los estudios epidemiológicos y metaanálisis a gran escala, así como las revisiones sistemáticas de la OMS y el CDC, refutan cualquier relación causal entre las vacunas y el autismo. Sin embargo, la controversia persiste en algunos círculos, ya que el CDC ha publicado un comunicado que cuestiona la afirmación de que las vacunas no causan autismo. A pesar de esta controversia, la comunidad científica internacional ha avalado la seguridad de las vacunas y ha descartado la vinculación con el autismo."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.872380477999286,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.872380477999286,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:58:49",
+                    "run_time": 2.872380477999286,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La incidencia de autismo es similar entre personas vacunadas y no vacunadas\nArticle: La incidencia de autismo en personas vacunadas y no vacunadas es **similar**, según los estudios epidemiológicos y metaanálisis publicados en 2025. Las grandes investigaciones a gran escala, revisións sistemáticas y metaanálisis realizados por instituciones sanitarias internacionales como la OMS y las agencias regulatorias de medicamentos coinciden en que **no existe una asociación clínica ni vinculación epidemiológica entre las vacunas y el desarrollo de autismo** [0]. Estos estudios concluyen que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados, reafirmando que las vacunas no son la causa de este trastorno [0]. Además, la OMS ha reiterado de manera contundente que no hay evidencia de un vínculo causal entre las vacunas y los trastornos del espectro autista (TEA), respaldando el perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo [2].  \n\nSin embargo, existen algunos estudios que han generado controversia. El Centro para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos ha publicado un comunicado que plantea que la afirmación \"las vacunas no causan autismo\" carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo, y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación [3]. Aunque estas afirmaciones son controvertidas, los estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola (MMR) [4].  \n\n**Conclusión**: La evidencia disponible indica que la incidencia de autismo es similar entre personas vacunadas y no vacunadas. Los estudios epidemiológicos y metaanálisis a gran escala, así como las revisiones sistemáticas de la OMS y el CDC, refutan cualquier relación causal entre las vacunas y el autismo. Sin embargo, la controversia persiste en algunos círculos, ya que el CDC ha publicado un comunicado que cuestiona la afirmación de que las vacunas no causan autismo. A pesar de esta controversia, la comunidad científica internacional ha avalado la seguridad de las vacunas y ha descartado la vinculación con el autismo.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La incidencia de autismo es similar entre personas vacunadas y no vacunadas\nArticle: La incidencia de autismo en personas vacunadas y no vacunadas es **similar**, según los estudios epidemiológicos y metaanálisis publicados en 2025. Las grandes investigaciones a gran escala, revisións sistemáticas y metaanálisis realizados por instituciones sanitarias internacionales como la OMS y las agencias regulatorias de medicamentos coinciden en que **no existe una asociación clínica ni vinculación epidemiológica entre las vacunas y el desarrollo de autismo** [0]. Estos estudios concluyen que los niños vacunados desarrollan autismo con la misma frecuencia que los no vacunados, reafirmando que las vacunas no son la causa de este trastorno [0]. Además, la OMS ha reiterado de manera contundente que no hay evidencia de un vínculo causal entre las vacunas y los trastornos del espectro autista (TEA), respaldando el perfil de seguridad de las inmunizaciones administradas durante la infancia y el embarazo [2].  \n\nSin embargo, existen algunos estudios que han generado controversia. El Centro para el Control y la Prevención de Enfermedades (CDC) de Estados Unidos ha publicado un comunicado que plantea que la afirmación \"las vacunas no causan autismo\" carece de fundamento científico, ya que los estudios no han descartado la posibilidad de que las vacunas infantiles causen autismo, y que las autoridades sanitarias han ignorado los estudios que respaldan esta relación [3]. Aunque estas afirmaciones son controvertidas, los estudios realizados con niños en Estados Unidos y otros países del mundo tampoco han logrado corroborar una relación entre el autismo y la vacuna contra el sarampión, las paperas y la rubéola (MMR) [4].  \n\n**Conclusión**: La evidencia disponible indica que la incidencia de autismo es similar entre personas vacunadas y no vacunadas. Los estudios epidemiológicos y metaanálisis a gran escala, así como las revisiones sistemáticas de la OMS y el CDC, refutan cualquier relación causal entre las vacunas y el autismo. Sin embargo, la controversia persiste en algunos círculos, ya que el CDC ha publicado un comunicado que cuestiona la afirmación de que las vacunas no causan autismo. A pesar de esta controversia, la comunidad científica internacional ha avalado la seguridad de las vacunas y ha descartado la vinculación con el autismo."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La incidencia de autismo es similar entre personas vacunadas y no vacunadas\", \"categories\": [\"Salud Pública\", \"Medicina\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"Las vacunas no causan autismo, según la evidencia científica\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

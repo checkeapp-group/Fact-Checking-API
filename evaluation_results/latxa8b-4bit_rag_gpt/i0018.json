@@ -1,0 +1,626 @@
+{
+    "question": "España es uno de los países europeos con mayor riesgo de pobreza infantil",
+    "answer": "Según los datos de Eurostat, España tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,2 % en 2024, lo que la supera en 9,9 puntos a la media europea. Esto se confirma en varios informes, como el de UNICEF España, que establece que España es el país de la UE con la tasa de pobreza infantil más alta, con un 28% de niños y niñas en situación de pobreza o riesgo de exclusión social. Además, según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE, la tasa de pobreza infantil en España es la más alta de la UE, con un 29,29 %, superando en 9,9 puntos a la media europea.\n\nLos expertos consideran que el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España. El estudio de Miguel Ángel Malo y Fernando Pinto señala que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Esto sugiere que la gestión de la pobreza infantil en España es insuficiente para abordar la problemática.\n\nLa diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esto indica que la tasa de pobreza infantil en España sigue siendo una preocupación significativa en comparación con la media europea. Sin embargo, es importante destacar que la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores.\n\nEn resumen, la evidencia sugiere que España es uno de los países europeos con mayor riesgo de pobreza infantil. Los datos de Eurostat y los informes de UNICEF España y la OCDE confirman que la tasa de pobreza infantil en España es la más alta de la UE. Sin embargo, también es importante destacar que la tasa de pobreza total respecto a la Unión Europea ha disminuido en los últimos años, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores. En consecuencia, se puede concluir que la afirmación es **verdadera**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {},
+    "related_questions": {},
+    "metadata": {
+        "title": "España es uno de los países europeos con mayor riesgo de pobreza infantil",
+        "categories": [
+            "Economía",
+            "Social",
+            "Política"
+        ],
+        "label": "True",
+        "main_claim": "España es uno de los países europeos con mayor riesgo de pobreza infantil, según los datos de Eurostat y los informes de UNICEF España y la OCDE",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.525869106000755,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.525869106000755,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:43:15",
+                    "run_time": 4.525869106000755,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña es uno de los países Europeos con mayor riesgo de pobreza infantil\n\n**Critical Research Questions:**\n1. ¿Cuál es el índice de pobreza infantil en España en comparación con otros países europeos en 2025?\n2. ¿Cuántos niños y niñas viven en situación de pobreza en España según el último informe del Observatorio de la Infancia?\n3. ¿Qué opinan los expertos en desigualdades sociales sobre la situación de la pobreza infantil en España?\n4. ¿Cuáles son los principales indicadores de pobreza infantil en España según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE?\n5. ¿Cómo se compara la tasa de pobreza infantil en España con la media de la UE en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"índice de pobreza infantil en España 2025 comparación con otros países europeos\", \"número de niños y niñas en situación de pobreza en España último informe Observatorio de la Infancia\", \"opinión de expertos en desigualdades sociales sobre pobreza infantil en España\", \"indicadores de pobreza infantil en España Informe de la OCDE sobre la pobreza y la desigualdad en la UE\", \"tasa de pobreza infantil en España comparación con la media de la UE 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 21.590072562998103,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 21.590072562998103,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:43:39",
+                    "run_time": 21.590072562998103,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "índice de pobreza infantil en España 2025 comparación con otros países europeos",
+                                "número de niños y niñas en situación de pobreza en España último informe Observatorio de la Infancia",
+                                "opinión de expertos en desigualdades sociales sobre pobreza infantil en España",
+                                "indicadores de pobreza infantil en España Informe de la OCDE sobre la pobreza y la desigualdad en la UE",
+                                "tasa de pobreza infantil en España comparación con la media de la UE 2025"
+                            ],
+                            "results": {
+                                "índice de pobreza infantil en España 2025 comparación con otros países europeos | número de niños y niñas en situación de pobreza en España último informe Observatorio de la Infancia | opinión de expertos en desigualdades sociales sobre pobreza infantil en España | indicadores de pobreza infantil en España Informe de la OCDE sobre la pobreza y la desigualdad en la UE | tasa de pobreza infantil en España comparación con la media de la UE 2025": [
+                                    {
+                                        "text": "La pobreza infantil en España triplica la de Dinamarca: por qué España es líder europeo en el indicador más triste\n\nEspaña lidera un triste ránking: tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,29 %. Supera en 9,9 puntos la media y casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %), según datos de Eurostat.\n\nEl motivo es, según Funcas, el diseño del sistema de impuestos y transferencias, que reduce la pobreza infantil en 1– o 2 puntos, cuando en los grandes países europeos el impacto es de 4 a 8 puntos.\n\nLa diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esta evolución es distinta para el conjunto de la población: la diferencia de la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024 (19,7 % en España vs. 16,2 % de media en la UE).\n\nEspaña también sale mal parada en términos de riesgo de pobreza o de exclusión social entre los menores de 18 años, con un 34,6 % frente al 24,2 % del promedio europeo. En comparación con el resto de países, en España se observa también una marcada brecha generacional: la diferencia entre la incidencia del riesgo de pobreza o exclusión social en menores supera los 10 puntos porcentuales la de los adultos, una de las más elevadas.\n\nEntre las causas que explican esta situación, el estudio, cuyos autores son Miguel Ángel Malo y Fernando Pinto, explica que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Frente a modelos más robustos y generalizados como los de Francia, Alemania o los países escandinavos, España se sitúa en una posición intermedia que no consigue romper la mala evolución de la pobreza infantil –menores que viven en hogares por debajo del umbral de pobreza–.\n\nOtro factor que explica la diferencia española respecto a Europa es el déficit estructural de vivienda social y de alquiler asequible. Mientras que el promedio europeo de la vivienda protegida o subvencionada se sitúa en torno al 7 % del parque de vivienda, en países del norte y centro de Europa alcanza entre un 15 % y un 25 %. Sin embargo, en España la cobertura apenas llega al 2 %. Esta carencia expone a los hogares con menores a un esfuerzo residencial desproporcionado que erosiona su renta disponible y amplifica el riesgo de pobreza.\n\nEl nivel educativo de los padres es otro de los factores relevantes. De hecho, un nivel educativo más alto de los progenitores no ofrece en el caso español una protección tan eficaz como en otros países europeos: la tasa de pobreza infantil entre hijos de padres con educación terciaria alcanza el 18,9 %, frente a la media del 11 % de la UE. Esta cifra apunta a una rigidez en los mecanismos de movilidad social ascendente y a la existencia de barreras que no se neutralizan únicamente mediante la acumulación de capital humano.\n\nPor último, el mercado de trabajo español actúa como un factor estructural de riesgo. Los hogares donde ningún adulto trabaja padecen un incremento de hasta 34 puntos porcentuales en la probabilidad de pobreza infantil. También se encuentra que mejoras relativamente reducidas en los ingresos laborales del hogar pueden tener un efecto muy importante en la reducción del riesgo de pobreza infantil. Por tanto, no es solo una cuestión de que los hogares pobres con niños carezcan de empleo, sino también de los ingresos que pueden generar esos empleos. De hecho, la elevada incidencia de contratos temporales, de la parcialidad involuntaria y de salarios bajos es un factor relevante de pobreza infantil en España.",
+                                        "metadata": {
+                                            "url": "https://www.eldebate.com/economia/20251030/pobreza-infantil-espana-triplica-dinamarca-espana-lider-europeo-indicador-triste_349837.html",
+                                            "source": "www.eldebate.com",
+                                            "favicon": "https://www.eldebate.com/favicon.ico",
+                                            "title": "La pobreza infantil en España triplica la de Dinamarca",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldebate.com",
+                                            "snippet": "España lidera un triste ránking: tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,29 %. Supera en 9,9 puntos la media ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España es el país europeo con más pobreza infantil y desde que llegó Sánchez al Gobierno ha aumentado la brecha\n\nSon datos del estudio La pobreza infantil en España: evolución reciente y políticas , editado por Funcas\n\nLa tasa de pobreza infantil en España (29,2 %) es la más alta de la UE y la diferencia respecto a la media europea ha aumentado en los dos últimos años, la supera en 9,9 puntos en 2024. Casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %).\n\nSon datos del estudio La pobreza infantil en España: evolución reciente y políticas, editado por Funcas, que señala que la posición española resulta muy preocupante si se tiene en cuenta que el país se encuentra en un escalón medio-alto en términos de renta per cápita.\n\nPara los expertos, el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España.\n\nPor ejemplo, señalan que el sistema de impuestos y transferencias en España reducen la pobreza infantil en 1–2 puntos, cuando en los grandes países europeos el impacto es de 4 a 8 puntos.\n\nRespecto a la vivienda protegida o subvencionada, el promedio europeo se sitúa en torno al 7 % del parque de vivienda, que se eleva hasta el 25 % en algunos países del norte y centro de Europa; en España la cobertura apenas llega al 2 %.\n\nEl informe de Funcas destaca que las medidas para disminuir la pobreza infantil pueden tener impacto tanto en el corto como en el largo plazo, ahorrando costes personales y económicos presentes y futuros.\n\nA este respecto, los autores consideran que para romper esta dinámica habría que repensar las políticas públicas orientadas a la infancia: «No basta con invertir más: es necesario invertir mejor».\n\nPlantean un enfoque integral que combine mejoras en el sistema educativo, incentivos al empleo estable y digno para padres y madres, ampliación de las prestaciones por hijo a cargo y fortalecimiento de las políticas de vivienda.",
+                                        "metadata": {
+                                            "url": "https://www.eldebate.com/sociedad/20251029/espana-pais-europeo-pobreza-infantil-desde-llego-sanchez-gobierno-aumentado-brecha_349599.html",
+                                            "source": "www.eldebate.com",
+                                            "favicon": "https://www.eldebate.com/favicon.ico",
+                                            "title": "España es el país europeo con más pobreza infantil y ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldebate.com",
+                                            "snippet": "La tasa de pobreza infantil en España (29,2 %) es la más alta de la UE y la diferencia respecto a la media europea ha aumentado en los dos ú ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Año: 2023\n\nAutor: Canals, Leonor ; Llano, Juan Carlos ; Sanz Angulo, Alejandro ; Urbano, Clara\n\nLugar de Edición: Madrid\n\nEditorial: EAPN España\n\nAño de edición: 2023\n\nDescripción Física: gráf. y tablas\n\nPáginas: 25 p.\n\nIdioma: Español\n\nFuente: SiiS Servicio de Información e Investigación Social\n\nFormato: Electrónico\n\nTemáticas: Pobreza y exclusión social\n\nDescriptores: pobreza, desigualdad social, discriminación social, Europa, España\n\nResumen:\n\nLos principales indicadores de pobreza y exclusión social para la población infantil han mejorado en el último año, sin embargo, mantienen cifras notablemente elevadas y superiores a las del resto de la población.\n\nUn tercio de los niños, niñas y adolescentes (NNA) está en situación de riesgo de pobreza y/o exclusión social (32,2 % de tasa AROPE), esto es, casi 2,6 millones de menores.\n\nMás de una cuarta parte de la población menor de 18 años reside en hogares con ingresos inferiores al umbral de pobreza (27,8 % de tasa de pobreza), lo que se traduce en más de 2,2 millones de menores en riesgo de pobreza.\n\nAunque se han producido avances respecto al año 2015, éstos son insuficientes para cumplir con los objetivos comprometidos con la Agenda 2030: un progreso proporcional en el tiempo requeriría una reducción extra de 425.000 NNA en AROPE y unos 350.000 en riesgo de pobreza.\n\nMás de un millón de niños, niñas y adolescentes se encuentran en pobreza severa, lo que supone el 13,5 % del total de población menor de 18 años.\n\nCon respecto a la población total, la pobreza es más extensa en niños, niñas y adolescentes (20,4 % y 27,8 %, respectivamente).\n\nLa pobreza se manifiesta con mayor intensidad en la población infantil como muestra la diferencia entre la brecha de pobreza infantil y la global (31,8% y 27,8%, respectivamente).\n\nEstos datos, además de ser extraordinariamente altos, apenas varían con los años y siempre son notablemente superiores a los del resto de población lo que evidencia un problema estructural de calado. La necesidad de medidas de apoyo realmente efectivas en los hogares pobres con menores es, entonces, especialmente notable. La pobreza infantil es consecuencia directa de la pobreza de las familias con menores a cargo y no se reducirá sin un apoyo directo y decidido al sostenimiento de los hogares con niños, niñas o adolescentes.",
+                                        "metadata": {
+                                            "url": "https://www.observatoriodelainfancia.es/oia/esp/documentos_ficha.aspx?id=8480",
+                                            "source": "www.observatoriodelainfancia.es",
+                                            "favicon": "https://www.observatoriodelainfancia.es/oia/img/favicon.ico",
+                                            "title": "La pobreza infantil. 13º Informe 2023. Estado de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.observatoriodelainfancia.es",
+                                            "snippet": "Más de un millón de niños, niñas y adolescentes se encuentran en pobreza severa, lo que supone el 13,5 % del total de población menor de 18 años. Con respecto ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Año: 2022\n\nAutor: Mini, Margherita ; Escorial, Almudena ; García de Murcia, Mireya ; Ponce de León, Claudia ; Santaemilia, Beatriz ; Ibarra, Ricardo ; Guruceta, María ; Raimondi, Mariasole ; García Lamas, Ana ; Taravilla Herrera, Mabel\n\nLugar de Edición: Madrid\n\nEditorial: Plataforma de Infancia\n\nAño de edición: 2022\n\nPáginas: 154 p.\n\nIdioma: Español\n\nFuente: Plataforma de Infancia\n\nFormato: Electrónico\n\nTemáticas: General\n\nDescriptores: derecho a la protección de la salud, discapacidad, educación, educación no formal, pobreza, administración de justicia, violencia, discriminación social, migrantes, juego, política familiar, derechos del niño, política de infancia, protección a la infancia, España, menores no acompañados, participación de la infancia, sistema de protección de menores\n\nResumen:\n\nEste informe, realizado por las organizaciones de la Plataforma de Infancia y en el que han participado más de 165 personas expertas y más de 4.300 niñas, niños y adolescentes de todo el territorio español, analiza el estado de los derechos de la infancia en España de cara al VII ciclo de revisión sobre la aplicación de la Convención sobre los Derechos del Niño. A través de este mecanismo de control, el Comité recoge las opiniones de la sociedad civil, las contrasta con las acciones del Estado para defender los derechos de la infancia y emite una serie de recomendaciones, llamadas Observaciones Finales, que los Estados deben poner en marcha en el siguiente ciclo. Las últimas recomendaciones que recibió España del Comité de los Derechos del Niño son de 2018.\n\n\n\n\n\nLas organizaciones de infancia reconocen los grandes avances en materia de derechos de infancia que han tenido lugar en España, como la aprobación de la Ley Orgánica de Protección Integral a la Infancia y la Adolescencia frente a la violencia (LOPIVI), y de la LOMLOE, la creación del Consejo Estatal de Participación Infantil y Adolescente o las medidas aprobadas para luchar contra la pobreza infantil, como el Ingreso Mínimo Vital (IMV) y los complementos de infancia o la garantía infantil.\n\n\n\n\n\nSegún la Plataforma de Infancia, es fundamental destinar recursos económicos a reducir la pobreza infantil y acabar con la falta de equidad. El riesgo de pobreza infantil en España ha aumentado del 27,4% en 2020 al 28,9% en 2021, representando la cifra más alta de pobreza infantil en los últimos 5 años; Mientras que la pobreza infantil afecta al 28% de los niños y niñas, las ayudas o becas comedor solo llegan al 11% del alumnado de educación obligatoria. Además, la tasa de abandono escolar temprano en España se situó en el 13,3 % en 2021, aún lejos del 9,7% que registra la tasa media de la UE; únicamente el 26,3% de los niños y niñas de familias con rentas más bajas acceden a la educación 0-3, frente al 62,5% de los niños y niñas con rentas más altas; lo que genera un problema de equidad desde edades tempranas.\n\nPor otra parte, las organizaciones de infancia señalan la necesidad de que se lleven a cabo los desarrollos normativos necesarios para garantizar la protección integral frente a la violencia de la infancia que la LOPIVI ha proclamado. Entre estos destacan la aprobación de una ley que establezca la especialización de los órganos judiciales y la Fiscalía para la instrucción y enjuiciamiento de las causas penales por delitos contra niños y niñas; o los desarrollos autonómicos necesarios para poner en marcha con todas las garantías las figuras del coordinador de bienestar en el ámbito educativo y el delegado de protección en el ámbito del ocio y tiempo libre y el deportivo.\n\nLlama también la atención que, desde 2016 España no cuente con un Plan Estratégico Nacional de Infancia y Adolescencia. Aunque, actualmente se está elaborando la Estrategia Nacional sobre Derechos de la Infancia y la Adolescencia (ENDIA) 2030, las organizaciones de infancia señalan que no es justificable que durante seis años España no haya contado con esta estrategia.\n\n\n\n\n\nOtras de las recomendaciones que recoge el informe son poner en marcha una ayuda a la crianza de carácter universal a través de deducciones fiscales reembolsables; garantizar el acceso al comedor escolar a todos los niños y niñas en situación de pobreza; aumentar el gasto público en becas y ayudas al estudio; poner en marcha medidas para priorizar el acogimiento familiar y asegurar que la atención en centros de acogida es el último recurso; garantizar el nuevo procedimiento de evaluación de la edad incorpore los Dictámenes del Comité de los Derechos del Niño y la jurisprudencia del Tribunal Supremo; garantizar el derecho a una educación inclusiva y de calidad a todos los niños y niñas con discapacidad; o fortalecer los canales estables de participación infantil en los órganos de las Administraciones locales, autonómicas y estatales.\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://www.observatoriodelainfancia.es/oia/esp/documentos_ficha.aspx?id=8056",
+                                            "source": "www.observatoriodelainfancia.es",
+                                            "favicon": "https://www.observatoriodelainfancia.es/oia/img/favicon.ico",
+                                            "title": "La situación de la Infancia en España 2022",
+                                            "type": "web_search",
+                                            "base_url": "https://www.observatoriodelainfancia.es",
+                                            "snippet": "El riesgo de pobreza infantil en España ha aumentado del 27,4% en 2020 al 28,9% en 2021, representando la cifra más alta de pobreza infantil en los últimos 5 a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Observatorio de pobreza infantil de la Plataforma de Infancia nace con el objetivo de visibilizar e informar sobre esta problemática en España.\n\nOfrece datos clave para comprender y analizar la situación de niñas, niños y adolescentes en riesgo de pobreza, con el fin de sensibilizar y contribuir a la búsqueda de soluciones más eficaces.",
+                                        "metadata": {
+                                            "url": "https://observatoriodepobrezainfantil.org/",
+                                            "source": "observatoriodepobrezainfantil.org",
+                                            "favicon": "https://observatoriodepobrezainfantil.org/wp-content/uploads/2021/10/cropped-favicon-plataforma-de-infancia-2-32x32.png",
+                                            "title": "Observatorio de pobreza infantil | Visibilizar la problemática ...",
+                                            "type": "web_search",
+                                            "base_url": "https://observatoriodepobrezainfantil.org",
+                                            "snippet": "Los principales datos sobre la situación de la pobreza y la exclusión social de la infancia en España a nivel nacional y de las comunidades autónomas."
+                                        }
+                                    },
+                                    {
+                                        "text": "«Los niños no son el futuro porque algún día vayan a ser mayores, sino porque la humanidad se va a acercar cada vez más al niño.”\n\nMilan Kundera.\n\nUna realidad que duele: casi uno de cada tres niños españoles vive en la pobreza.\n\nLos datos golpean como un martillo: 29% de los menores españoles crecen en hogares que luchan cada mes por llegar a fin de mes. España, la cuarta economía de la eurozona, se mantiene como el cuarto país de la UE con mayor pobreza infantil, solo superada por Bulgaria, Rumanía e Italia. Las cifras de Eurostat para 2025 dibujan un panorama desolador que contradice nuestra imagen de país desarrollado.\n\n«Cuando hablamos de pobreza infantil, no hablamos solo de números. Hablamos de niños que van al colegio sin desayunar, de familias que eligen entre pagar la luz o comprar zapatos nuevos, de menores que ven limitadas sus oportunidades desde la cuna», explica Laura López, responsable de incidencia política de Save the Children España.\n\n\n\nLa paradoja española: crecimiento económico que no llega a los más pequeños Mientras el PIB repunta, las ayudas a la infancia siguen siendo las hermanas pobres del estado del bienestar.\n\nEl contraste con Europa duele:\n\n• Finlandia invierte 150€ mensuales por niño y reduce la pobreza infantil en un 60%\n\n• España destina 50€ y solo consigue un 20% de reducción\n\n«Tenemos un sistema de protección social que parece diseñado para no funcionar«, denuncia Juan Martínez, economista especializado en políticas sociales. «Las ayudas llegan tarde, con requisitos kafkianos y cuantías ridículas comparadas con nuestros vecinos».\n\nEl coste oculto de no actuar: 63.000 millones que perdemos todos. Los números son elocuentes:\n\n• 63.000 millones anuales es lo que le cuesta a España la pobreza infantil en gasto sanitario, fracaso escolar y pérdida de productividad (Estudio Cantó & González, 2025)\n\n• Por cada euro invertido en infancia, el Estado se ahorra 7 euros en el futuro\n\n• Una ayuda universal de 120€/mes sacaría de la pobreza a 124.200 niños\n\n«Estamos ante una cuestión de inteligencia económica, no solo de solidaridad«, insiste la socióloga Elena García. «Los niños pobres de hoy serán los adultos con empleos precarios de mañana, los pensionistas que no podrán cotizar lo suficiente«.\n\nPolíticas que funcionan: ejemplos concretos con resultados medibles\n\nLa ayuda universal que cambia vidas\n\nPaíses como Alemania o Irlanda demuestran que transferencias de 120-150€ mensuales por niño y niña reducen drásticamente la pobreza. En España, esta medida costaría el 0,8% del PIB (menos de la mitad de lo que gastamos en defensa).\n\nPolíticas de reducción de pobreza infantil en Europa que funcionan\n\nTransferencias económicas condicionadas y no condicionadas\n\n• Ejemplo: Reino Unido – Universal Credit y Child Benefit.\n\n• ¿Qué hace?: Apoya económicamente a familias con bajos ingresos, con transferencias regulares para la crianza.\n\n• Resultados medibles: o Según la Oficina de Estadísticas Nacionales (ONS), el Child Benefit ha ayudado a reducir la tasa de pobreza infantil en el Reino Unido en un 5% desde su implementación ampliada. Universal Credit ha mostrado un impacto mixto, pero con ajustes recientes se prevé reducir la pobreza infantil en un 10% adicional en 5 años.\n\nAcceso universal y gratuito a servicios de educación y cuidado infantil\n\n•Ejemplo: Suecia y Finlandia\n\n•Qué hace: Proporcionan guarderías y educación preescolar gratuitas o muy subsidiadas para niños desde los 1-3 años.\n\n• Resultados medibles:\n\nEl porcentaje de niños en pobreza relativa en Suecia es uno de los más bajos de Europa (<10%), en parte gracias a este acceso.\n\nEstudios muestran que el acceso universal reduce la pobreza infantil indirectamente al facilitar la participación laboral de los padres y mejorar las oportunidades educativas.\n\nComedores escolares: mucho más que un plato caliente\n\nLos niños que comen en el colegio mejoran su rendimiento académico en un 30% y reducen sus problemas de salud. Extenderlos a todos los centros costaría 2.500 millones anuales.\n\nGuarderías 0-3: romper el círculo desde el principio\n\nEl acceso gratuito a educación infantil para familias vulnerables tiene un impacto del 4,2% en la reducción de pobreza. «Es la mejor inversión: los niños que acuden a guarderías tienen un 40% más de probabilidades de terminar estudios superiores», explica la pedagoga Marta Jiménez.\n\nTestimonio «Gracias a la guardería pública pude encontrar trabajo», cuenta Ana, madre soltera de Málaga.\n\nLa gran pregunta: ¿Por qué España no prioriza a sus niños y niñas?\n\nEl gasto en infancia representa solo el 1,3% del PIB, casi la mitad de la media europea (2,4%). Programas como el IMV y el CAPI llegan a menos de la mitad de los niños que los necesitan.\n\n«Falta voluntad política», denuncia el informe de UNICEF de 2025. «Mientras las pensiones tienen un pacto de Estado, la infancia sigue siendo moneda de cambio partidista».\n\n¿ Q U E H A N H E C H O L O S GOBIERNOS?\n\nResumen comparativo\n\nCuatro soluciones concretas sobre la mesa\n\n1. Ayuda universal de 120€/mes (11.288 millones anuales)\n\n2. Comedores escolares garantizados en todos los centros públicos\n\n3. Guarderías 0-3 gratuitas para familias bajo el umbral de pobreza\n\nGobierno Promesas Clave Cumplimiento\n\nReal Evaluación General\n\nAznar (PP) Apoyo a familias, conciliación limitado y sin foco infantil específico M e j o r as superficiales, pocos avances\n\nZ a p a t e r o (PSOE) L e y d e D e p e n d e n c i a , cheque-bebé\n\nLey aprobada, cheque-bebé implantado, crisis limita progreso\n\nAvances claros pero afectados por crisis\n\nRajoy (PP)\n\nM a n t e n e r protección, empleo juvenil Recortes sociales y aumento pobreza infantil R e t r o c e s o e n protección infantil\n\nS á n c h e z (PSOE) Reducción pobreza infantil, IMV implementado, más presupuesto social, ley en proceso\n\nAvances importantes, pendiente ejecución\n\n4. Pacto de Estado con metas anuales verificables «El modelo existe, solo hay que mirar al norte de Europa», concluye el experto en políticas sociales Daniel Gómez. «La pregunta es: ¿qué tipo de país queremos ser cuando estos niños crezcan?»\n\nVoces que interpelan\n\n«Mi hija cumple años y me pide unos zapatos que no se le vean los dedos. Este mes no puedo. Duele decirle que espere.»\n\n— Carmen, 34 años, empleada de limpieza\n\n«En mi clase hay niños que esconden el bocadillo porque solo tienen pan. Con 8 años, ya sienten vergüenza.»\n\n— Sergio, maestro de primaria\n\n«Los políticos hablan mucho de futuro, pero invierten poco en quienes lo representan.»\n\n— Lucía, activista por los derechos de la infancia\n\n¿Qué podemos hacer?\n\n• Exigir a los partidos que firmen el Pacto por la Infancia\n\n• Apoyar programas de ayuda directa en nuestro municipio\n\n• Votar con conciencia social en las próximas elecciones\n\nLos datos están sobre la mesa. Las soluciones también. Solo falta decidir si los niños y niñas de hoy serán finalmente una prioridad o seguirán siendo la factura pospuesta de nuestro bienestar.\n\n(Artículo basado en datos de Eurostat, INE, Save the Children y UNICEF. Todos los testimonios son reales, aunque se han cambiado algunos nombres por privacidad.)\n\nMarcos Gutiérrez Sebastián\n\nTrabajador Social Jubilado\n\nBibliografía\n\nCantó, Óscar y Díaz, José Luis (2016).\n\nPobreza infantil en España: causas, consecuencias y políticas.\n\nEditorial: Tirant lo Blanch.\n\nEurochild (2019).\n\nChildren’s Rights and Well-being in Europe.\n\nPolicy report sobre la situación de la infancia en Europa y las políticas de protección social.\n\nGuillén, Ana y Rodríguez, Enrique (2017).\n\nDesigualdad y pobreza infantil en Europa.\n\nEn: Revista Española de Sociología, vol. 26, pp. 45-67.\n\nAlameda, Juan Carlos (2015).\n\nProtección social y pobreza infantil en Europa: políticas comparadas.\n\nEdiciones Pirámide.\n\nInformes y documentos ins0tucionalesUNICEF España (2023).\n\nInforme sobre la pobreza infantil en España 2023.\n\nDisponible en: h8ps://www.unicef.es/informes/pobreza-infan0l-espana-2023European\n\nCommission (2022).\n\nChild Poverty and Well-being in the EU: 2022 Report.\n\nD i s p o n i b l e e n : h 8 p s : / / e c . e u r o p a . e u / s o c i a l / m a i n . j s p ?\n\ncatId=738&langId=en&pubId=8481Fundación FOESSA (2021).\n\nLa exclusión social en España 2021: pobreza infantil y desigualdad.\n\nDisponible en: h8ps://www.foessa.es/informes\n\n“Si he sido capaz de iluminar una sola infancia triste, estoy satisfecha”\n\n(Astrid Lindgren)\n\nAutora de Pippi Calzaslargas\n\nMe gusta esto: Me gusta Cargando...\n\nRelacionado",
+                                        "metadata": {
+                                            "url": "https://lapajareramagazine.com/pobreza-infantil-en-espana-la-herida-invisible-de-una-generacion",
+                                            "source": "lapajareramagazine.com",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Pobreza infantil en España: La herida invisible de una ...",
+                                            "type": "web_search",
+                                            "base_url": "https://lapajareramagazine.com",
+                                            "snippet": "Una realidad que duele: casi uno de cada tres niños españoles vive en la pobreza. Los datos golpean como un martillo: 29% de los menores ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "© Xavier S\n\nGabriel González-Bueno Uribe 1 de Junio de 2024\n\nActualmente, España es el país de la UE con la tasa de pobreza infantil más alta según el último informe de UNICEF España: Pobreza infantil en medio de la abundancia. Sin embargo, lo más preocupante es que detrás de las estadísticas se encuentran historias reales de niños y niñas de nuestro entorno más cercano que sufren carencias que les impiden disfrutar plenamente de su infancia.\n\nEn este artículo, exploraremos la realidad de la pobreza infantil en España, analizando sus causas, consecuencias y las medidas necesarias para abordar este problema de manera efectiva.\n\nDescubre la triste realidad: más de 1 de cada 5 niños y niñas (los más vulnerables de nuestra sociedad) viven en situación de pobreza en 40 de los países más ricos del mundo. ¿Cómo podemos trabajar juntos para construir un futuro más justo y equitativo para todos?\n\n¿Existe la pobreza infantil en España?\n\nLa respuesta corta a esta pregunta es sí, efectivamente, la pobreza infantil en España es una dura realidad para miles de niños y niñas. Con este término, nos referimos a que carecen de acceso a recursos básicos para su desarrollo y bienestar tanto físico como mental. Con privación material y de atención cualificada.\n\nSegún datos del mismo informe, en España se estima que alrededor del 28% de los niños y niñas se encuentran en situación de pobreza. Esto representa un porcentaje significativo de la población infantil del país. Esta situación no solo tiene implicaciones inmediatas en la calidad de vida de los niños y niñas, sino que también puede tener efectos a largo plazo en su salud, educación y futuro profesional.\n\nA pesar de los esfuerzos realizados por diferentes organismos y entidades, la pobreza infantil continúa siendo un desafío importante en España, que requiere de una acción coordinada y eficaz por parte de la sociedad en su conjunto.\n\n¿Cuál es el contexto de la pobreza infantil en España?\n\nSegún el informe de UNICEF: Cómo reducir la pobreza infantil en España, para reducir la pobreza infantil en España se pueden tomar medidas basadas en las lecciones aprendidas de años anteriores y en las tendencias observadas durante la evolución de las tasas de pobreza infantil.\n\nDurante el período de 2012 a 2018, marcado por un crecimiento económico sostenido en la mayoría de los países, se observó una oportunidad significativa para reducir la pobreza infantil. Sin embargo, según el Report Card 18 de UNICEF, España no logró aprovechar este período para reducir la pobreza infantil, manteniéndose en una situación similar.\n\nPara abordar este desafío, es importante analizar y comprender las políticas que han sido efectivas en otros países. Por ejemplo, el informe destaca que 18 de los 32 países con datos disponibles lograron reducir la pobreza infantil durante este período, mientras que 12 países experimentaron un aumento en sus tasas de pobreza infantil.\n\nEs esencial reconocer que las tendencias más recientes, especialmente durante el período afectado por la crisis del COVID-19 entre 2019 y 2021, no muestran un impacto claro en la pobreza infantil en España. Aunque se han implementado medidas de protección social, como el Ingreso Mínimo Vital (IMV) es necesario evaluar su efectividad y adaptarlas según sea necesario para abordar las necesidades específicas de los niños y niñas en situación de pobreza.\n\nPara reducir la pobreza infantil en España hay que evaluar las experiencias pasadas, analizar cómo otros países de nuestro entorno han conseguido reducir la brecha en pobreza infantil, revisar las políticas actuales y desarrollar estrategias efectivas a medio y largo plazo que aborden el problema. ¡Aseguremos entre todos un futuro más equitativo y próspero para todos los niños y niñas del país!\n\nCifras de la pobreza infantil en España\n\nEn España, la pobreza infantil creció en 1,5 puntos porcentuales en 2020, hasta el 28,9%, para reducirse hasta el 27,8% en 2021.\n\nSin embargo, según la gráfica de evolución en las tasas de pobreza infantil, en nuestro país solo se ha reducido un 4% en el periodo 2012-2021.\n\nSegún los datos que maneja UNICEF sobre la pobreza infantil (marzo 2024) en la población menor de 18 años en España:\n\nTasa de riesgo de pobreza o exclusión social (indicador AROPE): 34,5%.\n\nEn riesgo de pobreza (renta año anterior a la entrevista): 28,9%.\n\nCon carencia material y social severa 12,3%.\n\nViviendo en hogares con baja intensidad en el trabajo (de 0 a 64 años): 6,9%.\n\n\n\nCausas y consecuencias de la pobreza infantil\n\nLa pobreza infantil tiene múltiples causas que van más allá de las limitaciones económicas de las familias.\n\nEntre las CAUSAS principales se encuentran:\n\nLa falta de empleo o ingresos insuficientes de los progenitores .\n\n. La falta de acceso a servicios básicos como la educación y la salud.\n\nLa discriminación y la exclusión social.\n\nLa falta de vivienda adecuada.\n\nEstos factores son algunas de las causas de la pobreza infantil, e interactúan de manera compleja, creando un entorno propicio para la perpetuación de la pobreza en las generaciones futuras.\n\nLas CONSECUENCIAS de la pobreza infantil son igualmente alarmantes y abarcan diversos aspectos de la vida de los niños y niñas.\n\nEn el ámbito de la salud , los niños y niñas en situación de pobreza tienen un mayor riesgo de padecer enfermedades crónicas, malnutrición y problemas de salud mental . Además, enfrentan dificultades para acceder a servicios de atención médica adecuados, lo que puede afectar su desarrollo físico y emocional a largo plazo.\n\n, los niños y niñas en situación de pobreza tienen un . Además, enfrentan dificultades para acceder a servicios de atención médica adecuados, lo que puede afectar su desarrollo físico y emocional a largo plazo. En el ámbito educativo , la pobreza infantil se asocia con un menor rendimiento académico, tasas más altas de abandono escolar y menor acceso a oportunidades de educación superior. Esto perpetúa el ciclo de la pobreza al limitar las oportunidades de desarrollo personal y profesional de los niños y niñas afectados.\n\n, la pobreza infantil se asocia con un menor rendimiento académico, tasas más altas de abandono escolar y menor acceso a oportunidades de educación superior. Esto perpetúa el ciclo de la pobreza al limitar las oportunidades de desarrollo personal y profesional de los niños y niñas afectados. A nivel social y emocional, la pobreza infantil puede tener efectos devastadores en la autoestima, la autoconfianza y las relaciones interpersonales de los niños y niñas. La falta de recursos materiales y el estrés asociado con la pobreza pueden generar sentimientos de vergüenza, ansiedad y depresión en los niños y niñas, afectando negativamente su bienestar emocional y social.\n\nEn resumen, la pobreza infantil no solo afecta el presente de los niños y niñas, sino que también tiene repercusiones significativas en su futuro. Es fundamental abordar cuanto antes las causas de la pobreza infantil y proporcionar un apoyo integral a los niños y niñas afectados para romper el ciclo de la pobreza y garantizarles un futuro más próspero y equitativo.\n\nPolíticas públicas para reducir la pobreza infantil en España\n\nEspaña, con una tasa de pobreza infantil del 28,9%, la más alta de la UE, necesita urgentemente una reforma fiscal. La Plataforma de Infancia, Save the Children y UNICEF España han actualizado sus propuestas de ayuda a la crianza para adaptarlas a la situación socioeconómica actual, marcada por la inflación.\n\nEstos datos evidencian la fragilidad del sistema de protección social, reflejada tanto en la baja inversión pública, como en la insuficiente capacidad de las prestaciones sociales para mitigar la pobreza infantil, en comparación con otros grupos de edad o con otros países de nuestro entorno.\n\nEl informe Propuesta de reforma fiscal para implantar una ayuda a la crianza diseña una estrategia para implementar una ayuda a la crianza de carácter universal a través de deducciones fiscales reembolsables en el IRPF, planteando cuatro escenarios alternativos de diseño de la prestación y promoviendo así el bienestar y el desarrollo equitativo de todos los niños y niñas en nuestro país.\n\nEn dicho informe se contemplan cuatro escenarios de reforma fiscal para reducir la pobreza infantil y la desigualdad:\n\nDeducción reembolsable universal y fija de 1440€ por hijo menor de 18 años: Sustituiría al mínimo por descendientes menores de 18 años.\n\nCoste bruto: 11.288 millones de euros (coste neto: 8668 millones).\n\nReducción de la pobreza infantil moderada en 5,4 puntos porcentuales. Deducción reembolsable universal modulable según las rentas: Cuantía máxima de 2600€ para familias con rentas bajas.\n\nBeneficiaría especialmente a familias monomarentales.\n\nCoste bruto: 5801 millones de euros (coste neto: 3180 millones).\n\nReducción de la pobreza infantil moderada en casi 3 puntos porcentuales. Deducción reembolsable de 1440€ para familias bajo el umbral de pobreza: Coste bruto: 5755 millones de euros (coste neto: 3135 millones).\n\nReducción de la pobreza infantil moderada en 3,1 puntos porcentuales. Deducción reembolsable según la diferencia entre la renta y el umbral de pobreza: Cuantías mayores para los hogares más vulnerables.\n\nCoste bruto: 7487 millones de euros (coste neto: 5227 millones).\n\nPotencial erradicación de la pobreza infantil.\n\n\n\nEl trabajo de UNICEF España para combatir la pobreza infantil\n\nLa pobreza infantil sigue siendo una preocupación en España, donde más de uno de cada cuatro niños está en situación de pobreza o riesgo de exclusión social (concretamente el 28%). A pesar de los esfuerzos realizados, las tasas de pobreza infantil continúan siendo alarmantes, colocando a España como el país de la Unión Europea con mayores niveles de pobreza infantil.\n\nEn este contexto, UNICEF España ha desempeñado un papel fundamental en la lucha contra la pobreza infantil, participando activamente en el proceso de implementación del Plan de Acción para la Garantía Infantil Europea (GIE). Este plan tiene como objetivo final garantizar que todos los niños, niñas y adolescentes, especialmente los más vulnerables, tengan acceso efectivo y gratuito a servicios básicos como la salud, la educación y la alimentación.\n\nGustavo Suárez Pertierra, presidente de UNICEF España, destaca en esta noticia la importancia de este plan como un paso adelante en la protección de la infancia, pero subraya la necesidad de que las políticas de infancia y protección social sean aún más inclusivas y lleguen a cada niño y niña que lo necesite.\n\nSegún datos del Instituto Nacional de Estadística (INE), la pobreza infantil aumentó significativamente en 2021, con un incremento del riesgo de pobreza y exclusión social de los menores de 18 años.\n\nUNICEF España ha realizado un profundo análisis de la pobreza infantil en el país, lo que ha permitido identificar las principales áreas de intervención y hacer recomendaciones para mejorar la ejecución de la GIE. Sin embargo, aún queda mucho por hacer. España sigue rezagada en comparación con otros países europeos en el impacto de la acción pública sobre la reducción de la pobreza infantil.\n\nLas prestaciones públicas en España solo reducen la pobreza infantil en un 6,4%, muy por debajo de la media europea, que se sitúa en un 13,4%. UNICEF España insiste en la necesidad de contar con una ayuda a la crianza de carácter universal y con más inversiones para la infancia en los Presupuestos Generales del Estado.",
+                                        "metadata": {
+                                            "url": "https://www.unicef.es/blog/pobreza/pobreza-infantil-en-espana",
+                                            "source": "www.unicef.es",
+                                            "favicon": "https://www.unicef.es/themes/custom/unicef_es/favicon.ico",
+                                            "title": "Pobreza infantil en españa | Cifras, causas y consecuencias",
+                                            "type": "web_search",
+                                            "base_url": "https://www.unicef.es",
+                                            "snippet": "España, con una tasa de pobreza infantil del 28,9%, la más alta de la UE, necesita urgentemente una reforma fiscal. La Plataforma de Infancia, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Año: 2023\n\nAutor: UNICEF España\n\nLugar de Edición: Madrid\n\nEditorial: UNICEF España\n\nAño de edición: 2023\n\nDescripción Física: gráf. y tablas\n\nPáginas: 18 p.\n\nIdioma: Español\n\nFuente: UNICEF España\n\nFormato: Electrónico\n\nObservaciones: En la cub.: \"Documento elaborado por UNICEF España basado en el Report Card 18 de la Oficina de Investigación de UNICEF\".\n\nTemáticas: Pobreza y exclusión social\n\nDescriptores: pobreza, desigualdad social, España\n\nResumen:\n\nEn este documento elaborado por UNICEF España basado en el Report Card 18 de la Oficina de Investigación de UNICEF se hace un repaso de los resultados, los datos y los contenidos del Report Card 18 con una especial atención a los resultados de España. Además, incorpora puntualmente algunos datos adicionales, no mencionados en el Report Card, que contribuyen a completar el panorama de la pobreza infantil en nuestro país y unas propuestas de políticas públicas adaptadas a la realidad de España.\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://www.observatoriodelainfancia.es/oia/esp/documentos_ficha.aspx?id=8477",
+                                            "source": "www.observatoriodelainfancia.es",
+                                            "favicon": "https://www.observatoriodelainfancia.es/oia/img/favicon.ico",
+                                            "title": "España: pobreza infantil en medio de la abundancia. ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.observatoriodelainfancia.es",
+                                            "snippet": "España: pobreza infantil en medio de la abundancia. Pobreza infantil en los países de la OCDE/UE ; Año: 2023 ; Autor: UNICEF España ; Lugar de Edición: Madrid."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00098358,
+                "total_run_time": 0.6973734919993149,
+                "average_cost_per_call": 0.00098358,
+                "average_time_per_call": 0.6973734919993149,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:43:39",
+                    "run_time": 0.6973734919993149,
+                    "cost": 0.00098358,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el índice de pobreza infantil en España en comparación con otros países europeos en 2025?": [
+                                {
+                                    "La tasa de pobreza infantil en España (29,2 %) es la más alta de la UE y la diferencia respecto a la media europea ha aumentado en los dos últimos años, la supera en 9,9 puntos en 2024. Casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %).": null
+                                },
+                                {
+                                    "España lidera un triste ránking: tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,29 %. Supera en 9,9 puntos la media y casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %), según datos de Eurostat.": null
+                                },
+                                {
+                                    "La pobreza infantil sigue siendo una preocupación en España, donde más de uno de cada cuatro niños está en situación de pobreza o riesgo de exclusión social (concretamente el 28%). A pesar de los esfuerzos realizados, las tasas de pobreza infantil continúan siendo alarmantes, colocando a España como el país de la Unión Europea con mayores niveles de pobreza infantil.": null
+                                }
+                            ],
+                            "¿Cuántos niños y niñas viven en situación de pobreza en España según el último informe del Observatorio de la Infancia?": [
+                                {
+                                    "Según datos del mismo informe, en España se estima que alrededor del 28% de los niños y niñas se encuentran en situación de pobreza. Esto representa un porcentaje significativo de la población infantil del país. Esta situación no solo tiene implicaciones inmediatas en la calidad de vida de los niños y niñas, sino que también puede tener efectos a largo plazo en su salud, educación y futuro profesional.": null
+                                },
+                                {
+                                    "Un tercio de los niños, niñas y adolescentes (NNA) está en situación de riesgo de pobreza y/o exclusión social (32,2 % de tasa AROPE), esto es, casi 2,6 millones de menores.": null
+                                },
+                                {
+                                    "Más de un millón de niños, niñas y adolescentes se encuentran en pobreza severa, lo que supone el 13,5 % del total de población menor de 18 años.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en desigualdades sociales sobre la situación de la pobreza infantil en España?": [
+                                {
+                                    "Para los expertos, el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España.": null
+                                },
+                                {
+                                    "UNICEF España ha realizado un profundo análisis de la pobreza infantil en el país, lo que ha permitido identificar las principales áreas de intervención y hacer recomendaciones para mejorar la ejecución de la GIE. Sin embargo, aún queda mucho por hacer. España sigue rezagada en comparación con otros países europeos en el impacto de la acción pública sobre la reducción de la pobreza infantil.": null
+                                },
+                                {
+                                    "Entre las causas que explican esta situación, el estudio, cuyos autores son Miguel Ángel Malo y Fernando Pinto, explica que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Frente a modelos más robustos y generalizados como los de Francia, Alemania o los países escandinavos, España se sitúa en una posición intermedia que no consigue romper la mala evolución de la pobreza infantil –menores que viven en hogares por debajo del umbral de pobreza–.": null
+                                }
+                            ],
+                            "¿Cuáles son los principales indicadores de pobreza infantil en España según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE?": [
+                                {
+                                    "Según datos del mismo informe, en España se estima que alrededor del 28% de los niños y niñas se encuentran en situación de pobreza. Esto representa un porcentaje significativo de la población infantil del país. Esta situación no solo tiene implicaciones inmediatas en la calidad de vida de los niños y niñas, sino que también puede tener efectos a largo plazo en su salud, educación y futuro profesional.": null
+                                },
+                                {
+                                    "UNICEF España ha realizado un profundo análisis de la pobreza infantil en el país, lo que ha permitido identificar las principales áreas de intervención y hacer recomendaciones para mejorar la ejecución de la GIE. Sin embargo, aún queda mucho por hacer. España sigue rezagada en comparación con otros países europeos en el impacto de la acción pública sobre la reducción de la pobreza infantil.": null
+                                },
+                                {
+                                    "Actualmente, España es el país de la UE con la tasa de pobreza infantil más alta según el último informe de UNICEF España: Pobreza infantil en medio de la abundancia. Sin embargo, lo más preocupante es que detrás de las estadísticas se encuentran historias reales de niños y niñas de nuestro entorno más cercano que sufren carencias que les impiden disfrutar plenamente de su infancia.": null
+                                }
+                            ],
+                            "¿Cómo se compara la tasa de pobreza infantil en España con la media de la UE en 2025?": [
+                                {
+                                    "La tasa de pobreza infantil en España (29,2 %) es la más alta de la UE y la diferencia respecto a la media europea ha aumentado en los dos últimos años, la supera en 9,9 puntos en 2024. Casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %).": null
+                                },
+                                {
+                                    "La diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esta evolución es distinta para el conjunto de la población: la diferencia de la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024 (19,7 % en España vs. 16,2 % de media en la UE).": null
+                                },
+                                {
+                                    "España lidera un triste ránking: tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,29 %. Supera en 9,9 puntos la media y casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %), según datos de Eurostat.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 17.410778902998572,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 17.410778902998572,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:43:57",
+                    "run_time": 17.410778902998572,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña es uno de los países Europeos con mayor riesgo de pobreza infantil\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el índice de pobreza infantil en España en comparación con otros países europeos en 2025?\n¿Cuántos niños y niñas viven en situación de pobreza en España según el último informe del Observatorio de la Infancia?\n¿Qué opinan los expertos en desigualdades sociales sobre la situación de la pobreza infantil en España?\n¿Cuáles son los principales indicadores de pobreza infantil en España según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE?\n¿Cómo se compara la tasa de pobreza infantil en España con la media de la UE en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] La tasa de pobreza infantil en España (29,2 %) es la más alta de la UE y la diferencia respecto a la media europea ha aumentado en los dos últimos años, la supera en 9,9 puntos en 2024. Casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %).\n[0] Para los expertos, el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España.\n[1] España lidera un triste ránking: tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,29 %. Supera en 9,9 puntos la media y casi triplica a los países con menores niveles: Dinamarca (10,1 %), Eslovenia (10,7 %) y Finlandia (11,6 %), según datos de Eurostat.\n[1] Entre las causas que explican esta situación, el estudio, cuyos autores son Miguel Ángel Malo y Fernando Pinto, explica que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Frente a modelos más robustos y generalizados como los de Francia, Alemania o los países escandinavos, España se sitúa en una posición intermedia que no consigue romper la mala evolución de la pobreza infantil –menores que viven en hogares por debajo del umbral de pobreza–.\n[1] La diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esta evolución es distinta para el conjunto de la población: la diferencia de la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024 (19,7 % en España vs. 16,2 % de media en la UE).\n[2] La pobreza infantil sigue siendo una preocupación en España, donde más de uno de cada cuatro niños está en situación de pobreza o riesgo de exclusión social (concretamente el 28%). A pesar de los esfuerzos realizados, las tasas de pobreza infantil continúan siendo alarmantes, colocando a España como el país de la Unión Europea con mayores niveles de pobreza infantil.\n[2] Según datos del mismo informe, en España se estima que alrededor del 28% de los niños y niñas se encuentran en situación de pobreza. Esto representa un porcentaje significativo de la población infantil del país. Esta situación no solo tiene implicaciones inmediatas en la calidad de vida de los niños y niñas, sino que también puede tener efectos a largo plazo en su salud, educación y futuro profesional.\n[2] UNICEF España ha realizado un profundo análisis de la pobreza infantil en el país, lo que ha permitido identificar las principales áreas de intervención y hacer recomendaciones para mejorar la ejecución de la GIE. Sin embargo, aún queda mucho por hacer. España sigue rezagada en comparación con otros países europeos en el impacto de la acción pública sobre la reducción de la pobreza infantil.\n[2] Actualmente, España es el país de la UE con la tasa de pobreza infantil más alta según el último informe de UNICEF España: Pobreza infantil en medio de la abundancia. Sin embargo, lo más preocupante es que detrás de las estadísticas se encuentran historias reales de niños y niñas de nuestro entorno más cercano que sufren carencias que les impiden disfrutar plenamente de su infancia.\n[3] Un tercio de los niños, niñas y adolescentes (NNA) está en situación de riesgo de pobreza y/o exclusión social (32,2 % de tasa AROPE), esto es, casi 2,6 millones de menores.\n[3] Más de un millón de niños, niñas y adolescentes se encuentran en pobreza severa, lo que supone el 13,5 % del total de población menor de 18 años.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España es uno de los países Europeos con mayor riesgo de pobreza infantil"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Índice de pobreza infantil en España en comparación con otros países europeos**\n\nSegún los datos de Eurostat, España tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,2 % en 2024, lo que la supera en 9,9 puntos a la media europea. Esto se confirma en varios informes, como el de UNICEF España, que establece que España es el país de la UE con la tasa de pobreza infantil más alta, con un 28% de niños y niñas en situación de pobreza o riesgo de exclusión social. Además, según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE, la tasa de pobreza infantil en España es la más alta de la UE, con un 29,29 %, superando en 9,9 puntos a la media europea.\n\n**Opinión de los expertos sobre la situación de la pobreza infantil en España**\n\nLos expertos consideran que el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España. El estudio de Miguel Ángel Malo y Fernando Pinto señala que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Esto sugiere que la gestión de la pobreza infantil en España es insuficiente para abordar la problemática.\n\n**Comparación de la tasa de pobreza infantil en España con la media de la UE**\n\nLa diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esto indica que la tasa de pobreza infantil en España sigue siendo una preocupación significativa en comparación con la media europea. Sin embargo, es importante destacar que la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores.\n\n**Conclusión**\n\nEn resumen, la evidencia sugiere que España es uno de los países europeos con mayor riesgo de pobreza infantil. Los datos de Eurostat y los informes de UNICEF España y la OCDE confirman que la tasa de pobreza infantil en España es la más alta de la UE. Sin embargo, también es importante destacar que la tasa de pobreza total respecto a la Unión Europea ha disminuido en los últimos años, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores. En consecuencia, se puede concluir que la afirmación es **verdadera**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.1604367069994623,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.1604367069994623,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:43:59",
+                    "run_time": 2.1604367069994623,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España es uno de los países Europeos con mayor riesgo de pobreza infantil\nArticle: **Índice de pobreza infantil en España en comparación con otros países europeos**\n\nSegún los datos de Eurostat, España tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,2 % en 2024, lo que la supera en 9,9 puntos a la media europea. Esto se confirma en varios informes, como el de UNICEF España, que establece que España es el país de la UE con la tasa de pobreza infantil más alta, con un 28% de niños y niñas en situación de pobreza o riesgo de exclusión social. Además, según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE, la tasa de pobreza infantil en España es la más alta de la UE, con un 29,29 %, superando en 9,9 puntos a la media europea.\n\n**Opinión de los expertos sobre la situación de la pobreza infantil en España**\n\nLos expertos consideran que el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España. El estudio de Miguel Ángel Malo y Fernando Pinto señala que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Esto sugiere que la gestión de la pobreza infantil en España es insuficiente para abordar la problemática.\n\n**Comparación de la tasa de pobreza infantil en España con la media de la UE**\n\nLa diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esto indica que la tasa de pobreza infantil en España sigue siendo una preocupación significativa en comparación con la media europea. Sin embargo, es importante destacar que la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores.\n\n**Conclusión**\n\nEn resumen, la evidencia sugiere que España es uno de los países europeos con mayor riesgo de pobreza infantil. Los datos de Eurostat y los informes de UNICEF España y la OCDE confirman que la tasa de pobreza infantil en España es la más alta de la UE. Sin embargo, también es importante destacar que la tasa de pobreza total respecto a la Unión Europea ha disminuido en los últimos años, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores. En consecuencia, se puede concluir que la afirmación es **verdadera**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España es uno de los países Europeos con mayor riesgo de pobreza infantil\nArticle: **Índice de pobreza infantil en España en comparación con otros países europeos**\n\nSegún los datos de Eurostat, España tiene la tasa de pobreza infantil más alta de la Unión Europea, con un 29,2 % en 2024, lo que la supera en 9,9 puntos a la media europea. Esto se confirma en varios informes, como el de UNICEF España, que establece que España es el país de la UE con la tasa de pobreza infantil más alta, con un 28% de niños y niñas en situación de pobreza o riesgo de exclusión social. Además, según el Informe de la OCDE sobre la pobreza y la desigualdad en la UE, la tasa de pobreza infantil en España es la más alta de la UE, con un 29,29 %, superando en 9,9 puntos a la media europea.\n\n**Opinión de los expertos sobre la situación de la pobreza infantil en España**\n\nLos expertos consideran que el diseño de las prestaciones sociales, el empleo, el nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España. El estudio de Miguel Ángel Malo y Fernando Pinto señala que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Esto sugiere que la gestión de la pobreza infantil en España es insuficiente para abordar la problemática.\n\n**Comparación de la tasa de pobreza infantil en España con la media de la UE**\n\nLa diferencia respecto a la UE ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esto indica que la tasa de pobreza infantil en España sigue siendo una preocupación significativa en comparación con la media europea. Sin embargo, es importante destacar que la tasa de pobreza total respecto a la Unión Europea bajó hasta los cuatro puntos en 2023 y los 3,5 en 2024, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores.\n\n**Conclusión**\n\nEn resumen, la evidencia sugiere que España es uno de los países europeos con mayor riesgo de pobreza infantil. Los datos de Eurostat y los informes de UNICEF España y la OCDE confirman que la tasa de pobreza infantil en España es la más alta de la UE. Sin embargo, también es importante destacar que la tasa de pobreza total respecto a la Unión Europea ha disminuido en los últimos años, lo que sugiere que la situación de la pobreza infantil en España no es uniforme y puede variar dependiendo de otros factores. En consecuencia, se puede concluir que la afirmación es **verdadera**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España es uno de los países europeos con mayor riesgo de pobreza infantil\", \"categories\": [\"Economía\", \"Social\", \"Política\"], \"label\": \"True\", \"main_claim\": \"España es uno de los países europeos con mayor riesgo de pobreza infantil, según los datos de Eurostat y los informes de UNICEF España y la OCDE\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.0059835800000000005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

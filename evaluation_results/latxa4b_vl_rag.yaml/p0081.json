@@ -1,0 +1,666 @@
+{
+    "question": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España",
+    "answer": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España, según los datos del Ministerio de Sanidad para 2025. La media nacional de gasto sanitario per cápita alcanza 1.757 euros por persona, mientras que Madrid se sitúa en la parte baja del ranking con 1.482,25 euros por habitante, lo que la convierte en la que menos invierte en este ámbito [1]. Esta cifra contrasta con la de Asturias, que lidera el gasto por habitante con 2.422,28 euros [1]. Además, la media española para 2025 se estima en 1.944 euros per cápita, lo que sitúa a Madrid a menos de 500 euros por debajo de la media nacional [1]. La Organización Mundial de la Salud también refleja que la media de la UE en 2025 se sitúa en 2.558 euros por habitante, por debajo de la media española [1]. Países como Alemania (5.054 euros) o Francia (3.904 euros) duplican o triplican el gasto sanitario de España, lo que resalta aún más la brecha con Madrid [1].\n\nNo obstante, la Comunidad de Madrid destina un presupuesto anual significativo a sanidad, con 5 millones de euros para la mejora de los servicios de hospitalización a domicilio y 5 millones para aspectos innovadores como la telemedicina [2]. Además, Madrid aporta al Fondo de Garantía de los Servicios Públicos Fundamentales el 76,9% de la parte autonómica, lo que demuestra su solidaridad con el resto de regiones [3]. Aunque estos datos reflejan una menor inversión por habitante, no indican una falta de recursos totales, sino una distribución de fondos que prioriza otros aspectos de la política pública [3]. La distribución de fondos dentro de Madrid también incluye inversiones en innovación sanitaria, lo que sugiere una apuesta por la eficiencia y la modernización de los servicios [2].\n\n**Conclusión:** La afirmación es **verdadera** según los datos del Ministerio de Sanidad y la Organización Mundial de la Salud, que sitúan a Madrid como la comunidad autónoma con menor gasto en sanidad por habitante en 2025 [1]. La brecha con otras comunidades, como Asturias o la media nacional, es notable, y la falta de recursos per cápita contrasta con la aportación solidaria de Madrid a fondos comunitarios [3]. No obstante, la Comunidad de Madrid no solo invierte menos por habitante, sino que también destina fondos a innovación y mejora de servicios, lo que indica una estrategia de eficiencia y modernización en la atención sanitaria [2].",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elsaltodiario.com/comunidad-madrid/comunidad-madrid-continuara-siendo-menos-invierte-sanidad-habitante-2025",
+            "source": "www.elsaltodiario.com",
+            "favicon": "https://www.elsaltodiario.com/uploads/avatars/h50/avatar_web.png?v=63919094557"
+        },
+        "2": {
+            "url": "https://www.comunidad.madrid/noticias/2025/10/29/comunidad-madrid-aumentara-575-millones-su-inversion-atencion-primaria-hospitalaria-2026",
+            "source": "www.comunidad.madrid",
+            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg"
+        },
+        "3": {
+            "url": "https://www.comunidad.madrid/gobierno/hacienda/presupuestos-generales-comunidad-madrid-2025",
+            "source": "www.comunidad.madrid",
+            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España",
+        "categories": [
+            "Sanidad",
+            "Política pública",
+            "Economía"
+        ],
+        "label": "True",
+        "main_claim": "Madrid es la comunidad autónoma con menor gasto en sanidad por habitante, a pesar de su aportación solidaria a fondos comunitarios y inversiones en innovación",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.336839212000996,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.336839212000996,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:04:39",
+                    "run_time": 4.336839212000996,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nMadrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\n\n**Critical Research Questions:**\n1. ¿Cuál es el gasto en sanidad por habitante en Madrid según los datos del Ministerio de Sanidad en 2025?\n2. ¿Cómo se compara el gasto en sanidad por habitante de Madrid con otras comunidades autónomas en 2025?\n3. ¿Cuáles son los datos de la Organización Mundial de la Salud sobre el gasto sanitario per cápita en España en 2025?\n4. ¿Cuál es el presupuesto anual de la Comunidad de Madrid destinado a sanidad en 2025?\n5. ¿Cómo se distribuyen los fondos en sanidad dentro de la Comunidad de Madrid en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"gasto en sanidad por habitante Madrid 2025 Ministerio de Sanidad España\", \"comparativa gasto sanitario per cápita comunidades autónomas 2025 OMS\", \"presupuesto anual Comunidad de Madrid sanitario 2025\", \"distribución fondos sanidad Madrid 2025 Ministerio de Sanidad\", \"gasto sanitario per cápita España 2025 OMS Ministerio de Sanidad\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 4.49338422800065,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 4.49338422800065,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:04:43",
+                    "run_time": 4.49338422800065,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "gasto en sanidad por habitante Madrid 2025 Ministerio de Sanidad España",
+                                "comparativa gasto sanitario per cápita comunidades autónomas 2025 OMS",
+                                "presupuesto anual Comunidad de Madrid sanitario 2025",
+                                "distribución fondos sanidad Madrid 2025 Ministerio de Sanidad",
+                                "gasto sanitario per cápita España 2025 OMS Ministerio de Sanidad"
+                            ],
+                            "results": {
+                                "gasto en sanidad por habitante Madrid 2025 Ministerio de Sanidad España | comparativa gasto sanitario per cápita comunidades autónomas 2025 OMS | presupuesto anual Comunidad de Madrid sanitario 2025 | distribución fondos sanidad Madrid 2025 Ministerio de Sanidad | gasto sanitario per cápita España 2025 OMS Ministerio de Sanidad": [
+                                    {
+                                        "text": "Madrid, 9 de diciembre de 2025.- El Ministerio de Sanidad ha publicado el Informe 2025 sobre la evaluación de la sanidad privada en el sistema sanitario de España (SNS), un análisis integral sobre la evolución de la participación privada en la prestación de servicios sanitarios públicos durante las dos últimas décadas.\n\nEl estudio concluye que la colaboración con entidades privadas ha pasado de ser un recurso excepcional para convertirse en una práctica estructural, lo que implica desviar una parte creciente del presupuesto público a empresas cuya lógica responde al beneficio, no al interés general.\n\nAumento del peso de la gestión privada en la red pública\n\nEl número de hospitales privados integrados en el SNS ha aumentado de 106 en 2011 a 145 en 2023, lo que representa un crecimiento del 36,8 %. Estos centros, considerados de dependencia funcional privada, ya suponen el 30,7 % del total de hospitales del SNS.\n\nAdemás, la proporción de camas operativas que pertenece a los centros privados dentro del SNS ha pasado del 13,7 % en 2011 al 17,8 % en 2023 y la proporción de quirófanos que pertenece a estos centros ha crecido del 8% al 10,7%. Este fenómeno se concentra especialmente en comunidades como Cataluña y la Comunidad Foral de Navarra donde la red privada representa una parte sustancial de la infraestructura asistencial.\n\nEl único ámbito en el que la dotación y la actividad asistencial aumenta en los hospitales privados que no pertenecen al SNS es en lo relacionado con la realización de pruebas diagnósticas.\n\nUso de fondos públicos en centros sanitarios privados\n\nEn 2023, el 34,6 % de las estancias hospitalarias y el 17,6 % de las altas registradas en centros de gestión privada no pertenecientes al SNS fueron financiadas con fondos públicos. Asimismo, alrededor del 21 % de las intervenciones de cirugía mayor ambulatoria y de las sesiones de hospitalización de día realizadas en estos centros recibieron financiación del Sistema Nacional de Salud.\n\nEl informe subraya que este modelo de colaboración no ha demostrado mejoras significativas en eficiencia ni en resultados de salud y advierte sobre los riesgos que supone una transferencia progresiva de gasto público hacia la gestión privada en términos de planificación y control del sistema.\n\nCobertura de los diagnósticos más frecuentes por el SNS\n\nEl informe analiza en qué ámbito se abordan principalmente los casos de los diagnósticos más frecuentes registrados en el sistema sanitario. En 2023, a nivel del conjunto del sistema sanitario, entre el 70-80 % de los contactos que se registraron de los diagnósticos más prevalentes, como los traumatismos, las infecciones agudas del tracto respiratorio superior o el seguimiento de quimioterapia o inmunoterapia se atendieron en hospitales del Sistema Nacional de Salud.\n\nAl estudiar en qué centros hospitalarios se abordan los procesos asistenciales más costosos, como los relacionados con trasplantes, neonatos con bajo peso al nacer o procedimientos que requieren una traqueostomía u oxigenación por membrana extracorpórea, la cobertura por parte de hospitales del Sistema Nacional de Salud es, en la mayoría de los casos, superior al 95%.\n\nRiesgos estructurales identificados\n\nEntre los principales riesgos que el informe asocia a este modelo mixto destacan:\n\n• Fragmentación de la red asistencial.\n\n• Brechas salariales y de condiciones laborales del personal.\n\n• Pérdida de capacidad pública de planificación.\n\n• Riesgos de sobrecoste y escasa trazabilidad en facturación.\n\n• Atención selectiva por parte del sector privado, que concentra los casos menos complejos.\n\nAseguramiento privado en expansión\n\nEl informe también recoge la evolución del aseguramiento privado, que ha experimentado un notable crecimiento en los últimos años. En 2024, el 32,6 % de la población española disponía de un seguro médico privado, frente al 17,2 % en 2018, lo que representa un incremento casi el doble. Este aumento ha sido especialmente significativo en comunidades como Extremadura (+296,4 %), Ceuta (270,8 %), Cantabria (247,8 %) y la Comunidad Valenciana (234,8 %).\n\nA pesar de este incremento en el aseguramiento privado, los resultados muestran una proporción mayor de personas que prefieren acudir a los servicios sanitarios públicos, especialmente en aquellos ámbitos relacionados con la atención primaria (69,9 %) o con una mayor complejidad o gravedad, como la atención urgente (72,6 %) y los ingresos hospitalarios (76,1 %). Estos datos se corresponden con un mayor porcentaje de personas que acudieron a centros sanitarios públicos frente a privados en el último año en el ámbito de la atención primaria (91,5 % frente a 32,0 %), los ingresos hospitalarios (75,9 % frente a 28,6 %) y la atención urgente (86,4 % frente a 26,0 %)\n\nEl documento identifica la pandemia de COVID-19 como un punto de inflexión en esta tendencia. A partir de 2020, se aceleró la contratación de pólizas privadas como respuesta a la percepción de saturación del sistema público, el incremento de los tiempos de espera y la búsqueda de una atención más rápida y accesible, especialmente en consultas diagnósticas y especializadas.\n\nEste fenómeno, unido al crecimiento de la provisión privada dentro del SNS, configura un escenario en el que el sistema sanitario público comparte cada vez más funciones asistenciales y recursos con operadores privados. Ante esta realidad, el Ministerio de Sanidad subraya la necesidad de reforzar la planificación pública, garantizar la equidad territorial y asegurar que toda financiación pública —directa o indirecta— se destine exclusivamente al interés general y a los principios que rigen el Sistema Nacional de Salud.\n\nConclusión: refuerzo de la sanidad pública\n\nEl informe concluye que, aunque el sistema público sigue siendo el principal garante del derecho a la salud, la tendencia actual debilita los principios fundacionales del SNS.\n\nPor ello recomienda:\n\n• Reforzar los mecanismos de auditoría y control de la actividad privada financiada con recursos públicos.\n\n• Exigir a los centros concertados la publicación sistemática de indicadores clínicos.\n\n• Promover la gestión pública directa como la opción preferente de prestación de servicios sanitarios para unos mejores resultados en salud y un control óptimo de los recursos públicos.",
+                                        "metadata": {
+                                            "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6809",
+                                            "source": "www.sanidad.gob.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "El Ministerio de Sanidad alerta de la creciente ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sanidad.gob.es",
+                                            "snippet": "El gasto total en hospitales privados pertenecientes al SNS se incrementó un 84,6 % entre 2011 y 2023, alcanzando los 4,8 mil millones de euros ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.\n\nLos datos, que se desprenden del análisis que realiza de manera periódica la Federación de Asociaciones en Defensa de la Sanidad Pública (FDSAP), indican que, en promedio, se ha producido un crecimiento per cápita respecto a 2024 del 1,04%, esto es, 72,34 euros más. Desde FADSP valoran este crecimiento como “insuficiente”, teniendo en cuenta que la inflación prevista para 20025 alcanzará el 2,8%.\n\nLa media española de gasto sanitario para 2025 será de 1.944 euros per cápita. Países como Alemania duplican esta cifra, con 5.054 euros\n\nAdemás, según los datos de 2022, recopilados por el Ministerio de Sanidad, la media de la UE se sitúa en los 2.558 euros por habitante, por debajo de la media española para 2025 que será de 1.944 euros. Países como Alemania duplican el gasto español, con 5.054 euros per cápita. También superan los presupuestos de 2025 de España países como Francia, con 3.904 euros o Italia con 2.217 euros.\n\nDesde FDASP destacan unas diferencias excesivas entre comunidades: 940 euros por habitante entre la Comunidad Autónoma que más dedica y la que menos presupuesta. “Evidentemente una variabilidad tan amplia dificulta que se puedan proveer los mismos servicios sanitarios, en cantidad y en calidad, y rompe con la necesaria equidad y cohesión entre las comunidades autónomas”, aseguran desde esta federación.",
+                                        "metadata": {
+                                            "url": "https://www.elsaltodiario.com/comunidad-madrid/comunidad-madrid-continuara-siendo-menos-invierte-sanidad-habitante-2025",
+                                            "source": "www.elsaltodiario.com",
+                                            "favicon": "https://www.elsaltodiario.com/uploads/avatars/h50/avatar_web.png?v=63919094557",
+                                            "title": "La Comunidad de Madrid continuará siendo la que menos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elsaltodiario.com",
+                                            "snippet": "La Comunidad de Madrid continuará siendo la que menos invierte en sanidad por habitante en 2025. La media de la UE de gasto sanitario se sitúa ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Gasto sanitario per cápita por CCAA en 2025: el mapa de la inversión por habitante en España\n\nMadrid y Cataluña, a la cola en gasto sanitario per cápita en 2025.\n\nEl gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025. Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad, Asturias lidera la inversión por habitante, mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.. Los últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor. Ranking por inversión per cápita (euros por habitante, 2025) (Presupuestos iniciales consolidados de la Función Sanidad) Posición CCAA Euros por habitante 1 Asturias 2.436 2 País Vasco 2.305 3 Extremadura 2.259 4 Navarra 2.211 5 Cantabria 2.061 6 Aragón 2.055 7 Castilla y León 2.040 8 Canarias 2.036 9 Galicia 2.010 10 Illes Balears 1.995 11 La Rioja 1.924 12 Castilla-La Mancha 1.777 13 Andalucía 1.764 14 Comunitat Valenciana 1.595 15 Murcia 1.580 16 Madrid 1.468 17 Cataluña 1.442 — Media España 1.757 La diferencia entre la mayor y la menor inversión per cápita se acerca al 69%, señal de una brecha territorial persistente en la financiación sanitaria Claves y metodología oficial El Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos. El indicador de euros por habitante procede de los presupuestos iniciales consolidados e incorpora población oficial del INE Qué explica la brecha La estructura demográfica, el peso del gasto farmacéutico, las plantillas y la red hospitalaria condicionan el esfuerzo por habitante. Además, los distintos ritmos de aprobación presupuestaria y las decisiones sobre conciertos y capítulo I (personal) influyen en la comparativa anual. Varios análisis periodísticos y sectoriales han señalado en 2025 un récord de desigualdad entre regiones, en línea con los datos oficiales. Cómo queda el mapa: lectura rápida Líderes: Asturias, País Vasco y Extremadura superan los 2.250–2.400 euros por persona. Media: España se sitúa en 1.757 euros. Cola: Cataluña (1.442) y Madrid (1.468) cierran la tabla, con Comunitat Valenciana (1.595) y Murcia (1.580) también por debajo de la media.\n\nEl gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.\n\nLos últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor.\n\nRanking por inversión per cápita (euros por habitante, 2025)\n\n(Presupuestos iniciales consolidados de la Función Sanidad)\n\nPosición CCAA Euros por habitante 1 Asturias 2.436 2 País Vasco 2.305 3 Extremadura 2.259 4 Navarra 2.211 5 Cantabria 2.061 6 Aragón 2.055 7 Castilla y León 2.040 8 Canarias 2.036 9 Galicia 2.010 10 Illes Balears 1.995 11 La Rioja 1.924 12 Castilla-La Mancha 1.777 13 Andalucía 1.764 14 Comunitat Valenciana 1.595 15 Murcia 1.580 16 Madrid 1.468 17 Cataluña 1.442 — Media España 1.757\n\nLa diferencia entre la mayor y la menor inversión per cápita se acerca al 69%, señal de una brecha territorial persistente en la financiación sanitaria\n\nClaves y metodología oficial\n\nEl Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos.\n\nEl indicador de euros por habitante procede de los presupuestos iniciales consolidados e incorpora población oficial del INE\n\nQué explica la brecha\n\nLa estructura demográfica, el peso del gasto farmacéutico, las plantillas y la red hospitalaria condicionan el esfuerzo por habitante. Además, los distintos ritmos de aprobación presupuestaria y las decisiones sobre conciertos y capítulo I (personal) influyen en la comparativa anual. Varios análisis periodísticos y sectoriales han señalado en 2025 un récord de desigualdad entre regiones, en línea con los datos oficiales.\n\nCómo queda el mapa: lectura rápida",
+                                        "metadata": {
+                                            "url": "https://www.elboletin.com/gasto-sanitario-per-capita-por-ccaa-en-2025-el-mapa-de-la-inversion-por-habitante-en-espana/",
+                                            "source": "www.elboletin.com",
+                                            "favicon": "https://www.elboletin.com/wp-content/uploads/2021/02/cropped-favi-32x32.png",
+                                            "title": "Gasto sanitario per cápita por CCAA en 2025: el mapa de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elboletin.com",
+                                            "snippet": "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025. Con los presupuestos iniciales ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El cuadro macroeconómico de las grandes cuentas para el próximo año tiene el aval de la Autoridad Independiente de la Responsabilidad Fiscal (AIReF) y suma un total de 28.662 millones de euros, un +4% con respecto a 2024, en los segundos presupuestos regionales consecutivos de la Legislatura iniciada hace dos años.\n\nDe esta forma, el gasto social supone 9 de cada 10 euros del Presupuesto (22.889 millones) para el próximo año, con +764 millones más que en el ejercicio anterior. En cuanto al segundo puntal del proyecto, las inversiones en la mejora de los servicios públicos, destacan la ampliación de las líneas 5 y 11 de Metro, la Ciudad de la Justicia en Valdebebas y la nueva Ciudad de la Salud en el entorno del actual Hospital Universitario de La Paz.\n\nEl Presupuesto de 2025 para la Comunidad de Madrid sube 1.104 millones más para marcar otro récord y se consolida así el esfuerzo de los últimos años, que ha supuesto un incremento del +42% tomando como referencia las cuentas de 2019, año en el que Isabel Díaz Ayuso asumió por primera vez el cargo de presidenta de la Comunidad de Madrid. El proyecto de Ley será remitido mañana a la Asamblea de Madrid para que comience su tramitación parlamentaria de cara a su entrada en vigor el próximo 1 de enero.\n\nAunque todas las Consejerías verán incrementados los recursos que tendrán que gestionar –eliminando las distorsiones del Mecanismo de Recuperación y Resiliencia-, serán Sanidad (+294 millones), Educación (+239,5), Vivienda, Transportes e Infraestructuras (+197,1) y Familia, Juventud y Asuntos Sociales (+84,5) las que cuenten con un mayor incremento en términos absolutos. Además, se ha realizado un importante esfuerzo de más del 10% para Digitalización, de cara a hacer frente a los retos de la revolución tecnológica.\n\nRebajas fiscales en la región más solidaria de España\n\nLas cuentas se sostienen en los principios que han convertido a la Comunidad de Madrid en la primera economía de España con su política de bajos impuestos, que han permitido alcanzar de cara al año que viene un nuevo récord absoluto en los recursos dedicados a los servicios públicos y, al mismo tiempo, continuar siendo la región más solidaria del país: aportará en 2025 un total de 7.125 millones al Fondo de Garantía de los Servicios Públicos Fundamentales y otros 1.139 al Fondo de Suficiencia Global.\n\nEn cuanto a las rebajas fiscales de las que se beneficiarán los ciudadanos en el próximo ejercicio fiscal, destaca la bonificación del 100% del Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para la adquisición de inmuebles por parte de los afectados por la Línea 7B de Metro. Además de esta medida concreta, las cuentas recogen los efectos de las sucesivas leyes autonómicas llevadas a cabo por Díaz Ayuso en materia tributaria y que han supuesto que 31.300 millones sigan en manos de los contribuyentes madrileños.\n\nAl margen de las cuentas regionales para el próximo año, en la actualidad se están tramitando en la Asamblea de Madrid nuevas deducciones para acceder a una vivienda, luchar contra la despoblación en los pequeños municipios y para atraer nuevas inversiones.\n\nNueva Ciudad de la Salud e inversión en atención primaria\n\nLa Sanidad madrileña vuelve a ser la que acapara la mayor parte de los recursos, con 10.459 millones de euros y un incremento del +2,9%. Se trata un año más del presupuesto más elevado de la historia y más de 2.622 millones (subida del +2%) recaerán en la Atención Primaria, de cara a contar con más profesionales y 16 nuevas infraestructuras. Para estos centros, el proyecto de la Ciudad de la Salud en el entorno del Hospital Universitario de La Paz), y para la creación de un Centro de Neurorrehabilitación funcional en el Hospital Enfermera Isabel Zendal se van a aportar 380 millones de euros.\n\nLa inversión en Atención Primaria no ha parado de crecer bajo los Gobiernos de Díaz Ayuso y sus tres Presupuestos aprobados desde 2019. Desde entonces el incremento para esta área fundamental de la sanidad pública madrileña ha llegado a avanzar en +643 millones de euros, pasando de menos de 2.000 millones a sobrepasar los 2.600 en el ejercicio de 2025.\n\nEn materia de prestaciones habrá más recursos para los pacientes de ELA, que contarán con una nueva planta de hospitalización del Hospital Santa Cristina, así como una residencia en el antiguo Puerta de Hierro para la que se realizarán las obras que requiera para su adaptación.\n\nTambién se van a destinar 411,5 millones para poner en marcha la Agencia de Contratación Sanitaria que centralizará la compra de material, tecnología y servicios con el objetivo de ganar en agilidad y eficiencia. Por último, en lo que se refiere a los recursos humanos, se contempla reducir al máximo la temporalidad de los trabajadores, incorporando como personal estatutario fijo a más de 6.000 profesionales.\n\nRécord de becas y ayudas al esudio\n\nUna cuarta parte del total de las cuentas de la Comunidad de Madrid recaerá en la Educación, que tendrá un incremento de fondos del +3,7%, alcanzando los 6.657 millones. Del total, se destinarán 122 millones para adaptar, al menos, 25 colegios de Infantil y Primaria ya existentes para que puedan extender su oferta a 1º y 2º de la ESO a partir del próximo curso 2025/26. En Secundaria y FP la inversión se incrementa en 115 millones, con una subida del +8,7%, y potenciando la figura de los mentores de FP para orientación y acompañamiento de los estudiantes.\n\nEn estas etapas habrá una asignación récord en becas y ayudas, incrementándose ésta en 5,7 millones y alcanzando los 254. Además, se incrementarán las plantillas para hacer efectivas la bajada del número de alumnos por clase y un mayor apoyo a la atención a la diversidad.\n\nLas universidades públicas contarán el año que viene con 1.122 millones de euros, con el fin de garantizar unas enseñanzas de calidad y, entre otros objetivos, fomentar la investigación. Precisamente en este último campo crecerá el presupuesto un +36%, para llevar a cabo planes específicos en I+D+i y transferencia tecnológica.\n\nImcremento de fondos para facilitar el acceso a la vivienda\n\nEl Gobierno regional ha puesto el foco en lograr que todos los madrileños puedan acceder a una vivienda y, por ello, las políticas en esta materia contarán el año que viene con 669 millones de euros, con un aumento del +34%. Con estos recursos se pretende entregar las llaves de 3.000 hogares en régimen de alquiler asequible, así como facilitar que las personas más vulnerables puedan acceder a ellos. En cuanto a las ayudas para la rehabilitación, accesibilidad y eficiencia energética destaca el nuevo Plan de Ascensores, dotado con 23,2 millones de euros.\n\nLos fondos que gestionará la Consejería de Vivienda, Transportes e Infraestructuras, que ascienden a 3.290 millones con una subida del +6,4%, también prevén realizar un fuerte desembolso en la ampliación y modernización de Metro, que contará con casi 300 millones para la ampliación de la Línea 11 así como para distintas actuaciones en la 3 y 5. Además, se mejorará y ampliará la red autonómica de carreteras, con un presupuesto de 227,7 millones.\n\nRefuerzo de la atención a la dependencia\n\nLos madrileños más vulnerables son una prioridad para el Ejecutivo autonómico, por lo que la cuantía destinada a la Atención a la Dependencia va a crecer un +11,9%, hasta superar los 714 millones, y poder así reducir plazos de reconocimiento e incrementar las ayudas económicas, que aumentarán hasta un 50% con 40 millones más. Con este refuerzo, serán más los mayores y personas con discapacidad que recibirán una asistencia de calidad a través del servicio de ayuda a domicilio, la atención residencial o diurna y la personal.\n\nEl apoyo a la familia es otro de los pilares de la gestión de los recursos asignados a la Consejería de Familia, Juventud y Asuntos Sociales, que incrementa su partida en un +3,2% hasta llegar a los 2.694 millones. De esta forma, se destinará una inversión récord de 117 millones en ayudas directas a la natalidad. A estas se suma la creación de la nueva tarjeta de padres de familia numerosa y el impulso en materia de acogida residencial y centros infantiles. Estas junto a otras iniciativas recogidas en los Presupuestos de 2025 consolidan a la región como la mejor de Europa para formar una familia.\n\nComenzarán las obras del mayor complejo judicial del mundo\n\nLa Consejería de Presidencia, Justicia y Administración Local aumenta su dotación un +12,6% y se fija en los 1.137 millones. 2025 será el año en el que comiencen las obras de la Ciudad de la Justicia que se ubicará en Valdebebas. Contarán con 88,5 millones iniciales que servirán para diseñar e iniciar las obras del complejo más grande y moderno del mundo. También se prevé la construcción de nuevas sedes judiciales en Collado Villalba y Móstoles. En este ámbito también se destinarán 62,9 millones para reforzar la asistencia jurídica gratuita y el turno de oficio.\n\nPor otra parte, se desarrollarán diversos programas para garantizar los servicios e infraestructuras públicos y favorecer el reequilibrio territorial, al que se destinarán 252 millones que se emplearán en distintas acciones en municipios: ampliación del parque de vivienda local; ayudas a comercios, hostelería y farmacias; y el plan de embellecimiento.\n\nEnergías renovables e impulso a los productos autóctonos\n\nLas cuentas de 2025 apuntan un incremento de más del +10% para las acciones de la Consejería de Medio Ambiente, Agricultura e Interior. Del total de los 716 millones, más de 145 se emplearán para la descarbonización, la mejora de la movilidad, el fomento de las energías renovables, el abandono de las tecnologías obsoletas y la mejor gestión de los residuos. Se trata de un +42,3% adicional a lo que se asignó en 2024.\n\nLa agricultura y ganadería madrileñas van a contar con 63,6 millones, que servirán para poner en marcha medidas novedosas como la promoción de los productos agroalimentarios de la región a través de una tienda física y una plataforma de venta virtual.\n\nLa mayor partida de esta área de Gobierno será la que se dirija a la Agencia de Seguridad y Emergencias de la Comunidad de Madrid 112 (ASEM 112), con 359 millones (un +5,7% con respecto al año pasado). Se emplearán, entre otras iniciativas, en modernizar la red TETRA de comunicaciones, para mejorar la coordinación entre los servicios que la integran, de cara a poder responder con mayor celeridad y agilidad a las emergencias.\n\nUn paso más en la búsqueda del pleno empleo\n\nLa Consejería de Economía, Hacienda y Empleo tiene en su horizonte el pleno empleo, y, para ello, hará un esfuerzo para sumar al mercado de trabajo a aquellos colectivos con mayor dificultad para acceder al mismo. De esta forma, y dentro del Plan de Empleo Joven, pondrá a disposición de los ciudadanos el nuevo cheque formación, dotado con 9 millones de euros, así como una línea de ayudas a jóvenes sin estudios, dotada con 13,5. En el récord de subvenciones para este fin, también destaca el incremento de un +45% de los incentivos a las empresas por cada nuevo empleado, así como el del +5,5% de los fondos para la contratación de personas con discapacidad.\n\nPara gestionar estos recursos se realizará un fuerte desembolso en digitalizar y mejorar los servicios públicos de empleo, así como en la transformación y excelencia de la atención que en ellos se presta. En este sentido, se seguirá desarrollando el Plan de Modernización y Renovación de las oficinas, que contarán con cuatro más en 2025.\n\nEl objetivo del pleno empleo no se entiende sin la prosperidad de los negocios, de los autónomos y la competitividad del tejido empresarial y todos los sectores de la economía madrileña. A ello se van a destinar 303 millones que se emplearán, entre otras medidas, en nuevas líneas de ayudas dirigidas al conglomerado industrial y a la modernización y dinamización de los mercados municipales y galerías de alimentación de nuestros municipios. También, además de respaldar a las empresas ya existentes, se continuará fomentando la atracción de inversiones foráneas de alto valor añadido, contando para ello con la labor que está desarrollando la agencia regional Invest in Madrid.\n\nInteligencia artificial para facilitar la vida a los madrileños\n\nLa Consejería de Digitalización manejará un 10% más de recursos con la finalidad de facilitar la vida a los madrileños en sus gestiones con la Administración, además de proteger sus datos y seguridad virtual. De esta forma se emplearán 10 millones de euros en diferentes proyectos basados en Inteligencia Artificial y 1 millón más para consolidar la denominada Cuenta Digital. También se desarrollarán nuevos servicios vinculados a la tarjeta sanitaria.\n\nEn materia de ciberseguridad se dotará a la Agencia creada para tal fin de 3 millones para prestar especial atención a la protección de las infraestructuras críticas y la información sobre los ciudadanos. De forma adicional se impulsará el despliegue de servicios de vigilancia avanzada y de respuesta ante posibles incidentes.\n\nNuevas infraestructuras deportivas en la región\n\nBuena parte de los fondos de la Consejería de Cultura, Turismo y Deporte se emplearán en crear o mejorar infraestructuras deportivas. Concretamente 61,9 millones se van a dedicar al Plan Renueva, que prevé inversiones como las del Estadio de Vallecas, la Piragüera de Aranjuez o la Milla Canal.\n\nTambién se invertirán 2,3 millones de euros en el Ballet Español de la Comunidad de Madrid, que será una de las insignias de la región como referente cultural internacional. Precisamente para continuar atrayendo a nuevos visitantes se continuará desarrollando la Estrategia Turística, que contará con 51 millones de euros.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/noticias/2024/10/30/comunidad-madrid-aprueba-presupuestos-2025-record-historico-sanidad-educacion-asuntos-sociales-reforzar-calidad-servicios-publicos",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "La Comunidad de Madrid aprueba los Presupuestos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "La Sanidad madrileña vuelve a ser la que acapara la mayor parte de los recursos, con 10.459 millones de euros y un incremento del +2,9%. Se ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Hay momentos, tampoco demasiados, en los que en la Asamblea de Madrid el debate no va sobre “la fruta”, los puteros, la cocaína, la mafia, o esa “dictadura” en que se ha convertido España y se pueden confrontar modelos políticos.\n\nNo sucede en las sesiones de control a la presidenta, Isabel Díaz Ayuso, ni cuando la oposición plantea cuestiones espinosas para su Gobierno, los negocios de su pareja, Alberto González Amador, o para ambos. El Pleno de Presupuestos celebrado en doble sesión esta semana ha concentrado algunos de esos momentos donde los partidos enfrentan sus programas.\n\nLa Comunidad de Madrid, con su consejera de Economía, Rocío Albert, a la cabeza, sometía las cuentas para 2026 a su último trámite: en total, serán 30.663 millones de euros, el mayor presupuesto de la historia de la Comunidad, algo que, por otra parte, sucede cada ejercicio.\n\nLas diferentes partidas se habían debatido ya en las comisiones y el resultado estaba cantado: el Gobierno de Ayuso sacaría adelante sus cuentas sin convencer a nadie: PSOE, Más Madrid y Vox ya habían anunciado su voto en contra tras haber presentado enmiendas a la totalidad que fueron desbaratadas por la mayoría del PP.\n\nLa conclusión tras varias semanas de trámites es que la oposición en bloque reniega del modelo de Ayuso para Madrid: lo venía haciendo la izquierda desde su llegada al poder en 2019 y también Vox desde 2021 en que el PP logró la mayoría absoluta y dejó de ser un socio necesario. En los últimos meses, además, la extrema derecha ha endurecido su discurso contra la lideresa madrileña, a la que ahora llama “lady Miami” y acusa de gobernar para las grandes fortunas extranjeras que se quieren instalar en la capital.\n\nEl maratón parlamentario del jueves, 12 horas y media de debate sin parada para comer, evidenció el choque de modelos. De un lado, el PP defendió Madrid como “locomotora de España”, la comunidad que tiene “la mejor sanidad”, la mejor educación, los mejores servicios y la única política de vivienda que funciona (esto último es literal), donde su presidenta, los consejeros y cada uno de los portavoces se vanaglorian de ser la única región “sin impuestos propios”. Uno tras otro, los diputados que defendieron los distintos capítulos de gasto repitieron esa idea, la de una región rica y solidaria, cuyos ingresos, que recauda a través de los tributos estatales, contribuyen a la caja común y el 82% de lo recaudado en Madrid “se lo lleva el Gobierno de Sánchez”. Con algunas alusiones a la corrupción del PSOE, mientras la número 3 de Ayuso, Ana Millán, imputada por cuatro delitos dirigió algunos tramos del Pleno como vicepresidenta de la Cámara, los diferentes portavoces del PP defendieron el modelo de Madrid, la polémica gestión sanitaria, tras los últimos escándalos del grupo Ribera Salud y Quirón, y hasta la financiación de las universidades públicas que ha llevado a la Complutense al colapso antes de pedir un crédito a la propia Comunidad para poder seguir pagando las nóminas.\n\nLa filosofía la explicó el portavoz de presupuestos, Ángel Alonso, pese a ser la comunidad más rica, que ha adelantado en PIB a Cataluña, Madrid no quiere impuestos porque el dinero está mejor en el bolsillo de los ciudadanos. Alonso justificó con los resultados electorales del PP que su Gobierno mantenga bonificaciones fiscales por 5.000 millones de euros que favorecen al 4% de la población en el impuesto de sucesiones y donaciones.\n\nPor eso, los populares defendieron unos presupuestos continuistas y las políticas del PP que los madrileños vienen avalando los últimos 30 años y culparon al Gobierno central de todos los males que sacuden a la región, y le atribuyen una deuda de 10.000 millones de euros. Se trata de una versión remasterizada del España nos roba, que hizo famoso el independentismo catalán y que ahora los populares de Madrid han versionado para culpar a Sánchez de un supuesto expolio.\n\nPese a ello, sus portavoces ratificaron que no tienen ninguna intención de aceptar la quita de deuda de más de 8.000 millones que el Ministerio de Hacienda ofreció a Madrid y que tienen a disposición todas las comunidades después de haberlo pactado el Gobierno con ERC para Catalunya.\n\nEnfrente, la oposición de Más Madrid y PSOE, enumeraron durante más de 12 horas los problemas de la atención primaria, de las listas de espera que no dejan de crecer en la región y ya suman un millón de ciudadanos, de las universidades públicas, de las residencias... para exigir un cambio de rumbo, que no se va a dar, y que implicaría abandonar “los regalos fiscales”.\n\nComo ejemplo citaron el capítulo de la Sanidad, donde el PP presupuesta 11.000 millones para 2026, tras haber certificado un gasto de 13.300 millones este año, con las partidas extraordinarias abonadas a empresas concesionarias de hospitales como el grupo Quirón, en el centro de la polémica por los pagos a Alberto González Amador, la pareja de Ayuso. Desde 2021 el gigante sanitario ha cobrado 5.000 millones de euros, el doble de lo que figuraba en las partidas presupuestarias, y a tenor de cómo se han configurado las cuentas para el año próximo esos pagos extrapresupuestarios volverán a repetirse en 2026, denunciaron los diputados de la izquierda, que cargó durante todo el debate contra las privatizaciones sanitarias. Coincidiendo con el Pleno, Más Madrid denunció ante la fiscalía las prácticas de Ribera Salud en el hospital de Torrejón, tras conocerse un audio del CEO de la empresa en el que pedía a sus directivos primar los beneficios económicos frente a la reducción de listas de espera.\n\nLa oposición habló de un modelo económico fracasado que expulsa a los ciudadanos de los barrios mientras ofrece facilidades a las rentas más ricas y recordó la invitación de Ayuso a Blackrock para que el fondo invirtiese en Madrid con la garantía de que su gobierno no intervendría en el mercado de la vivienda. En este punto, Vox ataca las políticas del PP y sus diputados le preguntan dónde están las 25.000 viviendas que prometió cuando firmaron con ella un pacto de Gobierno en 2019. En cualquier caso, la negativa de Vox a los presupuestos de Ayuso se centra en el rechazo a los inmigrantes, 700.000 personas que llegaron a Madrid en los últimos años y que según la extrema derecha son la causa del colapso de los servicios públicos, por eso piden “prioridad nacional” para atender antes en la sanidad, la educación y los servicios sociales, a los españoles. Seis millones de madrileños que hay que anteponer a los 700.000 inmigrantes, repitieron sus diputados.\n\nEl diagnóstico de la izquierda es muy diferente: si el PP no perdonase cada año más de 5.000 millones de euros en impuestos a los más ricos, habría fondos para mejorar todos esos servicios públicos. De esos “regalos fiscales”, insistió la izquierda, solo 400 millones son rebajas en el IRPF. Por eso desde Más Madrid preguntaron a los populares si creen que un ciudadano prefiere una rebaja de 46 euros al año en impuestos o tener un médico cuando le hace falta.\n\nLa prueba de que el modelo ya no funciona, expusieron distintos portavoces de Más Madrid y del PSOE durante horas, es que los seguros sanitarios hayan crecido hasta el 45% en la región. La política del “sálvese quien tenga”. La realidad es que Madrid está a la cola en el gasto sanitario por habitante y por universitario. La respuesta de los populares fue culpar al Ministerio y a Mónica García de la falta de médicos en toda España y alegar que las últimas huelga contra su estatuto marco, van a aumentar las esperas en toda España. Más Madrid respondió que la Consejería de Sanidad no logra retener ni a la mitad de los médicos que se forman en la región por las malas condiciones que ofrecen. Y lamentó que el modelo de Ayuso sea tener los hospitales públicos cerrados por las tardes mientras manda a los pacientes a hacerse pruebas de madrugada a centros privatizados.\n\nLa política sanitaria centró buena parte de los debates y la oposición al completo cargó contra el nuevo plan de la atención primaria para que el paciente deje de ser atendido por su médico de cabecera y lo atienda otro. Todos los portavoces, también una diputada de Vox, médica de profesión, dieron por hecho que el sistema generará dobles consultas y problemas de atención a los pacientes crónicos que necesitan un seguimiento continuado por parte del mismo médico.\n\nEl discurso del PP se mantiene en que todo es una campaña de Moncloa para desprestigiar a Madrid, lo había dicho la presidenta en su balance anual y a ello se apuntaron varios de sus portavoces parlamentarios. Según esa tesis, Sánchez quiere también “reventar la universidad” madrileña para hacer campaña con ello de cara a las próximas generales.\n\nLa realidad es que los seis rectores de las universidades públicas están haciendo frente común para cambiar un sistema de financiación que las ahoga mientras la Comunidad sigue autorizando privadas y Madrid ya cuenta con 20, una apuesta que los populares defienden para garantizar “el sistema de elección”.\n\nLa oposición recuerda que no hay libertad de elección para las familias no se pueden pagar las matrículas, igual que tampoco la puede haber para los 60.000 estudiantes que se quedaron sin plaza pública en la FP.\n\nMientras los populares presumían de generar más de la mitad de empleos que se crean en España, los grupos de la izquierda reprochaban al PP haber dejado sin ejecutar la mitad de los fondos previstos para políticas de empleo.\n\nAsí, uno tras otro, se iban sucediendo los debates en cada capítulo del presupuesto, durante más de 12 horas, y con un tono menos crispado que el de otras sesiones. El mismo Partido Popular que estuvo un mandato entero sin aprobar Presupuestos en Madrid alega ahora que no hacerlo es el síntoma de que no se puede gobernar, la referencia a Sánchez que fueron repitiendo disciplinadamente uno tras otro los diputados del PP.\n\nYa entrada la noche del jueves, tuvo lugar el debate sobre el capítulo de ingresos, el meollo del presupuesto. Ahí volvieron a defender los populares que la región más rica de España sea la única sin impuestos propios y vincularon una cosa con la otra.\n\nLa portavoz de Más Madrid Marta Lozano recordó entonces que el 75% de las rebajas fiscales se las queda en Madrid “el 4% de las familias más adineradas” y acusó a los populares de ejercer como “Robin Hood al revés”.\n\n“¿De qué presumen por no tener impuestos propios”, se preguntó. “De ser los últimos en educación, sanidad, vivienda y en servicios sociales [...] los servicios públicos se sostienen gracias a la recaudación de ese gobierno socialcomunista”, dijo en referencia a la coalición de PSOE y Sumar.\n\nEn una de sus últimas intervenciones, el portavoz socialista Daniel Rubio, denunció uno de los secretos de estos presupuestos y la razón por la que las cuentas de 2026 contienen sobre el papel un gasto menor en sanidad y otras partidas al que se ha efectuado durante este año: son los créditos opacos que tratan de escapar al control parlamentario y que permiten esos pagos extraordinarios a gigantes sanitarios como Quirón o Ribera Salud que afloran al cierre de los distintos ejercicios. La herramienta para hacerlos posibles son los créditos centralizados que suben un 103,4% en las cuentas de 2026 mientras partidas como la sanidad o la educación lo hacen por debajo del 7% que crecen los presupuestos.\n\nEl portavoz socialista denunció que se trata de un engaño deliberado “para ejecutar el modelo privatizador sin ningún control de la asamblea”, “una herramienta política para esconder las decisiones del PP, esquilmar la sanidad pública y darle beneficio a sus empresas, amigas”. “La clave de bóveda”, insistió, “para que la gente no sepa lo que estén haciendo. Hacen que estos presupuestos sean todo mentira, salvo alguna cosa”.\n\nTras 12 horas de debate ininterrumpido, el Pleno de Presupuestos evidenció la existencia de esos tres modelos para Madrid: el que presume de no cobrar impuestos en la región más rica, el que se queja de unos servicios públicos colapsados por los “regalos fiscales” a las rentas más altas y el que culpa de todo lo anterior a los inmigrantes.\n\nLa sesión del jueves concluyó sobre las diez y media de la noche entre buenos deseos y felicitaciones navideñas. A primera hora del viernes, arrancaron las votaciones cruzadas de las enmiendas, sin sorpresas: el PP aceptó 22 de las miles presentadas por la oposición, y el grueso de las cuentas acabaron aprobadas por la mayoría del Partido Popular.\n\nFuera de la Asamblea, UGT y Comisiones Obreras se manifestaban contra las cuentas y el deterioro de los servicios públicos.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/madrid/gobierno-ayuso-aprueba-solitario-presupuestos-dedican-sanidad-2-000-millones-gastado-ano_1_12857806.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "El Gobierno de Ayuso aprueba en solitario unos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "El Gobierno de Ayuso aprueba en solitario unos presupuestos que dedican a Sanidad 2.000 millones menos de lo gastado este año. La izquierda ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Así lo contempla el proyecto de Ley de Presupuestos Generales de 2026, al que ha dado luz verde hoy el Consejo de Gobierno, y que dedica 11.009,5 millones a la Consejería de Sanidad, con un ascenso del 5,3% -549,8 millones- respecto a este año, y acaparando el 36% del total de las cuentas autonómicas. El texto se remitirá ahora a la Asamblea de Madrid para su aprobación parlamentaria.\n\nCon una dotación presupuestaria de 34,6 millones, el Ejecutivo autonómico mejorará desde este próximo año en una primera fase los salarios de los profesionales sanitarios, con un incremento del importe por guardias, noches y festivos en los hospitales. Además, se llevará a cabo la consolidación de las unidades con derecho al complemento de continuidad asistencial, con 2,6 millones, que beneficiará a más de 1.200 enfermeras, así como técnicos auxiliares de enfermería y celadores.\n\nAsimismo, ya desde el año próximo, el 6 de enero -Día de Reyes- será considerado como jornada especial a efectos retributivos, beneficiando a más de 15.000 trabajadores de los hospitales, SUMMA 112 y urgencias extrahospitalarias; y 9 millones de euros se destinarán a incrementar la plantilla de las urgencias de los hospitales en respuesta al incremento de la actividad en estos servicios.\n\nTodo ello se une a las mejoras ya implantadas este año, como el complemento salarial extra de 280 euros mensuales para los profesionales de Enfermería que trabajen en los centros de salud de difícil cobertura, y los 500 euros mensuales para médicos y pediatras, que han permitido seguir reforzando la Atención Primaria.\n\nTambién prevé un importante ascenso del 17% en la financiación de los medicamentos dispensados con receta, que alcanza los 1.638,6 millones, rebasando ampliamente a los 1.400 millones del presente año. Y destina 12 millones para el nuevo programa Salud Mujer, con atención a la población femenina durante todas las etapas de la vida, especialmente en la menopausia.\n\nEsta iniciativa de la sanidad pública madrileña abordará los procesos fisiológicos que este colectivo experimenta con medidas centradas de la promoción de la salud sexual y reproductiva o el malestar emocional (ansiedad, trastorno mental leve e insomnio), entre otras. Además, se ocupará de la promoción de la salud en la adolescencia, el cuidado de la mujer embarazada, la evaluación tras el parto, el bienestar en la menopausia o el papel de los centros Sandoval para el tratamiento de infecciones de transmisión sexual.\n\n4 millones para Senior Plus\n\nEl nuevo proyecto de la sanidad pública madrileña Senior Plus recibirá 4 millones de euros, para poder incluir una cartera de actuaciones que personaliza el cuidado de los mayores de 70 años, facilitando su accesibilidad a los servicios de Atención Primaria, con asistencia presencial, en el propio domicilio, o por vía telefónica y telemática.\n\nEl objetivo es fomentar el envejecimiento activo, favorecer el mantenimiento de la salud, potenciar la recuperación de la capacidad funcional y optimizar los niveles de autocuidado. Algunas de estas medidas ya están en marcha y otras son de nueva implantación.\n\nHospitalización a domicilio y telemedicina\n\nLos Presupuestos de la Comunidad de Madrid para 2026 también recogen una inversión de 5 millones de euros en la mejora de los servicios de hospitalización a domicilio, con idéntica cantidad para aspectos innovadores de la asistencia pública sanitaria como la telemedicina, medicina personalizada y oncología de precisión.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/noticias/2025/10/29/comunidad-madrid-aumentara-575-millones-su-inversion-atencion-primaria-hospitalaria-2026",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "La Comunidad de Madrid aumentará más de 575 millones ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "La Comunidad de Madrid aumentará el próximo 2026 en más de 575 millones la inversión en Atención Primaria y Hospitalaria."
+                                        }
+                                    },
+                                    {
+                                        "text": "Madrid, 12 de noviembre de 2025.- El Pleno del Consejo Interterritorial del Sistema Nacional de Salud (CISNS), ha aprobado esta mañana dos acuerdos por un importe total de 2 millones de euros destinados a impulsar la lucha contra el cáncer en España, mejorar la coordinación entre comunidades autónomas y fortalecer la sostenibilidad del Sistema Nacional de Salud (SNS).\n\nConsolidación de la Red Europea de Centros Integrales de Cáncer\n\nEl primer acuerdo, dotado con 1.000.000 de euros con cargo al presupuesto de gastos del Ministerio de Sanidad para el ejercicio 2025 (aplicación presupuestaria 26.07.313B.459.07), tiene como objetivo consolidar la Red Europea de Centros Integrales de Cáncer a nivel nacional.\n\nEsta actuación se llevará a cabo a través de la implementación del Plan Europeo de Lucha Contra el Cáncer, en concreto de su Iniciativa Emblemática número 5, que establece la creación de una Red europea de Centros Oncológicos Integrales reconocidos como tal en todos los Estados Miembros. De esta manera, el Plan Europeo pretende garantizar que el 90% de los pacientes que reúnan los requisitos necesarios puedan ser tratados en el marco de los Centros Oncológicos Integrales para el año 2030.\n\nLos fondos serán gestionados por las comunidades autónomas y el Instituto Nacional de Gestión Sanitaria (INGESA), distribuyéndose de manera equitativa entre todas ellas, con un importe fijo de 55.555 euros por territorio, con el fin de fomentar la autoevaluación, el desarrollo de capacidades (“capacity building”) y la certificación de centros integrales de cáncer conforme a los estándares europeos. El importe total que se prevé destinar a este programa es de 3.000.000 euros a lo largo de 3 ejercicios.\n\nDesarrollo del Sistema de Vigilancia de Cáncer\n\nEl segundo acuerdo, igualmente dotado con 1.000.000 de euros (aplicación presupuestaria 26.07.313B.459.03), se financiará con fondos procedentes de la Disposición adicional sexta del Real Decreto Legislativo 1/2015, de 24 de julio, relativos a las aportaciones de la industria farmacéutica al SNS.\n\nLa percepción de este crédito queda sujeta a que la Comunidad o Ciudad con Estatuto de Autonomía se adhiera a las actuaciones que se financian, aportando previamente una memoria de las actuaciones que se realizarán con dichos fondos y el importe destinado.\n\nLos fondos para la vigilancia de cáncer en el marco del Sistema de Vigilancia de Cáncer, que ascienden a 1.000.000 €, se distribuirán a todas las Comunidades Autónomas y ciudades con Estatuto de Autonomía, siguiendo un criterio de distribución mixto: 60% de manera lineal, aplicando un importe mínimo a cada Comunidad Autónoma y ciudades con Estatuto de Autonomía; Y un 40% distribuido por criterios poblacionales. El plazo de ejecución de estas actuaciones se extenderá hasta el 31 de diciembre de 2026.\n\nLa distribución de créditos a las Comunidades Autónomas y ciudades con Estatuto de Autonomía para el ejercicio 2025 se presenta en la siguiente tabla:",
+                                        "metadata": {
+                                            "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6787",
+                                            "source": "www.sanidad.gob.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "El CISNS aprueba la distribución de dos millones de euros ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sanidad.gob.es",
+                                            "snippet": "Los acuerdos estarán destinados a consolidar la Red Europea de Centros Integrales de Cáncer y a reforzar el Sistema de Vigilancia de Cáncer en España."
+                                        }
+                                    },
+                                    {
+                                        "text": "Madrid, 8 de octubre de 2025.- El Consejo Interterritorial del Sistema Nacional de Salud ha aprobado la propuesta de acuerdo para el reparto de 46.453.069,25 euros correspondientes al ejercicio 2025, con cargo a las aportaciones de la industria farmacéutica en aplicación de la Disposición Adicional Sexta de la Ley de garantías y uso racional de los medicamentos y productos sanitarios.\n\nEl objetivo de esta asignación es reforzar las políticas de cohesión sanitaria, impulsar programas de formación de profesionales del Sistema Nacional de Salud y apoyar la ejecución de los planes nacionales de donación de médula ósea y de sangre de cordón umbilical.\n\nÁmbitos de actuación\n\nCohesión sanitaria y uso racional de medicamentos: los fondos permitirán financiar programas para la mejora de la atención sanitaria, la promoción de un uso más seguro y eficiente de los medicamentos y la consolidación de actuaciones en materia de seguridad del paciente.\n\nFormación de profesionales sanitarios: se garantiza la continuidad de programas de formación dirigidos a médicos, odontólogos, farmacéuticos, enfermeros y otros colectivos sanitarios, con el fin de actualizar conocimientos en materia de calidad, eficiencia y seguridad.\n\nPlan Nacional de Donación de Médula Ósea y Sangre de Cordón Umbilical: se destinarán recursos a la promoción de la donación, realización de tipajes HLA y acreditación de centros, en línea con los objetivos del Plan Nacional.\n\nRefuerzo del Sistema Nacional de Salud\n\nEl acuerdo aprobado permite seguir avanzando en la cohesión y equidad del Sistema Nacional de Salud, asegurando que los fondos procedentes de la industria farmacéutica se destinan de manera transparente a programas de interés general y de alcance nacional.\n\nEsta financiación procede de las aportaciones obligatorias de la industria farmacéutica al SNS, en aplicación de la Disposición Adicional Sexta de la Ley de garantías y uso racional de los medicamentos y productos sanitarios.\n\nLa norma establece que los laboratorios que comercializan medicamentos financiados con fondos públicos deben realizar una aportación anual en función de sus ventas, con el fin de reinvertir esos recursos en programas de cohesión sanitaria, seguridad del paciente, formación de profesionales y planes nacionales estratégicos, como la donación de médula ósea y de sangre de cordón umbilical.\n\nMás información sobre el reparto\n\nhttps://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6745\n\nEnlace rueda de prensa\n\nhttps://www.youtube.com/watch?v=4E15GMpQaF8",
+                                        "metadata": {
+                                            "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6765",
+                                            "source": "www.sanidad.gob.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Aprobada la distribución de 46,4 millones de la industria ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sanidad.gob.es",
+                                            "snippet": "La cuantía total para distribuir en 2025 asciende a 46.453.069,25 euros, gestionados por las comunidades autónomas, INGESA, Ceuta y Melilla."
+                                        }
+                                    },
+                                    {
+                                        "text": "Madrid, 18 de septiembre de 2025.- El Pleno del Consejo Interterritorial del Sistema Nacional de Salud (CISNS) ha aprobado la propuesta del Ministerio de Sanidad para distribuir 68.058.000 euros entre las comunidades autónomas y el Instituto Nacional de Gestión Sanitaria (INGESA), destinados al impulso de la ampliación de la cartera común de servicios de salud bucodental en 2025.\n\nEsta dotación económica se enmarca en la estrategia de reforzamiento de los servicios públicos de salud bucodental y da continuidad a las acciones iniciadas tras la aprobación, en diciembre de 2021, de la ampliación de la cartera común de servicios del SNS en esta área. Desde entonces, se han destinado más de 180 millones de euros para su implementación progresiva.\n\nEnfoque preventivo y nuevos colectivos\n\nEl plan de ampliación tiene un enfoque eminentemente preventivo, priorizando grupos poblacionales con mayor vulnerabilidad. Hasta ahora, los colectivos cubiertos incluían a la población de 0 a 14 años, mujeres embarazadas, personas con discapacidad igual o superior al 33%, y personas diagnosticadas de cáncer en el territorio cervicofacial.\n\nComo novedad para el ejercicio 2025, se incorpora por primera vez la atención específica a las personas mayores de 65 años, colectivo con escasa cobertura pública hasta la fecha y alta prevalencia de enfermedades periodontales asociadas a enfermedades crónicas. Para ello, se ha reservado un 10% del total del fondo.\n\nEl 90% restante se destinará a consolidar la atención a los colectivos ya priorizados, con criterios de reparto basados en datos demográficos actualizados del INE, incidencias clínicas y prevalencia de discapacidad.\n\nInversiones y horizonte temporal\n\nLas comunidades autónomas podrán destinar los fondos a la contratación de personal, adquisición de equipamiento, mejora de infraestructuras y otros gastos necesarios para implementar los servicios. Las medidas deben ejecutarse en un plazo máximo de tres años desde la transferencia efectiva de los fondos, estableciéndose un control estricto de los compromisos de gasto, cuya primera fase deberá estar completada antes del 31 de diciembre de 2025.\n\nAsimismo, se establece un sistema de seguimiento y justificación por parte de las comunidades autónomas e INGESA, incluyendo la remisión de planes de ejecución, cronogramas, memorias de actividad y resultados.\n\nCompromiso con la equidad y la salud pública\n\nCon esta medida, el Gobierno de España refuerza su compromiso con la equidad en el acceso a la salud bucodental, un componente esencial del bienestar general y un derecho sanitario básico. La inclusión de la población mayor de 65 años responde a criterios de justicia sanitaria y envejecimiento activo, alineados con la Estrategia Global sobre Salud Bucodental impulsada por la OMS y los Objetivos de Desarrollo Sostenible de la Agenda 2030.\n\nEnlace a rueda de prensa:\n\nhttps://www.youtube.com/watch?v=fUG2C092xH0",
+                                        "metadata": {
+                                            "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6748",
+                                            "source": "www.sanidad.gob.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "El Consejo Interterritorial aprueba la distribución de 68 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sanidad.gob.es",
+                                            "snippet": "El Consejo Interterritorial aprueba la distribución de 68 millones de euros para ampliar la atención bucodental en 2025 · Madrid, 18 de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Gobierno de la Comunidad de Madrid ha aprobado el segundo proyecto de presupuestos de la XIII Legislatura. Se trata de unos presupuestos eficientes que garantizan la excelencia y calidad en los servicios públicos, con marcado carácter social y con especial atención a quienes más lo necesitan, y que consolidan y profundizan el gran avance para nuestros servicios que supusieron las cuentas aprobadas para 2024.\n\nPara 2025, la cifra global del Presupuesto alcanza los 28.662,6 millones de euros en gasto no financiero, lo que supone un 4% de incremento adicional sobre los del año anterior; por encima tanto del aumento de los precios como del crecimiento previsto del PIB (en torno al 3%).\n\nEl presupuesto 2025 experimenta un crecimiento total de 1.104 millones de euros, los principales incrementos se destinan a Sanidad (294 millones de euros), Educación (239,5 millones de euros), Vivienda, Transportes e Infraestructuras (197,1 millones de euros) y Familia, Juventud y Asuntos Sociales (84,5 millones de euros), sumando entre estas cuatro consejerías un aumento superior a los 800 millones de euros. El gasto social supone prácticamente el 90% del presupuesto total, siendo las mayores partidas las dedicadas a Sanidad (el 36,5% del total) y a Educación (23,2%).\n\nEl importante incremento de más de un 10% del presupuesto destinado a la Consejería de Digitalización permitirá que la Comunidad de Madrid haga frente, con todas las garantías, a los retos que nos trae la nueva revolución digital en la que nos encontramos inmersos.\n\nDestaca también en este Presupuesto, de manera particular, el crecimiento, cercano al 7%, en el capítulo de inversiones, entre las que sobresalen infraestructuras estratégicas de gran importancia para sentar las bases necesarias que aseguren la actualización, modernización y avance de servicios públicos tan esenciales como el transporte, la sanidad o la justicia.\n\nEntre las inversiones que se inician o continúan su desarrollo con un impacto significativo en las cuentas de 2025 figuran, de manera destacada, la ampliación de la línea 11 de Metro de Madrid, la Ciudad de la Justicia en Valdebebas y el gran proyecto de la Ciudad de la Salud en el entorno del actual hospital de La Paz.\n\nEn consonancia con esta estrategia, y ante el fin en 2026 de la ejecución del Mecanismo de Recuperación y Resiliencia, las actuaciones vinculadas al mismo se concentran en el ámbito de la inversión.\n\nEl Proyecto de Presupuestos se enmarca en un contexto macroeconómico y financiero que, para 2024, ha resultado más favorable de lo inicialmente previsto y que para 2025 contempla como muy probable un escenario de una ligera desaceleración generalizada. A pesar de ello, las estimaciones para la Comunidad de Madrid recogen un diferencial de crecimiento positivo respecto al conjunto nacional.\n\nA la previsible ralentización del crecimiento en Europa y España, y la creciente incertidumbre provocada por una inestabilidad política en aumento, se suma la más que probable ausencia o, cuando menos, el importante retraso de unos Presupuestos Generales del Estado para 2025. Esta situación se agrava aún más por las numerosas incógnitas acerca de un Plan de Ajuste comprometido con la UE del cual se ignoran las medidas concretas que se incorporarán, tanto de ingreso como de gasto. Además, en estos momentos se mantiene un escenario de incertidumbre sobre los objetivos básicos que habremos de cumplir en 2025 y años siguientes, en aplicación del nuevo marco europeo de reglas fiscales. A todo ello se añade la amenaza de una reforma que podría incrementar hasta cuatro puntos más una presión tributaria ya excesiva que se traduce, dadas las características de nuestra economía, en un esfuerzo impositivo insostenible para ciudadanos y empresas.\n\nEste contexto exige adoptar para nuestra región un presupuesto que, sin dejar de ser ambicioso, mantenga unos márgenes de prudencia que permitan aportar a los servicios públicos el crédito necesario para mantener su excelencia y continuar su desarrollo, sin poner en riesgo el atractivo de Madrid como región de inversión y emprendimiento ni generar unos desequilibrios en forma de deuda que constituyan un freno al crecimiento futuro de la región y una carga para las siguientes generaciones de madrileños.\n\nEl dinamismo económico fruto de las políticas económicas y fiscales desarrolladas por la Comunidad de Madrid nos ha llevado a ser la primera economía de España, a liderar la creación de empresas, la generación de empleo y la atracción de inversión extranjera, al tiempo que nos mantenemos como la región con mayor competitividad fiscal, con menor deuda entre las que no disponen de un régimen especial, y con plena solvencia en los mercados financieros. Esto nos permite presentar un presupuesto que mantiene con firmeza los principios del Gobierno regional, y con un récord absoluto en los recursos que dedicamos a nuestros servicios públicos.\n\nConsolidamos así el esfuerzo presupuestario de los últimos dos años, alcanzando cotas del 20% de crecimiento. El incremento es del 42% si se hace referencia a 2019, momento en que Isabel Díaz Ayuso asumió por primera vez el cargo de presidenta de la Comunidad de Madrid.\n\nEn el apartado de ingresos, el presupuesto está elaborado de acuerdo con la comunicación recibida por parte del Gobierno de España respecto de las entregas a cuenta y las previsiones de liquidación, si bien debemos señalar la duda que existe sobre en qué influirá en próximos ejercicios el acuerdo político alcanzado entre el Gobierno y Esquerra Republicana de Cataluña para otorgar a Cataluña un régimen equivalente al de concierto económico. Su alcance y consecuencias para el resto de regiones de régimen común se desconoce.\n\nSegún el último dato consolidado, Madrid contribuyó en 2022 al Fondo de Garantía de los Servicios Públicos Fundamentales con 5.168,5 millones de euros, el 76,9% de la parte autonómica de este Fondo. En 2025, Madrid continuará siendo la comunidad más solidaria, aportando al Fondo de Garantía 7.125 millones, y otros 1.086 millones al Fondo de Suficiencia.\n\nEn lo que se refiere a la política tributaria, la Comunidad de Madrid consolidará las bajadas fiscales aprobadas en ejercicios anteriores a las que se unirán bonificaciones específicas que tienen por objeto favorecer a sectores especialmente vulnerables e incentivar la ya acreditada capacidad de Madrid como punto de atracción de la inversión internacional.\n\nDe este modo, el presupuesto para 2025 constituirá, una vez más, el marco en el que continuaremos desarrollando las políticas de libertad, apoyo a la empresa, competitividad y corresponsabilidad fiscal, seguridad jurídica, defensa de las instituciones, gasto eficiente y rigor en las cuentas públicas, que son la clave de nuestra prosperidad, de la excelencia de los servicios públicos que ofrecemos a los madrileños y de nuestra solidaridad con el resto de regiones de España.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/gobierno/hacienda/presupuestos-generales-comunidad-madrid-2025",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "Presupuestos Generales de la Comunidad de Madrid 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "El presupuesto 2025 experimenta un crecimiento total de 1.104 millones de euros, los principales incrementos se destinan a Sanidad (294 millones de euros), ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.9244048239997937,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.9244048239997937,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:04:46",
+                    "run_time": 2.9244048239997937,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el gasto en sanidad por habitante en Madrid según los datos del Ministerio de Sanidad en 2025?": [
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                },
+                                {
+                                    "La media española de gasto sanitario para 2025 será de 1.944 euros per cápita. Países como Alemania duplican esta cifra, con 5.054 euros": null
+                                },
+                                {
+                                    "Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.": null
+                                }
+                            ],
+                            "¿Cómo se compara el gasto en sanidad por habitante de Madrid con otras comunidades autónomas en 2025?": [
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                },
+                                {
+                                    "Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.": null
+                                },
+                                {
+                                    "La media española de gasto sanitario para 2025 será de 1.944 euros per cápita. Países como Alemania duplican esta cifra, con 5.054 euros": null
+                                }
+                            ],
+                            "¿Cuáles son los datos de la Organización Mundial de la Salud sobre el gasto sanitario per cápita en España en 2025?": [
+                                {
+                                    "La media española de gasto sanitario para 2025 será de 1.944 euros per cápita. Países como Alemania duplican esta cifra, con 5.054 euros": null
+                                },
+                                {
+                                    "Además, según los datos de 2022, recopilados por el Ministerio de Sanidad, la media de la UE se sitúa en los 2.558 euros por habitante, por debajo de la media española para 2025 que será de 1.944 euros. Países como Alemania duplican el gasto español, con 5.054 euros per cápita. También superan los presupuestos de 2025 de España países como Francia, con 3.904 euros o Italia con 2.217 euros.": null
+                                },
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                }
+                            ],
+                            "¿Cuál es el presupuesto anual de la Comunidad de Madrid destinado a sanidad en 2025?": [
+                                {
+                                    "De este modo, el presupuesto para 2025 constituirá, una vez más, el marco en el que continuaremos desarrollando las políticas de libertad, apoyo a la empresa, competitividad y corresponsabilidad fiscal, seguridad jurídica, defensa de las instituciones, gasto eficiente y rigor en las cuentas públicas, que son la clave de nuestra prosperidad, de la excelencia de los servicios públicos que ofrecemos a los madrileños y de nuestra solidaridad con el resto de regiones de España.": null
+                                },
+                                {
+                                    "Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.": null
+                                },
+                                {
+                                    "Los Presupuestos de la Comunidad de Madrid para 2026 también recogen una inversión de 5 millones de euros en la mejora de los servicios de hospitalización a domicilio, con idéntica cantidad para aspectos innovadores de la asistencia pública sanitaria como la telemedicina, medicina personalizada y oncología de precisión.": null
+                                }
+                            ],
+                            "¿Cómo se distribuyen los fondos en sanidad dentro de la Comunidad de Madrid en 2025?": [
+                                {
+                                    "Según el último dato consolidado, Madrid contribuyó en 2022 al Fondo de Garantía de los Servicios Públicos Fundamentales con 5.168,5 millones de euros, el 76,9% de la parte autonómica de este Fondo. En 2025, Madrid continuará siendo la comunidad más solidaria, aportando al Fondo de Garantía 7.125 millones, y otros 1.086 millones al Fondo de Suficiencia.": null
+                                },
+                                {
+                                    "Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.": null
+                                },
+                                {
+                                    "Los Presupuestos de la Comunidad de Madrid para 2026 también recogen una inversión de 5 millones de euros en la mejora de los servicios de hospitalización a domicilio, con idéntica cantidad para aspectos innovadores de la asistencia pública sanitaria como la telemedicina, medicina personalizada y oncología de precisión.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 19.454117762999886,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 19.454117762999886,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:05:07",
+                    "run_time": 19.454117762999886,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nMadrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el gasto en sanidad por habitante en Madrid según los datos del Ministerio de Sanidad en 2025?\n¿Cómo se compara el gasto en sanidad por habitante de Madrid con otras comunidades autónomas en 2025?\n¿Cuáles son los datos de la Organización Mundial de la Salud sobre el gasto sanitario per cápita en España en 2025?\n¿Cuál es el presupuesto anual de la Comunidad de Madrid destinado a sanidad en 2025?\n¿Cómo se distribuyen los fondos en sanidad dentro de la Comunidad de Madrid en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.\n[1] La media española de gasto sanitario para 2025 será de 1.944 euros per cápita. Países como Alemania duplican esta cifra, con 5.054 euros\n[1] Con todos los presupuestos de las Comunidades Autónomas para 2025 ya sobre la mesa, excepto Aragón, Cataluña, Comunidad Valenciana y Murcia que previsiblemente prorroguen los de este año, el mapa del gasto por habitante en sanidad sigue dibujando el mismo contorno: la Comunidad Madrid, gobernada por Isabel Díaz Ayuso (Partido Popular), continúa siendo la que menos invierte por habitante, un total de 1.482,25 euros. Lejos queda el gasto de la que más invierte, Asturias, que dedica a estos menesteres 2.422,28.\n[1] Además, según los datos de 2022, recopilados por el Ministerio de Sanidad, la media de la UE se sitúa en los 2.558 euros por habitante, por debajo de la media española para 2025 que será de 1.944 euros. Países como Alemania duplican el gasto español, con 5.054 euros per cápita. También superan los presupuestos de 2025 de España países como Francia, con 3.904 euros o Italia con 2.217 euros.\n[2] De este modo, el presupuesto para 2025 constituirá, una vez más, el marco en el que continuaremos desarrollando las políticas de libertad, apoyo a la empresa, competitividad y corresponsabilidad fiscal, seguridad jurídica, defensa de las instituciones, gasto eficiente y rigor en las cuentas públicas, que son la clave de nuestra prosperidad, de la excelencia de los servicios públicos que ofrecemos a los madrileños y de nuestra solidaridad con el resto de regiones de España.\n[2] Según el último dato consolidado, Madrid contribuyó en 2022 al Fondo de Garantía de los Servicios Públicos Fundamentales con 5.168,5 millones de euros, el 76,9% de la parte autonómica de este Fondo. En 2025, Madrid continuará siendo la comunidad más solidaria, aportando al Fondo de Garantía 7.125 millones, y otros 1.086 millones al Fondo de Suficiencia.\n[3] Los Presupuestos de la Comunidad de Madrid para 2026 también recogen una inversión de 5 millones de euros en la mejora de los servicios de hospitalización a domicilio, con idéntica cantidad para aspectos innovadores de la asistencia pública sanitaria como la telemedicina, medicina personalizada y oncología de precisión.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España, según los datos del Ministerio de Sanidad para 2025. La media nacional de gasto sanitario per cápita alcanza 1.757 euros por persona, mientras que Madrid se sitúa en la parte baja del ranking con 1.482,25 euros por habitante, lo que la convierte en la que menos invierte en este ámbito [1]. Esta cifra contrasta con la de Asturias, que lidera el gasto por habitante con 2.422,28 euros [1]. Además, la media española para 2025 se estima en 1.944 euros per cápita, lo que sitúa a Madrid a menos de 500 euros por debajo de la media nacional [1]. La Organización Mundial de la Salud también refleja que la media de la UE en 2025 se sitúa en 2.558 euros por habitante, por debajo de la media española [1]. Países como Alemania (5.054 euros) o Francia (3.904 euros) duplican o triplican el gasto sanitario de España, lo que resalta aún más la brecha con Madrid [1].\n\nNo obstante, la Comunidad de Madrid destina un presupuesto anual significativo a sanidad, con 5 millones de euros para la mejora de los servicios de hospitalización a domicilio y 5 millones para aspectos innovadores como la telemedicina [3]. Además, Madrid aporta al Fondo de Garantía de los Servicios Públicos Fundamentales el 76,9% de la parte autonómica, lo que demuestra su solidaridad con el resto de regiones [2]. Aunque estos datos reflejan una menor inversión por habitante, no indican una falta de recursos totales, sino una distribución de fondos que prioriza otros aspectos de la política pública [2]. La distribución de fondos dentro de Madrid también incluye inversiones en innovación sanitaria, lo que sugiere una apuesta por la eficiencia y la modernización de los servicios [3].\n\n**Conclusión:** La afirmación es **verdadera** según los datos del Ministerio de Sanidad y la Organización Mundial de la Salud, que sitúan a Madrid como la comunidad autónoma con menor gasto en sanidad por habitante en 2025 [1]. La brecha con otras comunidades, como Asturias o la media nacional, es notable, y la falta de recursos per cápita contrasta con la aportación solidaria de Madrid a fondos comunitarios [2]. No obstante, la Comunidad de Madrid no solo invierte menos por habitante, sino que también destina fondos a innovación y mejora de servicios, lo que indica una estrategia de eficiencia y modernización en la atención sanitaria [3]."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.076371803999791,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.076371803999791,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 15:05:10",
+                    "run_time": 3.076371803999791,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\nArticle: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España, según los datos del Ministerio de Sanidad para 2025. La media nacional de gasto sanitario per cápita alcanza 1.757 euros por persona, mientras que Madrid se sitúa en la parte baja del ranking con 1.482,25 euros por habitante, lo que la convierte en la que menos invierte en este ámbito [1]. Esta cifra contrasta con la de Asturias, que lidera el gasto por habitante con 2.422,28 euros [1]. Además, la media española para 2025 se estima en 1.944 euros per cápita, lo que sitúa a Madrid a menos de 500 euros por debajo de la media nacional [1]. La Organización Mundial de la Salud también refleja que la media de la UE en 2025 se sitúa en 2.558 euros por habitante, por debajo de la media española [1]. Países como Alemania (5.054 euros) o Francia (3.904 euros) duplican o triplican el gasto sanitario de España, lo que resalta aún más la brecha con Madrid [1].\n\nNo obstante, la Comunidad de Madrid destina un presupuesto anual significativo a sanidad, con 5 millones de euros para la mejora de los servicios de hospitalización a domicilio y 5 millones para aspectos innovadores como la telemedicina [3]. Además, Madrid aporta al Fondo de Garantía de los Servicios Públicos Fundamentales el 76,9% de la parte autonómica, lo que demuestra su solidaridad con el resto de regiones [2]. Aunque estos datos reflejan una menor inversión por habitante, no indican una falta de recursos totales, sino una distribución de fondos que prioriza otros aspectos de la política pública [2]. La distribución de fondos dentro de Madrid también incluye inversiones en innovación sanitaria, lo que sugiere una apuesta por la eficiencia y la modernización de los servicios [3].\n\n**Conclusión:** La afirmación es **verdadera** según los datos del Ministerio de Sanidad y la Organización Mundial de la Salud, que sitúan a Madrid como la comunidad autónoma con menor gasto en sanidad por habitante en 2025 [1]. La brecha con otras comunidades, como Asturias o la media nacional, es notable, y la falta de recursos per cápita contrasta con la aportación solidaria de Madrid a fondos comunitarios [2]. No obstante, la Comunidad de Madrid no solo invierte menos por habitante, sino que también destina fondos a innovación y mejora de servicios, lo que indica una estrategia de eficiencia y modernización en la atención sanitaria [3].\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\nArticle: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España, según los datos del Ministerio de Sanidad para 2025. La media nacional de gasto sanitario per cápita alcanza 1.757 euros por persona, mientras que Madrid se sitúa en la parte baja del ranking con 1.482,25 euros por habitante, lo que la convierte en la que menos invierte en este ámbito [1]. Esta cifra contrasta con la de Asturias, que lidera el gasto por habitante con 2.422,28 euros [1]. Además, la media española para 2025 se estima en 1.944 euros per cápita, lo que sitúa a Madrid a menos de 500 euros por debajo de la media nacional [1]. La Organización Mundial de la Salud también refleja que la media de la UE en 2025 se sitúa en 2.558 euros por habitante, por debajo de la media española [1]. Países como Alemania (5.054 euros) o Francia (3.904 euros) duplican o triplican el gasto sanitario de España, lo que resalta aún más la brecha con Madrid [1].\n\nNo obstante, la Comunidad de Madrid destina un presupuesto anual significativo a sanidad, con 5 millones de euros para la mejora de los servicios de hospitalización a domicilio y 5 millones para aspectos innovadores como la telemedicina [3]. Además, Madrid aporta al Fondo de Garantía de los Servicios Públicos Fundamentales el 76,9% de la parte autonómica, lo que demuestra su solidaridad con el resto de regiones [2]. Aunque estos datos reflejan una menor inversión por habitante, no indican una falta de recursos totales, sino una distribución de fondos que prioriza otros aspectos de la política pública [2]. La distribución de fondos dentro de Madrid también incluye inversiones en innovación sanitaria, lo que sugiere una apuesta por la eficiencia y la modernización de los servicios [3].\n\n**Conclusión:** La afirmación es **verdadera** según los datos del Ministerio de Sanidad y la Organización Mundial de la Salud, que sitúan a Madrid como la comunidad autónoma con menor gasto en sanidad por habitante en 2025 [1]. La brecha con otras comunidades, como Asturias o la media nacional, es notable, y la falta de recursos per cápita contrasta con la aportación solidaria de Madrid a fondos comunitarios [2]. No obstante, la Comunidad de Madrid no solo invierte menos por habitante, sino que también destina fondos a innovación y mejora de servicios, lo que indica una estrategia de eficiencia y modernización en la atención sanitaria [3]."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\", \"categories\": [\"Sanidad\", \"Política pública\", \"Economía\"], \"label\": \"True\", \"main_claim\": \"Madrid es la comunidad autónoma con menor gasto en sanidad por habitante, a pesar de su aportación solidaria a fondos comunitarios y inversiones en innovación\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

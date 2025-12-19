@@ -1,0 +1,620 @@
+{
+    "question": "Junts ganó las elecciones en varios municipios de Madrid",
+    "answer": "Se presenta evidencia de que Junts obtuvo votos en varios municipios de Madrid, lo que sugiere que podría haber ganado en algunos de ellos. Según el mapa publicado por RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos . En la calle Juslibol de Zaragoza, Junts habría obtenido el 41 % de los votos, y en la urbanización de Frentesol, en Marbella, habría obtenido el 29,3 % de los votos . Estos resultados sugieren que Junts tuvo una fuerte presencia en algunos municipios de Madrid y Zaragoza.\n\nSin embargo, también hay evidencia que sugiere que los resultados presentados por los mapas pueden ser cuestionables. Un usuario de Twitter, @tip0DeIncogni, compartió capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos, lo que llevó a sospechar irregularidades [1]. Según este usuario, es inusual que Junts obtenga tantos votos en estas secciones específicas y casi no aparezca en otras [1]. Esto sugiere que los resultados presentados por los mapas pueden no ser entirely confiables.\n\nAunque hay evidencia que sugiere que Junts obtuvo votos en algunos municipios de Madrid, también hay argumentos que cuestionan la fiabilidad de los resultados presentados por los mapas. La afirmación de que Junts ganó las elecciones en varios municipios de Madrid no puede ser determinada con certeza debido a la contradicción entre la evidencia presentada por los mapas y las sospechas de irregularidades planteadas por algunos usuarios. Sin embargo, si consideramos solo la evidencia presentada por los mapas, podríamos concluir que Junts sí obtuvo votos en algunos municipios de Madrid, pero es importante tener en cuenta las reservas planteadas sobre la fiabilidad de estos resultados.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://elmon.cat/es/politica-es/elecciones/misterio-victorias-junts-madrid-alarma-espanolismo-865480/",
+            "source": "elmon.cat",
+            "favicon": "https://elmon.cat/app/uploads/sites/15/2022/03/logomonquadrat-150x150-1-1-57x57.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Junts ganó las elecciones en varios municipios de Madrid",
+        "categories": [
+            "Política",
+            "Elecciones",
+            "Madrid"
+        ],
+        "label": "Fake",
+        "main_claim": "La afirmación de que Junts ganó las elecciones en varios municipios de Madrid es falsa",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4381879859993205,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4381879859993205,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:06:25",
+                    "run_time": 1.4381879859993205,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nJunts ganó las elecciones en varios municipios de Madrid\n\n**Critical Research Questions:**\n1. ¿Qué resultados electorales oficiales obtuvo Junts en los municipios de Madrid en las últimas elecciones?\n2. ¿Qué medios de comunicación informaron sobre la victoria de Junts en algún municipio de Madrid?\n3. ¿Qué dice la autoridad electoral sobre los resultados electorales de Junts en los municipios de Madrid?\n4. ¿Cómo comparan los resultados electorales de Junts con los de otros partidos políticos en los mismos municipios?\n5. ¿Qué críticas o objeciones hay sobre la afirmación de que Junts ganó en varios municipios de Madrid?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"resultados electorales Junts Madrid municipios elecciones 2023\", \"Junts victoria municipios Madrid medios de comunicación notícias\", \"autoridad electoral resultados electorales Junts Madrid informes oficiales\", \"comparación resultados electorales Junts otros partidos políticos Madrid\", \"críticas objeciones afirmación Junts ganó municipios Madrid fuentes confiables\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 7.766081428999314,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 7.766081428999314,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:06:33",
+                    "run_time": 7.766081428999314,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "resultados electorales Junts Madrid municipios elecciones 2023",
+                                "Junts victoria municipios Madrid medios de comunicación notícias",
+                                "autoridad electoral resultados electorales Junts Madrid informes oficiales",
+                                "comparación resultados electorales Junts otros partidos políticos Madrid",
+                                "críticas objeciones afirmación Junts ganó municipios Madrid fuentes confiables"
+                            ],
+                            "results": {
+                                "resultados electorales Junts Madrid municipios elecciones 2023 | Junts victoria municipios Madrid medios de comunicación notícias | autoridad electoral resultados electorales Junts Madrid informes oficiales | comparación resultados electorales Junts otros partidos políticos Madrid | críticas objeciones afirmación Junts ganó municipios Madrid fuentes confiables": [
+                                    {
+                                        "text": "Las elecciones municipales de 2023 se celebraron en Madrid el domingo 28 de mayo, de acuerdo con el Real Decreto de convocatoria de elecciones locales en España dispuesto el 3 de abril de 2023 y publicado en el Boletín Oficial del Estado el 4 de abril.[2]​ Se eligieron a los 57 concejales del pleno del Ayuntamiento de Madrid, a través de un sistema proporcional (método d'Hondt), con listas cerradas y un umbral electoral del 5%.\n\nResultados [ editar ]\n\nSegún los resultados, el actual Alcalde de Madrid, José Luis Martínez-Almeida (Partido Popular) logró la mayoría absoluta en el consistorio, asegurando su reelección como máximo regidor de la capital española.\n\nEncuestas [ editar ]\n\nPor partidos políticos [ editar ]\n\nPor bloques ideológicos [ editar ]\n\nInvestidura del alcalde [ editar ]\n\nEn la votación de investidura que tuvo lugar en la sesión plenaria constitutiva de la corporación municipal celebrada el 17 de junio de 2023, José Luis Martínez-Almeida, del Partido Popular, resultó elegido con mayoría absoluta, con los votos de los 29 concejales del PP, mientras que el resto de los grupos municipales votaron por sus propios cabezas de lista.[16]​ El 25 de octubre de 2023 tuvo lugar la constitución de los 21 plenos de distrito de la ciudad, repartidos en proporción al resultado electoral entre los grupos políticos con representación.[17]​",
+                                        "metadata": {
+                                            "url": "https://es.wikipedia.org/wiki/Elecciones_municipales_de_2023_en_Madrid",
+                                            "source": "es.wikipedia.org",
+                                            "favicon": "https://es.wikipedia.org/static/apple-touch/wikipedia.png",
+                                            "title": "Elecciones municipales de 2023 en Madrid",
+                                            "type": "web_search",
+                                            "base_url": "https://es.wikipedia.org",
+                                            "snippet": "Las elecciones municipales de 2023 se celebraron en Madrid el domingo 28 de mayo, de acuerdo con el Real Decreto de convocatoria de elecciones locales en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Fuente: Ministerio de Interior\n\n\n\nConsulta en directo los mapas de elDiario.es para conocer el detalle de los resultados de las elecciones generales al Congreso del 23J en cada municipio. Descubre cuál ha sido el partido más votado, el cartograma con el reparto de escaños en cada provincia, qué localidades cambiaron de ganador respecto a las elecciones generales de 2019, cuál ha sido el más votado según el tamaño de la localidad.\n\nExplora los botones para ver cuál es la fuerza más votada o la distribución del voto a los PSOE, PP, Vox y Sumar. Además, el botón superior permite consultar estos resultados por municipios y por provincias.\n\nConsulta en la siguiente tabla el reparto de escaños en el Congreso y el detalle de los resultados obtenidos por las principales formaciones políticas el 23J. También mostramos cuánto suben en votos y escaños respecto a las anteriores elecciones de noviembre de 2019. Los resultados de Sumar se compararan sobre la suma de las formaciones que ahora componen la candidatura (Unidas Podemos, Más País, Compromís, Més y CHA).\n\nResultados 23J -% escr. 2023 2019\n\n¿Cómo sube o baja cada partido respecto a las últimas elecciones generales? En este gráfico puedes comparar el porcentaje de voto obtenido por PSOE, PP, Vox y Sumar y los principales partidos autonómicos este 23J y en 2019 en cada una de las 52 provincias. Haz click para ver todo el detalle.\n\n\n\nAsí sube o baja el voto a cada partido respecto a 2019 en las elecciones del 23J Comparación del voto a cada partido entre las elecciones generales de 2019 y 2023 en cada provincia. Haz click para ver más detalle PSOE PP Vox Sumar ERC Junts PNV Bildu CCa + Ver el resto de provincias Fuente: Ministerio de Interior\n\n\n\nEl detalle de dónde suben y bajan las cuatro principales formaciones políticas de este 23J se muestra en los siguientes mapas.\n\nEn el mapa, las flechas muestran la evolución del voto al partido seleccionado. Hacia arriba y coloreadas cuando el partido ha aumentado en porcentaje de voto, y hacia abajo y en gris, cuando han perdido peso electoral. El tamaño de la flecha indica los puntos de variación respecto a las anteriores elecciones y el grosor, el tamaño del municipio.\n\n\n\nDónde sube y baja cada partido en las elecciones del 23J Subida o caída del voto a cada partido en cada municipio sobre las elecciones de 2019. Solo se muestran las localidades con más de 1.000 habitantes PSOE PP Vox Sumar Desliza para ver el mapa\n\n17 comunidades autónomas (más Ceuta y Melilla) reparten los 350 diputados del Congreso. Las siguientes tablas muestran los principales resultados de cada una de ellas. Consulta cómo ha cambiado el reparto de escaños en cada comunidad y el detalle de los votos y sufragios que obtienen las principales formaciones políticas en las elecciones generales del 23J.\n\n________________\n\nCómo frenar las mentiras\n\nEn la campaña del 23J ha quedado clara la tremenda importancia que tiene la prensa libre, que depende de sus lectores y no le debe nada a nadie más. La inmensa mayoría de los grandes medios son propiedad de bancos, de fondos y grandes grupos de comunicación. La gran mayoría de ellos han blanqueado a los ultras y están bajo el control de la agenda que marca la derecha.\n\nPor eso te pedimos tu apoyo. Necesitamos crecer. Contratar a más periodistas. Reforzar nuestras ediciones locales frente a las mentiras de los gobiernos locales y autonómicos de la extrema derecha. Fichar a más reporteros de investigación. Nos hace falta llegar a más gente, construir un periódico más grande, capaz de contrarrestar la brutal ola de propaganda conservadora a la que nos vamos a enfrentar. Y que dejará pequeña la que hemos vivido en esta sucia campaña electoral.\n\nSi te preocupa el futuro de este país, apóyanos. Hoy te necesitamos más que nunca porque nuestra labor es más necesaria que nunca. Hazte socio, hazte socia, de elDiario.es",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/politica/resultados-elecciones-generales-23j-por-municipio_1_10377802.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "MAPA | Resultados Elecciones Generales 23J por municipio",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "Consulta en mapas y gráficos el detalle en directo de los resultados de las elecciones generales del 23J: el voto a cada partido, quién es ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Después de unas elecciones es habitual que los medios publiquen cómo han votado los vecinos calle a calle o barrio a barrio de un municipio concreto y las elecciones en el Parlamento Europeo no han sido una excepción. Después de los comicios de este domingo, están circulando a través de la red social X capturas de mapas de los resultados con anomalías como en que aparece que la candidatura Juntos por Cataluña – Libres por Europa ha ganado con un alto porcentaje o ha obtenido una bolsa de votos en secciones censales de barrios de Madrid, Zaragoza o València, entre otros municipios del estado español.\n\nNo te lo puedes perder El PSC gana las europeas y el independentismo pierde un millón de votos\n\nAlgunos usuarios unionistas se han mostrado sorprendidos de los resultados que ofrecían los mapas calle a calle y lo han compartido a través de las redes sociales: «¿Alguien sabe por qué cerca del teatro Pavón de Madrid hay una mayoría de Junts per Catalunya? Casi 167 nuevos votos. ¿Colonia independentista?, airbnbs catalanes?, ¿exilio interior?». Otro usuario ha compartido capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos para denunciar «sospechas de irregularidades». Según él, es «inusual» que Junts «obtenga tantos votos en estas secciones específicas y casi cabe en otras». Esta misma formación catalana, según estos mapas, también había sumado el 41% de los apoyos cerca del distrito rural Juslibol en Zaragoza.\n\n🔴 JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en una hambre descaradamente (FOTO 1). Miedo ejemplo, en una sección entro la callo Pradillo y López de Hoyos (FOTO 2). Estoy ampliando… pic.twitter.com/w9gqhvqwie — Antonie 🇪🇸 (@tip0DeIncogni) June 10, 2024\n\n\n\n\n\nEstos datos que han llamado la atención de los usuarios en las redes sociales aparecen a todos los mapas de los medios que han mostrado los resultados en un formato calle a calle. Aun así, algunos medios ya dejan constancia a las metodologías de sus mapas que estos datos están realizados con los datos provisionales que se han comunicado durante el recuento y han advertido que estos mapas pueden incluir «errores». De hecho, los resultados definitivos de las elecciones del pasado domingo no se conocerán hasta el próximo viernes 14 de junio.\n\nEl porqué de estos mapas\n\n«Son errores de los datos provisionales. ¿Qué suele pasar? La persona que transmite los datos de la mesa se equivoca y pone los datos de un partido en el campo de Junts», así explica este error Raúl Sánchez, coordinador de la sección de Datos de eldiario.es, en un hilo de Twitter, donde, además, remarca que este tipo de errores «son normales». «Especialmente en unas europeas, que a cada mesa electoral hay que transmitir datos de 34 candidaturas», añade.\n\n1) Un par de aclaraciones sobre las anomalías que están viendo en el mapa callo a callo: – Son errores de los datos provisionales\n\n– ¿Qué suele pasar? Lo fulano que transmite los datos de la mesa se equivoca y pone los datos de un partido lo campo de Juntos pic.twitter.com/j1jo9vthek — Raúl Sánchez 📈 (@raulsanchezglez) June 10, 2024\n\n\n\n\n\nLa explicación que ofrece Sánchez, de hecho, es la misma que da El Confidencial sobro que pasa en la sección censal de Lavapiés: «Estas cifras son provisionales y pueden contener errores. Por ejemplo, en una sección censal del barrio madrileño de Lavapiés figura que la primera fuerza fue Junts. Los datos indican que en esta isla las de Puigdemont recibieron 167 votos mientras que el PSOE no recibió ninguno. Casos como este, si se confirma que son erróneos, quedan enmendados cuando se revisan las actas».",
+                                        "metadata": {
+                                            "url": "https://elmon.cat/es/politica-es/elecciones/misterio-victorias-junts-madrid-alarma-espanolismo-865480/",
+                                            "source": "elmon.cat",
+                                            "favicon": "https://elmon.cat/app/uploads/sites/15/2022/03/logomonquadrat-150x150-1-1-57x57.png",
+                                            "title": "El misterio de las victorias de Junts en Madrid que alarma ...",
+                                            "type": "web_search",
+                                            "base_url": "https://elmon.cat",
+                                            "snippet": "JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En ocasión de despedirse del Presidente del Gobierno que le había emplazado a dimitir al trascender una antigua demanda de la Agencia Tributaria posteriormente resuelta el ya ex ministro de Cultura Máximo Huerta que había durado siete días en el cargo contaba tras el encuentro el estupor que le había producido la entrevista.\n\nHabía ido a despedirse, afectado lógicamente por la situación y en lugar de interesarse por el estado de ánimo de quien había sufrido tan abrupta destitución -pasará a los anales como el ministro más efímero del Reino de España- el presidente se limitó a preguntarle qué lugar creía él que ocuparía Pedro Sánchez en la historia.\n\nSiete años después puede ir haciéndose él mismo a la idea del lugar en el que será señalado tras pasar por la Comisión de Investigación del Senado que sin demasiado éxito ha intentado saber qué sabía en su condición de secretario general del PSOE de las andanzas presuntamente delictivas de los dos anteriores secretarios de Organización del partido -uno de ellos, Santos Cerdán, en prisión y el otro José Luis Ábalos, en espera de acudir ante el Tribunal Supremo. O si estaba al tanto del como poco dudosamente ético cometido de su esposa (Begoña Gómez) codirectora de una cátedra en la Universidad Complutense tarea desarrollada sin la menor titulación académica.\n\nSin olvidar el reiterado retorcimiento de leyes y normas de funcionamiento del sistema. Reformó el Código Penal para suprimir el delito de sedición bajo exigencia de los partidos separatistas catalanes (ERC y Junts) a cuyos dirigentes procesados por el intento de golpe del \"procés\" indultó a cambio de obtener su apoyo parlamentario. Sin olvidar una Ley de Amnistía cocinada al dictado de quienes acabaron beneficiándose de ella.\n\nEn ese lugar o rincón también habrá hueco para referir las constantes promesas electorales incumplidas, la deliberada y peligrosa estrategia encaminada a aislar a los partidos políticos rivales -el \"muro\"- y la no menos anómala y sostenida campaña encaminada a desacreditar a los jueces que instruyen las causas en las que están incursos algunos de sus familiares: la mujer, el hermano o quienes hasta hace poco eran dirigentes principales del PSOE. Por no hablar las campañas para desacreditar a los medios que informan sobre los casos de corrupción. Señalado, sin duda, quedará en el lugar de la Historia de España que registrará el paso por el poder de aquellos dirigentes que en nuestra época en vez de intentar unir a los españoles optaron por enfrentarlos para allegar réditos políticos traicionando el espíritu de reconciliación que fue el gran legado de la Transición.\n\nMadrid Actual no se hace cargo de las opiniones de sus colaboradores, que no tienen por qué coincidir con su línea editorial.",
+                                        "metadata": {
+                                            "url": "https://www.madridactual.es/opinion/colaboraciones-de-opinion/firma-sindicada-fermin-bocos-sanchez-historia-20251031-8064623.html",
+                                            "source": "www.madridactual.es",
+                                            "favicon": "https://www.madridactual.es/images/favicon16x16.png",
+                                            "title": "El lugar de Sánchez en la historia",
+                                            "type": "web_search",
+                                            "base_url": "https://www.madridactual.es",
+                                            "snippet": "Reformó el Código Penal para suprimir el delito de sedición bajo exigencia de los partidos separatistas catalanes (ERC y Junts) a cuyos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las elecciones europeas comenzaron el pasado 6 de junio, en algunos países nórdicos, y este 9 de junio han concluido con el cierre de todos los colegios electorales de la UE. En este sentido, en España ya se conocen los resultados y el PP ha sido el partido más votado con 22 escaños -sube 9- y el PSOE ha quedado en segunda posición con 20 -baja 1-. El orden ha seguido por: Vox, Ahora Repúblicas, Sumar, Se acabó la fiesta, Podemos, Junts y Ceus.\n\nPuedes comprobar los resultados de las elecciones europeas a continuación:\n\nElecciones Europeas 2024 Elecciones Europeas 2024 ESCRUTINIO: 0% Actualizado a las: 22:12 España\n\nComunidad de Madrid\n\nMadrid\n\nMadrid DATOS Partido % Votos EXISTE 0 0 PREPAL 0 0 PIRATAS / REBELDES 0 0 GLG 0 0 EXTREMEÑOS 0 0 JUNTS UE 0 0 RECORTES CERO 0 0 VOLT 0 0 PH 0 0 J.U.E.X. 0 0 SAE 0 0 FE de las JONS 0 0 Cs 0 0 F 0 0 AGRUPACIÓN DE ELECTORES SE ACABÓ LA FIESTA 0 0 PMR 0 0 CREE EN EUROPA 0 0 PACMA 0 0 SUMAR 0 0 PCPE/PCPC 0 0 PCTE 0 0 PFAC 0 0 PODEMOS 0 0 CRT 0 0 ESCAÑOS EN BLANCO 0 0 PP 0 0 VOX 0 0 IE 0 0 ANDALUCISTAS 0 0 PSOE 0 0 AHORA REPÚBLICAS (ERC-EH BILDU-BNG-ARA MÉS) 0 0 FO 0 0 CEUS 0 0 IZQESP 0 0 Resumen del escrutinio: Participación 0% Votos contabilizados: 0 0% Abstenciones: 0 0% Votos en blanco: 0 0% Votos nulos: 0 0%\n\nEn Onda Cero puedes comparar los resultados de las elecciones al Parlamento Europeo con las anteriores citas electorales en Europa y seguir la jornada electoral en directo. El resultado de los comicios europeos en Madrid ha sido actualizado a las 21:00 horas del 09 de junio de 2024.\n\nCon el escrutinio al 0%, Existe es el partido político más votado en Madrid en las elecciones al Parlamento Europeo al obtener 0 votos, con un porcentaje del 0% de los votos escrutados. En segunda posición, se encuentra PREPAL con un 0% de los votos, seguido de PIRATAS / REBELDES (0%). Por su parte, en cuarta posición está GLG con un 0% de los apoyos.\n\nEn Madrid se ha registrado una participación del 0% y un total de 0 votos contabilizados, de los cuales el 0% son nulos, el 0% en blanco y el 0% son abstenciones.\n\nCandidatos a las elecciones europeas en España\n\nQué poderes tiene el Parlamento Europeo\n\nLos encargados de dar forma y decidir las nuevas leyes que influyen en todos los aspectos de la vida en la Unión Europea son los eurodiputados, junto a los representantes de los gobiernos de los países de la Unión Europea. Abordan temas políticos, económicos y sociales.\n\nNo solo eso, también aprueban el presupuesto de la UE y controlan cómo se gasta el dinero.\n\nComo comentábamos anteriormente, en 2024 se eligen 720 diputados al Parlamento Europeo, 15 más que en las elecciones anteriores. Por lo general, el número de diputados se decide antes de cada elección. El número total, por cierto, no puede exceder de 750 más el presidente. Actualmente hay 705 eurodiputados.\n\nCuántos eurodiputados elige cada país\n\nLos escaños por países a las elecciones al Parlamento Europeo se reparten de la siguiente forma:\n\nAlemania: 96\n\nFrancia: 81\n\nItalia: 76\n\nEspaña: 61\n\nPolonia: 53\n\nRumanía: 33\n\nPaíses Bajos: 31\n\nBélgica: 22\n\nGrecia: 21\n\nRepública Checa: 21\n\nSuecia: 21\n\nPortugal: 21\n\nHungría: 21\n\nAustria: 20\n\nBulgaria: 17\n\nDinamarca: 15\n\nFinlandia: 15\n\nEslovaquia: 15\n\nIrlanda: 14\n\nCroacia: 12\n\nLituania: 11\n\nEslovenia: 9\n\nLetonia: 9\n\nEstonia: 7\n\nChipre: 6\n\nLuxemburgo: 6\n\nMalta: 6\n\nCuáles fueron los resultados de las últimas elecciones europeas\n\nEn 2019, el PSOE fue el partido más votado en las elecciones europeas con el 33,18% de los votos, seguido por el PP con el 20,35% de los votos. Ciudadanos cosechó el 12,30 de los apoyos, convirtiéndose así en el tercer grupo más votado en los comicios europeos.\n\nLa agrupación de Coal -UP, IU, Catalunya en Comú y Barcelona en Comú- registró el 10,17% de los votos. Por su parte, Vox tuvo el 6,28% de los votos.",
+                                        "metadata": {
+                                            "url": "https://www.ondacero.es/elecciones/europeas/resultados-madrid-municipio-2024/",
+                                            "source": "www.ondacero.es",
+                                            "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+                                            "title": "Resultados en Madrid de las elecciones europeas 2024",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ondacero.es",
+                                            "snippet": "Comprueba en Onda Cero los resultados de las elecciones europeas por municipios. Resultados elecciones europeas directo: escrutinio España ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Elecciones europeas 2024\n\n¿Ha ganado Junts en algunos barrios de Madrid? Votos de Puigdemont en la capital de España\n\nEl pasado domingo, 9 de junio, los españoles acudieron a las urnas a ejercer su derecho al voto para elegir a sus representantes en el Parlamento Europeo para los próximos cinco años. El Partido Popular liderado por Dolors Montserrat logró la mayoría de los votos, y se convirtió en la primera fuerza española en esta institución con 22 escaños, dos por encima del PSOE de Teresa Ribera, que solo obtuvo 20. También consiguieron representación Vox (6 escaños), Ahora Repúblicas (3 escaños), Sumar (3 escaños), Se Acabó La Fiesta (3 escaños), Podemos (2 escaños), Junts (1 escaño) y CEUS (1 escaño).\n\nLos independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?\n\nJunts en los barrios no catalanes\n\nSegún los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?\n\nSegún han aclarado los medios, estos mapas se han elaborado con los datos provisionales que se han comunicado durante el recuento y los definitivos no se conocerán hasta el próximo viernes 14 de junio, cinco días después de la celebración de las últimas votaciones de los comicios europeos que comenzaron el pasado 6 de junio en otros países de la Unión Europea. Pero esto no significa que los resultados que podemos contemplar en estos mapas sean un error de recuento o de transmisión de los datos electorales. Es decir, es posible que los resultados que vemos sean totalmente reales, pero esto no podremos confirmarlo hasta que lleguen los resultados definitivos.\n\nEl coordinador de la sección de Datos de elDiario.es por su parte ha asegurado en Twitter que las anomalías que pueden verse son errores de los datos provisionales y que seguramente una persona de la mesa electoral habría asignado por error un número de votos a la formación de Junts.\n\nLos resultados de Junts en España\n\nCon todo, y como podemos ver en este mapa, aún con datos provisionales, lo más probable es que sí que se haya votado al partido de Puigdemont fuera de Cataluña, aunque no tanto como para ganar en ningún municipio no catalán.",
+                                        "metadata": {
+                                            "url": "https://www.eldebate.com/espana/20240612/ganado-junts-algunos-barrios-madrid-resultados-partido-independentista-catalan-cns_204604.html",
+                                            "source": "www.eldebate.com",
+                                            "favicon": "https://www.eldebate.com/favicon.ico",
+                                            "title": "¿Ha ganado Junts en algunos barrios de Madrid? Votos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldebate.com",
+                                            "snippet": "Tras las elecciones europeas, son muchos los medios que se han hecho eco de la 'victoria' de Junts fuera de Cataluña."
+                                        }
+                                    },
+                                    {
+                                        "text": "Estamos en el año 2024 después de Cristo. Todo Lavapiés aparece en los resultados electorales como una enorme mancha roja que vota al PSOE... ¿Todo? ¡No! La sección censal 01029 se alza como un bastión indepe que rechaza el bipartidismo y es ferozmente leal a Carles Puigdemont... A esta es la conclusión, parafraseando a los cómics de Asterix y Obelix, es a la que muchos ciudadanos han llegado observando los resultados calle a calle en las elecciones europeas. Unos datos facilitados por la Junta Electoral que han sido interpretados en redes sociales como una teoría de la conspiración o una anomalía sociológica digna de estudio. Sin embargo, la realidad es más prosaica: se trata de errores de transcripción a la hora de introducir los resultados de las actas en papel en tablets de pequeñas dimensiones.\n\nLa 01029 es precisamente la sección censal en cuyo recuento participó el concejal socialista Antonio Giraldo, que a través de su cuenta de Twitter, reaccionó a un hilo viral que calificaba a Lavapiés de «enigma electoral». El edil, restó importancia a lo sucedido explicando que se trata de «un error al volcar los datos» y que «ya se ha dado parte para que se corrija el acta», rubricada por representantes de cinco partidos.\n\nEn este sentido, desde la Delegación del Gobierno aseguran a GRAN MADRID que «es normal que haya errores» pero que estos carecen de importancia en el resultado final de las elecciones «porque se corrigen en el escrutinio definitivo que empieza este viernes». Un recuento público que tiene como finalidad solventar posibles errores, como los que pueden producirse al volcar los datos.\n\nLejos de tratarse de una anomalía aislada, fuentes del partido socialista cuentan a este diario que han detectado estos «problemas de fácil solución» en 10 mesas de la Comunidad de Madrid.\n\nComparando los resultados provisionales, «transmitidos a través de una tablet de 7 pulgadas con muchas columnas y una interfaz poco clara», con los de las actas, se entiende el origen de la confusión.\n\nSegún estos resultados disponibles desde la noche del domingo, Junts obtuvo 167 votos en esta mesa, Corriente Revolucionaria de los Trabajadores (CRT) 85, Sumar 76, Vox 76 e Iustitia Europa 24. Mientras tanto, en los resultados reales del acta a la que ha podido acceder GRAN MADRID, el PSOE obtuvo 167 votos, Podemos 85, PP 76, Sumar 76 y Vox 24.\n\n«Creemos que se trata de errores de transcripción porque si miras el orden de las candidaturas, el PSOE [la candidatura 6], se encuentra justo debajo de Junts [candidatura 5]», cuenta Giraldo. Lo mismo sucede con CRT [posición 12], que se encuentra justo por encima de Podemos. Con los votos del Partido Popular [posición 10], que han ido a parar a Vox en el puesto 9. Y con los 24 votos asignados a Iustitia Europa [puesto 8], que en realidad pertenecen a Vox.\n\nEl acta real con los resultados de la sección 01029 en Lavapiés.\n\nDesde el Partido Popular, que ha sufrido este mismo problema en al menos siete mesas de Madrid, indican que las papeletas figuran en la interfaz de la tablet y se cuentan, «según el orden de inscripción de las candidaturas», lo que despierta «una fuerte competencia entre los partidos políticos a la hora de inscribirse para aparecer lo más arriba posible y ayudar así a evitar errores de este tipo».\n\nEn la misma línea que estas tres manzanas de Lavapiés situadas entre la calle de Juanelo y los Abades, aparece la sección 02018 (Arganzuela): en una zona conservadora con muchas viviendas para militares y sus familias, Junts se alza en tercera posición con 164 votos.\n\nSin embargo, los resultados más inexplicables suceden al otro lado del Manzanares. En la sección 12012, que va desde la calle del Simca hasta la M-40, el Partido Andalucista figura como vencedor en las elecciones con un 20,1% de los votos y en tercer lugar figura Escaños en Blanco, con un nada desdeñable 16%. Un poco más al norte, entre el Camino Viejo de Villaverde y la calle del Rancho, Escaños en Blanco mejoran este resultado hasta alcanzar el 17,6%. Tres manzanas en las que figura que el PP, ganador a nivel nacional de las Europeas, no tiene ni un solo voto.\n\nLos resultados mas sorprendentes del 9J\n\nOtro de los casos más extraños se produce en la trapezoidal sección encerrada entre las calles de Adora y Torrox, donde ni PP, ni PSOE, ni Podemos han obtenido ni un solo voto. En su lugar, Puigdemont (41,5%) lidera los resultados y el tercer, cuarto y quinto puesto lo ocupan respectivamente IU, el PCPE y CRT, partidos con una representación marginal en el conjunto del país.\n\nEstas anomalías, han sido malinterpretadas como una conspiración para subvertir la voluntad popular. Mensajes como: «Estamos encontrando cientos de mesas por toda España con votos inflados a favor de Junts. Algo raro está pasando» tienen en la red X miles de visualizaciones. «Ahora imaginad todos los errores a favor del PSOE que no se han podido detectar», responde otro usuario.\n\nMás allá de la sorpresa puntual o los comentarios jocosos, fuentes de distintos partidos señalan a GRAN MADRID que «el sistema es muy garantista», que existen «mecanismos de control» y que estas teorías están lanzadas por «quienes buscan aprovecharse del sistema para promover bulos». Para desgracia de sociólogos y conspiranoicos, la aldea gala indepe de Puigdemont de Lavapiés solo existe gracias a un error humano.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/madrid/2024/06/12/666895f5fdddffa81f8b45b1.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "El misterio de las aldeas galas de Puigdemont en Madrid",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Estamos en el año 2024 después de Cristo. Todo Lavapiés aparece en los resultados electorales como una enorme mancha roja que vota al PSOE."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4874912109989964,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4874912109989964,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:06:34",
+                    "run_time": 1.4874912109989964,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Qué resultados electorales oficiales obtuvo Junts en los municipios de Madrid en las últimas elecciones?": [
+                                {
+                                    "Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?": null
+                                },
+                                {
+                                    "Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?": null
+                                },
+                                {
+                                    "🔴 JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en una hambre descaradamente (FOTO 1). Miedo ejemplo, en una sección entro la callo Pradillo y López de Hoyos (FOTO 2). Estoy ampliando… pic.twitter.com/w9gqhvqwie — Antonie 🇪🇸 (@tip0DeIncogni) June 10, 2024": null
+                                }
+                            ],
+                            "¿Qué medios de comunicación informaron sobre la victoria de Junts en algún municipio de Madrid?": [
+                                {
+                                    "Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?": null
+                                },
+                                {
+                                    "Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?": null
+                                },
+                                {
+                                    "🔴 JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en una hambre descaradamente (FOTO 1). Miedo ejemplo, en una sección entro la callo Pradillo y López de Hoyos (FOTO 2). Estoy ampliando… pic.twitter.com/w9gqhvqwie — Antonie 🇪🇸 (@tip0DeIncogni) June 10, 2024": null
+                                }
+                            ],
+                            "¿Qué dice la autoridad electoral sobre los resultados electorales de Junts en los municipios de Madrid?": [
+                                {
+                                    "Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?": null
+                                },
+                                {
+                                    "Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?": null
+                                },
+                                {
+                                    "🔴 JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en una hambre descaradamente (FOTO 1). Miedo ejemplo, en una sección entro la callo Pradillo y López de Hoyos (FOTO 2). Estoy ampliando… pic.twitter.com/w9gqhvqwie — Antonie 🇪🇸 (@tip0DeIncogni) June 10, 2024": null
+                                }
+                            ],
+                            "¿Cómo comparan los resultados electorales de Junts con los de otros partidos políticos en los mismos municipios?": [
+                                {
+                                    "Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?": null
+                                },
+                                {
+                                    "Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?": null
+                                },
+                                {
+                                    "Con todo, y como podemos ver en este mapa, aún con datos provisionales, lo más probable es que sí que se haya votado al partido de Puigdemont fuera de Cataluña, aunque no tanto como para ganar en ningún municipio no catalán.": null
+                                }
+                            ],
+                            "¿Qué críticas o objeciones hay sobre la afirmación de que Junts ganó en varios municipios de Madrid?": [
+                                {
+                                    "Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?": null
+                                },
+                                {
+                                    "Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?": null
+                                },
+                                {
+                                    "Algunos usuarios unionistas se han mostrado sorprendidos de los resultados que ofrecían los mapas calle a calle y lo han compartido a través de las redes sociales: «¿Alguien sabe por qué cerca del teatro Pavón de Madrid hay una mayoría de Junts per Catalunya? Casi 167 nuevos votos. ¿Colonia independentista?, airbnbs catalanes?, ¿exilio interior?». Otro usuario ha compartido capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos para denunciar «sospechas de irregularidades». Según él, es «inusual» que Junts «obtenga tantos votos en estas secciones específicas y casi cabe en otras». Esta misma formación catalana, según estos mapas, también había sumado el 41% de los apoyos cerca del distrito rural Juslibol en Zaragoza.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 8.607562118000715,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 8.607562118000715,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:06:43",
+                    "run_time": 8.607562118000715,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nJunts ganó las elecciones en varios municipios de Madrid\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Qué resultados electorales oficiales obtuvo Junts en los municipios de Madrid en las últimas elecciones?\n¿Qué medios de comunicación informaron sobre la victoria de Junts en algún municipio de Madrid?\n¿Qué dice la autoridad electoral sobre los resultados electorales de Junts en los municipios de Madrid?\n¿Cómo comparan los resultados electorales de Junts con los de otros partidos políticos en los mismos municipios?\n¿Qué críticas o objeciones hay sobre la afirmación de que Junts ganó en varios municipios de Madrid?\n\n3. Here are the text sources you should use as your source of information:\n[0] Los independentistas siguen presentes en el Parlamento pero, sin Puigdemont, Junts ha perdido dos eurodiputados con respecto a los comicios de 2019. Sin embargo, en los últimos días se han hecho virales varios mapas de los resultados de las europeas por barrios que muestran la victoria de este partido en barrios de Madrid, Zaragoza o Marbella. Pero, ¿son reales estos resultados? ¿Es cierto que Junts ha sido la fuerza más votada en algunos distritos?\n[0] Según los mapas publicados por medios como RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos, en la calle Juslibol de Zaragoza, con el 41 %, o en la urbanización de Frentesol, en Marbella, con el 29,3 % de los votos, entre otros logares pero, ¿es esto real?\n[0] Con todo, y como podemos ver en este mapa, aún con datos provisionales, lo más probable es que sí que se haya votado al partido de Puigdemont fuera de Cataluña, aunque no tanto como para ganar en ningún municipio no catalán.\n[1] 🔴 JUNTOS ha sacado cero votos case todas las circunscripciones de Madrid, excepto media docena donde obtiene más de cien votos en cada una y en una hambre descaradamente (FOTO 1). Miedo ejemplo, en una sección entro la callo Pradillo y López de Hoyos (FOTO 2). Estoy ampliando… pic.twitter.com/w9gqhvqwie — Antonie 🇪🇸 (@tip0DeIncogni) June 10, 2024\n[1] Algunos usuarios unionistas se han mostrado sorprendidos de los resultados que ofrecían los mapas calle a calle y lo han compartido a través de las redes sociales: «¿Alguien sabe por qué cerca del teatro Pavón de Madrid hay una mayoría de Junts per Catalunya? Casi 167 nuevos votos. ¿Colonia independentista?, airbnbs catalanes?, ¿exilio interior?». Otro usuario ha compartido capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos para denunciar «sospechas de irregularidades». Según él, es «inusual» que Junts «obtenga tantos votos en estas secciones específicas y casi cabe en otras». Esta misma formación catalana, según estos mapas, también había sumado el 41% de los apoyos cerca del distrito rural Juslibol en Zaragoza.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Junts ganó las elecciones en varios municipios de Madrid"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nSe presenta evidencia de que Junts obtuvo votos en varios municipios de Madrid, lo que sugiere que podría haber ganado en algunos de ellos. Según el mapa publicado por RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos [2]. En la calle Juslibol de Zaragoza, Junts habría obtenido el 41 % de los votos, y en la urbanización de Frentesol, en Marbella, habría obtenido el 29,3 % de los votos [2]. Estos resultados sugieren que Junts tuvo una fuerte presencia en algunos municipios de Madrid y Zaragoza.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los resultados presentados por los mapas pueden ser cuestionables. Un usuario de Twitter, @tip0DeIncogni, compartió capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos, lo que llevó a sospechar irregularidades [1]. Según este usuario, es inusual que Junts obtenga tantos votos en estas secciones específicas y casi no aparezca en otras [1]. Esto sugiere que los resultados presentados por los mapas pueden no ser entirely confiables.\n\n**Conclusión**\n\nAunque hay evidencia que sugiere que Junts obtuvo votos en algunos municipios de Madrid, también hay argumentos que cuestionan la fiabilidad de los resultados presentados por los mapas. La afirmación de que Junts ganó las elecciones en varios municipios de Madrid no puede ser determinada con certeza debido a la contradicción entre la evidencia presentada por los mapas y las sospechas de irregularidades planteadas por algunos usuarios. Sin embargo, si consideramos solo la evidencia presentada por los mapas, podríamos concluir que Junts sí obtuvo votos en algunos municipios de Madrid, pero es importante tener en cuenta las reservas planteadas sobre la fiabilidad de estos resultados.\n\n**Verdict:** Falso."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.2329786840000452,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.2329786840000452,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:06:44",
+                    "run_time": 1.2329786840000452,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Junts ganó las elecciones en varios municipios de Madrid\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nSe presenta evidencia de que Junts obtuvo votos en varios municipios de Madrid, lo que sugiere que podría haber ganado en algunos de ellos. Según el mapa publicado por RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos [2]. En la calle Juslibol de Zaragoza, Junts habría obtenido el 41 % de los votos, y en la urbanización de Frentesol, en Marbella, habría obtenido el 29,3 % de los votos [2]. Estos resultados sugieren que Junts tuvo una fuerte presencia en algunos municipios de Madrid y Zaragoza.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los resultados presentados por los mapas pueden ser cuestionables. Un usuario de Twitter, @tip0DeIncogni, compartió capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos, lo que llevó a sospechar irregularidades [1]. Según este usuario, es inusual que Junts obtenga tantos votos en estas secciones específicas y casi no aparezca en otras [1]. Esto sugiere que los resultados presentados por los mapas pueden no ser entirely confiables.\n\n**Conclusión**\n\nAunque hay evidencia que sugiere que Junts obtuvo votos en algunos municipios de Madrid, también hay argumentos que cuestionan la fiabilidad de los resultados presentados por los mapas. La afirmación de que Junts ganó las elecciones en varios municipios de Madrid no puede ser determinada con certeza debido a la contradicción entre la evidencia presentada por los mapas y las sospechas de irregularidades planteadas por algunos usuarios. Sin embargo, si consideramos solo la evidencia presentada por los mapas, podríamos concluir que Junts sí obtuvo votos en algunos municipios de Madrid, pero es importante tener en cuenta las reservas planteadas sobre la fiabilidad de estos resultados.\n\n**Verdict:** Falso.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Junts ganó las elecciones en varios municipios de Madrid\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nSe presenta evidencia de que Junts obtuvo votos en varios municipios de Madrid, lo que sugiere que podría haber ganado en algunos de ellos. Según el mapa publicado por RTVE, elDiario.es, El Confidencial o El País, Junts habría sido el partido más votado en Embajadores en Madrid, con el 35 % del voto emitido por los vecinos [2]. En la calle Juslibol de Zaragoza, Junts habría obtenido el 41 % de los votos, y en la urbanización de Frentesol, en Marbella, habría obtenido el 29,3 % de los votos [2]. Estos resultados sugieren que Junts tuvo una fuerte presencia en algunos municipios de Madrid y Zaragoza.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los resultados presentados por los mapas pueden ser cuestionables. Un usuario de Twitter, @tip0DeIncogni, compartió capturas de secciones censales de Madrid, Alcobendas, Fuenlabrada, València y Murcia, donde Junts también obtenía votos, lo que llevó a sospechar irregularidades [1]. Según este usuario, es inusual que Junts obtenga tantos votos en estas secciones específicas y casi no aparezca en otras [1]. Esto sugiere que los resultados presentados por los mapas pueden no ser entirely confiables.\n\n**Conclusión**\n\nAunque hay evidencia que sugiere que Junts obtuvo votos en algunos municipios de Madrid, también hay argumentos que cuestionan la fiabilidad de los resultados presentados por los mapas. La afirmación de que Junts ganó las elecciones en varios municipios de Madrid no puede ser determinada con certeza debido a la contradicción entre la evidencia presentada por los mapas y las sospechas de irregularidades planteadas por algunos usuarios. Sin embargo, si consideramos solo la evidencia presentada por los mapas, podríamos concluir que Junts sí obtuvo votos en algunos municipios de Madrid, pero es importante tener en cuenta las reservas planteadas sobre la fiabilidad de estos resultados.\n\n**Verdict:** Falso."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Junts ganó las elecciones en varios municipios de Madrid\", \"categories\": [\"Política\", \"Elecciones\", \"Madrid\"], \"label\": \"Fake\", \"main_claim\": \"La afirmación de que Junts ganó las elecciones en varios municipios de Madrid es falsa\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

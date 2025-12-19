@@ -1,0 +1,654 @@
+{
+    "question": "Un MENA cobra más que un jubilado español",
+    "answer": "**En cuanto a si un MENA cobra más que un jubilado español, hay algunos datos que sugieren que esto podría ser cierto en algunos casos, aunque no en todos**. Según [1], los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles, con un 3,2% más. Además, se menciona que la situación económica de los jubilados es más positiva que la de los trabajadores, ya que la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada. Sin embargo, no se proporciona información específica sobre los salarios de los MENA en comparación con los jubilados españoles.\n\n**Sin embargo, hay algunas diferencias importantes en los salarios según la edad y el origen**. Según [2], los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. En cuanto a los MENA, se menciona en [3] que los trabajadores extranjeros sufren una brecha salarial en comparación con los trabajadores españoles, con diferencias que varían según el origen. Los inmigrantes de África Subsahariana, Oriente Medio y Norte de África, Asia y Latinoamérica presentan una brecha salarial de entre el 18,5% y el 26% en comparación con los trabajadores españoles.\n\n**En cuanto a la conclusión, no se puede determinar con certeza si un MENA cobra más que un jubilado español, ya que la información proporcionada no es lo suficientemente específica**. Sin embargo, se puede concluir que la situación económica de los jubilados es más positiva que la de los trabajadores en general, y que hay diferencias importantes en los salarios según la edad y el origen. Es importante tener en cuenta que la brecha salarial entre los trabajadores extranjeros y los españoles es un tema complejo que requiere una análisis más detallado. En base a la información disponible, no se puede afirmar categóricamente que un MENA cobra más que un jubilado español, pero es posible que en algunos casos esto sea cierto.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20250828/pension-media-jubilados-superior-sueldo-mitad-asalariados-espanoles/1003743901761_0.html",
+            "source": "www.elespanol.com",
+            "favicon": "https://s2.elespanol.com/2020/02/26/favicon-invertia.ico"
+        },
+        "2": {
+            "url": "https://www.democrata.es/economia/pensiones-nuevos-jubilados-superan-ingresos-jovenes-menores-35-anos-revela-estudio/",
+            "source": "www.democrata.es",
+            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png"
+        },
+        "3": {
+            "url": "https://www.eldiario.es/economia/trabajadores-inmigrantes-cobran-29-personas-nacidas-espana_1_12466752.html",
+            "source": "www.eldiario.es",
+            "favicon": "https://www.eldiario.es/favicon.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Un MENA cobra más que un jubilado español",
+        "categories": [
+            "Economía",
+            "Trabajo",
+            "Inmigración"
+        ],
+        "label": "Undetermined",
+        "main_claim": "No se puede determinar si un MENA cobra más que un jubilado español",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "cadenaser.com",
+                    "clinicaalemana.cl",
+                    "es.weforum.org",
+                    "20minutos.es",
+                    "ree.es",
+                    "es.euronews.com",
+                    "lasexta.com",
+                    "agrodiario.com",
+                    "salud.nih.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cambioenergetico.com",
+                    "albalactanciamaterna.org",
+                    "lamoncloa.gob.es",
+                    "cincodias.elpais.com",
+                    "oftalmologos.org.ar",
+                    "worldwildlife.org",
+                    "jacc.org",
+                    "medlineplus.gov",
+                    "maldita.es",
+                    "theconversation.com",
+                    "nyc.gov",
+                    "publico.es",
+                    "caixabankresearch.com",
+                    "uoc.edu",
+                    "who.int",
+                    "infobae.com",
+                    "bbva.com",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "educaweb.com",
+                    "verificat.cat",
+                    "elconfidencial.com",
+                    "efe.com",
+                    "myfisioclinic.com",
+                    "elpais.com",
+                    "newtral.es",
+                    "primabiotic.es",
+                    "defensa.gob.es",
+                    "hopkinsmedicine.org",
+                    "lavanguardia.com",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "theobjective.com",
+                    "observatoriodeladiscapacidad.info",
+                    "bankinter.com",
+                    "rtve.es",
+                    "nationalgeographic.com.es",
+                    "vozpopuli.com",
+                    "sjme.org",
+                    "sepe.es",
+                    "observatoriodelalquiler.org",
+                    "pmp.org.es",
+                    "normoncontigo.normon.com",
+                    "datosmacro.expansion.com",
+                    "masquemedicos.com",
+                    "europapress.es",
+                    "elplural.com",
+                    "feminismo.maldita.es",
+                    "antena3.com",
+                    "cancer.gov",
+                    "lefebvre.es",
+                    "elblogsalmon.com",
+                    "xataka.com",
+                    "gacetamedica.com",
+                    "ciencia.nasa.gov",
+                    "verifica.efe.com",
+                    "sistemaelectrico-ree.es",
+                    "abc.es",
+                    "coches.net",
+                    "kidshealth.org",
+                    "ec-europa-eu.translate.goog"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 14.155826599000193,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 14.155826599000193,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:15:49",
+                    "run_time": 14.155826599000193,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nUn MENA cobra más que un jubilado español\n\n**Critical Research Questions:**\n1. ¿Cuál es el salario promedio de un MENA en España en 2025?\n2. ¿Cuál es el salario promedio de un jubilado español en 2025?\n3. ¿Qué diferencias hay entre el salario de un MENA y el de un jubilado español en España?\n4. ¿Qué opinan los expertos en materia de inmigración sobre el salario de los MENA en España?\n5. ¿Qué dice el Instituto Nacional de Estadística (INE) sobre el salario de los MENA y los jubilados españoles?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"salario promedio MENA España 2025 estadísticas oficiales INE\", \"pensiones españolas 2025 salario promedio jubilados Seguridad Social\", \"comparativa salario MENA y jubilados españoles estudio investigación expertos\", \"opinión expertos inmigración salario MENA España 2025 análisis crítico\", \"INE estadísticas salario MENA y jubilados españoles 2025 datos actualizados\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.0519423309997364,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.0519423309997364,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:15:52",
+                    "run_time": 3.0519423309997364,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "salario promedio MENA España 2025 estadísticas oficiales INE",
+                                "pensiones españolas 2025 salario promedio jubilados Seguridad Social",
+                                "comparativa salario MENA y jubilados españoles estudio investigación expertos",
+                                "opinión expertos inmigración salario MENA España 2025 análisis crítico",
+                                "INE estadísticas salario MENA y jubilados españoles 2025 datos actualizados"
+                            ],
+                            "results": {
+                                "salario promedio MENA España 2025 estadísticas oficiales INE | pensiones españolas 2025 salario promedio jubilados Seguridad Social | comparativa salario MENA y jubilados españoles estudio investigación expertos | opinión expertos inmigración salario MENA España 2025 análisis crítico | INE estadísticas salario MENA y jubilados españoles 2025 datos actualizados": [
+                                    {
+                                        "text": "La Seguridad Social ha abonado 10.313.634 pensiones en la nómina de marzo, que ha ascendido a 13.492,5 millones de euros. En cuanto al número de pensionistas, en marzo se mantiene por encima de los 9,3 millones. De ellos, 4,7 millones son hombres y 4,6 millones, mujeres.La pensión media del sistema alcanza los 1.308,2 euros mensuales, un 4,5% más que en el mismo mes del año anterior. Este dato incluye la cuantía de las distintas clases de pensión (jubilación, incapacidad permanente, viudedad, orfandad y en favor de familiares). La pensión media de jubilación, que perciben más de dos tercios del total de pensionistas (6,4 millones de personas), es de 1.502,2 euros mensuales.Por regímenes, el importe de la pensión media de jubilación procedente del Régimen General es de 1.662,3 euros mensuales, mientras que en el Régimen Especial de Trabajadores Autónomos alcanza los 1.007,1 euros/mes.En la Minería del Carbón, la cuantía de la pensión media es de 2.896,5 euros, y de 1.660,6 euros en el Régimen del Mar.Por su parte, la pensión media de viudedad alcanza los 933 euros al mes. En cuanto a las nuevas altas de jubilación, la cuantía media del sistema fue de 1.761,5 euros de media, según los últimos datos disponibles (febrero).La nómina mensual de pensiones contributivas alcanzó en marzo 13.492,5 millones de euros. Como es habitual, casi las tres cuartas partes de esta cifra corresponden a pensiones de jubilación, que representan el 73,2% del total (9.870,4 millones de euros). A pensiones de viudedad se han destinado 2.191,2 millones de euros, mientras que la nómina de las prestaciones por incapacidad permanente asciende a 1.217,2 millones; la de orfandad, a 177,7 millones de euros y la de las prestaciones en favor de familiares, a 35,9 millones.En los dos primeros meses del año, se registraron 69.616 nuevas altas de pensiones de jubilación. Las jubilaciones demoradas representan ya el 11,3% de las nuevas altas, más del doble que en 2019 (4,8%). Este cambio refleja el impacto de los incentivos a la demora vigentes desde 2022 y la reconfiguración del marco de jubilación anticipada.Como consecuencia de este cambio de tendencia, la edad media de acceso a la jubilación se sitúa en los 65 años, frente a los 64,4 años de 2019.En cuanto a los tiempos de resolución de los expedientes, en febrero (último dato disponible) fue de 21,53 días en el caso de la pensión de jubilación y de 12,96 días en el caso de las pensiones de viudedad.En marzo, 976.975 pensiones incluyen el complemento para la reducción de la brecha de género, de las que el 88,7% corresponden a mujeres (866.851). El importe medio de este complemento es de 75,5 euros mensuales.Del total de pensiones complementadas, el 25% corresponde a pensionistas con un hijo (244.457); el 47,1% de los beneficiarios, con dos hijos (460.384); el 18,3% lo percibe por tres hijos (179.139), y por cuatro hijos, el 9,5% (92.995).Este complemento, en vigor desde febrero de 2021, consiste en una cuantía fija por hijo, incluído el primero, y debe solicitarse al mismo tiempo que la pensión.Por otra parte, la nómina mensual de pensiones de Clases Pasivas ascendió a 1.667,42 millones de euros en el mes de febrero (último dato disponible), lo que supone un aumento de 95,5 millones de euros respecto a la del año anterior, un 6,07 % más.El número de pensiones de Clases Pasivas en vigor fue de 723.732, que son 14.574 pensiones más que en febrero de 2024, con un crecimiento del 2,1% anual.El Régimen de Clases Pasivas del Estado incluye principalmente al personal militar y al personal civil de la Administración General del Estado, la Administración de Justicia, las Cortes Generales y otros órganos constitucionales o estatales, así como a los funcionarios transferidos a las comunidades autónomas.La información completa de las pensiones contributivas del Sistema de Seguridad Social se puede consultar en el archivo adjunto.",
+                                        "metadata": {
+                                            "url": "https://revista.seg-social.es/-/la-pension-media-de-la-seguridad-social-se-situa-en-marzo-en-1.308-euros",
+                                            "source": "revista.seg-social.es",
+                                            "favicon": "https://revista.seg-social.es/o/revistas-theme/images/favicon.ico",
+                                            "title": "La pensión media de la Seguridad Social se sitúa en 1.308 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://revista.seg-social.es",
+                                            "snippet": "Pensiones medias​​ La pensión media del sistema alcanza los 1.308,2 euros mensuales, un 4,5% más que en el mismo mes del año anterior. Este dato ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La jubilación de la generación del baby-boom (los nacidos entre 1957 y 1977) cada vez se deja sentir más en el gasto público en pensiones, que todos los meses toca nuevo máximo histórico.\n\nSe trata de una población que ha tenido salarios altos y largas carreras de cotización y esto se nota, también, en la pensión media que perciben, que está por encima de lo que cobra una gran parte de los asalariados.\n\nSegún los datos del Ministerio de Inclusión, Seguridad Social y Migraciones correspondientes a agosto, los nuevos jubilados (es decir, los baby boomers) están accediendo a una pensión anual que está en los 24.108 euros brutos. Una remuneración que está por encima de lo que cobra más de la mitad de los trabajadores españoles.\n\nAsí lo indica la información más reciente del Instituto Nacional de Estadística (que data de 2023). Concretamente, el salario mediano, que divide a la población asalariada en dos partes iguales: la mitad de los trabajadores gana por encima de esa cantidad y la otra mitad gana por debajo. Dicho indicador está en los 23.349 euros brutos al año.\n\nSegún este dato, los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles. Como mínimo, un 3,2% más.\n\nEsto no ocurre con la pensión media de jubilación. Pese a que ha subido un 6,15% respecto a agosto del año pasado y está en los 21.105,7 euros brutos anuales, el salario mediano sigue estando por encima.\n\nEn cambio, si se toma como referencia el salario más frecuente, la cosa cambia. Cabe recordar que el sueldo más habitual en España está, como máximo, en los 20.000 euros brutos anuales. Una cantidad que está por debajo tanto de lo que cobran los nuevos jubilados como de la pensión media de jubilación.\n\nEn términos generales, lo cierto es que la situación económica de los jubilados es más positiva que la de los trabajadores. Si se observan los datos de la renta media de los hogares del INE, la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada.\n\nConcretamente, un jubilado cuenta con una renta media de 18.424 euros anuales, un 10% más que un ocupado (16.740 euros).\n\nHay varias razones para esta diferencia. Entre ellas, la propiedad de la vivienda (y pagar o no un alquiler) y que los jubilados han mantenido el poder adquisitivo durante las últimas legislaturas (por las medidas tomadas por el Gobierno al respecto), algo que no pueden decir los asalariados.\n\nDe hecho, si se toma como referencia 2018, la renta de un jubilado ha crecido un 31,6% mientras que la de un ocupado lo ha hecho un 27%.\n\nDéficit contributivo\n\nCabe recordar que la nómina de pensiones ya suma más de 13.620 millones de euros mensuales y que va in crescendo. Supone la principal partida de los Presupuestos Generales del Estado (con prórroga o sin ella) y es la principal preocupación para la sostenibilidad futura de las cuentas públicas.\n\nNo es para menos. Pese a los incrementos de las cotizaciones ejecutados mediante las reformas de la Seguridad Social del exministro José Luis Escrivá (hoy gobernador del Banco de España), los ingresos por esta vía siguen sin ser suficientes para pagar el gasto que suponen las prestaciones contributivas.\n\nDe hecho, los importantes aumentos experimentados por el gasto en pensiones y bajas médicas o por incapacidad temporal elevan el déficit contributivo por encima de los 5.000 millones de euros en lo que va de 2025.\n\nEl déficit contributivo se genera cuando los ingresos por cotizaciones sociales (contribuciones de trabajadores y empresas) no están al mismo nivel que los gastos en prestaciones contributivas dentro del sistema de Seguridad Social.\n\nEs decir, que en el lado de los ingresos deja fuera importantes ayudas como las transferencias del Estado y en el lado del gasto no tiene en cuenta el pago de prestaciones no contributivas, como el ingreso mínimo vital (IMV).\n\nY las cotizaciones sociales no están creciendo lo suficiente. Según los datos de la Seguridad Social a cierre del primer semestre de este año, la recaudación por esta vía experimentó un incremento de casi el 7% respecto al mismo periodo de 2024, llegando a los 86.383 millones de euros.\n\nSin embargo, con esta cantidad no se cubren los pagos que se han tenido que afrontar en prestaciones contributivas. Por un lado, hasta junio la partida destinada a pensiones ha experimentado un incremento del 5,78%, hasta los 77.900 millones.\n\nPor el otro, está el gasto destinado a bajas médicas y otras prestaciones contributivas. Esta partida ha requerido hasta junio el abono de más de 11.186 millones de euros, un notable 10,3% más que el año pasado.\n\nEsto sumado a transferencias internas de la Seguridad Social (por valor de 2.328 millones) da pie a un gasto contributivo de 91.421 millones.\n\nPor tanto, los ingresos por cotizaciones sociales no llegan para sostener el gasto contributivo. De ahí el déficit contributivo de más de 5.000 millones mencionado, y que se irá incrementando (según fuentes conocedoras a esta operativa) según avance el año.\n\nTodo ello pese al buen momento que experimenta el empleo, que permite a la Seguridad Social disponer de cifras récord de cotizantes. A ello se suman las reformas del Gobierno de Pedro Sánchez que han llevado a sustanciales incrementos de estas aportaciones de empresas y trabajadores.\n\nEste es el caso del incremento gradual de las bases máximas y la creación de la cuota de solidaridad, que supone un recargo sobre los salarios más altos del 1% en este 2025, con un alza de 0,25 puntos porcentuales al año hasta alcanzar el 6% en 2045.\n\n<script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",function(a){if(void 0!==a.data[\"datawrapper-height\"]){var e=document.querySelectorAll(\"iframe\");for(var t in a.data[\"datawrapper-height\"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data[\"datawrapper-height\"][t]+\"px\";r.style.height=d}}})}(); </script>\n\nAdemás, está el mecanismo de equidad intergeneracional (MEI), un recargo que se aplica de forma indiscriminada (y que aumentará anualmente) y que está pensado para equilibrar las cuentas de la Seguridad Social y llenar el Fondo de Reserva de la Seguridad Social, la conocida como hucha de las pensiones.\n\nEl MEI se puso en marcha en 2023. Respecto al primer semestre de ese año, su recaudación se ha disparado un 98%, hasta los 2.352 millones de euros en el primer semestre de 2025.\n\nPese a ello, la Autoridad Independiente de Responsabilidad Fiscal (AIReF) ha alertado en unos de sus últimos informes de que estas medidas no han mejorado la sostenibilidad a largo plazo del sistema con respecto a años anteriores. El gasto en pensiones seguirá creciendo y se estima que subirá en 3,4 puntos porcentuales del PIB hasta 2050, cuatro décimas más de lo previsto hace dos años.\n\nEl déficit contributivo provoca que, para equilibrar sus cuentas, la Seguridad Social necesite aportaciones del Estado (obtenidas a través de impuestos, claro) anualmente. Este año, dicha aportación se eleva por encima de los 29.000 millones, un 6,7% más que en el primer semestre de 2024.\n\nCon esto, además de compensar el déficit contributivo, se pagarán lo que el exministro Escrivá vino a llamar \"gastos impropios\" de la Seguridad Social, entre los que se cuentan principalmente las prestaciones no contributivas. En el primer semestre suman ya 10.361 millones de euros, un 10,4% más que el año pasado.\n\nHabrá que ver cómo acaba 2025, pero, por ahora, ni un mercado laboral en alza ni unas cotizaciones de récord logran sacar a la Seguridad Social de sus números rojos. Unas cifras negativas que siguen aumentando con llegada de nuevos jubilados.",
+                                        "metadata": {
+                                            "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20250828/pension-media-jubilados-superior-sueldo-mitad-asalariados-espanoles/1003743901761_0.html",
+                                            "source": "www.elespanol.com",
+                                            "favicon": "https://s2.elespanol.com/2020/02/26/favicon-invertia.ico",
+                                            "title": "La pensión media de los jubilados durante 2025 ya es ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elespanol.com",
+                                            "snippet": "Concretamente, un jubilado cuenta con una renta media de 18.424 euros anuales, un 10% más que un ocupado (16.740 euros). Hay varias razones para ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Consulta el servicio de información estadísticas en materia de pensiones de la Seguridad Social eSTADISS\n\nMás estadísticas de pensiones de Clases Pasivas, disponibles en la web de Clases Pasivas\n\nLa Seguridad Social ha abonado 10.324.244 pensiones en la nómina de abril, que ha ascendido a 13.515,2 millones de euros. En cuanto al número de pensionistas, en abril se mantiene por encima de los 9,3 millones. De ellos, 4,7 millones son hombres y 4,6 millones, son mujeres.La pensión media del sistema alcanza los 1.309,1 euros mensuales, un 4,5% más que en el mismo mes del año anterior. Este dato incluye la cuantía de las distintas clases de pensión (jubilación, incapacidad permanente, viudedad, orfandad y en favor de familiares). La pensión media de jubilación, que perciben más de dos tercios del total de pensionistas (6,4 millones de personas), es de 1.503,3 euros mensuales.Por regímenes, el importe de la pensión media de jubilación procedente del Régimen General es de 1.663,2 euros mensuales, mientras que en el Régimen Especial de Trabajadores Autónomos alcanza los 1.007,8 euros/mes. En la Minería del Carbón, la cuantía de la pensión media es de 2.898,1 euros, y de 1.663,3 euros en el Régimen del Mar.Por su parte, la pensión media de viudedad se sitúa en 933,5 euros al mes. En cuanto a las nuevas altas de jubilación, la cuantía media del sistema fue de 1.600,2 euros de media, según los últimos datos disponibles (marzo). En el Régimen General, la pensión de las nuevas altas ascendió a 1.703 euros/mes.La nómina mensual de pensiones contributivas alcanzó en abril 13.515,2 millones de euros. Como es habitual, casi las tres cuartas partes de esta cifra corresponden a pensiones de jubilación, que representan el 73,1% del total (9.882,3 millones de euros). A pensiones de viudedad se han destinado 2.192,9 millones de euros, mientras que la nómina de las prestaciones por incapacidad permanente asciende a 1.225,8 millones; la de orfandad, a 178 millones de euros y la de las prestaciones en favor de familiares, a 36,1 millones.En los dos primeros meses del año, se registraron 65.067 nuevas altas de pensiones de jubilación. Las jubilaciones demoradas representan ya el 11,2% de las nuevas altas, más del doble que en 2019 (4,8%). Este cambio refleja el impacto de los incentivos a la demora vigentes desde 2022 y la reconfiguración del marco de jubilación anticipada.Como consecuencia de este cambio de tendencia, la edad media de acceso a la jubilación se sitúa en los 65,1 años, frente a los 64,4 años de 2019.En cuanto a los tiempos de resolución de los expedientes, en marzo (último dato disponible) fue de 10,6 días en el caso de la pensión de jubilación y de 11,1 días en el caso de las pensiones de viudedad.En abril, 997.959 pensiones incluyen el complemento para la reducción de la brecha de género, de las que el 88,7% corresponden a mujeres (885.154). El importe medio de este complemento es de 75,5 euros mensuales.Del total de pensiones complementadas, el 25,1% corresponde a pensionistas con un hijo (250.229); el 47,1% de los beneficiarios, con dos hijos (470.149); el 18,3% lo percibe por tres hijos (182.791), y por cuatro hijos, el 9,5% (94.790).Este complemento, en vigor desde febrero de 2021, consiste en una cuantía fija por hijo, incluído el primero, y debe solicitarse al mismo tiempo que la pensión.Por otra parte, la nómina mensual de pensiones de Clases Pasivas ascendió a 1.668,2 millones de euros en el mes de marzo (último dato disponible), lo que supone un aumento de 93,4 millones de euros respecto a la del año anterior, un 5,9% más.El número de pensiones de Clases Pasivas en vigor fue de 724.315, que son 14.332 pensiones más que en febrero de 2024, con un crecimiento del 2% anual.El Régimen de Clases Pasivas del Estado incluye principalmente al personal militar y al personal civil de la Administración General del Estado, la Administración de Justicia, las Cortes Generales y otros órganos constitucionales o estatales, así como a los funcionarios transferidos a las comunidades autónomas.",
+                                        "metadata": {
+                                            "url": "https://revista.seg-social.es/-/pensi%C3%B3n-media-seguridad-social-abril-2025-1.309-1-euros-crece-4-5-en-un-a%C3%B1o",
+                                            "source": "revista.seg-social.es",
+                                            "favicon": "https://revista.seg-social.es/o/revistas-theme/images/favicon.ico",
+                                            "title": "La pensión media de la Seguridad Social se sitúa en 1.309 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://revista.seg-social.es",
+                                            "snippet": "La pensión media del sistema alcanza los 1.309,1 euros mensuales, un 4,5% más que en el mismo mes del año anterior. Este dato incluye la cuantí ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En España, prácticamente uno de cada cinco habitantes cobra algún tipo de pensión. Concretamente, a finales de 2024 la Seguridad Social contabilizaba 10.281.477 pensionistas. La pensión media entonces era de 1.261,90 euros, aunque la cuantía que recibe cada pensionista varía en función de si se acerca más a la pensión mínima o la máxima.\n\n\n\nEfectivamente, la cuantía de las pensiones mínimas y máximas marca el rango en el que se mueven los ingresos de los pensionistas. Tampoco suben en igual medida. Por ejemplo, en 2025 las pensiones contributivas aumentarán el 2,8 % por norma general, acorde al IPC. Sin embargo, las mínimas lo harán el 6 %, mientras que las no contributivas y el ingreso mínimo vital subirán el 9 %. Será ligeramente superior el aumento de las de viudedad con cargas familiares (9,1 %).\n\n\n\nEn este contexto, ¿cuáles son las pensiones mínimas en 2025 en España? ¿Y cuáles son las pensiones máximas? Vamos a verlo con detalle.\n\nPensiones mínimas contributivas\n\nPensión mínima de jubilación en 2025\n\nEn 2025, la pensión mínima contributiva de jubilación para mayores de 65 años se establece en 12.241,60 euros para jubilados de 65 años o más sin cónyuge a cargo y 15.786,40 euros para quienes sí lo tienen. Los menores de esa edad cobrarán un mínimo de 11.452 euros si no tienen cónyuge a cargo. Las cuantías se reducen ligeramente si se tiene un cónyuge no a cargo.\n\n\n\nPensión de jubilación Con cónyuge a cargo – Euros/año Sin cónyuge: unidad económica unipersonal – Euros/año Con cónyuge no a cargo – Euros/año Titular con sesenta y cinco años. 15.786,40 12.241,60 11.620 Titular menor de sesenta y cinco años. 15.786,40 11.452 10.824,80 Titular con sesenta y cinco años procedente de gran invalidez. 23.678,20 18.362,40 17.430\n\n\n\n\n\nPensión mínima de incapacidad permanente en 2025\n\nEn cuanto a las pensiones por incapacidad permanente, su cuantía mínima también depende de las circunstancias del pensionista, como su edad, grado de invalidez o la existencia de un cónyuge. Estas son las que se han establecido en 2025:\n\n\n\nPensión por incapacidad permanente Con cónyuge a cargo – Euros/año Sin cónyuge: unidad económica unipersonal – Euros/año Con cónyuge no a cargo – Euros/año Incapacidad permanente. Gran invalidez. 23.678,20 18.362,40 17.430 Absoluta. 15.786,40 12.241,60 11.620 Total: titular con sesenta y cinco años. 15.786,40 12.241,60 11.620 Total: titular con edad entre sesenta y sesenta y cuatro años. 15.786,40 11.452 10.824,80 Total: derivada de enfermedad común menor de sesenta años. 9.024,40 9.024,40 8.947,40 Parcial del régimen de accidentes de trabajo: titular con sesenta y cinco años. 15.786,40 12.241,60 11.620\n\n\n\n\n\nPensión mínima de viudedad en 2025\n\nLas pensiones mínimas de viudedad en 2025 son similares a las establecidas por jubilación, que se asimilan a las circunstancias de la persona viuda. En el caso de titulares que aún no han cumplido 60 años de edad, esa cuantía se establece en 9.275 euros al año.\n\nPensión de viudedad Euros/año Titular con cargas familiares. 15.786,40 Titular con sesenta y cinco años o con discapacidad en grado igual o superior al 65 por 100. 12.241,60 Titular con edad entre sesenta y sesenta y cuatro años. 11.452 Titular con menos de sesenta años. 9.275\n\n\n\n\n\n\n\nPensiones mínimas de orfandad y en favor de familiares en 2025\n\nEn el resto de las pensiones por fallecimiento (orfandad y en favor de familiares), se establecen cuantías mínimas por beneficiario, aunque la prestación que finalmente se abona dependerá de la causa que la haya originado.\n\n\n\nAsí, mientras la pensión en favor de familiares tiene una cuantía mínima de 3.745 euros al año (7.361,20 euros en el caso de menores con cierta discapacidad), la pensión mínima de orfandad es de 11.113,20 euros anuales en 2025.\n\n\n\nPensión de orfandad Euros/año Por beneficiario. 3.745 Por beneficiario menor de 18 años con discapacidad en grado igual o superior al 65 por 100. 7.361,20 En la orfandad absoluta, el mínimo se incrementará en 8.752,8 euros/años distribuidos, en su caso, entre los beneficiarios. Prestación de orfandad Un beneficiario. 11.113,20 Varios beneficiarios: a repartir entre número de beneficiarios. 18.733,70 En favor de familiares. Por beneficiario. 3.745 Si no existe viudo ni huérfano pensionistas. Un solo beneficiario con sesenta y cinco años. 9.044 Un solo beneficiario menor de sesenta y cinco años. 8.523,20 Varios beneficiarios: el mínimo asignado a cada uno de ellos se incrementará en el importe que resulte de prorratear 5.530 euros/año entre el número de beneficiarios.\n\n\n\n\n\n\n\nPensiones mínimas de Clases Pasivas en 2025\n\nLos funcionarios públicos cotizan durante su vida laboral al Régimen de Clases Pasivas del Estado, que es el que reconoce y paga sus pensiones, así como las de sus familiares. En este caso también se han establecido cuantías mínimas para 2025, que son las siguientes:\n\n\n\nClases Pasivas Con cónyuge a cargo – Euros/año Sin cónyuge: unidad económica unipersonal – Euros/año Con cónyuge no a cargo – Euros/año Pensión de jubilación o retiro. 15.786,40 12.241,60 11.620 Pensión de viudedad. 12.241,60 Pensión familiar distinta de la de viudedad (N= número de beneficiarios de la pensión o pensiones). 11.932,90 /N\n\n\n\n\n\n\n\nPensiones SOVI en 2025\n\nPara las personas que, en su día, habían cotizado al ya extinguido Seguro de Vejez e Invalidez (SOVI) se han establecido cuantías fijas, en función de si concurren o no con otras pensiones.\n\n\n\nAsí, las no concurrentes tienen un importe anual en 2025 de 7.840 euros, mientras que las que sí concurren con pensiones de viudedad de algún régimen de la Seguridad Social serán de 7.610,40 euros anuales. Eso sí, si se rebasan estos límites, el importe se rebajará lo necesario para no superarlos.\n\nPensiones mínimas no contributivas en 2025\n\nEn cuanto a las pensiones no contributivas, su cuantía para 2025 es de 7.905,80 euros, tanto para las de jubilación como para las de invalidez.\n\n\n\nPara determinar la prestación que recibirá cada pensionista, se tiene en cuenta ese importe y el número de beneficiarios que estén integrados en la unidad de convivencia.\n\n\n\nAdemás, la prestación no contributiva por hijo a cargo mayor de 18 años y con discapacidad superior al 65 % es de 5.805,6 euros. La cantidad se eleva a 8.707,20 euros si la discapacidad es mayor o igual al 75 %.\n\nPensión máxima en 2025\n\nHasta ahora hemos hablado de pensiones mínimas, pero, ¿qué ocurre con las de mayor cuantía? ¿Cuál es la pensión máxima en 2025?\n\n\n\nEn este caso, se ha establecido un tope para todas las pensiones públicas del Sistema de Seguridad Social y para las de Clases Pasivas: en 2025, las pensiones no podrán superar los 3.267,60 euros mensuales en 14 pagas o los 3.812 euros en 12 pagas. Esto supone un máximo de 45.746,40 euros anuales.",
+                                        "metadata": {
+                                            "url": "https://www.caixabank.com/es/esfera/content/pension-minima-maxima-2025",
+                                            "source": "www.caixabank.com",
+                                            "favicon": "https://www.caixabank.com/favicon.ico",
+                                            "title": "¿Cuáles son las pensiones mínimas y máximas en 2025?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.caixabank.com",
+                                            "snippet": "se establece en 12.241,60 euros para jubilados de 65 años o más sin cónyuge a cargo y 15.786,40 euros para quienes sí lo tienen. Los menores de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La renta media de los jubilados en España ya es mayor a la de la media de los europeos. En concreto, es un 6,4% más alta en nuestro país que en el conjunto de la UE. Una cifra que aumenta a medida que el nivel de estudios se eleva, y que contrasta con la situación que viven el resto de españoles según el informe Formación, transición digital y calidad de vida de los mayores en España, publicado por la Fundación BBVA y el Instituto Valenciano de Investigaciones Económicas (Ivie). Las cifras se refieren al año 2023, cuando la pensión de jubilación se revalorizó un 8,5% por el impacto de la espiral inflacionaria vivida un año antes (cuando la subida de precios marcó récord desde 1986) y por la vinculación de la prestación al IPC. Ese mismo año, los asalariados experimentaron un incremento del 3,46% en sus sueldos. Los convenios experimentaron la mayor subida en 15 años, pero no fue equiparable al crecimiento de la nómina de los pensionistas.\n\nEn el año 2023 la renta mediana de los que superan la edad de jubilación en España fue de 19.320 euros al año; mientras que para el resto de Europa el dato se situó en los 18.152 euros. Al mismo tiempo, los menores de 65 obtuvieron unos ingresos de 19.545 en nuestro país frente a unos de 21.092 euros en el conjunto de la Unión Europea. Unas cifras que evidencian la mejora de las condiciones económicas para los jubilados en España. El estudio, explican ambos organismos, utiliza la medida de la renta mediana al tratarse de un indicador más apropiado a la hora de medir la desigualdad.\n\nLa ventaja frente al resto de europeos en renta aumenta con el nivel de estudios y se eleva hasta el 26% en el caso de los mayores con estudios medios y al 18% para los que cuentan con formación superior. Es decir, para los que ya han accedido al retiro, el hecho de tener estudios supone más ingresos; algo que no sucede en el caso de los menores de 64 años. Para los que todavía no se han jubilado, la renta española mediana es, a igualdad de nivel educativo, un 7,3% más baja que la de UE.\n\nAdemás de la brecha experimentada en la renta, el estudio de BBVA y el Ivie señala mejores condiciones económicas en el colectivo de mayores que, de media, en el resto de la población.\n\nLos jubilados tienen más riqueza\n\nLos hogares formados por personas mayores de 65 son los que cuentan con más riqueza neta. El patrimonio crece progresivamente desde los 76.000 euros para los hogares cuyo cabeza de familia tiene entre 35 y 44 años, alcanza su máximo de 226.000 euros para el grupo de 65 a 74 años y se mantiene en niveles próximos (221.000 euros), en el caso de los mayores de 75 años.\n\nPor otro lado, el 30,5% de los mayores de 65 años tiene rentas al menos un 30% superiores a la mediana. En contraste, destaca el informe, el 23,2% del grupo de personas entre 18 y 64 años tiene dificultades para llegar a final de mes (frente a un 15,9% de los ya retirados).\n\nLa desigualdad entre mayores también es menor en comparación. De hecho, la renta disponible del 20% de los mayores más ricos es 5 veces la del 20% más pobre, mientras que esta ratio es 5,6 para el resto.\n\nEn definitiva, \"los que superan la edad disfrutan de rentas más elevadas, están menos expuestos al riesgo de pobreza o exclusión social, se enfrentan a menos carencias económicas y poseen más riqueza neta y mayor seguridad económica respecto a posibles eventualidades adversas\" detalla el documento.\n\nLa brecha entre los mayores de 55, explicada por la formación\n\nBrecha generacional a parte, también existen desigualdades económicas dentro del grupo de los mayores de 55 y el nivel educativo determinante. Según explican ambas organizaciones en el texto, el grado educativo es el principal factor que incide en las diferencias económicas dentro de este conjunto poblacional.\n\nY es que la renta mediana de los mayores de 65 años crece con fuerza con la formación, pasando de los 16.807 euros de los que solo tienen estudios básicos a 23.134 euros (un 37,6% más) de los que tienen estudios medios, hasta los 30.864 euros, (un 83,6% más) para los que cuentan con formación superior.\n\nLa riqueza neta de los hogares también varía en función de los niveles educativos. Tomando como ejemplo los 226.000 euros de riqueza mediana para la cohorte de personas entre 65 y 74 años, el indicador cae a 140.000 euros para ese grupo de edad, pero con estudios solo básicos, mientras que se eleva a 243.000 para los mayores con estudios medios y a 503.000 para los que cuentan con estudios superiores.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/economia/noticias/13320232/04/25/la-renta-de-los-jubilados-espanoles-es-un-64-mas-elevada-que-la-media-europea.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "La renta de los jubilados españoles es un 6,4% más ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "La renta media de los jubilados en España ya es mayor a la de la media de los europeos. En concreto, es un 6,4% más alta en nuestro país ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La renta de los mayores de 65 años españoles es un 6,4% superior a la europea y la ventaja se amplía cuando aumenta su nivel de formación\n\nLa Fundación BBVA y el Ivie publican una nueva monografía que analiza la situación de los mayores en España y cómo la formación afecta a sus indicadores socieconómicos y de salud\n\nLas personas de 55 y más años representan el 34,6% de la población española, un porcentaje que se elevará hasta el 43,3% en 2070. El envejecimiento poblacional es, por tanto, uno de los mayores retos de la sociedad contemporánea, que ha visto aumentar la esperanza de vida en 9,6 años desde la década de los 70 del siglo pasado hasta situarse en los 83,2 años de edad. Las condiciones en las que afrontan los mayores esos últimos 30 años de vida dependen de muchos factores, siendo la formación uno de los más importantes, según se desprende de la monografía Formación, transición digital y calidad de vida de los mayores en España, publicada por la Fundación BBVA y el Ivie.\n\nEn general, los mayores más formados participan más en el mercado de trabajo, son más empleables y productivos, encuentran más fácilmente un puesto de trabajo, su empleo es de más calidad, está más ajustado a su formación y conlleva un mejor salario. Además, tienen mejor estado de salud, se caracterizan por una mayor participación cultural y política, aprovechan más y mejor la tecnología, se sienten menos solos, interactúan más con amigos y familiares y, en definitiva, se sienten más felices. Finalmente, disfrutan de rentas más elevadas, están menos expuestos al riesgo de pobreza o exclusión social, se enfrentan a menos carencias económicas y poseen más riqueza neta y mayor seguridad económica respecto a posibles eventualidades adversas.\n\nEn conjunto, la renta relativa de las personas españolas mayores de 65 años (teniendo en cuenta el nivel de precios de cada país – euros PPS) es un 6,4% superior a la mediana de las personas de más edad de la UE. La ventaja en renta se eleva hasta el 26% en el caso de los mayores con estudios medios y al 18% para los que cuentan con formación superior. Sin embargo, en el caso de los menores de esa edad ocurre lo contrario, la renta española mediana es, a igualdad de nivel educativo, un 7,3% más baja que la de EU-27. Se utiliza la mediana, es decir, el valor central en la lista ordenada de la renta de cada país europeo para evitar el efecto de los extremos. Para medir la desigualdad económica se prefiere la mediana frente a la media porque representa justo el valor central de un conjunto ordenado y no se ve afectada por valores extremos atípicos, como sucede con la media, que pueden dar una imagen menos representativa de la situación típica de la población considerada.\n\nRenta mediana de la población por grupo de edad y nivel de estudios. España y EU-27. 2023 (euros PPS)\n\n\n\nNota: estudios básicos (hasta secundaria obligatoria), estudios medios (secundaria posobligatoria y equivalentes), estudios superiores (formación profesional de grado superior y estudios universitarios).\n\nFuente: Eurostat (European Union Statistics on Income and Living Conditions (EU-SILC)) y elaboración propia.\n\nEl estudio, dirigido por los investigadores del Ivie Lorenzo Serrano y Ángel Soler, con el apoyo de las economistas del Instituto Laura Hernández, Jimena Salamanca e Irene Zaera, también encuentra dentro de nuestro país mejores condiciones económicas en el colectivo de mayores que, de media, en el resto de la población. Los hogares mayores son los que cuentan con más riqueza neta, ya que crece progresivamente desde los 76.000 euros para los hogares cuyo cabeza de familia tiene entre 35 y 44 años, alcanza su máximo de 226.000 euros para el grupo de 65 a 74 años y se mantiene en niveles próximos (221.000 euros), en el caso de los mayores de 75 años. El 30,5% de los mayores de 65 años tiene rentas al menos un 30% superiores a la mediana. Además, mientras que el 23,2% del grupo de personas entre 18 y 64 años tiene dificultades para llegar a final de mes, en el caso de los mayores de 65 ese porcentaje se reduce al 15,9%.\n\nPor otra parte, aunque el grado de desigualdad entre los mayores es notable, es más moderado que entre los más jóvenes. La renta disponible del 20% de los mayores más ricos es 5 veces la del 20% más pobre, mientras que esta ratio es 5,6 para el resto.\n\nDiferencias entre las personas mayores marcadas por el nivel de formación\n\nSin embargo, dentro del grupo de mayores, que la monografía analiza por franjas de edad desde los 55 años, existen grandes diferencias. El nivel educativo es el factor principal que incide en esa desigualdad que se aprecia en las condiciones de vida dentro del grupo de mayores, según las conclusiones del estudio. La renta mediana de los mayores de 65 años crece con fuerza con la formación, pasando de los 16.807 euros PPS de los que solo tienen estudios básicos a 23.134 euros PPS, un 37,6% más, de los que tienen estudios medios, hasta los 30.864 euros, un 83,6% más, de los que cuentan con formación superior. La riqueza neta de los hogares también varía en función de los niveles educativos. Tomando como ejemplo los 226.000 euros de riqueza mediana para la cohorte de personas entre 65 y 74 años, el indicador cae a 140.000 euros para ese grupo de edad, pero con estudios solo básicos, mientras que se eleva a 243.000 para los mayores con estudios medios y a 503.000 para los que cuentan con estudios superiores.\n\nLas diferencias no se observan únicamente en las condiciones económicas, ya que la formación también incide en las condiciones de salud y bienestar emocional de las personas mayores. En general, España se sitúa en una posición relativamente favorable en cuanto al número de años que las personas viven sin discapacidad a partir de los 65 años (10,5, frente a los 9,7 de media de la UE). Sin embargo, el subgrupo con educación superior mejora los resultados en salud. Por ejemplo, los mayores más formados muestran 9 puntos porcentuales menos de sobrepeso y obesidad y practican más deporte que el grupo de mayores con educación básica e inferior.\n\nSalud de la población según por nivel educativo. España, 2020.\n\n\n\nFuente: INE (Encuesta Europea de Salud en España [EESE]) y elaboración propia.\n\nAdemás, los problemas de movilidad y las dificultades para realizar los cuidados personales se concentran en los mayores con menor nivel educativo. El 56% de las personas de 55 y más años que tienen, como mucho, estudios primarios sufre problemas de movilidad y el 25,6%, dificultades para el cuidado personal, frente al 25,6% y el 6,2%, respectivamente, en el caso de las personas en esta franja de edad con educación superior. Las enfermedades crónicas también registran una prevalencia más alta entre aquellos mayores con menor nivel educativo.\n\nLa mejora en los niveles de formación de los mayores propicia la reducción de sus problemas de salud, disminuyendo la presión sobre el sistema público de salud. El estudio estima que las mejoras previstas en la formación de los mayores pueden derivar en 2055 en una reducción de la población con problemas de movilidad de más de 1,4 millones de personas y en más de 1,1 millones en el caso de las que sufren dificultades para el cuidado personal respecto a un escenario sin cambios en los niveles de formación de los mayores.\n\nPor otro lado, las personas mayores más formadas expresan también un mayor bienestar emocional, profundamente ligado a las relaciones sociales y al contacto con familiares y amigos. El 8,8% de las personas de 55 y más años con estudios hasta primaria declaran sentirse excluidos de la sociedad, porcentaje que duplica el 4% de los mayores con estudios superiores que sienten lo mismo. Los mayores más formados tienden a mantener un contacto más frecuente con amigos y familiares y muestran mayor capacidad para pedir ayuda en caso de necesidad. En cuanto al problema de la soledad, el 32,4% de los mayores con formación básica declara sentirse solo alguna vez o la mayor parte del tiempo, mientras que en el caso de los mayores con formación superior ese porcentaje baja hasta el 21,5%.\n\nIntegración y exclusión de las personas de 55 años y más según el nivel educativo. España. 2022 (porcentaje)\n\n\n\nFuente: INE (Encuesta de Condiciones de vida, microdatos) y elaboración propia\n\nPor último, los mayores con más formación experimentan un envejecimiento más activo. Las personas mayores con estudios superiores tienden a practicar más actividad física y deportiva. También participan más habitualmente en actividades culturales y muestran más compromiso social a través de actividades de voluntariado, participación política y preocupación por la protección del medio ambiente.\n\nEmpleabilidad\n\nEl proceso de envejecimiento demográfico en España tiene su reflejo en el ámbito laboral con una participación activa de los mayores muy heterogénea en función del nivel de estudios completados. Las tasas de actividad de los mayores de 55 años oscilan entre el 7,5% de los que solo completaron la primaria y el 47,5% de los que cuentan con estudios superiores. Por tanto, la formación contribuye también a prolongar la vida activa de los mayores. Sin embargo, si nos comparamos con la UE, la participación en el ámbito laboral de los mayores españoles es menor, ya que la tasa global de actividad de los mayores de 65 años en España es del 3,7%, poco más de la mitad de la media europea (6,6%).\n\nEn este sentido, el estudio alerta de la elevada cifra de mayores que ni estudia ni trabaja en España. Habitualmente se señala el porcentaje de ninis entre los jóvenes, que alcanza el 16,1% en la franja de edad entre los 25 a 34 años. Sin embargo, el peso de los ninis se eleva hasta el 38,1% entre las personas de 55 a 64 años, edades previas a la habitual de jubilación, y al 90,4% en el caso de los mayores entre 65 y 74 años. Según los autores del estudio, unas pensiones relativamente generosas respecto al salario, con una pensión mediana próxima al 80% del salario mediano de los mayores en España frente a menos del 60% para la media EU-27, y el todavía escaso recurso al empleo parcial, 11,6% del empleo de los mayores en España frente al 23,9% medio de la EU-27, frenan la tasa de actividad de los mayores.\n\nEn general, la situación laboral es más favorable para los mayores que para los jóvenes con el mismo nivel de estudios. El 90% de los mayores ocupados con formación universitaria tiene empleo indefinido, casi 20 puntos más que los mayores ocupados solo con educación primaria. Además, a igualdad de nivel de estudios, el salario de los mayores es un 11,9% más elevado que el de los trabajadores de 25 a 54 años, y la diferencia crece hasta el 25% para los titulados superiores.\n\nFrente a las cifras que muestran ventajas laborales generales de los mayores, el estudio también plantea las dificultades que pueden encontrar las personas que pierden su trabajo en la recta final de su vida laboral y tienen que volver a incorporarse al mercado laboral. Los mayores de 55 años concentran el 45% de los casos de desempleo de larga duración (superior a dos años). Además, cuando consiguen nuevos empleos estos son de menor calidad que los de los mayores que han mantenido su empleo y peores también que los de los jóvenes que se acaban de incorporar al mercado de trabajo. El estudio detecta también un menor interés de las empresas por formar a sus empleados mayores, ya que financian el 59% de las actividades de formación en el caso de los trabajadores entre 25 y 54 años, pero solo el 49,8% de las que realizan los empleados entre 55 y 69 años.\n\nDigitalización de los mayores\n\nLa falta de competencias digitales es uno de los factores que limitan la empleabilidad de los mayores, pero también sus posibilidades vitales y de relaciones sociales. Apenas un 18,8% de los mayores de 55 años tiene un nivel básico y solo un 16,3% un nivel avanzado en competencias digitales. Nuevamente la formación es un factor que reduce la brecha, ya que en el caso de los mayores con un grado universitario análogo a diplomaturas o licenciaturas esos porcentajes crecen hasta el 26,9% y el 36,7%, respectivamente.\n\nEn cualquier caso, una parte de la población mayor está tratando de mejorar sus competencias digitales a través de actividades de educación no formal, ya que, en 2022, los mayores de 55 años participaron en más 725.000 actividades destinadas a adquirir competencias digitales, lo que supone un 11% de todo su esfuerzo formativo.\n\nDe hecho, el estudio destaca la importancia creciente del colectivo de mayores en términos de demanda para el sistema educativo, tanto en la formación no formal como en la formal. En el primer caso, los mayores representan ya el 19,4% del total de formados, tras multiplicarse su peso por dos en los últimos 15 años. En el caso de la educación formal, la educación superior es el ámbito en el que se observa una mayor participación de los mayores, con un peso en la matrícula en formación superior, que ha pasado del 0,8% de 2015 al 1,4% actual, una tendencia que continuará cobrando fuerza en el futuro impulsada por el envejecimiento de la población.\n\nAunque en conjunto la población mayor se forma menos que los más jóvenes, en 2022, el 30,4% de las personas entre 55 a 69 años ya realizó algún tipo de educación formal o no formal.\n\nLa mayor esperanza de vida de las mujeres -viven 5,4 años más de media que los hombres- hace que sean mayoría entre la población mayor. Las mujeres suponen el 53,3% de las personas mayores de 55 años y el 60% de la población de 75 y más años. Las diferencias en el acceso a la educación existentes en el pasado condicionan su situación actual y, en el ámbito laboral, la tasa de actividad de las mujeres entre 55 y 64 años es 11,9 puntos porcentuales más baja que la de los hombres. En cualquier caso, las tendencias que se observan entre la población joven permiten anticipar sustanciales avances en la reducción de las diferencias de género de la población mayor futura. Actualmente, a igualdad del resto de circunstancias, la probabilidad de contar con estudios posobligatorios o superiores de las mujeres mayores es 2 puntos menos que la de los hombres. Sin embargo, en las nuevas generaciones esa tendencia se invierte y son las mujeres jóvenes las que tienen 9,2 puntos más de probabilidad de completar la educación superior que los hombres jóvenes.\n\nEl estudio evidencia el papel positivo de la formación en la vida de los mayores, pero refleja asimismo la situación más desfavorable en todos los ámbitos para las personas mayores con menores niveles de formación. Esto plantea la necesidad de desarrollar políticas orientadas a esos grupos, algo que requiere el esfuerzo colectivo de administraciones públicas, empresas, instituciones educativas y tercer sector, así como de los propios mayores, adoptando hábitos saludables de vida, formándose y manteniéndose activos social y laboralmente.\n\n16 abril 2025",
+                                        "metadata": {
+                                            "url": "https://www.ivie.es/es_ES/la-renta-de-los-mayores-de-65-anos-espanoles-es-un-64-superior-a-la-europea-y-la-ventaja-se-amplia-cuando-aumenta-su-nivel-de-formacion/",
+                                            "source": "www.ivie.es",
+                                            "favicon": "https://www.ivie.es/favicon.ico",
+                                            "title": "La renta de los mayores de 65 años españoles es un 6,4% ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ivie.es",
+                                            "snippet": "Además, a igualdad de nivel de estudios, el salario de los mayores es un 11,9% más elevado que el de los trabajadores de 25 a 54 años, y la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El último estudio de la Fundación BBVA y el Instituto Valenciano de Investigaciones Económicas (Ivie) pone el foco en la población senior en España.\n\nSegún el documento, hay más personas de 55 a 64 años en nuestro país que ni estudian ni trabajan que jóvenes de hasta 34 años, mientras que las rentas de los jubilados están por encima de la media europea.\n\nEn concreto, la Fundación BBVA y el Ivie afirman que el 38,1% de las personas de 55 a 64 años ni estudian ni trabajan ('ni-nis'), porcentaje que supera en más del doble al de los jóvenes de 25 a 34 años (16,1%); y se dispara hasta el 90,4% en el caso de las personas de entre 65 y 74 años, coincidiendo con la llegada de la jubilación.\n\nEn este sentido, los autores del estudio explican que la tasa de actividad de los mayores se ve frenada por unas pensiones \"relativamente generosas\" respecto al salario, con una pensión mediana próxima al 80% del salario mediano de los mayores en España, frente a menos del 60% para la media europea, así como por el \"todavía escaso recurso\" al empleo parcial (11,6% del empleo de los mayores en España, frente al 23,9% europeo).\n\nEl estudio revela además que la situación laboral es más favorable para los mayores que para los jóvenes con el mismo nivel de estudios. Así, el 90% de los mayores ocupados con formación universitaria tiene empleo indefinido, casi 20 puntos más que los mayores ocupados sólo con educación primaria.\n\nA igual nivel de estudios, el salario de los mayores es un 11,9% más elevado que el de los trabajadores de 25 a 54 años, y la diferencia crece hasta el 25% para los titulados superiores.\n\nNo obstante, el informe también advierte de las dificultades que pueden encontrar las personas que pierden su trabajo en la recta final de su vida laboral y tienen que volver a incorporarse al mercado laboral. De hecho, los mayores de 55 años concentran el 45% de los casos de paro de muy larga duración (superior a dos años).\n\nAdemás, los autores avisan de que cuando consiguen nuevos empleos, éstos son de menor calidad que los de los mayores que han mantenido su empleo y peores también que los de los jóvenes que se acaban de incorporar al mercado de trabajo.\n\nAl mismo tiempo, el estudio detecta también un menor interés de las empresas por formar a sus empleados mayores, ya que financian el 59% de las actividades de formación en el caso de los trabajadores entre 25 y 54 años, pero sólo el 49,8% de las que realizan los empleados entre 55 y 69 años.\n\nMayores rentas que los europeos\n\nAdemás, el informe destaca que las personas mayores disfrutan de rentas más elevadas, están menos expuestos al riesgo de pobreza o exclusión social, se enfrentan a menos carencias económicas y poseen más riqueza neta y mayor seguridad económica respecto a posibles eventualidades adversas.\n\nEn este sentido, el estudio revela que la renta mediana de las personas mayores de 65 años (teniendo en cuenta el nivel de precios de cada país) es un 6,4% más alta en España que en el conjunto de la UE, porcentaje que se eleva hasta el 26% en el caso de los mayores con estudios medios y al 18% para los que cuentan con formación superior.\n\nSin embargo, en el caso de los menores de esa edad ocurre lo contrario: la renta española mediana es, a igualdad de nivel educativo, un 7,3% más baja que la de la UE-27.\n\nEl estudio, dirigido por los investigadores del Ivie Lorenzo Serrano y Ángel Soler, con el apoyo de las economistas del Instituto Laura Hernández, Jimena Salamanca e Irene Zaera, encuentra en España mejores condiciones económicas en el colectivo de mayores que, de media, en el resto de la población.\n\nAsí, los hogares mayores son los que cuentan con más riqueza neta. En concreto, mientras que en los hogares que tienen como cabeza de familia a un persona de 35 a 44 años muestran una riqueza neta de 76.000 euros, ésta va aumentando progresivamente con la edad, hasta alcanzar un máximo de 226.000 euros para el grupo de 65 a 74 años, manteniéndose en niveles próximos (221.000 euros) en el caso de los mayores de 75 años.\n\nEl informe apunta además que el 30,5% de los mayores de 65 años tiene rentas al menos un 30% superiores a la mediana y que mientras que el 23,2% del grupo de personas entre 18 y 64 años tiene dificultades para llegar a final de mes, en el caso de los mayores de 65 ese porcentaje se reduce al 15,9%.\n\nAsimismo, aunque el grado de desigualdad entre los mayores es \"notable\", es más moderado que entre los más jóvenes. La renta disponible del 20% de los mayores más ricos es cinco veces la del 20% más pobre, mientras que esta ratio es 5,6 para el resto.\n\nEl nivel educativo es el factor principal que incide en la desigualdad que se aprecia en las condiciones de vida dentro del grupo de mayores, según las conclusiones del estudio.\n\nLa renta mediana de los mayores de 65 años crece con fuerza con la formación, pasando de los 16.807 euros entre los que sólo tienen estudios básicos a 23.134 euros, un 37,6% más, a los que tienen estudios medios, y hasta los 30.864 euros, un 83,6% más, a los que cuentan con formación superior.\n\nAl mismo tiempo, los problemas de movilidad y las dificultades para realizar los cuidados personales se concentran en los mayores con menor nivel educativo. De hecho, el 56% de las personas de 55 y más años que tienen como máximo estudios primarios sufre problemas de movilidad y el 25,6%, dificultades para el cuidado personal, frente al 25,6% y el 6,2%, respectivamente, en el caso de las personas en esta franja de edad con educación superior.\n\nEl estudio estima que las mejoras previstas en la formación de los mayores pueden derivar en 2055 en una reducción de la población con problemas de movilidad de más de 1,4 millones de personas y en más de 1,1 millones en el caso de las que sufren dificultades para el cuidado personal respecto a un escenario sin cambios en los niveles de formación de los mayores.\n\nLos mayores con más formación, más saludables y productivos\n\nLas personas de 55 y más años representan el 34,6% de la población española, porcentaje que se elevará hasta el 43,3% en 2070. A su vez, la esperanza de vida se ha incrementado en 9,6 años desde la década de los 70 del siglo pasado hasta situarse en los 83,2 años de edad.\n\nEl estudio pone de manifiesto que los mayores más formados participan más en el mercado laboral, son más empleables y productivos, encuentran más fácilmente un puesto de trabajo y su empleo es de más calidad, está más ajustado a su formación y conlleva un mejor salario.\n\nAdemás, sostiene el informe, tienen mejor estado de salud, se caracterizan por una mayor participación cultural y política, aprovechan más y mejor la tecnología, se sienten menos solos e interactúan más con amigos y familiares. \"En definitiva, se sienten más felices\", concluyen la Fundación BBVA e Ivie.",
+                                        "metadata": {
+                                            "url": "https://www.idealista.com/news/finanzas/economia/2025/04/16/841350-la-renta-de-los-mayores-de-65-anos-en-espana-supera-la-media-europea-segun-bbva-e-ivie",
+                                            "source": "www.idealista.com",
+                                            "favicon": "https://st1.idealista.com/news/news9/themes/custom/idealista_news/favicon.ico",
+                                            "title": "La renta de los mayores de 65 años en España supera ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.idealista.com",
+                                            "snippet": "A igual nivel de estudios, el salario de los mayores es un 11,9% más elevado que el de los trabajadores de 25 a 54 años, y la diferencia crece ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las pensiones recién asignadas ya exceden el salario promedio de los trabajadores menores de 35 años, evidenciando una notable disparidad económica entre las generaciones más jóvenes y las mayores, según un análisis realizado por el Instituto Juan de Mariana.\n\nEn los datos del primer trimestre de 2025, se observa que los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. Este escenario es calificado por el instituto como “especialmente sangrante”.\n\n“Mientras el discurso político del Gobierno sigue centrado en cebar un falso relato de desigualdad de clase, los datos muestran que las diferencias económicas más significativas y relevantes en la España de 2025 no son las que separan a ricos y pobres, sino las brechas en la capacidad económica de jóvenes y mayores”, advierte el organismo.\n\nEl estudio también destaca que la participación de los mayores de 75 años en la riqueza nacional ha subido 12 puntos en los últimos 20 años, mientras que la de los menores de 35 ha disminuido cinco puntos en el mismo período. En 2002, los jóvenes menores de 35 años representaban el 7,5% de la riqueza nacional, cifra que se redujo al 2% en 2022. En cambio, la participación de los mayores de 75 años en la riqueza nacional creció del 8% al 20% durante ese tiempo.\n\nBRECHA GENERACIONAL\n\nAdemás, el Instituto Juan de Mariana destaca una marcada “brecha generacional” en los ingresos. Desde 2008 hasta 2024, los ingresos reales de los trabajadores de 18 a 29 años se redujeron un 3%, en contraste con un aumento del 18% en los mayores de 65 años. Comparativamente con la UE, los mayores de 65 años en España disfrutan de una renta un 6,4% superior a la media europea, mientras que los trabajadores españoles ganan un 7,3% menos que sus homólogos europeos.\n\nEl informe resalta que los jóvenes han disminuido drásticamente su consumo en áreas como muebles, bebidas alcohólicas, transporte, vestido y ocio desde 2006, aunque no en educación y vivienda. “Los datos desmontan esta caricatura, según la cual los jóvenes presentan un menor patrimonio y una renta más baja por despilfarrar su dinero en viajes, fiestas, teléfonos inteligentes, plataformas de streaming o cafés de especialidad (…)», señala el Instituto.\n\nEl organismo subraya que la juventud española presenta la tasa de paro más alta de Europa, cuadruplicando los niveles de Alemania y superando la media comunitaria en más de diez puntos (26,5% frente a 15,1%). Además, remarca que mientras el 81% de los nacidos entre 1945 y 1965 eran propietarios a los 42 años, hoy menos del 50% de los nacidos después de 1985 lo son, y solo un 20% de los menores de 35 años tiene hipoteca.\n\nFinalmente, el Instituto advierte que el sistema de pensiones actual es “insostenible”, con un jubilado recibiendo un 62% más de lo que aportó durante su carrera laboral, según el Colegio de Actuarios de España. “La generosidad del sistema hace que el déficit real de la Seguridad Social se haya disparado (ronda el 3,8% del PIB, 56.000 millones de euros) y que la deuda implícita derivada de sus promesas no financiadas ascienda ya al 507% del PIB”, sostiene el informe.",
+                                        "metadata": {
+                                            "url": "https://www.democrata.es/economia/pensiones-nuevos-jubilados-superan-ingresos-jovenes-menores-35-anos-revela-estudio/",
+                                            "source": "www.democrata.es",
+                                            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png",
+                                            "title": "Las pensiones de los nuevos jubilados superan ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.democrata.es",
+                                            "snippet": "Comparativamente con la UE, los mayores de 65 años en España disfrutan de una renta un 6,4% superior a la media europea, mientras que los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Con la inmigración en el centro de la actualidad en España debido a la extrema derecha, por la propuesta de expulsiones masivas de Vox y los ataques de odio registrados en Torrepacheco, la revista científica Nature ha publicado un estudio internacional que cuantifica en un 18% de media las brechas salariales entre los trabajadores migrantes y los nativos en nueve países receptores de trabajadores extranjeros. Esta diferencia se debe en su mayor parte a la segregación de los trabajadores extranjeros en empleos peor pagados, aunque también detectan desigualdad retributiva para el mismo empleo (-4,6%). España sobresale como es el país con una mayor diferencia salarial, del 29%, muy cerca de Canadá, 28%, y a una gran distancia del país con menos brecha, Suecia, del 7%.\n\nLa investigación, dirigida por el profesor de la Universidad de Oslo Are Skeie Hermansen junto a investigadores de más de una docena de universidades a nivel internacional (en España, Marta Elvira de IESE Business School), ha analizado datos administrativos de 13,5 millones de trabajadores inmigrantes y nativos de los nueve países de renta alta y receptores de migración estudiados: Alemania, Canadá, Dinamarca, España, Estados Unidos, Francia, Noruega, Países Bajos y Suecia.\n\n\n\n\n\n\n\nAunque la existencia de salarios inferiores entre los trabajadores migrantes es algo ya constatado en otros estudios, la principal novedad de esta investigación radica en el análisis comparado con datos reales de estos nueve países, así como la conclusión compartida de que tres cuartas partes de la desigualdad salarial se debe a la segregación en empleos de bajos salarios, un resultado persistente pese a las múltiples diferencias entre los países de destino.\n\nEspaña destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.\n\nLos inmigrantes africanos enfrentan la mayor brecha\n\nEl estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).\n\nAunque el estudio no se detiene en desentrañar cuáles son las causas que están detrás de estas diferencias salariales, o de los distintos datos dado el país de origen y de destino, los investigadores mencionan que los salarios más bajos de los inmigrantes a menudo se atribuyen a “déficits en el capital humano” adquirido en origen, como la limitada competencia lingüística o formativa, así como los problemas para convalidar las cualificaciones educativas de los países de procedencia y los de destino, entre otras.\n\nCon datos de varios países sobre los hijos de los trabajadores migrantes (no España), nacidos ya en el país de destino, el estudio destaca que la brecha económica se reduce drásticamente, hasta el 5,7% respecto a los salarios de los hijos de los nativos, aunque hay que destacar que no se elimina del todo, persistiendo así cierto traslado generacional en las desventajas retributivas. En el caso de los inmigrantes cuyos padres proceden de África subsahariana, la brecha en la segunda generación es todavía del 11,8%, y en los hijos de personas de Latinoamérica, del 10%.\n\n“En un contexto en que el crecimiento demográfico en la mayor parte de las economías avanzadas dependerá de manera casi exclusiva de la inmigración, la temática del artículo es claramente actual y relevante. Disponer de información detallada sobre el desempeño de los inmigrantes en el mercado de trabajo del país de acogida permite poder identificar las políticas más adecuadas para mejorar su integración laboral y, por tanto, su calidad de vida”, destaca Raúl Ramos, catedrático de Economía Aplicada de la Universitat de Barcelona & IZA Research Fellow a SMC.\n\nRamos añade que la investigación “no permite concluir si esta asimilación segmentada asociada a las limitaciones en el acceso a los puestos de trabajo mejor remunerados se debe a comportamientos discriminatorios o a otro tipo de factores, pero sin duda, es una línea de investigación que merece la pena abordar en el futuro”.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/economia/trabajadores-inmigrantes-cobran-29-personas-nacidas-espana_1_12466752.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "Los trabajadores inmigrantes cobran un 29% menos que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "España sobresale como es el país con una mayor diferencia salarial, del 29%, muy cerca de Canadá, 28%, y a una gran distancia del país con menos ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.740190540000185,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.740190540000185,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:15:55",
+                    "run_time": 2.740190540000185,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el salario promedio de un MENA en España en 2025?": [
+                                {
+                                    "En este contexto, ¿cuáles son las pensiones mínimas en 2025 en España? ¿Y cuáles son las pensiones máximas? Vamos a verlo con detalle.": null
+                                },
+                                {
+                                    "En los datos del primer trimestre de 2025, se observa que los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. Este escenario es calificado por el instituto como “especialmente sangrante”.": null
+                                },
+                                {
+                                    "Sin embargo, en el caso de los menores de esa edad ocurre lo contrario: la renta española mediana es, a igualdad de nivel educativo, un 7,3% más baja que la de la UE-27.": null
+                                }
+                            ],
+                            "¿Cuál es el salario promedio de un jubilado español en 2025?": [
+                                {
+                                    "En este contexto, ¿cuáles son las pensiones mínimas en 2025 en España? ¿Y cuáles son las pensiones máximas? Vamos a verlo con detalle.": null
+                                },
+                                {
+                                    "En 2025, la pensión mínima contributiva de jubilación para mayores de 65 años se establece en 12.241,60 euros para jubilados de 65 años o más sin cónyuge a cargo y 15.786,40 euros para quienes sí lo tienen. Los menores de esa edad cobrarán un mínimo de 11.452 euros si no tienen cónyuge a cargo. Las cuantías se reducen ligeramente si se tiene un cónyuge no a cargo.": null
+                                },
+                                {
+                                    "Hasta ahora hemos hablado de pensiones mínimas, pero, ¿qué ocurre con las de mayor cuantía? ¿Cuál es la pensión máxima en 2025?": null
+                                }
+                            ],
+                            "¿Qué diferencias hay entre el salario de un MENA y el de un jubilado español en España?": [
+                                {
+                                    "Según este dato, los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles. Como mínimo, un 3,2% más.": null
+                                },
+                                {
+                                    "En cambio, si se toma como referencia el salario más frecuente, la cosa cambia. Cabe recordar que el sueldo más habitual en España está, como máximo, en los 20.000 euros brutos anuales. Una cantidad que está por debajo tanto de lo que cobran los nuevos jubilados como de la pensión media de jubilación.": null
+                                },
+                                {
+                                    "En términos generales, lo cierto es que la situación económica de los jubilados es más positiva que la de los trabajadores. Si se observan los datos de la renta media de los hogares del INE, la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en materia de inmigración sobre el salario de los MENA en España?": [
+                                {
+                                    "El estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).": null
+                                },
+                                {
+                                    "España destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.": null
+                                },
+                                {
+                                    "Aunque el estudio no se detiene en desentrañar cuáles son las causas que están detrás de estas diferencias salariales, o de los distintos datos dado el país de origen y de destino, los investigadores mencionan que los salarios más bajos de los inmigrantes a menudo se atribuyen a “déficits en el capital humano” adquirido en origen, como la limitada competencia lingüística o formativa, así como los problemas para convalidar las cualificaciones educativas de los países de procedencia y los de destino, entre otras.": null
+                                }
+                            ],
+                            "¿Qué dice el Instituto Nacional de Estadística (INE) sobre el salario de los MENA y los jubilados españoles?": [
+                                {
+                                    "En términos generales, lo cierto es que la situación económica de los jubilados es más positiva que la de los trabajadores. Si se observan los datos de la renta media de los hogares del INE, la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada.": null
+                                },
+                                {
+                                    "Según este dato, los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles. Como mínimo, un 3,2% más.": null
+                                },
+                                {
+                                    "En cambio, si se toma como referencia el salario más frecuente, la cosa cambia. Cabe recordar que el sueldo más habitual en España está, como máximo, en los 20.000 euros brutos anuales. Una cantidad que está por debajo tanto de lo que cobran los nuevos jubilados como de la pensión media de jubilación.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 50.68748795200008,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 50.68748795200008,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:16:48",
+                    "run_time": 50.68748795200008,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nUn MENA cobra más que un jubilado español\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el salario promedio de un MENA en España en 2025?\n¿Cuál es el salario promedio de un jubilado español en 2025?\n¿Qué diferencias hay entre el salario de un MENA y el de un jubilado español en España?\n¿Qué opinan los expertos en materia de inmigración sobre el salario de los MENA en España?\n¿Qué dice el Instituto Nacional de Estadística (INE) sobre el salario de los MENA y los jubilados españoles?\n\n3. Here are the text sources you should use as your source of information:\n[0] En este contexto, ¿cuáles son las pensiones mínimas en 2025 en España? ¿Y cuáles son las pensiones máximas? Vamos a verlo con detalle.\n[0] En 2025, la pensión mínima contributiva de jubilación para mayores de 65 años se establece en 12.241,60 euros para jubilados de 65 años o más sin cónyuge a cargo y 15.786,40 euros para quienes sí lo tienen. Los menores de esa edad cobrarán un mínimo de 11.452 euros si no tienen cónyuge a cargo. Las cuantías se reducen ligeramente si se tiene un cónyuge no a cargo.\n[0] Hasta ahora hemos hablado de pensiones mínimas, pero, ¿qué ocurre con las de mayor cuantía? ¿Cuál es la pensión máxima en 2025?\n[1] En los datos del primer trimestre de 2025, se observa que los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. Este escenario es calificado por el instituto como “especialmente sangrante”.\n[2] Sin embargo, en el caso de los menores de esa edad ocurre lo contrario: la renta española mediana es, a igualdad de nivel educativo, un 7,3% más baja que la de la UE-27.\n[3] Según este dato, los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles. Como mínimo, un 3,2% más.\n[3] En cambio, si se toma como referencia el salario más frecuente, la cosa cambia. Cabe recordar que el sueldo más habitual en España está, como máximo, en los 20.000 euros brutos anuales. Una cantidad que está por debajo tanto de lo que cobran los nuevos jubilados como de la pensión media de jubilación.\n[3] En términos generales, lo cierto es que la situación económica de los jubilados es más positiva que la de los trabajadores. Si se observan los datos de la renta media de los hogares del INE, la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada.\n[4] El estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).\n[4] España destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.\n[4] Aunque el estudio no se detiene en desentrañar cuáles son las causas que están detrás de estas diferencias salariales, o de los distintos datos dado el país de origen y de destino, los investigadores mencionan que los salarios más bajos de los inmigrantes a menudo se atribuyen a “déficits en el capital humano” adquirido en origen, como la limitada competencia lingüística o formativa, así como los problemas para convalidar las cualificaciones educativas de los países de procedencia y los de destino, entre otras.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Un MENA cobra más que un jubilado español"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**En cuanto a si un MENA cobra más que un jubilado español, hay algunos datos que sugieren que esto podría ser cierto en algunos casos, aunque no en todos**. Según [3], los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles, con un 3,2% más. Además, se menciona que la situación económica de los jubilados es más positiva que la de los trabajadores, ya que la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada. Sin embargo, no se proporciona información específica sobre los salarios de los MENA en comparación con los jubilados españoles.\n\n**Sin embargo, hay algunas diferencias importantes en los salarios según la edad y el origen**. Según [1], los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. En cuanto a los MENA, se menciona en [4] que los trabajadores extranjeros sufren una brecha salarial en comparación con los trabajadores españoles, con diferencias que varían según el origen. Los inmigrantes de África Subsahariana, Oriente Medio y Norte de África, Asia y Latinoamérica presentan una brecha salarial de entre el 18,5% y el 26% en comparación con los trabajadores españoles.\n\n**En cuanto a la conclusión, no se puede determinar con certeza si un MENA cobra más que un jubilado español, ya que la información proporcionada no es lo suficientemente específica**. Sin embargo, se puede concluir que la situación económica de los jubilados es más positiva que la de los trabajadores en general, y que hay diferencias importantes en los salarios según la edad y el origen. Es importante tener en cuenta que la brecha salarial entre los trabajadores extranjeros y los españoles es un tema complejo que requiere una análisis más detallado. En base a la información disponible, no se puede afirmar categóricamente que un MENA cobra más que un jubilado español, pero es posible que en algunos casos esto sea cierto."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.210125067000263,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.210125067000263,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:17:00",
+                    "run_time": 12.210125067000263,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Un MENA cobra más que un jubilado español\nArticle: **En cuanto a si un MENA cobra más que un jubilado español, hay algunos datos que sugieren que esto podría ser cierto en algunos casos, aunque no en todos**. Según [3], los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles, con un 3,2% más. Además, se menciona que la situación económica de los jubilados es más positiva que la de los trabajadores, ya que la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada. Sin embargo, no se proporciona información específica sobre los salarios de los MENA en comparación con los jubilados españoles.\n\n**Sin embargo, hay algunas diferencias importantes en los salarios según la edad y el origen**. Según [1], los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. En cuanto a los MENA, se menciona en [4] que los trabajadores extranjeros sufren una brecha salarial en comparación con los trabajadores españoles, con diferencias que varían según el origen. Los inmigrantes de África Subsahariana, Oriente Medio y Norte de África, Asia y Latinoamérica presentan una brecha salarial de entre el 18,5% y el 26% en comparación con los trabajadores españoles.\n\n**En cuanto a la conclusión, no se puede determinar con certeza si un MENA cobra más que un jubilado español, ya que la información proporcionada no es lo suficientemente específica**. Sin embargo, se puede concluir que la situación económica de los jubilados es más positiva que la de los trabajadores en general, y que hay diferencias importantes en los salarios según la edad y el origen. Es importante tener en cuenta que la brecha salarial entre los trabajadores extranjeros y los españoles es un tema complejo que requiere una análisis más detallado. En base a la información disponible, no se puede afirmar categóricamente que un MENA cobra más que un jubilado español, pero es posible que en algunos casos esto sea cierto.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Un MENA cobra más que un jubilado español\nArticle: **En cuanto a si un MENA cobra más que un jubilado español, hay algunos datos que sugieren que esto podría ser cierto en algunos casos, aunque no en todos**. Según [3], los jubilados más recientes perciben unas pensiones superiores a lo que cobra la mitad de los asalariados españoles, con un 3,2% más. Además, se menciona que la situación económica de los jubilados es más positiva que la de los trabajadores, ya que la población jubilada cuenta con unos ingresos medios superiores a los de la población ocupada. Sin embargo, no se proporciona información específica sobre los salarios de los MENA en comparación con los jubilados españoles.\n\n**Sin embargo, hay algunas diferencias importantes en los salarios según la edad y el origen**. Según [1], los recién jubilados del Régimen General de la Seguridad Social percibían un promedio mensual de aproximadamente 1.760 euros, lo que representa un incremento del 5,5% respecto al año anterior. Por otro lado, el salario medio de los trabajadores menores de 34 años se situaba en unos 1.670 euros mensuales. En cuanto a los MENA, se menciona en [4] que los trabajadores extranjeros sufren una brecha salarial en comparación con los trabajadores españoles, con diferencias que varían según el origen. Los inmigrantes de África Subsahariana, Oriente Medio y Norte de África, Asia y Latinoamérica presentan una brecha salarial de entre el 18,5% y el 26% en comparación con los trabajadores españoles.\n\n**En cuanto a la conclusión, no se puede determinar con certeza si un MENA cobra más que un jubilado español, ya que la información proporcionada no es lo suficientemente específica**. Sin embargo, se puede concluir que la situación económica de los jubilados es más positiva que la de los trabajadores en general, y que hay diferencias importantes en los salarios según la edad y el origen. Es importante tener en cuenta que la brecha salarial entre los trabajadores extranjeros y los españoles es un tema complejo que requiere una análisis más detallado. En base a la información disponible, no se puede afirmar categóricamente que un MENA cobra más que un jubilado español, pero es posible que en algunos casos esto sea cierto."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Un MENA cobra más que un jubilado español\", \"categories\": [\"Economía\", \"Trabajo\", \"Inmigración\"], \"label\": \"Undetermined\", \"main_claim\": \"No se puede determinar si un MENA cobra más que un jubilado español\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "cadenaser.com",
+                        "clinicaalemana.cl",
+                        "es.weforum.org",
+                        "20minutos.es",
+                        "ree.es",
+                        "es.euronews.com",
+                        "lasexta.com",
+                        "agrodiario.com",
+                        "salud.nih.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cambioenergetico.com",
+                        "albalactanciamaterna.org",
+                        "lamoncloa.gob.es",
+                        "cincodias.elpais.com",
+                        "oftalmologos.org.ar",
+                        "worldwildlife.org",
+                        "jacc.org",
+                        "medlineplus.gov",
+                        "maldita.es",
+                        "theconversation.com",
+                        "nyc.gov",
+                        "publico.es",
+                        "caixabankresearch.com",
+                        "uoc.edu",
+                        "who.int",
+                        "infobae.com",
+                        "bbva.com",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "educaweb.com",
+                        "verificat.cat",
+                        "elconfidencial.com",
+                        "efe.com",
+                        "myfisioclinic.com",
+                        "elpais.com",
+                        "newtral.es",
+                        "primabiotic.es",
+                        "defensa.gob.es",
+                        "hopkinsmedicine.org",
+                        "lavanguardia.com",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "theobjective.com",
+                        "observatoriodeladiscapacidad.info",
+                        "bankinter.com",
+                        "rtve.es",
+                        "nationalgeographic.com.es",
+                        "vozpopuli.com",
+                        "sjme.org",
+                        "sepe.es",
+                        "observatoriodelalquiler.org",
+                        "pmp.org.es",
+                        "normoncontigo.normon.com",
+                        "datosmacro.expansion.com",
+                        "masquemedicos.com",
+                        "europapress.es",
+                        "elplural.com",
+                        "feminismo.maldita.es",
+                        "antena3.com",
+                        "cancer.gov",
+                        "lefebvre.es",
+                        "elblogsalmon.com",
+                        "xataka.com",
+                        "gacetamedica.com",
+                        "ciencia.nasa.gov",
+                        "verifica.efe.com",
+                        "sistemaelectrico-ree.es",
+                        "abc.es",
+                        "coches.net",
+                        "kidshealth.org",
+                        "ec-europa-eu.translate.goog"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

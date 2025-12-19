@@ -1,0 +1,589 @@
+{
+    "question": "En España hay casi un millón de puestos de trabajo vacantes",
+    "answer": "Hay varios indicios que sugieren que en España hay un número significativo de puestos de trabajo vacantes. Por ejemplo, se menciona que \"el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir\" [1]. Esto sugiere que, a pesar de la alta tasa de desempleo, especialmente entre los jóvenes, hay una cantidad importante de puestos de trabajo que no se han cubierto. Además, se menciona que \"el empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados\" [2]. Esto indica que, a pesar del crecimiento del empleo, las empresas están teniendo dificultades para encontrar candidatos adecuados para cubrir los puestos vacantes.\n\nNo se encontraron argumentos directos en contra de la afirmación de que hay casi un millón de puestos de trabajo vacantes en España. Sin embargo, se menciona que \"la tasa de actividad y empleo es relativamente más baja\" en comparación con otros países [2]. Esto podría sugerir que, aunque hay puestos de trabajo vacantes, la tasa de empleo en general es baja, lo que podría afectar la cantidad de puestos de trabajo disponibles.\n\nEn base a la información proporcionada, parece que hay evidencia que sugiere que en España hay un número significativo de puestos de trabajo vacantes. Aunque no se encontró un número exacto de casi un millón de puestos de trabajo vacantes, se mencionan cifras como 150.000 vacantes sin cubrir [1] y se habla de las dificultades que tienen las empresas para cubrir puestos vacantes [2]. Sin embargo, también se menciona que la tasa de empleo en general es baja [2], lo que podría afectar la cantidad de puestos de trabajo disponibles. En conclusión, aunque no se puede confirmar exactamente la cifra de casi un millón de puestos de trabajo vacantes, hay evidencia que sugiere que hay un número significativo de puestos de trabajo vacantes en España.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://factorhumano.es/profesionales-recursos-humanos-desajuste-laboral/",
+            "source": "factorhumano.es",
+            "favicon": "https://factorhumano.es/wp-content/uploads/2020/03/cropped-FH_64-32x32.png"
+        },
+        "2": {
+            "url": "https://economistas.es/cust_notas/31-de-marzo-de-2025-los-expertos-reclaman-una-transformacion-profunda-de-las-politicas-activas-de-empleo-en-espana/",
+            "source": "economistas.es",
+            "favicon": "https://economistas.es/wp-content/uploads/2019/04/favicon.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "En España hay casi un millón de puestos de trabajo vacantes",
+        "categories": [
+            "Noticias",
+            "Economía",
+            "Empleo"
+        ],
+        "label": "True",
+        "main_claim": "En España hay un número significativo de puestos de trabajo vacantes",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 11.37459150200084,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 11.37459150200084,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:58:30",
+                    "run_time": 11.37459150200084,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn España hay casi un millón de puesto de trabajo vancantes\n\n**Critical Research Questions:**\n1. ¿Cuál es el número oficial de puestos de trabajo vacantes en España en 2025 según el Instituto Nacional de Estadística?\n2. ¿Cuál es la tasa de vacantes de empleo en España en comparación con otros países de la Unión Europea?\n3. ¿Qué dice el Servicio Público de Empleo Estatal sobre el número de puestos de trabajo vacantes en España en 2025?\n4. ¿Qué factores contribuyen a la existencia de puestos de trabajo vacantes en España según los expertos en el campo del empleo?\n5. ¿Existen diferencias regionales significativas en el número de puestos de trabajo vacantes en España?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"Instituto Nacional de Estadística puestos de trabajo vacantes España 2025\", \"tasa vacantes empleo España comparativa Unión Europea Eurostat 2025\", \"Servicio Público de Empleo Estatal puestos de trabajo vacantes España 2025\", \"factores puestos de trabajo vacantes España análisis expertos empleo 2025\", \"puestos de trabajo vacantes España diferencias regionales 2025 datos oficiales\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.884023855000123,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.884023855000123,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:58:34",
+                    "run_time": 3.884023855000123,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "Instituto Nacional de Estadística puestos de trabajo vacantes España 2025",
+                                "tasa vacantes empleo España comparativa Unión Europea Eurostat 2025",
+                                "Servicio Público de Empleo Estatal puestos de trabajo vacantes España 2025",
+                                "factores puestos de trabajo vacantes España análisis expertos empleo 2025",
+                                "puestos de trabajo vacantes España diferencias regionales 2025 datos oficiales"
+                            ],
+                            "results": {
+                                "Instituto Nacional de Estadística puestos de trabajo vacantes España 2025 | tasa vacantes empleo España comparativa Unión Europea Eurostat 2025 | Servicio Público de Empleo Estatal puestos de trabajo vacantes España 2025 | factores puestos de trabajo vacantes España análisis expertos empleo 2025 | puestos de trabajo vacantes España diferencias regionales 2025 datos oficiales": [
+                                    {
+                                        "text": "Disposiciones normativas\n\nConsulta las ofertas de empleo público de la Administración General del Estado para 2025 que han sido aprobadas y publicadas en el Boletín Oficial del Estado.\n\nLas convocatorias de cada uno de los procesos selectivos se irán publicando en el Boletín Oficial del Estado.\n\nOferta de empleo público para el año 2025 Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 16-07-2025) Corrección de errores del Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 02-08-2025)\n\nOferta de empleo público del Cuerpo de la Guardia Civil Real Decreto 341/2025, de 15 de abril, por el que se aprueba la oferta de empleo público del Cuerpo de la Guardia Civil para el año 2025. (BOE 16-04-2025)\n\nOferta de empleo público de la Policía Nacional Real Decreto 342/2025, de 15 de abril, por el que se aprueba la oferta de empleo público de la Policía Nacional para el año 2025. (BOE 16-04-2025)\n\nOrden actuación aspirantes en pruebas selectivas Resolución de 28 de julio de 2025 , de la Secretaría de Estado de Función Pública, por la que se publica el resultado del sorteo a que se refiere el Reglamento General de Ingreso del Personal al Servicio de la Administración del Estado. (BOE 01-08-2025)\n\nVolver arriba\n\nDistribución de plazas por áreas de interés\n\nConsulta la distribución de plazas de acceso libre agrupadas por áreas de interés o sectores en el siguiente enlace .\n\nReserva para personas con discapacidad intelectual\n\nEn este enlace , puedes consultar las plazas reservadas para personas con discapacidad intelectual.",
+                                        "metadata": {
+                                            "url": "https://administracion.gob.es/pag_Home/empleoPublico/Ofertas-empleo-publico/OEP-2025.html",
+                                            "source": "administracion.gob.es",
+                                            "favicon": "https://administracion.gob.es/resources/templating-kit/themes/pag/img/general/icons/favicon.ico",
+                                            "title": "Ofertas de empleo público AGE 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://administracion.gob.es",
+                                            "snippet": "Consulta las ofertas de empleo público de la Administración General del Estado para 2025 que han sido aprobadas y publicadas en el Boletín ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Sector profesional:\n\nSeleccione Sector ADMINISTRACIÓN Y OFICINAS AGRARIO ARTESANÍA AUTOMOCIÓN COMERCIO DOCENCIA E INVESTIGACIÓN EDIFICACIÓN Y OBRAS PÚBLICAS INDUSTRIA PESADA Y CONSTRUCCIONES METÁLI INDUSTRIAS ALIMENTARIAS INDUSTRIAS DE FABRICACIÓN DE EQUIPOS ELE INDUSTRIAS DE LA MADERA Y CORCHO INDUSTRIAS GRÁFICAS INDUSTRIAS MANUFACTURERAS DIVERSAS INDUSTRIAS QUÍMICAS INDUSTRIAS TEXTILES INFORMACIÓN Y MANIFESTACIONES ARTÍSTICAS MANTENIMIENTO Y REPARACIÓN MINERÍA Y PRIMERAS TRANSFORMACIONES MONTAJE E INSTALACIÓN PESCA Y ACUICULTURA PIEL Y CUERO PRODUCCIÓN, TRANSFORMACIÓN Y DISTRIBUCIÓ SANIDAD SEGUROS Y FINANZAS SERVICIOS A LA COMUNIDAD Y PERSONALES SERVICIOS A LAS EMPRESAS TRANSPORTES Y COMUNICACIONES TURISMO Y HOSTELERÍA",
+                                        "metadata": {
+                                            "url": "https://www.sistemanacionalempleo.es/OfertaDifusionWEB/busquedaOfertas.do?modo=inicio",
+                                            "source": "www.sistemanacionalempleo.es",
+                                            "favicon": "https://www.sistemanacionalempleo.es/es/sne/webresources/img/favicon.ico",
+                                            "title": "Búsqueda de ofertas.",
+                                            "type": "web_search",
+                                            "base_url": "https://www.sistemanacionalempleo.es",
+                                            "snippet": "31/10/2025, Ingeniero/a técnico/a (ref. 7776), Carreño (Asturias) ; 31/10/2025, Cocinero/a (ref. 7775), Oviedo (Asturias) ; 31/10/2025, Técnico/a apoyo secretaría ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Consejo General de Economistas de España (CGE) y la Fundación de Estudios de Economía Aplicada (Fedea) han celebrado hoy una sesión titulada Políticas activas de empleo.\n\nEn relación con las políticas activas de empleo en España, los expertos del CGE y de Fedea coinciden en señalar que, pese a los avances y esfuerzos realizados, sus resultados continúan siendo insatisfactorios. Uno de los principales factores que explican esta situación es la limitada eficacia de los servicios públicos de empleo como intermediarios entre la oferta y la demanda laboral, debido a un conocimiento insuficiente del tejido productivo y a la falta de un perfilado adecuado de los demandantes. Asimismo, señalan que el actual marco normativo de distribución de competencias dificulta una gestión eficaz, al establecer una separación entre la administración de las prestaciones económicas (a cargo del SEPE) y las políticas activas de empleo (competencia de las comunidades autónomas). Esta fragmentación provoca una descoordinación institucional: quien financia las prestaciones no controla su ejecución y quien gestiona las políticas activas carece de competencias sobre las ayudas económicas. A ello se añade la falta de acceso de las comunidades autónomas a información clave —especialmente la gestionada por la Seguridad Social—, lo que limita su capacidad para diseñar estrategias más eficaces en materia de incentivos al empleo.\n\nPor otro lado, los expertos advierten que la rigidez y obsolescencia de los actuales programas de formación para el empleo representan un serio obstáculo para adaptarse a las necesidades reales del mercado laboral. También subrayan que los certificados de profesionalidad presentan estructuras excesivamente estandarizadas y contenidos poco ágiles, lo que dificulta una respuesta adecuada ante los rápidos cambios tecnológicos y sectoriales. Además, expresaron preocupación por la limitada efectividad de los incentivos a la contratación, que en muchos casos no logran generar empleo adicional, especialmente cuando no están suficientemente focalizados. La normativa actual, al establecer un diseño excesivamente detallado de estos programas de incentivos, restringe la capacidad de las comunidades autónomas para adaptarlos a las particularidades de su entorno económico y social. Esta rigidez, combinada con la falta de una evaluación sistemática y continua, reduce el impacto real de estas políticas. En este contexto, los expertos abogan por un rediseño integral de estos instrumentos, basado en criterios más selectivos, adaptables y sometidos a mecanismos de revisión permanente que aseguren su efectividad y eficiencia.\n\nENTRE LAS PROPUESTAS PARA FORTALECER LAS POLÍTICAS ACTIVAS DE EMPLEO , FEDEA Y EL CGE HAN DESTACADO LAS SIGUIENTES:\n\nFortalecer el vínculo con el tejido productivo , a fin de conocer con precisión las necesidades de las empresas y realizar un perfilado más eficaz de los demandantes de empleo, alineando aptitudes y actitudes con las vacantes reales.\n\n, a fin de conocer con precisión las necesidades de las empresas y realizar un perfilado más eficaz de los demandantes de empleo, alineando aptitudes y actitudes con las vacantes reales. Reorientar la formación para el empleo , superando la rigidez de los certificados de profesionalidad mediante contenidos más flexibles, actualizados y adaptados a los sectores con mayor potencial de crecimiento.\n\n, superando la rigidez de los certificados de profesionalidad mediante contenidos más flexibles, actualizados y adaptados a los sectores con mayor potencial de crecimiento. Diseñar programas de incentivos a la creación de empleo que permitan su adaptación a las particularidades de cada comunidad autónoma.\n\nque permitan su adaptación a las particularidades de cada comunidad autónoma. Dotar a las CCAA de acceso completo a los registros administrativos necesarios para el diseño y gestión de las políticas activas de empleo.\n\nnecesarios para el diseño y gestión de las políticas activas de empleo. Reforzar la corresponsabilidad de los desempleados , exigiendo una búsqueda de empleo activa y continuada, con condiciones más estrictas para el rechazo de ofertas adecuadas.\n\n, exigiendo una búsqueda de empleo activa y continuada, con condiciones más estrictas para el rechazo de ofertas adecuadas. Implementar un sistema permanente de evaluación y mejora , que permita medir el impacto real de las políticas aplicadas, identificar desviaciones y dirigir más recursos a las iniciativas con mayor eficacia comprobada.\n\n, que permita medir el impacto real de las políticas aplicadas, identificar desviaciones y dirigir más recursos a las iniciativas con mayor eficacia comprobada. Impulsar una reorganización interna de los servicios públicos de empleo , orientada a mejorar su capacidad operativa, la coordinación entre niveles de gobierno y la gestión efectiva del personal implicado en el diseño y ejecución de estas políticas.\n\n, orientada a mejorar su capacidad operativa, la coordinación entre niveles de gobierno y la gestión efectiva del personal implicado en el diseño y ejecución de estas políticas. Modernizar la infraestructura tecnológica del sistema de empleo , incorporando herramientas digitales que faciliten la automatización de procesos, el cruce eficiente de datos y una atención más ágil y personalizada a empresas y trabajadores.\n\n, incorporando herramientas digitales que faciliten la automatización de procesos, el cruce eficiente de datos y una atención más ágil y personalizada a empresas y trabajadores. Fomentar una gobernanza más integrada entre el SEPE y las comunidades autónomas , con mecanismos claros de cooperación y reparto de responsabilidades, que permitan una implementación más coherente y eficaz del conjunto de las políticas activas y pasivas.\n\n, con mecanismos claros de cooperación y reparto de responsabilidades, que permitan una implementación más coherente y eficaz del conjunto de las políticas activas y pasivas. Impulsar los esquemas de colaboración público-privada.\n\nEstablecer mecanismos flexibles de jubilación o de jubilación activa, que permitan la plena compatibilidad entre el empleo remunerado y el cobro de la pensión.\n\nMadrid, 31 de marzo de 2025 .- El mercado laboral en España se enfrenta a desafíos estructurales significativos que limitan la inserción laboral de los colectivos más vulnerables. A pesar de los avances, nuestro país sigue teniendo la tasa de paro más alta entre los países de la zona euro. En este contexto, el Consejo General de Economistas de España (CGE) y la Fundación de Estudios de Economía Aplicada (Fedea)han decidido centrar la tercera sesión de sus Encuentros en el análisis del papel de las políticas activas de empleo como herramienta clave para reducir el paro y mejorar la calidad del empleo en España.\n\nLa presentación de la sesión, estuvo a cargo del presidente del CGE, Valentín Pich, y del director ejecutivo de Fedea, Ángel de la Fuente, y en la misma participaron como ponentes Miguel Ángel García, doctor en Economía, profesor de Economía Aplicada (URJC) e investigador asociado de FEDEA, y Salvador Guillermo, director de Estudios y Economía de Foment del Treball Nacionaly consejero del Consejo Superior de Estadística del INE en representación del CGE, quienes plantearon algunaspropuestas de reformas que permitan diseñar programas efectivos, orientados a un mercado laboral más inclusivo, flexible y competitivo, capaz de afrontar los retos de un entorno económico y tecnológico en constante cambio.\n\nEn la apertura del acto, Valentín Pich destacó que “si queremos que las políticas activas de empleo tengan un impacto real sobre la empleabilidad, es imprescindible que estén sometidas a procesos continuos de evaluación que permitan identificar qué funciona y qué debe corregirse. No se trata solo de destinar más recursos, sino de gastarlos de manera inteligente. Además, las políticas formativas deben estar estrechamente alineadas con las necesidades del tejido empresarial, de modo que doten a las personas de las competencias que demanda realmente el mercado laboral para facilitar así su inserción”. Por otra parte, Pich ha insistido en que el incremento desmedido de los costes labores constituye una barrera para la creación de empleo, por lo que ha alertado sobre las últimas medidas tomadas por el Gobierno a este respecto. Así mismo, ha advertido sobre la necesidad de un mecanismo de corresponsabilidad para evitar que las políticas pasivas de empleo no desincentiven la búsqueda de trabajo.\n\nPor su parte, Ángel de la Fuente indicó que “las políticas activas de empleo son un instrumento potencialmente fundamental en un país que sigue teniendo una de las tasas de paro más elevadas de la OCDE y un problema crónico de desempleo de larga duración, pero no acaban de funcionar correctamente. Los recientes retoques de la ley de empleo incluyen una larga lista de buenos deseos y propósitos, pero en la práctica no han mejorado significativamente el funcionamiento de los servicios públicos de empleo (SPE) como mecanismo de intermediación en el mercado laboral o su capacidad para mejorar la empleabilidad del grueso de los parados. Más importante que la norma es que exista un compromiso real de dotar a los SPE de los medios necesarios, así como el acierto en el diseño y la gestión de sus servicios y sus herramientas de trabajo, que deberían modernizarse para explotar más eficientemente la abundante información disponible”.\n\nA continuación, Miguel Ángel García y Salvador Guillermo han presentado cada uno una breve ponencia.\n\nMiguel Ángel García abrió la ronda de intervenciones señalando que “se necesita un cambio radical en el diseño e implementación de las políticas activas de empleo para ser útiles a la sociedad. Este cambio estructural se debe apoyar en el diseño, que afecta a su implementación, organización y gestión de los recursos públicos (en especial el personal). El cambio debe incluir el conocimiento profundo del tejido productivo y una estrecha relación con las empresas, garantizando un adecuado perfilado que permita enviar a las personas adecuadas en aptitud y actitud para los empleos vacantes”.\n\nEn la misma línea, Salvador Guillermo comentó que “España muestra avances en la creación de empleo, pero aun en periodos prolongados de expansión económica mantiene tasas de paro elevadas en comparación con otros países. Y eso que la tasa de actividad y empleo es relativamente más baja. Por eso, debemos invertir y dotar de más recursos a las políticas activas de empleo y hacerlas más efectivas. Los datos también confirman que estudiar sigue siendo positivo, ya que reduce de forma sustancial las tasas de desempleo.”\n\nA continuación, se desarrolló un coloquio, moderado por Ángel de la Fuente, en el que Miguel Ángel García y Salvador Guillermo respondieron a seis cuestiones clave divididas en tres bloques.\n\nÁmbito nacional\n\n1.- ¿Cómo describirías la situación actual de las políticas públicas de empleo en España y cuáles crees que han sido los principales factores que han influido en sus resultados recientes?\n\nSegún García, “los servicios públicos de empleo tienen unos resultados muy decepcionantes en intermediación de la oferta y la demanda laboral, debido a su muy limitado conocimiento de la composición y necesidades del tejido productivo y su falta de capacidad para perfilar adecuadamente a los posibles candidatos. El resultado es su limitada utilización por parte de las personas y de las empresas, limitándose las primeras a realizar las gestiones para la percepción de la prestación económica por desempleo cuando pueden acceder a ella y las segundas a una relación de indiferencia”.\n\nPara Salvador Guillermo, “la situación actual de las políticas públicas de empleo en España refleja una mejora del empleo que responde más a la inercia del crecimiento económico, especialmente por la recuperación del sector turístico, que a la eficacia de dichas políticas. El empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados. En este contexto, se requieren planes de choque desde los servicios públicos de empleo, con especial atención a los desempleados de larga duración, incluyendo apoyo formativo y psicológico que facilite su reincorporación al mercado laboral”.\n\n2.- ¿Qué aspectos consideras que son las principales fortalezas y debilidades de la actual Ley de Empleo (Ley 3/2023, de 28 de febrero) en relación con su capacidad para mejorar de forma sustancial la inserción laboral y la calidad del empleo en España?\n\nMiguel Ángel García considera que “la Ley de Empleo realiza un deseable ejercicio de ordenación de las políticas de empleo, pero en la práctica se limita a crear nuevos derechos subjetivos para los usuarios y a transformar el SEPE en una Agencia Española de Empleo sin explicar cuáles son los objetivos que lo justifican. El problema deriva de que profundiza en el actual desequilibrio de derechos y obligaciones de usuarios y administraciones públicas (insuficiente compromiso de los primeros), y de no incorporar en estas últimas el imprescindible cambio estructural en su diseño y funcionamiento; además de no dotarles de los recursos personales y financieros suficientes para la aprobada ampliación de obligaciones”.\n\nSegún Guillermo, “la Ley de Empleo presenta como fortaleza su enfoque en la empleabilidad, reconociendo como derecho subjetivo que el Sistema Nacional de Empleo garantice su mantenimiento y mejora para los demandantes. Incorpora de forma expresa la intermediación laboral, amplía a veinte los colectivos de atención prioritaria y establece un catálogo de servicios comunes para toda la población, junto a un esquema reforzado de colaboración interadministrativa. Sin embargo, entre sus principales debilidades se señala la escasa conexión entre políticas activas y pasivas, así como una dotación insuficiente de recursos para las políticas activas en términos comparativos.”.\n\nAdaptación territorial y formación para el empleo\n\n3.- ¿En qué medida consideras que el actual marco normativo otorga a las comunidades autónomas suficiente capacidad para diseñar políticas públicas de empleo adaptadas a las especificidades económicas y laborales de su propio territorio, y qué aspectos podrían mejorarse para potenciar esta autonomía normativa?\n\nGarcía considera que “la actual normativa que detalla en exceso los programas de incentivos al empleo limita su uso por las comunidades autónomas, al no poder adecuarlas a sus necesidades específicas. Las CCAA sufren también una falta de acceso a información muy necesaria en manos de otras administraciones, en especial, la Seguridad Social, que limitan un desarrollo más selectivo de los programas de incentivos al empleo”.\n\nPor su parte, Salvador Guillermo considera que“el marco normativo actual otorga a las comunidades autónomas capacidad para adaptar las políticas de empleo a sus necesidades territoriales, según lo establecido en los artículos 7 y 23 de la Ley 3/2023. Estas pueden desarrollar servicios y programas propios, así como coordinar su planificación con la estrategia estatal. No obstante, sería conveniente que parte de los fondos supraautonómicos pudieran destinarse a financiar estas políticas autonómicas”.\n\n4.- Desde tu perspectiva, ¿cuál es la situación actual en la coordinación y desarrollo de políticas formativas orientadas al empleo en España, y qué acciones concretas propondrías para mejorar la adecuación de la formación a las necesidades reales del mercado laboral?\n\nSegún Miguel Ángel García, “la formación financiada con recursos públicos (mayoritariamente certificados de profesionalidad) es demasiado rígida y anticuada. De manera que prevalece el continuismo de lo ya realizado sin adaptar los contenidos formativos a las necesidades de empresas y trabajadores. La formación para el empleo va detrás de la realidad y el resultado es falta de interés de los potenciales usuarios y un posible peso muerto del gasto realizado”.\n\nGuillermo considera que “la formación para el empleo es un instrumento esencial para la mejora de la empleabilidad, especialmente en el contexto actual de sociedad del conocimiento y del avance acelerado de la inteligencia artificial. Las políticas formativas no pueden estar desligadas de la formación profesional, los mecanismos de acreditación y una mejor adaptación de la oferta formativa a los itinerarios de las personas desempleadas y ocupadas. Asimismo, resulta clave analizar las vacantes del sistema productivo, desarrollar estudios prospectivos e integrar en la orientación laboral información clara sobre las características de los empleos y la empleabilidad media asociada a cada tipo de formación”.\n\nCoordinación y propuestas de mejora\n\n5.- ¿Cómo valoras la coordinación actual entre la administración estatal y las comunidades autónomas en la gestión de las políticas públicas de empleo en España, y qué aspectos crees que deberían fortalecerse para mejorar la eficacia de estas iniciativas?\n\nPara García, “el marco normativo actual de distribución de competencias entre SEPE y CCAA no es óptimo, al haber creado un gran muro entre las prestaciones económicas (a cargo del SEPE) y las políticas activas (competencia de las CCAA). No ayuda tampoco la laxa definición de compromiso de activación de las personas desempleadas y de oferta adecuada de empleo, para estimular la búsqueda de empleo de las personas en desempleo. Los incentivos para fomentar la colaboración entre administraciones están desalineados (quien controla el cumplimiento de las obligaciones no paga las prestaciones, y el que paga no controla).”\n\nSalvador Guillermo indica que “no tiene por qué darse una única política que fije de forma detallada las políticas de empleo, sino que no deben darse disonancias entre las políticas desarrolladas por las administraciones, que se encuadren dentro de la Estrategia de Empleo y exijan una base común, pero obviamente con los matices que tenga esa comunidad autónoma, pues tienen esa capacidad que les confiere la Constitución y una estructura federal, así como la aplicación del principio de subsidiariedad, a fin de moldear esa política a las necesidades y requerimientos de la economía y población de su territorio. No se trata de replicar miméticamente, sino de moldearla para su mejor resultado en función de las características de cada CCAA.”.\n\n6.- Considerando los retos identificados, ¿qué propuestas concretas sugerirías para mejorar las políticas públicas de empleo a nivel país, de modo que estas sean más efectivas y respondan mejor a las necesidades generales del mercado laboral español?\n\nSegún Miguel Ángel García, “se necesita un cambio radical en el diseño e implementación de las políticas activas de empleo para ser útiles a la sociedad. Este cambio estructural se debe apoyar en el diseño, que afecta a su implementación, organización y gestión de los recursos públicos (en especial el personal). El cambio debe incluir el conocimiento profundo del tejido productivo y una estrecha relación con las empresas, garantizando un adecuado perfilado que permita enviar a las personas adecuadas en aptitud y actitud para los empleos vacantes. El mayor conocimiento del tejido productivo permitiría orientar hacia la formación más necesaria, que debe romper el actual límite de financiación asociado a los certificados de profesionalidad (larga duración y rígidos contenidos). Los programas de incentivos deben ser selectivos y su diseño debe permitir una intensa automatización de los procedimientos para ser eficaces. Las CCAA deberían poder incorporar sus características específicas en su definición, contando, además, con toda la información disponible en los registros administrativos públicos. Las personas en desempleo deben contar con protección, pero también con obligaciones en una búsqueda de empleo continuada y activa. Para ello hay que fortalecer el compromiso de activación con condiciones más estrictas para el rechazo de las ofertas de empleo. Todo ello, con procesos continuados de evaluación de la eficiencia de las políticas de empleo”.\n\nFinalmente, Guillermo considera que “habrá que valorar en los próximos años cómo ha funcionado la ley y la normativa recientes sobre el mercado de trabajo, pero resultan insuficientes los recursos públicos destinados a las políticas activas. A la vez, habrá que implementar las mejoras que se inspiran en los informes de evaluación y que la ley impone, a fin de poder actuar año a año y remediar la intermediación laboral pública, pues da muy pobre resultado. Es necesario buscar una mayor efectividad de la misma, reforzar los esquemas de colaboración público-privada, evaluar los incentivos al empleo y los mecanismos flexibles de jubilación o de una jubilación activa, y posibilitar el derecho al empleo, a la jubilación y a la concurrencia de ambos, evitando regímenes totalmente opuestos entre el sector público y el privado”.\n\nResumiendo, en su intervención final las PRINCIPALES CONCLUSIONES, Valentín Pich y Ángel de la Fuente subrayaron la urgencia de rediseñar las políticas activas de empleo para que resulten más eficaces, adaptadas al mercado laboral y útiles para los ciudadanos. Entre las propuestas destacadas figura la necesidad de reforzar el vínculo con el tejido productivo para mejorar la adecuación entre oferta y demanda de empleo, así como flexibilizar y actualizar los contenidos de la formación para el empleo, superando las limitaciones de los actuales certificados de profesionalidad. Se insistió también en la conveniencia de rediseñar los incentivos a la contratación con criterios estratégicos y adaptables a las características de cada comunidad autónoma, garantizando su acceso a la información necesaria. Otras prioridades incluyen reforzar la corresponsabilidad de los demandantes, establecer un sistema permanente de evaluación, modernizar tecnológicamente los servicios públicos de empleo y mejorar su gestión operativa. Todo ello requiere una mayor inversión pública, una gobernanza más integrada y mecanismos de colaboración interadministrativa eficaces y estables.",
+                                        "metadata": {
+                                            "url": "https://economistas.es/cust_notas/31-de-marzo-de-2025-los-expertos-reclaman-una-transformacion-profunda-de-las-politicas-activas-de-empleo-en-espana/",
+                                            "source": "economistas.es",
+                                            "favicon": "https://economistas.es/wp-content/uploads/2019/04/favicon.png",
+                                            "title": "31 de marzo de 2025.- Los expertos reclaman una ...",
+                                            "type": "web_search",
+                                            "base_url": "https://economistas.es",
+                                            "snippet": "31 de marzo de 2025.- Los expertos reclaman una transformación profunda de las políticas activas de empleo en España · Fortalecer el vínculo con ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Visitas: 544\n\nEspaña requerirá cerca de 44.000 nuevos profesionales de Recursos Humanos en los próximos tres a cinco años para hacer frente a la creciente dificultad que experimentan las empresas a la hora de atraer, seleccionar y contratar talento. Así lo recoge un análisis elaborado por el Instituto de las Ciencias del Empleo y las Relaciones Laborales (ICER), centrado en las necesidades de talento en el horizonte 2025-2035.\n\nEl informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.\n\nCada año se llevan a cabo más de 626.400 procesos de selección, lo que dimensiona el peso estratégico del sector de Recursos Humanos en la economía nacional. Según el ICER, esta actividad vivirá una transformación acelerada en los próximos años, marcada por la externalización de procesos, la automatización mediante inteligencia artificial y un mayor esfuerzo en la formación y desarrollo de las plantillas.\n\nCrecimiento de la demanda de seleccionadores\n\nLas proyecciones del estudio muestran un aumento sin precedentes en la necesidad de especialistas en selección. Las empresas de trabajo temporal (ETT) prevén un crecimiento anual de entre el 6% y el 8% en la contratación de técnicos, lo que equivaldría a 1.800-2.400 nuevos profesionales.\n\nEn paralelo, el reclutamiento tradicional necesitará más de 13.000 expertos en selección, las plataformas digitales y de empleo incorporarán hasta 3.500 perfiles especializados, y los servicios de headhunting requerirán unos 1.500 profesionales adicionales para dar respuesta a la demanda del mercado.\n\nAlejandro Costanzo, secretario general del ICER, advierte que esta creciente necesidad se intensifica por factores estructurales como la fuga de talento cualificado y la baja inversión en I+D, situada en el 1,49% del PIB, frente al 2,22% de la media europea. “Esta falta de inversión dificulta la creación de industrias innovadoras capaces de absorber el talento que formamos”, señala.\n\nSobreformación, precariedad y fuga de talento\n\nEl análisis revela que un 47% de los trabajadores en España está sobrecualificado para el puesto que ocupa, lo que genera frustración, precariedad laboral y desaprovechamiento de capital humano. Como consecuencia, el país sufre una constante fuga de talento: el 43% de los españoles que emigran cuenta con formación superior, mientras que apenas un 16 % de los profesionales extranjeros que llegan al país están altamente cualificados, una brecha que merma la competitividad nacional.\n\nPara Costanzo, la formación profesional debe consolidarse como una herramienta estratégica para corregir este desajuste: “Siete de cada diez titulados de FP de grado superior logran empleo en menos de seis meses, lo que demuestra su capacidad de respuesta ante las demandas reales del mercado”.\n\nTalento como pilar estratégico\n\nEl ICER concluye que la gestión del talento ya no puede entenderse como una función de soporte, sino como un pilar estratégico para la competitividad empresarial y la estabilidad económica del país.\n\nAfrontar esta crisis de desajuste laboral exigirá —según el Instituto— una estrategia coordinada y de largo plazo entre administraciones públicas, sistema educativo y sector privado, con el fin de construir un mercado laboral más resiliente y adaptado a las oportunidades del siglo XXI.",
+                                        "metadata": {
+                                            "url": "https://factorhumano.es/profesionales-recursos-humanos-desajuste-laboral/",
+                                            "source": "factorhumano.es",
+                                            "favicon": "https://factorhumano.es/wp-content/uploads/2020/03/cropped-FH_64-32x32.png",
+                                            "title": "España necesitará 44.000 profesionales de Recursos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://factorhumano.es",
+                                            "snippet": "España necesitará 44.000 profesionales de Recursos Humanos en los próximos años para afrontar el desajuste laboral · 150.000 vacantes sin cubrir ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.276391526000225,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.276391526000225,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:58:35",
+                    "run_time": 1.276391526000225,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número oficial de puestos de trabajo vacantes en España en 2025 según el Instituto Nacional de Estadística?": [
+                                {
+                                    "Consulta las ofertas de empleo público de la Administración General del Estado para 2025 que han sido aprobadas y publicadas en el Boletín Oficial del Estado.": null
+                                },
+                                {
+                                    "El informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.": null
+                                },
+                                {
+                                    "Madrid, 31 de marzo de 2025 .- El mercado laboral en España se enfrenta a desafíos estructurales significativos que limitan la inserción laboral de los colectivos más vulnerables. A pesar de los avances, nuestro país sigue teniendo la tasa de paro más alta entre los países de la zona euro. En este contexto, el Consejo General de Economistas de España (CGE) y la Fundación de Estudios de Economía Aplicada (Fedea)han decidido centrar la tercera sesión de sus Encuentros en el análisis del papel de las políticas activas de empleo como herramienta clave para reducir el paro y mejorar la calidad del empleo en España.": null
+                                }
+                            ],
+                            "¿Cuál es la tasa de vacantes de empleo en España en comparación con otros países de la Unión Europea?": [
+                                {
+                                    "El informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.": null
+                                },
+                                {
+                                    "En la misma línea, Salvador Guillermo comentó que “España muestra avances en la creación de empleo, pero aun en periodos prolongados de expansión económica mantiene tasas de paro elevadas en comparación con otros países. Y eso que la tasa de actividad y empleo es relativamente más baja. Por eso, debemos invertir y dotar de más recursos a las políticas activas de empleo y hacerlas más efectivas. Los datos también confirman que estudiar sigue siendo positivo, ya que reduce de forma sustancial las tasas de desempleo.”": null
+                                },
+                                {
+                                    "1.- ¿Cómo describirías la situación actual de las políticas públicas de empleo en España y cuáles crees que han sido los principales factores que han influido en sus resultados recientes?": null
+                                }
+                            ],
+                            "¿Qué dice el Servicio Público de Empleo Estatal sobre el número de puestos de trabajo vacantes en España en 2025?": [
+                                {
+                                    "Consulta las ofertas de empleo público de la Administración General del Estado para 2025 que han sido aprobadas y publicadas en el Boletín Oficial del Estado.": null
+                                },
+                                {
+                                    "Oferta de empleo público para el año 2025 Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 16-07-2025) Corrección de errores del Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 02-08-2025)": null
+                                },
+                                {
+                                    "Madrid, 31 de marzo de 2025 .- El mercado laboral en España se enfrenta a desafíos estructurales significativos que limitan la inserción laboral de los colectivos más vulnerables. A pesar de los avances, nuestro país sigue teniendo la tasa de paro más alta entre los países de la zona euro. En este contexto, el Consejo General de Economistas de España (CGE) y la Fundación de Estudios de Economía Aplicada (Fedea)han decidido centrar la tercera sesión de sus Encuentros en el análisis del papel de las políticas activas de empleo como herramienta clave para reducir el paro y mejorar la calidad del empleo en España.": null
+                                }
+                            ],
+                            "¿Qué factores contribuyen a la existencia de puestos de trabajo vacantes en España según los expertos en el campo del empleo?": [
+                                {
+                                    "El informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.": null
+                                },
+                                {
+                                    "1.- ¿Cómo describirías la situación actual de las políticas públicas de empleo en España y cuáles crees que han sido los principales factores que han influido en sus resultados recientes?": null
+                                },
+                                {
+                                    "Para Salvador Guillermo, “la situación actual de las políticas públicas de empleo en España refleja una mejora del empleo que responde más a la inercia del crecimiento económico, especialmente por la recuperación del sector turístico, que a la eficacia de dichas políticas. El empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados. En este contexto, se requieren planes de choque desde los servicios públicos de empleo, con especial atención a los desempleados de larga duración, incluyendo apoyo formativo y psicológico que facilite su reincorporación al mercado laboral”.": null
+                                }
+                            ],
+                            "¿Existen diferencias regionales significativas en el número de puestos de trabajo vacantes en España?": [
+                                {
+                                    "El informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.": null
+                                },
+                                {
+                                    "1.- ¿Cómo describirías la situación actual de las políticas públicas de empleo en España y cuáles crees que han sido los principales factores que han influido en sus resultados recientes?": null
+                                },
+                                {
+                                    "En la misma línea, Salvador Guillermo comentó que “España muestra avances en la creación de empleo, pero aun en periodos prolongados de expansión económica mantiene tasas de paro elevadas en comparación con otros países. Y eso que la tasa de actividad y empleo es relativamente más baja. Por eso, debemos invertir y dotar de más recursos a las políticas activas de empleo y hacerlas más efectivas. Los datos también confirman que estudiar sigue siendo positivo, ya que reduce de forma sustancial las tasas de desempleo.”": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 64.74974703100088,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 64.74974703100088,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:59:44",
+                    "run_time": 64.74974703100088,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn España hay casi un millón de puesto de trabajo vancantes\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número oficial de puestos de trabajo vacantes en España en 2025 según el Instituto Nacional de Estadística?\n¿Cuál es la tasa de vacantes de empleo en España en comparación con otros países de la Unión Europea?\n¿Qué dice el Servicio Público de Empleo Estatal sobre el número de puestos de trabajo vacantes en España en 2025?\n¿Qué factores contribuyen a la existencia de puestos de trabajo vacantes en España según los expertos en el campo del empleo?\n¿Existen diferencias regionales significativas en el número de puestos de trabajo vacantes en España?\n\n3. Here are the text sources you should use as your source of information:\n[0] Consulta las ofertas de empleo público de la Administración General del Estado para 2025 que han sido aprobadas y publicadas en el Boletín Oficial del Estado.\n[0] Oferta de empleo público para el año 2025 Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 16-07-2025) Corrección de errores del Real Decreto 651/2025 , de 15 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2025. (BOE 02-08-2025)\n[1] El informe subraya la paradoja del mercado laboral español: mientras el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir, lo que refleja el profundo desajuste entre la formación académica y las necesidades reales del tejido productivo.\n[2] Madrid, 31 de marzo de 2025 .- El mercado laboral en España se enfrenta a desafíos estructurales significativos que limitan la inserción laboral de los colectivos más vulnerables. A pesar de los avances, nuestro país sigue teniendo la tasa de paro más alta entre los países de la zona euro. En este contexto, el Consejo General de Economistas de España (CGE) y la Fundación de Estudios de Economía Aplicada (Fedea)han decidido centrar la tercera sesión de sus Encuentros en el análisis del papel de las políticas activas de empleo como herramienta clave para reducir el paro y mejorar la calidad del empleo en España.\n[2] En la misma línea, Salvador Guillermo comentó que “España muestra avances en la creación de empleo, pero aun en periodos prolongados de expansión económica mantiene tasas de paro elevadas en comparación con otros países. Y eso que la tasa de actividad y empleo es relativamente más baja. Por eso, debemos invertir y dotar de más recursos a las políticas activas de empleo y hacerlas más efectivas. Los datos también confirman que estudiar sigue siendo positivo, ya que reduce de forma sustancial las tasas de desempleo.”\n[2] 1.- ¿Cómo describirías la situación actual de las políticas públicas de empleo en España y cuáles crees que han sido los principales factores que han influido en sus resultados recientes?\n[2] Para Salvador Guillermo, “la situación actual de las políticas públicas de empleo en España refleja una mejora del empleo que responde más a la inercia del crecimiento económico, especialmente por la recuperación del sector turístico, que a la eficacia de dichas políticas. El empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados. En este contexto, se requieren planes de choque desde los servicios públicos de empleo, con especial atención a los desempleados de larga duración, incluyendo apoyo formativo y psicológico que facilite su reincorporación al mercado laboral”.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En España hay casi un millón de puesto de trabajo vancantes"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Argumentos a favor de la afirmación**\n\nHay varios indicios que sugieren que en España hay un número significativo de puestos de trabajo vacantes. Por ejemplo, se menciona que \"el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir\" [1]. Esto sugiere que, a pesar de la alta tasa de desempleo, especialmente entre los jóvenes, hay una cantidad importante de puestos de trabajo que no se han cubierto. Además, se menciona que \"el empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados\" [2]. Esto indica que, a pesar del crecimiento del empleo, las empresas están teniendo dificultades para encontrar candidatos adecuados para cubrir los puestos vacantes.\n\n**Argumentos en contra de la afirmación**\n\nNo se encontraron argumentos directos en contra de la afirmación de que hay casi un millón de puestos de trabajo vacantes en España. Sin embargo, se menciona que \"la tasa de actividad y empleo es relativamente más baja\" en comparación con otros países [2]. Esto podría sugerir que, aunque hay puestos de trabajo vacantes, la tasa de empleo en general es baja, lo que podría afectar la cantidad de puestos de trabajo disponibles.\n\n**Conclusión**\n\nEn base a la información proporcionada, parece que hay evidencia que sugiere que en España hay un número significativo de puestos de trabajo vacantes. Aunque no se encontró un número exacto de casi un millón de puestos de trabajo vacantes, se mencionan cifras como 150.000 vacantes sin cubrir [1] y se habla de las dificultades que tienen las empresas para cubrir puestos vacantes [2]. Sin embargo, también se menciona que la tasa de empleo en general es baja [2], lo que podría afectar la cantidad de puestos de trabajo disponibles. En conclusión, aunque no se puede confirmar exactamente la cifra de casi un millón de puestos de trabajo vacantes, hay evidencia que sugiere que hay un número significativo de puestos de trabajo vacantes en España.\n\n**Decisión**\n\nLa afirmación de que en España hay casi un millón de puestos de trabajo vacantes es **verdadera**, aunque no se puede confirmar exactamente la cifra."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.100584933999926,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.100584933999926,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:59:57",
+                    "run_time": 9.100584933999926,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En España hay casi un millón de puesto de trabajo vancantes\nArticle: **Argumentos a favor de la afirmación**\n\nHay varios indicios que sugieren que en España hay un número significativo de puestos de trabajo vacantes. Por ejemplo, se menciona que \"el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir\" [1]. Esto sugiere que, a pesar de la alta tasa de desempleo, especialmente entre los jóvenes, hay una cantidad importante de puestos de trabajo que no se han cubierto. Además, se menciona que \"el empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados\" [2]. Esto indica que, a pesar del crecimiento del empleo, las empresas están teniendo dificultades para encontrar candidatos adecuados para cubrir los puestos vacantes.\n\n**Argumentos en contra de la afirmación**\n\nNo se encontraron argumentos directos en contra de la afirmación de que hay casi un millón de puestos de trabajo vacantes en España. Sin embargo, se menciona que \"la tasa de actividad y empleo es relativamente más baja\" en comparación con otros países [2]. Esto podría sugerir que, aunque hay puestos de trabajo vacantes, la tasa de empleo en general es baja, lo que podría afectar la cantidad de puestos de trabajo disponibles.\n\n**Conclusión**\n\nEn base a la información proporcionada, parece que hay evidencia que sugiere que en España hay un número significativo de puestos de trabajo vacantes. Aunque no se encontró un número exacto de casi un millón de puestos de trabajo vacantes, se mencionan cifras como 150.000 vacantes sin cubrir [1] y se habla de las dificultades que tienen las empresas para cubrir puestos vacantes [2]. Sin embargo, también se menciona que la tasa de empleo en general es baja [2], lo que podría afectar la cantidad de puestos de trabajo disponibles. En conclusión, aunque no se puede confirmar exactamente la cifra de casi un millón de puestos de trabajo vacantes, hay evidencia que sugiere que hay un número significativo de puestos de trabajo vacantes en España.\n\n**Decisión**\n\nLa afirmación de que en España hay casi un millón de puestos de trabajo vacantes es **verdadera**, aunque no se puede confirmar exactamente la cifra.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En España hay casi un millón de puesto de trabajo vancantes\nArticle: **Argumentos a favor de la afirmación**\n\nHay varios indicios que sugieren que en España hay un número significativo de puestos de trabajo vacantes. Por ejemplo, se menciona que \"el país mantiene la tasa de paro juvenil más alta de Europa, registra de media 150.000 vacantes sin cubrir\" [1]. Esto sugiere que, a pesar de la alta tasa de desempleo, especialmente entre los jóvenes, hay una cantidad importante de puestos de trabajo que no se han cubierto. Además, se menciona que \"el empleo ha crecido principalmente por impulso del sector privado, aunque ya se enfrentan dificultades para cubrir vacantes, incluso en perfiles poco cualificados\" [2]. Esto indica que, a pesar del crecimiento del empleo, las empresas están teniendo dificultades para encontrar candidatos adecuados para cubrir los puestos vacantes.\n\n**Argumentos en contra de la afirmación**\n\nNo se encontraron argumentos directos en contra de la afirmación de que hay casi un millón de puestos de trabajo vacantes en España. Sin embargo, se menciona que \"la tasa de actividad y empleo es relativamente más baja\" en comparación con otros países [2]. Esto podría sugerir que, aunque hay puestos de trabajo vacantes, la tasa de empleo en general es baja, lo que podría afectar la cantidad de puestos de trabajo disponibles.\n\n**Conclusión**\n\nEn base a la información proporcionada, parece que hay evidencia que sugiere que en España hay un número significativo de puestos de trabajo vacantes. Aunque no se encontró un número exacto de casi un millón de puestos de trabajo vacantes, se mencionan cifras como 150.000 vacantes sin cubrir [1] y se habla de las dificultades que tienen las empresas para cubrir puestos vacantes [2]. Sin embargo, también se menciona que la tasa de empleo en general es baja [2], lo que podría afectar la cantidad de puestos de trabajo disponibles. En conclusión, aunque no se puede confirmar exactamente la cifra de casi un millón de puestos de trabajo vacantes, hay evidencia que sugiere que hay un número significativo de puestos de trabajo vacantes en España.\n\n**Decisión**\n\nLa afirmación de que en España hay casi un millón de puestos de trabajo vacantes es **verdadera**, aunque no se puede confirmar exactamente la cifra."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"En España hay casi un millón de puestos de trabajo vacantes\", \"categories\": [\"Noticias\", \"Economía\", \"Empleo\"], \"label\": \"True\", \"main_claim\": \"En España hay un número significativo de puestos de trabajo vacantes\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

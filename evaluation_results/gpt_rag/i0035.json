@@ -1,0 +1,571 @@
+{
+    "question": "El número de españoles que se han ido al extranjero ha aumentado en los últimos años",
+    "answer": "**A favor:** Hay evidencia directa en los datos citados que respalda un aumento reciente del número de españoles residentes en el extranjero: el Padrón de Españoles Residentes en el Extranjero (PERE) registró **3.045.966 personas a 1 de enero de 2025, superando por primera vez los tres millones y suponiendo un incremento del 4,7% (137.317 personas) respecto a 1 de enero de 2024**; además se aporta la distribución por continentes (59,3% en América, 37,2% en Europa y 3,6% en el resto del mundo) [1]. También hay datos del Instituto Nacional de Estadística (INE) sobre la población residente en España a 1 de enero de 2024 que muestran movimientos internacionales compatibles con mayor movilidad: la población total en España aumentó a 48.619.695 (incremento de 534.334 respecto a 2023), y en ese mismo censo **las personas nacidas en el extranjero aumentaron en 634.028 (hasta 8.838.234, +7,73%)** [1]. Un estudio de FEDEA sobre 2019-2024 subraya el crecimiento de la presencia de personas no nacidas en España en el mercado laboral —tres de cada cuatro nuevos ocupados 2019-2024 no nacieron en España y la proporción de no nacidos en España llegó al 20,7%—, lo que es coherente con mayores flujos migratorios netos y mayor presencia de inmigrantes en esos años [1]. El INE publicó los datos a 1 de enero “este año” el 19 de marzo, confirmando la actualización reciente del PERE [1].\n\n**En contra / limitaciones:** Sin embargo, los fragmentos disponibles no contienen la serie anual completa del PERE entre 2019 y 2025 desglosada por españoles nacidos en España frente a nacidos en el extranjero, ni las cifras anuales de salidas al extranjero de personas con nacionalidad española entre 2019 y 2024 según la Estadística de Migraciones o la Estadística de Variaciones Residenciales; por tanto **no es posible comprobar con estos textos la evolución año por año 2019–2025 ni cuantificar las salidas anuales 2019–2024 ni el saldo migratorio anual (entradas menos salidas) de españoles** [1]. Tampoco hay en los textos proporcionados datos de Eurostat u OCDE sobre flujos de emigración de ciudadanos españoles por país de destino 2019–2024 para comparar con el INE. Sobre el impacto de adquisiciones de la nacionalidad española en el exterior o de la Ley de Memoria Democrática de 2022, los fragmentos mencionan comunicados ministeriales 2023–2025 de que se trata de factores a considerar, pero **no aportan cifras ni análisis concretos en las piezas remitidas**, de modo que no se puede cuantificar cuánto explican el aumento del PERE [1]. Además, aunque el censo indica que la nacionalidad española residente en España subió ligeramente (42.117.413; incremento absoluto 121.672, +0,29%), también muestra que el número de personas nacidas en España residentes en España descendió (-99.694, -0,25%), dato que puede interpretarse de distintas maneras (envejecimiento, defunción, emigración) pero por sí solo no prueba una tendencia migratoria concreta sin los flujos anuales detallados [1].\n\nConclusión: **con la evidencia proporcionada, es correcto afirmar que el número de personas con nacionalidad española residiendo en el extranjero aumentó recientemente entre 2024 y 2025** (PERE 2025 = 3.045.966, +4,7% respecto a 2024) y hay señales complementarias de mayor movilidad internacional (aumento de nacidos en el extranjero en el censo y mayor presencia de no nacidos en España en el empleo) que apoyan la afirmación en sentido amplio [1]. No obstante, **no hay información suficiente en los textos entregados para reconstruir la evolución anual completa 2019–2025 desglosada por lugar de nacimiento, ni para dar las salidas anuales 2019–2024, el saldo migratorio anual, la comparación detallada con Eurostat/OCDE, ni cuantificar la contribución de las adquisiciones de nacionalidad o de la Ley de Memoria Democrática**; por eso la afirmación general “El número de españoles que se ha ido al extranjero ha aumentado en los últimos años” puede calificarse como **VERDADERA** en el período más reciente documentado (al menos 2024→2025) pero **indeterminada** si se exige una comprobación año a año 2019–2025 o una atribución causal completa con los datos disponibles [1].",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "http://www.eduardorojotorrecilla.es/2025/03/espanoles-por-el-mundo-3045966.html",
+            "source": "www.eduardorojotorrecilla.es",
+            "favicon": "http://www.eduardorojotorrecilla.es/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "El número de españoles que se han ido al extranjero ha aumentado en los últimos años",
+        "categories": [
+            "Noticias",
+            "Migración",
+            "Sociedad",
+            "Política"
+        ],
+        "label": "Undetermined",
+        "main_claim": "El número de españoles que se han ido al extranjero ha aumentado, según el PERE 2025, pero la evolución año a año no está completamente verificada.",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "openai/gpt-5",
+                "gen_searches_agent": "openai/gpt-5-mini",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "openai/gpt-5-nano",
+                "article_writer": "openai/gpt-5-mini",
+                "metadata_agent": "openai/gpt-5-nano",
+                "image_prompt": "openai/gpt-5-nano"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0038534999999999997,
+                "total_run_time": 24.424552578999737,
+                "average_cost_per_call": 0.0038534999999999997,
+                "average_time_per_call": 24.424552578999737,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:14:28",
+                    "run_time": 24.424552578999737,
+                    "cost": 0.0038534999999999997,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años\n\n**Critical Research Questions:**\n1. ¿Cuál es la evolución anual entre 2019 y 2025 del Padrón de Españoles Residentes en el Extranjero (PERE) del INE, tanto en total como desglosado por españoles nacidos en España frente a nacidos en el extranjero?\n2. Según la Estadística de Migraciones del INE y la Estadística de Variaciones Residenciales, ¿cuántas salidas al extranjero de personas con nacionalidad española se registraron cada año entre 2019 y 2024 y cuál es la tendencia?\n3. ¿Cuál es el saldo migratorio de personas con nacionalidad española (entradas desde el extranjero menos salidas) entre 2019 y 2024 según el INE, y en qué años fue positivo o negativo?\n4. ¿Qué muestran Eurostat y la OCDE sobre los flujos de emigración de ciudadanos españoles por país de destino entre 2019 y 2024 y cómo se comparan con los datos del INE?\n5. ¿En qué medida el aumento reciente del Padrón de Españoles Residentes en el Extranjero se explica por adquisiciones de la nacionalidad española en el exterior y por la Ley de Memoria Democrática de 2022, según datos del INE y comunicados del Ministerio de Asuntos Exteriores en 2023-2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"Padrón de Españoles Residentes en el Extranjero PERE INE 2019 2025 evolución total nacidos en España nacidos en el extranjero\", \"Estadística de Migraciones y Estadística de Variaciones Residenciales INE salidas y entradas por nacionalidad española 2019 2024 datos anuales tendencia\", \"saldo migratorio nacionalidad española INE entradas desde el extranjero menos salidas 2019 2024 saldo anual positivo negativo\", \"Eurostat OCDE emigración ciudadanos españoles por país de destino 2019 2024 datos comparativa con INE flujos emigración España\", \"INE adquisiciones de la nacionalidad española en el exterior impacto Padrón Españoles Residentes en el Extranjero Ley de Memoria Democrática 2022 Ministerio de Asuntos Exteriores comunicado 2023 2024 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 22.305801786999837,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 22.305801786999837,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:14:51",
+                    "run_time": 22.305801786999837,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "Padrón de Españoles Residentes en el Extranjero PERE INE 2019 2025 evolución total nacidos en España nacidos en el extranjero",
+                                "Estadística de Migraciones y Estadística de Variaciones Residenciales INE salidas y entradas por nacionalidad española 2019 2024 datos anuales tendencia",
+                                "saldo migratorio nacionalidad española INE entradas desde el extranjero menos salidas 2019 2024 saldo anual positivo negativo",
+                                "Eurostat OCDE emigración ciudadanos españoles por país de destino 2019 2024 datos comparativa con INE flujos emigración España",
+                                "INE adquisiciones de la nacionalidad española en el exterior impacto Padrón Españoles Residentes en el Extranjero Ley de Memoria Democrática 2022 Ministerio de Asuntos Exteriores comunicado 2023 2024 2025"
+                            ],
+                            "results": {
+                                "Padrón de Españoles Residentes en el Extranjero PERE INE 2019 2025 evolución total nacidos en España nacidos en el extranjero | Estadística de Migraciones y Estadística de Variaciones Residenciales INE salidas y entradas por nacionalidad española 2019 2024 datos anuales tendencia | saldo migratorio nacionalidad española INE entradas desde el extranjero menos salidas 2019 2024 saldo anual positivo negativo | Eurostat OCDE emigración ciudadanos españoles por país de destino 2019 2024 datos comparativa con INE flujos emigración España | INE adquisiciones de la nacionalidad española en el exterior impacto Padrón Españoles Residentes en el Extranjero Ley de Memoria Democrática 2022 Ministerio de Asuntos Exteriores comunicado 2023 2024 2025": [
+                                    {
+                                        "text": "\n\n\n\n\n\n\n\nPor municipios (2022)\n\nLa emigración se deja notar especialmente en la zona noroeste de España y la denominada 'España vacía' hasta el punto de que municipios como Valdeprado, en Soria, tiene más vecinos inscritos en el extranjero que viviendo en el pueblo.\n\n< iframe width = \" 100% \" height = \" 520 \" frameborder = \" 0 \" src = \" https://epinternet.carto.com/viz/534f9788-7611-4763-a37d-49a73eb92af8/embed_map \" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen > </ iframe >\n\n\n\n\n\n\n\n\n\nEn este buscador puedes consultar los datos de todos los municipios.\n\n\n\n\n\n< iframe src = ' https://flo.uri.sh/visualisation/5605746/embed ' title = ' Interactive or visual content ' frameborder = ' 0 ' scrolling = ' no ' style =' width : 100% ; height : 600px ; ' sandbox = ' allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation ' > </ iframe >\n\n\n\n\n\nEl de Valdeprado no es un caso único. Casi un centenar de municipios de España están en la misma situación que Valdeprado. Salamanca, La Rioja, Orense, Burgos y Soria son las provincias con más municipios en donde ocurre esto.",
+                                        "metadata": {
+                                            "url": "https://www.epdata.es/datos/poblacion-espanoles-extranjero-datos-graficos/331",
+                                            "source": "www.epdata.es",
+                                            "favicon": "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jYWRMWhTURSG/3PfS5umtdVAm2BFtIQMz0ERcSlS6HMoig5igzpUXGpRwUV0cMgguKgVhOLUoVkElVqkkxgUh6jgINWGQo1kUdOaF9P0pclLbu5xKG1ek6I/XLic+53/nHMPoUHDln2YgKsABgGePKlr3UQ4AeAVGBMjXb6km9c3LhHL9gJ4CGAUgFiPkgCxACgEIATCaGylOA6i2yOdPokNMGLZOoAXAMbqydtKB9FNAFNThaKAC44CGPpHYqMuEOgaAIiIZQcB3GgkqkqpjF1W84UyHKVUkwVzNLZS7NABjgDkdb/lShWVSGen1xz58h3gC3o9fddDPUO9bZ76eER+AKcFQP1bjRnJpcL4miOHYRpzMI0PmXL11OzSSqy5C/ST/2NqkoCj9RhUznYGYBp5N7sjsbjv0YHdKY1oswtmPNeP7e/WWzXhHkExQzxrKHZxzy6gYUN/ajUp7IrUAYRcJwxwNJJd3QQjli0+Sz5yZyHz6WuhpJgZAPCrVF2m8PyPKwcDXRNETRPOAHgCQAf4EjMdZ/Db9+nsXK8mzp7p3Rmc/pk/T4gnewZCgVSgo7WjyWIbMVg6VfX0zbel/KojbwmYxvKXTP5eWdaad72NCKRL5nMejx6HadgCAHK2czeRtmaLFflfk4JTVYl0NpazyzPrhhuKJ1u8Hu1BuKdzrM/fLlo0seXHy7KmUpZdWfy9er8iVRSmobYa1I0OaYIu+9tbB9t0bS8DKFXl91yx8loxP4ZpLLjxv0tx7y1Ag4dXAAAAAElFTkSuQmCC",
+                                            "title": "Población de españoles en el extranjero, en datos y gráficos",
+                                            "type": "web_search",
+                                            "base_url": "https://www.epdata.es",
+                                            "snippet": "El número de personas con nacionalidad española que residen en el extranjero superó las 3 millones de enero de 2025, según los datos del Padrón de Españoles ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\n\n\n1. El Instituto Nacional de Estadística publicó el 19 de marzo los datos disponibles a 1 de enero de este año de la población con nacionalidad española residente en elextranjero\n\nEs importante también prestar atención a los datos, disponibles a 1 de enero de 2024 del censo anual de población, publicados el 19 de diciembre\n\n2. Desde la perspectiva del mercado de trabajo ambos datos son relevantes, ya que, vivan en España o fuera de nuestro país, las personas con nacionalidad española, hayan nacido o no en territorio español, tienen, obviamente, los mismos derechos y obligaciones que cualquier persona nacida en España y que tenga la nacionalidad española. Por consiguiente, también el conocimiento de estos datos es de mucho interés cuando se abordan los debates sobre las políticas de inmigración, ya que hay que tener bien claro que una parte nada menospreciable de nacionales españoles, residan o no en España, que han nacido en el extranjero tienen, insisto, los mismos derechos y obligaciones que quienes hayan nacido en España, no siéndoles pues de aplicación la normativa de extranjería porque no son, dicho lisa y llanamente, extranjeros... al menos jurídicamente hablando, ya que sabemos que la realidad social es mucho más compleja que la normativa.\n\nLa cifra que aparece en el título de la presente entrada es la recogida por las estadísticas del INE, y buena parte de ella es de personas de 16 y más años, es decir que son población activa que puede incorporarse al mercado de trabajo español... si las condiciones laborales les animan a intentarlo (y ya sabemos que no siempre es así).\n\n2. Ahora bien, antes de fijarme con algo más de detalle en la desagregación de esta cifra, creo que es conveniente recordar la relevancia de la población española nacida en el extranjero y que se encuentra e nuestro país, ya que gran parte de la misma es población potencialmente activa, y a buen seguro que en la actualidad presta servicios en el mundo laboral, ya sea como asalariada, autónoma o empresaria, y por tanto se incluye dentro de la población ocupada.\n\nPues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.\n\nEl dato más preciso que nos interesa conocer, como ya he apuntado con anterioridad, es de la población española nacida en el extranjero y que reside en España. Aquí lo tenemos:\n\nPoblación residente en España a 1 de enero\n\nCenso 2024 Censo 2023 Incremento 2023 Absoluto Relativo (%) TOTAL 48.619.695 48.085.361 534.334 1,11 Sexo Hombres 23.826.871 23.565.593 261.278 1,11 Mujeres 24.792.824 24.519.768 273.056 1,11 Edad Menos de 16 años 6.974.590 7.054.555 -79.965 -1,13 De 16 a 64 años 31.716.737 31.343.030 373.707 1,19 Más de 64 años 9.928.368 9.687.776 240.592 2,48 Nacionalidad Española 42.117.413 41.995.741 121.672 0,29 Extranjera 6.502.282 6.089.620 412.662 6,78 País de nacimiento España 39.781.461 39.881.155 -99.694 -0,25 Extranjero 8.838.234 8.204.206 634.028 7,73\n\nPodemos observar, pues, la diferencia existente entre la población “de nacionalidad extranjera” y la nacida en el extranjero”, que es de 2.335.952 personas, siendo sin duda gran parte de aquellas que están, por su edad, incluidas dentro de la población activa, y que en gran medida se encuentran en la población ocupada.\n\n3. Ahora sí, ya podemos prestar nuestra atención a los datos de “españoles y españolas por el mundo”, que desde luego seguirá dando trabajo a todos los canales de televisión que desde hace bastante tiempo nos cuentan las “andanzas” de algunos de ellos y ellas en distintos países, si bien la mayor parte son personas que han nacido en España y que por razones laborales o de tipo más personal se han ido a vivir fuera de nuestro Estado, no apareciendo , o muy poco, personas que han nacido en el extranjero pero que al tener la nacionalidad española son, si me permiten la expresión “tan españoles y españolas” como las y los anteriormente referenciados.\n\nLos datos generales son los siguientes:\n\nLa cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de Españoles Residentes en el Extranjero (PERE), “supera por primera vez los tres millones, supuso un incremento del 4,7% (137.317 personas) respecto a los datos a 1 de enero de 2024. Por continente, el 59,3% de las personas inscritas tenía fijada su residencia en América, el 37,2% en Europa y el 3,6% en el resto del mundo”.\n\nUn dato de especial interés es que el 71,8% (2.186.588 personas) han nacido fuera de España, y más relevante aún me parece que es el de que el 59,5% (1.811.878), en su actual país de residencia. Dicho de forma más clara, es muy posible que un número nada menospreciable no hayan “pisado” nunca territorio español.\n\nTOTAL España País de Residencia Otros Países No consta TOTAL 3.045.966 859.378 1.811.878 370.138 4.572 Europa 1.131.603 513.698 414.507 200.932 2.466 África 31.640 8.872 20.642 2.099 27 América 1.805.341 301.435 1.347.187 154.743 1.976 Asia 50.316 20.792 20.863 8.650 11 Oceanía 27.066 14.581 8.679 3.714 92\n\nDe especial interés, para una hipotética incorporación al mercado de trabajo español es que durante 2024 “los mayores incrementos se registraron entre la población de 16 a 64 años (68,4%) y en los menores de 16 años (25,7%)”.\n\nTOTAL Menos 16 años De 16 a 64 años De 65 y más años Absoluto % Absoluto % Absoluto % Absoluto % TOTAL 40.982 100 10.540 25,7 28.026 68,4 2.416 5,9 Europa 25.527 62,3 6.660 16,3 17.724 43,2 1.143 2,8 África 1.352 3,3 643 1,6 669 1,6 40 0,1 América 10.842 26,5 2.681 6,5 6.989 17,1 1.172 2,9 Asia 2.647 6,5 516 1,3 2.094 5,1 37 0,1 Oceanía 614 1,5 40 0,1 550 1,3 24 0,1\n\nLos datos suministrados por el INE también nos dan cuenta de que aquellos países en los que residen más personas de nacionalidad española son Argentina (505.940), Francia (320.749) y Estados Unidos de América (220.715), y que entre los cincos países que experimentaron un crecimiento mayor tres se encontraban Cuba (8.886), México (17.937) y Argentina (23.764).\n\nA) “Evolución de la ocupación y población activa en España 2019-2024. Detalle porComunidades Autónomas”, a cargo de Miguel Ángel García Díaz y Fernando Pinto Hernández (FEDEA, marzo 2025)\n\nLos autores ponen de manifiesto el “papel determinante de la inmigración en el mercado laboral”, destacando, por lo que interesa al objeto de mi exposición, que “Tres de cada cuatro nuevos ocupados en el período 2019-2024 (1.351 de 1.891 miles) no nacieron en España (extranjeros y doble nacionalidad) ·, y que “la presencia de los no nacidos en España ha aumentado en promedio a nivel nacional hasta llegar al 20,7 % del total”.\n\nB) Informe elaborado por la UGT, “Mujeres migrantes en ocupaciones precarias” , con motivo de la celebración el 21 de marzo del día internacional de laeliminación de la discriminación racial , con estos datos claramente significativos:\n\n“Las mujeres, sea cual sea su nacionalidad, pero particularmente las mujeres de doble nacionalidad y nacionalidad extranjera, siguen sobrerrepresentadas en los grupos de ocupación 9 (ocupaciones elementales) y 5 (hostelería), aquellos con menores salarios y más porcentaje de trabajo a tiempo parcial que afecta principalmente a las mujeres.\n\nBaja la ocupación de las mujeres de nacionalidad española y nacionales de la Unión Europea en los grupos 5 y 9, y tanto este descenso como el incremento de ocupación en estos grupos, se cubre con mujeres de nacionalidad extranjera, particularmente por las mujeres nacionales de América Latina. En el último trimestre de 2024, el 78´1% de las mujeres de esta nacionalidad ocupada lo estaban en el grupo 5 y 9:\n\n- Las mujeres en el grupo 5 de ocupación, aumentaron entre 2019 y 2024, en 145.200 mujeres ocupadas, pero las mujeres de nacionalidad española y las nacionales de la Unión Europea disminuyeron su ocupación en 99.100 mujeres. El aumento de las mujeres no comunitarias y de doble nacionalidad en este grupo, compensó la perdida de ocupación de las mujeres de nacionalidad española y comunitarias y absorbió la totalidad del incremento de la ocupación en el grupo 5.\n\n- El descenso de ocupación en el grupo 9 de mujeres españolas, nacionales de la Unión Europea, del resto de Europa y del Resto de mundo y apátridas, así como el incremento de ocupación de 112.800 mujeres en el periodo 2019-2024, fue totalmente absorbido por el aumento en el grupo 9 de las mujeres de doble nacionalidad y de América Latina” (la negrita en el original)\n\n4. Son datos, en definitiva, que ayudan a entender el cambio social que se está produciendo en España, y el que puede seguir en un futuro inmediato.\n\nBuena lectura.",
+                                        "metadata": {
+                                            "url": "http://www.eduardorojotorrecilla.es/2025/03/espanoles-por-el-mundo-3045966.html",
+                                            "source": "www.eduardorojotorrecilla.es",
+                                            "favicon": "http://www.eduardorojotorrecilla.es/favicon.ico",
+                                            "title": "Españoles por el mundo: 3.045.966.",
+                                            "type": "web_search",
+                                            "base_url": "http://www.eduardorojotorrecilla.es",
+                                            "snippet": "La cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "a) los nacidos fuera de España de padre o madre, abuelo o abuela, que originariamente hubieran sido españoles, y que, como consecuencia de haber sufrido exilio por razones políticas, ideológicas o de creencia o de orientación e identidad sexual, hubieran perdido o renunciado a la nacionalidad española;\n\n\n\nb) los hijos e hijas nacidos en el exterior de mujeres españolas que perdieron su nacionalidad por casarse con extranjeros antes de la entrada en vigor de la Constitución de 1978;\n\n\n\nc) los hijos e hijas mayores de edad de aquellos españoles a quienes les fue reconocida su nacionalidad de origen en virtud del derecho de opción de acuerdo a lo dispuesto en la presente ley o en la disposición adicional séptima de la Ley 52/2007, de 26 de diciembre, por la que se reconocen y amplían derechos y se establecen medidas a favor de quienes padecieron persecución o violencia durante la Guerra Civil y la Dictadura (Ley de Memoria Histórica).\n\n\n\n\n\n\n\nPara tramitar su solicitud en el Consulado General de España en México, deberá aportar la siguiente documentación:\n\n\n\n\n\n\n\nEn el supuesto del APARTADO 1A (ANEXO I):\n\n\n\n\n\nA) Las personas cuyo padre o madre, abuelo o abuela hubiese sido originariamente español podrán optar a la nacionalidad española de origen.\n\nB) Los nacidos fuera de España de padre o madre, abuelo o abuela, que originariamente hubieran sido españoles, y que, como consecuencia de haber sufrido exilio por razones políticas, ideológicas o de creencia o de orientación e identidad sexual, hubieran perdido o renunciado a la nacionalidad española.\n\n\n\n\n\nRequisitos:\n\n\n\n4. Certificado literal de nacimiento expedido por el registro civil local del interesado/a. Debe ser original (copia fiel del libro), reciente (no más de 12 meses de expedición) y apostillada. NO SE ADMITEN EXTRACTOS.\n\n5. Original y copia del acta de nacimiento del/de los progenitor/es que tenga la nacionalidad española. La copia debe haber sido expedida en los últimos 4 años, salvo para actas de nacimientos inscritos en este consulado general, que no necesitarán vigencia.\n\n\n\n6. Original y copia del acta de nacimiento literal y apostillada del/de los progenitor/es que no tenga la nacionalidad española.\n\n7. Original y fotocopia del ​acta del matrimonio civil de los progenitores apostillada, siempre y cuando existiera el matrimonio en el momento del nacimiento del solicitante.\n\n\n\n8. Original y copia de identificación oficial del interesado/a (preferentemente pasaporte).\n\n\n\n9. Certificación literal de nacimiento del abuelo o abuela del solicitante, que originariamente hubieran sido españoles.\n\n\n\n10.Para el caso B) La documentación que acredite la condición de exiliado del padre, madre, abuelo o abuela a que se refiere el apartado 3 (prueba de la condición de exiliado). (Ver apartado F de documentación a aportar en esta página ).\n\n\n\n\n\nEn el supuesto del APARTADO 1B (ANEXO II):\n\n\n\n\n\nA) Los hijos e hijas nacidos en el exterior de mujeres españolas que perdieron su nacionalidad por casarse con extranjeros antes de la entrada en vigor de la Constitución de 1978.\n\n\n\n\n\nRequisitos:\n\n4. Certificado literal de nacimiento expedido por el registro civil local del interesado/a. Debe ser original (copia fiel del libro), reciente (no más de 12 meses de expedición) y apostillada. NO SE ADMITEN EXTRACTOS.\n\n5. Original y copia del acta de nacimiento del/de los progenitor/es que tenga la nacionalidad española. La copia debe haber sido expedida en los últimos 4 años, salvo para actas de nacimientos inscritos en este consulado general, que no necesitarán vigencia .\n\n\n\n6. Original y copia del acta de nacimiento literal y apostillada del/de los progenitor/es que no tenga la nacionalidad española.\n\n\n\n7. Original y fotocopia del acta del matrimonio civil de los progenitores apostillada , siempre y cuando existiera el matrimonio en el momento del nacimiento del solicitante .\n\n\n\n8. Original y copia de identificación oficial del interesado/a (preferentemente pasaporte).\n\n9. Para matrimonios formalizados entre el 5 de agosto de 1954 y el 28 de diciembre de 1978, ambos incluidos, deberá aportarse, además, documentación que acredite la adquisición por la madre de la nacionalidad del marido y documento acreditativo de la legislación extranjera en materia de adquisición de la nacionalidad por matrimonio vigente en la fecha en que éste tuvo lugar. Estos dos documentos no serán necesarios cuando se trate de matrimonios formalizados antes del 5 de agosto de 1954, puesto que les será de aplicación lo dispuesto en el artículo 22 del Código Civil en su redacción originaria esto es, «la mujer casada sigue la condición y nacionalidad de su marido»\n\n\n\n\n\nEn el supuesto del APARTADO 1C (ANEXO III):\n\n\n\n\n\nA) Los hijos e hijas mayores de edad de aquellos españoles a quienes les fue reconocida su nacionalidad de origen en virtud del derecho de opción de acuerdo a lo dispuesto en la presente ley o en la disposición adicional séptima de la Ley 52/2007, de 26 de diciembre.\n\n\n\n\n\nRequisitos:\n\n\n\n4. Certificado literal de nacimiento expedido por el registro civil local del interesado/a. Debe ser original (copia fiel del libro), reciente (no más de 12 meses de expedición) y apostillada. NO SE ADMITEN EXTRACTOS.\n\n5. Original y copia del acta de nacimiento del/de los progenitor/es que tenga la nacionalidad española . La copia debe haber sido expedida en los últimos 4 años, salvo para actas de nacimientos inscritos en este consulado general, que no necesitarán vigencia .\n\n6. Original y copia del acta de nacimiento literal y apostillada del/de los progenitor/es que no tenga la nacionalidad española.\n\n\n\n7. Original y fotocopia del acta del matrimonio civil de los progenitores apostillada , siempre y cuando existiera el matrimonio en el momento del nacimiento del solicitante ​.\n\n\n\n8. Original y copia de identificación oficial del interesado/a (preferentemente pasaporte).\n\n\n\n\n\nEn el supuesto del APARTADO 6 (ANEXO IV):\n\n\n\n\n\nA fin de obtener la nacionalidad española de origen sobrevenida, y siempre que cumplan con los requisitos establecidos:\n\n\n\n\n\n\n\nA) Las personas que, siendo hijos de padre o madre originariamente español y nacido en España, hubiesen optado a la nacionalidad española no de origen en virtud del artículo 20.1.b) del Código Civil;\n\n\n\nB) Los hijos menores de edad, de quienes adquirieron la nacionalidad española, por aplicación de la Ley 52/2007, que optaron, en virtud del ejercicio del derecho de opción, previsto en el artículo 20.1.a) del Código Civil, por estar bajo la patria potestad de un español.\n\n\n\n\n\n\n\nRequisitos:\n\n3. Acta de nacimiento española del interesado.\n\n4. Original y copia de identificación oficial del interesado/a (preferentemente pasaporte). ​ ​\n\n\n\n\n\n\n\nRecuerde que para realizar su solicitud con nosotros debe forzosamente residir en nuestra demarcación consular y aportar prueba de ello (factura, contrato de alquiler, o documento en el que figure su nombre completo y domicilio).\n\n\n\nESTE TRÁMITE ÚNICAMENTE SE ATIENDE CON debe comparecer personalmente el interesado/solicitante (en el caso de menores, acompañado de al menos un progenitor o representante legal), con su pasaporte o INE (el que haya utilizado para solicitar la cita), en nuestras oficinas de la calle Molière nº 80, planta baja, Colonia Polanco II Sección, Miguel Hidalgo, 11550 Ciudad de México. ES ALTAMENTE RECOMENDABLE EL USO DE CUBREBOCAS FFP2 o QUIRÚRGICO PARA EL ACCESO .\n\nESTE TRÁMITE ÚNICAMENTE SE ATIENDE CON CITA PREVIA , en la que(en el caso de menores, acompañado de al menos un progenitor o representante legal), con su pasaporte o INE (el que haya utilizado para solicitar la cita), en nuestras oficinas de la\n\n\n\n\n\nreciente y a su nombre en el estado del mismo o colindantes. Le recomendamos consultar con su Consulado Honorario el procedimiento establecido para este trámite.\n\nATENCIÓN: Si su expediente está incompleto al momento de presentarlo, únicamente tendrá 30 días naturales para aportar la documentación faltante. Si es el caso y de no aportar la documentación faltante en 30 días, se le denegará su solicitud.\n\n\n\nPuede consultar la instrucción en: ​ https://www.boe.es/boe/dias/2022/10/26/pdfs/BOE-A-2022-17470.pdf​\n\n\n\nPuede consultar la Ley de Memoria Democrática completa en el siguiente enlace: https://www.boe.es/buscar/act.php?id=BOE-A-2022-17099 ​ ​ También podrán presentar la documentación en el Consulado Honorario más próximo a su domicilio ( vea demarcación ), siempre que pueda demostrar su residencia con su INE o comprobante de domicilioen el estado del mismo o colindantes. Le recomendamos consultar con su Consulado Honorario el procedimiento establecido para este trámite.\n\nLa Ley 20/2022, de 19 de octubre, de Memoria Democrática (BOE de 20 de octubre) establece, en su disposición adicional octava, la posibilidad de adquirir la nacionalidad española para:​En todos los supuestos indicados, será necesario que los interesados formalicen la declaración de opción en el plazo de dos años desde la entrada en vigor de la disposición adicional octava de la Ley de Memoria Democrática, sin perjuicio de la posibilidad de prórroga de dicho plazo, por un año más, mediante Acuerdo del Consejo de Ministros.",
+                                        "metadata": {
+                                            "url": "https://www.exteriores.gob.es/Consulados/mexico/es/Comunicacion/Noticias/Paginas/Articulos/LeydeMemoriaDemocratica.aspx",
+                                            "source": "www.exteriores.gob.es",
+                                            "favicon": "https://www.exteriores.gob.es/Style%20Library/PC/Img/icons/Favicon.ico",
+                                            "title": "Nacionalidad española por la Ley de Memoria Democrática",
+                                            "type": "web_search",
+                                            "base_url": "https://www.exteriores.gob.es",
+                                            "snippet": "La Ley 20/2022, de 19 de octubre, de Memoria Democrática (BOE de 20 de octubre) establece, en su disposición adicional octava, la posibilidad de adquirir la ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00068016,
+                "total_run_time": 0.6524509710002349,
+                "average_cost_per_call": 0.00068016,
+                "average_time_per_call": 0.6524509710002349,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:14:52",
+                    "run_time": 0.6524509710002349,
+                    "cost": 0.00068016,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la evolución anual entre 2019 y 2025 del Padrón de Españoles Residentes en el Extranjero (PERE) del INE, tanto en total como desglosado por españoles nacidos en España frente a nacidos en el extranjero?": [
+                                {
+                                    "La cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de Españoles Residentes en el Extranjero (PERE), “supera por primera vez los tres millones, supuso un incremento del 4,7% (137.317 personas) respecto a los datos a 1 de enero de 2024. Por continente, el 59,3% de las personas inscritas tenía fijada su residencia en América, el 37,2% en Europa y el 3,6% en el resto del mundo”.": null
+                                },
+                                {
+                                    "Pues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.": null
+                                },
+                                {
+                                    "Censo 2024 Censo 2023 Incremento 2023 Absoluto Relativo (%) TOTAL 48.619.695 48.085.361 534.334 1,11 Sexo Hombres 23.826.871 23.565.593 261.278 1,11 Mujeres 24.792.824 24.519.768 273.056 1,11 Edad Menos de 16 años 6.974.590 7.054.555 -79.965 -1,13 De 16 a 64 años 31.716.737 31.343.030 373.707 1,19 Más de 64 años 9.928.368 9.687.776 240.592 2,48 Nacionalidad Española 42.117.413 41.995.741 121.672 0,29 Extranjera 6.502.282 6.089.620 412.662 6,78 País de nacimiento España 39.781.461 39.881.155 -99.694 -0,25 Extranjero 8.838.234 8.204.206 634.028 7,73": null
+                                }
+                            ],
+                            "Según la Estadística de Migraciones del INE y la Estadística de Variaciones Residenciales, ¿cuántas salidas al extranjero de personas con nacionalidad española se registraron cada año entre 2019 y 2024 y cuál es la tendencia?": [
+                                {
+                                    "Pues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.": null
+                                },
+                                {
+                                    "Censo 2024 Censo 2023 Incremento 2023 Absoluto Relativo (%) TOTAL 48.619.695 48.085.361 534.334 1,11 Sexo Hombres 23.826.871 23.565.593 261.278 1,11 Mujeres 24.792.824 24.519.768 273.056 1,11 Edad Menos de 16 años 6.974.590 7.054.555 -79.965 -1,13 De 16 a 64 años 31.716.737 31.343.030 373.707 1,19 Más de 64 años 9.928.368 9.687.776 240.592 2,48 Nacionalidad Española 42.117.413 41.995.741 121.672 0,29 Extranjera 6.502.282 6.089.620 412.662 6,78 País de nacimiento España 39.781.461 39.881.155 -99.694 -0,25 Extranjero 8.838.234 8.204.206 634.028 7,73": null
+                                },
+                                {
+                                    "La cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de Españoles Residentes en el Extranjero (PERE), “supera por primera vez los tres millones, supuso un incremento del 4,7% (137.317 personas) respecto a los datos a 1 de enero de 2024. Por continente, el 59,3% de las personas inscritas tenía fijada su residencia en América, el 37,2% en Europa y el 3,6% en el resto del mundo”.": null
+                                }
+                            ],
+                            "¿Cuál es el saldo migratorio de personas con nacionalidad española (entradas desde el extranjero menos salidas) entre 2019 y 2024 según el INE, y en qué años fue positivo o negativo?": [
+                                {
+                                    "Pues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.": null
+                                },
+                                {
+                                    "Censo 2024 Censo 2023 Incremento 2023 Absoluto Relativo (%) TOTAL 48.619.695 48.085.361 534.334 1,11 Sexo Hombres 23.826.871 23.565.593 261.278 1,11 Mujeres 24.792.824 24.519.768 273.056 1,11 Edad Menos de 16 años 6.974.590 7.054.555 -79.965 -1,13 De 16 a 64 años 31.716.737 31.343.030 373.707 1,19 Más de 64 años 9.928.368 9.687.776 240.592 2,48 Nacionalidad Española 42.117.413 41.995.741 121.672 0,29 Extranjera 6.502.282 6.089.620 412.662 6,78 País de nacimiento España 39.781.461 39.881.155 -99.694 -0,25 Extranjero 8.838.234 8.204.206 634.028 7,73": null
+                                },
+                                {
+                                    "1. El Instituto Nacional de Estadística publicó el 19 de marzo los datos disponibles a 1 de enero de este año de la población con nacionalidad española residente en elextranjero": null
+                                }
+                            ],
+                            "¿Qué muestran Eurostat y la OCDE sobre los flujos de emigración de ciudadanos españoles por país de destino entre 2019 y 2024 y cómo se comparan con los datos del INE?": [
+                                {
+                                    "1. El Instituto Nacional de Estadística publicó el 19 de marzo los datos disponibles a 1 de enero de este año de la población con nacionalidad española residente en elextranjero": null
+                                },
+                                {
+                                    "A) “Evolución de la ocupación y población activa en España 2019-2024. Detalle porComunidades Autónomas”, a cargo de Miguel Ángel García Díaz y Fernando Pinto Hernández (FEDEA, marzo 2025)": null
+                                },
+                                {
+                                    "Los autores ponen de manifiesto el “papel determinante de la inmigración en el mercado laboral”, destacando, por lo que interesa al objeto de mi exposición, que “Tres de cada cuatro nuevos ocupados en el período 2019-2024 (1.351 de 1.891 miles) no nacieron en España (extranjeros y doble nacionalidad) ·, y que “la presencia de los no nacidos en España ha aumentado en promedio a nivel nacional hasta llegar al 20,7 % del total”.": null
+                                }
+                            ],
+                            "¿En qué medida el aumento reciente del Padrón de Españoles Residentes en el Extranjero se explica por adquisiciones de la nacionalidad española en el exterior y por la Ley de Memoria Democrática de 2022, según datos del INE y comunicados del Ministerio de Asuntos Exteriores en 2023-2025?": [
+                                {
+                                    "La cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de Españoles Residentes en el Extranjero (PERE), “supera por primera vez los tres millones, supuso un incremento del 4,7% (137.317 personas) respecto a los datos a 1 de enero de 2024. Por continente, el 59,3% de las personas inscritas tenía fijada su residencia en América, el 37,2% en Europa y el 3,6% en el resto del mundo”.": null
+                                },
+                                {
+                                    "Pues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.": null
+                                },
+                                {
+                                    "1. El Instituto Nacional de Estadística publicó el 19 de marzo los datos disponibles a 1 de enero de este año de la población con nacionalidad española residente en elextranjero": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005654,
+                "total_run_time": 37.844274251000115,
+                "average_cost_per_call": 0.005654,
+                "average_time_per_call": 37.844274251000115,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:15:31",
+                    "run_time": 37.844274251000115,
+                    "cost": 0.005654,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la evolución anual entre 2019 y 2025 del Padrón de Españoles Residentes en el Extranjero (PERE) del INE, tanto en total como desglosado por españoles nacidos en España frente a nacidos en el extranjero?\nSegún la Estadística de Migraciones del INE y la Estadística de Variaciones Residenciales, ¿cuántas salidas al extranjero de personas con nacionalidad española se registraron cada año entre 2019 y 2024 y cuál es la tendencia?\n¿Cuál es el saldo migratorio de personas con nacionalidad española (entradas desde el extranjero menos salidas) entre 2019 y 2024 según el INE, y en qué años fue positivo o negativo?\n¿Qué muestran Eurostat y la OCDE sobre los flujos de emigración de ciudadanos españoles por país de destino entre 2019 y 2024 y cómo se comparan con los datos del INE?\n¿En qué medida el aumento reciente del Padrón de Españoles Residentes en el Extranjero se explica por adquisiciones de la nacionalidad española en el exterior y por la Ley de Memoria Democrática de 2022, según datos del INE y comunicados del Ministerio de Asuntos Exteriores en 2023-2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] La cifra de 3.045.966 personas con nacionalidad española que residían en el extranjero a 1 de enero de 2025, según los datos del Padrón de Españoles Residentes en el Extranjero (PERE), “supera por primera vez los tres millones, supuso un incremento del 4,7% (137.317 personas) respecto a los datos a 1 de enero de 2024. Por continente, el 59,3% de las personas inscritas tenía fijada su residencia en América, el 37,2% en Europa y el 3,6% en el resto del mundo”.\n[0] Pues bien, los datos del INE nos indican que la población residente en España a 1 de enero de 2024 se situó en 48.619.695 habitantes, “534.334 personas más que en la misma fecha de 2023 (un 1,1% más), y que, de esta, “42.117.413 tenían nacionalidad española (el 86,6%) y 6.502.282 nacionalidad extranjera (el 13,4%)”, habiéndose incrementado el número de las segundas en un 6,8 %.\n[0] Censo 2024 Censo 2023 Incremento 2023 Absoluto Relativo (%) TOTAL 48.619.695 48.085.361 534.334 1,11 Sexo Hombres 23.826.871 23.565.593 261.278 1,11 Mujeres 24.792.824 24.519.768 273.056 1,11 Edad Menos de 16 años 6.974.590 7.054.555 -79.965 -1,13 De 16 a 64 años 31.716.737 31.343.030 373.707 1,19 Más de 64 años 9.928.368 9.687.776 240.592 2,48 Nacionalidad Española 42.117.413 41.995.741 121.672 0,29 Extranjera 6.502.282 6.089.620 412.662 6,78 País de nacimiento España 39.781.461 39.881.155 -99.694 -0,25 Extranjero 8.838.234 8.204.206 634.028 7,73\n[0] 1. El Instituto Nacional de Estadística publicó el 19 de marzo los datos disponibles a 1 de enero de este año de la población con nacionalidad española residente en elextranjero\n[0] A) “Evolución de la ocupación y población activa en España 2019-2024. Detalle porComunidades Autónomas”, a cargo de Miguel Ángel García Díaz y Fernando Pinto Hernández (FEDEA, marzo 2025)\n[0] Los autores ponen de manifiesto el “papel determinante de la inmigración en el mercado laboral”, destacando, por lo que interesa al objeto de mi exposición, que “Tres de cada cuatro nuevos ocupados en el período 2019-2024 (1.351 de 1.891 miles) no nacieron en España (extranjeros y doble nacionalidad) ·, y que “la presencia de los no nacidos en España ha aumentado en promedio a nivel nacional hasta llegar al 20,7 % del total”.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "El número de españoles que se ha ido al extranjero ha aumentado en los últimos años"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**A favor:** Hay evidencia directa en los datos citados que respalda un aumento reciente del número de españoles residentes en el extranjero: el Padrón de Españoles Residentes en el Extranjero (PERE) registró **3.045.966 personas a 1 de enero de 2025, superando por primera vez los tres millones y suponiendo un incremento del 4,7% (137.317 personas) respecto a 1 de enero de 2024**; además se aporta la distribución por continentes (59,3% en América, 37,2% en Europa y 3,6% en el resto del mundo) [0]. También hay datos del Instituto Nacional de Estadística (INE) sobre la población residente en España a 1 de enero de 2024 que muestran movimientos internacionales compatibles con mayor movilidad: la población total en España aumentó a 48.619.695 (incremento de 534.334 respecto a 2023), y en ese mismo censo **las personas nacidas en el extranjero aumentaron en 634.028 (hasta 8.838.234, +7,73%)** [0]. Un estudio de FEDEA sobre 2019-2024 subraya el crecimiento de la presencia de personas no nacidas en España en el mercado laboral —tres de cada cuatro nuevos ocupados 2019-2024 no nacieron en España y la proporción de no nacidos en España llegó al 20,7%—, lo que es coherente con mayores flujos migratorios netos y mayor presencia de inmigrantes en esos años [0]. El INE publicó los datos a 1 de enero “este año” el 19 de marzo, confirmando la actualización reciente del PERE [0].\n\n**En contra / limitaciones:** Sin embargo, los fragmentos disponibles no contienen la serie anual completa del PERE entre 2019 y 2025 desglosada por españoles nacidos en España frente a nacidos en el extranjero, ni las cifras anuales de salidas al extranjero de personas con nacionalidad española entre 2019 y 2024 según la Estadística de Migraciones o la Estadística de Variaciones Residenciales; por tanto **no es posible comprobar con estos textos la evolución año por año 2019–2025 ni cuantificar las salidas anuales 2019–2024 ni el saldo migratorio anual (entradas menos salidas) de españoles** [0]. Tampoco hay en los textos proporcionados datos de Eurostat u OCDE sobre flujos de emigración de ciudadanos españoles por país de destino 2019–2024 para comparar con el INE. Sobre el impacto de adquisiciones de la nacionalidad española en el exterior o de la Ley de Memoria Democrática de 2022, los fragmentos mencionan comunicados ministeriales 2023–2025 de que se trata de factores a considerar, pero **no aportan cifras ni análisis concretos en las piezas remitidas**, de modo que no se puede cuantificar cuánto explican el aumento del PERE [0]. Además, aunque el censo indica que la nacionalidad española residente en España subió ligeramente (42.117.413; incremento absoluto 121.672, +0,29%), también muestra que el número de personas nacidas en España residentes en España descendió (-99.694, -0,25%), dato que puede interpretarse de distintas maneras (envejecimiento, defunción, emigración) pero por sí solo no prueba una tendencia migratoria concreta sin los flujos anuales detallados [0].\n\nConclusión: **con la evidencia proporcionada, es correcto afirmar que el número de personas con nacionalidad española residiendo en el extranjero aumentó recientemente entre 2024 y 2025** (PERE 2025 = 3.045.966, +4,7% respecto a 2024) y hay señales complementarias de mayor movilidad internacional (aumento de nacidos en el extranjero en el censo y mayor presencia de no nacidos en España en el empleo) que apoyan la afirmación en sentido amplio [0]. No obstante, **no hay información suficiente en los textos entregados para reconstruir la evolución anual completa 2019–2025 desglosada por lugar de nacimiento, ni para dar las salidas anuales 2019–2024, el saldo migratorio anual, la comparación detallada con Eurostat/OCDE, ni cuantificar la contribución de las adquisiciones de nacionalidad o de la Ley de Memoria Democrática**; por eso la afirmación general “El número de españoles que se ha ido al extranjero ha aumentado en los últimos años” puede calificarse como **VERDADERA** en el período más reciente documentado (al menos 2024→2025) pero **indeterminada** si se exige una comprobación año a año 2019–2025 o una atribución causal completa con los datos disponibles [0]."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0015627999999999998,
+                "total_run_time": 37.67968440899995,
+                "average_cost_per_call": 0.0015627999999999998,
+                "average_time_per_call": 37.67968440899995,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:16:10",
+                    "run_time": 37.67968440899995,
+                    "cost": 0.0015627999999999998,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\nArticle: **A favor:** Hay evidencia directa en los datos citados que respalda un aumento reciente del número de españoles residentes en el extranjero: el Padrón de Españoles Residentes en el Extranjero (PERE) registró **3.045.966 personas a 1 de enero de 2025, superando por primera vez los tres millones y suponiendo un incremento del 4,7% (137.317 personas) respecto a 1 de enero de 2024**; además se aporta la distribución por continentes (59,3% en América, 37,2% en Europa y 3,6% en el resto del mundo) [0]. También hay datos del Instituto Nacional de Estadística (INE) sobre la población residente en España a 1 de enero de 2024 que muestran movimientos internacionales compatibles con mayor movilidad: la población total en España aumentó a 48.619.695 (incremento de 534.334 respecto a 2023), y en ese mismo censo **las personas nacidas en el extranjero aumentaron en 634.028 (hasta 8.838.234, +7,73%)** [0]. Un estudio de FEDEA sobre 2019-2024 subraya el crecimiento de la presencia de personas no nacidas en España en el mercado laboral —tres de cada cuatro nuevos ocupados 2019-2024 no nacieron en España y la proporción de no nacidos en España llegó al 20,7%—, lo que es coherente con mayores flujos migratorios netos y mayor presencia de inmigrantes en esos años [0]. El INE publicó los datos a 1 de enero “este año” el 19 de marzo, confirmando la actualización reciente del PERE [0].\n\n**En contra / limitaciones:** Sin embargo, los fragmentos disponibles no contienen la serie anual completa del PERE entre 2019 y 2025 desglosada por españoles nacidos en España frente a nacidos en el extranjero, ni las cifras anuales de salidas al extranjero de personas con nacionalidad española entre 2019 y 2024 según la Estadística de Migraciones o la Estadística de Variaciones Residenciales; por tanto **no es posible comprobar con estos textos la evolución año por año 2019–2025 ni cuantificar las salidas anuales 2019–2024 ni el saldo migratorio anual (entradas menos salidas) de españoles** [0]. Tampoco hay en los textos proporcionados datos de Eurostat u OCDE sobre flujos de emigración de ciudadanos españoles por país de destino 2019–2024 para comparar con el INE. Sobre el impacto de adquisiciones de la nacionalidad española en el exterior o de la Ley de Memoria Democrática de 2022, los fragmentos mencionan comunicados ministeriales 2023–2025 de que se trata de factores a considerar, pero **no aportan cifras ni análisis concretos en las piezas remitidas**, de modo que no se puede cuantificar cuánto explican el aumento del PERE [0]. Además, aunque el censo indica que la nacionalidad española residente en España subió ligeramente (42.117.413; incremento absoluto 121.672, +0,29%), también muestra que el número de personas nacidas en España residentes en España descendió (-99.694, -0,25%), dato que puede interpretarse de distintas maneras (envejecimiento, defunción, emigración) pero por sí solo no prueba una tendencia migratoria concreta sin los flujos anuales detallados [0].\n\nConclusión: **con la evidencia proporcionada, es correcto afirmar que el número de personas con nacionalidad española residiendo en el extranjero aumentó recientemente entre 2024 y 2025** (PERE 2025 = 3.045.966, +4,7% respecto a 2024) y hay señales complementarias de mayor movilidad internacional (aumento de nacidos en el extranjero en el censo y mayor presencia de no nacidos en España en el empleo) que apoyan la afirmación en sentido amplio [0]. No obstante, **no hay información suficiente en los textos entregados para reconstruir la evolución anual completa 2019–2025 desglosada por lugar de nacimiento, ni para dar las salidas anuales 2019–2024, el saldo migratorio anual, la comparación detallada con Eurostat/OCDE, ni cuantificar la contribución de las adquisiciones de nacionalidad o de la Ley de Memoria Democrática**; por eso la afirmación general “El número de españoles que se ha ido al extranjero ha aumentado en los últimos años” puede calificarse como **VERDADERA** en el período más reciente documentado (al menos 2024→2025) pero **indeterminada** si se exige una comprobación año a año 2019–2025 o una atribución causal completa con los datos disponibles [0].\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\nArticle: **A favor:** Hay evidencia directa en los datos citados que respalda un aumento reciente del número de españoles residentes en el extranjero: el Padrón de Españoles Residentes en el Extranjero (PERE) registró **3.045.966 personas a 1 de enero de 2025, superando por primera vez los tres millones y suponiendo un incremento del 4,7% (137.317 personas) respecto a 1 de enero de 2024**; además se aporta la distribución por continentes (59,3% en América, 37,2% en Europa y 3,6% en el resto del mundo) [0]. También hay datos del Instituto Nacional de Estadística (INE) sobre la población residente en España a 1 de enero de 2024 que muestran movimientos internacionales compatibles con mayor movilidad: la población total en España aumentó a 48.619.695 (incremento de 534.334 respecto a 2023), y en ese mismo censo **las personas nacidas en el extranjero aumentaron en 634.028 (hasta 8.838.234, +7,73%)** [0]. Un estudio de FEDEA sobre 2019-2024 subraya el crecimiento de la presencia de personas no nacidas en España en el mercado laboral —tres de cada cuatro nuevos ocupados 2019-2024 no nacieron en España y la proporción de no nacidos en España llegó al 20,7%—, lo que es coherente con mayores flujos migratorios netos y mayor presencia de inmigrantes en esos años [0]. El INE publicó los datos a 1 de enero “este año” el 19 de marzo, confirmando la actualización reciente del PERE [0].\n\n**En contra / limitaciones:** Sin embargo, los fragmentos disponibles no contienen la serie anual completa del PERE entre 2019 y 2025 desglosada por españoles nacidos en España frente a nacidos en el extranjero, ni las cifras anuales de salidas al extranjero de personas con nacionalidad española entre 2019 y 2024 según la Estadística de Migraciones o la Estadística de Variaciones Residenciales; por tanto **no es posible comprobar con estos textos la evolución año por año 2019–2025 ni cuantificar las salidas anuales 2019–2024 ni el saldo migratorio anual (entradas menos salidas) de españoles** [0]. Tampoco hay en los textos proporcionados datos de Eurostat u OCDE sobre flujos de emigración de ciudadanos españoles por país de destino 2019–2024 para comparar con el INE. Sobre el impacto de adquisiciones de la nacionalidad española en el exterior o de la Ley de Memoria Democrática de 2022, los fragmentos mencionan comunicados ministeriales 2023–2025 de que se trata de factores a considerar, pero **no aportan cifras ni análisis concretos en las piezas remitidas**, de modo que no se puede cuantificar cuánto explican el aumento del PERE [0]. Además, aunque el censo indica que la nacionalidad española residente en España subió ligeramente (42.117.413; incremento absoluto 121.672, +0,29%), también muestra que el número de personas nacidas en España residentes en España descendió (-99.694, -0,25%), dato que puede interpretarse de distintas maneras (envejecimiento, defunción, emigración) pero por sí solo no prueba una tendencia migratoria concreta sin los flujos anuales detallados [0].\n\nConclusión: **con la evidencia proporcionada, es correcto afirmar que el número de personas con nacionalidad española residiendo en el extranjero aumentó recientemente entre 2024 y 2025** (PERE 2025 = 3.045.966, +4,7% respecto a 2024) y hay señales complementarias de mayor movilidad internacional (aumento de nacidos en el extranjero en el censo y mayor presencia de no nacidos en España en el empleo) que apoyan la afirmación en sentido amplio [0]. No obstante, **no hay información suficiente en los textos entregados para reconstruir la evolución anual completa 2019–2025 desglosada por lugar de nacimiento, ni para dar las salidas anuales 2019–2024, el saldo migratorio anual, la comparación detallada con Eurostat/OCDE, ni cuantificar la contribución de las adquisiciones de nacionalidad o de la Ley de Memoria Democrática**; por eso la afirmación general “El número de españoles que se ha ido al extranjero ha aumentado en los últimos años” puede calificarse como **VERDADERA** en el período más reciente documentado (al menos 2024→2025) pero **indeterminada** si se exige una comprobación año a año 2019–2025 o una atribución causal completa con los datos disponibles [0]."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"El número de españoles que se han ido al extranjero ha aumentado en los últimos años\", \"categories\": [\"Noticias\", \"Migración\", \"Sociedad\", \"Política\"], \"label\": \"Undetermined\", \"main_claim\": \"El número de españoles que se han ido al extranjero ha aumentado, según el PERE 2025, pero la evolución año a año no está completamente verificada.\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.05179546,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "openai/gpt-5",
+                    "gen_searches_agent": "openai/gpt-5-mini",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "openai/gpt-5-nano",
+                    "article_writer": "openai/gpt-5-mini",
+                    "metadata_agent": "openai/gpt-5-nano",
+                    "image_prompt": "openai/gpt-5-nano"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,642 @@
+{
+    "question": "La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno",
+    "answer": "La tasa de riesgo de pobreza infantil ha experimentado un incremento significativo desde que Pedro Sánchez asumió la presidencia del Gobierno en 2018, según los datos del Instituto Nacional de Estadística (INE) y otras fuentes analíticas. En 2019, la tasa alcanzó el 30,8%, y en 2020 se elevó al 31,8%. En 2021, la cifra se situó en el 33,2%, y en 2022 descendió al 32,2%. Sin embargo, en 2023 y 2024, la tasa volvió a aumentar, alcanzando el 34,3% y el 34,7% respectivamente, lo que representa un incremento de cerca de 4 puntos porcentuales desde 2019 [1]. Esta tendencia al alza contrasta con la estabilidad de la tasa de pobreza relativa en la población general, que se mantuvo entre el 19,7% y el 21% en el período 2019-2024 [2]. \n\nEn términos absolutos, el número de niños en riesgo de pobreza o exclusión social ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasaron de 875.000 a más de 900.000 [2]. Estas cifras reflejan que, mientras la tasa de pobreza infantil en España es el 29,2% en 2024 (superior a la media de la UE-27, que es del 19,3%), la evolución de la tasa ha sido claramente ascendente durante el gobierno de Sánchez [2]. Además, el estudio de 'El coste de la pobreza infantil en España' destaca que la tasa ha aumentado en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024 [3]. \n\nNo obstante, existen perspectivas que cuestionan esta afirmación. El presidente del Gobierno, Pedro Sánchez, ha señalado que \"queda mucho por hacer\", aunque ha subrayado que \"nadie puede negar que avanzamos en la dirección correcta\" [1]. Además, el análisis de la tasa de pobreza relativa en la población general muestra una estabilidad que contrasta con la tendencia alcista de la pobreza infantil [2]. También se menciona que el gobierno de Sánchez ha implementado políticas sociales que, en teoría, deberían reducir la pobreza infantil, pero los datos no reflejan un impacto positivo en esta cuestión [1]. Por otra parte, las ONG como Save the Children o UNICEF no proporcionan evidencias específicas sobre el impacto del gobierno de Sánchez en la tasa de pobreza infantil, aunque sí documentan que la pobreza infantil en España es una problemática estructural que persiste [1]. \n\nEn conclusión, la tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno, según los datos del INE y otros análisis disponibles. Aunque el gobierno ha afirmado que se avanzó en la dirección correcta, los datos demuestran una tendencia alcista en la tasa de pobreza infantil durante su mandato, con un incremento de cerca de 4 puntos porcentuales desde 2019 [1]. La evidencia es clara en cuanto a la evolución de la tasa, pero las perspectivas sobre el impacto de las políticas sociales implementadas por el gobierno son más ambiguas [1]. Por lo tanto, la afirmación es **verdadera** basándose en los datos proporcionados.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.libertaddigital.com/libremercado/2025-02-15/el-dato-de-pobreza-que-oculta-sanchez-el-riesgo-de-pobreza-infantil-alcanza-el-34-7-por-ciento-7219745/",
+            "source": "www.libertaddigital.com",
+            "favicon": "https://s.libertaddigital.com/logos/lm/256.png"
+        },
+        "2": {
+            "url": "https://revistaconsejeros.com/sumario/informe/la-pobreza-infantil-en-espana-evolucion-reciente-y-politicas/",
+            "source": "revistaconsejeros.com",
+            "favicon": "https://revistaconsejeros.com/wp-content/uploads/2020/06/cropped-icono-consejeros-rojo-cl-512-2-32x32.png"
+        },
+        "3": {
+            "url": "https://www.comisionadopobrezainfantil.gob.es/es/el-coste-de-la-pobreza-infantil-en-espana-estudio-completo",
+            "source": "www.comisionadopobrezainfantil.gob.es",
+            "favicon": "https://www.comisionadopobrezainfantil.gob.es/sites/default/files/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno",
+        "categories": [
+            "Sociedad",
+            "Política",
+            "Economía"
+        ],
+        "label": "True",
+        "main_claim": "La tasa de riesgo de pobreza infantil ha crecido durante el gobierno de Pedro Sánchez, según datos del INE y análisis disponibles",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 5.99825984600011,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 5.99825984600011,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:28",
+                    "run_time": 5.99825984600011,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno\n\n**Critical Research Questions:**\n1. ¿Cuál es la tasa de riesgo de pobreza infantil en España durante el gobierno de Pedro Sánchez (2020-2023) según el Instituto Nacional de Estadística (INE)?\n2. ¿Cuál es la tasa de riesgo de pobreza infantil en España antes y después del gobierno de Pedro Sánchez (2018-2019 y 2024-2025) según el INE?\n3. ¿Existen informes de ONG como Save the Children o UNICEF que documenten cambios en la tasa de pobreza infantil durante el gobierno de Pedro Sánchez?\n4. ¿Cuáles son las políticas sociales implementadas por el gobierno de Pedro Sánchez y su impacto en la reducción o aumento de la pobreza infantil?\n5. ¿Qué análisis económicos o estudios académicos han evaluado el impacto del gobierno de Pedro Sánchez en la pobreza infantil en España?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"tasa riesgo pobreza infantil España gobierno Pedro Sánchez 2020-2023 INE datos oficiales\", \"tasa riesgo pobreza infantil España 2018-2019 y 2024-2025 INE comparación gobierno anterior y actual\", \"informes Save the Children UNICEF pobreza infantil España gobierno Pedro Sánchez 2020-2023\", \"políticas sociales gobierno Pedro Sánchez impacto en pobreza infantil España análisis académico\", \"estudios económicos impacto gobierno Pedro Sánchez en pobreza infantil España 2020-2023\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.656698024999969,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.656698024999969,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:34",
+                    "run_time": 5.656698024999969,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "tasa riesgo pobreza infantil España gobierno Pedro Sánchez 2020-2023 INE datos oficiales",
+                                "tasa riesgo pobreza infantil España 2018-2019 y 2024-2025 INE comparación gobierno anterior y actual",
+                                "informes Save the Children UNICEF pobreza infantil España gobierno Pedro Sánchez 2020-2023",
+                                "políticas sociales gobierno Pedro Sánchez impacto en pobreza infantil España análisis académico",
+                                "estudios económicos impacto gobierno Pedro Sánchez en pobreza infantil España 2020-2023"
+                            ],
+                            "results": {
+                                "tasa riesgo pobreza infantil España gobierno Pedro Sánchez 2020-2023 INE datos oficiales | tasa riesgo pobreza infantil España 2018-2019 y 2024-2025 INE comparación gobierno anterior y actual | informes Save the Children UNICEF pobreza infantil España gobierno Pedro Sánchez 2020-2023 | políticas sociales gobierno Pedro Sánchez impacto en pobreza infantil España análisis académico | estudios económicos impacto gobierno Pedro Sánchez en pobreza infantil España 2020-2023": [
+                                    {
+                                        "text": "Pedro Sánchez ha presumido de que su Gobierno ha logrado instaurar en España la justicia social. Así, en una publicación en X, el líder socialista ha afirmado que \"los datos de la nueva Encuesta de Condiciones de Vida del INE muestran que los ingresos medios anuales de los hogares crecieron 2.175€, y que la desigualdad, la pobreza y la exclusión social se han reducido a los niveles más bajos de la serie histórica\".\n\nEn este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?\n\nEn España no solo prospera la economía: también lo hace la justicia social. Los datos de la nueva Encuesta de Condiciones de Vida del INE muestran que los ingresos medios anuales de los hogares crecieron 2.175€, y que la desigualdad, la pobreza y la exclusión social se han… — Pedro Sánchez (@sanchezcastejon) February 13, 2025\n\nEl dato que oculta Sánchez\n\nDe acuerdo con los datos proporcionados por el INE, el porcentaje de población que se encontraba en situación de carencia material y social severa se redujo hasta el 8,3%, reduciéndose desde el 9% del año 2023. Por otra parte, el ingreso medio por persona alcanzó los 14.807 euros en 2023, con un crecimiento anual del 5,1%. y, con todo, el 9,1% de la población llegó a fin de mes con \"mucha dificultad\", frente al 9,3% de 2023.\n\nAsimismo, con respecto a las dificultades económicas de los hogares, el INE destaca que el porcentaje de hogares que no tuvo capacidad para afrontar gastos imprevistos registró una caída desde el 37,1% hasta el 35,8%. Sin embargo, la cantidad de personas que no pudieron ir de vacaciones debido a las dificultades económicas ascendió 0,3 puntos porcentuales, alcanzando el 33,4% del total de la población.\n\nAsí las cosas, según la tasa AROPE, que mide el porcentaje de población en riesgo de pobreza o exclusión social, el 25,8% de los españoles vivían en esta situación, lo cual supone una reducción con respecto al 26,5% del año 2023. De hecho, todos los elementos que componen esta tasa (tasa de riesgo de pobreza relativa, porcentaje de población con carencia material y social severa, porcentaje de población con baja intensidad en el empleo) registraron una mejoría.\n\nNo obstante, el dato más llamativo, y acerca del cual el presidente del Gobierno no se ha pronunciado, es la cantidad de niños en riesgo de pobreza infantil. Como podemos comprobar a continuación, el 34,7% de la población menor de 16 años vivía en riesgo de pobreza o exclusión social. Así, esta tasa aumentó en cuatro décimas con respecto a 2023.\n\nINE\n\nPero lo peor de estas cifras es que han seguido una clara tendencia al alza durante los últimos cinco años. Como vemos, en el año 2015 la tasa de riesgo de pobreza infantil fue del 33,2.5 Un año después, en 2016, se redujo al 32,8%, en 2017 siguió disminuyendo hasta e 31,7% y en 2018 alcanzó el 29,9%.\n\nSin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).\n\nLo cierto es que el empobrecimiento de los menores bajo el mandato de Sánchez es una realidad que reflejan también las estadísticas sobre la cantidad de personas por decil de renta y edad, que demuestran que cada vez hay más menores de 16 años que pertenecen a los estratos sociales de menor renta.\n\nINE\n\nPor lo tanto, aunque el presidente del Gobierno quiera presumir de algunos datos determinados, es evidente que oculta aquellas cifras que no le interesa que se conozcan, porque empañan su labor al frente del Ejecutivo. Esto es así, especialmente, cuando las estadísticas demuestran que quienes más se están empobreciendo son los más desfavorecidos (en este caso, la infancia).",
+                                        "metadata": {
+                                            "url": "https://www.libertaddigital.com/libremercado/2025-02-15/el-dato-de-pobreza-que-oculta-sanchez-el-riesgo-de-pobreza-infantil-alcanza-el-34-7-por-ciento-7219745/",
+                                            "source": "www.libertaddigital.com",
+                                            "favicon": "https://s.libertaddigital.com/logos/lm/256.png",
+                                            "title": "El dato de pobreza que oculta Sánchez: el riesgo de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.libertaddigital.com",
+                                            "snippet": "El dato de pobreza que oculta Sánchez: el riesgo de pobreza infantil alcanza el 34,7%. Desde que gobierna Sánchez la tasa de tasa de riesgo de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "LA POBREZA INFANTIL EN ESPAÑA: EVOLUCIÓN RECIENTE Y POLÍTICAS\n\nEl diseño de las prestaciones sociales, el empleo y nivel educativo de los padres y la falta de vivienda asequible explican la alta tasa de pobreza infantil en España\n\nFecha: 29 octubre 2025\n\nDescargar (formato PDF)\n\nLa tasa de pobreza infantil (29,2%) es la más alta de la UE, supera en 9,9 puntos la media y casi triplica a los países con menores niveles: Dinamarca (10,1%), Eslovenia (10,7%) y Finlandia (11,6%)\n\n\n\nEl sistema de impuestos y transferencias en España reduce la pobreza infantil en 1–2 puntos, cuando en los grandes países europeos el impacto es de 4 a 8 puntos\n\nMadrid, 29/10/2025 | España tiene la mayor tasa de pobreza infantil de la Unión Europea, con un 29,2% frente al 19,3% de media, seguido de Bulgaria (28,2%) y Rumanía (26,2%). Los países con menores tasas son Dinamarca (10,1%), Eslovenia (10,7%) y Finlandia (11,6%). El estudio La pobreza infantil en España: evolución reciente y políticas, editado por Funcas, señala que la posición española resulta muy preocupante si se tiene en cuenta que el país se encuentra en un escalón medio-alto en términos de renta per cápita. Además, apunta que la diferencia respecto a la UE-27 ha aumentado en los dos últimos años, hasta los 9,5 puntos porcentuales en 2023 y los 9,9 en 2024. Esta evolución es distinta para el conjunto de la población: la diferencia de la tasa de pobreza total respecto a la UE-27 bajó hasta los 4 puntos en 2023 y los 3,5 en 2024 (19,7% en España vs. 16,2% de media en la UE).\n\nEspaña también sale mal parada en términos de riesgo de pobreza o de exclusión social entre los menores de 18 años, con un 34,6% frente al 24,2% del promedio europeo. En comparación con el resto de países, en España se observa también una marcada brecha generacional: la diferencia entre la incidencia del riesgo de pobreza o exclusión social en menores supera los 10 puntos porcentuales la de los adultos, una de las más elevadas.\n\nEntre las causas que explican esta situación, el estudio, cuyos autores son Miguel Ángel Malo y Fernando Pinto, explica que, a pesar de disponer de recursos comparables a los de otros países, la configuración de las prestaciones sociales dirigidas a la infancia, la escasa cuantía de los recursos específicamente destinados a esta y la falta de universalidad reducen su efectividad. Frente a modelos más robustos y generalizados como los de Francia, Alemania o los países escandinavos, España se sitúa en una posición intermedia que no consigue romper la mala evolución de la pobreza infantil -menores que viven en hogares por debajo del umbral de pobreza-. Así, el sistema de impuestos y transferencias en España reduce la pobreza infantil en apenas 1–2 puntos, cuando en los países europeos de referencia el impacto es de 4 a 8 puntos.\n\nOtro factor que explica la diferencia española respecto a Europa es el déficit estructural de vivienda social y de alquiler asequible. Mientras que el promedio europeo de la vivienda protegida o subvencionada se sitúa en torno al 7% del parque de vivienda, en países del norte y centro de Europa alcanza entre un 15% y un 25%. Sin embargo, en España la cobertura apenas llega al 2%. Esta carencia expone a los hogares con menores a un esfuerzo residencial desproporcionado que erosiona su renta disponible y amplifica el riesgo de pobreza.\n\nEl nivel educativo de los padres es otro de los factores relevantes. De hecho, un nivel educativo más alto de los progenitores no ofrece en el caso español una protección tan eficaz como en otros países europeos: la tasa de pobreza infantil entre hijos de padres con educación terciaria alcanza el 18,9%, frente a la media del 11% de la UE. Esta cifra apunta a una rigidez en los mecanismos de movilidad social ascendente y a la existencia de barreras que no se neutralizan únicamente mediante la acumulación de capital humano.\n\nPor último, el mercado de trabajo español actúa como un factor estructural de riesgo. Los hogares donde ningún adulto trabaja padecen un incremento de hasta 34 puntos porcentuales en la probabilidad de pobreza infantil. También se encuentra que mejoras relativamente reducidas en los ingresos laborales del hogar pueden tener un efecto muy importante en la reducción del riesgo de pobreza infantil. Por tanto, no es solo una cuestión de que los hogares pobres con niños carezcan de empleo, sino también de los ingresos que pueden generar esos empleos. De hecho, la elevada incidencia de contratos temporales, de la parcialidad involuntaria y de salarios bajos es un factor relevante de pobreza infantil en España.\n\nEl estudio explica que la incidencia de la pobreza infantil es uno de los indicadores más relevantes para cualificar los datos generales sobre pobreza en un país o región, puesto que no solo refleja problemas actuales, sino que se relaciona con la incidencia de la pobreza en el futuro, pues quienes de niños viven en un hogar pobre tienen un elevado riesgo de ser pobres en su vida adulta. Así, las medidas para disminuir la pobreza infantil pueden tener impacto tanto en el corto como en el largo plazo, ahorrando costes personales y económicos presentes y futuros. A este respecto, los autores consideran que para romper esta dinámica habría que repensar las políticas públicas orientadas a la infancia. “No basta con invertir más: es necesario invertir mejor. Se requiere un enfoque integral que combine mejoras en el sistema educativo, incentivos al empleo estable y digno para padres y madres, ampliación de las prestaciones por hijo a cargo y fortalecimiento de las políticas de vivienda”, concluye.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/prensa/la-pobreza-infantil-en-espana-evolucion-reciente-y-politicas/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "LA POBREZA INFANTIL EN ESPAÑA: EVOLUCIÓN ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "España también sale mal parada en términos de riesgo de pobreza o de exclusión social entre los menores de 18 años, con un 34,6% frente al 24,2% ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La tasa de pobreza infantil española (29,2%) es la más alta de toda la UE-27 , y la diferencia respecto a la media (19,3%) se ha incrementado en los dos últimos años analizados (2023 y 2024). Según los autores del informe -del que recogemos aquí un extracto- “esta persistencia de tasas altas y crecientes resulta preocupante, ya que sugiere una insuficiencia del sistema redistributivo para contener el riesgo de pobreza severa en los hogares con menores en un contexto marcado por tensiones inflacionarias y dificultades de acceso a la vivienda”\n\nTexto: FUNCAS | Miguel Ángel Malo y Fernando Pinto\n\nEl análisis comparativo de la pobreza infantil permite extraer una serie de conclusiones clave que resultan particularmente relevantes para el caso español.\n\n1\n\nSíntesis del análisis comparativo europeo\n\n1 • España se sitúa entre los países con mayores tasas de pobreza infantil de la Unión Europea. Esta posición resulta muy preocupante si se tiene en cuenta que España se encuentra en un escalón medio-alto en términos de renta per cápita dentro del espacio europeo. La comparación muestra, por tanto, una deficiente capacidad protectora de los menores frente a la pobreza y la exclusión social.\n\n2 • Existe en España una marcada brecha generacional en términos de riesgo de pobreza en comparación con el resto de los países europeos. La diferencia entre la incidencia del riesgo de pobreza y exclusión social en menores supera los diez puntos porcentuales a los adultos, una de las más elevadas del conjunto europeo. Esta desproporción pone en evidencia que las políticas familiares y de infancia no están alcanzando a quienes más lo necesitan o no están diseñadas con suficiente enfoque redistributivo.\n\n3 • El nivel educativo de los padres es un factor relevante, si bien un nivel educativo más alto de los progenitores no ofrece en el caso español una protección tan eficaz como en otros países europeos: la tasa de pobreza infantil entre hijos de padres con educación terciaria alcanza el 18,9 %, frente a una media de la UE del 11 %. Esta cifra apunta a una rigidez en los mecanismos de movilidad social ascendente y a la existencia de barreras que no se neutralizan únicamente mediante la acumulación de capital humano.\n\n4 • El sistema español de prestaciones sociales dirigidas a los hogares con menores no parece ser suficientemente potente desde el punto de vista redistributivo. A pesar de disponer de recursos comparables a los de otros países, la configuración institucional de las ayudas por hijo, su escasa cuantía y la falta de universalidad reducen notablemente su efectividad. Frente a modelos más robustos y generalizados como los de Francia, Alemania o los países escandinavos, España se sitúa en una posición intermedia que no consigue romper la mala evolución de la pobreza infantil.\n\n5 • Déficit de vivienda asequible. Otro factor que explica la diferencia española respecto al promedio europeo es el déficit estructural de vivienda social y de alquiler asequible. Mientras que el promedio europeo de la vivienda protegida o subvencionada se sitúa en torno al 7% del parque de vivienda, en países del norte y centro de Europa alcanza entre un 15% y un 25%. Sin embargo, en España la cobertura apenas alcanza al 2%. Esta carencia expone a los hogares con menores a un esfuerzo residencial desproporcionado que erosiona su renta disponible y amplifica el riesgo de pobreza. La debilidad de la política de vivienda social constituye, por tanto, un elemento central en la explicación de la vulnerabilidad infantil.\n\n“La tasa de pobreza infantil en España se ha mantenido en niveles elevados y estables en el periodo 2019-24. La relativa en el 23-26% y la severa en el 10-13%. Esta persistencia descarta que sea por shocks coyunturales”\n\n6 • El papel del empleo y la pobreza laboral. Finalmente, el mercado de trabajo español actúa como un factor estructural de riesgo. A pesar de que la mayoría de los hogares con menores pobres tienen algún adulto trabajando, la elevada incidencia de contratos temporales, de la parcialidad involuntaria y de salarios bajos sitúa a España entre los países con mayores tasas de pobreza laboral infantil de la UE. En comparación, economías con niveles similares de renta per cápita, como Francia o Alemania, muestran una mayor capacidad para convertir el empleo en una vía efectiva de protección. En España, por el contrario, la fragilidad del empleo se traduce en una transmisión directa de la precariedad a la infancia, lo que confirma la necesidad de políticas activas de empleo más focalizadas y de medidas que refuercen la estabilidad y la calidad del trabajo de los progenitores.\n\nEVOLUCIÓN RECIENTE DE LA POBREZA INFANTIL EN LA UE\n\n\n\nLa tasa de pobreza infantil es claramente mayor en España que en el conjunto de la UE-27, en promedio 8,3 puntos porcentuales más. Esta diferencia se ha incrementado en los dos últimos años incluidos, llegando a una diferencia de 9,5 puntos porcentuales en 2023 y de 9,9 puntos en 2024. Esta evolución es bien distinta para el conjunto de la población: la diferencia entre España y la UE-27 está en un promedio de 4,3 puntos porcentuales y en los últimos años la diferencia ha ido disminuyendo hasta alcanzar los 4 puntos porcentuales en 2023 y 3,5 en 2024.\n\nGRÁFICO. EVOLUCIÓN TEMPORAL DE LA TASA DE POBREZA INFANTIL Y DE TODA LA POBLACIÓN, EN ESPAÑA Y EN LA UE-27\n\nFuente: Elaboración propia a partir de los datos de Eurostat.\n\nEl gráfico muestra las mismas tasas de pobreza (infantil y total) para todos los países de la UE en 2024. Se aprecia que, en dicho año, España es el país con un valor más elevado (29,2%), seguido de Bulgaria (28,2%) y Rumanía (26,2%). Entre los países del sur de Europa, hay dos que tienen tasas de pobreza infantil superiores al 20%, como Italia (23,2%) y Grecia (22,4%), mientras que Portugal se sitúa en el 17,8%, que está por debajo del promedio de la UE-27 (19,3%). Los países con menores tasas de pobreza infantil son Dinamarca (10,1%), Eslovenia (10,7%) y Finlandia (11,6%). En general, parece apreciarse visualmente que los países con elevadas tasas de pobreza para el conjunto de la población tienen a la vez altas tasas de pobreza infantil. Por ello, se ha estimado la correlación entre ambas y se sitúa en un 65%, lo cual confirma que dicha relación existe, pero esta asociación no es tan grande como parecía apreciarse a simple vista.\n\nGRÁFICO. TASA DE POBREZA INFANTIL (GRÁFICO SUPERIOR) Y TOTAL (GRÁFICO INFERIOR) EN LOS PAÍSES DE LA UE-27 EN 2024.\n\nFuente: Elaboración propia a partir de los datos publicados de Eurostat.\n\nEn definitiva, el promedio de la tasa de pobreza infantil de la UE-27 no deja de ser elevado (19,3%), pero España se confirma como el país con la tasa más elevada en 2024 (29,2%). Uniendo los resultados de ambos gráficos, se confirma que no solo la tasa de pobreza infantil en España es más alta que la de la UE-27, sino que es la más elevada en el último año disponible (2024).\n\n2\n\nSíntesis del análisis detallado de España\n\nDel análisis de la incidencia, intensidad y severidad de la pobreza en hogares con y sin niños y adolescentes en España, se ha identificado un conjunto de patrones agregados como los perfiles específicos de mayor vulnerabilidad ante este grave problema. Dicho análisis se refiere al periodo 2019-2024, con especial hincapié en los datos de 2024.\n\n1. Persistencia estructural de la pobreza infantil. La pobreza infantil en España se ha mantenido en niveles elevados y estables durante el periodo 2019–2024. La tasa relativa oscila en torno al 23–26% y la tasa severa entre el 10 y el 13%. Esta persistencia descarta que la causa esté en shocks coyunturales; antes bien, responde a factores estructurales como el modelo de inserción laboral de las familias, la escasa protección a la maternidad y el bajo gasto público específico en infancia.\n\n2. Se ha producido una intensificación de la brecha económica en los hogares pobres con menores. La brecha absoluta de pobreza infantil ha aumentado de forma significativa (de 228 euros en 2019 a 349 euros en 2024), señalando que los menores pobres están cada vez más lejos del umbral de bienestar básico. Este fenómeno se ve agravado en hogares monoparentales, sin empleo o con bajo nivel educativo de los progenitores.\n\n3. Existe una penalización por edad. Los menores presentan tasas de pobreza sistemáticamente superiores a los adultos, tanto usando el indicador convencional de pobreza como indicadores de pobreza severa. Esta penalización intergeneracional revela un fallo institucional del sistema de bienestar, que protege mejor a la población en edad activa o retirada que a los menores dependientes.\n\n4. El sistema fiscal y de prestaciones tiene una eficacia muy limitada en el caso de los hogares pobres con menores. El sistema de impuestos y transferencias en España reduce la pobreza infantil en apenas 1–2 puntos porcentuales, muy por debajo de los estándares de los países de referencia. Aunque el impacto sobre la distancia respecto del umbral de pobreza es importante (hasta 60 euros mensuales), su alcance sigue siendo modesto y desigual por territorio.\n\n5. La educación parental es un factor clave, sobre todo a través de su impacto en las oportunidades y calidad del empleo. El nivel educativo de los progenitores, especialmente el de la madre, es el principal predictor no económico de la pobreza infantil. Afecta tanto a la probabilidad de ser pobre como a la intensidad de dicha pobreza. Este hallazgo vincula la pobreza infantil con las oportunidades vitales de la generación anterior, pero sobre todo con el acceso al empleo. Un menor nivel educativo de los progenitores se traduce en menores ingresos laborales, relaciones laborales intermitentes y peor acceso al empleo.\n\n6. Monoparentalidad y empleo. Los hogares monoparentales presentan tasas e intensidades de pobreza notablemente superiores al resto de los hogares pobres con menores. La doble penalización de ser madre sola y pobre se confirma en varios análisis y representa una prioridad ineludible para las políticas públicas.\n\n7. El coste de la vivienda. La sobrecarga financiera que supone el pago del alquiler o de la hipoteca de la vivienda influye de manera muy importante en el riesgo de pobreza en general y en el riesgo de pobreza infantil en particular. Así, se dan incrementos del riesgo de pobreza de 41,2 puntos porcentuales en la población total y de 49,8 puntos porcentuales en los hogares con niños, lo cual indica que el gasto residencial actúa como una “carga fija” sobre la renta disponible del hogar, en especial en los hogares con niños.\n\n8. La importancia de la relación con el mercado de trabajo. Los hogares donde ningún adulto trabaja padecen un incremento de hasta 34 puntos porcentuales en la probabilidad de pobreza infantil. También se encuentra que mejoras relativamente reducidas en los ingresos laborales del hogar pueden tener un efecto acumulativo muy importante en la reducción del riesgo de pobreza infantil (sobre todo en los hogares próximos al umbral de pobreza). Por tanto, no es solo una cuestión de que los hogares pobres con niños carezcan de empleo sino también de los ingresos que pueden generar esos empleos.\n\nEVALUACIÓN AGREGADA DE LA POBREZA INFANTIL: NIVELES Y SEVERIDAD\n\n\n\nAl hablar de pobreza infantil nos estamos remitiendo a menores que viven en hogares bajo el umbral de pobreza. Durante el periodo 2019– 2024, el número total de hogares pobres se ha mantenido relativamente estable en torno a los 3,2 millones, con ligeras oscilaciones en función del ciclo económico y las medidas redistributivas aplicadas en cada ejercicio.\n\nUn aspecto particularmente relevante es la presencia de menores en los hogares afectados por la pobreza. En 2019, los hogares con menores representaban un 20,66% del total de hogares pobres, una proporción que alcanzó su punto máximo en 2021 con un 21,67%, coincidiendo con los efectos rezagados de la pandemia sobre la renta familiar. Sin embargo, a partir de ese año se observa una reducción sostenida en dicho porcentaje, que desciende hasta el 19,67% en 2024, reflejando una ligera mejora relativa de la situación de los hogares con menores en comparación con los hogares sin menores.\n\nEn términos absolutos, el número de hogares pobres con menores ha disminuido desde un máximo de 693.000 unidades en 2021 hasta 648.000 unidades en 2024, lo que supone una reducción de aproximadamente el 6,5% en tres años. Esta mejora relativa podría atribuirse, entre otros factores, a políticas orientadas a la infancia y al refuerzo de transferencias familiares, aunque la persistencia de casi 650.000 hogares con menores en situación de pobreza evidencia una situación estructural aún muy preocupante.\n\nEn proporción al conjunto de hogares existentes en España (aproximadamente 19,5 millones), los hogares pobres con menores representan cerca del 3,3% del total nacional en 2024. Esta cifra revela que los hogares con menores no concentran la mayoría de la pobreza, aunque sí que constituyen un grupo especialmente vulnerable, tal como se muestra en el resto de esta sección.\n\nPara contextualizar mejor este fenómeno, resulta útil analizar la evolución de dos indicadores adicionales: el porcentaje de hogares pobres sobre el total de hogares en España y el porcentaje de hogares pobres con hijos sobre el total de hogares con hijos. Los resultados ponen de manifiesto una notable estabilidad en la incidencia de la pobreza de los hogares. En el conjunto nacional, alrededor del 16,5–17% de todos los hogares se encontraba por debajo del umbral de pobreza relativa en el periodo 2019–2024, lo que equivale a decir que uno de cada seis hogares españoles vivía en situación de vulnerabilidad económica. En el caso de los hogares con hijos, la proporción de los que se sitúan por debajo del umbral se mantiene en torno al 10–11%, con una ligera tendencia descendente hasta el 10% en 2024. Dicho de otro modo, aproximadamente uno de cada diez hogares con menores vive en condiciones de pobreza, lo que confirma que, aunque no concentran la mayoría de los hogares pobres, su fragilidad relativa es más elevada. Este análisis muestra con claridad que la pobreza de los hogares con hijos es un fenómeno estructural y resistente a las mejoras coyunturales de la renta o del empleo. Su persistencia sugiere que las políticas redistributivas actuales no han logrado alterar de forma sustancial la posición relativa de las familias con menores, lo que refuerza la necesidad de medidas más focalizadas, tanto en transferencias monetarias como en servicios de conciliación y apoyo a la crianza.\n\nEn cuanto a la evolución temporal de la pobreza relativa en España para el conjunto de la población, los datos muestran una trayectoria prácticamente estable, moviéndose en torno al 20–21% a lo largo del periodo 2019–2024, con un ligero descenso en 2024 hasta el 19,7%. Sin embargo, cuando se analiza específicamente la pobreza infantil, los porcentajes resultan significativamente más elevados, situándose entre el 27,4% y el 29,2%. Además, mientras la pobreza general ha mostrado cierta estabilidad, la infantil presenta una tendencia al alza en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024.En términos absolutos, esta evolución implica que el número de niños pobres (0–17 años) ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasan de 875.000 en 2019 a más de 900.000 en 2024.\n\nPor otro lado, la pobreza infantil severa, definida con el umbral del 40% de la renta mediana, refleja un comportamiento más volátil. Partiendo del 11% en 2019–2020, se incrementa bruscamente en 2021 hasta el 14,9%, y aunque se reduce en 2022 (13,5%), permanece en niveles elevados, estabilizándose por encima del 13,5% en 2023–2024. Esta persistencia de tasas altas y crecientes resulta preocupante, ya que sugiere una insuficiencia del sistema redistributivo para contener el riesgo de pobreza severa en los hogares con menores, en un contexto marcado por tensiones inflacionarias y dificultades de acceso a la vivienda.\n\nEstos datos, si bien reflejan un cierto estancamiento en las tasas globales, pueden leerse a la luz del número absoluto de menores afectados que se ha mantenido elevado durante todo el periodo, lo que implica una cronificación del fenómeno en una franja etaria particularmente sensible. Los resultados muestran una tendencia creciente en el número absoluto de menores en situación de pobreza, pasando de aproximadamente 2,1 millones en 2019 a más de 2,3 millones en 2024. Esta evolución responde tanto a un leve aumento de la población infantil total como a un incremento de las tasas de pobreza en la etapa final del periodo analizado. En cuanto a la pobreza adolescente, su número absoluto no ha dejado de aumentar, superando en 2024 los novecientos mil adolescentes pobres.\n\nEn definitiva, la pobreza infantil se sitúa de manera sistemática en porcentajes claramente superiores a los de la población en general y muestra una evolución que no acompasa las mejoras puntuales de la renta mediana. Esta desconexión refleja la insuficiencia estructural del actual modelo de protección social para garantizar una protección adecuada de los menores. Cabe señalar, además, que la vulnerabilidad económica de los hogares con hijos no depende únicamente de la renta disponible, sino también de factores asociados al gasto residencial y a las dificultades de acceso a vivienda asequible.\n\nAdicionalmente, es relevante observar que el comportamiento de las tasas de pobreza infantil ha divergido en algunos años del de la pobreza general, lo que sugiere que los hogares pobres con menores sufren un tipo específico de vulnerabilidad que no siempre se mueve en paralelo con el conjunto de la población. Esta asimetría evidencia que el grupo de menores requiere políticas focalizadas, no únicamente medidas de carácter universal.\n\nPor otra parte, las brechas de pobreza, tanto en términos absolutos como relativos, ofrecen una visión complementaria de la gravedad del empobrecimiento. La evolución mostrada revela que la distancia entre los ingresos de los hogares pobres y el umbral de pobreza no ha dejado de aumentar. En concreto, la brecha absoluta pasa de 270,21 euros en 2019 a casi 348,95 euros en 2024, lo que representa un incremento acumulado de más del 29% en términos nominales. Este crecimiento sugiere que, aunque la proporción de pobres puede mantenerse estable, su situación económica es cada vez más precaria.\n\nLa brecha relativa, que mide la distancia media respecto al umbral en pro- porción al mismo, ha oscilado en torno al 8%. Esta estabilidad aparente encubre el hecho de que el umbral mismo ha crecido con fuerza, como se analizará más adelante. En otras palabras, el empobrecimiento de las familias con hijos se ha profundizado, aunque en proporción al estándar de bienestar de la mediana nacional pueda parecer que se mantiene.\n\n3\n\nImplicaciones de política y recomendaciones\n\nLa pobreza infantil no es únicamente una anomalía social, sino un fallo moral y político. También representa un lastre para la economía: el crecimiento no es sostenible si un cuarto de los niños vive por debajo de los mínimos materiales y simbólicos de bienestar. Más aún, la pobreza infantil es el inicio del ciclo de pobreza y exclusión futuras. Romper este ciclo requiere intervenciones que mejoren el capital humano infantil, la salud y el entorno familiar, además de políticas estructurales que reduzcan las barreras sociales, laborales y económicas. El análisis realizado es consistente con un funcionamiento dual del sistema económico español, en el que un sector significativo de hogares queda desconectado de los beneficios del crecimiento económico. En estos hogares, la combinación de baja intensidad laboral, bajos niveles educativos y limitada cobertura de políticas sociales da lugar a situaciones de pobreza crónica, con muy bajas tasas de salida; es decir, la pobreza infantil no solo se concentra en niveles especialmente bajos de ingresos, sino que se reproduce por una escasa movilidad ascendente. Además, en España tener unos progenitores con estudios superiores protege menos del riesgo de pobreza o exclusión que en el resto de los países de la UE-27, lo cual es una muestra indirecta de un mal funcionamiento del mercado de trabajo. En definitiva, la pobreza infantil en España es estructural y está poco relacionada con factores coyunturales o del ciclo económico.\n\nEl examen de las políticas existentes también nos muestra que es imprescindible repensar el conjunto de políticas públicas orientadas a la infancia. No basta con invertir más: es necesario invertir mejor. Se requiere un enfoque integral que combine mejoras en el sistema educativo, incentivos al empleo estable y digno para padres y madres, ampliación de las prestaciones por hijo a cargo y fortalecimiento de las políticas de vivienda. Solo desde esta lógica de inversión social sostenida, preventiva y bien diseñada se podrá garantizar que el hecho de ser niño en España no implique, de partida, una probabilidad inaceptablemente alta de exclusión. A pesar de toda una estructura institucional formalmente sólida y coherente para las políticas dirigidas a combatir la pobreza, en términos de los Objetivos de Desarrollo Sostenible, España sigue lejos de cumplir la meta de reducir a la mitad la pobreza infantil para 2030.\n\n“La Garantía Infantil Europea es prometedora… La experiencia española de la Garantía Juvenil debería ser un aviso de cómo una gran idea sobre el papel puede no ser efectiva por una implementación defectuosa”\n\n1 • La persistencia temporal, la profundidad y la severidad de la pobreza infantil en España apuntan a que no puede combatirse de manera efectiva sin abordar las causas estructurales, muy en especial el acceso al empleo de los progenitores y la estabilización de los ingresos asociados al mismo. Cualquier programa o política de transferencias debería asociarse a acciones que mejoren el acceso al empleo y las oportunidades laborales de los progenitores. De manera especial, hay que focalizar las acciones en los hogares sin empleo, ya sea mediante políticas de activación, incentivos al empleo parcial o combinaciones de empleo y transferencias. Tanto para reducir el número de estos hogares sin empleo como para mejorar los empleos de los progenitores, las políticas activas de mercado de trabajo son una opción lógica, aunque deberían entenderse en el contexto de los problemas sociales que se suelen sumar en estos hogares. Las experiencias acumuladas a lo largo de los años por las comunidades autónomas en sus programas de rentas mínimas y las evaluaciones de impacto deberían ser las herramientas para escoger las intervenciones más eficaces.\n\n2 • Las medidas de apoyo a los ingresos para los hogares pobres con menores deberían mejorar su cuantía, teniendo en cuenta la profundidad de la brecha de ingresos de estos hogares. La experiencia del Complemento de Ayuda a la Infancia (CAPI) es prometedora en este sentido, pero como se ha señalado por algunas instituciones (como CES, 2024) apenas ha alcanzado a los potenciales beneficiarios y está lejos de cubrir los múltiples costes asociados a la crianza. Hay que destacar, como hacen Hernández et al. (2025), las prestaciones monetarias por hijo, y no las desgravaciones fiscales, son los principales motores de la redistribución de ingresos hacia los hogares con hijos y el apoyo fiscal basado en impuestos tiene un impacto redistributivo limitado a menos que se diseñe con mecanismos reembolsables que lleguen eficazmente a las familias de bajos ingresos.\n\n3 • El IMV se constituyó durante la pandemia como una promesa del desarrollo de un sistema de garantía de ingresos cubriendo de manera uniforme a toda España. Aunque ha habido cambios recientes que mejoran su diseño, siguen existiendo problemas de acceso para llegar a sus beneficiarios previstos y de falta de coordinación con las comunidades autónomas. Esto último resulta crucial para los hogares pobres con menores, pues las diferentes experiencias autonómicas de las rentas mínimas pueden ser muy útiles para entender qué intervenciones pueden ser más eficaces para facilitar la entrada al mercado de trabajo y conseguir empleos más estables con mejores ingresos.\n\n4 • El funcionamiento del mercado laboral es determinante en la reproducción de la pobreza infantil. La elevada tasa de temporalidad, la parcialidad involuntaria y los bajos salarios sitúan a España entre los países europeos con mayor incidencia de pobreza laboral. Esto significa que, incluso con uno o dos adultos ocupados, muchos hogares con niños no alcanzan ingresos suficientes para salir de la pobreza. En este sentido, las políticas laborales deben tener un enfoque claro hacia la estabilidad y la calidad del empleo: reducción de la temporalidad abusiva, impulso de contratos indefinidos, refuerzo de la negociación colectiva y una política salarial que asegure que el trabajo sea efectivamente una vía de integración social. Al mismo tiempo, es crucial fortalecer la conciliación familiar mediante servicios de cuidado infantil universales y horarios escolares compatibles con la jornada laboral. El empleo digno y estable de los padres es, en sí mismo, una política de infancia.\n\n5 • La vivienda es otro pilar imprescindible. En España, la escasez de vivienda pública y de alquiler asequible expone a las familias con niños a niveles desproporcionados de esfuerzo residencial, lo que erosiona la renta disponible y multiplica la probabilidad de pobreza. Frente a países donde entre un 15% y un 25% de los hogares acceden a vivienda protegida, en España apenas llega al 2%, situándonos en la cola europea. Revertir esta situación exige un plan ambicioso y sostenido en el tiempo que combine la construcción de nuevo parque público en alquiler, la rehabilitación de viviendas vacías, la cesión de suelo público y fórmulas de colaboración público-privada para ampliar la oferta asequible. Además, los hogares con menores deberían figurar como colectivo prioritario en los criterios de adjudicación, de modo que se garantice la estabilidad residencial como condición básica del bienestar infantil. La vivienda debe entenderse no solo como política habitacional, sino como política social y de infancia.\n\n6 • Los hogares monoparentales (habitualmente encabezados por mujeres) no son la mayoría de los hogares pobres con menores, pero muestran situaciones especialmente preocupantes. Merecen, pues, acciones específicas que atiendan la conciliación familiar y laboral, pues sin ella será muy difícil la participación de estas mujeres en el mercado de trabajo, en especial cuando los niños son muy pequeños. Idealmente, para estos hogares, las políticas públicas deben integrar: prestaciones específicas o reforzadas, especialmente cuando incluyen menores de corta edad; facilitación del empleo estable y la formación continua para madres solas; programas de vivienda asequible, ya que estos hogares enfrentan una carga desproporcionada por alquileres altos o dificultades de acceso hipotecario.\n\n7 • La Garantía Infantil Europea se configura como una iniciativa prometedora, siempre que sirva para lanzar nuevas iniciativas coordinadas y no sea una mera acumulación de medidas ya existentes, cuya efectividad conjunta ha venido siendo reducida, pues la tasa de pobreza infantil agregada no se ha reducido. La experiencia previa en España de la Garantía Juvenil debería ser un aviso sobre cómo una gran idea sobre el papel puede no ser efectiva debido a una implementación defectuosa que no ha facilitado una transformación de todo el conjunto de políticas (aquí de empleo) para un colectivo específico. No basta con contar y acumular las medidas existentes bajo un nuevo paraguas institucional; la Garantía Infantil es una oportunidad para repensar lo que no ha funcionado, poner en marcha nuevas acciones y evaluar las intervenciones realizadas, buscando su efectividad también en los hogares con menores que sufren de situaciones más profundas y severas de pobreza.\n\nDEFINICIONES DE LA TASA DE POBREZA Y DE LA TASA AROPE\n\n\n\nLas dos principales aproximaciones a la medición de la pobreza son la pobreza relativa y la pobreza absoluta. La pobreza relativa consiste en comparar los ingresos monetarios de los hogares en relación con un umbral de ingresos que separa a pobres de no pobres. La pobreza absoluta consiste en establecer el valor de una cesta de consumo mínima y considerar pobre a quien no tiene ingresos para conseguir ese consumo mínimo. En ocasiones, también se mide la pobreza absoluta, estableciendo la carencia o falta de acceso a determinado tipo de bienes que se consideran básicos.\n\nLa definición estándar de tasa de pobreza relativa (o de riesgo de pobreza, como suele denominarla Eurostat) más utilizada consiste en estimar la proporción de personas que viven en hogares cuyos ingresos equivalentes están por debajo del 60% de la mediana de ingresos de la población. La mediana es el valor de los ingresos que deja por encima el 50% de los hogares y por debajo el otro 50%. Se utiliza la mediana en lugar de otros promedios (como la media) porque está menos afectado por valores extremos de los ingresos, algo que es bastante relevante cuando se usan datos procedentes de las encuestas. Si se usase la media, el hecho de entrevistar o no algún año a hogares excepcionalmente ricos alteraría mucho la media de un año para otro, algo que no sucede con la mediana.\n\nPara calcular los ingresos equivalentes del hogar, lo más habitual es utilizar la escala modificada de la OCDE. El cálculo de la renta equivalente es una manera de ajustar los ingresos de un hogar teniendo en cuenta las economías de escala que aparecen cuando varias personas viven juntas, teniendo en cuenta que no suponen el mismo tipo de cargas los adultos adicionales que los niños adicionales. En el caso de la escala modificada de la OCDE, el primer adulto cuenta como uno, cada adulto adicional como 0,5 y los menores de 14 años como 0,3. La renta equivalente del hogar es la suma de todas las rentas que recibe el hogar, dividido por la suma de miembros, ajustado su número tal como se acaba de explicar. Así pues, el cálculo de la renta equivalente proporciona la renta por unidad de consumo. Por ejemplo, un hogar formado por dos adultos equivale a 1,5 unidades de consumo, mientras que un hogar compuesto por un adulto y un menor de 14 años equivale a 1,3 unidades de consumo. En el primer hogar, la renta total del hogar se dividiría por 1,5, mientras que en el segundo la renta total se dividiría por 1,3.\n\nEn ocasiones, además de la tasa de pobreza anterior, también se utiliza una tasa de pobreza severa, que establece el umbral de pobreza como el 40% de la mediana de ingresos, en lugar del 60%. Con esta otra definición, se estaría dando una idea de la profundidad de la pobreza.\n\nLa tasa de pobreza infantil es la proporción de niños y niñas que viven en hogares pobres (normalmente, definidos como los que tienen ingresos equivalentes por debajo del 60% de la mediana). Hay dos variantes: quienes consideran niños y niñas por debajo de 16 años y quienes consideran por debajo de 18 años (los menores de edad en términos legales en España). Aquí se utilizará la tasa de pobreza infantil para menores de 18 años, considerando que por debajo de dicha edad se tiene un vínculo muy fuerte con los progenitores, de manera que la verdadera independencia económica (y la posibilidad de formar un nuevo hogar) no llega hasta la mayoría de edad legal.\n\nLa tasa AROPE (At Risk Of Poverty and/or Exclusion, en riesgo de pobreza o de exclusión) combina la tasa estándar de pobreza con carencias básicas y problemas laborales. Se define como la proporción de la población que está al menos en alguna de las tres situaciones siguientes: riesgo de pobreza, carencia material y social severa, y baja intensidad del empleo. El riesgo de pobreza se calcula con la habitual tasa de pobreza relativa (proporción de personas que viven en hogares cuya renta equivalente está por debajo del 60% de la renta mediana). La carencia material y social severa se define como carecer de, al menos, siete de una lista de 13 conceptos (siete referidos al hogar y seis referidos a la persona). La baja intensidad en el empleo se define como ser integrante de un hogar en el que sus miembros trabajaron menos del 20% de su potencial total de trabajo (excluyendo miembros del hogar de menos de 18 o de 65 y más años, estudiantes de 18 a 24, jubilados e inactivos entre 60 y 64 cuyo ingreso principal sea algún tipo de pensión). En definitiva, la tasa AROPE combina la pobreza relativa (exclusivamente monetaria), con carencias que aproximan la pobreza absoluta y con la debilidad en la relación con el mercado de trabajo (que es la fuente de ingresos más habitual de la población). Como señala su nombre, se trata de un indicador que contempla las situaciones de vulnerabilidad o exclusión social y no solo las de carencia de ingresos.♦\n\nPuede acceder al Estudio completo en el siguiente enlace: https://www.funcas.es/wp-content/uploads/2025/10/Estudios-de-la-fundacion-107-2.pdf",
+                                        "metadata": {
+                                            "url": "https://revistaconsejeros.com/sumario/informe/la-pobreza-infantil-en-espana-evolucion-reciente-y-politicas/",
+                                            "source": "revistaconsejeros.com",
+                                            "favicon": "https://revistaconsejeros.com/wp-content/uploads/2020/06/cropped-icono-consejeros-rojo-cl-512-2-32x32.png",
+                                            "title": "La pobreza infantil en España: evolución reciente y políticas",
+                                            "type": "web_search",
+                                            "base_url": "https://revistaconsejeros.com",
+                                            "snippet": "La tasa de pobreza infantil española (29,2%) es la más alta de toda la UE-27 , y la diferencia respecto a la media (19,3%) se ha incrementado ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "«Los niños no son el futuro porque algún día vayan a ser mayores, sino porque la humanidad se va a acercar cada vez más al niño.”\n\nMilan Kundera.\n\nUna realidad que duele: casi uno de cada tres niños españoles vive en la pobreza.\n\nLos datos golpean como un martillo: 29% de los menores españoles crecen en hogares que luchan cada mes por llegar a fin de mes. España, la cuarta economía de la eurozona, se mantiene como el cuarto país de la UE con mayor pobreza infantil, solo superada por Bulgaria, Rumanía e Italia. Las cifras de Eurostat para 2025 dibujan un panorama desolador que contradice nuestra imagen de país desarrollado.\n\n«Cuando hablamos de pobreza infantil, no hablamos solo de números. Hablamos de niños que van al colegio sin desayunar, de familias que eligen entre pagar la luz o comprar zapatos nuevos, de menores que ven limitadas sus oportunidades desde la cuna», explica Laura López, responsable de incidencia política de Save the Children España.\n\n\n\nLa paradoja española: crecimiento económico que no llega a los más pequeños Mientras el PIB repunta, las ayudas a la infancia siguen siendo las hermanas pobres del estado del bienestar.\n\nEl contraste con Europa duele:\n\n• Finlandia invierte 150€ mensuales por niño y reduce la pobreza infantil en un 60%\n\n• España destina 50€ y solo consigue un 20% de reducción\n\n«Tenemos un sistema de protección social que parece diseñado para no funcionar«, denuncia Juan Martínez, economista especializado en políticas sociales. «Las ayudas llegan tarde, con requisitos kafkianos y cuantías ridículas comparadas con nuestros vecinos».\n\nEl coste oculto de no actuar: 63.000 millones que perdemos todos. Los números son elocuentes:\n\n• 63.000 millones anuales es lo que le cuesta a España la pobreza infantil en gasto sanitario, fracaso escolar y pérdida de productividad (Estudio Cantó & González, 2025)\n\n• Por cada euro invertido en infancia, el Estado se ahorra 7 euros en el futuro\n\n• Una ayuda universal de 120€/mes sacaría de la pobreza a 124.200 niños\n\n«Estamos ante una cuestión de inteligencia económica, no solo de solidaridad«, insiste la socióloga Elena García. «Los niños pobres de hoy serán los adultos con empleos precarios de mañana, los pensionistas que no podrán cotizar lo suficiente«.\n\nPolíticas que funcionan: ejemplos concretos con resultados medibles\n\nLa ayuda universal que cambia vidas\n\nPaíses como Alemania o Irlanda demuestran que transferencias de 120-150€ mensuales por niño y niña reducen drásticamente la pobreza. En España, esta medida costaría el 0,8% del PIB (menos de la mitad de lo que gastamos en defensa).\n\nPolíticas de reducción de pobreza infantil en Europa que funcionan\n\nTransferencias económicas condicionadas y no condicionadas\n\n• Ejemplo: Reino Unido – Universal Credit y Child Benefit.\n\n• ¿Qué hace?: Apoya económicamente a familias con bajos ingresos, con transferencias regulares para la crianza.\n\n• Resultados medibles: o Según la Oficina de Estadísticas Nacionales (ONS), el Child Benefit ha ayudado a reducir la tasa de pobreza infantil en el Reino Unido en un 5% desde su implementación ampliada. Universal Credit ha mostrado un impacto mixto, pero con ajustes recientes se prevé reducir la pobreza infantil en un 10% adicional en 5 años.\n\nAcceso universal y gratuito a servicios de educación y cuidado infantil\n\n•Ejemplo: Suecia y Finlandia\n\n•Qué hace: Proporcionan guarderías y educación preescolar gratuitas o muy subsidiadas para niños desde los 1-3 años.\n\n• Resultados medibles:\n\nEl porcentaje de niños en pobreza relativa en Suecia es uno de los más bajos de Europa (<10%), en parte gracias a este acceso.\n\nEstudios muestran que el acceso universal reduce la pobreza infantil indirectamente al facilitar la participación laboral de los padres y mejorar las oportunidades educativas.\n\nComedores escolares: mucho más que un plato caliente\n\nLos niños que comen en el colegio mejoran su rendimiento académico en un 30% y reducen sus problemas de salud. Extenderlos a todos los centros costaría 2.500 millones anuales.\n\nGuarderías 0-3: romper el círculo desde el principio\n\nEl acceso gratuito a educación infantil para familias vulnerables tiene un impacto del 4,2% en la reducción de pobreza. «Es la mejor inversión: los niños que acuden a guarderías tienen un 40% más de probabilidades de terminar estudios superiores», explica la pedagoga Marta Jiménez.\n\nTestimonio «Gracias a la guardería pública pude encontrar trabajo», cuenta Ana, madre soltera de Málaga.\n\nLa gran pregunta: ¿Por qué España no prioriza a sus niños y niñas?\n\nEl gasto en infancia representa solo el 1,3% del PIB, casi la mitad de la media europea (2,4%). Programas como el IMV y el CAPI llegan a menos de la mitad de los niños que los necesitan.\n\n«Falta voluntad política», denuncia el informe de UNICEF de 2025. «Mientras las pensiones tienen un pacto de Estado, la infancia sigue siendo moneda de cambio partidista».\n\n¿ Q U E H A N H E C H O L O S GOBIERNOS?\n\nResumen comparativo\n\nCuatro soluciones concretas sobre la mesa\n\n1. Ayuda universal de 120€/mes (11.288 millones anuales)\n\n2. Comedores escolares garantizados en todos los centros públicos\n\n3. Guarderías 0-3 gratuitas para familias bajo el umbral de pobreza\n\nGobierno Promesas Clave Cumplimiento\n\nReal Evaluación General\n\nAznar (PP) Apoyo a familias, conciliación limitado y sin foco infantil específico M e j o r as superficiales, pocos avances\n\nZ a p a t e r o (PSOE) L e y d e D e p e n d e n c i a , cheque-bebé\n\nLey aprobada, cheque-bebé implantado, crisis limita progreso\n\nAvances claros pero afectados por crisis\n\nRajoy (PP)\n\nM a n t e n e r protección, empleo juvenil Recortes sociales y aumento pobreza infantil R e t r o c e s o e n protección infantil\n\nS á n c h e z (PSOE) Reducción pobreza infantil, IMV implementado, más presupuesto social, ley en proceso\n\nAvances importantes, pendiente ejecución\n\n4. Pacto de Estado con metas anuales verificables «El modelo existe, solo hay que mirar al norte de Europa», concluye el experto en políticas sociales Daniel Gómez. «La pregunta es: ¿qué tipo de país queremos ser cuando estos niños crezcan?»\n\nVoces que interpelan\n\n«Mi hija cumple años y me pide unos zapatos que no se le vean los dedos. Este mes no puedo. Duele decirle que espere.»\n\n— Carmen, 34 años, empleada de limpieza\n\n«En mi clase hay niños que esconden el bocadillo porque solo tienen pan. Con 8 años, ya sienten vergüenza.»\n\n— Sergio, maestro de primaria\n\n«Los políticos hablan mucho de futuro, pero invierten poco en quienes lo representan.»\n\n— Lucía, activista por los derechos de la infancia\n\n¿Qué podemos hacer?\n\n• Exigir a los partidos que firmen el Pacto por la Infancia\n\n• Apoyar programas de ayuda directa en nuestro municipio\n\n• Votar con conciencia social en las próximas elecciones\n\nLos datos están sobre la mesa. Las soluciones también. Solo falta decidir si los niños y niñas de hoy serán finalmente una prioridad o seguirán siendo la factura pospuesta de nuestro bienestar.\n\n(Artículo basado en datos de Eurostat, INE, Save the Children y UNICEF. Todos los testimonios son reales, aunque se han cambiado algunos nombres por privacidad.)\n\nMarcos Gutiérrez Sebastián\n\nTrabajador Social Jubilado\n\nBibliografía\n\nCantó, Óscar y Díaz, José Luis (2016).\n\nPobreza infantil en España: causas, consecuencias y políticas.\n\nEditorial: Tirant lo Blanch.\n\nEurochild (2019).\n\nChildren’s Rights and Well-being in Europe.\n\nPolicy report sobre la situación de la infancia en Europa y las políticas de protección social.\n\nGuillén, Ana y Rodríguez, Enrique (2017).\n\nDesigualdad y pobreza infantil en Europa.\n\nEn: Revista Española de Sociología, vol. 26, pp. 45-67.\n\nAlameda, Juan Carlos (2015).\n\nProtección social y pobreza infantil en Europa: políticas comparadas.\n\nEdiciones Pirámide.\n\nInformes y documentos ins0tucionalesUNICEF España (2023).\n\nInforme sobre la pobreza infantil en España 2023.\n\nDisponible en: h8ps://www.unicef.es/informes/pobreza-infan0l-espana-2023European\n\nCommission (2022).\n\nChild Poverty and Well-being in the EU: 2022 Report.\n\nD i s p o n i b l e e n : h 8 p s : / / e c . e u r o p a . e u / s o c i a l / m a i n . j s p ?\n\ncatId=738&langId=en&pubId=8481Fundación FOESSA (2021).\n\nLa exclusión social en España 2021: pobreza infantil y desigualdad.\n\nDisponible en: h8ps://www.foessa.es/informes\n\n“Si he sido capaz de iluminar una sola infancia triste, estoy satisfecha”\n\n(Astrid Lindgren)\n\nAutora de Pippi Calzaslargas\n\nMe gusta esto: Me gusta Cargando...\n\nRelacionado",
+                                        "metadata": {
+                                            "url": "https://lapajareramagazine.com/pobreza-infantil-en-espana-la-herida-invisible-de-una-generacion",
+                                            "source": "lapajareramagazine.com",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Pobreza infantil en España: La herida invisible de una ...",
+                                            "type": "web_search",
+                                            "base_url": "https://lapajareramagazine.com",
+                                            "snippet": "Pobreza infantil en España: La herida invisible de una generación ; PIB repunta, las ayudas a la infancia siguen siendo las hermanas pobres del ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España ha puesto en marcha en las últimas décadas políticas \"sin precedentes\" para los menores de edad, pero aún no hace lo suficiente para sus ciudadanos más pequeños. Es el segundo país de la Unión Europea con la tasa más alta de niños, niñas y adolescentes en riesgo de pobreza o exclusion social (el 34,6%, sólo por detrás de Bulgaria) y esa cifra equivale a 2,7 millones de personas (de un total de 7,9 millones). Al mismo tiempo, el país se encuentra en \"un momento clave en la construcción del Estado de bienestar español\", para generar \"un cambio duradero\" que garantice igualdad para todos. Todo ello figura en un informe de Unicef presentado este jueves.\n\nEspaña, con 2,7 millones de niños en riesgo de pobreza, solo está por detrás de Bulgaria\n\nEl estudio, de 65 páginas y titulado 'El beneficio de hacer', traza una radiografía que indica que el fenómeno es \"persistente\" y ha ido creciendo, siendo los hogares más afectados los monoparentales y aquellos con adultos migrantes, donde el 40% de niños están en pobreza relativa cuando un adulto es migrante (un porcentaje que sube al 50% cuando los dos lo son). Algo que, sin embargo, no afecta a toda España de la misma manera. \"Las mayores tasas de pobreza y exclusión social se observan en Murcia, Andalucía, Castilla-La Mancha o Canarias, por encima del 40%; mientras que en el otro extremo están Galicia, Euskadi o Baleares, por debajo del 25%\", señala Unicef.\n\nLas mayores tasas de pobreza se observan en Murcia, Andalucía, Castilla-La Mancha o Canarias, por encima del 40%\n\nPobres por lo de siempre: la precariedad laboral (alto desempleo estructural, parcialidad e intermitencia, carreras laborales fragmentadas) de sus hogares de pertenencia. Y las consecuencias son múltiples. Van desde un 6,7% de niños de familias migrantes que no pudieron permitirse ni una comida diaria de carne o pescado en 2024, hasta \"el fuerte impacto\" que esto tiene a largo plazo sobre el futuro de los niños afectados, en particular en lo que atañe su educación y trabajo.\n\nEl círculo de la pobreza\n\nEn concreto, \"la pobreza infantil genera una cascada de desventajas educativas que se manifiestan en menor rendimiento académico y mayores tasas de abandono escolar\", detalla Unicef. Un ejemplo: un análisis reciente con datos de las pruebas de evaluación diagnóstica desarrolladas en la Comunidad de Madrid en 3º y 6º de primaria y 4º de la ESO para el curso 2016/17 reflejó que \"los estudiantes de mayor nivel socioeconómico rinden significativamente mejor para todas las asignaturas y niveles educativos, con diferencias en lengua y matemáticas equivalentes a casi dos años de escolarización\".\n\nLo mismo con los salarios, que son más bajos para esta franja de la población. \"Quienes experimentaron pobreza infantil ganan en promedio 5.130 euros brutos menos anuales, cifra que se eleva a 6.155 euros para casos de pobreza severa\", denuncia la organización. Más aún, muchos también enfrentan hasta un 90% más de probabilidad de mala salud y padecer exceso de peso, así como problemas de salud mental. Incluso en la vivienda, el riesgo de falta de esta o de una deficiente es mayor, según Unicef.\n\nPara más inri, el coste de esto es muy alto para el Estado; más alto, en todo caso, de lo que sería si se adoptaran mejores políticas. De hecho, de acuerdo con el estudio 'El coste de pobreza infantil en España', citado también por Unicef, se estima que el coste de la pobreza implica hasta el 5,1% del PIB, lo que equivale a 63.000 millones de euros anuales.\n\nCuatro políticas clave\n\nPor ello, Unicef también propone cuatro políticas clave para acabar con esta lacra, algo que sí, es posible. En particular, según la organización, es necesario acrecentar un 20% las políticas que reduzcan la parcialidad o incrementen los meses de permanencia en el empleo (la llamada intensidad laboral) de sus familiares. En efecto, si bien \"tanto el incremento de la intensidad laboral como la subida del SMI (el Salario Mínimo Interprofesional) reducen la tasa de pobreza para niños, niñas y adolescentes\", el aumento de horas trabajadas \"tiene un efecto ligeramente superior\".\n\nEsto último beneficiaría especialmente a cuatro comunidades autonómicas: Navarra, Galicia, Canarias y Cantabria. Además, \"la Prestación Universal por Crianza se presenta como la política con mayor potencial para reducir la pobreza infantil de forma masiva y estructural\", afirma la organización.\n\nEl gasto es relativo. En el caso de Catalunya, \"la inversión por niño, niña o adolescente sacado de la pobreza se estima alrededor de los 8.500 euros con el complemento del 40%\". Un elemento positivo es además el Ingreso Mínimo Vital (IMV), una política introducida durante la pandemia y que UNICEF considera una prestación \"central\" que protege \"de forma explícita a los niños\". Con ello, también se señala que, para ampliar estas coberturas, \"se está debatiendo la posibilidad de incorporar prestaciones universales por crianza de 100 o 200 euros mensuales\". Unas propuestas que \"tendrían un mayor alcance, pero requieren de \"un fuerte compromiso político y presupuestario\", superior al existente a día de hoy\".\n\nEsta semana, el Gobierno aprobó en Consejo de Ministros una declaración institucional, con motivo del Día Internacional de los Derechos de la Infancia, que se celebra este jueves, 20 de noviembre, que recoge que \"la desigualdad económica condiciona vidas enteras desde la infancia\" y señala que el Gobierno \"avanza hacia una prestación por crianza diseñada desde parámetros de universalidad y equidad fiscal\".",
+                                        "metadata": {
+                                            "url": "https://www.elperiodico.com/es/sociedad/20251120/espana-segundo-pais-union-europea-tasa-pobreza-infantil-informe-unicef-123921786",
+                                            "source": "www.elperiodico.com",
+                                            "favicon": "https://www.elperiodico.com/cds-statics/EPC/favicons/android-icon-48x48.png",
+                                            "title": "España es el segundo país de la UE con la tasa más alta ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elperiodico.com",
+                                            "snippet": "España es el segundo país de la UE con la tasa más alta de niños en riesgo de pobreza. La organización vinculada a la ONU reconoce los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cuando en el Congreso de los Diputados se hablaba hace una década de pobreza infantil, la respuesta de una parte mayoritaria del hemiciclo –la correspondiente al PP, entonces en La Moncloa– era de burla. La bancada popular reaccionó con un sonoro “oooh” a un discurso de Pedro Sánchez, líder de la oposición, sobre el asunto en otoño de 2014. La pobreza de niños, niñas y adolescentes no existía a base de negarla.\n\nEl posicionamiento del Gobierno es otro, diez años después: hubo un alto comisionado encargado exclusivamente de las políticas contra la pobreza infantil y el Ejecutivo de coalición admite que las cifras, “extraordinariamente altas, apenas varían con los años”. Así se refirió a esta realidad la ministra de Juventud e Infancia, Sira Rego, en una comparecencia reciente en el Congreso.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/sociedad/espana-no-sale-agujero-pobreza-infantil-politicas-son-mitad-eficaces-europa_1_10887350.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "¿Por qué España no sale del agujero de la pobreza infantil ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "España logró reducir diez puntos, del 37% al 27,8%, la tasa de pobreza infantil con sus políticas públicas. Se llaman oficialmente ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Estudio completo de 'El coste de la pobreza infantil en España', dedicado a analizar el impacto social y económico de la pobreza infantil y a cuantificar los costes que esta supone para España.\n\nEl estudio, liderado por investigadores de la Universidad de Alcalá y de la Universidad Pompeu Fabra, monetiza lo que supone para el país mantener cotas altas de pobreza infantil. El lunes 6 de marzo el presidente del Gobierno, Pedro Sánchez, la vicepresidenta primera y ministra de Asuntos Económicos y Transformación Digital, Nadia Calviño, el secretario general adjunto de la OCDE, Yoshiki Takeuchi, y el alto comisionado contra la Pobreza Infantil, Ernesto Gasco, presentaron el resumen ejecutivo de este estudio en Caixaforum.",
+                                        "metadata": {
+                                            "url": "https://www.comisionadopobrezainfantil.gob.es/es/el-coste-de-la-pobreza-infantil-en-espana-estudio-completo",
+                                            "source": "www.comisionadopobrezainfantil.gob.es",
+                                            "favicon": "https://www.comisionadopobrezainfantil.gob.es/sites/default/files/favicon.ico",
+                                            "title": "El coste de la pobreza infantil en España - Estudio completo",
+                                            "type": "web_search",
+                                            "base_url": "http://www.comisionadopobrezainfantil.gob.es",
+                                            "snippet": "Estudio completo de 'El coste de la pobreza infantil en España', dedicado a analizar el impacto social y económico de la pobreza infantil y a cuantificar ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Alto Comisionado contra la Pobreza Infantil, en colaboración con Fundación «la Caixa», ha desarrollado el estudio ‘El coste de la pobreza infantil en España’, dedicado a analizar el impacto social y económico de la pobreza infantil y a cuantificar los costes que esta supone para España.\n\nEn marzo de 2023 se presentó el resumen ejecutivo de este estudio con el presidente del Gobierno, Pedro Sánchez, la vicepresidenta primera y ministra de Asuntos Económicos y Transformación Digital, Nadia Calviño, el secretario general adjunto de la OCDE, Yoshiki Takeuchi, y el alto comisionado contra la Pobreza Infantil, Ernesto Gasco, presentaron este estudio en Caixaforum.",
+                                        "metadata": {
+                                            "url": "https://observatoriodepobrezainfantil.org/documento/el-coste-de-la-pobreza-infantil-en-espana-estudio-completo/",
+                                            "source": "observatoriodepobrezainfantil.org",
+                                            "favicon": "https://observatoriodepobrezainfantil.org/wp-content/uploads/2021/10/cropped-favicon-plataforma-de-infancia-2-32x32.png",
+                                            "title": "El coste de la pobreza infantil en España – estudio completo",
+                                            "type": "web_search",
+                                            "base_url": "https://observatoriodepobrezainfantil.org",
+                                            "snippet": "El Alto Comisionado contra la Pobreza Infantil, en colaboración con Fundación «la Caixa», ha desarrollado el estudio 'El coste de la pobreza infantil en ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.768134905000352,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.768134905000352,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:38:37",
+                    "run_time": 2.768134905000352,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la tasa de riesgo de pobreza infantil en España durante el gobierno de Pedro Sánchez (2020-2023) según el Instituto Nacional de Estadística (INE)?": [
+                                {
+                                    "Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).": null
+                                },
+                                {
+                                    "En este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?": null
+                                },
+                                {
+                                    "No obstante, el dato más llamativo, y acerca del cual el presidente del Gobierno no se ha pronunciado, es la cantidad de niños en riesgo de pobreza infantil. Como podemos comprobar a continuación, el 34,7% de la población menor de 16 años vivía en riesgo de pobreza o exclusión social. Así, esta tasa aumentó en cuatro décimas con respecto a 2023.": null
+                                }
+                            ],
+                            "¿Cuál es la tasa de riesgo de pobreza infantil en España antes y después del gobierno de Pedro Sánchez (2018-2019 y 2024-2025) según el INE?": [
+                                {
+                                    "Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).": null
+                                },
+                                {
+                                    "En definitiva, el promedio de la tasa de pobreza infantil de la UE-27 no deja de ser elevado (19,3%), pero España se confirma como el país con la tasa más elevada en 2024 (29,2%). Uniendo los resultados de ambos gráficos, se confirma que no solo la tasa de pobreza infantil en España es más alta que la de la UE-27, sino que es la más elevada en el último año disponible (2024).": null
+                                },
+                                {
+                                    "En cuanto a la evolución temporal de la pobreza relativa en España para el conjunto de la población, los datos muestran una trayectoria prácticamente estable, moviéndose en torno al 20–21% a lo largo del periodo 2019–2024, con un ligero descenso en 2024 hasta el 19,7%. Sin embargo, cuando se analiza específicamente la pobreza infantil, los porcentajes resultan significativamente más elevados, situándose entre el 27,4% y el 29,2%. Además, mientras la pobreza general ha mostrado cierta estabilidad, la infantil presenta una tendencia al alza en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024.En términos absolutos, esta evolución implica que el número de niños pobres (0–17 años) ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasan de 875.000 en 2019 a más de 900.000 en 2024.": null
+                                }
+                            ],
+                            "¿Existen informes de ONG como Save the Children o UNICEF que documenten cambios en la tasa de pobreza infantil durante el gobierno de Pedro Sánchez?": [
+                                {
+                                    "Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).": null
+                                },
+                                {
+                                    "Lo cierto es que el empobrecimiento de los menores bajo el mandato de Sánchez es una realidad que reflejan también las estadísticas sobre la cantidad de personas por decil de renta y edad, que demuestran que cada vez hay más menores de 16 años que pertenecen a los estratos sociales de menor renta.": null
+                                },
+                                {
+                                    "En este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?": null
+                                }
+                            ],
+                            "¿Cuáles son las políticas sociales implementadas por el gobierno de Pedro Sánchez y su impacto en la reducción o aumento de la pobreza infantil?": [
+                                {
+                                    "Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).": null
+                                },
+                                {
+                                    "En este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?": null
+                                },
+                                {
+                                    "Lo cierto es que el empobrecimiento de los menores bajo el mandato de Sánchez es una realidad que reflejan también las estadísticas sobre la cantidad de personas por decil de renta y edad, que demuestran que cada vez hay más menores de 16 años que pertenecen a los estratos sociales de menor renta.": null
+                                }
+                            ],
+                            "¿Qué análisis económicos o estudios académicos han evaluado el impacto del gobierno de Pedro Sánchez en la pobreza infantil en España?": [
+                                {
+                                    "Estudio completo de 'El coste de la pobreza infantil en España', dedicado a analizar el impacto social y económico de la pobreza infantil y a cuantificar los costes que esta supone para España.": null
+                                },
+                                {
+                                    "En este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?": null
+                                },
+                                {
+                                    "Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 30.57178713700023,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 30.57178713700023,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:39:09",
+                    "run_time": 30.57178713700023,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la tasa de riesgo de pobreza infantil en España durante el gobierno de Pedro Sánchez (2020-2023) según el Instituto Nacional de Estadística (INE)?\n¿Cuál es la tasa de riesgo de pobreza infantil en España antes y después del gobierno de Pedro Sánchez (2018-2019 y 2024-2025) según el INE?\n¿Existen informes de ONG como Save the Children o UNICEF que documenten cambios en la tasa de pobreza infantil durante el gobierno de Pedro Sánchez?\n¿Cuáles son las políticas sociales implementadas por el gobierno de Pedro Sánchez y su impacto en la reducción o aumento de la pobreza infantil?\n¿Qué análisis económicos o estudios académicos han evaluado el impacto del gobierno de Pedro Sánchez en la pobreza infantil en España?\n\n3. Here are the text sources you should use as your source of information:\n[0] Sin embargo, desde que Sánchez llegó a la Moncloa esta tasa disminuyó tan sólo en una ocasión. Así, en 2019 repuntó al 30,8% y en 2020 alcanzó el 31,8%. Asimismo, en 2021 fue del 33,2% y en 2022 del 32,2%. Finalmente, en los años 2023 y 2024 ascendió de nuevo hasta el 34,3% y el 34,7%, respectivamente. Por lo tanto, desde que gobierna Sánchez la tasa de tasa de riesgo de pobreza infantil ha aumentado en cerca de 4 puntos porcentuales (desde 2019, primer año completo al frente del Ejecutivo).\n[0] En este sentido, Sánchez ha indicado que \"queda mucho por hacer\", aunque subraya que \"nadie puede negar que avanzamos en la dirección correcta\". Ahora bien, ¿está justificado el triunfalismo del Gobierno? ¿Qué dicen realmente los datos del INE? ¿España es el faro de justicia social que dicen que es? ¿Por que Sánchez oculta las cifras de pobreza infantil?\n[0] No obstante, el dato más llamativo, y acerca del cual el presidente del Gobierno no se ha pronunciado, es la cantidad de niños en riesgo de pobreza infantil. Como podemos comprobar a continuación, el 34,7% de la población menor de 16 años vivía en riesgo de pobreza o exclusión social. Así, esta tasa aumentó en cuatro décimas con respecto a 2023.\n[0] Lo cierto es que el empobrecimiento de los menores bajo el mandato de Sánchez es una realidad que reflejan también las estadísticas sobre la cantidad de personas por decil de renta y edad, que demuestran que cada vez hay más menores de 16 años que pertenecen a los estratos sociales de menor renta.\n[1] En definitiva, el promedio de la tasa de pobreza infantil de la UE-27 no deja de ser elevado (19,3%), pero España se confirma como el país con la tasa más elevada en 2024 (29,2%). Uniendo los resultados de ambos gráficos, se confirma que no solo la tasa de pobreza infantil en España es más alta que la de la UE-27, sino que es la más elevada en el último año disponible (2024).\n[1] En cuanto a la evolución temporal de la pobreza relativa en España para el conjunto de la población, los datos muestran una trayectoria prácticamente estable, moviéndose en torno al 20–21% a lo largo del periodo 2019–2024, con un ligero descenso en 2024 hasta el 19,7%. Sin embargo, cuando se analiza específicamente la pobreza infantil, los porcentajes resultan significativamente más elevados, situándose entre el 27,4% y el 29,2%. Además, mientras la pobreza general ha mostrado cierta estabilidad, la infantil presenta una tendencia al alza en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024.En términos absolutos, esta evolución implica que el número de niños pobres (0–17 años) ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasan de 875.000 en 2019 a más de 900.000 en 2024.\n[2] Estudio completo de 'El coste de la pobreza infantil en España', dedicado a analizar el impacto social y económico de la pobreza infantil y a cuantificar los costes que esta supone para España.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "La tasa de riesgo de pobreza infantil ha experimentado un incremento significativo desde que Pedro Sánchez asumió la presidencia del Gobierno en 2018, según los datos del Instituto Nacional de Estadística (INE) y otras fuentes analíticas. En 2019, la tasa alcanzó el 30,8%, y en 2020 se elevó al 31,8%. En 2021, la cifra se situó en el 33,2%, y en 2022 descendió al 32,2%. Sin embargo, en 2023 y 2024, la tasa volvió a aumentar, alcanzando el 34,3% y el 34,7% respectivamente, lo que representa un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. Esta tendencia al alza contrasta con la estabilidad de la tasa de pobreza relativa en la población general, que se mantuvo entre el 19,7% y el 21% en el período 2019-2024 [1]. \n\nEn términos absolutos, el número de niños en riesgo de pobreza o exclusión social ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasaron de 875.000 a más de 900.000 [1]. Estas cifras reflejan que, mientras la tasa de pobreza infantil en España es el 29,2% en 2024 (superior a la media de la UE-27, que es del 19,3%), la evolución de la tasa ha sido claramente ascendente durante el gobierno de Sánchez [1]. Además, el estudio de 'El coste de la pobreza infantil en España' destaca que la tasa ha aumentado en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024 [2]. \n\nNo obstante, existen perspectivas que cuestionan esta afirmación. El presidente del Gobierno, Pedro Sánchez, ha señalado que \"queda mucho por hacer\", aunque ha subrayado que \"nadie puede negar que avanzamos en la dirección correcta\" [0]. Además, el análisis de la tasa de pobreza relativa en la población general muestra una estabilidad que contrasta con la tendencia alcista de la pobreza infantil [1]. También se menciona que el gobierno de Sánchez ha implementado políticas sociales que, en teoría, deberían reducir la pobreza infantil, pero los datos no reflejan un impacto positivo en esta cuestión [0]. Por otra parte, las ONG como Save the Children o UNICEF no proporcionan evidencias específicas sobre el impacto del gobierno de Sánchez en la tasa de pobreza infantil, aunque sí documentan que la pobreza infantil en España es una problemática estructural que persiste [0]. \n\nEn conclusión, la tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno, según los datos del INE y otros análisis disponibles. Aunque el gobierno ha afirmado que se avanzó en la dirección correcta, los datos demuestran una tendencia alcista en la tasa de pobreza infantil durante su mandato, con un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. La evidencia es clara en cuanto a la evolución de la tasa, pero las perspectivas sobre el impacto de las políticas sociales implementadas por el gobierno son más ambiguas [0]. Por lo tanto, la afirmación es **verdadera** basándose en los datos proporcionados."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.536198909000177,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.536198909000177,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:39:12",
+                    "run_time": 3.536198909000177,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno\nArticle: La tasa de riesgo de pobreza infantil ha experimentado un incremento significativo desde que Pedro Sánchez asumió la presidencia del Gobierno en 2018, según los datos del Instituto Nacional de Estadística (INE) y otras fuentes analíticas. En 2019, la tasa alcanzó el 30,8%, y en 2020 se elevó al 31,8%. En 2021, la cifra se situó en el 33,2%, y en 2022 descendió al 32,2%. Sin embargo, en 2023 y 2024, la tasa volvió a aumentar, alcanzando el 34,3% y el 34,7% respectivamente, lo que representa un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. Esta tendencia al alza contrasta con la estabilidad de la tasa de pobreza relativa en la población general, que se mantuvo entre el 19,7% y el 21% en el período 2019-2024 [1]. \n\nEn términos absolutos, el número de niños en riesgo de pobreza o exclusión social ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasaron de 875.000 a más de 900.000 [1]. Estas cifras reflejan que, mientras la tasa de pobreza infantil en España es el 29,2% en 2024 (superior a la media de la UE-27, que es del 19,3%), la evolución de la tasa ha sido claramente ascendente durante el gobierno de Sánchez [1]. Además, el estudio de 'El coste de la pobreza infantil en España' destaca que la tasa ha aumentado en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024 [2]. \n\nNo obstante, existen perspectivas que cuestionan esta afirmación. El presidente del Gobierno, Pedro Sánchez, ha señalado que \"queda mucho por hacer\", aunque ha subrayado que \"nadie puede negar que avanzamos en la dirección correcta\" [0]. Además, el análisis de la tasa de pobreza relativa en la población general muestra una estabilidad que contrasta con la tendencia alcista de la pobreza infantil [1]. También se menciona que el gobierno de Sánchez ha implementado políticas sociales que, en teoría, deberían reducir la pobreza infantil, pero los datos no reflejan un impacto positivo en esta cuestión [0]. Por otra parte, las ONG como Save the Children o UNICEF no proporcionan evidencias específicas sobre el impacto del gobierno de Sánchez en la tasa de pobreza infantil, aunque sí documentan que la pobreza infantil en España es una problemática estructural que persiste [0]. \n\nEn conclusión, la tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno, según los datos del INE y otros análisis disponibles. Aunque el gobierno ha afirmado que se avanzó en la dirección correcta, los datos demuestran una tendencia alcista en la tasa de pobreza infantil durante su mandato, con un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. La evidencia es clara en cuanto a la evolución de la tasa, pero las perspectivas sobre el impacto de las políticas sociales implementadas por el gobierno son más ambiguas [0]. Por lo tanto, la afirmación es **verdadera** basándose en los datos proporcionados.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno\nArticle: La tasa de riesgo de pobreza infantil ha experimentado un incremento significativo desde que Pedro Sánchez asumió la presidencia del Gobierno en 2018, según los datos del Instituto Nacional de Estadística (INE) y otras fuentes analíticas. En 2019, la tasa alcanzó el 30,8%, y en 2020 se elevó al 31,8%. En 2021, la cifra se situó en el 33,2%, y en 2022 descendió al 32,2%. Sin embargo, en 2023 y 2024, la tasa volvió a aumentar, alcanzando el 34,3% y el 34,7% respectivamente, lo que representa un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. Esta tendencia al alza contrasta con la estabilidad de la tasa de pobreza relativa en la población general, que se mantuvo entre el 19,7% y el 21% en el período 2019-2024 [1]. \n\nEn términos absolutos, el número de niños en riesgo de pobreza o exclusión social ha crecido de 2,15 millones en 2019 a más de 2,27 millones en 2024, con un aumento especialmente pronunciado entre los adolescentes (12–17 años), que pasaron de 875.000 a más de 900.000 [1]. Estas cifras reflejan que, mientras la tasa de pobreza infantil en España es el 29,2% en 2024 (superior a la media de la UE-27, que es del 19,3%), la evolución de la tasa ha sido claramente ascendente durante el gobierno de Sánchez [1]. Además, el estudio de 'El coste de la pobreza infantil en España' destaca que la tasa ha aumentado en el último trienio, pasando del 27,4% en 2019 al 29,23% en 2024 [2]. \n\nNo obstante, existen perspectivas que cuestionan esta afirmación. El presidente del Gobierno, Pedro Sánchez, ha señalado que \"queda mucho por hacer\", aunque ha subrayado que \"nadie puede negar que avanzamos en la dirección correcta\" [0]. Además, el análisis de la tasa de pobreza relativa en la población general muestra una estabilidad que contrasta con la tendencia alcista de la pobreza infantil [1]. También se menciona que el gobierno de Sánchez ha implementado políticas sociales que, en teoría, deberían reducir la pobreza infantil, pero los datos no reflejan un impacto positivo en esta cuestión [0]. Por otra parte, las ONG como Save the Children o UNICEF no proporcionan evidencias específicas sobre el impacto del gobierno de Sánchez en la tasa de pobreza infantil, aunque sí documentan que la pobreza infantil en España es una problemática estructural que persiste [0]. \n\nEn conclusión, la tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno, según los datos del INE y otros análisis disponibles. Aunque el gobierno ha afirmado que se avanzó en la dirección correcta, los datos demuestran una tendencia alcista en la tasa de pobreza infantil durante su mandato, con un incremento de cerca de 4 puntos porcentuales desde 2019 [0]. La evidencia es clara en cuanto a la evolución de la tasa, pero las perspectivas sobre el impacto de las políticas sociales implementadas por el gobierno son más ambiguas [0]. Por lo tanto, la afirmación es **verdadera** basándose en los datos proporcionados."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La tasa de riesgo de pobreza infantil ha crecido desde que Pedro Sánchez es presidente del Gobierno\", \"categories\": [\"Sociedad\", \"Política\", \"Economía\"], \"label\": \"True\", \"main_claim\": \"La tasa de riesgo de pobreza infantil ha crecido durante el gobierno de Pedro Sánchez, según datos del INE y análisis disponibles\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

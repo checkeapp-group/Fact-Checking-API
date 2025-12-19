@@ -1,0 +1,623 @@
+{
+    "question": "España ha aumentado su gasto en defensa en 2024",
+    "answer": "España ha incrementado su gasto en defensa en 2024, según datos oficiales del Ministerio de Defensa, que elevó el gasto militar al 1,29% del PIB, un aumento respecto a años anteriores aunque sigue por debajo del 2% comprometido inicialmente [1]. Este aumento se atribuye a la incorporación de partidas que antes no se consideraban gasto militar, como fondos Next Generation y ajustes presupuestarios de 2023 [2]. Adicionalmente, el Instituto Juan Sebastián Elcano registra un incremento del 107% en el gasto en armamento desde 2014 a 2024, pasando de 9.508 a 19.723 millones de euros [2]. La Alianza Atlántica también informa que España alcanzó el 30,3% de su gasto en equipos militares, cumpliendo el objetivo del 20% [3]. \n\nNo obstante, existen voces que cuestionan la exactitud de estos datos. Organizaciones como el Grup Antimilitarista Tortuga estiman que el gasto militar real en 2024 superó los 62.000 millones de euros, más del 5% del PIB, cifra que contrasta con la oficial del 1,29% [4]. El Centre Delas afirma que si se reconocieran todos los gastos militares reales, el gasto militar representaría ya cerca del 2% del PIB [2]. Estas cifras alternativas indican que el gasto en defensa se ha incrementado significativamente, pero la brecha entre lo declarado y lo estimado es considerable [4]. \n\n**Conclusión**: La afirmación de que España ha aumentado su gasto en defensa en 2024 es **verdadera** según los datos oficiales del Ministerio de Defensa y la Alianza Atlántica, que reflejan un incremento del 1,29% del PIB. Sin embargo, existen discrepancias significativas entre estos datos oficiales y las estimaciones de grupos especializados, que elevan el gasto real al 5% del PIB. La evidencia indica que el gasto en defensa ha aumentado, pero la magnitud exacta es objeto de debate entre las cifras oficiales y las alternativas.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.consejogestores.org/noticias/otan-pib-defensa/",
+            "source": "www.consejogestores.org",
+            "favicon": "https://www.consejogestores.org/wp-content/uploads/2020/08/favicon-consejo.png"
+        },
+        "2": {
+            "url": "https://www.elsaltodiario.com/gasto-militar/pedro-sanchez-anuncia-un-aumento-del-gasto-defensa-10000-millones-euros",
+            "source": "www.elsaltodiario.com",
+            "favicon": "https://www.elsaltodiario.com/uploads/avatars/h50/avatar_web.png?v=63919094557"
+        },
+        "3": {
+            "url": "https://www.swissinfo.ch/spa/espa%C3%B1a-fue-el-pa%C3%ADs-de-la-otan-que-menos-porcentaje-de-pib-gast%C3%B3-en-defensa-en-2024/89210172",
+            "source": "www.swissinfo.ch",
+            "favicon": "https://www.swissinfo.ch/spa/wp-content/client-mu-plugins/swissinfo-wp-customizations/resources/svg/swi-site-icon.svg?ver=1764663738"
+        },
+        "4": {
+            "url": "https://canarias-semanal.org/art/36917/espana-supera-los-60000-millones-en-gasto-militar-real-en-2024-mas-del-5-delpib",
+            "source": "canarias-semanal.org",
+            "favicon": "https://canarias-semanal.org/upload/images/10_2018/8073_favicon.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España ha aumentado su gasto en defensa en 2024",
+        "categories": [
+            "Política",
+            "Defensa",
+            "Economía"
+        ],
+        "label": "True",
+        "main_claim": "España ha aumentado su gasto en defensa en 2024, alcanzando el 1,29% del PIB, aunque existen discrepancias sobre la magnitud exacta del gasto real",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.092333036000127,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.092333036000127,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:21:34",
+                    "run_time": 4.092333036000127,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña ha aumentado su gasto en defensa en 2024\n\n**Critical Research Questions:**\n1. ¿Cuáles son los datos oficiales del Ministerio de Defensa español sobre el gasto en defensa en 2024?\n2. ¿Cómo se compara el gasto en defensa de España en 2024 con el de otros países europeos?\n3. ¿Cuáles son los informes de organismos internacionales como el FMI o la OTAN sobre el gasto militar en España en 2024?\n4. ¿Cuáles son las cifras específicas de gasto en armamento, personal militar y operaciones militares en 2024?\n5. ¿Qué noticias y declaraciones de autoridades españolas mencionan el aumento del gasto en defensa en 2024?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"gasto en defensa Ministerio de Defensa España 2024 cifras oficiales\", \"gasto militar España 2024 comparación con países europeos FMI OTAN\", \"informes de la OTAN sobre gasto militar en España 2024\", \"gasto en armamento personal militar operaciones militares España 2024 cifras\", \"noticias Ministerio de Defensa España aumento gasto en defensa 2024 declaraciones autoridades\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.1103728460002458,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.1103728460002458,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:21:37",
+                    "run_time": 2.1103728460002458,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "gasto en defensa Ministerio de Defensa España 2024 cifras oficiales",
+                                "gasto militar España 2024 comparación con países europeos FMI OTAN",
+                                "informes de la OTAN sobre gasto militar en España 2024",
+                                "gasto en armamento personal militar operaciones militares España 2024 cifras",
+                                "noticias Ministerio de Defensa España aumento gasto en defensa 2024 declaraciones autoridades"
+                            ],
+                            "results": {
+                                "gasto en defensa Ministerio de Defensa España 2024 cifras oficiales | gasto militar España 2024 comparación con países europeos FMI OTAN | informes de la OTAN sobre gasto militar en España 2024 | gasto en armamento personal militar operaciones militares España 2024 cifras | noticias Ministerio de Defensa España aumento gasto en defensa 2024 declaraciones autoridades": [
+                                    {
+                                        "text": "POR CARLOS SERNA PARA CANARIAS SEMANAL.ORG.-\n\nLa cuestión del gasto militar en España ha sido históricamente opaca, pero en los últimos años ha alcanzado niveles que han encendido las alarmas de numerosas organizaciones antimilitaristas y centros de investigación crítica.\n\nEn 2024, esta brecha entre lo que el Gobierno reconoce oficialmente y lo que grupos especializados denuncian como gasto militar real se ha ensanchado de forma alarmante, revelando que se está produciendo una auténtica \"militarización\" soterrada de la economía estatal.\n\n\"Las partidas ocultas y el control social elevaron el coste real de la defensa hasta cifras récord en 2024.\"\n\nCIFRAS OFICIALES: UNA VERSIÓN REDUCIDA DE LA REALIDAD\n\nSegún los Presupuestos Generales del Estado para 2024, el Ministerio de Defensa contó con una dotación de aproximadamente 14.453,8 millones de euros, lo que representó cerca del 0,96 % del PIB español. A esta cifra, el Gobierno añade partidas complementarias como las pensiones militares o las contribuciones a organismos internacionales de defensa, llevando el total reconocido hasta los 19.405 millones de euros, equivalente al 1,28 % del PIB.\n\nEsta cifra se sitúa claramente por debajo de la meta del 2 % del PIB que la OTAN exige a sus miembros, algo que las autoridades españolas utilizan frecuentemente como argumento para defender la contención del gasto. Sin embargo, tal como señala Pere Ortega, del Centre Delàs d’Estudis per la Pau:\n\n\"El Gobierno, con el ánimo de aumentar la aportación al PIB, informó a la OTAN de gastos militares que antes no incluía, como la seguridad social y las pensiones de los militares.\"\n\nLA DENUNCIA DE LOS COLECTIVOS ANTIMILITARISTAS\n\nFrente a la narrativa gubernamental, organizaciones como el Grup Antimilitarista Tortuga han expuesto una contabilidad alternativa que pone en evidencia una realidad mucho más onerosa. Según sus estimaciones, el gasto militar español en 2024 habría superado los 62.000 millones de euros, es decir, más del 5 % del PIB.\n\nJuan Carlos Rois, portavoz de Tortuga, lo expresa con claridad:\n\n\"El gasto militar del Estado español ha sobrepasado los 60.000 millones de euros, equivalente a más del 5% del PIB. Estos datos contrastan con las declaraciones oficiales, que apenas reconocen un 1% del PIB destinado a defensa.\"\n\n¿Cómo se explica esta diferencia abismal? La respuesta está en las partidas ocultas que se reparten por distintos ministerios y que, según estos análisis críticos, deberían computarse como gasto militar directo o indirecto.\n\n\" El gasto militar oculto: una hipoteca invisible sobre la economía española\"\n\nPARTIDAS OCULTAS QUE INFLAN EL GASTO\n\nEntre los componentes que disparan estas cifras encontramos:\n\nPensiones militares , que en 2024 superaron los 4.032 millones de euro s. Aunque no se imputan directamente al Ministerio de Defensa, son consecuencia directa de la estructura militar .\n\nI+D militar y programas de armamento , canalizados mayoritariamente a través del Ministerio de Industria. Solo en 2024 se destinaron más de 1.600 millones de euros a la modernización del arsenal bélico español.\n\nMisiones internacionales , financiadas con créditos extraordinarios que no figuran en los presupuestos iniciales, pero que suponen hasta 4.000 millones de euros adicionales al año.\n\nGuardia Civil y otras fuerzas de seguridad militarizadas, que absorben una cantidad significativa de recursos bajo la justificación de la seguridad interior.\n\nA todo esto se suman los intereses de deuda pública derivados de las compras de armamento y compromisos plurianuales que hipotecan el futuro económico del país.\n\nEl informe de la Fundación FUHEM es claro al respecto:\n\n\"El gasto militar aquí señalado incluye el presupuesto del Ministerio de Defensa más todos aquellos otros créditos presupuestarios repartidos por otros ministerios que son de carácter militar.\"\n\nEL FACTOR DE \"CONTROL SOCIAL\" Y LA MILITARIZACIÓN DE LA SEGURIDAD INTERIOR\n\nUno de los rasgos más destacados de las estimaciones alternativas es la inclusión del gasto en \"control social\", concepto que abarca la financiación de la policía nacional, las fuerzas de seguridad autonómicas, las prisiones y los sistemas de vigilancia estatal. Según Tortuga, estas partidas responden a una lógica de militarización de la seguridad pública que no debería excluirse del cómputo general.\n\nSolo en 2024, estas partidas habrían ascendido a 10.500 millones de euros adicionales. Es una visión que subraya cómo los mecanismos de control y represión interna forman parte del mismo engranaje que sostiene la política de defensa militarizada del Estado.\n\nLA FALTA DE TRANSPARENCIA COMO PROBLEMA ESTRUCTURAL\n\nLa divergencia entre las cifras oficiales y las estimaciones independientes no es simplemente una cuestión contable. Revela una práctica de opacidad estructural que dificulta el debate público informado sobre las prioridades presupuestarias del país. El Real Instituto Elcano y el Centre Delàs coinciden en que España distribuye de forma deliberada el gasto militar en múltiples partidas presupuestarias, diluyendo la percepción pública del coste real.\n\nLa ingeniería presupuestaria y el recurso constante a créditos extraordinarios esconden la verdadera magnitud de este gasto. Una estrategia que, como apuntan desde el Centre Delàs, mantiene a España en una posición aparente de bajo gasto militar frente a la OTAN, cuando la realidad es sustancialmente distinta.\n\nUNA BRECHA QUE EXIGE TRANSPARENCIA Y DEBATE PÚBLICO\n\nEl análisis del gasto militar en España revela una desconexión alarmante entre la contabilidad oficial y la realidad que exponen colectivos críticos. La diferencia de más de 40.000 millones de euros no es un error menor, sino un síntoma de la falta de transparencia y del peso que la militarización oculta ejerce sobre la economía española.\n\nLejos de tratarse de una cuestión meramente técnica, el ocultamiento de este gasto tiene profundas implicaciones sociales y políticas. Mientras se recortan fondos en educación, sanidad o vivienda, el Estado sigue destinando ingentes recursos a mantener una estructura militar y de control social cada vez más costosa.\n\nLa sociedad tiene ante sí el reto de exigir mayor claridad y rendición de cuentas sobre cómo se distribuyen los recursos públicos. Porque, como bien subraya el Grup Tortuga,\n\n\"el dato real es aún mayor, el Estado miente y oculta gasto militar, es imposible llegar a todas las partidas.\"",
+                                        "metadata": {
+                                            "url": "https://canarias-semanal.org/art/36917/espana-supera-los-60000-millones-en-gasto-militar-real-en-2024-mas-del-5-delpib",
+                                            "source": "canarias-semanal.org",
+                                            "favicon": "https://canarias-semanal.org/upload/images/10_2018/8073_favicon.png",
+                                            "title": "ESPAÑA SUPERA LOS 60.000 MILLONES EN GASTO ...",
+                                            "type": "web_search",
+                                            "base_url": "https://canarias-semanal.org",
+                                            "snippet": "Según los Presupuestos Generales del Estado para 2024, el Ministerio de Defensa contó con una dotación de aproximadamente 14.453,8 millones de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La OTAN reconoce por primera vez, en su último informe, que España ha alcanzado el objetivo del 2% del PIB en gasto de defensa en 2025, una recomendación histórica que la Alianza establecía para todos sus socios desde hace años. No obstante, el análisis comparativo revela que, pese a este logro, España sigue situada en los últimos puestos tanto en porcentaje de gasto sobre PIB como en gasto absoluto y per cápita respecto a sus aliados, y sus patrones de inversión presentan particularidades relevantes frente al resto de países miembros.\n\nPara obtener estas cifras la Alianza recopila datos sobre el gasto de defensa de los aliados y los publica periódicamente. El Ministerio de Defensa de cada país informa sobre el gasto actual y estimado para el futuro. Los importes representan los pagos realizados o previstos por un Gobierno durante el ejercicio fiscal para cubrir las necesidades de sus fuerzas armadas, las de los Aliados o las de la Alianza. En las figuras y tablas que figuran en el informe, la OTAN también utiliza información económica y demográfica disponible en la Dirección General de Asuntos Económicos y Financieros de la Comisión Europea (DG ECFIN), el Fondo Monetario Internacional (FMI) y la Organización para la Cooperación y el Desarrollo Económicos (OCDE).\n\nEn cualquier caso, la organización advierte de que, dadas las diferencias entre estas fuentes y las previsiones nacionales del PIB, así como la definición de gasto de defensa de la OTAN y las definiciones nacionales, las cifras que se muestran en este informe pueden diferir considerablemente de las que se citan en los medios de comunicación, se publican por las autoridades nacionales o se incluyen en los presupuestos nacionales. Un hito para España Llegar al 2% supone un hito para la defensa nacional, ya que marca un punto de inflexión en la trayectoria presupuestaria de España en la OTAN. Tradicionalmente, el país se encontraba lejos de esa cifra, incluso rondando el 1% del PIB en la última década. Según los datos oficiales, el gasto en defensa español pasará de una media inferior al 1,2% durante los años previos, hasta alcanzar el 2% estimado para 2025, lo que implica un salto porcentual de más del 43% en solo dos ejercicios respecto a 2023. Datos porcentaje de gasto\n\nSin embargo, esta cifra alcanza el umbral mínimo recomendado por la OTAN, pero sigue lejos de los líderes en inversión militar. Países como Estados Unidos, Polonia, Lituania, Estonia, o Grecia, han sobrepasado durante años el 2%, llegando algunos, como EE. UU., a invertir más del 3% de su PIB en defensa. España, por tanto, cumple el objetivo pero queda en el grupo intermedio-bajo dentro del bloque europeo y no figura entre los países con mayor presión presupuestaria militar.\n\nEn términos absolutos, España también muestra se queda atrás respecto a otros miembros destacados. Para 2025, la inversión española se estima en unos 33.123 millones de euros (alrededor de 35.670 millones de dólares), situándose por detrás de naciones como Estados Unidos, Reino Unido, Alemania, Francia, Italia y Polonia. Mientras EE. UU. supera los 980.000 millones de dólares, Alemania sobrepasa los 93.747 millones, el Reino Unido los 90.500 millones, Francia los 66.531 millones e Italia llega a los 48.800 millones. Por tanto, España queda aproximadamente en la séptima posición europea y la undécima en el conjunto de la OTAN. Es relevante señalar que países como Polonia han acelerado de manera notable su gasto militar en los últimos años, y superan ampliamente sus cifras anteriores, poniéndose solo un escalón detrás de Italia y por encima de la española.\n\nTambién a la cola en gasto per cápita\n\nEl gasto per cápita es otro indicador que evidencia el retraso relativo de España. Las cifras para 2025 sitúan el desembolso español en defensa en torno a los 676 dólares por habitante. Este dato coloca al país en la zona baja del ranking OTAN: por ejemplo, Noruega, Estados Unidos, Reino Unido, Dinamarca y Canadá gastan más de 1.000 dólares por ciudadano, y Suecia, Dinamarca y Finlandia también superan el millar.\n\nEl gasto español, por tanto, es inferior a la media de Europa Occidental y muy lejos de los referentes. Ni siquiera se acerca a los 971 dólares del Reino Unido o los más de 2.400 de Estados Unidos. La comparación con Polonia, país que ha experimentado un fuerte crecimiento militar, también resulta desfavorable, ya que su gasto per cápita supera los 940 dólares.\n\nCategorías de gasto\n\nEn cuanto al desglose por categorías, la evolución de la inversión española muestra una inflexión significativa en el porcentaje destinado a equipamiento, uno de los parámetros más evaluados por la OTAN para determinar el nivel real de modernización de las fuerzas armadas. España ha incrementado considerablemente la proporción de su gasto asignada a equipamiento y tecnología militar avanzando hacia los estándares de modernización exigidos: para 2025, el 32,29% del presupuesto será invertido en equipamiento y desarrollo tecnológico, frente al 13,49% de 2014 o el 21,02% de 2019. Este dato pone a España por encima de la media europea –donde muchos países apenas superan el 20%–, y en línea ascendente con líderes como Polonia (54% en 2025), Finlandia (45%), Lituania (45%) y los países bálticos, que priorizan la modernización ante amenazas próximas.\n\nEspaña, sin embargo, destina todavía buena parte de su presupuesto a gastos de personal (27,7% en 2025) y operaciones y mantenimiento (35,32%), superando a países como Francia, Reino Unido o Estados Unidos, que destinan mayor porcentaje a equipamiento. La apuesta por la modernización es clara, pero la estructura tradicional persiste: el peso del personal y los gastos corrientes sigue siendo alto, y aunque hay un aumento en infraestructuras (4,63%), queda lejos de los países con mayor inversión en bases, instalaciones y construcción militar.\n\nEl aspecto de personal en las Fuerzas Armadas también influye en la lectura de los datos. España cuenta con alrededor de 118.000 efectivos militares profesionales en 2025, una cifra estable en la última década, pero inferior a los grandes países de la OTAN en este ámbito como Turquía, Francia o EE. UU., que superan ampliamente la barrera de los 200.000 militares.\n\nFuturo\n\nDe cara al futuro, la tendencia marcada por la OTAN y los propios presupuestos españoles es que el gasto en defensa seguirá creciendo y orientándose cada vez más a inversión tecnológica y equipamiento, consolidando el cambio iniciado en 2023. España se posiciona así como un socio cumplidor del estándar, pero todavía lejos de desempeñar un papel protagonista en términos relativos. La OTAN reconoce su esfuerzo y el cumplimiento de los compromisos, pero los retos en modernización, innovación y presión inversora siguen pendientes para acercarse a los referentes europeos y mundiales.",
+                                        "metadata": {
+                                            "url": "https://www.infodefensa.com/texto-diario/mostrar/5408103/otan-espana-sigue-cola-inversion-defensa-pese-llegar-2-pero-gasta-media-armamento",
+                                            "source": "www.infodefensa.com",
+                                            "favicon": "https://www.infodefensa.com/images/showid/4851686",
+                                            "title": "OTAN: España sigue a la cola de inversión en defensa ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.infodefensa.com",
+                                            "snippet": "La OTAN reconoce por primera vez, en su último informe, que España ha alcanzado el objetivo del 2% del PIB en gasto de defensa en 2025, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El panorama de seguridad mundial ha experimentado una transformación sustancial en los últimos años, precipitando un replanteamiento profundo de las políticas de defensa, especialmente en el entorno europeo.\n\nEl gasto militar refleja disparidades sustanciales entre las potencias mundiales y evidencia una tendencia alcista generalizada, desde 2022, con el inicio de la guerra de Ucrania. Según el Instituto Internacional de Estocolmo para la Investigación de la Paz SIPRI, el gasto militar global alcanzó en 2023 la cifra de 2,29 billones de euros, lo que ya represento un incremento del 6,8% respecto al año anterior, constituyendo el mayor aumento desde 2009. Este proceso responde directamente al deterioro global de las condiciones de paz y seguridad.\n\nEn términos absolutos Estados Unidos es el mayor inversor mundial en defensa, con un presupuesto militar de aproximadamente 916.000 millones de dólares, triplicando la inversión de China 296.000 millones y multiplicando por nueve la de Rusia 109.000 millones. India y Arabia Saudí completan el grupo de las naciones con mayor inversión en capacidades militares.\n\nEsta hegemonía norteamericana se traduce en que su gasto militar representa el 68% del total de los países de la OTAN, cuyo conjunto alcanza 1,26 billones de euros. En términos relativos de PIB Polonia lidera el gasto militar de los países de la OTAN, con un 4,12% del PIB, seguido de Estonia 3,43% y EE. UU. un 3,34 de su PIB; mientras que España ocupa el último lugar con el 1,29% del PIB, tal y como ha recordado Donald Trump en la cumbre de la Organización celebrada a finales de junio en Holanda. La razón fundamental es que en España hemos tenido garantizada nuestra propia Defensa por nuestra pertenencia a la OTAN, si bien se producía el denominado “efecto parasito”, nos aprovechábamos del poder militar de EE. UU., sin apenas contribuir a la misma.\n\nCon el retorno de Donald Trump a la Presidencia de los Estados Unidos, se ha impuesto la necesidad de incrementar el gasto en defensa en la mayoría de los países miembros. Se estableció en principio el objetivo de que sus miembros superen el 2% del PIB en gasto militar para 2029, compromiso que ya fue ratificado en la cumbre de Madrid de 2022. Sin embargo, El secretario general de la Alianza, Mark Rutte, ha reclamado ya un 3,5%, un 5% del PIB en 2035. Pedro Sánchez ha firmado el Acuerdo, pero ha manifestado que no lo cumplirá y que tan solo esta dispuesto a dedicar el 2,1% del PIB a los gastos de rearme; esta postura representa una gran pérdida de reputación internacional.\n\nEn España el gasto en defensa se sitúo en 2024 en 19.723 millones de euros, equivalente al 1,29%; esta cifra representa un incremento respecto a años anteriores, pero permanece significativamente por debajo del compromiso del 2% adquirido inicialmente. Sin embargo, el pasado 22 de abril, el presidente del Gobierno anunció un sorprendente incremento de los gastos en defensa de 10.471 millones de euros, con lo que se alcanzaría este mismo año 2025 el 2% del PIB. Este aumento se financiaría supuestamente con partidas procedentes de los fondos Next Generación y de extraños “ahorros” de los Presupuestos de 2023, los últimos aprobados. El 35% de los mismos se destinarían a mejorar las condiciones laborales de la tropa y la marinería y 3.260 millones a modernizar las telecomunicaciones cifradas de las Fuerzas Armadas, así como a la adquisición de material militar.\n\nAdemás, este nuevo gasto lo tiene que implementar Pedro Sánchez frente a una parte de su Gobierno manifestándose claramente antimilitarista, sin unos Presupuestos Generales del Estado coherentes con este reto y sin someterlo a la aprobación del Parlamento. Hay que recordar que él mismo defendió hace unos años, la eliminación del Ministerio de Defensa. Se trata claramente de una operación “cosmética”, una más, de cara a la pasada reunión de la OTAN, que difícilmente será aceptada conceptualmente en su totalidad por la Organización y que además no permitirá mejorar significativamente la capacidad operativa de nuestras Fuerzas Armadas.\n\nHay que tener presente que el rearme no debe plantearse como una imposición, sino como una necesidad que representa múltiples beneficios potenciales tanto en el ámbito estratégico como económico. Desde la perspectiva de seguridad, fortalece la capacidad de respuesta ante amenazas externas en un entorno internacional cada vez más volátil. En términos económicos, el sector de defensa puede funcionar como un importante motor de crecimiento, especialmente en industrias de alto valor añadido y contenido tecnológico.\n\nInversiones en este ámbito generan efectos multiplicadores que benefician tanto al tejido industrial como a la investigación y desarrollo, con potenciales aplicaciones duales, civil-militar, que maximizan su rentabilidad social. Hay que recordar que la mayor parte de los avances tecnológicos de los que nos beneficiamos todos los ciudadanos actualmente se han desarrollado en el campo militar como internet, telecomunicaciones, transporte, sanidad, etc.\n\nAdicionalmente, el incremento del gasto en defensa demuestra solidaridad, cumplimiento de compromisos internacionales y unidad de acción con los aliados, fortaleciendo la posición geopolítica española. La integración en la estrategia común europea de defensa permite, además, aprovechar economías de escala y sinergias en la adquisición y desarrollo de capacidades militares. Sin embargo, la posición dividida del gobierno español nos convierte en un socio poco fiable desde hace años.\n\nEl incremento del gasto en defensa debe acompañarse de una reflexión estratégica sobre su asignación óptima. Es la nueva naturaleza de la guerra, lo que obliga a revisar los programas de armamento en marcha para adaptarlos a necesidades emergentes como tecnología de drones, ciberseguridad e inteligencia artificial.\n\nEn conclusión, el incremento del gasto en defensa representa, tanto una necesidad estratégica, en gran medida por ser España una “frontera caliente” con Marruecos por el diferencial de rentas; así como un desafío económico considerable. Su implementación exitosa requerirá un equilibrio complejo entre seguridad nacional, sostenibilidad fiscal, en un contexto geopolítico que exige adaptación, pero también prudencia ante los riesgos de una nueva carrera armamentística global, puesto que las sobre reacciones políticas siempre son muy peligrosas.\n\nFUERTE AUMENTO DEL GASTO EN SANIDAD PRIVADA.\n\nEl gasto sanitario tanto público como privado sigue creciendo intensamente desde el año 2003, según un estudio del Instituto Valenciano de Investigación y la Fundación BBVA.\n\nEl gasto sanitario público ha crecido un 67% hasta alcanzar los 129.884 millones de euros, cuando hace 21 años tan solo era de 78.000 millones.\n\nAsimismo, el gasto privado ha aumentado más de un 50% en este periodo hasta superar los 33.600 millones de euros el pasado año.\n\nSegún el INE en su Encuesta de Presupuestos Familiares estima en el año 2023, las familias españolas gastarán en salud 631 euros al año por cada miembro.\n\nLa mitad de este importe se dedicó a la compra de gafas, lentes de contacto, aparatos terapéuticos y al pago de seguros privados de sanidad 131 euros que han crecido 5 puntos en las últimas dos décadas.\n\nLa otra mitad se destinó a la compra de productos farmacéuticos, servicios dentales y servicios médicos hospitalarios.\n\nEl Estudio destaca que las personas con mayor nivel de renta gastan de media cuatro veces más en salud que los de menores ingresos.\n\nPara poder conseguir la reducción de esta brecha se considera que el servicio público debe incluir en la cartera de servicios los odontólogos y los gastos de óptica, como acaba de decidir el Gobierno, concediendo ayudas para los gastos en óptica, pero tan solo para los jóvenes.",
+                                        "metadata": {
+                                            "url": "https://www.consejogestores.org/noticias/otan-pib-defensa/",
+                                            "source": "www.consejogestores.org",
+                                            "favicon": "https://www.consejogestores.org/wp-content/uploads/2020/08/favicon-consejo.png",
+                                            "title": "La OTAN impone el 5% del PIB de gasto en defensa",
+                                            "type": "web_search",
+                                            "base_url": "https://www.consejogestores.org",
+                                            "snippet": "En España el gasto en defensa se sitúo en 2024 en 19.723 millones de euros, equivalente al 1,29%; esta cifra representa un incremento respecto ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España fue el país de la OTAN que menos porcentaje de PIB gastó en defensa en 2024\n\n4 minutos\n\n(Actualiza con más datos y comentarios de Rutte).\n\nBruselas, 24 abr (EFE).- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos proporción de su PIB invirtió en defensa, según los datos provisionales publicados este jueves por la Alianza.\n\nLas cifras las difundió la organización transatlántica en el informe anual del secretario general de la OTAN sobre el año pasado, por lo que no tienen en cuenta el anuncio que el presidente del Gobierno español, Pedro Sánchez, realizó el martes.\n\nSánchez informó de una inversión adicional de 10.471 millones de euros para seguridad y defensa con el fin de lograr este año el objetivo de destinar el 2 % del PIB a esa partida, una meta que el Ejecutivo había propuesto alcanzar en un primer momento en 2029.\n\nEn la cumbre de líderes de la OTAN en Gales en 2014 se acordó que en una década los países avanzaran hasta destinar en 2024 el 2 % de su PIB a la defensa.\n\nDe todas formas, ese 1,24 % es superior al 1,16 % invertido en 2023.\n\nEl informe anual de la OTAN, con cifras estimadas de gasto en defensa para 2024, apunta que los aliados europeos y Canadá invirtieron el 2 % de su PIB en esa área, por encima del 1,74 % de 2023.\n\nTras lo acordado en Gales, en la cumbre de la OTAN celebrada en Vilna en 2023 los mandatarios de los países aliados se comprometieron a destinar al menos el 2 % del producto interior bruto a las fuerzas armadas. De ese modo, el 2 % se convertía en un mínimo.\n\nAdemás, en la reunión de líderes aliados que tendrá lugar el próximo junio en La Haya (Países Bajos) se espera que acuerden un nuevo objetivo de gasto militar que no sea inferior al 3 o 3,5 % de su PIB, en un contexto marcado por la presión del presidente estadounidense, Donald Trump, para que Europa y Canadá inviertan más en defensa.\n\nEn el prólogo del informe, el secretario general de la OTAN, Mark Rutte, destaca que en 2024 las inversiones en defensa «crecieron de manera significativa» en la Alianza.\n\n«Los aliados de la OTAN en Europa y Canadá invirtieron un total de 486.000 millones de dólares estadounidenses en defensa, un incremento del 19,4 % en términos reales frente a 2023», expone el político neerlandés.\n\nAl respecto, agrega que en años recientes, los aliados europeos y Canadá «han añadido más de 700.000 millones de dólares estadounidenses adicionales para la defensa».\n\n«Al hacerlo, estos aliados asumen una mayor responsabilidad en la defensa y la seguridad de la zona euroatlántica. Necesitamos acelerar radicalmente estos esfuerzos en 2025. Los aliados europeos y Canadá deben dar un salto cualitativo en cuanto a sus contribuciones y capacidades. Para ello, será esencial invertir considerablemente más», asevera Rutte.\n\nEl año pasado, 22 de los 31 miembros de la OTAN con ejército (Islandia no lo tiene permanente) invirtieron al menos el 2 % de su PIB en defensa.\n\nEntre los países que destinaron un mayor porcentaje figuran Polonia (4,07 %), Estonia (3,41 %), Letonia (3,39 %), Lituania (3,11 %) y Estados Unidos (3,19 %).\n\nEn términos absolutos, España invirtió en defensa el año pasado 17.243 millones de euros, por encima de los 15.688 millones de 2023.\n\nRespecto a la proporción del gasto de defensa invertido en equipos militares, España cumple el objetivo marcado de al menos el 20 % al alcanzar en 2024 el 30,3 %.\n\nEn total, la Alianza calcula que su inversión en Defensa en 2024 fue de 1.303 billones de dólares, de los que solo 485.628 correspondieron a los aliados europeos y Canadá.\n\nRutte indica en el prólogo del informe que el año pasado los aliados comprometieron más de 55.000 millones de dólares en asistencia militar a Ucrania y el 60 % procedió de Europa y Canadá. EFE\n\njug/mb/lar",
+                                        "metadata": {
+                                            "url": "https://www.swissinfo.ch/spa/espa%C3%B1a-fue-el-pa%C3%ADs-de-la-otan-que-menos-porcentaje-de-pib-gast%C3%B3-en-defensa-en-2024/89210172",
+                                            "source": "www.swissinfo.ch",
+                                            "favicon": "https://www.swissinfo.ch/spa/wp-content/client-mu-plugins/swissinfo-wp-customizations/resources/svg/swi-site-icon.svg?ver=1764663738",
+                                            "title": "España fue el país de la OTAN que menos porcentaje ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.swissinfo.ch",
+                                            "snippet": "- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La ministra de Defensa, Margarita Robles/MINISTERIO DE DEFENSA.\n\nEn los dos últimos Consejos de Ministros, el Gobierno de España ha aumentado el gasto militar en 911 millones de euros. Más de la mitad del incremento se ha ejecutado aplicando el Fondo de Contingencia, y el resto mediante una transferencia de crédito. En ninguno de los dos casos será necesario que pase por el Congreso.\n\nEl pasado 25 de febrero se decidió aumentar el gasto militar en 567 millones de euros (merced a la aplicación de ese Fondo de Contingencia) “para permitir una ampliación de crédito en el Ministerio de Defensa, con el objetivo de atender los gastos ocasionados por la participación de las Fuerzas Armadas Españolas en operaciones de mantenimiento de la paz”, reza la referencia del Consejo de Ministros.\n\nY este martes (4 de marzo) se ha aprobado una “transferencia de crédito” de 343.860.000 “con la finalidad de atender necesidades de funcionamiento existentes”. El dinero sale del Ministerio de Hacienda, pero no se dan más explicaciones en la reseña del Consejo de Ministros, por lo que se desconoce el propósito de ese gasto de dinero.\n\nUna semana antes se hablaba de atender “a los tres grandes objetivos estratégicos siguientes: proporcionar estabilidad y seguridad; luchar contra el terrorismo; y disuadir y defender el territorio aliado”. Esta vez, nada más allá de esas “necesidades de funcionamiento”.\n\n¿Cómo funciona el Fondo de Contingencia?\n\nEl Fondo de Contingencia es una ‘hucha’ con la que cuenta el Ejecutivo para “hacer frente durante el ejercicio presupuestario a necesidades inaplazables, de carácter no discrecional para las que no se hiciera en todo o en parte, la adecuada dotación de crédito”, tal y como se define en el artículo 50 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria.\n\nEste Fondo debe dotarse con el 2% del total de gastos para operaciones no financieras, y su característica principal es que, para aprobar créditos que salgan del mismo, basta con que haya acuerdo en el Consejo de Ministros. Es decir, no tienen que pasar por el Congreso. Únicamente –refleja la legislación mencionada–, el Gobierno remitirá a las Cortes Generales un informe trimestral acerca de la utilización del Fondo, que se pondrá a disposición de los diputados, senadores y las comisiones parlamentarias.\n\nCasi 1.200 millones de gasto extra en defensa en 2025\n\nEn lo que va de 2025, ya sea vía Fondo de Contingencia, transferencias de crédito o acuerdos marco (instrumento de contratación que permite prestablecer las condiciones de los muchos contratos que englobará), el gasto militar extra aprobado en los consejos de ministros es ya de 1.193 millones de euros.\n\nLas partidas más cuantiosas son las reseñadas en los dos últimos; la tercera es el acuerdo alcanzado el 28 de enero para la adquisición de munición de calibre 12,70 x 99 milímetros, por 125,7 millones de euros.\n\n800.000 millones de euros más de gasto en defensa de la Unión Europea\n\nEl gasto militar seguirá aumentando en los próximos meses, y más después del plan presentado el 4 de marzo por la presidenta de la Comisión Europea (CE), Ursula von der Leyen, que consiste en una serie de propuestas con las que espera que se movilicen «cerca de 800.000 millones de euros» para el gasto en defensa en la Unión Europea.\n\nEsto incluye un nuevo instrumento que proporcionará 150.000 millones en préstamos a los Estados miembros y que se podrá usar también para Ucrania.\n\nEl plan, bautizado con el nombre de ‘Rearmar Europa’, lo presentó la política alemana en una breve declaración ante los medios de comunicación y lo expuso también en una carta enviada a los jefes de Estado y de gobierno de la Unión Europea, quienes tendrán ocasión de debatirlo mañana en una cumbre extraordinaria en Bruselas.\n\n«Se trata básicamente de gastar mejor y juntos, y estamos hablando de capacidades paneuropeas, de ámbitos como, por ejemplo, la defensa aérea y antimisiles, los sistemas de artillería, misiles y munición, drones y sistemas antidrones, pero también para abordar otras necesidades, desde el ciberespacio a la movilidad militar, por ejemplo», expuso.\n\nApuntó que esa herramienta permitirá a los miembros de la UE poner en común la demanda y comprar juntos. «Por supuesto, con este equipamiento, los Estados miembros pueden incrementar de manera masiva e inmediata su apoyo militar a Ucrania», recalcó.\n\nVon der Leyen consideró que ese enfoque de adquisiciones conjuntas «también reducirá costes, disminuirá la fragmentación, pero incrementará la interoperabilidad y, por supuesto, fortalecerá nuestra base industrial de la defensa».\n\nMuy cerca del 2% del PIB\n\nEl Gobierno de España está comprometido a aumentar el gasto en defensa para llegar, al menos, a ese compromiso del 2% del PIB exigido por la OTAN. Con los presupuestos prorrogados, las transferencias de crédito desde el Fondo de Contingencia se convierten en un sistema habitual para intentar alcanzar ese objetivo sin dar explicaciones.\n\nComo informan en Centre Delàs, en 2024, el presupuesto militar de España alcanzó los14.453,8 millones de euros en 2024. Pero la cartera de Margarita Robles siguió recibiendo dinero mediante trasvases de este fondo. Esto sirvió, apuntan, “por un lado, para hacer frente a los costes de las misiones en el exterior, y por otro, por el compromiso adquirido de Pedro Sánchez con Volodímir Zelenski de adquirir misiles Patriot por un importe de 1.100 millones en EE.UU. para enviarlos a Ucrania”.\n\nLos investigadores de Delàs señalan que esas transferencias de crédito supusieron 2.929,2 millones, como indica la liquidación provisional del presupuesto a 30 de noviembre de 2024 (la última publicada). Es decir, se incrementó en un 20,3% el presupuesto inicial, y si se le añaden el resto de las partidas que también son de signo militar, en 2024 el presupuesto alcanzó los 28.935 millones de euros, que, respecto al PIB (1,534 billones de euros) representa un 1,82%, muy cerca ya del 2% que se pretende alcanzar.\n\nEn cualquier caso, cumplir ese compromiso podría no ser suficiente ya que Mark Rutte, secretario general de la OTAN, ha elevado el listón (de momento sólo como opinión personal) y lo ha situado en el 3% del PIB.",
+                                        "metadata": {
+                                            "url": "https://www.lamarea.com/2025/03/05/911-millones-gasto-militar/",
+                                            "source": "www.lamarea.com",
+                                            "favicon": "https://www.lamarea.com/apple-touch-icon.png",
+                                            "title": "911 millones de euros más de gasto militar y sin pasar por ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.lamarea.com",
+                                            "snippet": "Como informan en Centre Delàs, en 2024, el presupuesto militar de España alcanzó los14.453,8 millones de euros en 2024. Pero la cartera de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "10.471 millones de euros. Este es el gasto extraordinario en Defensa que ha anunciado Pedro Sánchez este martes 22 de abril, tras el Consejo de Ministros, con la intención de cumplir con el objetivo de invertir el 2% del PIB en gastos militares. Y lo realizará este mismo año, siguiendo el mandato de la Unión Europea, a quienes informará de este aumento en el gasto de manera inmediata. Lejos queda la promesa de llegar a esta cifra en 2029, como se había puesto sobre la mesa en un principio.\n\n\n\nPara este aumento Sánchez ha asegurado que “no se va a tocar ni un céntimo de euro” de la inversión destinada al estado de bienestar. Según ha relatado Sánchez, usará tres fuentes: una reorientación de los Fondos Next Generation, en concreto la cantidad destinada a ciberseguridad, los ahorros disponibles por “la buena gestión económica del gobierno” y remanentes de partidas de los presupuestos no gastadas.\n\nMientras tanto sus socios de gobierno han mostrado su desacuerdo, reconocido por el propio Sánchez durante la rueda de prensa en el que ha asegurado que existen “discrepancias”. Tal y como recoge Europa Press, las objeciones de Sumar han sido canalizadas a través de la Ministra de Trabajo, Yolanda Díaz. En ellas reiteran el “desacuerdo” con aumentar el gasto militar sin “una reflexión consensuada en el Gobierno sobre las verdaderas necesidades de defensa de España, ni una estrategia alineada con las prioridades europeas”. En sus objeciones hablan de un gasto “desorbitado” y que primero debe definirse los instrumentos de coordinación entre los ejércitos de los 27 países miembros de la UE, para así evitar duplicidades. Y aunque Sumar comparte objetivos como mejorar las condiciones de las tropas y reforzar la ciberseguridad, el plan supone un “uso excesivo de recursos sin consenso en el Gobierno”.\n\nPor su parte, la líder de Podemos, Ione Belarra, ha llamado a la movilización social para frenar el plan de inversión militar de Pedro Sánchez. “Quiero pedir a los 20 millones de personas que se movilizaron contra la guerra de Irak que vuelvan a hacerlo”, ha insistido Belarra. Además, ha asegurado que su partido nunca formaría parte de un gobierno que hace el “mayor aumento del gasto militar de la historia”, medida que marca “un antes y un después” en las relaciones de Podemos con el Gobierno.\n\nLas presiones internacionales\n\nDe fondo, las presiones de la OTAN y de la Unión Europea para aumentar este gasto. El presidente de Estados Unidos ha advertido a los miembros de la OTAN de que, si no destinan los recursos comprometidos a su propia defensa, su país no les defenderá, lo que preocupa a los países europeos de cara a una hipotética invasión rusa. Tradicionalmente se exigía a los países pertenecientes a la OTAN un gasto en PIB del 2%. Trump ha pedido que este gasto se eleve por encima del 5% del PIB de cada país.\n\nDesde la UE claman por un rearme europeo ante la amenaza de que la alianza transatlántica se resquebraje. “Estamos en una era de rearme”, “vivimos en tiempos extraordinarios”, ha expresado en sucesivas ocasiones la presidenta de la Comisión Europea, Ursula von der Leyen, para explicar por qué es necesario aumentar aumentar considerablemente el presupuesto de defensa. El martes 4 de marzo Bruselas desplegó un plan de rearme para movilizar 800.000 millones de euros. Lo que se ha conocido como el plan Rearm Europe.\n\nBruselas plantea suspender las reglas fiscales. De esa manera, los gobiernos pueden invertir sin temor al castigo de la Comisión si superan el déficit del 3% del PIB\n\nEntre las medidas de este plan: Bruselas plantea suspender las reglas fiscales. De esa manera, los gobiernos pueden invertir sin temor al castigo de la Comisión si superan el déficit del 3% del PIB. Esta suspensión no afecta a partidas sociales.\n\nGasto militar en España\n\nPero, ¿cuánto gasta España en armamento? Según datos del Instituto Juan Sebastián Elcano, entre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%. Y esto solo teniendo en cuenta los gastos del Ministerio de Defensa.\n\nEntre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%\n\nComo explica este artículo de El Salto, el gasto militar nunca ha gozado de popularidad en España. Así lo confirmaba una encuesta del CIS de noviembre de 2024, donde solo el 14,2% de la población apoyaba que el Estado gaste “mucho más” en Defensa. Una impopularidad que es conocida de sobra por los sucesivos gobiernos, que han hecho hasta ahora todo lo posible por esconder y “minimizar” este gasto.\n\nHasta hace muy poco, el Gobierno solo contaba como gasto militar el presupuesto del Ministerio de Defensa, pero existen muchas otras partidas dispersas por otros ministerios que no se computan para estos menesteres pero que sí son para ellos. Además, la apuesta belicista no se ha frenado en los últimos años.\n\nSegún los datos del colectivo antimilitarista La Tortuga, y teniendo en cuenta todos los gastos asociados al militarismo, en 2023 España gastó 50.239,17 millones. Ese año se habían presupuestado 24.552,44 para ello, esto es, de facto se duplicó el gasto.\n\nEn 2024, el gastó militar declarado por el Gobierno en España trepó hasta el 1,28% después de que el Ejecutivo decidiera introducir partidas que antes no se consideraban como gasto militar a pesar de que otros países de la OTAN llevaban años haciéndolo. Desde el Centre Delas aseguran qu si se reconocieran todos los gastos militares reales repartidos en diferentes ministerios, el porcentaje del PIB destinado a gasto militar ya estaría muy cerca del 2%.",
+                                        "metadata": {
+                                            "url": "https://www.elsaltodiario.com/gasto-militar/pedro-sanchez-anuncia-un-aumento-del-gasto-defensa-10000-millones-euros",
+                                            "source": "www.elsaltodiario.com",
+                                            "favicon": "https://www.elsaltodiario.com/uploads/avatars/h50/avatar_web.png?v=63919094557",
+                                            "title": "Pedro Sánchez anuncia un aumento del gasto militar de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elsaltodiario.com",
+                                            "snippet": "En 2024, el gastó militar declarado por el Gobierno en España trepó hasta el 1,28% después de que el Ejecutivo decidiera introducir partidas que ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.93526966599984,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.93526966599984,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:21:39",
+                    "run_time": 1.93526966599984,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los datos oficiales del Ministerio de Defensa español sobre el gasto en defensa en 2024?": [
+                                {
+                                    "Bruselas, 24 abr (EFE).- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos proporción de su PIB invirtió en defensa, según los datos provisionales publicados este jueves por la Alianza.": null
+                                },
+                                {
+                                    "Respecto a la proporción del gasto de defensa invertido en equipos militares, España cumple el objetivo marcado de al menos el 20 % al alcanzar en 2024 el 30,3 %.": null
+                                },
+                                {
+                                    "I+D militar y programas de armamento , canalizados mayoritariamente a través del Ministerio de Industria. Solo en 2024 se destinaron más de 1.600 millones de euros a la modernización del arsenal bélico español.": null
+                                }
+                            ],
+                            "¿Cómo se compara el gasto en defensa de España en 2024 con el de otros países europeos?": [
+                                {
+                                    "Bruselas, 24 abr (EFE).- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos proporción de su PIB invirtió en defensa, según los datos provisionales publicados este jueves por la Alianza.": null
+                                },
+                                {
+                                    "Respecto a la proporción del gasto de defensa invertido en equipos militares, España cumple el objetivo marcado de al menos el 20 % al alcanzar en 2024 el 30,3 %.": null
+                                },
+                                {
+                                    "Frente a la narrativa gubernamental, organizaciones como el Grup Antimilitarista Tortuga han expuesto una contabilidad alternativa que pone en evidencia una realidad mucho más onerosa. Según sus estimaciones, el gasto militar español en 2024 habría superado los 62.000 millones de euros, es decir, más del 5 % del PIB.": null
+                                }
+                            ],
+                            "¿Cuáles son los informes de organismos internacionales como el FMI o la OTAN sobre el gasto militar en España en 2024?": [
+                                {
+                                    "Bruselas, 24 abr (EFE).- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos proporción de su PIB invirtió en defensa, según los datos provisionales publicados este jueves por la Alianza.": null
+                                },
+                                {
+                                    "En 2024, el gastó militar declarado por el Gobierno en España trepó hasta el 1,28% después de que el Ejecutivo decidiera introducir partidas que antes no se consideraban como gasto militar a pesar de que otros países de la OTAN llevaban años haciéndolo. Desde el Centre Delas aseguran qu si se reconocieran todos los gastos militares reales repartidos en diferentes ministerios, el porcentaje del PIB destinado a gasto militar ya estaría muy cerca del 2%.": null
+                                },
+                                {
+                                    "Frente a la narrativa gubernamental, organizaciones como el Grup Antimilitarista Tortuga han expuesto una contabilidad alternativa que pone en evidencia una realidad mucho más onerosa. Según sus estimaciones, el gasto militar español en 2024 habría superado los 62.000 millones de euros, es decir, más del 5 % del PIB.": null
+                                }
+                            ],
+                            "¿Cuáles son las cifras específicas de gasto en armamento, personal militar y operaciones militares en 2024?": [
+                                {
+                                    "En 2024, esta brecha entre lo que el Gobierno reconoce oficialmente y lo que grupos especializados denuncian como gasto militar real se ha ensanchado de forma alarmante, revelando que se está produciendo una auténtica \"militarización\" soterrada de la economía estatal.": null
+                                },
+                                {
+                                    "Solo en 2024, estas partidas habrían ascendido a 10.500 millones de euros adicionales. Es una visión que subraya cómo los mecanismos de control y represión interna forman parte del mismo engranaje que sostiene la política de defensa militarizada del Estado.": null
+                                },
+                                {
+                                    "En total, la Alianza calcula que su inversión en Defensa en 2024 fue de 1.303 billones de dólares, de los que solo 485.628 correspondieron a los aliados europeos y Canadá.": null
+                                }
+                            ],
+                            "¿Qué noticias y declaraciones de autoridades españolas mencionan el aumento del gasto en defensa en 2024?": [
+                                {
+                                    "En España el gasto en defensa se sitúo en 2024 en 19.723 millones de euros, equivalente al 1,29%; esta cifra representa un incremento respecto a años anteriores, pero permanece significativamente por debajo del compromiso del 2% adquirido inicialmente. Sin embargo, el pasado 22 de abril, el presidente del Gobierno anunció un sorprendente incremento de los gastos en defensa de 10.471 millones de euros, con lo que se alcanzaría este mismo año 2025 el 2% del PIB. Este aumento se financiaría supuestamente con partidas procedentes de los fondos Next Generación y de extraños “ahorros” de los Presupuestos de 2023, los últimos aprobados. El 35% de los mismos se destinarían a mejorar las condiciones laborales de la tropa y la marinería y 3.260 millones a modernizar las telecomunicaciones cifradas de las Fuerzas Armadas, así como a la adquisición de material militar.": null
+                                },
+                                {
+                                    "Pero, ¿cuánto gasta España en armamento? Según datos del Instituto Juan Sebastián Elcano, entre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%. Y esto solo teniendo en cuenta los gastos del Ministerio de Defensa.": null
+                                },
+                                {
+                                    "Entre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 18.33374814200033,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 18.33374814200033,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:21:58",
+                    "run_time": 18.33374814200033,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña ha aumentado su gasto en defensa en 2024\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los datos oficiales del Ministerio de Defensa español sobre el gasto en defensa en 2024?\n¿Cómo se compara el gasto en defensa de España en 2024 con el de otros países europeos?\n¿Cuáles son los informes de organismos internacionales como el FMI o la OTAN sobre el gasto militar en España en 2024?\n¿Cuáles son las cifras específicas de gasto en armamento, personal militar y operaciones militares en 2024?\n¿Qué noticias y declaraciones de autoridades españolas mencionan el aumento del gasto en defensa en 2024?\n\n3. Here are the text sources you should use as your source of information:\n[0] Bruselas, 24 abr (EFE).- España destinó al gasto militar el 1,24 % de su producto interior bruto en 2024, lo que la situó como el país de la OTAN que menos proporción de su PIB invirtió en defensa, según los datos provisionales publicados este jueves por la Alianza.\n[0] Respecto a la proporción del gasto de defensa invertido en equipos militares, España cumple el objetivo marcado de al menos el 20 % al alcanzar en 2024 el 30,3 %.\n[0] En total, la Alianza calcula que su inversión en Defensa en 2024 fue de 1.303 billones de dólares, de los que solo 485.628 correspondieron a los aliados europeos y Canadá.\n[1] I+D militar y programas de armamento , canalizados mayoritariamente a través del Ministerio de Industria. Solo en 2024 se destinaron más de 1.600 millones de euros a la modernización del arsenal bélico español.\n[1] Frente a la narrativa gubernamental, organizaciones como el Grup Antimilitarista Tortuga han expuesto una contabilidad alternativa que pone en evidencia una realidad mucho más onerosa. Según sus estimaciones, el gasto militar español en 2024 habría superado los 62.000 millones de euros, es decir, más del 5 % del PIB.\n[1] En 2024, esta brecha entre lo que el Gobierno reconoce oficialmente y lo que grupos especializados denuncian como gasto militar real se ha ensanchado de forma alarmante, revelando que se está produciendo una auténtica \"militarización\" soterrada de la economía estatal.\n[1] Solo en 2024, estas partidas habrían ascendido a 10.500 millones de euros adicionales. Es una visión que subraya cómo los mecanismos de control y represión interna forman parte del mismo engranaje que sostiene la política de defensa militarizada del Estado.\n[2] En 2024, el gastó militar declarado por el Gobierno en España trepó hasta el 1,28% después de que el Ejecutivo decidiera introducir partidas que antes no se consideraban como gasto militar a pesar de que otros países de la OTAN llevaban años haciéndolo. Desde el Centre Delas aseguran qu si se reconocieran todos los gastos militares reales repartidos en diferentes ministerios, el porcentaje del PIB destinado a gasto militar ya estaría muy cerca del 2%.\n[2] Pero, ¿cuánto gasta España en armamento? Según datos del Instituto Juan Sebastián Elcano, entre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%. Y esto solo teniendo en cuenta los gastos del Ministerio de Defensa.\n[2] Entre 2014 y 2024, España incrementó su gasto en 10.215 millones de euros, pasando de 9.508 millones a 19.723 millones, un aumento del 107%\n[3] En España el gasto en defensa se sitúo en 2024 en 19.723 millones de euros, equivalente al 1,29%; esta cifra representa un incremento respecto a años anteriores, pero permanece significativamente por debajo del compromiso del 2% adquirido inicialmente. Sin embargo, el pasado 22 de abril, el presidente del Gobierno anunció un sorprendente incremento de los gastos en defensa de 10.471 millones de euros, con lo que se alcanzaría este mismo año 2025 el 2% del PIB. Este aumento se financiaría supuestamente con partidas procedentes de los fondos Next Generación y de extraños “ahorros” de los Presupuestos de 2023, los últimos aprobados. El 35% de los mismos se destinarían a mejorar las condiciones laborales de la tropa y la marinería y 3.260 millones a modernizar las telecomunicaciones cifradas de las Fuerzas Armadas, así como a la adquisición de material militar.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España ha aumentado su gasto en defensa en 2024"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "España ha incrementado su gasto en defensa en 2024, según datos oficiales del Ministerio de Defensa, que elevó el gasto militar al 1,29% del PIB, un aumento respecto a años anteriores aunque sigue por debajo del 2% comprometido inicialmente [3]. Este aumento se atribuye a la incorporación de partidas que antes no se consideraban gasto militar, como fondos Next Generation y ajustes presupuestarios de 2023 [2]. Adicionalmente, el Instituto Juan Sebastián Elcano registra un incremento del 107% en el gasto en armamento desde 2014 a 2024, pasando de 9.508 a 19.723 millones de euros [2]. La Alianza Atlántica también informa que España alcanzó el 30,3% de su gasto en equipos militares, cumpliendo el objetivo del 20% [0]. \n\nNo obstante, existen voces que cuestionan la exactitud de estos datos. Organizaciones como el Grup Antimilitarista Tortuga estiman que el gasto militar real en 2024 superó los 62.000 millones de euros, más del 5% del PIB, cifra que contrasta con la oficial del 1,29% [1]. El Centre Delas afirma que si se reconocieran todos los gastos militares reales, el gasto militar representaría ya cerca del 2% del PIB [2]. Estas cifras alternativas indican que el gasto en defensa se ha incrementado significativamente, pero la brecha entre lo declarado y lo estimado es considerable [1]. \n\n**Conclusión**: La afirmación de que España ha aumentado su gasto en defensa en 2024 es **verdadera** según los datos oficiales del Ministerio de Defensa y la Alianza Atlántica, que reflejan un incremento del 1,29% del PIB. Sin embargo, existen discrepancias significativas entre estos datos oficiales y las estimaciones de grupos especializados, que elevan el gasto real al 5% del PIB. La evidencia indica que el gasto en defensa ha aumentado, pero la magnitud exacta es objeto de debate entre las cifras oficiales y las alternativas."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.6047718910003823,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.6047718910003823,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:22:01",
+                    "run_time": 3.6047718910003823,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España ha aumentado su gasto en defensa en 2024\nArticle: España ha incrementado su gasto en defensa en 2024, según datos oficiales del Ministerio de Defensa, que elevó el gasto militar al 1,29% del PIB, un aumento respecto a años anteriores aunque sigue por debajo del 2% comprometido inicialmente [3]. Este aumento se atribuye a la incorporación de partidas que antes no se consideraban gasto militar, como fondos Next Generation y ajustes presupuestarios de 2023 [2]. Adicionalmente, el Instituto Juan Sebastián Elcano registra un incremento del 107% en el gasto en armamento desde 2014 a 2024, pasando de 9.508 a 19.723 millones de euros [2]. La Alianza Atlántica también informa que España alcanzó el 30,3% de su gasto en equipos militares, cumpliendo el objetivo del 20% [0]. \n\nNo obstante, existen voces que cuestionan la exactitud de estos datos. Organizaciones como el Grup Antimilitarista Tortuga estiman que el gasto militar real en 2024 superó los 62.000 millones de euros, más del 5% del PIB, cifra que contrasta con la oficial del 1,29% [1]. El Centre Delas afirma que si se reconocieran todos los gastos militares reales, el gasto militar representaría ya cerca del 2% del PIB [2]. Estas cifras alternativas indican que el gasto en defensa se ha incrementado significativamente, pero la brecha entre lo declarado y lo estimado es considerable [1]. \n\n**Conclusión**: La afirmación de que España ha aumentado su gasto en defensa en 2024 es **verdadera** según los datos oficiales del Ministerio de Defensa y la Alianza Atlántica, que reflejan un incremento del 1,29% del PIB. Sin embargo, existen discrepancias significativas entre estos datos oficiales y las estimaciones de grupos especializados, que elevan el gasto real al 5% del PIB. La evidencia indica que el gasto en defensa ha aumentado, pero la magnitud exacta es objeto de debate entre las cifras oficiales y las alternativas.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España ha aumentado su gasto en defensa en 2024\nArticle: España ha incrementado su gasto en defensa en 2024, según datos oficiales del Ministerio de Defensa, que elevó el gasto militar al 1,29% del PIB, un aumento respecto a años anteriores aunque sigue por debajo del 2% comprometido inicialmente [3]. Este aumento se atribuye a la incorporación de partidas que antes no se consideraban gasto militar, como fondos Next Generation y ajustes presupuestarios de 2023 [2]. Adicionalmente, el Instituto Juan Sebastián Elcano registra un incremento del 107% en el gasto en armamento desde 2014 a 2024, pasando de 9.508 a 19.723 millones de euros [2]. La Alianza Atlántica también informa que España alcanzó el 30,3% de su gasto en equipos militares, cumpliendo el objetivo del 20% [0]. \n\nNo obstante, existen voces que cuestionan la exactitud de estos datos. Organizaciones como el Grup Antimilitarista Tortuga estiman que el gasto militar real en 2024 superó los 62.000 millones de euros, más del 5% del PIB, cifra que contrasta con la oficial del 1,29% [1]. El Centre Delas afirma que si se reconocieran todos los gastos militares reales, el gasto militar representaría ya cerca del 2% del PIB [2]. Estas cifras alternativas indican que el gasto en defensa se ha incrementado significativamente, pero la brecha entre lo declarado y lo estimado es considerable [1]. \n\n**Conclusión**: La afirmación de que España ha aumentado su gasto en defensa en 2024 es **verdadera** según los datos oficiales del Ministerio de Defensa y la Alianza Atlántica, que reflejan un incremento del 1,29% del PIB. Sin embargo, existen discrepancias significativas entre estos datos oficiales y las estimaciones de grupos especializados, que elevan el gasto real al 5% del PIB. La evidencia indica que el gasto en defensa ha aumentado, pero la magnitud exacta es objeto de debate entre las cifras oficiales y las alternativas."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España ha aumentado su gasto en defensa en 2024\", \"categories\": [\"Política\", \"Defensa\", \"Economía\"], \"label\": \"True\", \"main_claim\": \"España ha aumentado su gasto en defensa en 2024, alcanzando el 1,29% del PIB, aunque existen discrepancias sobre la magnitud exacta del gasto real\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

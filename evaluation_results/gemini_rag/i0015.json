@@ -1,0 +1,577 @@
+{
+    "question": "Aproximadamente el 20% de la población española es de origen extranjero",
+    "answer": "Hay **evidencia que sustenta la idea de que la población de origen extranjero en España podría aproximarse al 20% o incluso superarlo, dependiendo de la definición utilizada**. Según el INE en 2025, el **número total de habitantes nacidos en el extranjero, incluyendo tanto a aquellos con nacionalidad extranjera como a los que han adquirido la nacionalidad española posteriormente, es de 9.686.214, lo que representa aproximadamente el 19.64% de la población total de 49.315.949** [1]. Si se considera la población residente en España con origen extranjero en un sentido más amplio, incluyendo a la **primera generación, segunda generación (nacidos en España con dos progenitores extranjeros), la generación 2,5 (nacidos en España con un progenitor extranjero) y la generación 1,5 (nacidos en el extranjero que llegaron antes de los 11 años), esta cifra asciende a más de 11,7 millones de personas o el 24,3% del total** [2]. Además, centrando el análisis en grupos de edad específicos, como los menores de 20 años en 2024, el **total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36%**, y entre los **menores de 5 años, esta proporción se eleva al 39%** [2]. La segunda generación, **nacida en España con progenitores extranjeros, representa el 17% entre los menores de 20 años**, a lo que se suma la generación 2,5 con un 9% y la generación 1,5, lo que eleva el total a un 36% para este grupo de edad [2]. Para los **menores de 5 años, la segunda generación representa el 25%**, la generación 2,5 el 10% y la generación 1,5 el 4%, sumando un 39% de niños pequeños con origen extranjero [2].\n\nPor otro lado, **hay información que sugiere que el porcentaje del 20% podría ser una sobreestimación si solo se considera a la población con nacionalidad extranjera**. Los datos del INE para el segundo trimestre de 2025 indican que de los 49.315.949 habitantes en España, solo **7.050.174 tienen nacionalidad extranjera**, mientras que 42.265.775 cuentan con nacionalidad española [1]. Esto significa que **aproximadamente el 14.3% de la población residente en España posee nacionalidad extranjera**, una cifra significativamente inferior al 20% mencionado en la afirmación inicial [1]. Si bien la población nacida en el extranjero es mayor, como se señaló anteriormente, la nacionalidad es un factor clave en la definición de \"extranjero\" en muchos contextos estadísticos y legales. El peso de los descendientes de inmigrantes varía notablemente según la edad; por ejemplo, **entre los mayores de 30 años, apenas representan un 2% de la población** [2], lo que indica que el porcentaje general del 20% podría no aplicar uniformemente a todos los segmentos demográficos.\n\nEn conclusión, la afirmación \"Aproximadamente el 20% de la población española es de origen extranjero\" **puede considerarse verdadera, dependiendo de la definición de \"origen extranjero\" que se utilice**. Si se interpreta \"origen extranjero\" como **personas nacidas en el extranjero (independientemente de su nacionalidad actual)**, la cifra del **19.64%** según el INE para 2025 [1] está muy cerca del 20%. Si se adopta una definición más amplia que incluye a **personas nacidas en el extranjero y a sus descendientes de primera y segunda generación, el porcentaje asciende al 24,3% de la población residente en España** [2]. Sin embargo, si nos ceñimos estrictamente a la **nacionalidad extranjera**, el porcentaje es menor, aproximadamente el **14.3%** [1]. La afirmación es **verdadera si se considera la población nacida en el extranjero o la población con origen extranjero en un sentido más amplio**, siendo estas cifras superiores al 19%, y en el caso de la definición más amplia, superan el 24%.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://as.com/actualidad/sociedad/ni-marroquies-ni-venezolanos-esta-es-la-nacionalidad-con-mas-residentes-llegados-a-espana-en-2025-n/",
+            "source": "as.com",
+            "favicon": "https://static.as.com/dist/resources/images/favicon/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.funcas.es/prensa/casi-4-de-cada-10-menores-de-5-anos-en-espana-es-de-origen-extranjero/",
+            "source": "www.funcas.es",
+            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Aproximadamente el 20% de la población española es de origen extranjero",
+        "categories": [
+            "Demografía",
+            "Sociedad",
+            "Estadísticas"
+        ],
+        "label": "True",
+        "main_claim": "Aproximadamente el 20% de la población española es de origen extranjero es una afirmación verdadera.",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "google/gemini-2.5-pro",
+                "gen_searches_agent": "google/gemini-2.5-flash",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "google/gemini-2.5-flash",
+                "article_writer": "google/gemini-2.5-flash",
+                "metadata_agent": "google/gemini-2.5-flash",
+                "image_prompt": "google/gemini-2.5-flash",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "publico.es",
+                    "maldita.es",
+                    "uoc.edu",
+                    "gacetamedica.com",
+                    "ciencia.nasa.gov",
+                    "www-iaea-org.translate.goog",
+                    "theobjective.com",
+                    "realinstitutoelcano.org",
+                    "antena3.com",
+                    "vozpopuli.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "elplural.com",
+                    "nationalgeographic.com.es",
+                    "larazon.es",
+                    "efe.com",
+                    "lasexta.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ree.es",
+                    "cadenaser.com",
+                    "sjme.org",
+                    "lamoncloa.gob.es",
+                    "lavanguardia.com",
+                    "oftalmologos.org.ar",
+                    "hopkinsmedicine.org",
+                    "datosmacro.expansion.com",
+                    "abc.es",
+                    "rtve.es",
+                    "newtral.es",
+                    "jacc.org",
+                    "medlineplus.gov",
+                    "pmp.org.es",
+                    "observatoriodelalquiler.org",
+                    "xataka.com",
+                    "lefebvre.es",
+                    "albalactanciamaterna.org",
+                    "salud.nih.gov",
+                    "kidshealth.org",
+                    "observatoriodeladiscapacidad.info",
+                    "educaweb.com",
+                    "sistemaelectrico-ree.es",
+                    "es.weforum.org",
+                    "myfisioclinic.com",
+                    "verificat.cat",
+                    "primabiotic.es",
+                    "elconfidencial.com",
+                    "europapress.es",
+                    "masquemedicos.com",
+                    "instituteforenergyresearch.org",
+                    "infobae.com",
+                    "defensa.gob.es",
+                    "20minutos.es",
+                    "ec-europa-eu.translate.goog",
+                    "normoncontigo.normon.com",
+                    "huffingtonpost.es",
+                    "elblogsalmon.com",
+                    "nyc.gov",
+                    "who.int",
+                    "cincodias.elpais.com",
+                    "agrodiario.com",
+                    "elpais.com",
+                    "worldwildlife.org",
+                    "feminismo.maldita.es",
+                    "clinicaalemana.cl",
+                    "theconversation.com",
+                    "es.euronews.com",
+                    "caixabankresearch.com",
+                    "verifica.efe.com",
+                    "ine.es",
+                    "coches.net",
+                    "bankinter.com",
+                    "sepe.es"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0005486,
+                "total_run_time": 1.2380056160000095,
+                "average_cost_per_call": 0.0005486,
+                "average_time_per_call": 1.2380056160000095,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:29:46",
+                    "run_time": 1.2380056160000095,
+                    "cost": 0.0005486,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: \"official [topic] statistics 2025 government data\"\n- For controversial statements: \"[topic] expert analysis research studies\" + \"[topic] criticism opposing views\"\n- For recent events: \"[specific event] 2025 official statement news\"\n- For comparisons: \"[entity A] vs [entity B] comparison study data\"\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nAproximadamente el 20% de la población española es de origen extranjero\n\n**Critical Research Questions:**\n1. ¿Cuál es el porcentaje exacto de población con nacionalidad extranjera residente en España según los datos más recientes del Instituto Nacional de Estadística (INE) para 2025?\n2. ¿Qué porcentaje de la población total residente en España ha nacido en un país extranjero, independientemente de su nacionalidad actual, según el INE en 2025?\n3. ¿Qué análisis publican centros de investigación como Funcas o el Real Instituto Elcano sobre la composición demográfica de España por origen extranjero en 2024 o 2025?\n4. ¿Cómo se compara el porcentaje de población nacida en el extranjero en España con el de Alemania, Francia e Italia según los últimos informes de Eurostat?\n5. ¿Qué evidencia o datos contradicen la cifra del 20% de población de origen extranjero en España, considerando las diferentes definiciones de 'origen extranjero'?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"población extranjera nacionalidad españa INE 2025 datos oficiales\", \"población nacida extranjero españa INE 2025 informe\", \"composición demográfica España origen extranjero Funcas Real Instituto Elcano 2024 2025\", \"porcentaje población nacida extranjero España Alemania Francia Italia Eurostat 2025\", \"datos contradictorios porcentaje población origen extranjero España definición inexacta\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 22.17728746100147,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 22.17728746100147,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:30:08",
+                    "run_time": 22.17728746100147,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "población extranjera nacionalidad españa INE 2025 datos oficiales",
+                                "población nacida extranjero españa INE 2025 informe",
+                                "composición demográfica España origen extranjero Funcas Real Instituto Elcano 2024 2025",
+                                "porcentaje población nacida extranjero España Alemania Francia Italia Eurostat 2025",
+                                "datos contradictorios porcentaje población origen extranjero España definición inexacta"
+                            ],
+                            "results": {
+                                "población extranjera nacionalidad españa INE 2025 datos oficiales | población nacida extranjero españa INE 2025 informe | composición demográfica España origen extranjero Funcas Real Instituto Elcano 2024 2025 | porcentaje población nacida extranjero España Alemania Francia Italia Eurostat 2025 | datos contradictorios porcentaje población origen extranjero España definición inexacta": [
+                                    {
+                                        "text": "El número de extranjeros de esta nacionalidad aumenta significativamente cada trimestre al tiempo que caen los registros de nacidos en el país.\n\nLos datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.\n\nEl número de bebés nacidos en España disminuye con los años, mientras que la población extranjera va aumentando en el país. Según los últimos datos trimestrales de la Estadística Continua de Población (ECP) publicados por el INE, dentro de los 49.315.949 habitantes registrados que hay en el país, 42.265.775 cuentan con la nacionalidad española, mientras que los 7.050.174 restantes son extranjeros.\n\nLos resultados de la estadística han mostrado las tres nacionalidades con más llegadas registradas en el país en el primer semestre de 2025. En los dos primeros trimestres de este año han llegado a España un total de 75.900 ciudadanos de nacionalidad colombiana. En el primer trimestre se registraron un aumento de 39.800 inmigrantes y a partir del 1 de julio se registraron otras 36.100 llegadas.\n\nLa segunda nacionalidad con más llegadas este año a España es la marroquí, con 50.900 registradas. Según informa el INE, en el primer trimestre llegaron 25.900 marroquíes a territorio español y en el segundo trimestre se registraron otros 25.000 ciudadanos más. En tercer puesto se encuentra la nacionalidad venezolana, con 46.600 llegadas. En el primer trimestre se registró un aumento de 25.000 ciudadanos venezolanos, mientras que en esta segunda etapa se ha registrado la llegada de otros 21.600 ciudadanos de esta nacionalidad.\n\nAumento población en comunidades\n\nEspaña registra este año a 222.403 personas más, alcanzando los 49.315.949 habitantes. En este aumento de población se ha tenido en cuenta tanto la llegada de inmigrantes a suelo español como el nacimiento de bebés en las diferentes comunidades autónomas. Según la estadística publicada en el INE, durante este segundo cuatrimestres, todas las comunidades autónomas han presentado un aumento de llegadas y nacimientos en sus territorios, a excepción de Melilla.\n\nDestaca la Comunitat Valenciana con un aumento poblacional de 0,87% en este año. Durante el primer trimestre, su población aumentó un 0,37% respecto al cuatrimestre anterior y a partir del 1 de julio presentó un aumento del 0,50%. En los primeros meses del año, la Comunidad de Madrid y la Región de Murcia también presentaron un aumento poblacional en sus territorios.\n\nCon la llegada del verano estas cifras cambiaron. Si bien en el primer trimestre Extremadura, Ceuta y Baleares contaron como las únicas comunidades que presentaron una caída poblacional, en el segundo ambas vieron crecer este valor de nuevo. Durante esta época veraniega, Baleares, Aragón y la Comunitat Valenciana fueron las que mayor valor poblacional presentaron con respecto a los cuatrimestres pasados.\n\n¡Tus opiniones importan! Comenta en los artículos y suscríbete gratis a nuestra newsletter y a las alertas informativas en la App o el canal de WhatsApp. ¿Buscas licenciar contenido? Haz clic aquí",
+                                        "metadata": {
+                                            "url": "https://as.com/actualidad/sociedad/ni-marroquies-ni-venezolanos-esta-es-la-nacionalidad-con-mas-residentes-llegados-a-espana-en-2025-n/",
+                                            "source": "as.com",
+                                            "favicon": "https://static.as.com/dist/resources/images/favicon/favicon.ico",
+                                            "title": "Ni marroquíes ni venezolanos: esta es la nacionalidad con ...",
+                                            "type": "web_search",
+                                            "base_url": "https://as.com",
+                                            "snippet": "Ni marroquíes ni venezolanos: esta es la nacionalidad con más residentes llegados a España en 2025 · 9.686.214 habitantes nacidos en el ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "PANORAMA SOCIAL #41\n\nFecha: 10 septiembre 2025\n\nDescargar (formato PDF)\n\nUn tercio de la segunda generación procede de familias marroquíes, el doble que en la primera generación\n\n\n\nEn el mercado laboral, la asimilación de las mujeres de segunda generación es mejor que la de los hombres\n\n\n\nMadrid, 10/09/2025 | La inmigración ha dejado de ser un fenómeno coyuntural en España y se ha convertido en un componente estructural de la sociedad no solo por la magnitud de los flujos migratorios, sino también por la aparición y expansión de la llamada segunda generación de inmigrantes, esto es, personas nacidas en España pero con progenitores procedentes del extranjero. En 2024, su peso entre los más jóvenes era tal que el total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36% entre los menores de 20 años y el 39% entre los menores de 5, lo que sitúa a este colectivo como una pieza fundamental del futuro demográfico, social y político del país. El último número de Panorama Social, publicación editada por Funcas, ofrece una panorámica diversa y actualizada sobre la segunda generación de inmigrantes en España, su integración social, educativa, laboral, política y cultural.\n\nEn el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.\n\nAl centrar la mirada en la segunda generación, emerge un rasgo definitorio: diversidad en la procedencia de sus familias. Destaca el elevado peso que adquieren, en la segunda generación, quienes tienen dos progenitores de Marruecos, que alcanza un tercio del total (33%), proporción que duplica la de la primera generación (16%). Un patrón similar se observa en el caso del resto de países africanos, cuyo peso aumenta desde el 3% en la primera generación hasta el 7% en la segunda. En términos educativos, las madres de la segunda generación presentan, en general, un nivel inferior al de las de origen español, especialmente en los casos de madres marroquíes y africanas. En el otro extremo, las madres de Venezuela, de la UE15 o de Argentina presentan perfiles educativos mucho mejores. De hecho, en estos grupos, el nivel educativo medio de las madres iguala o incluso supera al de las madres nacidas en España.\n\nAlejandro Portes y Rosa Aparicio analizan la integración de los hijos de inmigrantes en España a partir del estudio ILSEG, que ha seguido a miles de jóvenes desde la adolescencia hasta la adultez temprana. Sus resultados muestran que los hijos de inmigrantes en España se dividen a partes iguales entre los que se autoidentifican como españoles (50%) y los que no (50%). La diferencia es clara entre los nacidos en España y los que llegaron del extranjero a una edad temprana. Entre los primeros (la segunda generación propiamente dicha), el 82% se identifica como españoles, porcentaje que cae al 40% entre los segundos.\n\nEl estudio también revela las brechas existentes en el ámbito educativo y laboral. Los hijos de nativos poseen una clara ventaja sobre los hijos de inmigrantes: mientras que el 28% de estos últimos había llegado a la universidad, la cifra entre los hijos de nativos alcanzó el 43%. Además, hay gran disparidad por nacionalidades: el 47% de jóvenes de padres argentinos y el 48% de los de venezolanos habían logrado alcanzar la universidad, pero solo el 19% de hijos de ecuatorianos y el 22% de filipinos tenían un nivel similar. También existen diferencias en logros ocupacionales en la adultez temprana. Solo el 18% de los hijos de inmigrantes había alcanzado ocupaciones no manuales como gerentes o profesionales en la adultez temprana, mientras que la cifra entre los hijos de nativos era del 27%. Las diferencias por origen nacional también son muy significativas. Por ejemplo, más del 30% de hijos de europeos occidentales había accedido ya a posiciones ocupacionales altas, mientras que la cifra para hijos de ecuatorianos fue de solo el 9% y, para los de filipinos, del 10%.\n\nJacobo Muñoz, en su artículo sobre mercado de trabajo, destaca tres conclusiones principales. En primer lugar, desde una perspectiva de género, observa que las mujeres de segunda generación logran una asimilación laboral más favorable en comparación con los hombres, acercándose en mayor medida a los resultados de la población autóctona. En segundo lugar, señala que la segunda generación de origen latinoamericano es la que, en general, tanto los hombres como las mujeres, alcanza mejores resultados en comparación con la primera generación. Por último, en lo que se refiere al nivel de la ocupación, en toda la segunda generación, sin distinción de sexo o región de origen, la probabilidad de escapar de la parte más baja de la estructura ocupacional es notablemente mayor que la de sus homólogos de primera generación. La mejora es tan pronunciada que, en algunos casos, la desigualdad de la segunda generación con respecto a la población autóctona prácticamente desaparece.\n\nHéctor Cebolla destaca que el efecto positivo de la preescolarización sobre el rendimiento en secundaria es menor para las segundas generaciones que para los hijos de autóctonos, una diferencia que podría estar vinculada a la desigual calidad de las escuelas infantiles que escolarizan a unos y otros. Llegados a secundaria, las puntuaciones en test cognitivos de ambos grupos de estudiantes también muestran una significativa desventaja para las segundas generaciones. Los peores resultados se pueden confirmar en matemáticas, ciencias y comprensión lectora. Por otra parte, mientras que los países de nuestro entorno tienen de media tasas de acceso a la universidad en sus segundas generaciones muy similares a las de los hijos de los autóctonos, o incluso por encima, en España, la segunda generación presenta tasas de acceso a la educación terciaria significativamente por debajo de las de los hijos de padres nacidos en España cuando el hogar no tiene un perfil educativo alto.\n\nClara Cortina, Albert Esteve y Anna Turu ponen el foco en las pautas de emparejamiento de la población de origen inmigrante en España, a partir de datos de la ECEPOV 2021. Observan que las uniones mixtas con personas autóctonas son más frecuentes entre los descendientes de inmigrantes que entre la primera generación, especialmente aquellos con mayor nivel educativo. Estas dinámicas se interpretan como indicadores de integración, aunque con importantes variaciones según el origen y el género. La primera generación registra los niveles más bajos de personas unidas con población autóctona, seguida por la 1,5 y, finalmente, por la segunda generación. Esto no impide que existan diferencias notables entre orígenes, siendo la población de origen africana y la asiática la que está menos emparejada con la población autóctona. La población de origen europeo y la americana es la que presenta una mayor frecuencia de emparejamientos con cónyuges nacidos en España de padres también nacidos en España.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/prensa/casi-4-de-cada-10-menores-de-5-anos-en-espana-es-de-origen-extranjero/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "Casi 4 de cada 10 menores de 5 años en España es de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total. Al ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La nueva herramienta de Eurostat explora el futuro demográfico de Europa\n\nLa edición de 2025 de Demografía de Europa de Eurostat ofrece información clave sobre las tendencias demográficas que dan forma a las agendas políticas nacionales y de la UE. Apoya la toma de decisiones informadas sobre desafíos como el envejecimiento, la migración y la reducción de la fuerza laboral.\n\nEsta edición de Demografía de Europa revela tendencias continuas como la disminución de las tasas de natalidad y el aumento de la longevidad, que en conjunto están remodelando los mercados laborales y los sistemas sociales. La migración también sigue siendo un factor crucial que influye en la dinámica de la población, con notables diferencias entre países.\n\nA continuación, se presenta un resumen de los puntos más relevantes, y algunos aspectos destacables de España:\n\nUna población en crecimiento\n\nLa población de la UE aumentó un 0,4%\n\nEl 1 de enero de 2024, había 449 millones de personas viviendo en la Unión Europea (UE), lo que representa un aumento del 0,4% con respecto a los 448 millones registrados el 1 de enero de 2023. Los países más poblados de la UE fueron:\n\nAlemania (83,4 millones, 19% del total de la UE)\n\nFrancia (68,4 millones, 15%)\n\nItalia (58,9 millones, 13%)\n\nEspaña (48,6 millones, 11%)\n\nPolonia (36,6 millones, 8%)\n\nLos mayores aumentos absolutos se registraron en Francia y España (ambos 6,1 millones), mientras que las mayores disminuciones absolutas se observaron en Rumania (−2,5 millones), Polonia (−1,6 millones) y Bulgaria (−1,3 millones).\n\nMás mujeres que hombres\n\n4,4% más de mujeres que hombres en la UE\n\nEl 1 de enero de 2024, había 229 millones de mujeres y 220 millones de hombres en la UE. Esto corresponde a una proporción de 104,4 mujeres por cada 100 hombres, lo que significa que había un 4,4 % más de mujeres que de hombres. Había más mujeres que hombres en todos los países de la UE, excepto Malta, Suecia, Luxemburgo y Eslovenia. La proporción más alta se registró en Letonia (15,5 % más de mujeres que de hombres).\n\nUna población que envejece\n\nLa proporción de personas mayores de 80 años aumentó del 3,8% al 6,1% entre 2004 y 2024\n\nEntre el 1 de enero de 2004 y el 1 de enero de 2024, la proporción de personas de 80 años o más aumentó en todos los países de la UE. A nivel de la UE, aumentó un 2,3 %. puntos porcentuales (pp), del 3,8% al 6,1%. Los mayores aumentos se registraron en Grecia (+3,2 pp, del 3,8% al 7,0%), Letonia (+3,2 pp, del 2,9% al 6,1%) y Portugal (también +3,2 pp, del 3,8% al 7,0%), y el menor en Suecia (+0,5 pp, del 5,3% al 5,8%).\n\nDurante el mismo período, la proporción de personas de 65 años o más también aumentó en todos los países de la UE. A nivel de la UE, el aumento fue de 5,2 puntos porcentuales, del 16,4 % al 21,6 %.\n\nLa proporción de personas menores de 15 años disminuyó del 16,2% al 14,6% entre 2004 y 2024\n\nDurante el período comprendido entre el 1 de enero de 2004 y el 1 de enero de 2024, la proporción de niños y adolescentes jóvenes(menores de 15 años) disminuyó en la UE en 1,6 puntos porcentuales, pasando del 16,2 % al 14,6 %.\n\nEdad media de la población en la UE: 44,7 años\n\nOtra forma de analizar el envejecimiento de la sociedad en la UE es observar la medianaEdad de la población. La mediana de edad aumentó 5,4 años, de 39,3 años en 2004 a 44,7 años en 2024 (el 1 de enero).\n\nEntre los países de la UE, la mediana de edad más alta el 1 de enero de 2024 se observó en Italia (48,7 años), seguida de Bulgaria y Portugal (47,1 años cada uno) y Grecia (46,9), mientras que las más bajas se registraron en Irlanda (39,4), Luxemburgo (39,7), Malta (39,8) y Chipre (40,6 años).\n\nCambio de población\n\nMadres mayores\n\n1,38 hijos por mujer en 2023\n\nEn 2023, la tasa global de fecundidad en la UE se situó en 1,38 nacidos vivos por mujer, una cifra inferior a la de 1,44 en 2003 y por debajo del nivel de reemplazo de 2,1, en el que una población se considera estable. Entre los países de la UE en 2023, Bulgaria (1,81 nacidos vivos por mujer) presentó la tasa global de fecundidad más alta, seguida de Francia (1,66) y Hungría (1,55). Las tasas más bajas se registraron en Malta (1,06), España (1,12) y Lituania (1,18).\n\nLa edad de las mujeres al tener su primer hijo aumenta a 29,8 años\n\nLa edad media de las madres primerizas en la UE ha aumentado un año, pasando de 28,8 en 2013 (primer año disponible) a 29,8 en 2023. Las madres primerizas de mayor edad se encontraron en Italia (31,8 años), Irlanda (31,6) y España (31,5), y las más jóvenes en Bulgaria (26,9), Rumanía (27,1) y Eslovaquia (27,3).\n\nDiversidad Poblacional\n\nInmigración y emigración\n\nEn 2023, casi 6 millones de inmigrantes internacionales\n\nEn 2023, 5,9 millones de personas inmigradoA países de la UE. De ellos, 4,9 millones procedían de países no pertenecientes a la UE y 1,1 millones de personas que residían previamente en un país de la UE migraron a otro.\n\nEn 2023, el mayor número de personas inmigrantes se registró en:\n\nAlemania (1.271.000 personas, el 21% de todos los inmigrantes en los países de la UE)\n\nEspaña (1 250 000, 21%)\n\nItalia (440 000, 7%)\n\nFrancia (418 000, 7%)\n\nCiudadanos de la UE\n\nCasi 14 millones de ciudadanos de la UE viven en otro país de la UE\n\nLos ciudadanos de la UE tienen libertad de circulación y residencia en los distintos países de la UE. El grupo más numeroso de ciudadanos de la UE que residían en otros países de la UE como extranjeros el 1 de enero de 2024 eran los ciudadanos rumanos (3,1 millones, el 22 % de los 13,9 millones de ciudadanos de la UE que vivían en otro país de la UE como extranjeros), seguidos de los ciudadanos italianos y polacos (ambos con 1,5 millones, el 11 %).\n\nEstado Civil\n\nMenos matrimonios\n\nEl número de matrimonios está disminuyendo\n\nEn 2023 se celebraron en la UE unos 1,8 millones de matrimonios, es decir, 4,0 matrimonios por cada 1 000 personas (la tasa bruta de matrimonio) Entre los países de la UE, las tasas de matrimonio más bajas se observaron en Eslovenia (3,0 matrimonios por cada 1.000 personas) e Italia (3,1), y las más altas en Rumanía (5,8) y Letonia (5,6).\n\nEdad media más elevada\n\nEn 2023, la edad media más elevada en el primer matrimonio se observó en España para las mujeres (36,9) y en Suecia para los hombres (37,0), y la más baja para las mujeres en Rumanía (28,3) y en Polonia para los hombres (30,8).\n\nEn comparación con 2003, la edad media al contraer el primer matrimonio ha aumentado en los 19 países de la UE con datos disponibles. Los mayores aumentos, de 8 años para las mujeres, se observaron en España (de 28,9 a 36,9) y de casi 7 años para los hombres en Portugal (de 28,1 a 35,0).\n\nExplore la publicación aquí: Demografía de Europa – Eurostat\n\nMás información\n\nDemografía de Europa 2025\n\nBase de datos sobre población y demografía\n\nBase de datos sobre migración internacional y ciudadanía\n\nAprovechamiento de la plataforma de talento",
+                                        "metadata": {
+                                            "url": "https://edcastillayleonrural.eu/demografia-de-europa-2025-de-eurostat/",
+                                            "source": "edcastillayleonrural.eu",
+                                            "favicon": "https://edcastillayleonrural.eu/wp-content/uploads/2021/05/cropped-horizontalnegro-32x32.png",
+                                            "title": "\"DEMOGRAFÍA DE EUROPA 2025\" DE EUROSTAT",
+                                            "type": "web_search",
+                                            "base_url": "https://edcastillayleonrural.eu",
+                                            "snippet": "Alemania (1.271.000 personas, el 21% de todos los inmigrantes en los países de la UE) · España (1 250 000, 21%) · Italia (440 000, 7%) · Francia ( ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.3317815999998857,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.3317815999998857,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:30:10",
+                    "run_time": 1.3317815999998857,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el porcentaje exacto de población con nacionalidad extranjera residente en España según los datos más recientes del Instituto Nacional de Estadística (INE) para 2025?": [
+                                {
+                                    "Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.": null
+                                },
+                                {
+                                    "En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.": null
+                                },
+                                {
+                                    "Madrid, 10/09/2025 | La inmigración ha dejado de ser un fenómeno coyuntural en España y se ha convertido en un componente estructural de la sociedad no solo por la magnitud de los flujos migratorios, sino también por la aparición y expansión de la llamada segunda generación de inmigrantes, esto es, personas nacidas en España pero con progenitores procedentes del extranjero. En 2024, su peso entre los más jóvenes era tal que el total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36% entre los menores de 20 años y el 39% entre los menores de 5, lo que sitúa a este colectivo como una pieza fundamental del futuro demográfico, social y político del país. El último número de Panorama Social, publicación editada por Funcas, ofrece una panorámica diversa y actualizada sobre la segunda generación de inmigrantes en España, su integración social, educativa, laboral, política y cultural.": null
+                                }
+                            ],
+                            "¿Qué porcentaje de la población total residente en España ha nacido en un país extranjero, independientemente de su nacionalidad actual, según el INE en 2025?": [
+                                {
+                                    "Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.": null
+                                },
+                                {
+                                    "Madrid, 10/09/2025 | La inmigración ha dejado de ser un fenómeno coyuntural en España y se ha convertido en un componente estructural de la sociedad no solo por la magnitud de los flujos migratorios, sino también por la aparición y expansión de la llamada segunda generación de inmigrantes, esto es, personas nacidas en España pero con progenitores procedentes del extranjero. En 2024, su peso entre los más jóvenes era tal que el total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36% entre los menores de 20 años y el 39% entre los menores de 5, lo que sitúa a este colectivo como una pieza fundamental del futuro demográfico, social y político del país. El último número de Panorama Social, publicación editada por Funcas, ofrece una panorámica diversa y actualizada sobre la segunda generación de inmigrantes en España, su integración social, educativa, laboral, política y cultural.": null
+                                },
+                                {
+                                    "En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.": null
+                                }
+                            ],
+                            "¿Qué análisis publican centros de investigación como Funcas o el Real Instituto Elcano sobre la composición demográfica de España por origen extranjero en 2024 o 2025?": [
+                                {
+                                    "Madrid, 10/09/2025 | La inmigración ha dejado de ser un fenómeno coyuntural en España y se ha convertido en un componente estructural de la sociedad no solo por la magnitud de los flujos migratorios, sino también por la aparición y expansión de la llamada segunda generación de inmigrantes, esto es, personas nacidas en España pero con progenitores procedentes del extranjero. En 2024, su peso entre los más jóvenes era tal que el total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36% entre los menores de 20 años y el 39% entre los menores de 5, lo que sitúa a este colectivo como una pieza fundamental del futuro demográfico, social y político del país. El último número de Panorama Social, publicación editada por Funcas, ofrece una panorámica diversa y actualizada sobre la segunda generación de inmigrantes en España, su integración social, educativa, laboral, política y cultural.": null
+                                },
+                                {
+                                    "Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.": null
+                                },
+                                {
+                                    "En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.": null
+                                }
+                            ],
+                            "¿Cómo se compara el porcentaje de población nacida en el extranjero en España con el de Alemania, Francia e Italia según los últimos informes de Eurostat?": [
+                                {
+                                    "El número de bebés nacidos en España disminuye con los años, mientras que la población extranjera va aumentando en el país. Según los últimos datos trimestrales de la Estadística Continua de Población (ECP) publicados por el INE, dentro de los 49.315.949 habitantes registrados que hay en el país, 42.265.775 cuentan con la nacionalidad española, mientras que los 7.050.174 restantes son extranjeros.": null
+                                },
+                                {
+                                    "Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.": null
+                                },
+                                {
+                                    "En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.": null
+                                }
+                            ],
+                            "¿Qué evidencia o datos contradicen la cifra del 20% de población de origen extranjero en España, considerando las diferentes definiciones de 'origen extranjero'?": [
+                                {
+                                    "En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.": null
+                                },
+                                {
+                                    "Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.": null
+                                },
+                                {
+                                    "El número de bebés nacidos en España disminuye con los años, mientras que la población extranjera va aumentando en el país. Según los últimos datos trimestrales de la Estadística Continua de Población (ECP) publicados por el INE, dentro de los 49.315.949 habitantes registrados que hay en el país, 42.265.775 cuentan con la nacionalidad española, mientras que los 7.050.174 restantes son extranjeros.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0028972000000000004,
+                "total_run_time": 5.0923120869993,
+                "average_cost_per_call": 0.0028972000000000004,
+                "average_time_per_call": 5.0923120869993,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:30:16",
+                    "run_time": 5.0923120869993,
+                    "cost": 0.0028972000000000004,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nAproximadamente el 20% de la población española es de origen extranjero\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el porcentaje exacto de población con nacionalidad extranjera residente en España según los datos más recientes del Instituto Nacional de Estadística (INE) para 2025?\n¿Qué porcentaje de la población total residente en España ha nacido en un país extranjero, independientemente de su nacionalidad actual, según el INE en 2025?\n¿Qué análisis publican centros de investigación como Funcas o el Real Instituto Elcano sobre la composición demográfica de España por origen extranjero en 2024 o 2025?\n¿Cómo se compara el porcentaje de población nacida en el extranjero en España con el de Alemania, Francia e Italia según los últimos informes de Eurostat?\n¿Qué evidencia o datos contradicen la cifra del 20% de población de origen extranjero en España, considerando las diferentes definiciones de 'origen extranjero'?\n\n3. Here are the text sources you should use as your source of information:\n[0] Los datos proporcionados por el Instituto Nacional de Estadística (INE) muestran un aumento significativo de residentes en España. Con 49.315.949 de habitantes en el país, el número de extranjeros ha ido aumentando en los dos primeros trimestres de este 2025. En la actualidad, España cuenta con 9.686.214 habitantes nacidos en el extranjero, dentro de los cuales se encuentran tanto los de nacionalidad extranjera como los que han recibido posteriormente la nacionalidad española.\n[0] El número de bebés nacidos en España disminuye con los años, mientras que la población extranjera va aumentando en el país. Según los últimos datos trimestrales de la Estadística Continua de Población (ECP) publicados por el INE, dentro de los 49.315.949 habitantes registrados que hay en el país, 42.265.775 cuentan con la nacionalidad española, mientras que los 7.050.174 restantes son extranjeros.\n[1] En el monográfico, titulado “De hijos de inmigrantes a protagonistas sociales: la segunda generación en España” y coordinado por Jacobo Muñoz, el artículo de María Miyar ofrece una radiografía de los descendientes de inmigrantes en España. Su peso en la población varía notablemente según la edad: entre los mayores de 30 años apenas representan un 2%, mientras que entre los menores de 20 años alcanzan el 33%. La mayoría pertenece a la segunda generación —nacidos en España con dos progenitores nacidos en el extranjero— que supone el 17% del total. A ellos se suman la generación 2,5 —nacidos en España con un solo progenitor nacido fuera— con un 9%, y la generación 1,5 —nacidos en el extranjero que llegaron antes de los 11 años—. Si se contabilizan junto a la primera generación, entre los menores de 20 años la población de origen extranjero asciende ya al 36%. El panorama es aún más destacado en la primera infancia: entre los menores de 5 años, un 25% pertenece a la segunda generación, un 10% a la generación 2,5 y un 4% a la generación 1,5, lo que eleva al 39% la proporción de niños pequeños con origen extranjero. En conjunto, la población residente en España con origen extranjero supera los 11,7 millones de personas, es decir, el 24,3% del total.\n[1] Madrid, 10/09/2025 | La inmigración ha dejado de ser un fenómeno coyuntural en España y se ha convertido en un componente estructural de la sociedad no solo por la magnitud de los flujos migratorios, sino también por la aparición y expansión de la llamada segunda generación de inmigrantes, esto es, personas nacidas en España pero con progenitores procedentes del extranjero. En 2024, su peso entre los más jóvenes era tal que el total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36% entre los menores de 20 años y el 39% entre los menores de 5, lo que sitúa a este colectivo como una pieza fundamental del futuro demográfico, social y político del país. El último número de Panorama Social, publicación editada por Funcas, ofrece una panorámica diversa y actualizada sobre la segunda generación de inmigrantes en España, su integración social, educativa, laboral, política y cultural.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Aproximadamente el 20% de la población española es de origen extranjero"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "Hay **evidencia que sustenta la idea de que la población de origen extranjero en España podría aproximarse al 20% o incluso superarlo, dependiendo de la definición utilizada**. Según el INE en 2025, el **número total de habitantes nacidos en el extranjero, incluyendo tanto a aquellos con nacionalidad extranjera como a los que han adquirido la nacionalidad española posteriormente, es de 9.686.214, lo que representa aproximadamente el 19.64% de la población total de 49.315.949** [0]. Si se considera la población residente en España con origen extranjero en un sentido más amplio, incluyendo a la **primera generación, segunda generación (nacidos en España con dos progenitores extranjeros), la generación 2,5 (nacidos en España con un progenitor extranjero) y la generación 1,5 (nacidos en el extranjero que llegaron antes de los 11 años), esta cifra asciende a más de 11,7 millones de personas o el 24,3% del total** [1]. Además, centrando el análisis en grupos de edad específicos, como los menores de 20 años en 2024, el **total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36%**, y entre los **menores de 5 años, esta proporción se eleva al 39%** [1]. La segunda generación, **nacida en España con progenitores extranjeros, representa el 17% entre los menores de 20 años**, a lo que se suma la generación 2,5 con un 9% y la generación 1,5, lo que eleva el total a un 36% para este grupo de edad [1]. Para los **menores de 5 años, la segunda generación representa el 25%**, la generación 2,5 el 10% y la generación 1,5 el 4%, sumando un 39% de niños pequeños con origen extranjero [1].\n\nPor otro lado, **hay información que sugiere que el porcentaje del 20% podría ser una sobreestimación si solo se considera a la población con nacionalidad extranjera**. Los datos del INE para el segundo trimestre de 2025 indican que de los 49.315.949 habitantes en España, solo **7.050.174 tienen nacionalidad extranjera**, mientras que 42.265.775 cuentan con nacionalidad española [0]. Esto significa que **aproximadamente el 14.3% de la población residente en España posee nacionalidad extranjera**, una cifra significativamente inferior al 20% mencionado en la afirmación inicial [0]. Si bien la población nacida en el extranjero es mayor, como se señaló anteriormente, la nacionalidad es un factor clave en la definición de \"extranjero\" en muchos contextos estadísticos y legales. El peso de los descendientes de inmigrantes varía notablemente según la edad; por ejemplo, **entre los mayores de 30 años, apenas representan un 2% de la población** [1], lo que indica que el porcentaje general del 20% podría no aplicar uniformemente a todos los segmentos demográficos.\n\nEn conclusión, la afirmación \"Aproximadamente el 20% de la población española es de origen extranjero\" **puede considerarse verdadera, dependiendo de la definición de \"origen extranjero\" que se utilice**. Si se interpreta \"origen extranjero\" como **personas nacidas en el extranjero (independientemente de su nacionalidad actual)**, la cifra del **19.64%** según el INE para 2025 [0] está muy cerca del 20%. Si se adopta una definición más amplia que incluye a **personas nacidas en el extranjero y a sus descendientes de primera y segunda generación, el porcentaje asciende al 24,3% de la población residente en España** [1]. Sin embargo, si nos ceñimos estrictamente a la **nacionalidad extranjera**, el porcentaje es menor, aproximadamente el **14.3%** [0]. La afirmación es **verdadera si se considera la población nacida en el extranjero o la población con origen extranjero en un sentido más amplio**, siendo estas cifras superiores al 19%, y en el caso de la definición más amplia, superan el 24%."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0008563,
+                "total_run_time": 0.9864367119989765,
+                "average_cost_per_call": 0.0008563,
+                "average_time_per_call": 0.9864367119989765,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:30:17",
+                    "run_time": 0.9864367119989765,
+                    "cost": 0.0008563,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Aproximadamente el 20% de la población española es de origen extranjero\nArticle: Hay **evidencia que sustenta la idea de que la población de origen extranjero en España podría aproximarse al 20% o incluso superarlo, dependiendo de la definición utilizada**. Según el INE en 2025, el **número total de habitantes nacidos en el extranjero, incluyendo tanto a aquellos con nacionalidad extranjera como a los que han adquirido la nacionalidad española posteriormente, es de 9.686.214, lo que representa aproximadamente el 19.64% de la población total de 49.315.949** [0]. Si se considera la población residente en España con origen extranjero en un sentido más amplio, incluyendo a la **primera generación, segunda generación (nacidos en España con dos progenitores extranjeros), la generación 2,5 (nacidos en España con un progenitor extranjero) y la generación 1,5 (nacidos en el extranjero que llegaron antes de los 11 años), esta cifra asciende a más de 11,7 millones de personas o el 24,3% del total** [1]. Además, centrando el análisis en grupos de edad específicos, como los menores de 20 años en 2024, el **total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36%**, y entre los **menores de 5 años, esta proporción se eleva al 39%** [1]. La segunda generación, **nacida en España con progenitores extranjeros, representa el 17% entre los menores de 20 años**, a lo que se suma la generación 2,5 con un 9% y la generación 1,5, lo que eleva el total a un 36% para este grupo de edad [1]. Para los **menores de 5 años, la segunda generación representa el 25%**, la generación 2,5 el 10% y la generación 1,5 el 4%, sumando un 39% de niños pequeños con origen extranjero [1].\n\nPor otro lado, **hay información que sugiere que el porcentaje del 20% podría ser una sobreestimación si solo se considera a la población con nacionalidad extranjera**. Los datos del INE para el segundo trimestre de 2025 indican que de los 49.315.949 habitantes en España, solo **7.050.174 tienen nacionalidad extranjera**, mientras que 42.265.775 cuentan con nacionalidad española [0]. Esto significa que **aproximadamente el 14.3% de la población residente en España posee nacionalidad extranjera**, una cifra significativamente inferior al 20% mencionado en la afirmación inicial [0]. Si bien la población nacida en el extranjero es mayor, como se señaló anteriormente, la nacionalidad es un factor clave en la definición de \"extranjero\" en muchos contextos estadísticos y legales. El peso de los descendientes de inmigrantes varía notablemente según la edad; por ejemplo, **entre los mayores de 30 años, apenas representan un 2% de la población** [1], lo que indica que el porcentaje general del 20% podría no aplicar uniformemente a todos los segmentos demográficos.\n\nEn conclusión, la afirmación \"Aproximadamente el 20% de la población española es de origen extranjero\" **puede considerarse verdadera, dependiendo de la definición de \"origen extranjero\" que se utilice**. Si se interpreta \"origen extranjero\" como **personas nacidas en el extranjero (independientemente de su nacionalidad actual)**, la cifra del **19.64%** según el INE para 2025 [0] está muy cerca del 20%. Si se adopta una definición más amplia que incluye a **personas nacidas en el extranjero y a sus descendientes de primera y segunda generación, el porcentaje asciende al 24,3% de la población residente en España** [1]. Sin embargo, si nos ceñimos estrictamente a la **nacionalidad extranjera**, el porcentaje es menor, aproximadamente el **14.3%** [0]. La afirmación es **verdadera si se considera la población nacida en el extranjero o la población con origen extranjero en un sentido más amplio**, siendo estas cifras superiores al 19%, y en el caso de la definición más amplia, superan el 24%.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Aproximadamente el 20% de la población española es de origen extranjero\nArticle: Hay **evidencia que sustenta la idea de que la población de origen extranjero en España podría aproximarse al 20% o incluso superarlo, dependiendo de la definición utilizada**. Según el INE en 2025, el **número total de habitantes nacidos en el extranjero, incluyendo tanto a aquellos con nacionalidad extranjera como a los que han adquirido la nacionalidad española posteriormente, es de 9.686.214, lo que representa aproximadamente el 19.64% de la población total de 49.315.949** [0]. Si se considera la población residente en España con origen extranjero en un sentido más amplio, incluyendo a la **primera generación, segunda generación (nacidos en España con dos progenitores extranjeros), la generación 2,5 (nacidos en España con un progenitor extranjero) y la generación 1,5 (nacidos en el extranjero que llegaron antes de los 11 años), esta cifra asciende a más de 11,7 millones de personas o el 24,3% del total** [1]. Además, centrando el análisis en grupos de edad específicos, como los menores de 20 años en 2024, el **total de población con origen extranjero (nacido fuera de España o con al menos un progenitor inmigrante) alcanzó el 36%**, y entre los **menores de 5 años, esta proporción se eleva al 39%** [1]. La segunda generación, **nacida en España con progenitores extranjeros, representa el 17% entre los menores de 20 años**, a lo que se suma la generación 2,5 con un 9% y la generación 1,5, lo que eleva el total a un 36% para este grupo de edad [1]. Para los **menores de 5 años, la segunda generación representa el 25%**, la generación 2,5 el 10% y la generación 1,5 el 4%, sumando un 39% de niños pequeños con origen extranjero [1].\n\nPor otro lado, **hay información que sugiere que el porcentaje del 20% podría ser una sobreestimación si solo se considera a la población con nacionalidad extranjera**. Los datos del INE para el segundo trimestre de 2025 indican que de los 49.315.949 habitantes en España, solo **7.050.174 tienen nacionalidad extranjera**, mientras que 42.265.775 cuentan con nacionalidad española [0]. Esto significa que **aproximadamente el 14.3% de la población residente en España posee nacionalidad extranjera**, una cifra significativamente inferior al 20% mencionado en la afirmación inicial [0]. Si bien la población nacida en el extranjero es mayor, como se señaló anteriormente, la nacionalidad es un factor clave en la definición de \"extranjero\" en muchos contextos estadísticos y legales. El peso de los descendientes de inmigrantes varía notablemente según la edad; por ejemplo, **entre los mayores de 30 años, apenas representan un 2% de la población** [1], lo que indica que el porcentaje general del 20% podría no aplicar uniformemente a todos los segmentos demográficos.\n\nEn conclusión, la afirmación \"Aproximadamente el 20% de la población española es de origen extranjero\" **puede considerarse verdadera, dependiendo de la definición de \"origen extranjero\" que se utilice**. Si se interpreta \"origen extranjero\" como **personas nacidas en el extranjero (independientemente de su nacionalidad actual)**, la cifra del **19.64%** según el INE para 2025 [0] está muy cerca del 20%. Si se adopta una definición más amplia que incluye a **personas nacidas en el extranjero y a sus descendientes de primera y segunda generación, el porcentaje asciende al 24,3% de la población residente en España** [1]. Sin embargo, si nos ceñimos estrictamente a la **nacionalidad extranjera**, el porcentaje es menor, aproximadamente el **14.3%** [0]. La afirmación es **verdadera si se considera la población nacida en el extranjero o la población con origen extranjero en un sentido más amplio**, siendo estas cifras superiores al 19%, y en el caso de la definición más amplia, superan el 24%."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Aproximadamente el 20% de la población española es de origen extranjero\", \"categories\": [\"Demografía\", \"Sociedad\", \"Estadísticas\"], \"label\": \"True\", \"main_claim\": \"Aproximadamente el 20% de la población española es de origen extranjero es una afirmación verdadera.\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.0404396,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "google/gemini-2.5-pro",
+                    "gen_searches_agent": "google/gemini-2.5-flash",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "google/gemini-2.5-flash",
+                    "article_writer": "google/gemini-2.5-flash",
+                    "metadata_agent": "google/gemini-2.5-flash",
+                    "image_prompt": "google/gemini-2.5-flash",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "publico.es",
+                        "maldita.es",
+                        "uoc.edu",
+                        "gacetamedica.com",
+                        "ciencia.nasa.gov",
+                        "www-iaea-org.translate.goog",
+                        "theobjective.com",
+                        "realinstitutoelcano.org",
+                        "antena3.com",
+                        "vozpopuli.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "elplural.com",
+                        "nationalgeographic.com.es",
+                        "larazon.es",
+                        "efe.com",
+                        "lasexta.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ree.es",
+                        "cadenaser.com",
+                        "sjme.org",
+                        "lamoncloa.gob.es",
+                        "lavanguardia.com",
+                        "oftalmologos.org.ar",
+                        "hopkinsmedicine.org",
+                        "datosmacro.expansion.com",
+                        "abc.es",
+                        "rtve.es",
+                        "newtral.es",
+                        "jacc.org",
+                        "medlineplus.gov",
+                        "pmp.org.es",
+                        "observatoriodelalquiler.org",
+                        "xataka.com",
+                        "lefebvre.es",
+                        "albalactanciamaterna.org",
+                        "salud.nih.gov",
+                        "kidshealth.org",
+                        "observatoriodeladiscapacidad.info",
+                        "educaweb.com",
+                        "sistemaelectrico-ree.es",
+                        "es.weforum.org",
+                        "myfisioclinic.com",
+                        "verificat.cat",
+                        "primabiotic.es",
+                        "elconfidencial.com",
+                        "europapress.es",
+                        "masquemedicos.com",
+                        "instituteforenergyresearch.org",
+                        "infobae.com",
+                        "defensa.gob.es",
+                        "20minutos.es",
+                        "ec-europa-eu.translate.goog",
+                        "normoncontigo.normon.com",
+                        "huffingtonpost.es",
+                        "elblogsalmon.com",
+                        "nyc.gov",
+                        "who.int",
+                        "cincodias.elpais.com",
+                        "agrodiario.com",
+                        "elpais.com",
+                        "worldwildlife.org",
+                        "feminismo.maldita.es",
+                        "clinicaalemana.cl",
+                        "theconversation.com",
+                        "es.euronews.com",
+                        "caixabankresearch.com",
+                        "verifica.efe.com",
+                        "ine.es",
+                        "coches.net",
+                        "bankinter.com",
+                        "sepe.es"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

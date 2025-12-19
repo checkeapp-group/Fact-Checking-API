@@ -1,0 +1,572 @@
+{
+    "question": "Los países de mayoría musulmana no acogen a refugiados",
+    "answer": "A primera vista, parece que la afirmación podría estar apoyada por el hecho de que solo cuatro países europeos están entre los quince primeros países receptores de refugiados, y que la mayoría de los refugiados son acogidos por países vecinos con costumbres similares a las suyas. **Según el texto** [1] **, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas**. Esto sugiere que los países de mayoría musulmana podrían no ser los principales destinos de los refugiados.\n\nAdemás, el texto [1] menciona que Turquía, aunque signataria de la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, **solo ofrece asilo a refugiados europeos**, lo que podría indicar que no acoge a refugiados de otros lugares.\n\nSin embargo, también hay evidencia que sugiere que los países de mayoría musulmana si acogen a refugiados. **Según el texto** [1] **, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano**, lo que indica que el país ha acogido a un gran número de refugiados. Además, el texto [1] menciona que Jordania y otros países de mayoría musulmana han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, lo que sugiere que están comprometidos con la protección de los refugiados.\n\nEn conclusión, la afirmación \"Los países de mayoría musulmana no acogen a refugiados\" no es entirely cierta. **Mientras que hay evidencia de que algunos países de mayoría musulmana no acogen a refugiados europeos, también hay evidencia de que otros países de mayoría musulmana han acogido a un gran número de refugiados**. La situación es más compleja de lo que inicialmente podría parecer, y es necesario considerar los diferentes contextos y políticas de cada país antes de llegar a conclusiones generales. **La afirmación es falsa**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://elordenmundial.com/mapas-y-graficos/paises-receptores-refugiados/",
+            "source": "elordenmundial.com",
+            "favicon": "https://elordenmundial.com/wp-content/uploads/2018/04/cropped-logo-sq-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los países de mayoría musulmana no acogen a refugiados",
+        "categories": [
+            "Política",
+            "Internacional",
+            "Noticias"
+        ],
+        "label": "Fake",
+        "main_claim": "Los países de mayoría musulmana sí acogen a refugiados",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.4677452760006418,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.4677452760006418,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:35:58",
+                    "run_time": 2.4677452760006418,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos países de mayoría musulmana no acogen a refugiados\n\n**Critical Research Questions:**\n1. ¿Cuál es el número de refugiados acogidos por países de mayoría musulmana en 2025, según la ONU?\n2. ¿Cómo compara la acogida de refugiados en países de mayoría musulmana con otros países no musulmanes, según la UNHCR?\n3. ¿Qué opinan los líderes políticos y funcionarios de países de mayoría musulmana sobre la cuestión de la acogida de refugiados?\n4. ¿Qué perspectivas diferentes ofrecen organizaciones no gubernamentales y activistas sobre la acogida de refugiados en países de mayoría musulmana?\n5. ¿Cuál ha sido la evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"número de refugiados acogidos por países de mayoría musulmana 2025 ONU\", \"acogida de refugiados en países de mayoría musulmana vs otros países no musulmanes UNHCR informe\", \"opinión de líderes políticos y funcionarios sobre acogida de refugiados en países de mayoría musulmana\", \"perspectivas de organizaciones no gubernamentales sobre acogida de refugiados en países de mayoría musulmana\", \"evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.505520222999621,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.505520222999621,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:36:01",
+                    "run_time": 2.505520222999621,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "número de refugiados acogidos por países de mayoría musulmana 2025 ONU",
+                                "acogida de refugiados en países de mayoría musulmana vs otros países no musulmanes UNHCR informe",
+                                "opinión de líderes políticos y funcionarios sobre acogida de refugiados en países de mayoría musulmana",
+                                "perspectivas de organizaciones no gubernamentales sobre acogida de refugiados en países de mayoría musulmana",
+                                "evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025"
+                            ],
+                            "results": {
+                                "número de refugiados acogidos por países de mayoría musulmana 2025 ONU | acogida de refugiados en países de mayoría musulmana vs otros países no musulmanes UNHCR informe | opinión de líderes políticos y funcionarios sobre acogida de refugiados en países de mayoría musulmana | perspectivas de organizaciones no gubernamentales sobre acogida de refugiados en países de mayoría musulmana | evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025": [
+                                    {
+                                        "text": "When you use our sites and apps, we use cookies to:\n\nAccept all', we and If you click '', we and our partners , including 237 who are part of the IAB Transparency & Consent Framework, will also store and/or access information on a device (in other words, use cookies) and use precise geolocation data and other personal data such as IP address and browsing and search data, for analytics, personalized advertising and content, advertising and content measurement, and audience research and services development.\n\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\n\nIf you would like to customise your choices, click 'Manage privacy settings'.\n\nYou can withdraw your consent or change your choices at any time by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps. Find out more about how we use your personal data in our privacy policy and cookie policy.",
+                                        "metadata": {
+                                            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_19f956de-6fd3-4daa-970e-47d235415869",
+                                            "source": "es-us.noticias.yahoo.com",
+                                            "favicon": "https://s.yimg.com/oa/build/images/favicons/yahoo.png",
+                                            "title": "Euroverify: ¿Son la inmensa mayoría de los refugiados del ...",
+                                            "type": "web_search",
+                                            "base_url": "https://es-us.noticias.yahoo.com",
+                                            "snippet": "Además, había 73,5 millones de personas desplazadas dentro de las fronteras de sus propios países (desplazados internos) y 8,4 millones de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Karam, Momtazul, Asha, Florence y Um Ahmad, son algunas de las más de 123,2 millones de personas desplazadas a la fuerza en el mundo\n\nMadrid, 17 de junio de 2025: Cada 20 de junio se celebra el Día Mundial de los Refugiados, para resaltar los derechos y las necesidades de las personas forzadas a huir: personas desplazadas internas, solicitantes de asilo y refugiadas. A menudo son las más ignoradas y olvidadas, y también las más propensas a sufrir inseguridad alimentaria y hambre.\n\nSegún ACNUR, a mediados de 2024, 123,2 millones de personas estaban desplazadas forzosamente en el mundo. Los conflictos armados, la violencia, los desastres naturales y la inestabilidad política provocan que millones de personas en el mundo tengan que abandonar sus hogares para sobrevivir. El cambio climático juega un papel clave en el desplazamiento de personas.\n\nEl tema del Día Mundial del Refugiado 2025: Solidaridad con las personas refugiadas\n\nLas personas desplazadas a la fuerza son personas de todas las edades, religiones y orígenes; son madres, padres, hijas, hijos, estudiantes, agricultores, ganaderos, artistas, médicos o profesores. Y todas comparten las mismas esperanzas y sueños que el resto: vivir en paz, estar seguras y tener medios de vida para poder dar un futuro digno a sus familias.\n\nDesde todas las partes del mundo es nuestro deber apoyar a las personas refugiadas y pedir protección para aquellas que se han visto obligados a desplazarse. Esto exige escucharles y contar sus historias. Con este objetivo, el Comité de Emergencia Español quiere poner nombre a algunas de las millones de historias de personas que han tenido que huir. Gracias al trabajo que realizan las ONG que integran esta alianza, Aldeas Infantiles SOS, Educo, Médicos del Mundo, Oxfam Intermón, Plan International y World Vision, podemos acercarnos a algunas de ellas:\n\nAldeas Infantiles SOS: Karam (nombre ficticio) ha sobrevivido a desplazamientos internos continuados desde su nacimiento, en abril de 2024. A su madre la hirieron y murió durante el parto, así que apenas había cumplido un día de vida cuando un equipo de rescate lo llevó a la Aldea Infantil SOS de Rafah, en la Franja de Gaza. Como ningún miembro de su familia estaba vivo, las autoridades locales decidieron que Aldeas Infantiles SOS cuidase de él.\n\nKaram es uno de los 46 niños y niñas que viven en el campamento de Aldeas Infantiles SOS en Al Mawasi, cerca de Khan Younis, al sur de la Franja. Todos ellos son víctimas de los desplazamientos internos causados por la guerra en Gaza, como otros 1,9 millones de personas, el 90 % del total de la población. Desde octubre de 2023, al menos 17.000 niños y niñas han muerto y más de 26.000 han resultado heridos. Además, 39.384 han perdido a uno o ambos progenitores.\n\nDesde su campamento temporal, el trabajo de Aldeas Infantiles SOS no solo se centra en cubrir sus necesidades básicas: incluye apoyo psicosocial, atención al trauma, búsqueda de familiares y actividades educativas y lúdicas. Además, la organización de atención directa a la infancia se esfuerza para que los niños y niñas crezcan rodeados de cariño y atención incluso en los contextos más hostiles, lo que ayuda a mantener la esperanza colectiva. «Su primer cumpleaños fue como un festival. Bailamos, cocinamos y cantamos juntos. No solo estábamos celebrando su vida, también la fuerza de nuestra comunidad», explica su cuidadora, Basma.\n\nEduco: Momtazul tenía 10 años cuando llegó al campo de refugiados de Cox’s Bazar, en Bangladesh. Él y su familia forman parte de la etnia minoritaria musulmana de los rohingya y tuvieron que salir huyendo de Myanmar cuando los militares atacaron su aldea. “Cuando llegaron, torturaron a los hombres más jóvenes y a los adultos y después los mataron. Una noche, a la hora de la cena, los militares vinieron a casa y nos atacaron. Mi familia y yo lo dejamos todo y empezamos a correr y correr”. Tras siete días, consiguieron llegar a la frontera. “Después tuvimos que esperar cuatro meses hasta que pudimos entrar a Cox’s Bazar, donde nos dieron comida y refugio”.\n\nMomtazul forma parte de los proyectos que Educo lleva a cabo en el campo de refugiados. Además de cubrir las necesidades más básicas, la organización desarrolla programas de educación para los niños, niñas, adolescentes y jóvenes que viven allí. “El derecho a la educación es el primero que pierde la infancia refugiada o que vive una situación de emergencia y el último que recupera. Esto tiene un impacto enorme. Dejan la escuela porque tienen que huir para salvar sus vidas pero muchos y muchas no vuelven a estudiar nunca más, lo que supone aumentar el riesgo de ser víctimas de violencias como el trabajo infantil o los matrimonios forzosos”, explica Paula San Pedro de Urquiza, coordinadora de Incidencia Política de Educo.\n\nOxfam Intermón: Asha vivía en Jartum, la capital de Sudán, como cualquier otra niña de su edad: le encantaba ir a la escuela, jugar con sus hermanos y sus primos, ver dibujos animados en la televisión y charlar con sus amigas por teléfono. Pero un día estalló la guerra en su ciudad y su vida cambió para siempre. Ya no había comida, ni electricidad, ni agua y todas las escuelas tuvieron que cerrar.\n\nPara Asha, la ciudad donde había sido siempre feliz, se convirtió de repente en una pesadilla. Tras dos meses de violencia y temiendo todos los días por sus vidas, su familia tomó la difícil decisión de abandonar la ciudad donde siempre habían vivido. Dejaron atrás todo lo que tenían y huyeron solo con una pequeña muda de ropa hacia Renk, un centro de acogida en el vecino país de Sudán del Sur. «Huir de casa fue horrible, pero no podíamos hacer otra cosa», contó Asha.\n\nLa historia de Asha y su familia es parecida a la de las más de 1.000 personas que llegan cada día a campos como el de Renk. La mayoría son mujeres, niños y niñas que vienen sin nada, hambrientos y deshidratados tras un largo y peligroso viaje. Aquí se ven obligados a vivir en tiendas improvisadas construidas con palos y trozos colgados de ropa. No tienen camas y duermen al aire libre en colchonetas finas como el papel, en campos superpoblados que están teniendo que acoger a cinco veces más personas de su capacidad.\n\nEn los centros de acogida como este, disponer de suficiente agua limpia y alimentos es crucial para la supervivencia de miles de familias. Desde Oxfam Intermón, junto a nuestros socios locales, hemos proporcionado agua potable y saneamiento para más de 110.000 personas desde mayo de 2023 hasta agosto de 2024. Nuestros equipos también están construyendo letrinas y duchas y entregando kits de aseo, kits menstruales y difundiendo información sobre medidas sanitarias\n\nPlan International: Florence tenía solo seis años cuando huyó de la República Democrática del Congo junto a su madre, tras la desaparición de su padre en medio del conflicto. Encontraron refugio en el campo de personas refugiadas de Dzaleka, en Malawi. Allí, aunque Florence creció enfrentando barreras como el hacinamiento, la discriminación y la falta de oportunidades educativas, recobraron el sentido de la seguridad: “Aquí nos sentíamos a salvo”, recuerda. “Nadie iba a entrar en casa a matar a tu familia por la noche. Estábamos unidos”.\n\nAhora, con 18 años, Florence se ha convertido en una firme defensora de los derechos de la infancia, especialmente de las niñas refugiadas, a través del Parlamento Infantil de Dzaleka, una iniciativa impulsada por Plan International y ACNUR para amplificar las voces jóvenes dentro del campo. “Las niñas deberían poder disfrutar del mundo desde pequeñas”, afirma Florence. “Una refugiada educada puede valerse por sí misma y ayudar a su comunidad a crecer”.\n\nA pesar de los prejuicios y las críticas por hablar en público, Florence sigue alzando la voz por una educación equitativa y por un futuro en el que las personas refugiadas sean tratadas como iguales. “Refugiada es solo una palabra”, dice. “Tenemos el mismo color de piel y podemos hacer lo mismo que cualquier otra persona. No somos una carga”.\n\nSu historia refleja la realidad de millones de niñas desplazadas que, por falta de acceso a la educación -el 35 % de los niños y niñas refugiados en edad de asistir a la escuela primaria y el 75 % de los que están en edad de asistir a la escuela secundaria no están escolarizados-, corren un mayor riesgo de sufrir violencia de género, matrimonio infantil o explotación. Por eso, Plan International trabaja para garantizar su protección, promover su liderazgo y acceso a la educación y ofrecer oportunidades que les permitan transformar sus vidas.\n\nWorld Vision: Hace años, Um Ahmad llevaba una vida tranquila en la zona rural de Alepo (Siria). Sus sueños se centraban en la educación y la seguridad de sus hijos. Pero cuando el conflicto destrozó su pueblo, esos sueños se convirtieron en una lucha diaria por la supervivencia. “Nunca pensé que sería yo quien necesitaría ayuda”, dice. “Pero eso es lo que nos ha hecho este conflicto. Nos hemos convertido en personas que solo intentan sobrevivir”.\n\nTras huir de su hogar, ahora destruido y rodeado de minas terrestres, Um Ahmad ha soportado más de una década de desplazamiento. Ha pasado de un campamento a otro, buscando no comodidad, sino dignidad humana básica: comida, seguridad y esperanza.\n\nEn el noroeste de Siria, donde la pobreza y la inseguridad alimentaria han alcanzado niveles alarmantes, la historia de Um Ahmad es un reflejo de la de millones de personas. Más de 12,9 millones de sirios sufren inseguridad alimentaria. Más de 3 millones se enfrentan a una hambruna aguda y, solo en el noroeste, el 91 % vive en la pobreza. No son solo cifras, son vidas humanas, familias destrozadas, niños y niñas que crecen sin hogar.\n\n“Por eso es tan importante el apoyo. A través de un proyecto de medios de vida y nutrición financiado por el Programa Mundial de Alimentos (PMA), World Vision ha proporcionado a familias como la de Um Ahmad ayuda vital. “No son solo cajas de comida”, dice. “Son mensajes de que alguien todavía se preocupa. De que no nos han olvidado. De que alguien nos ve”\n\nDatos relevantes:\n\nDe los 123,2 millones de personas desplazadas forzosamente en el mundo, 73,5 millones son personas desplazadas internas, 36,8 millones son refugiadas y 8,4 millones, solicitantes de asilo.\n\nEl número de desplazados forzosos se ha multiplicado por 3,2 desde el año 2000.\n\nEl 40% (47 millones) de las personas desplazadas son niños y niñas.\n\nEl 65% de las personas refugiadas proceden de cuatro países: Siria, Venezuela, Ucrania y Afganistán.\n\nEl 32% de los refugiados son acogidos por cinco países: Irán, Turquía, Colombia, Alemania y Uganda.\n\nLos países de ingresos bajos y medios acogen al 71% de los refugiados y otras personas que necesitan protección internacional.\n\nEl 69% de los refugiados viven en países vecinos.\n\nAcerca del Comité de Emergencia Español\n\nEl Comité de Emergencia Español es la unión de ONG, medios de comunicación, empresas y ciudadanía, cuyo objetivo es el de canalizar la solidaridad de ciudadanos y empresas en emergencias humanitarias. Creado en 2017, actualmente está formado por 6 ONG internacionales especialistas en ayuda humanitaria, Aldeas Infantiles SOS, Educo, Médicos del Mundo, Oxfam Intermón, Plan International y World Vision, unidas bajo una misma voz y un mismo propósito: lanzar un llamamiento de ayuda juntas para ser más eficaces en la respuesta a las crisis humanitarias.\n\nEn 2023 realizamos cinco llamamientos por emergencias humanitarias, obteniendo fondos por valor de más de 1,6 millones de euros, que fueron distribuidos equitativamente entre las ONG. Más información, Memoria Corporativa 2023.\n\nEl Comité de Emergencia Español forma parte del Emergency Appeals Alliance (EAA), la red internacional de alianzas ante emergencias humanitarias, establecida en 2013.\n\n¡Ante una emergencia somos uno!",
+                                        "metadata": {
+                                            "url": "https://www.comiteemergencia.org/dia-mundial-del-refugiado-2025-1232-millones-desplazados/",
+                                            "source": "www.comiteemergencia.org",
+                                            "favicon": "https://www.comiteemergencia.org/wp-content/uploads/2021/11/logocomite.jpg",
+                                            "title": "Día Mundial del Refugiado: Solidaridad con los las ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comiteemergencia.org",
+                                            "snippet": "El 32% de los refugiados son acogidos por cinco países: Irán, Turquía, Colombia, Alemania y Uganda. Los países de ingresos bajos y medios ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?\n\nAl contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.\n\nEntre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.\n\nEl número de refugiados ha aumentado considerablemente a raíz de la guerra en Ucrania, que en dos años de conflicto ha expulsado a casi seis millones de personas del país. De ellas, 1,2 millones se encuentran en territorio ruso, un millón en Alemania y 955.000 en Polonia.\n\nPor su parte, la ocupación israelí de Palestina ha dado lugar a que, de los seis millones de refugiados palestinos, casi dos millones y medio vivan en campos de refugiados establecidos en territorio oficialmente reconocido como parte del Estado palestino. La Franja de Gaza acogía, a mediados de 2023, a casi un millón y medio de refugiados palestinos, mientras que en Cisjordania residían otros 871.000.\n\nTurquía es el segundo país del mundo con un mayor número de refugiados acogidos, la mayoría de ellos de origen sirio. Desde el inicio de la guerra civil en 2011, más de tres millones de refugiados de Siria se han instalado en el país vecino. Algo parecido ha ocurrido en Jordania con Palestina: desde la primera guerra árabe-israelí de 1948, el país árabe ha recibido a más de dos millones de refugiados palestinos.\n\nLíbano, a pesar de ser un país de reducido tamaño, acoge también a un millón y medio de desplazados sirios —de los cuales solo 800.000 están registrados como refugiados por Naciones Unidas— y a unos 450 mil palestinos.\n\nA pesar de que 147 países han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, la falta de ratificación por parte de algunos de los países que más refugiados acogen, como Líbano, Jordania, Bangladés o Pakistán, crea importantes obstáculos a la hora de garantizar una protección adecuada a las personas que buscan refugio.\n\nAsimismo, Turquía, aunque signataria, solo ofrece asilo a refugiados europeos. Esta cláusula deja desamparados a los millones de sirios residentes en el país, y ha sido fuertemente criticada por la comunidad internacional.\n\nPese a ello, la Unión Europea suscribió en 2016 un acuerdo migratorio con Turquía a través del cual todas las personas que llegan de forma irregular a las islas del Egeo, incluidos solicitantes de asilo, son devueltas al país de Oriente Próximo a cambio de grandes sumas de dinero.",
+                                        "metadata": {
+                                            "url": "https://elordenmundial.com/mapas-y-graficos/paises-receptores-refugiados/",
+                                            "source": "elordenmundial.com",
+                                            "favicon": "https://elordenmundial.com/wp-content/uploads/2018/04/cropped-logo-sq-32x32.png",
+                                            "title": "¿Qué países acogen más refugiados? - Mapas",
+                                            "type": "web_search",
+                                            "base_url": "https://elordenmundial.com",
+                                            "snippet": "Irán, Turquía y Jordania han recibido a más de tres millones de refugiados cada uno. El 69% se establece en países vecinos."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.5962480299986055,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.5962480299986055,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:36:02",
+                    "run_time": 1.5962480299986055,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número de refugiados acogidos por países de mayoría musulmana en 2025, según la ONU?": [
+                                {
+                                    "Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.": null
+                                },
+                                {
+                                    "A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?": null
+                                },
+                                {
+                                    "Madrid, 17 de junio de 2025: Cada 20 de junio se celebra el Día Mundial de los Refugiados, para resaltar los derechos y las necesidades de las personas forzadas a huir: personas desplazadas internas, solicitantes de asilo y refugiadas. A menudo son las más ignoradas y olvidadas, y también las más propensas a sufrir inseguridad alimentaria y hambre.": null
+                                }
+                            ],
+                            "¿Cómo compara la acogida de refugiados en países de mayoría musulmana con otros países no musulmanes, según la UNHCR?": [
+                                {
+                                    "Al contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.": null
+                                },
+                                {
+                                    "A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?": null
+                                },
+                                {
+                                    "Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.": null
+                                }
+                            ],
+                            "¿Qué opinan los líderes políticos y funcionarios de países de mayoría musulmana sobre la cuestión de la acogida de refugiados?": [
+                                {
+                                    "Al contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.": null
+                                },
+                                {
+                                    "Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.": null
+                                },
+                                {
+                                    "A pesar de que 147 países han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, la falta de ratificación por parte de algunos de los países que más refugiados acogen, como Líbano, Jordania, Bangladés o Pakistán, crea importantes obstáculos a la hora de garantizar una protección adecuada a las personas que buscan refugio.": null
+                                }
+                            ],
+                            "¿Qué perspectivas diferentes ofrecen organizaciones no gubernamentales y activistas sobre la acogida de refugiados en países de mayoría musulmana?": [
+                                {
+                                    "Al contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.": null
+                                },
+                                {
+                                    "Asimismo, Turquía, aunque signataria, solo ofrece asilo a refugiados europeos. Esta cláusula deja desamparados a los millones de sirios residentes en el país, y ha sido fuertemente criticada por la comunidad internacional.": null
+                                },
+                                {
+                                    "Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.": null
+                                }
+                            ],
+                            "¿Cuál ha sido la evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025?": [
+                                {
+                                    "Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.": null
+                                },
+                                {
+                                    "Al contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.": null
+                                },
+                                {
+                                    "A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.341399685001306,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.341399685001306,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:36:12",
+                    "run_time": 9.341399685001306,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos países de mayoría musulmana no acogen a refugiados\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número de refugiados acogidos por países de mayoría musulmana en 2025, según la ONU?\n¿Cómo compara la acogida de refugiados en países de mayoría musulmana con otros países no musulmanes, según la UNHCR?\n¿Qué opinan los líderes políticos y funcionarios de países de mayoría musulmana sobre la cuestión de la acogida de refugiados?\n¿Qué perspectivas diferentes ofrecen organizaciones no gubernamentales y activistas sobre la acogida de refugiados en países de mayoría musulmana?\n¿Cuál ha sido la evolución de la política de refugio en países de mayoría musulmana desde 2015 hasta 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] Entre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.\n[0] A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?\n[0] Al contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.\n[0] A pesar de que 147 países han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, la falta de ratificación por parte de algunos de los países que más refugiados acogen, como Líbano, Jordania, Bangladés o Pakistán, crea importantes obstáculos a la hora de garantizar una protección adecuada a las personas que buscan refugio.\n[0] Asimismo, Turquía, aunque signataria, solo ofrece asilo a refugiados europeos. Esta cláusula deja desamparados a los millones de sirios residentes en el país, y ha sido fuertemente criticada por la comunidad internacional.\n[1] Madrid, 17 de junio de 2025: Cada 20 de junio se celebra el Día Mundial de los Refugiados, para resaltar los derechos y las necesidades de las personas forzadas a huir: personas desplazadas internas, solicitantes de asilo y refugiadas. A menudo son las más ignoradas y olvidadas, y también las más propensas a sufrir inseguridad alimentaria y hambre.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los países de mayoría musulmana no acogen a refugiados"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\nLa afirmación \"Los países de mayoría musulmana no acogen a refugiados\" puede ser analizada a partir de los datos y opiniones presentados en los textos proporcionados.\n\n**Argumentos a favor de la afirmación**\n\nA primera vista, parece que la afirmación podría estar apoyada por el hecho de que solo cuatro países europeos están entre los quince primeros países receptores de refugiados, y que la mayoría de los refugiados son acogidos por países vecinos con costumbres similares a las suyas. **Según el texto [0], el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas**. Esto sugiere que los países de mayoría musulmana podrían no ser los principales destinos de los refugiados.\n\nAdemás, el texto [0] menciona que Turquía, aunque signataria de la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, **solo ofrece asilo a refugiados europeos**, lo que podría indicar que no acoge a refugiados de otros lugares.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los países de mayoría musulmana si acogen a refugiados. **Según el texto [0], Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano**, lo que indica que el país ha acogido a un gran número de refugiados. Además, el texto [0] menciona que Jordania y otros países de mayoría musulmana han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, lo que sugiere que están comprometidos con la protección de los refugiados.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"Los países de mayoría musulmana no acogen a refugiados\" no es entirely cierta. **Mientras que hay evidencia de que algunos países de mayoría musulmana no acogen a refugiados europeos, también hay evidencia de que otros países de mayoría musulmana han acogido a un gran número de refugiados**. La situación es más compleja de lo que inicialmente podría parecer, y es necesario considerar los diferentes contextos y políticas de cada país antes de llegar a conclusiones generales. **La afirmación es falsa**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.2134299280005507,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.2134299280005507,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:36:13",
+                    "run_time": 1.2134299280005507,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los países de mayoría musulmana no acogen a refugiados\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Los países de mayoría musulmana no acogen a refugiados\" puede ser analizada a partir de los datos y opiniones presentados en los textos proporcionados.\n\n**Argumentos a favor de la afirmación**\n\nA primera vista, parece que la afirmación podría estar apoyada por el hecho de que solo cuatro países europeos están entre los quince primeros países receptores de refugiados, y que la mayoría de los refugiados son acogidos por países vecinos con costumbres similares a las suyas. **Según el texto [0], el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas**. Esto sugiere que los países de mayoría musulmana podrían no ser los principales destinos de los refugiados.\n\nAdemás, el texto [0] menciona que Turquía, aunque signataria de la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, **solo ofrece asilo a refugiados europeos**, lo que podría indicar que no acoge a refugiados de otros lugares.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los países de mayoría musulmana si acogen a refugiados. **Según el texto [0], Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano**, lo que indica que el país ha acogido a un gran número de refugiados. Además, el texto [0] menciona que Jordania y otros países de mayoría musulmana han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, lo que sugiere que están comprometidos con la protección de los refugiados.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"Los países de mayoría musulmana no acogen a refugiados\" no es entirely cierta. **Mientras que hay evidencia de que algunos países de mayoría musulmana no acogen a refugiados europeos, también hay evidencia de que otros países de mayoría musulmana han acogido a un gran número de refugiados**. La situación es más compleja de lo que inicialmente podría parecer, y es necesario considerar los diferentes contextos y políticas de cada país antes de llegar a conclusiones generales. **La afirmación es falsa**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los países de mayoría musulmana no acogen a refugiados\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Los países de mayoría musulmana no acogen a refugiados\" puede ser analizada a partir de los datos y opiniones presentados en los textos proporcionados.\n\n**Argumentos a favor de la afirmación**\n\nA primera vista, parece que la afirmación podría estar apoyada por el hecho de que solo cuatro países europeos están entre los quince primeros países receptores de refugiados, y que la mayoría de los refugiados son acogidos por países vecinos con costumbres similares a las suyas. **Según el texto [0], el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas**. Esto sugiere que los países de mayoría musulmana podrían no ser los principales destinos de los refugiados.\n\nAdemás, el texto [0] menciona que Turquía, aunque signataria de la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, **solo ofrece asilo a refugiados europeos**, lo que podría indicar que no acoge a refugiados de otros lugares.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que sugiere que los países de mayoría musulmana si acogen a refugiados. **Según el texto [0], Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano**, lo que indica que el país ha acogido a un gran número de refugiados. Además, el texto [0] menciona que Jordania y otros países de mayoría musulmana han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, lo que sugiere que están comprometidos con la protección de los refugiados.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"Los países de mayoría musulmana no acogen a refugiados\" no es entirely cierta. **Mientras que hay evidencia de que algunos países de mayoría musulmana no acogen a refugiados europeos, también hay evidencia de que otros países de mayoría musulmana han acogido a un gran número de refugiados**. La situación es más compleja de lo que inicialmente podría parecer, y es necesario considerar los diferentes contextos y políticas de cada país antes de llegar a conclusiones generales. **La afirmación es falsa**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los países de mayoría musulmana no acogen a refugiados\", \"categories\": [\"Política\", \"Internacional\", \"Noticias\"], \"label\": \"Fake\", \"main_claim\": \"Los países de mayoría musulmana sí acogen a refugiados\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

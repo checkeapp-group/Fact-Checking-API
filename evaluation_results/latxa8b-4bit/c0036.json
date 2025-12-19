@@ -1,0 +1,714 @@
+{
+    "question": "La energía renovable ha reducido el precio de la electricidad en España",
+    "answer": "La afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" encuentra apoyo en varias fuentes de información. Primero, según [1], en la primera mitad de 2025, el precio medio por hora de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo. Esto sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España.\n\nAdemás, según [2], la capacidad de generación eléctrica con energías renovables está aumentando significativamente en España, lo que puede tener profundas implicaciones en el comportamiento de los precios de la electricidad. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\nFinalmente, según [3], el Banco de España estima que el precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\nAunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. Según [3], un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Esto sugiere que la energía renovable no siempre contribuye a reducir el precio de la electricidad.\n\nAdemás, según [3], el comportamiento futuro de los precios de la electricidad está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable. Esto sugiere que la relación entre la energía renovable y el precio de la electricidad puede ser compleja y no siempre lineal.\n\nEn conclusión, aunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. La energía renovable puede tener un impacto positivo en los precios de la electricidad, pero también puede tener un impacto limitado o incluso negativo en ciertos contextos. Por lo tanto, la afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" se considera **verdadera** debido a la existencia de evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, aunque también hay argumentos que sugieren que esta relación no es tan clara.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.energias-renovables.com/panorama/el-precio-de-la-electricidad-en-espa-20251002",
+            "source": "www.energias-renovables.com",
+            "favicon": "https://www.energias-renovables.com/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/boletin-economico/2024t3-articulo-09-el-impacto-de-las-energias-renovables-sobre-el-precio-mayorista-de-la-electricidad.html",
+            "source": "www.bde.es",
+            "favicon": "https://www.bde.es/f/webbe/INF/assets/images/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.energias-renovables.com/panorama/el-banco-de-espa-a-estima-una-20250724",
+            "source": "www.energias-renovables.com",
+            "favicon": "https://www.energias-renovables.com/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La energía renovable ha reducido el precio de la electricidad en España",
+        "categories": [
+            "Energía",
+            "Medio ambiente",
+            "Economía"
+        ],
+        "label": "True",
+        "main_claim": "La energía renovable ha reducido el precio de la electricidad en España y su impacto puede ser positivo, pero también puede ser limitado o negativo en ciertos contextos",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.1496618159999343,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.1496618159999343,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:43:12",
+                    "run_time": 1.1496618159999343,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa energía renovable ha reducido el precio de la electricidad en España\n\n**Critical Research Questions:**\n1. ¿Cuál es la participación actual de la energía renovable en la generación de electricidad en España en 2025?\n2. ¿Cuál ha sido el descenso promedio del precio de la electricidad en España desde 2020 hasta 2025?\n3. ¿Qué opinan los expertos en energía renovable sobre el impacto de esta fuente de energía en el precio de la electricidad en España?\n4. ¿Qué conclusiones han sacado los organismos reguladores españoles sobre la relación entre la energía renovable y el precio de la electricidad?\n5. ¿Cuál es la diferencia entre el precio de la electricidad generada por fuentes renovables y no renovables en España en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"participación energía renovable generación electricidad España 2025\", \"descenso precio electricidad España 2020-2025 datos oficiales\", \"impacto energía renovable precio electricidad España expertos\", \"conclusiones organismos reguladores España energía renovable precio electricidad\", \"diferencia precio electricidad fuentes renovables no renovables España 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 68.79510385600042,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 68.79510385600042,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:24",
+                    "run_time": 68.79510385600042,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "participación energía renovable generación electricidad España 2025",
+                                "descenso precio electricidad España 2020-2025 datos oficiales",
+                                "impacto energía renovable precio electricidad España expertos",
+                                "conclusiones organismos reguladores España energía renovable precio electricidad",
+                                "diferencia precio electricidad fuentes renovables no renovables España 2025"
+                            ],
+                            "results": {
+                                "participación energía renovable generación electricidad España 2025 | descenso precio electricidad España 2020-2025 datos oficiales | impacto energía renovable precio electricidad España expertos | conclusiones organismos reguladores España energía renovable precio electricidad | diferencia precio electricidad fuentes renovables no renovables España 2025": [
+                                    {
+                                        "text": "El sistema eléctrico español continúa su transformación hacia un modelo más sostenible y descarbonizado. En 2025, las energías renovables han alcanzado un nuevo hito, consolidándose como la principal fuente de generación eléctrica en el país. A continuación, analizamos la composición actual del mix energético, su evolución reciente y las perspectivas futuras.\n\n¿Cómo está compuesto actualmente el mix energético español?\n\nSegún el informe mensual de Eleia Energía correspondiente a mayo de 2025, las energías renovables representaron el 60,2% del total de la generación eléctrica en España. Este porcentaje refleja un incremento significativo respecto al año anterior y confirma la tendencia ascendente de las fuentes limpias en el mix energético nacional.\n\nDesglosando por tecnologías, la energía eólica se mantiene como la principal fuente de generación renovable, con una participación del 25,8%. La energía solar fotovoltaica ha experimentado un crecimiento notable, alcanzando el 16,4% del total. La hidráulica, por su parte, aportó un 18%, mientras que otras fuentes renovables completaron el porcentaje restante.\n\nEn cuanto a las fuentes no renovables, la energía nuclear contribuyó con un 14,6% del total, y el gas natural, principalmente a través de ciclos combinados, representó alrededor del 12,23%. El uso del carbón ha disminuido considerablemente, situándose por debajo del 0,68%, en línea con los objetivos de descarbonización.\n\nA continuación, presentamos un gráfico que ilustra la distribución del mix energético español mensual:\n\nCómo ha evolucionado la generación de energías renovables en los últimos 2 años\n\nEn los últimos dos años, la generación de energías renovables en España ha experimentado un crecimiento sostenido. La producción renovable en 2024 alcanzó los 148.999 GWh, lo que representó un incremento del 10,3% respecto al año anterior y supuso el 56,8% del total del mix energético nacional.\n\nEste aumento se ha visto impulsado por la expansión de la capacidad instalada en energía eólica y solar fotovoltaica, así como por avances tecnológicos que han mejorado la eficiencia y la integración de estas fuentes en el sistema eléctrico. Sin embargo, la intermitencia inherente a estas tecnologías plantea desafíos en la gestión del sistema, especialmente en términos de almacenamiento y estabilidad de la red.\n\nPara abordar estos retos, se están desarrollando soluciones como el almacenamiento en baterías y la implementación de tecnologías de gestión de la demanda, que permiten una mayor flexibilidad y resiliencia del sistema eléctrico.\n\n¿Qué fuentes de energía siguen teniendo más peso y por qué?\n\nA pesar del crecimiento de las energías renovables, el gas natural y la energía nuclear continúan desempeñando un papel relevante en el mix energético español. El gas natural, con una participación cercana al 20%, actúa como fuente de respaldo para cubrir la demanda en momentos de baja producción renovable o picos de consumo. La energía nuclear, por su parte, aporta un 19% del total y proporciona una generación constante y libre de emisiones directas de CO2.\n\nLas condiciones meteorológicas y la variabilidad de la demanda influyen en la distribución del mix energético. En períodos de baja producción renovable, las fuentes no renovables compensan la generación para garantizar el suministro eléctrico. Por ello, mantener un mix diversificado es esencial para asegurar la estabilidad y la seguridad del sistema eléctrico.\n\n¿Cómo se compara España con otros países europeos?\n\nEspaña se sitúa a la vanguardia de la generación renovable en Europa, con una participación del 56% en su mix energético en 2025. Este porcentaje supera al de países como Alemania, Francia o Italia, y refleja el aprovechamiento de las condiciones geográficas favorables para la energía solar y eólica.\n\nNo obstante, España comparte con otros países europeos desafíos comunes, como la necesidad de mejorar las interconexiones eléctricas, reducir la dependencia de combustibles fósiles importados y garantizar la estabilidad del sistema ante la creciente penetración de fuentes intermitentes.\n\n¿Hacia dónde apunta el mix energético en la próxima década?\n\nDe cara a 2030, el Plan Nacional Integrado de Energía y Clima (PNIEC) establece el objetivo de alcanzar un 74% de generación renovable en el mix eléctrico español. Este ambicioso propósito implica una transformación profunda del sistema energético, basada en la expansión de las energías limpias y en la incorporación de tecnologías que aporten flexibilidad, estabilidad y autonomía.\n\nPara lograrlo, se prevé una expansión significativa de la capacidad instalada en energía eólica y solar fotovoltaica, el desarrollo de tecnologías de almacenamiento a gran escala, como sistemas de baterías de última generación, bombeo hidráulico reversible y almacenamiento térmico, y la integración de soluciones emergentes como el hidrógeno verde, que permitirá descarbonizar sectores de difícil electrificación.\n\nTal y como analizamos en nuestro post sobre las innovaciones en almacenamiento, el despliegue de estas soluciones será clave para una integración eficiente de las renovables. Gracias al almacenamiento, será posible aprovechar el excedente de generación en horas de alta producción (como el mediodía solar), reducir los vertidos de energía renovable, suavizar la intermitencia de fuentes como la eólica y asegurar el suministro en momentos de baja generación o alta demanda.\n\nOtro eje estratégico será la generación distribuida, impulsada por el autoconsumo con placas solares, comunidades energéticas y modelos de prosumidores, que permitirán descentralizar la producción y acercarla al consumo, reduciendo pérdidas en la red y empoderando al ciudadano como actor activo en la transición energética.\n\nEstas iniciativas no solo aumentarán la resiliencia y la eficiencia del sistema eléctrico, sino que también facilitarán el cumplimiento de los compromisos climáticos internacionales, como los establecidos en el Pacto Verde Europeo y el Acuerdo de París.\n\nEn definitiva, el mix energético español en 2025 ya refleja un avance significativo hacia la descarbonización y la sostenibilidad. Las energías renovables se han consolidado como la principal fuente de generación eléctrica, y las perspectivas para la próxima década apuntan a una mayor integración de tecnologías limpias, almacenamiento inteligente y participación ciudadana.\n\nPara más información y datos actualizados, puedes consultar el informe mensual de Eleia Energía.",
+                                        "metadata": {
+                                            "url": "https://eleiaenergia.com/cual-es-el-peso-de-las-energias-renovables-en-el-mix-energetico-espanol-en-2025/",
+                                            "source": "eleiaenergia.com",
+                                            "favicon": "https://eleiaenergia.com/wp-content/uploads/2023/02/favicon.png",
+                                            "title": "Renovables: mix energético español en 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://eleiaenergia.com",
+                                            "snippet": "España se sitúa a la vanguardia de la generación renovable en Europa, con una participación del 56% en su mix energético en 2025. Este ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Marzo de 2025 rompe récords en España con 14.588 GWh de generación renovable\n\nLas energías renovables en España han alcanzado en marzo su máximo histórico mensual con una generación de 14.588 GWh, un 0,8% superior al anterior récord registrado en marzo de 2024. Con esta cifra, las renovables han supuesto el 61,6% del total del mix energético, según datos de Red Eléctrica.\n\nAdemás, el operador del sistema eléctrico español afirmó que la demanda eléctrica nacional, experimentó en marzo un ascenso del 0,4% con respecto al mismo mes del año anterior, una vez descontados los efectos de laboralidad y temperatura.\n\nEn términos brutos, se estima una demanda de 21.539 GWh, un 4,0% superior a la demanda de marzo de 2024. Además durante el primer trimestre del año, la demanda eléctrica en España ha sido de 64.551 GWh, un 1,8% más que en el mismo periodo de 2024. Ajustando por calendario y temperatura, este incremento se reduce al 0,6%. En marzo, la generación libre de emisiones ha representado el 82,1% del total nacional.\n\nFuente: Red Eléctrica\n\n\n\n\n\nEólica, líder en generación renovable\n\nLa energía eólica se ha consolidado como la principal fuente renovable con una producción de 6.693 GWh, lo que supone el 28,3% del total y un aumento del 8,9% respecto al mismo mes del año anterior. Le sigue la energía nuclear, con una participación del 20,5% en el mix. En tercer lugar, la energía hidráulica ha generado 4.293 GWh, representando el 18,1% del total. Por su parte, la solar fotovoltaica ha registrado 3.061 GWh, con una ligera caída del 0,4% en comparación con marzo de 2024, situándose en el 12,9% del mix.\n\nDel total de energía generada, 535 GWh fueron destinados a instalaciones de almacenamiento y 1.616 GWh se programaron para exportación, optimizando el aprovechamiento de la generación renovable.\n\nFuente: Red Eléctrica\n\nLa demanda peninsular y la producción renovable alcanzan nuevos máximos\n\nEn la Península, la demanda eléctrica ha sido un 0,3% superior a marzo de 2024 una vez corregidos los efectos de calendario y temperatura. En términos brutos, se registraron 20.310 GWh, un 4% más que el año anterior. Durante el primer trimestre, la demanda ha alcanzado los 60.939 GWh, con un aumento corregido del 0,6% respecto al mismo periodo de 2024.\n\nAdemás, Red Eléctrica, las renovables generaron el 63,9% de la electricidad peninsular en marzo, con 14.426 GWh, un incremento del 0,9% interanual. El 20 de marzo se registró el día de mayor producción renovable de la historia en la Península con 576,4 GWh, superando el récord anterior de 575,6 GWh del 17 de enero de 2024. Las tecnologías libres de emisiones aportaron el 85,4% del total.\n\nEnergía en Baleares y Canarias\n\nMientras tanto, en Baleares, la demanda de electricidad aumentó un 4,1% respecto a marzo de 2024, con 456.369 MWh consumidos. En el primer trimestre, la demanda fue de 1.337.947 MWh, un 3,7% más que el año anterior. El ciclo combinado lideró la generación con un 68,2% del total, mientras que las renovables representaron el 13,7%, un 19,6% menos que en marzo de 2024. La interconexión con la Península cubrió el 24,9% de la demanda.\n\nEn Canarias, la demanda creció un 0,6%, alcanzando los 737.992 MWh en marzo. En el acumulado del año, la demanda eléctrica ha sido de 2.172.277 MWh, un 0,3% menos que en 2024. El ciclo combinado también lideró la generación en el archipiélago con un 42,3% del total. Las renovables aportaron el 15,6% del total, con una producción de 115.028 MWh, un 7% menos que el año anterior. La eólica generó 79.438 MWh (10,8% del total), mientras que la solar fotovoltaica alcanzó 35.528 MWh (4,8%).\n\nEstos datos reflejan el crecimiento sostenido de las energías renovables en España, consolidando su papel clave en la transición energética y la descarbonización del sistema eléctrico nacional.",
+                                        "metadata": {
+                                            "url": "https://www.review-energy.com/otras-fuentes/marzo-de-2025-rompe-records-en-espana-con-14588-gwh-de-generacion-renovable",
+                                            "source": "www.review-energy.com",
+                                            "favicon": "https://www.review-energy.com/images/favicon/apple-touch-icon.png",
+                                            "title": "Marzo de 2025 rompe récords en España con 14.588 GWh ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.review-energy.com",
+                                            "snippet": "En marzo de 2025, Red Eléctrica informó que la generación de energía renovable en España alcanzó 14.588 GWh, un récord mensual que supera en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cada mes revisamos la evolución del precio de la electricidad en el mercado mayorista y su impacto en la tarifa regulada PVPC. También te ofrecemos información sobre las facturas de energía mensuales y anuales.\n\nLa factura de la luz al alza\n\nOctubre no ha sido un buen mes para el precio de la electricidad. El mercado mayorista ha acabado con un fuerte incremento de precios (24%) respecto al mes de septiembre, para acabar fijado en 75,78 €/MWh. Este incremento de precios mayorista se ha dejado notar en los recibos. La factura mensual de un hogar medio (4,6 kW contratados y 292 kWh de consumo mensual) con la tarifa PVPC se ha incrementado en un 7% respecto, al pasar de 67,61 € en septiembre a 72,22 en octubre. El inicio del invierno hace presagiar que la tendencia al alza se va a mantener.\n\nPara ayudarte a reducir esa factura, OCU trabaja a través de su plataforma www.quieropagarmenosluz.org lanzando compras colectivas para que los consumidores se agrupen y consigan la mejor oferta posible para sus suministros de gas y electricidad. En estos momentos ya puedes acceder a la oferta ganadora o registrarte si no lo habías hecho ya. Verás un cálculo personalizado del ahorro que podrías obtener con esta tarifa con precio fijo durante 12 meses sin compromiso de permanencia:\n\nIX Compra colectiva de Energía\n\nEn octubre, Red Eléctrica Española (REE) ha seguido operando en \"modo seguro\", recurriendo a más centrales de ciclo combinado de lo habitual y restringiendo la aportación de plantas de generación renovables. Aunque no se esclarecen todavía las responsabilidades del apagón de abril, el funcionamiento en modo seguro sigue provocando un elevado coste de los servicios de ajuste. Si el coste estrictamente de la energía en el mercado mayorista ha sido de 0,07578 €/kWh, garantizar el suministro mediante los servicios de ajuste ha supuesto añadir un 30% más de sobrecoste: 0,023147 €/kWh .\n\nEne este contexto de subida de precios mayoristas, la nueva fórmula del PVPC que incorpora un componente de precio más estable (mercados de futuros) ha frenado algo el incremento de precios. No obstante, desde que en enero de 2024 se empezó a aplicar esta nueva metodología, es responsable de haber encarecido la factura eléctrica un 3%.\n\nAtención a las revisiones de precios por el apagón\n\nDurante el mes de mayo ya se sufrieron las primeras consecuencias del apagón. Sin que hubiera ninguna pauta regulatoria o de procedimientos nueva, Red Eléctrica de España (REE) reforzó los servicios de ajuste por restricciones técnicas. REE mediante esos servicios, y con el objetivo de garantizar el correcto suministro en todo el país, determina que determinadas plantas de generación no operen en algunos momentos (pese a que por el precio del mercado podrían hacerlo) y a cambio a otras plantas, por ejemplo ciclos combinados reciben instrucciones de arrancar , por ejemplo para dar estabilidad a la red en algunos puntos. A cambio, reciben una remuneración especial que se paga con el concepto denominado \"servicios de ajustes\". Este coste es uno más de los que las comercializadoras deben tener cuenta a la hora de ofrecer una oferta.\n\nAlgunas comercializadoras trataron de trasladar ese coste a sus clientes pese a tener contratados precios fijos, pero tuvieron que dar marcha atrás con la llamada de atención de la CNMC, que recordó que no se podían aplicar esos incrementos porque no era un coste regulado.\n\nSin embargo, esto no impide que, en los contratos que no tienen compromisos de precios durante un periodo de tiempo concreto o cuando toca revisión de precios, haya incrementos al alza de los precios con el preaviso legal necesario. De hecho, algunas comercializadoras están sacando de la tarifa los servicios de ajustes, de forma que comunican que cada mes, a la tarifa contratada se trasladará el coste de este concepto .\n\nSubidas en el mercado libre\n\nMientras que a los hogares con la tarifa indexada (PVPC por ejemplo) estos vaivenes del mercado se le trasladan a la factura de inmediato, en el mercado libre la situación es más compleja. Aunque sigue habiendo comercializadoras que mantienen ofertas atractivas, en las últimas semanas se han detectado incrementos de precios para nuevas contrataciones que afectarán sin duda también a las renovaciones de contrato. Por ese te invitamos a campañas como la IX Compra colectiva de energía.\n\nEsta compra colectiva se suma al comparador de tarifas de electricidad y gas que todos los consumidores pueden consultar para localizar las tarifas más interesantes del mercado para su perfil de consumo concreto. Se trata de una ayuda para poder afrontar las elevadas tarifas energéticas actuales. Tanto si tienes la tarifa regulada PVPC como si estás en el mercado libre, revisa regularmente si hay otras tarifas mejores, porque puedes ahorrar varios centenares de euros:\n\nAccede al comparador de luz y gas",
+                                        "metadata": {
+                                            "url": "https://www.ocu.org/vivienda-y-energia/gas-luz/informe/precio-luz",
+                                            "source": "www.ocu.org",
+                                            "favicon": "https://www.ocu.org/-/media/ocu/favicons/ocu_192.png?rev=f17ed59c-67eb-4efe-980c-6c07daf2bcd8&mw=192mh%3d192&hash=BB1F1A6A0BCD83D293501A85EC518501",
+                                            "title": "El precio de la luz en septiembre se ha mantenido alto",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ocu.org",
+                                            "snippet": "Aunque los precios de la electricidad en el mercado mayorista bajaron un 11% durante septiembre hasta quedar en 61,4 €/MWh, la rebaja no se nota en las facturas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Estar al tanto de la evolución del precio de la luz es crucial tanto a nivel personal como empresarial. Gracias a ese dato es posible gestionar eficazmente nuestro consumo y ajustarlo a nuestro presupuesto, adoptando medidas de eficiencia energética y decisiones informadas en relación con nuestro impacto ambiental.\n\nAl conocer y comprender los cambios en el precio de la electricidad, las personas pueden ajustar sus comportamientos y estrategias para minimizar costes y contribuir a un uso más responsable de la energía.\n\nPor todo ello, te contamos cómo evoluciona el precio de la luz en 2025, realizamos una comparativa con respecto a los anteriores años y comentamos las previsiones para el ejercicio en curso.\n\nEvolución del precio de la luz\n\nEl precio de la electricidad en España ha sufrido un incremento importante durante los últimos años, llegando a picos máximos (hasta 160 euros/MWh) en 2022, en relación con la invasión de Ucrania por parte de Rusia, entre otros factores. La inflación, el precio del gas o los derechos de emisión de CO2 han marcado también esta tendencia al alza.\n\nSi nos centramos en los últimos ejercicios, el año 2023 fue testigo de fluctuaciones en el precio de la electricidad, con un cierre competitivo y cambios en la metodología de fijación de precios. El precio medio de la luz cerró el año 2023 en 60,26 euros/MWh.\n\nRespecto al coste de la electricidad en 2024, su evolución fue bastante dinámica, con fluctuaciones significativas a lo largo del año. El precio medio de la factura mensual en 2024 fue de 61,90 euros/MWh. Esto refleja la volatilidad del mercado energético en el pasado año, influenciada por factores como la demanda estacional, la producción de energías renovables y el contexto geopolítico internacional.",
+                                        "metadata": {
+                                            "url": "https://fundaciongeneraluclm.es/la-evolucion-del-precio-de-la-luz-en-2025-en-espana/",
+                                            "source": "fundaciongeneraluclm.es",
+                                            "favicon": "https://fundaciongeneraluclm.es/wp-content/uploads/2020/05/cropped-logo_fundacion-detalle-32x32.png",
+                                            "title": "La evolución del precio de la luz en 2025 en España",
+                                            "type": "web_search",
+                                            "base_url": "https://fundaciongeneraluclm.es",
+                                            "snippet": "El precio medio de la luz cerró el año 2023 en 60,26 euros/MWh. Respecto al coste de la electricidad en 2024, su evolución fue bastante diná ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España alcanza en 2024 un 56,8% de generación renovable, pero la contribución al PIB disminuye tras dos años de caída\n\nEl sector renovable español registró en 2024 un récord histórico de generación eléctrica, con un 56,8% de la demanda cubierta por renovables (149 TWh). Sin embargo, esta cifra no se tradujo en crecimiento económico, ya que la contribución del sector al PIB cayó al 0,95%, la más baja desde 2020, y el empleo se mantuvo estancado en 126.574 trabajadores, tras dos años consecutivos de contracción.\n\nEl Estudio del Impacto Macroeconómico de las Energías Renovables, elaborado por Deloitte y presentado por APPA Renovables, analiza el desempeño del sector y destaca que la caída de los precios del mercado eléctrico y de las contrapartidas fósiles, junto con los vertidos de energía, han limitado los ingresos y la rentabilidad de las instalaciones renovables. Aunque el uso de energías limpias permitió aumentar las importaciones evitadas en un 3,1%, los ahorros globales se redujeron un 10,4% debido a los menores precios.\n\nEl porcentaje de electricidad sobre el consumo final se situó en 23,6%, niveles similares a los de 2007, mientras que las renovables térmicas disminuyeron su participación y el consumo de combustibles fósiles creció un 5%, recuperando cifras prepandemia. Según los expertos de APPA, esto evidencia un estancamiento del sector, a pesar de los récords de generación eléctrica.\n\n“El desarrollo de renovables está por debajo de la senda del PNIEC, pero mientras la oferta renovable sigue aumentando, demanda o almacenamiento están muy retrasados, lo que se traduce en grandes desequilibrios en el sistema. Valoramos positivamente las ambiciosas metas, pero deben ir acompañadas de ambiciosas medidas para alcanzarlas”, ha reflexionado el Presidente de APPA Renovables, Santiago Gómez Ramos, en la presentación del Estudio.\n\nSe constata el estancamiento del sector\n\nSegún el estudio, tras los precios récord de 2022 (167,52 €/MWh), se han producido dos años de moderación. En 2023 el precio medio del pool se situó en 87,10 €/MWh y, en 2024, esta cifra se consolidó en 63,03 €/MWh. El sector renovable, como cualquier otro sector económico, es muy dependiente de los precios de venta, especialmente cuando el precio capturado por estas tecnologías es inferior al precio medio. Tanto las renovables eléctricas como las renovables térmicas experimentaron esta caída de los precios, estas últimas al relajarse los precios de la energía fósil de forma generalizada. La aportación al PIB, muy condicionada por estas cifras, se redujo a 15.057 millones de euros, representando el 0,95% de la economía nacional.\n\nEn cuanto a la capacidad instalada, la fotovoltaica sumó 6.434 MW y la eólica 1.309 MW, frente a los 663 MW de 2023. Sin embargo, el autoconsumo cayó de 1.943 MW a 1.431 MW, contribuyendo al estancamiento del empleo. La eólica fue la tecnología que más incorporó profesionales (+1.678), mientras que fotovoltaica, biomasa, solar termoeléctrica y minihidráulica redujeron puestos de trabajo.\n\nLa retribución específica de las renovables eléctricas descendió a 3.129 millones de euros, la cifra más baja desde la reforma de 2014, debido a la finalización de la vida útil regulatoria de muchas instalaciones, que ahora dependen únicamente del mercado eléctrico. Aun así, la presencia de renovables permitió un ahorro de 6.972 M€ en el mercado eléctrico y 14.729 M€ en importaciones fósiles, evitando 25,4 millones de toneladas equivalentes de petróleo y reduciendo 4,541 M€ en derechos de emisión, con 69,6 millones de toneladas de CO? equivalente evitadas.\n\nEl estudio destaca además que, mientras el consumo de combustibles fósiles creció un 5%, las energías renovables térmicas y los biocarburantes redujeron su aportación (-1%), y la cuota de biocarburantes en términos energéticos cayó al 6,5%, lejos del objetivo del 11% para 2024. La biomasa sigue siendo la fuente térmica más consumida (68,4%), seguida de bombas de calor (23,4%) y biogás, biometano y residuos renovables.\n\nEl presidente de APPA Renovables advirtió que los vertidos económicos de fotovoltaica y eólica pasaron del 1,6% en 2023 al 6,5% en 2024, y superan el 17% en lo que va de 2025 si se suman las restricciones de red y la operación reforzada del sistema. “Si no impulsamos la electrificación, el almacenamiento y la gestión activa de la demanda, seguiremos perdiendo energía de nuestro sol, viento y agua”, señaló.\n\nGómez Ramos también subrayó la necesidad de repotenciar la eólica, impulsar la biomasa eléctrica como tecnología firme y desarrollar bombeos hidráulicos como política de Estado. Sobre la bioenergía, añadió que es urgente un marco regulatorio que impulse el biometano para avanzar en la descarbonización del sector gasista y aprovechar la capacidad de producción de biocarburantes en España.",
+                                        "metadata": {
+                                            "url": "https://www.review-energy.com/otras-fuentes/espana-alcanza-en-2024-un-56-8-de-generacion-renovable-pero-la-contribucion-al-pib-disminuye-tras-dos-anos-de-caida",
+                                            "source": "www.review-energy.com",
+                                            "favicon": "https://www.review-energy.com/images/favicon/apple-touch-icon.png",
+                                            "title": "España alcanza en 2024 un 56,8% de generación ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.review-energy.com",
+                                            "snippet": "En 2023 el precio medio del pool se situó en 87,10 €/MWh y, en 2024, esta cifra se consolidó en 63,03 €/MWh. El sector renovable, como cualquier ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Viernes, 01 de agosto de 2025\n\nAsí lo estima el Banco de España con arreglo al modelo estimado en el artículo titulado 'El impacto de las energías renovables sobre el precio mayorista de la electricidad', en el que maneja un intervalo de confianza de entre el 45% y el 60%. El peso actual de la eólica y la solar han provocado que el precio mayorista de la electricidad durante la primera mitad de 2024 haya sido hasta un 40% inferior del que se habría observado sin estas inversiones en capacidad solar y eólica. Así te lo contamos el 4 de septiembre de 2024 y así lo refrescamos hoy como primera noticia de nuestro repaso de lo más relevante del curso.\n\nEl precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Así lo estima el Banco de España con arreglo al modelo estimado en el artículo titulado 'El impacto de las energías renovables sobre el precio mayorista de la electricidad', en el que maneja un intervalo de confianza de entre el 45% y el 60%. En cualquier caso, el organismo deja claro que el comportamiento futuro de estos precios está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable.\n\nSegún el artículo elaborado por Javier Quintana, del Departamento de Análisis de la Situación Económica de la institución, el peso de las energías eólica y solar sobre el total de generación eléctrica ha pasado del 26% en 2019 a más del 40% en los primeros meses de 2024. Eso ha llevado a que el precio mayorista de la electricidad durante la primera mitad de 2024 haya sido hasta un 40% inferior del que se habría observado sin las inversiones en capacidad solar y eólica realizadas desde 2019, según informa Europa Press. No obstante, indica que la relación entre generación renovable y precios de la electricidad no es lineal, lo cual podría acelerar el impacto de los planes de despliegue de capacidad eólica y solar sobre los precios futuros de la electricidad.\n\nAsí, un aumento en el peso de la generación solar y eólica del 20% al 30% tiene un impacto relativamente reducido sobre el precio mayorista de la electricidad. Sin embargo, si ese aumento es del 50% al 60%, la reducción esperable del precio es cercana al 25%. Es decir, se observa una fuerte no linealidad en el impacto de los aumentos en el peso de las energías renovables sobre el precio de la electricidad, pues dicho impacto aumenta más que proporcionalmente a medida que sube el peso de las renovables. El experto del Banco de España detalla que la contribución no lineal de las energías renovables a la reducción del precio de la electricidad surge a consecuencia del sistema marginalista de fijación de precios, por el cual los precios de la electricidad se fijan a partir de las ofertas de la tecnología más cara necesaria para cubrir la demanda de cada tramo horario.\n\nAsí, señala que un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Al contrario, un mismo aumento en el peso de las renovables tendrá un impacto significativo si es suficiente para desplazar no solo las plantas de producción menos eficientes, sino también el conjunto de las tecnologías de generación basadas en combustibles fósiles. \"En este caso, la contribución de las energías renovables llevaría el precio mayorista de la electricidad a cero\", afirma.\n\nTecnologías inframarginales\n\nA este respecto, ve importante señalar que, una vez que la oferta por parte de las tecnologías inframarginales es suficiente para cubrir la totalidad de la demanda y el precio de dicho tramo horario es cero, los aumentos adicionales de la generación solar o eólica dejan de tener efecto sobre el precio de la electricidad. Si se descompone la contribución de cada una de las fuentes renovables disponibles, se observa que la mayor parte del ahorro se produce por la generación eólica, en parte debido a su mayor peso en la generación total. Sin embargo, la contribución de la energía fotovoltaica ha crecido notablemente en los dos últimos años a consecuencia del aumento de la capacidad instalada.\n\nEólica y fotovoltaica\n\nOtro aspecto reseñable es la complementariedad entre ambas tecnologías, pues, dado el carácter no lineal del impacto de la generación renovable en el precio de mercado, la coincidencia de ambas hace que el ahorro sea mayor que la suma de las contribuciones de cada una. La complementariedad entre ambas fuentes es el resultado del carácter no lineal de la contribución de las energías renovables a la reducción del precio de la electricidad. Así, en los períodos en los cuales coinciden la generación eólica y fotovoltaica, estas fuentes tienden a desplazar por completo a la tecnología marginal, de modo que el efecto conjunto sobre el precio es mayor que la suma de los efectos individuales que se producirían si solo una de esas energías renovables hubiera contribuido a la generación eléctrica, detalla el Banco de España. Una implicación adicional de esta relación es que los períodos de mayor producción eólica y solar son, en cada vez mayor medida, tramos de menores precios horarios de la electricidad. A consecuencia de ello, la remuneración media que reciben dichas tecnologías es sustancialmente menor que los precios medios anuales de la electricidad.\n\nDatos futuros\n\nDe cara al futuro, según el artículo, cabe esperar una mayor reducción en el precio mayorista de la electricidad inducida por el aumento de las renovables en el mix energético que resultaría de los planes de inversión actualmente previstos. De esta forma, un aumento de la generación renovable -cuyo coste marginal de producción es relativamente reducido- afectaría a los precios mayoristas en la medida en que desplace a otras tecnologías de mayor coste marginal del 'mix' energético necesario para satisfacer la demanda en determinados tramos horarios. Por ello, considera que además de contribuir a la transición climática, las energías renovables tienen un papel muy relevante en la reducción de los precios mayoristas de la electricidad, y esa relevancia previsiblemente se incrementará en el futuro.\n\nEn cualquier caso, deja claro que el comportamiento venidero de los precios mayoristas de la electricidad es aún muy incierto y vendrá condicionado por la evolución de distintos factores sobre los que existe una considerable incertidumbre y que, además, en un contexto de equilibrio general, también se verán muy influidos por la propia senda que se espera que sigan los precios de la electricidad. Entre dichos factores cabe destacar, por ejemplo, la viabilidad y el ritmo de ejecución de los ambiciosos proyectos de inversión previstos para aumentar la capacidad de generación eléctrica renovable, la intensidad con la que avance -por el lado de la demanda- el proceso de electrificación de la actividad, la manera en que esta demanda se adapte al patrón horario de generación eléctrica renovable y el desarrollo de tecnologías que permitan almacenar los excedentes producidos por las energías renovables en determinados tramos del día.",
+                                        "metadata": {
+                                            "url": "https://www.energias-renovables.com/panorama/el-banco-de-espa-a-estima-una-20250724",
+                                            "source": "www.energias-renovables.com",
+                                            "favicon": "https://www.energias-renovables.com/favicon.ico",
+                                            "title": "El Banco de España estima una bajada del 50% del precio ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.energias-renovables.com",
+                                            "snippet": "El precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El ‘pool’ cerró 2024 con un precio medio de 63,04 euros por megavatio hora (MWh), con una disminución del 28% sobre 2023\n\nExpertos han apuntado a que el precio de la electricidad inicia 2025 con “una clara tendencia alcista” y que regresa así “la incertidumbre”, ante un repunte en el precio del gas natural.\n\nA pesar de que el denominado ‘pool’ cerró 2024 con un precio medio de 63,04 euros por megavatio hora (MWh), con una disminución del 28% sobre 2023 y con un fuerte descenso del 35,8% sobre su promedio de los últimos cinco años, “el fuerte impulso que ha registrado durante los dos últimos meses, colocándose por encima de los 100 euros/MWh, arroja mucha incertidumbre acerca de cómo evolucionarán los precios en 2025”, según los analistas del grupo ASE.\n\nY es que diciembre cerró con un precio medio de la electricidad de 111,24 euros/MWh, un 6,5% por encima de los 104,43 euros/MWh de noviembre y registrando su valor más alto para un mes desde febrero de 2023.\n\nEl inicio de 2024 apuntaba a una cierta normalización, gracias a una extraordinaria generación renovable y a la fuerte corrección a la baja de los precios internacionales del gas y de las emisiones de CO2 (EUA), lo que llevó en el primer semestre a registrar unos precios de la electricidad de 39,9 euros/MWh en España.\n\nNo obstante, en la segunda parte del año, los precios de la electricidad se han más que duplicado, con un promedio de 86,07 euro/MWh. En este sentido, los analistas de la consultora destacaron que con el inicio del invierno se redujo la generación renovable y el almacenamiento europeo de gas descendió “con más rapidez de lo esperado, provocando un impacto colateral en la subida de los precios de electricidad”.\n\nEl precio de la luz\n\nDe esta manera, los expertos apuntaron a que habrá que “estar muy pendientes del nivel de las reservas de gas con que acabe el invierno Europa” y consideraron que será “clave” para conocer el abastecimiento que requerirá el continente durante 2025.\n\nPor eso, la climatología y la demanda asiática de gas natural licuado (GNL) seguirán marcando la evolución de los precios de la energía, con la volatilidad como protagonista\n\nañadieron.\n\nActualmente, los niveles de almacenamiento de la UE rondan el 72%, 15 puntos menos que hace un año cuando se encontraban al 87%. Desde finales de septiembre, las reservas han caído más de un 20%, esto es más del doble que en los últimos dos años durante el mismo periodo, según estimaron los expertos, que indicaron que, en este contexto de rápido agotamiento de las reservas, los precios del gas de los centros europeos se mueven en torno a los 45 euro/MWh, un 50% más elevados que hace un año.\n\nDemanda renovable y las nucleares\n\nY es que en los dos últimos meses la generación eólica en España ha sido un 24% inferior a su promedio, coincidiendo con los meses de menor radiación solar. A esto se ha unido que, gran parte de ese tiempo, dos centrales nucleares (Ascó I y Ascó II) han estado fuera del sistema. Por tanto, el aumento de la demanda por las bajas temperaturas se ha producido con una generación renovable y nuclear mermadas.\n\nAsí, los analistas de grupo ASE estimaron que a medida que los ciclos combinados de gas (CCG) han ido aumentando su producción, han subido los precios de la electricidad, liderando la casación de los precios marginales en noviembre y diciembre, mientras que las renovables apenas han tenido presencia, a diferencia de la pasada primavera.\n\nAdemás, en 2024 España ha perdido frente a Francia su posición de precio más competitivo entre las grandes economías europeas, que había ostentado los dos últimos años (2022 y 2023).\n\nEste año Francia ha aumentado un 11% su producción nuclear y ha registrado el precio más bajo, con 57,98 euros/MWh. En el lado contrario, Italia (106,31 euros/MWh) fue el más elevado.\n\nLa integración de las renovables\n\nPor otra parte, a lo largo de este año, se han integrado al sistema 7.644 MW de nueva potencia renovable, lo que supone un crecimiento del 14% en el último año. 6.735 MW de ellos corresponden a tecnología solar fotovoltaica (+27%), que marca su valor máximo histórico instalado en un año.\n\nEste crecimiento se produce en un contexto energético en el que la demanda eléctrica se ha reducido en un 0,6% en las horas de radiación y en el que los precios capturados por los generadores en el mercado diario, durante esas horas de radiación, se han desplomado casi un 43,5% hasta los 44,95 euros/MWh.\n\nEn el global de 2024, las variaciones más significativas las registró la generación hidráulica, que aumentó un 37,3% (durante la pasada primavera) y la producción fotovoltaica, que se incrementó un 18,2%. De esta forma, la solar fotovoltaica se colocó como tercera fuente de generación del mix, con un 16,7%, por detrás de la nuclear (19,6%) y de la eólica (22,9%).\n\nAsí, el año pasado la generación renovable creció un 10,1%, estableciendo un récord anual de 149 teravatios hora (TWh) año, lo que supone el 55,9% del mix, frente al 50,4% de 2023.\n\nEl hueco térmico\n\nEn sentido contrario, destacó la disminución del 24% en la producción de electricidad con gas y carbón. El hueco térmico descendió así al 14% del mix en 2024, su nivel más bajo desde que hay registros.\n\nEn lo que respecta a la demanda, aumentó un 0,8%, rompiendo una larga tendencia bajista que se inició en 2019 y que sólo se vio alterada en 2021 por el efecto de la pandemia en 2020.\n\nEste ligero avance de la demanda en 2024 respecto al año pasado tiene como principal impulsor el aumento del consumo de la gran industria, que ha crecido un 2,5% anual.",
+                                        "metadata": {
+                                            "url": "https://nextenergia21.com/expertos-apuntan-a-un-precio-de-la-luz-en-el-inicio-de-2025-en-clara-tendencia-alcista-por-incertidumbre/",
+                                            "source": "nextenergia21.com",
+                                            "favicon": "https://nextenergia21.com/wp-content/uploads/2024/05/ico-100x100.png",
+                                            "title": "Expertos apuntan a un precio de la luz en el inicio de 2025 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://nextenergia21.com",
+                                            "snippet": "Expertos han apuntado a que el precio de la electricidad inicia 2025 con “una clara tendencia alcista” y que regresa así “la incertidumbre”, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La llegada de la primavera está marcando un punto crucial para la evolución del precio de la electricidad en España, y la meteorología jugará un papel fundamental en la configuración de los próximos meses. En una entrevista con Antonio Aceituno, CEO de Tempos Energía y consultor senior en la compra de energía, se ha detallado cómo el comportamiento de las fuentes de energía renovable y las dinámicas de los combustibles fósiles impactarán en el mercado energético.\n\nSegún Aceituno, la meteorología, especialmente la hidrología, será decisiva para la reducción o el aumento de los precios del mercado eléctrico. La gran hidráulica, que gestiona las grandes reservas de agua de los embalses, desempeña un papel crucial en la cobertura de la demanda energética, sustituyendo al gas en los momentos de mayor consumo. Sin embargo, si los niveles de agua en los embalses superan el 85%, se verá obligada a desembalsar agua a coste cero, lo que podría generar una disminución temporal en el precio de la electricidad, favoreciendo a los consumidores.\n\nLa evolución del precio del gas y sus efectos en los consumidores\n\nEl precio del gas sigue siendo uno de los factores clave para la evolución de los precios de la luz, y la situación actual sigue siendo incierta. Aceituno menciona que, a pesar de la caída en los precios del gas en los últimos meses, todavía existen vectores que pueden presionar al alza los costos. La perspectiva de un final negociado en la guerra de Ucrania y la reducción de las importaciones de gas natural licuado (GNL) de China están generando expectativas positivas para los próximos meses, lo que podría traducirse en una caída en los precios del gas.\n\nNo obstante, existen riesgos que podrían afectar negativamente a los consumidores, como un empeoramiento de la situación geopolítica en Ucrania o la posibilidad de que Europa se vea obligada a reposicionar sus reservas de gas este verano. Además, Aceituno advierte que cualquier aumento en los precios del gas tiene un impacto directo en el coste de la electricidad, y una subida de 1 euro por megavatio hora (MWh) de gas podría provocar un aumento de 3 euros en el precio de la luz.\n\nEl desafío de la capacidad de almacenamiento\n\nA pesar de los avances en energías renovables, la capacidad de almacenamiento sigue siendo un desafío. Las reservas hidroeléctricas actuales se sitúan en un 81,5%, ligeramente por debajo de los niveles del año anterior. Aceituno señala que una mayor capacidad de almacenamiento permitiría un mejor aprovechamiento de los recursos renovables durante los períodos de baja producción, lo que ayudaría a equilibrar los precios. Sin embargo, la falta de almacenamiento adecuado podría generar una caída en la capacidad de producción cuando las reservas hidroeléctricas disminuyan en los meses de verano, lo que podría llevar a un aumento en la dependencia de fuentes de energía más caras, como el gas.\n\nLa generación renovable podría bajar los precios\n\nUno de los aspectos más esperanzadores para los consumidores es el aumento de la generación de energía renovable. Entre finales de primavera y principios de verano, la combinación de viento, sol y la gran hidráulica podría llevar a una situación similar a la de la primavera pasada, donde los precios de la electricidad se desajustaron de los costos de las centrales térmicas, lo que generó periodos de precios muy competitivos, incluso negativos. Aceituno destaca que este escenario es muy probable, con la posibilidad de que los consumidores disfruten de tarifas más bajas en sus facturas durante los próximos 60 días.\n\nEl futuro cercano del precio de la electricidad está marcado por un complejo conjunto de factores meteorológicos, geopolíticos y energéticos. La meteorología juega un papel esencial, especialmente en el aprovechamiento de las energías renovables, pero también existen riesgos inherentes a la situación geopolítica, como la guerra en Ucrania. Los consumidores podrían beneficiarse de una posible reducción de precios debido a la mayor generación renovable y la mejora en el almacenamiento energético, aunque siempre existen factores impredecibles que podrían alterar esta tendencia.",
+                                        "metadata": {
+                                            "url": "https://www.elperiodico.com/es/economia/20250328/antonio-aceituno-experto-energia-avisa-precios-luz-dv-117712944",
+                                            "source": "www.elperiodico.com",
+                                            "favicon": "https://www.elperiodico.com/cds-statics/EPC/favicons/android-icon-48x48.png",
+                                            "title": "Antonio Aceituno, experto en energía, avisa",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elperiodico.com",
+                                            "snippet": "Según Aceituno, la meteorología, especialmente la hidrología, será decisiva para la reducción o el aumento de los precios del mercado eléctrico."
+                                        }
+                                    },
+                                    {
+                                        "text": "2024/T3 Artículo 09. El impacto de las energías renovables sobre el precio mayorista de la electricidad 04/09/2024\n\n\n\nSerie: Boletín Económico. Autor: Javier Quintana. Situación económica Energía\n\nCambio climático y transición ecológica\n\nDocumento completo\n\nResumen\n\nMotivación\n\nLa capacidad de generación eléctrica con energías renovables está aumentando significativamente en España. Dado el sistema marginalista de fijación de precios en el mercado eléctrico mayorista, esto puede tener profundas implicaciones en el comportamiento de los precios de la electricidad.\n\nIdeas principales",
+                                        "metadata": {
+                                            "url": "https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/boletin-economico/2024t3-articulo-09-el-impacto-de-las-energias-renovables-sobre-el-precio-mayorista-de-la-electricidad.html",
+                                            "source": "www.bde.es",
+                                            "favicon": "https://www.bde.es/f/webbe/INF/assets/images/favicon.ico",
+                                            "title": "2024/T3 Artículo 09. El impacto de las energías renovables ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bde.es",
+                                            "snippet": "El modelo estimado en este artículo sugiere que el precio mayorista de la electricidad podría reducirse hasta en un 50 % adicional en 2030 en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los activos renovables en España están experimentando una fuerte corrección en sus valoraciones, con caídas que alcanzan hasta el 60% en algunos casos, según el informe Spanish Energy Deal Pulse elaborado por Alvarez & Marsal (A&M). El estudio atribuye este ajuste a la presión a la baja sobre los precios de la energía, provocada por un exceso de capacidad renovable, especialmente solar fotovoltaica, y una demanda eléctrica estancada.\n\nDe acuerdo con A&M, el mercado energético español atraviesa un cambio de ciclo marcado por la desaceleración de las operaciones, la volatilidad de los precios y un desequilibrio creciente entre oferta y demanda. Mientras que en el conjunto de Europa el volumen de operaciones aumentó un 27% interanual, en España descendió un 10%, aunque el valor agregado de las transacciones creció un 60%, impulsado por grandes operaciones.\n\nEl informe destaca que los proyectos en fase temprana, especialmente los denominados Ready to Build (RtB), son los más afectados por la corrección. Si entre 2021 y 2023 estos activos se valoraban entre 150.000 y 250.000 euros por megavatio (MW), actualmente su rango se ha reducido a 50.000–90.000 euros/MW.\n\nSegún A&M, esta caída refleja un aumento del riesgo percibido y la dificultad para asegurar ingresos estables, lo que ha llevado a promotores y fondos a estructurar sus modelos financieros en torno a contratos PPA y proyectos de hibridación, con el fin de mitigar la volatilidad del mercado.\n\nLa paradoja del éxito renovable\n\nEl informe atribuye esta situación al propio éxito del despliegue renovable en España. El Plan Nacional Integrado de Energía y Clima (PNIEC 2023-2030) establece un objetivo de 214 gigavatios (GW) instalados en 2030; sin embargo, la capacidad ya existente y en tramitación supera ampliamente esa cifra, con un exceso especialmente acusado en la energía solar, donde la sobreoferta podría alcanzar el 50% respecto al objetivo previsto.\n\nEsta sobrecapacidad ha generado un fenómeno estructural de “canibalización de precios”, con episodios de valores cero o incluso negativos en el mercado mayorista. En 2024, el precio capturado por la generación solar se redujo hasta 45 euros/MWh, frente a los 58 euros/MWh del año anterior, y en 2025 cayó por debajo de los 35 euros/MWh.",
+                                        "metadata": {
+                                            "url": "https://elperiodicodelaenergia.com/las-renovables-sufren-correcciones-en-sus-valoraciones-de-hasta-el-60-por-los-bajos-precios-de-la-energia/",
+                                            "source": "elperiodicodelaenergia.com",
+                                            "favicon": "https://elperiodicodelaenergia.com/favicon-32x32.png",
+                                            "title": "Las renovables sufren correcciones en sus valoraciones ...",
+                                            "type": "web_search",
+                                            "base_url": "https://elperiodicodelaenergia.com",
+                                            "snippet": "En 2024, el precio capturado por la generación solar se redujo hasta 45 euros/MWh, frente a los 58 euros/MWh del año anterior, y en 2025 cayó ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El mercado de energías renovables está experimentando una significativa corrección en sus tasaciones, que alcanzan hasta un 60%, impulsada por la disminución de los precios de la energía, que han registrado episodios de valores nulos e incluso negativos debido a la sobrecapacidad en el sector, en particular en la energía solar fotovoltaica. Este fenómeno ha sido detallado en el informe ‘Spanish Energy Deal Pulse’ de Alvarez & Marsal.\n\nEl análisis resalta que los proyectos en etapas iniciales, sobre todo los ‘ready to build (RtB)’, son los más perjudicados. Durante el periodo 2021-2023, la valoración de estos activos se situaba entre 150.000 y 250.000 euros por megavatio (MW), pero ha descendido a un margen de 50.000 a 90.000 euros/MW en la actualidad para los proyectos más vulnerables a la volatilidad de los precios energéticos.\n\nSegún la firma, esta ajuste refleja el aumento del riesgo percibido y las dificultades para garantizar ingresos constantes, llevando a promotores y fondos a adaptar sus modelos financieros hacia contratos de compra de energía a largo plazo (PPA) y proyectos de hibridación que reduzcan la incertidumbre de los precios.\n\nEl informe también señala un cambio de ciclo en el mercado eléctrico, caracterizado por la desaceleración de las operaciones, la volatilidad de los precios y un desajuste creciente entre la oferta y la demanda. Aunque el valor agregado de las operaciones en España aumentó un 60%, motivado por grandes transacciones, el volumen total ha disminuido un 10% interanual, en contraste con un aumento del 27% a nivel europeo.\n\nAdemás, el exceso de capacidad, especialmente en energía solar fotovoltaica, ha llevado a una ‘canibalización de precios’, con un precio capturado por la generación solar en 2024 de 45 euros/MWh, frente a los 58 euros/MWh del año anterior, y una previsión de caída por debajo de los 35 euros/MWh en 2025. La demanda eléctrica, por su parte, ha disminuido un 3,7% en el último año.\n\nOtro desafío destacado es la saturación de la red de distribución, con más del 80% de las subestaciones españolas en su máxima capacidad, dificultando la conexión de nuevos proyectos. A nivel regulatorio, se valora positivamente las recientes medidas de la Comisión Nacional de los Mercados y la Competencia (CNMC) y del Gobierno, que buscan fortalecer la estabilidad del sistema energético.\n\nA pesar de las tensiones, se identifican oportunidades para un nuevo ciclo de crecimiento, respaldado por el aumento del consumo eléctrico asociado a la digitalización y la electrificación industrial, la expansión del almacenamiento energético y el fortalecimiento de las redes. La inversión pública prevista en la red eléctrica, que asciende a 13.590 millones de euros hasta 2030, apoyará este proceso.\n\nManuel Cortés, ‘managing director’ de Valuations en A&M, expresó que las actuales valoraciones representan ‘un ajuste necesario que devuelve realismo al mercado’. ‘Tras años de crecimiento acelerado, el sector necesita recalibrar expectativas y basar las decisiones de inversión en fundamentos sólidos. Este proceso, aunque exigente, sienta las bases para una recuperación más sostenible y eficiente a medio plazo’, concluyó.",
+                                        "metadata": {
+                                            "url": "https://www.democrata.es/economia/sector-energias-renovables-enfrenta-ajustes-60-valoraciones-caida-precios-energeticos/",
+                                            "source": "www.democrata.es",
+                                            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png",
+                                            "title": "El sector de las energías renovables enfrenta ajustes de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.democrata.es",
+                                            "snippet": "Los precios de la energía afectan fuertemente al valor de los activos renovables, con correcciones de hasta el 60%."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Qué es AutoSolar?\n\nAutoSolar es un e-commerce de energía solar fotovoltaica y material eléctrico donde podrás encontrar una oferta de más de 3.000 productos: placas solares, inversores, generadores, baterías, estructuras, bombas de agua, reguladores de carga, cargadores de coche eléctrico, iluminación LED, aerogeneradores y material eléctrico en general.\n\nAdemás, en nuestra tienda solar disponemos de completos kits solares que reúnen estos componentes. En ellos podrás encontrar todo lo necesario para llevar a cabo una instalación de placas solares. Déjate asesorar por nuestros profesionales y compra el kit solar que mejor se ajuste a tus necesidades.\n\n+ de 108.000 paneles solares vendidos en toda nuestra trayectoria + de 52 millones de MWh de potencia fotovoltaica instalada\n\nEn nuestra página web autosolar.es dispones de todo lo necesario para tu casa particular, comercio, industria o empresa. Con más de 10 años de experiencia en el sector te ofrecemos también servicio de instalación, atención al cliente, soporte técnico, mantenimiento, asesoramiento, presupuesto personalizado y nos hacemos cargo de los trámites de legalización y subvenciones.\n\nLos productos de AutoSolar\n\nEn la web de AutoSolar tienes a tu disposición una amplia gama de los mejores productos y novedades del mercado. Todos los meses actualizamos nuestro inventario para traerte nuevos dispositivos fabricados con la última tecnología. Disponemos de una gran oferta con marcas y fabricantes del primer nivel. ¿Qué productos puedes encontrar en AutoSolar?\n\nEn AutoSolar somos especialistas en energía solar, por eso podrás encontrar kits solares completos adaptados para hogares conectados a la red eléctrica, casas de campo aisladas, autocaravanas o barcos. Estos kits contienen todo lo necesario para cubrir tus necesidades: baterías, inversores o generadores.\n\nLos servicios que ofrece AutoSolar\n\nEn AutoSolar ofrecemos a nuestros clientes una amplia variedad de servicios para cubrir todas sus necesidades. Cuando contáctes con nosotros nuestro equipo de comerciales te ofrecerá asesoramiento personalizado y un presupuesto inicial. Tras estudiar tu proyecto y realizar una primera visita oficial te proporcionará el presupuesto final. Como sabemos que la inversión inicial es importante, en Autosolar contamos con servicio de financiación para que puedas pagar cómodamente tu sistema.\n\nSi tienes una empresa, industria, casa de campo o casa particular te ofrecemos también un servicio de instalación con los mejores profesionales. Además, si lo deseas, nos podemos hacer cargo de los trámites de legalización y subvenciones por instalar. Una vez tengas tu kit solar completo, contamos con servicio de mantenimiento ante posibles inconvenientes. Recuerda además que nuestro Servicio de Atención Técnica (SAT) siempre estará disponible para ti y te proporcionará cobertura tras la instalación o compra de cualquiera de nuestros productos.\n\nAdemás, en AutoSolar contamos con servicio de logística propia con AutoSolar Logistics, para que los envíos de tus pedidos sean completamente seguros y eficientes. Recibirás tu paquete en la dirección que nos indiques lo más rápido posible. Además, tienes 14 días para devolver los productos que desees.\n\nEn AutoSolar gestionamos tanto a particulares como a profesionales, con un departamento técnico profesional especializado. Atendemos a más de 9.000 profesionales del sector y les proporcionamos apoyo en: mantenimiento del sistema, medios de elevación y transporte, logística propia, financiación, productos y garantías. Estamos presentes en toda España y disponemos de almacén propio y de departamentos especializados en marketing, servicio técnico, legalizaciones, etc.\n\nEmpresa placas solares: AutoSolar como líder en el sector\n\nAutoSolar es una empresa de placas solares líder en el sector con más de 10 años de experiencia. Nuestra empresa cuenta con más de 3.000 productos en stock de las mejores marcas y con la mejor garantía. Como empresa de placas solares, nuestra e-commerce cuenta con personal cualificado en cada uno de nuestros departamentos para brindar servicio de asesoramiento, instalación, financiación y atención postventa, entre otras cosas.\n\nEn la web de AutoSolar podrás encontrar una sección dedicada a la energía solar, donde figuran nuestros kits solares, paneles solares, inversores y baterías, entre otros productos fotovoltaicos. También tenemos un apartado dedicado a la climatización y otro al hogar. Encontrarás soluciones para la calefacción y refrigeración de cualquier espacio y su posterior acondicionamiento con todo tipo de electrodomésticos.\n\nAdemás, como empresa de paneles solares, también contamos con un apartado didáctico, pensado para ayudar a nuestros clientes. Ponemos a vuestra disposición el blog solar y eléctrico donde resolveremos todas las dudas que os puedan surgir sobre el montaje o puesta en marcha de cualquier dispositivo.\n\nAutosolar: ¿Dónde nos puedes encontrar?\n\nAutoSolar está presente en diversos puntos de España y también en América Latina, con el claro objetivo de dar servicio y poner al alcance de todo el mundo la energía solar. Por lo tanto, ¿dónde nos puedes encontrar en España?\n\n📍 AutoSolar Valencia 📍 AutoSolar Canarias\n\nY por otro lado, en América Latina estamos presentes en dos puntos clave de la geografía:\n\n📍 AutoSolar Perú 📍 AutoSolar Colombia\n\nEn AutoSolar lo más importante eres tú, por ello ponemos a tu disposición nuestro teléfono de atención al cliente 961 430 113. Si tienes alguna queja o duda, podrás contactarnos de lunes a viernes de ocho de la mañana a las siete de la tarde (8h-19h). También puedes contactarnos a través de nuestro correo electrónico [email protected].",
+                                        "metadata": {
+                                            "url": "https://autosolar.es",
+                                            "source": "autosolar.es",
+                                            "favicon": "https://autosolar.es/favicon.ico",
+                                            "title": "Así queda la subida del precio de la luz en 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://autosolar.es",
+                                            "snippet": "Este febrero de 2025 se ha experimentado una subida del precio de la luz a 133,47 €/MWh en España, una cifra mayor que la del mismo mes en años anteriores."
+                                        }
+                                    },
+                                    {
+                                        "text": "El año 2025 se presenta como un punto clave para quienes buscan opciones más sostenibles a la hora de contratar la luz en casa. La preocupación por el medio ambiente y el ahorro en la factura eléctrica van de la mano, y las compañías energéticas ofrecen cada vez más alternativas que apuestan por las energías renovables. Si estás pensando en cambiar de tarifa o quieres saber cuáles son las mejores opciones del mercado, aquí te traemos una comparativa clara y directa de las tarifas eléctricas sostenibles en 2025.\n\n¿Qué es una tarifa eléctrica sostenible?\n\nAntes de lanzarnos a comparar, conviene aclarar qué significa realmente que una tarifa eléctrica sea sostenible. Hablamos de tarifas que garantizan el suministro de electricidad procedente de fuentes renovables, como la solar, la eólica o la hidráulica. Además, muchas de estas tarifas incluyen certificaciones que acreditan el origen verde de la energía y, en algunos casos, medidas adicionales de compensación de CO2 o proyectos ambientales asociados.\n\nVentajas de optar por una tarifa sostenible\n\nDecantarse por una tarifa eléctrica sostenible no solo es una manera de reducir la huella ecológica, sino que también puede suponer ventajas económicas y sociales:\n\nReducción de emisiones de CO2 : consumir energía renovable contribuye directamente a frenar el cambio climático.\n\n: consumir energía renovable contribuye directamente a frenar el cambio climático. Apoyo al desarrollo local : muchas comercializadoras invierten en proyectos renovables nacionales.\n\n: muchas comercializadoras invierten en proyectos renovables nacionales. Transparencia y confianza : las tarifas verdes suelen estar avaladas por certificados oficiales.\n\n: las tarifas verdes suelen estar avaladas por certificados oficiales. Precios competitivos: en 2025, la competencia entre comercializadoras ha igualado los precios de las tarifas sostenibles respecto a las convencionales.\n\nPrincipales compañías y sus tarifas sostenibles en 2025\n\nEl mercado eléctrico español está plagado de opciones, pero aquí vamos a destacar las más relevantes y fáciles de contratar:\n\n1. Holaluz\n\nUna de las pioneras en energía 100% renovable. Holaluz apuesta por tarifas sencillas, sin permanencia y con energía certificada de origen renovable. Su tarifa «Justa 2025» adapta el precio según tu consumo real, lo que puede suponer un ahorro añadido en hogares eficientes.\n\nCertificación: Garantía de Origen de la CNMC\n\nGarantía de Origen de la CNMC Precio: Cuota fija mensual o variable según consumo\n\nCuota fija mensual o variable según consumo Extras: Posibilidad de autoconsumo y compensación de excedentes solares\n\n2. Iberdrola\n\nIberdrola sigue liderando el mercado de energías renovables en España. Su tarifa «Plan Verde 2025» garantiza energía 100% renovable y ofrece precios estables o indexados al mercado, según la preferencia del cliente.\n\nCertificación: Garantía de Origen renovable\n\nGarantía de Origen renovable Precio: Opción estable o indexada\n\nOpción estable o indexada Extras: Programas de eficiencia energética y descuentos para nuevos clientes\n\n3. Repsol\n\nLa compañía ha reforzado su apuesta por la sostenibilidad con la tarifa «Plan Eco Luz», que ofrece energía procedente exclusivamente de fuentes renovables y opciones de autoconsumo para quienes tienen placas solares.\n\nCertificación: Garantía de Origen renovable\n\nGarantía de Origen renovable Precio: Tarifa plana o variable\n\nTarifa plana o variable Extras: Apps para monitorizar el consumo y asesoramiento gratuito\n\n4. Gana Energía\n\nEspecializada en tarifas verdes, Gana Energía destaca por su transparencia y bajos costes fijos. La tarifa «Eco Gana» ofrece energía renovable certificada y una gestión online sencilla.\n\nCertificación: Garantía de Origen renovable\n\nGarantía de Origen renovable Precio: Indexado al mercado mayorista\n\nIndexado al mercado mayorista Extras: Sin permanencia ni costes ocultos\n\n5. Naturgy\n\nCon su tarifa «Compromiso Verde», Naturgy ofrece energía 100% renovable y diferentes opciones para adaptar la tarifa al consumo del hogar. Además, cuentan con asesoramiento energético personalizado y promociones periódicas.\n\nCertificación: Garantía de Origen renovable\n\nGarantía de Origen renovable Precio: Fijo o variable\n\nFijo o variable Extras: Servicios de mantenimiento y soporte 24/7\n\nComparativa de precios y condiciones\n\nPara facilitar la elección, aquí tienes una tabla resumen con las características principales de cada tarifa:\n\nCompañía Nombre tarifa Precio Certificación Permanencia Servicios extra Holaluz Justa 2025 Fijo / variable Garantía de Origen No Autoconsumo, compensación Iberdrola Plan Verde 2025 Fijo / indexado Garantía de Origen No Eficiencia, descuentos Repsol Plan Eco Luz Fijo / variable Garantía de Origen No App, asesoramiento Gana Energía Eco Gana Indexado Garantía de Origen No Sin costes ocultos Naturgy Compromiso Verde Fijo / variable Garantía de Origen No Mantenimiento, soporte\n\n¿Qué tener en cuenta antes de contratar?\n\nElegir la tarifa más adecuada depende de las necesidades de cada hogar. Aquí van algunos consejos útiles para no equivocarte:\n\nAnaliza tu consumo anual : si consumes mucho en horas concretas, puede interesarte una tarifa con discriminación horaria.\n\n: si consumes mucho en horas concretas, puede interesarte una tarifa con discriminación horaria. Revisa la procedencia de la energía : asegúrate de que la compañía ofrece garantías oficiales.\n\n: asegúrate de que la compañía ofrece garantías oficiales. Valora la flexibilidad : evita tarifas con permanencia o penalizaciones por cambio.\n\n: evita tarifas con permanencia o penalizaciones por cambio. Consulta los servicios adicionales: asesoramiento, apps de control o facilidades para el autoconsumo pueden marcar la diferencia.\n\n¿Merece la pena pasarse a una tarifa eléctrica sostenible?\n\nEn 2025, la diferencia de precio entre las tarifas convencionales y las sostenibles es mínima, y en algunos casos incluso pueden resultar más económicas gracias a descuentos y promociones. Además, el impacto ambiental es notablemente menor, ayudando a construir un futuro más verde sin renunciar a la comodidad ni al ahorro.\n\nEn definitiva, apostar por una tarifa eléctrica sostenible es una decisión cada vez más lógica y sencilla en España. Con una oferta amplia y competitiva, solo queda comparar bien las opciones y elegir la que mejor se adapte a tus necesidades. Si tienes dudas, lo mejor es consultar con un asesor energético o utilizar comparadores online para asegurarte de que eliges la tarifa más adecuada para tu hogar.",
+                                        "metadata": {
+                                            "url": "https://www.tuenergiaok.com/2025/09/22/comparativa-de-tarifas-electricas-sostenibles-en-2025/",
+                                            "source": "www.tuenergiaok.com",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Comparativa de tarifas eléctricas sostenibles en 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.tuenergiaok.com",
+                                            "snippet": "Precios competitivos: en 2025, la competencia entre comercializadoras ha igualado los precios de las tarifas sostenibles respecto a las ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Jueves, 02 de octubre de 2025\n\nUn estudio que acaba de publicar el colectivo multinacional de expertos en energía Ember revela que el fuerte incremento de la aportación eólica y fotovoltaica al mix eléctrico español registrado en los últimos años ha propiciado que la influencia del gas natural en el precio final de la electricidad en el mercado mayorista sea la menor de entre los cinco países europeos con las mayores flotas de gas (en España hay más de 26.000 megavatios de potencia en centrales de ciclo combinado, que queman gas natural -metano- para generar electricidad). Pues bien, según Ember, ese menor peso del gas ha hecho posible que el precio mayorista de la electricidad en España sea un 32% inferior a la media de la UE.\n\nEl informe analiza la influencia de los generadores eléctricos de carbón y gas en los precios mayoristas de la electricidad en España, en comparación con los otros cuatro principales países productores de energía proveniente del gas (Reino Unido, Alemania, Italia y Países Bajos) durante el primer semestre de 2025 y 2019. Y la conclusión es una muy concreta: el fuerte crecimiento de la energía eólica y solar en España ha reducido en un 75% la influencia del gas y el carbón en los precios de la electricidad desde 2019. España -sostienen los autores de este informe- se ha convertido así en uno de los mercados eléctricos más baratos de Europa. El estudio de Ember revela que la caída de la influencia de los combustibles fósiles en nuestro país ha sido mucho más rápida que en otros países que dependen del gas, como Alemania o Italia, donde la influencia del metano en el precio final de la electricidad apenas descendió un 12% y un 13% respectivamente en las horas en las que el precio de la electricidad estaba ligado al coste del gas. Según el doctor Chris Rosslowe, analista senior en Ember, España ha conseguido romper \"el vínculo nefasto entre los precios de la electricidad y la volatilidad de los combustibles fósiles, algo que sus vecinos europeos ansían conseguir”.\n\nEn los mercados eléctricos europeos, el generador más caro en funcionamiento –normalmente de gas o de carbón– fija el precio mayorista de la electricidad por hora, y a medida que aumenta la participación de las renovables más baratas, los combustibles fósiles determinan el precio con menor frecuencia.\n\nPues bien, el análisis de Ember revela que en la primera mitad de 2025 los generadores fósiles influyeron en el precio de la electricidad en España solo en el 19% de las horas, la cifra más baja entre los cinco países europeos con las mayores flotas de gas. Como consecuencia, el precio mayorista de la electricidad en España fue un 32% inferior a la media de la UE, lo que supone \"un cambio radical respecto a 2019, cuando España se encontraba entre los países con la electricidad más cara de Europa, con generadores fósiles que fijaban el precio en el 75% de las horas del primer semestre del año\".\n\nEl giro se ha debido al fuerte crecimiento de las energías renovables: la eólica y la solar han cubierto casi la mitad de la demanda eléctrica del país en el primer semestre de 2025 (46%), frente al 27% en el mismo periodo de 2019. En contraste, la generación fósil apenas representó un 20% de la demanda eléctrica en España, muy por debajo de Alemania (41%) e Italia (43%).\n\nSegún Ember, gracias al fuerte crecimiento de la energía solar y eólica, el desplazamiento de los combustibles fósiles ya se produce en España, normalmente en las horas centrales del día, cuando la generación solar alcanza su máximo, o durante la noche, cuando sopla el viento.\n\nLos datos de Ember\n\n«En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.\n\nEntre diciembre de 2019 y junio de 2025, España duplicó su capacidad eólica y solar, añadiendo más de 40 GW, más que cualquier otro país de la UE excepto Alemania, cuyo mercado eléctrico es el doble de grande\n\nAgosto de 2025 ha sido el primer mes en la historia reciente de España sin generación eléctrica a carbón. Un cambio notable: diez años atrás, en agosto de 2015, el carbón representaba una cuarta parte de la energía del país. La generación de energía a gas en España ha ido disminuyendo desde 2022, representando el 19% de la demanda nacional en la primera mitad de 2025, frente al 26% en el mismo período de 2019»\n\nUna dependencia costosa del gas para estabilizar la red\n\nPese a los avances de España para desligar los precios de la electricidad del gas, el informe advierte que la creciente dependencia de la energía del gas para la estabilización de la red tras el apagón ibérico de abril de 2025 ha tenido un alto coste, lo que pone de relieve la necesidad de invertir en flexibilidad limpia, como baterías e interconexiones.\n\nEl uso de gas para servicios de la red se ha duplicado en mayo de 2025 respecto al mismo mes del año anterior y ha sido responsable del 57% del precio final de la electricidad ese mes, frente al 14% de un año antes. Como consecuencia, los vertimientos de energías renovables -apuntan desde Ember- se han triplicado desde el apagón, pasando del 1,8% en los dos últimos años al 7,2% durante mayo-julio de 2025.\n\n“España corre el riesgo de volver a caer en una dependencia costosa del gas en medio de los temores tras el apagón”, advierte el doctor Rosslowe. “Impulsar las redes y las baterías ayudará a España a liberarse definitivamente de la dependencia de los combustibles fósiles”.\n\nLa nueva manera de operar de REE, tras el apagón, según Ember\n\n«El aumento de la restricción de las energías renovables desperdicia electricidad barata, pero es el aumento de la energía de gas lo que desempeña un papel más importante en el aumento de los costes. El uso de turbinas de gas de ciclo combinado (CCGT) para los servicios de la red aumentó de 7,8 teravatios hora en 2021 a 13,7 TWh en 2024. El parque de CCGT de España desempeña un papel mucho más importante en el equilibrio de la red que en la generación de electricidad. Entre 2021 y 2024, las CCGT proporcionaron solo el 25% de la generación eléctrica de España, pero el 75% de sus necesidades de equilibrio.\n\nLa fuerte dependencia de la red española del gas para la estabilidad de la red es aún más evidente desde el apagón. En mayo, el uso de gas en los mercados de restricciones técnicas se disparó hasta los 2.400 gigavatios hora (GWh), el doble que en mayo de 2024.\n\nEn el año anterior al apagón, el precio medio de estos mercados fue de cinco euros el megavatio hora (5 €/MWh) y supuso el 14% del precio final de la electricidad. Sin embargo, en mayo de 2025, el precio medio subió a 24 €/MWh, lo que supuso el 57% del precio final de la electricidad, ya que los precios mayoristas de la electricidad solo alcanzaron una media de 17 €/MWh. Estos aumentos en los volúmenes y los precios provocaron que el coste de las medidas de equilibrio de la red se duplicara en mayo de 2025 en comparación con el mismo mes del año anterior»\n\nEspaña -destaca el informe- se encuentra rezagada respecto de sus pares europeos en materia de redes y almacenamiento en baterías. Aunque es el cuarto mercado eléctrico más grande de Europa, solo cuenta -concretan los autores del informe- con la décima tercera flota de almacenamiento en baterías (120 MW), \"lo que resulta notablemente pequeño si se tiene en cuenta que España es el cuarto mercado eléctrico más grande, con la quinta mayor penetración de energía eólica y solar, y también uno de los sistemas menos bien conectados del continente\".\n\nEmber vislumbra una ventana de oportunidad: \"las reformas posteriores al apagón -sostienen los autores del estudio- buscan revertir esta situación\".\n\nEl premio es goloso: el auge de la energía eólica y solar -explican en Ember- ha reducido la dependencia de España de las importaciones de combustibles fósiles. En los últimos cinco años (2020-2024), España ha recortado su factura de importaciones en el sector eléctrico más que cualquier otro país de la UE.\n\nLas nuevas plantas solares y eólicas añadidas en España durante este período han evitado -estiman en Ember- la importación de 26.000 millones de metros cúbicos de gas, \"lo que habría costado 13.500 millones de euros, casi cinco veces lo que España invirtió en su red de transporte en esos años\".\n\nSoluciones\n\nExisten alternativas limpias al gas para abordar los problemas de la red española y ayudar a integrar las energías renovables. Y la inversión en esas alternativas limpias puede reducir la presencia, y la influencia, del gas en el sistema eléctrico y en los precios. El problema -apuntan desde Ember- es que \"la inversión en estas soluciones ha sido notablemente lenta en España\".\n\nDurante los cinco años comprendidos entre 2019 y 2024, España ha tenido el gasto en redes más bajo de Europa, \"invirtiendo 30 céntimos en redes por cada euro en energías renovables, frente a la media europea de 70 céntimos, según Bloomberg\".\n\nEmber concreta: 2.900 millones de euros de inversión en la red de transporte durante el quinquenio 2020-2024, según los informes anuales de REE 2020, 2021, 2022, 2023 y 2024 (REE es el operador y transportista único del sistema eléctrico nacional).\n\nEl desarrollo de \"tecnologías de rápida implementación que mejoran la capacidad de la red existente\" también ha sido lento, se queja Ember, que pone un ejemplo comparativo.\n\n«La red peninsular española no cuenta con compensadores síncronos operativos, dispositivos que pueden proporcionar control dinámico de tensión e inercia sin combustibles fósiles. Por el contrario, la red británica opera al menos 12 dispositivos de este tipo, a pesar de tener una menor proporción de energía eólica y solar en la combinación de generación (35% frente al 43% de España en 2024)»\n\nPor último, Ember valora positivamente las propuestas lanzadas desde el Ministerio para la Transición Ecológica y el Reto Demográfico tras el apagón (como respuesta inmediata al apagón, el Gobierno español anunció un paquete de reformas destinadas a [1] mejorar el control de la red, [2] incrementar las exigencias de transparencia para con las distribuidoras y [3] avanzar en las soluciones de flexibilidad limpia.\n\n\"Aunque el paquete fue rechazado inicialmente en el Parlamento por motivos políticos -dice Ember-, las mismas reformas se están llevando a cabo por otros medios. Además, a los pocos días del apagón se aprobaron unos cambios normativos muy esperados, que permiten a las energías renovables participar en el control del voltaje. La rapidez y el contenido de esta respuesta demuestran -concluye el informe- que las energías renovables, respaldadas por la flexibilidad limpia, siguen siendo la opción estratégica para España\".\n\nDesligados: cómo España rompió el vínculo entre el gas y el precio de la electricidad gracias a las energías renovables",
+                                        "metadata": {
+                                            "url": "https://www.energias-renovables.com/panorama/el-precio-de-la-electricidad-en-espa-20251002",
+                                            "source": "www.energias-renovables.com",
+                                            "favicon": "https://www.energias-renovables.com/favicon.ico",
+                                            "title": "El precio de la electricidad en España, un 32% por debajo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.energias-renovables.com",
+                                            "snippet": "Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 5.292521933999524,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 5.292521933999524,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:29",
+                    "run_time": 5.292521933999524,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la participación actual de la energía renovable en la generación de electricidad en España en 2025?": [
+                                {
+                                    "El sistema eléctrico español continúa su transformación hacia un modelo más sostenible y descarbonizado. En 2025, las energías renovables han alcanzado un nuevo hito, consolidándose como la principal fuente de generación eléctrica en el país. A continuación, analizamos la composición actual del mix energético, su evolución reciente y las perspectivas futuras.": null
+                                },
+                                {
+                                    "En definitiva, el mix energético español en 2025 ya refleja un avance significativo hacia la descarbonización y la sostenibilidad. Las energías renovables se han consolidado como la principal fuente de generación eléctrica, y las perspectivas para la próxima década apuntan a una mayor integración de tecnologías limpias, almacenamiento inteligente y participación ciudadana.": null
+                                },
+                                {
+                                    "España se sitúa a la vanguardia de la generación renovable en Europa, con una participación del 56% en su mix energético en 2025. Este porcentaje supera al de países como Alemania, Francia o Italia, y refleja el aprovechamiento de las condiciones geográficas favorables para la energía solar y eólica.": null
+                                }
+                            ],
+                            "¿Cuál ha sido el descenso promedio del precio de la electricidad en España desde 2020 hasta 2025?": [
+                                {
+                                    "«En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.": null
+                                },
+                                {
+                                    "Por todo ello, te contamos cómo evoluciona el precio de la luz en 2025, realizamos una comparativa con respecto a los anteriores años y comentamos las previsiones para el ejercicio en curso.": null
+                                },
+                                {
+                                    "El sistema eléctrico español continúa su transformación hacia un modelo más sostenible y descarbonizado. En 2025, las energías renovables han alcanzado un nuevo hito, consolidándose como la principal fuente de generación eléctrica en el país. A continuación, analizamos la composición actual del mix energético, su evolución reciente y las perspectivas futuras.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en energía renovable sobre el impacto de esta fuente de energía en el precio de la electricidad en España?": [
+                                {
+                                    "La capacidad de generación eléctrica con energías renovables está aumentando significativamente en España. Dado el sistema marginalista de fijación de precios en el mercado eléctrico mayorista, esto puede tener profundas implicaciones en el comportamiento de los precios de la electricidad.": null
+                                },
+                                {
+                                    "De cara al futuro, según el artículo, cabe esperar una mayor reducción en el precio mayorista de la electricidad inducida por el aumento de las renovables en el mix energético que resultaría de los planes de inversión actualmente previstos. De esta forma, un aumento de la generación renovable -cuyo coste marginal de producción es relativamente reducido- afectaría a los precios mayoristas en la medida en que desplace a otras tecnologías de mayor coste marginal del 'mix' energético necesario para satisfacer la demanda en determinados tramos horarios. Por ello, considera que además de contribuir a la transición climática, las energías renovables tienen un papel muy relevante en la reducción de los precios mayoristas de la electricidad, y esa relevancia previsiblemente se incrementará en el futuro.": null
+                                },
+                                {
+                                    "Así, señala que un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Al contrario, un mismo aumento en el peso de las renovables tendrá un impacto significativo si es suficiente para desplazar no solo las plantas de producción menos eficientes, sino también el conjunto de las tecnologías de generación basadas en combustibles fósiles. \"En este caso, la contribución de las energías renovables llevaría el precio mayorista de la electricidad a cero\", afirma.": null
+                                }
+                            ],
+                            "¿Qué conclusiones han sacado los organismos reguladores españoles sobre la relación entre la energía renovable y el precio de la electricidad?": [
+                                {
+                                    "La capacidad de generación eléctrica con energías renovables está aumentando significativamente en España. Dado el sistema marginalista de fijación de precios en el mercado eléctrico mayorista, esto puede tener profundas implicaciones en el comportamiento de los precios de la electricidad.": null
+                                },
+                                {
+                                    "De cara al futuro, según el artículo, cabe esperar una mayor reducción en el precio mayorista de la electricidad inducida por el aumento de las renovables en el mix energético que resultaría de los planes de inversión actualmente previstos. De esta forma, un aumento de la generación renovable -cuyo coste marginal de producción es relativamente reducido- afectaría a los precios mayoristas en la medida en que desplace a otras tecnologías de mayor coste marginal del 'mix' energético necesario para satisfacer la demanda en determinados tramos horarios. Por ello, considera que además de contribuir a la transición climática, las energías renovables tienen un papel muy relevante en la reducción de los precios mayoristas de la electricidad, y esa relevancia previsiblemente se incrementará en el futuro.": null
+                                },
+                                {
+                                    "El precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Así lo estima el Banco de España con arreglo al modelo estimado en el artículo titulado 'El impacto de las energías renovables sobre el precio mayorista de la electricidad', en el que maneja un intervalo de confianza de entre el 45% y el 60%. En cualquier caso, el organismo deja claro que el comportamiento futuro de estos precios está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable.": null
+                                }
+                            ],
+                            "¿Cuál es la diferencia entre el precio de la electricidad generada por fuentes renovables y no renovables en España en 2025?": [
+                                {
+                                    "El sistema eléctrico español continúa su transformación hacia un modelo más sostenible y descarbonizado. En 2025, las energías renovables han alcanzado un nuevo hito, consolidándose como la principal fuente de generación eléctrica en el país. A continuación, analizamos la composición actual del mix energético, su evolución reciente y las perspectivas futuras.": null
+                                },
+                                {
+                                    "«En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.": null
+                                },
+                                {
+                                    "En definitiva, el mix energético español en 2025 ya refleja un avance significativo hacia la descarbonización y la sostenibilidad. Las energías renovables se han consolidado como la principal fuente de generación eléctrica, y las perspectivas para la próxima década apuntan a una mayor integración de tecnologías limpias, almacenamiento inteligente y participación ciudadana.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.706461215000672,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.706461215000672,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:39",
+                    "run_time": 9.706461215000672,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa energía renovable ha reducido el precio de la electricidad en España\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la participación actual de la energía renovable en la generación de electricidad en España en 2025?\n¿Cuál ha sido el descenso promedio del precio de la electricidad en España desde 2020 hasta 2025?\n¿Qué opinan los expertos en energía renovable sobre el impacto de esta fuente de energía en el precio de la electricidad en España?\n¿Qué conclusiones han sacado los organismos reguladores españoles sobre la relación entre la energía renovable y el precio de la electricidad?\n¿Cuál es la diferencia entre el precio de la electricidad generada por fuentes renovables y no renovables en España en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] El sistema eléctrico español continúa su transformación hacia un modelo más sostenible y descarbonizado. En 2025, las energías renovables han alcanzado un nuevo hito, consolidándose como la principal fuente de generación eléctrica en el país. A continuación, analizamos la composición actual del mix energético, su evolución reciente y las perspectivas futuras.\n[0] En definitiva, el mix energético español en 2025 ya refleja un avance significativo hacia la descarbonización y la sostenibilidad. Las energías renovables se han consolidado como la principal fuente de generación eléctrica, y las perspectivas para la próxima década apuntan a una mayor integración de tecnologías limpias, almacenamiento inteligente y participación ciudadana.\n[0] España se sitúa a la vanguardia de la generación renovable en Europa, con una participación del 56% en su mix energético en 2025. Este porcentaje supera al de países como Alemania, Francia o Italia, y refleja el aprovechamiento de las condiciones geográficas favorables para la energía solar y eólica.\n[1] «En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.\n[2] Por todo ello, te contamos cómo evoluciona el precio de la luz en 2025, realizamos una comparativa con respecto a los anteriores años y comentamos las previsiones para el ejercicio en curso.\n[3] La capacidad de generación eléctrica con energías renovables está aumentando significativamente en España. Dado el sistema marginalista de fijación de precios en el mercado eléctrico mayorista, esto puede tener profundas implicaciones en el comportamiento de los precios de la electricidad.\n[4] De cara al futuro, según el artículo, cabe esperar una mayor reducción en el precio mayorista de la electricidad inducida por el aumento de las renovables en el mix energético que resultaría de los planes de inversión actualmente previstos. De esta forma, un aumento de la generación renovable -cuyo coste marginal de producción es relativamente reducido- afectaría a los precios mayoristas en la medida en que desplace a otras tecnologías de mayor coste marginal del 'mix' energético necesario para satisfacer la demanda en determinados tramos horarios. Por ello, considera que además de contribuir a la transición climática, las energías renovables tienen un papel muy relevante en la reducción de los precios mayoristas de la electricidad, y esa relevancia previsiblemente se incrementará en el futuro.\n[4] Así, señala que un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Al contrario, un mismo aumento en el peso de las renovables tendrá un impacto significativo si es suficiente para desplazar no solo las plantas de producción menos eficientes, sino también el conjunto de las tecnologías de generación basadas en combustibles fósiles. \"En este caso, la contribución de las energías renovables llevaría el precio mayorista de la electricidad a cero\", afirma.\n[4] El precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Así lo estima el Banco de España con arreglo al modelo estimado en el artículo titulado 'El impacto de las energías renovables sobre el precio mayorista de la electricidad', en el que maneja un intervalo de confianza de entre el 45% y el 60%. En cualquier caso, el organismo deja claro que el comportamiento futuro de estos precios está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La energía renovable ha reducido el precio de la electricidad en España"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Síntesis de los argumentos a favor de la afirmación**\n\nLa afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" encuentra apoyo en varias fuentes de información. Primero, según [1], en la primera mitad de 2025, el precio medio por hora de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo. Esto sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España.\n\nAdemás, según [3], la capacidad de generación eléctrica con energías renovables está aumentando significativamente en España, lo que puede tener profundas implicaciones en el comportamiento de los precios de la electricidad. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\nFinalmente, según [4], el Banco de España estima que el precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\n**Síntesis de los argumentos en contra de la afirmación**\n\nAunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. Según [4], un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Esto sugiere que la energía renovable no siempre contribuye a reducir el precio de la electricidad.\n\nAdemás, según [4], el comportamiento futuro de los precios de la electricidad está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable. Esto sugiere que la relación entre la energía renovable y el precio de la electricidad puede ser compleja y no siempre lineal.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. La energía renovable puede tener un impacto positivo en los precios de la electricidad, pero también puede tener un impacto limitado o incluso negativo en ciertos contextos. Por lo tanto, la afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" se considera **verdadera** debido a la existencia de evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, aunque también hay argumentos que sugieren que esta relación no es tan clara."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4919211129999894,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4919211129999894,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:40",
+                    "run_time": 1.4919211129999894,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La energía renovable ha reducido el precio de la electricidad en España\nArticle: **Análisis de la afirmación**\n\n**Síntesis de los argumentos a favor de la afirmación**\n\nLa afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" encuentra apoyo en varias fuentes de información. Primero, según [1], en la primera mitad de 2025, el precio medio por hora de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo. Esto sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España.\n\nAdemás, según [3], la capacidad de generación eléctrica con energías renovables está aumentando significativamente en España, lo que puede tener profundas implicaciones en el comportamiento de los precios de la electricidad. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\nFinalmente, según [4], el Banco de España estima que el precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\n**Síntesis de los argumentos en contra de la afirmación**\n\nAunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. Según [4], un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Esto sugiere que la energía renovable no siempre contribuye a reducir el precio de la electricidad.\n\nAdemás, según [4], el comportamiento futuro de los precios de la electricidad está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable. Esto sugiere que la relación entre la energía renovable y el precio de la electricidad puede ser compleja y no siempre lineal.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. La energía renovable puede tener un impacto positivo en los precios de la electricidad, pero también puede tener un impacto limitado o incluso negativo en ciertos contextos. Por lo tanto, la afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" se considera **verdadera** debido a la existencia de evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, aunque también hay argumentos que sugieren que esta relación no es tan clara.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La energía renovable ha reducido el precio de la electricidad en España\nArticle: **Análisis de la afirmación**\n\n**Síntesis de los argumentos a favor de la afirmación**\n\nLa afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" encuentra apoyo en varias fuentes de información. Primero, según [1], en la primera mitad de 2025, el precio medio por hora de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo. Esto sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España.\n\nAdemás, según [3], la capacidad de generación eléctrica con energías renovables está aumentando significativamente en España, lo que puede tener profundas implicaciones en el comportamiento de los precios de la electricidad. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\nFinalmente, según [4], el Banco de España estima que el precio mayorista de la electricidad podría reducirse hasta en un 50% adicional en 2030 en los escenarios de despliegue de generación renovable contemplados en la actualización del Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030. Esto sugiere que la energía renovable puede continuar contribuyendo a reducir el precio de la electricidad en España.\n\n**Síntesis de los argumentos en contra de la afirmación**\n\nAunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. Según [4], un aumento de la generación renovable cuando el nivel de esta es reducido tiene un efecto limitado porque, si bien las renovables hacen innecesarias algunas de las plantas menos eficientes dentro de la tecnología más cara, esta sustitución es parcial y no provoca un cambio en la tecnología marginal que marca el precio. Esto sugiere que la energía renovable no siempre contribuye a reducir el precio de la electricidad.\n\nAdemás, según [4], el comportamiento futuro de los precios de la electricidad está sujeto a una considerable incertidumbre, al estar condicionado por la evolución de distintos factores de oferta o la adaptación de la demanda a los nuevos niveles de generación renovable. Esto sugiere que la relación entre la energía renovable y el precio de la electricidad puede ser compleja y no siempre lineal.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, también hay argumentos que sugieren que esta relación no es tan clara. La energía renovable puede tener un impacto positivo en los precios de la electricidad, pero también puede tener un impacto limitado o incluso negativo en ciertos contextos. Por lo tanto, la afirmación \"La energía renovable ha reducido el precio de la electricidad en España\" se considera **verdadera** debido a la existencia de evidencia que sugiere que la energía renovable ha contribuido a reducir el precio de la electricidad en España, aunque también hay argumentos que sugieren que esta relación no es tan clara."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La energía renovable ha reducido el precio de la electricidad en España\", \"categories\": [\"Energía\", \"Medio ambiente\", \"Economía\"], \"label\": \"True\", \"main_claim\": \"La energía renovable ha reducido el precio de la electricidad en España y su impacto puede ser positivo, pero también puede ser limitado o negativo en ciertos contextos\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

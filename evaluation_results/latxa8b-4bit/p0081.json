@@ -1,0 +1,589 @@
+{
+    "question": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España",
+    "answer": "Según el texto [1], la Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023, lo que la posiciona como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario. Además, se menciona que el gasto sanitario de Madrid es superior al promedio nacional del 20%, lo que sugiere que la comunidad autónoma de Madrid tiene un gasto sanitario más alto por habitante que el resto de comunidades autónomas. También se menciona que el gasto sanitario de Madrid se enfoca en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas, lo que sugiere que la comunidad autónoma de Madrid está invirtiendo en el fortalecimiento de su sistema sanitario.\n\nSin embargo, según el texto [2], el gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025, y Madrid se sitúa en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona, pero no se menciona el gasto sanitario por habitante de Madrid en particular. Además, se menciona que Asturias lidera la inversión por habitante, lo que sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.\n\nA partir de los textos proporcionados, podemos concluir que la afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" no es del todo cierta. Si bien la comunidad autónoma de Madrid tiene un gasto sanitario alto y ha incrementado su gasto en casi un 31% entre 2018 y 2023, no se puede afirmar que sea la que menos gasta en sanidad por habitante, ya que Asturias lidera la inversión por habitante y la media nacional es superior al gasto sanitario de Madrid. Por lo tanto, la afirmación es **falsa**.\n\nEs importante destacar que la falta de información sobre el gasto sanitario por habitante de Madrid en 2025 en el texto [2] puede ser un limite para determinar la verdad de la afirmación. Sin embargo, la información disponible sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.institutocoordenadas.com/es/analisis/instituto-coordenadas-destaca-incremento-gasto-sanitario-publico-comunidad-madrid-frente-contraccion-nacional_20314_102.html",
+            "source": "www.institutocoordenadas.com",
+            "favicon": "https://www.institutocoordenadas.com/uploads/static/institutocoordenadas/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.elboletin.com/gasto-sanitario-per-capita-por-ccaa-en-2025-el-mapa-de-la-inversion-por-habitante-en-espana/",
+            "source": "www.elboletin.com",
+            "favicon": "https://www.elboletin.com/wp-content/uploads/2021/02/cropped-favi-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España",
+        "categories": [
+            "Salud",
+            "Economía",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "La comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante de España",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4628556709994882,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4628556709994882,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:37:34",
+                    "run_time": 1.4628556709994882,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nMadrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\n\n**Critical Research Questions:**\n1. ¿Cuál es el gasto en sanidad por habitante en Madrid en 2025?\n2. ¿Cuál es el gasto en sanidad por habitante en cada comunidad autónoma de España en 2025?\n3. ¿Cómo compara el gasto en sanidad de Madrid con el resto de comunidades autónomas en 2025?\n4. ¿Qué opinan los expertos sobre el gasto en sanidad en Madrid?\n5. ¿Qué declaraciones oficiales o evaluaciones autorizadas existen sobre el gasto en sanidad en Madrid?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"gasto en sanidad por habitante en Madrid 2025 datos oficiales\", \"gasto en sanidad por habitante en comunidades autónomas de España 2025 informe oficial\", \"comparación gasto en sanidad por habitante Madrid vs resto de comunidades autónomas España 2025\", \"opinión expertos sobre gasto en sanidad en Madrid 2025\", \"declaraciones oficiales sobre gasto en sanidad en Madrid 2025 evaluaciones autorizadas\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 24.015616247001162,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 24.015616247001162,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:38:00",
+                    "run_time": 24.015616247001162,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "gasto en sanidad por habitante en Madrid 2025 datos oficiales",
+                                "gasto en sanidad por habitante en comunidades autónomas de España 2025 informe oficial",
+                                "comparación gasto en sanidad por habitante Madrid vs resto de comunidades autónomas España 2025",
+                                "opinión expertos sobre gasto en sanidad en Madrid 2025",
+                                "declaraciones oficiales sobre gasto en sanidad en Madrid 2025 evaluaciones autorizadas"
+                            ],
+                            "results": {
+                                "gasto en sanidad por habitante en Madrid 2025 datos oficiales | gasto en sanidad por habitante en comunidades autónomas de España 2025 informe oficial | comparación gasto en sanidad por habitante Madrid vs resto de comunidades autónomas España 2025 | opinión expertos sobre gasto en sanidad en Madrid 2025 | declaraciones oficiales sobre gasto en sanidad en Madrid 2025 evaluaciones autorizadas": [
+                                    {
+                                        "text": "Gasto sanitario per cápita por CCAA en 2025: el mapa de la inversión por habitante en España\n\nMadrid y Cataluña, a la cola en gasto sanitario per cápita en 2025.\n\nEl gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025. Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad, Asturias lidera la inversión por habitante, mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.. Los últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor. Ranking por inversión per cápita (euros por habitante, 2025) (Presupuestos iniciales consolidados de la Función Sanidad) Posición CCAA Euros por habitante 1 Asturias 2.436 2 País Vasco 2.305 3 Extremadura 2.259 4 Navarra 2.211 5 Cantabria 2.061 6 Aragón 2.055 7 Castilla y León 2.040 8 Canarias 2.036 9 Galicia 2.010 10 Illes Balears 1.995 11 La Rioja 1.924 12 Castilla-La Mancha 1.777 13 Andalucía 1.764 14 Comunitat Valenciana 1.595 15 Murcia 1.580 16 Madrid 1.468 17 Cataluña 1.442 — Media España 1.757 La diferencia entre la mayor y la menor inversión per cápita se acerca al 69%, señal de una brecha territorial persistente en la financiación sanitaria Claves y metodología oficial El Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos. El indicador de euros por habitante procede de los presupuestos iniciales consolidados e incorpora población oficial del INE Qué explica la brecha La estructura demográfica, el peso del gasto farmacéutico, las plantillas y la red hospitalaria condicionan el esfuerzo por habitante. Además, los distintos ritmos de aprobación presupuestaria y las decisiones sobre conciertos y capítulo I (personal) influyen en la comparativa anual. Varios análisis periodísticos y sectoriales han señalado en 2025 un récord de desigualdad entre regiones, en línea con los datos oficiales. Cómo queda el mapa: lectura rápida Líderes: Asturias, País Vasco y Extremadura superan los 2.250–2.400 euros por persona. Media: España se sitúa en 1.757 euros. Cola: Cataluña (1.442) y Madrid (1.468) cierran la tabla, con Comunitat Valenciana (1.595) y Murcia (1.580) también por debajo de la media.\n\nEl gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.\n\nLos últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor.\n\nRanking por inversión per cápita (euros por habitante, 2025)\n\n(Presupuestos iniciales consolidados de la Función Sanidad)\n\nPosición CCAA Euros por habitante 1 Asturias 2.436 2 País Vasco 2.305 3 Extremadura 2.259 4 Navarra 2.211 5 Cantabria 2.061 6 Aragón 2.055 7 Castilla y León 2.040 8 Canarias 2.036 9 Galicia 2.010 10 Illes Balears 1.995 11 La Rioja 1.924 12 Castilla-La Mancha 1.777 13 Andalucía 1.764 14 Comunitat Valenciana 1.595 15 Murcia 1.580 16 Madrid 1.468 17 Cataluña 1.442 — Media España 1.757\n\nLa diferencia entre la mayor y la menor inversión per cápita se acerca al 69%, señal de una brecha territorial persistente en la financiación sanitaria\n\nClaves y metodología oficial\n\nEl Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos.\n\nEl indicador de euros por habitante procede de los presupuestos iniciales consolidados e incorpora población oficial del INE\n\nQué explica la brecha\n\nLa estructura demográfica, el peso del gasto farmacéutico, las plantillas y la red hospitalaria condicionan el esfuerzo por habitante. Además, los distintos ritmos de aprobación presupuestaria y las decisiones sobre conciertos y capítulo I (personal) influyen en la comparativa anual. Varios análisis periodísticos y sectoriales han señalado en 2025 un récord de desigualdad entre regiones, en línea con los datos oficiales.\n\nCómo queda el mapa: lectura rápida",
+                                        "metadata": {
+                                            "url": "https://www.elboletin.com/gasto-sanitario-per-capita-por-ccaa-en-2025-el-mapa-de-la-inversion-por-habitante-en-espana/",
+                                            "source": "www.elboletin.com",
+                                            "favicon": "https://www.elboletin.com/wp-content/uploads/2021/02/cropped-favi-32x32.png",
+                                            "title": "Gasto sanitario per cápita por CCAA en 2025: el mapa de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elboletin.com",
+                                            "snippet": "La media nacional alcanza 1.757 euros por persona.. Los últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Este gráfico representa el peso de la Sanidad entre todas las partidas de gasto de los Presupuestos Generales del Estado:\n\n< iframe src = ' https://flo.uri.sh/visualisation/7466820/embed ' title = ' Interactive or visual content ' class = ' flourish-embed-iframe ' frameborder = ' 0 ' scrolling = ' no ' style =' width : 100% ; height : 600px ; ' sandbox = ' allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation ' > </ iframe > ​\n\n\n\n\n\nEstadística de Gasto Sanitario Público del Ministerio de Sanidad\n\nEl gasto sanitario público en España en 2022 aumento con respecto al año anterior hasta los 92.072 millones de euros, lo que representó el 6,8 por ciento del producto interior bruto (PIB); mientras el gasto per cápita ascendió a 1.927 euros por habitante, superando en 68 euros al gasto del 2021, según la Estadística de Gasto Sanitario Público (EGSP) publicada por el Ministerio de Sanidad.\n\nAsí, el documento recogido por Europa Press, muestra una consolidación en el aumento del gasto, siendo la media anual de crecimiento en el quinquenio 2018-2022 de un 6,7 por ciento. En este mismo período, el PIB creció, en términos medios anuales, un 2,8 por ciento. Así, en 2018 el gasto fue de 71.112 millones de euros, mientras que el gasto por habitante se situaba en 1.522 euros.",
+                                        "metadata": {
+                                            "url": "https://www.epdata.es/datos/gasto-sanitario-espana-presupuesto-sanidad-comunidades-autonomas/686",
+                                            "source": "www.epdata.es",
+                                            "favicon": "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jYWRMWhTURSG/3PfS5umtdVAm2BFtIQMz0ERcSlS6HMoig5igzpUXGpRwUV0cMgguKgVhOLUoVkElVqkkxgUh6jgINWGQo1kUdOaF9P0pclLbu5xKG1ek6I/XLic+53/nHMPoUHDln2YgKsABgGePKlr3UQ4AeAVGBMjXb6km9c3LhHL9gJ4CGAUgFiPkgCxACgEIATCaGylOA6i2yOdPokNMGLZOoAXAMbqydtKB9FNAFNThaKAC44CGPpHYqMuEOgaAIiIZQcB3GgkqkqpjF1W84UyHKVUkwVzNLZS7NABjgDkdb/lShWVSGen1xz58h3gC3o9fddDPUO9bZ76eER+AKcFQP1bjRnJpcL4miOHYRpzMI0PmXL11OzSSqy5C/ST/2NqkoCj9RhUznYGYBp5N7sjsbjv0YHdKY1oswtmPNeP7e/WWzXhHkExQzxrKHZxzy6gYUN/ajUp7IrUAYRcJwxwNJJd3QQjli0+Sz5yZyHz6WuhpJgZAPCrVF2m8PyPKwcDXRNETRPOAHgCQAf4EjMdZ/Db9+nsXK8mzp7p3Rmc/pk/T4gnewZCgVSgo7WjyWIbMVg6VfX0zbel/KojbwmYxvKXTP5eWdaad72NCKRL5nMejx6HadgCAHK2czeRtmaLFflfk4JTVYl0NpazyzPrhhuKJ1u8Hu1BuKdzrM/fLlo0seXHy7KmUpZdWfy9er8iVRSmobYa1I0OaYIu+9tbB9t0bS8DKFXl91yx8loxP4ZpLLjxv0tx7y1Ag4dXAAAAAElFTkSuQmCC",
+                                            "title": "El gasto sanitario en España, en gráficos",
+                                            "type": "web_search",
+                                            "base_url": "https://www.epdata.es",
+                                            "snippet": "El promedio de gasto sanitario en Atención Primaria por habitante en España fue de 228,01 euros en 2020, entre 158,94 en Madrid y 300,50 en Castilla y León ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El aumento presupuestario de 9,9 millones de euros, que representa un 1,5% más (4% sin MRR) en comparación con el presupuesto de 2024, refleja el compromiso del Gobierno de la Comunidad de Madrid de alcanzar el pleno empleo. Este objetivo se logrará a través de la digitalización, la mejora de los servicios públicos de empleo y el fomento del talento, especialmente entre aquellos que tienen dificultades para incorporarse al mercado laboral.\n\nSe sigue avanzando con el Plan de Empleo Joven 2024 - 2025, dotado con 200 millones de euros compuesto por 50 medidas y que ha tenido una excelente acogida. Entre sus acciones más destacadas están la línea de incentivos para la contratación de jóvenes, que ya ha beneficiado a más de 1.900 personas, y la ampliación de la red de tutores, con dos tutores asignados a cada Oficina de Empleo.\n\nAdemás, para 2025 dentro de este Plan hay medidas como el cheque formación, con una dotación presupuestaria de 9 millones de euros y las ayudas a jóvenes sin estudios a las que se destinarán 13,5 millones de euros, beneficiando cada una de estas iniciativas a más de 6.000 jóvenes. Asimismo, se dará continuidad al Plan de Impulso al Talento Digital, una apuesta por la creación del empleo a través de la digitalización con actividades de formación en capacidades digitales, en colaboración con empresas de referencia en el sector, de las que se beneficiarán 9.000 personas durante el proyecto, y que se suman a las medidas de la Consejería de Digitalización. El objetivo es impartir una formación que responda a los perfiles más demandados en el mercado laboral, destinada a personas desempleadas y a aquellos trabajadores ocupados que deseen optar por su recualificación profesional. Además, este programa cuenta con un compromiso de inserción laboral de, al menos, el 60 % de los participantes.\n\nPor otro lado, se intensifican los esfuerzos para avanzar en la transformación y excelencia de los servicios públicos de empleo, colocando a las personas en el centro de las políticas y ofreciendo las mejores herramientas para asegurar que todos aquellos que quieran trabajar puedan hacerlo. Para ello, se seguirá desarrollando el Plan de Modernización y Renovación de las oficinas de empleo con la inauguración de otras cuatro oficinas. Asimismo, se digitaliza la gestión y los servicios con el fin de mejorar tanto la productividad como la atención a los ciudadanos.\n\nSe incrementa en 16,6 millones de euros (+45,1%) los incentivos otorgados a empresas por cada nuevo empleado que contraten, aumentando en 500 euros si el trabajador tiene personas dependientes a su cargo, y en 1.000 euros si pertenece a una familia numerosa o monoparental. Además, las startups también serán incluidas como beneficiarias de estas ayudas, ampliando así el alcance del apoyo a la contratación.\n\nSe alcanza un récord histórico de 95,5 millones de euros en ayudas, con un incremento de 5 millones de euros con respecto al 2024 (+5,5%), para la contratación de personas con discapacidad, reforzando el compromiso con la inclusión laboral y ofreciendo mayores oportunidades.\n\nEn cuanto a la prevención de riesgos laborales, como novedad, se inicia un nuevo proyecto de difusión de la cultura de prevención de riesgos laborales en escuelas, dirigido a alumnos y profesores. También se mantendrá la colaboración con los agentes sociales y se seguirá apoyando a las empresas con ayudas dirigidas a la reducción de la siniestralidad laboral mediante la mejora de las condiciones de seguridad y salud en el trabajo.\n\nSe continuará extendiendo la digitalización del Sistema de Mediación, Arbitraje y Conciliación (SMAC) potenciando su actividad conciliadora y reduciendo tiempos de tramitación.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/gobierno/hacienda/presupuestos-generales-2025-politicas-publicas",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "Presupuestos Generales 2025 Políticas Públicas",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "El presupuesto de gastos del Gobierno de la Comunidad de Madrid para el año 2025 en términos de contabilidad nacional asciende a 28.662,6 millones de euros, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En un contexto de fluctuaciones económicas y desafíos pandémicos, en los últimos cinco años el gasto sanitario ha tenido marcadas fluctuaciones. Entre 2018 y 2020, se observó un incremento significativo, impulsado principalmente por la pandemia de COVID-19, a partir de marzo de este último año, que llevó a un aumento en la demanda de servicios médicos, equipamiento y personal. Sin embargo, y a pesar de que el gasto sanitario nacional ha pasado de los 71.000 millones de euros en 2018 a 84.500 millones de euros en 2023, la tendencia creciente da muestras de agotamiento, con una reducción del gasto de casi un 1% en 2022, según los informes más recientes, y una estimación similar en 2023, generando preocupación entre expertos y organizaciones sobre la sostenibilidad futura del sistema sanitario público. No todas las comunidades autónomas han seguido esta tendencia. Así se desprende del análisis realizado por el grupo de expertos del Instituto Coordenadas de Gobernanza y Economía Aplicada (ICGEA), que ha estudiado el gasto sanitario ejecutado en los últimos años por las diferentes comunidades autónomas, evidenciando las grandes diferencias en las necesidades y las prioridades regionales.\n\nAl desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.\n\n“Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.\n\nEvolución del gasto sanitario en España (2018-2023)\n\nEn el periodo 2018-2024, el gasto sanitario en España ha mostrado tendencias fluctuantes, con una leve contracción a nivel nacional en los últimos años, pero con importantes diferencias entre los territorios. A nivel nacional, el gasto en sanidad ha tenido altibajos en este periodo debido, principalmente, a la pandemia de COVID-19 y la posterior estabilización del sistema sanitario, pasando de cerca de 70.200 millones de euros en 2018 a 84.500 millones de euros en 2023, reflejando una estabilización del sistema, lo que representa un crecimiento en el quinquenio de cerca del 20%. Sin embargo, en 2022 se registró una contracción de cerca de 1% en el gasto sanitario, situándose en torno a los 85.100 millones de euros, motivada en parte por la retirada de muchas de las medidas extraordinarias adoptadas durante la pandemia y que continuaría en 2023. Respecto a las comunidades autónomas, Madrid sobresale sobre el resto por su incremento en la inversión sanitaria durante los últimos años, posicionándose como una de las regiones con mayor compromiso para fortalecer su sistema de salud.\n\nLa Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023 , con un gasto estimado en 2023 que superaría los 10.850 millones de euros, focalizando su inversión en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas.\n\n, con un gasto estimado en 2023 que superaría los 10.850 millones de euros, focalizando su inversión en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas. La Comunidad Valenciana ha pasado de 7.100 millones de euros en 2018 a 9.200 millones de euros en 2023, lo que representa un crecimiento del 29%, con unas inversiones dirigidas principalmente a reducir las listas de espera y modernizar las instalaciones hospitalarias.\n\nha pasado de 7.100 millones de euros en 2018 a 9.200 millones de euros en 2023, lo que representa con unas inversiones dirigidas principalmente a reducir las listas de espera y modernizar las instalaciones hospitalarias. Andalucía ha registrado un incremento en el quinquenio de un 28%, alcanzando los 12.200 millones de euros en 2023, con inversiones centradas en la mejora de la atención primaria y la contratación de personal sanitario.\n\nha registrado alcanzando los 12.200 millones de euros en 2023, con inversiones centradas en la mejora de la atención primaria y la contratación de personal sanitario. Cataluña ha seguido un crecimiento algo inferior, del 25%, pasando de los 10.600 millones a los 13.300 millones de euros, con foco en la mejora de la atención primaria y las infraestructuras hospitalarias.\n\nha seguido un crecimiento algo inferior, pasando de los 10.600 millones a los 13.300 millones de euros, con foco en la mejora de la atención primaria y las infraestructuras hospitalarias. País Vasco también han aumentado sus presupuestos en sanidad, aunque con un incremento más modesto de un 18%, desde los 3.900 millones de euros en 2018 a los 4.600 en 2023, siendo las principales áreas de inversión la atención primaria, la transformación digital y la mejora de las infraestructuras hospitalarias.\n\nEl reto estructural de las listas de espera\n\nLas listas de espera se han convertido en uno de los mayores retos estructurales del sistema sanitario español. A lo largo de los últimos años, el aumento de la demanda de servicios sanitarios, combinado con la escasez de medios y personal en ciertas áreas, ha generado tiempos de espera prolongados, tanto en la atención primaria como en la especializada. A pesar de los esfuerzos de las comunidades autónomas para abordar el problema, la disparidad regional y los efectos a largo plazo de la pandemia de COVID-19 han acentuado la situación, situando las listas de espera quirúrgicas en 121 días de media a nivel nacional, mientras que las listas de espera para consulta con el especialista alcanzan los 94 días, según los últimos datos disponibles del Ministerio a junio de 2024.\n\nDurante los últimos años, buena parte de los esfuerzos de las comunidades autónomas han ido destinados a reducir las listas de espera, con Madrid, País Vasco y La Rioja las regiones que han hecho más evidente este compromiso. En el caso concreto de Madrid, la puesta en marcha de un plan específico para el periodo 2022-24, con una inversión de 215 millones de euros, le ha permitido consolidarse como la región con menos lista de espera quirúrgica, con una demora media de 47 días, 74 días menos que la media nacional, seguida de País Vasco, con 61, y La Rioja, con 64.\n\nEn el caso de las listas de espera para consulta con el especialista, País Vasco es, con 49 días, la comunidad con menos demora, 45 días menos que el conjunto de España, seguida de La Rioja, con 58, y Madrid, con 60 días de demora media.\n\nSOBRE EL INSTITUTO COORDENADAS DE GOBERNANZA Y ECONOMIA APLICADA\n\nInstitución de pensamiento e investigación de la interacción entre gobernanza y economía aplicada para avanzar en constructivo y en decisivo sobre el trinomio: bienestar social, progreso económico y sostenibilidad ambiental; en pleno entorno evolutivo sin precedentes desde finales del Siglo XVIII y principios del XIX con la revolución industrial. Fiel a sus principios fundacionales de independencia, apartidismo y pluralidad, el Instituto lidera proactivamente la fusión entre la esencia y la innovación de la liberalización económica, como mejor modelo de afrontar los retos presentes y futuros de país, de Europa y del mundo.\n\nNOTA DE INTERÉS: La información de este comunicado de prensa es un resumen de interés público proveniente de trabajos de análisis e investigación; de grupos y sesiones de trabajo de expertos y/o producción de artículos científicos del Instituto Coordenadas para la Gobernanza y la Economía Aplicada. Los papeles de trabajo y documentos originales y completos son de uso interno y de titularidad exclusiva del Instituto Coordenadas de Gobernanza y Economía Aplicada.",
+                                        "metadata": {
+                                            "url": "https://www.institutocoordenadas.com/es/analisis/instituto-coordenadas-destaca-incremento-gasto-sanitario-publico-comunidad-madrid-frente-contraccion-nacional_20314_102.html",
+                                            "source": "www.institutocoordenadas.com",
+                                            "favicon": "https://www.institutocoordenadas.com/uploads/static/institutocoordenadas/favicon.ico",
+                                            "title": "El Instituto Coordenadas destaca el incremento del gasto...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.institutocoordenadas.com",
+                                            "snippet": "La Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023 · La Comunidad Valenciana · Andalucía · Cataluña · País ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4777884040013305,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4777884040013305,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:38:01",
+                    "run_time": 1.4777884040013305,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el gasto en sanidad por habitante en Madrid en 2025?": [
+                                {
+                                    "“Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.": null
+                                },
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                },
+                                {
+                                    "Al desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.": null
+                                }
+                            ],
+                            "¿Cuál es el gasto en sanidad por habitante en cada comunidad autónoma de España en 2025?": [
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                },
+                                {
+                                    "Los últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor.": null
+                                },
+                                {
+                                    "El Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos.": null
+                                }
+                            ],
+                            "¿Cómo compara el gasto en sanidad de Madrid con el resto de comunidades autónomas en 2025?": [
+                                {
+                                    "“Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.": null
+                                },
+                                {
+                                    "El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.": null
+                                },
+                                {
+                                    "Al desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos sobre el gasto en sanidad en Madrid?": [
+                                {
+                                    "“Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.": null
+                                },
+                                {
+                                    "Al desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.": null
+                                },
+                                {
+                                    "La Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023 , con un gasto estimado en 2023 que superaría los 10.850 millones de euros, focalizando su inversión en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas.": null
+                                }
+                            ],
+                            "¿Qué declaraciones oficiales o evaluaciones autorizadas existen sobre el gasto en sanidad en Madrid?": [
+                                {
+                                    "Al desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.": null
+                                },
+                                {
+                                    "“Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.": null
+                                },
+                                {
+                                    "La Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023 , con un gasto estimado en 2023 que superaría los 10.850 millones de euros, focalizando su inversión en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 11.993364769001346,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 11.993364769001346,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:38:13",
+                    "run_time": 11.993364769001346,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nMadrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el gasto en sanidad por habitante en Madrid en 2025?\n¿Cuál es el gasto en sanidad por habitante en cada comunidad autónoma de España en 2025?\n¿Cómo compara el gasto en sanidad de Madrid con el resto de comunidades autónomas en 2025?\n¿Qué opinan los expertos sobre el gasto en sanidad en Madrid?\n¿Qué declaraciones oficiales o evaluaciones autorizadas existen sobre el gasto en sanidad en Madrid?\n\n3. Here are the text sources you should use as your source of information:\n[0] “Aunque el gasto sanitario a nivel nacional ha mostrado fluctuaciones en los últimos cinco años, la Comunidad de Madrid ha seguido un patrón de crecimiento sostenido”, señala Jesús Sánchez Lambás, vicepresidente ejecutivo del Instituto Coordenadas, quien puntualiza que “el esfuerzo continuo de Madrid por reforzar su sistema de salud, reflejado en el reciente anuncio de un incremento récord en los presupuestos de 2025, posiciona a esta región como una de las más resilientes y mejor preparadas para afrontar los desafíos actuales y futuros del sistema de salud”.\n[0] Al desglosar estos datos por comunidades autónomas, los contrastes son notables. Mientras algunas regiones han seguido la tendencia nacional de recorte, otras aumentan sus inversiones en salud, con Madrid a la cabeza, que ha experimentado un crecimiento en su gasto sanitario -desde 2018- de cerca de un 31%, con un gasto estimado en 2023 de 10.850 millones de euros, lo que representa más del 43% del presupuesto total de la Comunidad y muy por encima del promedio nacional del 20%, posicionándose como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario.\n[0] La Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023 , con un gasto estimado en 2023 que superaría los 10.850 millones de euros, focalizando su inversión en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas.\n[1] El gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025 . Con los presupuestos iniciales consolidados publicados por el Ministerio de Sanidad , Asturias lidera la inversión por habitante , mientras Cataluña y Madrid se sitúan en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona.\n[1] Los últimos Presupuestos iniciales de sanidad por comunidades confirman que el esfuerzo per cápita no es homogéneo. La tabla oficial de euros por habitante —que el Ministerio actualiza para 2025 con nota metodológica sobre CCAA con cuentas prorrogadas— permite trazar una fotografía precisa de la financiación sanitaria autonómica y de la brecha entre territorios, que roza el 69% entre la comunidad con mayor dotación y la de menor.\n[1] El Ministerio publica cada año los presupuestos iniciales consolidados de la Función Sanidad por CCAA y el indicador de euros por habitante, calculado con población del INE a 1 de enero. En 2025, Sanidad advierte que varias regiones tenían las cuentas prorrogadas de 2024 en el momento de la recopilación (Aragón, Illes Balears, Castilla y León, Cataluña, Comunitat Valenciana, Extremadura y Región de Murcia), por lo que los datos se revisan cuando aprueban presupuestos definitivos.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\nLa afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" puede ser analizada a partir de los textos proporcionados.\n\n**Evidencia a favor de la afirmación**\n\nSegún el texto [0], la Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023, lo que la posiciona como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario. Además, se menciona que el gasto sanitario de Madrid es superior al promedio nacional del 20%, lo que sugiere que la comunidad autónoma de Madrid tiene un gasto sanitario más alto por habitante que el resto de comunidades autónomas. También se menciona que el gasto sanitario de Madrid se enfoca en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas, lo que sugiere que la comunidad autónoma de Madrid está invirtiendo en el fortalecimiento de su sistema sanitario.\n\n**Evidencia en contra de la afirmación**\n\nSin embargo, según el texto [1], el gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025, y Madrid se sitúa en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona, pero no se menciona el gasto sanitario por habitante de Madrid en particular. Además, se menciona que Asturias lidera la inversión por habitante, lo que sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.\n\n**Conclusión**\n\nA partir de los textos proporcionados, podemos concluir que la afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" no es del todo cierta. Si bien la comunidad autónoma de Madrid tiene un gasto sanitario alto y ha incrementado su gasto en casi un 31% entre 2018 y 2023, no se puede afirmar que sea la que menos gasta en sanidad por habitante, ya que Asturias lidera la inversión por habitante y la media nacional es superior al gasto sanitario de Madrid. Por lo tanto, la afirmación es **falsa**.\n\nEs importante destacar que la falta de información sobre el gasto sanitario por habitante de Madrid en 2025 en el texto [1] puede ser un limite para determinar la verdad de la afirmación. Sin embargo, la información disponible sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.2817641260007804,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.2817641260007804,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:38:16",
+                    "run_time": 2.2817641260007804,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" puede ser analizada a partir de los textos proporcionados.\n\n**Evidencia a favor de la afirmación**\n\nSegún el texto [0], la Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023, lo que la posiciona como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario. Además, se menciona que el gasto sanitario de Madrid es superior al promedio nacional del 20%, lo que sugiere que la comunidad autónoma de Madrid tiene un gasto sanitario más alto por habitante que el resto de comunidades autónomas. También se menciona que el gasto sanitario de Madrid se enfoca en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas, lo que sugiere que la comunidad autónoma de Madrid está invirtiendo en el fortalecimiento de su sistema sanitario.\n\n**Evidencia en contra de la afirmación**\n\nSin embargo, según el texto [1], el gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025, y Madrid se sitúa en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona, pero no se menciona el gasto sanitario por habitante de Madrid en particular. Además, se menciona que Asturias lidera la inversión por habitante, lo que sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.\n\n**Conclusión**\n\nA partir de los textos proporcionados, podemos concluir que la afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" no es del todo cierta. Si bien la comunidad autónoma de Madrid tiene un gasto sanitario alto y ha incrementado su gasto en casi un 31% entre 2018 y 2023, no se puede afirmar que sea la que menos gasta en sanidad por habitante, ya que Asturias lidera la inversión por habitante y la media nacional es superior al gasto sanitario de Madrid. Por lo tanto, la afirmación es **falsa**.\n\nEs importante destacar que la falta de información sobre el gasto sanitario por habitante de Madrid en 2025 en el texto [1] puede ser un limite para determinar la verdad de la afirmación. Sin embargo, la información disponible sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" puede ser analizada a partir de los textos proporcionados.\n\n**Evidencia a favor de la afirmación**\n\nSegún el texto [0], la Comunidad de Madrid ha incrementado su gasto sanitario en casi un 31% entre 2018 y 2023, lo que la posiciona como la región con mayor compromiso en el refuerzo/fortalecimiento de su sistema sanitario. Además, se menciona que el gasto sanitario de Madrid es superior al promedio nacional del 20%, lo que sugiere que la comunidad autónoma de Madrid tiene un gasto sanitario más alto por habitante que el resto de comunidades autónomas. También se menciona que el gasto sanitario de Madrid se enfoca en mejoras en atención primaria y hospitales, mejora de las infraestructuras / modernización de las instalaciones, contratación de personal, reducción de listas de espera o la transformación digital del sistema sanitario, entre otras medidas, lo que sugiere que la comunidad autónoma de Madrid está invirtiendo en el fortalecimiento de su sistema sanitario.\n\n**Evidencia en contra de la afirmación**\n\nSin embargo, según el texto [1], el gasto sanitario per cápita vuelve a mostrar fuertes diferencias entre comunidades autónomas en 2025, y Madrid se sitúa en la parte baja del ranking. La media nacional alcanza 1.757 euros por persona, pero no se menciona el gasto sanitario por habitante de Madrid en particular. Además, se menciona que Asturias lidera la inversión por habitante, lo que sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante.\n\n**Conclusión**\n\nA partir de los textos proporcionados, podemos concluir que la afirmación \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\" no es del todo cierta. Si bien la comunidad autónoma de Madrid tiene un gasto sanitario alto y ha incrementado su gasto en casi un 31% entre 2018 y 2023, no se puede afirmar que sea la que menos gasta en sanidad por habitante, ya que Asturias lidera la inversión por habitante y la media nacional es superior al gasto sanitario de Madrid. Por lo tanto, la afirmación es **falsa**.\n\nEs importante destacar que la falta de información sobre el gasto sanitario por habitante de Madrid en 2025 en el texto [1] puede ser un limite para determinar la verdad de la afirmación. Sin embargo, la información disponible sugiere que la comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Madrid es la comunidad autónoma que menos gasta en sanidad por habitante de España\", \"categories\": [\"Salud\", \"Economía\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"La comunidad autónoma de Madrid no es la que menos gasta en sanidad por habitante de España\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

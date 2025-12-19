@@ -1,0 +1,594 @@
+{
+    "question": "España recibió cerca de 94 millones de turistas internacionales en 2024, batiendo su récord histórico",
+    "answer": "Según [1], España recibió casi 94 millones de turistas internacionales en 2024, lo que supera en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa. Además, según [2], el gasto acumulado de los turistas internacionales entre enero y diciembre de 2024 asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados por el Instituto Nacional de Estadística (INE). Esto sugiere que el turismo en España ha experimentado un aumento significativo en 2024.\n\nAdemás, según [2], los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023. Esto indica que el turismo en España no solo ha aumentado en términos de número de visitantes, sino también en términos de gasto.\n\nAunque no hay evidencia explícita en los textos proporcionados que refute la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024, es importante destacar que según [3], el gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024. Sin embargo, esto no contradice la afirmación original, ya que el gasto no es lo mismo que el número de turistas. Además, según [3], en cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. Esto sugiere que el turismo en España ha seguido creciendo después de 2024, pero no contradice la afirmación original.\n\nBasándonos en los textos proporcionados, podemos concluir que la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024 es **verdadera**. La evidencia presentada en los textos muestra un aumento significativo en el número de turistas internacionales y en el gasto en destino en 2024, lo que sugiere que el turismo en España ha experimentado un crecimiento importante en ese año. Aunque hay alguna evidencia que sugiere que el crecimiento del turismo en España puede haber seguido después de 2024, no contradice la afirmación original.\n\n**Nota:** Es importante destacar que la afirmación original se refiere a 2024, mientras que algunos de los textos proporcionados se refieren a 2025. Sin embargo, la evidencia presentada en los textos sugiere que el turismo en España ha seguido creciendo después de 2024, lo que no contradice la afirmación original.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.asesoresfinancierosefpa.es/actualidad/el-impacto-del-turismo-consolida-la-ventaja-economica-de-espana-en-europa-segun-el-be/",
+            "source": "www.asesoresfinancierosefpa.es",
+            "favicon": "https://www.asesoresfinancierosefpa.es/wp-content/uploads/2018/07/cropped-EFPA_logo_normal_espan¦âa1-32x32.jpg"
+        },
+        "2": {
+            "url": "https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2025/paginas/turismo-frontur-egatur-diciembre-2024.aspx",
+            "source": "www.mintur.gob.es",
+            "favicon": "https://www.mintur.gob.es/_layouts/15/images/Ministerio/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.mintur.gob.es/es-es/GabinetePrensa/NotasPrensa/2025/Paginas/gasto-turistas-internacionales-espana-supera-los-105000-millones-hasta-septiembre.aspx",
+            "source": "www.mintur.gob.es",
+            "favicon": "https://www.mintur.gob.es/_layouts/15/images/Ministerio/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España recibió cerca de 94 millones de turistas internacionales en 2024, batiendo su récord histórico",
+        "categories": [
+            "Turismo",
+            "Economía",
+            "Viajes"
+        ],
+        "label": "True",
+        "main_claim": "España recibió cerca de 94 millones de turistas internacionales en 2024, batiendo su récord histórico y aumentando el gasto en destino",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.667363454000224,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.667363454000224,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:33:27",
+                    "run_time": 1.667363454000224,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn 2024 España recibió cerca de 94 millones de turistas internacionales, batiendo su récord histórico\n\n**Critical Research Questions:**\n1. ¿Cuál es el número oficial de turistas internacionales que visitaron España en 2024 según el INE?\n2. ¿Qué opinan los expertos en turismo sobre el aumento del turismo en España en 2024?\n3. ¿Cómo se compara el número de turistas internacionales que visitaron España en 2024 con el de años anteriores?\n4. ¿Qué papel juegan las tendencias económicas globales en el aumento del turismo en España en 2024?\n5. ¿Qué información proporcionan las fuentes secundarias sobre el impacto del turismo en la economía española en 2024?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"INE España turistas internacionales 2024\", \"expertos turismo España 2024 análisis\", \"evolución turistas internacionales España 2024 comparación años anteriores\", \"tendencias económicas globales impacto turismo España 2024\", \"impacto turismo en economía española 2024 fuentes secundarias\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 9.551883318999899,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 9.551883318999899,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:33:36",
+                    "run_time": 9.551883318999899,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "INE España turistas internacionales 2024",
+                                "expertos turismo España 2024 análisis",
+                                "evolución turistas internacionales España 2024 comparación años anteriores",
+                                "tendencias económicas globales impacto turismo España 2024",
+                                "impacto turismo en economía española 2024 fuentes secundarias"
+                            ],
+                            "results": {
+                                "INE España turistas internacionales 2024 | expertos turismo España 2024 análisis | evolución turistas internacionales España 2024 comparación años anteriores | tendencias económicas globales impacto turismo España 2024 | impacto turismo en economía española 2024 fuentes secundarias": [
+                                    {
+                                        "text": "En el capítulo de gasto en destino destaca en el mes de septiembre el conjunto de países etiquetados como ‘resto del mundo’, cuyo desembolso crece un 10,5% en tasa interanual\n\nEn el mes de septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro país más de 13.000 M€, un 6% más\n\nEn los nueve primeros meses de 2025 han llegado a nuestro país cerca de 76,4 millones de visitantes internacionales, un 3,5% más que en el mismo periodo del año anterior\n\nEl gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024, según los datos que publica hoy el Instituto Nacional de Estadística (INE).\n\nEn cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. En septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro país 13.364 M€, un 6% más que en septiembre de 2024.\n\nEstos datos ahondan en la tendencia de crecimiento del gasto por encima del incremento en el ritmo de las llegadas, más moderado en este 2025 que el pasado año. Una evolución del sector que va en la línea de la apuesta del Ministerio por un nuevo modelo turístico, más sostenible y basado en priorizar la calidad frente a la cantidad, desconcentrar los destinos y diversificar la oferta.\n\nEn los nueve primeros meses de 2025, Reino Unido fue el país con mayor gasto acumulado (18% del total) y un aumento del 4,3% en septiembre, seguido de Alemania (11,7%), que disminuyó su gasto un -0,7% en el noveno mes, y Francia (7,5%), que lo hizo un -2,1%, también en septiembre. En el capítulo de gasto destaca en septiembre el conjunto de países de ‘resto del mundo’, cuyo desembolso crece un 10,5% en tasa interanual. Por otro lado, las Comunidades Autónomas con mayor gasto acumulado han sido Cataluña (18,5% del total), Canarias (17%) y Baleares (17,4%).\n\nEn cuanto a visitantes, los principales países emisores hasta el mes de septiembre fueron Reino Unido (con casi 15,3 millones y un aumento del 4% respecto al mismo periodo de 2024); Francia (con más de 10,2 millones y una ligera bajada del 0,1%), y Alemania (con más de 9,5 millones y un 1,4% más).\n\nLos principales destinos en el acumulado del año son Cataluña (15,8 millones de turistas y sin variación respecto al mismo periodo del año anterior); Baleares (13,7 millones y un 3% más) y Andalucía (11,5 millones, un 7,3% más).\n\nSigue creciendo el gasto por encima de los visitantes\n\nEn el mes de septiembre, el incremento del gasto de los turistas internacionales fue 5,2 puntos porcentuales superior al aumento del número de visitantes extranjeros. Concretamente, en este septiembre España recibió 9,7 millones de turistas internacionales, que generaron un gasto total superior a los 13.300 millones de euros.\n\nDurante este mes, cada turista gastó un promedio de 1,380 euros, lo que representa un incremento del 5,1% respecto a septiembre del año anterior. El gasto medio diario de los visitantes creció un 4,5% en tasa interanual, situándose en 204 euros.\n\nPor otro lado, la duración de la estancia mayoritaria entre los turistas fue de cuatro a siete noches, con más de 4,7 millones y un aumento anual del 0,3%.\n\nEn el mes de septiembre, Reino Unido sigue siendo el primer país de origen de las personas que nos visitan, con más de 2,1 millones de visitantes que dejaron en España 2.555 millones de euros. A continuación, en segundo lugar, Alemania, con 1,2 millones de turistas y un gasto de 1.640 millones de euros; en tercer lugar, están los turistas procedentes de Francia, con alrededor de un millón de visitantes y un gasto de 998 millones de euros.\n\nBaleares, destino mayoritario en septiembre\n\nBaleares fue el destino principal de los turistas internacionales en septiembre, con 2.187.288 visitantes en este mes y un crecimiento interanual del 1,8%. Por su parte, Cataluña recibió un total de 2.020.003 visitantes (-1,4%); en tercer lugar, está Andalucía con 1.479.709 (3,4%).\n\nLas comunidades autónomas de destino principal con mayor peso en el gasto de los turistas en septiembre fueron Illes Balears (con el 21,3% del total), Cataluña (19,2%) y Andalucía (15,2%). El gasto de los turistas aumentó un 5,3% en tasa anual en Illes Balears, un 3,6% en Cataluña y un 7,6% en Andalucía.\n\nEnlace Frontur\n\nEnlace Egatur",
+                                        "metadata": {
+                                            "url": "https://www.mintur.gob.es/es-es/GabinetePrensa/NotasPrensa/2025/Paginas/gasto-turistas-internacionales-espana-supera-los-105000-millones-hasta-septiembre.aspx",
+                                            "source": "www.mintur.gob.es",
+                                            "favicon": "https://www.mintur.gob.es/_layouts/15/images/Ministerio/favicon.ico",
+                                            "title": "El gasto de los turistas internacionales en España supera ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mintur.gob.es",
+                                            "snippet": "En septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En diciembre, cada visitante gastó una media de 1.441 euros, un 5,88% más que en 2023, y el gasto por día y viajero también experimenta un ascenso, del 6,4%, alcanzando los 159 euros\n\nEl gasto de los turistas en diciembre fue de 7.589 millones de euros, un 7,03% más que en el mismo mes de 2023, y las llegadas crecen un 1,1% hasta superar los 5,3 millones\n\nLos viajeros procedentes de Asia se sitúan a la cabeza de crecimiento en el año 2024, con un aumentado del 14,2% con respecto a 2023\n\nReino Unido es el primer país de origen de visitantes, con 18,4 millones; seguido de Francia, con 12,9 millones de turistas y Alemania con 11,9 millones.\n\nLa llegada de turistas internacionales en 2024 roza los 93,8 millones, un 10,1% más que en 2023.\n\nEl sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).\n\nEn cuanto a la cifra de visitantes, esta aumenta un 10,1%, hasta alcanzar los 93,8 millones de turistas, una cantidad que también supera el histórico acumulado de los doce meses de 2023, que fue de 85 millones.\n\nContinúa así la tendencia al alza del gasto por encima de las llegadas de turistas, y por tanto del gasto medio.\n\nAsia, mercado que más crece\n\nEn 2024, los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Un año más, Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023.\n\nEn segundo lugar, de Francia llegaron 12,9 millones de turistas el año pasado, un crecimiento del 10,3% sobre 2023. En cuanto al gasto anual de los turistas franceses, este asciende a 11.014 millones de euros, superior en un 13,1% al año anterior.\n\nPor su parte, Alemania ha crecido un 8,6% respecto a 2023, hasta los 11,9 millones de turistas internacionales, que gastaron en el acumulado de los 12 meses más de 15.500 millones de euros, lo que implica un 17,6% de incremento interanual.\n\nLos turistas procedentes de Asia son los que experimentan mayor crecimiento, con una tasa de variación acumulada de +14,2% en comparación con el año anterior. Por su parte, Estados Unidos se afianza como un importante mercado emisor con 4,2 millones de turistas (11,2% más).\n\nCataluña, a la cabeza en llegadas y gasto\n\nRespecto a las comunidades autónomas de destino preferidas por los turistas internacionales, Cataluña está a la cabeza con más de 19,9 millones de visitantes, un 9,7% más que en 2023. Después se sitúa Baleares –con 15,3 millones de turistas y un crecimiento del 6,1%– y por detrás Canarias (15,2 millones y aumento del 9,1 %), Andalucía (13,5 millones, un 11,5% más) y Comunidad Valenciana, que es la comunidad que más crece interanualmente en 2024, un 14%, hasta superar los 11,9 millones. Madrid, por su parte, ha recibido a 8,8 millones de turistas internacionales, lo que supone un 12,5% más que durante el mismo periodo del año anterior. El resto de comunidades crecen en conjunto un 10,6% respecto al año pasado.\n\nEn cuanto al gasto, las comunidades autónomas que concentraron mayor gasto total en 2024 fueron Cataluña (con 23.745 millones, un 11,8% más que en 2023), Canarias (con 22.887 millones y un aumento del 12,6%) e Illes Balears (con 20.052 millones, un 13,3% más que en 2023).\n\nIncremento de llegadas y gasto también en diciembre\n\nEn lo que respecta a diciembre, solo este mes nos visitaron 5,3 millones de turistas internacionales, un 1,1% más que en el mismo periodo del año pasado. Además, en este mes los visitantes extranjeros han aportado 7.589 millones de euros, lo que supone un crecimiento del 7% interanual.\n\nEn detalle y como viene sucediendo a lo largo de prácticamente todo el recién finalizado 2024, los datos de gasto turístico de diciembre han experimentado mejoras en los capítulos de gasto medio por viajero y gasto medio diario, y se mantiene prácticamente igual en estancia media. Estos son las principales pistas para ponderar la efectividad de las políticas turísticas que lleva a cabo el Ministerio de Industria y Turismo.\n\nEn diciembre, cada visitante ha gastado una media de 1.441 euros, un 5,9% más que el año pasado, y el gasto por día también refleja este crecimiento, alcanzando los 159 euros, un aumento del 6,4% interanual. La estancia media es de 9,1 días, cifra ligeramente por debajo (-0,5%) respecto a la de hace un año.\n\nMás información\n\nEnlace a estadísticas de Frontur\n\nEnlace a estadísticas de Egatur",
+                                        "metadata": {
+                                            "url": "https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2025/paginas/turismo-frontur-egatur-diciembre-2024.aspx",
+                                            "source": "www.mintur.gob.es",
+                                            "favicon": "https://www.mintur.gob.es/_layouts/15/images/Ministerio/favicon.ico",
+                                            "title": "El gasto turístico cumple las previsiones y supera los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mintur.gob.es",
+                                            "snippet": "Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España no solo ha recuperado su fortaleza turística tras la pandemia, sino que ha transformado su modelo hacia uno más resistente, diversificado y competitivo, según se extrae del último informe presentado recientemente por el gobernador del Banco de España. Para los asesores financieros, este nuevo ciclo turístico no es un espejismo estival, sino una palanca estructural de crecimiento que merece ser leída en clave de inversión.\n\nEl turismo se erige como uno de los motores principales de este dinamismo, según el informe presentado recientemente por el gobernador del Banco de España, José Luis Escrivá. España logra así consolidar un crecimiento económico robusto que contrasta con la atonía de sus vecinos europeos. Compartimos un breve resumen del documento presentado por Escrivá, que analiza el papel del turismo en el dinamismo reciente de la economía española.\n\nUna economía en movimiento\n\nFrente a un panorama global incierto —con conflictos como la invasión de Ucrania y la escalada entre Israel e Irán marcando el pulso geopolítico—, la economía española ha crecido a un ritmo del 4,0% anual entre 2022 y 2024. Esa cifra más que duplica el crecimiento de la eurozona (1,6%) y contrasta con el estancamiento de Alemania (0,3%). Y lo más relevante para los asesores financieros e inversores: este avance no se ha cimentado en desequilibrios macroeconómicos como en otras etapas de expansión. Según leemos: “A diferencia de otros periodos, esta brecha en el crecimiento se ha producido sin detectarse una acumulación de desequilibrios macroeconómicos“.\n\nSector turístico: mucho más que una industria estacional\n\nEl sector turístico, tradicionalmente clave, ha demostrado una resiliencia y transformación sorprendentes tras la pandemia. En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa.\n\nAdemás del volumen, destaca el cambio estructural del turismo español:\n\nMás diversificado en el tiempo : el crecimiento de pernoctaciones fuera de los meses de verano revela un alargamiento de la temporada, lo que suaviza picos de demanda y mejora la eficiencia de la infraestructura turística.\n\n: el crecimiento de pernoctaciones fuera de los meses de verano revela un alargamiento de la temporada, lo que suaviza picos de demanda y mejora la eficiencia de la infraestructura turística. Más repartido en el espacio : regiones como Andalucía, Canarias o la Comunitat Valenciana ganan protagonismo frente a destinos tradicionales como Baleares y Cataluña.\n\n: regiones como Andalucía, Canarias o la Comunitat Valenciana ganan protagonismo frente a destinos tradicionales como Baleares y Cataluña. Más global en su origen: EE. UU. y mercados emergentes ganan peso frente al tradicional dominio británico y alemán.\n\nSector turístico: una oferta más sólida y mejor posicionada\n\nLa mejora de la calidad de la planta hotelera es otro vector de competitividad: más del 56% de las plazas disponibles están hoy en hoteles de 4 o 5 estrellas (frente al 36% en 2004). Esta transformación ha sido clave para atraer a un turista más exigente y de mayor gasto medio. La seguridad, la conectividad y los servicios públicos de calidad han reforzado el atractivo de España frente a competidores que enfrentan más volatilidad política o deficiencias estructurales (Egipto, Turquía, Túnez).\n\nParque del Retiro (Madrid)\n\n¿Qué debe tener en el radar el asesor financiero?\n\nRevalorización de activos turísticos: El crecimiento estable del sector y la diversificación geográfica abren oportunidades de inversión inmobiliaria en destinos secundarios emergentes. Fondos especializados en turismo y ocio: La robustez del sector sugiere margen para exposición selectiva a empresas hoteleras, de transporte y tecnología aplicada al turismo. Demanda de empleo y flujos migratorios: El 76% de los nuevos empleos desde 2019 ha sido ocupado por trabajadores extranjeros. Esto atenúa cuellos de botella, pero también presiona al mercado de la vivienda, un vector clave para quienes gestionan carteras con exposición al sector residencial. Riesgos regulatorios y climáticos: El sector enfrenta retos ligados al cambio climático, la presión sobre infraestructuras y la tensión en el mercado inmobiliario. Elementos que, aunque aún gestionables, exigen atención en estrategias de largo plazo.\n\nEspaña, beneficiaria del “dividendo geopolítico”\n\nEspaña ha cosechado lo que el informe llama un “dividendo geopolítico”: mayor atractivo por estabilidad institucional, baja percepción de riesgo y un clima de negocios propicio en un momento en el que la percepción de riesgo se ha disparado en destinos turísticos de Europa central o del norte de África. “Nuestra mayor seguridad relativa hace más atractivo nuestro sector turístico“, leemos en el informe. Esta tendencia podría acentuarse si persisten los conflictos internacionales y el turismo global sigue buscando destinos “seguros” dentro del continente europeo.\n\nRate this post\n\n¿Te ha gustado? Comparte en: Compartir\n\nWhatsapp Linkedin Email",
+                                        "metadata": {
+                                            "url": "https://www.asesoresfinancierosefpa.es/actualidad/el-impacto-del-turismo-consolida-la-ventaja-economica-de-espana-en-europa-segun-el-be/",
+                                            "source": "www.asesoresfinancierosefpa.es",
+                                            "favicon": "https://www.asesoresfinancierosefpa.es/wp-content/uploads/2018/07/cropped-EFPA_logo_normal_espan¦âa1-32x32.jpg",
+                                            "title": "El impacto del turismo consolida la ventaja económica de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.asesoresfinancierosefpa.es",
+                                            "snippet": "En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En Canarias y Baleares, se dedican al turismo 1 de cada 4 empresas\n\nLa hostelería concentra el 40% de las empresas asociadas al turismo y el 60% de sus ocupados\n\nEl 50 % de las empresas turísticas tiene entre 1 y 9 trabajadores y suman más del 96% junto a las empresas sin asalariados\n\nEl peso del turismo en la economía española superó el 13% del PIB en 2024, tras cuatro años de recuperación que han impulsado su relevancia en la economía alrededor de un 1% respecto a 2019. Son las previsiones de Exceltur, que señalan que el turismo ya supone el 13,4% del PIB nacional. El último dato oficial de la Cuenta Satélite de Turismo, publicada por el INE, marcaba en 12,3% la aportación del turismo a la economía española en 2023, tres décimas por debajo de la cifra prepandémica.\n\n¿Cuánto aporta el turismo a la actividad empresarial y al empleo?\n\nEn 2024, el 20,5 %1 de las empresas españolas eran de actividades asociadas al turismo y aportaban el 13%2 de los ocupados de la economía nacional al cierre del ejercicio. Estas cifras son el resultado de un aumento del 3% del número de empresas turísticas (ya por encima de las 660.000) y del 9% de ocupados (ronda los 3 millones de trabajadores).\n\nAumento del número de empresas relacionadas con actividades turísticas\n\nLas empresas turísticas suponen en 2024 el 20,5% del total en España. Es decir, un 0,5% más que en 2023. Este aumento es generalizado en todo el país. En el año, la cantidad de empresas turísticas crecieron por encima del resto de empresas especialmente en Andalucía, Cantabria, Castilla y León, Cataluña, Galicia y La Rioja. Baleares es la única región en la que el peso de las empresas de actividades turísticas en la economía no creció en 2024. De todos modos, se mantiene como la comunidad autónoma donde más presencia tienen las compañías asociadas al turismo.\n\n¿Dónde y cómo se pueden analizar datos de las empresas turísticas en España?\n\nDataestur dispone de un cuadro de mando analítico sobre la explotación estadística del Directorio Central de Empresas. Se recogen los datos de empresas y unidades locales relacionadas con el turismo en comunidades autónomas y provincias. Además, se puede profundizar en la distribución de estas empresas según su actividad o el número de trabajadores.\n\nEl Sistema de Inteligencia Turística de Segittur aporta también una visualización de los datos municipales a los gestores de destinos turísticos.\n\n¿Cómo se distribuyen las empresas turísticas y su empleo entre las CC.AA.?\n\nHay una alta concentración de la actividad de las empresas turísticas en unas pocas regiones. En total, apenas seis comunidades autónomas concentran más del 70% de las empresas relacionadas con el turismo. El dato es mayor en las empresas asociadas a transportes y agencias de viaje. En lo referido al empleo, la concentración es incluso mayor y sólo requiere de cinco comunidades autónomas para alcanzar el 70% de los ocupados en turismo.",
+                                        "metadata": {
+                                            "url": "https://www.dataestur.es/blog/empresas-turismo-empleo/",
+                                            "source": "www.dataestur.es",
+                                            "favicon": "https://www.dataestur.es/wp-content/uploads/cropped-favicon-32x32.png",
+                                            "title": "Las empresas turísticas y su empleo en la economía ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.dataestur.es",
+                                            "snippet": "El peso del turismo en la economía española superó el 13% del PIB en 2024, tras cuatro años de recuperación que han impulsado su relevancia en ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8144926000004489,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8144926000004489,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:33:38",
+                    "run_time": 1.8144926000004489,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número oficial de turistas internacionales que visitaron España en 2024 según el INE?": [
+                                {
+                                    "El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).": null
+                                },
+                                {
+                                    "El gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024, según los datos que publica hoy el Instituto Nacional de Estadística (INE).": null
+                                },
+                                {
+                                    "En cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. En septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro país 13.364 M€, un 6% más que en septiembre de 2024.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en turismo sobre el aumento del turismo en España en 2024?": [
+                                {
+                                    "El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).": null
+                                },
+                                {
+                                    "El sector turístico, tradicionalmente clave, ha demostrado una resiliencia y transformación sorprendentes tras la pandemia. En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa.": null
+                                },
+                                {
+                                    "En 2024, los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Un año más, Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023.": null
+                                }
+                            ],
+                            "¿Cómo se compara el número de turistas internacionales que visitaron España en 2024 con el de años anteriores?": [
+                                {
+                                    "El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).": null
+                                },
+                                {
+                                    "El sector turístico, tradicionalmente clave, ha demostrado una resiliencia y transformación sorprendentes tras la pandemia. En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa.": null
+                                },
+                                {
+                                    "En cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. En septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro país 13.364 M€, un 6% más que en septiembre de 2024.": null
+                                }
+                            ],
+                            "¿Qué papel juegan las tendencias económicas globales en el aumento del turismo en España en 2024?": [
+                                {
+                                    "El sector turístico, tradicionalmente clave, ha demostrado una resiliencia y transformación sorprendentes tras la pandemia. En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa.": null
+                                },
+                                {
+                                    "El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).": null
+                                },
+                                {
+                                    "En 2024, los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Un año más, Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023.": null
+                                }
+                            ],
+                            "¿Qué información proporcionan las fuentes secundarias sobre el impacto del turismo en la economía española en 2024?": [
+                                {
+                                    "El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).": null
+                                },
+                                {
+                                    "En 2024, el 20,5 %1 de las empresas españolas eran de actividades asociadas al turismo y aportaban el 13%2 de los ocupados de la economía nacional al cierre del ejercicio. Estas cifras son el resultado de un aumento del 3% del número de empresas turísticas (ya por encima de las 660.000) y del 9% de ocupados (ronda los 3 millones de trabajadores).": null
+                                },
+                                {
+                                    "El peso del turismo en la economía española superó el 13% del PIB en 2024, tras cuatro años de recuperación que han impulsado su relevancia en la economía alrededor de un 1% respecto a 2019. Son las previsiones de Exceltur, que señalan que el turismo ya supone el 13,4% del PIB nacional. El último dato oficial de la Cuenta Satélite de Turismo, publicada por el INE, marcaba en 12,3% la aportación del turismo a la economía española en 2023, tres décimas por debajo de la cifra prepandémica.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 11.225539215000026,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 11.225539215000026,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:33:49",
+                    "run_time": 11.225539215000026,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn 2024 España recibió cerca de 94 millones de turistas internacionales, batiendo su récord histórico\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número oficial de turistas internacionales que visitaron España en 2024 según el INE?\n¿Qué opinan los expertos en turismo sobre el aumento del turismo en España en 2024?\n¿Cómo se compara el número de turistas internacionales que visitaron España en 2024 con el de años anteriores?\n¿Qué papel juegan las tendencias económicas globales en el aumento del turismo en España en 2024?\n¿Qué información proporcionan las fuentes secundarias sobre el impacto del turismo en la economía española en 2024?\n\n3. Here are the text sources you should use as your source of information:\n[0] El sector turístico en España cierra el año 2024 cumpliendo con las previsiones, tanto en llegadas como en ingresos. Así, el gasto acumulado de los turistas internacionales entre enero y diciembre asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados hoy por el Instituto Nacional de Estadística ( INE ).\n[0] En 2024, los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Un año más, Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023.\n[1] El gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024, según los datos que publica hoy el Instituto Nacional de Estadística (INE).\n[1] En cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. En septiembre nos visitaron 9,7 millones de turistas internacionales, un aumento del 0,8% en tasa interanual; turistas que dejaron en nuestro país 13.364 M€, un 6% más que en septiembre de 2024.\n[2] El sector turístico, tradicionalmente clave, ha demostrado una resiliencia y transformación sorprendentes tras la pandemia. En 2024, España recibió casi 94 millones de turistas internacionales, superando en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa.\n[3] En 2024, el 20,5 %1 de las empresas españolas eran de actividades asociadas al turismo y aportaban el 13%2 de los ocupados de la economía nacional al cierre del ejercicio. Estas cifras son el resultado de un aumento del 3% del número de empresas turísticas (ya por encima de las 660.000) y del 9% de ocupados (ronda los 3 millones de trabajadores).\n[3] El peso del turismo en la economía española superó el 13% del PIB en 2024, tras cuatro años de recuperación que han impulsado su relevancia en la economía alrededor de un 1% respecto a 2019. Son las previsiones de Exceltur, que señalan que el turismo ya supone el 13,4% del PIB nacional. El último dato oficial de la Cuenta Satélite de Turismo, publicada por el INE, marcaba en 12,3% la aportación del turismo a la economía española en 2023, tres décimas por debajo de la cifra prepandémica.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En 2024 España recibió cerca de 94 millones de turistas internacionales, batiendo su récord histórico"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nSegún [2], España recibió casi 94 millones de turistas internacionales en 2024, lo que supera en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa. Además, según [0], el gasto acumulado de los turistas internacionales entre enero y diciembre de 2024 asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados por el Instituto Nacional de Estadística (INE). Esto sugiere que el turismo en España ha experimentado un aumento significativo en 2024.\n\nAdemás, según [0], los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023. Esto indica que el turismo en España no solo ha aumentado en términos de número de visitantes, sino también en términos de gasto.\n\n**Contraargumentos a la afirmación**\n\nAunque no hay evidencia explícita en los textos proporcionados que refute la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024, es importante destacar que según [1], el gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024. Sin embargo, esto no contradice la afirmación original, ya que el gasto no es lo mismo que el número de turistas. Además, según [1], en cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. Esto sugiere que el turismo en España ha seguido creciendo después de 2024, pero no contradice la afirmación original.\n\n**Conclusión**\n\nBasándonos en los textos proporcionados, podemos concluir que la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024 es **verdadera**. La evidencia presentada en los textos muestra un aumento significativo en el número de turistas internacionales y en el gasto en destino en 2024, lo que sugiere que el turismo en España ha experimentado un crecimiento importante en ese año. Aunque hay alguna evidencia que sugiere que el crecimiento del turismo en España puede haber seguido después de 2024, no contradice la afirmación original.\n\n**Nota:** Es importante destacar que la afirmación original se refiere a 2024, mientras que algunos de los textos proporcionados se refieren a 2025. Sin embargo, la evidencia presentada en los textos sugiere que el turismo en España ha seguido creciendo después de 2024, lo que no contradice la afirmación original."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.579217624001103,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.579217624001103,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:33:51",
+                    "run_time": 1.579217624001103,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En 2024 España recibió cerca de 94 millones de turistas internacionales, batiendo su récord histórico\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nSegún [2], España recibió casi 94 millones de turistas internacionales en 2024, lo que supera en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa. Además, según [0], el gasto acumulado de los turistas internacionales entre enero y diciembre de 2024 asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados por el Instituto Nacional de Estadística (INE). Esto sugiere que el turismo en España ha experimentado un aumento significativo en 2024.\n\nAdemás, según [0], los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023. Esto indica que el turismo en España no solo ha aumentado en términos de número de visitantes, sino también en términos de gasto.\n\n**Contraargumentos a la afirmación**\n\nAunque no hay evidencia explícita en los textos proporcionados que refute la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024, es importante destacar que según [1], el gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024. Sin embargo, esto no contradice la afirmación original, ya que el gasto no es lo mismo que el número de turistas. Además, según [1], en cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. Esto sugiere que el turismo en España ha seguido creciendo después de 2024, pero no contradice la afirmación original.\n\n**Conclusión**\n\nBasándonos en los textos proporcionados, podemos concluir que la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024 es **verdadera**. La evidencia presentada en los textos muestra un aumento significativo en el número de turistas internacionales y en el gasto en destino en 2024, lo que sugiere que el turismo en España ha experimentado un crecimiento importante en ese año. Aunque hay alguna evidencia que sugiere que el crecimiento del turismo en España puede haber seguido después de 2024, no contradice la afirmación original.\n\n**Nota:** Es importante destacar que la afirmación original se refiere a 2024, mientras que algunos de los textos proporcionados se refieren a 2025. Sin embargo, la evidencia presentada en los textos sugiere que el turismo en España ha seguido creciendo después de 2024, lo que no contradice la afirmación original.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En 2024 España recibió cerca de 94 millones de turistas internacionales, batiendo su récord histórico\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nSegún [2], España recibió casi 94 millones de turistas internacionales en 2024, lo que supera en 10 millones el récord pre-COVID de 2019. Este crecimiento del 12,3% se sitúa por encima de la media mediterránea (8,6%) y global (-0,1%), consolidando a España como el epicentro turístico del sur de Europa. Además, según [0], el gasto acumulado de los turistas internacionales entre enero y diciembre de 2024 asciende a 126.282 millones de euros, un 16,1% más que en el mismo periodo del año anterior, según los datos publicados por el Instituto Nacional de Estadística (INE). Esto sugiere que el turismo en España ha experimentado un aumento significativo en 2024.\n\nAdemás, según [0], los principales mercados turísticos emisores experimentan crecimiento con respecto al año anterior. Reino Unido es el primer país de origen de las personas que nos visitan, con 18,4 millones y un 6,6% de incremento con respecto al año anterior. En cuanto al gasto en destino, los ciudadanos de Reino Unido dejaron en España en 2024 más de 22.600 millones de euros, un 13,5% más que en 2023. Esto indica que el turismo en España no solo ha aumentado en términos de número de visitantes, sino también en términos de gasto.\n\n**Contraargumentos a la afirmación**\n\nAunque no hay evidencia explícita en los textos proporcionados que refute la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024, es importante destacar que según [1], el gasto total de los turistas internacionales hasta septiembre ascendió a 105.827 millones de euros, lo que supone un incremento del 7% respecto al mismo periodo de 2024. Sin embargo, esto no contradice la afirmación original, ya que el gasto no es lo mismo que el número de turistas. Además, según [1], en cuanto al número de turistas internacionales que llegaron a España en los primeros nueve meses de 2025, la cifra supera los 76,4 millones, con un crecimiento del 3,5% en relación al mismo periodo del año anterior. Esto sugiere que el turismo en España ha seguido creciendo después de 2024, pero no contradice la afirmación original.\n\n**Conclusión**\n\nBasándonos en los textos proporcionados, podemos concluir que la afirmación de que España recibió cerca de 94 millones de turistas internacionales en 2024 es **verdadera**. La evidencia presentada en los textos muestra un aumento significativo en el número de turistas internacionales y en el gasto en destino en 2024, lo que sugiere que el turismo en España ha experimentado un crecimiento importante en ese año. Aunque hay alguna evidencia que sugiere que el crecimiento del turismo en España puede haber seguido después de 2024, no contradice la afirmación original.\n\n**Nota:** Es importante destacar que la afirmación original se refiere a 2024, mientras que algunos de los textos proporcionados se refieren a 2025. Sin embargo, la evidencia presentada en los textos sugiere que el turismo en España ha seguido creciendo después de 2024, lo que no contradice la afirmación original."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España recibió cerca de 94 millones de turistas internacionales en 2024, batiendo su récord histórico\", \"categories\": [\"Turismo\", \"Economía\", \"Viajes\"], \"label\": \"True\", \"main_claim\": \"España recibió cerca de 94 millones de turistas internacionales en 2024, batiendo su récord histórico y aumentando el gasto en destino\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

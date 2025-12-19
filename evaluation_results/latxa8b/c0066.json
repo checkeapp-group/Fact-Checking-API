@@ -1,0 +1,625 @@
+{
+    "question": "Consumir soja aumenta el riesgo de cáncer de mama",
+    "answer": "La afirmación de que consumir soja aumenta el riesgo de cáncer de mama se basa en la idea de que las isoflavonas presentes en la soja pueden actuar como estrogénicas y estimular el crecimiento de células cancerosas en el tejido mamario. Sin embargo, según el texto [1], los estudios recientes han desmentido esta idea. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama, lo que sugiere que la soja puede tener un efecto protector contra este tipo de cáncer.\n\nAunque la evidencia sugiere que la soja no aumenta el riesgo de cáncer de mama, hay algunas hipótesis que sugieren que las isoflavonas de la soja podrían tener un efecto negativo en la salud. Según el texto [2], una de las hipótesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptores de estrógeno en el tejido mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama. Sin embargo, esta hipótesis no está completamente confirmada y requiere más investigación.\n\nEn conclusión, la evidencia actual sugiere que consumir soja no aumenta el riesgo de cáncer de mama. La evidencia científica indica que las isoflavonas presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama. Sin embargo, es importante tener en cuenta que la investigación en este campo es continua y es posible que nuevas investigaciones reveen información adicional. En cualquier caso, la evidencia actual sugiere que la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "http://onerqi.es/soja-y-cancer-de-mama-mito-lo-que-dice-la-ciencia/",
+            "source": "onerqi.es",
+            "favicon": "http://onerqi.es/wp-content/uploads/2021/07/cropped-cropped-Qion_logotipo_final-01-01-32x32.png"
+        },
+        "2": {
+            "url": "https://www.eufic.org/es/vida-sana/articulo/la-soja-es-buena-o-mala-para-ti-esto-es-lo-que-dice-la-ciencia/",
+            "source": "www.eufic.org",
+            "favicon": "https://www.eufic.org//en/img/favicon-32px.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Consumir soja aumenta el riesgo de cáncer de mama",
+        "categories": [
+            "Salud",
+            "Nutrición",
+            "Cáncer"
+        ],
+        "label": "Fake",
+        "main_claim": "Consumir soja no aumenta el riesgo de cáncer de mama",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.614984887000901,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.614984887000901,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:50:46",
+                    "run_time": 2.614984887000901,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nConsumir soja aumenta el riesgo de cáncer de mama\n\n**Critical Research Questions:**\n1. ¿Existen estudios recientes que demuestran una relación entre el consumo de soja y el riesgo de cáncer de mama?\n2. ¿Qué dicen los expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama?\n3. ¿Cuál es la incidencia de cáncer de mama en países con alta consumo de soja en comparación con países con bajo consumo de soja?\n4. ¿Qué mecanismos biológicos podrían explicar cómo la soja podría aumentar el riesgo de cáncer de mama?\n5. ¿Cómo se procesa y cultiva la soja en diferentes países y cómo afecta su calidad nutricional?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"efectos de la soja en el riesgo de cáncer de mama estudios recientes 2025\", \"expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama\", \"incidencia de cáncer de mama en países con alto consumo de soja vs bajo consumo de soja\", \"mechanismos biológicos por los que la soja podría aumentar el riesgo de cáncer de mama\", \"procesamiento y cultivo de la soja en diferentes países efectos en la calidad nutricional\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.0561545960008516,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.0561545960008516,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:50:49",
+                    "run_time": 3.0561545960008516,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "efectos de la soja en el riesgo de cáncer de mama estudios recientes 2025",
+                                "expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama",
+                                "incidencia de cáncer de mama en países con alto consumo de soja vs bajo consumo de soja",
+                                "mechanismos biológicos por los que la soja podría aumentar el riesgo de cáncer de mama",
+                                "procesamiento y cultivo de la soja en diferentes países efectos en la calidad nutricional"
+                            ],
+                            "results": {
+                                "efectos de la soja en el riesgo de cáncer de mama estudios recientes 2025 | expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama | incidencia de cáncer de mama en países con alto consumo de soja vs bajo consumo de soja | mechanismos biológicos por los que la soja podría aumentar el riesgo de cáncer de mama | procesamiento y cultivo de la soja en diferentes países efectos en la calidad nutricional": [
+                                    {
+                                        "text": "Mayo Clinic ofrece consultas en Arizona, Florida y Minnesota, y en las ubicaciones que cuentan con el Sistema de Salud de Mayo Clinic.\n\n¿Consumir soya aumentará el riesgo de padecer cáncer de mama?\n\nNo. Comer soja o alimentos que la contengan no aumenta el riesgo de cáncer de mama. Las investigaciones realizadas en distintas poblaciones revelan que el consumo de alimentos con soja puede reducir el riesgo de cáncer de mama. Sin embargo, no está claro si los suplementos de soja son seguros para las personas que han padecido cáncer de mama o que tienen un alto riesgo de padecerlo.\n\nEl contacto prolongado con la hormona estrógeno es un factor de riesgo de cáncer de mama.\n\nLa soja contiene unas sustancias químicas vegetales llamadas isoflavonas. Las isoflavonas, al ser digeridas por algunas personas, actúan un poco como el estrógeno que produce el organismo.\n\nPero los estrógenos vegetales de los alimentos son más débiles que los estrógenos que produce el organismo. Las isoflavonas pueden ayudar a reducir el efecto de los estrógenos que produce el organismo. En algunas personas, la acción de las isoflavonas puede bloquear el estrógeno del organismo en algunos tejidos. En otros tejidos, las isoflavonas pueden actuar como una forma debilitada de estrógeno.\n\nEl riesgo de cáncer de mama por estrógenos está relacionado con la exposición a lo largo de toda la vida:\n\nUn inicio del período menstrual que llegue a una edad más temprana de lo normal.\n\nUn inicio tardío de la menopausia.\n\nNingún embarazo o un primer embarazo a una edad más avanzada.\n\nAntecedentes médicos de terapia hormonal con estrógenos y progestina.\n\nOtros factores que aumentan el riesgo de cáncer de mama son los siguientes:\n\nEdad.\n\nAntecedentes familiares de cáncer de mama o cambios genéticos que aumentan la probabilidad de padecer cáncer.\n\nConsumo de alcohol.\n\nTejido mamario denso.\n\nObesidad después de la menopausia.\n\nContacto de la mama o el tórax con la radiación.\n\nSi tienes dudas sobre tu riesgo de padecer cáncer de mama, habla con un profesional de atención médica.\n\nLa soja y los alimentos con soja pueden formar parte de un patrón de alimentación saludable. El yogur y la leche de soja, con vitaminas y calcio añadidos, son nutricionalmente similares a la leche y el yogur lácteos. Una taza (240 mililitros) de leche de soja contiene entre 56 y 83 miligramos de isoflavonas.\n\n.",
+                                        "metadata": {
+                                            "url": "https://www.mayoclinic.org/es/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/soy-breast-cancer-risk/faq-20120377",
+                                            "source": "www.mayoclinic.org",
+                                            "favicon": "https://www.mayoclinic.org/-/media/web/gbs/shared/images/apple-touch-icon-152x152.svg",
+                                            "title": "¿La soja afecta realmente el riesgo de cáncer de mama?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mayoclinic.org",
+                                            "snippet": "No. Comer soja o alimentos que la contengan no aumenta el riesgo de cáncer de mama. Las investigaciones realizadas en distintas poblaciones revelan que el ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Por qué la soja ha sido un tema polémico en el cáncer de mama?\n\nLa soja contiene isoflavonas, compuestos vegetales con una estructura similar al estrógeno humano (hormona sexual que se encuentra principalmente en mujeres). El compuesto más relevante en este sentido es la genisteína, presente naturalmente en la soja y los alimentos que se derivan de ella, y que también puede aislarse en el laboratorio y para la producción de suplementos o terapias naturales.\n\nDebido al rol del estrógeno en el cáncer de mama hormonodependiente, existen dudas sobre si las isoflavonas pueden estimular el crecimiento de estas células cancerosas.\n\nSoja en alimentos y soja en suplementos\n\nUn error común al hablar sobre el efecto de la soja, es pensar que todas las formas de soja son iguales.\n\nLa realidad es que la soja en su forma natural, como el tofu, edamame y tempeh, así como los productos derivados (bebidas vegetales de soja, yogures de soja…) son saludables y, como veremos, recomendables en personas que han padecido o quieren prevenir el cancer de mama.\n\nPor el contrario, los suplementos de isoflavonas o extractos de isoflavonas de soja que pueden encontrarse en los herbolarios y tiendas de suplementación (comercializados con frecuencia para el control de los síntomas asociados a la menopausia), sí que deben evitarse, pues su mayor concentración en estos compuestos podría tener efectos negativos en pacientes que hayan padecido un cáncer de mama o tengan alto riesgo de padecerlo.\n\nRelación entre la soja y el cáncer de mama según la ciencia\n\n¿La soja aumenta el riesgo de cáncer de mama?\n\nEstudios recientes han desmentido la idea de que el consumo moderado de soja como alimento (lo que llamamos productos completos de la soja) aumente el riesgo de cáncer de mama. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en estos alimentos tienen un efecto modulador y no actúan igual que los estrógenos humanos.\n\nEfecto protector de la soja en la prevención del cáncer\n\nLos investigadores también han encontrado que las mujeres asiáticas que consumen altas cantidades de soja (en productos completos como tofu, edamame, tempeh…) desde la infancia tienen menor incidencia de cáncer de mama.\n\n¿Es segura la soja en mujeres con antecedentes de cáncer de mama?\n\nSegún el Instituto Nacional del Cáncer, el consumo moderado de productos completos de la soja (1 a 2 raciones diarias) no aumenta la recurrencia del cáncer de mama. Además, estudios en supervivientes de cáncer muestran que los alimentos procedentes de la soja no afectan negativamente el tratamiento con tamoxifeno.\n\nMitos y realidades sobre la soja y el cáncer de mama\n\nMuchas personas piensan que la soja actúa como un estrógeno, fomentando el crecimiento de tumores. Sin embargo, en realidad las isoflavonas tienen una acción mucho más débil y pueden incluso moderar y bloquear los efectos de estrógenos más fuertes, favoreciendo el tratamiento y pronóstico.\n\nAlgunas mujeres con cáncer de mama creen que deben evitar la soja completamente. No obstante, la evidencia científica indica que el consumo moderado de soja no afecta negativamente a pacientes con cáncer. De hecho, puede ayudar a mejorar la salud de los huesos reduciendo el riesgo de osteoporosis, un tema de preocupación para muchas mujeres con cáncer de mama.\n\n¿Cómo incluir la soja en una dieta equilibrada de forma segura?\n\nEl primer paso consiste en priorizar fuentes naturales de soja como el tofu, edamame y tempeh o bien derivados como la leche o yogures de soja. Es recomendable consumir cantidades moderadas de forma equilibrada y sin exceder las recomendaciones diarias, que van de una a dos porciones al día. Es recomendable evitar en lo posible la presencia de aditivos en estos productos, para ello revisa la información nutricional del producto y escoge siempre los más saludables.\n\nAdicionalmente, recuerda consultar siempre con un oncólogo o nutricionista especializado en pacientes oncológicos para crear una dieta balanceada y saludable que ayude en tu recuperación.\n\nLa soja es segura cuando se consume con moderación\n\nLa conclusión es que la evidencia científica actual no respalda la idea de que la soja aumente el riesgo de cáncer de mama. Al contrario, cuando es consumida con moderación y en su forma natural, la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.",
+                                        "metadata": {
+                                            "url": "http://onerqi.es/soja-y-cancer-de-mama-mito-lo-que-dice-la-ciencia/",
+                                            "source": "onerqi.es",
+                                            "favicon": "http://onerqi.es/wp-content/uploads/2021/07/cropped-cropped-Qion_logotipo_final-01-01-32x32.png",
+                                            "title": "Soja y cáncer de mama: ¿Hay riesgo real?",
+                                            "type": "web_search",
+                                            "base_url": "http://onerqi.es",
+                                            "snippet": "Según el Instituto Nacional del Cáncer, el consumo moderado de productos completos de la soja (1 a 2 raciones diarias) no aumenta la recurrencia del cáncer de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿La soja es buena o mala para ti? Esto es lo que dice la ciencia\n\níndice\n\n¿La soja es buena o mala para ti? Esto es lo que dice la ciencia\n\n\n\n¿La soja es buena o mala para ti? Esta cuestión ha sido objeto de numerosos debates y especulaciones. En los últimos años, la soja ha ganado popularidad como fuente de alimento versátil y nutritivo. La soja y los productos a base de soja han encontrado su lugar en una amplia gama de alimentos, desde el tofu y la bebida de soja hasta los yogures y las alternativas a la carne. Pero ¿qué dice la ciencia sobre el consumo de soja? Este artículo analiza qué es la soja, qué nutrientes contiene y si es buena para nosotros.\n\n\n\n¿Qué es la soja y qué alimentos la contienen?\n\n\n\nLa soja, o habas de soja, es una legumbre originaria de Asia Oriental, cultivada por sus habas comestibles. La soja es un alimento muy versátil y se puede comer sola (ya sea como habas de soja, hervidas, o como edamame, que son las habas de soja inmaduras dentro de la vaina que a menudo se hierven o se cocinan al vapor y se sirven con sal) o procesada para elaborar una gran variedad de productos alimenticios, como:1\n\n\n\nTofu: se prepara coagulando la bebida de soja y luego presionando la cuajada resultante en bloques sólidos de diferente firmeza (por ejemplo, sedoso, suave, firme o extra firme).\n\nMiso: pasta de condimento tradicional japonesa elaborada mediante la fermentación de soja con sal y koji.\n\nTempeh: alimento tradicional indonesio que se elabora mediante la fermentación de soja entera en forma de pastel.\n\nNatto: un tipo de soja fermentada, consumida tradicionalmente en Japón.\n\nBebida de soja, alternativa vegetal de soja al yogur y otros lácteos.\n\n\n\nLa soja también se utiliza para producir una gran variedad de ingredientes:\n\n\n\nHarina de soja y proteína de soja, que se utilizan en alimentos como el pan, otros productos de cereales, productos cárnicos y alternativas cárnicas vegetarianas.\n\nEl aceite de soja, muy utilizado como aceite vegetal tanto para cocinar en casa como en la industria alimentaria, también se utiliza en la fabricación de grasas untables como las margarinas.\n\nLecitina de soja, que se utiliza como emulsionante en muchos alimentos.\n\nSalsa de soja: condimento líquido salado que se elabora fermentando la soja o descomponiéndola con ácido.\n\n\n\n¿Qué nutrientes contiene la soja?\n\n\n\nLa soja contiene una gran variedad de nutrientes:1\n\n\n\nProteínas: la soja es una fuente de proteínas de alta calidad que se digieren fácilmente y contiene los nueve aminoácidos esenciales en cantidades constantes. En comparación con otras alternativas vegetales a la leche, la bebida de soja ofrece un contenido proteico similar al de la leche de vaca.\n\nGrasas saludables: los alimentos a base de soja contienen principalmente grasas mono y poliinsaturadas, con cantidades muy pequeñas degrasas saturadas.\n\nFibra: la soja es una fuente de fibra. Una ración de soja hervida (80 g), edamame (80 g) y tempeh (50 g) contiene 10,6 g, 4,7 g y 2,8 g de fibra, respectivamente. Por el contrario, el tofu contiene relativamente poca fibra debido a las etapas de procesamiento a las que ha sido sometido.\n\nVitaminas y minerales: la soja puede ser una buena fuente de vitaminas B, hierro (aunque nuestro organismo es menos eficaz en absorber este tipo de hierro que el de origen animal), potasio y magnesio. Por ejemplo, la soja hervida, el tempeh y el tofu son buenas fuentes de hierro: 100 g de tempeh contienen el 27 % del valor de referencia de hierro en la dieta. Algunos productos de soja también son ricos en calcio (por ejemplo, la bebida de soja enriquecida, la alternativa vegetal de soja enriquecida al yogur y el tofu con calcio). Un vaso (200 ml) de bebida de soja enriquecida contiene el 25 % del valor de referencia dietético de calcio.\n\nIsoflavonas: la soja es una fuente excepcionalmente rica de isoflavonas, un grupo de compuestos con acción antioxidante. Las isoflavonas son un tipo de fitoestrógeno, lo que significa que tienen una estructura parecida a la hormona estrógeno que produce nuestro cuerpo. Sin embargo, se unen de forma diferente a nuestro receptores estrogénicos y desempeñan acciones diferentes que los estrógenos. Su efecto depende de varios facotres, como los niveles de estrógeno en el tipo de tejido corporal (tanto el que producimos como el que obtenemos de la alimentación). Por eso se dice que tienen una acción de modulación selectiva de los receptores estrogénicos.1 En la práctica, esto significa que su efecto puede ser distinto en una mujer fértil en comparación con una mujer posmenopáusica. También se han observado diferencias entre individuos en cuanto a la forma en que metabolizan las isoflavonas de soja, lo que puede influir en su impacto hormonal. Sin embargo, hace falta más investigación con un mayor número de personas para comprender mejor sus efectos en los seres humanos.2\n\nFigura 1. Contenido proteíco de productos de soja: tempeh, soja (hervida), habas de edamame (hervidas), tofu, alternativa vegetal de soja al yogur y bebida de soja, sin azúcar, enriquecida.3,4\n\n¿Es buena la soja para ti?\n\n\n\nA pesar de los muchos nutrientes de la soja, se habido preocupaciones sobre sus posibles efectos negativos en la salud, sobre todo por la acción similar a los estrógenos que tienen las isoflavonas. A continuación, Veremos que dice la ciencia sobre esto en distintos aspectos de la salud.\n\n\n\nEnfermedad cardiovascular\n\n\n\nLas primeras investigaciones sugirieron que la proteína de soja podría reducir los niveles altos de colesterol. En 1995, un metaanálisis indicó una reducción del 12,9 % en el colesterol de lipoproteínas de baja densidad (LDL) cuando se consumían diariamente 50 g de proteína de soja (equivalente a casi 2 l de bebida de soja o 680 g de tofu) en lugar de proteína animal.5 Y dado que el colesterol LDL alto en sangre está relacionado con un mayor riesgo de enfermedad cardiovascular,6 la Administración de Alimentos y Medicamentos de Estados Unidos (FDA) permitió a los fabricantes de alimentos afirmar que \"25 g de proteína de soja al día, como parte de una dieta baja en grasas saturadas y colesterol, puede reducir el riesgo de enfermedad cardíaca\".7 Sin embargo, estudios posteriores, incluida una actualización de la Asociación Americana del Corazón en el 2000, encontraron reducciones más modestas del colesterol LDL. En 2017, la FDA propuso revocar esta afirmación de reducción del riesgo de enfermedades cardíacas porque los resultados de los ensayos controlados aleatorios no eran consistentes.8 La Autoridad Europea de Seguridad Alimentaria (EFSA) también concluye que no se ha establecido una relación de causa y efecto entre el consumo de isoflavonas de soja y la reducción del colesterol LDL.9\n\n\n\nSin embargo, un nivel elevado de colesterol LDL no es el único factor de riesgo para desarrollar enfermedades cardiovasculares. La presión arterial alta también es uno de los principales factores de riesgo.10 El consumo de soja se asocia a un pequeño pero significativo efecto reductor de la presión arterial en adultos y, por lo tanto, podría formar parte de una dieta cardioprotectora global.11 La soja también tiene un efecto beneficioso sobre otros factores de riesgo de enfermedad cardiovascular, como la mejora de la función de los vasos sanguíneos, la disminución de los marcadores inflamatorios, la reducción de la circunferencia de la cintura y la mejora de la función y la rigidez auricular.12-17\n\n\n\nCáncer de mama y próstata\n\n\n\nA partir de finales de la década de los noventa, algunas investigaciones en animales sugirieron que las isoflavonas estimulan el crecimiento de los tumores de mama e inhiben la eficacia de varios fármacos contra el cáncer de mama. Sin embargo, la investigación en animales no siempre se traslada a los seres humanos (es decir, las isoflavonas de soja pueden metabolizarse de manera diferente en animales en comparación con los humanos). Desde entonces, múltiples estudios en los que participaron mujeres con cáncer de mama, mujeres con alto riesgo de padecerlo y mujeres sanas demostraron que ni el consumo de soja ni de isoflavonas afectaba a los marcadores de riesgo de cáncer de mama.1 De hecho, varios grandes estudios observacionales muestran que el consumo de soja se asocia a un riesgo significativamente menor de recurrencia del cáncer de mama y de mortalidad específica por cáncer de mama.\n\nAunque el mecanismo específico sigue siendo desconocido, una de las hipotesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptoresde estrógeno en el teijdo mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama.\n\nAutoridades como la Sociedad Americana del Cáncer, el Instituto Americano para la Investigación del Cáncer, el Fondo Mundial para la Investigación del Cáncer y la Sociedad Canadiense del Cáncer afirman que las mujeres con cáncer de mama pueden consumir soja de manera segura.18-21\n\n\n\nTambién hay indicios de que el consumo de alimentos a base de soja se asocia con una reducción del riesgo de cáncer de próstata en los hombres, pero la evidencia aún no es concluyente.1 Aunque se necesita más investigación, los alimentos a base de soja aún pueden seguir formando parte de un enfoque dietético para los pacientes preocupados por desarrollar cáncer de próstata.\n\n\n\nHormonas reproductivas y fertilidad\n\n\n\nAlgunas personas han especulado sobre si podría ser perjudicial para las hormonas reproductivas masculinas y la fertilidad debido a las preocupaciones sobre las isoflavonas que podrían interferir con los niveles de testosterona.1 Esto generó preocupaciones sobre los efectos adversos en el recuento de espermatozoides, la salud reproductiva y el crecimiento del pecho en los hombres. Sin embargo, un metanálisis de 2021 no encontró efectos de la soja o las isoflavonas en los niveles de hormonas reproductivas en los hombres, incluso con exposiciones muy superiores a las ingestas dietéticas típicas.22 El estudio tampoco mostró un efecto adverso de la soja (isoflavonas) en los parámetros del esperma o el semen. Además, no existen pruebas de que las isoflavonas de soja provoquen un aumento del pecho masculino.1\n\nDel mismo modo, no hay efectos de la soja o las isoflavonas en las concentraciones de hormonas reproductivas circulantes en las mujeres (por ejemplo, los niveles de estrógeno).23 Sin embargo, los estudios observacionales y clínicos han demostrado un aumento pequeño, pero significativo, en la duración del ciclo menstrual en mujeres con un alto consumo de soja, aún dentro del rango de duración normal del ciclo. La investigación clínica es limitada, pero los datos disponibles sugieren que el consumo de soja tampoco influye en los resultados relacionados con el embarazo.1\n\n\n\nFunción tiroidea\n\n\n\nEn los primeros informes de casos se observó que los bebés alimentados con preparados de soja para niños desarrollaron bocio (inflamación de la glándula tiroides). Esta condición se resolvió cuando se añadióyodo (un mineral necesario para producir hormonas tiroideas) a la fórmula. En la década de los noventa, los estudios en tubos de ensayo y en animales también sugirieron que las isoflavonas de la soja podrían afectar las funciones de la tiroides al interferir en la síntesis de hormonas tiroideas.1 Sin embargo, análisis más recientes, incluida una evaluación de la Autoridad Europea de Seguridad Alimentaria (EFSA), concluyeron que las isoflavonas no afectan a la función tiroidea en mujeres posmenopáusicas (el único grupo estudiado). Otro metanálisis adicional confirmo que la soja y las isoflavonas no alteran los niveles de las hormonas tiroideas.24,25\n\n\n\nOtra preocupación ha sido si la soja podria empeorar la función tiroidea en personas con una ingesta muy baja de yodo. Sin embargo, estudios han hallado poca evidencia de problemas relacionados con el yodo en personas que toman suplementos de soja.26 En general, las pruebas sugieren que, en cantidades moderadas, es poco probable que la soja y las isoflavonas tengan efectos adversos significativos sobre la función tiroidea.1\n\n\n\nMemoria y función cognitiva\n\n\n\nUn estudio observacional del año 2000 sugirió que la ingesta de soja podría afectar a la función cognitiva.27 Se observó que los hombres que habían consumido más tofu en la mediana edad tenian más signos de deterioro cognitivo y atrofia cerebral (pérdida de células cerebrales y sus conexiones), en comparación con hombres que rara vez consumían tofu.\n\n\n\nSin embargo, el estudio tenia varias limitaciones: el número de hombres en el grupo de mayor consumo de tofu era reducido y los datos sobre sus ingestas reales se basaron en recordar sus hábitos alimenticios pasados, lo que podría haber estado sesgado por su disminución de la memoria. Como resultado, los investigadores concluyeron que los resultados eran demasiado preliminares para ofrecer recomendaciones definitivas.\n\nUn metaanálisis más reciente de ensayos clínicos encontró que las isoflavonas de la soja podrían mejorar la memoria y la función cognitiva general, aunque se necesita más investigación.28\n\n\n\nSofocos\n\n\n\nEl síntoma más común que experimentan las mujeres relacionado con la menopausia son los sofocos, que se describen como sensaciones de calor y suelen ir acompañados de sudoración, enrojecimiento, palpitaciones y, a veces, ansiedad.1 Se cree que la soja alivia estos síntomas debido a sus isoflavonas con un potencial efecto estrogénico. La idea es que las isoflavonas de soja pueden proporcionar un impulso similar al estrógeno durante el descenso de los niveles naturales de estrógeno.\n\n\n\nAl principio, los estudios arrojaron conclusiones contradictorias y algunos sugirieron una eficacia limitada.1 Sin embargo, investigaciones posteriores destacaron la importancia de la genisteína, una isoflavona específica de la soja.\n\n\n\nUn metanálisis mostró que las isoflavonas de soja disminuían tanto la frecuencia como la gravedad de los sofocos, especialmente entre las personas con una mayor ingesta de genisteína.29 Sin embargo, sigue siendo difícil extraer conclusiones coherentes, principalmente debido a la diversidad en el diseño y la duración de los estudios, la variación en los tipos de preparados de soja utilizados, las cantidades administradas, etc.\n\n\n\nEfectos secundarios de la soja\n\n\n\nLa soja es uno de los 14 alérgenos más comunes en la UE.30 Si la soja está presente en un producto alimenticio, debe indicarse claramente mediante una etiqueta de alérgenos (es decir, \"soja\" se indica, por ejemplo, en negrita, cursiva o subrayado). Si experimentas síntomas adversos al consumir soja (por ejemplo, secreción o picazón en la nariz, sequedad de boca, picor de ojos, estornudos, erupción cutánea, respiración sibilante, falta de aliento, molestias abdominales, náuseas, vómitos y diarrea), consulta a un dietista o nutricionista titulado o a tu médico de cabecera para que te asesore de forma individualizada y segura.\n\n\n\nResumen\n\n\n\nLa soja es una fuente de proteínas rica en nutrientes que puede aportar muchos beneficios para la salud. Aunque las isoflavonas de la soja pueden parecerse al estrógeno humano, no son exactamente iguales y no actúan de la misma manera.\n\n\n\nLa mayoría de los conceptos erróneos sobre la soja proceden de hallazgos en estudios con animales o de pruebas anecdóticas que no se han confirmado en estudios posteriores. En general, el consumo de cantidades moderadas de alimentos de soja se ha relacionado con pequeños efectos protectores para la salud cardiovascular, el riesgo y la recurrencia del cáncer de mama, el cáncer de próstata, los sofocos y la memoria y la función cognitiva.\n\n\n\nLas pruebas no han encontrado riesgos significativos en humanos por el consumo de soja, y sus beneficios para la salud superan cualquier posible riesgo. Aunque no existen recomendaciones dietéticas específicas sobre la ingesta de soja, el consumo de 1 a 3 porciones diarias de soja (15-25 g/día de proteína de soja o 50-100 mg/día de isoflavonas) parece ser beneficioso.1\n\n¿Quieres incorporar a tu dieta más alimentos a base de soja como el tofu? Estos son algunos secretos para hacer que esta versátil fuente de proteínas de origen vegetal sea más deliciosa.",
+                                        "metadata": {
+                                            "url": "https://www.eufic.org/es/vida-sana/articulo/la-soja-es-buena-o-mala-para-ti-esto-es-lo-que-dice-la-ciencia/",
+                                            "source": "www.eufic.org",
+                                            "favicon": "https://www.eufic.org//en/img/favicon-32px.ico",
+                                            "title": "¿La soja es buena o mala para ti? Esto es lo que dice ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eufic.org",
+                                            "snippet": "De hecho, varios grandes estudios observacionales muestran que el consumo de soja se asocia a un riesgo significativamente menor de recurrencia ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Incluida en el banco de preguntas el 14/10/2024. Categorías: Oncología, Nutrición .\n\nHealth professionals Servicio Murciano de Salud. Consejería de Salud. Región de Murcia\n\nLa pregunta original del usuario era \"¿Aumenta la probabilidad de tener cáncer de mama el consumo de fitoestrógenos en alimentos como la soja y derivados?\"\n\nSegún la documentación consultada, una dieta rica en soja podría reducir el riesgo de cáncer de mama (en mujeres con o sin antecedentes del mismo). No obstante, la mayoría de datos que sustentan esta información proceden de poblaciones asiáticas y no parece ser concluyente. El efecto de la soja en el riesgo de cáncer de mama está menos claro en poblaciones occidentales.\n\nEl sumario de evidencia (SE) de UpToDate sobre los factores de riesgo del cáncer de mama en las mujeres(1) incluye el consumo de soja y fitoestrógenos en el grupo de factores de riesgo no concluyentes y hace referencia a un metaanálisis de 2014 que evaluó el impacto de la ingesta de soja en el cáncer de mama(2).\n\nEste metaanálisis(2) incluyó 35 estudios. En 30 de ellos se evaluó el efecto en mujeres premenopáusicas y en 31 en postmenopáusicas. Aunque encontró que la ingesta de isoflavonas de soja podría disminuir el riesgo de cáncer de mama en mujeres asiáticas, no se encontró evidencia de que existiera tal relación en las mujeres occidentales.\n\nEl análisis agrupado de los datos de los estudios de países asiáticos sugería que la isoflavona de soja tendría un efecto protector tanto en mujeres premenopáusicas (17 estudios) como postmenopáusicas (18 estudios): odds ratio [OR] 0,59, intervalo de confianza [IC] del 95% 0,48-0,69; OR 0,59, IC 95% 0,44-0,74, respectivamente. Además, se encontraron algunas diferencias en los resultados cuando se analizaban según el tipo de estudio.\n\nNo se encontró tal efecto en el análisis de los estudios de las mujeres de los países occidentales. En premenopáusicas (14 estudios) la OR fue 0,90 (IC 95% 0,77-1,04); en postmenopáusicas se encontrón una OR de 0,92 (IC 95% 0,83-1,00, 17 estudios).\n\nEl SE de DynaMed sobre el cáncer de mama de la mujer(3) no menciona el consumo de soja o fitoestrógenos en el apartado de factores de riesgo. Sin embargo, en el apartado de prevención hace referencia a una revisión sistemática (RS) de 131 estudios (observacionales la mayoría) según la cual, la ingesta de soja podría reducir el riesgo de cáncer de mama(4). Debido a la heterogeneidad de los estudios no se realizó metaanálisis. Un mayor consumo de soja o isoflavonas de soja se asoció con una disminución del riesgo de cáncer primario en 30 estudios y con una disminución de las recurrencias en 2 de cohortes prospectivos; no encontraron diferencias significativas en cuanto al riesgo de cáncer otros 29 estudios, tampoco encontraron diferencias significativas en cuanto al riesgo de recurrencias 3 estudios de cohortes prospectivos; el único estudio que mostró un efecto negativo fue un estudio de casos controles anidado en el que se encontró un pequeño aumento del riesgo de cáncer de mama con niveles séricos más elevados de la isoflavona daidzeína.\n\nEste sumario además afirma que la ingesta de proteínas de soja podría ser beneficioso en las supervivientes de cáncer de mama: en 2 estudios de cohortes se asoció con una disminución de la recurrencia; en cuanto a la mortalidad, mientras que uno encontró un descenso, no fue así en el otro.\n\nUna guía de la American Cancer Society sobre la dieta y el ejercicio para la prevención del cáncer de mama(5) de 2020 señalaba que existía cierta evidencia procedente de estudios epidemiológicos y de laboratorio de que el consumo de alimentos tradicionales a base de soja como el tofu podría reducir el riesgo de cáncer de mama. Explicaba, no obstante, que la evidencia disponible era demasiado limitada para poder establecer una conclusión firme. Aclaraba que la mayoría de los estudios que sustentaban este efecto protector procedían de poblaciones asiáticas que consumen gran cantidad de alimentos basados en soja a lo largo de la vida y que la relevancia de la soja en poblaciones occidentales era incierta. Añadía que no existían datos que apoyen que el uso de suplementos que contienen fitoquímicos de soja aislados o polvos de proteína de soja utilizados en algunos productos alimenticios redujeran el riesgo de cáncer. Afirmaba, por tanto, que aunque los alimentos a base de soja parecían ser seguros y podrían tener múltiples beneficios en salud, los suplementos de soja deberían usarse con precaución.\n\nSe han buscado RS y metaanálisis posteriores a los citados en los sumarios de evidencia y se han seleccionado los más recientes.\n\nSegún un metaanálisis(6), en el que el consumo de soja de los estudios incluidos se categorizó según la cantidad de isoflavonas, el consumo de isoflavonas de soja puede reducir el riesgo de cáncer de mama en mujeres pre y postmenopáusicas. Se buscaron estudios prospectivos publicados en inglés publicados hasta abril de 2021. Se seleccionaron 8 estudios, 6 de los cuales se realizaron en Asia. Tres estudios solo incluían pacientes con cáncer, los otros cuatro con y sin cáncer. Según sus resultados:\n\nEl riesgo de cáncer de mama fue mayor en las mujeres con un consumo de isoflavonas de soja de 0-15 mg/día que en las que tenían un consumo mayor de 15 mg/día (7 estudios, OR 7,01, IC 95% 6,58-7,47).\n\nAnalizando los 4 estudios que incluyeron mujeres con y sin cáncer el riesgo de cáncer de mama también fue mayor en las mujeres con un consumo de isoflavonas menor de 0-15 mg/día (OR 3,91, IC 95% 3,71-4,13).\n\nEste riesgo también fue mayor para el consumo de 0-15 mg/día cuando se analizaron por separado las mujeres premenopáusicas (5 estudios, 10,46, IC 95% 9,56 -11,44) y las postmenopáusicas (5 estudios, OR 11,33, IC 95% 10,57-12,13).\n\nOtro metaanálisis(7), también de estudios prospectivos (búsqueda realizada hasta abril de 2017), concluye que las mujeres con una ingesta dietética elevada de soja podrían tener una disminución estadísticamente significativa del riesgo de cáncer de mama:",
+                                        "metadata": {
+                                            "url": "https://www.murciasalud.es/preevid/25992",
+                                            "source": "www.murciasalud.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Preevid: Consumo de soja y riesgo de cáncer de mama / ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.murciasalud.es",
+                                            "snippet": "Según la documentación consultada, una dieta rica en soja podría reducir el riesgo de cáncer de mama (en mujeres con o sin antecedentes del ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\nHay mucha información contradictoria alrededor de la soya (o soja): ¿es saludable? ¿es peligrosa? Y si es bueno comerla, ¿por qué algunas personas dicen que no lo es?\n\nAlgunos de los malentendidos provienen del hecho de que los estudios en personas y los estudios en animales pueden mostrar resultados diferentes. En algunos estudios en animales, los roedores que fueron expuestos a dosis altas de compuestos que se encuentran en la soya llamados isoflavonas mostraron un riesgo más alto de cáncer de seno. Se cree que esto se debe a que las isoflavonas en la soya pueden actuar como el estrógeno en el cuerpo y el aumento de estrógenos se ha asociado a determinados tipos de cáncer de seno.\n\nSin embargo, los roedores procesan la soya de manera diferente a las personas y no se han observado los mismos resultados en las personas. Además, las dosis de isoflavonas en los estudios con animales son mucho más elevadas que en los estudios con humanos. De hecho, en estudios con humanos, el estrógeno de la soya parece no tener efecto en absoluto, ni reducir el riesgo de cáncer de seno (especialmente en los países asiáticos donde el consumo de por vida es más elevado que en los EE. UU.). Es posible que esto se deba a que las isoflavonas pueden en realidad bloquear a los estrógenos naturales más potentes en la sangre.\n\nActualmente, las evidencias no indican que exista algún peligro para las personas resultante de comer soya, y los beneficios para la salud parecen superar cualquier riesgo potencial. De hecho, existe cada vez más evidencia de que comer alimentos tradicionales a base de soya como tofu, tempeh, edamame, miso y leche de soya puede reducir el riesgo de cáncer de seno, especialmente en las mujeres asiáticas. Los alimentos a base de soya constituyen fuentes excelentes de proteína, especialmente cuando reemplazan a otros alimentos menos saludables tales como grasas animales y carnes rojas o procesadas. Los alimentos a base de soya han sido relacionados con tasas más bajas de cardiopatías e incluso pueden ayudar a reducir el colesterol.\n\nSegún Marji McCullough, Doctora en Ciencias, Dietista Registrada, directora estratégica de epidemiología nutricional para la Sociedad Americana Contra El Cáncer, los alimentos a base de soya son saludables y seguros. No obstante, aconseja no tomar suplementos de soya los cuales contienen concentraciones mucho más altas de isoflavonas que los alimentos, hasta que se lleven a cabo más investigaciones al respecto.",
+                                        "metadata": {
+                                            "url": "https://www.cancer.org/es/cancer/noticias-recientes/la-soya-y-el-riesgo-de-cancer.html",
+                                            "source": "www.cancer.org",
+                                            "favicon": "https://www.cancer.org/content/dam/cancer-org/images/logos/acs/favicon.ico",
+                                            "title": "La soya y el riesgo de cáncer: lo que nuestra experta dice ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.cancer.org",
+                                            "snippet": "Actualmente, las evidencias no indican que exista algún peligro para las personas resultante de comer soya, y los beneficios para la salud ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Sostenibilidad, valor nutricional y económico de la soja según el origen\n\nLa harina de soja continúa siendo la fuente de proteínas más común para la nutrición animal en todo el mundo. Sin embargo, la mayor parte de la harina de soja utilizada en el mundo proviene de Brasil, Estados Unidos, Argentina y Paraguay. El costo ambiental que supone transportar esta soja desde el continente americano a otras regiones causa gran preocupación entre los ecologistas, traduciéndose en cierta presión por parte de los consumidores de productos animales. Asimismo, existe preocupación por el impacto ambiental de la producción de soja en ambientes tropicales, lo cual puede provocar deforestación, degradación del suelo y, en general, emisiones de gases de efecto invernadero más significativas. El Global Feed LCA Institute (GFLI) ha recopilado los parámetros de impacto ambiental de los ingredientes de los alimentos balanceados para animales. Este es un instituto independiente de la industria de alimentos para animales, y la industria de alimentos balanceados. Esta está organizada para proporcionar una base de datos estándar de los resultados de las Evaluaciones del Ciclo de Vida (LCA por sus siglas en inglés) de alimentos y aditivos para animales. El objetivo del GFLI es mejorar los aspectos de sostenibilidad de los alimentos de origen animal. El impacto ambiental depende en 70% al 75% de los ingredientes del alimento balanceado y de la utilización del alimento. Se puede observar que los valores disponibles actualmente para parámetros de sostenibilidad como cambio climático y uso del suelo favorecen a la soja americana debido a la tradición en producción y tecnología en tierras adaptadas a este cultivo. No obstante, esta preocupación por la sostenibilidad no es nueva y durante décadas se han evaluado otros alimentos para animales como alternativas a la harina de soja. Sin embargo, la digestibilidad de los aminoácidos de las harinas de soja y el contenido total de aminoácidos digestibles son mejores que los de la harina de girasol o canola y los DDGS, entre otros. Por lo tanto, el equilibrio general de sostenibilidad aún puede ser mejor para la harina de soja. Los ingredientes con mejor digestibilidad siempre tienen un efecto positivo en el impacto ambiental local de la dieta. La utilización del ingrediente en la formulación de la dieta depende principalmente de una buena descripción del contenido de nutrientes y energía. En las harinas de soja, el país de origen es uno de los factores por los que se puede diferenciar o crear una categoría para una formulación más precisa. También se ha reportado variabilidad en la calidad de la soja y, en consecuencia, en las harinas por regiones dentro de un país. Existen diferencias entre proveedores específicos, ya que el procesamiento de la soja también juega un papel fundamental en el producto final de harina de soja. Con tantos factores que causan variabilidad, es importante analizar los ingredientes que recibe y decidir, de acuerdo con la base de datos local, cómo ellos se pueden dividir en algunos grupos que consistentemente tengan diferentes características nutricionales y de calidad. Para hacer estos análisis de una forma más consistente, rápida y económica y obtener varios parámetros nutricionales importantes al mismo tiempo, la tecnología NIRS es la mejor herramienta disponible actualmente. Varias compañías han generado curvas de calibración para estimar el análisis proximal, los aminoácidos y la energía, utilizando los espectros NIRS. Para dar un ejemplo del uso de esta información en la formulación de alimentos, hemos elegido dos de estos servicios de estimación de nutrientes con NIRS. Elegimos AMINONIR® de Evonik y el servicio PNE® de Adisseo. La intención no es compararlos ya que su desarrollo es muy diferente. El aspecto importante es demostrar la utilidad de estos sistemas NIRS para describir la composición nutricional y el contenido energético. De esta forma, se puede percibir su valor en la formulación de alimentos balanceados. Estas calibraciones NIRS tienen diferentes orígenes según los métodos de análisis químico-usados para todos los nutrientes, incluyendo aminoácidos, cálculos para digestibilidad de los aminoácidos y contenido energético. Por lo tanto, los resultados de los análisis de muestras similares pueden dar valores diferentes en los dos métodos. En este caso, no comparamos los ingredientes entre los dos sistemas. Quien quiera utilizarlos debe elegir un sistema y aplicarlo consistentemente. AMINONIR calcula la energía metabolizable para las aves según las ecuaciones de predicción de WPSA (1989) y utiliza coeficientes de digestibilidad para cada ingrediente basados en experimentos previos. En contraste, el PNE usa un método de calibración directa utilizando datos de experimentos in vivo y de igual manera estima los valores de digestibilidad de los aminoácidos para cada ingrediente evaluado.",
+                                        "metadata": {
+                                            "url": "https://socialagri.com/agriFM/es/podcast/sostenibilidad-valor-nutricional-y-economico-de-la-soja-segun-el-origen/",
+                                            "source": "socialagri.com",
+                                            "favicon": "https://images.socialagri.com/agriFM/wp-content/uploads/2025/04/22110122/cropped-agrinews-play-podcasts-32x32.webp",
+                                            "title": "Sostenibilidad, valor nutricional y económico de la soja según ...",
+                                            "type": "web_search",
+                                            "base_url": "https://socialagri.com",
+                                            "snippet": "La harina de soja continúa siendo la fuente de proteínas más común para la nutrición animal en todo el mundo. Sin embargo, la mayor parte de la harina de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La investigación analizó la influencia de los granos de soja de 4 países diferentes en la composición química, la calidad de la proteína y el valor nutritivo de la harina de soja.\n\nLa harina de soja es la fuente de proteína más común en las dietas de los no rumiantes, siendo los EE.UU., Brasil, Argentina e India los principales países exportadores. En la formulación de los piensos, muchas fábricas de piensos y nutricionistas utilizan una matriz para la harina de soja basada en su contenido de proteína bruta, independientemente de otras características de los granos. Sin embargo, factores como el genotipo del frijol, el tipo de suelo, las condiciones ambientales durante las temporadas de cultivo y cosecha, y el almacenamiento afectan a los análisis proximales de la soja. Además, la zona geográfica en que se produce la soja puede afectar a su calidad proteica y su contenido de nutrientes\n\nFactores como el genotipo del frijol, el tipo de suelo, las condiciones ambientales durante las temporadas de cultivo y cosecha, y el almacenamiento afectan a la composición química, la calidad de las proteínas y el valor nutritivo de la harina de soja comercial. Foto: Євген Литвиненко\n\nValores químicos\n\nEl origen de la soja afectó significativamente la mayoría de los valores químicos de las comidas. El contenido de proteína bruta fue mayor para la harina de soja de Brasil y menor para la harina de soja de Argentina. Las harinas de soja de los frijoles de la India contenían menos extracto de éter que la harina de soja de los otros 3 orígenes. Las concentraciones de sacarosa y estaquiosa fueron más altas para la harina de soja de EE.UU. y más bajas para la harina de soja de Brasil e India. Se detectó una tendencia opuesta para la rafinosa, que era más alta para las comidas brasileñas e indias que para las argentinas y estadounidenses. La fibra cruda y las concentraciones de fibra fueron mayores en las comidas de la India y Brasil que en las argentinas, y mayores en todas las demás que en las estadounidenses\n\nContenido mineral\n\nEl origen de la soja afectaba a la concentración de calcio, fósforo y potasio de la harina de soja, pero los contenidos de magnesio y sodio no se veían afectados. El contenido de calcio era mayor en las comidas de la India y los Estados Unidos que en las de Argentina y Brasil. La concentración de fósforo era mayor en las comidas estadounidenses y argentinas que en las indias, y las brasileñas eran intermedias. El nivel más alto de potasio se observó en las comidas argentinas y los niveles más bajos en las comidas brasileñas e indias. El país de origen de los frijoles afectaba el contenido de zinc y hierro de las comidas, y los valores más bajos se registraban en las comidas argentinas. El mayor contenido de hierro se observó en las comidas indias, seguidas de las brasileñas. No se detectaron diferencias entre los orígenes de la soja en cuanto al contenido de magnesio y cobre\n\nLos oligoelementos orgánicos mejoran la sostenibilidad de la producción\n\n\n\nLa industria de la producción orgánica se enfrenta a una presión cada vez mayor de los legisladores y los consumidores para que proporcione productos sostenibles. Esto crea nuevos desafíos.\n\nAminoácidos\n\nLa abundancia del perfil de aminoácidos clave e indispensable de la harina de soja (% de proteína bruta) variaba significativamente con el país de origen de los granos. En general, el perfil de aminoácidos de las especies no rumiantes era más favorable para las comidas argentinas y estadounidenses que para las brasileñas e indias. A este respecto, el contenido de lisina por unidad de proteína era más alto en las comidas estadounidenses y más bajo en las brasileñas e indias. El contenido de treonina era mayor en las comidas estadounidenses y argentinas que en las brasileñas e indias. Una tendencia similar se observó para la metionina, la cisteína y la valina y para la suma de los 5 aminoácidos clave. Sin embargo, los perfiles de isoleucina, leucina y triptófano no se vieron afectados por el origen de las judías\n\nEl estudio determinó que el país de origen de la soja afectaba a la composición química y al valor nutritivo de la harina de soja. Por consiguiente, en la formulación de las dietas para animales no rumiantes deben utilizarse matrices con diferente composición de nutrientes para la harina de soja de diferentes orígenes\n\nMercado de futuros de la soj\n\na\n\nObtenga los últimos precios de futuros de la soja aquí.\n\nEste artículo se basa en el estudio «Composición química, calidad proteínica y valor nutritivo de las harinas de soja comerciales producidas a partir de habas de diferentes países»: Un estudio meta-analítico’ en Science Direct",
+                                        "metadata": {
+                                            "url": "https://es.allaboutfeed.net/las-investigaciones-demuestran-que-el-pais-de-origen-de-la-soja-es-importante/",
+                                            "source": "es.allaboutfeed.net",
+                                            "favicon": "https://es.allaboutfeed.net/wp-content/uploads/2020/07/cropped-site-icon-aaf-32x32.png",
+                                            "title": "Las investigaciones demuestran que el país de origen de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://es.allaboutfeed.net",
+                                            "snippet": "La investigación analizó la influencia de los granos de soja de 4 países diferentes en la composición química, la calidad de la proteína y ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8009797329996218,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8009797329996218,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:50:51",
+                    "run_time": 1.8009797329996218,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Existen estudios recientes que demuestran una relación entre el consumo de soja y el riesgo de cáncer de mama?": [
+                                {
+                                    "Relación entre la soja y el cáncer de mama según la ciencia\n¿La soja aumenta el riesgo de cáncer de mama?": null
+                                },
+                                {
+                                    "Estudios recientes han desmentido la idea de que el consumo moderado de soja como alimento (lo que llamamos productos completos de la soja) aumente el riesgo de cáncer de mama. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en estos alimentos tienen un efecto modulador y no actúan igual que los estrógenos humanos.": null
+                                },
+                                {
+                                    "La conclusión es que la evidencia científica actual no respalda la idea de que la soja aumente el riesgo de cáncer de mama. Al contrario, cuando es consumida con moderación y en su forma natural, la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama?": [
+                                {
+                                    "Relación entre la soja y el cáncer de mama según la ciencia\n¿La soja aumenta el riesgo de cáncer de mama?": null
+                                },
+                                {
+                                    "La conclusión es que la evidencia científica actual no respalda la idea de que la soja aumente el riesgo de cáncer de mama. Al contrario, cuando es consumida con moderación y en su forma natural, la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.": null
+                                },
+                                {
+                                    "Autoridades como la Sociedad Americana del Cáncer, el Instituto Americano para la Investigación del Cáncer, el Fondo Mundial para la Investigación del Cáncer y la Sociedad Canadiense del Cáncer afirman que las mujeres con cáncer de mama pueden consumir soja de manera segura.18-21": null
+                                }
+                            ],
+                            "¿Cuál es la incidencia de cáncer de mama en países con alta consumo de soja en comparación con países con bajo consumo de soja?": [
+                                {
+                                    "Relación entre la soja y el cáncer de mama según la ciencia\n¿La soja aumenta el riesgo de cáncer de mama?": null
+                                },
+                                {
+                                    "Los investigadores también han encontrado que las mujeres asiáticas que consumen altas cantidades de soja (en productos completos como tofu, edamame, tempeh…) desde la infancia tienen menor incidencia de cáncer de mama.": null
+                                },
+                                {
+                                    "La pregunta original del usuario era \"¿Aumenta la probabilidad de tener cáncer de mama el consumo de fitoestrógenos en alimentos como la soja y derivados?\"": null
+                                }
+                            ],
+                            "¿Qué mecanismos biológicos podrían explicar cómo la soja podría aumentar el riesgo de cáncer de mama?": [
+                                {
+                                    "Relación entre la soja y el cáncer de mama según la ciencia\n¿La soja aumenta el riesgo de cáncer de mama?": null
+                                },
+                                {
+                                    "Aunque el mecanismo específico sigue siendo desconocido, una de las hipotesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptoresde estrógeno en el teijdo mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama.": null
+                                },
+                                {
+                                    "La pregunta original del usuario era \"¿Aumenta la probabilidad de tener cáncer de mama el consumo de fitoestrógenos en alimentos como la soja y derivados?\"": null
+                                }
+                            ],
+                            "¿Cómo se procesa y cultiva la soja en diferentes países y cómo afecta su calidad nutricional?": [
+                                {
+                                    "La investigación analizó la influencia de los granos de soja de 4 países diferentes en la composición química, la calidad de la proteína y el valor nutritivo de la harina de soja.": null
+                                },
+                                {
+                                    "El estudio determinó que el país de origen de la soja afectaba a la composición química y al valor nutritivo de la harina de soja. Por consiguiente, en la formulación de las dietas para animales no rumiantes deben utilizarse matrices con diferente composición de nutrientes para la harina de soja de diferentes orígenes": null
+                                },
+                                {
+                                    "¿La soja es buena o mala para ti? Esta cuestión ha sido objeto de numerosos debates y especulaciones. En los últimos años, la soja ha ganado popularidad como fuente de alimento versátil y nutritivo. La soja y los productos a base de soja han encontrado su lugar en una amplia gama de alimentos, desde el tofu y la bebida de soja hasta los yogures y las alternativas a la carne. Pero ¿qué dice la ciencia sobre el consumo de soja? Este artículo analiza qué es la soja, qué nutrientes contiene y si es buena para nosotros.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.697380558000077,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.697380558000077,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:51:01",
+                    "run_time": 9.697380558000077,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nConsumir soja aumenta el riesgo de cáncer de mama\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Existen estudios recientes que demuestran una relación entre el consumo de soja y el riesgo de cáncer de mama?\n¿Qué dicen los expertos en nutrición y oncología sobre el efecto de la soja en el riesgo de cáncer de mama?\n¿Cuál es la incidencia de cáncer de mama en países con alta consumo de soja en comparación con países con bajo consumo de soja?\n¿Qué mecanismos biológicos podrían explicar cómo la soja podría aumentar el riesgo de cáncer de mama?\n¿Cómo se procesa y cultiva la soja en diferentes países y cómo afecta su calidad nutricional?\n\n3. Here are the text sources you should use as your source of information:\n[0] Relación entre la soja y el cáncer de mama según la ciencia ¿La soja aumenta el riesgo de cáncer de mama?\n[0] Estudios recientes han desmentido la idea de que el consumo moderado de soja como alimento (lo que llamamos productos completos de la soja) aumente el riesgo de cáncer de mama. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en estos alimentos tienen un efecto modulador y no actúan igual que los estrógenos humanos.\n[0] La conclusión es que la evidencia científica actual no respalda la idea de que la soja aumente el riesgo de cáncer de mama. Al contrario, cuando es consumida con moderación y en su forma natural, la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.\n[0] Los investigadores también han encontrado que las mujeres asiáticas que consumen altas cantidades de soja (en productos completos como tofu, edamame, tempeh…) desde la infancia tienen menor incidencia de cáncer de mama.\n[1] Autoridades como la Sociedad Americana del Cáncer, el Instituto Americano para la Investigación del Cáncer, el Fondo Mundial para la Investigación del Cáncer y la Sociedad Canadiense del Cáncer afirman que las mujeres con cáncer de mama pueden consumir soja de manera segura.18-21\n[1] Aunque el mecanismo específico sigue siendo desconocido, una de las hipotesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptoresde estrógeno en el teijdo mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama.\n[1] ¿La soja es buena o mala para ti? Esta cuestión ha sido objeto de numerosos debates y especulaciones. En los últimos años, la soja ha ganado popularidad como fuente de alimento versátil y nutritivo. La soja y los productos a base de soja han encontrado su lugar en una amplia gama de alimentos, desde el tofu y la bebida de soja hasta los yogures y las alternativas a la carne. Pero ¿qué dice la ciencia sobre el consumo de soja? Este artículo analiza qué es la soja, qué nutrientes contiene y si es buena para nosotros.\n[2] La pregunta original del usuario era \"¿Aumenta la probabilidad de tener cáncer de mama el consumo de fitoestrógenos en alimentos como la soja y derivados?\"\n[3] La investigación analizó la influencia de los granos de soja de 4 países diferentes en la composición química, la calidad de la proteína y el valor nutritivo de la harina de soja.\n[3] El estudio determinó que el país de origen de la soja afectaba a la composición química y al valor nutritivo de la harina de soja. Por consiguiente, en la formulación de las dietas para animales no rumiantes deben utilizarse matrices con diferente composición de nutrientes para la harina de soja de diferentes orígenes\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Consumir soja aumenta el riesgo de cáncer de mama"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que consumir soja aumenta el riesgo de cáncer de mama se basa en la idea de que las isoflavonas presentes en la soja pueden actuar como estrogénicas y estimular el crecimiento de células cancerosas en el tejido mamario. Sin embargo, según el texto [0], los estudios recientes han desmentido esta idea. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama, lo que sugiere que la soja puede tener un efecto protector contra este tipo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nAunque la evidencia sugiere que la soja no aumenta el riesgo de cáncer de mama, hay algunas hipótesis que sugieren que las isoflavonas de la soja podrían tener un efecto negativo en la salud. Según el texto [1], una de las hipótesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptores de estrógeno en el tejido mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama. Sin embargo, esta hipótesis no está completamente confirmada y requiere más investigación.\n\n**Conclusión**\n\nEn conclusión, la evidencia actual sugiere que consumir soja no aumenta el riesgo de cáncer de mama. La evidencia científica indica que las isoflavonas presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama. Sin embargo, es importante tener en cuenta que la investigación en este campo es continua y es posible que nuevas investigaciones reveen información adicional. En cualquier caso, la evidencia actual sugiere que la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.\n\n**Verdict:** La afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\" es **falsa** según la evidencia actual."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.260920372000328,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.260920372000328,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:51:02",
+                    "run_time": 1.260920372000328,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Consumir soja aumenta el riesgo de cáncer de mama\nArticle: **Análisis de la afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que consumir soja aumenta el riesgo de cáncer de mama se basa en la idea de que las isoflavonas presentes en la soja pueden actuar como estrogénicas y estimular el crecimiento de células cancerosas en el tejido mamario. Sin embargo, según el texto [0], los estudios recientes han desmentido esta idea. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama, lo que sugiere que la soja puede tener un efecto protector contra este tipo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nAunque la evidencia sugiere que la soja no aumenta el riesgo de cáncer de mama, hay algunas hipótesis que sugieren que las isoflavonas de la soja podrían tener un efecto negativo en la salud. Según el texto [1], una de las hipótesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptores de estrógeno en el tejido mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama. Sin embargo, esta hipótesis no está completamente confirmada y requiere más investigación.\n\n**Conclusión**\n\nEn conclusión, la evidencia actual sugiere que consumir soja no aumenta el riesgo de cáncer de mama. La evidencia científica indica que las isoflavonas presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama. Sin embargo, es importante tener en cuenta que la investigación en este campo es continua y es posible que nuevas investigaciones reveen información adicional. En cualquier caso, la evidencia actual sugiere que la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.\n\n**Verdict:** La afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\" es **falsa** según la evidencia actual.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Consumir soja aumenta el riesgo de cáncer de mama\nArticle: **Análisis de la afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que consumir soja aumenta el riesgo de cáncer de mama se basa en la idea de que las isoflavonas presentes en la soja pueden actuar como estrogénicas y estimular el crecimiento de células cancerosas en el tejido mamario. Sin embargo, según el texto [0], los estudios recientes han desmentido esta idea. De hecho, la evidencia indica que las isoflavonas naturalmente presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama, lo que sugiere que la soja puede tener un efecto protector contra este tipo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nAunque la evidencia sugiere que la soja no aumenta el riesgo de cáncer de mama, hay algunas hipótesis que sugieren que las isoflavonas de la soja podrían tener un efecto negativo en la salud. Según el texto [1], una de las hipótesis es que las isoflavonas de la soja compiten con los estrógenos más potentes producidos por nuestro organismo para unirse a los receptores de estrógeno en el tejido mamario, lo que podría reducir la estimulación estrogénica general y, por tanto, tener un efecto protector sobre el riesgo de cáncer de mama. Sin embargo, esta hipótesis no está completamente confirmada y requiere más investigación.\n\n**Conclusión**\n\nEn conclusión, la evidencia actual sugiere que consumir soja no aumenta el riesgo de cáncer de mama. La evidencia científica indica que las isoflavonas presentes en los alimentos completos de soja tienen un efecto modulador y no actúan igual que los estrógenos humanos. Además, se ha encontrado que las mujeres asiáticas que consumen altas cantidades de soja desde la infancia tienen menor incidencia de cáncer de mama. Sin embargo, es importante tener en cuenta que la investigación en este campo es continua y es posible que nuevas investigaciones reveen información adicional. En cualquier caso, la evidencia actual sugiere que la soja puede ser parte de una dieta equilibrada sin riesgos para la salud.\n\n**Verdict:** La afirmación \"Consumir soja aumenta el riesgo de cáncer de mama\" es **falsa** según la evidencia actual."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Consumir soja aumenta el riesgo de cáncer de mama\", \"categories\": [\"Salud\", \"Nutrición\", \"Cáncer\"], \"label\": \"Fake\", \"main_claim\": \"Consumir soja no aumenta el riesgo de cáncer de mama\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

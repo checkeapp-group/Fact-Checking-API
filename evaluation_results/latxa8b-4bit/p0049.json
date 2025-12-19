@@ -1,0 +1,642 @@
+{
+    "question": "Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado",
+    "answer": "La afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado se ve respaldada por varias evidencias en los textos proporcionados. En primer lugar, según el texto [1], en 2022, un asalariado público cobró, en promedio, 2.835 € brutos/mes (12 pagas), mientras que un trabajador del sector privado recibió, en promedio, 1.957 €/mes (12 pagas). Esto significa que los trabajadores del sector público ganan, en promedio, 878 € más al mes que los del sector privado, lo que representa una brecha salarial significativa a favor del sector público.\n\nAdemás, según el texto [2], la diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Esto sugiere que la brecha salarial entre los dos sectores sigue siendo importante.\n\nAunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. Por ejemplo, según el texto [3], los sueldos de los empleados públicos en España permanecieron congelados durante 2026, lo que significa que no hubo actualizaciones salariales durante ese año. Esto sugiere que la brecha salarial entre los dos sectores podría no haber aumentado en 2026.\n\nAdemás, según el texto [1], la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado, debido a la inflación reciente. Esto sugiere que la brecha salarial entre los dos sectores podría no ser tan significativa como se sugiere.\n\nEn conclusión, aunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. La brecha salarial entre los dos sectores sigue siendo significativa a favor del sector público, pero la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado. Por lo tanto, la afirmación es **verdadera** en el sentido de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://conversesacatalunya.cat/es/vivimos-mejor-con-sanchez-salarios-en-espana/",
+            "source": "conversesacatalunya.cat",
+            "favicon": "https://conversesacatalunya.cat/wp-content/uploads/2019/01/Isotipo-Converses-150x150.png"
+        },
+        "2": {
+            "url": "https://nadaesgratis.es/dolado/anatomia-del-gap-salarial-publico-privado-en-espana",
+            "source": "nadaesgratis.es",
+            "favicon": "https://nadaesgratis.es/wp-content/plugins/multicons/images/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.masterd.es/blog/sueldo-funcionario",
+            "source": "www.masterd.es",
+            "favicon": "https://www.masterd.es/web/images/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado",
+        "categories": [
+            "Trabajo",
+            "Economía",
+            "Política"
+        ],
+        "label": "Undetermined",
+        "main_claim": "Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.4913576409999223,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.4913576409999223,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:34:17",
+                    "run_time": 1.4913576409999223,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado\n\n**Critical Research Questions:**\n1. ¿Cuáles son los salarios promedio de los trabajadores del sector público en 2025?\n2. ¿Cuáles son los salarios promedio de los trabajadores del sector privado en 2025?\n3. ¿Cómo comparan los salarios de los trabajadores del sector público con los del sector privado en términos de ingresos brutos y netos?\n4. ¿Qué dicen los expertos sobre la relación entre los salarios del sector público y privado?\n5. ¿Qué evidencia existe sobre la desigualdad salarial entre los trabajadores del sector público y privado en diferentes países o regiones?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"salarios promedio trabajadores sector público 2025 datos oficiales\", \"salarios promedio trabajadores sector privado 2025 datos oficiales\", \"comparación salarios sector público sector privado ingresos brutos netos 2025\", \"relación salarios sector público sector privado expertos análisis\", \"desigualdad salarial sector público sector privado países regiones 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 33.92336995000005,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 33.92336995000005,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:34:53",
+                    "run_time": 33.92336995000005,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "salarios promedio trabajadores sector público 2025 datos oficiales",
+                                "salarios promedio trabajadores sector privado 2025 datos oficiales",
+                                "comparación salarios sector público sector privado ingresos brutos netos 2025",
+                                "relación salarios sector público sector privado expertos análisis",
+                                "desigualdad salarial sector público sector privado países regiones 2025"
+                            ],
+                            "results": {
+                                "salarios promedio trabajadores sector público 2025 datos oficiales | salarios promedio trabajadores sector privado 2025 datos oficiales | comparación salarios sector público sector privado ingresos brutos netos 2025 | relación salarios sector público sector privado expertos análisis | desigualdad salarial sector público sector privado países regiones 2025": [
+                                    {
+                                        "text": "Los datos : el salario medio en España alcanza los 28.049,94 € brutos anuales, según los últimos datos del INE correspondientes al año 2023. El de las mujeres fue de 25.591,31 euros y el de los hombres de 30.372,49. A continuación, desglosamos los sueldos medios por edad, sexo, comunidad y sector para entender mejor la evolución del mercado laboral.\n\nEl Instituto Nacional de Estadística (INE) publica cada año los datos sobre los salarios medios en España correspondientes a dos años antes, a través de la Encuesta de Estructura Salarial , que sirve de base para esta sección. En 2025 se han difundido los datos de 2023. Se consideran los más fiables, ya que proceden directamente de los registros de la Seguridad Social y de la Agencia Tributaria.\n\nRanking: aprovecha al máximo tu sueldo y planifica tus ahorros revisando nuestra selección de los mejores bancos de España, con información actual sobre solvencia y tamaño de las entidades.\n\n¿Cuál es el salario medio en España en 2025?\n\nEl salario medio bruto anual en España es de 28.049,94 €, lo que equivale a unos 2.003 € al mes en 14 pagas. Los datos corresponden a 2023 y provienen de la Seguridad Social y la Agencia Tributaria.\n\n¿Qué comunidad tiene el salario más alto en España?\n\nEl País Vasco registra el salario medio más alto de España, con 33.504,92 € brutos anuales, seguido de Madrid y Navarra. Estos datos reflejan la información oficial de 2023 publicada por el INE.\n\n¿Cuándo se actualizan los datos salariales del INE?\n\nEl INE publica cada año los datos salariales, pero siempre con cifras de dos años anteriores. Por ejemplo, en 2025 se conocen los salarios correspondientes a 2023.\n\n¿Cuál es el salario mínimo en España en 2025?\n\nEl salario mínimo interprofesional (SMI) en 2025 es de 1.184 € al mes en 14 pagas, según el Ministerio de Trabajo. Se trata del ingreso mínimo legal para cualquier trabajador a tiempo completo en España.\n\n¿Qué sectores pagan los sueldos más altos en España?\n\nLos sectores con mayores salarios son energía, finanzas y tecnología. Estas áreas concentran sueldos significativamente superiores a la media nacional, según los datos oficiales de 2023 del INE.",
+                                        "metadata": {
+                                            "url": "https://www.enterat.com/actualidad/salario-medio-espana.php",
+                                            "source": "www.enterat.com",
+                                            "favicon": "https://www.enterat.com/favicon.ico",
+                                            "title": "Salario medio España 2025 (sueldo anual, mensual...)",
+                                            "type": "web_search",
+                                            "base_url": "https://www.enterat.com",
+                                            "snippet": "¿Cuál es el salario medio en España en 2025? El salario medio bruto anual en España es de 28.049,94 €, lo que equivale a unos 2.003 € al mes en 14 pagas. Los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Qué Retribuciones reciben los Funcionarios Públicos?\n\n¿Cuál es el salario de un funcionario? Esta es una de las principales preguntas que nos formulamos a la hora de preparar oposiciones. Tener un sueldo fijo 💼 y una estabilidad laboral son algunos de los factores más comunes por lo que cada vez más personas deciden prepararse para conseguir una plaza de empleo público.\n\nEn este artículo, te explicamos cuál es el sueldo aproximado de los funcionarios que trabajan para la Administración, así como los factores que influyen en su salario.\n\nLISTADO DE OPOSICIONES\n\n¿Cuál es el Sueldo de un Funcionario en España?\n\n📊 El salario de un funcionario se compone de un sueldo base, que varía en función del grupo funcionarial al que pertenezca. Los empleados públicos se dividen en diferentes grupos según su nivel de titulación y responsabilidad, desde el Grupo A1, que corresponde a los puestos de mayor rango y responsabilidad, hasta el Grupo E, que incluye a las agrupaciones profesionales con las retribuciones más bajas. A este sueldo base se le suman una serie de complementos salariales que pueden hacer variar significativamente el salario final, como la antigüedad, los complementos de destino y específicos, y las pagas extraordinarias que se perciben dos veces al año.\n\nHasta 2025, los sueldos base de los funcionarios públicos en España quedan fijados conforme a las últimas actualizaciones salariales aplicadas por el Gobierno, que incluyen la subida total del 2,5 % correspondiente al periodo 2024-2025 (2 % aprobado en 2024 y un 0,5 % adicional consolidado en 2025)📈.\n\nLos importes mensuales aproximados por grupo funcionarial son los siguientes:\n\nGrupo A1: 1.333,40 €/mes\n\nGrupo A2: 1.152,97 €/mes\n\nGrupo B: 1.007,85 €/mes\n\nGrupo C1: 865,68 €/mes\n\nGrupo C2: 720,49 €/mes\n\nAgrupación Profesional (E): 659,44 €/mes\n\nEstos valores corresponden únicamente al sueldo base. A ellos se suman los distintos complementos retributivos —de destino, específico, trienios, productividad y gratificaciones— que varían según el puesto, el nivel de responsabilidad, la antigüedad y la Administración donde se desempeñe el cargo.\n\nSegún estimaciones del Ministerio de Hacienda y Función Pública, los incrementos de 2025 buscan compensar parcialmente la inflación acumulada de los últimos años, que superó el 11 % entre 2022 y 2024.\n\nSin embargo, sindicatos como CSIF y UGT advierten que, pese a esta mejora, los empleados públicos acumulan una pérdida de poder adquisitivo cercana al 6 % desde 2022 y reclaman una negociación salarial plurianual que garantice subidas ligadas al IPC real.\n\n¿Cuánto subirá el Sueldo de un Funcionario en 2026?\n\n💼 El ministro de Función Pública, Óscar López, ha confirmado que la subida salarial prevista para 2026 queda congelada, debido a la falta de Presupuestos Generales del Estado. En recientes declaraciones a Televisión Española, el ministro explicó que “para abordar la subida salarial de los funcionarios, primero hay que desbloquear las cifras de los Presupuestos”, ya que la negociación depende del marco presupuestario, actualmente bloqueado por la falta de apoyos parlamentarios.\n\nEsto implica que, salvo que se aprueben nuevos Presupuestos o un acuerdo extraordinario, los sueldos de los empleados públicos permanecerán congelados durante 2026.\n\nDesde CSIF, el principal sindicato de la Administración General del Estado, se considera esta justificación una “excusa inaceptable”, recordando que el Gobierno puede subir los sueldos incluso con cuentas prorrogadas.\n\nAdemás, acusan al Ejecutivo de “usar a los empleados públicos como rehenes y moneda de cambio” y anuncian movilizaciones en toda España si no se abre una negociación inmediata.\n\nComplementos de un Funcionario\n\nPara calcular el salario de un funcionario hay que tener en cuenta, además del salario base, diferentes complementos. Te explicamos brevemente cuáles son:\n\nSalario base: depende del grupo al que pertenezcas percibirás un componente básico.\n\ndepende del grupo al que pertenezcas percibirás un componente básico. Complemento de destino : este complemento se fija de manera homogénea en las Leyes de Presupuestos Generales del Estado y está dividido en 30 niveles en función del nivel del puesto a desempeñar.\n\n: este complemento se fija de manera homogénea en las Leyes de Presupuestos Generales del Estado y está dividido en 30 niveles en función del nivel del puesto a desempeñar. Pagas extraordinarias : compuestas por sueldo, trienios, complementos de destino y complementos específicos se cobran en junio y en diciembre.\n\n: compuestas por sueldo, trienios, complementos de destino y complementos específicos se cobran en junio y en diciembre. Antigüedad : variará en base al número de trienios acumulados y a la categoría del grupo del funcionario.\n\n: variará en base al número de trienios acumulados y a la categoría del grupo del funcionario. Complemento específico : es un complemento fijo que tiene como fin premiar el nivel de dedicación, responsabilidad o dificultad de cada puesto.\n\n: es un complemento fijo que tiene como fin premiar el nivel de dedicación, responsabilidad o dificultad de cada puesto. Complemento de productividad : se trata de una cuantía variable y no periódica que retribuye el rendimiento especial del funcionario.\n\n: se trata de una cuantía variable y no periódica que retribuye el rendimiento especial del funcionario. Gratificaciones: se trata de un complemento no periódico que se otorga cuando el empleado público realiza horas extraordinarias o trabajos fuera de la jornada normal.\n\nTabla Salarial Funcionarios según Grupo\n\nLas oposiciones se dividen en distintos grupos según la titulación académica requerida, lo que influye directamente en el salario base de cada funcionario. Esto genera una diferencia significativa entre las distintas escalas, llegando a duplicarse la retribución entre el grupo más alto (A1) y el más bajo (Agrupación Profesional).\n\nA continuación, te indicamos el sueldo anual bruto en 14 pagas de los funcionarios según los Presupuestos Generales del Estado.\n\nSalario Funcionario A1\n\nLos funcionarios con la titulación más alta, como licenciados o ingenieros superiores, tienen un sueldo base mensual de 1.333,40 euros , lo que equivale a 16.000,80 euros anuales .\n\n, lo que equivale a . Cada trienio supone un incremento aproximado de 51,4 euros mensuales (616,8 euros anuales).\n\n(616,8 euros anuales). Los funcionarios de este grupo percibirán un salario bruto anual aproximado de 32.950 euros, sin contar complementos adicionales.\n\nSalario Funcionario A2\n\nEste grupo, formado por diplomados y técnicos de grado medio, percibe un sueldo base mensual de 1.152,97 euros , equivalente a 13.835,64 euros anuales .\n\n, equivalente a . Los trienios en esta categoría suponen 41,8 euros mensuales (501,6 euros anuales).\n\n(501,6 euros anuales). La retribución bruta anual se sitúa en torno a 30.850 euros, reflejando la subida salarial aplicada.\n\nSalario Funcionario B\n\nCompuesto por técnicos superiores (FP de grado superior), cuenta con un sueldo base mensual de 1.007,85 euros y un sueldo anual de 12.094,20 euros .\n\ny un . Sus trienios ascienden a 36,8 euros mensuales (441,6 euros anuales).\n\n(441,6 euros anuales). El sueldo bruto anual estimado en 2025 será de 29.200 euros, sin incluir los complementos.\n\nSalario Funcionario C1\n\nFormado por funcionarios con titulación de bachillerato o técnico de grado medio, su sueldo base es de 865,68 euros mensuales , es decir, 10.388,16 euros anuales .\n\n, es decir, . Los trienios en este grupo suponen 31,7 euros mensuales (380,4 euros anuales).\n\n(380,4 euros anuales). Este grupo percibirá un salario bruto anual aproximado de 27.300 euros.\n\nSalario Funcionario C2\n\nLos funcionarios del grupo C2, generalmente con título de ESO o equivalente, cuentan con un sueldo base mensual de 720,49 euros , lo que representa 8.645,88 euros anuales .\n\n, lo que representa . Cada trienio supone 25,6 euros mensuales (307,2 euros anuales).\n\n(307,2 euros anuales). En este grupo, el salario bruto anual en 2025 se estima en 25.500 euros, sin contar complementos.\n\nAgrupación Profesional E\n\nCorresponde a los puestos que no requieren titulación específica.\n\nEl sueldo base mensual es de 659,44 euros , equivalente a 7.913,28 euros anuales .\n\n, equivalente a . Los trienios son de 16,2 euros mensuales (194,4 euros anuales).\n\n(194,4 euros anuales). La retribución bruta anual total se sitúa alrededor de 25.350 euros.\n\nGrupo / Nivel Titulación requerida Sueldo base mensual (€) Sueldo base anual (€) Trienio mensual (€) Trienio anual (€) Salario bruto anual aprox (€) A1 Licenciatura, Grado o Ingeniería Superior 1.333,40 16.000,80 51,4 616,8 32.950 A2 Diplomatura o Técnico de Grado Medio 1.152,97 13.835,64 41,8 501,6 30.850 B Técnico Superior (FP de Grado Superior) 1.007,85 12.094,20 36,8 441,6 29.200 C1 Bachillerato o Técnico de Grado Medio 865,68 10.388,16 31,7 380,4 27.300 C2 ESO o equivalente 720,49 8.645,88 25,6 307,2 25.500 E (Agrupación Profesional) Sin titulación específica 659,44 7.913,28 16,2 194,4 25.350\n\n¿Que Funcionarios Cobran Más En España?\n\nDentro del Grupo A1, el nivel más alto dentro del funcionariado, se encuentran aquellos puestos que requieren una mayor cualificación y especialización, así como una oposición más exigente. Estos profesionales desempeñan funciones clave dentro de la Administración Pública.\n\nEntre los funcionarios mejor pagados dentro del Grupo A1 destacan:\n\n⚖️Jueces y Fiscales, cuyos sueldos pueden oscilar entre 50.000 y 100.000 euros anuales, dependiendo del destino y la antigüedad.\n\n📜Registradores de la Propiedad y Notarios, que, aunque ejercen en régimen de concesión, pueden superar los 150.000 euros anuales, situándose entre los profesionales mejor pagados del sector público.\n\n💼Inspectores de Hacienda y de Trabajo, que con los complementos salariales pueden alcanzar más de 60.000 euros anuales, reflejando la importancia de su labor en la administración tributaria y laboral.\n\nBibliografía\n\nBoletín Oficial del Estado (BOE) – Ley de Presupuestos Generales del Estado 2024-2025. Agencia Estatal Boletín Oficial del Estado.\n\nInformación Oposiciones MasterD\n\nMinisterio de Hacienda y Función Pública – Retribuciones del personal al servicio del sector público 2025. Gobierno de España.\n\nPor qué Ser Funcionario en España",
+                                        "metadata": {
+                                            "url": "https://www.masterd.es/blog/sueldo-funcionario",
+                                            "source": "www.masterd.es",
+                                            "favicon": "https://www.masterd.es/web/images/favicon.ico",
+                                            "title": "¿Cuánto cobra un Funcionario en España? Sueldos en 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.masterd.es",
+                                            "snippet": "Los trienios en este grupo suponen 31,7 euros mensuales (380,4 euros anuales). Este grupo percibirá un salario bruto anual aproximado de 27.300 euros."
+                                        }
+                                    },
+                                    {
+                                        "text": "Este desafío se ha intensificado además por los cambios producidos en la economía española y el mercado laboral en el último año, marcado por una situación compleja e influida por factores de diversa naturaleza. A pesar de este contexto, las expectativas sobre el empleo son favorables, aunque desiguales entre sectores, lo que proyecta un entorno económico dinámico pero desafiante para el próximo año.\n\nEn este escenario, las tendencias salariales están experimentando un mayor dinamismo, tal como refleja el actual Informe de Tendencias Salariales para 2025.\n\n¿Qué puedes encontrar en este informe?",
+                                        "metadata": {
+                                            "url": "https://www.randstadresearch.es/tendencias-salariales/",
+                                            "source": "www.randstadresearch.es",
+                                            "favicon": "https://d2xlh7jfmz7hr5.cloudfront.net/wp-content/themes/randstad-research/img/randicon.ico?x91883",
+                                            "title": "Guía salarial 2025 en España",
+                                            "type": "web_search",
+                                            "base_url": "https://www.randstadresearch.es",
+                                            "snippet": "Informe de tendencias salariales 2025. Descubre la información sobre la situación actual de los salarios para las posiciones más relevantes por ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Salarios\n\nEvolución de salarios (medio vs. más frecuente)\n\nLos salarios en España han experimentado un crecimiento nominal moderado de 2017 a 2025, insuficiente para compensar el alza del coste de vida reciente.\n\nSegún la Encuesta de Estructura Salarial, el salario bruto medio anual pasó de alrededor de 23.000 € en 2017 a 26.950 € en 2022 (un +17% en cinco años). Para 2024, estimaciones sitúan el salario medio cerca de 31.700 € (por 14 pagas, 2.270 €/mes), aunque esa cifra de Datos macro puede incluir pagas prorrateadas.\n\nEn todo caso, el salario medio alcanzó máximos históricos en 2022, tras nueve años consecutivos de incrementos. Sin embargo, la distribución salarial es muy desigual: en España el salario medio es notablemente superior al mediano y al modal. El salario más frecuente (modal) en 2017 se situaba en torno a 16.000-17.000 € brutos anuales. Entre 2018 y 2021, curiosamente, ese salario modal subió por encima de 18.000 €. Pero en 2022, debido al gran aumento del SMI, el salario modal cayó a 14.586 € (muchos trabajadores antes por debajo del SMI pasaron justo al entorno de 14.000 €, concentrando ahí la moda).\n\nEsto significa que el sueldo más habitual en España (el que cobra el mayor número de gente) está en torno a 1.000 € netos al mes, y ha disminuido respecto a 2017 en términos reales. De hecho, el INE señala que en 2022 un 20,5% de asalariados cobraban entre 14.000 y 19.000 € al año, y que dos de cada tres trabajadores ganan menos de 2.000 € netos mensuales.\n\nEn resumen, los salarios medios han subido ligeramente en línea con la inflación pre-2021, pero la mayoría de los trabajadores no ha visto grandes mejoras en su poder adquisitivo. La subida acumulada del SMI (Salario Mínimo Interprofesional) de 707 € mensuales en 2017 a 1.080 € en 2023 (+52%) sí elevó los sueldos más bajos, reduciendo la brecha de género (el SMI benefició sobre todo a jóvenes y mujeres) y contribuyendo a que la brecha salarial de género bajara al 9% en 2022.\n\nNo obstante, esta subida del SMI no se refleja en un alza equivalente del salario “medio”, ya que España tiene muchos salarios bajos concentrados cerca del mínimo.\n\nEn definitiva, en 2025 el trabajador medio gana un poco más en euros que en 2017, pero ese aumento ha sido absorbido por la inflación reciente (sobre todo la de 2021-2023), de modo que la capacidad adquisitiva salarial es similar o menor. Mal balance, con el hecho adicional que los salarios inferiores a 20 mil euros brutos anuales, a lo largo de la vida activa (en términos actualizados a fecha de hoy), arrojan un saldo negativo en relación con las prestaciones recibidas a lo largo de su vida; en otras palabras, el resto de los ciudadanos subvencionan este tipo de empleo.\n\nSalarios sector público vs. privado\n\nLa diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Según la EPA, en 2022 un asalariado público cobró de media 2.835 € brutos/mes (12 pagas), frente a 1.957 €/mes en el sector privado, es decir, unos 878 € más al mes en promedio público. Esta brecha (el salario privado es 69% del público) era algo mayor en 2017 (entonces 67%).\n\nEn 2017, el sueldo medio público rondaba 2.500 €/mes y el privado 1.700 €/mes, diferencia de 47%.\n\nEn 2020 la brecha alcanzó su máximo (salario privado era solo 63% del público), pero con las subidas recientes en convenios privados y la moderación de sueldos públicos, la distancia ha vuelto a 69%. España destaca en la UE por esta brecha (en la UE en promedio los salarios públicos y privados están empatados). La explicación está en la estructura: en el sector público casi no hay salarios mínimos (auxiliares administrativos cobran más que el SMI) y hay más proporción de empleados cualificados, mientras en el sector privado abundan empleos precarios (hostelería, comercio) con sueldos bajos.\n\nel empleado público medio sigue ganando alrededor de un 30% más que el privado\n\nConclusión: aunque ambos sectores vieron subidas salariales desde 2017, el empleado público medio sigue ganando alrededor de un 30% más que el privado (en 2017 era cerca del 40% más). Es una anomalía más no corregida de la estructura económica española.\n\nConvergencia de renta con la UE\n\nUn objetivo histórico es acercar el nivel de renta de España al de países avanzados de la UE. En 2017, el PIB per cápita español en paridad de poder de compra rondaba el 90-92% de la media de la UE. Lamentablemente, esa convergencia no se ha logrado mejorar; incluso se ha perdido terreno debido al duro impacto económico de 2020.\n\nSegún Eurostat, en 2023 el PIB per cápita de España se situó en 88% de la media de la UE (es decir, un 12% por debajo). España se ubica en el puesto 16º de 27 en riqueza por habitante, por detrás de Italia ligeramente. En 2007, España llegó a estar en el 98% de la media UE, pero tras la doble crisis (financiera 2008 y COVID 2020) se distanció. A pesar de crecer vigorosamente en 2021-2022 (España lideró crecimiento post-COVID), no ha recuperado plenamente el nivel relativo.\n\nEl pregonado mejor PIB del gobierno, no se traduce en mejores ingresos para la mayoría.\n\nEn renta promedio, países como Chequia o Lituania se han acercado o superado a España. Cabe mencionar que el paro estructural lastra el PIB per cápita: seguimos con 12-13% de desempleo general (muy superior al 6% UE). En conclusión, en 2025 España no vive sustancialmente más cerca del estándar de vida europeo que en 2017; seguimos rezagados en convergencia real. No obstante, indicadores alternativos (IDH, consumo per cápita) nos sitúan algo mejor que el PIB per cápita puro. El pregonado mejor PIB del gobierno, no se traduce en mejores ingresos para la mayoría.\n\nCoste de la vida (vivienda, energía, alimentos)\n\nAquí es donde los españoles perciben un claro empeoramiento respecto a 2017. Como detallamos en Vivienda, el coste de la vivienda –sea alquiler o compra– se ha disparado, consumiendo más parte de la renta familiar. Pero, además, desde 2021 España sufrió una ola inflacionaria en energía y alimentos sin precedentes en décadas. La inflación anual promedio en 2022 fue 8,4%, la más alta desde 1986.\n\nLos precios de la electricidad en concreto cuadruplicaron niveles: el mercado mayorista eléctrico promedió 210 €/MWh en 2022, frente a 50 €/MWh en 2017 (aunque en 2023 bajó a <60 €/MWh gracias al tope al gas). Esto se tradujo en recibos de la luz muy elevados para hogares y empresas a mediados de 2021-2022. También los combustibles tocaron máximos (gasolina 2€/L en verano 2022), mitigados en parte por bonificaciones temporales.\n\nLo más preocupante ha sido el alza de los alimentos: en 2022-2023 los alimentos subieron un 15% interanual en varios meses, encareciendo la cesta básica (carne, aceite, lácteos) y golpeando especialmente a rentas bajas. Aunque a inicios de 2025 la inflación general volvió a niveles moderados (3%), la inflación acumulada 2017-2024 supera el 15%, mientras que los salarios medios subieron bastante menos. Esto significa que el poder de compra es menor que en 2017 para muchos.\n\nCostes esenciales como vivienda, luz o comida absorben más porcentaje del sueldo que antes. Por ejemplo, en 2017 un hogar tipo destinaba 30% de sus ingresos a vivienda+energía+alimentación; en 2023 esa partida podía superar el 40%. La situación se vio parcialmente amortiguada por medidas gubernamentales: rebajas del IVA eléctrico y de gas, cheques y bajada del IVA en alimentos básicos en 2023, y acuerdos para limitar subidas de alquiler. Aun así, la sensación de “carestía de la vida” en 2025 es generalizada, algo que no se sentía tanto en 2017 (años de inflación baja o nula).\n\nEn conclusión, de este bloque económico:\n\nLos españoles en 2025 ganan un poco más en términos nominales, pero también pagan mucho más por necesidades básicas. La economía creció (el PIB recuperó nivel prepandemia recién en 2023), el empleo aumentó, pero la clase media no percibe claramente mejoras en su calidad de vida debido al encarecimiento de la vida. La ansiada convergencia con Europa se resiste y la desigualdad, aunque ligeramente menor que en 2017, sigue alta en comparación internacional.\n\nNo es un buen balance después de tantos años de gobierno progresista de Sánchez.\n\nCreus que avui vius millor que abans que governés Sánchez? Sí\n\nNo\n\nNo ho sé Mira els resultats",
+                                        "metadata": {
+                                            "url": "https://conversesacatalunya.cat/es/vivimos-mejor-con-sanchez-salarios-en-espana/",
+                                            "source": "conversesacatalunya.cat",
+                                            "favicon": "https://conversesacatalunya.cat/wp-content/uploads/2019/01/Isotipo-Converses-150x150.png",
+                                            "title": "¿Vivimos mejor con Sánchez? salarios en España",
+                                            "type": "web_search",
+                                            "base_url": "https://conversesacatalunya.cat",
+                                            "snippet": "Según la EPA, en 2022 un asalariado público cobró de media 2.835 € brutos/mes (12 pagas), frente a 1.957 €/mes en el sector privado, es decir, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Cuál es el nuevo impuesto nóminas 2025?\n\nEl nuevo impuesto de nóminas de 2025, llamado \"Impuesto de Equidad Intergeneracional de las Pensiones\" (MEI), es una medida fiscal del gobierno español que tiene como objetivo garantizar la sostenibilidad del sistema de pensiones haciendo que los trabajadores de hoy y de mañana puedan disfrutar de mejores pensiones.\n\nLa legislación relacionada con este impuesto ha sido aprobada junto con una serie de reformas estructurales que inciden en el sistema de seguridad social en España. En particular, la Ley 20/2023 detalla el esquema del nuevo MEI y el marco legal de su implementación.\n\nEl MEI afectará directamente a las nóminas de todos los tipos de empleados, tanto a los del sector público como a los empleados del sector privado. La tasa del impuesto se ha fijado en un 0,8 %, con un 0,567% pagado por el empleador y un 0,13 % pagado por el empleado.\n\nSegún el gobierno, este impuesto adicional garantiza que los jóvenes de hoy reciban mejores pensiones en el futuro sin destruir la economía.\n\nImpacto del nuevo impuesto nóminas para las empresas\n\nEl nuevo impuesto a nóminas también tendrá consecuencias en los salarios de las empresas. Desde el punto de vista contable, las empresas tendrán que ajustar sus presupuestos para incluir la nueva carga impositiva. Y es que, al pagar el MEI las empresas deberán cambiar su planificación financiera y evitar pérdidas de liquidez a corto plazo.\n\nPor otro lado, las grandes corporaciones podrán afrontar mejor el nuevo impuesto nóminas gracias a su capacidad para redistribuir costes y utilizar de manera más eficiente los recursos.\n\nPero este impuesto podría ser un desafío significativo para las PYMEs. La mano de obra adicional puede provocar un cambio en las estrategias de contratación y generar una reducción de los salarios y los beneficios para los empleados.\n\nLas empresas también tendrán que invertir en la actualización de sus sistemas de nómina y contabilidad, y tienen que capacitar a su capital humano para estas nuevas regulaciones. Además, deberán revisar todos los procesos internos relacionados con la gestión del salario mensual y las cotizaciones voluntarias.\n\n¿Cómo calcular el nuevo impuesto en la nómina?\n\nPara calcular cuánto tienes que pagar por el nuevo impuesto nóminas de 2025, aquí te dejamos una guía paso a paso que te ayudará:\n\nNecesitas saber el salario bruto de tu empleado: que será su salario base más cualquier bonificación o remuneración variable. Aplica la tasa de MEI: la tasa total del 0,8 % debe dividirse en dos partes, con un 0,67% a cargo del empleador y un 0,1 3% a cargo del empleado.\n\nPor eso, si el salario bruto mensual del empleado es de 2.000 euros, el cálculo se ve de la siguiente manera:\n\nEmpleador: 2.000 euros x 0,0067 % = 13,40 euros Empleado: 2.000 euros x 0,0013 % = 2,60 euros Suma tanto la parte del empleador como del empleado para conseguir el total del MEI: en el caso de este ejemplo sería 13,40 + 2,60 = 16 euros. Resta la parte del empleado del salario bruto: con esta fórmula tendrás el salario neto del empleado.\n\nEste proceso se debe realizar para cada empleado en la empresa, y los cálculos deben adaptarse a los sistemas de nómina que ya están configurados.",
+                                        "metadata": {
+                                            "url": "https://www.pluxee.es/blog/informacion-clave-nuevo-impuesto-nomina/",
+                                            "source": "www.pluxee.es",
+                                            "favicon": "https://www.pluxee.es/themes/custom/sodexo_brs_core/apple-touch-icon-120x120.png",
+                                            "title": "Nuevo impuesto en la nómina 2025: Información clave - Pluxee",
+                                            "type": "web_search",
+                                            "base_url": "https://www.pluxee.es",
+                                            "snippet": "Por ejemplo, un trabajador con un salario bruto de 2.000 euros verá una disminución de 2 euros en su salario neto mensual. ¿Quién debe pagar el MEI? El nuevo ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Por Alba Couceiro de León y Juan J. Dolado (http://blogspot.com)\n\n(Este post es una adaptación del originalmente escrito en la web Voxeu del CEPR.)\n\n¿Por qué los salarios difieren en el sector público y privado? Un punto de partida útil para abordar esta cuestión es reconocer que los empleos en estos dos sectores difieren tanto en la naturaleza de las tareas realizadas (ya que el sector público es el único proveedor de ciertos bienes y servicios) como en sus condiciones laborales (Garibaldi y Gomes, 2020). En consecuencia, existen muchas razones por las que los salarios en dichos sectores pueden diferir, entre las que destacan las diferencias en las características y preferencias socioeconómicas de los trabajadores, las reglas de contratación, la fijación de salarios no competitivos, los objetivos de sus respectivos empresarios y el poder sindical.\n\nPor ejemplo, dos hechos estilizados en la mayoría de los países desarrollados son la mayor compresión de los salarios en el sector público para todos los niveles educativos (habitualmente, el salario de los empleados públicos menos calificados es más elevado que en el sector privado, mientras que ocurre lo contrario entre los empleados altamente calificados), así como la existencia de diferentes brechas salariales por género (Winter-Ebmer et al., 2007).\n\nHechos estilizados\n\nEspaña no es una excepción a estas regularidades empíricas, como documentan Hospido y Moral-Benito (2016) durante 2000-2012, un período que precede al fin de la crisis de deuda soberana y la posterior recuperación de la economía española a partir de 2014. En un trabajo reciente (Couceiro de León y Dolado, 2023) extendemos esta evidencia hasta 2018, excluyendo el período de la pandemia por falta de disponibilidad de datos hasta el momento y por las especificidades de dicho episodio.\n\nAl igual que en los países de nuestro entorno, el primer rasgo relevante es la sobrerrepresentación de las mujeres en el sector público español: el 55% de los empleados públicos son mujeres frente al 41% en el sector privado. Posiblemente ello se deba a la autoselección de mujeres dispuestas a conciliar trabajo y cargas familiares. Otra diferencia destacada es la presencia de una mayor proporción de personas altamente cualificadas en el sector público (el 30% tiene un título universitario o incluso superior frente al 17% en el sector privado), lo cual también se traduce en un mayor peso de las ocupaciones que requieren mayor habilidad: 42% frente 32%. A este respecto, Garibaldi et al. (2021) sostienen que el empleo público está sesgado hacia la mano de obra altamente calificada porque, en su búsqueda de los inputs más apropiados para la producción de bienes y servicios públicos, los gobiernos se decantan por este tipo de trabajadores, los cuales son relativamente menos costosos cuando los salarios públicos se comprimen a lo largo de la distribución de cualificaciones. Otras diferencias están relacionadas con la edad y la antigüedad en el empleo: en promedio, el 34% de los empleados públicos tienen más de 50 años frente al 20% en el sector privado, mientras que la antigüedad en el puesto de trabajo es aproximadamente 5 años superior en el sector público. Ambas cifras apuntan a una estabilidad laboral mucho mayor en el sector público, lo que implica que una mayor proporción de mujeres disfruten de licencias de maternidad en ese sector (a pesar de tener mayor edad en promedio). En cuanto a los tipos de contrato laboral, la contratación temporal tiene una incidencia mayor en el sector público (31,7% vs. 18,6%), mientras que ocurre lo contrario con el trabajo a tiempo parcial (9,0% vs. 17%). Cabe señalar que los contratos de duración determinada se concentran mayoritariamente en los ayuntamientos y gobiernos autonómicos que empezaron a usar intensamente los contratos de interinidad para prestar servicios en los sectores educativo y sanitario debido a los ajustes fiscales desde la Gran Recesión. En cualquier caso, los flujos de destrucción de empleo hacia desempleo e inactividad son mucho menores en el sector público que en el privado (Fontaine et al, 2020).\n\nResultados\n\nEn resumen, las preguntas que abordamos en nuestro trabajo son básicamente si la fase de recuperación desde 2014 hasta 2018 y los efectos de las reformas del mercado laboral aprobadas en 2010 y 2012 han conllevado cambios relevantes en los hechos estilizados documentados para la década anterior. Utilizando microdatos de las tres últimas oleadas disponibles de la Encuesta de Estructura Salarial (EES, 2010, 2014, 2018), nuestros principales resultados se recogen en la Tabla 1. En ella se reportan las brechas salariales por hora no explicadas una vez se controla por una amplia gama de características productivas observables. Dichos gaps proceden de descomposiciones de Oaxaca-Blinder aplicadas a la estimación de ecuaciones salariales mincerianas con correcciones de sesgo de selección (identificados por las licencias otorgadas de maternidad y paternidad en ambos sectores).\n\nLos principales resultados se resumen a continuación. Encontramos: (i) una brecha salarial bruta (sin controlar por características) de 20 pp. y una brecha salarial residual (no explicada por diferencias en productividad o en selección) de alrededor de 6 pp. en promedio a favor del sector público en la muestra completa (fila 1 en la Tabla); (ii) una prima salarial residual en el sector público que resulta ser bastante acíclica, en contraste con la clara pro-ciclicidad de la brecha salarial bruta (con un aumento durante la recuperación económica desde 15 puntos en 2015 a 23 puntos en 2018); (iii) una fuerte compresión salarial, con una brecha positiva (resp. negativa) para los empleados públicos con menor (resp. mayor) cualificación (filas 2 y 3); esto último puede explicar la dificultad del sector público para atraer y retener a sus trabajadores más cualificados (Campos y Centeno, 2012); (iv) una prima salarial para las empleadas públicas tanto cualificadas (8 pp., fila 5) como menos cualificadas (13 pp., fila 7), siendo éste el único grupo de trabajadores donde encontramos evidencia de autoselección positiva a favor del sector público; y (v) una prima (resp. descuento) salarial de 8 pp. (-4.5 pp.) para los varones con menor y mayor educativo (filas 4 y 6), producto de la compresión salarial en el sector público. En general, estos hallazgos son cualitativamente similares a los reportados en la literatura sobre este tema para los países desarrollados, si bien existe cierta divergencia en términos cuantitativos debido a las especificidades del mercado laboral español sobre las que intentamos arrojar luz a través de algunas interpretaciones teóricas.\n\nInterpretación\n\nNuestra racionalización de los anteriores resultados se basa en una combinación de los siguientes mecanismos. En primer lugar, el signo opuesto de la brecha salarial residual por nivel educativo puede explicarse porque el sector público actúa como un monopsonista bilateral en varias actividades económicas en las que se enfrenta a una oferta laboral con pendiente creciente en los salarios, en contraste con el caso competitivo donde la oferta de trabajo es perfectamente elástica. Dado que un hallazgo común en la literatura es que la elasticidad de la oferta laboral para los trabajadores menos cualificados es mayor que para los trabajadores altamente cualificados, especialmente en el caso de los hombres (Borjas, 2002), dicho poder monopsonista implica que, en comparación con un equilibrio competitivo, el sector público sector reduce los salarios de aquellos trabajadores con ofertas de trabajo más inelásticas (los más cualificados) en relación con aquellos cuya elasticidad es menor (los menos cualificados).\n\nEn segundo lugar, la otra pata del monopsonio bilateral es la presencia de sindicatos mucho más fuertes en el sector público que en el privado, cuyo objetivo es comprimir la distribución salarial. Ello es debido a que el perfil del votante mediano en las elecciones sindicales en dicho sector corresponde al de un empleado público con nivel salarial y educativo bajo/medio.\n\nFinalmente, para explicar los diferentes resultados por género, nuestra evidencia apunta a que las mujeres en edad fértil están sujetas a discriminación estadística en el sector privado (i.e. en presencia de información asimétrica, se asigna a un individuo las características medias de su grupo socio-demográfico), debido a su mayor inestabilidad laboral, mientras que regulaciones más estrictas en el sector público impiden este tipo de acciones discriminatorias (De la Rica et al., 2007 y Valfort et al, 2020). En particular, este resulta ser el caso de las mujeres menos cualificadas en edad de procrear que se autoseleccionan para ingresar en el sector público ya que obtienen una mayor formación ocupacional y, por tanto, terminan recibiendo salarios más altos que en sector privado (Dolado et al. 2013). En este sentido, proporcionamos evidencia sobre la existencia de este tipo de discriminación estadística en el sector privado al mostrar que las mujeres con mayor antigüedad en el empleo experimentan penalizaciones salariales mucho más bajas o nulas que las que tienen baja antigüedad. La intuición de este resultado es que los empresarios deberían poder aprender mucho más rápido sobre la verdadera productividad de los trabajadores más estables puesto que este aprendizaje redunda en un aumento de sus beneficios (Altonji y Pierret, 2001). Por el contrario, no encontramos este tipo de evidencia en el sector público\n\nDiscusión\n\nCabe señalar que la existencia de una brecha salarial pública-privada positiva para las mujeres más y menos cualificadas va en contra de la teoría tradicional de la compensación de diferenciales, la cual predice que, ceteris paribus, los empleos con mayor riesgo o menores comodidades en el sector privado deberían compensarse con salarios más elevados que en el sector público. La evidencia proporcionada en este trabajo muestra que tanto el tipo de regulación salarial que rige entre los empleados públicos como la falta de discriminación estadística en este sector, especialmente en contra de las mujeres menos cualificadas implican una prima salarial pese a la alta incidencia de empleos temporales en el sector público en que las mujeres están sobrerrepresentadas. En el caso de los varones en el sector público, el hecho de que los más cualificados reciban un descuento salarial respecto al sector privado y que los menos cualificados reciban un premio salarial, se explica por el poder monopsonista del sector público respecto a los primeros y a la naturaleza de la negociación colectiva (compresión salarial) en el caso de los segundos.",
+                                        "metadata": {
+                                            "url": "https://nadaesgratis.es/dolado/anatomia-del-gap-salarial-publico-privado-en-espana",
+                                            "source": "nadaesgratis.es",
+                                            "favicon": "https://nadaesgratis.es/wp-content/plugins/multicons/images/favicon.ico",
+                                            "title": "Anatomía del gap salarial público-privado en España",
+                                            "type": "web_search",
+                                            "base_url": "https://nadaesgratis.es",
+                                            "snippet": "En cuanto a los tipos de contrato laboral, la contratación temporal tiene una incidencia mayor en el sector público (31,7% vs. 18,6%), mientras ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Reducción de la Desigualdad Salarial: Un Paso hacia la Equidad en el Trabajo\n\nEn los últimos años, la desigualdad salarial ha sido un tema central en el ámbito laboral global. Según el reciente Informe Mundial sobre Salarios 2024-2025 de la OIT, se han logrado avances significativos en la reducción de la brecha salarial en muchos países, aunque aún persisten desafíos importantes.\n\nCrecimiento Sostenido y Desigualdades Persistentes\n\nEl informe destaca que, tras años de dificultades económicas impulsadas por crisis globales como la pandemia, los salarios reales han mostrado un crecimiento promedio del 2,7% en 2024. Este incremento, el mayor en más de 15 años, refleja la recuperación económica en diversos sectores y países. Sin embargo, la desigualdad salarial sigue siendo un problema en muchas regiones, especialmente en países de ingresos bajos y medianos, donde las trabajadoras y trabajadores en sectores informales enfrentan condiciones precarias y sueldos insuficientes.\n\nGénero y Economía Informal\n\nUn aspecto crítico es la brecha de género en los ingresos. Las mujeres, especialmente en economías de ingresos bajos y medianos, están sobrerrepresentadas en trabajos mal remunerados y en la economía informal. A pesar de los esfuerzos por reducir la desigualdad, las barreras estructurales y la falta de políticas inclusivas continúan limitando su acceso a empleos dignos y salarios equitativos.\n\nMedidas para la Igualdad\n\nEl informe subraya la importancia de implementar políticas salariales efectivas.\n\nEstas incluyen:\n\nNegociación colectiva y salarios mínimos justos para proteger el poder adquisitivo de los trabajadores.\n\nPromoción de la igualdad de género y no discriminación en el mercado laboral.\n\nFortalecimiento del diálogo social entre gobiernos, empleadores y trabajadoras y trabajadores para abordar las causas profundas de los bajos salarios.\n\nAdemás, se destaca que mejorar el acceso a la educación, la capacitación y el trabajo formal son pasos fundamentales hacia una mayor equidad.\n\nUn Futuro de Trabajo Justo\n\nEl camino hacia la igualdad salarial es complejo, pero este informe refuerza que con políticas adecuadas y el compromiso de todos los actores, es posible avanzar hacia un entorno laboral más justo. Promover la formalización del trabajo, garantizar la representación igualitaria y priorizar el bienestar de quienes se encuentran en la base de la distribución salarial son acciones clave para un futuro donde la justicia social sea una realidad para todas las personas.\n\nEsta reflexión nos invita a seguir trabajando colectivamente para cerrar las brechas, fomentando un mundo laboral donde cada persona reciba un trato justo y equitativo, independientemente de su género, origen o condición laboral\n\nPuedes acceder al informe aquí:\n\nLa OIT publica el “Informe Mundial sobre salarios 2024-2025: ¿Está disminuyendo la desigualdad salarial en el mundo?”",
+                                        "metadata": {
+                                            "url": "https://igualdadenlaempresaaragon.es/?p=3547",
+                                            "source": "igualdadenlaempresaaragon.es",
+                                            "favicon": "https://igualdadenlaempresaaragon.es/wp-content/uploads/2022/04/cropped-avatar-1-32x32.png",
+                                            "title": "Informe Mundial sobre Salarios 2024-2025.Reducción de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://igualdadenlaempresaaragon.es",
+                                            "snippet": "En los últimos años, la desigualdad salarial ha sido un tema central en el ámbito laboral global. Según el reciente Informe Mundial sobre Salarios 2024-2025 de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La brecha salarial puede ser horizontal o vertical. El primer caso hace referencia a la diferencia que existe entre lo que cobran de media dos grupos poblacionales diferentes, lo que en muchas ocasiones está basado en la discriminación por cuestiones de género, orientación sexual o raza. El segundo, por su parte, describe las diferencias salariales en función de la jerarquía de una plantilla, es decir, cuánto más grande es el sueldo de un alto cargo en comparación con el de, por ejemplo, un operario o encargado de la limpieza.\n\nLa brecha salarial vertical está justificada cuando las aptitudes de los trabajadores y la exigencia de cada puesto difieren mucho entre sí. Sin embargo, cuando esta es demasiado profunda y no se fundamenta en hechos objetivos puede ser el reflejo de un sistema laboral desigual alejado de la meritocracia. En este sentido, el ratio de compresión salarial es uno de los mejores indicadores para medir la disparidad en la remuneración del trabajo.\n\nSin embargo, pese a que ya habido algún intento de obligar a las empresas públicas a publicar sus cifras de diferencias salariales, como en Estados Unidos, no existe una aproximación metodológica consensuada a este indicador. La Organización para la Cooperación y el Desarrollo Económicos (OCDE) define el ratio de compresión salarial como “la relación entre el salario medio del diez por ciento superior e inferior de los asalariados”, mientras que para la Comisión de Bolsa y Valores, una agencia del Gobierno de los Estados Unidos, es “la brecha salarial entre los directores ejecutivos y la compensación media de los empleados de base”.\n\nOtro problema es que no está claro qué elementos conforman la paga de un trabajador. Además del sueldo, también se pueden incluir subsidios y dietas. En Uganda, por ejemplo, el ratio de compresión salarial pasó de 6,8 a 100 después de tener en cuenta en el cálculo los beneficios sociales asociados a cada puesto de trabajo. Esto, en última instancia, redunda en una imposibilidad para comparar los datos de distintos países, no solo por las diferencias a la hora de definir el ratio o calcular la paga, sino también por la forma de compartimentar cada sector. Así, en el empleo público pueden excluirse del análisis los trabajos de rango inferior y por tanto peor remunerados que suelen externalizar, lo que reducirá el ratio de compresión salarial.\n\nEn este contexto, la base de datos Worldwide Bureaucracy Indicators del Banco Mundial es una de las mejores herramientas para analizar la brecha salarial vertical en el mundo. Utilizando una definición parecida a la de la OCDE, la entidad divide el sueldo del percentil 90 entre el del percentil 10 para estimar el ratio de compresión salarial. En otras palabras: divide a los trabajadores en cien partes iguales en función de su remuneración, y divide el sueldo del trabajador con el nonagésimo mejor salario con el del décimo más bajo.\n\nDe esta manera, los datos de 2017 del Banco Mundial, que distinguen entre el sector público y el privado, muestran que la desigualdad es más pronunciada en este último. En España, por ejemplo, el percentil 90 de los trabajadores públicos mejor remunerados cobra seis veces más que el percentil 10 peor pagado, una diferencia que aumenta casi cinco puntos más en el caso del sector privado. Otros países con grandes brechas salariales en lo privado son Irlanda, Argentina, Italia, Uruguay, Grecia y Dinamarca, mientras que Brasil es una de las pocas excepciones donde el ratio de compresión salarial es mayor en lo público que en lo privado.\n\nhttps://elordenmundial.com/mapas/nivel-educativo-trabajadores-sector-publico-privado/",
+                                        "metadata": {
+                                            "url": "https://elordenmundial.com/mapas-y-graficos/desigualdad-salarial-sector-publico-privado/",
+                                            "source": "elordenmundial.com",
+                                            "favicon": "https://elordenmundial.com/wp-content/uploads/2018/04/cropped-logo-sq-32x32.png",
+                                            "title": "La desigualdad salarial en el sector público y privado",
+                                            "type": "web_search",
+                                            "base_url": "https://elordenmundial.com",
+                                            "snippet": "El ratio de compresión mide la desigualdad salarial que existe en los ingresos de los trabajadores entre los que más y menos cobran."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.816518517000077,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.816518517000077,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:34:55",
+                    "run_time": 2.816518517000077,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los salarios promedio de los trabajadores del sector público en 2025?": [
+                                {
+                                    "En este escenario, las tendencias salariales están experimentando un mayor dinamismo, tal como refleja el actual Informe de Tendencias Salariales para 2025.": null
+                                },
+                                {
+                                    "Esto implica que, salvo que se aprueben nuevos Presupuestos o un acuerdo extraordinario, los sueldos de los empleados públicos permanecerán congelados durante 2026.": null
+                                },
+                                {
+                                    "Hasta 2025, los sueldos base de los funcionarios públicos en España quedan fijados conforme a las últimas actualizaciones salariales aplicadas por el Gobierno, que incluyen la subida total del 2,5 % correspondiente al periodo 2024-2025 (2 % aprobado en 2024 y un 0,5 % adicional consolidado en 2025)📈.": null
+                                }
+                            ],
+                            "¿Cuáles son los salarios promedio de los trabajadores del sector privado en 2025?": [
+                                {
+                                    "En este escenario, las tendencias salariales están experimentando un mayor dinamismo, tal como refleja el actual Informe de Tendencias Salariales para 2025.": null
+                                },
+                                {
+                                    "En definitiva, en 2025 el trabajador medio gana un poco más en euros que en 2017, pero ese aumento ha sido absorbido por la inflación reciente (sobre todo la de 2021-2023), de modo que la capacidad adquisitiva salarial es similar o menor. Mal balance, con el hecho adicional que los salarios inferiores a 20 mil euros brutos anuales, a lo largo de la vida activa (en términos actualizados a fecha de hoy), arrojan un saldo negativo en relación con las prestaciones recibidas a lo largo de su vida; en otras palabras, el resto de los ciudadanos subvencionan este tipo de empleo.": null
+                                },
+                                {
+                                    "Para calcular cuánto tienes que pagar por el nuevo impuesto nóminas de 2025, aquí te dejamos una guía paso a paso que te ayudará:": null
+                                }
+                            ],
+                            "¿Cómo comparan los salarios de los trabajadores del sector público con los del sector privado en términos de ingresos brutos y netos?": [
+                                {
+                                    "La diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Según la EPA, en 2022 un asalariado público cobró de media 2.835 € brutos/mes (12 pagas), frente a 1.957 €/mes en el sector privado, es decir, unos 878 € más al mes en promedio público. Esta brecha (el salario privado es 69% del público) era algo mayor en 2017 (entonces 67%).": null
+                                },
+                                {
+                                    "¿Por qué los salarios difieren en el sector público y privado? Un punto de partida útil para abordar esta cuestión es reconocer que los empleos en estos dos sectores difieren tanto en la naturaleza de las tareas realizadas (ya que el sector público es el único proveedor de ciertos bienes y servicios) como en sus condiciones laborales (Garibaldi y Gomes, 2020). En consecuencia, existen muchas razones por las que los salarios en dichos sectores pueden diferir, entre las que destacan las diferencias en las características y preferencias socioeconómicas de los trabajadores, las reglas de contratación, la fijación de salarios no competitivos, los objetivos de sus respectivos empresarios y el poder sindical.": null
+                                },
+                                {
+                                    "Por ejemplo, dos hechos estilizados en la mayoría de los países desarrollados son la mayor compresión de los salarios en el sector público para todos los niveles educativos (habitualmente, el salario de los empleados públicos menos calificados es más elevado que en el sector privado, mientras que ocurre lo contrario entre los empleados altamente calificados), así como la existencia de diferentes brechas salariales por género (Winter-Ebmer et al., 2007).": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos sobre la relación entre los salarios del sector público y privado?": [
+                                {
+                                    "¿Por qué los salarios difieren en el sector público y privado? Un punto de partida útil para abordar esta cuestión es reconocer que los empleos en estos dos sectores difieren tanto en la naturaleza de las tareas realizadas (ya que el sector público es el único proveedor de ciertos bienes y servicios) como en sus condiciones laborales (Garibaldi y Gomes, 2020). En consecuencia, existen muchas razones por las que los salarios en dichos sectores pueden diferir, entre las que destacan las diferencias en las características y preferencias socioeconómicas de los trabajadores, las reglas de contratación, la fijación de salarios no competitivos, los objetivos de sus respectivos empresarios y el poder sindical.": null
+                                },
+                                {
+                                    "Por ejemplo, dos hechos estilizados en la mayoría de los países desarrollados son la mayor compresión de los salarios en el sector público para todos los niveles educativos (habitualmente, el salario de los empleados públicos menos calificados es más elevado que en el sector privado, mientras que ocurre lo contrario entre los empleados altamente calificados), así como la existencia de diferentes brechas salariales por género (Winter-Ebmer et al., 2007).": null
+                                },
+                                {
+                                    "Cabe señalar que la existencia de una brecha salarial pública-privada positiva para las mujeres más y menos cualificadas va en contra de la teoría tradicional de la compensación de diferenciales, la cual predice que, ceteris paribus, los empleos con mayor riesgo o menores comodidades en el sector privado deberían compensarse con salarios más elevados que en el sector público. La evidencia proporcionada en este trabajo muestra que tanto el tipo de regulación salarial que rige entre los empleados públicos como la falta de discriminación estadística en este sector, especialmente en contra de las mujeres menos cualificadas implican una prima salarial pese a la alta incidencia de empleos temporales en el sector público en que las mujeres están sobrerrepresentadas. En el caso de los varones en el sector público, el hecho de que los más cualificados reciban un descuento salarial respecto al sector privado y que los menos cualificados reciban un premio salarial, se explica por el poder monopsonista del sector público respecto a los primeros y a la naturaleza de la negociación colectiva (compresión salarial) en el caso de los segundos.": null
+                                }
+                            ],
+                            "¿Qué evidencia existe sobre la desigualdad salarial entre los trabajadores del sector público y privado en diferentes países o regiones?": [
+                                {
+                                    "Por ejemplo, dos hechos estilizados en la mayoría de los países desarrollados son la mayor compresión de los salarios en el sector público para todos los niveles educativos (habitualmente, el salario de los empleados públicos menos calificados es más elevado que en el sector privado, mientras que ocurre lo contrario entre los empleados altamente calificados), así como la existencia de diferentes brechas salariales por género (Winter-Ebmer et al., 2007).": null
+                                },
+                                {
+                                    "¿Por qué los salarios difieren en el sector público y privado? Un punto de partida útil para abordar esta cuestión es reconocer que los empleos en estos dos sectores difieren tanto en la naturaleza de las tareas realizadas (ya que el sector público es el único proveedor de ciertos bienes y servicios) como en sus condiciones laborales (Garibaldi y Gomes, 2020). En consecuencia, existen muchas razones por las que los salarios en dichos sectores pueden diferir, entre las que destacan las diferencias en las características y preferencias socioeconómicas de los trabajadores, las reglas de contratación, la fijación de salarios no competitivos, los objetivos de sus respectivos empresarios y el poder sindical.": null
+                                },
+                                {
+                                    "De esta manera, los datos de 2017 del Banco Mundial, que distinguen entre el sector público y el privado, muestran que la desigualdad es más pronunciada en este último. En España, por ejemplo, el percentil 90 de los trabajadores públicos mejor remunerados cobra seis veces más que el percentil 10 peor pagado, una diferencia que aumenta casi cinco puntos más en el caso del sector privado. Otros países con grandes brechas salariales en lo privado son Irlanda, Argentina, Italia, Uruguay, Grecia y Dinamarca, mientras que Brasil es una de las pocas excepciones donde el ratio de compresión salarial es mayor en lo público que en lo privado.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 7.930923904999872,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 7.930923904999872,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:35:04",
+                    "run_time": 7.930923904999872,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los salarios promedio de los trabajadores del sector público en 2025?\n¿Cuáles son los salarios promedio de los trabajadores del sector privado en 2025?\n¿Cómo comparan los salarios de los trabajadores del sector público con los del sector privado en términos de ingresos brutos y netos?\n¿Qué dicen los expertos sobre la relación entre los salarios del sector público y privado?\n¿Qué evidencia existe sobre la desigualdad salarial entre los trabajadores del sector público y privado en diferentes países o regiones?\n\n3. Here are the text sources you should use as your source of information:\n[0] En este escenario, las tendencias salariales están experimentando un mayor dinamismo, tal como refleja el actual Informe de Tendencias Salariales para 2025.\n[1] Esto implica que, salvo que se aprueben nuevos Presupuestos o un acuerdo extraordinario, los sueldos de los empleados públicos permanecerán congelados durante 2026.\n[1] Hasta 2025, los sueldos base de los funcionarios públicos en España quedan fijados conforme a las últimas actualizaciones salariales aplicadas por el Gobierno, que incluyen la subida total del 2,5 % correspondiente al periodo 2024-2025 (2 % aprobado en 2024 y un 0,5 % adicional consolidado en 2025)📈.\n[2] En definitiva, en 2025 el trabajador medio gana un poco más en euros que en 2017, pero ese aumento ha sido absorbido por la inflación reciente (sobre todo la de 2021-2023), de modo que la capacidad adquisitiva salarial es similar o menor. Mal balance, con el hecho adicional que los salarios inferiores a 20 mil euros brutos anuales, a lo largo de la vida activa (en términos actualizados a fecha de hoy), arrojan un saldo negativo en relación con las prestaciones recibidas a lo largo de su vida; en otras palabras, el resto de los ciudadanos subvencionan este tipo de empleo.\n[2] La diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Según la EPA, en 2022 un asalariado público cobró de media 2.835 € brutos/mes (12 pagas), frente a 1.957 €/mes en el sector privado, es decir, unos 878 € más al mes en promedio público. Esta brecha (el salario privado es 69% del público) era algo mayor en 2017 (entonces 67%).\n[3] Para calcular cuánto tienes que pagar por el nuevo impuesto nóminas de 2025, aquí te dejamos una guía paso a paso que te ayudará:\n[4] ¿Por qué los salarios difieren en el sector público y privado? Un punto de partida útil para abordar esta cuestión es reconocer que los empleos en estos dos sectores difieren tanto en la naturaleza de las tareas realizadas (ya que el sector público es el único proveedor de ciertos bienes y servicios) como en sus condiciones laborales (Garibaldi y Gomes, 2020). En consecuencia, existen muchas razones por las que los salarios en dichos sectores pueden diferir, entre las que destacan las diferencias en las características y preferencias socioeconómicas de los trabajadores, las reglas de contratación, la fijación de salarios no competitivos, los objetivos de sus respectivos empresarios y el poder sindical.\n[4] Por ejemplo, dos hechos estilizados en la mayoría de los países desarrollados son la mayor compresión de los salarios en el sector público para todos los niveles educativos (habitualmente, el salario de los empleados públicos menos calificados es más elevado que en el sector privado, mientras que ocurre lo contrario entre los empleados altamente calificados), así como la existencia de diferentes brechas salariales por género (Winter-Ebmer et al., 2007).\n[4] Cabe señalar que la existencia de una brecha salarial pública-privada positiva para las mujeres más y menos cualificadas va en contra de la teoría tradicional de la compensación de diferenciales, la cual predice que, ceteris paribus, los empleos con mayor riesgo o menores comodidades en el sector privado deberían compensarse con salarios más elevados que en el sector público. La evidencia proporcionada en este trabajo muestra que tanto el tipo de regulación salarial que rige entre los empleados públicos como la falta de discriminación estadística en este sector, especialmente en contra de las mujeres menos cualificadas implican una prima salarial pese a la alta incidencia de empleos temporales en el sector público en que las mujeres están sobrerrepresentadas. En el caso de los varones en el sector público, el hecho de que los más cualificados reciban un descuento salarial respecto al sector privado y que los menos cualificados reciban un premio salarial, se explica por el poder monopsonista del sector público respecto a los primeros y a la naturaleza de la negociación colectiva (compresión salarial) en el caso de los segundos.\n[5] De esta manera, los datos de 2017 del Banco Mundial, que distinguen entre el sector público y el privado, muestran que la desigualdad es más pronunciada en este último. En España, por ejemplo, el percentil 90 de los trabajadores públicos mejor remunerados cobra seis veces más que el percentil 10 peor pagado, una diferencia que aumenta casi cinco puntos más en el caso del sector privado. Otros países con grandes brechas salariales en lo privado son Irlanda, Argentina, Italia, Uruguay, Grecia y Dinamarca, mientras que Brasil es una de las pocas excepciones donde el ratio de compresión salarial es mayor en lo público que en lo privado.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado se ve respaldada por varias evidencias en los textos proporcionados. En primer lugar, según el texto [2], en 2022, un asalariado público cobró, en promedio, 2.835 € brutos/mes (12 pagas), mientras que un trabajador del sector privado recibió, en promedio, 1.957 €/mes (12 pagas). Esto significa que los trabajadores del sector público ganan, en promedio, 878 € más al mes que los del sector privado, lo que representa una brecha salarial significativa a favor del sector público.\n\nAdemás, según el texto [4], la diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Esto sugiere que la brecha salarial entre los dos sectores sigue siendo importante.\n\n**Contradicciones a la afirmación**\n\nAunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. Por ejemplo, según el texto [1], los sueldos de los empleados públicos en España permanecieron congelados durante 2026, lo que significa que no hubo actualizaciones salariales durante ese año. Esto sugiere que la brecha salarial entre los dos sectores podría no haber aumentado en 2026.\n\nAdemás, según el texto [2], la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado, debido a la inflación reciente. Esto sugiere que la brecha salarial entre los dos sectores podría no ser tan significativa como se sugiere.\n\n**Conclusión**\n\nEn conclusión, aunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. La brecha salarial entre los dos sectores sigue siendo significativa a favor del sector público, pero la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado. Por lo tanto, la afirmación es **verdadera** en el sentido de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.034997154998564,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.034997154998564,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:35:06",
+                    "run_time": 2.034997154998564,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado se ve respaldada por varias evidencias en los textos proporcionados. En primer lugar, según el texto [2], en 2022, un asalariado público cobró, en promedio, 2.835 € brutos/mes (12 pagas), mientras que un trabajador del sector privado recibió, en promedio, 1.957 €/mes (12 pagas). Esto significa que los trabajadores del sector público ganan, en promedio, 878 € más al mes que los del sector privado, lo que representa una brecha salarial significativa a favor del sector público.\n\nAdemás, según el texto [4], la diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Esto sugiere que la brecha salarial entre los dos sectores sigue siendo importante.\n\n**Contradicciones a la afirmación**\n\nAunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. Por ejemplo, según el texto [1], los sueldos de los empleados públicos en España permanecieron congelados durante 2026, lo que significa que no hubo actualizaciones salariales durante ese año. Esto sugiere que la brecha salarial entre los dos sectores podría no haber aumentado en 2026.\n\nAdemás, según el texto [2], la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado, debido a la inflación reciente. Esto sugiere que la brecha salarial entre los dos sectores podría no ser tan significativa como se sugiere.\n\n**Conclusión**\n\nEn conclusión, aunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. La brecha salarial entre los dos sectores sigue siendo significativa a favor del sector público, pero la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado. Por lo tanto, la afirmación es **verdadera** en el sentido de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado se ve respaldada por varias evidencias en los textos proporcionados. En primer lugar, según el texto [2], en 2022, un asalariado público cobró, en promedio, 2.835 € brutos/mes (12 pagas), mientras que un trabajador del sector privado recibió, en promedio, 1.957 €/mes (12 pagas). Esto significa que los trabajadores del sector público ganan, en promedio, 878 € más al mes que los del sector privado, lo que representa una brecha salarial significativa a favor del sector público.\n\nAdemás, según el texto [4], la diferencia salarial entre la administración pública y el sector privado sigue siendo significativa a favor del sector público, aunque se ha reducido ligeramente tras la pandemia. Esto sugiere que la brecha salarial entre los dos sectores sigue siendo importante.\n\n**Contradicciones a la afirmación**\n\nAunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. Por ejemplo, según el texto [1], los sueldos de los empleados públicos en España permanecieron congelados durante 2026, lo que significa que no hubo actualizaciones salariales durante ese año. Esto sugiere que la brecha salarial entre los dos sectores podría no haber aumentado en 2026.\n\nAdemás, según el texto [2], la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado, debido a la inflación reciente. Esto sugiere que la brecha salarial entre los dos sectores podría no ser tan significativa como se sugiere.\n\n**Conclusión**\n\nEn conclusión, aunque hay varias evidencias que respaldan la afirmación de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, también hay algunas contradicciones que deben ser consideradas. La brecha salarial entre los dos sectores sigue siendo significativa a favor del sector público, pero la capacidad adquisitiva salarial de los trabajadores del sector público es similar o menor que la de los trabajadores del sector privado. Por lo tanto, la afirmación es **verdadera** en el sentido de que los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado\", \"categories\": [\"Trabajo\", \"Economía\", \"Política\"], \"label\": \"Undetermined\", \"main_claim\": \"Los trabajadores del sector público tienen, en promedio, salarios más altos que los del sector privado, pero la brecha salarial entre los dos sectores no es tan significativa como se sugiere\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

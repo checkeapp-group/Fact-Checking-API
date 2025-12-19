@@ -1,0 +1,666 @@
+{
+    "question": "Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón",
+    "answer": "La afirmación sugiere que hubo pacientes que murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón. Aunque no se proporciona información específica sobre el número de pacientes que murieron, hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el hospital durante el apagón.\n\n[1] Se menciona que las personas que dependen exclusivamente de máquinas para sobrevivir, es decir, pacientes electrodependientes, fueron algunas de las más afectadas por la falta de electricidad. Esto sugiere que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de estos pacientes.\n\n[2] Adicionalmente, se menciona que los hospitales tenían generadores para proporcionar energía durante el apagón, lo que sugiere que había sistemas de backup para garantizar la continuidad de los servicios esenciales. Sin embargo, no se especifica si estos sistemas fueron suficientes para garantizar la seguridad de todos los pacientes.\n\nA pesar de la evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes, también hay evidencia que contradice la afirmación de que pacientes murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón.\n\n[3] Se menciona que los medios de comunicación enviaron equipos a las infraestructuras críticas, incluyendo hospitales, para obtener información sobre el estado de los mismos. En el caso del Hospital de Toledo, no se reportó ningún incidente o fallecimiento que pudiera ser achacado al apagón. Esto sugiere que no hubo muertes directamente relacionadas con la falta de sistemas en el hospital.\n\n[3] Adicionalmente, se menciona que la única persona que falleció en Valencia debido a un fallo respiratorio tenía múltiples patologías y la autopsia descartó que falleciera como consecuencia de un fallo respiratorio. Esto sugiere que la muerte de esta persona no estuvo directamente relacionada con la falta de sistemas en el hospital.\n\nEn conclusión, aunque hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el Hospital de Toledo durante el apagón, también hay evidencia que contradice la afirmación de que pacientes murieron en el hospital debido a la falta de sistemas. La falta de información específica sobre el número de pacientes que murieron y la ausencia de informes de incidentes o fallecimientos directamente relacionados con la falta de sistemas en el hospital sugieren que la afirmación es falsa. Sin embargo, es importante destacar que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de algunos pacientes, especialmente aquellos que dependen exclusivamente de máquinas para sobrevivir.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.latribunadetoledo.es/noticia/zd635bac5-3a1e-464d-b10f2ffe54e7d44e/202505/habra-un-protocolo-regional-para-pacientes-electrodependientes",
+            "source": "www.latribunadetoledo.es",
+            "favicon": "https://www.latribunadetoledo.es/entorno/favicon/TTO_APPICON_BLANCO.png"
+        },
+        "2": {
+            "url": "https://diariosanitario.com/castilla-la-mancha-hospitales-apagon/",
+            "source": "diariosanitario.com",
+            "favicon": "https://img2-b4d4.kxcdn.com/wp-content/uploads/2018/10/cropped-logo-jpg-32x32.jpg"
+        },
+        "3": {
+            "url": "https://www.pandemiadigital.net/bulos/alvise-perez-crea-una-noticia-falsa-afirmando-que-hay-varios-fallecidos-en-un-hospital-de-toledo/",
+            "source": "www.pandemiadigital.net",
+            "favicon": "https://www.pandemiadigital.net/wp-content/uploads/2022/02/cropped-Logo-web-32x32.jpg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón",
+        "categories": [
+            "Salud",
+            "Medio ambiente",
+            "Noticias"
+        ],
+        "label": "Fake",
+        "main_claim": "La afirmación de que pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón es falsa",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.005974358999083,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.005974358999083,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:11:41",
+                    "run_time": 1.005974358999083,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nPacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón\n\n**Critical Research Questions:**\n1. ¿Cuántos pacientes murieron en el Hospital de Toledo durante el apagón?\n2. ¿Qué sistemas estaban disponibles en el hospital durante el apagón?\n3. ¿Cómo respondió el hospital a la falta de energía eléctrica?\n4. ¿Qué medidas se tomaron para proteger la vida de los pacientes durante el apagón?\n5. ¿Qué opinan los expertos en emergencias médicas sobre la respuesta del hospital durante el apagón?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"muertes hospital Toledo apagón reporte oficial\", \"sistemas de emergencia hospital Toledo apagón\", \"respuesta hospital Toledo apagón comunicado oficial\", \"medidas de protección pacientes hospital Toledo apagón\", \"opinión expertos emergencias médicas hospital Toledo apagón\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.354070381999918,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.354070381999918,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:11:46",
+                    "run_time": 5.354070381999918,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "muertes hospital Toledo apagón reporte oficial",
+                                "sistemas de emergencia hospital Toledo apagón",
+                                "respuesta hospital Toledo apagón comunicado oficial",
+                                "medidas de protección pacientes hospital Toledo apagón",
+                                "opinión expertos emergencias médicas hospital Toledo apagón"
+                            ],
+                            "results": {
+                                "muertes hospital Toledo apagón reporte oficial | sistemas de emergencia hospital Toledo apagón | respuesta hospital Toledo apagón comunicado oficial | medidas de protección pacientes hospital Toledo apagón | opinión expertos emergencias médicas hospital Toledo apagón": [
+                                    {
+                                        "text": "El mismo día que se cumplen seis meses de la catastrófica DANA que asoló Valencia Alvise Perez recupera uno de los grandes éxitos de la desinformación de aquella catástrofe: inventarse muertos. Eran las 19.12 del día después del ‘Apagón Ibérico’, las comunicaciones ya funcionaban con normalidad y se había recuperado la normalidad en prácticamente todo el país. Nada de esto impedía a Pérez inventar “varios muertos” en un hospital de Toledo. Según el desinformador el grupo electrógeno habría fallado, lo que provocó que los respiradores dejaran de funcionar. Sin embargo; tan pronto como comenzó el apagón todos los medios de comunicación enviaron a sus equipos a las infraestructuras críticas –hospitales y estaciones de trenes y autobuses–. En los hospitales de toda España los periodistas se agolpaban en las puertas buscando información de primera mano que poder transmitir sobre el estado de los mismos, y los de Toledo no fueron una excepción. Ningún incidente o fallecimiento que pudiera ser achacado al apagón fue notificado ni recogido por los medios locales que se encontraban a las puertas.\n\nEn el mismo mensaje en el que resaltaba en negrita los falsos fallecimientos en el hospital de Toledo y sin especificar que no hablaba de fallecimientos en hospitales el desinformador aludía a otras cuatro muertes, lo que da a entender que se trataría de fallecimientos en hospitales. Nada más lejos de la realidad, ya que tres de ellos fallecieron por intoxicación por la mala combustión de un generador en un domicilio particular. La otra persona de la que únicamente cita “una mujer de 46 años ha fallecido asfixiada en Valencia al no contar con corriente para su respirador” falleció en su domicilio, algo que el desinformador obvia deliberadamente para transmitir la sensación de que lo hubiera hecho en un hospital. Pero la cosa va más allá; ya que según han informado los servicios médicos esta persona únicamente tenía pautado oxígeno durante la noche y tenía multiples patologías y la autopsia ha descartado que falleciera como consecuencia de un fallo respiratorio. En el momento de publicarse este artículo sólo se ha notificado y contrastado un fallecimiento más relacionado con el apagón, se trata de una mujer de 52 años que falleció como consecuencia de un incendio.\n\nTras ser uno de los primeros difusores del bulo que señalaba que Ursula von der Leyen había culpado a Rusia de un ciberataque y pedir un “mando militar único”, Alvise Perez sigue creando noticias falsas para pesar en el río revuelto de la incertidumbre. Junto a estos bulos se suman otros muchos de los que ya informamos en un reportaje anterior como la descontextualización y manipulación de un informe de Redeia –holding al que pertenece Red Eléctrica– o desinformaciones que señalan a la falta de energía nuclear como causante del problema, extremo que los expertos niegan rotundamente, ya que en un contexto como el vivido sólo habrían agravado la situación al desconectarse del sistema por seguridad y su falta de flexibilidad para la restauración energética.",
+                                        "metadata": {
+                                            "url": "https://www.pandemiadigital.net/bulos/alvise-perez-crea-una-noticia-falsa-afirmando-que-hay-varios-fallecidos-en-un-hospital-de-toledo/",
+                                            "source": "www.pandemiadigital.net",
+                                            "favicon": "https://www.pandemiadigital.net/wp-content/uploads/2022/02/cropped-Logo-web-32x32.jpg",
+                                            "title": "Alvise Pérez crea una noticia falsa afirmando que hay “ ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.pandemiadigital.net",
+                                            "snippet": "En el sexto aniversario de la DANA y un día después del gran apagón el desinformador se inventa “varias víctimas” en un hospital de Toledo."
+                                        }
+                                    },
+                                    {
+                                        "text": "Un goteo de personas ha ido pasando a lo largo de la mañana frente al mostrador de información del hospital universitario 12 de Octubre, en Madrid, preguntándose cuándo podrían recuperar la cita o la cirugía que perdieron este lunes, cuando los centros sanitarios de España se vieron obligados a suspender toda su actividad salvo lo imprescindible tras el colapso de la red eléctrica. La resaca del día después la están marcando esos pacientes descolgados y algunos problemas puntuales con máquinas, como las que se utilizan para hacer resonancias o TAC, que todavía no han arrancado.\n\nLa sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.\n\nEn los ambulatorios la actividad se interrumpió, sin embargo, por completo. A oscuras y sin ordenadores, solo pudieron atender alguna urgencia puntual. “Dos sintrones, un ataque de ansiedad y una lumbalgia nos han llegado”, apuntaban a última hora de la tarde dos médicas de un centro de salud de Carabanchel (Madrid) que se pasaron toda su jornada en la puerta por si alguien necesitaba asistencia. Mientras, a los servicios de emergencia, como el 112, entraron a trompicones hasta que volvió la luz pacientes dependientes del suministro para hacer funcionar sus bombonas de oxígeno. “Fue lo más relevante de un día complicadísimo”, asegura un trabajador a elDiario.es, que relata bastantes problemas para conectar con los servicios sanitarios. Algunos hospitales habilitaron salas para estos perfiles, que llegaban como podían a los centros en medio de un gran caos de tráfico en las ciudades.\n\nSaray (nombre ficticio) tenía cita con su bebé en neurocirugía y, aunque ha llegado tarde porque todavía había incidencias en el transporte público madrileño a primera hora, ha podido ver a su médico casi como un día cualquiera. En el mismo hospital del sur de Madrid, Verónica llega con prisa para recoger la medicación de su hijo. Este martes no ha podido ir a trabajar porque a las seis de la mañana, cuando suele coger el tren, seguía sin funcionar. “Tenía una resonancia programada y me han atendido sin problemas”, señalaba una mujer en la puerta del Clínic de Barcelona. Si no fuese por las conversaciones de los pacientes, que giraban alrededor del apagón, nadie diría que el día anterior hubiese habido un fallo eléctrico que aún está por esclarecerse.\n\nLo que sí está por organizar todavía son los cientos de pacientes que dejaron de ser atendidos el lunes. Los hospitales se vaciaron a excepción de quienes estaban ingresados. “Ahora están empezando a llegar aquí preguntando si les atendemos y, si podemos, les metemos”, asegura Sara, que atiende al otro lado y explica que una máquina para hacer resonancias está generando aún problemas. Lo mismo ha pasado en el hospital Gregorio Marañón, confirma un portavoz del centro. “Necesitan un arranque tras el apagón que conlleva un reseteado. Hasta el momento no se ha notificado ningún incidente de rotura”. Estas citas, como consecuencia, están sufriendo retrasos y “si hubiera algo que no se pudiera atender, se reprogramaría de urgencia”. En Castilla-La Mancha también se están registrando incidencias en la actividad radiológica.\n\nLa jornada en los hospitales se está desarrollando con “total normalidad” en Catalunya, según apuntan distintas fuentes consultadas. Aunque el lunes por la tarde se cancelaron las consultas y las cirugías no urgentes programadas, el resto de la actividad funcionó sin incidentes. La dificultad, explican desde estos centros, fue avisar a los pacientes de que sus citas no se llevarían a cabo.\n\n“La vida en el hospital no cambió demasiado”, apuntan desde el Hospital Clínic de Barcelona. En este centro, que empezó a recuperar la luz a partir de las 17h, se bajó la intensidad de la iluminación pero gracias a los generadores tanto la tarde del lunes como la noche se desarrollaron con normalidad. “Esta mañana ha habido un problema con el teléfono a primera hora pero ya se ha arreglado”, remachan. Una facultativa del Hospital Vall d’Hebron explicaba este martes que lo más incómodo fue no disponer de Internet, que afectó tanto a los servicios de teleasistencia como a las prescripciones de tratamientos y medicamentos. “Por el resto, más allá de cierto caos, hemos sobrevivido bastante bien”, remachaba.\n\nCastilla-La Mancha recupera “poquito a poco la normalidad” en sus centros sanitarios. El consejero de Sanidad confía en que este miércoles se haya podido recuperar la actividad programada. Incluso este mismo martes podrá haber “alguna actividad” en las gerencias que resultaran menos afectadas por el apagón. Con todo, no hay incidencias graves aunque sí “algún conflicto” con las aplicaciones informáticas que no funcionan y se nota más en Atención Primaria. El personal del centro de salud del Casco Histórico comunica que las conexiones siguen siendo muy inestables y que cualquier tipo de gestión tarda demasiados intentos. Han pedido a los vecinos y vecinas que si pueden aplazar sus consultas a otro día de la semana, lo hagan.\n\nLa situación se ha ido aclarando según ha avanzado la mañana. Lo peor se ha concentrado a primera hora de la mañana con las analíticas. En el centro de salud de Los Cármenes (Madrid) han tenido que enviar a todos los pacientes a casa porque el sistema informático no arrancaba. “Se les va a recitar desde administración a todos”, explicaba María Ángeles Navarro, una de las médicas en una pausa. Trabajadores del Hospital de Toledo aseguran que tampoco hay analítica y el programa de volcado de datos no funciona todavía.\n\nCon información de Pol Pareja y Carmen Bachiller.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/sociedad/resaca-hospitales-salvar-apagon-caos-hemos-sobrevivido_1_12256075.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "La resaca en los hospitales tras salvar el apagón",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "Los equipos electrógenos de emergencia han permitido a los hospitales mantener los servicios esenciales durante el apagón. Los equipos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Gobierno de Castilla-La Mancha activa el nivel 2 de emergencia del PLATECAM en toda la región\n\nToledo, 28 de abril de 2025.- El Gobierno de Castilla-La Mancha, a través del consejero de Hacienda, Administraciones Públicas y Transformación Digital, ha activado, a las 16:00 horas de este lunes, el nivel 2 de la fase de emergencia del Plan Territorial de Emergencia de Castilla-La Mancha (PLATECAM) tras la reunión mantenida en el Centro de Coordinación Operativa (CECOP) que ha presidido el líder del Ejecutivo autonómico, Emiliano García-Page.\n\n\n\nEl aumento de nivel, determinado sobre las 14:00 horas, en el Plan viene motivado con el fin de dar respuesta a los incidentes generados tras el fallo en la red eléctrica a nivel nacional, cuyo inicio tuvo lugar alrededor de las 12:30 horas de la mañana; tal y como ha trasladado el viceconsejero de Administración Local y Coordinación Administrativa, Eusebio Robles.\n\n\n\nDel mismo modo, Robles ha dado a conocer que la subida de nivel ha permitido activar en cada provincia el Centro de Atención y Seguimiento (CASP) y así mantener la coordinación y colaboración para aquellas incidencias que puedan surgir y trabajar en su resolución.\n\n\n\nEn la reunión también han estado presentes responsables de diferentes Consejerías del Gobierno regional, así como de Iberdrola y Telefónica; encuentro tras el que se ha determinado el aumento de nivel debido a la incertidumbre en cuanto a la duración de la situación de emergencia, así como para garantizar la coordinación y movilización de todos los recursos que sean necesarios, incluidos los del Estado, para dar respuesta a los incidentes que se produzcan.\n\n\n\nA partir de ahora se va a seguir muy de cerca la evolución de la situación, así como las incidencias que se vayan produciendo. La Dirección del Plan volverá a reunirse de nuevo a las 19:00 horas con la participación, por vía telemática, del consejero de Hacienda, Administraciones Públicas y Transformación Digital, Juan Alfonso Ruiz Molina, quien ha suspendido su agenda fuera de España para mantenerse en permanente contacto con el Centro de Coordinación Operativo Integrado (CECOPI), que se ha constituido en la sede del Servicio de Atención y Coordinación a Urgencias y Emergencias del 1-1-2.\n\n\n\nDebido a la situación extraordinaria generada por el apagón, y a la avalancha de llamadas que continúan llegando al Servicio de Emergencias 1-1-2 de Castilla-La Mancha, se recomienda a los ciudadanos que sólo llamen al teléfono de emergencias cuando haya riesgo para la vida, cualquier otra situación o incidencia debe esperar a que se normalice la situación.\n\n\n\nConsejerías de Fomento, Educación y Sanidad\n\n\n\nPor su parte, el consejero de Fomento, Nacho Hernando, se ha referido a la decisión que también se ha adoptado en la reunión de solicitar al Gobierno de España el levantamiento de todos los peajes de manera preventiva y temporal para facilitar el tráfico de las personas y evitar que haya desplazamientos innecesarios. Del mismo modo, se ha conocido que actualmente hay 20 trenes que están parados sobre la vía en diferentes puntos de la región y para los que desde el 1-1-2 se están tomando medidas para abastecer a los viajeros con agua.\n\n\n\nEn otro orden, el consejero de Educación, Cultura y Deportes, Amador Pastor, ha agradecido a los equipos docentes por mantener y custodiar a los estudiantes esta mañana desde que se originó la caída de la red eléctrica; así como ha informado de la decisión que se ha tomado de suspender la actividad lectiva en centros educativos y UCLM esta tarde. Se seguirá muy pendiente de la evolución de la situación para tomar las decisiones oportunas de cara a la jornada de mañana.\n\n\n\nEl consejero de Sanidad, Jesús Fernández Sanz, por su parte, ha declarado que la atención sanitaria que requiere de suministro eléctrico está garantizada en los hospitales debido a la puesta en marcha de métodos alternativos. Del mismo modo, se están poniendo todos los medios para poder mantener el mayor número de urgencias en Atención Primaria abiertas y se han activado los protocolos para que las personas que necesitan estar conectadas a aparatos en sus hogares puedan mantenerse sin contratiempos; a través del suministro de baterías u otros sistemas alternativos a la electricidad. Fernández Sanz ha aprovechado para pedir a la población que, salvo cuando sea estrictamente urgente y necesario, no se acuda a los centros hospitalarios o sanitarios; dada la emergencia y prioridad que suponen los pacientes que necesitan de respiración asistida o similares.\n\n",
+                                        "metadata": {
+                                            "url": "https://www.castillalamancha.es/actualidad/notasdeprensa/el-gobierno-de-castilla-la-mancha-activa-el-nivel-2-de-emergencia-del-platecam-en-toda-la-regi%C3%B3n",
+                                            "source": "www.castillalamancha.es",
+                                            "favicon": "https://www.castillalamancha.es/sites/default/files/favicon.ico",
+                                            "title": "El Gobierno de Castilla-La Mancha activa el nivel 2 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.castillalamancha.es",
+                                            "snippet": "El Gobierno de Castilla-La Mancha activa el nivel 2 de emergencia del PLATECAM en toda la región. La reunión en el CECOP ha estado presidida ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La red de hospitales públicos de Castilla-La Mancha está funcionando con los grupos electrógenos con los que están dotados ante el corte de suministro eléctrico que se ha iniciado en la España peninsular en torno a las 12:30 horas del mediodía.\n\nFuentes de la Consejería de Sanidad han indicado a EFE que ante la situación provocada por el apagón generalizado que está afectando a España y a otros países el Servicio de Salud de Castilla-La Mancha quiere destacar que toda la red de hospitales públicos está funcionando con los grupos electrógenos con los que están dotados.\n\nEl suministro eléctrico se ha interrumpido en torno a las 12:30 horas del mediodía por causas aún desconocidas, según ha informado Red Eléctrica, que ya está trabajando con las empresas del sector para restablecer el servicio.\n\nDe acuerdo con la última información proporcionada por Red Eléctrica, se ha producido un «cero» en el sistema eléctrico peninsular, lo que suele indicar un apagón generalizado. Por lo pronto, «se están analizando las causas y se están dedicando todos los recursos para solventarlo».\n\nEnclm/Efe Redes sociales:\n\n(Visited 141 times, 1 visits today)",
+                                        "metadata": {
+                                            "url": "https://www.encastillalamancha.es/castilla-la-mancha-cat/los-hospitales-publicos-de-castilla-la-mancha-funcionan-con-sus-grupos-electrogenos/",
+                                            "source": "www.encastillalamancha.es",
+                                            "favicon": "https://www.encastillalamancha.es/wp-content/uploads/2017/02/favico-ecm.png",
+                                            "title": "Los hospitales públicos de Castilla-La Mancha funcionan ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.encastillalamancha.es",
+                                            "snippet": "La red de hospitales públicos de Castilla-La Mancha está funcionando con los grupos electrógenos ante el corte de suministro eléctrico."
+                                        }
+                                    },
+                                    {
+                                        "text": "El consejero de Sanidad de Castilla-La Mancha, Jesús Fernández Sanz, ha confirmado este 29 de abril, diez horas después de que se restablecieran el gran apagón, que «no tenemos incidencias graves en cuanto a la atención a las personas; los servicios de Urgencias en los hospitales han funcionado bien; en Atención Primaria hemos tenido alguna incidencia más que hemos ido resolviendo».\n\nEl consejero de Sanidad de Castilla-La Mancha, en uno de los momentos en los que ha informado de la situación de hospitales y centros de salud con motivo del apagón.\n\nLos pacientes con oxígeno domiciliario y la reactivación de TAC y resonancias, entre las incidencias\n\nFernández Sanz ha detallado que el problema ha estado en las personas que reciben oxigenoterapia domiciliaria, ya que los equipos tienen unas horas determinadas de autonomía, de ahí que se tuvieran que abrir puntos para dar oxígeno en los hospitales, así como que se hayan producido 17 ingresos por estos motivos en los hospitales de la región.\n\nEl consejero de Sanidad ha confirmado que este 29 de abril se ha suspendido la actividad programada en los hospitales. También ha apuntado que habrá gerencias que retomen la actividad antes, aunque ha reconocido que no se atreve a dar fechas para la vuelta total a la normalidad.\n\nAsí, hay aparatos que están dando fallos, como TAC y resonancias, y aplicaciones, como las de las citas en Atención Primaria, que no están funcionando. Fernández Sanz ha dicho que la situación es equivalente a la que se da cuando se cae el sistema.\n\nNo obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.\n\nEl consejero ha confiado en que pronto se podrán reprogramar todas las citas y cirugías no urgentes que se han ido suspendiendo con motivo del apagón.\n\nTambién le puede interesar:",
+                                        "metadata": {
+                                            "url": "https://diariosanitario.com/castilla-la-mancha-hospitales-apagon/",
+                                            "source": "diariosanitario.com",
+                                            "favicon": "https://img2-b4d4.kxcdn.com/wp-content/uploads/2018/10/cropped-logo-jpg-32x32.jpg",
+                                            "title": "No tenemos incidencias graves",
+                                            "type": "web_search",
+                                            "base_url": "https://diariosanitario.com",
+                                            "snippet": "Personal del Hospital de Toledo denuncian “varios muertos” por el apagón; El sistema alógeno “no arrancó” y un número sin confirmar de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Delegados y delegadas de prevención del Área Sanitaria de Toledo del SESCAM se han concentrado nuevamente frente al Hospital Universitario de Toledo (HUT) para denunciar los \"graves problemas\" de seguridad y salud que afectan a los trabajadores de los laboratorios del centro, especialmente el de Anatomía Patológica.\n\nLas movilizaciones se producen tras repetidos episodios de intoxicaciones, bajas laborales y malestar físico y mental entre el personal, que asegura que las medidas tomadas por la gerencia no han sido suficientes para garantizar un entorno laboral seguro.\n\nDurante la concentración, Patricia Ramos, trabajadora de los laboratorios, ha explicado que continúan produciéndose intoxicaciones diarias, y que el personal se ve obligado a usar mascarillas pesadas diseñadas para trabajadores expuestos al amianto, a pesar de que, según la gerencia, no existe riesgo de exposición a sustancias peligrosas.\n\n\"El viernes pasado tuvimos más de 30 partes de intoxicación, y alguna compañera tuvo que acudir a urgencias y a la mutua. Pero seguimos sin recibir ninguna respuesta de la gerencia\", ha denunciado Ramos. \"Si realmente no pasa nada, queremos que lo certifiquen por escrito; y si hay algún riesgo, que tomen medidas para solucionarlo\".\n\nMovilizaciones\n\nPor su parte, Inés Pedreño, delegada de prevención, ha advertido que las movilizaciones continuarán hasta que no se dé una solución definitiva. Pedreño ha subrayado que la situación afecta tanto a la salud física como al bienestar mental de los trabajadores: \"Trabajar siete horas con estas mascarillas es inhumano\".\n\nLos delegados exigen el cierre temporal de las instalaciones para una revisión completa y la reparación de todas las deficiencias detectadas, así como un compromiso firme de la gerencia para garantizar la seguridad del personal.\n\nRespuesta sanidad\n\nDesde la Consejería de Sanidad de Castilla-La Mancha, el consejero Jesús Fernández ha asegurado que hasta el momento no hay constancia de intoxicaciones en los laboratorios tras las mediciones objetivas realizadas.\n\n\"Contamos con tres empresas diferentes midiendo lo que ocurre en los laboratorios y seguimos sin detectar niveles de intoxicación que supongan un riesgo para los trabajadores\", ha señalado Fernández en declaraciones a los medios desde el centro de salud de Buenavista, tras las críticas de los profesionales.\n\nEl consejero ha reconocido las protestas y la preocupación de las plantillas, pero ha insistido en que no se han registrado intoxicaciones según los informes de salud laboral y las mediciones externas. \"Seguimos trabajando y hablando con ellos para abordar cualquier inquietud que puedan tener\", ha afirmado.",
+                                        "metadata": {
+                                            "url": "https://www.elespanol.com/eldigitalcastillalamancha/region/toledo/20251027/nueva-protesta-trabajadores-intoxicados-laboratorios-hospital-toledo-trabajamos-enfermos/1003743987503_0.html",
+                                            "source": "www.elespanol.com",
+                                            "favicon": "https://s2.elespanol.com/2020/02/26/favicon.ico",
+                                            "title": "Nueva protesta de los trabajadores \"intoxicados ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elespanol.com",
+                                            "snippet": "El personal denuncia un año de \"falta de respuestas\" y exige el cierre temporal de las instalaciones hasta garantizar la seguridad."
+                                        }
+                                    },
+                                    {
+                                        "text": "El apagón puso en apuros a toda la población en mayor o menor medida. Algunas de las personas más afectadas por la falta de electricidad fueron aquellas que, precisamente, necesitan de luz para continuar con sus tratamientos médicos o que dependen exclusivamente de una máquina para sobrevivir; es decir, pacientes electrodependientes.\n\nPacientes como Álvaro González, enfermo de distrofia muscular de Duchenne, que ha recogido más de 37.000 firmas en la plataforma Change.org para pedir que se garantice la supervivencia de personas electrodependientes en el caso de un nuevo apagón.\n\nEn este sentido, la consejería de Sanidad ya está pensando en diseñar un protocolo ante este tipo de situaciones. La idea es «protocolizar» la llegada de pacientes a los centros sanitarios en el caso de que volviera a ocurrir un apagón como el sucedido el pasado 28 de abril.\n\nAsí lo ha asegurado el consejero de Sanidad, Jesús Fernández Sanz, que ha precisado que fueron 17 las personas que tuvieron que ser hospitalizadas por esta causa durante el apagón. Afortunadamente, no hubo que lamentar ninguna incidencia, precisa el consejero, gracias, tanto a esos traslados, como a las alternativas que llevaron a cabo los pacientes y las familias que pudieron continuar con los respiradores en el ámbito domiciliario.\n\nAun así, desde el Gobierno regional, y basándose en la opinión de pacientes, profesionales y familias, se está pensando en pautar el proceso de llegada de esos pacientes en el caso de que volviera a suceder un apagón.\n\n«Lo que nos piden es protocolizar bien esa llegada para que los pacientes no se agolpen, también para que podamos tener los espacios oportunos o para que funcionen los generadores allí donde tengan que hacerlo», ha afirmado Fernández Sanz.\n\nY es que, durante el apagón, la consejería de Sanidad se llegó a plantear en qué espacios críticos de los centros se hubieran tenido que trasladar los generadores eléctricos, en el caso de que la ausencia de electricidad se hubiera alargado durado más tiempo.\n\nPor ello es relevante, ha reseñado el consejero, contar con una guía para conocer y pautar, en casos como estos, qué tipo de pacientes deben acudir a los hospitales o en qué orden deben hacerlo.",
+                                        "metadata": {
+                                            "url": "https://www.latribunadetoledo.es/noticia/zd635bac5-3a1e-464d-b10f2ffe54e7d44e/202505/habra-un-protocolo-regional-para-pacientes-electrodependientes",
+                                            "source": "www.latribunadetoledo.es",
+                                            "favicon": "https://www.latribunadetoledo.es/entorno/favicon/TTO_APPICON_BLANCO.png",
+                                            "title": "Habrá un protocolo regional para pacientes ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.latribunadetoledo.es",
+                                            "snippet": "«Lo que nos piden es protocolizar bien esa llegada para que los pacientes no se agolpen, también para que podamos tener los espacios oportunos o ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Sigue siendo obligatorio el uso de equipos de protección individual (EPI´S) para todos los profesionales que desarrollan su labor en los laboratorios de Anatomía Patológica y la sala de tallado y se recomienda su utilización para los trabajadores que hayan tenido síntomas y mantiene activa la vigilancia de la salud de los profesionales de esta área del centro sanitario.\n\nSe han adecuado los tiempos de descanso para los profesionales. En este sentido, como medida de adecuación de estos descansos se ha reforzado la plantilla de técnicos de Anatomía Patológica con nuevas contrataciones.\n\nCabe destacar que esta área del centro sanitario cuenta con detectores de sustancias químicas en el aire, que permiten detectar y evacuar áreas si fuera necesario, además de los elementos de higienización ambiental.\n\nAsimismo, se continúa revisando los planes de mantenimiento preventivo y conductivo de esta área con nuevas verificaciones del correcto funcionamiento de los sistemas de ventilación, cabinas extractoras y demás mecanismos de control de exposición presentes en esta zona del hospital.\n\nEn este sentido, la empresa Ambisalud, especializada en consultoría para edificios enfocada en la calidad ambiental en interiores, ha estado trabajando en esta área hasta hace pocos días con el fin de verificar el correcto funcionamiento de las instalaciones de ventilación, extracción de aire, climatización y sistemas de mantenimiento de presiones en el área de laboratorios del Hospital Universitario de Toledo.\n\nHasta la fecha tres empresas, BSA - Seguridad Ambiental, SGS y Ambisalud, han estado durante estos meses auditando las instalaciones y han concluido que el funcionamiento de las instalaciones encargadas de la climatización y de la ventilación del conjunto de los laboratorios es correcto.\n\nPor otra parte, y tal como se solicitó en el Comité de Seguridad y Salud, se ha constituido un grupo de trabajo en el que están representados la Dirección del Complejo, los jefes de servicio de Anatomía Patológica y Genética, profesionales de Enfermería, el servicio de Prevención de Riesgos Laborales y los delegados de Prevención de Riesgos Laborales, que se reunirá cada vez que haya una reagudización de los síntomas\n\nTambién el grupo de trabajo integrado por miembros de la dirección del centro sanitario, del servicio de Prevención de Riesgos Laborales y profesionales del área de los laboratorios continúa con las reuniones para evaluar las medidas que se van adoptando en esta área y se realizan propuestas de mejora y se habilitó en la intranet un área de Transparencia donde se ha ido insertando todos los informes y actuaciones realizadas.\n\nPor su parte, el centro sanitario cumple con todas las demandas de información de la Inspección de Trabajo.\n\nEl servicio de Prevención de Riesgos Laborales y la Dirección del Complejo Hospitalario Universitario de Toledo viene realizando desde el pasado mes de noviembre de manera permanente y constante actuaciones técnicas de revisión de instalaciones, del equipamiento y realizando mediciones.\n\nEl servicio de Anatomía Patológica es un servicio central fundamental para el funcionamiento del centro hospitalario, donde se realizan los diagnósticos de certeza sobre muestras de pacientes obtenidas mediante biopsias, piezas quirúrgicas, citologías y punciones. Este diagnóstico seguro es imprescindible para poder establecer el tratamiento médico-quirúrgico adecuado a cada paciente, no solo en los casos de cáncer sino en prácticamente cualquier patología.\n\nEn el Laboratorio de Anatomía Patológica del Hospital Universitario de Toledo se procesan más de 55.000 muestras al año, lo cual supone entre 200 y 300 muestras al día, siendo aproximadamente la mitad de ellas de resolución preferente por sospecha de malignidad.\n\nUn cierre de este laboratorio en cualquiera de sus secciones conlleva retrasos en la obtención de diagnósticos e inicio de tratamientos en los pacientes, aumento de los tiempos de ingreso en hospitalización, aumento consecuente de las listas de espera de consultas y quirófanos por el retraso en la resolución de los pacientes, así como desajustes en la planificación y gestión hospitalaria.",
+                                        "metadata": {
+                                            "url": "https://www.ondacero.es/emisoras/castilla-la-mancha/toledo/noticias/hospital-mantiene-medidas-seguridad-salud-laboratorios_2025101368ecc642e81f417969461711.html",
+                                            "source": "www.ondacero.es",
+                                            "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+                                            "title": "El Hospital mantiene las medidas de seguridad y salud en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ondacero.es",
+                                            "snippet": "Cabe destacar que esta área del centro sanitario cuenta con detectores de sustancias químicas en el aire, que permiten detectar y evacuar áreas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Central Sindical Independiente y de Funcionarios (CSIF) ha denunciado un nuevo episodio de saturación en el Servicio de Urgencias del Hospital Universitario de Toledo, con 77 pacientes a la espera de ingreso durante la mañana de este martes.\n\nEl sindicato indica que la saturación no se debe a ningún pico epidemiológico ni a motivos estacionales, sino a \"la falta de trabajadores, la merma de recursos hospitalarios y a una Atención Primaria con dilación en las citaciones que no puede hacer frente a las necesidades asistenciales\".\n\nA la elevada cifra se suma el hecho de que algunos de ellos \"llevan más de 24 horas esperando una cama hospitalaria\". \"Quienes más sufren esta situación son los pacientes con patologías graves que requieren de necesidades especiales, como los oncológicos, además de aquellos que precisan de aislamiento y que no pueden acceder a camas en habitaciones individuales\", ha lamentado.\n\nSituación \"insostenible\"\n\nEl médico de Urgencias y delegado de CSIF Sanidad Toledo, Miguel Ángel González, ha asegurado que \"la situación es insostenible\".\n\n\"Tener 77 pacientes esperando ingreso no puede considerarse un hecho puntual, sino el reflejo de un problema estructural que se repite una y otra vez. Llevamos tiempo denunciando la falta de personal, espacios, camas y recursos\", ha expresado.\n\nPor último, ha alertado de que la integración en el nuevo hospital del Hospital Virgen del Valle, el Hospital Provincial de Toledo y la Unidad de Cirugía Mayor Ambulatoria del Hospital Nacional de Parapléjicos \"supondrá saturar más el centro hospitalario, además de que irá en detrimento de los pacientes que son actualmente atendidos en estos centros\".",
+                                        "metadata": {
+                                            "url": "https://www.elespanol.com/eldigitalcastillalamancha/sociedad/sanidad/20251007/denuncian-saturacion-urgencias-hospital-toledo-pacientes-esperando-ingreso/1003743958119_0.html",
+                                            "source": "www.elespanol.com",
+                                            "favicon": "https://s2.elespanol.com/2021/07/01/favicon-ecdm.png",
+                                            "title": "Denuncian la saturación de las Urgencias del Hospital ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elespanol.com",
+                                            "snippet": "Denuncian la saturación de las Urgencias del Hospital de Toledo con 77 pacientes esperando ingreso · CSIF apunta a una situación \"insostenible\" ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Epidemia de gripe\n\nLos facultativos han enviado una misiva al Juzgado de Guardia, al Sescam y al Colegio de Médicos alertando de la mala gestión de camas del hospital\n\nLa gripe se ha cobrado ya 53 vidas\n\nROCÍO R. GARCÍA-ABADILLO\n\nMadrid\n\n\"Es un absoluto caos. Hablo de medicina de trinchera, medicina de campaña pura y dura\". Así define la situación del Hospital Virgen de la Salud de Toledo uno de los médicos del Servicio de Urgencias que ha denunciado la situación del centro en una carta que ha sido enviada al Juzgado de Guardia de esta ciudad castellanomanchega, al Sescam (Servicio de Salud de Castilla-La Mancha) y al Colegio de Médicos de Toledo.\n\nEn la misiva a la que ha tenido acceso EL MUNDO, los facultativos de Urgencias señalan que a las 8 de la mañana del martes 10 de enero -que es cuando se produce el cambio de servicio y se hace un informe de la situación de las 24 horas precedentes- \"había 63 pacientes pendientes de cama hospitalaria, ocupando todas las áreas de atención destinadas a diagnóstico y tratamientos de pacientes que llegan y deben ser atendidos de urgencia, y además todos los espacios correspondientes a salas de espera, salas de trabajo, de reuniones y pasillos\".\n\nToledo y el resto de Castilla-La Mancha no escapan de la avalancha de casos de gripe que está colapsando hospitales en todo el territorio español. Pero es en este centro toledano donde se ha producido una denuncia de la situación ante el Juzgado de Guardia de la ciudad. \"Llevamos cinco meses colapsados en Urgencias y esto no había pasado nunca. Todos los años por estas fechas viene mucha gente con gripe y este año no es especialmente peor, de hecho, creo que somos la segunda o tercera comunidad con menos casos de gripe por semana, así que si esto empeora no lo quiero ni pensar...\", relata a EL MUNDO el médico del Servicio de Urgencias.\n\nEl facultativo continúa explicando que todos los años en diciembre-enero hay que elaborar un plan de cara a la avalancha de enfermos de gripe, pero este año \"empezamos a decirlo en septiembre, no ya por el número de casos, sino porque la dirección del hospital cierra camas y viene quedando un número de pacientes pendiente de ingreso en Urgencias. Hay permanentemente entre 20 y 30 personas en el pasillo, se usa Urgencias como válvula de escape\".\n\nSegún este médico, la dirección del hospital no hace una gestión proactiva del tema. \"Cierran camas para ahorrar en personal, sin camas en una planta no hacen falta enfermeras, ni celadores... Se abren camas de forma puntual cuando ya estamos sobrepasados. No hay calidad asistencial ni seguridad del paciente, nada de intimidad ni confidencialidad, no hay humanización. Además, la mayoría son personas mayores, es desolador. Los especialistas del hospital están igual que nosotros, tienen que ir a Urgencias a buscar a los pacientes, que están en cualquier recoveco\", cuenta el facultativo, que admite que han enviado la misiva al juzgado \"un poco a la desesperada porque no creo que el juzgado tenga competencia en el tema\".\n\nLa dirección del Hospital Virgen de la Salud, que pertenece al Complejo Hospitalario de Toledo, no ha querido valorar la carta y remite a la información que dio en rueda de prensa el miércoles la gerente del Sescam, Regina Leal, en la que habló del Plan de Alta Frecuentación que han puesto en marcha. \"Hay 500 camas disponibles en caso de que sean necesarias\".\n\nEl Hospital Virgen de la Salud habilitó 20 camas el domingo en el Hospital Provincial y el lunes otras 30 más en el Hospital de Parapléjicos -ambos pertenecientes al Complejo Hospitalario de Toledo-. En este último se habilitó una planta entera con personal del Virgen de la Salud. \"El hospital ha puesto medidas para paliar esta situación y reconoce el trabajo que realizan los profesionales de Urgencias, así como el apoyo que están realizando todos los servicios\", rezan desde la dirección del centro.\n\nMás personas mayores\n\nLa gerente del Sescam declaró en la rueda de prensa que este año la gripe afecta a personas mayores y se están registrando más ingresos, \"un 27% más, pacientes a los que no se puede agilizar el alta precisamente por su riesgo de morbilidad\". El Sescam comenta que no son ajenos a lo que sucede ya que monitorizan \"diariamente todos los servicios de urgencias\" y están \"al tanto de la situación de los hospitales, por eso estábamos tomando medidas como habilitar más camas y más personal\". Sin embargo, explican que no tienen constancia de si se trata de una denuncia o sólo una nota informativa. \"Si se trata de una denuncia y el juzgado nos reclama que presentemos la información pertinente, así lo haremos\", informa prensa del Sescam.\n\nDesde el Colegio de Médicos de Toledo, su secretario general, Juan José García Cruz, aseguró que hasta el momento [a última hora del jueves] no habían recibido \"ninguna carta ni ninguna notificación de nada\". Fuentes del Colegio señalan que tienen constancia de que la carta ha llegado al Sescam y al juzgado, pero no al Colegio.\n\n\"Desde octubre los sindicatos se vienen quejando de los recortes de personal y material sanitario y señalando que, si no se contrataba personal, cuando llegara la gripe iba a ser muy difícil hacerle frente\", explica Francisco Cañizares, portavoz del grupo parlamentario popular en las Cortes de Castilla-La Mancha. Cañizares asegura que reciben cientos y cientos de correos electrónicos con quejas y testimonios personales \"que nos ponen los pelos de punta. Gente en los pasillos de urgencias del Hospital Virgen de la Salud de Toledo sin ingresar durante 72 horas. También nos llegó el caso de una persona de 84 años que estuvo 48 horas en el pasillo de urgencias del Hospital de Cuenca sin ser atendida\".\n\nCañizares cree que es una situación muy grave porque \"es la primera vez que este colectivo, que también se quejó de recortes en la anterior legislatura con María Dolores de Cospedal como presidenta regional, pone una carta en conocimiento del juzgado de guardia\".",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/salud/2017/01/13/5877f04d268e3e56418b479c.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Médicos de Urgencias del Hospital de Toledo denuncian ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Los facultativos han enviado una misiva al Juzgado de Guardia, al Sescam y al Colegio de Médicos alertando de la mala gestión de camas del ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8701504569999088,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8701504569999088,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:11:48",
+                    "run_time": 1.8701504569999088,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuántos pacientes murieron en el Hospital de Toledo durante el apagón?": [
+                                {
+                                    "El mismo día que se cumplen seis meses de la catastrófica DANA que asoló Valencia Alvise Perez recupera uno de los grandes éxitos de la desinformación de aquella catástrofe: inventarse muertos. Eran las 19.12 del día después del ‘Apagón Ibérico’, las comunicaciones ya funcionaban con normalidad y se había recuperado la normalidad en prácticamente todo el país. Nada de esto impedía a Pérez inventar “varios muertos” en un hospital de Toledo. Según el desinformador el grupo electrógeno habría fallado, lo que provocó que los respiradores dejaran de funcionar. Sin embargo; tan pronto como comenzó el apagón todos los medios de comunicación enviaron a sus equipos a las infraestructuras críticas –hospitales y estaciones de trenes y autobuses–. En los hospitales de toda España los periodistas se agolpaban en las puertas buscando información de primera mano que poder transmitir sobre el estado de los mismos, y los de Toledo no fueron una excepción. Ningún incidente o fallecimiento que pudiera ser achacado al apagón fue notificado ni recogido por los medios locales que se encontraban a las puertas.": null
+                                },
+                                {
+                                    "El apagón puso en apuros a toda la población en mayor o menor medida. Algunas de las personas más afectadas por la falta de electricidad fueron aquellas que, precisamente, necesitan de luz para continuar con sus tratamientos médicos o que dependen exclusivamente de una máquina para sobrevivir; es decir, pacientes electrodependientes.": null
+                                },
+                                {
+                                    "En el mismo mensaje en el que resaltaba en negrita los falsos fallecimientos en el hospital de Toledo y sin especificar que no hablaba de fallecimientos en hospitales el desinformador aludía a otras cuatro muertes, lo que da a entender que se trataría de fallecimientos en hospitales. Nada más lejos de la realidad, ya que tres de ellos fallecieron por intoxicación por la mala combustión de un generador en un domicilio particular. La otra persona de la que únicamente cita “una mujer de 46 años ha fallecido asfixiada en Valencia al no contar con corriente para su respirador” falleció en su domicilio, algo que el desinformador obvia deliberadamente para transmitir la sensación de que lo hubiera hecho en un hospital. Pero la cosa va más allá; ya que según han informado los servicios médicos esta persona únicamente tenía pautado oxígeno durante la noche y tenía multiples patologías y la autopsia ha descartado que falleciera como consecuencia de un fallo respiratorio. En el momento de publicarse este artículo sólo se ha notificado y contrastado un fallecimiento más relacionado con el apagón, se trata de una mujer de 52 años que falleció como consecuencia de un incendio.": null
+                                }
+                            ],
+                            "¿Qué sistemas estaban disponibles en el hospital durante el apagón?": [
+                                {
+                                    "No obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.": null
+                                },
+                                {
+                                    "La sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.": null
+                                },
+                                {
+                                    "“La vida en el hospital no cambió demasiado”, apuntan desde el Hospital Clínic de Barcelona. En este centro, que empezó a recuperar la luz a partir de las 17h, se bajó la intensidad de la iluminación pero gracias a los generadores tanto la tarde del lunes como la noche se desarrollaron con normalidad. “Esta mañana ha habido un problema con el teléfono a primera hora pero ya se ha arreglado”, remachan. Una facultativa del Hospital Vall d’Hebron explicaba este martes que lo más incómodo fue no disponer de Internet, que afectó tanto a los servicios de teleasistencia como a las prescripciones de tratamientos y medicamentos. “Por el resto, más allá de cierto caos, hemos sobrevivido bastante bien”, remachaba.": null
+                                }
+                            ],
+                            "¿Cómo respondió el hospital a la falta de energía eléctrica?": [
+                                {
+                                    "No obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.": null
+                                },
+                                {
+                                    "La sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.": null
+                                },
+                                {
+                                    "“La vida en el hospital no cambió demasiado”, apuntan desde el Hospital Clínic de Barcelona. En este centro, que empezó a recuperar la luz a partir de las 17h, se bajó la intensidad de la iluminación pero gracias a los generadores tanto la tarde del lunes como la noche se desarrollaron con normalidad. “Esta mañana ha habido un problema con el teléfono a primera hora pero ya se ha arreglado”, remachan. Una facultativa del Hospital Vall d’Hebron explicaba este martes que lo más incómodo fue no disponer de Internet, que afectó tanto a los servicios de teleasistencia como a las prescripciones de tratamientos y medicamentos. “Por el resto, más allá de cierto caos, hemos sobrevivido bastante bien”, remachaba.": null
+                                }
+                            ],
+                            "¿Qué medidas se tomaron para proteger la vida de los pacientes durante el apagón?": [
+                                {
+                                    "El apagón puso en apuros a toda la población en mayor o menor medida. Algunas de las personas más afectadas por la falta de electricidad fueron aquellas que, precisamente, necesitan de luz para continuar con sus tratamientos médicos o que dependen exclusivamente de una máquina para sobrevivir; es decir, pacientes electrodependientes.": null
+                                },
+                                {
+                                    "No obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.": null
+                                },
+                                {
+                                    "La sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en emergencias médicas sobre la respuesta del hospital durante el apagón?": [
+                                {
+                                    "No obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.": null
+                                },
+                                {
+                                    "La sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.": null
+                                },
+                                {
+                                    "“La vida en el hospital no cambió demasiado”, apuntan desde el Hospital Clínic de Barcelona. En este centro, que empezó a recuperar la luz a partir de las 17h, se bajó la intensidad de la iluminación pero gracias a los generadores tanto la tarde del lunes como la noche se desarrollaron con normalidad. “Esta mañana ha habido un problema con el teléfono a primera hora pero ya se ha arreglado”, remachan. Una facultativa del Hospital Vall d’Hebron explicaba este martes que lo más incómodo fue no disponer de Internet, que afectó tanto a los servicios de teleasistencia como a las prescripciones de tratamientos y medicamentos. “Por el resto, más allá de cierto caos, hemos sobrevivido bastante bien”, remachaba.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.578286130999913,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.578286130999913,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:11:58",
+                    "run_time": 9.578286130999913,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nPacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuántos pacientes murieron en el Hospital de Toledo durante el apagón?\n¿Qué sistemas estaban disponibles en el hospital durante el apagón?\n¿Cómo respondió el hospital a la falta de energía eléctrica?\n¿Qué medidas se tomaron para proteger la vida de los pacientes durante el apagón?\n¿Qué opinan los expertos en emergencias médicas sobre la respuesta del hospital durante el apagón?\n\n3. Here are the text sources you should use as your source of information:\n[0] El mismo día que se cumplen seis meses de la catastrófica DANA que asoló Valencia Alvise Perez recupera uno de los grandes éxitos de la desinformación de aquella catástrofe: inventarse muertos. Eran las 19.12 del día después del ‘Apagón Ibérico’, las comunicaciones ya funcionaban con normalidad y se había recuperado la normalidad en prácticamente todo el país. Nada de esto impedía a Pérez inventar “varios muertos” en un hospital de Toledo. Según el desinformador el grupo electrógeno habría fallado, lo que provocó que los respiradores dejaran de funcionar. Sin embargo; tan pronto como comenzó el apagón todos los medios de comunicación enviaron a sus equipos a las infraestructuras críticas –hospitales y estaciones de trenes y autobuses–. En los hospitales de toda España los periodistas se agolpaban en las puertas buscando información de primera mano que poder transmitir sobre el estado de los mismos, y los de Toledo no fueron una excepción. Ningún incidente o fallecimiento que pudiera ser achacado al apagón fue notificado ni recogido por los medios locales que se encontraban a las puertas.\n[0] En el mismo mensaje en el que resaltaba en negrita los falsos fallecimientos en el hospital de Toledo y sin especificar que no hablaba de fallecimientos en hospitales el desinformador aludía a otras cuatro muertes, lo que da a entender que se trataría de fallecimientos en hospitales. Nada más lejos de la realidad, ya que tres de ellos fallecieron por intoxicación por la mala combustión de un generador en un domicilio particular. La otra persona de la que únicamente cita “una mujer de 46 años ha fallecido asfixiada en Valencia al no contar con corriente para su respirador” falleció en su domicilio, algo que el desinformador obvia deliberadamente para transmitir la sensación de que lo hubiera hecho en un hospital. Pero la cosa va más allá; ya que según han informado los servicios médicos esta persona únicamente tenía pautado oxígeno durante la noche y tenía multiples patologías y la autopsia ha descartado que falleciera como consecuencia de un fallo respiratorio. En el momento de publicarse este artículo sólo se ha notificado y contrastado un fallecimiento más relacionado con el apagón, se trata de una mujer de 52 años que falleció como consecuencia de un incendio.\n[1] El apagón puso en apuros a toda la población en mayor o menor medida. Algunas de las personas más afectadas por la falta de electricidad fueron aquellas que, precisamente, necesitan de luz para continuar con sus tratamientos médicos o que dependen exclusivamente de una máquina para sobrevivir; es decir, pacientes electrodependientes.\n[2] No obstante, desde las 12,30 de ayer, cuando llegó el apagón, los hospitales han tenido suministro eléctrico gracias a los generadores. Aunque la actividad se fue ralentizando conforme se comprobó que no se trataba de una situación puntual, a afectos de los usuarios, mientras fuera estaban sin luz hasta las farmacias, en los centros sanitarios todo parecía normal.\n[3] La sensación entre los trabajadores y trabajadoras es que, pese al susto y desconcierto inicial, han sobrevivido “bastante bien”. Los centros sanitarios se pusieron inmediatamente en el punto de mira como infraestructura crítica pero todos tenían grupos electrógenos capaces de funcionar de manera autónoma y eso salvó los servicios esenciales: cirugías en curso, hospitalizaciones y UCI.\n[3] “La vida en el hospital no cambió demasiado”, apuntan desde el Hospital Clínic de Barcelona. En este centro, que empezó a recuperar la luz a partir de las 17h, se bajó la intensidad de la iluminación pero gracias a los generadores tanto la tarde del lunes como la noche se desarrollaron con normalidad. “Esta mañana ha habido un problema con el teléfono a primera hora pero ya se ha arreglado”, remachan. Una facultativa del Hospital Vall d’Hebron explicaba este martes que lo más incómodo fue no disponer de Internet, que afectó tanto a los servicios de teleasistencia como a las prescripciones de tratamientos y medicamentos. “Por el resto, más allá de cierto caos, hemos sobrevivido bastante bien”, remachaba.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que hubo pacientes que murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón. Aunque no se proporciona información específica sobre el número de pacientes que murieron, hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el hospital durante el apagón.\n\n[1] Se menciona que las personas que dependen exclusivamente de máquinas para sobrevivir, es decir, pacientes electrodependientes, fueron algunas de las más afectadas por la falta de electricidad. Esto sugiere que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de estos pacientes.\n\n[2] Adicionalmente, se menciona que los hospitales tenían generadores para proporcionar energía durante el apagón, lo que sugiere que había sistemas de backup para garantizar la continuidad de los servicios esenciales. Sin embargo, no se especifica si estos sistemas fueron suficientes para garantizar la seguridad de todos los pacientes.\n\n**Contradicción a la afirmación**\n\nA pesar de la evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes, también hay evidencia que contradice la afirmación de que pacientes murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón.\n\n[0] Se menciona que los medios de comunicación enviaron equipos a las infraestructuras críticas, incluyendo hospitales, para obtener información sobre el estado de los mismos. En el caso del Hospital de Toledo, no se reportó ningún incidente o fallecimiento que pudiera ser achacado al apagón. Esto sugiere que no hubo muertes directamente relacionadas con la falta de sistemas en el hospital.\n\n[0] Adicionalmente, se menciona que la única persona que falleció en Valencia debido a un fallo respiratorio tenía múltiples patologías y la autopsia descartó que falleciera como consecuencia de un fallo respiratorio. Esto sugiere que la muerte de esta persona no estuvo directamente relacionada con la falta de sistemas en el hospital.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el Hospital de Toledo durante el apagón, también hay evidencia que contradice la afirmación de que pacientes murieron en el hospital debido a la falta de sistemas. La falta de información específica sobre el número de pacientes que murieron y la ausencia de informes de incidentes o fallecimientos directamente relacionados con la falta de sistemas en el hospital sugieren que la afirmación es falsa. Sin embargo, es importante destacar que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de algunos pacientes, especialmente aquellos que dependen exclusivamente de máquinas para sobrevivir.\n\n**Verdict:** La afirmación es **falsa**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.3527634980000585,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.3527634980000585,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:11:59",
+                    "run_time": 1.3527634980000585,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que hubo pacientes que murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón. Aunque no se proporciona información específica sobre el número de pacientes que murieron, hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el hospital durante el apagón.\n\n[1] Se menciona que las personas que dependen exclusivamente de máquinas para sobrevivir, es decir, pacientes electrodependientes, fueron algunas de las más afectadas por la falta de electricidad. Esto sugiere que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de estos pacientes.\n\n[2] Adicionalmente, se menciona que los hospitales tenían generadores para proporcionar energía durante el apagón, lo que sugiere que había sistemas de backup para garantizar la continuidad de los servicios esenciales. Sin embargo, no se especifica si estos sistemas fueron suficientes para garantizar la seguridad de todos los pacientes.\n\n**Contradicción a la afirmación**\n\nA pesar de la evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes, también hay evidencia que contradice la afirmación de que pacientes murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón.\n\n[0] Se menciona que los medios de comunicación enviaron equipos a las infraestructuras críticas, incluyendo hospitales, para obtener información sobre el estado de los mismos. En el caso del Hospital de Toledo, no se reportó ningún incidente o fallecimiento que pudiera ser achacado al apagón. Esto sugiere que no hubo muertes directamente relacionadas con la falta de sistemas en el hospital.\n\n[0] Adicionalmente, se menciona que la única persona que falleció en Valencia debido a un fallo respiratorio tenía múltiples patologías y la autopsia descartó que falleciera como consecuencia de un fallo respiratorio. Esto sugiere que la muerte de esta persona no estuvo directamente relacionada con la falta de sistemas en el hospital.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el Hospital de Toledo durante el apagón, también hay evidencia que contradice la afirmación de que pacientes murieron en el hospital debido a la falta de sistemas. La falta de información específica sobre el número de pacientes que murieron y la ausencia de informes de incidentes o fallecimientos directamente relacionados con la falta de sistemas en el hospital sugieren que la afirmación es falsa. Sin embargo, es importante destacar que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de algunos pacientes, especialmente aquellos que dependen exclusivamente de máquinas para sobrevivir.\n\n**Verdict:** La afirmación es **falsa**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa afirmación sugiere que hubo pacientes que murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón. Aunque no se proporciona información específica sobre el número de pacientes que murieron, hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el hospital durante el apagón.\n\n[1] Se menciona que las personas que dependen exclusivamente de máquinas para sobrevivir, es decir, pacientes electrodependientes, fueron algunas de las más afectadas por la falta de electricidad. Esto sugiere que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de estos pacientes.\n\n[2] Adicionalmente, se menciona que los hospitales tenían generadores para proporcionar energía durante el apagón, lo que sugiere que había sistemas de backup para garantizar la continuidad de los servicios esenciales. Sin embargo, no se especifica si estos sistemas fueron suficientes para garantizar la seguridad de todos los pacientes.\n\n**Contradicción a la afirmación**\n\nA pesar de la evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes, también hay evidencia que contradice la afirmación de que pacientes murieron en el Hospital de Toledo debido a la falta de sistemas durante el apagón.\n\n[0] Se menciona que los medios de comunicación enviaron equipos a las infraestructuras críticas, incluyendo hospitales, para obtener información sobre el estado de los mismos. En el caso del Hospital de Toledo, no se reportó ningún incidente o fallecimiento que pudiera ser achacado al apagón. Esto sugiere que no hubo muertes directamente relacionadas con la falta de sistemas en el hospital.\n\n[0] Adicionalmente, se menciona que la única persona que falleció en Valencia debido a un fallo respiratorio tenía múltiples patologías y la autopsia descartó que falleciera como consecuencia de un fallo respiratorio. Esto sugiere que la muerte de esta persona no estuvo directamente relacionada con la falta de sistemas en el hospital.\n\n**Conclusión**\n\nEn conclusión, aunque hay evidencia que sugiere que hubo un riesgo potencial para la vida de los pacientes en el Hospital de Toledo durante el apagón, también hay evidencia que contradice la afirmación de que pacientes murieron en el hospital debido a la falta de sistemas. La falta de información específica sobre el número de pacientes que murieron y la ausencia de informes de incidentes o fallecimientos directamente relacionados con la falta de sistemas en el hospital sugieren que la afirmación es falsa. Sin embargo, es importante destacar que la falta de sistemas en el hospital pudo haber puesto en peligro la vida de algunos pacientes, especialmente aquellos que dependen exclusivamente de máquinas para sobrevivir.\n\n**Verdict:** La afirmación es **falsa**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón\", \"categories\": [\"Salud\", \"Medio ambiente\", \"Noticias\"], \"label\": \"Fake\", \"main_claim\": \"La afirmación de que pacientes murieron en el Hospital de Toledo por falta de sistemas durante el apagón es falsa\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,714 @@
+{
+    "question": "Las baterías de coches eléctricos se pueden reciclar",
+    "answer": "Se ha demostrado que las baterías de coches eléctricos pueden ser recicladas con cierto grado de eficiencia. Según se menciona en [1], el proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. En concreto, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos y materiales estructurales (según [1]).\n\nAdemás, se menciona en [2] que los fabricantes, expertos y empresas que se dedican al reacondicionamiento de baterías están trabajando juntos para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas. Esto sugiere que hay un interés en desarrollar métodos de reciclaje más efectivos y eficientes. En [1] se menciona que los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental.\n\nAunque hay evidencia de que las baterías de coches eléctricos pueden ser recicladas, también hay limitaciones y desafíos asociados con este proceso. Según se menciona en [3], hasta ahora el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas. Esto sugiere que aún hay un camino a recorrer para mejorar la eficiencia del reciclaje de baterías de coches eléctricos.\n\nEn base a la información proporcionada, podemos concluir que las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso. La evidencia sugiere que se puede recuperar una gran parte de los materiales valiosos de las baterías, pero aún hay trabajo por hacer para mejorar la eficiencia del reciclaje. Por lo tanto, la afirmación \"Las baterías de coches eléctricos se pueden reciclar\" es **verdadera**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.auto10.com/reportajes/que-porcentaje-de-la-bateria-de-un-coche-electrificado-se-recicla/21936",
+            "source": "www.auto10.com",
+            "favicon": "https://a0.cdnfan.com/img/favicon-114.png"
+        },
+        "2": {
+            "url": "https://www.autobild.es/reportajes/pasa-baterias-coches-electricos-cuando-terminan-vida-util-hablamos-fabricantes-expertos-empresas-reciclaje-aclararlo-1378089",
+            "source": "www.autobild.es",
+            "favicon": "https://www.autobild.es/uploads/icons/autobild/favicon-192x192.png"
+        },
+        "3": {
+            "url": "https://www.motorpasion.com/observatorio-motorpasion/china-ha-encontrado-forma-reciclar-99-9-baterias-coches-electricos-e-hibridos-truco-tenian-cachas-gimnasio",
+            "source": "www.motorpasion.com",
+            "favicon": "https://img.weblogssl.com/css/motorpasion/p/common/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Las baterías de coches eléctricos se pueden reciclar",
+        "categories": [
+            "Automoción",
+            "Medio ambiente",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "Las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.946120640001027,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.946120640001027,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:47:49",
+                    "run_time": 2.946120640001027,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLas baterías de coches electricos se pueden reciclar\n\n**Critical Research Questions:**\n1. ¿Qué es el proceso actual de reciclaje de baterías de coches eléctricos y qué porcentaje de baterías se reciclan actualmente?\n2. ¿Cómo se compara el reciclaje de baterías de coches eléctricos con el reciclaje de baterías de otros vehículos?\n3. ¿Qué opinan los expertos sobre la viabilidad y eficiencia del reciclaje de baterías de coches eléctricos?\n4. ¿Qué evidencia científica o estudios apoyan la afirmación de que las baterías de coches eléctricos se pueden reciclar?\n5. ¿Qué son las tecnologías más recientes para el reciclaje de baterías de coches eléctricos y cómo mejoran su eficiencia?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"proceso de reciclaje de baterías de coches eléctricos actualmente existentes reciclaje de baterías de coches eléctricos porcentaje de reciclaje\", \"reciclaje de baterías de coches eléctricos vs reciclaje de baterías de otros vehículos comparación estudio\", \"expertos sobre viabilidad y eficiencia del reciclaje de baterías de coches eléctricos opiniones análisis\", \"estudios científicos sobre reciclaje de baterías de coches eléctricos evidencia apoyo o crítica\", \"tecnologías recientes para reciclaje de baterías de coches eléctricos mejoras eficiencia investigación actualizada\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.320708610999645,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.320708610999645,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:47:54",
+                    "run_time": 5.320708610999645,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "proceso de reciclaje de baterías de coches eléctricos actualmente existentes reciclaje de baterías de coches eléctricos porcentaje de reciclaje",
+                                "reciclaje de baterías de coches eléctricos vs reciclaje de baterías de otros vehículos comparación estudio",
+                                "expertos sobre viabilidad y eficiencia del reciclaje de baterías de coches eléctricos opiniones análisis",
+                                "estudios científicos sobre reciclaje de baterías de coches eléctricos evidencia apoyo o crítica",
+                                "tecnologías recientes para reciclaje de baterías de coches eléctricos mejoras eficiencia investigación actualizada"
+                            ],
+                            "results": {
+                                "proceso de reciclaje de baterías de coches eléctricos actualmente existentes reciclaje de baterías de coches eléctricos porcentaje de reciclaje | reciclaje de baterías de coches eléctricos vs reciclaje de baterías de otros vehículos comparación estudio | expertos sobre viabilidad y eficiencia del reciclaje de baterías de coches eléctricos opiniones análisis | estudios científicos sobre reciclaje de baterías de coches eléctricos evidencia apoyo o crítica | tecnologías recientes para reciclaje de baterías de coches eléctricos mejoras eficiencia investigación actualizada": [
+                                    {
+                                        "text": "Realidad: las baterías de los vehículos eléctricos sí pueden reciclarse y reutilizarse. Deben aumentar la investigación y la inversión en la tecnología para asegurar la viabilidad ambiental y económica.\n\nLos materiales que componen las baterías de los vehículos eléctricos sí se pueden reciclar. Sin embargo, su desarrollo, los costes económicos, la peligrosidad del proceso, entre otras cuestiones, hace indeterminados los porcentajes de reciclaje actuales ni los propios procesos, así como la rentabilidad de los mismos. Se encuentra, en términos generales, en un estadio inicial de implantación industrial.\n\nLos materiales a partir de los cuales se fabrican las baterías son variados, y, del mismo modo, existen diversos tipos. En ocasiones son muy tóxicos para las personas al ser metales pesados (cadmio) y también muy dañinos para el medio ambiente. Su reutilización debe ser uno de los principales objetivos para reducir el consumo de materias primas, potenciando a su vez la economía circular. El nuevo Reglamento de Materias Primas Fundamentales de la Unión Europea pretende reducir la dependencia de terceros países de estos materiales imprescindibles, se prevé que para 2030 el 10% sea extraído, el 40% procesado, el 25% reciclado y que no más de un 65% provenga de un mismo país de fuera de la UE. Previo a ello, la Unión Europea adoptó un nuevo reglamento relativo a las baterías y sus residuos que regula todo el ciclo de vida, desde su producción hasta su reutilización y reciclado.\n\nAsí pues, el Reglamento establece requisitos relativos al final de la vida útil, por ejemplo, objetivos y obligaciones en materia de recogida, objetivos de valorización de materiales y una responsabilidad ampliada del productor. Establece para los productores objetivos de recogida de residuos de pilas o baterías portátiles (un 63 % para finales de 2027 y un 73 % para finales de 2030) e introduce un objetivo de recogida específico para los residuos de baterías de medios de transporte ligeros (un 51% para finales de 2028 y un 61 % para finales de 2031). Asimismo, fija el objetivo de recuperación de litio a partir de los residuos de pilas y baterías en un 50 % para finales de 2027, y en un 80 % para finales de 2031. Igualmente, este reglamento prevé unos niveles mínimos obligatorios de contenido reciclado en lo que respecta a las baterías industriales, para arranque, encendido o alumbrado y para vehículos eléctricos, que se han fijado inicialmente en un 16 % para el cobalto, un 85 % para el plomo, un 6 % para el litio y un 6 % para el níquel. El objetivo de eficiencia de reciclado se fija en un 80 % para las pilas o baterías de níquel-cadmio, de aquí a finales de 2025, y en un 50 % para los demás residuos de pilas o baterías, de aquí a finales de 2025.\n\nLos métodos que se emplean para el reciclaje de los componentes de las baterías son variados. La Asociación Empresarial para el Desarrollo e Impulso de la Movilidad Eléctrica (AEDIVE), en su Anuario 2023-2024 de la Movilidad Eléctrica, comenta en detalle los Procesos y Etapas del Reciclado de Baterías de Litio, desde el tratamiento previo hasta la recuperación de los metales. A su vez, el Departamento de Energía de Estados Unidos también tiene definidos diferentes métodos para la recuperación de los materiales que componen las baterías: función, recuperación directa y en procesos intermedios.\n\nSin embargo, a pesar de estos métodos cada vez más innovadores, las baterías no terminan de reciclarse de manera adecuada. Los motivos que llevan a esta situación son, principalmente, los costes asociados. Asimismo, se debe tener en cuenta la peligrosidad de estos procesos, que involucran ácidos y temperaturas extremadamente altas. Es necesaria más investigación, de cara a optimizar el proceso de reciclado de los componentes, con el fin de estimular la circularidad de la economía de este sector, y reducir los costes que conllevan estos procesos. Sin embargo, en la actualidad, y gracias a la tecnología actual, ya se pueden reciclar hasta un 70% de los componentes. A pesar de ello, se considera más probable que las baterías de los coches eléctricos se reutilicen, dado sus mayores beneficios ambientales.\n\nEn conclusión, las baterías de los vehículos eléctricos si pueden reciclarse y reutilizarse, y existen ya objetivos claros a nivel europeo para ello. Si bien es cierto, estos procesos adolecen todavía de falta de infraestructura y soluciones viables económica y ambientalmente. Es todavía necesario un gran esfuerzo inversor y de investigación para garantizar un ciclo completo de reciclaje y reutilización.\n\nDescarga la infografia sobre este mito",
+                                        "metadata": {
+                                            "url": "https://ecodes.org/hacemos/cambio-climatico/incidencia-en-politicas-publicas/cazamitos-del-coche-electrico/mito-9-las-baterias-de-los-coches-electricos-no-se-pueden-reciclar",
+                                            "source": "ecodes.org",
+                                            "favicon": "https://ecodes.org/images/e-ecodes.png",
+                                            "title": "Mito 9: las baterías de los coches eléctricos no se pueden ...",
+                                            "type": "web_search",
+                                            "base_url": "https://ecodes.org",
+                                            "snippet": "Sin embargo, en la actualidad, y gracias a la tecnología actual, ya se pueden reciclar hasta un 70% de los componentes. A pesar de ello, se considera más ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En agosto de 2023 entró en vigor en la Unión Europea una nueva ley con nuevos estándares medioambientales para garantizar que las baterías se recojan, reutilicen y reciclen en Europa. A partir de 2027, los fabricantes de baterías tendrán que recuperar el 90% del níquel y el cobalto utilizados, cifra que aumentará al 95% en 2031. También tendrán que recuperar el 50% del litio utilizado, cifra que aumentará al 80% en 2031.\n\nAdemás, a partir del 1 de febrero de 2027, todas las baterías de vehículos eléctricos e industriales del mercado de la UE requerirán un pasaporte de batería único que se identificará con un código QR. Este documento almacena los datos relevantes de la batería a lo largo de todo su ciclo de vida y contiene información detallada sobre su producción, pruebas y reciclaje.\n\n“El mercado de reutilización y reciclaje de baterías de vehículos eléctricos se valoró en 8.000 millones de dólares en 2024 y se prevé que alcance los 28.100 millones de dólares en 2029, con un aumento de una tasa compuesta anual del 28,5 %”, según un informe de Researchandmarkets.\n\nProceso de reciclaje de baterías de coches eléctricos\n\nActualmente, la vida útil de la batería de un vehículo eléctrico es de aproximadamente 6 a 10 años, y después de cargarla unas 500 veces la autonomía se acorta gradualmente y la velocidad de carga se vuelve más lenta. Normalmente, cuando la capacidad disminuye al 80% o menos de la capacidad inicial, la vida útil de la batería de un vehículo eléctrico llega a su fin.\n\nLas baterías de ion de litio dominan el mercado mundial de reutilización y reciclaje de baterías de vehículos eléctricos debido a sus valiosos materiales y a la creciente demanda de tecnologías de energía limpia. Al final de su vida útil, más del 80% de las materias primas se pueden extraer mediante el reciclaje.\n\nEl litio, junto con el manganeso y el cobalto, se utilizan en el cátodo de la batería. Allí es donde se crean los iones cargados, que generan la energía necesaria para mover el vehículo. Cuando se carga la batería de un vehículo eléctrico, los iones se mueven de un lado de la batería (el cátodo), a través de un medio líquido, al otro (el ánodo). Cuando se conduce el coche, los iones se mueven en la dirección opuesta a medida que la batería se descarga. Como ocurre con la mayoría de las cosas de la vida que funcionan con baterías recargables, cuanto más se produce este proceso, más se degrada la batería.\n\nEl proceso de reciclaje de baterías comprende varios pasos complejos, como la recolección, la clasificación, el desmontaje y la extracción química. Cada fase requiere tecnologías especializadas para garantizar la recuperación y reutilización efectivas de materiales como el litio, el níquel y el cobalto. Para reciclar las baterías de vehículos eléctricos se utilizan diferentes procesos como la pirometalurgia, la hidrometalurgia y otros (mecánicos y directos). En términos de proceso, la hidrometalurgia lidera el mercado debido a la alta tasa de recuperación de metales puros y su bajo consumo de energía.\n\nSegunda vida de las baterías y almacenamiento de energía\n\nUna alternativa al reciclaje de baterías en Europa consiste en reutilizarlas para darles una segunda vida. Las baterías con un valor residual del 70-80% o más se pueden reutilizar para sistemas de almacenamiento de energía (ESS). También en productos como sistemas de alimentación ininterrumpida (SAI o UPS por sus siglas en inglés) y baterías ultrapequeñas para movilidad eléctrica. Por ejemplo, Volvo Cars está trabajando en un proyecto en colaboración con Connected Energy que reutiliza las baterías de autobuses, camiones y máquinas eléctricas para construir sistemas de almacenamiento de energía con baterías.",
+                                        "metadata": {
+                                            "url": "https://tecvolucion.com/el-desafio-de-reciclar-las-baterias-de-los-coches-electricos/",
+                                            "source": "tecvolucion.com",
+                                            "favicon": "https://www.volvocars.com/static/shared/images/favicons/apple-touch-icon-precomposed-180x180.v2.png",
+                                            "title": "El desafío de reciclar las baterías de los coches eléctricos",
+                                            "type": "web_search",
+                                            "base_url": "https://tecvolucion.com",
+                                            "snippet": "Proceso de reciclaje de baterías de coches eléctricos​​ Al final de su vida útil, más del 80% de las materias primas se pueden extraer mediante ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En este artículo descubrimos lo bien pensado que está el reciclaje de las baterías de los coches híbridos y eléctricos.\n\nLas baterías de los vehículos eléctricos son un componente esencial para su funcionamiento y autonomía. A medida que más conductores optan por la movilidad eléctrica, se plantea una pregunta fundamental: ¿Qué sucede con las baterías una vez que ya no son adecuadas para su uso en automóviles?\n\nEl proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.\n\nEl porcentaje de reciclaje de una batería de coche eléctrico, específicamente de iones de litio, puede variar según varios factores, incluido el tipo de batería, la tecnología utilizada y los avances en el proceso de reciclaje. Según la Agencia Internacional de Energía (IEA), se estima que alrededor del 95% de los materiales contenidos en las baterías de vehículos híbridos eléctricos pueden ser reciclados y utilizados nuevamente en la producción de nuevas baterías o en otras aplicaciones industriales.\n\nAquí hay un desglose más detallado de cómo se realiza el reciclaje y qué porcentaje de la batería se puede recuperar:\n\nMetales Valiosos\n\nLas baterías de iones de litio contienen metales valiosos como el cobalto, el níquel y el litio. Estos metales son altamente recuperables, y se estima que más del 90% de estos metales pueden ser reciclados. Por ejemplo, aproximadamente el 95% del contenido de cobalto en una batería de iones de litio se puede recuperar y reutilizar en la fabricación de nuevas baterías.\n\nAluminio y Plástico\n\nLos componentes estructurales de la batería, como el aluminio y el plástico, también son reciclables. Se estima que alrededor del 95% de estos materiales pueden ser recuperados y reutilizados en otras aplicaciones.\n\nElectrolitos\n\nLos electrolitos líquidos dentro de la batería pueden ser tratados y procesados??para su reciclaje o eliminación segura. Se estima que más del 70% de los electrolitos pueden ser recuperados.\n\nMateriales Difíciles de Reciclar\n\nAlgunos materiales, como el grafito, pueden ser más difíciles de reciclar debido a su estructura y composición. Aunque el porcentaje de reciclaje de estos materiales puede ser menor, la investigación continúa en busca de métodos más efectivos para su recuperación.\n\nInvestigación Constante\n\nEs importante destacar que el reciclaje de baterías de coches eléctricos es un área de investigación y desarrollo en constante evolución. Los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental. Las empresas y organizaciones están trabajando en conjunto para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas.\n\nEn resumen, aunque el porcentaje exacto de reciclaje puede variar según las circunstancias específicas y la tecnología utilizada, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos. y materiales estructurales.",
+                                        "metadata": {
+                                            "url": "https://www.auto10.com/reportajes/que-porcentaje-de-la-bateria-de-un-coche-electrificado-se-recicla/21936",
+                                            "source": "www.auto10.com",
+                                            "favicon": "https://a0.cdnfan.com/img/favicon-114.png",
+                                            "title": "Qué porcentaje de la batería de un coche electrificado se ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.auto10.com",
+                                            "snippet": "Según la Agencia Internacional de Energía (IEA), se estima que alrededor del 95% de los materiales contenidos en las baterías de vehículos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Reciclar baterías de litio antiguas es fundamental para aumentar la sostenibilidad de las mismas y reducir la dependencia de la minería, y por ende minimizar el impacto medioambiental que ello produce. Hay fabricantes que ya consiguen reciclar en torno al 95-96 por ciento de las materias primas de las baterías viejas, ¿pero cómo se consigue?\n\nUna batería de litio convencional tiene, además del propio litio que les da nombre, materias primas como níquel, cobalto, manganeso, cobre, aluminio, grafito o hierro. Elementos que, unos más que otros, son relativamente caros. En el caso de las baterías LFP (litio-ferrofosfato), no necesitan níquel ni cobalto, pero siguen teniendo litio, cobre, aluminio y grafito.\n\nExisten varios métodos para recuperar las materias primas originales de la batería antigua. El más avanzado y eficiente se llama hidrometalurgia, y es el que utilizan, por ejemplo, Mercedes-Benz en su nueva planta de Kuppenheim y Redwood Materials, una empresa creada y dirigida por JB Straubel, uno de los fundadores de Tesla.\n\n¿Cómo se recicla la batería de un coche eléctrico?\n\nEn el proceso hidrometalúrgico se utiliza una solución acuosa, en lugar de energía térmica (fundición), para disolver y separar los materiales utilizando una variedad de ácidos y disolventes. El proceso tarda unos dos días en completarse y utiliza relativamente poca energía. Además, en el caso de la planta de Mercedes, toda la energía proviene de paneles solares instalados en el techo de la fábrica (350 kW en total). Pero antes de llegar a las transformaciones químicas, hay varios pasos para preparar la batería.\n\nEl primer paso es comprobar la carga en cada módulo de la batería.\n\nEl proceso comienza comprobando el estado de carga de la batería. Las baterías se descargan completamente para evitar cortocircuitos durante el desmontaje. Después se desmontan manual o mecánicamente para separar los módulos, las celdas, el cableado, carcasas metálicas y otros materiales. Muchas baterías deben desmontarse a mano, especialmente si vienen en paquetes completos o todavía van conectadas al dispositivo electrónico que alimentaban (ordenadores portátiles, herramientas eléctricas, etcétera). La idea, no obstante, es automatizar el proceso a medida que aumenta el número de baterías para su reciclaje.\n\nDespués, la batería se mete en una trituradora y los fragmentos resultantes pasan por una lavadora mecánica. Los fragmentos se someten a un proceso de tamizado y separación magnética para eliminar los plásticos y metales ferrosos. Después se secan y se pasan por una prensa de filtro (o filtro prensa). Para entenderlo fácilmente, funciona similar a una prensa de café.\n\n¿En qué consiste el proceso de hidrometalurgia?\n\nUna vez que la batería se ha triturado, tenemos un polvo de sustancias conocido como \"masa negra\". A partir de aquí comienza el proceso hidrometalúrgico, que incluye la lixiviación y otros métodos como la extracción por solventes para separar cada elemento de manera individual.\n\nPrensa de filtro para separar la masa negra de la fracción fina.\n\nLa masa negra contiene óxidos metálicos como litio, cobalto, níquel y manganeso, que se sumergen en un reactor con una solución ácida, normalmente ácido sulfúrico (H₂SO₄) o clorhídrico (HCl) para disolver los metales. Después, la solución se filtra para eliminar el grafito y otros residuos sólidos como restos de aluminio y hierro.\n\nA continuación se añaden agentes reductores como el peróxido de hidrógeno (H₂O₂) para facilitar la disolución de ciertos metales como el cobalto y el níquel, y se vuelve a tratar para eliminar los últimos restos de aluminio y hierro mediante filtro prensa o centrifugación.\n\nLa reacción entre el ácido y los metales presentes en los electrodos genera iones metálicos solubles (Li⁺, Co²⁺, Ni²⁺, etcétera). Como dato curioso, las baterías de los dispositivos electrónicos de consumo tienden a contener más cobalto que las baterías de los vehículos eléctricos.\n\nSeparar plásticos, cobre, litio, níquel, aluminio, etc. necesita un proceso complejo de varias etapas.\n\nFinalmente, los metales disueltos se separan mediante técnicas de extracción por solventes y cristalización para obtener sulfatos de cobalto, níquel y otros metales. El cobre, el manganeso y el litio se almacenan en forma de soluciones líquidas, mientras que el cobalto y el níquel se cristalizan antes de ser reutilizados. Ahora estos elementos vuelven a estar listos para utilizarse como materia prima en una batería nueva.\n\nEl reciclaje todavía no es suficiente\n\nA pesar del progreso técnico y los avances más recientes, el reciclaje de baterías no satisfará la demanda de materiales en un futuro próximo. La razón es sencilla: todavía hay pocas baterías viejas al final de su vida útil y la demanda sigue creciendo exponencialmente, por tanto el desfase aumenta pese a los nuevos proyectos de reciclaje.\n\nCon las previsiones más optimistas, las baterías recicladas representarán aproximadamente la mitad del suministro de níquel y litio para 2050. No obstante, a medida que evolucionen las composiciones químicas de las baterías, ese porcentaje podría cambiar, como ya está sucediendo con el cobalto. Las baterías de los vehículos eléctricos contienen menos cobalto hoy que hace unos años, y los fabricantes de células están continuamente encontrando formas de utilizar incluso menos. En cualquier caso, quedan al menos dos décadas largas en las que la minería seguirá siendo la principal fuente de suministro de estas materias primas, aunque se irá reduciendo poco a poco su dependencia.",
+                                        "metadata": {
+                                            "url": "https://www.hibridosyelectricos.com/coches/reciclaje-baterias-coches-electricos-fin-vida-util-mediante-hidrometalurgia_76811_102.html",
+                                            "source": "www.hibridosyelectricos.com",
+                                            "favicon": "https://www.hibridosyelectricos.com/favicon.ico",
+                                            "title": "Reciclaje de baterías de litio: clave para la sostenibilidad y ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.hibridosyelectricos.com",
+                                            "snippet": "Se recuperan más del 95% de las materias primas de una manera muy sostenible. Comprobar el estado de carga del módulo es el primer paso."
+                                        }
+                                    },
+                                    {
+                                        "text": "La glicina es un aminoácido común que todos tenemos en el cuerpo y que tiene muchos beneficios en la suplementación deportiva. Ahora también se ha descubierto que puede ser clave para el futuro del coche eléctrico.\n\nUtilizando este aminoácido, es posible reciclar casi en su totalidad los materiales que forman una batería, de manera que cuando una batería usada termina su ciclo de vida se puede reciclar para fabricar una nueva sin necesidad de utilizar más litio, níquel, cobalto o manganeso.\n\nNo solo sirve para reciclar más y mejor: también es un buen fertilizante\n\nEl reciclaje de las baterías se ha convertido en uno de los mayores retos del momento. Por un lado, tiene que ver con el auge de la demanda de la electrónica de consumo porque se venden más aparatos con batería, desde teléfonos móviles y tablets hasta drones, pasando por los relojes inteligentes, los patinetes y un largo etcétera.\n\nPor otro lado, cada vez hay más coches con batería porque la electrificación gana terreno en la industria del automóvil: además de crecer la demanda de coches completamente eléctricos, se venden más micro híbridos, híbridos e híbridos enchufables.\n\nLa cuestión es que cada vez se fabrican más baterías y eso genera un problema: tarde o temprano, los aparatos electrónicos y los coches electrificados dejan de utilizarse y sus baterías se convierten en un desecho electrónico que contamina demasiado como para no reciclarlo. De esta forma, se evita que los productos químicos que tienen las baterías contaminen el planeta y se reduce la extracción de litio y otros metales necesarios para producir nuevas baterías porque se aprovechan los materiales de las baterías usadas.\n\nHasta ahora, el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas.\n\nLos científicos de la Universidad Central Sur de Changsha, China, la Universidad Normal de Gizhou, también China, y el Centro Nacional de Investigación de Ingeniería de Materiales Avanzados de Almacenamiento de Energía Avanzada, también de China, han encontrado una forma de reciclar el 99,9% de los materiales de una batería. El estudio se ha publicado en la revista Angewandte Chemie International Edition.\n\nLa clave está en el uso de glicina, un aminoácido común que, en este caso, permite capturar iones metálicos de litio, níquel, cobalto y manganeso para evitar que formen subproductos tóxicos no deseados que contaminen los materiales reciclados. Además, la glicina que sobra después del proceso de reciclaje se puede reutilizar como fertilizante agrícola.\n\nLa idea de este proceso es utilizar la glicina para formar micro baterías dentro de la batería que se va a reciclar. Estas diminutas baterías ayudan a descomponer los materiales de la batería vieja, haciendo que la extracción de los metales que la componen sea mucho más sencilla-\n\nMezclando viejas partículas de batería con sal de hierro, oxalato de sodio y glicina líquida, se forma una capa de hierro en esas partículas que actúa como ánodo, mientras que el material de la batería que se recicla funciona como cátodo. Esta configuración desencadena una reacción que rompe la estructura de la batería para que el litio, el níquel, el cobalto y el manganeso se disuelvan por separado.\n\nEs un proceso rápido y eficiente que permite reciclar casi la totalidad de los materiales que forman la batería vieja. Según dice el estudio, se puede extraer el 99,99% del litio, el 96,86% del níquel, el 92,35% del cobalto y el 90,59% del manganeso de las baterías usadas en apenas 15 minutos.\n\n“Las técnicas tradicionales de lixiviación (extracción sólido-líquido) con ácido o amoníaco se aplican habitualmente para extraer metales valiosos durante la recuperación hidrometalúrgica de baterías de iones de litio gastadas. Sin embargo, el uso excesivo y repetido de ácidos y bases aumenta inevitablemente la carga ambiental y las amenazas a la seguridad. En este contexto, considerando las ventajas de un sistema de solución de pH neutro en términos de seguridad y protección ambiental, se ha propuesto de forma pionera la lixiviación neutra para lograr un proceso hidrometalúrgico económico e inocuo. Específicamente, gracias a la reacción de de ligar la glicina, los metales valiosos pueden lixiviarse eficientemente en un entorno neutro”.\n\n“Más importante aún, se emplea una estrategia de reducción sólido-sólido con efecto de baterías primarias para lograr una lixiviación neutra eficiente en un tiempo rápido, superando la limitación de reacción del modelo de núcleo en contracción. Como se anticipó, se puede lograr una lixiviación eficiente del 99,99 % de Li, el 96,86 % de Ni, el 92,35 % de Co y el 90,59 % de Mn en 15 minutos, lo que ha ampliado las aplicaciones para diversos tipos de cátodos laminares. Por lo tanto, se confirma firmemente que el problema insoluble, que solo se logra con la extracción efectiva en condiciones agresivas de iones ácidos/alcalinos, se resuelve eficazmente en una atmósfera de lixiviación suave. Esta estrategia ecológica y eficiente en un entorno de solución neutra abre un nuevo camino para el reciclaje a gran escala y sin contaminación de baterías usadas”.\n\nEste método de reciclaje es especialmente determinante en la industria del automóvil porque incrementa notablemente el nivel de sostenibilidad que tiene un coche eléctrico frente a uno de combustión, teniendo en cuenta su producción (en la que este método haría que tuviera más importancia el reciclaje) y su tratamiento cuando acabe su vida útil.\n\nTambién supondría una reducción drástica de la extracción de los materiales que se utilizan para hacer las baterías, sencillamente porque se obtendrían de baterías usada y hablaríamos de una economía circular prácticamente total.\n\nImágenes | BMW, Skoda, Porsche, Opel y Unsplash",
+                                        "metadata": {
+                                            "url": "https://www.motorpasion.com/observatorio-motorpasion/china-ha-encontrado-forma-reciclar-99-9-baterias-coches-electricos-e-hibridos-truco-tenian-cachas-gimnasio",
+                                            "source": "www.motorpasion.com",
+                                            "favicon": "https://img.weblogssl.com/css/motorpasion/p/common/favicon.ico",
+                                            "title": "China ha encontrado la forma de reciclar el 99,9% de las ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.motorpasion.com",
+                                            "snippet": "China ha encontrado la forma de reciclar el 99,9% de las baterías de coches eléctricos e híbridos. El truco lo tenían los cachas de gimnasio."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las conclusiones del estudio realizado por Lux Research advierten que, con las tecnologías de hoy en día, es mejor reciclar las baterías de los vehículos eléctricos que reutilizarlas en un sistema de segunda vida. Un resultado que podría variar con la evolución de la tecnología del empaquetamiento y la clasificación.\n\nSegún Lux Research hasta 2035 se retirarán 65 GWh de baterías usadas procedentes de los vehículos eléctricos que finalicen su vida útil. La prestigiosa consultora ha realizado un estudio en el que ha comparado los costes y beneficios que suponen optar por reciclar las baterías o por su uso en una segunda vida como almacenamiento estacionario de energía.\n\nLas conclusiones son, en cierta forma, sorprendentes puesto que reciclar las baterías se impone sobre la segunda vida, un concepto que está siendo barajado en gran medida por muchos fabricantes de coches, en asociación con empresas que se dedican a la gestión y distribución de energía.\n\nSegún Lux Research no tiene sentido económico la reutilización de las baterías procedentes de vehículos eléctricos como sistemas de almacenamiento estacionarios para el hogar. Esto es debido fundamentalmente a la disminución del rendimiento que estas baterías experimentan una vez que ya no cumplen su función en un coche eléctrico por la degradación de su capacidad y la escasa autonomía que le pueden ofrecer. Los sistemas denominados ‘segunda vida de las baterías’ ofrecen un ahorro de costes limitados, sobre todo si continúa el descenso en el precio de las celdas que prevén los expertos. Los avances en los sistemas de embalaje y clasificación que se logren en los próximos años pueden revertir estas conclusiones.\n\nEn el informe se han estudiado los diferentes sistemas para reciclar las baterías y para la reutilización que están presentes en la industria actual:\n\nReciclaje. El procesamiento pirometalúrgico y la fundición, el más maduro de los dos, que puede recuperar elementos metálicos clave. El tratamiento mecánico puede recuperar materiales valiosos del cátodo y el procesamiento hidrometalúrgico es el que, económicamente, es más rentable.\n\nReutilización. Los fabricantes de automóviles están optando por una amplia gama de aplicaciones para la reutilización de las baterías. BMW y Nissan comercializan productos de almacenamiento residenciales, mientras que Daimler ha comenzado a operar un gran sistema de 13 MWh. Tesla, por otra parte, lleva a cabo el reciclaje como sus cátodos NCA que no son adecuados para la mayoría de las necesidades de almacenamiento estacionarios.\n\nChristopher Robinson, autor principal de este informe, titulado ‘Reuse or Recycle: The Billion-Dollar Battery Question’ nos deja dos claves fundamentales de su estudio:\n\nCon la tecnología actual, el reciclaje de las baterías viejas es la opción más económica para generar el máximo valor con los materiales existentes. Las innovaciones en áreas como el embalaje y los test podrían inclinar la balanza en el futuro en el otro sentido por lo que aconseja a las que desarrollen planes tanto para el reciclaje como para la reutilización.\n\n\n\n\n\nEn el informe se incluye un ejemplo que toma como base el coste de instalación de un sistema residencial de segunda vida con una capacidad de 11,2 kWh y cuyo coste es de aproximadamente 4.600 dólares. Un sistema similar pero con 7 kWh de capacidad, con baterías nuevas, costaría aproximadamente 6.000 dólares. Sin embargo al tratarse de baterías reutilizadas su vida útil en cuanto a la baja eficiencia de sus ciclos de carga y descarga que se realizan diariamente en una aplicación residencial es muy pobre en comparación con un sistema nuevo.\n\nReseña del informe disponible aquí.",
+                                        "metadata": {
+                                            "url": "https://gestoresderesiduos.org/noticias/estudio-de-lux-research-concluye-que-hoy-en-dia-reciclar-baterias-es-mas-rentable-que-reutilizarlas",
+                                            "source": "gestoresderesiduos.org",
+                                            "favicon": "https://gestoresderesiduos.org/images/favicon.ico",
+                                            "title": "Estudio de Lux Research concluye que hoy en día reciclar ...",
+                                            "type": "web_search",
+                                            "base_url": "https://gestoresderesiduos.org",
+                                            "snippet": "Estudio de Lux Research concluye que hoy en día reciclar baterías es más rentable que reutilizarlas ... Las conclusiones del estudio realizado por ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Realidad: el conjunto de las investigaciones muestra que los vehículos eléctricos tienen un impacto ambiental menor que aquellos propulsados por combustibles fósiles y que son y serán aún más competitivos con la optimización del mix eléctrico, el avance de la tecnología de fabricación de baterías y el desarrollo de la utilización secundaria de las baterías y de la industria del reciclaje, entre otras.\n\nSon muchas las referencias que muestran beneficios medioambientales de los coches eléctricos, si bien es cierto que su huella de carbono no es neutra, ya que hay que tener en cuenta la eficiencia de carga de las baterías y considerar todo el proceso de generación (mix energético) y distribución de la electricidad. Aun con todo, las emisiones generadas durante todo el ciclo de vida del vehículo son inferiores en el caso de los coches 100% eléctricos respecto a los de combustión fósil.\n\nEste mito ya ha sido bien rebatido por diferentes agencias internacionales reconocidas.\n\nAunque el punto más crítico en la generación de emisiones del vehículo eléctrico es la producción de electricidad, también es el que presenta un mayor margen de mejora. El mix renovable de la Unión Europea ha alcanzado en el año 2023 un 44%; el de España se situó sobre el 50% para las fuentes renovables. Es en el mix energético donde esta una de las claves de la reducción de emisiones de estos vehículos. En la extracción de combustibles fósiles para mover los coches de gasolina, diésel o gas no hay margen.\n\nAdemás de posicionar el origen de la energía que impulsa al coche eléctrico como el elemento principal para asegurar su menor impacto ambiental, hay otras cuestiones que también influyen en favor de estos vehículos. El menor número de componentes y, por lo tanto, su fabricación y distribución, las condiciones de conducción, la eficiencia de los modelos, entre otros. Por otro lado, no es menos destacable el hecho de que existen diferencias significativas según países que condicionan las afirmaciones sobre el impacto ambiental. Por ejemplo, los vehículos eléctricos, incluyendo todos los electrificados (HEV, PHEV y BEV), son sostenibles y viables en Francia y Brasil, y apenas lo son en países como China e India, pero no lo son en absoluto en Indonesia\n\nEn definitiva, el conjunto de las investigaciones muestra que los vehículos eléctricos tienen un impacto ambiental menor que aquellos propulsados por combustibles fósiles, y en que son y serán aún más competitivos con la optimización del mix eléctrico, el avance de la tecnología de fabricación de baterías y el desarrollo de la utilización secundaria de las baterías y de la industria del reciclaje.\n\nDescarga la infografia sobre este mito",
+                                        "metadata": {
+                                            "url": "https://ecodes.org/hacemos/cambio-climatico/incidencia-en-politicas-publicas/cazamitos-del-coche-electrico/mito-1-el-impacto-ambiental-del-coche-electrico-es-igual-que-el-de-los-actuales-de-combustion",
+                                            "source": "ecodes.org",
+                                            "favicon": "https://ecodes.org/images/e-ecodes.png",
+                                            "title": "Mito 1: El impacto ambiental del coche eléctrico es igual que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://ecodes.org",
+                                            "snippet": "Mito 9: las baterías de los coches eléctricos no se pueden reciclar. Realidad: las baterías de los vehículos eléctricos sí pueden reciclarse y reutilizarse."
+                                        }
+                                    },
+                                    {
+                                        "text": "Libere su potencial de recarga de VE con nuestro último libro blanco: \"Cómo planificar su estrategia de innovación en la carga de vehículos eléctricos\". Descubra estrategias innovadoras para revolucionar su enfoque de la movilidad eléctrica y adoptar la innovación V2G como actor del sector de la automoción.\n\nEl año 2021 fue testigo de un impresionante aumento de los coches eléctricos en propiedad a nivel mundial. La propiedad de vehículos eléctricos aumentó un 64% en comparación con 2018. Alrededor de 5,6 millones de vehículos eléctricos funcionaban en todo el mundo a finales de 2021. Este crecimiento puede acreditarse a la adopción masiva de un objetivo de planeta sostenible, entre otras muchas cosas. A diferencia de los vehículos con motor de gasolina/diesel, los VE utilizan baterías de iones de litio para almacenar energía para el movimiento. Estas baterías tenían un valor de mercado de 27.300 millones de dólares en 2021, según un informe de Global newswire. Sus capacidades van desde los 17,6 kWh del SmartEQ hasta los 107,8 kWh del Mercedes EQS.\n\nLas baterías de iones de litio pueden tener hasta 12 años de vida útil, pero aún conservan la capacidad de una segunda vida , que tiene menos capacidad de rendimiento, pero podría proporcionar energía comercial e industrial de reserva para los consumidores y la red. Estas baterías ya no cumplen las normas de rendimiento de los vehículos eléctricos en su segunda vida y no deberían reutilizarse para los coches eléctricos. Así que nos quedan unas cuantas opciones para seguir utilizando las baterías de segunda vida de los vehículos eléctricos.\n\n¿Qué opciones hay para las baterías usadas de los vehículos eléctricos?\n\nLas políticas prohíben la eliminación masiva de las baterías de los vehículos eléctricos, ya que esta tendencia provoca importantes desastres medioambientales. Las principales alternativas que quedan son la reutilización y el reciclaje de las baterías de los vehículos eléctricos.\n\nReutilización de baterías de vehículos eléctricos\n\nUn análisis realizado en 2017 por Melin mencionó que el 75% de las baterías gastadas de los vehículos eléctricos se reutilizarán en una segunda vida para 2025, lo que da la posibilidad de que las baterías de los vehículos eléctricos suministren más de 100 gigavatios-hora al año para 2030.Las baterías de los vehículos eléctricos pueden conservar hasta dos tercios de su capacidad inicial de almacenamiento de energía en su segunda vida. Sin embargo, el proceso de reutilización es más complejo que simplemente sacar un paquete de baterías de un VE y colocarlo en el garaje para obtener energía. Las baterías tendrían que someterse a pruebas para determinar su capacidad restante, y las celdas también podrían clasificarse en función de su capacidad restante y mucho más. Este proceso requiere mucho trabajo, pero puede reportar diversas ventajas.\n\nLa reutilización de las baterías de los vehículos eléctricos en los hogares y las empresas repercute indirectamente en el nivel de emisiones de CO2 Con estos datos, no es de extrañar que los fabricantes de automóviles traten de revolucionar la reutilización de las baterías de los vehículos eléctricos. Empresas como General Motors (GM) y Nissan dieron paso a la conversión de las baterías de los VE de segunda vida en negocios de almacenamiento en red en 2015. Estos fabricantes no son los únicos que se ocupan de la reutilización de las baterías de los vehículos eléctricos, ya que BMW también tiene algunos proyectos en marcha.\n\nReciclaje de baterías de vehículos eléctricos\n\nGlgs insights declaró: 460.000 toneladas métricas de baterías de iones de litio iban a ser recicladas en 2020. Para ponerlo en perspectiva, se recuperaron las baterías de menos de 5,6 millones de vehículos eléctricos y se obtuvo ese peso. Sin embargo, los vehículos eléctricos sólo representaron alrededor del 6% de las ventas mundiales de automóviles en 2021. La unidad de reciclaje de 2020 es obviamente pequeña si se compara con la cantidad que potencialmente se obtendría del 20% de los vehículos eléctricos que se vendan en todo el mundo en 2025. En consecuencia, esto arroja un aumento masivo de baterías de VE en su segunda vida en las próximas dos décadas o menos.Las cifras siguen aumentando, y se estima que en 2030 podría haber un valor de 1,2 millones de toneladas métricas de baterías de VE disponibles para su reciclaje. Estas cifras muestran por qué la eliminación masiva es perjudicial y demuestran además la posible viabilidad comercial del reciclaje de las baterías de iones de litio.Empresas como Redwood materials están en camino de reciclar más de 1GWh de materiales de desecho de baterías. Y Li- cycle afirmó que un total de 1,7 millones de toneladas de baterías de iones de litio alcanzarían su vida útil en 2020. Por lo tanto, hay que tomar más medidas para reciclar estas baterías.En la siguiente sección se explica cómo la reutilización y el reciclaje de estas baterías de vehículos eléctricos pueden ser beneficiosos para nuestras redes.\n\nPosibles aplicaciones de las baterías de vehículos eléctricos reutilizadas y recicladas.\n\nEl uso de baterías de vehículos eléctricos recuperadas para almacenar energía está ganando adeptos como alternativa ecológica a las tecnologías de baterías tradicionales.Un informe de la EPA descubrió que las baterías de iones de litio son el origen de al menos 65 incendios en vertederos comunitarios. En consecuencia, la necesidad de reciclar estas baterías se hace evidente y puede tener una amplia gama de opciones y beneficios para las redes eléctricas y los consumidores en el proceso. Además, las baterías usadas de los vehículos eléctricos crean oportunidades para más actores energéticos. B2U es un ejemplo típico de empresa que almacena energía solar en las baterías usadas de los vehículos y gana dinero con ello.\n\n1. Para proveedores de energía y operadores de red\n\nEl almacenamiento de energía en baterías es una excelente manera de resolver los problemas de estabilidad de la red con las energías renovables. Los gestores de redes de distribución y los proveedores de energía pueden utilizar la batería como fuente de energía de reserva para la red. Cuando hay un exceso de suministro, la energía se almacena en la batería y luego se suministra a los consumidores cuando hay una gran demanda. La introducción de la energía de reserva de la red puede reducir los cortes de energía para los consumidores en momentos de un inconveniente crítico de la red hasta que se restablezca la estabilidad. Con la capacidad prevista de las baterías de vehículos eléctricos usados que estarán disponibles, el volumen de almacenamiento de reserva podría ser infinito.\n\n2. Para hogares y personas con recursos energéticos distribuidos\n\nLos consumidores y prosumidores de energía pueden aprovechar al máximo las baterías usadas y recicladas de los vehículos eléctricos para almacenar la energía de la red y de sus tejados. Desde el punto de vista económico, es una opción viable para aquellos que no pueden permitirse nuevos sistemas de almacenamiento de energía para su hogar, ya que hemos comprobado que algunas de estas baterías pueden mantener hasta el 60% de su capacidad después de su primer ciclo.\n\n3. Para las comunidades energéticas\n\nOtra opción es utilizar la batería como sistema de almacenamiento para comunidades energéticas. Estas comunidades están creciendo exponencialmente en Europa y pueden aprovechar al máximo las baterías de los vehículos eléctricos para almacenar la energía generada por su fuente local.\n\nExisten opciones de reciclaje en torno a varios tipos de baterías, desde las de plomo-ácido hasta las de iones de litio. Aunque las baterías de plomo-ácido son reciclables en un 99%, las de iones de litio son, con gran diferencia, las más utilizadas en los proyectos de almacenamiento de energía en baterías.Sin embargo, las baterías de iones de litio no pueden durar demasiado tiempo, lo que plantea un problema en sus capacidades funcionales.\n\nConclusión: ¿Es sostenible el reciclaje de las baterías de los vehículos eléctricos para el almacenamiento en la red?\n\nElreciclaje de las baterías de los vehículos eléctricos para el almacenamiento de energía en la red es un plan sostenible, pero tiene sus propios problemas: el desmontaje y la extracción de los valiosos componentes de una batería de iones de litio son difíciles. Además, se necesita mucho más para transportar estas baterías agotadas a los lugares de reciclaje, lo que supone alrededor del 40% del coste del reciclaje. Esto se atribuye al tamaño de un paquete de baterías para vehículos eléctricos. Estos paquetes oscilan entre los 100 kg y los 544 kg en el caso de los vehículos eléctricos de pasajeros y entre los 1300 kg y los 18000 kg en el caso de los vehículos eléctricos comerciales. Además, no es fácil encontrar un mercado para las baterías recicladas de los vehículos eléctricos que pueda ofrecer un incentivo económico a los recicladores de baterías, ya que el cobalto es el único componente rentable. Asíque, aunque el reciclaje es sostenible para el almacenamiento de energía en la red, nos enfrentamos a limitaciones normativas, económicas, técnicas y logísticas.No obstante, las ventas de vehículos eléctricos siguen aumentando, y en consecuencia, la cantidad de baterías de iones de litio. En consecuencia, un mayor número de baterías para vehículos eléctricos provocará un descenso de sus precios.",
+                                        "metadata": {
+                                            "url": "https://www.hivepower.tech/es//blog/es-el-reciclaje-de-las-bater%C3%ADas-ev-para-el-almacenamiento-de-energ%C3%ADa-en-la-red-un-plan-sostenible",
+                                            "source": "www.hivepower.tech",
+                                            "favicon": "https://cdn.prod.website-files.com/61eac581df4db0c02c06da3f/62591e5a688277273c61e054_Hive%20Logo.png",
+                                            "title": "¿Es la reutilización de las baterías de los vehículos para el ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.hivepower.tech",
+                                            "snippet": "Un análisis realizado en 2017 por Melin mencionó que el 75% de las baterías gastadas de los vehículos eléctricos se reutilizarán en una segunda ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con los fabricantes, como con expertos y con una empresa que se dedica al reacondicionamiento de las mismas.\n\nAunque a día de hoy los coches eléctricos representan apenas el 5% de las ventas en España, en un futuro más o menos cercano, debido a la legislación, van a ser la única alternativa. Pese a ello, muchos siguen sin verlos una opción interesante. Su falta de autonomía y su elevado precio son dos de sus principales inconvenientes, pero no son los únicos.\n\nHay quienes incluso se atreven a afirmar que no son tan ecológicos como parece, porque pese a que hay estudios que concluyen que a lo largo de su vida útil un coche eléctrico contaminan hasta un 30% menos que los de gasolina o diésel, tampoco se puede obviar que se contamina mucho para su fabricación y todavía más cuando terminan su vida útil. Y es precisamente en este último punto en el que me voy a centrar ahora:\n\n¿Qué pasa con las baterías de los coches cuando terminan su vida útil?\n\nPara responder a esta pregunta no me voy a basar únicamente en mi experiencia como periodista especializado en la información de motor, sino que me he puesto en contacto con expertos en la materia y he hablado tanto con los fabricantes de coches, empresas de reciclaje e incluso un profesor de universidad para tratar de transmitir un mensaje claro y que implique a todos los actores envueltos en este proceso.\n\nEl profesor de la Escuela STEAM de la Universidad Europea de Canarias José Fernando Pérez habla claro sobre el tema y apunta que \"las baterías de litio plantean importantes desafíos ambientales, sociales y económicos\".\n\nEn concreto, menciona algo de lo que ya se ha hablado largo y tendido: \"Uno de los problemas más destacados es la extracción de materiales necesarios para la producción de estas baterías, como el litio y el cobalto, que conlleva graves impactos ambientales y sociales en las regiones donde se lleva a cabo, incluida la deforestación, la contaminación del agua e, incluso, la explotación laboral\".\n\nY entre las posibles soluciones para minimizar el impacto que esto supone plantea precisamente \"el reciclaje para la recuperación de los componentes más valiosos al final de su vida útil\". Pero no es un proceso fácil...\n\nApunta que \"uno de los puntos clave es la automatización de este proceso [de reciclaje], que permitiría minimizar el riesgo laboral y favorecer la rentabilidad económica del proceso. Sin embargo, los robots son muy eficientes en ambientes muy estructurados, como líneas de ensamblado, pero no en líneas de ‘desensamblado’\".\n\n\"El principal reto, por tanto, está en el desarrollo del software de inteligencia artificial que permita fabricar robots con la suficiente flexibilidad para trabajar en líneas de ‘desensamblado’, más caóticas dada la variedad de diseño de las baterías actuales\".\n\nAunque reconoce que \"un paso intermedio sería el uso de robots colaborativos que permiten crear un espacio de trabajo híbrido en el que las máquinas y los humanos colaboran sinérgicamente\".\n\nNo obstante, teniendo en cuenta que la expansión de los coches eléctricos está siendo muy progresiva y que todos los fabricantes ofrecen una garantía en la batería de 8 años, conviene precisar que no se esperan volúmenes de devolución de baterías importantes hasta finales de la década de 2020, como pronto.\n\n¿Cómo afrontan los fabricantes el reciclaje de baterías?\n\nEn este contexto es interesante poner sobre el tapete lo que están haciendo los fabricantes de coches. Y que mejor que comenzar con uno de los grupos más volcados en la electrificación, el Grupo Stellantis, que en su portfolio de marcas (Peugeot, Citroën, Opel, DS, Jeep...) tiene cada vez más coches electrificados. Por tanto, su manera de proceder en materia de reciclaje representa un buen ejemplo de hacia dónde se dirige la industria.\n\nPues bien, el conglomerado empresarial comandado por Carlos Tavares, CEO de la compañía, ha implementado lo que han denominado la estrategia de las 4 R (Refabricar, Reparar, Reutilizar, Reciclar) para ello ha creado un Hub de Economía Circular en su factoría Mirafiori (Italia).\n\nAquí me voy a centrar la última de esas cuatro R, la que alude al reciclaje, que es lo que nos interesa. En este sentido, hay que decir que Stellantis lo enfoca con el objetivo de recuperar materiales con el fin de devolverlos al circuito de producción.\n\nSegún Stellantis: \"estamos haciendo un cambio de modelo de producción y consumo, pasando de una economía lineal -caracterizada por el enfoque “take-make-dispose”- a una economía circular que implica el uso circular de recursos y productos, para que duren el mayor tiempo posible, minimizando así los residuos, reduciendo la demanda de nuevas materias primas, el consumo de energía y las emisiones\".\n\nEn este sentido, Stellantis se ha asociado con la empresa Orano de manera específica para el reciclaje de baterías de los coches electrificados y de los materiales contenidos en las mismas, con el objetivo de lograr la reutilización del cobalto, el níquel y el litio. Así confían en poder alcanzar su plan estratégico 'Dare Forward 2030', con el que pretende convertirse en una compañía con cero emisiones netas de carbono en 2038.\n\nPor apuntar un enfoque diferente, también me he puesto en contacto con BMW, donde me confirman que \"los materiales residuales y tierras raras de las baterías se recogerán en los centros de reciclado, se clasificarán y se devolverán al ciclo de producción de células\".\n\nAdemás de trabajar en el proceso de fabricación de las células, los expertos del Grupo BMW también se centran en la reutilización de materiales y componentes de toda la batería tras su uso inicial en el vehículo.\n\nY como hito destacado, me confirman que \"en el Centro de Competencia de Celdas de Batería de Múnich, se han fabricado y probado las primeras celdas de batería fabricadas con material de cátodo 100% reciclado y/o secundario utilizando la tecnología más avanzada\".\n\nAdemás, apuntan que sus \"proveedores de células ya están suministrando células de baterías que contienen materias primas secundarias (por ejemplo, níquel) procedentes de diversas fuentes de baterías usadas (incluidos los residuos de producción)\".\n\nEl objetivo a largo plazo del Grupo BMW es reutilizar todas las materias primas en baterías de alto voltaje reciclables.\n\nEl reciclaje de baterías comienza a ser algo de lo que se habla de forma regular, pero no es algo nuevo. De hecho, el Grupo Volkswagen lleva ya tres años inmerso en este proceso, ya que la planta piloto que abrieron en Salzgitter (Alemania) entró en funcionamiento en el año 2021 con el objetivo de recuperar materias primas valiosas de las baterías de iones de litio.\n\nNo obstante, en esta planta solo reciclan baterías que ya no se pueden utilizar para otros fines. Antes de que se recicle la batería, un análisis determina si la batería todavía es lo suficientemente potente como para que se le dé una segunda vida en los sistemas de almacenamiento de energía móviles, como la estación de carga rápida flexible o el robot de carga móvil, por ejemplo.\n\nSegún los propios datos de VW, en esta labor logran extraer el litio, el níquel, el manganeso y el cobalto, junto con el aluminio, el cobre y los plásticos, consiguiendo a largo plazo una tasa de reciclaje superior al 90%. El ahorro de CO2 se calcula en aproximadamente 1,3 toneladas por batería de 62 kWh fabricada con cátodos hechos de material reciclado y con energía renovable.\n\nEl punto de vista de una empresa de reciclaje de baterías\n\nY para descubrir si estos datos son ciertos, he contactado con Germán Agulló, CEO y cofundador de GDV Mobility, empresa española especializada en la reparación y reciclaje de baterías, que trabaja tanto para talleres como para fabricantes (asiáticos) de coches.\n\nGermán confirma que, efectivamente, \"actualmente en el proceso de recuperación se trabaja cada una de las celdas con una recuperación directa, para acabar llegando al 90% de su vida útil y terminar el proceso con una batería muy cercana a nueva\".\n\nEn este sentido, Agulló apunta un punto de vista interesante: \"Las baterías suponen el 64% de las pérdidas de leads cuando el posible cliente se entera del alto coste que podría tener (una batería de coche está en torno a los 12.000 euros)\".\n\nMientras que si se llevan a cabo procesos de reciclaje \"el coste podría ser similar al de cambiar una caja de cambios\".\n\n¿Qué ventajas hay al reciclar las baterías?\n\nEl fundador de GDV apunta tres puntos a favor: en primer lugar se logra reducir los costes. \"En casos como empresas de flotas hemos conseguido reducir hasta en un 60% su gasto en inversiones de adquisición de vehículos, consiguiendo que puedan llegar al break even por este simple gasto.\n\nEn segundo lugar apunta como beneficio la fidelización de la marca, porque al tener una buena gestión de las baterías, las marcas se podrán asegurar la vida de las mismas y así mejorar la postventa.\n\nY, finalmente, la reducción de la huella de carbono, ya que el proceso actual es demasiado contaminante y con un reacondicionamiento como el que elllos llevan a cabo se consigue reducir por cada batería de coche unas 37 toneladas de emiciones en CO2 (incluyendo el impacto de la producción -22 toneladas-, el reciclaje y la trituración -15 toneladas-).\n\nEl reciclaje de baterías de coches eléctricos supone todo un desafío, ya que para 2030 generaremos al año un total de 9 millones de toneladas de baterías para reciclar, según Germán Agulló. Por tanto, reciclar es algo básico a lo que hay que dar desde ya la importancia que merece.\n\nPorque, como dice el profesor José Fernando Pérez: \"la revolución del coche eléctrico para ser realmente ‘verde’ debe ir necesariamente acompañada no solo de una evolución en la fabricación, sino de un cambio de paradigma en cuanto a la reutilización y el reciclaje de las baterías\".",
+                                        "metadata": {
+                                            "url": "https://www.autobild.es/reportajes/pasa-baterias-coches-electricos-cuando-terminan-vida-util-hablamos-fabricantes-expertos-empresas-reciclaje-aclararlo-1378089",
+                                            "source": "www.autobild.es",
+                                            "favicon": "https://www.autobild.es/uploads/icons/autobild/favicon-192x192.png",
+                                            "title": "¿Qué pasa con las baterías de los coches eléctricos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.autobild.es",
+                                            "snippet": "Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con fabricantes, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La importancia del reciclaje de las baterías de los automóviles electrificados\n\nEl paso del tiempo, el análisis del impacto ambiental de las actividades humanas y el actual contexto mundial, demuestran la importancia de reducir, reutilizar y reciclar prácticamente todo aquello que sea susceptible de ser incorporado, de nuevo, a un ciclo de fabricación.\n\nSi atendemos al sector industrial, en concreto al de la construcción de vehículos, la electrificación que se adentra en una expansión sin precedentes, tiene como uno de los principales retos el de la gestión de las baterías de los automóviles electrificados.\n\nDe hecho, la normativa legal del marco europeo, obliga a los fabricantes de coches al tratamiento de los acumuladores eléctricos una vez han quedado en desuso, bien sea llegado el fin de su vida útil, bien sea debido a una declaración como siniestro del vehículo.\n\nEn cualquier caso, la retirada y gestión de estos dispositivos de almacenamiento eléctrico es una manera que permite a los constructores la extracción, aprovechamiento y reincorporación de cerca del 95 por ciento de los materiales más valiosos de una batería de un coche eléctrico.\n\nPor qué es tan necesario reciclar las baterías usadas\n\nMetales fundamentales en el funcionamiento de un acumulador energético como el litio, níquel, cobalto, manganeso o el cobre, pueden ser extraídos como materia prima o, bien, pueden ser aprovechados a partir de baterías retiradas.\n\nEste hecho conlleva y fomenta la reducción de la explotación de los recursos del planeta, contribuyendo a un equilibrio ambiental en el uso responsable de la materia prima.\n\nA la vez, reutilizando materiales procedentes de baterías que han quedado fuera de servicio, se reduce la producción de gases de efecto invernadero, lo cual, ayuda al fomento del equilibrio neutro de residuos como es el dióxido de carbono.\n\nFinalmente, trabajando en la reincorporación de materiales ya presentes en acumuladores previamente fabricados, se permite un ahorro en costes de extracción y de fabricación.\n\nLa industria del automóvil apuesta por la nueva movilidad eléctrica\n\nAsí, fabricantes como Volkswagen, establecen sedes de trabajo donde ponen a disposición de sus especialistas las herramientas necesarias para la recuperación de los elementos esenciales para la fabricación de nuevas baterías. Esto sucede en las instalaciones alemanas del Centro Tecnológico de Baterías de Volkswagen en Salzgitter.\n\nAllí, gracias a contar con la tecnología de vanguardia, se trabaja en el diseño y fabricación de nuevos acumuladores que den vida a los diferentes sistemas, tanto motrices como de servicio, de coches de última generación.\n\nEsta nueva movilidad eléctrica, más sostenible, se basa en propuestas como la que viene de la mano de los integrantes de la familia de vehículos 100 por 100 eléctricos Volkswagen ID.\n\nUn abanico de posibilidades con la que la marca alemana pretende dar respuesta a las necesidades de la nueva forma de entender el uso del vehículo particular donde el primero de los coches eléctricos que será comercializado es el Volkswagen ID.3, un compacto polivalente y totalmente eléctrico que anticipa la llegada de otros vehículos como la versión de producción del todocamino de la familia el Volkswagen ID.4, la de la berlina a partir de la propuesta que supuso el flamante Volkswagen ID. Vizzion, sin olvidar la actualización para el siglo XXI de un vehículo multifuncional destinado al transporte de personas y mercancías que será el que tenga al Volkswagen ID. Buzz como prototipo que derive en una furgoneta de fabricación en serie.\n\nAdemás de estas propuestas completamente eléctricas, Volkswagen apuesta por los automóviles híbridos de nuevo cuño que recurren al impulso de la electrificación. De esta manera apoyará y expandirá la nueva movilidad eléctrica con modelos como son los de la nueva generación del Volkswagen Passat GTE, en cualquiera de sus variantes de carrocería, o la del afamado compacto de referencia por excelencia, el Volkswagen Golf cuya versión como GTE será uno de los estandartes de la nueva era de la electrificación de la marca.",
+                                        "metadata": {
+                                            "url": "https://forococheselectricos.com/2020/06/la-importancia-del-reciclaje-de-las-baterias-de-los-automoviles-electrificados.html",
+                                            "source": "forococheselectricos.com",
+                                            "favicon": "https://forococheselectricos.com/favicon.ico?favicon.b2cfa4c6.ico",
+                                            "title": "La importancia del reciclaje de las baterías de los automóviles ...",
+                                            "type": "web_search",
+                                            "base_url": "https://forococheselectricos.com",
+                                            "snippet": "Finalmente, trabajando en la reincorporación de materiales ya presentes en acumuladores previamente fabricados, se permite un ahorro en costes ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las ventas de vehículos eléctricos siguen aumentando en todo el mundo, por lo que es importante aclarar qué ocurrirá cuando estos coches eléctricos dejen de utilizarse. Una cuestión especialmente apasionante es qué se puede hacer con las baterías de los coches eléctricos, la costosa pieza central de todo coche eléctrico, que contiene valiosas materias primas que suelen extraerse de forma perjudicial para el medio ambiente.\n\nUn equipo de investigación de la Universidad de Münster, el Centro de Investigación Fraunhofer para la Producción de Pilas de Batería (FFB) y el Laboratorio Nacional Lawrence Berkeley (EE UU) ha investigado precisamente esto: ¿Merece más la pena reciclar las viejas baterías de los coches eléctricos? En otras palabras, ¿descomponerlas en sus partes individuales y recuperar las materias primas, principalmente para la producción de nuevas baterías de coches eléctricos, o es mejor reciclarlas secundariamente, por ejemplo, como unidades estacionarias de almacenamiento de energía para sistemas solares? Esto último se conoce en la industria como segunda vida o aplicación de segundo uso.\n\nAmbas estrategias tienen ventajas. El reciclaje permite recuperar materias primas importantes como el litio, el cobalto y el níquel y utilizarlas para nuevas baterías. Esto ayuda a reducir la dependencia de la minería, perjudicial para el medio ambiente, y al mismo tiempo, a depender menos de China, que domina el mercado mundial del litio, puede dictar los precios y además trabaja con restricciones a la exportación. El estudio lo demuestra: En California, alrededor del 61% de la demanda de baterías nuevas para coches eléctricos podría cubrirse con el reciclaje en 2050.\n\nLa estrategia de segundo uso, en cambio, sigue utilizando las baterías después de que hayan cumplido su función en los coches eléctricos, por ejemplo, como almacenamiento estacionario de energía solar o eólica en hogares o redes eléctricas. Aunque estas baterías ya no proporcionen toda la energía, son completamente suficientes para aplicaciones estacionarias. Los investigadores demuestran que estas baterías desechadas podrían cubrir toda la demanda de almacenamiento estacionario para 2030. Las baterías de litio-hierro-fosfato (LFP) son especialmente adecuadas para ello, ya que de todos modos requieren menos materias primas.\n\nYa existen instalaciones de segundo uso en funcionamiento en Europa, como por ejemplo Aeropuerto de Roma y el Planta de Porsche en Leipzig. El La startup alemana Voltfang también se ha especializado en este ámbito.\n\nHuella de carbono: la reutilización va por delante\n\nPero, ¿qué método ahorra más gases de efecto invernadero? En este caso, el segundo uso sale ganando. El estudio calculó que si California apuesta sistemáticamente por el segundo uso, se pueden ahorrar unos 55,8 millones de toneladas equivalentes de CO₂ de aquí a 2050; es decir, tanto como las emisiones anuales de más de doce millones de coches con motor de combustión. La cifra correspondiente al reciclaje es de 48,3 millones de toneladas.\n\nAunque durante el reciclaje se procesan más pilas, el beneficio adicional de la reutilización en una aplicación estacionaria de almacenamiento de energía pesa más en la huella de carbono. El estudio también tiene en cuenta las rutas de transporte y los procesos de reprocesamiento.\n\nA pesar de las ventajas del uso secundario, los científicos recomiendan invertir en la ampliación de la infraestructura de reciclaje en una fase temprana. Esto se debe a que en cuanto se cubra la demanda de almacenamiento estacionario, se volverá a producir más material de reciclaje. Sólo un enfoque sistémico con la planificación coordinada de la producción, el uso secundario y el reciclaje puede permitir una economía circular sostenible para las pilas a largo plazo.\n\nEntonces, ¿qué hacer con la creciente cantidad de pilas usadas? La respuesta de los investigadores se decanta por una inteligente combinación. Primero, un segundo uso, cuando sea posible, y luego el reciclaje. De este modo, se pueden conservar los recursos, reducir los gases de efecto invernadero y aliviar el medio ambiente. California podría ser pionera en este sentido y demostrar cómo la electromovilidad no sólo conduce de forma limpia, sino que también termina de forma limpia.\n\npubs.acs.org, uni-muenster.de",
+                                        "metadata": {
+                                            "url": "https://www.electrive.com/es/2025/07/30/proyecto-de-investigacion-para-determinar-si-el-reciclaje-o-la-2a-vida-son-mas-ecologicos/",
+                                            "source": "www.electrive.com",
+                                            "favicon": "https://www.electrive.com/media/2023/09/cropped-electrive-reduced-logo-800x800px-180x180.png",
+                                            "title": "¿Es el reciclaje de baterías de VE o una segunda vida ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.electrive.com",
+                                            "snippet": "El estudio lo demuestra: En California, alrededor del 61% de la demanda de baterías nuevas para coches eléctricos podría cubrirse con el ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Aspectos destacados: reciclaje de baterías para vehículos eléctricos 2026\n\n🏭 Nuevas plantas: Cirba Solutions abre una planta en Ohio con fondos federales\n\n💰 Financiamiento: La ley de infraestructura bipartidista impulsa las expansiones a gran escala\n\n⚙️ Avances tecnológicos: Desde la trituración de masa negra → hidrometalurgia + reciclaje directo\n\n🌍 Crecimiento: Se prevé que el mercado crezca un 40,8% a una tasa compuesta anual en 10 años\n\n🔋 Impacto: Se recupera hasta el 95% del litio, el cobalto, el níquel y el manganeso\n\n📈 Escala: Se esperan 200 millones de vehículos eléctricos en todo el mundo para 2030, lo que aumentará la urgencia del reciclaje\n\n‍\n\nEl apoyo federal impulsa nuevas instalaciones de reciclaje\n\nLos avances recientes en el reciclaje de baterías para vehículos eléctricos en EE. UU. incluyen importantes ampliaciones de instalaciones, como la planta de Cirba Solutions en Ohio, que se inauguró recientemente tras recibir fondos federales, y los esfuerzos para construir nuevas instalaciones a gran escala en otras partes del país para satisfacer la creciente demanda.\n\nAún quedan desafíos clave, incluida la escasez prevista de baterías viejas para vehículos eléctricos y la necesidad de sistemas de recolección eficientes, pero se están logrando avances a través de inversiones federales, nuevas tecnologías de reciclaje y colaboraciones entre empresas.\n\nLa Ley de Infraestructura Bipartidista y otros programas federales están proporcionando fondos sustanciales para nuevas instalaciones de reciclaje de baterías para vehículos eléctricos, como la nueva planta de soluciones Cirba en Ohio.\n\nAvances tecnológicos\n\nVarias empresas estadounidenses están desarrollando métodos de reciclaje más eficientes y sostenibles. Hace unos años, las baterías de iones de litio para vehículos eléctricos se trituraron y se convirtieron en un polvo negro llamado «masa negra» que se combina con ácido sulfúrico.\n\nLas empresas de reciclaje separan minerales tan costosos como el níquel y el cobalto para reutilizarlos en las nuevas baterías de los vehículos eléctricos. Pero ahora, los métodos más nuevos disuelven los minerales para recuperar material más útil y no producir residuos.\n\n¿Tienes curiosidad por saber cómo funcionan las baterías de los vehículos eléctricos y por qué es importante el reciclaje? Lee Conceptos básicos de las baterías para vehículos eléctricos: cuidado y longevidad\n\nEstos materiales reciclados ahora están integrados en la cadena de suministro para que los utilicen los fabricantes de baterías. Además, el reciclaje directo se utiliza para desmontar las baterías de los vehículos eléctricos sin triturarlas para reutilizar los componentes directamente.\n\nLa creciente necesidad\n\nUn informe reciente de Sostenibilidad en línea sitios en los que el mercado mundial de reciclaje de baterías para vehículos eléctricos crecerá a una tasa de crecimiento anual compuesta del 40,8 por ciento en los próximos diez años. De hecho, el mercado del reciclaje está pasando de ser un sector especializado a convertirse en un pilar fundamental de la economía de energía limpia.\n\nLa urgencia de encontrar formas de reutilizar las baterías antiguas de los vehículos eléctricos se acelera a medida que crece la adopción de vehículos eléctricos en todo el mundo. Un informe de Vantage Market Research señala: «Para 2030, se espera que haya más de 200 millones de vehículos eléctricos en circulación en todo el mundo».\n\n¿Estás pensando en la futura tecnología de carga y reciclaje? ¡Explora El futuro de la carga de vehículos eléctricos\n\nEl aumento del reciclaje de baterías de vehículos eléctricos redunda en seguridad mineral, ya que recupera hasta el 95 por ciento de los materiales clave de las baterías de iones de litio, como el litio, el cobalto, el níquel y el manganeso.\n\nSegún el informe de Vantage, los avances tecnológicos están impulsando el reciclaje de baterías para vehículos eléctricos, y los avances recientes incluyen los centros hidrometalúrgicos de Li-Cycle en Norteamérica, la expansión de Redwood Materials en EE. UU. y la megacentral de reciclaje de Umicore en Europa.\n\n«El sector ha entrado en una fase de comercialización decisiva, que abre oportunidades sin precedentes para los fabricantes de automóviles, los proveedores de energía y los inversores centrados en la seguridad de los materiales críticos», añadió Mrudula Shah, investigadora principal de Vantage Market Research.\n\n‍\n\n🔋 Información sobre la batería y la carga de vehículos eléctricos",
+                                        "metadata": {
+                                            "url": "https://www.greencars.com/es-us/noticias/El%20reciclaje%20de%20bater%C3%ADas%20para%20veh%C3%ADculos%20el%C3%A9ctricos%20se%20est%C3%A1%20convirtiendo%20en%20una%20industria%20cr%C3%ADtica%20de%20energ%C3%ADa%20limpia",
+                                            "source": "www.greencars.com",
+                                            "favicon": "https://cdn.prod.website-files.com/5ec5102f3728f727e0321c53/6769983116860b36f6eb48bf_greencars-32x32-favicon.png",
+                                            "title": "El reciclaje de baterías para vehículos eléctricos se está ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.greencars.com",
+                                            "snippet": "El aumento del reciclaje de baterías de vehículos eléctricos redunda en seguridad mineral, ya que recupera hasta el 95 por ciento de los materiales clave de las ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El mercado de la electrónica de potencia para automóviles alcanzará los 1.400 millones de TTP4T en 2030. Crecerá a un fuerte ritmo anual de 4,2% a partir de 2024.[1]. Este crecimiento se ve impulsado por el cambio mundial hacia los vehículos eléctricos (VE). Los factores clave de este cambio son unas normas de emisiones más estrictas y una creciente demanda de opciones de transporte ecológicas.\n\nA medida que la industria crezca, las baterías de los coches eléctricos distinguirán a los vehículos de alta calidad de los normales. Nueva tecnología de baterías para VE está cambiando el sector de los vehículos eléctricos. Este cambio hace que los vehículos eléctricos sean más seguros y fiables.\n\n（Foto con copyright de https://www.pexels.com/zh-cn/photo/9800006/）\n\nEl último boom de la industria del vehículo eléctrico\n\nCada vez más consumidores optan por los vehículos eléctricos. Los gobiernos de todo el mundo están poniendo en marcha políticas. Estas políticas animan tanto a los fabricantes como a los compradores de VE. Por ejemplo, el gobierno federal de EE.UU. pretende que 50% de los vehículos nuevos sean libres de emisiones para 2030.[2].\n\nPaíses de todo el mundo se fijan objetivos de emisiones cero. La nueva tecnología de baterías facilita su adopción.\n\nLos compradores ecológicos prefieren los VE. También son muchos los que eligen estos coches para ahorrar en combustible a largo plazo.\n\nEl aumento de la demanda ha hecho que el mercado sea muy competitivo. La demanda de los consumidores de mayor autonomía, carga más rápida y precios más bajos está intensificando la competencia.\n\nLa Agencia Internacional de la Energía (AIE) informa de que las ventas mundiales de vehículos eléctricos alcanzarán casi los 14 millones en 2023. El parque mundial de coches eléctricos cuenta ahora con unos 40 millones de vehículos. En 2023, China, Europa y Estados Unidos representaron 95% de las ventas mundiales de vehículos eléctricos. Solo en Europa, se vendieron casi 20% más de VE en 2023 en comparación con el año anterior[3].\n\nLa industria del vehículo eléctrico está llamada a crear un boom (2025)\n\nEl rápido crecimiento de la industria de los vehículos eléctricos está afectando también a muchos otros sectores. La necesidad de baterías avanzadas para coches eléctricos aumenta rápidamente. Estos sistemas son clave para que el vehículo consuma menos energía. Esto, a su vez, aumenta la seguridad y el rendimiento.\n\nLa nueva tecnología de baterías ayuda a los fabricantes de vehículos eléctricos:\n\nAumentar la autonomía de los vehículos\n\nAcelerar la carga\n\nMejorar la seguridad\n\nProlongar la vida útil\n\n1) Desarrollo y estado actual de la tecnología de baterías para VE\n\nEn los últimos años, la nueva tecnología de baterías para vehículos eléctricos ha avanzado mucho. Las baterías de iones de litio se utilizan mucho en los coches eléctricos. Ofrecen una gran densidad energética y una larga vida útil.\n\nLas innovaciones en los sistemas de gestión de baterías (BMS) optimizan aún más el rendimiento. Estos sistemas hacen un uso eficiente de la energía y ayudan a mantener los estándares de seguridad.\n\nAdemás, la investigación sobre materiales y configuraciones alternativas, como las baterías de estado sólido, contribuye a mejorar el almacenamiento y la eficiencia energética.\n\n2) Enfoque competitivo en el sector de los vehículos eléctricos\n\nPara seguir siendo competitivos, los fabricantes de VE se centran en importantes parámetros de rendimiento de las baterías, como:\n\nAlcance aumentado: Uno de los principales objetivos de los fabricantes de automóviles es aumentar la autonomía de los vehículos eléctricos con una sola carga. La nueva química de las baterías y la mayor densidad energética permiten a los vehículos igualar la autonomía de los coches de gasolina.\n\nUno de los principales objetivos de los fabricantes de automóviles es aumentar la autonomía de los vehículos eléctricos con una sola carga. La nueva química de las baterías y la mayor densidad energética permiten a los vehículos igualar la autonomía de los coches de gasolina. Capacidad de carga rápida: La nueva tecnología de baterías para VE reduce los tiempos de carga con diseños innovadores. Algunos modelos de VE alcanzan ahora una carga de 80% en sólo 18 minutos. Esto demuestra el brillante futuro de la nueva tecnología de baterías para VE.\n\nLa nueva tecnología de baterías para VE reduce los tiempos de carga con diseños innovadores. Algunos modelos de VE alcanzan ahora una carga de 80% en sólo 18 minutos. Esto demuestra el brillante futuro de la nueva tecnología de baterías para VE. Seguridad: Las soluciones BMS modernas utilizan algoritmos inteligentes. Comprueban el estado de carga, controlan la temperatura y prevén las necesidades de mantenimiento. Estas funciones alargan la vida útil de la batería, mantienen un funcionamiento estable y mejoran el rendimiento del vehículo eléctrico.\n\nLas soluciones BMS modernas utilizan algoritmos inteligentes. Comprueban el estado de carga, controlan la temperatura y prevén las necesidades de mantenimiento. Estas funciones alargan la vida útil de la batería, mantienen un funcionamiento estable y mejoran el rendimiento del vehículo eléctrico. Larga vida útil: La durabilidad de las baterías de los vehículos eléctricos influye directamente en la longevidad del vehículo y en el coste total de propiedad. La investigación actual en nuevas tecnologías de baterías para VE tiene como objetivo crear baterías que puedan soportar más ciclos de carga con menos desgaste.\n\nExplora la Última tecnología en baterías para VE\n\nREPT BATTERO es una empresa tecnológica especializada en la nueva tecnología de baterías para vehículos eléctricos. Mostramos nuestro compromiso en el 90º Salón del Automóvil de París el 14 de octubre de 2024. Nuestra nueva tecnología de baterías para coches eléctricos se centra en áreas importantes del futuro mercado de los vehículos eléctricos. Aborda aspectos clave del rendimiento, la seguridad y la fiabilidad de los vehículos.\n\nREPT BATTERO en el 90 Salón del Automóvil de París\n\nREPT BATTERO celebró el primer aniversario de su filial europea presentando nuevas tecnologías de baterías en el 90º Salón del Automóvil de París.\n\nDurante el evento celebramos el Foro Ecológico de la Nueva Energía y la Noche de las Marcas. En ellos se debatió sobre las emisiones netas cero y un futuro neutro en carbono.\n\nLas nuevas soluciones tecnológicas de REPT BATTERO para baterías de vehículos eléctricos son:\n\nTecnología de células de fosfato de litio, manganeso e hierro (LMFP)\n\nLa tecnología LMFP es un gran avance en baterías de automóvil. Combina las ventajas de las químicas del fosfato de hierro y litio (LFP) y del níquel cobalto manganeso (NCM). Además, la tecnología única de REPT BATTERO Tecnología Wending la mejora. Esta nueva tecnología ofrece densidades de energía de 430-520 Wh/L. Por tanto, puede alimentar vehículos durante más de 700 km. Responde a la demanda del sector de mayores autonomías.\n\nLas nuevas innovaciones en gestión térmica reducen la impedancia de la célula y la generación de calor. Esto ayuda a mantener el máximo rendimiento, incluso en condiciones difíciles. Esta futura tecnología de baterías para coches eléctricos también funciona bien en climas fríos. Mantiene más de 80% de capacidad de descarga a -30°C.\n\nAdemás, las baterías LMFP pueden cargarse de 10% a 80% en menos de 18 minutos. Esta carga rápida es clave para los VE actuales.\n\nGBaterías REEN CTP\n\nLa tecnología GREEN CTP (Cell-to-Pack) de REPT BATTERO es otro gran avance en baterías para coches eléctricos. Estos packs de baterías utilizan un sistema de fijación mecánica, no adhesivos. Esto difiere de los diseños tradicionales. Esto facilita la sustitución de las celdas. Reduce los costes de mantenimiento y ayuda a que la batería dure más.\n\nEsta batería de alta densidad tiene una densidad energética de 145 Wh/kg. Admite autonomías de más de 500 km y permite una carga ultrarrápida de 10% a 80% en sólo 16 minutos.\n\nEstas características coinciden con las principales prioridades de los VE. Entre ellas están la durabilidad, la mayor autonomía y la carga rápida.\n\nGREEN BANK Baterías para PHEVs\n\nA medida que aumenta el número de personas que desean vehículos eléctricos híbridos enchufables (PHEV), la serie GREEN BANK ofrece soluciones a medida. Estas soluciones tienen rangos de potencia de 10 a 55 kWh. Los vehículos con baterías GREEN BANK consumen más de 35% menos de combustible que los modelos tradicionales.\n\nConclusión\n\nLa innovación en la tecnología de las baterías es crucial para el futuro del sector de los vehículos eléctricos.\n\nREPT BATTERO es un fabricante de baterías para automóviles comprometido con la investigación y el desarrollo continuos de las mejores baterías para coches eléctricos. Seguiremos centrándonos en el rendimiento, la seguridad y la sostenibilidad de los vehículos eléctricos.\n\nExplorar estos nuevos avances tecnológicos en baterías ayudará a los fabricantes de vehículos eléctricos a triunfar en un mercado tan difícil.\n\nReferencias:\n\n[1] Mercado de la electrónica de potencia para automoción - Previsiones (2025-2031). Disponible en: https://www.industryarc.com/Research/Automotive-Power-Electronics-Market-Research-501166 (Consultado: 7 de enero de 2025）\n\n[2] FACT SHEET: Biden-Harris Administration Announces New Private and Public Sector Investments for Affordable Electric Vehicles. Disponible en: https://www.presidency.ucsb.edu/documents/fact-sheet-biden-harris-administration-announces-new-private-and-public-sector-investments (Consultado: 7 de enero de 2025）\n\n[3] Perspectivas mundiales del VE 2024. Disponible en: https://www.iea.org/reports/global-ev-outlook-2024 (Consultado: 7 de enero de 2025）",
+                                        "metadata": {
+                                            "url": "https://www.reptbattero.com/es/blog/new-ev-battery-technology-gain-the-highest-ev-competitiveness/",
+                                            "source": "www.reptbattero.com",
+                                            "favicon": "https://www.reptbattero.com/wp-content/uploads/2023/09/REPT-BATTERO-logo-2-150x150.png",
+                                            "title": "Nueva tecnología de baterías para vehículos eléctricos",
+                                            "type": "web_search",
+                                            "base_url": "https://www.reptbattero.com",
+                                            "snippet": "La investigación actual en nuevas tecnologías de baterías para VE tiene como objetivo crear baterías que puedan soportar más ciclos de carga ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El reto oculto de las baterías usadas\n\nLa transición hacia el vehículo eléctrico avanza con fuerza, pero en paralelo surge un problema creciente: ¿qué hacer con las baterías al final de su vida útil? Las baterías de tipo fosfato de hierro y litio (LFP) se emplean cada vez más en automóviles, furgonetas y autobuses eléctricos por su coste más bajo y estabilidad térmica. Sin embargo, su reciclaje tradicional es económicamente difícil, ya que los materiales residuales (hierro, fósforo, litio en pequeñas cantidades) tienen poco valor comparados con los costes de tratamiento.\n\nUn grupo de investigadores de la Universidad de Wisconsin‑Milwaukee ha desarrollado una técnica pionera que aborda este vacío. El método convierte baterías agotadas en fertilizante agrícola, mediante un proceso de intercambio iónico que recupera el litio y permite que otros elementos útiles (fósforo, potasio, nitrógeno) queden disponibles para uso agronómico.\n\nCómo funciona el proceso técnico\n\nMateriales de partida\n\nLa técnica se aplica a baterías LFP usadas. Tras su vida útil (por ejemplo 8‑12 años en vehículo) las celdas contienen materiales que ya no sirven para movilidad pero que aún pueden tener valor químico.\n\nIntercambio iónico y reutilización\n\nEl primer paso consiste en lixiviar los materiales de la batería, separando el litio mediante resinas de intercambio catiónico, lo que permite recuperar más del 90 % del litio de la pila.\n\nAl mismo tiempo, los residuos resultantes contienen fósforo, potasio y nitrógeno —componentes clave de muchos fertilizantes agrícolas. El proceso consiste en sustituir el litio por potasio, liberando esos otros elementos para su reutilización.\n\nEl método es relativamente rápido (el equilibrio se alcanza en unos 20 min) y se plantea como de bajo coste y escalable.\n\nVentajas y contexto estratégico\n\nEste nuevo enfoque ofrece múltiples beneficios:\n\nReduce el volumen de residuos difíciles y costosos de tratar, convirtiendo un residuo en un recurso de valor.\n\nDisminuye la necesidad de extraer minerales vírgenes (potasio, fósforo, litio), lo que comporta menores emisiones, menor transporte y menor impacto ambiental.\n\nContribuye a la circularidad del sector de movilidad eléctrica y a fortalecer cadenas nacionales de suministro frente a la dependencia de importaciones.\n\nDesde el punto de vista estratégico, esto llega en un momento clave: regulaciones más estrictas sobre baterías, objetivos de economía circular, y un sector agrícola ávido de alternativas para fertilizantes. En EE.UU., el proyecto cuenta con apoyo del United States Department of Agriculture (USDA) para avanzar hacia pruebas agrícolas de campo.\n\nDesafíos por superar\n\nAunque la técnica ha demostrado su viabilidad en laboratorio, todavía quedan obstáculos para su comercialización y escala industrial:\n\nConfirmar la eficacia agronómica del fertilizante resultante frente a productos convencionales. El equipo de UWM ha señalado que el siguiente paso es aplicar el material a un cultivo de tomates de una hectárea para validación.\n\nGarantizar que el proceso sea rentable: actualmente el coste de reciclar baterías supera el valor de los materiales recuperados, pero al añadir valor como fertilizante la ecuación mejora.\n\nEstablecer una cadena logística para recolectar baterías agotadas, procesarlas, separar materiales y distribuir el fertilizante resultante. La transición a escala requiere inversión, infraestructura y regulación clara.\n\nImplicaciones para España y Europa\n\nLa directiva europea sobre baterías exige un porcentaje mínimo de materiales reciclados en nuevas baterías, lo que impulsa la investigación y adopción de técnicas como esta.\n\nEspaña, con una industria automovilística relevante y un sector agrícola potente, podría beneficiarse de la importación o adopción de este tipo de tecnología si se adapta al marco regulatorio europeo y se desarrollan plantas de tratamiento locales.\n\nLa combinación movilidad eléctrica + agricultura circular representa una oportunidad de innovación que trasciende el vehículo individual y abre sinergias entre sectores.\n\nPerspectiva futura\n\nEste cambio de paradigma representa un cambio de paradigma: pasar de ver las baterías agotadas como un problema de residuos, a considerarlas como carrocería de un nuevo recurso productivo. Si se escala con éxito, podría emerger un nuevo modelo de negocio que abarque:\n\nRecolección de baterías\n\nProcesamiento químico de intercambio iónico\n\nProducción de fertilizante\n\nDistribución al sector agrícola\n\nLa innovación de la Universidad de Wisconsin‑Milwaukee abre una nueva vía de sostenibilidad para el coche eléctrico y el mundo agrícola. El experimento está en marcha, y su éxito podría gestionar los residuos de movilidad de manera transformadora.",
+                                        "metadata": {
+                                            "url": "https://www.elconfidencialdigital.com/articulo/motor/asi-convierten-baterias-coche-electrico-producto-clave-agricultura/20251027120654986054.html",
+                                            "source": "www.elconfidencialdigital.com",
+                                            "favicon": "https://www.elconfidencialdigital.com/media/elconfidencialdigital/images/2021/01/01/2021010100000076295.png",
+                                            "title": "Así convierten las baterías de coche eléctrico en un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elconfidencialdigital.com",
+                                            "snippet": "Un equipo en EE.UU. convierte baterías usadas en fertilizante agrícola: conoce el proceso."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.366124549000233,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.366124549000233,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:47:59",
+                    "run_time": 4.366124549000233,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Qué es el proceso actual de reciclaje de baterías de coches eléctricos y qué porcentaje de baterías se reciclan actualmente?": [
+                                {
+                                    "El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.": null
+                                },
+                                {
+                                    "Aquí hay un desglose más detallado de cómo se realiza el reciclaje y qué porcentaje de la batería se puede recuperar:": null
+                                },
+                                {
+                                    "En resumen, aunque el porcentaje exacto de reciclaje puede variar según las circunstancias específicas y la tecnología utilizada, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos. y materiales estructurales.": null
+                                }
+                            ],
+                            "¿Cómo se compara el reciclaje de baterías de coches eléctricos con el reciclaje de baterías de otros vehículos?": [
+                                {
+                                    "El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.": null
+                                },
+                                {
+                                    "Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con los fabricantes, como con expertos y con una empresa que se dedica al reacondicionamiento de las mismas.": null
+                                },
+                                {
+                                    "En resumen, aunque el porcentaje exacto de reciclaje puede variar según las circunstancias específicas y la tecnología utilizada, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos. y materiales estructurales.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos sobre la viabilidad y eficiencia del reciclaje de baterías de coches eléctricos?": [
+                                {
+                                    "Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con los fabricantes, como con expertos y con una empresa que se dedica al reacondicionamiento de las mismas.": null
+                                },
+                                {
+                                    "El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.": null
+                                },
+                                {
+                                    "Es importante destacar que el reciclaje de baterías de coches eléctricos es un área de investigación y desarrollo en constante evolución. Los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental. Las empresas y organizaciones están trabajando en conjunto para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas.": null
+                                }
+                            ],
+                            "¿Qué evidencia científica o estudios apoyan la afirmación de que las baterías de coches eléctricos se pueden reciclar?": [
+                                {
+                                    "El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.": null
+                                },
+                                {
+                                    "Es importante destacar que el reciclaje de baterías de coches eléctricos es un área de investigación y desarrollo en constante evolución. Los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental. Las empresas y organizaciones están trabajando en conjunto para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas.": null
+                                },
+                                {
+                                    "Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con los fabricantes, como con expertos y con una empresa que se dedica al reacondicionamiento de las mismas.": null
+                                }
+                            ],
+                            "¿Qué son las tecnologías más recientes para el reciclaje de baterías de coches eléctricos y cómo mejoran su eficiencia?": [
+                                {
+                                    "Es importante destacar que el reciclaje de baterías de coches eléctricos es un área de investigación y desarrollo en constante evolución. Los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental. Las empresas y organizaciones están trabajando en conjunto para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas.": null
+                                },
+                                {
+                                    "El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.": null
+                                },
+                                {
+                                    "Hasta ahora, el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 8.6480946269985,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 8.6480946269985,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:48:07",
+                    "run_time": 8.6480946269985,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLas baterías de coches electricos se pueden reciclar\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Qué es el proceso actual de reciclaje de baterías de coches eléctricos y qué porcentaje de baterías se reciclan actualmente?\n¿Cómo se compara el reciclaje de baterías de coches eléctricos con el reciclaje de baterías de otros vehículos?\n¿Qué opinan los expertos sobre la viabilidad y eficiencia del reciclaje de baterías de coches eléctricos?\n¿Qué evidencia científica o estudios apoyan la afirmación de que las baterías de coches eléctricos se pueden reciclar?\n¿Qué son las tecnologías más recientes para el reciclaje de baterías de coches eléctricos y cómo mejoran su eficiencia?\n\n3. Here are the text sources you should use as your source of information:\n[0] El proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. Veamos los datos y porcentajes detrás de este proceso.\n[0] Aquí hay un desglose más detallado de cómo se realiza el reciclaje y qué porcentaje de la batería se puede recuperar:\n[0] En resumen, aunque el porcentaje exacto de reciclaje puede variar según las circunstancias específicas y la tecnología utilizada, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos. y materiales estructurales.\n[0] Es importante destacar que el reciclaje de baterías de coches eléctricos es un área de investigación y desarrollo en constante evolución. Los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental. Las empresas y organizaciones están trabajando en conjunto para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas.\n[1] Analizamos el proceso de reciclaje de las baterías de los coches eléctricos y para comprobar su impacto real hablamos tanto con los fabricantes, como con expertos y con una empresa que se dedica al reacondicionamiento de las mismas.\n[2] Hasta ahora, el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Las baterías de coches electricos se pueden reciclar"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**El proceso de reciclaje de baterías de coches eléctricos**\n\nSe ha demostrado que las baterías de coches eléctricos pueden ser recicladas con cierto grado de eficiencia. Según se menciona en [0], el proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. En concreto, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos y materiales estructurales (según [0]).\n\nAdemás, se menciona en [1] que los fabricantes, expertos y empresas que se dedican al reacondicionamiento de baterías están trabajando juntos para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas. Esto sugiere que hay un interés en desarrollar métodos de reciclaje más efectivos y eficientes. En [0] se menciona que los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental.\n\n**Limitaciones y desafíos**\n\nAunque hay evidencia de que las baterías de coches eléctricos pueden ser recicladas, también hay limitaciones y desafíos asociados con este proceso. Según se menciona en [2], hasta ahora el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas. Esto sugiere que aún hay un camino a recorrer para mejorar la eficiencia del reciclaje de baterías de coches eléctricos.\n\n**Conclusión**\n\nEn base a la información proporcionada, podemos concluir que las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso. La evidencia sugiere que se puede recuperar una gran parte de los materiales valiosos de las baterías, pero aún hay trabajo por hacer para mejorar la eficiencia del reciclaje. Por lo tanto, la afirmación \"Las baterías de coches eléctricos se pueden reciclar\" es **verdadera**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.3996900229994935,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.3996900229994935,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:48:09",
+                    "run_time": 1.3996900229994935,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Las baterías de coches electricos se pueden reciclar\nArticle: **El proceso de reciclaje de baterías de coches eléctricos**\n\nSe ha demostrado que las baterías de coches eléctricos pueden ser recicladas con cierto grado de eficiencia. Según se menciona en [0], el proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. En concreto, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos y materiales estructurales (según [0]).\n\nAdemás, se menciona en [1] que los fabricantes, expertos y empresas que se dedican al reacondicionamiento de baterías están trabajando juntos para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas. Esto sugiere que hay un interés en desarrollar métodos de reciclaje más efectivos y eficientes. En [0] se menciona que los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental.\n\n**Limitaciones y desafíos**\n\nAunque hay evidencia de que las baterías de coches eléctricos pueden ser recicladas, también hay limitaciones y desafíos asociados con este proceso. Según se menciona en [2], hasta ahora el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas. Esto sugiere que aún hay un camino a recorrer para mejorar la eficiencia del reciclaje de baterías de coches eléctricos.\n\n**Conclusión**\n\nEn base a la información proporcionada, podemos concluir que las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso. La evidencia sugiere que se puede recuperar una gran parte de los materiales valiosos de las baterías, pero aún hay trabajo por hacer para mejorar la eficiencia del reciclaje. Por lo tanto, la afirmación \"Las baterías de coches eléctricos se pueden reciclar\" es **verdadera**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Las baterías de coches electricos se pueden reciclar\nArticle: **El proceso de reciclaje de baterías de coches eléctricos**\n\nSe ha demostrado que las baterías de coches eléctricos pueden ser recicladas con cierto grado de eficiencia. Según se menciona en [0], el proceso de reciclaje de baterías de coches híbridos y eléctricos es crucial para reducir el impacto ambiental y aprovechar al máximo los materiales valiosos que contienen estas baterías. En concreto, se estima que una gran parte de una batería de iones de litio de coche eléctrico puede ser reciclada, con porcentajes que superan el 90% para metales valiosos y materiales estructurales (según [0]).\n\nAdemás, se menciona en [1] que los fabricantes, expertos y empresas que se dedican al reacondicionamiento de baterías están trabajando juntos para mejorar la eficiencia y la sostenibilidad de la gestión de baterías usadas. Esto sugiere que hay un interés en desarrollar métodos de reciclaje más efectivos y eficientes. En [0] se menciona que los avances tecnológicos y las inversiones en el campo del reciclaje de baterías están aumentando el porcentaje de reciclaje y reduciendo el impacto ambiental.\n\n**Limitaciones y desafíos**\n\nAunque hay evidencia de que las baterías de coches eléctricos pueden ser recicladas, también hay limitaciones y desafíos asociados con este proceso. Según se menciona en [2], hasta ahora el reciclaje de baterías no permitía aprovechar absolutamente todos los materiales que forman las baterías viejas, por eso, la ciencia trabaja en encontrar procesos que permitan reciclar el mayor porcentaje posible de los materiales con los que están fabricadas. Esto sugiere que aún hay un camino a recorrer para mejorar la eficiencia del reciclaje de baterías de coches eléctricos.\n\n**Conclusión**\n\nEn base a la información proporcionada, podemos concluir que las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso. La evidencia sugiere que se puede recuperar una gran parte de los materiales valiosos de las baterías, pero aún hay trabajo por hacer para mejorar la eficiencia del reciclaje. Por lo tanto, la afirmación \"Las baterías de coches eléctricos se pueden reciclar\" es **verdadera**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Las baterías de coches eléctricos se pueden reciclar\", \"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"Las baterías de coches eléctricos se pueden reciclar, aunque hay limitaciones y desafíos asociados con este proceso\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

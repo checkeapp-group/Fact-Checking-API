@@ -1,0 +1,659 @@
+{
+    "question": "Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados",
+    "answer": "La afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados tiene evidencia en varios textos proporcionados. En el texto [1], se menciona explícitamente que Rita Bosaho es \"la primera mujer negra\" que llega al Congreso en España. Además, en el texto [2], se indica que Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Esto sugiere que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados.\n\nAdemás, en el texto [3], se menciona que Rita Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española, lo que refuerza la idea de que fue la primera mujer negra en conseguir un escaño en el Congreso.\n\nNo se encuentra evidencia en los textos proporcionados que refute la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados. Sin embargo, en el texto [4], se menciona que hay 168 mujeres que han ocupado un escaño en el Congreso de los Diputados en la actualidad, lo que sugiere que no fue la primera mujer negra en conseguir un escaño, sino que hay otras mujeres que también han logrado esto.\n\nBasándose en la evidencia proporcionada, podemos concluir que la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados es **verdadera**. Los textos [1], [2] y [3] apoyan esta afirmación, al mencionar explícitamente que Rita Bosaho fue la primera mujer negra en llegar al Congreso o ocupar un escaño en él. Aunque el texto [4] sugiere que hay otras mujeres que también han logrado un escaño en el Congreso, no refuta la afirmación de que Rita Bosaho fue la primera mujer negra en lograrlo. Por lo tanto, basándonos en la evidencia disponible, podemos concluir que la afirmación es verdadera.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elmundo.es/cronica/2015/12/27/567e560246163f90148b456e.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "2": {
+            "url": "https://www.eldiario.es/sociedad/rita-bosaho_128_2280525.html",
+            "source": "www.eldiario.es",
+            "favicon": "https://www.eldiario.es/favicon.png"
+        },
+        "3": {
+            "url": "https://es.wikipedia.org/wiki/Rita_Bosaho",
+            "source": "es.wikipedia.org",
+            "favicon": "https://es.wikipedia.org/static/apple-touch/wikipedia.png"
+        },
+        "4": {
+            "url": "https://blog.congreso.es/de-las-21-de-la-constituyente-hasta-hoy-las-mujeres-que-nos-han-representado-en-el-congreso/",
+            "source": "blog.congreso.es",
+            "favicon": "https://blog.congreso.es/wp-content/uploads/2021/08/cropped-new_logo_fuera-de-agnda-congreso-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados",
+        "categories": [
+            "Política",
+            "Ciudadanía",
+            "Historia"
+        ],
+        "label": "True",
+        "main_claim": "Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados y su afirmación es verdadera",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.6856494879993988,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.6856494879993988,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:25:25",
+                    "run_time": 1.6856494879993988,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nRita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados\n\n**Critical Research Questions:**\n1. ¿Quién fue la primera mujer negra en ser elegida para un escaño en el Congreso de los Diputados?\n2. ¿Cuándo fue elegida Rita Bosaho para el Congreso de los Diputados y qué circunstancias rodearon su elección?\n3. ¿Qué contribuciones ha hecho Rita Bosaho al Congreso de los Diputados y a la política española en general?\n4. ¿Existen otras mujeres que hayan sido elegidas para el Congreso de los Diputados y hayan hecho contribuciones significativas a la política española?\n5. ¿Qué dicen las fuentes expertas sobre la importancia de la elección de Rita Bosaho y su impacto en la comunidad política y social?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"primera mujer negra elegida para el Congreso de los Diputados España\", \"Rita Bosaho biografía política carrera profesional\", \"contribuciones de Rita Bosaho al Congreso de los Diputados\", \"mujeres en el Congreso de los Diputados España contribuciones a la política\", \"importancia de la elección de Rita Bosaho expertos análisis\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 5.7535424920006335,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 5.7535424920006335,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:25:33",
+                    "run_time": 5.7535424920006335,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "primera mujer negra elegida para el Congreso de los Diputados España",
+                                "Rita Bosaho biografía política carrera profesional",
+                                "contribuciones de Rita Bosaho al Congreso de los Diputados",
+                                "mujeres en el Congreso de los Diputados España contribuciones a la política",
+                                "importancia de la elección de Rita Bosaho expertos análisis"
+                            ],
+                            "results": {
+                                "primera mujer negra elegida para el Congreso de los Diputados España | Rita Bosaho biografía política carrera profesional | contribuciones de Rita Bosaho al Congreso de los Diputados | mujeres en el Congreso de los Diputados España contribuciones a la política | importancia de la elección de Rita Bosaho expertos análisis": [
+                                    {
+                                        "text": "Rita Gertrudis Bosaho Gori[1]​ (Santa Isabel, Fernando Poo, 1965)[2]​ es una sanitaria, activista y política española de origen ecuatoguineano.[3]​ Entre 2020 y 2023 se desempeñó como directora general para la Igualdad de trato y Diversidad Étnico Racial del Ministerio de Igualdad. Miembro de Podemos, fue diputada en el Congreso durante su xi y xii legislaturas. Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española.[4]​\n\nBiografía [ editar ]\n\nAunque nació en Guinea Ecuatorial, ha desarrollado su vida en España. Proviene de una familia de políticos, algunos de ellos asesinados por causas políticas en Guinea Ecuatorial tras su independencia de España (durante la dictadura de Francisco Macías Nguema).[5]​ Es sobrina de Enrique Gori Molubela, procurador en las Cortes Españolas durante el franquismo por la antigua provincia española de Fernando Poo.[6]​\n\nEs licenciada en Historia por la Universidad de Alicante, tiene un máster en Identidades e Integración en la Europa Contemporánea y desarrolla su tesis doctoral sobre el impacto de la colonización europea en África. Tiene más de veinte años de experiencia laboral en la sanidad pública y participa de manera regular en diversas organizaciones sociales alicantinas.[2]​\n\nMilitante de Podemos, fue cabeza de lista al Congreso de los Diputados por la circunscripción de Alicante de la coalición Compromís-Podemos-És el moment de cara a las elecciones generales de 2015.[1]​[7]​ Electa diputada para la xi legislatura, es destacada como la primera persona negra en ocupar un escaño en el Congreso de Diputados de la actual democracia.[4]​[7]​ (su tío ocupó un escaño en el Franquismo)[cita requerida].\n\nEn enero de 2020 fue elegida para encabezar la Dirección General para la Igualdad de trato y Diversidad Étnico Racial del Ministerio de Igualdad.[8]​ Tomó posesión del cargo el 31 de enero.[9]​ Cesó en diciembre de 2023.[10]​\n\nReferencias [ editar ]\n\nEnlaces externos [ editar ]\n\nWikimedia Commons alberga una categoría multimedia sobre Rita Bosaho.\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://es.wikipedia.org/wiki/Rita_Bosaho",
+                                            "source": "es.wikipedia.org",
+                                            "favicon": "https://es.wikipedia.org/static/apple-touch/wikipedia.png",
+                                            "title": "Rita Bosaho - Wikipedia, la enciclopedia libre",
+                                            "type": "web_search",
+                                            "base_url": "https://es.wikipedia.org",
+                                            "snippet": "Rita Gertrudis Bosaho Gori​ (Santa Isabel, Fernando Poo, 1965)​ es una sanitaria, activista y política española de origen ecuatoguineano."
+                                        }
+                                    },
+                                    {
+                                        "text": "Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Será diputada nacional tras ser elegida como cabeza de lista de Compromís-Podem por Alicante. Trabaja como técnica sanitaria y todavía está en activo, hasta que su nombramiento sea oficial. Pidió 15 días de permiso en su trabajo para poder hacer la campaña electoral y sus compañeros le han cambiado turnos para poder ejercer de política. Española, nació en Guinea Ecuatorial tres años antes de la independencia del país. Es activista pro derechos humanos y de las mujeres.\n\n¿Es un avance o una anécdota que entre en el Congreso como diputada la primera mujer negra?\n\nDesde luego muchas cosas deben cambiar si aún llama la atención que una persona de raza negra, hispanoguineana, porque culturalmente soy española, sea diputada. Es una muestra de que hace falta que esta sociedad avance.\n\n¿Se siente un símbolo o una cuota?\n\nNo. Por otra parte, las cuotas deben existir. Las mujeres no estamos representadas, ni tampoco las minorías, y hay colectivos que no tienen voz.\n\nAsí que propone también cuotas para minorías.\n\nEs una cuestión seria que requiere sentarse y trabajar. Pero por supuesto apoyo cualquier trabajo que nos ayude a que nos sintamos representados y parte de la sociedad.\n\nDicen algunos artículos que usted será la primera “diputada de color”.\n\n¿Y dicen qué color? [Risas]. No quiero contestar con una ironía, pero no hay problema en decir que soy mujer y negra, hispanoguineana. Me reconozco en varias identidades y lo llevo con muchísimo orgullo.\n\n¿El miedo a decir “negro” revela algunos prejuicios?\n\nEn la sociedad hay una carga de prejuicios y hay que combatirlos. Hay falta de aceptación con las pequeñas minorías. Hay que trabajar para mejorar.\n\n¿Cómo lo va a hacer desde el Congreso?\n\nTengo una gran preocupación por los derechos humanos. También por que la violencia de género sea una cuestión de Estado o el blindaje de los derechos sociales. En nuestro programa tenemos propuestas muy interesantes de inmigración. Yo voy a trabajar con mi partido en todos los asuntos que son clave para nosotros y nuestro programa, no solo en cuestión de minorías.\n\n¿Qué balance haría de la legislatura que ha acabado en temas de inmigración?\n\nLas propuestas del PP no han sido buenas, los asuntos relativos a la inmigración no se resuelven con concertinas ni gastando presupuesto en pelotas de goma. Tenemos la necesidad de rescatar a las personas para que no tengan que salir de sus países. Todo ello basándonos en respetar los derechos humanos.\n\n¿Desde su escaño, va a pedir a Rajoy que no vuelva a reunirse con el dictador de Guinea, Teodoro Obiang?\n\nA mí me gustaría que de una vez por todas el Gobierno español tuviera unas relaciones con el gobierno de Guinea pensando en términos de derechos humanos y libertad, y de momento no están disfrutando en ese país de ninguno de los dos. Desde que Guinea tuvo la independencia de España no ha tenido un solo día de libertad. Habrá que ver qué relaciones se establecen con gobiernos dictatoriales.\n\n¿Contempla la posibilidad de la gran coalición PP-PSOE para la legislatura en la que se estrena?\n\nSe ha acabado el bipartidismo y la época del turno. Estas elecciones están empujando la nueva transición española y se abre un debate marcado por el cambio. Quien no entienda que este país es diverso y plurinacional no ha entendido nada. Si el PSOE hiciera eso, estaría entregando el gobierno al PP y la ciudadanía nos ha pedido otras cosas. Ambos partidos sumaron el 80% de votos en 2011 y ahora no superan el 50%. Eso quiere decir algo.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/sociedad/rita-bosaho_128_2280525.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "\"Como diputada en el Congreso no me siento un símbolo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "Rita Bosaho (Compromís-Podem) se convierte en la primera persona negra que tendrá escaño en el Parlamento tras el 20D."
+                                        }
+                                    },
+                                    {
+                                        "text": "Datos personales de Rita Bosaho\n\nNombre y apellidos Rita Gertrudis Bosaho Gori Fecha de nacimiento 13 de January de 1965 Lugar de nacimiento Santa Isabel (Guinea Ecuatorial) Partido Político Podemos\n\nFormación de Rita Bosaho\n\nTras cursar una licenciatura en Historia y un Máster en Identidades e Integración en la Europa Contemporánea, Rita Bosaho desarrolla su tesis doctoral sobre el impacto de la colonización europea en África.\n\nLicenciada en Historia Universidad de Alicante Máster en Identidades e Integración en la Europa Contemporánea Universidad de Alicante\n\nExperiencia de Rita Bosaho\n\nBosaho cuenta con más de veinte años de experiencia laboral en la sanidad pública y colabora con diversas ONG's. Está muy implicada en la lucha contra la violencia de género, y por ello trabajó en Honduras con las mujeres de Tegucigalpa para defender sus derechos y causas sociales. En enero de 2014 inició su andadura política al unirse a Podemos Alicante.\n\nTécnico auxiliar sanitario Administración Pública 1991-2015\n\nCargos políticos de Rita Bosaho",
+                                        "metadata": {
+                                            "url": "https://modelocurriculum.net/biografias/politicos/rita-bosaho",
+                                            "source": "modelocurriculum.net",
+                                            "favicon": "https://modelocurriculum.net/wp-content/uploads/2023/10/cropped-favicon-modelo-curriculum-1-32x32.png",
+                                            "title": "Curriculum Vitae de Rita Bosaho | Biografía completa",
+                                            "type": "web_search",
+                                            "base_url": "https://modelocurriculum.net",
+                                            "snippet": "La sanitaria y activista Rita Bosaho (Guinea Ecuatorial, 1965) es la actual directora general de Igualdad de Trato y Diversidad Étnico-racial desde enero de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\n\n\nFunciones\n\nCorresponde a la Dirección General para la Igualdad de Trato y Diversidad Étnico Racial: a) el impulso y desarrollo de la aplicación transversal del principio de igualdad de trato y no discriminación; b) El diseño, programación y coordinación, en cada caso, de las actuaciones y medidas que, en el ámbito de la Administración General del Estado, contribuyan a la promoción de la igualdad de trato y la no discriminación, y la colaboración en la materia con las comunidades autónomas y otras entidades públicas y privadas. c) La realización de informes y estudios, y el análisis y valoración de estadísticas, en las materias que afecten a la igualdad de trato y la no discriminación; así como su difusión e intercambio con otros departamentos ministeriales y entes públicos o privados, de ámbito internacional, nacional, autonómico o local. d) La formulación de iniciativas y actividades de sensibilización social, información, formación, participación, y cuantas otras sean necesarias para la promoción de la igualdad de trato y la no discriminación de las personas. e) La promoción de medidas dirigidas a la asistencia y protección de las personas víctimas de discriminación, sin perjuicio de las competencias de otros departamentos ministeriales. f) La propuesta de instrumentos de cooperación en el diseño de contenidos de los planes de formación del personal de la Administración responsable de las áreas relacionadas con la igualdad de trato y la no discriminación.\n\nFormación académica\n\nRita Bosaho Gori es licenciada en Historia por la Universidad de Alicante (2003- 2008). Amplió su formación obteniendo un máster sobre la Europa Contemporánea, Identidades e Integración en la Universidad de Alicante (2011- 2014). En el 2016, antes de tomar posesión como diputada por Alicante en la XI legislatura, estaba inmersa en la elaboración de su tesis doctoral sobre el impacto de la colonización europea en África.\n\nExperiencia profesional\n\nNombrada por Real Decreto 218/2020 (BOE 30/01/2020)\n\nMás de veinte años de experiencia laboral en la sanidad pública desde 1991 a 2015 y 2019 como Técnica en Cuidados Auxiliares de Enfermería (TCAE).\n\nColaboración en diversas ONG's con implicación directa en la lucha contra la violencia de género y el racismo.\n\nDiputada de la XI y XII legislatura de las Cortes Generales de España, enero de 2016- febrero 2019.\n\nHa participado en diferentes ponencias nacionales e internacionales y publicaciones sobre los derechos colectivos de las comunidades afrodescendientes.",
+                                        "metadata": {
+                                            "url": "https://www.casafrica.es/es/persona/rita-bosaho-gori",
+                                            "source": "www.casafrica.es",
+                                            "favicon": "https://www.casafrica.es/sites/default/files/favicon_0.ico",
+                                            "title": "Rita Bosaho Gori",
+                                            "type": "web_search",
+                                            "base_url": "https://www.casafrica.es",
+                                            "snippet": "Rita Bosaho Gori es licenciada en Historia por la Universidad de Alicante (2003- 2008). Amplió su formación obteniendo un máster sobre la Europa Contemporánea, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Su tío era un luchador por los derechos de su pueblo\n\nEs 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial\n\nPero no es la primera de su familia en las Cortes. Su tío Enrique Gori fue procurador de Franco. Mandaba en Fernando Poo\n\nDos cicatrices. Una, en la comisura del labio. Otra en el pómulo derecho, tan bien trazada que parece un hoyuelo. Ambas hacen aún más amigable su sonrisa. Lleva rastas, las que cambia de lado cuando le parece oportuno... Amarra su nigérrimo pelo. Lo suelta. Cuando lo libera se ve aún más joven. Está en los 50. Cuando usa sus gafas de pasta Carrera luce aún menor. Rita Bosaho Gori es un hito que no quisiera ser. \"Es demasiado tarde\", dice cotidianamente. \"Soy negra, no temo a la palabra\", añade. \"Podemos' Rita Bosaho becomes Spain's first female black MP\" (La militante de Podemos Rita Bosaho logra ser la primera mujer negra miembro del parlamento), titula The Guardian. En una línea es lo que la ha hecho cambiar la historia, una de las mejores lecciones de las elecciones del 20-D. Mas ella no es el primer icono de su familia. Ella es parte de una saga política, una que empezó su tío Enrique.\n\nSon dos vidas en paralelo. A Enrique Gori lo llamaban \"excelentísimo señor presidente de la Asamblea General del régimen autónomo de Guinea Ecuatorial\". A ella, a Rita Bosaho Gori, la llamarán \"su señoría\" a partir de que recoja su acta de diputada por Alicante. Su tío era un luchador por los derechos de su pueblo, muy especialmente de los miembros de la etnia bubí, que eran originarios de la isla de Bioko, antigua Fernando Poo, en Guinea Ecuatorial. Rita batalla por los intereses de las maltratadas, los inmigrantes y los desposeídos. Ha trabajado incluso en Honduras, hombro a hombro, con las mujeres de Tegucigalpa para defender sus derechos.\n\n\"The woman is the nigger of the World, (la mujer es el negro del mundo) dijo a finales de los 60 Yoko Ono y su marido compuso algo más tarde una canción para ese título\", recordaba el columnista Santiago González aludiendo a la elección de Rita. \"If she won't be a slave, we say that she don't love us/ If she's real, we say she's trying to be a man\" (si ella no va a ser una esclava, diremos que ella no nos ama/ si ella es real, diremos que ella está tratando de ser un hombre), escribió John Lennon. Aunque mejor define a Bosaho un tema de Paula Herrera, una de sus cantautoras favoritas. \"Todo está negro/ negra es su pena/ negra está su alma/ negro es su pelo/ negro el cajón/ negras sus uñas/ negras sus manos/ negro es el humo/ que da el fogón.../ Y en el camino/ negro de piedras/ yacen sus sueños/ y su calor...\".\n\nEl tiempo de canícula ya había pasado en Guinea Ecuatorial cuando nació Enrique Gori Molubela, el 13 de noviembre de 1923. \"Lo hace en Batete, una villa situada al suroeste de la antigua isla de Fernando Poo, actualmente Bioko, a pocos kilómetros de Luba, que anteriormente se conoció con el nombre de San Carlos. La citada villa fue uno de los focos de la expansión misionera en la isla desde 1887\", escribe en su ensayo-homenaje el sabio guineano Eugenio Nkogo, doctor en Filosofía por la universidad Complutense de Madrid... Su sobrina Rita nació en 1965. Cerca, en Santa Isabel, actualmente Malabo, cuando era aún parte de España.\n\nGori Molubela aspiraba a todo en su vida. Entró al seminario de Banapá en la década del 40. Ya en 1951, participó en las revueltas estudiantiles \"contra el trato injusto que recibían: el deficiente régimen alimenticio, la restricción de las lecturas, escasas vacaciones... se declaraban abiertamente en favor de la lucha no sólo por las libertades del seminario sino también del país\". Los rebeldes fueron encarcelados y expulsados. \"Gori Molubela, después de haber esperado algún tiempo en Fernando Poo, hacia 1952, emprendió el viaje a España. Se matriculó en la facultad de Derecho\". No acabó. Su sobrina, la nueva diputada de Podemos, optó por una senda distinta. Trabaja desde hace más de 20 años como auxiliar de enfermería. Y fue más lejos que su pariente. Tenía una gran pasión por sus raíces y, mientras hacía dobles turnos en los hospitales, se sacó la licenciatura de Historia por la Universidad de Alicante, un máster en Identidades e Integración en la Europa Contemporánea y prepara su tesis doctoral que versa sobre el impacto del colonialismo europeo en África.\n\nLa capacidad de comunicar de Rita ha sido vital para conseguir los apoyos necesarios para su elección: 200.885 votos en Alicante, donde Podemos-Compromis ha pasado de un magro 3% al 22%. Lo lleva en los genes. Enrique Gori estaba \"dotado de una oratoria envidiable... dejaba sorprendido a su público, hablando tanto tiempo sin mirar ningún papel y echando la cabeza \"hacia atrás como un alemán\" (como señalaba una revista de la época)\"\". Por cierto, Gori regresó a Fernando Poo en 1964, un año antes de que naciera su sobrina. Volvió para ocupar los cargos más importantes: la presidencia de la Diputación provincial, siendo a la vez procurador en las Cortes españolas (las de Franco) y presidente de la Asamblea General del Gobierno Autónomo de Guinea Ecuatorial... Nadie de su familia hasta entonces había llegado tan alto.\n\nY lo hizo en plena dictadura franquista. Gori Molubela fue parte de la intelectualidad ecuatoguineana seleccionada para dirigir los destinos de la provincia española en África. En octubre de 1966, se reunió con Francisco Franco en el palacio de El Pardo. Ese mismo mes, había recibido la Orden de África en la categoría de Comendador, al mismo tiempo que Pilar Primo de Rivera, hermana de José Antonio, que ingresaba en la categoría de Gran Oficial, quien también coincidió en las Cortes con él.... Esta es una de las grandes diferencias entre tío y sobrina. Enrique fue afín al dictador. Y Rita muy crítica... Esto contestó ella a EL MUNDO...\n\n- Supongo que como dice la canción tiene usted el corazón partido entre Guinea Ecuatorial, donde gobierna un dictador, y España, con una democracia...\n\n- Desde luego hay una gran diferencia entre dictadura y democracia. Ha debido de ser muy duro para este país los 40 años de dictadura franquista. También es una desgracia para los guineanos y guineanas vivir una situación similar. No es fácil ser activista en Guinea, como no lo fue en España con Franco.\n\nElla, asimismo, es más de izquierdas que tío Enrique, que creía en el \"buen capitalismo\". Se recoge en una entrevista con La Vanguardia Española, donde él soltó sus ideas clave para el futuro de una Guinea independiente: \"Hemos de contar con los capitalistas honestos y yo diría que de ellos depende en buena parte nuestro porvenir\".\n\nOtra diferencia menos relevante, acorde con distintos tiempos e ideologías, es el vestir. Ella comparte estilista con Pablo Iglesias, muy distante a los atuendos a medida que usaba el otrora procurador de las Cortes. \"Era impecable, vestido de un traje que hacía juego con el chaleco y la corbata\", recuerda Eugenio Nkogo. Eso sí, ambos son cercanos, nada presuntuosos. \"A pesar del rango que alcanzó en España y en Guinea, en sus continuas misiones oficiales a Madrid, nunca se olvidó de sus amigos. Al presentarse al establecimiento, le preguntaban: \"Sr. presidente, qué quiere usted tomar\" y él les contestaba siempre \"nuestro vino\"\". Rita mantiene su compromiso con la humildad en una frase muy suya: \"No quiero perder nunca la empatía\". Y, si a Rita le solicitan entrevistas la BBC, el Times y todos los medios españoles, en su tiempo Enrique Gori era tratado mediáticamente a la altura de sus cargos. Cuando en 1965 se casó con Esperanza Jones, el enlace fue reseñado a casi página entera por La Vanguardia y sus encuentros con la élite del régimen eran citados por Abc.\n\nFue clave en la independencia de Guinea Ecuatorial. Tanto que, en diciembre de 1968, encabezó la delegación ante la ONU, en Nueva York, poco después de la admisión del novísimo país en aquella organización... Caería en desgracia pronto. Enrique Gori fue juzgado bajo la acusación de participar en un intento de golpe de Estado contra el sátrapa Francisco Macías, y sentenciado a 25 años de cárcel en un juicio sin justicia.\n\nJuan Goytisolo escribió de este momento histórico: \"Fueron juzgados en diciembre de 1970 por un tribunal militar, sin que tuvieran la menor posibilidad de defenderse, e incluso aquellos que sacaron la cabeza en el proceso fueron asesinados posteriormente en la cárcel: el más conocido de ellos, Enrique Gori, pereció en manos de un guardián a golpes de machete... Detalle particularmente macabro: según el Financial Times..., las víctimas del complot \"fueron ahorcadas a los compases de Mary Hopkins cantando Those were the days, transmitidos por los altavoces\"\". Una canción que se tradujo al español como Qué tiempo tan feliz. \"Por nuestra juventud/ Y llenos de inquietud/ Tuvimos fe y deseos de vencer...\", decía la letra. La victoria de Gori a posteriori es, quizás, una diputada negra elegida en elecciones libres. Su sobrina. Un mensaje de Facebook celebratorio retrata lo que ella significa... La apodan La Rosa Parks afroespañola. Un orgullo -tardío, pero honroso- para la democracia.",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/cronica/2015/12/27/567e560246163f90148b456e.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "La proeza de la primera mujer negra (de Podemos) en las ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Es 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial."
+                                        }
+                                    },
+                                    {
+                                        "text": "Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad pública, los casos de corrupción y el impulso de los movimientos de protesta la llevaron al Parlamento. De paso, se ha convertido en la primera diputada negra en España.\n\nPor Javier Sánchez Salcedo\n\n¿Qué te ha traído hasta el Congreso de los Diputados?\n\nNací en Guinea Ecuatorial y me vine muy joven a España. Llevo más de 30 años viviendo aquí, donde me he criado y me he educado. Entre los momentos clave que me han traído a la política destaco las protestas en la calle en una situación de crisis de valores, social, económica y política que teníamos y seguimos teniendo. Fue un momento en el que las personas nos empezábamos a interesar por lo que ocurría a nivel institucional, porque nuestra vida se estaba deteriorando. Políticamente estoy marcada por la situación de mi país de origen, donde no hay democracia. Entiendo bien la diferencia que hay entre un lugar donde no se respetan los derechos humanos y otro donde sí se respetan, y hay un interés social por ampliar la base de los derechos a todas las personas.\n\nMientras trabajabas en sanidad, estudiaste historia.\n\nSí, me interesan los fenómenos sociales vinculados directamente con nuestra historia. Y me temo que la antropología, la historia o la filosofía, estas ciencias que existen puramente para ayudar a crear conocimiento y a pensar, se están devaluando debido a las reformas en la educación.\n\n¿Y qué te hizo dar el salto definitivo y entrar en un partido político, en Podemos concretamente?\n\nNo fue una cosa premeditada y estudiada. Fueron los acontecimientos. Participé en el movimiento 15M y en manifestaciones en la calle. Conocer a un partido que estaba surgiendo, donde las personas que participábamos de las movilizaciones podíamos presentar propuestas, donde se empoderaba a la ciudadanía. Eso fue lo que me atrajo. Fue una oportunidad interesante de acercarme a la política, algo que hasta ahora no había encontrado.\n\n¿Qué crees que puedes aportar tú?\n\nPrimero, una visión de la diversidad que no se ha expresado en otros momentos a nivel institucional. Aquí hay minorías étnicas que estamos aportando desde hace mucho tiempo con nuestros impuestos para que se genere un nivel mayor de bienestar social. Que estemos en el Parlamento, en las instituciones o en empresas es simplemente un reflejo de lo que está pasando socialmente. En mi día a día, con mi trabajo puedo aportar una visión abierta de las instituciones a la calle.\n\n¿Es posible seguir cerca de la gente cuando se trabaja como diputada?\n\nClaro que sí, es posible. Es la única forma. Es necesario que estemos interrelacionados la sociedad civil, los movimientos organizados y las instituciones. Si no, no vamos a saber qué es lo que está ocurriendo.\n\nHas sido la primera persona negra en el Congreso de los Diputados. ¿Cómo lo valoras?\n\nIntento normalizarlo. Entiendo perfectamente que ha sido algo nuevo y que ha causado un impacto. Lo veo como algo positivo y espero que no sea la última. He llegado aquí porque me acerqué a Podemos y en los procesos de primarias internas salí elegida. Creo que la sociedad está mucho más preparada para este tipo de acontecimientos que las propias instituciones. Ya era hora. En este sentido las instituciones deberían espabilarse para que estas cosas no ocurran tan lentamente. Para que las minorías étnicas tengan visibilidad hay que hacer unas políticas de igualdad, estar a la altura de las circunstancias sobre lo que se demanda a nivel social y no dar la espalda ni a la historia ni a la sociedad.\n\n¿Crees que hay más racismo del que se percibe?\n\nEl racismo es como otra serie de cosas, como el machismo: requiere de educación en valores. Nuestra cultura está basada en un sistema de patriarcado y creo que la forma de educarnos es la culpable muchas veces de que no tengamos conductas mucho más abiertas a la sociedad, mucho más empáticas, de reconocimiento del otro, de ponerse en el lugar del otro. A partir de ahí podríamos empezar a desgranar. Hay conductas que directamente podría vincular al hecho racista o a la xenofobia. La cuestión es que nos vayamos haciendo a la idea de que el mundo es de las personas, no es ni de las ideologías ni del color de la piel. Pero existen conductas de rechazo en la sociedad, en todos los tiempos, en África, en Europa y en todos los sitios.\n\n¿Has sufrido experiencias racistas?\n\nEl lenguaje no verbal es importante. He recibido alguna vez una mirada o expresiones que no eran las adecuadas. Hay conductas racistas en la sociedad, xenófobas y machistas. Yo las pondría en el mismo parámetro. Es importante trabajar para que la empatía sea algo valorado en grado sumo.\n\n¿Qué opinas del racismo institucional? Me refiero a las identificaciones por raza o a los Centros de Internamiento para Extranjeros.\n\nEl tema de los CIE es una vergüenza en un país que protege los derechos humanos, según recoge su Constitución. Es complicadísimo entrar para ver cómo están conviviendo las personas que están allí. Si no tenemos nada que esconder, ¿por qué es tan complicado? Mientras, las personas que están en estos espacios están denunciando malos tratos. Esto hay que tomárselo en serio. No puede ser que en pleno siglo XXI en España tengamos espacios que son cárceles para personas por el hecho de haber salido de sus países para intentar tener una vida mejor. Eso no debe permitirse.\n\n¿Cuál es la clave de la integración?\n\nEl conocimiento y la interacción son claves importantes. ¿Cómo es posible que estén integrados en la economía los aportes de personas de otras nacionalidades y a la vez cueste tanto una integración real de las personas?. Si no nos ponemos a la altura de las circunstancias la situación nos superará. No podemos legislar dando la espalda a las personas, hay que tenerlas en cuenta para que en el futuro no haya problemas de convivencia.\n\nPara acabar, ¿por qué no se habla en las escuelas del vínculo histórico que tienen España y Guinea Ecuatorial?\n\nEl tema de la memoria histórica aquí cuesta mucho. España tuvo con Guinea Ecuatorial un vínculo histórico, social y económico. La lengua oficial en Guinea Ecuatorial es el castellano. No estaría mal reconocerlo. A mí me gustaría, y no solamente por Guinea, también está el Sáhara. Esa mirada del norte hacia el sur y del sur hacia el norte no la podemos cambiar por arte de magia. Guinea debería existir en la historia de España, como España en la de Guinea. A nivel de intereses económicos sí existe una relación con el petróleo de Guinea, aunque quizá no lo sepa todo el mundo. Pero además del petróleo, también existe su historia y su gente.",
+                                        "metadata": {
+                                            "url": "https://mundonegro.es/irreversibles-rita-bosaho-mundo-no-las-ideologias-del-color-la-piel/",
+                                            "source": "mundonegro.es",
+                                            "favicon": "https://mundonegro.es/wp-content/uploads/2017/04/Logo_ICO_180X180.ico",
+                                            "title": "IRREVERSIBLES. Rita Bosaho: “El mundo no es de las ...",
+                                            "type": "web_search",
+                                            "base_url": "https://mundonegro.es",
+                                            "snippet": "Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad p ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Rita Bosaho Gori nació hace 53 años en Malabo, antes de la independencia, cuando todavía se llamaba Santa Isabel y Guinea Ecuatorial era territorio español. Llegó a Alicante siendo una niña y creció allí con una familia de acogida blanca. Se licenció en Historia y se formó como técnica auxiliar de cuidados medios para poder trabajar en el hospital de su ciudad. Su vida cambió cuando entró en política y se convirtió en la primera diputada negra de la democracia por Podemos.\n\n—¿Pesa o mola ser la primera mujer negra diputada de la historia reciente de España?\n\n—Gracias por hacerme esta pregunta Lucía. No pesa, al revés es un gran orgullo, lo que me pesaría sería quedarme con este título mucho tiempo. Esta sería una señal bastante negativa, significaría que no hemos conseguido que nuestros espacios de representación sean un fiel reflejo de nuestra sociedad, donde la diversidad social y cultural lleva siglos estando presente y ahora, con las personas migrantes y sus hijas e hijos, nacidos o criados, en nuestro país, más. Sin el trabajo previo de muchas mujeres afro, este camino sería aún más difícil. Es un momento importante de gran dinamismo y el 8M marcó un hito y ha dejado igualmente sobre la mesa diversos debates que vamos a tener que afrontar con mucha pedagogía y sororidad, tanto el feminismo blanco hegemónico como los feminismos periféricos.\n\n—¿Cómo se prepara alguien para ser política?\n\n—No imaginé nunca en mi cabeza que sería diputada, ¿cómo iba a pensar algo así? Antes de Podemos, estaba trabajando en el hospital y preparándome para dedicarme a la investigación. Me encontraba en la fase inicial de mi tesis doctoral que versaba sobre el impacto del colonialismo europeo en África, concretamente, iba a comparar dos tipos de régimen colonial: Guinea Bissau (colonialismo portugués) y Guinea Ecuatorial (colonialismo español).\n\nDesde mi punto de vista, el Congreso de los Diputados tiene una serie de mecanismos y formalidades que lo convierten en un espacio que, intencionadamente, busca alejar a la gente de a pie. Todavía recuerdo cuando entramos por primera vez en el hemiciclo y las diputadas y diputados del PP y otros partidos nos miraban con caras de “qué hace esta gente aquí”.\n\nTodo esto forma parte del aprendizaje que se adquiere y todo cuenta, también tu experiencia y edad. En mi caso, he llegado con mis cargas, no soy una persona joven y procuro prepararme día a día. Trabajamos con un tiempo vertiginoso y yo soy de reflexiones pausadas, vas entendiendo los tiempos de la institución y reconociendo el lugar de cada una de tus compañeras y compañeros, el de vuestras adversarias políticas y teniendo mucha conciencia del sitio que ocupas, que ocupo, en mi caso. Sobre todo conciencia. Además, voy conociendo el trabajo interno y la gestión dentro y fuera de la institución, transformando las demandas de la sociedad en iniciativas que pueden cambiar la vida de las personas, reconociendo las resistencias que te rodean en todos los sentidos. Es fundamental hacerte fuerte, porque para estar en una institución como ésta debes armarte mentalmente con el fin que los dolores no te atraviesen el corazón. Por ahora, entiendo que esa es la verdadera preparación para ser política.\n\n—¿Es racista que una mujer negra esté en el área de migraciones/racismo, habiendo trabajado en sanidad previamente?\n\n—Siempre pensé en dedicar mi vida a la gente, por eso creo que me convertí en sanitaria. Antes de mi andadura en política trabajé más de 20 años en el Hospital General de Alicante. Sería racista si fuese una decisión impuesta, es decir, en las que se estuviera realizando una instrumentalización de mi voz e imagen. Por otro lado, antes de empezar aquí, parte de mi activismo social estaba relacionado con las migraciones. Trabajé durante mucho tiempo con mujeres migrantes y tuve la experiencia de viajar a Honduras, en 1998, para asistir a un encuentro feminista del Centro de Derechos de Mujeres de Tegucigalpa. Fueron unas jornadas de trabajo increíbles donde compartimos nuestras formas de resistir el machismo y construir espacios de empoderamiento feminista.\n\nEl poder de lo simbólico sirve para transformar realidades, ver a una mujer afro diputada es una manera de mandarle un mensaje al imaginario racista que nos asigna lugares subalternos, es enviarle un mensaje a esa población migrante que se ve, de alguna manera, representada, es —y para mí es lo más importante— ser una referente para los niños no blancos y las niñas no blancas, nacidos o criados en este país, que tienen una falta absoluta de referencias positivas tanto en los medios de comunicación como en los curriculum educativos.\n\n—¿Qué es lo más difícil y lo más bonito que le ha pasado desde que es diputada?\n\n—Lo más difícil ha sido entender los diferentes mecanismos burocráticos de la institución y todas las formalidades que los acompañan. Creo firmemente que muchos de ellos, forman parte de las trampas que la institución, como he dicho antes, pone en marcha para alejar a la gente del que debería ser un espacio sentido como propio. Son muchos los momentos bonitos que he vivido en el Congreso. Tengo la imagen guardada en la retina de cuando entramos todas por primera vez al hemiciclo.\n\nHemos presentado hace poco una Proposición No de Ley relativa al reconocimiento de la comunidad africana y afrodescendiente con perspectiva interseccional en el marco del Decenio Internacional para los afrodescendientes.\n\n—¿Es resultado del racismo que casi no la veamos en los medios de comunicación?\n\n—La forma en la cual los medios de comunicación representan la diversidad étnico-racial que hay en nuestro país puede darnos pistas para saber si vamos encaminadas a una democracia avanzada o si seguimos atascadas en una democracia que deja a una parte de su sociedad fuera de los espacios de representación, en este caso, a las minorías y a la diversidad étnica y social.\n\nLa comunidad africana y afrodescendiente a la que pertenezco, sólo aparece en los medios de comunicación ligada la migración, la exotización o al folclore.\n\nAnte la necesidad de vernos representadas de otra manera tenemos muchas artistas, escritoras y activistas que han sacado varios proyectos.\n\n—Hay medios de comunicación y anuncios de publicidad que nos instrumentalizan; Edmundo Sepa cuenta en su libro ‘Convergente, conveniente o intruso’ que la política también lo hace, ¿qué opina de eso?\n\n—Es un peligro que va a estar ahí presente siempre, son varias las biografías de intelectuales y activistas de diferentes comunidades afro, por ejemplo, de Francia y Estados Unidos, que hablan sobre la instrumentalización de la causa negra por parte de partidos políticos y también la falta de compromiso con los intereses referidos a la comunidad afrodescendiente.\n\nIncluso, hablando de ejemplos cercanos, Aimé Césaire, en su libro ‘Discurso sobre el colonialismo’, nos dejó una carta en la que se esbozan las diferentes cuestiones que le habían llevado a abandonar el Partido Comunista Francés (PCF). Entre ellas aludía a la posición en favor del colonialismo que había tenido el PCF cuando las argelinas y argelinos estaban luchando contra el colonialismo. Yo no sé la experiencia que tuvo Edmundo Sepa en Convergència Democràtica de Catalunya (CDC).\n\nSon muchos los pasos que tenemos que dar en lo que se refiere a la comunidad afro de España y estoy convencida de que mi partido estará allí para apoyarme sin caer en ningún tipo de lógica de instrumentalización, lo han hecho hasta ahora y sé que lo harán porque estamos trabajando todas por un país feminista y antirracista, por una sociedad para todas.\n\n—¿En algún momento siente que le hayan tratado diferente en el Congreso por el hecho de ser negra?\n\n—Han sido varios los momentos en los que he sentido un trato diferencial por el hecho de ser negra. Sin embargo, me quedo con una “anécdota” que me ocurrió fuera del Congreso. Cuando tuvieron lugar los atentados en Barcelona, yo me encontraba en París con mi pareja de mini- viaje de vacaciones. Nada más enterarme de la noticia, fui a la Embajada de España en Francia para estar presente en el acto institucional del “minuto de silencio” que se iba a celebrar. Como autoridad pública sentía que tenía la obligación de estar allí presente mostrando mi rechazo rotundo a lo ocurrido y mis más sinceras condolencias a todas las familias que perdieron a un ser querido en este atentado.\n\nEstando en la puerta, le dije al policía que estaba de guardia, quién era y le mostré mi documentación de parlamentaria, él se quedó mirándome fijamente, a la vez que hacía lo mismo con la identificación, ahí estuvimos en la puerta esperando durante más de 20 minutos. En este caso es muy complicado no relacionar este hecho con la invisibilización que sufre la comunidad afro de España.\n\n—¿Cuál es su labor en el Congreso?\n\n—Pertenezco, de diferentes maneras, a varias comisiones: Igualdad, Trabajo, Migraciones y Seguridad Social; Sanidad, Consumo y Bienestar Social; Cooperación Internacional y Asuntos Exteriores. La mayoría de mi trabajo lo estoy realizando en Sanidad, Consumo y Bienestar Social, y en Igualdad, donde me siento muy orgullosa por el nivel de implicación que genera en todas las personas que trabajamos en ella.\n\nTrabajé con mi compañera Aina Vidal la primera proposición no de ley en la undécima legislatura en el Congreso de los diputados sobre las condiciones laborales de las camareras de piso. En estos momentos, estoy implicada en la coordinación de las iniciativas presentadas por mi grupo en el Congreso de los Diputados sobre la estafa de Idental.\n\nTambién formo parate del Intergrupo Parlamentario sobre Guinea Ecuatorial. El Estado español tiene una deuda histórica con el pueblo de Guinea Ecuatorial, nuestra labor, desde los diferentes Grupos Parlamentarios presentes en el Congreso, debe ser la de apoyar los mecanismos necesarios que lleven a una transición democrática y denunciar las violaciones de derechos humanos que tengan lugar ahí.\n\n—¿Qué datos no sabemos sobre migración y racismo en el Estado español que deberíamos saber?\n\n—Los grandes medios de comunicación apenas se hacen eco de todos los datos generados por las organizaciones sociales, desmintiendo bulos contra la población migrante.\n\n—¿Y, entonces, qué se está haciendo desde su partido para transformar eso?\n\n—Nuestro compromiso firme con la defensa de los derechos de las personas migrantes se ve totalmente reflejado en nuestro programa político: cobertura sanitaria universal, derecho a voto y a la participación política de la población extranjera residente en nuestro país, eliminación del test de nacionalidad, etc.\n\nEs más, una de las 20 propuestas que hace poco presentamos para que el presidente del Gobierno, Pedro Sánchez, ponga en marcha en esta legislatura con nuestro apoyo, es el cierre de los centros de internamientos de extranjeros.\n\nAnte el intento del Partido Popular, Ciudadanos y Vox de enarbolar un discurso racista y xenófobo para intentar crear un estado de alarma y miedo en nuestra sociedad y, de esta manera, desviar el foco de atención de los cambios estructurales que necesitamos para recuperar las instituciones y revertir las políticas de recortes que nos han llevado a la precarización de nuestras vidas, nosotras, desde Unidas Podemos, seguimos trabajando por un proyecto de país feminista y antirracista que ponga en el centro la recuperación de esa idea de justicia social que defendieron y defendemos muchas en este país, como reza el lema del Decenio Internacional para los Afrodescendientes, ¨Reconocimiento, Justicia y Desarrollo¨. Es lo que necesitamos contra el discurso racista y xenófobo de Casado y compañía.\n\n—¿Cuál es su relación con la comunidad negra en el Estado español? ¿Existe, de hecho, tal comunidad? ¿Cómo la definiría?\n\n—Gran parte de mi activismo lo he desarrollado en mi ciudad, Alicante. Tras mi llegada al Congreso empecé a participar en actividades, reuniones y encuentros organizados por diferentes asociaciones y entidades de la comunidad africana y afrodescendiente de Madrid. Comencé a conocer y, sobre todo, a reconocerme, a indagar en mis recuerdos de juventud. Estos meses de compartir y trabajar junto a todas ellas ha sido una toma de conciencia, que no todo el mundo ha entendido. Ellas y ellos sí.\n\nMuchas me han enseñado algo muy valioso y es que la experiencia encarnada es un valor, aunque no sea suficiente solo con ella.\n\nEste acercamiento a la comunidad afro de Madrid, se produjo en parte gracias a mi compañero de fatiga, Yeison F. García López.\n\n—Un hombre negro en la Liga Norte italiana, otro en VOX, tendemos a pensar que por ser personas negras, tenemos que estar a favor de la inmigración y se ve que no…\n\n—Cuando hablamos de comunidad africana y afrodescendiente de España, no estamos hablando de una identidad homogénea sin ningún tipo de diferencias ideológicas, sería un error si pensáramos de esa manera.\n\nCon esto quiero decir que el hecho de ser personas negras no nos une automáticamente, eso es demasiado esencialista. El racismo como construcción ideológica sirve para jerarquizar racialmente a los grupos humanos y hago hincapié, como construcción ideológica, es decir, una persona negra puede estar ideológicamente a favor de la implementación de políticas racistas, aunque vayan en contra de sí misma.\n\nEste tipo de cosas ya llevan mucho tiempo planteándose, Malcolm X diferenciaba entre el negro del campo y el negro de la casa, Frantz Fanon escribió ‘Piel negra, máscaras blancas’; el título lo dice todo. Ser negras no nos une automáticamente, quizás nos predisponga a luchar contra el racismo, pero ni eso está asegurado. La conciencia no es un resultado, es la condición de un proceso.\n\n—¿Y qué hay de las mujeres negras que hacen política? ¿Conoce a alguna?\n\n—El hacer política debería entenderse de una manera amplia. Es decir, no solo se hace política desde los partidos políticos ni dentro de las instituciones. Si estamos hablando de esta concepción de política, te puedo decir que conozco a muchas mujeres negras que se dedican a hacer política, tanto individualmente como en asociaciones, a través de la expresión artística u organizando una manifestación.\n\nTambién conozco a varias mujeres negras que han estado participando en diferentes partidos políticos, por ejemplo, Catalina Mikue y Consuelo Cruz Arboleda. También estuvo participando en política, de alguna manera, Marcia Santa Cruz Palacios. Tuve la oportunidad de conocer a grandes mujeres líderes de organizaciones afrocolombianas; conozco a Francia Maruez Mina, la Premio Nobel de Ecología por la defensa del territorio, desde hace muchos años.\n\nY este viaje también me permitió la oportunidad de conocer a Piedad Córdoba. Una mujer para la que las palabras se quedan cortas para describirla.\n\nPor último, aunque no las conozca personalmente, Christiane Taubira, exministra de Justicia en Francia, y Cécile Kyenge Kashetu, exministra de integración y cooperación al desarrollo en Italia, merecen mi profundo respeto político por haber conquistado el espacio de poder al que llegaron. Recibieron una enorme violencia racista y machista por ser mujeres negras entrando en espacios que históricamente nos han negado.\n\n—¿Cree que llegará un momento en el que habrá más mujeres negras en el Congreso de los Diputados? ¿Queda mucho para eso?\n\n—Ojalá sea así, no digo que sea imposible, pero sí será bastante complicado.\n\nAl igual que decimos que debemos poner en práctica lógicas feministas para transformar las instituciones y las propias lógicas internas de los partidos políticos, también creo que debemos poner en marcha prácticas antirracistas para llegar a una transformación más amplia.\n\nLo quiera o no, considero que tengo un papel importante en este proceso. Ser la primera mujer negra que está en el Congreso de los Diputados hace que tenga una responsabilidad política. La labor que realice puede cambiar la forma en la que imaginamos la política y permitir pensar con más claridad en la necesidad de que el Congreso de los Diputados sea un reflejo más cercano a la diversidad social y cultural que hay en nuestro país. Justicia social para nuestra comunidad, nosotras formamos parte de esa España que se piensa diversa y construye desde allí.\n\nQuiero despedir esta entrevista con unas palabras de Angela Davis: “Toda la historia de los afrodescendientes, tanto en África como en la diáspora, es una historia de lucha, es una historia de lucha por la libertad y creo que esa historia es importante precisamente por el hecho de la libertad”",
+                                        "metadata": {
+                                            "url": "https://www.pikaramagazine.com/2018/10/rita-bosaho/",
+                                            "source": "www.pikaramagazine.com",
+                                            "favicon": "https://www.pikaramagazine.com/wp-content/uploads/2023/09/pikara_favicon.png",
+                                            "title": "“Es esencialista pensar que ser personas negras nos une ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.pikaramagazine.com",
+                                            "snippet": "Rita Bosaho Gori es diputada en el Congreso español, la primera mujer negra con ese cargo en la historia de la democracia."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Constitución Española también tuvo madres\n\nTras las elecciones democráticas del 15 de Junio de 1977 en España, se puso punto y final a los arduos años de dictadura franquista. Se abría así un nuevo camino cargado de ilusiones y retos, con la mirada puesta en reconstruir un país regido por la democracia, que tuvo como principal consecuencia la creación de la Constitución de 1978.\n\nEn estas elecciones, las mujeres pudieron votar y ser votadas, reconquistando un derecho que se les había arrebatado simplemente por el hecho de ser mujer, y recuperando así el sufragio universal aprobado en la II República, legado de Clara Campoamor, Victoria de Kent y otras tantas mujeres del movimiento feminista que lucharon por el voto femenino en España. Cabe recordar que, tan solo 2 años antes, las mujeres casadas estaban obligabas hasta a pedir autorización al marido para abrir una cuentacorriente, cobrar un sueldo o ir de viaje.\n\nPero además de ejercer su derecho al voto, también consiguieron participar en la elaboración del texto constitucional y en la reforma de algunos cuerpos legales en un momento crucial, en el que se estaban afrontando reformas y cambios esenciales para el país, pero también para los derechos de las mujeres. Por tanto, parecía obvio que las mujeres, la mitad de la población, tuvieran voz y poder de decisión. No obstante, solo 27 mujeres consiguieron formar parte de las Cortes Constituyentes, lo cual era claro reflejo de la situación social de la época y la discriminación que sufrían.\n\nA pesar de no contar con una amplia representación de mujeres, es incuestionable su gran contribución y labor política en la Legislatura Constituyente. Formaron parte de la mayoría de comisiones y realizaron numerosas intervenciones y enmiendas. También tuvieron un papel crucial en la reforma del Código Penal franquista, que incluía varias medidas relacionadas con las mujeres, como la despenalización del adulterio o de los anticonceptivos. No obstante, solo una de ellas, Teresa Revilla, pudo formar parte de la Comisión de Asuntos Constitucionales y Libertades Públicas, encargada de elaborar la carta magna.\n\nSus participaciones versaron sobre numerosas cuestiones y asuntos, entre las que destaca la de la diputada Revilla, cuando remarcó la importancia para el feminismo del artículo 14 de la Constitución, a través de un discurso ejemplar, que hablaba ya de medidas como la conciliación laboral, que a día de hoy todavía se siguen peleando:\n\n“Señorías, en este artículo que hemos votado afirmativamente la mujer española adquiere, por fin, la plenitud de derechos. Es verdad que la votación ha sido unánime y sin disidencias, como estaba reclamando nuestra sociedad, pero las mujeres no vamos a dar las gracias por ello. Tampoco vamos a mirar al pasado con amargura o rencor. (…) Ahora buscamos el futuro y en el futuro queremos simplemente poder ser, ser lo que podamos. (…) Para ello necesitamos, además de la igualdad ante la ley, de una sociedad rica en posibilidades de vida y en formas de existencia, una sociedad flexible en sus sistemas de trabajo y de educación, donde no sean incompatibles la maternidad y el trabajo, la vida familiar y la cultura ”\n\nCabe señalar también otras como la de Marta Mata en defensa de los valores y los pilares de la educación pública; o los planteamientos de la diputada Carlota Bustelo al defender los derechos sexuales y reproductivos de las mujeres; o la Senadora Landáburu y su reivindicación de la igualdad jurídica de ambos cónyuges durante el matrimonio, entre otras.\n\nPor último, otro de los artículos más controvertidos del debate constitucional fue el 57, en el cual se determinaba que, en la sucesión de la monarquía, tendría prioridad el varón, contradiciendo, por tanto, la igualdad entre mujeres y hombres que había sido declarada en el artículo 14. Durante su votación en la Comisión de Asuntos Constitucionales, el texto fue aprobado con 32 votos a favor y la abstención de Teresa Revilla. Además, este artículo no fue objeto de debate en el Pleno del Congreso y quedó aprobado con 132 votos a favor, 15 en contra y 123 abstenciones. Estas últimas fueron una protesta de las diputadas por este artículo discriminatorio.\n\nSororidad: Por ellas y por las que vendrán\n\nEn 2016, tuvo lugar un encuentro en el Salón Europa con “las constituyentes”, que, como se recoge en el libro, comenzó con la pregunta: “¿qué les llevó a presentarse en política?”. María Dolores Pelayo, abogada, senadora y diputada, contestó: “participé en la política porque creía que era necesario que las mujeres participáramos, era una oportunidad histórica que se nos brindaba”. A grandes rasgos, a pesar de sus distintos signos ideológicos, este era el sentir de todas, que apostaron por dedicarse a la política movidas por el deseo de involucrar a la mujer en la esfera económica, social, política y cultural de su país.\n\nAvanzado el debate, Pelayo también lanzó una interesante reflexión: “¿es posible que aquella labor tan inmensa de la transición se hubiera podido hacer sin nosotras, sin el 50% o más del 50% de la población? Imposible. Había un montón de mujeres, de organizaciones de mujeres, de mujeres que estaban trabajando detrás de nosotras, y yo desde aquí también les quiero rendir un homenaje, porque nosotras somos aquí, digamos, la fotografía, pero detrás de nosotras había un montón de mujeres empujándonos y apoyándonos”. La diputada y senadora hacía referencia aquí a la sororidad, al hecho de que todas las conquistas y derechos solo se han conseguido gracias a la unión entre las mujeres.\n\nDe aquellas 21 diputadas, hemos pasado en la actualidad a las 168 que han ocupado escaño en la 14 legislatura. Son muchos los logros alcanzados en materia de igualdad y derechos de la mujer, gracias al movimiento feminista, pero todavía nos queda mucho camino por recorrer. Mantengamos vivo el espíritu y legado de “las constituyentes”, porque ellas abrieron las puertas a las mujeres en la política y el parlamento. Puesto que, como bien puntualiza el libro, recordando las palabras de la exministra Carmen Alborch, las mujeres no llegan a donde están porque sí, sino porque antes hubo otras mujeres que lucharon para que así fuera en el futuro. Por ellas y por las que vendrán.",
+                                        "metadata": {
+                                            "url": "https://blog.congreso.es/de-las-21-de-la-constituyente-hasta-hoy-las-mujeres-que-nos-han-representado-en-el-congreso/",
+                                            "source": "blog.congreso.es",
+                                            "favicon": "https://blog.congreso.es/wp-content/uploads/2021/08/cropped-new_logo_fuera-de-agnda-congreso-32x32.png",
+                                            "title": "De las 21 de la Constituyente hasta hoy: las mujeres que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://blog.congreso.es",
+                                            "snippet": "Desde entonces han sido 1.568 las mujeres que han asumido la responsabilidad de representar a los ciudadanos en el Congreso de los Diputados."
+                                        }
+                                    },
+                                    {
+                                        "text": "Loading...\n\nWhy am I seeing this?\n\nYou are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone.\n\nAnubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is that at individual scales the additional load is ignorable, but at mass scraper levels it adds up and makes scraping much more expensive.\n\nUltimately, this is a hack whose real purpose is to give a \"good enough\" placeholder solution so that more time can be spent on fingerprinting and identifying headless browsers (EG: via how they do font rendering) so that the challenge proof of work page doesn't need to be presented to users that are much more likely to be legitimate.\n\nPlease note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain.",
+                                        "metadata": {
+                                            "url": "https://revistas.uam.es/jospoe/article/download/17622/17160/65715",
+                                            "source": "revistas.uam.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "la educación, la cuestión migratoria y los discursos de odio en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://revistas.uam.es",
+                                            "snippet": "de MB Ríos · Citado por 5 — No obstante, posteriormente se nombró a Rita Bosaho (2020), la primera diputada negra en el Congreso, para asumir este cargo. A pesar de los desafíos y las ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.3530765809991863,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.3530765809991863,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:25:35",
+                    "run_time": 2.3530765809991863,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Quién fue la primera mujer negra en ser elegida para un escaño en el Congreso de los Diputados?": [
+                                {
+                                    "—¿Cree que llegará un momento en el que habrá más mujeres negras en el Congreso de los Diputados? ¿Queda mucho para eso?": null
+                                },
+                                {
+                                    "Es 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial": null
+                                },
+                                {
+                                    "Lo quiera o no, considero que tengo un papel importante en este proceso. Ser la primera mujer negra que está en el Congreso de los Diputados hace que tenga una responsabilidad política. La labor que realice puede cambiar la forma en la que imaginamos la política y permitir pensar con más claridad en la necesidad de que el Congreso de los Diputados sea un reflejo más cercano a la diversidad social y cultural que hay en nuestro país. Justicia social para nuestra comunidad, nosotras formamos parte de esa España que se piensa diversa y construye desde allí.": null
+                                }
+                            ],
+                            "¿Cuándo fue elegida Rita Bosaho para el Congreso de los Diputados y qué circunstancias rodearon su elección?": [
+                                {
+                                    "Es 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial": null
+                                },
+                                {
+                                    "Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad pública, los casos de corrupción y el impulso de los movimientos de protesta la llevaron al Parlamento. De paso, se ha convertido en la primera diputada negra en España.": null
+                                },
+                                {
+                                    "Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Será diputada nacional tras ser elegida como cabeza de lista de Compromís-Podem por Alicante. Trabaja como técnica sanitaria y todavía está en activo, hasta que su nombramiento sea oficial. Pidió 15 días de permiso en su trabajo para poder hacer la campaña electoral y sus compañeros le han cambiado turnos para poder ejercer de política. Española, nació en Guinea Ecuatorial tres años antes de la independencia del país. Es activista pro derechos humanos y de las mujeres.": null
+                                }
+                            ],
+                            "¿Qué contribuciones ha hecho Rita Bosaho al Congreso de los Diputados y a la política española en general?": [
+                                {
+                                    "Es 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial": null
+                                },
+                                {
+                                    "Rita Gertrudis Bosaho Gori[1]​ (Santa Isabel, Fernando Poo, 1965)[2]​ es una sanitaria, activista y política española de origen ecuatoguineano.[3]​ Entre 2020 y 2023 se desempeñó como directora general para la Igualdad de trato y Diversidad Étnico Racial del Ministerio de Igualdad. Miembro de Podemos, fue diputada en el Congreso durante su xi y xii legislaturas. Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española.[4]​": null
+                                },
+                                {
+                                    "Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad pública, los casos de corrupción y el impulso de los movimientos de protesta la llevaron al Parlamento. De paso, se ha convertido en la primera diputada negra en España.": null
+                                }
+                            ],
+                            "¿Existen otras mujeres que hayan sido elegidas para el Congreso de los Diputados y hayan hecho contribuciones significativas a la política española?": [
+                                {
+                                    "—¿Cree que llegará un momento en el que habrá más mujeres negras en el Congreso de los Diputados? ¿Queda mucho para eso?": null
+                                },
+                                {
+                                    "Lo quiera o no, considero que tengo un papel importante en este proceso. Ser la primera mujer negra que está en el Congreso de los Diputados hace que tenga una responsabilidad política. La labor que realice puede cambiar la forma en la que imaginamos la política y permitir pensar con más claridad en la necesidad de que el Congreso de los Diputados sea un reflejo más cercano a la diversidad social y cultural que hay en nuestro país. Justicia social para nuestra comunidad, nosotras formamos parte de esa España que se piensa diversa y construye desde allí.": null
+                                },
+                                {
+                                    "De aquellas 21 diputadas, hemos pasado en la actualidad a las 168 que han ocupado escaño en la 14 legislatura. Son muchos los logros alcanzados en materia de igualdad y derechos de la mujer, gracias al movimiento feminista, pero todavía nos queda mucho camino por recorrer. Mantengamos vivo el espíritu y legado de “las constituyentes”, porque ellas abrieron las puertas a las mujeres en la política y el parlamento. Puesto que, como bien puntualiza el libro, recordando las palabras de la exministra Carmen Alborch, las mujeres no llegan a donde están porque sí, sino porque antes hubo otras mujeres que lucharon para que así fuera en el futuro. Por ellas y por las que vendrán.": null
+                                }
+                            ],
+                            "¿Qué dicen las fuentes expertas sobre la importancia de la elección de Rita Bosaho y su impacto en la comunidad política y social?": [
+                                {
+                                    "Tras cursar una licenciatura en Historia y un Máster en Identidades e Integración en la Europa Contemporánea, Rita Bosaho desarrolla su tesis doctoral sobre el impacto de la colonización europea en África.": null
+                                },
+                                {
+                                    "Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad pública, los casos de corrupción y el impulso de los movimientos de protesta la llevaron al Parlamento. De paso, se ha convertido en la primera diputada negra en España.": null
+                                },
+                                {
+                                    "Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Será diputada nacional tras ser elegida como cabeza de lista de Compromís-Podem por Alicante. Trabaja como técnica sanitaria y todavía está en activo, hasta que su nombramiento sea oficial. Pidió 15 días de permiso en su trabajo para poder hacer la campaña electoral y sus compañeros le han cambiado turnos para poder ejercer de política. Española, nació en Guinea Ecuatorial tres años antes de la independencia del país. Es activista pro derechos humanos y de las mujeres.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 8.875635349000731,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 8.875635349000731,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:25:44",
+                    "run_time": 8.875635349000731,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nRita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Quién fue la primera mujer negra en ser elegida para un escaño en el Congreso de los Diputados?\n¿Cuándo fue elegida Rita Bosaho para el Congreso de los Diputados y qué circunstancias rodearon su elección?\n¿Qué contribuciones ha hecho Rita Bosaho al Congreso de los Diputados y a la política española en general?\n¿Existen otras mujeres que hayan sido elegidas para el Congreso de los Diputados y hayan hecho contribuciones significativas a la política española?\n¿Qué dicen las fuentes expertas sobre la importancia de la elección de Rita Bosaho y su impacto en la comunidad política y social?\n\n3. Here are the text sources you should use as your source of information:\n[0] —¿Cree que llegará un momento en el que habrá más mujeres negras en el Congreso de los Diputados? ¿Queda mucho para eso?\n[0] Lo quiera o no, considero que tengo un papel importante en este proceso. Ser la primera mujer negra que está en el Congreso de los Diputados hace que tenga una responsabilidad política. La labor que realice puede cambiar la forma en la que imaginamos la política y permitir pensar con más claridad en la necesidad de que el Congreso de los Diputados sea un reflejo más cercano a la diversidad social y cultural que hay en nuestro país. Justicia social para nuestra comunidad, nosotras formamos parte de esa España que se piensa diversa y construye desde allí.\n[1] Es 'la primera mujer negra' que llega al Congreso en España. Se llama Rita Bosaho Gori y es originaria de Guinea Ecuatorial\n[2] Rita Bosaho (1965) llevaba más de 20 años trabajando como auxiliar de enfermería en el Hospital de Alicante cuando el deterioro de la sanidad pública, los casos de corrupción y el impulso de los movimientos de protesta la llevaron al Parlamento. De paso, se ha convertido en la primera diputada negra en España.\n[3] Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Será diputada nacional tras ser elegida como cabeza de lista de Compromís-Podem por Alicante. Trabaja como técnica sanitaria y todavía está en activo, hasta que su nombramiento sea oficial. Pidió 15 días de permiso en su trabajo para poder hacer la campaña electoral y sus compañeros le han cambiado turnos para poder ejercer de política. Española, nació en Guinea Ecuatorial tres años antes de la independencia del país. Es activista pro derechos humanos y de las mujeres.\n[4] Rita Gertrudis Bosaho Gori[1]​ (Santa Isabel, Fernando Poo, 1965)[2]​ es una sanitaria, activista y política española de origen ecuatoguineano.[3]​ Entre 2020 y 2023 se desempeñó como directora general para la Igualdad de trato y Diversidad Étnico Racial del Ministerio de Igualdad. Miembro de Podemos, fue diputada en el Congreso durante su xi y xii legislaturas. Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española.[4]​\n[5] De aquellas 21 diputadas, hemos pasado en la actualidad a las 168 que han ocupado escaño en la 14 legislatura. Son muchos los logros alcanzados en materia de igualdad y derechos de la mujer, gracias al movimiento feminista, pero todavía nos queda mucho camino por recorrer. Mantengamos vivo el espíritu y legado de “las constituyentes”, porque ellas abrieron las puertas a las mujeres en la política y el parlamento. Puesto que, como bien puntualiza el libro, recordando las palabras de la exministra Carmen Alborch, las mujeres no llegan a donde están porque sí, sino porque antes hubo otras mujeres que lucharon para que así fuera en el futuro. Por ellas y por las que vendrán.\n[6] Tras cursar una licenciatura en Historia y un Máster en Identidades e Integración en la Europa Contemporánea, Rita Bosaho desarrolla su tesis doctoral sobre el impacto de la colonización europea en África.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados tiene evidencia en varios textos proporcionados. En el texto [1], se menciona explícitamente que Rita Bosaho es \"la primera mujer negra\" que llega al Congreso en España. Además, en el texto [3], se indica que Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Esto sugiere que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados.\n\nAdemás, en el texto [4], se menciona que Rita Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española, lo que refuerza la idea de que fue la primera mujer negra en conseguir un escaño en el Congreso.\n\n**Argumentos en contra de la afirmación**\n\nNo se encuentra evidencia en los textos proporcionados que refute la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados. Sin embargo, en el texto [5], se menciona que hay 168 mujeres que han ocupado un escaño en el Congreso de los Diputados en la actualidad, lo que sugiere que no fue la primera mujer negra en conseguir un escaño, sino que hay otras mujeres que también han logrado esto.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada, podemos concluir que la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados es **verdadera**. Los textos [1], [3] y [4] apoyan esta afirmación, al mencionar explícitamente que Rita Bosaho fue la primera mujer negra en llegar al Congreso o ocupar un escaño en él. Aunque el texto [5] sugiere que hay otras mujeres que también han logrado un escaño en el Congreso, no refuta la afirmación de que Rita Bosaho fue la primera mujer negra en lograrlo. Por lo tanto, basándonos en la evidencia disponible, podemos concluir que la afirmación es verdadera."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5729841310003394,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5729841310003394,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:25:47",
+                    "run_time": 2.5729841310003394,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados tiene evidencia en varios textos proporcionados. En el texto [1], se menciona explícitamente que Rita Bosaho es \"la primera mujer negra\" que llega al Congreso en España. Además, en el texto [3], se indica que Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Esto sugiere que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados.\n\nAdemás, en el texto [4], se menciona que Rita Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española, lo que refuerza la idea de que fue la primera mujer negra en conseguir un escaño en el Congreso.\n\n**Argumentos en contra de la afirmación**\n\nNo se encuentra evidencia en los textos proporcionados que refute la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados. Sin embargo, en el texto [5], se menciona que hay 168 mujeres que han ocupado un escaño en el Congreso de los Diputados en la actualidad, lo que sugiere que no fue la primera mujer negra en conseguir un escaño, sino que hay otras mujeres que también han logrado esto.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada, podemos concluir que la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados es **verdadera**. Los textos [1], [3] y [4] apoyan esta afirmación, al mencionar explícitamente que Rita Bosaho fue la primera mujer negra en llegar al Congreso o ocupar un escaño en él. Aunque el texto [5] sugiere que hay otras mujeres que también han logrado un escaño en el Congreso, no refuta la afirmación de que Rita Bosaho fue la primera mujer negra en lograrlo. Por lo tanto, basándonos en la evidencia disponible, podemos concluir que la afirmación es verdadera.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados\nArticle: **Análisis de la afirmación**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados tiene evidencia en varios textos proporcionados. En el texto [1], se menciona explícitamente que Rita Bosaho es \"la primera mujer negra\" que llega al Congreso en España. Además, en el texto [3], se indica que Rita Bosaho es la primera diputada de raza negra que se va a sentar en el Congreso español. Esto sugiere que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados.\n\nAdemás, en el texto [4], se menciona que Rita Bosaho es la primera persona negra en ocupar un escaño en el Congreso de Diputados tras la Transición española, lo que refuerza la idea de que fue la primera mujer negra en conseguir un escaño en el Congreso.\n\n**Argumentos en contra de la afirmación**\n\nNo se encuentra evidencia en los textos proporcionados que refute la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados. Sin embargo, en el texto [5], se menciona que hay 168 mujeres que han ocupado un escaño en el Congreso de los Diputados en la actualidad, lo que sugiere que no fue la primera mujer negra en conseguir un escaño, sino que hay otras mujeres que también han logrado esto.\n\n**Conclusión**\n\nBasándose en la evidencia proporcionada, podemos concluir que la afirmación de que Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados es **verdadera**. Los textos [1], [3] y [4] apoyan esta afirmación, al mencionar explícitamente que Rita Bosaho fue la primera mujer negra en llegar al Congreso o ocupar un escaño en él. Aunque el texto [5] sugiere que hay otras mujeres que también han logrado un escaño en el Congreso, no refuta la afirmación de que Rita Bosaho fue la primera mujer negra en lograrlo. Por lo tanto, basándonos en la evidencia disponible, podemos concluir que la afirmación es verdadera."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados\", \"categories\": [\"Política\", \"Ciudadanía\", \"Historia\"], \"label\": \"True\", \"main_claim\": \"Rita Bosaho fue la primera mujer negra en conseguir un escaño en el Congreso de los Diputados y su afirmación es verdadera\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,565 @@
+{
+    "question": "En España no hay brecha salarial",
+    "answer": "No hay argumentos o evidencias en las fuentes proporcionadas que apoyen directamente la afirmación de que \"en España no hay brecha salarial\".\n\nPor el contrario, **todas las fuentes refutan categóricamente la afirmación de que no existe una brecha salarial en España**, presentando datos y análisis que demuestran su existencia. Según el Instituto Nacional de Estadística (INE), **las mujeres en España cobran de media un 18,4% menos que los hombres por trabajos de igual valor, lo que se considera un indicador persistente de desigualdad en el mercado laboral** [1]. La Encuesta Anual de Estructura Salarial del INE también muestra que esta brecha ha tenido una evolución irregular, con mejoras lentas y retrocesos puntuales [1]. Además, los microdatos de la Encuesta de Estructura Salarial (EES) del INE indican que, aunque la brecha salarial de género se ha reducido \"más que notablemente\" a lo largo del siglo, **pasó de cerca del 30% a principios de siglo a un 17% en 2022**, lo que confirma su persistencia [2]. Esta reducción se enmarca como un eje transversal del plan de recuperación, transformación y resiliencia, lo que \"aumenta la presión para reducirla en el futuro próximo\" [2]. Las fuentes también distinguen entre la **\"brecha salarial no ajustada\" que ronda el 18-20% y la \"brecha ajustada\" que se sitúa entre el 5-8%**, siendo la primera la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia, y la segunda la diferencia \"injustificada\" por razón de género después de controlar estos factores [1]. Se concluye que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo y la otra mitad a diferencias dentro de trabajos comparables [1].\n\nEn conclusión, la afirmación \"En España no hay brecha salarial\" es **falsa**. Las fuentes proporcionadas ofrecen una **amplia evidencia y datos estadísticos claros del INE que demuestran la existencia y persistencia de una brecha salarial de género en España**, aunque con una tendencia a la reducción a lo largo de las últimas dos décadas [1,2]. Se aclara que esta brecha se manifiesta tanto en su forma no ajustada (18-20%) como ajustada (5-8%), lo que indica que, incluso al controlar factores como el tipo de trabajo, sigue existiendo una diferencia salarial entre hombres y mujeres [1].",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.diversalytics.com/blog/post/brecha-salarial-de-genero/",
+            "source": "www.diversalytics.com",
+            "favicon": "https://www.diversalytics.com/blog/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.funcas.es/articulos/brecha-salarial-de-genero-en-espana/",
+            "source": "www.funcas.es",
+            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "En España no hay brecha salarial",
+        "categories": [
+            "Economía",
+            "Sociedad",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "La afirmación de que en España no hay brecha salarial es falsa",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "google/gemini-2.5-pro",
+                "gen_searches_agent": "google/gemini-2.5-flash",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "google/gemini-2.5-flash",
+                "article_writer": "google/gemini-2.5-flash",
+                "metadata_agent": "google/gemini-2.5-flash",
+                "image_prompt": "google/gemini-2.5-flash",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "publico.es",
+                    "maldita.es",
+                    "uoc.edu",
+                    "gacetamedica.com",
+                    "ciencia.nasa.gov",
+                    "www-iaea-org.translate.goog",
+                    "theobjective.com",
+                    "realinstitutoelcano.org",
+                    "antena3.com",
+                    "vozpopuli.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "elplural.com",
+                    "nationalgeographic.com.es",
+                    "larazon.es",
+                    "efe.com",
+                    "lasexta.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ree.es",
+                    "cadenaser.com",
+                    "sjme.org",
+                    "lamoncloa.gob.es",
+                    "lavanguardia.com",
+                    "oftalmologos.org.ar",
+                    "hopkinsmedicine.org",
+                    "datosmacro.expansion.com",
+                    "abc.es",
+                    "rtve.es",
+                    "newtral.es",
+                    "jacc.org",
+                    "medlineplus.gov",
+                    "pmp.org.es",
+                    "observatoriodelalquiler.org",
+                    "xataka.com",
+                    "lefebvre.es",
+                    "albalactanciamaterna.org",
+                    "salud.nih.gov",
+                    "kidshealth.org",
+                    "observatoriodeladiscapacidad.info",
+                    "educaweb.com",
+                    "sistemaelectrico-ree.es",
+                    "es.weforum.org",
+                    "myfisioclinic.com",
+                    "verificat.cat",
+                    "primabiotic.es",
+                    "elconfidencial.com",
+                    "europapress.es",
+                    "masquemedicos.com",
+                    "instituteforenergyresearch.org",
+                    "infobae.com",
+                    "defensa.gob.es",
+                    "20minutos.es",
+                    "ec-europa-eu.translate.goog",
+                    "normoncontigo.normon.com",
+                    "huffingtonpost.es",
+                    "elblogsalmon.com",
+                    "nyc.gov",
+                    "who.int",
+                    "cincodias.elpais.com",
+                    "agrodiario.com",
+                    "elpais.com",
+                    "worldwildlife.org",
+                    "feminismo.maldita.es",
+                    "clinicaalemana.cl",
+                    "theconversation.com",
+                    "es.euronews.com",
+                    "caixabankresearch.com",
+                    "verifica.efe.com",
+                    "ine.es",
+                    "coches.net",
+                    "bankinter.com",
+                    "sepe.es"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0005758,
+                "total_run_time": 1.0373071239991987,
+                "average_cost_per_call": 0.0005758,
+                "average_time_per_call": 1.0373071239991987,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:39:51",
+                    "run_time": 1.0373071239991987,
+                    "cost": 0.0005758,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: \"official [topic] statistics 2025 government data\"\n- For controversial statements: \"[topic] expert analysis research studies\" + \"[topic] criticism opposing views\"\n- For recent events: \"[specific event] 2025 official statement news\"\n- For comparisons: \"[entity A] vs [entity B] comparison study data\"\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn España no hay brecha salarial\n\n**Critical Research Questions:**\n1. ¿Cuáles son los datos oficiales más recientes del Instituto Nacional de Estadística (INE) y Eurostat sobre la brecha salarial de género en España para 2024 o 2025?\n2. ¿Cómo se compara la brecha salarial en España con la media de la Unión Europea según los últimos informes publicados por Eurostat u OCDE?\n3. ¿Qué concluyen los informes del Gobierno de España y los principales sindicatos sobre las causas y la existencia de la brecha salarial en el mercado laboral español en 2025?\n4. ¿Qué evidencia o estudios económicos existen que analicen la diferencia entre la brecha salarial \"no ajustada\" y la \"ajustada\" en España?\n5. ¿Qué impacto han tenido las leyes de transparencia retributiva y los planes de igualdad en la evolución de la brecha salarial en España, según análisis recientes?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"brecha salarial género España 2024 2025 INE Eurostat datos oficiales\", \"comparativa brecha salarial España Unión Europea 2024 Eurostat OCDE\", \"informes gobierno españa sindicatos brecha salarial causas 2024 2025\", \"estudios económicos brecha salarial ajustada no ajustada España análisis\", \"impacto leyes transparencia retributiva planes igualdad brecha salarial España evolución\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.7590996580001956,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.7590996580001956,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:39:53",
+                    "run_time": 2.7590996580001956,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "brecha salarial género España 2024 2025 INE Eurostat datos oficiales",
+                                "comparativa brecha salarial España Unión Europea 2024 Eurostat OCDE",
+                                "informes gobierno españa sindicatos brecha salarial causas 2024 2025",
+                                "estudios económicos brecha salarial ajustada no ajustada España análisis",
+                                "impacto leyes transparencia retributiva planes igualdad brecha salarial España evolución"
+                            ],
+                            "results": {
+                                "brecha salarial género España 2024 2025 INE Eurostat datos oficiales | comparativa brecha salarial España Unión Europea 2024 Eurostat OCDE | informes gobierno españa sindicatos brecha salarial causas 2024 2025 | estudios económicos brecha salarial ajustada no ajustada España análisis | impacto leyes transparencia retributiva planes igualdad brecha salarial España evolución": [
+                                    {
+                                        "text": "Brecha salarial de género en España\n\nDurante las últimas dos décadas, la brecha salarial de género en el mercado laboral ha descendido significativamente en España, pasando de un 29 % en 2002 a un 17 % en el año 2022. Esta importante caída en lo que llevamos de siglo suscita preguntas sobre cuáles han sido los factores decisivos en la progresiva convergencia salarial entre hombres y mujeres, si se trata de diferencias en la composición del mercado laboral, como un crecimiento en el nivel educativo de las mujeres o un mejor acceso a sectores u ocupaciones mejor remuneradas, o si también ha mejorado la brecha salarial de género ajustada por las características del trabajador y el puesto de trabajo. Empleando microdatos de la Encuesta de Estructura Salarial (EES) para las diferentes olas que abarcan desde 2002 hasta 2022, respondemos a estas preguntas. Sin embargo, los últimos datos disponibles apuntan a una congelación de la brecha salarial en sus niveles de 2022, lo que hace necesario plantear cuáles son los retos que superar para que su reducción continúe en los próximos años.\n\nLa brecha salarial de género durante el siglo XXI en España\n\nLa brecha salarial de género en España se convirtió en una de las variables clave en el análisis de las desigualdades de género, gracias a la rápida incorporación de la mujer al mercado laboral a finales del siglo XX en España. El análisis de esta importante variable ha suscitado intensos debates cada vez que se actualizan las estadísticas salariales al respecto, pero es habitual que falte una perspectiva temporal lo suficientemente amplia para conocer la evolución de esta brecha en un periodo de más de una década. Adicionalmente, la reducción de la brecha salarial de género se encuadra dentro de uno de los ejes transversales del plan de recuperación, transformación y resiliencia, lo que no hace sino aumentar la presión para reducirla en el futuro próximo.\n\nGracias a los microdatos de la Encuesta de Estructura Salarial (EES), cuyos microdatos se publican de forma cuatrienal por el Instituto Nacional de Estadística (INE), podemos observar la evolución de la brecha de género, tanto en términos de salario bruto como en salario por hora, durante la mayor parte de lo que llevamos de siglo, desde el 20021 hasta 2022, el último dato disponible. En apenas veinte años, la reducción de la brecha salarial de género ha sido más que notable en España, pasando de una brecha cercana al 30 % a principios de siglo a un 17 % en el 2022.\n\nEsta reducción de la brecha de género ha sido aún más intensa cuando nos referimos al salario bruto por hora en vez de al salario bruto anual, lo que anticipa una reasignación de mujeres dentro del mercado laboral hacia sectores y ocupaciones con mayores salarios por hora a lo largo de las últimas dos décadas. Concretamente, la brecha salarial en salario por hora se ha reducido a la mitad, desde un 20 % en 2002 a un 9,4 % en 2022, lo que supone el primer año de la serie histórica en el que este dato desciende por debajo del 10 % (gráfico 1).\n\nAsí pues, podemos afirmar que la caída de la brecha de género en el salario bruto no responde únicamente a un incremento en la intensidad del empleo femenino, sino que hay factores adicionales, como el incremento del nivel de estudios o la presencia de mujeres en sectores mejor remunerados, por citar dos ejemplos, que han podido contribuir a hacer descender la brecha salarial en el salario por hora. Sin embargo, esta caída del salario por hora también podría explicarse por una reasignación intersectorial de las mujeres hacia ocupaciones mejor remuneradas en términos de salario por hora.\n\nEn el gráfico 2 se pretende arrojar luz sobre el efecto que han podido tener ambos canales, tanto la reasignación de trabajadores entre diferentes sectores de actividad como la reasignación entre ocupaciones, sobre los cambios salariales y la caída de la brecha salarial desde 2010 hasta la actualidad. Si bien los datos muestran que tanto la reasignación de mujeres entre sectores y entre ocupaciones ha sido positiva para el crecimiento de su salario medio, a diferencia de lo que sucede con los hombres, la relación es sustancialmente más positiva en el plano de las ocupaciones (panel A) que entre sectores de actividad (panel B).\n\nLa reasignación de mujeres entre sectores y entre ocupaciones ha sido positiva para el crecimiento de su salario medio\n\nPara tener una idea de la magnitud del efecto de cada canal, puede realizarse un ejercicio sencillo, en el que se asume el mismo salario medio por sector de actividad y por ocupación en 2022, pero se mantienen los pesos que mostraban las mujeres en cada ocupación/sector en el año 2011. Bajo estos supuestos, el salario medio de las mujeres sería hoy un 2,6 % menor en el caso de mantener constantes sus pesos en los diferentes sectores de actividad, y sería un 4,6 % menor en el caso de hacer la misma estimación para las distintas categorías de ocupación, lo que nos indica que la importancia del reajuste entre ocupaciones predomina ampliamente sobre la reasignación sectorial, aunque ambos sean cuantitativamente relevantes.\n\nComo era de esperar, estos cambios de composición en el mercado están principalmente impulsados por las nuevas cohortes de mujeres que se han incorporado al mercado laboral y comenzado a desarrollar su carrera profesional en los últimos lustros. Por tanto, no es de extrañar que las brechas se hayan reducido con más intensidad entre las cohortes de población más jóvenes. De forma especialmente relevante, la brecha salarial en términos de salario por hora ha desaparecido de forma efectiva entre los trabajadores de 20 a 30 años, ya que es de apenas un 1 % (gráfico 3).\n\nAhora que ya entendemos el efecto que ha jugado la reasignación de trabajadores entre sectores y ocupaciones para reducir la brecha de género, es pertinente preguntarse qué parte de la caída más reciente tiene que ver con el incremento de las horas trabajadas, que análisis recientes han apuntado a una de las fuentes más importantes del crecimiento salarial entre los trabajadores de salarios bajos en los últimos años.\n\nEl papel de las horas trabajadas en la reducción de la brecha (2014-2022)\n\nLa literatura académica que ha estudiado la brecha de género ha identificado siempre la diferencia en la intensidad del empleo, medida tanto a través de la jornada laboral pactada como a través de los meses trabajados, como uno de los factores más relevantes para explicar la brecha salarial y su evolución a lo largo del tiempo. De hecho, evidencia reciente para España (Hospido et al., 2017) muestra que estos dos canales de impacto, jornada y días trabajados, son claves para explicar el origen de la brecha de género que se produce tras el nacimiento del primer hijo. De hecho, en el mismo trabajo apuntan, como era de esperar, a que los canales de ajuste son usados de forma diferente entre mujeres en función de su nivel educativo, predominante el ajuste a través de la jornada laboral entre las mujeres con estudios superiores mientras que entre las mujeres con menor nivel de estudios domina el ajuste a través de un menor número de días trabajados al año.\n\nCon todo esto en mente, parece razonable pensar que al menos una parte de la reducción de la brecha salarial en los últimos años ha podido estar impulsada por cambios en las horas trabajadas. Como la brecha presentada en este artículo no tiene en cuenta las diferencias entre hombres y mujeres en términos de días trabajados, nos centraremos únicamente en el papel que ha podido jugar el incremento de la jornada laboral para las mujeres, que podremos descomponer en diferentes segmentos.\n\nParece razonable pensar que al menos una parte de la reducción de la brecha salarial en los últimos años ha podido estar impulsada por cambios en las horas trabajadas\n\nEn el gráfico 4 se muestra la evolución del número medio de horas trabajadas al mes para hombres y mujeres en las tres últimas olas de la EES, 2014, 2018 y 2022. Aunque el cambio en las horas trabajadas fue mínimo entre 2014 y 2018, sí parece que el incremento observado entre 2018 y 2022, de un 1,6 % para hombres y de un 2,8 % para mujeres, ha contribuido a reducir la brecha de género en ese periodo.\n\nCuriosamente, aunque inicialmente podría pensarse que el aumento del número medio de horas trabajadas entre mujeres está asociado a una fuerte caída del porcentaje de ellas que trabajan a jornada parcial, la parcialidad ha caído de forma más pronunciada entre los hombres que entre las mujeres desde 2018, con una caída de 2 puntos porcentuales entre hombres frente a 1,5 puntos en el caso de las mujeres, lo que apunta a que el incremento de las horas trabajas entre mujeres estaría asociado más bien a incrementos de las horas trabajadas dentro del grupo de trabajadoras a jornada parcial (gráfico 4).\n\nPara conocer el efecto positivo que ha tenido este crecimiento desigual de las horas trabajadas entre hombres y mujeres entre 2018 y 2022, simulamos la evolución que habría tenido la brecha salarial en salario bruto anual entre 2014 y 2022 en el caso de que la jornada media mensual entre las mujeres no hubiera cambiado en ese periodo y hubiera mantenido sus valores observados en 2014. Es decir, cuál habría sido la brecha salarial en un escenario en el que el salario por hora hubiera continuado ascendiendo (impulsado por el efecto composición que hemos documentado en el apartado anterior), pero las horas trabajadas hubieran permanecido iguales. De este modo, la diferencia entre ambas series puede considerarse como la contribución del aumento de las horas trabajadas a la reducción de la brecha salarial.\n\nEn el gráfico 5 pueden verse ambas series desde 2014 hasta 2022. El efecto positivo de la intensidad laboral en la caída de la brecha de género se va ensanchando con el tiempo, especialmente entre 2018 y 2022. Los resultados indican que la brecha salarial de 2022 sería 1,4 puntos superior en un escenario de mantenimiento de las horas trabajadas en su nivel de 2014. Considerando que la caída de la brecha salarial en este periodo ha descendido 5,5 puntos, el efecto de las horas trabajadas sobre la caída total de la brecha asciende al 25 %. Es decir, una cuarta parte de la caída de la brecha salarial en ese periodo puede explicarse por el mayor incremento que han experimentado las horas medias trabajadas por parte de las mujeres con respecto a las de los hombres, mientras que las tres cuartas partes restantes son atribuibles a la caída de la brecha salarial en términos de salario por hora.\n\nLa evolución de la brecha salarial ajustada\n\nEs habitual en la literatura cuantificar no solo la brecha salarial de género, sino también estimar cuál sería esta brecha tras ajustarla en función de las características observables de los trabajadores y el empleo que realizan. En esta última sección, se calculan las brechas de género ajustadas en el periodo de 2014 a 2022 mediante la estimación de un modelo MCO que tiene en cuenta las características básicas del trabajador, como su región de residencia, edad, experiencia y nivel de estudios, las características de su empleo (ocupación, sector de actividad, mercado principal de la empresa y responsabilidad del puesto) y, por último, características de la empresa como su número de empleados.\n\nEn el gráfico 6 se muestra la evolución de las tres definiciones de brecha salarial, de salario bruto anual, salario por hora y salario por hora ajustada en los tres periodos. A diferencia de la tendencia observada en las brechas de salario anual y salario por hora, la evolución de la brecha salarial ajustada ha sido mucho más decepcionante, con una caída mínima de apenas un punto, frente a caídas de entre cuatro y seis puntos en el resto de las brechas de género consideradas. Esta evolución relativamente peor de la brecha salarial ajustada desde 2014 indica que la mayor parte de la caída de la brecha en el salario bruto anual puede explicarse por la mayor intensidad en las horas trabajadas o por efecto composición en las características de las trabajadoras y solo marginalmente por la reducción de la brecha ajustada.\n\nDentro del grupo de trabajadores con estudios superiores, las mujeres siguen infrarrepresentadas en las titulaciones con mayores expectativas salariales, como es el caso de las carreras STEM\n\nLas causas que pueden estar detrás de estas diferencias pueden ser variadas, desde un estancamiento en el avance de la corresponsabilidad de los hombres en el hogar, o una fuerte penalización salarial por mayor flexibilidad de horarios, entre otros, y pueden cambiar sustancialmente entre categorías de trabajadores o sectores. Para tratar de entender en qué segmentos del mercado de trabajo ha caído con mayor intensidad la brecha salarial ajustada, estimamos el modelo por separado para trabajadores en función de si tienen o no estudios superiores, y separando a trabajadores del sector público y del sector privado.\n\nLos resultados, presentados en el gráfico 7, apuntan a caídas relativamente más intensas entre los trabajadores sin estudios superiores y trabajadores públicos con respecto a los trabajadores con alto nivel de estudios y empleados en el sector privado. Una hipótesis alternativa para explicar esta diferencia en la caída de la brecha salarial ajustada entre trabajadores en función de su nivel de estudios tiene que ver con la desagregación de los datos de la propia EES. Si, dentro del grupo de trabajadores con estudios superiores, las mujeres siguen infrarrepresentadas en las titulaciones con mayores expectativas salariales, como es el caso de las carreras STEM, estas diferencias de composición dentro de los trabajadores más formados, que no puede tenerse en cuenta en la ecuación salarial por falta de datos sobre el campo de los estudios superiores, podría ayudar a explicar por qué la brecha salarial ajustada se mantiene casi sin cambios en este grupo de trabajadores.\n\nPor desgracia, el retraso habitual de los datos oficiales obliga a restringir el conjunto del análisis a 2022, que es el último año para el que el INE ha publicado datos salariales en cualquiera de las encuestas de carácter nacional que elabora. Sin embargo, disponemos de información más actualizada para calcular proxys de la brecha salarial mediante las estadísticas de bases de cotización de la seguridad social que, si bien ofrecen un resultado sesgado por la existencia de las bases mínimas y máximas de cotización, pueden servir para darnos pistas de cómo ha evolucionado la brecha salarial en 2023 y parte de 2024.\n\nEn el gráfico 8 puede verse la evolución de la base media de cotización entre hombres y mujeres desde enero de 2018 hasta abril de 2024. Como era de esperar, entre 2018 y 2022 la base media de cotización de las mujeres creció a un ritmo mayor que la de los hombres, en línea con los resultados anteriores. Por el contrario, la evolu- ción fue tremendamente parecida en 2023 y los primeros meses de 2024, con crecimientos muy similares del entorno del 4 % en ambos sexos, lo que sugiere que, al menos en los últimos años, la brecha salarial ha permanecido sin cambios en España.\n\nConclusiones\n\nAl igual que a finales del siglo XX, el principal reto para las mujeres en materia laboral era lograr la convergencia con los hombres en las tasas de empleo y actividad, eliminar la brecha salarial se ha convertido en el principal desafío en materia de igualdad en lo que llevamos de siglo. En ese sentido, los avances realizados en los últimos veinte años son alentadores, con una caída sustancial de la brecha salarial, tanto en salario bruto anual como en salario por hora, un éxito parcial sustentado en la mejora de la intensidad laboral y una potente reasignación de las mujeres hacia sectores y ocupaciones mejor pagadas durante la última década.\n\nSin embargo, la otra cara de este éxito es que la brecha salarial de género ajustada por características ha tenido un desempeño sustancialmente peor, al menos en la última década, con una caída marginal de apenas un punto porcentual. Aunque no podemos identificar con claridad las razones que están frenando la reducción de la brecha salarial ajustada, que esta se mantenga estable en el tiempo supone que, en el futuro será sustancialmente más difícil continuar reduciendo la brecha salarial al mismo ritmo al que se viene reduciendo desde principios de siglo. La explicación es sencilla, una vez la brecha ya no pueda reducirse mediante incrementos de la jornada laboral o mediante un mayor peso de las mujeres en sectores y ocupaciones mejor pagadas, quedará una brecha sala- rial persistente y grande, cercana al 10 %, que será mucho más difícil de eliminar.\n\nEn el plano positivo, hay evidencia reciente que apunta a varias fórmulas exitosas para reducir la brecha salarial ajustada, como una mayor corresponsabilidad tras la llegada de los hijos o una mayor flexibilidad horaria en el puesto de trabajo. De hecho, esta es la línea de actuación más prometedora de acuerdo con la investigación más reciente publicada por la ganadora del premio Nobel Claudia Goldin, que apunta a la relación no lineal que existe entre las horas trabajadas y los salarios, donde un menor número de horas trabajadas de forma no continuada habitualmente está asociado a una gran penalización salarial en términos de salario por hora. En ese sentido, aunque aún no disponemos de evidencia al respecto, el incremento del teletrabajo en los países desarrollados puede contener, al menos parcialmente, parte de esa flexibilidad sin penalización salarial que será necesaria para continuar cerrando la brecha de género en las próximas décadas.\n\nNotas\n\n* Afi, Analistas Financieros Internacionales, S. A.\n\n1 La EES correspondiente a las olas de 2002 y 2006 tienen diferencias metodológicas importantes respecto al resto de olas de la encuesta, principalmente la omisión de un porcentaje considerable de trabajadores públicos y, en el caso de la ola de 2022, de trabajadores en pequeñas empresas. Aunque esto provoca sesgos en el cálculo de las brechas en esos años, mantenemos los datos en la primera sección del artículo.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/articulos/brecha-salarial-de-genero-en-espana/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "Brecha salarial de género en España",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "Durante las últimas dos décadas, la brecha salarial de género en el mercado laboral ha descendido significativamente en España, pasando de un 29 % en 2002 a un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La brecha salarial entre hombres y mujeres en España alcanza el 18,4%. Descubre las causas reales, cómo medirla en tu empresa y las estrategias efectivas para cerrarla según el RD 902/2020.\n\nLa brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.\n\nPero la brecha salarial es mucho más compleja de lo que parece a simple vista. No se trata simplemente de que las empresas paguen menos a las mujeres por hacer el mismo trabajo que los hombres, aunque esto también ocurre. Las causas son múltiples, a menudo invisibles, y están profundamente entrelazadas con estructuras sociales y laborales que perpetúan la desigualdad.\n\nEn esta guía completa analizamos qué es realmente la brecha salarial de género, cuáles son sus causas verdaderas (más allá de los tópicos), cómo se mide correctamente según la normativa española, y qué pueden hacer las empresas para identificarla y cerrarla de forma efectiva.\n\nQué es la brecha salarial de género (y qué no es)\n\nLa brecha salarial de género se define como la diferencia entre el salario medio que perciben los hombres y el que perciben las mujeres, expresada como porcentaje del salario de los hombres. Si los hombres ganan de media 30.000 euros al año y las mujeres 24.540 euros, la brecha salarial es del 18,2%.\n\nEs fundamental entender que la brecha salarial mide diferencias agregadas a nivel de toda la economía, un sector, o una empresa completa. No compara necesariamente a un hombre y una mujer haciendo exactamente el mismo trabajo en el mismo puesto. Esa sería solo una parte del fenómeno, y probablemente la menos significativa.\n\nLa confusión surge porque existe lo que se llama \"brecha salarial ajustada\" y \"brecha salarial no ajustada\". La brecha no ajustada mide la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia. La brecha ajustada intenta controlar estos factores para medir solo la diferencia \"injustificada\" por razón de género.\n\nEn España, la brecha no ajustada ronda el 18-20%, mientras que la brecha ajustada (comparando trabajos similares) se sitúa entre el 5-8%. Esto significa que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo que realizan hombres y mujeres, y la otra mitad a diferencias dentro de trabajos comparables.\n\nAmbos componentes importan. El hecho de que las mujeres estén concentradas en sectores peor pagados o tengan menos acceso a puestos directivos también es discriminación, aunque sea más sutil y estructural que pagar menos por el mismo trabajo.\n\nLas cifras reales de la brecha salarial en España\n\nSegún la Encuesta Anual de Estructura Salarial del INE, la brecha salarial de género en España ha mostrado una evolución irregular en las últimas dos décadas, con mejoras lentas pero también retrocesos puntuales.\n\nEn 2022, último año con datos completos, la brecha salarial se situó en el 18,4%. Esto significa que por cada euro que ganaba un hombre, una mujer ganaba 81,6 céntimos. En términos absolutos, el salario medio anual de los hombres fue de 28.437 euros, mientras que el de las mujeres fue de 23.175 euros, una diferencia de 5.262 euros al año.\n\nEstas cifras agregadas esconden realidades muy diferentes según sectores y ocupaciones. La brecha es especialmente pronunciada en sectores financieros y seguros (28,9%), actividades profesionales y técnicas (26,3%), y comercio (21,7%). En cambio, es menor en educación (11,2%), sanidad (14,3%), y administración pública (9,8%).\n\nPor tipos de ocupación, la brecha es más amplia en puestos directivos (21,9%) y técnicos profesionales científicos e intelectuales (19,1%), mientras que es menor en ocupaciones elementales (6,3%) y empleados de servicios de restauración (8,1%). Paradójicamente, a mayor cualificación del puesto, mayor suele ser la brecha.\n\nLa edad también influye significativamente. La brecha es pequeña en jóvenes menores de 25 años (apenas un 2-3%), pero se dispara progresivamente con la edad, alcanzando su máximo en el tramo de 45 a 54 años (23,1%). Esto refleja el impacto acumulativo de la maternidad y las responsabilidades de cuidado en las trayectorias profesionales femeninas.\n\nLas verdaderas causas de la brecha salarial\n\nContrariamente a lo que muchos piensan, la causa principal de la brecha salarial no es que las empresas paguen conscientemente menos a las mujeres por el mismo trabajo, aunque esto también ocurre. Las causas son más complejas y sistémicas.\n\nLa segregación ocupacional horizontal es uno de los factores más determinantes. Las mujeres están sobrerrepresentadas en sectores tradicionalmente peor remunerados como educación, sanidad, servicios sociales, o comercio. Los hombres dominan sectores mejor pagados como tecnología, ingeniería, finanzas, o construcción. Esta concentración sectorial explica aproximadamente un tercio de la brecha total.\n\nPero ¿por qué esta segregación? No es casualidad. Responde a estereotipos de género profundamente arraigados que orientan las elecciones educativas desde edades tempranas. Las niñas son sutilmente desalentadas de carreras STEM, mientras que los niños reciben menos apoyo para profesiones de cuidado. El resultado es un mercado laboral estratificado por género desde el origen.\n\nLa segregación vertical es igual de importante. Incluso dentro del mismo sector o empresa, las mujeres tienen menos probabilidades de ocupar puestos directivos y de alta responsabilidad. El fenómeno del \"techo de cristal\" sigue vigente: las mujeres representan solo el 34% de los puestos directivos en España, a pesar de ser el 47% de la población activa.\n\nEsta infrarrepresentación en puestos de decisión no se debe a falta de capacitación. Las mujeres representan el 58% de los titulados universitarios en España. El problema son las barreras invisibles que dificultan su promoción: sesgos inconscientes en los procesos de selección, falta de modelos femeninos en puestos altos, redes profesionales predominantemente masculinas, y la incompatibilidad entre las demandas de los puestos directivos y las responsabilidades de cuidado que recaen desproporcionadamente sobre las mujeres.\n\nLa penalización por maternidad es otro factor crucial que a menudo se minimiza o ignora. Las estadísticas son contundentes: las mujeres sin hijos tienen brechas salariales mucho menores que las madres. La diferencia no aparece inmediatamente tras el nacimiento, sino que se va ampliando con los años.\n\nEsta penalización no se debe solo a las bajas por maternidad. El problema es más profundo: las madres son percibidas como menos comprometidas con su carrera, menos disponibles, menos ambiciosas. Esto se traduce en menores aumentos salariales, menos ascensos, asignación a proyectos menos visibles, y exclusión de oportunidades de formación y desarrollo.\n\nLa jornada parcial es otro elemento que contribuye significativamente a la brecha. En España, el 22% de las mujeres trabajadoras tiene jornada parcial, frente a solo el 7% de los hombres. Y en el 95% de los casos, la jornada parcial es por razones de cuidado familiar, no por elección profesional libre.\n\nEl problema es que la jornada parcial no es neutral. Los trabajadores a tiempo parcial tienen salarios por hora inferiores, menor acceso a formación, menos opciones de promoción, y menores derechos de pensión. La jornada parcial \"voluntaria\" es en realidad una elección forzada por la falta de alternativas de cuidado y por normas sociales que asignan estas responsabilidades a las mujeres.\n\nLa infravaloración del trabajo femenino es quizás la causa más sutil pero más insidiosa. Los empleos dominados por mujeres tienden a estar peor pagados precisamente porque los realizan mujeres. Estudios internacionales demuestran que cuando una profesión se feminiza (aumenta significativamente el porcentaje de mujeres), su remuneración relativa tiende a disminuir, incluso cuando el contenido del trabajo permanece constante.\n\nEsto refleja estereotipos según los cuales las habilidades asociadas con lo femenino (cuidado, empatía, organización) se consideran \"naturales\" y por tanto no merecen la misma remuneración que las habilidades técnicas o de liderazgo asociadas con lo masculino. El resultado es una sistemática subvaloración del trabajo de cuidados, educativo, social, y administrativo.\n\nCómo medir la brecha salarial en tu empresa\n\nEl Real Decreto 902/2020 establece la metodología oficial para medir la brecha salarial dentro de una empresa española. No basta con comparar salarios medios globales; hay que hacer un análisis detallado y estructurado.\n\nEl primer paso es recopilar todos los componentes retributivos de cada empleado: salario base, complementos salariales (antigüedad, idiomas, nocturnidad, disponibilidad, productividad, etc.), pagas extraordinarias, bonus, comisiones, y retribuciones en especie. Todo lo que constituya compensación debe incluirse.\n\nA continuación, debes clasificar tu plantilla según varios criterios simultáneos: grupo profesional, categoría, puesto de trabajo, nivel retributivo, y antigüedad. Esta clasificación debe ser coherente con tu convenio colectivo aplicable o, en su defecto, con tu estructura organizativa real.\n\nPara cada una de estas clasificaciones, calculas el salario medio de hombres y de mujeres por separado. Por ejemplo, en el grupo profesional \"técnicos nivel 2\", calculas la media salarial de todos los hombres en ese grupo y la media de todas las mujeres. La diferencia entre ambas medias, expresada como porcentaje del salario masculino, es tu brecha salarial en esa categoría.\n\nLa fórmula específica que establece el Real Decreto es: Brecha salarial = [(Media salarial hombres - Media salarial mujeres) / Media salarial hombres] x 100.\n\nSi el resultado es positivo, significa que los hombres cobran más. Si es negativo, las mujeres cobran más. Un resultado cercano a cero indica igualdad retributiva en esa categoría específica.\n\nEste proceso debe repetirse para múltiples niveles de desagregación. No basta con calcular una única brecha global de la empresa. El Real Decreto exige once tablas diferentes de análisis (TA.1 a TA.11), cada una desagregando los datos de una forma distinta, para detectar dónde exactamente se producen las diferencias.\n\nPor ejemplo, podrías tener una brecha global del 5% que parece razonable, pero al desagregar por puestos descubrir que en \"jefe de proyecto\" la brecha es del 28% y en \"analista senior\" es del -12%. Estos detalles son fundamentales porque indican dónde focalizar las acciones correctivas.\n\nCuándo una brecha salarial es legal y cuándo no\n\nNo toda diferencia salarial entre hombres y mujeres constituye discriminación ilegal. La ley permite diferencias retributivas cuando se basan en factores objetivos ajenos al género.\n\nEl umbral que establece el Real Decreto 902/2020 es el 25%. Cuando la brecha salarial en una categoría profesional supera el 25% en cualquier sentido, la empresa debe justificar esa diferencia con razones objetivas y concretas. Si no puede justificarla adecuadamente, se presume discriminación.\n\nLas razones objetivas que pueden justificar diferencias salariales incluyen la antigüedad (siempre que el sistema de antigüedad sea neutral respecto al género), la formación especializada acreditada relevante para el puesto, las responsabilidades adicionales claramente definidas, la disponibilidad horaria (guardias, festivos, turnos), la productividad objetivamente medible, o las condiciones de trabajo más penosas (peligrosidad, nocturnidad, toxicidad).\n\nLo que no son razones válidas son factores como \"mayor compromiso\", \"mejor desempeño general\", \"más liderazgo\", u otras apreciaciones subjetivas que no puedan demostrarse con criterios medibles. Tampoco son válidas justificaciones basadas en \"necesidad económica del trabajador\", \"cabeza de familia\", o cualquier otro factor que reproduzca estereotipos de género.\n\nUn caso especialmente delicado es el de la negociación salarial individual. Algunos argumentan que si un hombre negocia mejor su salario que una mujer en el mismo puesto, la diferencia está justificada. Sin embargo, numerosos estudios demuestran que las mujeres son penalizadas socialmente por negociar agresivamente (se las percibe como \"conflictivas\"), mientras que los hombres son recompensados (se los ve como \"seguros de sí mismos\"). Por tanto, basar diferencias salariales únicamente en negociación individual puede perpetuar sesgos de género indirectos.\n\nEstrategias efectivas para cerrar la brecha salarial\n\nCerrar la brecha salarial en una empresa requiere un enfoque sistemático y multiflanco. No hay soluciones mágicas, pero sí estrategias probadas que funcionan cuando se implementan con seriedad.\n\nAudita exhaustivamente tu estructura salarial\n\nEl primer paso es saber exactamente dónde y por qué existen brechas en tu organización. Esto requiere ir más allá del registro retributivo obligatorio y hacer un análisis profundo que incluya no solo promedios, sino también distribuciones salariales completas.\n\nExamina los rangos salariales en cada puesto: ¿están hombres y mujeres distribuidos equitativamente dentro del rango, o las mujeres se concentran en los tramos bajos? Analiza las trayectorias salariales: ¿progresan hombres y mujeres al mismo ritmo cuando tienen antigüedad y desempeño comparables?\n\nRevisa tus sistemas de complementos: ¿son neutrales respecto al género o favorecen sistemáticamente características más presentes en trabajadores masculinos? Por ejemplo, complementos por disponibilidad absoluta pueden discriminar indirectamente a personas con responsabilidades de cuidado.\n\nImplementa bandas salariales transparentes\n\nUna de las mejores prácticas internacionales es establecer bandas salariales claras y transparentes para cada puesto, con criterios objetivos para situarse dentro de cada banda. Esto elimina la discrecionalidad arbitraria que a menudo esconde sesgos inconscientes.\n\nLas bandas deben basarse en evaluaciones de puestos que consideren factores medibles: responsabilidades, formación requerida, experiencia necesaria, complejidad de tareas, y condiciones de trabajo. Todos los empleados en el mismo puesto con las mismas características deben estar en el mismo rango salarial, independientemente de su género.\n\nLa transparencia es clave. Si los empleados conocen las bandas y los criterios para moverse dentro de ellas, pueden identificar y cuestionar inconsistencias. La opacidad salarial, por el contrario, perpetúa desigualdades invisibles.\n\nRevisa tus procesos de contratación y promoción\n\nMuchas brechas salariales se originan en el momento de la contratación. Las ofertas salariales iniciales tienden a basarse en el salario previo del candidato, lo que perpetúa diferencias históricas. Si las mujeres vienen de puestos con brecha, esa brecha se traslada a su nuevo empleo.\n\nUna solución es basar las ofertas exclusivamente en las bandas salariales del puesto, no en el historial salarial del candidato. Algunos países ya han prohibido preguntar por el salario anterior precisamente para romper este ciclo.\n\nEn cuanto a promociones, asegúrate de que los criterios sean objetivos, medibles, y conocidos por todos. Las promociones \"a dedo\" basadas en redes informales favorecen a quienes están mejor conectados, típicamente hombres. Procesos formales y transparentes reducen estos sesgos.\n\nFacilita la conciliación de forma universal\n\nGran parte de la brecha se debe a que las responsabilidades de cuidado recaen desproporcionadamente sobre las mujeres. Las empresas pueden contribuir a redistribuir estas cargas ofreciendo flexibilidad y apoyos que beneficien a todos, no solo a madres.\n\nPolíticas de teletrabajo flexibles, horarios adaptables, permisos parentales igualitarios (y promoviendo activamente que los padres los tomen), y ayudas para servicios de cuidado infantil o de mayores benefician a toda la plantilla y reducen la penalización específica sobre las mujeres.\n\nEs crucial que estas políticas sean realmente utilizables por todos sin penalización profesional. Si usar flexibilidad se percibe como \"falta de compromiso\" que afecta negativamente a evaluaciones y promociones, el efecto será contraproducente.\n\nForma a quienes toman decisiones en sesgos inconscientes\n\nMuchas decisiones salariales y de promoción están influenciadas por sesgos inconscientes que quienes las toman ni siquiera reconocen. Formación específica puede ayudar a identificar estos patrones y contrarrestarlos.\n\nPor ejemplo, estudios muestran que en evaluaciones de desempeño, los mismos comportamientos se describen diferente según el género: un hombre \"asertivo\" es una mujer \"agresiva\", un hombre \"estratégico\" es una mujer \"calculadora\". Hacer conscientes estos sesgos es el primer paso para evitarlos.\n\nEstablece objetivos concretos y haz seguimiento\n\nLas buenas intenciones no bastan. Necesitas establecer objetivos medibles de reducción de brecha salarial, con plazos concretos y responsables asignados. Por ejemplo: \"Reducir la brecha en puestos técnicos del 18% al 10% en dos años\".\n\nHaz seguimiento trimestral del progreso, identifica obstáculos, ajusta estrategias. Incorpora la reducción de brecha como un KPI más de la gestión empresarial, con la misma importancia que otros objetivos de negocio.\n\nEl papel de los planes de igualdad en cerrar la brecha\n\nPara empresas de 50 o más trabajadores, el plan de igualdad es la herramienta principal para abordar sistemáticamente la brecha salarial. El Real Decreto 901/2020 establece que uno de los contenidos obligatorios del plan es precisamente un diagnóstico retributivo y medidas específicas para cerrar brechas detectadas.\n\nEl diagnóstico del plan de igualdad debe ir más allá del registro retributivo obligatorio. Debe analizar no solo las brechas actuales, sino también sus causas dentro de tu empresa específica. ¿Se debe a concentración de mujeres en categorías bajas? ¿A promociones más lentas? ¿A complementos que favorecen perfiles masculinos? ¿A contratación inicial con salarios más bajos?\n\nBasándote en este diagnóstico, el plan debe incluir objetivos concretos de reducción de brecha y medidas específicas para alcanzarlos. Estas medidas pueden incluir revisión de sistemas retributivos, transparencia salarial, formación en igualdad, facilitación de conciliación, acciones positivas para promoción femenina, o revisión de descripciones de puestos para eliminar sesgos.\n\nEl plan de igualdad también debe incluir una auditoría retributiva anual que evalúe el progreso. Esta auditoría actualiza el análisis de brechas, verifica si las medidas están funcionando, y propone ajustes si es necesario. La auditoría es el mecanismo de seguimiento y mejora continua.\n\nErrores comunes al intentar cerrar la brecha salarial\n\nMuchas empresas bien intencionadas cometen errores que terminan siendo ineficaces o incluso contraproducentes en su intento de reducir la brecha salarial.\n\nEl error más común es confundir igualdad formal con igualdad real. Decir \"aquí pagamos igual a todos\" o \"nuestros criterios son neutrales\" no significa que no haya discriminación. Los sesgos inconscientes operan incluso cuando las políticas formales son impecables. Hace falta análisis de datos para ver qué está pasando realmente, no confiar en percepciones.\n\nOtro fallo típico es centrarse exclusivamente en el \"techo de cristal\" de altos directivos, ignorando las brechas en niveles medios y bajos. Si bien es importante tener mujeres en puestos de dirección, la mayoría de las trabajadoras están en otros niveles. Las políticas deben beneficiar a todas, no solo a una élite.\n\nAlgunas empresas intentan \"arreglar\" la brecha ajustando salarios individuales de forma opaca y ad hoc. Esto puede generar nuevas inequidades y no resuelve las causas estructurales. Los ajustes deben ser sistemáticos, basados en criterios objetivos, y transparentes.\n\nTambién es problemático implementar políticas de conciliación dirigidas solo a mujeres. Esto refuerza estereotipos y puede penalizar profesionalmente a quienes las usan. Las políticas deben ser universales y su uso debe normalizarse para todos los géneros.\n\nFinalmente, muchas empresas hacen un diagnóstico inicial y luego no le dan seguimiento. La brecha salarial es dinámica: cada nueva contratación, cada promoción, cada revisión salarial puede ampliarla o reducirla. Sin seguimiento continuo y ajustes periódicos, los esfuerzos iniciales se diluyen rápidamente.\n\nEl futuro: hacia la transparencia retributiva obligatoria\n\nLa Unión Europea está elevando significativamente los estándares de transparencia retributiva. La Directiva 2023/970, que España debe trasponer antes de junio de 2026, introducirá cambios sustanciales que afectarán a todas las empresas.\n\nUno de los cambios más significativos es la obligación de informar a candidatos sobre el rango salarial del puesto en las ofertas de empleo. Esto eliminará la práctica de basar ofertas en el salario anterior del candidato y aumentará la transparencia desde el inicio de la relación laboral.\n\nLas empresas con más de 100 trabajadores deberán publicar información sobre sus brechas salariales, no solo elaborar registros internos. Esta publicación incluirá brechas globales y desagregadas por categorías profesionales, haciéndolas visibles para empleados, candidatos, e inversores.\n\nCuando la brecha supere el 5% (no el 25% actual en España) sin justificación objetiva, se activarán automáticamente evaluaciones retributivas conjuntas con representantes de trabajadores. La empresa deberá elaborar un plan de acción para corregir las diferencias.\n\nQuizás lo más revolucionario es la inversión de la carga de la prueba. Si un empleado alega discriminación retributiva y aporta indicios razonables (como la existencia de una brecha injustificada), será la empresa quien deba demostrar que no existe discriminación. Actualmente es al revés: el trabajador debe probar la discriminación.\n\nEstos cambios significan que las empresas necesitarán sistemas mucho más robustos de análisis retributivo, monitorización continua de brechas, y políticas de transparencia proactiva. Lo que hoy es buena práctica voluntaria, será obligación legal en pocos años.\n\nConclusión: cerrar la brecha es posible y beneficioso\n\nLa brecha salarial de género no es un problema inevitable o inmutable. Es el resultado de estructuras y prácticas concretas que pueden identificarse y modificarse. Las empresas que lo hacen no solo cumplen con la ley, sino que obtienen beneficios tangibles.\n\nReducir la brecha mejora la retención de talento femenino, aumenta la motivación y productividad, fortalece la reputación corporativa, y reduce riesgos legales. En un mercado laboral competitivo, las organizaciones que ofrecen equidad retributiva real tienen ventaja para atraer a los mejores profesionales.\n\nEl primer paso es medir. No puedes gestionar lo que no mides. Un diagnóstico honesto y detallado de tus brechas salariales te dirá exactamente dónde y cómo actuar. El segundo paso es actuar de forma sistemática y sostenida, con objetivos claros y seguimiento riguroso.\n\n¿Necesitas ayuda para medir y analizar la brecha salarial en tu empresa conforme al RD 902/2020? Diversalytics automatiza todo el proceso y te muestra exactamente dónde existen diferencias retributivas y cómo abordarlas.\n\nSolicita una demo gratuita →\n\nÚltima actualización: Octubre 2025 Normativa aplicable: RD 902/2020, RD 901/2020, LO 3/2007, Directiva UE 2023/970 Fuentes de datos: INE (Encuesta Anual de Estructura Salarial), Eurostat, OECD",
+                                        "metadata": {
+                                            "url": "https://www.diversalytics.com/blog/post/brecha-salarial-de-genero/",
+                                            "source": "www.diversalytics.com",
+                                            "favicon": "https://www.diversalytics.com/blog/favicon.ico",
+                                            "title": "Brecha Salarial de Género en España: Causas, Datos y ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.diversalytics.com",
+                                            "snippet": "A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.312984852000227,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.312984852000227,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:39:56",
+                    "run_time": 2.312984852000227,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los datos oficiales más recientes del Instituto Nacional de Estadística (INE) y Eurostat sobre la brecha salarial de género en España para 2024 o 2025?": [
+                                {
+                                    "La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.": null
+                                },
+                                {
+                                    "Gracias a los microdatos de la Encuesta de Estructura Salarial (EES), cuyos microdatos se publican de forma cuatrienal por el Instituto Nacional de Estadística (INE), podemos observar la evolución de la brecha de género, tanto en términos de salario bruto como en salario por hora, durante la mayor parte de lo que llevamos de siglo, desde el 20021 hasta 2022, el último dato disponible. En apenas veinte años, la reducción de la brecha salarial de género ha sido más que notable en España, pasando de una brecha cercana al 30 % a principios de siglo a un 17 % en el 2022.": null
+                                },
+                                {
+                                    "Según la Encuesta Anual de Estructura Salarial del INE, la brecha salarial de género en España ha mostrado una evolución irregular en las últimas dos décadas, con mejoras lentas pero también retrocesos puntuales.": null
+                                }
+                            ],
+                            "¿Cómo se compara la brecha salarial en España con la media de la Unión Europea según los últimos informes publicados por Eurostat u OCDE?": [
+                                {
+                                    "La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.": null
+                                },
+                                {
+                                    "Según la Encuesta Anual de Estructura Salarial del INE, la brecha salarial de género en España ha mostrado una evolución irregular en las últimas dos décadas, con mejoras lentas pero también retrocesos puntuales.": null
+                                },
+                                {
+                                    "En España, la brecha no ajustada ronda el 18-20%, mientras que la brecha ajustada (comparando trabajos similares) se sitúa entre el 5-8%. Esto significa que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo que realizan hombres y mujeres, y la otra mitad a diferencias dentro de trabajos comparables.": null
+                                }
+                            ],
+                            "¿Qué concluyen los informes del Gobierno de España y los principales sindicatos sobre las causas y la existencia de la brecha salarial en el mercado laboral español en 2025?": [
+                                {
+                                    "En esta guía completa analizamos qué es realmente la brecha salarial de género, cuáles son sus causas verdaderas (más allá de los tópicos), cómo se mide correctamente según la normativa española, y qué pueden hacer las empresas para identificarla y cerrarla de forma efectiva.": null
+                                },
+                                {
+                                    "La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.": null
+                                },
+                                {
+                                    "En España, la brecha no ajustada ronda el 18-20%, mientras que la brecha ajustada (comparando trabajos similares) se sitúa entre el 5-8%. Esto significa que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo que realizan hombres y mujeres, y la otra mitad a diferencias dentro de trabajos comparables.": null
+                                }
+                            ],
+                            "¿Qué evidencia o estudios económicos existen que analicen la diferencia entre la brecha salarial \"no ajustada\" y la \"ajustada\" en España?": [
+                                {
+                                    "En España, la brecha no ajustada ronda el 18-20%, mientras que la brecha ajustada (comparando trabajos similares) se sitúa entre el 5-8%. Esto significa que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo que realizan hombres y mujeres, y la otra mitad a diferencias dentro de trabajos comparables.": null
+                                },
+                                {
+                                    "La confusión surge porque existe lo que se llama \"brecha salarial ajustada\" y \"brecha salarial no ajustada\". La brecha no ajustada mide la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia. La brecha ajustada intenta controlar estos factores para medir solo la diferencia \"injustificada\" por razón de género.": null
+                                },
+                                {
+                                    "La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.": null
+                                }
+                            ],
+                            "¿Qué impacto han tenido las leyes de transparencia retributiva y los planes de igualdad en la evolución de la brecha salarial en España, según análisis recientes?": [
+                                {
+                                    "La brecha salarial de género en España se convirtió en una de las variables clave en el análisis de las desigualdades de género, gracias a la rápida incorporación de la mujer al mercado laboral a finales del siglo XX en España. El análisis de esta importante variable ha suscitado intensos debates cada vez que se actualizan las estadísticas salariales al respecto, pero es habitual que falte una perspectiva temporal lo suficientemente amplia para conocer la evolución de esta brecha en un periodo de más de una década. Adicionalmente, la reducción de la brecha salarial de género se encuadra dentro de uno de los ejes transversales del plan de recuperación, transformación y resiliencia, lo que no hace sino aumentar la presión para reducirla en el futuro próximo.": null
+                                },
+                                {
+                                    "La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.": null
+                                },
+                                {
+                                    "Según la Encuesta Anual de Estructura Salarial del INE, la brecha salarial de género en España ha mostrado una evolución irregular en las últimas dos décadas, con mejoras lentas pero también retrocesos puntuales.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0018955,
+                "total_run_time": 3.2308650470004068,
+                "average_cost_per_call": 0.0018955,
+                "average_time_per_call": 3.2308650470004068,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:39:59",
+                    "run_time": 3.2308650470004068,
+                    "cost": 0.0018955,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn España no hay brecha salarial\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los datos oficiales más recientes del Instituto Nacional de Estadística (INE) y Eurostat sobre la brecha salarial de género en España para 2024 o 2025?\n¿Cómo se compara la brecha salarial en España con la media de la Unión Europea según los últimos informes publicados por Eurostat u OCDE?\n¿Qué concluyen los informes del Gobierno de España y los principales sindicatos sobre las causas y la existencia de la brecha salarial en el mercado laboral español en 2025?\n¿Qué evidencia o estudios económicos existen que analicen la diferencia entre la brecha salarial \"no ajustada\" y la \"ajustada\" en España?\n¿Qué impacto han tenido las leyes de transparencia retributiva y los planes de igualdad en la evolución de la brecha salarial en España, según análisis recientes?\n\n3. Here are the text sources you should use as your source of information:\n[0] La brecha salarial de género es uno de los indicadores más persistentes de desigualdad en el mercado laboral español. A pesar de décadas de legislación sobre igualdad, las mujeres en España siguen cobrando de media un 18,4% menos que los hombres por trabajos de igual valor, según los últimos datos del Instituto Nacional de Estadística.\n[0] Según la Encuesta Anual de Estructura Salarial del INE, la brecha salarial de género en España ha mostrado una evolución irregular en las últimas dos décadas, con mejoras lentas pero también retrocesos puntuales.\n[0] En España, la brecha no ajustada ronda el 18-20%, mientras que la brecha ajustada (comparando trabajos similares) se sitúa entre el 5-8%. Esto significa que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo que realizan hombres y mujeres, y la otra mitad a diferencias dentro de trabajos comparables.\n[0] En esta guía completa analizamos qué es realmente la brecha salarial de género, cuáles son sus causas verdaderas (más allá de los tópicos), cómo se mide correctamente según la normativa española, y qué pueden hacer las empresas para identificarla y cerrarla de forma efectiva.\n[0] La confusión surge porque existe lo que se llama \"brecha salarial ajustada\" y \"brecha salarial no ajustada\". La brecha no ajustada mide la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia. La brecha ajustada intenta controlar estos factores para medir solo la diferencia \"injustificada\" por razón de género.\n[1] Gracias a los microdatos de la Encuesta de Estructura Salarial (EES), cuyos microdatos se publican de forma cuatrienal por el Instituto Nacional de Estadística (INE), podemos observar la evolución de la brecha de género, tanto en términos de salario bruto como en salario por hora, durante la mayor parte de lo que llevamos de siglo, desde el 20021 hasta 2022, el último dato disponible. En apenas veinte años, la reducción de la brecha salarial de género ha sido más que notable en España, pasando de una brecha cercana al 30 % a principios de siglo a un 17 % en el 2022.\n[1] La brecha salarial de género en España se convirtió en una de las variables clave en el análisis de las desigualdades de género, gracias a la rápida incorporación de la mujer al mercado laboral a finales del siglo XX en España. El análisis de esta importante variable ha suscitado intensos debates cada vez que se actualizan las estadísticas salariales al respecto, pero es habitual que falte una perspectiva temporal lo suficientemente amplia para conocer la evolución de esta brecha en un periodo de más de una década. Adicionalmente, la reducción de la brecha salarial de género se encuadra dentro de uno de los ejes transversales del plan de recuperación, transformación y resiliencia, lo que no hace sino aumentar la presión para reducirla en el futuro próximo.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En España no hay brecha salarial"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "No hay argumentos o evidencias en las fuentes proporcionadas que apoyen directamente la afirmación de que \"en España no hay brecha salarial\".\n\nPor el contrario, **todas las fuentes refutan categóricamente la afirmación de que no existe una brecha salarial en España**, presentando datos y análisis que demuestran su existencia. Según el Instituto Nacional de Estadística (INE), **las mujeres en España cobran de media un 18,4% menos que los hombres por trabajos de igual valor, lo que se considera un indicador persistente de desigualdad en el mercado laboral** [0]. La Encuesta Anual de Estructura Salarial del INE también muestra que esta brecha ha tenido una evolución irregular, con mejoras lentas y retrocesos puntuales [0]. Además, los microdatos de la Encuesta de Estructura Salarial (EES) del INE indican que, aunque la brecha salarial de género se ha reducido \"más que notablemente\" a lo largo del siglo, **pasó de cerca del 30% a principios de siglo a un 17% en 2022**, lo que confirma su persistencia [1]. Esta reducción se enmarca como un eje transversal del plan de recuperación, transformación y resiliencia, lo que \"aumenta la presión para reducirla en el futuro próximo\" [1]. Las fuentes también distinguen entre la **\"brecha salarial no ajustada\" que ronda el 18-20% y la \"brecha ajustada\" que se sitúa entre el 5-8%**, siendo la primera la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia, y la segunda la diferencia \"injustificada\" por razón de género después de controlar estos factores [0]. Se concluye que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo y la otra mitad a diferencias dentro de trabajos comparables [0].\n\nEn conclusión, la afirmación \"En España no hay brecha salarial\" es **falsa**. Las fuentes proporcionadas ofrecen una **amplia evidencia y datos estadísticos claros del INE que demuestran la existencia y persistencia de una brecha salarial de género en España**, aunque con una tendencia a la reducción a lo largo de las últimas dos décadas [0, 1]. Se aclara que esta brecha se manifiesta tanto en su forma no ajustada (18-20%) como ajustada (5-8%), lo que indica que, incluso al controlar factores como el tipo de trabajo, sigue existiendo una diferencia salarial entre hombres y mujeres [0]."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0005843,
+                "total_run_time": 0.9375421189997724,
+                "average_cost_per_call": 0.0005843,
+                "average_time_per_call": 0.9375421189997724,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-28 12:40:00",
+                    "run_time": 0.9375421189997724,
+                    "cost": 0.0005843,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En España no hay brecha salarial\nArticle: No hay argumentos o evidencias en las fuentes proporcionadas que apoyen directamente la afirmación de que \"en España no hay brecha salarial\".\n\nPor el contrario, **todas las fuentes refutan categóricamente la afirmación de que no existe una brecha salarial en España**, presentando datos y análisis que demuestran su existencia. Según el Instituto Nacional de Estadística (INE), **las mujeres en España cobran de media un 18,4% menos que los hombres por trabajos de igual valor, lo que se considera un indicador persistente de desigualdad en el mercado laboral** [0]. La Encuesta Anual de Estructura Salarial del INE también muestra que esta brecha ha tenido una evolución irregular, con mejoras lentas y retrocesos puntuales [0]. Además, los microdatos de la Encuesta de Estructura Salarial (EES) del INE indican que, aunque la brecha salarial de género se ha reducido \"más que notablemente\" a lo largo del siglo, **pasó de cerca del 30% a principios de siglo a un 17% en 2022**, lo que confirma su persistencia [1]. Esta reducción se enmarca como un eje transversal del plan de recuperación, transformación y resiliencia, lo que \"aumenta la presión para reducirla en el futuro próximo\" [1]. Las fuentes también distinguen entre la **\"brecha salarial no ajustada\" que ronda el 18-20% y la \"brecha ajustada\" que se sitúa entre el 5-8%**, siendo la primera la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia, y la segunda la diferencia \"injustificada\" por razón de género después de controlar estos factores [0]. Se concluye que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo y la otra mitad a diferencias dentro de trabajos comparables [0].\n\nEn conclusión, la afirmación \"En España no hay brecha salarial\" es **falsa**. Las fuentes proporcionadas ofrecen una **amplia evidencia y datos estadísticos claros del INE que demuestran la existencia y persistencia de una brecha salarial de género en España**, aunque con una tendencia a la reducción a lo largo de las últimas dos décadas [0, 1]. Se aclara que esta brecha se manifiesta tanto en su forma no ajustada (18-20%) como ajustada (5-8%), lo que indica que, incluso al controlar factores como el tipo de trabajo, sigue existiendo una diferencia salarial entre hombres y mujeres [0].\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En España no hay brecha salarial\nArticle: No hay argumentos o evidencias en las fuentes proporcionadas que apoyen directamente la afirmación de que \"en España no hay brecha salarial\".\n\nPor el contrario, **todas las fuentes refutan categóricamente la afirmación de que no existe una brecha salarial en España**, presentando datos y análisis que demuestran su existencia. Según el Instituto Nacional de Estadística (INE), **las mujeres en España cobran de media un 18,4% menos que los hombres por trabajos de igual valor, lo que se considera un indicador persistente de desigualdad en el mercado laboral** [0]. La Encuesta Anual de Estructura Salarial del INE también muestra que esta brecha ha tenido una evolución irregular, con mejoras lentas y retrocesos puntuales [0]. Además, los microdatos de la Encuesta de Estructura Salarial (EES) del INE indican que, aunque la brecha salarial de género se ha reducido \"más que notablemente\" a lo largo del siglo, **pasó de cerca del 30% a principios de siglo a un 17% en 2022**, lo que confirma su persistencia [1]. Esta reducción se enmarca como un eje transversal del plan de recuperación, transformación y resiliencia, lo que \"aumenta la presión para reducirla en el futuro próximo\" [1]. Las fuentes también distinguen entre la **\"brecha salarial no ajustada\" que ronda el 18-20% y la \"brecha ajustada\" que se sitúa entre el 5-8%**, siendo la primera la diferencia total sin considerar factores como ocupación, sector, jornada o experiencia, y la segunda la diferencia \"injustificada\" por razón de género después de controlar estos factores [0]. Se concluye que aproximadamente la mitad de la brecha se debe a diferencias en los tipos de trabajo y la otra mitad a diferencias dentro de trabajos comparables [0].\n\nEn conclusión, la afirmación \"En España no hay brecha salarial\" es **falsa**. Las fuentes proporcionadas ofrecen una **amplia evidencia y datos estadísticos claros del INE que demuestran la existencia y persistencia de una brecha salarial de género en España**, aunque con una tendencia a la reducción a lo largo de las últimas dos décadas [0, 1]. Se aclara que esta brecha se manifiesta tanto en su forma no ajustada (18-20%) como ajustada (5-8%), lo que indica que, incluso al controlar factores como el tipo de trabajo, sigue existiendo una diferencia salarial entre hombres y mujeres [0]."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"En España no hay brecha salarial\", \"categories\": [\"Economía\", \"Sociedad\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"La afirmación de que en España no hay brecha salarial es falsa\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.030874350000000005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "google/gemini-2.5-pro",
+                    "gen_searches_agent": "google/gemini-2.5-flash",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "google/gemini-2.5-flash",
+                    "article_writer": "google/gemini-2.5-flash",
+                    "metadata_agent": "google/gemini-2.5-flash",
+                    "image_prompt": "google/gemini-2.5-flash",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "publico.es",
+                        "maldita.es",
+                        "uoc.edu",
+                        "gacetamedica.com",
+                        "ciencia.nasa.gov",
+                        "www-iaea-org.translate.goog",
+                        "theobjective.com",
+                        "realinstitutoelcano.org",
+                        "antena3.com",
+                        "vozpopuli.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "elplural.com",
+                        "nationalgeographic.com.es",
+                        "larazon.es",
+                        "efe.com",
+                        "lasexta.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ree.es",
+                        "cadenaser.com",
+                        "sjme.org",
+                        "lamoncloa.gob.es",
+                        "lavanguardia.com",
+                        "oftalmologos.org.ar",
+                        "hopkinsmedicine.org",
+                        "datosmacro.expansion.com",
+                        "abc.es",
+                        "rtve.es",
+                        "newtral.es",
+                        "jacc.org",
+                        "medlineplus.gov",
+                        "pmp.org.es",
+                        "observatoriodelalquiler.org",
+                        "xataka.com",
+                        "lefebvre.es",
+                        "albalactanciamaterna.org",
+                        "salud.nih.gov",
+                        "kidshealth.org",
+                        "observatoriodeladiscapacidad.info",
+                        "educaweb.com",
+                        "sistemaelectrico-ree.es",
+                        "es.weforum.org",
+                        "myfisioclinic.com",
+                        "verificat.cat",
+                        "primabiotic.es",
+                        "elconfidencial.com",
+                        "europapress.es",
+                        "masquemedicos.com",
+                        "instituteforenergyresearch.org",
+                        "infobae.com",
+                        "defensa.gob.es",
+                        "20minutos.es",
+                        "ec-europa-eu.translate.goog",
+                        "normoncontigo.normon.com",
+                        "huffingtonpost.es",
+                        "elblogsalmon.com",
+                        "nyc.gov",
+                        "who.int",
+                        "cincodias.elpais.com",
+                        "agrodiario.com",
+                        "elpais.com",
+                        "worldwildlife.org",
+                        "feminismo.maldita.es",
+                        "clinicaalemana.cl",
+                        "theconversation.com",
+                        "es.euronews.com",
+                        "caixabankresearch.com",
+                        "verifica.efe.com",
+                        "ine.es",
+                        "coches.net",
+                        "bankinter.com",
+                        "sepe.es"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

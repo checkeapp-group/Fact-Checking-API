@@ -1,0 +1,613 @@
+{
+    "question": "Madrid es la comunidad con mayor porcentaje de mujeres autónomas",
+    "answer": "Según el texto [1], en concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Esto sugiere que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España.\n\nEl estudio mencionado en el texto [2] pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional. Esto sugiere que las mujeres extranjeras también están contribuyendo al aumento del número de mujeres autónomas en Madrid.\n\nNo se menciona la opinión de expertos en los textos proporcionados. Sin embargo, el estudio mencionado en el texto [2] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que los expertos podrían estar de acuerdo con esta afirmación.\n\nAunque no se mencionan críticas o contradicciones a la afirmación, los textos proporcionados sugieren que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España. El estudio mencionado en el texto [2] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que la afirmación podría ser verdadera. Sin embargo, no se mencionan fuentes oficiales o organizaciones especializadas que hayan investigado la situación de las mujeres autónomas en Madrid, lo que limita la validez de la afirmación.\n\nBasándose en los textos proporcionados, la afirmación \"Madrid es la comunidad con mayor porcentaje de mujeres autónomas\" parece ser verdadera, aunque con algunas limitaciones. Sin embargo, sería necesario consultar fuentes oficiales o organizaciones especializadas para confirmar esta afirmación de manera más precisa.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.epe.es/es/madrid/20251028/nuevos-autonomos-madrilenos-pandemia-mujeres-123084713",
+            "source": "www.epe.es",
+            "favicon": "https://www.epe.es/cds-statics/EPE/favicons/android-icon-48x48.png"
+        },
+        "2": {
+            "url": "https://www.eldiariodemadrid.es/articulo/madrid/crecimiento-trabajo-autonomo-femenino-espana-tendencias-desafios/20250307133534093062.html",
+            "source": "www.eldiariodemadrid.es",
+            "favicon": "https://www.eldiariodemadrid.es/media/eldiariodemadrid/images/2023/07/14/2023071413200898097.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Madrid es la comunidad con mayor porcentaje de mujeres autónomas",
+        "categories": [
+            "Economía",
+            "Empleo",
+            "Género"
+        ],
+        "label": "Undetermined",
+        "main_claim": "Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.277346237000529,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.277346237000529,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:06",
+                    "run_time": 1.277346237000529,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nMadrid es la comunidad con mayor porcentaje de mujeres autónomas\n\n**Critical Research Questions:**\n1. ¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?\n2. ¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?\n3. ¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?\n4. ¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?\n5. ¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"porcentaje de mujeres autónomas en Madrid 2025 comparación con otras comunidades autónomas de España\", \"estudios recientes sobre mujeres autónomas en Madrid situación actual\", \"expertos sobre mujeres autónomas en Madrid mayor porcentaje afirmación\", \"fuentes oficiales mujeres autónomas en Madrid informe estadístico 2025\", \"críticas a afirmación Madrid mayor porcentaje mujeres autónomas comparación con otras comunidades\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 29.349970155000847,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 29.349970155000847,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:36",
+                    "run_time": 29.349970155000847,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "porcentaje de mujeres autónomas en Madrid 2025 comparación con otras comunidades autónomas de España",
+                                "estudios recientes sobre mujeres autónomas en Madrid situación actual",
+                                "expertos sobre mujeres autónomas en Madrid mayor porcentaje afirmación",
+                                "fuentes oficiales mujeres autónomas en Madrid informe estadístico 2025",
+                                "críticas a afirmación Madrid mayor porcentaje mujeres autónomas comparación con otras comunidades"
+                            ],
+                            "results": {
+                                "porcentaje de mujeres autónomas en Madrid 2025 comparación con otras comunidades autónomas de España | estudios recientes sobre mujeres autónomas en Madrid situación actual | expertos sobre mujeres autónomas en Madrid mayor porcentaje afirmación | fuentes oficiales mujeres autónomas en Madrid informe estadístico 2025 | críticas a afirmación Madrid mayor porcentaje mujeres autónomas comparación con otras comunidades": [
+                                    {
+                                        "text": "Cada vez son más las barreras que derriban las mujeres en el mercado laboral, una de ellas es la del emprendimiento.\n\nY es que según el último informe de la Federación Nacional de Asociaciones de Trabajadores Autónomos (ATA), en 2023 de los 15.797 nuevos cotizantes que se han sumado al Régimen Especial de Trabajadores Autónomos (RETA), 14.582 fueron mujeres, lo que corresponde al 92,3% de las nuevas incorporaciones. De hecho, en la comparación de 2022 con 2023, el número de mujeres autónomas ha crecido un 1,2% por el 0,1% de los varones, llegando alcanzar la cifra de 1.227.441 de afiliadas.\n\nCandelaria Carrera, coordinadora de Mujer de ATA, ha destacado que no es un hecho aislado, sino que son las mujeres quienes han mantenido el RETA positivo en la última década, donde el número de autónomas ha crecido un 15,4% mientras que el número de autónomos varones tan sólo ha crecido un 6,2%, de los 288.050 nuevos cotizantes, 163.867 eran mujeres autónomas.\n\nEn el análisis que ATA hace por comunidades, Carrera ha destacado que la Comunidad de Madrid se sitúa en el tercer puesto con un incremento de 5.463 nuevos autónomos, tan sólo por detrás de Andalucía y Cataluña. Pero que nuevamente, este incremento está liderado por mujeres, puesto que el 2,67% de los nuevos autónomos eran autónomas.\n\nSin embargo, el crecimiento de las autónomas, no es un hecho aislado en nuestro país, sino que también se traslada a Europa, donde España, con un 33,8%, se sitúa por encima de la media europea (33,6%) en el porcentaje de trabajadores por cuenta propia. Carrera achaca estos datos a los cambios sociales, que están propiciando que las mujeres estén cada vez más incluidas en el mercado laboral, lo que les permite crear empleos sólidos, competitivos y adaptados al mercado.\n\nTambién hemos contado con el ejemplo de María Díez, fundadora de Cole de Canes quien después de haber trabajado en varios gabinetes de ministros se quedó sin trabajo, y debido a su edad, no encontraba empleo. Motivo que",
+                                        "metadata": {
+                                            "url": "https://www.telemadrid.es/programas/madrid-trabaja/Las-mujeres-suponen-mas-del-90-de-los-nuevos-autonomos-en-Espana-9-2655424449--20240327053432.html",
+                                            "source": "www.telemadrid.es",
+                                            "favicon": "https://www.telemadrid.es/2018/08/22/favicon.jpg?hash=0b7773c618bb1b5fe0850be81760a29151ce5be3",
+                                            "title": "Las mujeres suponen más del 90% de los nuevos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.telemadrid.es",
+                                            "snippet": "De hecho, en la comparación de 2022 con 2023, el número de mujeres autónomas ha crecido un 1,2% por el 0,1% de los varones, llegando alcanzar la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Comunidad de Madrid ha logrado el máximo histórico de mujeres autónomas, hasta alcanzar 162.359, el 37,3% del empleo por cuenta propia, con un crecimiento del 2,3% solo en el último año y 3.652 nuevas altas en septiembre. Así lo ha destacado hoy la consejera de Economía, Hacienda y Empleo, Rocío Albert, en la inauguración de la cuarta edición del Foro de Liderazgo Femenino de La Razón, donde ha resaltado que casi el 41% de los cargos de máxima responsabilidad en la región están hoy ocupados por mujeres, 6,5 puntos por encima de la media europea, además de que el 27,6% de las franquicias lideradas por empresarias en España se concentra en Madrid. “Esto demuestra que el liderazgo femenino no es solo una cuestión de justicia, sino un motor real de crecimiento económico e innovación”, ha subrayado.",
+                                        "metadata": {
+                                            "url": "https://www.comunidad.madrid/noticias/2025/10/22/comunidad-madrid-logra-su-maximo-historico-162359-trabajadoras-autonomas-373-empleo-cuenta-propia",
+                                            "source": "www.comunidad.madrid",
+                                            "favicon": "https://www.comunidad.madrid/sites/default/files/favicon-16x16.svg",
+                                            "title": "La Comunidad de Madrid logra su máximo histórico con ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.comunidad.madrid",
+                                            "snippet": "La Comunidad de Madrid ha logrado el máximo histórico de mujeres autónomas, hasta alcanzar 162.359, el 37,3% del empleo por cuenta propia, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El trabajo autónomo en España ha experimentado una transformación profunda entre junio de 2019 y junio de 2025. En este periodo, el Régimen Especial de Trabajadores Autónomos (RETA) ha sumado un total de 122.114 nuevos afiliados. No obstante, esta cifra global encierra una realidad muy desigual: el 90% del crecimiento se ha concentrado en solo tres comunidades autónomas.\n\nAndalucía lidera el incremento, con 49.697 nuevos autónomos. Le siguen la Comunidad Valenciana, con 30.434 altas, y la Comunidad de Madrid, con 30.041. Estas tres regiones han absorbido más de 110.000 de los nuevos afiliados al RETA, según datos del último informe elaborado por la Federación Nacional de Asociaciones de Trabajadores Autónomos (ATA).\n\nInfraestructura Niño Becerra contundente sobre el coste del mantenimiento de las carreteras: \"Cualquier otra cosa pienso que es un café-para-todos injusto e ineficiente\" Alba Rus\n\nContrastes territoriales: entre el crecimiento y la pérdida de afiliados\n\nAl otro extremo de la balanza se sitúan comunidades como Castilla y León, que ha registrado una pérdida de 11.740 autónomos en estos seis años, lo que supone una caída del 6% en términos relativos. Galicia también ha sufrido un descenso significativo, con 6.758 trabajadores menos, seguida del País Vasco (-6.247), Aragón (-4.223), Asturias (-3.898), La Rioja (-1.534), Navarra (-1.125) y Cantabria (-395).\n\nCeuta y Melilla, por su parte, también han visto reducirse sus cifras, consolidando un panorama en el que los territorios más despoblados y envejecidos presentan una tendencia a la baja en el autoempleo.\n\nUn cambio de ciclo sectorial: declive del comercio y auge de profesiones técnicas\n\nEl comercio ha sido el sector más castigado en este periodo, con una pérdida de 64.724 autónomos. Le siguen la industria, que ha perdido 17.185 afiliados, la agricultura (-12.328) y la hostelería (-7.768). Estos datos evidencian una crisis sostenida de los sectores tradicionales.\n\nEn cambio, las actividades científicas y técnicas han registrado el mayor crecimiento, con 56.657 nuevos autónomos. También destacan la construcción (+33.668) y las actividades sanitarias (+29.659). El presidente de ATA, Lorenzo Amor, lo resume así: “Hay un importante crecimiento en sectores profesionales frente a los sectores tradicionales como el comercio, la hostelería o la industria”.\n\nLa autonomía femenina gana peso\n\nUna de las tendencias más relevantes que subraya el informe es el crecimiento del trabajo autónomo entre las mujeres. El 70% del incremento total corresponde a autónomas: de las 122.114 nuevas altas, 85.350 son mujeres, lo que representa un aumento del 7,3% respecto a 2019. Por su parte, los varones suman 36.764 nuevas afiliaciones.\n\nEste avance consolida una tendencia ya observada en años anteriores, en la que el autoempleo femenino gana terreno, especialmente en sectores vinculados a servicios profesionales, educación y sanidad.\n\nExigencia de medidas urgentes\n\nDesde ATA reclaman una respuesta institucional más decidida para apoyar a los autónomos en dificultades. “No es de recibo que 64.000 autónomos hayan desaparecido del comercio desde 2019 sin que se hayan adoptado medidas estructurales”, denuncian. La organización pide incentivos fiscales, ayudas específicas y programas de modernización para sectores en declive, así como medidas para reequilibrar el desarrollo territorial del autoempleo.\n\nAdemás, alertan del riesgo de cronificación de las desigualdades territoriales. Comunidades como Galicia o Castilla y León podrían sufrir un vaciamiento empresarial si no se revierte la tendencia actual. “El tejido productivo local depende en gran medida de los autónomos, y su desaparición deja un vacío económico y social”, subraya ATA.\n\nImpacto de la digitalización y el cambio generacional\n\nOtra de las claves que explican la transformación del RETA es el relevo generacional. Muchos autónomos tradicionales se jubilan sin sucesores, especialmente en zonas rurales o sectores como el comercio o la agricultura. A ello se suma un fenómeno creciente: el emprendimiento digital o el autoempleo vinculado a profesiones liberales y tecnológicas.\n\nATA considera que esta transición no es necesariamente negativa, pero advierte del riesgo de perder diversidad económica si no se acompaña con políticas que favorezcan la continuidad del emprendimiento tradicional. La federación reclama planes de relevo y asesoramiento para jóvenes emprendedores que quieran tomar el testigo en negocios familiares o tradicionales.\n\nUna radiografía con luces y sombras\n\nEn resumen, el RETA suma afiliados, pero no todos los datos son positivos. Hay una España autónoma que crece, liderada por las mujeres y las regiones del sur; pero también una España que se desinfla, donde el trabajo por cuenta propia se resiente en sectores clave y comunidades con mayor envejecimiento.\n\nATA considera imprescindible que este diagnóstico se tenga en cuenta en las políticas económicas de los próximos años. El autoempleo sigue siendo un pilar fundamental del mercado laboral español, y su sostenibilidad depende de entender bien sus transformaciones.\n\nPuntos clave",
+                                        "metadata": {
+                                            "url": "https://www.lideractual.es/economia/autonomos-en-espana-el-90-del-aumento-desde-2019-se-concentra-en-estas-tres-comunidades_11801",
+                                            "source": "www.lideractual.es",
+                                            "favicon": "https://www.lideractual.es/favicon.ico",
+                                            "title": "Autónomos en España: el 90% del aumento desde 2019 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.lideractual.es",
+                                            "snippet": "El 70% del incremento total corresponde a autónomas: de las 122.114 nuevas altas, 85.350 son mujeres, lo que representa un aumento del 7,3% ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La Federación Nacional de Asociaciones de Trabajadores Autónomos (ATA) ha publicado un informe con motivo del Día Internacional de la Mujer, en el que se analiza la evolución del trabajo autónomo femenino en España y su comparación con la Unión Europea.\n\nAumento del número de mujeres autónomas\n\nEn la última década, el número de mujeres trabajadoras por cuenta propia ha experimentado un crecimiento significativo, destacando especialmente Canarias (+36,5%), Andalucía y la Comunidad de Madrid, ambas con un incremento cercano al 29%. Sin embargo, en algunas comunidades como Aragón, Castilla y León, País Vasco, La Rioja, Galicia y Asturias, se ha registrado un descenso tanto en hombres como en mujeres autónomas, siendo la caída femenina superior a la de los varones.\n\nA pesar del crecimiento en algunas regiones, el peso de la mujer en el colectivo autónomo sigue siendo inferior al de los hombres. Actualmente, representan el 36,9% del total de personas trabajadoras autónomas registradas en el Régimen Especial de Trabajadores Autónomos (RETA). Aunque este porcentaje va aumentando año tras año, el crecimiento es todavía lento.\n\nDistribución territorial: Asturias y Galicia a la cabeza\n\nPor comunidades autónomas, Asturias (41,4%) y Galicia (40,8%) lideran el ranking de regiones donde el trabajo autónomo femenino tiene mayor peso. También se encuentran por encima de la media nacional el País Vasco (38,9%), Cantabria (38,7%), Canarias (37,6%) y la Comunidad Valenciana (37,3%).\n\nEn el lado opuesto, Castilla-La Mancha es la comunidad con menor porcentaje de autónomas, con un 32,9%, a pesar de haber registrado un crecimiento del 11,7% en la última década.\n\nEspaña frente a Europa\n\nEl informe de ATA también compara la situación de las autónomas en España con otros países europeos, utilizando datos de EUROSTAT. En España, el 34,9% de los trabajadores por cuenta propia son mujeres, un porcentaje ligeramente superior al 34% de media en la UE-27.\n\nNuestro país supera a economías como Italia (32,7%), Alemania (32,3%), Bélgica (33,1%) e Irlanda (29,3%). Sin embargo, sigue por debajo de países donde las mujeres representan más del 40% del total de autónomos, como Luxemburgo (56,6%), Portugal (43,9%), Suiza (42%), Francia (41,9%) y Letonia (40,5%).\n\nEl empuje de las mujeres extranjeras autónomas\n\nEl estudio también pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional.\n\nPor comunidades, Extremadura (44,6%), Galicia (41,7%), Canarias (41,8%), Andalucía (41,1%) y Castilla y León (39,8%) destacan por su elevada presencia de mujeres extranjeras autónomas. En el extremo contrario, Murcia registra el porcentaje más bajo, con solo un 27% de mujeres entre sus autónomos extranjeros.\n\nSectores con mayor presencia femenina\n\nLas mujeres autónomas en España se concentran principalmente en comercio, hostelería y actividades profesionales, con una de cada cuatro autónomas trabajando en el comercio (24,1%).\n\nOtros sectores donde predominan las mujeres autónomas son:\n\nHostelería ( 11% mujeres, 8,4% hombres ).\n\n( ). Actividades profesionales, científicas y técnicas ( 11,8% mujeres, 9% hombres ).\n\n( ). Actividades sanitarias ( 7% mujeres, 2,5% hombres ).\n\n( ). Educación (5% mujeres, 2% hombres).\n\nEn contraste, los hombres dominan sectores como:\n\nConstrucción ( 17,3% hombres, 3,4% mujeres ).\n\n( ). Transporte ( 8,6% hombres, 2,7% mujeres ).\n\n( ). Industria (7,1% hombres, 4,5% mujeres).\n\nLa vicepresidenta de ATA, Candelaria Carrera, destaca que aunque las mujeres siguen optando por sectores tradicionalmente feminizados, cada vez más emprenden en áreas dominadas históricamente por hombres, como la tecnología y la ingeniería.\n\nEl envejecimiento del colectivo autónomo femenino\n\nEl informe señala que el grupo de edad más numeroso entre las autónomas es el de 45 a 59 años, que representa el 45% del total de autónomas registradas en el RETA.\n\nAdemás, hay 66.960 mujeres autónomas mayores de 64 años, lo que equivale al 5,36% del total, mientras que las menores de 25 años apenas suponen el 1,88% (22.288 trabajadoras por cuenta propia).\n\nDesafíos y políticas necesarias\n\nLa radiografía del mercado laboral en España muestra que la tasa de actividad femenina sigue siendo inferior a la de los hombres, situándose en 53,85%, frente al 63,67% de los varones. Además, la tasa de paro es más alta entre las mujeres (11,83%) en comparación con los hombres (9,53%).\n\nCandelaria Carrera advierte que las mujeres encuentran más dificultades para acceder al empleo y enfrentan mayores obstáculos en el trabajo autónomo. Por ello, destaca la necesidad de implementar políticas públicas que impulsen el emprendimiento femenino, eliminando barreras y garantizando un entorno más equitativo.\n\n\"El autoempleo es una oportunidad real y efectiva para la mujer en España sin distinción de edad ni nacionalidad. Seguiremos apostando por ellas, aportando soluciones y acompañándolas para que consigan sus objetivos\", concluye Carrera.",
+                                        "metadata": {
+                                            "url": "https://www.eldiariodemadrid.es/articulo/madrid/crecimiento-trabajo-autonomo-femenino-espana-tendencias-desafios/20250307133534093062.html",
+                                            "source": "www.eldiariodemadrid.es",
+                                            "favicon": "https://www.eldiariodemadrid.es/media/eldiariodemadrid/images/2023/07/14/2023071413200898097.png",
+                                            "title": "El crecimiento del trabajo autónomo femenino en España",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiariodemadrid.es",
+                                            "snippet": "El 36,9% de los autónomos en España son mujeres, con Canarias, Andalucía y Madrid liderando el crecimiento del sector en la última década."
+                                        }
+                                    },
+                                    {
+                                        "text": "Tras el impacto que supuso la pandemia de covid, desde 2020, enlazado con el de la crisis energética y de subida de precios que siguió al estallido de la guerra de Ucrania, el número de trabajadores autónomos se va recuperando en la Comunidad de Madrid. En algunos sectores como el pequeño comercio el golpe fue duro y aún se está padeciendo. Fuentes del sector cifran ese impacto en el comercio en un 15% de caída de actividad. Pero en términos generales, el total de trabajadores por cuenta propia en la región ha venido creciendo.\n\nSegún los datos de afiliación a la Seguridad Social, en Madrid había a finales de septiembre 434.653 trabajadores inscritos en el Régimen Especial de Trabajadores Autónomos (RETA), lo que supone algo más de 18.000 de los que había en diciembre de 2021. Y, en gran medida, ese aumento responde a las mujeres. Casi dos de cada tres nuevos trabajadores autónomos registrados en la región en ese periodo fueron trabajadoras autónomas.\n\nEn concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.\n\nAño a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.\n\n“Las mujeres están respondiendo muchísimo mejor a las dificultades, están sabiendo adaptarse muy bien al entorno”, señalaba ayer en una entrevista en EL PERIÓDICO DE ESPAÑA el presidente de la Asociación de Trabajadores Autónomos ATA en Madrid, Antonio Magraner, quien además señalaba que suelen encontrarse con mayores dificultades de acceso a financiación, pese a presentar menores ratios de morosidad y endeudamiento.\n\nMagraner también aludía a las dificultades de conciliación y mencionaba expresamente el permiso de lactancia, no reconocido para todas las trabajadoras por cuenta propia. Se trata de uno de los caballos de batalla de los autónomos a escala nacional en sus reivindicaciones por un aumento de protección social junto al cambio de requisitos para optar al cese de actividad, el conocido como paro de los autónomos, denegado, denuncian, hasta en un 60% de las solicitudes, o el acceso al subsidio por desempleo para mayores de 52 años.\n\nEn el centro del debate\n\nEl colectivo de los autónomos se ha situado en las últimas semanas en el centro del debate político después de que el Ministerio de Inclusión, Seguridad Social y Migraciones que dirige Elma Saiz presentara una propuesta de subida de las cuotas de cotización hasta 2028 de todos los tramos y que llegaba a ser de un 106% en el caso de los tramos más altos, para aquellos trabajadores con rendimientos netos mensuales por encima de 6.000 euros. Criticada por numerosos grupos parlamentarios, del PP o Vox a Junts o Sumar, la propuesta fue retirada y sustituida por otra, planteada solo para 2026, con subidas de entre el 1% y el 2,5%.\n\nAyer, en el acto de entrega de los Premios Autónomo del Año organizados por la Federación Nacional de Asociaciones de Trabajadores Autónomos ATA, el presidente del Partido Popular, Alberto Núñez Feijóo, adelantó algunas de las medidas que contempla el Plan Integral para los Autónomos en que trabaja su formación.\n\nEntre otras medidas, plantea eximir del pago del IVA a aquellos autónomos que facturen por debajo de 85.000 euros anuales o consolidar la tarifa cero (la bonificación al 100% de las cotizaciones a la Seguridad Social) a los nuevos autónomos durante el primer año, extensible por un segundo año a aquellos menores de 35 años o con ingresos equivalentes o inferiores al salario mínimo interprofesional. También aliviar la carga burocrática sustituyendo la actual declaración trimestral por una semestral o incluso una anual.\n\nAl acto también acudió la presidenta madrileña, Isabel Díaz Ayuso, con quien la clase empresarial exhibió singular sintonía cristalizada en las palabras del presidente de la CEOE, Antonio Garamendi. “Los callos me gustan a la vizcaína, pero los impuestos a la madrileña”, señaló el dirigente de la patronal ante una Ayuso quien, por su parte, tachaba de “inconcebible” la situación a la que el Gobierno somete, a su juicio, a los autónomos.\n\nLa presidenta madrileña aprovechaba su intervención, además, para anunciar que los presupuestos regionales para 2026, cuyo proyecto presentará el próximo miércoles, incluirán un incremento de 5,6 millones de euros en ayudas para los autónomos hasta superar los 37 millones de euros.",
+                                        "metadata": {
+                                            "url": "https://www.epe.es/es/madrid/20251028/nuevos-autonomos-madrilenos-pandemia-mujeres-123084713",
+                                            "source": "www.epe.es",
+                                            "favicon": "https://www.epe.es/cds-statics/EPE/favicons/android-icon-48x48.png",
+                                            "title": "Dos de cada tres nuevos autónomos madrileños desde la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.epe.es",
+                                            "snippet": "En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El término “sablazo”, acuñado por Lorenzo Amor, presidente de ATA, define cómo ve esta organización la propuesta inicial de la Seguridad Social para actualizar las cotizaciones de los trabajadores autónomos en 2026. CCOO, UGT y UPTA discrepan de esta valoración, pero todas coinciden en un punto: el impacto sobre al eslabón más débil. El clamor social y político ha obligado al Ministerio de Elma Saiz a dar marcha atrás y avanzar con una nueva propuesta, que, al menos, de momento, mantiene sin cambios a los autónomos más vulnerables: las mujeres. En España, están dadas de alta como autónomos (Régimen Especial de Trabajadores Autónomos, RETA) más de 3,4 millones de personas, un 37% de ellas mujeres.\n\nEn concreto, Saiz ha optado por “recoger todas las sensibilidades” y congelar los tres primeros tramos de la tarifa reducida de las cuotas de cotización para 2026. De esta forma, las trabajadoras con ingresos inferiores a 670 euros (una base mínima de cotización de 653,59 euros) pagarán, igual que ahora, un mínimo de 200 euros. A su vez, aquellas con hasta los 1.167 euros (una base mínima de cotización de 849,67 euros) mantendrán la cuota en 260 euros. A partir de los 1.167 euros se incorpora una subida progresiva desde el 1% hasta un máximo del 2,5%. Este último porcentaje afecta a rendimientos netos mensuales de entre 4.000 y 6.000 euros, niveles inalcanzables para muchas autónomas.\n\n🔴 La ministra @SaizElma explica una nueva propuesta para la cotización de #autónomos: ✅ Congelación de los 3 tramos con tarifa reducida ✅ Incremento progresivo entre el 1% el 2,5%, para el resto 🎙️\"Una propuesta basada en la progresividad, la escucha y el contexto actual\" pic.twitter.com/pIKm7Lk9Cu — Ministerio Inclusión Seguridad Social Migraciones (@inclusiongob) October 20, 2025\n\nPerfil de la mujer autónoma\n\nEl perfil de la mujer autónoma es, en general, precario por varios factores. La radiografía muestra a una mujer con bajos ingresos y sin apenas estudios, expulsada del mercado laboral durante años por haberse dedicado al cuidado de terceras personas y mayor de 45 años. Tal y como advertía a Artículo14 Pilar Mora, secretaria general de Autónomas por la Igualdad, el autoempleo es muchas veces una salida obligada. Lo corrobora el dato de casi el 45% de las autónomas se encuentra en la franja de edad de 45 y 59 años, según las estadísticas de la Seguridad Social.\n\nEn la última década, el número de autónomas ha aumentado casi un 14%, frente a poco más del 5% de los hombres. Este dato confirma que son las mujeres quienes están impulsando el crecimiento, pero es también un arma de doble filo. Si bien podría interpretarse como un reflejo de un mayor emprendimiento femenino, el trasfondo refleja, en muchos casos, un intento de buscar una alternativa laboral en los sectores más precarios. El 22% de ellas (algo menos de 300.000 mujeres) trabajan en el comercio minorista, mientras que otro 10% se dedica a otros servicios personales. A su vez, las actividades sanitarias (6,85%) y educación (4,91%) figuran como los siguientes ámbitos más numerosos.\n\nDesde las asociaciones de autónomos se ha pedido a Seguridad Social una actualización de la información con perspectiva de género. Otro dato que refleja la precarización de las mujeres autónomas -tal y como recordaba Celia Ferrero, de ATA- es que, cuando en 2022 se inició la negociación de la reforma del sistema, el colectivo que declaraba ingresos por debajo de 670 euros -la mitad del Salario Mínimo- estaba compuesto mayoritariamente por mujeres.\n\nDiscriminación en pensiones\n\nA pesar de que, para las mujeres autónomas más vulnerables, la nueva propuesta de Elma Saiz es una buena noticia en el corto plazo, no deben perderse de vista sus consecuencias futuras para las trabajadoras con ingresos más elevados. Toda la negociación de las nuevas cuotas del RETA parte del acuerdo para elevar la protección de estos trabajadores y equipararlos con el Régimen General. Para muchas trabajadoras en este régimen con la cotización mínima, las secuelas se verán en el medio y largo plazo. La contribución a la Seguridad Social está directamente vinculada a las prestaciones que se perciben.\n\nLa pensión es uno de los mejores reflejos de esta realidad. La pensión media de las nuevas altas femeninas en el régimen general fue en 2024 de 1.229 euros, según los datos del Instituto Nacional de la Seguridad Social (INSS). En el caso de las autónomas, el importe medio se situó en 809,26 euros, el 65,8% de la pensión media del régimen general.\n\nDiferencias en las organizaciones de autónomos\n\nDesde UGT se ha advertido de esta realidad. “La propuesta del Gobierno es dar un paso atrás, porque si bien los tramos reducidos se congelan, algo que entendemos y que apoyamos, los tramos superiores que deberían de ingresar más porque están muy alejados de lo que deberían cotizar por ingresos reales, apenas la subida cubre el IPC con lo que estamos malversando el acuerdo de 2022″, aseguró Cristina Estévez, secretaria ejecutiva de UGT. En este sentido, recordó la mayor evidencia de que la preocupación de los autónomos es que, en el proceso de regulación, la mayoría ha cotizado por encima de lo que les correspondía y no ha pedido el reintegro para ver incrementada su pensión futura.\n\nLa propuesta del ministerio nos deja un sabor agridulce: 🔴los autónomos que más cobran en este país van a tener una tímida subida de las bases y cuotas de cotización, por debajo incluso del IPC. 🔴Esperábamos medidas más ambiciosas para dar cumplimiento al acuerdo del 2022, pic.twitter.com/XYaanVwIQs — Cristina Estévez (@CrisEstevez_UGT) October 20, 2025\n\nLa posición de UGT es compartida también por CCOO: “Lo que necesitaría el tramo de personas que tienen el salario mínimo interprofesional para alcanzar los ingresos reales en el año 2031 sería una subida media de en torno al 3% o 3,5%. Lo que necesita el tramo más alto, quienes ganan más de 6.000, más de 4.000, estamos del 18-20% anual”, afirmó su secretario de Políticas Públicas, Carlos Bravo. También UPTA apostó por una mayor subida en la parte alta de las tablas , mientras que ATA sí entiende que la propuesta en las cotizaciones en 2026 va en la línea de sus demandas.\n\nLactancia y otras prestaciones\n\nJunto a la actualización de las cuotas y las nuevas obligaciones en relación con VERIFACTU, a las mujeres autónomas les preocupan otras dos cuestiones: el permiso de lactancia y el acceso al subsidio para personas en situación de desempleo mayores de 52 años. La mejora de la protección social de los autónomos sigue pendiente y es una preocupación que comparten las organizaciones. El permiso de lactancia ya está sobre la mesa de la Seguridad Social que estudiará fórmulas para dar esta protección, tal y como señalaron desde el Ministerio. En el régimen general, el coste de esta prestación lo asumen las empresas.\n\nMadre amamantando a su bebé. CSIC\n\nAsimismo, en la nueva propuesta de Saiz, se aboga por tomar únicamente los tres últimos meses para la determinación de la base reguladora en las prestaciones por cuidado y nacimiento del menor. Se entiende que ello permitirá ajustar mejor la cuantía de la prestación, evitando problemas en el proceso de regularización. Esta misma filosofía se aplicará a las prestaciones por cuidado de menores afectados por cáncer u otra enfermedad grave.\n\nDesempleo\n\nEn cuanto al cese de actividad, según las mismas fuentes gubernamentales, se quiere “mejorar globalmente la acción protectora de la prestación”. En este sentido, desde ATA llaman la atención sobre las autónomas en situación de desempleo mayores de 52 años, que viven en hogares monoparentales con hijos a su cargo, porque no cuentan con la ayuda asistencial que sí tiene una trabajadora asalariada. Tampoco están cubiertas por permisos ante efectos climatológicos adversos o por fallecimiento de un familiar.\n\nLa reforma del RETA sigue abierta y su impacto de género será determinante. Las autónomas reclaman que, más allá de los tramos y porcentajes, se escuche su voz. Como resumía Pilar Mora: “No pedimos ventajas, pedimos justicia contributiva”.",
+                                        "metadata": {
+                                            "url": "https://www.articulo14.es/economia/el-ejecutivo-corrige-el-golpe-a-las-mujeres-autonomas-mas-vulnerables-20251021.html",
+                                            "source": "www.articulo14.es",
+                                            "favicon": "https://sta.articulo14.es/main-files/uploads/2025/01/articulo14-logo-blanco-192x192-1.png",
+                                            "title": "El Gobierno corrige el \"golpe\" a las mujeres autónomas ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.articulo14.es",
+                                            "snippet": "Las mujeres autónomas se concentran en los tramos más bajos de la tabla de cotización, que permanecerá congelada hasta los 1.167 euros de ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.6111624090008263,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.6111624090008263,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:39",
+                    "run_time": 2.6111624090008263,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?": [
+                                {
+                                    "En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.": null
+                                },
+                                {
+                                    "El estudio también pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional.": null
+                                },
+                                {
+                                    "En la última década, el número de mujeres trabajadoras por cuenta propia ha experimentado un crecimiento significativo, destacando especialmente Canarias (+36,5%), Andalucía y la Comunidad de Madrid, ambas con un incremento cercano al 29%. Sin embargo, en algunas comunidades como Aragón, Castilla y León, País Vasco, La Rioja, Galicia y Asturias, se ha registrado un descenso tanto en hombres como en mujeres autónomas, siendo la caída femenina superior a la de los varones.": null
+                                }
+                            ],
+                            "¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?": [
+                                {
+                                    "El estudio también pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional.": null
+                                },
+                                {
+                                    "Año a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.": null
+                                },
+                                {
+                                    "En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?": [
+                                {
+                                    "En el análisis que ATA hace por comunidades, Carrera ha destacado que la Comunidad de Madrid se sitúa en el tercer puesto con un incremento de 5.463 nuevos autónomos, tan sólo por detrás de Andalucía y Cataluña. Pero que nuevamente, este incremento está liderado por mujeres, puesto que el 2,67% de los nuevos autónomos eran autónomas.": null
+                                },
+                                {
+                                    "En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.": null
+                                },
+                                {
+                                    "Año a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.": null
+                                }
+                            ],
+                            "¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?": [
+                                {
+                                    "El estudio también pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional.": null
+                                },
+                                {
+                                    "Año a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.": null
+                                },
+                                {
+                                    "En el análisis que ATA hace por comunidades, Carrera ha destacado que la Comunidad de Madrid se sitúa en el tercer puesto con un incremento de 5.463 nuevos autónomos, tan sólo por detrás de Andalucía y Cataluña. Pero que nuevamente, este incremento está liderado por mujeres, puesto que el 2,67% de los nuevos autónomos eran autónomas.": null
+                                }
+                            ],
+                            "¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?": [
+                                {
+                                    "En el análisis que ATA hace por comunidades, Carrera ha destacado que la Comunidad de Madrid se sitúa en el tercer puesto con un incremento de 5.463 nuevos autónomos, tan sólo por detrás de Andalucía y Cataluña. Pero que nuevamente, este incremento está liderado por mujeres, puesto que el 2,67% de los nuevos autónomos eran autónomas.": null
+                                },
+                                {
+                                    "Año a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.": null
+                                },
+                                {
+                                    "En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.818843234999804,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.818843234999804,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:52",
+                    "run_time": 12.818843234999804,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nMadrid es la comunidad con mayor porcentaje de mujeres autónomas\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?\n¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?\n¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?\n¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?\n¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?\n\n3. Here are the text sources you should use as your source of information:\n[0] En concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Una de cada cinco nuevas trabajadoras por cuenta propia contabilizadas en el país en estos cinco años es madrileña.\n[0] Año a año, el incremento de mujeres autónomas en la región ha sido superior al de hombres en todos los ejercicios desde la pandemia, significativamente en 2023, cuando lo duplicó, y en 2022, cuando lo multiplicó por más de 10: 2.216 nuevas madrileñas en el RETA frente a 192 hombres aquel año.\n[1] El estudio también pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional.\n[1] En la última década, el número de mujeres trabajadoras por cuenta propia ha experimentado un crecimiento significativo, destacando especialmente Canarias (+36,5%), Andalucía y la Comunidad de Madrid, ambas con un incremento cercano al 29%. Sin embargo, en algunas comunidades como Aragón, Castilla y León, País Vasco, La Rioja, Galicia y Asturias, se ha registrado un descenso tanto en hombres como en mujeres autónomas, siendo la caída femenina superior a la de los varones.\n[2] En el análisis que ATA hace por comunidades, Carrera ha destacado que la Comunidad de Madrid se sitúa en el tercer puesto con un incremento de 5.463 nuevos autónomos, tan sólo por detrás de Andalucía y Cataluña. Pero que nuevamente, este incremento está liderado por mujeres, puesto que el 2,67% de los nuevos autónomos eran autónomas.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Madrid es la comunidad con mayor porcentaje de mujeres autónomas"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?**\n\nSegún el texto [0], en concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Esto sugiere que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España.\n\n**¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?**\n\nEl estudio mencionado en el texto [1] pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional. Esto sugiere que las mujeres extranjeras también están contribuyendo al aumento del número de mujeres autónomas en Madrid.\n\n**¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se menciona la opinión de expertos en los textos proporcionados. Sin embargo, el estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que los expertos podrían estar de acuerdo con esta afirmación.\n\n**¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?**\n\nNo se mencionan fuentes oficiales o organizaciones especializadas en los textos proporcionados.\n\n**¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se mencionan críticas o contradicciones a la afirmación en los textos proporcionados.\n\n**Conclusión**\n\nAunque no se mencionan críticas o contradicciones a la afirmación, los textos proporcionados sugieren que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España. El estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que la afirmación podría ser verdadera. Sin embargo, no se mencionan fuentes oficiales o organizaciones especializadas que hayan investigado la situación de las mujeres autónomas en Madrid, lo que limita la validez de la afirmación.\n\n**Decisión**\n\nBasándose en los textos proporcionados, la afirmación \"Madrid es la comunidad con mayor porcentaje de mujeres autónomas\" parece ser verdadera, aunque con algunas limitaciones. Sin embargo, sería necesario consultar fuentes oficiales o organizaciones especializadas para confirmar esta afirmación de manera más precisa."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.266367870999602,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.266367870999602,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:39:54",
+                    "run_time": 2.266367870999602,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Madrid es la comunidad con mayor porcentaje de mujeres autónomas\nArticle: **Análisis de la afirmación**\n\n**¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?**\n\nSegún el texto [0], en concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Esto sugiere que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España.\n\n**¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?**\n\nEl estudio mencionado en el texto [1] pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional. Esto sugiere que las mujeres extranjeras también están contribuyendo al aumento del número de mujeres autónomas en Madrid.\n\n**¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se menciona la opinión de expertos en los textos proporcionados. Sin embargo, el estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que los expertos podrían estar de acuerdo con esta afirmación.\n\n**¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?**\n\nNo se mencionan fuentes oficiales o organizaciones especializadas en los textos proporcionados.\n\n**¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se mencionan críticas o contradicciones a la afirmación en los textos proporcionados.\n\n**Conclusión**\n\nAunque no se mencionan críticas o contradicciones a la afirmación, los textos proporcionados sugieren que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España. El estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que la afirmación podría ser verdadera. Sin embargo, no se mencionan fuentes oficiales o organizaciones especializadas que hayan investigado la situación de las mujeres autónomas en Madrid, lo que limita la validez de la afirmación.\n\n**Decisión**\n\nBasándose en los textos proporcionados, la afirmación \"Madrid es la comunidad con mayor porcentaje de mujeres autónomas\" parece ser verdadera, aunque con algunas limitaciones. Sin embargo, sería necesario consultar fuentes oficiales o organizaciones especializadas para confirmar esta afirmación de manera más precisa.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Madrid es la comunidad con mayor porcentaje de mujeres autónomas\nArticle: **Análisis de la afirmación**\n\n**¿Cuál es el porcentaje de mujeres autónomas en Madrid en comparación con otras comunidades autónomas de España en 2025?**\n\nSegún el texto [0], en concreto, de los 18.088 autónomos registrados más desde 2021, un total de 11.425 son mujeres frente a 6.663 hombres. El porcentaje es de un 63,1%. La cifra es similar a la del conjunto de España, en torno al 65%. Esto sugiere que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España.\n\n**¿Qué dicen los estudios recientes sobre la situación de las mujeres autónomas en Madrid?**\n\nEl estudio mencionado en el texto [1] pone el foco en el crecimiento del trabajo autónomo entre las mujeres extranjeras. En diciembre de 2024, había 467.616 autónomos extranjeros en España, de los cuales el 38,1% eran mujeres, un porcentaje superior a la media nacional. Esto sugiere que las mujeres extranjeras también están contribuyendo al aumento del número de mujeres autónomas en Madrid.\n\n**¿Qué opinan los expertos sobre la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se menciona la opinión de expertos en los textos proporcionados. Sin embargo, el estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que los expertos podrían estar de acuerdo con esta afirmación.\n\n**¿Qué fuentes oficiales o organizaciones especializadas han investigado la situación de las mujeres autónomas en Madrid?**\n\nNo se mencionan fuentes oficiales o organizaciones especializadas en los textos proporcionados.\n\n**¿Qué críticas o contradicciones hay a la afirmación de que Madrid tiene el mayor porcentaje de mujeres autónomas?**\n\nNo se mencionan críticas o contradicciones a la afirmación en los textos proporcionados.\n\n**Conclusión**\n\nAunque no se mencionan críticas o contradicciones a la afirmación, los textos proporcionados sugieren que Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España. El estudio mencionado en el texto [1] destaca el crecimiento significativo del número de mujeres trabajadoras por cuenta propia en Madrid, lo que sugiere que la afirmación podría ser verdadera. Sin embargo, no se mencionan fuentes oficiales o organizaciones especializadas que hayan investigado la situación de las mujeres autónomas en Madrid, lo que limita la validez de la afirmación.\n\n**Decisión**\n\nBasándose en los textos proporcionados, la afirmación \"Madrid es la comunidad con mayor porcentaje de mujeres autónomas\" parece ser verdadera, aunque con algunas limitaciones. Sin embargo, sería necesario consultar fuentes oficiales o organizaciones especializadas para confirmar esta afirmación de manera más precisa."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Madrid es la comunidad con mayor porcentaje de mujeres autónomas\", \"categories\": [\"Economía\", \"Empleo\", \"Género\"], \"label\": \"Undetermined\", \"main_claim\": \"Madrid tiene un porcentaje significativo de mujeres autónomas en comparación con otras comunidades autónomas de España\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

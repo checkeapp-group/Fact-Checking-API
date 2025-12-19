@@ -1,0 +1,575 @@
+{
+    "question": "Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España",
+    "answer": "A favor: en las fuentes hay varios pasajes que apuntan a problemas estructurales en el mercado laboral que podrían afectar a colectivos con dificultades de inserción, lo que puede leerse como apoyo indirecto a la afirmación. En el texto se indica que “siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con **desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos**” y que existen “obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.” [1]. También se señala que “**la relación entre ofertas de empleo y demandantes de empleo es desequilibrada** en determinadas ocupaciones, con exceso de solicitudes registradas en los servicios públicos de empleo” y que “en la mayoría de los casos, se trata de ocupaciones de baja o media cualificación” [1]. Además, la misma fuente aporta series de tasa de empleo 2019–2023 (Total España 49,7; 47,9; 49,1; 50,3; 51) y desagregaciones por sexo y juventud (por ejemplo Hombres España 55,5 → 56,3; Mujeres España 44,3 → 46; Jóvenes España 22,3 → 23,6 en esos años) que muestran niveles de empleo que no son especialmente altos en conjunto [1]. Por otro lado, el informe de InfoJobs/Esade documenta un desajuste entre oferta de candidatos y vacantes en 2024: **el 31% de los candidatos que se inscribieron en la plataforma tenían estudios universitarios frente al 11% de las vacantes que demandaban ese nivel** (y 27% vs 22% para Formación Profesional), lo que muestra problemas de encaje entre perfiles y puestos [2]. Estos elementos —desempleo de larga duración, desequilibrios oferta/demanda y desajustes formativos— pueden interpretarse como evidencia circunstancial de que hay trabajadores con “serios problemas” para encontrar empleo.\n\nEn contra: las mismas fuentes contienen información que limita o contradice una afirmación específica sobre los trabajadores de **55 años o más**, y además no aportan datos directos por ese grupo de edad. **No hay en los textos ninguna cifra explícita para las tasas de salida del desempleo, duración media o mediana del desempleo, ni tasas de empleo/paro/actividad para 55–64 en 2024–2025 procedentes de la EPA (Encuesta de Población Activa) ni del SEPE (Servicio Público de Empleo Estatal)**; por tanto no hay prueba directa en estas fuentes de que las personas de 55+ tengan peores resultados que el resto [1][2]. Además, el propio [1] reconoce que “en determinadas ocupaciones existen dificultades para encontrar profesionales”, lo que implica que en algunos sectores **existe demanda de personal** y no escasez de empleo, lo que podría representar oportunidades para ciertos colectivos [1]. También las cifras generales de empleo muestran una mejora hasta 51% en 2023 (y tasas diferenciadas por sexo), lo que no permite concluir automáticamente que los 55+ estén especialmente perjudicados [1]. Por último, el dato de que España tiene una **tasa de paro juvenil muy alta (26,6% frente a la media UE 14,5%)** subraya que los problemas de inserción son evidentes en los jóvenes y no exclusivamente en las edades avanzadas, según las fuentes disponibles [2]. En resumen, las fuentes ofrecen evidencia de problemas estructurales y de desajuste pero **no aportan ninguna evidencia empírica específica** (por ejemplo experimentos de correspondencia, estudios cuantificados de discriminación por edad, o estadísticas de contrataciones del SEPE por tramos de edad) que demuestre que los mayores de 55 años “tienen serios problemas” en mayor medida que otros grupos [1][2].\n\nConclusión: **la evidencia disponible en las fuentes es insuficiente para verificar la afirmación específica de que los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España**. Hay **evidencia indirecta** de problemas estructurales (desempleo de larga duración, desequilibrios oferta/demanda, desajuste formativo) que podría afectar a colectivos vulnerables [1][2], pero **ninguna cifra ni estudio en los textos aporta datos por edad 55+ (tasas EPA/SEPE, duración del paro por edad, proporción de colocaciones por edad, experimentos sobre discriminación)** necesarios para confirmar la afirmación. Según las instrucciones dadas (si no existe evidencia para verificar la afirmación, concluir que es falsa), la decisión basada únicamente en estas fuentes es: **FALSO** (no verificada).",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://eures.europa.eu/living-and-working/labour-market-information/labour-market-information-spain_es",
+            "source": "eures.europa.eu",
+            "favicon": "https://eures.europa.eu/themes/contrib/oe_theme/images/favicons/eu/favicon.ico"
+        },
+        "2": {
+            "url": "https://nosotros.infojobs.net/examinando-el-futuro-laboral-de-los-jovenes-donde-se-encuentran-las-oportunidades-este-2025/",
+            "source": "nosotros.infojobs.net",
+            "favicon": "https://s36300.pcdn.co/wp-content/uploads/2025/05/favicon-InfoJobs.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España",
+        "categories": [
+            "News",
+            "Economía",
+            "Sociedad"
+        ],
+        "label": "Fake",
+        "main_claim": "No hay evidencia de que los trabajadores de 55 años o más tengan serios problemas para encontrar trabajo en España",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "openai/gpt-5",
+                "gen_searches_agent": "openai/gpt-5-mini",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "openai/gpt-5-nano",
+                "article_writer": "openai/gpt-5-mini",
+                "metadata_agent": "openai/gpt-5-nano",
+                "image_prompt": "openai/gpt-5-nano"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00261425,
+                "total_run_time": 28.309170301999984,
+                "average_cost_per_call": 0.00261425,
+                "average_time_per_call": 28.309170301999984,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:05:05",
+                    "run_time": 28.309170301999984,
+                    "cost": 0.00261425,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España\n\n**Critical Research Questions:**\n1. ¿Cuál es la tasa de salida del desempleo y la duración media o mediana del desempleo entre las personas de 55 a 64 años en España en 2024-2025 según la EPA y el SEPE, y cómo se comparan con las de la población de 25 a 54 años?\n2. ¿Cuáles son la tasa de empleo, la tasa de paro y la tasa de actividad del grupo de 55 a 64 años en España en 2024-2025 y cómo se comparan con la media de la UE-27 según Eurostat?\n3. ¿Qué proporción de las contrataciones y colocaciones registradas en España en 2024-2025 correspondió a personas de 55 años o más según las estadísticas del SEPE, y cómo se compara con el peso de los mayores de 55 entre los demandantes de empleo?\n4. ¿Qué evidencia empírica publicada desde 2015 (experimentos de correspondencia, estudios académicos o informes técnicos) cuantifica la discriminación por edad en los procesos de selección en España contra candidatos de 55 años o más y cuál es el tamaño estimado del efecto?\n5. ¿Qué concluyen los informes de 2024-2025 de Fundación Adecco, Randstad Research, InfoJobs, Banco de España y Fundación MAPFRE sobre las barreras y oportunidades de los mayores de 55 para encontrar empleo en España, y qué datos aportan sobre duración de búsqueda, sectores de demanda y brechas por edad?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"EPA datos duración del desempleo 55 64 años España 2024 mediana duración tasa de salida del desempleo SEPE flujos entradas salidas 2024 2025\", \"Eurostat tasa de empleo tasa de paro tasa de actividad 55 64 años España 2024 2025 comparación UE-27\", \"SEPE estadísticas colocaciones contrataciones por edad 2024 2025 porcentaje de contrataciones mayores de 55 años y peso de los mayores de 55 entre demandantes de empleo\", \"experimento de correspondencia discriminación por edad España 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 estudios académicos efecto edad 55 años tasa callback\", \"informes 2024 2025 Fundación Adecco Randstad Research InfoJobs Banco de España Fundación MAPFRE mayores de 55 empleo España duración búsqueda sectores demanda barreras oportunidades\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.4889335270004267,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.4889335270004267,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:05:08",
+                    "run_time": 3.4889335270004267,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "EPA datos duración del desempleo 55 64 años España 2024 mediana duración tasa de salida del desempleo SEPE flujos entradas salidas 2024 2025",
+                                "Eurostat tasa de empleo tasa de paro tasa de actividad 55 64 años España 2024 2025 comparación UE-27",
+                                "SEPE estadísticas colocaciones contrataciones por edad 2024 2025 porcentaje de contrataciones mayores de 55 años y peso de los mayores de 55 entre demandantes de empleo",
+                                "experimento de correspondencia discriminación por edad España 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 estudios académicos efecto edad 55 años tasa callback",
+                                "informes 2024 2025 Fundación Adecco Randstad Research InfoJobs Banco de España Fundación MAPFRE mayores de 55 empleo España duración búsqueda sectores demanda barreras oportunidades"
+                            ],
+                            "results": {
+                                "EPA datos duración del desempleo 55 64 años España 2024 mediana duración tasa de salida del desempleo SEPE flujos entradas salidas 2024 2025 | Eurostat tasa de empleo tasa de paro tasa de actividad 55 64 años España 2024 2025 comparación UE-27 | SEPE estadísticas colocaciones contrataciones por edad 2024 2025 porcentaje de contrataciones mayores de 55 años y peso de los mayores de 55 entre demandantes de empleo | experimento de correspondencia discriminación por edad España 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 estudios académicos efecto edad 55 años tasa callback | informes 2024 2025 Fundación Adecco Randstad Research InfoJobs Banco de España Fundación MAPFRE mayores de 55 empleo España duración búsqueda sectores demanda barreras oportunidades": [
+                                    {
+                                        "text": "Cantabria\n\nCon 588 387 habitantes, Cantabria representaba alrededor del 1,2% de la población de España en 2023.\n\nEl producto interior bruto per cápita, ajustado en función de los niveles de precios (EPA) en Cantabria, fue del 74,3 % de la media de la EU-27, por debajo de la media nacional del 79,9 %.\n\nLa comunidad autónoma de Cantabria, situada en el centro norte de la Península Ibérica, ocupa una superficie de 5.321 km2, con 284 km de litoral en el mar Cantábrico. En cuanto al origen de la población, las tres cuartas partes son autóctonas de la propia región; de la cuarta parte restante, dos de cada tres proceden de otras zonas de España y el resto del extranjero, principalmente de Europa y América Latina.\n\nLa mayor parte de la actividad se concentra en la franja costera, especialmente en el este, y en la llamada «extensión Bahía Arc y Besaya» con las ciudades de Santander y Torrelavega, más sus afueras, como eje vertebrador de la región, uno como punto de referencia para el sector servicios y otro con tradición industrial. La costa se caracteriza por un clima atlántico suave y templado. El clima del interior es más similar a un clima continental moderado. El 70% de los desplazamientos, por cualquier medio -incluido caminar-, de casa al trabajo no tardan más de 20 minutos, lo que se acerca al compromiso de los \"15 minutos\".\n\nLos sectores económicos que destacan positivamente, por orden de importancia, son los servicios, la industria y la construcción. Con algunas actividades específicas que lideran el crecimiento, como el transporte, el turismo, la hostelería y la restauración, la información y las comunicaciones, la construcción, la industria manufacturera y la industria alimentaria. En menor medida, las relacionadas con el sector primario, que en esta comunidad es bastante limitado y se centra principalmente en la ganadería y la pesca. El último Directorio Central de Empresas registra un total de 37 801 empresas en Cantabria, con 43 516 locales o centros de trabajo activos. La estructura empresarial de Cantabria se caracteriza por un alto grado de atomización: algo más de la mitad de las empresas no tienen empleados y, de las que sí los tienen, el 83 % tiene menos de seis empleados, mientras que las que tienen más de cincuenta empleados solo representan el 1,3 %.\n\nEn 2023, más de 277 400 personas estaban activas en el mercado laboral de Cantabria. El 52,2 % tenía educación universitaria, el 24,6 % tenía educación secundaria y el 23,3 % tenía educación primaria. La tasa de ocupación en Cantabria se situó en el 49,6 % en 2023, 1,4 puntos porcentuales por debajo de la media nacional en España y en línea con las cifras de 2022.\n\nLa tasa de empleo femenina en 2023 era del 44,8 %, la masculina del 54,8 % y la juvenil del 20 %, todas ellas por debajo de la media nacional.\n\nTasa de empleo 2019 2020 2021 2022 2023 Total España 49.7 47.9 49.1 50.3 51 Cantabria 48.8 46.7 48.4 48.9 49.6 Hombres España 55.5 53.5 54.5 55.9 56.3 Cantabria 54.8 51.7 54 54.7 54.8 Mujeres España 44.3 42.6 43.8 44.9 46 Cantabria 43.3 42.1 43.1 43.5 44.8 Jóvenes España 22.3 18.5 20.5 22.9 23.6 Cantabria 15.2 13.1 16.3 17.7 20\n\nNote: lfst_r_lfe2emprt, Statistics | Eurostat (europa.eu), data refer to age group 15 years or over\n\nLa tasa de desempleo en Cantabria fue del 8,1 % en 2023, 4,1 puntos por debajo de la media nacional en el mismo año y una disminución con respecto al 9,6 % del año anterior.\n\ntasa de desempleo 2019 2020 2021 2022 2023 España 14.1 15.5 14.9 13 12.2 Cantabria 10.3 12.1 11.2 9.6 8.1\n\nNote: lfst_r_lfu3rt, Statistics | Eurostat, data refer to age group 15 years or over\n\nVacantes\n\nCuantitativamente, las principales actividades económicas son el comercio al por menor, los servicios de alimentación y bebidas, la construcción de edificios, las actividades de construcción especializada, las actividades inmobiliarias, el comercio al por mayor y los intermediarios comerciales, otros servicios personales, el transporte terrestre y por tuberías, las actividades de educación y salud, que representan el 87 % de las empresas activas.\n\nEl volumen anual de trabajo en 2023 ha aumentado, aunque la transferencia y sustitución de contratos temporales por contratos indefinidos, que comenzó en 2022, enmascara este comportamiento positivo del mercado laboral al reducir el volumen de contratación. En resumen, el mercado laboral de Cantabria mantiene esta tendencia positiva, iniciada hace tres años.\n\nEn la actualidad, existe una demanda excesiva de empleo insatisfecha que es paralela y coexiste con una escasez de candidatos para satisfacer las ofertas de empleo. Estas dos realidades contradictorias se están experimentando actualmente en la comunidad autónoma y en España en general, aunque en menor medida.\n\nSiguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos. Por otra parte, en determinadas ocupaciones existen dificultades para encontrar profesionales. Obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.\n\nSectores que registran escasez de personal\n\nAsí, actualmente existen actividades económicas en Cantabria que tienen dificultades para encontrar candidatos adecuados para sus ofertas de trabajo, ocupaciones (medicina y enfermería) relacionadas con actividades sanitarias en general, personal cualificado de construcción, perfiles técnicos en el sector del metal y la madera, conductores de camión, especialmente internacionales, comercio y distribución o profesionales cualificados relacionados con las tecnologías de la información y la comunicación. Por otra parte, se acogerían favorablemente todas las iniciativas empresariales.\n\nEl impacto de las diferentes crisis y la evolución de las nuevas tecnologías ha dado lugar a importantes transformaciones en la estructura y el funcionamiento del mercado laboral, lo que requiere perfiles laborales con nuevas cualificaciones que se renuevan constantemente.\n\nLa relación entre ofertas de empleo y demandantes de empleo es desequilibrada en determinadas ocupaciones, lo que se traduce en un exceso de solicitudes de empleo registradas en los servicios públicos de empleo que siguen sin satisfacerse. En la mayoría de los casos, se trata de ocupaciones de baja o media cualificación que se buscan para encontrar oportunidades, aunque sean temporales y/o estacionales.\n\nSectores que registran excedentes de personal\n\nA continuación se indican, por orden cuantitativo, los principales grupos profesionales con excedente de desempleados, aunque de vez en cuando también faltan solicitantes:",
+                                        "metadata": {
+                                            "url": "https://eures.europa.eu/living-and-working/labour-market-information/labour-market-information-spain_es",
+                                            "source": "eures.europa.eu",
+                                            "favicon": "https://eures.europa.eu/themes/contrib/oe_theme/images/favicons/eu/favicon.ico",
+                                            "title": "Información sobre el mercado laboral: España - EURES",
+                                            "type": "web_search",
+                                            "base_url": "https://eures.europa.eu",
+                                            "snippet": "La tasa de desempleo es sistemáticamente superior a la media de la UE-27. En 2023, fue 6,2 puntos porcentuales más alta en España que en la Europa de los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "¿Estás buscando trabajo? ¿Está este trabajo relacionado con la manipulación de alimentos?\n\nSi has respondido que sí —ya sea a ambas preguntas o al menos a la segunda—, seguramente estés buscando información sobre lo siguiente:\n\n¿Necesito un certificado de manipulación de alimentos para poder trabajar?\n\nSegún la ley, un manipulador de alimentos es toda aquella persona que, por su tipo de actividad laboral, tiene contacto directo con alimentos durante cualquiera de sus fases: fabricación, elaboración, envasado, transformación, transporte o venta.\n\nLos sectores que requieren este tipo de certificado tienen una demanda continua de personal, y son múltiples las oportunidades laborales que puedes encontrar.\n\nSi quieres saber qué es un certificado de manipulador de alimentos, si es obligatorio para trabajar y en qué empleos pueden solicitarte este documento, quédate, porque en Formazion te explicamos todos los pasos a seguir y te ofrecemos las herramientas necesarias para escoger la mejor opción para...",
+                                        "metadata": {
+                                            "url": "https://www.formazion.com/noticias-tag-trabajo.html",
+                                            "source": "www.formazion.com",
+                                            "favicon": "https://www.formazion.com/imagenes-web/FZ/favicon/apple-touch-icon.png",
+                                            "title": "Noticias y Reportajes sobre trabajo en formaZion",
+                                            "type": "web_search",
+                                            "base_url": "https://www.formazion.com",
+                                            "snippet": "En los próximos 25 años España perderá 2,6 millones de trabajadores. Así lo revela un reciente estudio de Randstad Research, que revela que se pasará de 31,7 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "InfoJobs analiza el mercado laboral actual con el objetivo de ayudar a los jóvenes a tomar una decisión más informada, poniendo el foco no solo en sus intereses personales, sino también en las oportunidades reales de inserción\n\nSegún los últimos datos del informe ‘Estado del Mercado Laboral en España’, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenían estudios universitarios\n\nInformática y telecomunicaciones, ingenierías y salud son tres de los sectores con mejores oportunidades de empleo\n\nLas competencias digitales, los idiomas y las habilidades personales, decisivas en el futuro profesional de los jóvenes\n\nEl próximo lunes, 3 de junio, arranca en varias comunidades autónomas la Prueba de Acceso a la Universidad (PAU, como fue rebautizada en 2024). Sin duda, se trata de una cita decisiva para miles de estudiantes que se preparan para dar el salto a la educación superior. La convocatoria ordinaria se celebrará hasta el 5 de junio en la mayoría de las regiones, aunque en algunos casos se alargará unos días más. Unas semanas clave para el futuro académico y profesional de toda una generación de jóvenes, que deben tomar una de las primeras grandes decisiones de su vida: elegir qué grado estudiar y, en muchos casos, qué camino laboral quieren empezar a construir.\n\nEn la pasada convocatoria, España registró el mayor número de estudiantes matriculados, presentados y aprobados en la historia de esta prueba, según los datos publicados por el Ministerio de Ciencia, Innovación y Universidades. Se matricularon 341.831 alumnos, de los que se presentaron el 95,8% y aprobaron un 90,2% de los presentados, los cuales pudieron acceder después a la oferta formativa disponible. Pero ¿existe un equilibrio entre esta oferta académica y la demanda del mercado? InfoJobs, la plataforma líder de empleo en España, ha realizado un análisis para responder a esta cuestión con el objetivo de ayudar a los jóvenes a tomar una decisión más informada, poniendo el foco no solo en sus intereses personales, sino también en las oportunidades reales de inserción laboral que pueden encontrar al finalizar sus estudios.\n\nUn 31% de los candidatos cuenta con estudios universitarios y un 27% con Formación Profesional\n\nEspaña cuenta con una de las tasas de paro juvenil más altas de la Unión Europea, que se situó en un 26,6% en marzo, según Eurostat. Son 12 puntos más que el promedio de la UE, que fue del 14,5%. Esta brecha evidencia los retos que enfrentan los jóvenes españoles para incorporarse al mercado laboral, y subraya la necesidad de una orientación formativa que facilite la conexión entre los estudios y las oportunidades profesionales reales y les permita enfocarse en el empleo con mayor seguridad y garantías. Sobre todo, teniendo en cuenta que existe una distancia entre su cualificación y las necesidades de las empresas: según los datos extraídos del último Informe sobre el Estado del Mercado Laboral en España, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenía estudios universitarios, mientras que solo el 11% de las vacantes publicadas en este periodo demandaba ese nivel de formación. En el caso de la Formación Profesional la diferencia prácticamente desaparece: un 27% había completado estos estudios y un 22% de las vacantes los requerían.\n\nEl papel de la Formación Profesional es fundamental para superar esta desconexión y facilitar una transición más fluida al empleo. Más allá de mejorar la inserción laboral, la FP Dual ofrece también la posibilidad de continuar con otros estudios posteriores y seguir ampliando su formación y especialización. Esta flexibilidad educativa es clave en un entorno donde cuanto más concreta y adaptada sea la formación, mayores serán las oportunidades de empleo.\n\nEn palabras de Mónica Pérez, directora de Comunicación y Estudios de InfoJobs: “La realidad del mercado laboral español exige cambiar cómo vinculamos la formación con las oportunidades profesionales. No se trata solo de que los jóvenes accedan a estudios superiores, sino de garantizar que esa formación se traduzca en talento y en empleos que realmente aprovechen sus capacidades y aporten valor. Para lograrlo, es esencial impulsar un modelo productivo basado en la innovación y el conocimiento, donde las empresas apuesten por profesionales bien formados y los jóvenes asuman que la formación continua y la capacidad de adaptación son esenciales. Solo así se puede construir un mercado laboral más competitivo y socialmente sostenible”.\n\nDónde hay más oportunidades: los sectores con más futuro\n\nA la hora de decidir qué estudiar, tener en cuenta las tendencias del mercado laboral puede marcar la diferencia. En este sentido, la digitalización continúa avanzando y la automatización y la IA están moldeando el empleo, así que los profesionales vinculados a la informática y las telecomunicaciones van a ser fundamentales. Esta categoría se posiciona, un año más, como una de las que menor competencia tiene, según el informe de InfoJobs y Esade. En 2024 registró 39 aspirantes para cada puesto ofertado (la media de la plataforma se situó en 52).\n\nA continuación, se detalla el listado de los perfiles con más vacantes dentro de la categoría:\n\nMuy vinculado a este sector, cabe destacar el auge del empleo en Inteligencia Artificial. Las conclusiones del Informe Empleos y Sectores Emergentes 2024 de DigitalES –que emplea como fuente de datos para la prospección la herramienta Job Market Insights*–, afirma el crecimiento de algunos puestos de trabajo relacionados con la IA. Es el caso de ingeniero/a de machine learning, cuya publicación de ofertas en España, desde 2019, ha aumentado un 625% (un 16% desde 2022); o el de ingeniero/a en inteligencia artificial, que crece un 83% en un año, y un 577% comparado con 2019.\n\nEl sector de las ingenierías también acapara los primeros puestos entre las demandas de las empresas, e ingenierías y técnicas es otra de las categorías que menos competencia registró en la plataforma en 2024, con un total de 29 inscritos/as por vacante. A su vez, se sitúa en el séptimo puesto por volumen de vacantes (102.410). Entre los puestos con más vacantes destacan:\n\nOtro de los sectores que gana relevancia: el empleo verde. Datos extraídos del informe Future of Jobs, elaborado por el World Economic Forum, estiman que la transición energética podría crear 30 millones de empleos en energía renovable, eficiencia y tecnologías bajas en emisiones para 2030. Adicionalmente, predice que las renovables tendrán un impacto de 9 millones de nuevos empleos creados cada año. InfoJobs también recoge en su informe algunos de los puestos de trabajo relacionados con este ámbito que ya se están demandando, como directores/as de protección del medioambiente (en un 90% de los casos, las vacantes solicitan estudios universitarios) o agentes de educación medioambiental (un 39% lo piden).\n\nPor último, llama la atención también el caso de sanidad y salud. El aumento de la longevidad y la menor natalidad están llevando a un envejecimiento progresivo de la población que requiere de más profesionales relacionados con los cuidados. En el informe de InfoJobs y Esade, la categoría ha contabilizado unas 97.500 vacantes, y entre los puestos más demandados destacan enfermeros/as y fisioterapeutas (el 98% y el 97% de las vacantes, respectivamente, demandan estudios universitarios):\n\nCompetencias que abren puertas: lo que realmente buscan las empresas en los jóvenes\n\nMás allá de escoger una formación alineada con las necesidades del mercado laboral, las competencias que desarrollan los jóvenes durante su etapa académica puede marcar la diferencia a la hora de encontrar empleo. En un mercado cada vez más cambiante y digitalizado, las hard skills, especialmente las relacionadas con la tecnología, adquieren un papel central, y las competencias digitales pueden ser una ventaja para los candidatos/as a la hora de acceder al mercado laboral.\n\nSiguiendo con las habilidades duras, el saber idiomas –sobre todo inglés– supone una condición prácticamente indispensable en entornos tecnológicos e internacionales y una clara diferenciación frente a otros candidatos. De acuerdo con el mencionado informe sobre el Estado del Mercado Laboral en España, algunas de las categorías que más demandan el dominio de idiomas son informática y telecomunicaciones, educación y formación, y atención al cliente. No obstante, solo el 18% de las candidaturas a algún puesto en InfoJobs en 2024 afirmaba contar con conocimientos de idiomas. Así, entre los candidatos/as de 18 a 24 años el porcentaje de quienes manejan algún idioma extranjero alcanza el 22%, una cifra que va disminuyendo a medida que se incrementa la edad, de manera que entre los candidatos/as mayores de 55 años se reduce al 12%.\n\nAsimismo, las soft skills o habilidades personales siguen desempeñando un papel fundamental en los procesos de selección. Entre las más demandadas por las compañías destacan el trabajo en equipo, el compromiso, la responsabilidad, la capacidad para trabajar bajo presión, la actitud positiva y la proactividad. Estas competencias, más difíciles de enseñar que las técnicas, son clave para el buen desempeño profesional y para integrarse con éxito en entornos laborales dinámicos.\n\n*Fuente: Job Market Insights, herramienta de inteligencia de mercado que ofrece una visión 360º del mercado laboral internacional. A través del uso de big data permite comparar de forma eficaz datos del mercado, analizar las tendencias del mismo, y obtener información sobre el comportamiento de sus principales actores para brindar una visión precisa y completa del ámbito del empleo. Job Market Insights forma parte de Adevinta, el grupo de clasificados online líder en el mundo.\n\nNota de Prensa",
+                                        "metadata": {
+                                            "url": "https://nosotros.infojobs.net/examinando-el-futuro-laboral-de-los-jovenes-donde-se-encuentran-las-oportunidades-este-2025/",
+                                            "source": "nosotros.infojobs.net",
+                                            "favicon": "https://s36300.pcdn.co/wp-content/uploads/2025/05/favicon-InfoJobs.png",
+                                            "title": "Examinando el futuro laboral de los jóvenes: ¿dónde se ...",
+                                            "type": "web_search",
+                                            "base_url": "https://nosotros.infojobs.net",
+                                            "snippet": "InfoJobs, la plataforma líder de empleo en España, ha realizado un análisis para responder a esta cuestión con el objetivo de ayudar a los ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0005911099999999999,
+                "total_run_time": 0.4720427610000115,
+                "average_cost_per_call": 0.0005911099999999999,
+                "average_time_per_call": 0.4720427610000115,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:05:09",
+                    "run_time": 0.4720427610000115,
+                    "cost": 0.0005911099999999999,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la tasa de salida del desempleo y la duración media o mediana del desempleo entre las personas de 55 a 64 años en España en 2024-2025 según la EPA y el SEPE, y cómo se comparan con las de la población de 25 a 54 años?": [
+                                {
+                                    "Tasa de empleo 2019 2020 2021 2022 2023 Total España 49.7 47.9 49.1 50.3 51 Cantabria 48.8 46.7 48.4 48.9 49.6 Hombres España 55.5 53.5 54.5 55.9 56.3 Cantabria 54.8 51.7 54 54.7 54.8 Mujeres España 44.3 42.6 43.8 44.9 46 Cantabria 43.3 42.1 43.1 43.5 44.8 Jóvenes España 22.3 18.5 20.5 22.9 23.6 Cantabria 15.2 13.1 16.3 17.7 20": null
+                                },
+                                {
+                                    "España cuenta con una de las tasas de paro juvenil más altas de la Unión Europea, que se situó en un 26,6% en marzo, según Eurostat. Son 12 puntos más que el promedio de la UE, que fue del 14,5%. Esta brecha evidencia los retos que enfrentan los jóvenes españoles para incorporarse al mercado laboral, y subraya la necesidad de una orientación formativa que facilite la conexión entre los estudios y las oportunidades profesionales reales y les permita enfocarse en el empleo con mayor seguridad y garantías. Sobre todo, teniendo en cuenta que existe una distancia entre su cualificación y las necesidades de las empresas: según los datos extraídos del último Informe sobre el Estado del Mercado Laboral en España, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenía estudios universitarios, mientras que solo el 11% de las vacantes publicadas en este periodo demandaba ese nivel de formación. En el caso de la Formación Profesional la diferencia prácticamente desaparece: un 27% había completado estos estudios y un 22% de las vacantes los requerían.": null
+                                },
+                                {
+                                    "La tasa de empleo femenina en 2023 era del 44,8 %, la masculina del 54,8 % y la juvenil del 20 %, todas ellas por debajo de la media nacional.": null
+                                }
+                            ],
+                            "¿Cuáles son la tasa de empleo, la tasa de paro y la tasa de actividad del grupo de 55 a 64 años en España en 2024-2025 y cómo se comparan con la media de la UE-27 según Eurostat?": [
+                                {
+                                    "Tasa de empleo 2019 2020 2021 2022 2023 Total España 49.7 47.9 49.1 50.3 51 Cantabria 48.8 46.7 48.4 48.9 49.6 Hombres España 55.5 53.5 54.5 55.9 56.3 Cantabria 54.8 51.7 54 54.7 54.8 Mujeres España 44.3 42.6 43.8 44.9 46 Cantabria 43.3 42.1 43.1 43.5 44.8 Jóvenes España 22.3 18.5 20.5 22.9 23.6 Cantabria 15.2 13.1 16.3 17.7 20": null
+                                },
+                                {
+                                    "La tasa de empleo femenina en 2023 era del 44,8 %, la masculina del 54,8 % y la juvenil del 20 %, todas ellas por debajo de la media nacional.": null
+                                },
+                                {
+                                    "España cuenta con una de las tasas de paro juvenil más altas de la Unión Europea, que se situó en un 26,6% en marzo, según Eurostat. Son 12 puntos más que el promedio de la UE, que fue del 14,5%. Esta brecha evidencia los retos que enfrentan los jóvenes españoles para incorporarse al mercado laboral, y subraya la necesidad de una orientación formativa que facilite la conexión entre los estudios y las oportunidades profesionales reales y les permita enfocarse en el empleo con mayor seguridad y garantías. Sobre todo, teniendo en cuenta que existe una distancia entre su cualificación y las necesidades de las empresas: según los datos extraídos del último Informe sobre el Estado del Mercado Laboral en España, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenía estudios universitarios, mientras que solo el 11% de las vacantes publicadas en este periodo demandaba ese nivel de formación. En el caso de la Formación Profesional la diferencia prácticamente desaparece: un 27% había completado estos estudios y un 22% de las vacantes los requerían.": null
+                                }
+                            ],
+                            "¿Qué proporción de las contrataciones y colocaciones registradas en España en 2024-2025 correspondió a personas de 55 años o más según las estadísticas del SEPE, y cómo se compara con el peso de los mayores de 55 entre los demandantes de empleo?": [
+                                {
+                                    "Tasa de empleo 2019 2020 2021 2022 2023 Total España 49.7 47.9 49.1 50.3 51 Cantabria 48.8 46.7 48.4 48.9 49.6 Hombres España 55.5 53.5 54.5 55.9 56.3 Cantabria 54.8 51.7 54 54.7 54.8 Mujeres España 44.3 42.6 43.8 44.9 46 Cantabria 43.3 42.1 43.1 43.5 44.8 Jóvenes España 22.3 18.5 20.5 22.9 23.6 Cantabria 15.2 13.1 16.3 17.7 20": null
+                                },
+                                {
+                                    "España cuenta con una de las tasas de paro juvenil más altas de la Unión Europea, que se situó en un 26,6% en marzo, según Eurostat. Son 12 puntos más que el promedio de la UE, que fue del 14,5%. Esta brecha evidencia los retos que enfrentan los jóvenes españoles para incorporarse al mercado laboral, y subraya la necesidad de una orientación formativa que facilite la conexión entre los estudios y las oportunidades profesionales reales y les permita enfocarse en el empleo con mayor seguridad y garantías. Sobre todo, teniendo en cuenta que existe una distancia entre su cualificación y las necesidades de las empresas: según los datos extraídos del último Informe sobre el Estado del Mercado Laboral en España, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenía estudios universitarios, mientras que solo el 11% de las vacantes publicadas en este periodo demandaba ese nivel de formación. En el caso de la Formación Profesional la diferencia prácticamente desaparece: un 27% había completado estos estudios y un 22% de las vacantes los requerían.": null
+                                },
+                                {
+                                    "Según los últimos datos del informe ‘Estado del Mercado Laboral en España’, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenían estudios universitarios": null
+                                }
+                            ],
+                            "¿Qué evidencia empírica publicada desde 2015 (experimentos de correspondencia, estudios académicos o informes técnicos) cuantifica la discriminación por edad en los procesos de selección en España contra candidatos de 55 años o más y cuál es el tamaño estimado del efecto?": [
+                                {
+                                    "Según los últimos datos del informe ‘Estado del Mercado Laboral en España’, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenían estudios universitarios": null
+                                },
+                                {
+                                    "Siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos. Por otra parte, en determinadas ocupaciones existen dificultades para encontrar profesionales. Obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.": null
+                                },
+                                {
+                                    "La relación entre ofertas de empleo y demandantes de empleo es desequilibrada en determinadas ocupaciones, lo que se traduce en un exceso de solicitudes de empleo registradas en los servicios públicos de empleo que siguen sin satisfacerse. En la mayoría de los casos, se trata de ocupaciones de baja o media cualificación que se buscan para encontrar oportunidades, aunque sean temporales y/o estacionales.": null
+                                }
+                            ],
+                            "¿Qué concluyen los informes de 2024-2025 de Fundación Adecco, Randstad Research, InfoJobs, Banco de España y Fundación MAPFRE sobre las barreras y oportunidades de los mayores de 55 para encontrar empleo en España, y qué datos aportan sobre duración de búsqueda, sectores de demanda y brechas por edad?": [
+                                {
+                                    "Siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos. Por otra parte, en determinadas ocupaciones existen dificultades para encontrar profesionales. Obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.": null
+                                },
+                                {
+                                    "La relación entre ofertas de empleo y demandantes de empleo es desequilibrada en determinadas ocupaciones, lo que se traduce en un exceso de solicitudes de empleo registradas en los servicios públicos de empleo que siguen sin satisfacerse. En la mayoría de los casos, se trata de ocupaciones de baja o media cualificación que se buscan para encontrar oportunidades, aunque sean temporales y/o estacionales.": null
+                                },
+                                {
+                                    "Según los últimos datos del informe ‘Estado del Mercado Laboral en España’, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenían estudios universitarios": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0081055,
+                "total_run_time": 62.5154557689998,
+                "average_cost_per_call": 0.0081055,
+                "average_time_per_call": 62.5154557689998,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:06:13",
+                    "run_time": 62.5154557689998,
+                    "cost": 0.0081055,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la tasa de salida del desempleo y la duración media o mediana del desempleo entre las personas de 55 a 64 años en España en 2024-2025 según la EPA y el SEPE, y cómo se comparan con las de la población de 25 a 54 años?\n¿Cuáles son la tasa de empleo, la tasa de paro y la tasa de actividad del grupo de 55 a 64 años en España en 2024-2025 y cómo se comparan con la media de la UE-27 según Eurostat?\n¿Qué proporción de las contrataciones y colocaciones registradas en España en 2024-2025 correspondió a personas de 55 años o más según las estadísticas del SEPE, y cómo se compara con el peso de los mayores de 55 entre los demandantes de empleo?\n¿Qué evidencia empírica publicada desde 2015 (experimentos de correspondencia, estudios académicos o informes técnicos) cuantifica la discriminación por edad en los procesos de selección en España contra candidatos de 55 años o más y cuál es el tamaño estimado del efecto?\n¿Qué concluyen los informes de 2024-2025 de Fundación Adecco, Randstad Research, InfoJobs, Banco de España y Fundación MAPFRE sobre las barreras y oportunidades de los mayores de 55 para encontrar empleo en España, y qué datos aportan sobre duración de búsqueda, sectores de demanda y brechas por edad?\n\n3. Here are the text sources you should use as your source of information:\n[0] Tasa de empleo 2019 2020 2021 2022 2023 Total España 49.7 47.9 49.1 50.3 51 Cantabria 48.8 46.7 48.4 48.9 49.6 Hombres España 55.5 53.5 54.5 55.9 56.3 Cantabria 54.8 51.7 54 54.7 54.8 Mujeres España 44.3 42.6 43.8 44.9 46 Cantabria 43.3 42.1 43.1 43.5 44.8 Jóvenes España 22.3 18.5 20.5 22.9 23.6 Cantabria 15.2 13.1 16.3 17.7 20\n[0] La tasa de empleo femenina en 2023 era del 44,8 %, la masculina del 54,8 % y la juvenil del 20 %, todas ellas por debajo de la media nacional.\n[0] Siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos. Por otra parte, en determinadas ocupaciones existen dificultades para encontrar profesionales. Obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.\n[0] La relación entre ofertas de empleo y demandantes de empleo es desequilibrada en determinadas ocupaciones, lo que se traduce en un exceso de solicitudes de empleo registradas en los servicios públicos de empleo que siguen sin satisfacerse. En la mayoría de los casos, se trata de ocupaciones de baja o media cualificación que se buscan para encontrar oportunidades, aunque sean temporales y/o estacionales.\n[1] España cuenta con una de las tasas de paro juvenil más altas de la Unión Europea, que se situó en un 26,6% en marzo, según Eurostat. Son 12 puntos más que el promedio de la UE, que fue del 14,5%. Esta brecha evidencia los retos que enfrentan los jóvenes españoles para incorporarse al mercado laboral, y subraya la necesidad de una orientación formativa que facilite la conexión entre los estudios y las oportunidades profesionales reales y les permita enfocarse en el empleo con mayor seguridad y garantías. Sobre todo, teniendo en cuenta que existe una distancia entre su cualificación y las necesidades de las empresas: según los datos extraídos del último Informe sobre el Estado del Mercado Laboral en España, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenía estudios universitarios, mientras que solo el 11% de las vacantes publicadas en este periodo demandaba ese nivel de formación. En el caso de la Formación Profesional la diferencia prácticamente desaparece: un 27% había completado estos estudios y un 22% de las vacantes los requerían.\n[1] Según los últimos datos del informe ‘Estado del Mercado Laboral en España’, elaborado por InfoJobs y Esade, el 31% de los candidatos que se inscribieron en alguna oferta en la plataforma en 2024 tenían estudios universitarios\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "A favor: en las fuentes hay varios pasajes que apuntan a problemas estructurales en el mercado laboral que podrían afectar a colectivos con dificultades de inserción, lo que puede leerse como apoyo indirecto a la afirmación. En el texto se indica que “siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con **desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos**” y que existen “obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.” [0]. También se señala que “**la relación entre ofertas de empleo y demandantes de empleo es desequilibrada** en determinadas ocupaciones, con exceso de solicitudes registradas en los servicios públicos de empleo” y que “en la mayoría de los casos, se trata de ocupaciones de baja o media cualificación” [0]. Además, la misma fuente aporta series de tasa de empleo 2019–2023 (Total España 49,7; 47,9; 49,1; 50,3; 51) y desagregaciones por sexo y juventud (por ejemplo Hombres España 55,5 → 56,3; Mujeres España 44,3 → 46; Jóvenes España 22,3 → 23,6 en esos años) que muestran niveles de empleo que no son especialmente altos en conjunto [0]. Por otro lado, el informe de InfoJobs/Esade documenta un desajuste entre oferta de candidatos y vacantes en 2024: **el 31% de los candidatos que se inscribieron en la plataforma tenían estudios universitarios frente al 11% de las vacantes que demandaban ese nivel** (y 27% vs 22% para Formación Profesional), lo que muestra problemas de encaje entre perfiles y puestos [1]. Estos elementos —desempleo de larga duración, desequilibrios oferta/demanda y desajustes formativos— pueden interpretarse como evidencia circunstancial de que hay trabajadores con “serios problemas” para encontrar empleo.\n\nEn contra: las mismas fuentes contienen información que limita o contradice una afirmación específica sobre los trabajadores de **55 años o más**, y además no aportan datos directos por ese grupo de edad. **No hay en los textos ninguna cifra explícita para las tasas de salida del desempleo, duración media o mediana del desempleo, ni tasas de empleo/paro/actividad para 55–64 en 2024–2025 procedentes de la EPA (Encuesta de Población Activa) ni del SEPE (Servicio Público de Empleo Estatal)**; por tanto no hay prueba directa en estas fuentes de que las personas de 55+ tengan peores resultados que el resto [0][1]. Además, el propio [0] reconoce que “en determinadas ocupaciones existen dificultades para encontrar profesionales”, lo que implica que en algunos sectores **existe demanda de personal** y no escasez de empleo, lo que podría representar oportunidades para ciertos colectivos [0]. También las cifras generales de empleo muestran una mejora hasta 51% en 2023 (y tasas diferenciadas por sexo), lo que no permite concluir automáticamente que los 55+ estén especialmente perjudicados [0]. Por último, el dato de que España tiene una **tasa de paro juvenil muy alta (26,6% frente a la media UE 14,5%)** subraya que los problemas de inserción son evidentes en los jóvenes y no exclusivamente en las edades avanzadas, según las fuentes disponibles [1]. En resumen, las fuentes ofrecen evidencia de problemas estructurales y de desajuste pero **no aportan ninguna evidencia empírica específica** (por ejemplo experimentos de correspondencia, estudios cuantificados de discriminación por edad, o estadísticas de contrataciones del SEPE por tramos de edad) que demuestre que los mayores de 55 años “tienen serios problemas” en mayor medida que otros grupos [0][1].\n\nConclusión: **la evidencia disponible en las fuentes es insuficiente para verificar la afirmación específica de que los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España**. Hay **evidencia indirecta** de problemas estructurales (desempleo de larga duración, desequilibrios oferta/demanda, desajuste formativo) que podría afectar a colectivos vulnerables [0][1], pero **ninguna cifra ni estudio en los textos aporta datos por edad 55+ (tasas EPA/SEPE, duración del paro por edad, proporción de colocaciones por edad, experimentos sobre discriminación)** necesarios para confirmar la afirmación. Según las instrucciones dadas (si no existe evidencia para verificar la afirmación, concluir que es falsa), la decisión basada únicamente en estas fuentes es: **FALSO** (no verificada)."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0007388,
+                "total_run_time": 13.36028035299978,
+                "average_cost_per_call": 0.0007388,
+                "average_time_per_call": 13.36028035299978,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 10:06:27",
+                    "run_time": 13.36028035299978,
+                    "cost": 0.0007388,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España\nArticle: A favor: en las fuentes hay varios pasajes que apuntan a problemas estructurales en el mercado laboral que podrían afectar a colectivos con dificultades de inserción, lo que puede leerse como apoyo indirecto a la afirmación. En el texto se indica que “siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con **desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos**” y que existen “obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.” [0]. También se señala que “**la relación entre ofertas de empleo y demandantes de empleo es desequilibrada** en determinadas ocupaciones, con exceso de solicitudes registradas en los servicios públicos de empleo” y que “en la mayoría de los casos, se trata de ocupaciones de baja o media cualificación” [0]. Además, la misma fuente aporta series de tasa de empleo 2019–2023 (Total España 49,7; 47,9; 49,1; 50,3; 51) y desagregaciones por sexo y juventud (por ejemplo Hombres España 55,5 → 56,3; Mujeres España 44,3 → 46; Jóvenes España 22,3 → 23,6 en esos años) que muestran niveles de empleo que no son especialmente altos en conjunto [0]. Por otro lado, el informe de InfoJobs/Esade documenta un desajuste entre oferta de candidatos y vacantes en 2024: **el 31% de los candidatos que se inscribieron en la plataforma tenían estudios universitarios frente al 11% de las vacantes que demandaban ese nivel** (y 27% vs 22% para Formación Profesional), lo que muestra problemas de encaje entre perfiles y puestos [1]. Estos elementos —desempleo de larga duración, desequilibrios oferta/demanda y desajustes formativos— pueden interpretarse como evidencia circunstancial de que hay trabajadores con “serios problemas” para encontrar empleo.\n\nEn contra: las mismas fuentes contienen información que limita o contradice una afirmación específica sobre los trabajadores de **55 años o más**, y además no aportan datos directos por ese grupo de edad. **No hay en los textos ninguna cifra explícita para las tasas de salida del desempleo, duración media o mediana del desempleo, ni tasas de empleo/paro/actividad para 55–64 en 2024–2025 procedentes de la EPA (Encuesta de Población Activa) ni del SEPE (Servicio Público de Empleo Estatal)**; por tanto no hay prueba directa en estas fuentes de que las personas de 55+ tengan peores resultados que el resto [0][1]. Además, el propio [0] reconoce que “en determinadas ocupaciones existen dificultades para encontrar profesionales”, lo que implica que en algunos sectores **existe demanda de personal** y no escasez de empleo, lo que podría representar oportunidades para ciertos colectivos [0]. También las cifras generales de empleo muestran una mejora hasta 51% en 2023 (y tasas diferenciadas por sexo), lo que no permite concluir automáticamente que los 55+ estén especialmente perjudicados [0]. Por último, el dato de que España tiene una **tasa de paro juvenil muy alta (26,6% frente a la media UE 14,5%)** subraya que los problemas de inserción son evidentes en los jóvenes y no exclusivamente en las edades avanzadas, según las fuentes disponibles [1]. En resumen, las fuentes ofrecen evidencia de problemas estructurales y de desajuste pero **no aportan ninguna evidencia empírica específica** (por ejemplo experimentos de correspondencia, estudios cuantificados de discriminación por edad, o estadísticas de contrataciones del SEPE por tramos de edad) que demuestre que los mayores de 55 años “tienen serios problemas” en mayor medida que otros grupos [0][1].\n\nConclusión: **la evidencia disponible en las fuentes es insuficiente para verificar la afirmación específica de que los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España**. Hay **evidencia indirecta** de problemas estructurales (desempleo de larga duración, desequilibrios oferta/demanda, desajuste formativo) que podría afectar a colectivos vulnerables [0][1], pero **ninguna cifra ni estudio en los textos aporta datos por edad 55+ (tasas EPA/SEPE, duración del paro por edad, proporción de colocaciones por edad, experimentos sobre discriminación)** necesarios para confirmar la afirmación. Según las instrucciones dadas (si no existe evidencia para verificar la afirmación, concluir que es falsa), la decisión basada únicamente en estas fuentes es: **FALSO** (no verificada).\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España\nArticle: A favor: en las fuentes hay varios pasajes que apuntan a problemas estructurales en el mercado laboral que podrían afectar a colectivos con dificultades de inserción, lo que puede leerse como apoyo indirecto a la afirmación. En el texto se indica que “siguen existiendo focos de desempleo significativos, estructurales y difíciles de revertir, con **desempleados de larga duración con perfiles de empleabilidad bajos o muy bajos**” y que existen “obstáculos de distinta naturaleza, escasez de profesionales con el perfil adecuado, fuerte demanda estacional, actitudes laborales deficientes, movilidad geográfica y funcional, umbral de aceptación o coste de oportunidad, condiciones de trabajo, etc.” [0]. También se señala que “**la relación entre ofertas de empleo y demandantes de empleo es desequilibrada** en determinadas ocupaciones, con exceso de solicitudes registradas en los servicios públicos de empleo” y que “en la mayoría de los casos, se trata de ocupaciones de baja o media cualificación” [0]. Además, la misma fuente aporta series de tasa de empleo 2019–2023 (Total España 49,7; 47,9; 49,1; 50,3; 51) y desagregaciones por sexo y juventud (por ejemplo Hombres España 55,5 → 56,3; Mujeres España 44,3 → 46; Jóvenes España 22,3 → 23,6 en esos años) que muestran niveles de empleo que no son especialmente altos en conjunto [0]. Por otro lado, el informe de InfoJobs/Esade documenta un desajuste entre oferta de candidatos y vacantes en 2024: **el 31% de los candidatos que se inscribieron en la plataforma tenían estudios universitarios frente al 11% de las vacantes que demandaban ese nivel** (y 27% vs 22% para Formación Profesional), lo que muestra problemas de encaje entre perfiles y puestos [1]. Estos elementos —desempleo de larga duración, desequilibrios oferta/demanda y desajustes formativos— pueden interpretarse como evidencia circunstancial de que hay trabajadores con “serios problemas” para encontrar empleo.\n\nEn contra: las mismas fuentes contienen información que limita o contradice una afirmación específica sobre los trabajadores de **55 años o más**, y además no aportan datos directos por ese grupo de edad. **No hay en los textos ninguna cifra explícita para las tasas de salida del desempleo, duración media o mediana del desempleo, ni tasas de empleo/paro/actividad para 55–64 en 2024–2025 procedentes de la EPA (Encuesta de Población Activa) ni del SEPE (Servicio Público de Empleo Estatal)**; por tanto no hay prueba directa en estas fuentes de que las personas de 55+ tengan peores resultados que el resto [0][1]. Además, el propio [0] reconoce que “en determinadas ocupaciones existen dificultades para encontrar profesionales”, lo que implica que en algunos sectores **existe demanda de personal** y no escasez de empleo, lo que podría representar oportunidades para ciertos colectivos [0]. También las cifras generales de empleo muestran una mejora hasta 51% en 2023 (y tasas diferenciadas por sexo), lo que no permite concluir automáticamente que los 55+ estén especialmente perjudicados [0]. Por último, el dato de que España tiene una **tasa de paro juvenil muy alta (26,6% frente a la media UE 14,5%)** subraya que los problemas de inserción son evidentes en los jóvenes y no exclusivamente en las edades avanzadas, según las fuentes disponibles [1]. En resumen, las fuentes ofrecen evidencia de problemas estructurales y de desajuste pero **no aportan ninguna evidencia empírica específica** (por ejemplo experimentos de correspondencia, estudios cuantificados de discriminación por edad, o estadísticas de contrataciones del SEPE por tramos de edad) que demuestre que los mayores de 55 años “tienen serios problemas” en mayor medida que otros grupos [0][1].\n\nConclusión: **la evidencia disponible en las fuentes es insuficiente para verificar la afirmación específica de que los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España**. Hay **evidencia indirecta** de problemas estructurales (desempleo de larga duración, desequilibrios oferta/demanda, desajuste formativo) que podría afectar a colectivos vulnerables [0][1], pero **ninguna cifra ni estudio en los textos aporta datos por edad 55+ (tasas EPA/SEPE, duración del paro por edad, proporción de colocaciones por edad, experimentos sobre discriminación)** necesarios para confirmar la afirmación. Según las instrucciones dadas (si no existe evidencia para verificar la afirmación, concluir que es falsa), la decisión basada únicamente en estas fuentes es: **FALSO** (no verificada)."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los trabajadores de 55 años o más tienen serios problemas para encontrar trabajo en España\", \"categories\": [\"News\", \"Economía\", \"Sociedad\"], \"label\": \"Fake\", \"main_claim\": \"No hay evidencia de que los trabajadores de 55 años o más tengan serios problemas para encontrar trabajo en España\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.06144591,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "openai/gpt-5",
+                    "gen_searches_agent": "openai/gpt-5-mini",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "openai/gpt-5-nano",
+                    "article_writer": "openai/gpt-5-mini",
+                    "metadata_agent": "openai/gpt-5-nano",
+                    "image_prompt": "openai/gpt-5-nano"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

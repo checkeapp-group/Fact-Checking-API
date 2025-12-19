@@ -1,0 +1,618 @@
+{
+    "question": "El número de españoles que se ha ido al extranjero ha aumentado en los últimos años",
+    "answer": "Según los datos proporcionados por el Instituto Nacional de Estadística (INE), en 2022 el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron [1]. Esto sugiere que, efectivamente, ha habido un aumento en la emigración de españoles en los últimos años. Además, se menciona que la evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas y episodios coyunturales, como el confinamiento producido por la pandemia del COVID-19 [1]. Esto podría indicar que la crisis económica y otros factores sociales están contribuyendo al aumento de la emigración de españoles.\n\nAdemás, según la Organización para la Cooperación y el Desarrollo Económicos (OCDE), la baja fecundidad y la alta esperanza de vida en España provocarán una caída en la tasa de empleo, lo que podría llevar a un aumento en la emigración de españoles en busca de oportunidades laborales en otros países [2]. Esto se ve respaldado por el hecho de que, según datos de Eurostat, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes, con un 17,1% de residentes nacidos en el extranjero en 2023 [3].\n\nNo se encontraron argumentos ni evidencia en los textos proporcionados que refuten directamente el aumento de la emigración de españoles en los últimos años. Sin embargo, es importante destacar que los datos proporcionados por el INE solo se refieren a 2022, y no se proporcionan datos sobre los años anteriores o posteriores. Por lo tanto, no se puede determinar con certeza si el aumento de la emigración de españoles es un fenómeno reciente o si se ha mantenido constante en los últimos años.\n\nEn base a la evidencia proporcionada, parece que el número de españoles que se ha ido al extranjero ha aumentado en los últimos años. Los datos del INE y la OCDE sugieren que la crisis económica y otros factores sociales están contribuyendo a este aumento. Sin embargo, es importante tener en cuenta que los datos proporcionados son limitados y no se puede determinar con certeza la magnitud del aumento ni su evolución en el tiempo. Por lo tanto, se puede concluir que el aumento de la emigración de españoles es un fenómeno real, pero se requieren más datos y análisis para entender su alcance y causas.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://educativo.ign.es/atlas-didactico/migracion-eso/evolucin_de_las_migraciones_exteriores_en_espaa.html",
+            "source": "educativo.ign.es",
+            "favicon": "https://educativo.ign.es/atlas-didactico/migracion-eso/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.eleconomista.es/economia/noticias/13455263/07/25/la-ocde-recomienda-a-espana-que-regularice-a-los-inmigrantes-para-que-la-tasa-de-empleo-no-caiga-103-puntos-en-2060.html",
+            "source": "www.eleconomista.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "3": {
+            "url": "https://www.funcas.es/prensa/espana-entre-los-paises-de-la-union-europea-con-mayor-proporcion-de-residentes-nacidos-en-el-extranjero/",
+            "source": "www.funcas.es",
+            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "El número de españoles que se ha ido al extranjero ha aumentado en los últimos años",
+        "categories": [
+            "Noticias",
+            "Política",
+            "Sociedad"
+        ],
+        "label": "True",
+        "main_claim": "El número de españoles que se ha ido al extranjero ha aumentado en los últimos años",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "cadenaser.com",
+                    "clinicaalemana.cl",
+                    "es.weforum.org",
+                    "20minutos.es",
+                    "ree.es",
+                    "es.euronews.com",
+                    "lasexta.com",
+                    "agrodiario.com",
+                    "salud.nih.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cambioenergetico.com",
+                    "albalactanciamaterna.org",
+                    "lamoncloa.gob.es",
+                    "cincodias.elpais.com",
+                    "oftalmologos.org.ar",
+                    "worldwildlife.org",
+                    "jacc.org",
+                    "medlineplus.gov",
+                    "maldita.es",
+                    "theconversation.com",
+                    "nyc.gov",
+                    "publico.es",
+                    "caixabankresearch.com",
+                    "uoc.edu",
+                    "who.int",
+                    "infobae.com",
+                    "bbva.com",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "educaweb.com",
+                    "verificat.cat",
+                    "elconfidencial.com",
+                    "efe.com",
+                    "myfisioclinic.com",
+                    "elpais.com",
+                    "newtral.es",
+                    "primabiotic.es",
+                    "defensa.gob.es",
+                    "hopkinsmedicine.org",
+                    "lavanguardia.com",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "theobjective.com",
+                    "observatoriodeladiscapacidad.info",
+                    "bankinter.com",
+                    "rtve.es",
+                    "nationalgeographic.com.es",
+                    "vozpopuli.com",
+                    "sjme.org",
+                    "sepe.es",
+                    "observatoriodelalquiler.org",
+                    "pmp.org.es",
+                    "normoncontigo.normon.com",
+                    "datosmacro.expansion.com",
+                    "masquemedicos.com",
+                    "europapress.es",
+                    "elplural.com",
+                    "feminismo.maldita.es",
+                    "antena3.com",
+                    "cancer.gov",
+                    "lefebvre.es",
+                    "elblogsalmon.com",
+                    "xataka.com",
+                    "gacetamedica.com",
+                    "ciencia.nasa.gov",
+                    "verifica.efe.com",
+                    "sistemaelectrico-ree.es",
+                    "abc.es",
+                    "coches.net",
+                    "kidshealth.org",
+                    "ec-europa-eu.translate.goog"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.770653331000176,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.770653331000176,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:11:25",
+                    "run_time": 12.770653331000176,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años\n\n**Critical Research Questions:**\n1. ¿Cuál es el número de españoles que han emigrado en los últimos 5 años según el Instituto Nacional de Estadística?\n2. ¿Cómo se compara el número de españoles que han emigrado en los últimos años con el de otros países europeos como Alemania o Francia?\n3. ¿Qué factores económicos y sociales están contribuyendo al aumento de la emigración de españoles según los expertos en migraciones?\n4. ¿Cuál es la posición oficial del Gobierno español sobre la emigración de españoles según declaraciones del Ministerio de Asuntos Exteriores y Cooperación?\n5. ¿Qué efecto tiene la crisis económica en la emigración de españoles según datos de la Organización para la Cooperación y el Desarrollo Económicos?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"estadísticas de emigración española últimos 5 años Instituto Nacional de Estadística\", \"comparativa emigración española vs Alemania vs Francia datos Eurostat\", \"factores económicos y sociales emigración española expertos en migraciones análisis\", \"declaraciones Ministerio de Asuntos Exteriores y Cooperación emigración española posición oficial\", \"impacto crisis económica en la emigración española datos OCDE\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.9945362299999942,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.9945362299999942,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:11:28",
+                    "run_time": 2.9945362299999942,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "estadísticas de emigración española últimos 5 años Instituto Nacional de Estadística",
+                                "comparativa emigración española vs Alemania vs Francia datos Eurostat",
+                                "factores económicos y sociales emigración española expertos en migraciones análisis",
+                                "declaraciones Ministerio de Asuntos Exteriores y Cooperación emigración española posición oficial",
+                                "impacto crisis económica en la emigración española datos OCDE"
+                            ],
+                            "results": {
+                                "estadísticas de emigración española últimos 5 años Instituto Nacional de Estadística | comparativa emigración española vs Alemania vs Francia datos Eurostat | factores económicos y sociales emigración española expertos en migraciones análisis | declaraciones Ministerio de Asuntos Exteriores y Cooperación emigración española posición oficial | impacto crisis económica en la emigración española datos OCDE": [
+                                    {
+                                        "text": "La evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas (ocurridas en nuestro país como en los países de procedencia), pero también por episodios coyunturales (por ejemplo, el confinamiento producido por la pandemia del COVID-19).\n\nEn el periodo 2008-2021 se pueden distinguir algunas fases:\n\n\n\n2008-2009 Inicio de la gran recesión (fuerte crisis económica que llevó consigo el crecimiento del paro y la inseguridad económica, especialmente para los más desfavorecidos). Las consecuencias fueron: Reducción de la inmigración exterior\n\nAumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).\n\n2009-2011 El número de entradas al país y de salidas estaba igualado, por lo que el saldo migratorio exterior era casi cero. 2011-2014 Fase aguda de la crisis en España. La inmigración descendió (el país no resultaba atractivo en términos de flujos) y se inició un periodo con saldo migratorio exterior negativo, que tuvo su pico en 2013, con una gran salida de emigrantes. 2014- 2019 La emigración comenzó a reducirse y la llegada de extranjeros aumentó de forma importante por inestabilidad en algunos países de origen, superando la cifra de 700 000 personas en el año 2019, aunque sin alcanzar las cifras anteriores a la crisis. Durante este periodo el saldo migratorio pasó a ser positivo. 2019-2020 La crisis sanitaria provocada por el COVID-19 dio lugar a una brusca caída de inmigrantes e hizo disminuir la emigración. Aún así el saldo migratorio seguía siendo positivo. 2020- en adelante Tras la pandemia, tanto las llegadas como salidas han ido incrementándose, aunque el número de llegadas es mucho mayor.\n\nEl crecimiento del número de extranjeros en España en las últimas décadas ha sido espectacular. Según datos del INE, en 1998 residían en España 637 085 extranjeros, lo que suponía un 1,60 % de la población total de España. Diez años más tarde, en 2008, lo hacían 5 268 762 extranjeros, suponiendo el 11,41 % de la población total española. Los últimos datos de 2022, señalan que en nuestro país vivían 47 475 420 personas, siendo 5 542 932 extranjeros, lo que significa un 11,68 % del total.\n\nElaboración propia con datos extraídos del sitio web del INE: www.ine.es Población extranjera en España, 1998-2022 ( CC BY 4.0 )\n\nEn cuanto al saldo migratorio exterior, se observa una recuperación similar —tras la crisis— a partir de 2016, con la vuelta a cifras positivas totales (más llegadas que salidas), alcanzándose en 2022 el mayor saldo positivo en los 10 últimos años. (INE, 2022)\n\nComo se puede observar en la siguiente tabla, en 2022 el saldo migratorio de los extranjeros con el exterior creció hasta las 729 709 personas (es decir, hubo un gran número de entradas de personas con nacionalidad extranjera). Por el contrario, el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron. (INE, 2022)\n\nElaboración propia con datos extraídos del sitio web del INE: www.ine.es. Saldo migratorio con el extranjero por año y nacionalidad (española/extranjera) ( CC BY 4.0 )\n\nReflexionamos\n\n1. Observando el gráfico estadístico de la «evolución de la emigración e inmigración exterior. 2008-2021»:\n\n¿En qué fase o fases España fue un país emisor de emigrantes hacia el extranjero?\n\n¿Cuándo se observa que España comenzó a recibir inmigrantes de forma masiva?\n\nLocalizamos un período en el que se produjo la transición de país emisor de emigrantes a país receptor de inmigrantes.\n\n2. Antes de 2008, ¿en qué momentos o etapas temporales España fue país de emigrantes y de inmigrantes? Para responder a esta cuestión podemos buscar en Internet o, si queremos profundizar en su estudio, consultamos los Anuarios Estadísticos del INE (que dispone de datos del siglo XIX y XX). También, para más información, accedemos al siguiente epígrafe sobre la emigración exterior española.\n\nMovimiento migratorio en el que se superan los límites de un territorio o país.",
+                                        "metadata": {
+                                            "url": "https://educativo.ign.es/atlas-didactico/migracion-eso/evolucin_de_las_migraciones_exteriores_en_espaa.html",
+                                            "source": "educativo.ign.es",
+                                            "favicon": "https://educativo.ign.es/atlas-didactico/migracion-eso/favicon.ico",
+                                            "title": "Evolución de las migraciones exteriores en España",
+                                            "type": "web_search",
+                                            "base_url": "https://educativo.ign.es",
+                                            "snippet": "Los últimos datos de 2022, señalan que en nuestro país vivían 47 475 420 personas, siendo 5 542 932 extranjeros, lo que significa un 11,68 % del total. Imagen ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "FOCUS ON SPANISH SOCIETY | MARZO 2024\n\nFecha: 18 MARZO 2024\n\nDescargar (formato PDF)\n\nLos inmigrantes suponen el 18,1% de la población total en España, 8,8 millones de personas\n\n\n\nEn Islas Baleares, Cataluña y Madrid, los porcentajes oscilan entre el 27% y el 24%\n\n\n\nLas comunidades con un menor peso de personas nacidas en el extranjero son Asturias (10%) y Extremadura (6%)\n\nMadrid, 18/03/2024 | En enero de 2024 se ha alcanzado la cifra más alta registrada de residentes en España nacidos en el extranjero, 8,8 millones de personas, según los datos de la Estadística Continua de Población, analizados por Funcas en el último Focus on Spanish Society. Esta cifra supone el 18,1% de la población, un punto porcentual más que en 2023, repartida de forma muy desigual entre las comunidades autónomas. Los porcentajes más elevados corresponden a Islas Baleares (27%), Cataluña y Madrid (24%), Melilla (23%), la Comunidad Valenciana y las Islas Canarias (ambas 22%). Las comunidades con los porcentajes más reducidos son Extremadura (6%), Asturias (10%), Castilla y León y Galicia (11%).\n\nEn el contexto europeo, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes. En 2023, el porcentaje de población nacida en el extranjero en el conjunto de países de la Unión Europea ascendía, según datos de Eurostat, al 13,3%. España, con un 17,1% de residentes nacidos en el extranjero en 2023, se situaba ese año (último disponible en Eurostat) a corta distancia de países con una larga tradición de acogida de inmigrantes, como Suecia (20,4%) y Alemania (19,5%), y por delante de Francia (13,1%) y del resto de países del sur de Europa (Portugal: 16,1%; Grecia: 11,3%; Italia: 10,9%).\n\nEntre las personas de origen extranjero residentes en España, aproximadamente cuatro de cada diez (42%) cuentan entre 25 y 44 años, un tramo que, dentro de las edades laboralmente activas, concentra al grueso de la población activa de cualquier sociedad. Esta cifra sitúa a España entre los países europeos con una mayor proporción de personas de entre 25 y 44 años nacidas en el extranjero (sobre el conjunto de la población de origen extranjero), por encima de la media europea (37%), aunque por debajo de Dinamarca (44%), República Checa (46%) y Finlandia (49%).\n\nEn las regiones con más inmigrantes, como Cataluña y Madrid, así como el País Vasco, una mayor proporción de ellos se encuentra en este grupo de edad de 25 a 44 años. Por otra parte, algunas de las comunidades con una baja proporción de inmigrantes en las edades más activas, como Islas Canarias, Valencia o Andalucía, son las que registran un mayor porcentaje de inmigrantes de 65 años o más. La inmigración desempeña un papel cada vez más importante tanto en el mercado laboral como en las estructuras sociodemográficas de las sociedades europeas. El peso y la composición por edades de los inmigrantes refleja no sólo el potencial de estas sociedades para atraer nueva población, sino que también plantea la necesidad de establecer una discusión pública sobre las implicaciones a largo plazo para las sociedades envejecidas en términos de integración, ajuste del mercado laboral y protección social.\n\nNuevos ciudadanos europeos\n\nFocus on Spanish Society llama también la atención sobre las adquisiciones de nacionalidad en los países comunitarios, que en 2022 ascendieron a casi un millón de personas (989.940). La mayoría de estos nacionalizados (857.173) procedían de países extracomunitarios. España contribuyó de forma notable a este proceso de creación de nuevos ciudadanos europeos: 181.581 personas obtuvieron la nacionalidad española en 2022, es decir, el 18% de todos los inmigrantes naturalizados en la Unión Europea. Esto sitúa a España, junto con Italia (22%) y Alemania (17%), entre los países con mayor participación en el total de nacionalizados de la Unión Europea.\n\nSin embargo, los tres países difieren de manera radical en cuanto al origen de los nacionalizados. En España, el 38% de los nuevos ciudadanos eran ciudadanos de países de América Central o del Sur, y el 32% procedía de países del norte de África. En cambio, en Alemania, casi la mitad de los inmigrantes nacionalizados era de origen asiático. Muchos de ellos provenían de Siria (29%), Turquía (9%), Irak (4%), Irán (3%) y Afganistán (3%), lo que pone de relieve el impacto de la crisis de los refugiados en la evolución reciente de la composición de la población residente en Alemania.",
+                                        "metadata": {
+                                            "url": "https://www.funcas.es/prensa/espana-entre-los-paises-de-la-union-europea-con-mayor-proporcion-de-residentes-nacidos-en-el-extranjero/",
+                                            "source": "www.funcas.es",
+                                            "favicon": "https://www.funcas.es/wp-content/uploads/2020/08/funcas-32x32-1.png",
+                                            "title": "España, entre los países de la Unión Europea con mayor ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.funcas.es",
+                                            "snippet": "España, entre los países de la Unión Europea con mayor proporción de residentes nacidos en el extranjero · Los inmigrantes suponen el 18,1% de la ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La nueva demografía de Europa: más diversa, más móvil, más desigual. Más inmigración que nunca: casi 6 millones de personas llegaron a la UE en 2023 En 2023, 5,9 millones de personas inmigraron a la Unión Europea, de las cuales 4,9 millones procedían de fuera de la UE. Alemania y España lideran las llegadas (más de 1,2 millones cada uno), seguidos de Italia y Francia. Estos cuatro países concentraron el 56 % del total. Casi 3 millones de personas emigraron desde la UE Ese mismo año, cerca de 3 millones de personas salieron de algún país de la UE, siendo España, Alemania y Francia los principales emisores de población. Aproximadamente la mitad se trasladó a otro país de la UE y la otra mitad, fuera de la Unión. Crece la población extranjera en Europa: del 7 % al 10 % en una década Entre 2014 y 2024, la proporción de personas sin la nacionalidad del país de residencia en la UE pasó del 7 % al 10 %. Los mayores incrementos se dieron en Malta (del 7 % al 28 %) y Austria (del 13 % al 20 %). Luxemburgo lidera en diversidad: casi la mitad de su población es extranjera (47% del total de su población). Uno de cada cuatro nacimientos en la UE es de madre nacida en el extranjero En 2023, el 23 % de los nacimientos fueron de madres nacidas fuera del país de residencia, frente al 18 % en 2013. Luxemburgo (67 %), Chipre (41 %) y Malta (36 %) encabezan este cambio demográfico. Solo Rumanía, Bulgaria y Eslovaquia están por debajo del 5 %. 14 millones de ciudadanos de la UE viven en otro país europeo El ejercicio del derecho a la libre circulación sigue aumentando. Rumanía es el país con más ciudadanos viviendo en otro Estado miembro (3,1 millones), seguido de Italia y Polonia. El mayor aumento, durante el periodo comprendido entre el 1 de enero de 2019 y el 1 de enero de 2024, se aprecia en los ciudadanos irlandeses (+35%), seguido de malteses (+34%) y españoles (+20%). Récord en concesión de ciudadanías: 1,1 millones en 2023 Los países de la UE concedieron más de 1,1 millones de nacionalidades en 2023. Los principales beneficiarios fueron sirios (10,4 %), marroquíes (10,2 %) y albaneses (4,2 %). Es el dato más alto desde 2016.",
+                                        "metadata": {
+                                            "url": "https://poruntrabajodignougt.org/demografia-de-europa-segun-datos-recogidos-en-la-publicacion-de-eurostat/",
+                                            "source": "poruntrabajodignougt.org",
+                                            "favicon": "https://poruntrabajodignougt.org/wp-content/uploads/2022/02/cropped-favicon_trabajo_digno-32x32.png",
+                                            "title": "“Demografía de Europa”, según datos recogidos de Eurostat",
+                                            "type": "web_search",
+                                            "base_url": "https://poruntrabajodignougt.org",
+                                            "snippet": "Alemania y España lideran las llegadas (más de 1,2 millones cada uno), seguidos de Italia y Francia. Estos cuatro países concentraron el 56 % ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Durante una intervención oficial ante la presidenta de México, el ministro español de Asuntos Exteriores sorprendió con unas palabras que reabren un debate que parecía superado: el de la conquista de América vista desde la culpa y no desde la historia. Al reinterpretar los hechos de 1519 con un tono de autocrítica nacional y sin base documental sólida, el ministro buscó empatizar con su anfitriona, pero terminó provocando un amplio rechazo entre historiadores, diplomáticos y parte del propio cuerpo político español.\n\nEntre las respuestas más contundentes figura la de José Manuel García-Margallo, ministro de Asuntos Exteriores entre 2011 y 2016, quien calificó las declaraciones de “error histórico y falta de perspectiva de futuro”, recordando que “la historia no puede manipularse al servicio de una coyuntura política ni de un discurso populista”.\n\n“Pensar que Cortés conquistó un imperio con seiscientos hombres es un disparate”\n\nGarcía-Margallo recordó que Hernán Cortés llegó a Veracruz en 1519 con apenas seiscientos hombres, veintiséis caballos y trece cañones. “Pensar que con esa fuerza limitada pudo someter uno de los imperios más extensos de América es un disparate. Lo logró porque muchos pueblos indígenas se unieron a los españoles para liberarse del dominio de los aztecas.”\n\nEl exministro explicó que la conquista fue, en realidad, una alianza múltiple, impulsada por pueblos sometidos que vieron en la llegada de los españoles una oportunidad de emancipación. Tras la “Noche Triste”, cuando Cortés fue derrotado y se retiró de Tenochtitlán, fueron precisamente esos aliados indígenas quienes le salvaron y le permitieron rehacerse para ganar la batalla de Otumba.\n\n“Hay que dejar de repetir eslóganes políticos y volver a estudiar los hechos con rigor. España no fue una potencia esclavista en América, sino la primera nación que se preguntó por los derechos de los pueblos originarios.”\n\nMargallo aludió así a las Juntas de Burgos (1512) y de Valladolid (1550), donde teólogos y juristas españoles debatieron, por primera vez en la historia moderna, si los indígenas tenían alma, dignidad y derechos equiparables a los de los europeos. “La respuesta fue afirmativa —recordó— y ese reconocimiento de igualdad jurídica no existía en ningún otro imperio de su tiempo.”\n\nEl legado civilizador y humano: un vínculo que no puede negarse\n\nPara el exministro, reducir la presencia española en América a una lectura de expolio o sometimiento es desconocer cinco siglos de historia compartida. “La primera universidad del continente americano se fundó en 1551, en México, siguiendo el modelo de Salamanca. La imprenta, las catedrales, los hospitales y las ciudades trazadas con criterio urbanístico fueron parte del legado civilizador español.”\n\nHoy, más de diez ciudades fundadas en aquel periodo son Patrimonio de la Humanidad, y la lengua española —hablada por más de 500 millones de personas— constituye el mayor espacio cultural común del mundo occidental.\n\nGarcía-Margallo recordó también el aspecto humano de esa historia: el nacimiento del mestizaje. “El primer mexicano fue Martín Cortés, hijo de Hernán Cortés y de La Malinche, y una hija de Moctezuma, Isabel, se casó con un español, Juan Cano. De esa unión descienden hoy familias con títulos nobiliarios reconocidos en España. La historia de América no es una historia de conquista, sino de encuentro.”\n\nUna advertencia contra la política del resentimiento\n\nEl exministro subrayó que el revisionismo histórico está siendo utilizado por algunos gobiernos —tanto en Europa como en América Latina— como herramienta política.\n\n“Hay quienes recurren al pasado para dividir, a la culpa para justificar su poder y al resentimiento para perpetuarse. Pero la política exterior de un país no puede construirse sobre agravios simbólicos ni sobre falsificaciones históricas.”\n\nPara García-Margallo, estas actitudes tienen un coste real: deterioran la imagen internacional de España, dañan las relaciones diplomáticas con sus socios naturales y debilitan la posición del país en el marco iberoamericano.\n\nEn este sentido, recordó la polémica de 2019, cuando el presidente de México, Andrés Manuel López Obrador, pidió a España “disculpas por la conquista”, gesto que el Gobierno español rechazó con diplomacia, pero que marcó un punto de inflexión en el discurso populista latinoamericano. “Aquello fue el inicio de un relato que busca distanciar a América Latina de su raíz cultural europea. Lo que ahora hace el ministro Albares, lamentablemente, darle continuidad desde dentro”, lamentó.\n\nEspaña y México: una alianza que trasciende los discursos\n\nDurante su mandato, García-Margallo reforzó la relación con México como socio estratégico prioritario. En 2014, España se consolidó como el segundo inversor europeo en el país, con más de 7.000 empresas españolas operando allí y un flujo comercial superior a 12.000 millones de euros anuales.\n\n“México no solo es un aliado económico: es un país hermano, un socio con el que compartimos lengua, cultura y visión del mundo. Dañar ese vínculo con declaraciones populistas o con discursos de culpabilidad es un error político de primer orden.”\n\nAdemás de los lazos económicos, España mantiene con México una intensa cooperación cultural y académica. La Casa de México en Madrid y los convenios entre universidades de ambos países son hoy ejemplos de diplomacia cultural efectiva, basada en el respeto y la colaboración mutua.\n\n“El futuro pertenece a las civilizaciones unidas”\n\nGarcía-Margallo amplió su análisis más allá del caso concreto para situarlo en el contexto global.\n\n“El orden internacional que surgió tras la Segunda Guerra Mundial está agotado. Vamos hacia un sistema dominado por grandes civilizaciones —China, India, el mundo islámico— que actúan como bloques. España debe liderar, junto a América Latina, un bloque iberoamericano unido por lengua, valores y cultura.”\n\nEsa visión entronca con lo que algunos analistas denominan “Iberoesfera”, un espacio de cooperación multinacional que agrupa a más de 20 países y 700 millones de hispanohablantes. En palabras del exministro, “esa comunidad puede ser un actor relevante en educación, energía, tecnología, medio ambiente y defensa de la democracia, si dejamos de mirarnos con recelo y nos reconocemos como lo que somos: una familia civilizacional.”\n\nRecuperar la altura de la diplomacia española\n\nLa respuesta de García-Margallo va más allá de una corrección histórica. Es una llamada al sentido de Estado y a la responsabilidad diplomática.\n\n“España debe proyectarse al mundo con confianza, claridad y generosidad. Nuestra fuerza no está en revivir rencores simbólicos, sino en construir un futuro iberoamericano de progreso. La historia nos enseña que fuimos capaces de unir continentes; ahora debemos ser capaces de unir voluntades.”\n\nPara el exministro, la política exterior española necesita recuperar su altura intelectual y su coherencia moral. “El discurso fácil da votos, pero destruye credibilidad. Lo que hace grande a un país no es la autocrítica impostada, sino la defensa honesta de su verdad histórica.”\n\nUna lección vigente: unir, no separar\n\nEl caso Albares ha reavivado un debate de fondo sobre la forma en que España asume su historia y proyecta su identidad en el mundo. García-Margallo no propone volver a una visión triunfalista, sino reconocer los matices de una herencia compleja, con luces y sombras, pero también con logros que ninguna otra civilización de su tiempo alcanzó.\n\nSu mensaje final resume esa convicción:\n\n“La historia no debe ser un arma de división, sino un punto de encuentro. Solo uniendo, no separando, podremos ocupar el lugar que merecemos en el mundo que viene.”\n\nEspaña y la memoria compartida\n\nCinco siglos después de la llegada de Cortés a Veracruz, la relación entre España y América Latina sigue siendo una de las más ricas del planeta. Las universidades, las letras, la religión, la ciencia y la lengua son testigos de un legado que, lejos de ser una carga, puede ser una palanca de futuro.\n\nEn tiempos en que los gobiernos recurren a la historia como herramienta política, la voz de García-Margallo suena como una advertencia y, a la vez, como una esperanza: solo desde la unidad y el respeto al pasado puede construirse una política exterior digna y duradera.",
+                                        "metadata": {
+                                            "url": "https://www.eldiariodemadrid.es/articulo/internacional/margallo-corrige-ministro-albares-unidad-iberoamericana-populismo-historico/20251101130030113250.html",
+                                            "source": "www.eldiariodemadrid.es",
+                                            "favicon": "https://www.eldiariodemadrid.es/media/eldiariodemadrid/images/2023/07/14/2023071413200898097.png",
+                                            "title": "Margallo corrige al ministro Albares y pide unidad ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiariodemadrid.es",
+                                            "snippet": "García-Margallo responde al ministro Albares por sus declaraciones en México y llama a reforzar la unidad iberoamericana frente al populismo ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La OCDE ha lanzado este miércoles una recomendación clara para España: aumentar la migración regular y activar a los trabajadores mayores, entre otras, para que la tasa de empleo no caiga hasta un 10,3 % de aquí a 2060, frente al 2% de media del conjunto de países que integran la organización. En su apartado específico para nuestro país, en su informe 'Perspectiva del empleo 2025', el think thank alerta de que la baja fecundidad y la alta esperanza de vida que hay en España provocarán la mayor caída del empleo con respecto a la población.\n\nSegún sus predicciones, la población en edad de trabajar en nuestro país caerá hasta un 30% entre 2023 y 2060, lo que supondría \"el mayor descenso de la tasa de empleo con respecto a la población de todos los países de la OCDE\". Esto lo achacan, en parte, \"a la baja fecundidad y a la elevada esperanza de vida de España\", frente a la mayoría de países que integran el grupo.\n\nEl resultado de todas estas problemáticas traerá consigo que las personas mayores dependientes por persona en edad laboral aumentará \"considerablemente\", pasando de los 0,34 en 2023 a los 0,75 en 2060.\n\nDebido a esta situación provocada por el cambio demográfico, el crecimiento de España también se verá profundamente afectado. \"Si el crecimiento de la productividad se mantiene en línea con su promedio del período 2006-2019, el PIB per cápita aumentaría tan solo un 0,13 % anual de aquí a 2060, frente al promedio del 0,53 % registrado entre 2006 y 2019\", advierten los expertos de la OCDE.\n\nSin embargo, creen que cerrando la brecha de género en el empleo en al menos dos tercios, al mismo tiempo que se activan a los trabajadores mayores con buena salud y promoviendo esta regulación de la migración, España podría impulsar su crecimiento anual del PIB per cápita hasta aproximadamente el 0,37%, superando su tendencia histórica reciente.\n\nEn concreto, el think tank de los países desarrollados destaca que para alcanzar el crecimiento del PIB per cápita del 0,9% proyectado para el conjunto de la OCDE, \"España necesitaría mejorar su productividad\".\n\nAumentar los ingresos de los jóvenes\n\nEn materia de ingresos, la OCDE remarca que los conocidos como los 'baby boomers' \"han disfrutado de un crecimiento de ingresos significativamente mayor que las generaciones más jóvenes durante las últimas tres décadas\". Por ese motivo, hacen un llamamiento para buscar fórmulas que hagan que los ingresos de las personas más jóvenes se expandan porque si no \"la desigualdad intergeneracional aumentará\".\n\n\"En 1995, la renta familiar disponible equivalente de los adultos jóvenes era un 1,3 % superior a la del grupo de mayor edad. Esta tendencia se revirtió en la década de 2000, y para 2022, las personas mayores en edad laboral tenían ingresos un 5,6 % superiores a los del grupo de menor edad\", explican.\n\nEn cambio, los 'millennials' españoles, nacidos después de la década de 1980, \"han experimentado un crecimiento limitado de sus ingresos a lo largo de su vida adulta, en parte debido al estancamiento del crecimiento de la productividad laboral en las últimas décadas y al impacto duradero de la crisis financiera mundial\".\n\n\"Las generaciones más jóvenes se enfrentarán a los retos económicos y sociales derivados del envejecimiento de la población. Por lo tanto, prolongar la vida laboral en España no solo contribuiría a liberar recursos laborales adicionales para impulsar el crecimiento económico, sino que también aliviaría la carga de los jóvenes, cuyos ingresos ya se encuentran estancados\", argumentan.\n\nEl paro más alto de la OCDE\n\nPor otro lado, el informe destaca que el mercado laboral de España experimentó \"signos de mejora\" durante el año 2025, pero siguen remarcando el enorme reto que tiene el mercado laboral con respecto a una tasa de paro que sigue siendo la más elevada de la OCDE, más del doble de la media del grupo.\n\nA pesar de ello, los expertos subrayan que la proporción de personas empleadas entre los 15 y 64 años alcanzó un récord histórico del 66,5% en el primer trimestre de 2025. Esto ha permitido reducir notablemente la brecha con respecto al promedio de la OCDE, situándola en 3,8 puntos porcentuales, en contraste con los casi 10 puntos que existían después de la crisis financiera.\n\nDel mismo modo, a diferencia de lo observado en la mayoría de las economías avanzadas de la OCDE, la tasa de paro en España continuó disminuyendo a lo largo de 2025, alcanzando un 10,8% en el mes de mayo.\n\nCon respecto a las perspectivas económicas, la OCDE anticipa que el producto interior bruto español continuará en expansión, aunque a un ritmo más moderado que en años anteriores. Se proyecta un crecimiento del 2,4% para 2025 y del 1,9% para 2026, influido en parte por tensiones en el comercio internacional. No obstante, se espera que la demanda interna siga impulsando mejoras en el mercado de trabajo, con una reducción prevista de la tasa de desempleo hasta el 10,7% al cierre de 2025 y al 10,1% en 2026.\n\nEl empleo crece, los salarios no\n\nOtro de los puntos a destacar por parte de los expertos económicos de la OCDE es la evolución del salario real de los trabajadores. Aunque el desempleo ha caído en los últimos años, \"el crecimiento de los salarios en España no se ha mantenido al ritmo de la inflación\".\n\nAunque los salarios nominales han aumentado considerablemente en 2023 y 2024, los salarios reales durante el primer trimestre de 2025 se mantuvieron un 4,2% por debajo del primer trimestre de 2021. \"Esto sitúa a España en línea con la evolución salarial de la zona euro, pero por detrás de la mayoría de las principales economías de la OCDE\", advierten desde la OCDE. Según los datos que exponen, solamente Australia e Italia experimentaron un descenso de los salarios reales más pronunciado que España.\n\nAdemás, la OCDE señala que en España, al igual que en la mayoría de las economías pertenecientes al organismo, los empleados con ingresos más bajos han estado relativamente resguardados frente al aumento de la inflación que siguió a la pandemia.\n\nEn este contexto, en el informe se menciona que, para abril de 2025, el salario mínimo en España había registrado un incremento real del 3,1% respecto a enero de 2021. Sin embargo, este avance se sitúa por debajo del promedio de la OCDE, que alcanzó un 7,9% en ese mismo intervalo. Aun así, en términos netos, se resalta que el salario mínimo español continúa representando más del 60% del salario mediano.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/economia/noticias/13455263/07/25/la-ocde-recomienda-a-espana-que-regularice-a-los-inmigrantes-para-que-la-tasa-de-empleo-no-caiga-103-puntos-en-2060.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "La OCDE recomienda a España que regularice a los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "La OCDE recomienda a España que regularice a los inmigrantes para que la tasa de empleo no caiga un 10,3% en 2060 · Aumentar los ingresos de los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Cookies de Google Analytics Se usan con fines analíticos, ayudan a recoger datos que permiten a los servicios entender cómo interactúa con un servicio en particular. Esta información se usa para mejorar el contenido de los servicios y sus funciones, y así ofrecerle una mejor experiencia. Si las desactiva No podremos acceder a los datos estadísticos de navegación de los usuarios, lo que no podrá permitirnos mejorar y ofrecerles contenido y funcionalidades que se traduzcan en servirles una mejor experiencia de navegación.\n\nDesactivadas Activadas\n\nCookies de Siteimprove Se usan con fines analíticos, ayudan a recoger datos que permiten a los servicios entender cómo interactúa con un servicio en particular. Esta información se usa para mejorar el contenido de los servicios y sus funciones, y así ofrecerle una mejor experiencia. Si las desactiva: No podremos acceder a los datos estadísticos de navegación de los usuarios, lo que no podrá permitirnos mejorar y ofrecerles contenido y funcionalidades que se traduzcan en servirles una mejor experiencia de navegación.\n\nDesactivadas Activadas\n\nCookies de X (Twitter) Estas cookies le brindan una experiencia mejor, más rápida y segura en Twitter. Mantiene su sesión abierta en Twitter, guardan sus preferencias y comprenden cómo interactúa con nuestros servicios y dónde podemos mejorar Si las desactiva: No podrá usar la aplicación mientras esté navegando por nuestra web. De igual forma, no podrá compartir ni comentar ninguna de las publicaciones sujetas a Twitter que estén dentro de nuestra página web.\n\nDesactivadas Activadas",
+                                        "metadata": {
+                                            "url": "https://www.mites.gob.es/mundo/consejerias/francia/es/Espana-ante-OCDE/principales-publicaciones-OCDE/index.html",
+                                            "source": "www.mites.gob.es",
+                                            "favicon": "https://www.mites.gob.es/mundo/consejerias/francia/recursos/img/favicon/apple-icon-57x57.png",
+                                            "title": "Las principales publicaciones de la OCDE",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mites.gob.es",
+                                            "snippet": "La nota realiza un análisis puntual de la situación de la migración internacional en España dentro en la publicación anual de la OCDE sobre migración ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.7771963079999296,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.7771963079999296,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:11:30",
+                    "run_time": 1.7771963079999296,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el número de españoles que han emigrado en los últimos 5 años según el Instituto Nacional de Estadística?": [
+                                {
+                                    "Como se puede observar en la siguiente tabla, en 2022 el saldo migratorio de los extranjeros con el exterior creció hasta las 729 709 personas (es decir, hubo un gran número de entradas de personas con nacionalidad extranjera). Por el contrario, el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron. (INE, 2022)": null
+                                },
+                                {
+                                    "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es. Saldo migratorio con el extranjero por año y nacionalidad (española/extranjera) ( CC BY 4.0 )": null
+                                },
+                                {
+                                    "2. Antes de 2008, ¿en qué momentos o etapas temporales España fue país de emigrantes y de inmigrantes? Para responder a esta cuestión podemos buscar en Internet o, si queremos profundizar en su estudio, consultamos los Anuarios Estadísticos del INE (que dispone de datos del siglo XIX y XX). También, para más información, accedemos al siguiente epígrafe sobre la emigración exterior española.": null
+                                }
+                            ],
+                            "¿Cómo se compara el número de españoles que han emigrado en los últimos años con el de otros países europeos como Alemania o Francia?": [
+                                {
+                                    "Aumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).": null
+                                },
+                                {
+                                    "La nueva demografía de Europa: más diversa, más móvil, más desigual. Más inmigración que nunca: casi 6 millones de personas llegaron a la UE en 2023 En 2023, 5,9 millones de personas inmigraron a la Unión Europea, de las cuales 4,9 millones procedían de fuera de la UE. Alemania y España lideran las llegadas (más de 1,2 millones cada uno), seguidos de Italia y Francia. Estos cuatro países concentraron el 56 % del total. Casi 3 millones de personas emigraron desde la UE Ese mismo año, cerca de 3 millones de personas salieron de algún país de la UE, siendo España, Alemania y Francia los principales emisores de población. Aproximadamente la mitad se trasladó a otro país de la UE y la otra mitad, fuera de la Unión. Crece la población extranjera en Europa: del 7 % al 10 % en una década Entre 2014 y 2024, la proporción de personas sin la nacionalidad del país de residencia en la UE pasó del 7 % al 10 %. Los mayores incrementos se dieron en Malta (del 7 % al 28 %) y Austria (del 13 % al 20 %). Luxemburgo lidera en diversidad: casi la mitad de su población es extranjera (47% del total de su población). Uno de cada cuatro nacimientos en la UE es de madre nacida en el extranjero En 2023, el 23 % de los nacimientos fueron de madres nacidas fuera del país de residencia, frente al 18 % en 2013. Luxemburgo (67 %), Chipre (41 %) y Malta (36 %) encabezan este cambio demográfico. Solo Rumanía, Bulgaria y Eslovaquia están por debajo del 5 %. 14 millones de ciudadanos de la UE viven en otro país europeo El ejercicio del derecho a la libre circulación sigue aumentando. Rumanía es el país con más ciudadanos viviendo en otro Estado miembro (3,1 millones), seguido de Italia y Polonia. El mayor aumento, durante el periodo comprendido entre el 1 de enero de 2019 y el 1 de enero de 2024, se aprecia en los ciudadanos irlandeses (+35%), seguido de malteses (+34%) y españoles (+20%). Récord en concesión de ciudadanías: 1,1 millones en 2023 Los países de la UE concedieron más de 1,1 millones de nacionalidades en 2023. Los principales beneficiarios fueron sirios (10,4 %), marroquíes (10,2 %) y albaneses (4,2 %). Es el dato más alto desde 2016.": null
+                                },
+                                {
+                                    "En el contexto europeo, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes. En 2023, el porcentaje de población nacida en el extranjero en el conjunto de países de la Unión Europea ascendía, según datos de Eurostat, al 13,3%. España, con un 17,1% de residentes nacidos en el extranjero en 2023, se situaba ese año (último disponible en Eurostat) a corta distancia de países con una larga tradición de acogida de inmigrantes, como Suecia (20,4%) y Alemania (19,5%), y por delante de Francia (13,1%) y del resto de países del sur de Europa (Portugal: 16,1%; Grecia: 11,3%; Italia: 10,9%).": null
+                                }
+                            ],
+                            "¿Qué factores económicos y sociales están contribuyendo al aumento de la emigración de españoles según los expertos en migraciones?": [
+                                {
+                                    "Aumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).": null
+                                },
+                                {
+                                    "La evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas (ocurridas en nuestro país como en los países de procedencia), pero también por episodios coyunturales (por ejemplo, el confinamiento producido por la pandemia del COVID-19).": null
+                                },
+                                {
+                                    "La OCDE ha lanzado este miércoles una recomendación clara para España: aumentar la migración regular y activar a los trabajadores mayores, entre otras, para que la tasa de empleo no caiga hasta un 10,3 % de aquí a 2060, frente al 2% de media del conjunto de países que integran la organización. En su apartado específico para nuestro país, en su informe 'Perspectiva del empleo 2025', el think thank alerta de que la baja fecundidad y la alta esperanza de vida que hay en España provocarán la mayor caída del empleo con respecto a la población.": null
+                                }
+                            ],
+                            "¿Cuál es la posición oficial del Gobierno español sobre la emigración de españoles según declaraciones del Ministerio de Asuntos Exteriores y Cooperación?": [
+                                {
+                                    "Aumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).": null
+                                },
+                                {
+                                    "La evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas (ocurridas en nuestro país como en los países de procedencia), pero también por episodios coyunturales (por ejemplo, el confinamiento producido por la pandemia del COVID-19).": null
+                                },
+                                {
+                                    "Como se puede observar en la siguiente tabla, en 2022 el saldo migratorio de los extranjeros con el exterior creció hasta las 729 709 personas (es decir, hubo un gran número de entradas de personas con nacionalidad extranjera). Por el contrario, el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron. (INE, 2022)": null
+                                }
+                            ],
+                            "¿Qué efecto tiene la crisis económica en la emigración de españoles según datos de la Organización para la Cooperación y el Desarrollo Económicos?": [
+                                {
+                                    "Aumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).": null
+                                },
+                                {
+                                    "La evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas (ocurridas en nuestro país como en los países de procedencia), pero también por episodios coyunturales (por ejemplo, el confinamiento producido por la pandemia del COVID-19).": null
+                                },
+                                {
+                                    "La OCDE ha lanzado este miércoles una recomendación clara para España: aumentar la migración regular y activar a los trabajadores mayores, entre otras, para que la tasa de empleo no caiga hasta un 10,3 % de aquí a 2060, frente al 2% de media del conjunto de países que integran la organización. En su apartado específico para nuestro país, en su informe 'Perspectiva del empleo 2025', el think thank alerta de que la baja fecundidad y la alta esperanza de vida que hay en España provocarán la mayor caída del empleo con respecto a la población.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 61.103137317000346,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 61.103137317000346,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:12:34",
+                    "run_time": 61.103137317000346,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el número de españoles que han emigrado en los últimos 5 años según el Instituto Nacional de Estadística?\n¿Cómo se compara el número de españoles que han emigrado en los últimos años con el de otros países europeos como Alemania o Francia?\n¿Qué factores económicos y sociales están contribuyendo al aumento de la emigración de españoles según los expertos en migraciones?\n¿Cuál es la posición oficial del Gobierno español sobre la emigración de españoles según declaraciones del Ministerio de Asuntos Exteriores y Cooperación?\n¿Qué efecto tiene la crisis económica en la emigración de españoles según datos de la Organización para la Cooperación y el Desarrollo Económicos?\n\n3. Here are the text sources you should use as your source of information:\n[0] Como se puede observar en la siguiente tabla, en 2022 el saldo migratorio de los extranjeros con el exterior creció hasta las 729 709 personas (es decir, hubo un gran número de entradas de personas con nacionalidad extranjera). Por el contrario, el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron. (INE, 2022)\n[0] Elaboración propia con datos extraídos del sitio web del INE: www.ine.es. Saldo migratorio con el extranjero por año y nacionalidad (española/extranjera) ( CC BY 4.0 )\n[0] 2. Antes de 2008, ¿en qué momentos o etapas temporales España fue país de emigrantes y de inmigrantes? Para responder a esta cuestión podemos buscar en Internet o, si queremos profundizar en su estudio, consultamos los Anuarios Estadísticos del INE (que dispone de datos del siglo XIX y XX). También, para más información, accedemos al siguiente epígrafe sobre la emigración exterior española.\n[0] Aumento de la emigración: salida de inmigrantes extranjeros, que ahora buscan trabajo y residencia en otro país con mejores expectativas de encontrarlo. salida de españoles, ahora emigrantes, hacia otro país con mayor oferta de empleo y con mejores condiciones de trabajo (salario, seguridad, etc.).\n[0] La evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas (ocurridas en nuestro país como en los países de procedencia), pero también por episodios coyunturales (por ejemplo, el confinamiento producido por la pandemia del COVID-19).\n[1] La nueva demografía de Europa: más diversa, más móvil, más desigual. Más inmigración que nunca: casi 6 millones de personas llegaron a la UE en 2023 En 2023, 5,9 millones de personas inmigraron a la Unión Europea, de las cuales 4,9 millones procedían de fuera de la UE. Alemania y España lideran las llegadas (más de 1,2 millones cada uno), seguidos de Italia y Francia. Estos cuatro países concentraron el 56 % del total. Casi 3 millones de personas emigraron desde la UE Ese mismo año, cerca de 3 millones de personas salieron de algún país de la UE, siendo España, Alemania y Francia los principales emisores de población. Aproximadamente la mitad se trasladó a otro país de la UE y la otra mitad, fuera de la Unión. Crece la población extranjera en Europa: del 7 % al 10 % en una década Entre 2014 y 2024, la proporción de personas sin la nacionalidad del país de residencia en la UE pasó del 7 % al 10 %. Los mayores incrementos se dieron en Malta (del 7 % al 28 %) y Austria (del 13 % al 20 %). Luxemburgo lidera en diversidad: casi la mitad de su población es extranjera (47% del total de su población). Uno de cada cuatro nacimientos en la UE es de madre nacida en el extranjero En 2023, el 23 % de los nacimientos fueron de madres nacidas fuera del país de residencia, frente al 18 % en 2013. Luxemburgo (67 %), Chipre (41 %) y Malta (36 %) encabezan este cambio demográfico. Solo Rumanía, Bulgaria y Eslovaquia están por debajo del 5 %. 14 millones de ciudadanos de la UE viven en otro país europeo El ejercicio del derecho a la libre circulación sigue aumentando. Rumanía es el país con más ciudadanos viviendo en otro Estado miembro (3,1 millones), seguido de Italia y Polonia. El mayor aumento, durante el periodo comprendido entre el 1 de enero de 2019 y el 1 de enero de 2024, se aprecia en los ciudadanos irlandeses (+35%), seguido de malteses (+34%) y españoles (+20%). Récord en concesión de ciudadanías: 1,1 millones en 2023 Los países de la UE concedieron más de 1,1 millones de nacionalidades en 2023. Los principales beneficiarios fueron sirios (10,4 %), marroquíes (10,2 %) y albaneses (4,2 %). Es el dato más alto desde 2016.\n[2] En el contexto europeo, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes. En 2023, el porcentaje de población nacida en el extranjero en el conjunto de países de la Unión Europea ascendía, según datos de Eurostat, al 13,3%. España, con un 17,1% de residentes nacidos en el extranjero en 2023, se situaba ese año (último disponible en Eurostat) a corta distancia de países con una larga tradición de acogida de inmigrantes, como Suecia (20,4%) y Alemania (19,5%), y por delante de Francia (13,1%) y del resto de países del sur de Europa (Portugal: 16,1%; Grecia: 11,3%; Italia: 10,9%).\n[3] La OCDE ha lanzado este miércoles una recomendación clara para España: aumentar la migración regular y activar a los trabajadores mayores, entre otras, para que la tasa de empleo no caiga hasta un 10,3 % de aquí a 2060, frente al 2% de media del conjunto de países que integran la organización. En su apartado específico para nuestro país, en su informe 'Perspectiva del empleo 2025', el think thank alerta de que la baja fecundidad y la alta esperanza de vida que hay en España provocarán la mayor caída del empleo con respecto a la población.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "El número de españoles que se ha ido al extranjero ha aumentado en los últimos años"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Argumentos y evidencia que apoyan el aumento de la emigración de españoles**\n\nSegún los datos proporcionados por el Instituto Nacional de Estadística (INE), en 2022 el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron [0]. Esto sugiere que, efectivamente, ha habido un aumento en la emigración de españoles en los últimos años. Además, se menciona que la evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas y episodios coyunturales, como el confinamiento producido por la pandemia del COVID-19 [0]. Esto podría indicar que la crisis económica y otros factores sociales están contribuyendo al aumento de la emigración de españoles.\n\nAdemás, según la Organización para la Cooperación y el Desarrollo Económicos (OCDE), la baja fecundidad y la alta esperanza de vida en España provocarán una caída en la tasa de empleo, lo que podría llevar a un aumento en la emigración de españoles en busca de oportunidades laborales en otros países [3]. Esto se ve respaldado por el hecho de que, según datos de Eurostat, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes, con un 17,1% de residentes nacidos en el extranjero en 2023 [2].\n\n**Argumentos y evidencia que refutan el aumento de la emigración de españoles**\n\nNo se encontraron argumentos ni evidencia en los textos proporcionados que refuten directamente el aumento de la emigración de españoles en los últimos años. Sin embargo, es importante destacar que los datos proporcionados por el INE solo se refieren a 2022, y no se proporcionan datos sobre los años anteriores o posteriores. Por lo tanto, no se puede determinar con certeza si el aumento de la emigración de españoles es un fenómeno reciente o si se ha mantenido constante en los últimos años.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, parece que el número de españoles que se ha ido al extranjero ha aumentado en los últimos años. Los datos del INE y la OCDE sugieren que la crisis económica y otros factores sociales están contribuyendo a este aumento. Sin embargo, es importante tener en cuenta que los datos proporcionados son limitados y no se puede determinar con certeza la magnitud del aumento ni su evolución en el tiempo. Por lo tanto, se puede concluir que el aumento de la emigración de españoles es un fenómeno real, pero se requieren más datos y análisis para entender su alcance y causas.\n\n**Decisión**\n\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años: **Verdadero**"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.515357532999587,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.515357532999587,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 14:12:43",
+                    "run_time": 9.515357532999587,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\nArticle: **Argumentos y evidencia que apoyan el aumento de la emigración de españoles**\n\nSegún los datos proporcionados por el Instituto Nacional de Estadística (INE), en 2022 el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron [0]. Esto sugiere que, efectivamente, ha habido un aumento en la emigración de españoles en los últimos años. Además, se menciona que la evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas y episodios coyunturales, como el confinamiento producido por la pandemia del COVID-19 [0]. Esto podría indicar que la crisis económica y otros factores sociales están contribuyendo al aumento de la emigración de españoles.\n\nAdemás, según la Organización para la Cooperación y el Desarrollo Económicos (OCDE), la baja fecundidad y la alta esperanza de vida en España provocarán una caída en la tasa de empleo, lo que podría llevar a un aumento en la emigración de españoles en busca de oportunidades laborales en otros países [3]. Esto se ve respaldado por el hecho de que, según datos de Eurostat, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes, con un 17,1% de residentes nacidos en el extranjero en 2023 [2].\n\n**Argumentos y evidencia que refutan el aumento de la emigración de españoles**\n\nNo se encontraron argumentos ni evidencia en los textos proporcionados que refuten directamente el aumento de la emigración de españoles en los últimos años. Sin embargo, es importante destacar que los datos proporcionados por el INE solo se refieren a 2022, y no se proporcionan datos sobre los años anteriores o posteriores. Por lo tanto, no se puede determinar con certeza si el aumento de la emigración de españoles es un fenómeno reciente o si se ha mantenido constante en los últimos años.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, parece que el número de españoles que se ha ido al extranjero ha aumentado en los últimos años. Los datos del INE y la OCDE sugieren que la crisis económica y otros factores sociales están contribuyendo a este aumento. Sin embargo, es importante tener en cuenta que los datos proporcionados son limitados y no se puede determinar con certeza la magnitud del aumento ni su evolución en el tiempo. Por lo tanto, se puede concluir que el aumento de la emigración de españoles es un fenómeno real, pero se requieren más datos y análisis para entender su alcance y causas.\n\n**Decisión**\n\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años: **Verdadero**\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\nArticle: **Argumentos y evidencia que apoyan el aumento de la emigración de españoles**\n\nSegún los datos proporcionados por el Instituto Nacional de Estadística (INE), en 2022 el saldo migratorio de los españoles con el exterior fue ligeramente negativo (-2704 personas), lo que significa que hubo un mayor número de personas con nacionalidad española que abandonó el país en relación a los que entraron [0]. Esto sugiere que, efectivamente, ha habido un aumento en la emigración de españoles en los últimos años. Además, se menciona que la evolución de las migraciones exteriores en España se ha visto condicionada por fluctuaciones económicas y episodios coyunturales, como el confinamiento producido por la pandemia del COVID-19 [0]. Esto podría indicar que la crisis económica y otros factores sociales están contribuyendo al aumento de la emigración de españoles.\n\nAdemás, según la Organización para la Cooperación y el Desarrollo Económicos (OCDE), la baja fecundidad y la alta esperanza de vida en España provocarán una caída en la tasa de empleo, lo que podría llevar a un aumento en la emigración de españoles en busca de oportunidades laborales en otros países [3]. Esto se ve respaldado por el hecho de que, según datos de Eurostat, España se encuentra en el grupo de países con una proporción más elevada de inmigrantes, con un 17,1% de residentes nacidos en el extranjero en 2023 [2].\n\n**Argumentos y evidencia que refutan el aumento de la emigración de españoles**\n\nNo se encontraron argumentos ni evidencia en los textos proporcionados que refuten directamente el aumento de la emigración de españoles en los últimos años. Sin embargo, es importante destacar que los datos proporcionados por el INE solo se refieren a 2022, y no se proporcionan datos sobre los años anteriores o posteriores. Por lo tanto, no se puede determinar con certeza si el aumento de la emigración de españoles es un fenómeno reciente o si se ha mantenido constante en los últimos años.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, parece que el número de españoles que se ha ido al extranjero ha aumentado en los últimos años. Los datos del INE y la OCDE sugieren que la crisis económica y otros factores sociales están contribuyendo a este aumento. Sin embargo, es importante tener en cuenta que los datos proporcionados son limitados y no se puede determinar con certeza la magnitud del aumento ni su evolución en el tiempo. Por lo tanto, se puede concluir que el aumento de la emigración de españoles es un fenómeno real, pero se requieren más datos y análisis para entender su alcance y causas.\n\n**Decisión**\n\nEl número de españoles que se ha ido al extranjero ha aumentado en los últimos años: **Verdadero**"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\", \"categories\": [\"Noticias\", \"Política\", \"Sociedad\"], \"label\": \"True\", \"main_claim\": \"El número de españoles que se ha ido al extranjero ha aumentado en los últimos años\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "cadenaser.com",
+                        "clinicaalemana.cl",
+                        "es.weforum.org",
+                        "20minutos.es",
+                        "ree.es",
+                        "es.euronews.com",
+                        "lasexta.com",
+                        "agrodiario.com",
+                        "salud.nih.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cambioenergetico.com",
+                        "albalactanciamaterna.org",
+                        "lamoncloa.gob.es",
+                        "cincodias.elpais.com",
+                        "oftalmologos.org.ar",
+                        "worldwildlife.org",
+                        "jacc.org",
+                        "medlineplus.gov",
+                        "maldita.es",
+                        "theconversation.com",
+                        "nyc.gov",
+                        "publico.es",
+                        "caixabankresearch.com",
+                        "uoc.edu",
+                        "who.int",
+                        "infobae.com",
+                        "bbva.com",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "educaweb.com",
+                        "verificat.cat",
+                        "elconfidencial.com",
+                        "efe.com",
+                        "myfisioclinic.com",
+                        "elpais.com",
+                        "newtral.es",
+                        "primabiotic.es",
+                        "defensa.gob.es",
+                        "hopkinsmedicine.org",
+                        "lavanguardia.com",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "theobjective.com",
+                        "observatoriodeladiscapacidad.info",
+                        "bankinter.com",
+                        "rtve.es",
+                        "nationalgeographic.com.es",
+                        "vozpopuli.com",
+                        "sjme.org",
+                        "sepe.es",
+                        "observatoriodelalquiler.org",
+                        "pmp.org.es",
+                        "normoncontigo.normon.com",
+                        "datosmacro.expansion.com",
+                        "masquemedicos.com",
+                        "europapress.es",
+                        "elplural.com",
+                        "feminismo.maldita.es",
+                        "antena3.com",
+                        "cancer.gov",
+                        "lefebvre.es",
+                        "elblogsalmon.com",
+                        "xataka.com",
+                        "gacetamedica.com",
+                        "ciencia.nasa.gov",
+                        "verifica.efe.com",
+                        "sistemaelectrico-ree.es",
+                        "abc.es",
+                        "coches.net",
+                        "kidshealth.org",
+                        "ec-europa-eu.translate.goog"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

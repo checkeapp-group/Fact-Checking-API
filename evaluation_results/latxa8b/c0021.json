@@ -1,0 +1,608 @@
+{
+    "question": "La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias",
+    "answer": "La lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, según varios estudios científicos. Por ejemplo, una revisión Cochrane (2006) encontró que el uso de fórmulas hidrolizadas en lugar de la fórmula de leche de vaca habitual podría reducir la alergia ( [1] ). Otros estudios han demostrado que en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses, hubo una reducción significativa de la incidencia de alergia a la leche de vaca y dermatitis atópica (DA) los primeros cuatro años de vida ( [1] ). Además, se ha observado que el riesgo de padecer algún tipo de alergia fue notablemente menor en aquellos que recibieron lactancia materna, aunque independientemente del tiempo de duración ( [1] ). Esto sugiere que la lactancia materna exclusiva puede tener un efecto protector contra las alergias, incluso si se realiza durante un período más corto que los seis meses.\n\nSin embargo, también hay evidencia que sugiere que la lactancia materna exclusiva no siempre reduce el riesgo de alergias. Algunos estudios no han encontrado pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas ( [1] ). Además, se ha observado que la lactancia materna más allá de los cuatro meses de edad no parece tener mayor beneficio o impacto en la incidencia de la dermatitis atópica ( [1] ). Sin embargo, algunos estudios indican que la lactancia materna puede tener un efecto protector frente a la DA y el asma, aunque esta evidencia es menos clara ( [1] ). Es importante destacar que la complejidad inmunológica de la leche, las diferencias genéticas y las diferencias metodológicas de los estudios pueden contribuir a la controversia sobre el papel preventivo de la lactancia materna en el desarrollo de las enfermedades alérgicas ( [1] ).\n\nEn conclusión, la evidencia disponible sugiere que la lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, especialmente en niños con riesgo atópico. Sin embargo, también hay evidencia que sugiere que la lactancia materna no siempre tiene un efecto protector contra las alergias, y que la duración de la lactancia materna puede ser un factor importante en este contexto. Por lo tanto, la afirmación es **verdadera**, pero con la advertencia de que la efectividad de la lactancia materna en la prevención de alergias puede variar dependiendo de factores individuales y contextuales.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322015000300003",
+            "source": "scielo.isciii.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias",
+        "categories": [
+            "Salud",
+            "Medicina",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "La lactancia materna exclusiva durante los primeros 6 meses es efectiva para reducir el riesgo de alergias",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.8670140670001274,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.8670140670001274,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:43:14",
+                    "run_time": 2.8670140670001274,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias\n\n**Critical Research Questions:**\n1. ¿Cuáles son los resultados de los estudios científicos que han investigado el efecto de la lactancia materna exclusiva durante los primeros 6 meses en la reducción del riesgo de alergias en bebés?\n2. ¿Qué dicen las organizaciones de salud pública y los expertos en pediatría sobre la relación entre la lactancia materna exclusiva y la prevención de alergias?\n3. ¿Cuáles son las estadísticas sobre la incidencia de alergias en bebés alimentados con leche materna exclusiva durante los primeros 6 meses comparadas con aquellos que reciben fórmula o otros tipos de alimentación?\n4. ¿Cuál es la composición química de la leche materna y cómo puede estar relacionada con la reducción del riesgo de alergias?\n5. ¿Existen recomendaciones y guías clínicas sobre la lactancia materna exclusiva para prevenir alergias y cuáles son sus recomendaciones sobre la duración óptima de la lactancia materna exclusiva?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"efecto de la lactancia materna exclusiva en la reducción del riesgo de alergias en bebés estudios científicos revistas indexadas\", \"organizaciones de salud pública recomendaciones lactancia materna exclusiva prevención alergias expertos pediatría\", \"incidencia alergias bebés lactancia materna exclusiva 6 meses vs fórmula otros tipos alimentación estadísticas datos oficiales\", \"composición química leche materna reducción riesgo alergias estudios científicos revistas indexadas\", \"recomendaciones guías clínicas lactancia materna exclusiva prevención alergias duración óptima lactancia materna exclusiva\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 16.59189927600164,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 16.59189927600164,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:43:30",
+                    "run_time": 16.59189927600164,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "efecto de la lactancia materna exclusiva en la reducción del riesgo de alergias en bebés estudios científicos revistas indexadas",
+                                "organizaciones de salud pública recomendaciones lactancia materna exclusiva prevención alergias expertos pediatría",
+                                "incidencia alergias bebés lactancia materna exclusiva 6 meses vs fórmula otros tipos alimentación estadísticas datos oficiales",
+                                "composición química leche materna reducción riesgo alergias estudios científicos revistas indexadas",
+                                "recomendaciones guías clínicas lactancia materna exclusiva prevención alergias duración óptima lactancia materna exclusiva"
+                            ],
+                            "results": {
+                                "efecto de la lactancia materna exclusiva en la reducción del riesgo de alergias en bebés estudios científicos revistas indexadas | organizaciones de salud pública recomendaciones lactancia materna exclusiva prevención alergias expertos pediatría | incidencia alergias bebés lactancia materna exclusiva 6 meses vs fórmula otros tipos alimentación estadísticas datos oficiales | composición química leche materna reducción riesgo alergias estudios científicos revistas indexadas | recomendaciones guías clínicas lactancia materna exclusiva prevención alergias duración óptima lactancia materna exclusiva": [
+                                    {
+                                        "text": "ORIGINAL\n\nEfecto de la lactancia materna en la calidad de vida y en el desarrollo de la dermatitis atópica\n\nEffect of breastfeeding on quality of life and on the development of atopic dermatitis\n\nM. Ibáñez Tortajadaa, J. V. Sorlí Guerolab\n\naCS de Atención Primaria de Alaquás, Valencia. España.\n\nbDepartamento de Medicina Preventiva y Salud Pública. Universitat de València. CIBER Fisiopatología de la Obesidad y Nutrición. Valencia. España.\n\nDirección para correspondencia\n\nRESUMEN\n\nIntroducción: la dermatitis atópica (DA) es una patología de prevalencia creciente y de gran repercusión social. Siendo su etiología de origen multifactorial, analizamos si factores ambientales, especialmente la lactancia materna (LM), intervienen en su desarrollo y evolución. Los objetivos son evaluar la gravedad clínica y la calidad de vida de los niños con DA, detectar diferencias en la edad de diagnóstico según el tipo de lactancia recibida y estimar la asociación de padecer DA según las variables de interés analizadas.\n\nMaterial y métodos: estudio de casos y controles apareado por edad y sexo en población infantil de Atención Primaria. Se realiza mediante el cumplimiento de tres cuestionarios a niños que acuden a las revisiones de salud establecidas por la Consellería de Sanidad de Valencia. Los datos recogidos se analizarán con el programa SPSS®.\n\nResultados: la DA se presenta más precozmente en los varones. Se observó un efecto protector de la LM frente a la lactancia artificial (LA) sobre el desarrollo de la DA (odds ratio [OR]: 0,15; intervalo de confianza del 95% [IC 95%]: 0,09-0,24), frente a procesos de alergia al polen o rinitis alérgica (OR: 0,35; IC 95%: 0,17-0,73), frente a la piel seca (OR: 0,22; IC 95%: 0,14-0,36), al picor (OR: 0,50; IC 95%: 0,27-0,93) y paralelamente en la repercusión de características clínicas y en la calidad de vida (puntuación del cuestionario índice de Calidad de Vida de la Dermatitis Atópica Infantil [ICVDAI]: 2,3 ±3,5 frente a 0,7 ±0,1; p<0,001).\n\nConclusión: la elección de la LM mejora la calidad de vida en los niños, protege frente a la aparición de DA, de alergia al polen o rinitis alérgica y frente a algunas características clínicas cutáneas.\n\nPalabras clave: Dermatitis atópica. Lactancia materna. Calidad de vida.\n\nABSTRACT\n\nIntroduction: atopic dermatitis (AD) is a disease of increasing prevalence and of great social impact. Its etiology has a multifactorial origin, so we analyze if environmental factors, especially breastfeeding (BF) is involved in the development of AD. The objectives are to assess the clinical severity and quality of life of children with AD, to detect differences in the age of diagnosis according to the type of lactation received, and to estimate the association of atopic dermatitis to the variables of interest analyzed.\n\nMaterial and methods: case-control study matched by age and sex in children in Primary Care. It has been done by filling in three different questionnaires about children who come to their routine health controls established by the Valencian Community Health Service. The data collected will be analyzed with the program SPSS.\n\nResults: atopic dermatitis has an earlier diagnosis in baby boys. A protective effect of breastfeeding vs artificial feeding in the development of AD (OR: 0.15; IC 95%: 0.09-0.24) has been observed, also vs allergy to pollen or allergic rhinitis (OR: 0.35; IC 95%: 0.17-0.73), vs dry skin (OR: 0.22; IC 95%: 0.14-0.36), itching (OR: 0.50; IC 95%: 0.27-0.93) and in parallel to the clinical characteristics and impact on quality of life (questionnaire score ICVDAI: 2.3±3.5 vs 0.7±0.1; p<0.001).\n\nConclusion: the choice of breastfeeding improves the quality of life in children, protects against the onset of atopic dermatitis, allergy to pollen or allergic rhinitis, and against some skin clinical features.\n\nKey words: Atopic dermatitis. Breastfeeding. Life's quality.\n\nIntroducción\n\nLa dermatitis atópica (DA) puede ser definida como una enfermedad inflamatoria de la piel que se inicia en la infancia, caracterizada por lesiones de morfología y distribución específica y un curso crónico y recidivante, que afecta fundamentalmente a niños con antecedentes personales o familiares de atopia (\"triada\" asma, rinoconjuntivitis y DA)1. Es una enfermedad difícil de definir por la variabilidad que presenta en cuanto a morfología de las lesiones y en su distribución topográfica y por los cambios evolutivos en un mismo paciente a lo largo del tiempo. A pesar de los múltiples estudios realizados en los últimos 40 años no se ha localizado un marcador biológico que la identifique, por lo que el diagnóstico es siempre clínico2.\n\nLos datos que hacen referencia a la incidencia y prevalencia real de la DA son variados e incluso contradictorios, porque los criterios diagnósticos y de valoración no están estandarizados. La atopia afecta a un 5-15% de la población general. En cuanto a la edad de aparición, un 80-90% debuta antes de los cinco años, siendo el primer año de vida, con el 60%, el de mayor frecuencia de inicio de los síntomas3.\n\nLa DA es un proceso en aumento en los últimos 30 años y todos los estudios epidemiológicos coinciden en que su prevalencia (como en el resto de las enfermedades alérgicas) es mayor en las ciudades y zonas industrializadas que en las áreas rurales. Durante los últimos decenios, la mayoría de las líneas de investigación de la DA se han dirigido hacia el estudio de los mecanismos etiopatogénicos de la enfermedad, pero de momento, en la práctica clínica seguimos sin tener marcadores diagnósticos o predictivos de la posible evolución en cada paciente4,5, así como del impacto en la calidad de vida demostrado en niños con dermatitis atópica6.\n\nLa leche materna (LM) es el método preferido de alimentación en la infancia, debido a sus beneficios nutricionales, inmunológicos y psicológicos7. Desde que Grulee y Sanford, en 1936, encontraron siete veces menos DA en niños alimentados con LM, la controversia del papel de esta en la prevención de las enfermedades alérgicas viene en aumento8,9. Esta controversia tiene varias razones, por un lado la complejidad inmunológica de la leche y las diferencias genéticas entre la madre y el niño; por el otro, las diferencias metodológicas en los estudios a favor y en contra de la protección y de la capacidad sensibilizante de la leche materna10.\n\nEn resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.\n\nEn este trabajo se plantea como objetivo el análisis de la relación de la LM y en el desarrollo de DA, evaluar la gravedad clínica y la calidad de vida de los niños con DA, detectar diferencias en la edad de diagnóstico según el tipo de lactancia recibida, y estimar la asociación de padecer DA según las variables de interés analizadas.\n\nMaterial y métodos\n\nSe ha realizado un estudio de casos y controles apareado por edad y sexo en la población infantil de un centro de salud situado en una zona urbana del área metropolitana de Valencia (España), en los niños que acudieron a las revisiones del \"Programa de salud infantil\" desde la primera de recién nacido hasta los 14 años de edad, con el objetivo de identificar factores de riesgo asociados a niños que padezcan DA y analizar su calidad de vida, en este caso, relacionado con la influencia de la lactancia materna.\n\nEl tamaño muestral se calculó teniendo en cuenta la prevalencia de DA y la frecuencia de exposición en estudios previos2,14,15, asumiendo una población diana de 5088 niños, seleccionando dos controles por caso, aceptando un error α tipo I de 0,05 y aplicando la fórmula de cálculo se obtuvo una estimación mínima de 390 individuos (130 casos y 260 controles).\n\nLa definición del tipo de lactancia se ajustó a las recomendaciones internacionales16. Se clasificaron como casos de DA aquellos que cumplían los criterios diagnósticos de Hanifin y Rajka (1980)17, y si el resultado del cuestionario marcó una puntuación mayor que el punto de corte establecido y/o las respuestas de las preguntas hicieron sospechar la enfermedad, se comentaron los resultados individualmente con el pediatra y se prosiguió con la evaluación del proceso para alertar sobre un posible diagnóstico y finalmente, determinar o no la enfermedad. La selección de pacientes se realizó de manera aleatoria. El estudio fue aprobado por el Comité de ética y se solicitó el consentimiento informado de los padres/madres/tutores legales de cada niño, quienes contestaron los diferentes cuestionarios. Se incluyeron 420 individuos (140 casos: 63 niñas y 77 niños, y 280 controles: 126 niñas y 154 niños).\n\nSe cumplimentaron tres cuestionarios. En todos los participantes se recogió información sobre variables clínicas, sociodemográficas y ambientales, tipo de lactancia y reacciones alimentarias. En los casos de DA se realizó el cuestionario índice Scoring Atopic Dermatitis (SCORAD)18 para cuantificar la gravedad, preguntando también la edad al diagnóstico, la superficie corporal afectada y la estacionalidad de las manifestaciones clínicas20 y se evaluó la calidad de vida de la DA infantil mediante la escala ICVDAI19.\n\nSe creó una base de datos con los datos obtenidos en las encuestas y se analizaron utilizando el programa informático SPSS® versión 19.0, empleando técnicas estadísticas estándar.\n\nResultados\n\nLas características descriptivas de la muestra se presentan en la Tabla 1. No se encontraron diferencias significativas entre casos y controles según las variables edad y sexo. La evolución de la distribución del tipo de lactancia se muestra en la Fig. 1. Como el grupo de lactancia mixta fue reducido, se unifica en los análisis estadísticos realizados junto al grupo de LM. No se observaron diferencias estadísticamente significativas al valorar el tipo de lactancia escogida y la clase social, así como el tiempo de lactancia y clase social. Tampoco se detectaron diferencias entre el tipo de lactancia escogida y el nivel de estudios de los padres, ni el tiempo de lactancia con el nivel de estudio de los padres.\n\nLa LM fue más frecuente en el grupo de los controles (Fig 2), pero no se observaron diferencias según el tiempo de duración de esta 7,1 ±6,9 y de 7,6 ±7,5 meses para el grupo de los casos y controles respectivamente (p=0,609). Al calcular el riesgo de ser caso según la variable de si ha recibido LM se observó un claro efecto protector (odds ratio [OR]: 0,30; intervalo de confianza del 95% [IC 95%]: 0,21-0,44; p<0,001), incluso tras ajustar por edad, sexo y antecedentes familiares (OR: 0,15; IC 95%: 0,09-0,24; p<0,001).\n\nEntre los motivos que justificaron la elección de la lactancia artificial (LA) destacan en un 9,5% una dificultad de adaptación al pecho, seguido por un 8,6% de hipogalactia, una experiencia negativa en una lactancia anterior y problemas laborales de las madres en un 6,7%, un 30,4% por diversos motivos, mientras que el 44,8% sin ningún motivo en especial que lo justificara. Por otro lado, justificaron la elección de lactancia mixta debido a la no subida (si no hay subida, no hay leche; será más bien hipogalactia o escasez) de leche materna, con un 66,7%, mientras que el 19,0% porque \"el niño/a era muy tragón\" y \"la madre necesitaba un respiro\"; un 14,3% alegaron otros motivos.\n\nLa media global de la superficie corporal afectada en los casos de DA medida por el índice SCORAD fue de 27,8 ±27,3 puntos, siendo de 33,6 ±29,8 para los niños y de 20,7 ±22,3 en las niñas (p=0,005), y, según el tipo de lactancia recibida, no se observaron diferencias en el conjunto de la muestra ni en aquellos niños y niñas con DA. No se observaron diferencias estadísticamente significativas por sexo ni por tipo de lactancia en las puntuaciones de intensidad ni en los síntomas subjetivos (prurito y pérdida de sueño). Al analizar el nivel de intensidad del eritema, edema, costra, excoriación y liquenificación de los niños diagnosticados de DA, no se observaron diferencias estadísticamente significativas por sexo ni por tipo de lactancia; por el contrario al valorar el nivel de sequedad sí fue más intensa en el género masculino (p=0,049).\n\nEn la Tabla 2 se muestra la distribución de las características clínicas relacionadas con DA entre casos y controles, así como su distribución en la muestra según la lactancia recibida. El picor fue más frecuente en los casos y además su edad de aparición fue más temprana (1,0 ±1,3 frente a 4,4 ±3,1 años; p<0,001), sin embargo se observa que la LM retrasa el inicio del picor (LM 1,9 ±2,3 frente a LA 1,1 ±1,5 años; p=0,016), con efecto protector contra su aparición (OR: 0,50; IC 95%: 0,27-0,93; p=0,029) tras ajustar por edad y sexo y piel seca. Destaca el efecto protector de la LM frente a la aparición de piel seca con una OR de 0,22; IC 95%: 0,14-0,36; p<0,001 tras ajustar por edad y sexo, y frente a algún tipo de alergia al polen o rinitis alérgica (OR: 0,35; IC 95%: 0,17-0,73; p=0,005) ajustando por edad y sexo. En ambos efectos no se detectaron diferencias estadísticamente significativas al segmentar en tiempo de duración de la LM.\n\nAl valorar los antecedentes familiares referidos a problemas cutáneos, respiratorios o mixtos, se observó que fueron más frecuentes en los niños con DA (72,9% frente a 44,6%; p<0,001) y menos frecuentes en aquellos que recibieron LM (50,5% frente a 64,8%; p=0,007). Al calcular el riesgo de DA según los antecedentes familiares se obtuvo en el análisis crudo una OR: 3,3 (IC 95%: 2,1-5,2; p<0,001) y para el análisis ajustado por edad, sexo y tipo de lactancia una OR: 3,2 (IC 95%: 1,9-5,2; p<0,001).\n\nEn la puntuación del cuestionario de calidad de vida ICVDAI se obtuvo una media global de 1,1 ±2,6 puntos, siendo de 0,85 ±1,9 puntos en las niñas y de 1,27 ±3,0 puntos en el caso de los niños (p=0,105). En la Tabla 3 se muestran las alteraciones percibidas de los ítems incluidos en el ICVDAI y en la Tabla 4 la puntuación media de dicho cuestionario, entre casos y controles y según el tipo de lactancia recibida. No se observaron diferencias estadísticamente significativas en cuanto al tiempo de duración de la lactancia materna y la puntuación del ICVDAI.\n\nDiscusión\n\nLa lactancia materna actualmente es el método preferido de alimentación en la infancia, debido a sus beneficios nutricionales, inmunológicos y psicológicos7. Las recomendaciones del personal sanitario sobre la LM han ido variando a lo largo del tiempo y pueden observarse diferencias según la zona geográfica, la clase social, el nivel de estudios, la incorporación de la mujer al entorno laboral y la ampliación del permiso de maternidad21-23. En España se recuperaron los niveles de LM a partir de la década de los noventa, tras dos décadas de dominio del biberón en los años setenta y ochenta23. En un estudio que valoraba la prevalencia de la LM a lo largo de los últimos 15 años (1991-2005), se observaron cifras de LM a los 30 días del 60,4%, que descendían pero de forma menos pronunciada que en años atrás al 45,9% a los tres meses y al 33,3% a los cinco meses, triplicando esta última las tasas presentadas en 199124 y ligeramente superiores en estudios posteriores15. En nuestro trabajo observamos la misma tendencia descrita por Valbuena Barrasa en 2005, aunque con un ligero incremento en la frecuencia de LM detectada, similar a la descrita por J. M. Rius (2014) en población de la misma área de salud de este trabajo.\n\nDebido a la gran diversidad de formas de presentación, varios grupos de trabajo han intentado constituir criterios uniformes para el diagnóstico de la DA, los más aceptados son los de Hanifin y Rajka de 1980. Existen diversas herramientas para cuantificar la severidad de la DA, pero hasta hace pocos años no se disponían de instrumentos específicos para evaluar el impacto de la enfermedad en la calidad de vida del paciente. Esta valoración es fundamental para adecuar los recursos sanitarios y evaluar la efectividad de las estrategias terapéuticas llevadas a cabo. La herramienta más comúnmente utilizada para cuantificar la gravedad de la DA es el índice SCORAD, teniendo en cuenta la extensión y la intensidad de las lesiones, así como los síntomas prurito y pérdida de sueño. SCORAD ha demostrado una buena correlación en la variabilidad intra e interobservador, pero al combinar parámetros subjetivos se puede complicar la interpretación de la puntuación y se puede perder información respecto al impacto en la calidad de vida25,26. Debido a este déficit de información, se optó por el cuestionario ICVDAI, el cual valora a través de diez preguntas el índice de calidad de vida.\n\nLa DA suele aparecer dentro del primer año de vida y, más concretamente, a partir de los dos o tres meses3, no obstante en el presente estudio obtenemos una edad media de diagnóstico superior a la descrita por estos autores, aunque observando que aparece más tempranamente en los niños que en las niñas. Algunos autores afirman que la incidencia es mayor en mujeres (2:1), aunque en la infancia predomina en los varones, no existiendo diferencias raciales significativas27, sin embargo en el estudio ELIHO no se identifica el sexo como un factor de riesgo para esta patología28.\n\nDesde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.\n\nEn el presente estudio observamos que más de la mitad de los individuos con DA presentaron reacciones alimentarias, en concordancia a los resultados de diversos trabajos29-31. Aunque si comparamos nuestros datos con los descritos por Acevedo-Villafañe (2009), en nuestra población la prevalencia de alergias alimentarias es mucho menor en los niños con DA, posiblemente debido a las diferencias metodológicas.\n\nRespecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.\n\nLa DA está estrechamente vinculada a trastornos alérgicos como asma, rinitis, y conjuntivitis estacional7,34. En esta línea detectamos tres veces más algún tipo de alergia al polen o rinitis alérgica con respecto al grupo control. Por lo tanto, observamos en nuestro trabajo como la LM parece tener un efecto protector contra rinitis alérgica y dermatitis atópica, en consonancia con otros autores31,34.\n\nAl valorar el factor de antecedentes familiares o genéticos, diferentes metaanálisis han mostrado que la LM durante al menos tres meses comparado con LA en lactantes con herencia atópica es un factor protector contra la DA, pero señalan un efecto protector más que dudoso en los niños sin historia familiar de enfermedades atópicas7,10,11,34,35. En nuestro trabajo observamos un mayor efecto protector de la LM frente a la DA, si tenemos en cuenta los antecedentes familiares, superior al descrito por Bloch (2002).\n\nLas enfermedades cutáneas tienen un impacto significativo en la calidad de vida, la repercusión de la DA en la calidad de vida de los niños varía mucho según su intensidad y sus manifestaciones clínicas6,36. De todos los puntos valorados en este estudio con el cuestionario ICVDAI se detectó una afectación en aquellos que presentan una DA en el picor, carácter, sueño, faltas al colegio, actividades deportivas, recreativas, modificación alimentación, problemas con el tratamiento, peso económico y burlas. El niño atópico es un niño inquieto, con alteraciones del sueño, con una falta de concentración que le hace retroceder en el colegio y en el que los acontecimientos que lo rodean tienen influencia, generalmente negativa, sobre la evolución de la propia enfermedad37. Reafirmando nuestras observaciones, García Sicilia (2010) reconoce que \"[...] la magnitud y persistencia del picor, sin duda, condicionan tremendamente la calidad de vida. La sensación de piel muy seca, sin elasticidad, puede llegar a ser muy molesta y cuando se localiza en zonas fácilmente visibles puede generar rechazo que afecta a las relaciones y autoestima, limitando significativamente el desarrollo de la personalidad durante la infancia\".\n\nLimitaciones\n\nLa información recogida con carácter retrospectivo, así como el tipo de estudio utilizado, puede generar los sesgos característicos de este tipo de información y de los estudios de casos y controles. Como el grupo de lactancia mixta fue reducido, se unifica en los análisis estadísticos realizados junto al grupo de LM.\n\nConflicto de intereses\n\nLos autores declaran no presentar conflictos de intereses en relación con la preparación y publicación de este artículo.\n\nAbreviaturas\n\nDA: dermatitis atópica • IC 95%: intervalo de confianza del 95% • ICVDAI: índice de Calidad de Vida de la Dermatitis Atópica Infantil • LM: lactancia materna • OR: odds ratio • SCORAD: Scoring Atopic Dermatitis.\n\nAgradecimientos\n\nA todo el equipo que forma parte del centro de salud de Alaquás, especialmente a las pediatras y enfermeras de Pediatría.\n\nBibliografía\n\n1. Simpson EL, Hanifin JM. Atopic dermatitis. Med Clin N Am. 2006;90:149-67. [ Links ]\n\n2. Fonseca Capdevila E. El niño con dermatitis atópica. Una visión global. Madrid: Loki and Dimas; 2006. [ Links ]\n\n3. Akdis CA, Akdis M, Biber T, Bindslev-Jensen C, Boquniewicz M, Eigenmann P. Diagnosis and treatment of atopic dermatitis in children and adults: European Academy of Allergology and Clinical Immunology/American Academy of Allergy, Asthma and Immunology/PRACTALL. Consensus Report. J Allergy Clin Immunol. 2006;118:152-69. [ Links ]\n\n4. Williams HC. Epidemiology of atopic dermatitis. Clin Dermatol. 2000;25:522-9. [ Links ]\n\n5. Zambrano Pérez E, Zambrano Zambrano A. Eccemas en la infancia. En: Muñoz Calvo MT, Hidalgo Vicario MI, Clemente Pollán J. Pediatría extrahospitalaria. Fundamentos clínicos para atención primaria. 4.ª edición. Madrid: Ergón; 2008. p. 901-8. [ Links ]\n\n6. Simonsen AB, Sommerlund M, Deleuran M, Mortz CG, Johansen JD. Course of skin symptoms and quality of life in children referred for patch testing—a long-term follow-up study. Acta Derm Venereol. 2015;95:206-10. [ Links ]\n\n7. Comité de nutrition de la Société française de pédiatrie, Turck D, Vidailhet M, Bocquet A, Bresson JL, Briend A, et al. Breastfeeding: health benefits for child and mother. Arch Pediatr. 2013;20:S29-48. [ Links ]\n\n8. Grulee CG, Sanford HN. The influence of breast and artificial feeding on infantile eczema. J Pediatr. 1936;9:223-5. [ Links ]\n\n9. Bath-Hextall F, Williams H. Eczema (atopic). Clinical Evidence. 2005. [ Links ]\n\n10. Gdalevich M, Mimouni D, David M, Mimouni M. Breast-feeding and the onset of atopic dermatitis in childhood: a systematic review and meta-analysis of prospective studies. J Am Acad Dermatol. 2001;45:520-7. [ Links ]\n\n11. Blattner CM, Murase JE. A practice gap in pediatric dermatology: does breast-feeding prevent the development of infantile atopic dermatitis? J Am Acad Dermatol. 2014;71:405-6. [ Links ]\n\n12. Laubereau B, Brockow I, Zirngibl A, Koletzko S, Gruebl A, von Berg A, et al. Effect of breast-feeding on the development of atopic dermatitis during the first 3 years of life: results from the GINI-birth cohort study. J Pediatr 2004;144:602-7. [ Links ]\n\n13. Friedman NJ, Zeiger RS. The role of breast-feeding in the development of allergies and asthma. J Allergy Clin Immunol. 2005;115:1238-48. [ Links ]\n\n14. Morales Suárez-Varela M, García-Marcos Álvarez L, González Díaz C, Arnedo Pena A, Domínguez Aurrecoechea B. Prevalencia de dermatitis atópica y factores nutricionales en niños de 6-7 años. Aten Primaria. 2007;39:355-60. [ Links ]\n\n15. Rius J.M, Ortuño J, Rivas C, Maravall M, Calzado M.A, López A, et al. Factores asociados al abandono precoz de la lactancia materna en una región del este de España. An Pediatr (Barc). 2014;80:6-15. [ Links ]\n\n16. OMS/UNICEF. Indicators for Assesing Health Facility Practices That Affect Breastfeeding. Ginebra: Organización Mundial de la Salud; 1993. [ Links ]\n\n17. Hanifin JM, Rajka G. Diagnostic features of atopic eczema. Acta Dermatovenereol Suppl (Stockh). 1980;92:44-7. [ Links ]\n\n18. Costa C, Rilliet A, Nicolet M, Saurat JH. Scoring atopic dermatitis: the simpler the better? Acta Derm Venereol. 1989;69:41-5. [ Links ]\n\n19. Consenso Nacional de Dermatitis Atópica. En: Sociedad Argentina de Dermatología (SAD) (en línea) (consultado el 12/06/2015). Disponible en www.dermatolarg.org.ar/index.php/dermatolarg/article/viewFile/379/189. [ Links ]\n\n20. García-Díez A, Puig L, Ortiz J, Blanco A. Validity of a telephone survey for determining the prevalence of atopic dermatitis and its seasonal variation in Spain. Actas Dermosifiliogr. 2009;100:298-306. [ Links ]\n\n21. Yaque M, Castillo E, Praena M, Sancho C, Fernández A, Herrera C, et al. Factores relacionados con el inicio de la lactancia materna en nuestro medio. Rev Pediatr Aten Primaria. 2000;5:35-46. [ Links ]\n\n22. Sacristán Martín AM, Lozano Alonso JE, Gil Costa M, Vega Alonso AT. Situación actual y factores que condicionan la lactancia materna en Castilla y León. Rev Pediatr Aten Primaria. 2011;13:33-46. [ Links ]\n\n23. Colodro-Conde L, Sánchez-Romera JF, Tornero-Gómez MJ, Pérez-Riquelme F, Polo-Tomás M, Ordoñana JR. Relationship between level of education and breastfeeding duration depends on social context: breastfeeding treneds over a 40-year period in Spain. J Hum Lact. 2011;27:272-8. [ Links ]\n\n24. Valbuena Barrasa L, de Lucas Veguillas A, Coca Méndez R, Paciencia de la Fuente C, Madroñal López P, Hernández Fernández E. Evolución de la lactancia materna y de algunos de sus factores condicionantes en nuestro medio. Talavera de la Reina; 2005. [ Links ]\n\n25. Kunz B, Oranje AP, Labrèze L, Stalder JF, Ring J, Taïeb A. Clinical validation and guidelines for the SCORAD index: Consensus Report of the European Task Force on Atopic Dermatitis. Dermatology. 1997;195:10-9. [ Links ]\n\n26. Charman CR, Venn AJ, Williams HC. The patient-oriented eczema measure: development and initial validation of a new tool for measuring atopic eczema severity from the patients' perspective. Arch Dermatol. 2004;140:1513-9. [ Links ]\n\n27. Méndez-Cabeza Velázquez J, Alache Zúñiga H, Cerrada Cerrada E. Manejo de la dermatitis atópica en Atención Primaria. MEDIFAM. 2003;13:75-84. [ Links ]\n\n28. Blanco QA, Díaz Castella JM, Balañá Vilanova M, Valveny Llobet N. Factores de riesgo de dermatitis atópica y su prevalencia en España (estudio ELIHO). An Pediatr (Barc). 2005;63:480-8. [ Links ]\n\n29. Lack G. Clinical practice. Food allergy. N Engl J Med. 2008;359:1252-60. [ Links ]\n\n30. Chafen JJ, Newberry SJ, Riedl MA, Bravata DM, Maglione M, Suttorp MJ, et al. Diagnosing and managing common food allergies: a systematic review. JAMA. 2010;303:1848-56. [ Links ]\n\n31. Acevedo Villafañe C, Latorre Latorre F, Cifuentes Cifuentes L, Díaz-Martínez LA, Garza Acosta O. Influencia de la lactancia materna y la alimentación en el desarrollo de alergias en los niños. Aten Primaria. 2009;41:675-80. [ Links ]\n\n32. Osborn DA, Sinn J. Fórmulas que contienen proteínas hidrolizadas para la prevención de alergias y de la intolerancia alimentaria en lactantes (Revisión Cochrane traducida). En: La Biblioteca Cochrane Plus, 2008 Número 4. Oxford: Update Software Ltd. Disponible en: http://www.bibliotecacochrane.com. (Traducida de The Cochrane Library, 2008 Issue 3. Chichester, UK: John Wiley & Sons, Ltd. [ Links ] ).\n\n33. Halken S, Hansen KS, Jacobsen HP, Estmann A, Faelling AE, Hansen LG, et al. Comparison of a partially hydrolyzed infant formula with two extensively hydrolyzed formulas for allergy prevention: a prospective, randomized study. Pediatr Allergy Immunol. 2000;11:149-61. [ Links ]\n\n34. Kramer MS. Breastfeeding and allergy: the evidence. Ann Nutr Metab. 2011;59:20-6. [ Links ]\n\n35. Bloch AM, Mimouni D, Mimouni M, Gdalevich M. Does breastfeeding protect against allergic rhinitis during childhood? A meta-analysis of prospective studies. Acta Paediatr. 2002;91:275-9. [ Links ]\n\n36. Lio PA, Lee M, LeBovidge J, Timmons KG, Schneider L. Clinical management of atopic dermatitis: practical highlights and updates from the atopic dermatitis practice parameter 2012. J Allergy Clin Immunol Pract. 2014;2:361-9. [ Links ]\n\n37. Moreno Giménez JC. Dermatitis atópica (revisión). Alergol Inmunol Clin. 2000;15:279-95. [ Links ]",
+                                        "metadata": {
+                                            "url": "https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322015000300003",
+                                            "source": "scielo.isciii.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Efecto de la lactancia materna en la calidad ... - SciELO España",
+                                            "type": "web_search",
+                                            "base_url": "http://scielo.isciii.es",
+                                            "snippet": "de M Ibáñez Tortajada · 2015 · Citado por 18 — En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Articulo en revisión\n\n1Universidad de Ciencias Médicas. Facultad de Ciencias Médicas de Bayamo. Policlínico Docente Guillermo González Polanco Departamento de Asistencia Médica. . Guisa, Granma. Cuba.\n\nABSTRACT\n\nIntroduction: Breastfeeding is key to ensuring the proper functioning of the baby's immune system.\n\nObjective: to describe the immunological role of breastfeeding in the prevention of diseases of the newborn, infants and mother.\n\nMethods: a descriptive, narrative bibliographic review was carried out. The search was carried out through virtual biomedical data platforms: SciELO, Lilacs, Medline, PubMed and the Google Scholar search engine in September 2023. 450 references were consulted, 30 were selected according to their relevance and updating that met the inclusion criteria. Historical-logical and analysis-synthesis methods were used.\n\nDevelopment: breast milk promotes immune maturation, prevents infectious diseases such as diarrhea and pneumonia, has an antioxidant effect, promotes the maturation of the body's systems, provides anti-inflammatory properties, is involved in the production of antibodies, mainly immunoglobulins, a protective role against obesity, high blood pressure and type 2 diabetes mellitus during adulthood. In the mother, it reduces the risk of postpartum anemia, protects against breast cancer, and facilitates the regression of the female genital organs during the puerperium.\n\nConclusions: breast milk is the only food that the child needs for the first six months of life, it is decisive in the immunological development of newborns and infants, it constitutes their first immunization. Delaying or restricting breast milk increases the risk of infections, allergies, long-term illnesses, and death.\n\nKey words: BREAST FEEDING; PREDOMINANT BREASTFEEDING; IMMUNITY; DISEASE PREVENTION",
+                                        "metadata": {
+                                            "url": "http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1561-31942024000200022",
+                                            "source": "scielo.sld.cu",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Papel inmunológico de la lactancia materna en la prevención ...",
+                                            "type": "web_search",
+                                            "base_url": "http://scielo.sld.cu",
+                                            "snippet": "de J Rondón-Carrasco · 2024 · Citado por 3 — El demorar o restringir la toma de leche materna aumenta el riesgo de infecciones, alergias, enfermedades de largo plazo y muerte. Palabras-clave: LACTANCIA ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Abstract\n\nObjective\n\nTo evaluate the relationship between breastfeeding and the development of allergic diseases (AD).\n\nDesign\n\nA cases-controls study.\n\nSetting\n\nSantander University Hospital, Bucaramanga, Colombia, South America. Level II health care.\n\nParticipants\n\nA total of 1460 boys and girls between 3 and 7 years old attending an outpatient clinic.\n\nMain measurements\n\nPartial (BF) and exclusive breastfeeding (EBF); relationship between the presence of allergic diseases and BF and EBF, adjusting for the confounding factors due to other exposures using logistic regression.\n\nResults\n\nOut of a total of 1460 patients, 41.6% (95%CI 39.0–44.2) received EBF, while 44.4% (95%CI 41.9–47.0) were partially breastfed. Among those who had an allergy, 34.8% (95%CI 32.4–37.3) had rhinitis, 27.8% (95%CI 25.6–30.2) asthma and 11.6% (95%CI 10.0–13.4) atopic dermatitis; 7.0% (95%CI 5.1–9.3) had the three conditions. To breastfeed exclusively for ⩾3 months is a protective factor for AD (OR 0.70, 95%CI 0.48–1.03). Breastfeeding for 3 months, regardless of whether or not it is exclusive, is a risk factor for AD (OR 2.05, 95%CI 1.47–2.86).\n\nConclusions\n\nThe recommendation to exclusively breastfeed for as long as possible continues to be valid, as there was a significant preventive impact on the development of AD with the length of time breastfed. Prospective studies including lung function tests and immunological analyses need to be performed to confirm these findings.",
+                                        "metadata": {
+                                            "url": "https://www.elsevier.es/en-revista-atencion-primaria-27-articulo-influencia-lactancia-materna-alimentacion-el-S021265670900300X",
+                                            "source": "www.elsevier.es",
+                                            "favicon": "https://static.elsevier.es/assets_org_prod/webs/14/images/favicon.png",
+                                            "title": "Influencia de la lactancia materna y la alimentación en el ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elsevier.es",
+                                            "snippet": "El lactar de manera exclusiva por 3 o más meses es factor protector para las EA (odds ratio [OR] de 0,70; IC del 95%: 0,48 a 1,03). El lactar menos de 3 meses, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Introducción La alergia a la proteína de la leche de vaca (APLV) supone un 31,6% del total de las alergias alimentarias infantiles1 y es la más prevalente en el primer año de vida. Según el estudio Europrevall2, el 0,54% de los niños menores de 2años en Europa desarrollan APLV. En población española se ha observado una incidencia de alergia mediada por IgE a las proteínas de la leche de vaca (PLV) en el primer año de vida del 0,36%3. A diferencia de otras alergias alimentarias, la evolución normal de la APLV es a la curación. La mayoría de los niños desarrollan tolerancia antes de los 3 años de vida, que suele ser más precoz en las formas no mediadas por IgE. Las guías de práctica clínica coinciden cuando se trata de diagnóstico y tratamiento de la APLV, sin embargo, existen controversias notables cuando se habla de su prevención. Desde 1999 hasta 2014 numerosas sociedades4-6 abogaron por la utilización de fórmulas extensamente hidrolizadas (FEH) como suplemento ocasional de lactancia materna (LM) en niños de riesgo atópico. En 2015 surgieron estudios observacionales extensos que indicaban que la introducción temprana de alimentos potencialmente alergénicos (leche, huevo y cacahuete) disminuía la incidencia de alergia a ellos7-9. Los resultados de estos estudios concordaban con el buen resultado de las desensibilizaciones orales a leche y huevo en niños con alergia persistente. Estas evidencias revolucionaron las estrategias preventivas y, a partir de 2016, se iniciaron los cambios en la alimentación complementaria, que abarcaron no solo a los lactantes de riesgo atópico sino a la población general. Se recomendó la introducción de estos alimentos a partir de los 4-6 meses de vida y también el uso de fórmulas para lactantes (FL) con proteínas de leche de vaca como suplementos de la LM en todos los niños, de forma independiente a su riesgo atópico10. Recientemente la European Academy of Allergy and Immunology (EAACI)11 emitió la recomendación de evitar la ingesta de FL en lactantes que reciben LM en la primera semana de vida como medida de prevención primaria de APLV de forma independiente a su riesgo atópico. Como sustitutos de estas citan el agua, la leche de mujer donada, las fórmulas elementales (FE) y las fórmulas hidrolizadas (FEH). Por el contrario, en un documento de consenso de la American Academy of Allergy, Asthma andImmunology (AAAAI), American College of Allergy, Asthma and Immunology (ACAAAI) y la Canadian Society for Allergy and Clinical Immunology (CSACI)12 se concluye que no se debe recomendar el uso rutinario de cualquier fórmula hipoalergénica para la prevención de alergia o sensibilización alimentaria. El presente documento pretende realizar una revisión crítica de la evidencia existente, con el objetivo de emitir una recomendación sobre el uso de fórmulas de PLV extensamente hidrolizadas en la primera semana de vida para la prevención primaria de la APLV.\n\nMaterial y métodos Se constituyó un grupo de expertos propuestos por la Asociación Española de Pediatría (AEP) y la Sociedad Española de Inmunología Clínica y Alergología y Asma Pediátrica (SEICAAP), Sociedad Española de Gastroenterología, Hepatología y Nutrición Pediátrica (SEGHNP) y Sociedad Española de Neonatología (SENEO). Se consensuó la siguiente pregunta de investigación estructurada mediante una metodología PICO13 (patient, intervention, comparison, outcome): En lactantes a término menores de una semana de vida con LM que precisan suplementación con fórmula, ¿el uso de FEH o fórmulas exentas de PLV disminuye el riesgo de desarrollar APLV? Se realizó una revisión bibliográfica en las bases de datos: PubMed de los últimos 10 años (2011-2021) restringida a los idiomas inglés, francés y español. Se usaron las siguientes palabras clave: cow's milk, allergy, prevention, guidelines, hydrolysate. Tras revisar título y resumen, se seleccionaron aquellos artículos correspondientes a revisiones sistemáticas, ensayos clínicos con grupo control y estudios observacionales. Se excluyeron estudios que no incluían en la población estudiada a recién nacidos con menos de una semana de vida. Se seleccionaron 72 estudios, de los cuales 66 fueron rechazados por no cumplir los criterios de inclusión. Se incluyeron en la revisión 6 documentos: 3 ensayos clínicos y 3 revisiones sistemáticas, 2de ellas con metaanálisis. Tras el análisis de la literatura, el autor principal elaboró una recomendación final que fue sometida a votación entre los participantes en la elaboración del consenso.\n\nResultados Dos de los documentos14,15 corresponden en realidad a un mismo grupo de trabajo, un ensayo clínico aleatorizado abierto con 312 lactantes de riesgo atópico, con un período de intervención de 5 meses y un seguimiento de 2 años. El grupo de intervención (GI, n=151) recibió LM y suplementos ocasionales de FEH con evitación de FL en al menos los 3 primeros días de vida. El grupo control (GC, n=156) recibió LM y suplementos regulares de FL (5 a 40ml) desde el nacimiento hasta el 5.° mes de vida. Se observó sensibilización atópica en 15 (9,9%) lactantes del GI vs. 27 (17,9%) en el GC, lo que supone una reducción absoluta de riesgo de 0,079, con un intervalo de confianza del 95% (IC 95%) de 0,157 a 0,002. Sin embargo, como limitaciones del estudio, los autores señalan que la introducción de PLV después del tercer día de vida puede proteger frente al desarrollo de alergia alimentaria, incluida la APLV. En otro ensayo clínico se estudió si, en niños con riesgo de diabetes mellitus 1, la ingesta en los primeros meses de vida de FEH frente a la toma de FL retrasa o previene el desarrollo de asma persistente, rinitis alérgica y eccema atópico16. Los resultados de este estudio demostraron la asociación de la toma de FEH o de más de un tipo de leche en los primeros días de vida con el desarrollo posterior de asma persistente. Este estudio no fue considerado para su análisis posterior, ya que en él no se analizaba específicamente la asociación con el desarrollo de APLV. Una revisión Cochrane sobre el tema17 identificó 2estudios publicados con anterioridad a 2011. Dichos estudios evaluaron el efecto de la suplementación infantil de 3a 4días con una FEH vs. una FL. En un estudio18, que incluyó a 129 lactantes (53 con LM, 39 con FL y 37 con FEH de caseína), no se observaron diferencias en el conjunto de las enfermedades alérgicas (RR 1,37; IC %: 0,33-5,71) o cualquier enfermedad alérgica específica, incluida la APLV, hasta la niñez. En el otro estudio19 se incluyeron 5.385 lactantes sanos que requirieron suplementación mientras estuvieron en el hospital: 1.789 recibieron FL, 1.859 leche materna pasteurizada y 1.737 una FEH de seroproteínas. No se observó una reducción estadísticamente significativa en la incidencia de APLV en el grupo que recibió el hidrolizado de seroproteínas (RR 0,62; IC 95%: 0,38-1,00), ni tampoco en el grupo que recibió LM (RR 0,70; IC 95%: 0,44-1,12). Se observaron diferencias significativas al comparar el uso de FL frente a FEH o LM conjuntamente (OR: 1,5, IC 95%: 1,02-2,25), que se confirmaron al realizar un análisis multivariante (OR ajustada 1,54; IC 95%: 1,04-2,30). En la revisión sistemática de Boyle et al.20, se identifican 3 ensayos clínicos en los que se compara la suplementación con FL con diferentes tipos de hidrolizado (caseína, seroproteínas, parcial). Los resultados de estos estudios no son aplicables en esta revisión, ya que sus períodos de intervención exceden el período de la primera semana de vida. Por último, De Silva et al.21, tras una revisión sistemática de la literatura, el único ensayo clínico en el que basan sus conclusiones es un estudio del grupo de Urashima14 previamente mencionado en este artículo. En la tabla 1 se resumen las principales características de los estudios seleccionados en la revisión. Artículo Diseño estudio Financiado Población riesgo/no riesgo a n de RNT Grupo intervenciónGI Grupo controlGC Variables de estudio RR IC 95% Resultados Urashima,2019 14 (Japón) ECA abiertoSeguimiento 2 años Beca estatalDairy Products Health Science Council y Japan Dairy Association Riesgo 312 156- lactantes RNT con/sin LM y suplementos de FE hasta los 5 meses (si >150 ml/día 3 días consecutivos pasaban a FLAseguran los primeros 3 días de vida con FE 156 lactantes RNT con LM suplementados con FL (>5 ml/día) hasta los 5 meses APLV al 2.° añoOtras alergias alimentariasRiesgo de anafilaxia por alergia alimentariaDiagnóstico: IgEs y PEOC 0,10 (0,01-0,77) APLV: GI 0,7% APLV en el grupo de hidrolizado vs. 3,6% APLV en el GCConcluyen: la fórmula de leche de vaca es un factor de riesgo para APLV y para anafilaxia y otros alergias alimentarias Tachimoto, 2020 15 (Japón) ECA abiertoSeguimiento 2 añosPeriodo de extensión hasta los 6 años Dairy Products Health Science Council y Japan Dairy Association Riesgo 312 156- lactantes RNT con/sin LM y suplementos de FE hasta los 5 meses (si >150 ml/día 3 días consecutivos pasaban a FLAseguran los primeros 3 días de vida con FE 156 lactantes RNT con LM suplementados con FL (>5 ml/día) hasta los 5 meses Variable principal: sensibilización atópicaSecundarias: reacciones inmediatas, empeoramiento de dermatitis atópica, sibilancias, rinitis alérgica 0,556(0,308-1,002) Se observó sensibilización atópica en 15 (9,9%) lactantes del GI vs. 27 (17,9%) en el GC, lo que supone una reducción absoluta de riesgo de –0,079, con un IC 95% de –0,157 a –0,002 Juvonem, 1996 18 (Suecia) ECA abiertoSeguimiento hasta 3 años No comercial No riesgo 129 2 grupos: alimentación 3 primeros días de vida. Después del 4.° día todos LM39 FL37 FEH 3. er grupo: 53 LM exclusiva Sensibilización alérgica alimentos (APLV), sibilancias recurrentes, dermatitis atópicaDiagnóstico: IgEs (cordón, 4.° día, 2.°, 4.°, 8.°, 12 y 24 mes de vida); pruebas cutáneas 1,37 (0,33-5,71) No se observaron diferencias en el conjunto de enfermedades alérgicas (incluida APLV) entre ninguno de los 3 grupos Saarinen, 1999 19 (Finlandia) Prospectivo aleatorizado Nutricia No riesgo 5.389 Suplementos:1.758 FL1.844 LM pasteurizada1.715 FEH seroproteínas 824 LM exclusiva Encuesta a los padres que comunicaron síntomas de APLV (urticaria, dermatitis atópica, vómitos, diarrea, fallo de medro, rinitis o sibilancias)Eliminación de la dieta y posteriormente IgEs y pruebas cutáneas y PEOC Por grupos:- FEH 0,62 0,38 a 1,00)- LM 0,70 (0,44-1,12) No se observó una reducción estadísticamente significativa en la incidencia de APLV en el grupo que recibió el hidrolizado de seroproteínas (RR 0,62; IC?95%: 0,38-1,00), ni tampoco en el grupo que recibió LM (RR 0,70; IC 95%: 0,44-1,12). Se observaron diferencias significativas al comparar el uso de FL frente a FEH o LM conjuntamente (OR: 1,5; IC 95%: 1,02-2,25) que se confirmaron con un análisis multivariante (OR ajustada 1,54; IC 95%: 1,04-2,30) APLV: alergia a proteínas de leche de vaca; ECA: ensayo controlado aleatorizado; FE: fórmula elemental; FEH: fórmula extensamente hidrolizada; FL: fórmula de lactante; IC: intervalo de confianza; LM: lactancia materna; OR: odds ratio; PE: período de extensión; PEOC: provocación específica oral controlada; RNT: recién nacidos a término; RR: riesgo relativo. a Riesgo atópico.\n\nDiscusión Tras revisar la literatura existente se comprueba una llamativa escasez de estudios sobre los que sustentar cualquier tipo de recomendación. Una lectura crítica de los existentes demuestra una muy limitada calidad metodológica. Concretamente, en el estudio de Urashima14, existe un importante sesgo de selección, al incluir solo a lactantes con riesgo atópico, lo que limita notablemente la posibilidad de extender dichos resultados a la población general. Por otro lado, la intervención resulta heterogénea, con un período de evitación de PLV muy variable en el GI: el 7,3% introduce PLV en las 2 primeras semanas y solo un 12% la mantiene durante los primeros 5 meses. Además, no se realiza restricción de PLV de la dieta materna en ninguno de los 2grupos. En definitiva, no existe una intervención claramente definida, lo que compromete la validez metodológica del estudio y, por tanto, la confiabilidad de sus resultados. Asimismo, las deficiencias metodológicas también son evidentes en el estudio de Saarinen19. En sus resultados se observa una significación marginal, con un IC muy cercano al valor nulo, al comparar el grupo que recibió suplementación con FL frente al resto, incluyendo FEH de seroproteínas y LM pasteurizada. Dicha significación sigue siendo marginal cuando se realiza un ajuste multivariante. En dicho análisis multivariante, los autores no mencionan qué variables de ajuste entran y salen del modelo de regresión, lo que impide que dichos resultados puedan ser valorados en su medida. No obstante, parece que la única variable incluida en el modelo es lo que los autores llaman «atopia parental evidente». Al ajustar por dicho riesgo atópico, podría comprometerse la generalización de las conclusiones ya que, al no especificarse el diagnóstico del modelo de regresión, no puede asegurarse que los autores hayan tenido en cuenta el posible efecto de interacción entre las variables del modelo. Podemos destacar las siguientes limitaciones en el presente documento. En primer lugar, en su elaboración no se ha tenido en cuenta el efecto que la evitación de las proteínas de leche de vaca pueda tener en la prevención de otras manifestaciones de alergia. Por otro lado, la búsqueda se ha limitado a una única fuente bibliográfica, como es la base de datos PubMed de la Biblioteca Nacional de Medicina de Estados Unidos de América. Por último, no se ha realizado una valoración sistemática de la calidad de la evidencia de los trabajos revisados. En conclusión, con base en las evidencias existentes en la actualidad, no se pueden establecer recomendaciones claras sobre el efecto de evitar las PLV durante la primera semana de vida con el objetivo de prevenir la APLV. A pesar de existir datos que pudieran orientar a un cierto efecto beneficioso de su evitación en niños con riesgo atópico, estos resultados no son concluyentes ni generalizables a los lactantes sin dicho riesgo. Por tanto, el Grupo de trabajo recomienda: En caso de que se precise algún tipo de suplementación de la LM durante la primera semana de vida, esta no debe realizarse de forma sistemática con fórmulas extensamente hidrolizadas o exentas de proteínas de leche de vaca para la prevención de la APLV (Acuerdo: 100%).",
+                                        "metadata": {
+                                            "url": "https://analesdepediatria.org/es-documento-consenso-prevencion-primaria-alergia-articulo-S1695403322001436",
+                                            "source": "analesdepediatria.org",
+                                            "favicon": "https://static.elsevier.es/assets_org_prod/webs/42/images/favicons/favicon.png",
+                                            "title": "Documento de consenso en la prevención primaria ...",
+                                            "type": "web_search",
+                                            "base_url": "https://analesdepediatria.org",
+                                            "snippet": "La alergia a la proteína de la leche de vaca (APLV) supone un 31,6% del total de las alergias alimentarias infantiles1 y es la más prevalente en el primer año ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Wang LC, Huang YM, Lu C, et al. Lower caprylate and acetate levels in the breast milk is associated with atopic dermatitis in infancy. Pediatr Allergy Immunol. 2022 Feb;33(2):e13744. doi: 10.1111/pai.13744\n\nhttps://onlinelibrary.wiley.com/doi/10.1111/pai.13744\n\nLa leche materna (LM) contiene enzimas bioactivas, hormonas, factores de crecimiento y factores inmunomoduladores con la capacidad de ejercer actividades inmunorreguladoras. Se ha estudiado que la LM afecta al riesgo de eczema, particularmente en familias de alto riesgo, pero la evidencia es ambigua. Además de la compleja interacción entre la predisposición genética, la exposición ambiental perinatal y la duración de la LM exclusiva, los mediadores inmunitarios en la propia LM podrían determinar potencialmente la dirección de las propiedades inmunomoduladoras para promover o proteger contra el eczema infantil.\n\nLos ácidos grasos son uno de los componentes de la leche que juegan diversas funciones en las células inmunitarias y se estudia que estén asociados con el desarrollo de alergia. Se ha demostrado que la exposición temprana a los ácidos grasos de cadena corta (AGCC) protege contra la atopia. Como los ácidos grasos tienen algún efecto inmunomodulador, el objetivo de este estudio fue investigar la influencia de las composiciones de ácidos grasos en la LM en el desarrollo de la dermatitis atópica (DA) en lactantes alimentados exclusivamente con LM.\n\nSe trata de un estudio de cohorte observacional prospectivo que incluyó a lactantes de entre dos y cuatro meses de edad alimentados exclusivamente con leche materna en el Hospital Universitario Nacional de Taiwán (NTUH) desde septiembre de 2015 hasta junio de 2016. La gravedad de la DA fue evaluada por el mismo alergólogo utilizando el índice objetivo SCORing Atopic Dermatitis (objSCORAD). El perfil lipídico de la LM se analizó mediante cromatografía de gases para determinar los niveles de ácidos grasos. Se inscribieron un total de 47 lactantes con DA y 47 controles sanos. La edad, el sexo, el historial de atopia de los padres y la ingesta de nutrientes de las madres no fueron significativamente diferentes entre los dos grupos.\n\nLos niveles de palmitato y ácidos grasos monoinsaturados (MUFA) en LM se correlacionaron positivamente con objSCORAD, mientras que los niveles de caprilato, acetato y ácidos grasos de cadena corta (AGCC) se correlacionaron negativamente con objSCORAD. Sin embargo, los niveles de butirato en LM no fueron significativamente diferentes. Los niveles de caprilato y acetato en la LM se asociaron significativamente con la presencia de DA infantil (p = 0,021 y 0,015, respectivamente) después de ajustar por edad, sexo, antecedentes de alergia de los padres, niveles de MUFA, palmitato y AGCC en la LM.\n\nEste estudio concluye por tanto que los niveles bajos de caprilato y acetato en la LM podrían ser factores de riesgo de la DA infantil, mientras que el butirato en la LM no se asoció con la DA infantil.\n\nEva Navia Rodilla Rojo\n\nPediatra de Atención Primaria de Cáceres",
+                                        "metadata": {
+                                            "url": "https://sepeap.org/composicion-de-la-leche-materna-y-riesgo-de-dermatitis-atopica-en-la-infancia/",
+                                            "source": "sepeap.org",
+                                            "favicon": "https://sepeap.org/wp-content/uploads/2021/05/cropped-sepeap-favicon-32x32.png",
+                                            "title": "Composición de la leche materna y riesgo de dermatitis ...",
+                                            "type": "web_search",
+                                            "base_url": "https://sepeap.org",
+                                            "snippet": "La leche materna (LM) contiene enzimas bioactivas, hormonas, factores de crecimiento y factores inmunomoduladores con la capacidad de ejercer ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Se identificaron 23 estudios independientes que cumplían los criterios de selección: 11 de países en desarrollo (dos de los cuales eran ensayos controlados en Honduras) y 12 de países desarrollados (todos estudios de observación). Las definiciones de lactancia materna exclusiva variaban considerablemente entre los estudios. Ni los ensayos ni los estudios de observación sugieren que los lactantes que siguen siendo alimentados exclusivamente con leche materna durante seis meses muestran déficits en el aumento de peso o de talla, aunque se necesitarían tamaños de muestra más grandes para descartar diferencias modestas en el riesgo de desnutrición. En los países en desarrollo, en los que las reservas de hierro de los recién nacidos pueden estar por debajo del nivel óptimo, la evidencia sugiere que la lactancia materna exclusiva sin suplemento de hierro durante seis meses puede comprometer el estado hematológico. Sobre la base del estudio bielorruso, seis meses de lactancia materna exclusiva no confieren ningún beneficio (frente a tres meses de lactancia materna exclusiva seguidos de una lactancia materna parcial continuada durante seis meses) en cuanto a la altura, el peso, el índice de masa corporal, las caries dentales, la capacidad cognitiva o el comportamiento a los 6,5 años de edad. Sin embargo, sobre la base de estudios realizados en Bielorrusia, el Irán y Nigeria, los lactantes que continúan con la lactancia materna exclusiva durante seis meses o más parecen tener un riesgo significativamente menor de infección gastrointestinal y (en los estudios iraníes y nigerianos) respiratoria. En estudios realizados en Finlandia, Australia y Bielorrusia no se ha demostrado una reducción significativa del riesgo de eccema atópico, asma u otros resultados atópicos. Los datos de los dos ensayos hondureños y de los estudios de observación de Bangladesh y el Senegal sugieren que la lactancia materna exclusiva hasta los seis meses se asocia con una reanudación tardía de la menstruación y, en los ensayos hondureños, con una pérdida de peso posparto más rápida en la madre.\n\n",
+                                        "metadata": {
+                                            "url": "https://www.cochrane.org/es/evidence/CD003517_optimal-duration-exclusive-breastfeeding",
+                                            "source": "www.cochrane.org",
+                                            "favicon": "https://www.cochrane.org/assets/img/colors/favicon-128-purple.png",
+                                            "title": "Duración óptima de la lactancia materna exclusiva",
+                                            "type": "web_search",
+                                            "base_url": "https://www.cochrane.org",
+                                            "snippet": "Desde 2001, la Organización Mundial de la Salud ha recomendado la lactancia materna exclusiva durante seis meses. Gran parte del debate reciente ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.7248543949990562,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.7248543949990562,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:43:32",
+                    "run_time": 1.7248543949990562,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los resultados de los estudios científicos que han investigado el efecto de la lactancia materna exclusiva durante los primeros 6 meses en la reducción del riesgo de alergias en bebés?": [
+                                {
+                                    "Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.": null
+                                },
+                                {
+                                    "En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.": null
+                                },
+                                {
+                                    "Desde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.": null
+                                }
+                            ],
+                            "¿Qué dicen las organizaciones de salud pública y los expertos en pediatría sobre la relación entre la lactancia materna exclusiva y la prevención de alergias?": [
+                                {
+                                    "Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.": null
+                                },
+                                {
+                                    "En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.": null
+                                },
+                                {
+                                    "Desde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.": null
+                                }
+                            ],
+                            "¿Cuáles son las estadísticas sobre la incidencia de alergias en bebés alimentados con leche materna exclusiva durante los primeros 6 meses comparadas con aquellos que reciben fórmula o otros tipos de alimentación?": [
+                                {
+                                    "Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.": null
+                                },
+                                {
+                                    "En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.": null
+                                },
+                                {
+                                    "Desde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.": null
+                                }
+                            ],
+                            "¿Cuál es la composición química de la leche materna y cómo puede estar relacionada con la reducción del riesgo de alergias?": [
+                                {
+                                    "Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.": null
+                                },
+                                {
+                                    "Los ácidos grasos son uno de los componentes de la leche que juegan diversas funciones en las células inmunitarias y se estudia que estén asociados con el desarrollo de alergia. Se ha demostrado que la exposición temprana a los ácidos grasos de cadena corta (AGCC) protege contra la atopia. Como los ácidos grasos tienen algún efecto inmunomodulador, el objetivo de este estudio fue investigar la influencia de las composiciones de ácidos grasos en la LM en el desarrollo de la dermatitis atópica (DA) en lactantes alimentados exclusivamente con LM.": null
+                                },
+                                {
+                                    "La leche materna (LM) contiene enzimas bioactivas, hormonas, factores de crecimiento y factores inmunomoduladores con la capacidad de ejercer actividades inmunorreguladoras. Se ha estudiado que la LM afecta al riesgo de eczema, particularmente en familias de alto riesgo, pero la evidencia es ambigua. Además de la compleja interacción entre la predisposición genética, la exposición ambiental perinatal y la duración de la LM exclusiva, los mediadores inmunitarios en la propia LM podrían determinar potencialmente la dirección de las propiedades inmunomoduladoras para promover o proteger contra el eczema infantil.": null
+                                }
+                            ],
+                            "¿Existen recomendaciones y guías clínicas sobre la lactancia materna exclusiva para prevenir alergias y cuáles son sus recomendaciones sobre la duración óptima de la lactancia materna exclusiva?": [
+                                {
+                                    "Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.": null
+                                },
+                                {
+                                    "En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.": null
+                                },
+                                {
+                                    "Desde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.675487258999055,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.675487258999055,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:43:42",
+                    "run_time": 9.675487258999055,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los resultados de los estudios científicos que han investigado el efecto de la lactancia materna exclusiva durante los primeros 6 meses en la reducción del riesgo de alergias en bebés?\n¿Qué dicen las organizaciones de salud pública y los expertos en pediatría sobre la relación entre la lactancia materna exclusiva y la prevención de alergias?\n¿Cuáles son las estadísticas sobre la incidencia de alergias en bebés alimentados con leche materna exclusiva durante los primeros 6 meses comparadas con aquellos que reciben fórmula o otros tipos de alimentación?\n¿Cuál es la composición química de la leche materna y cómo puede estar relacionada con la reducción del riesgo de alergias?\n¿Existen recomendaciones y guías clínicas sobre la lactancia materna exclusiva para prevenir alergias y cuáles son sus recomendaciones sobre la duración óptima de la lactancia materna exclusiva?\n\n3. Here are the text sources you should use as your source of information:\n[0] Respecto a la relación de las alergias alimentarias con el tipo de lactancia, también existen contradicciones. Algunos autores describen que no hay pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas11,32, sin embargo, según la revisión Cochrane (2006) el uso de fórmulas hidrolizadas para el lactante en lugar de la fórmula de leche de vaca habitual podría reducir la alergia. Otros estudios en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses tuvieron una reducción significativa de la incidencia de alergia a la leche de vaca y DA los primeros cuatro años de vida33. En este trabajo observamos que el riesgo de padecer algún tipo de alergia fue notoriamente menor en aquellos que recibieron LM, aunque independientemente del tiempo de duración.\n[0] En resumen, en niños de alto riesgo de dermatitis atópica existe evidencia de que la lactancia materna exclusiva o mixta con fórmulas hidrolizadas por un mínimo de cuatro meses disminuye el desarrollo de dermatitis atópica y de alergia a la proteína de leche de vaca en los primeros años de vida9,11. Esta evidencia es menos clara para lactantes sin riesgo de atopia. La LM más allá de los cuatro meses de edad parece no tener mayor beneficio o impacto en la incidencia de la dermatitis atópica, aunque algunos estudios indican un efecto protector de la LM frente a DA y asma7,12,13.\n[0] Desde que se describió un menor riesgo de DA en niños alimentados con LM8, la controversia del papel preventivo de la LM en el desarrollo de las enfermedades alérgicas se debe en parte a la complejidad inmunológica de la leche, las diferencias genéticas y por las diferencias metodológicas de los estudios. En nuestro trabajo observamos un claro efecto protector de la LM respecto a la LA para el desarrollo de la DA como describen otros trabajos, pero en nuestro estudio el efecto es independiente del tiempo de lactancia materna, ya que aparece por el simple hecho de haberla recibido, aunque algunos estudios indican un efecto protector en niños con alto riesgo y un tiempo mínimo de tres a cuatro meses exclusivos con LM7,10,11.\n[1] Los ácidos grasos son uno de los componentes de la leche que juegan diversas funciones en las células inmunitarias y se estudia que estén asociados con el desarrollo de alergia. Se ha demostrado que la exposición temprana a los ácidos grasos de cadena corta (AGCC) protege contra la atopia. Como los ácidos grasos tienen algún efecto inmunomodulador, el objetivo de este estudio fue investigar la influencia de las composiciones de ácidos grasos en la LM en el desarrollo de la dermatitis atópica (DA) en lactantes alimentados exclusivamente con LM.\n[1] La leche materna (LM) contiene enzimas bioactivas, hormonas, factores de crecimiento y factores inmunomoduladores con la capacidad de ejercer actividades inmunorreguladoras. Se ha estudiado que la LM afecta al riesgo de eczema, particularmente en familias de alto riesgo, pero la evidencia es ambigua. Además de la compleja interacción entre la predisposición genética, la exposición ambiental perinatal y la duración de la LM exclusiva, los mediadores inmunitarios en la propia LM podrían determinar potencialmente la dirección de las propiedades inmunomoduladoras para promover o proteger contra el eczema infantil.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Evidencia que apoya la afirmación**\n\nLa lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, según varios estudios científicos. Por ejemplo, una revisión Cochrane (2006) encontró que el uso de fórmulas hidrolizadas en lugar de la fórmula de leche de vaca habitual podría reducir la alergia ( [0] ). Otros estudios han demostrado que en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses, hubo una reducción significativa de la incidencia de alergia a la leche de vaca y dermatitis atópica (DA) los primeros cuatro años de vida ( [0] ). Además, se ha observado que el riesgo de padecer algún tipo de alergia fue notablemente menor en aquellos que recibieron lactancia materna, aunque independientemente del tiempo de duración ( [0] ). Esto sugiere que la lactancia materna exclusiva puede tener un efecto protector contra las alergias, incluso si se realiza durante un período más corto que los seis meses.\n\n**Evidencia que contradice la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la lactancia materna exclusiva no siempre reduce el riesgo de alergias. Algunos estudios no han encontrado pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas ( [0] ). Además, se ha observado que la lactancia materna más allá de los cuatro meses de edad no parece tener mayor beneficio o impacto en la incidencia de la dermatitis atópica ( [0] ). Sin embargo, algunos estudios indican que la lactancia materna puede tener un efecto protector frente a la DA y el asma, aunque esta evidencia es menos clara ( [0] ). Es importante destacar que la complejidad inmunológica de la leche, las diferencias genéticas y las diferencias metodológicas de los estudios pueden contribuir a la controversia sobre el papel preventivo de la lactancia materna en el desarrollo de las enfermedades alérgicas ( [0] ).\n\n**Conclusión**\n\nEn conclusión, la evidencia disponible sugiere que la lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, especialmente en niños con riesgo atópico. Sin embargo, también hay evidencia que sugiere que la lactancia materna no siempre tiene un efecto protector contra las alergias, y que la duración de la lactancia materna puede ser un factor importante en este contexto. Por lo tanto, la afirmación es **verdadera**, pero con la advertencia de que la efectividad de la lactancia materna en la prevención de alergias puede variar dependiendo de factores individuales y contextuales."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8384752649999427,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8384752649999427,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:43:45",
+                    "run_time": 1.8384752649999427,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias\nArticle: **Evidencia que apoya la afirmación**\n\nLa lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, según varios estudios científicos. Por ejemplo, una revisión Cochrane (2006) encontró que el uso de fórmulas hidrolizadas en lugar de la fórmula de leche de vaca habitual podría reducir la alergia ( [0] ). Otros estudios han demostrado que en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses, hubo una reducción significativa de la incidencia de alergia a la leche de vaca y dermatitis atópica (DA) los primeros cuatro años de vida ( [0] ). Además, se ha observado que el riesgo de padecer algún tipo de alergia fue notablemente menor en aquellos que recibieron lactancia materna, aunque independientemente del tiempo de duración ( [0] ). Esto sugiere que la lactancia materna exclusiva puede tener un efecto protector contra las alergias, incluso si se realiza durante un período más corto que los seis meses.\n\n**Evidencia que contradice la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la lactancia materna exclusiva no siempre reduce el riesgo de alergias. Algunos estudios no han encontrado pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas ( [0] ). Además, se ha observado que la lactancia materna más allá de los cuatro meses de edad no parece tener mayor beneficio o impacto en la incidencia de la dermatitis atópica ( [0] ). Sin embargo, algunos estudios indican que la lactancia materna puede tener un efecto protector frente a la DA y el asma, aunque esta evidencia es menos clara ( [0] ). Es importante destacar que la complejidad inmunológica de la leche, las diferencias genéticas y las diferencias metodológicas de los estudios pueden contribuir a la controversia sobre el papel preventivo de la lactancia materna en el desarrollo de las enfermedades alérgicas ( [0] ).\n\n**Conclusión**\n\nEn conclusión, la evidencia disponible sugiere que la lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, especialmente en niños con riesgo atópico. Sin embargo, también hay evidencia que sugiere que la lactancia materna no siempre tiene un efecto protector contra las alergias, y que la duración de la lactancia materna puede ser un factor importante en este contexto. Por lo tanto, la afirmación es **verdadera**, pero con la advertencia de que la efectividad de la lactancia materna en la prevención de alergias puede variar dependiendo de factores individuales y contextuales.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias\nArticle: **Evidencia que apoya la afirmación**\n\nLa lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, según varios estudios científicos. Por ejemplo, una revisión Cochrane (2006) encontró que el uso de fórmulas hidrolizadas en lugar de la fórmula de leche de vaca habitual podría reducir la alergia ( [0] ). Otros estudios han demostrado que en niños con riesgo atópico alimentados exclusivamente al seno materno por más de cuatro meses, hubo una reducción significativa de la incidencia de alergia a la leche de vaca y dermatitis atópica (DA) los primeros cuatro años de vida ( [0] ). Además, se ha observado que el riesgo de padecer algún tipo de alergia fue notablemente menor en aquellos que recibieron lactancia materna, aunque independientemente del tiempo de duración ( [0] ). Esto sugiere que la lactancia materna exclusiva puede tener un efecto protector contra las alergias, incluso si se realiza durante un período más corto que los seis meses.\n\n**Evidencia que contradice la afirmación**\n\nSin embargo, también hay evidencia que sugiere que la lactancia materna exclusiva no siempre reduce el riesgo de alergias. Algunos estudios no han encontrado pruebas claras de que el uso precoz de fórmulas hidrolizadas se asocie con las enfermedades alérgicas ( [0] ). Además, se ha observado que la lactancia materna más allá de los cuatro meses de edad no parece tener mayor beneficio o impacto en la incidencia de la dermatitis atópica ( [0] ). Sin embargo, algunos estudios indican que la lactancia materna puede tener un efecto protector frente a la DA y el asma, aunque esta evidencia es menos clara ( [0] ). Es importante destacar que la complejidad inmunológica de la leche, las diferencias genéticas y las diferencias metodológicas de los estudios pueden contribuir a la controversia sobre el papel preventivo de la lactancia materna en el desarrollo de las enfermedades alérgicas ( [0] ).\n\n**Conclusión**\n\nEn conclusión, la evidencia disponible sugiere que la lactancia materna exclusiva durante los primeros 6 meses puede reducir el riesgo de alergias, especialmente en niños con riesgo atópico. Sin embargo, también hay evidencia que sugiere que la lactancia materna no siempre tiene un efecto protector contra las alergias, y que la duración de la lactancia materna puede ser un factor importante en este contexto. Por lo tanto, la afirmación es **verdadera**, pero con la advertencia de que la efectividad de la lactancia materna en la prevención de alergias puede variar dependiendo de factores individuales y contextuales."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La lactancia materna exclusiva durante los primeros 6 meses reduce el riesgo de alergias\", \"categories\": [\"Salud\", \"Medicina\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"La lactancia materna exclusiva durante los primeros 6 meses es efectiva para reducir el riesgo de alergias\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,594 @@
+{
+    "question": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación",
+    "answer": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación según los datos del Banco de España [1]. Según el informe anual del Banco de España, alrededor del 80% de los inmigrantes que acaban de llegar al país (que llevan menos de 1 año) no tiene título universitario y el 70% trabaja en puestos sin cualificación [1]. Esto sugiere que una gran proporción de inmigrantes en España están trabajando en empleos que no corresponden a su nivel de cualificación.\n\nAdemás, según los datos de Eurostat, tan sólo un 23,1% de los extranjeros residentes en el país en edad de trabajar cuenta con una titulación universitaria, lo que es el quinto porcentaje más bajo de todo el continente [1]. Esto indica que la mayoría de los inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados.\n\nSin embargo, hay evidencia que sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa. Según los datos del INE, la tasa de sobrecualificación de los inmigrantes en España es del 56%, lo que significa que más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación [2]. Esto sugiere que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.\n\nAdemás, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, pero también sugiere que hay una necesidad de atraer personas cualificadas [3]. Esto sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa.\n\nEn conclusión, la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" parece ser parcialmente verdadera. Los datos del Banco de España y Eurostat sugieren que una gran proporción de inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados. Sin embargo, los datos del INE y el economista José Carlos Díez sugieren que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación. Por lo tanto, la afirmación es **falsa**. La afirmación no es del todo precisa ya que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elmundo.es/economia/2024/05/06/6634a39fe9cf4ab4408b45a9.html",
+            "source": "www.elmundo.es",
+            "favicon": "https://www.elmundo.es/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.eleconomista.es/economia/noticias/12840982/05/24/saiz-quiere-traer-mas-inmigrantes-cualificados-cuando-espana-desperdicia-el-56-de-su-talento.html",
+            "source": "www.eleconomista.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "3": {
+            "url": "https://www.democrata.es/economia/nmigrantes-trabajan-espana-sectores-peor-pagados-aportacion-economia/",
+            "source": "www.democrata.es",
+            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación",
+        "categories": [
+            "Economía",
+            "Inmigración",
+            "Trabajo"
+        ],
+        "label": "Fake",
+        "main_claim": "La mayoría de inmigrantes en España no trabajan en empleos por debajo de su cualificación",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.885939988998871,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.885939988998871,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:44:18",
+                    "run_time": 2.885939988998871,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\n\n**Critical Research Questions:**\n1. ¿Cuál es la proporción de inmigrantes en España que trabajan en empleos por debajo de su cualificación según los datos del Instituto Nacional de Estadística (INE) de 2025?\n2. ¿Cómo se compara la tasa de empleo de los inmigrantes en España con la de la población nativa en términos de cualificación según los estudios del Banco Mundial de 2025?\n3. ¿Qué opinan los expertos en migración y empleo sobre la afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación?\n4. ¿Cuáles son los datos y estadísticas sobre la cualificación y empleo de los inmigrantes en España según la Organización Internacional del Trabajo (OIT) de 2025?\n5. ¿Qué evidencia existe sobre la relación entre la cualificación y el empleo de los inmigrantes en España según los estudios de la Unión Europea de 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"empleo de inmigrantes en España por debajo de su cualificación INE 2025\", \"tasa de empleo de inmigrantes vs población nativa España cualificación Banco Mundial 2025\", \"opinión expertos migración empleo España mayoría inmigrantes empleos por debajo de su cualificación\", \"datos estadísticas cualificación empleo inmigrantes España OIT 2025\", \"relación entre cualificación empleo inmigrantes España estudios Unión Europea 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 2.627671727001143,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 2.627671727001143,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:44:20",
+                    "run_time": 2.627671727001143,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "empleo de inmigrantes en España por debajo de su cualificación INE 2025",
+                                "tasa de empleo de inmigrantes vs población nativa España cualificación Banco Mundial 2025",
+                                "opinión expertos migración empleo España mayoría inmigrantes empleos por debajo de su cualificación",
+                                "datos estadísticas cualificación empleo inmigrantes España OIT 2025",
+                                "relación entre cualificación empleo inmigrantes España estudios Unión Europea 2025"
+                            ],
+                            "results": {
+                                "empleo de inmigrantes en España por debajo de su cualificación INE 2025 | tasa de empleo de inmigrantes vs población nativa España cualificación Banco Mundial 2025 | opinión expertos migración empleo España mayoría inmigrantes empleos por debajo de su cualificación | datos estadísticas cualificación empleo inmigrantes España OIT 2025 | relación entre cualificación empleo inmigrantes España estudios Unión Europea 2025": [
+                                    {
+                                        "text": "Aunque siempre ha sido motivo de contienda política, en los últimos tiempos, la presencia de la inmigración en el debate ha aumentado de manera notable. Esto ha provocado también que se haya convertido en una de las principales preocupaciones de los españoles, según el CIS. Se repiten cifras y afirmaciones, por lo que nada mejor que recurrir a los datos y a las voces de economistas expertos para responder a ciertas preguntas clave sobre el tema: ¿La inmigración suma o resta a la economía española?, ¿trabajan los extranjeros en lo que no quieren los españoles?, ¿es necesaria para el mercado laboral?\n\nA raíz de los últimos datos oficiales al respecto, en los que se indica que la afiliación de extranjeros había crecido más de un 7% en el último año (casi cinco puntos por encima del conjunto de la afiliación), Demócrata ha planteado esas cuestiones a los economistas José Carlos Díez (CEO de Global Economic Analysis y director de la Cátedra ORFIN de la Universidad de Alcalá) y Albert Banal-Estanol (profesor en la Universidad Pompeu Fabra). Con ellos y con diversos informes del Real Instituto Elcano y de Funcas se puede inquirir con cierta base sobre lo que está pasando y lo que sucederá.\n\nLos peor pagados\n\nLa radiografía completa del último informe del Ministerio de Inclusión, Seguridad Social y Migraciones dibuja un panorama en el que los extranjeros ya representan el 14,2% del conjunto de afiliados a la Seguridad Social, con un total de 3.088.341.\n\nLas comunidades autónomas que lideran el crecimiento son Asturias (20,8%), Galicia (14,8%) y Castilla y León (13%), que fueron a su vez las que tuvieron la edad media más elevada en España en 2024, según el Instituto Nacional de Estadística (INE).\n\nTienen un peso especialmente relevante en el sector de la Hostelería, donde suponen uno de cada tres ocupados (29,7% de los afiliados), pero también en Agricultura (26,2%), Construcción (22,5%) y tanto en Actividades Administrativas como en Transporte, donde son más del 17% de los trabajadores.\n\nSe da la circunstancia de que la Hostelería y la Agricultura fueron, en 2023 (último año con datos actualizados), la segunda y la tercera área laboral con sueldos brutos mensuales más bajos, según el Instituto Nacional de Estadística (INE): 1.455,92 y 1.561,65 euros, respectivamente. Solo por detrás de las y los empleados de hogar (1.014,46 euros).\n\nSobre esto, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, que son necesarios para sacar adelante un modelo (“erróneo”, en opinión del economista) intensivo en mano de obra, que coloca a mucha gente en el turismo y la restauración. Es un sistema, agrega, “que produce precariedad, desigualdad y pobreza”. Para él, “habría que hacer una política migratoria más controlada y orientada a que vengan personas cualificadas, pero los empresarios no los traen porque los trámites burocráticos son brutales”.\n\nSectores que dependen de la inmigración\n\nA colación de lo anterior, el artículo Inmigración y mercado de trabajo en España, publicado el pasado mes de junio por el Real Instituto Elcano, señala que la inmigración que procede de países PBR (renta per cápita inferior a la española) supone un 91% del total de la inmigración que se encuentra en las edades de mayor actividad laboral (entre 25 y 59 años).\n\nUna de sus características más relevantes, añaden, es un bajo nivel educativo medio, sustancialmente inferior al de la población autóctona y especialmente bajo en el caso de la inmigración procedente de Asia y de África.\n\n“La inmigración PBR presenta menores tasas de ocupación que las correspondientes a la población autóctona de sus mismos grupos de edad, mucho mayores tasas de paro y una actividad que se concentra en sectores de servicios de baja productividad y en consecuencia bajos salarios y, por tanto, bajas aportaciones al sistema de pensiones”, sostienen los investigadores de Elcano.\n\nY agregan, “varios sectores dependen de modo mayoritario o muy relevante de la inmigración: el servicio doméstico, la hostelería, la construcción y la agricultura tienen entre sus empleados al menos a un 30% de inmigrantes y estos ocupan prácticamente el total del nuevo empleo que crean esos sectores”.\n\nLa segunda generación\n\n¿Puede cambiar este dibujo con la llamada segunda generación de inmigrantes? Sí, en parte, según el corolario del informe de Funcas La segunda generación de inmigrantes en el mercado de trabajo español, que compara cinco variables de esta segunda generación con su respectiva primera generación: la inactividad laboral, el paro, el trabajo en ocupaciones poco cualificadas, el empleo con contrato temporal y el empleo a jornada parcial. El análisis se centró en tres regiones de procedencia, cuyas primeras generaciones se caracterizaron por presentar índices de precariedad laboral especialmente altos en los últimos 30 años: América Latina, Europa del Este y África.\n\nLa primera conclusión se establece desde una perspectiva de género, puesto que “las mujeres de segunda generación están asimilándose con la población autóctona más rápido que los hombres. Esta diferencia por sexos es especialmente marcada al comparar la situación de las mujeres y los hombres de origen africano. Mientras que ellas superan a sus homólogas de primera generación en tres resultados laborales y se mantienen igual en dos, los hombres experimentan un retroceso en tres indicadores”.\n\nEn segundo lugar, “la segunda generación de América Latina es la que, en general, tanto los hombres como las mujeres, mejores resultados alcanzan con respecto a la primera. En el caso de las mujeres, la mejora se observa en tres resultados, y no se observa ningún retroceso. En el caso de los hombres se produce un empeoramiento en dos resultados, pero en uno de ellos (actividad) no resulta en una desventaja con respecto a los autóctonos, y en el otro (tiempo parcial), la incidencia de esta forma de empleo es relativamente baja (en torno a un 15 por ciento de los asalariados)”.\n\nY la tercera y última conclusión se refiere al resultado laboral seguramente más relevante de todos los analizados en este estudio, el nivel de la ocupación, medido según la clase ocupacional. “En toda la segunda generación, para ambos sexos y para todas las regiones de origen, la probabilidad neta de escapar de la parte más baja de la estructura ocupacional es notablemente mayor que para sus homólogos de primera generación. La mejora es tan pronunciada, que la desigualdad de la segunda generación con respecto a la población autóctona se cierra incluso para alguna de las categorías, quedando la brecha en cinco puntos porcentuales en el peor de los casos. Mientras que la primera generación de inmigrantes no ha podido revertir en tres décadas su ethnic penalty, parece que los descendientes de estos sí lo están logrando, al menos en lo tocante al nivel ocupacional de los trabajadores”.\n\n¿Suman o restan?\n\n¿Los inmigrantes aportan o detraen? Es la disyuntiva recurrente que, al albur de los estudios, tiene una clara respuesta. Lo comenta el economista Albert Banal-Estanol: “Hay evidencia académica de sobra que muestra que lo que aportan los extranjeros es mucho más de lo que reciben. La gente se queda con algunas anécdotas y, a partir de ahí, salen otros problemas y, al final, es más fácil buscar los culpables en los de otro color, que en factores más complejos”.\n\nEn otro artículo de Funcas –de mayo de 2024– se indica que “una de las claves del dinamismo que mantiene la economía española contra viento y marea reside en la incorporación de mano de obra extranjera, siendo este un factor favorable que, sin embargo, también pone de manifiesto las deficiencias de nuestro modelo productivo”.\n\nIncluso teniendo en cuenta la sobrerrepresentación de los trabajadores inmigrantes en sectores con niveles de productividad inferiores a la media, continúan, “su contribución a la economía es innegable, aportando más de la mitad del avance del PIB registrado estos últimos dos años. Esta es además una estimación conservadora, basada en una extrapolación mecánica de la contribución del empleo a la economía, bajo la hipótesis de fungibilidad perfecta entre mano de obra autóctona y foránea”.",
+                                        "metadata": {
+                                            "url": "https://www.democrata.es/economia/nmigrantes-trabajan-espana-sectores-peor-pagados-aportacion-economia/",
+                                            "source": "www.democrata.es",
+                                            "favicon": "https://www.democrata.es/wp-content/uploads/2025/06/cropped-Screenshot-2025-06-26-at-13.04.51-32x32.png",
+                                            "title": "Cada vez más inmigrantes trabajan en España y copan los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.democrata.es",
+                                            "snippet": "Los últimos datos reflejan que España ha sumado 200.000 ocupados inmigrantes más en un año. Los extranjeros están sobrerrepresentados en algunos ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las dificultades para encontrar mano de obra han reactivado en los últimos años la petición por parte de las empresas de atraer inmigrantes de mayor cualificación. Esta idea ha calado en el Ministerio de Inclusión, Seguridad Social y Migraciones, cuya titular, Elma Saiz, está trabajando en flexibilizar los requisitos que permiten la contratación de estos profesionales de países de fuera de la Unión Europea o incluso 'robárselos' a otros países miembros. Pero este plan choca con la realidad que se encuentran estos trabajadores preparados al llegar a nuestro país, donde arrastran una tasa de sobrecualificación del 56%, es decir, de empleos en categorías muy por debajo de las que les corresponde.\n\nLa idea de Saiz parte de un diagnóstico sobre la falta de mano de obra que no todos comparten, ni siquiera en el seno del propio Gobierno. La vicepresidenta segunda y ministra de Trabajo, Yolanda Díaz, no le ve mucho sentido a esta estrategia cuando la tasa de paro de las personas que viven en España aún se mantiene en el 12% (de los que una quinta parte son extranjeros).\n\nLos sindicatos, por su parte, consideran que la petición para atraer inmigrantes que lanzan las patronales CEOE y Cepyme solo busca aliviar la presión salarial que la falta de trabajadores provoca en varios sectores y no responde a una verdadera necesidad de trabajadores.\n\nEl fracaso de la apertura de catálogo de ocupaciones de difícil cobertura (una herramienta burocrática para permitir la contratación en origen en sectores donde no se encuentran trabajadores) a puestos en la construcción, que en su primer año se tradujo en 250 trabajadores foráneos para unas vacantes que el sector estima en 700.000, parecen dar la razón a estos argumentos.\n\nSin embargo, desde Migraciones se critica la complejidad burocrática de este tipo de mecanismos lo que disuade a las empresas de aprovecharlos y lleva a que mucho de ese talento acabe en otros países europeos que sufren problemas de falta de mano de obra con una intensidad mucho mayor que el nuestro. Aunque los datos apuntan a que el problema no tiene tanto que ver con la burocracia como con la falta de oportunidades adecuadas.\n\nUn reto demográfico\n\nEspaña es uno de los países con menos vacantes, apenas 47 por cada 1.000 parados a cierre de 2023, algo que parce coherente con el hecho de que somos también el país con la mayor tasa de paro de los Veintisiete. Pero las grandes economías como Alemania registran más puestos por cubrir que desempleados. Esto les convierte en un motor que atrae a profesionales cualificados, menos restringidos además por la cuestión idiomática, que siempre ha sido una de las supuestas fortalezas de la economía española.\n\nLa preocupación de Saiz difiere de la de las patronales en este punto: el problema no es la falta de mano de obra, sino la pérdida de competitividad de España para atraer inmigrantes que ocupen mejores empleos. Aunque tras la pandemia el empleo extranjero ha repuntado con fuerza, el problema es que lo hace en trabajos que requieren baja cualificación y con unas condiciones laborales más volátiles, como la hostelería. Y esto hace que esas personas no se establezcan definitivamente en España ni formen una familia, una cuestión demográfica clave para la también ministra de pensiones.\n\nSolo el 27% de los inmigrantes de fuera de la UE entre 25 y 64 años que viven en España tiene una titulación superior, una de las tasas más bajas de los Veintisiete por detrás de Croacia, Italia, Grecia y Eslovenia (aunque no muy lejos de Alemania, donde llegan a 29,8%). Contrasta con el 40,4% de los españoles, 19 puntos más. Pero prestemos por un momento atención a este diferencial: es el segundo más alto de la Unión, solo superado por Eslovenia.\n\nEsto tiene un impacto directo en los salarios y los ingresos por cotizaciones que generan (otra cuestión que preocupa a Saiz). La base media de cotización de los extranjeros extracomunitarios, es decir, la remuneración total sobre la que se calcula su aportación a la Seguridad Social, se situaba a cierre de 2023 en 1.570,68 euros, un 29,1% menos que la de un español, que alcanza los 2.216 euros. Un problema cuando se trata del 66% de los cotizantes foráneos viene de fuera de la UE (principalmente Marruecos, Colombia y Venezuela).\n\nMás expectativas para el talento\n\nLos datos confirman que España atrae profesionales con menor nivel de cualificación que la gran mayoría de nuestros vecinos y muy por debajo de los nacionales. Esto, a priori, alienta la idea de que para mejorar estas tasas hay que facilitar que las empresas puedan ir a terceros países a contratar directamente trabajadores cualificados. Sin embargo, este análisis no tiene en cuenta la situación que atraviesan los inmigrantes cualificados que ya están en España.\n\nY es que registran una tasa de sobrecualificación del 56%, frente al 34,4% de los nacionales y el 42,3% de los ciudadanos de otros países europeos. Es decir, más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación. Solo Grecia (69,6%) e Italia (64,1%) tiene una tasa mayor a la española, que supera en casi 25 puntos porcentuales la alemana (31,3%).\n\nEso cuando encuentran empleo, porque su tasa de ocupación es 12 puntos inferior a la de los españoles, un desfase que apunta que la nacionalidad es un problema mayor que la cualificación para trabajar en nuestro país.\n\nEste decalaje ilustra el déficit de gestión de talento y explica que las medidas para flexibilizar la contratación de estos trabajadores no despeguen: las ofertas de trabajo cualificado son escasas y otros países europeos ofrecen mejores oportunidades. Y no solo a los ciudadanos foráneos, también a los inmigrantes de otros países europeos.\n\nDe hecho, solo un 34% de los inmigrantes con titulación superior ocupa puestos en las categorías profesionales asociadas a esa cualificación, el porcentaje más bajo de la UE después de Italia. Alemania, por su parte, anota un 51,4%, aunque otras grandes economías como Francia (54,3%) o Países Bajos (60%) lo superan.\n\nAnte estos datos, facilitar los trámites burocráticos se antoja una medida de eficacia limitada para que España pueda competir en la 'guerra por el talento' desatada en Europa, donde el envejecimiento de la población activa ha disparado la demanda de profesionales cualificados.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/economia/noticias/12840982/05/24/saiz-quiere-traer-mas-inmigrantes-cualificados-cuando-espana-desperdicia-el-56-de-su-talento.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "España insiste en traer más inmigrantes cualificados ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "Los datos confirman que España atrae profesionales con menor nivel de cualificación que la gran mayoría de nuestros vecinos y muy por debajo de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España es el segundo país de la Unión Europea con más población inmigrante sólo por detrás de Alemania, e incluso por delante de ese país si se mide en tasa de entradas por cada mil habitantes, pero tan sólo un 23,1% de los extranjerosresidentes en el país en edad de trabajar cuenta con una titulación universitaria, el quinto porcentaje más bajo de todo el continente, según los últimos datos de Eurostat relativos a 2023. Una proporción que, si no se revierte a medio plazo, supondrá un reto demográfico de primera magnitud y un desafío para la productividad, el crecimiento económico y las cuentas públicas.\n\nSe trata de un porcentaje que se ha mantenido constante en las últimas décadas -en 2004, un 24,1% de la población inmigrante era titulada; en 2014 lo era un 23%-, lo que demuestra que los flujos migratorios que recibe el país presentan anualmente esa misma distribución: España es un país muy atractivo para la población foránea, pero sobre todo para la menos cualificada.\n\nNuestro país se sitúa así muy lejos de otros estados como Irlanda, donde el 60,5% de la población migrante cuenta con estudiossuperiores, de Lituania (con un 60,4%), Luxemburgo (53,3%), Polonia (48,8%) o Eslovaquia (45,6%). Únicamente presentan ratios peores que la nuestra Grecia, Eslovenia, Italia y Finlandia.\n\nDetrás de esta composición educativa de la población migrante se encuentra, como razón principal, la latitud de la que proceden. En 2022 -último año del que hay datos definitivos del INE-, España perdió 137.000 residentes nativos (por el envejecimiento de la población y la caída de la natalidad: murieron más de los que nacieron), pero ganó 736.000 inmigrantes; con lo que la población en su conjunto creció en casi 600.000 personas. Más de la mitad de los que llegaron procedían de Sudamérica (los colectivos mayoritarios eran de colombianos, venezolanos, peruanos y argentinos), mientras que un 13% venían de África (sobre todo de Marruecos) y un 11,4% eran ucranianos -por la situación excepcional de guerra en ese país-.\n\n\"La población nacida en el extranjero residente en España con menor rendimiento educativo procede de África: sólo el 6% ha obtenido un título universitario. Los inmigrantes nacidos en países latinoamericanos -el grupo más numeroso- presentan una composición educativa más equilibrada: el 31% ha alcanzado como máximo la educación secundaria obligatoria, proporción que coincide con la de las personas que han completado la educación secundaria post-obligatoria no universitaria, mientras que el 24% ha obtenido titulación universitaria\", alertaba Funcas recientemente.\n\nEsta composición geográfica variará en el futuro, según ha advertido ya la Autoridad Independiente de Responsabilidad Fiscal (AIReF) y ha contado este medio, con una cuota cada vez mayor de africanos que llegará a superar a la de sudamericanos, lo que podría a su vez reducir la proporción de titulados y agravar lo que esto supone para la economía.\n\nLas repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.\n\nSegún los cálculos de esta institución, para que la tasa de dependencia (es decir, la relación entre la población que trabaja y la que no lo hace -en la que se encuentran niños y pensionistas-) se mantenga dentro de tres décadas en el 26,6% de ahora, sería necesaria una población total de entre 16 y 66 años equivalente a 55,8 millones de personas.\n\nDado que el INE proyecta que en 2053 habrá 18,8 millones de nativos de esa edad en el país, y que España contará con 12,3 millones de inmigrantes en esa franja de edad; la institución que gobierna Pablo Hernández de Cos calcula que harán falta 24,6 millones de inmigrantes adicionales en edad de trabajar. \"Esto no es una estimación del número de inmigrantes que deberían llegar a España (flujo), sino en cuanto debería haber aumentado el stock en esa fecha\", puntualizan.\n\nEspaña exporta talento\n\nEl país, por tanto, necesita recibir más población foránea de la que prevén los modelos y, además, debe mejorar la formación media de la misma. \"El porcentaje de inmigrantes con estudios superiores en España es comparativamente bajo respecto a la mayoría de países de la Unión Europea. Más aún, a diferencia de otros Estados miembros, España no ha sido capaz de mejorar en las últimas décadas el nivel educativo de los inmigrantes en las edades centrales de la vida laboral. Esta falta de progreso choca con la reciente llamada de atención de la Comisión Europea sobre la necesidad de atraer inmigrantes cualificados y con talento, entre otros factores, por los efectos que el envejecimiento y la caída de la población europea ya están provocando en la disponibilidad de mano de obra\", advierte Funcas.\n\nEsta mejora en la formación no sólo es necesaria por el envejecimiento demográfico, que reduce la cantidad de personas en edad de trabajar, sino que además debe compensar la salida de nativos cualificados que se está produciendo a otros países. España importa inmigrantes con bajos niveles de formación, mientras que exporta capital humano cualificado. \"Entre el colectivo de personas nacidas en España que emigran es especialmente elevada la incidencia de aquellas con estudios universitarios, que representaban en torno al 60% del total en 2022\", apunta el supervisor.\n\nEsta fuga de talento agrava las dificultades que tienen muchas empresas para cubrir vacantes que requieren altos niveles de formación, merma la productividad media de la economía (que está directamente vinculada al capital humano), reduce el potencial de crecimiento y dificulta un proceso fundamental como es el de la digitalización. \"Los flujos migratorios que estamos recibiendo hasta el momento no pueden cubrir la necesidades en este ámbito\", subrayó Gavilán.\n\nY a todo ello hay que sumar el desafío que para las cuentas públicas supone el envejecimiento de la población. «A lo largo de las últimas décadas, las dinámicas demográficas en España se han caracterizado por una caída de fecundidad como de la tasa de mortalidad», explica el Banco de España, que añade que «entre 2023 y 2053, la tasa de dependencia [la ratio entre los mayores de 66 años y el colectivo entre 16 y 66 años] en España aumentará en 27,2 puntos porcentuales, hasta el 53,8%, mientras que en el promedio de la UE el incremento de dicha tasa será de solo 16,6 puntos, hasta el 45,8%».\n\nLa consecuencia, en términos de pensiones, sería que la economía española tendrá que destinar en tres décadas en torno al 17,3% del Producto Interior Bruto (PIB) al pago de las pensiones públicas. Esta partida debería financiarse con las cotizaciones sociales que abonan mensualmente de la nómina empresas y trabajadores, de ahí que es deseable que la proporción de personas trabajadoras aumente. La pirámide de población impedirá tal cosa a menos que se retrase la edad de jubilación o que la inmigración se dispare por encima de las previsiones.\n\nAdemás, dado que las cotizaciones se calculan en función del sueldo, es importante que aumente la proporción de empleo de alto valor añadido, más productivo y con salarios más elevados, para lo cual no sólo es fundamental que las empresas incrementen la demanda de ese tipo de perfiles sino que haya oferta laboral para cubrirlos: nativa (reduciendo el abandono escolar, redirigiendo las vocaciones de los más jóvenes y evitando que los formados se vayan al extranjero) o foránea (fomentando la captación de perfiles cualificados).",
+                                        "metadata": {
+                                            "url": "https://www.elmundo.es/economia/2024/05/06/6634a39fe9cf4ab4408b45a9.html",
+                                            "source": "www.elmundo.es",
+                                            "favicon": "https://www.elmundo.es/favicon.ico",
+                                            "title": "Un 80% de los inmigrantes en España tiene baja ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elmundo.es",
+                                            "snippet": "Un 80% de los inmigrantes en España tiene baja cualificación, mientras el 60% de los nativos que emigran son universitarios · España exporta ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Código HTML para insertar el gráfico\n\n¿Puedo integrar la infografía en mi blog o sitio web?\n\nSí, Statista permite integrar muchos infografía en otros sitios web de forma sencilla. Para ello solo tiene que copiar el código HTML mostrado para cada estadística. Nuestra imagen estándar es de 660 píxeles, pero puede modificarla para adaptarla a su sito web. Tenga en cuenta que el código se debe integrar en el código HTML (no solo el texto) de su sitio web.",
+                                        "metadata": {
+                                            "url": "https://es.statista.com/grafico/34956/porcentaje-de-trabajadores--de-entre-20-y-64-anos--sobrecualificados-en-la-ue-segun-su-nacionalidad/",
+                                            "source": "es.statista.com",
+                                            "favicon": "https://cdn.statcdn.com/static/favicon.svg",
+                                            "title": "Extranjeros: más expuestos a empleos por debajo de su ...",
+                                            "type": "web_search",
+                                            "base_url": "https://es.statista.com",
+                                            "snippet": "En el caso de los extranjeros procedentes de otros países de la UE, la tasa de sobrecualificación es del 30,3%. En el grupo de los nacionales, ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00081783,
+                "total_run_time": 1.1464711180015001,
+                "average_cost_per_call": 0.00081783,
+                "average_time_per_call": 1.1464711180015001,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:44:21",
+                    "run_time": 1.1464711180015001,
+                    "cost": 0.00081783,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la proporción de inmigrantes en España que trabajan en empleos por debajo de su cualificación según los datos del Instituto Nacional de Estadística (INE) de 2025?": [
+                                {
+                                    "Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.": null
+                                },
+                                {
+                                    "Y es que registran una tasa de sobrecualificación del 56%, frente al 34,4% de los nacionales y el 42,3% de los ciudadanos de otros países europeos. Es decir, más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación. Solo Grecia (69,6%) e Italia (64,1%) tiene una tasa mayor a la española, que supera en casi 25 puntos porcentuales la alemana (31,3%).": null
+                                },
+                                {
+                                    "Se trata de un porcentaje que se ha mantenido constante en las últimas décadas -en 2004, un 24,1% de la población inmigrante era titulada; en 2014 lo era un 23%-, lo que demuestra que los flujos migratorios que recibe el país presentan anualmente esa misma distribución: España es un país muy atractivo para la población foránea, pero sobre todo para la menos cualificada.": null
+                                }
+                            ],
+                            "¿Cómo se compara la tasa de empleo de los inmigrantes en España con la de la población nativa en términos de cualificación según los estudios del Banco Mundial de 2025?": [
+                                {
+                                    "Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.": null
+                                },
+                                {
+                                    "Se trata de un porcentaje que se ha mantenido constante en las últimas décadas -en 2004, un 24,1% de la población inmigrante era titulada; en 2014 lo era un 23%-, lo que demuestra que los flujos migratorios que recibe el país presentan anualmente esa misma distribución: España es un país muy atractivo para la población foránea, pero sobre todo para la menos cualificada.": null
+                                },
+                                {
+                                    "España es el segundo país de la Unión Europea con más población inmigrante sólo por detrás de Alemania, e incluso por delante de ese país si se mide en tasa de entradas por cada mil habitantes, pero tan sólo un 23,1% de los extranjerosresidentes en el país en edad de trabajar cuenta con una titulación universitaria, el quinto porcentaje más bajo de todo el continente, según los últimos datos de Eurostat relativos a 2023. Una proporción que, si no se revierte a medio plazo, supondrá un reto demográfico de primera magnitud y un desafío para la productividad, el crecimiento económico y las cuentas públicas.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en migración y empleo sobre la afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación?": [
+                                {
+                                    "Los datos confirman que España atrae profesionales con menor nivel de cualificación que la gran mayoría de nuestros vecinos y muy por debajo de los nacionales. Esto, a priori, alienta la idea de que para mejorar estas tasas hay que facilitar que las empresas puedan ir a terceros países a contratar directamente trabajadores cualificados. Sin embargo, este análisis no tiene en cuenta la situación que atraviesan los inmigrantes cualificados que ya están en España.": null
+                                },
+                                {
+                                    "Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.": null
+                                },
+                                {
+                                    "Sobre esto, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, que son necesarios para sacar adelante un modelo (“erróneo”, en opinión del economista) intensivo en mano de obra, que coloca a mucha gente en el turismo y la restauración. Es un sistema, agrega, “que produce precariedad, desigualdad y pobreza”. Para él, “habría que hacer una política migratoria más controlada y orientada a que vengan personas cualificadas, pero los empresarios no los traen porque los trámites burocráticos son brutales”.": null
+                                }
+                            ],
+                            "¿Cuáles son los datos y estadísticas sobre la cualificación y empleo de los inmigrantes en España según la Organización Internacional del Trabajo (OIT) de 2025?": [
+                                {
+                                    "Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.": null
+                                },
+                                {
+                                    "Dado que el INE proyecta que en 2053 habrá 18,8 millones de nativos de esa edad en el país, y que España contará con 12,3 millones de inmigrantes en esa franja de edad; la institución que gobierna Pablo Hernández de Cos calcula que harán falta 24,6 millones de inmigrantes adicionales en edad de trabajar. \"Esto no es una estimación del número de inmigrantes que deberían llegar a España (flujo), sino en cuanto debería haber aumentado el stock en esa fecha\", puntualizan.": null
+                                },
+                                {
+                                    "Las dificultades para encontrar mano de obra han reactivado en los últimos años la petición por parte de las empresas de atraer inmigrantes de mayor cualificación. Esta idea ha calado en el Ministerio de Inclusión, Seguridad Social y Migraciones, cuya titular, Elma Saiz, está trabajando en flexibilizar los requisitos que permiten la contratación de estos profesionales de países de fuera de la Unión Europea o incluso 'robárselos' a otros países miembros. Pero este plan choca con la realidad que se encuentran estos trabajadores preparados al llegar a nuestro país, donde arrastran una tasa de sobrecualificación del 56%, es decir, de empleos en categorías muy por debajo de las que les corresponde.": null
+                                }
+                            ],
+                            "¿Qué evidencia existe sobre la relación entre la cualificación y el empleo de los inmigrantes en España según los estudios de la Unión Europea de 2025?": [
+                                {
+                                    "Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.": null
+                                },
+                                {
+                                    "Los datos confirman que España atrae profesionales con menor nivel de cualificación que la gran mayoría de nuestros vecinos y muy por debajo de los nacionales. Esto, a priori, alienta la idea de que para mejorar estas tasas hay que facilitar que las empresas puedan ir a terceros países a contratar directamente trabajadores cualificados. Sin embargo, este análisis no tiene en cuenta la situación que atraviesan los inmigrantes cualificados que ya están en España.": null
+                                },
+                                {
+                                    "Las dificultades para encontrar mano de obra han reactivado en los últimos años la petición por parte de las empresas de atraer inmigrantes de mayor cualificación. Esta idea ha calado en el Ministerio de Inclusión, Seguridad Social y Migraciones, cuya titular, Elma Saiz, está trabajando en flexibilizar los requisitos que permiten la contratación de estos profesionales de países de fuera de la Unión Europea o incluso 'robárselos' a otros países miembros. Pero este plan choca con la realidad que se encuentran estos trabajadores preparados al llegar a nuestro país, donde arrastran una tasa de sobrecualificación del 56%, es decir, de empleos en categorías muy por debajo de las que les corresponde.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.930460062001657,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.930460062001657,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:44:36",
+                    "run_time": 12.930460062001657,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la proporción de inmigrantes en España que trabajan en empleos por debajo de su cualificación según los datos del Instituto Nacional de Estadística (INE) de 2025?\n¿Cómo se compara la tasa de empleo de los inmigrantes en España con la de la población nativa en términos de cualificación según los estudios del Banco Mundial de 2025?\n¿Qué opinan los expertos en migración y empleo sobre la afirmación de que la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación?\n¿Cuáles son los datos y estadísticas sobre la cualificación y empleo de los inmigrantes en España según la Organización Internacional del Trabajo (OIT) de 2025?\n¿Qué evidencia existe sobre la relación entre la cualificación y el empleo de los inmigrantes en España según los estudios de la Unión Europea de 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] Las repercusiones de esta baja tasa de cualificación entre los extranjeros residentes en el país son de mucho calado, algo de lo que advierte el Banco de España en los capítulos 1 y 2 de su informe anual que publicó la pasada semana. \"Si no hay cambios significativos en los flujos migratorios, hay desajustes que no se van a poder solucionar. En 2023, de los inmigrantes que acaban de llegar (que llevan menos de 1 año) alrededor del 80% no tiene título universitario y el 70% trabaja en puestos sin cualificación. Los flujos están siendo muy importantes para mitigar el envejecimiento, pero no resuelven el problema. Pensando en la transición digital y ecológica que va a requerir de perfiles altamente cualificados, los flujos que estamos recibiendo hasta el momento no parecen que puedan cubrir esa carencia\", alertó Ángel Gavilán, director general de Economía y Estadística del supervisor bancario, durante la presentación del mencionado documento. \"Hay que seguir avanzando en políticas migratorias que traten de solucionar estos desequilibrios\", animaba al Gobierno.\n[0] Se trata de un porcentaje que se ha mantenido constante en las últimas décadas -en 2004, un 24,1% de la población inmigrante era titulada; en 2014 lo era un 23%-, lo que demuestra que los flujos migratorios que recibe el país presentan anualmente esa misma distribución: España es un país muy atractivo para la población foránea, pero sobre todo para la menos cualificada.\n[0] España es el segundo país de la Unión Europea con más población inmigrante sólo por detrás de Alemania, e incluso por delante de ese país si se mide en tasa de entradas por cada mil habitantes, pero tan sólo un 23,1% de los extranjerosresidentes en el país en edad de trabajar cuenta con una titulación universitaria, el quinto porcentaje más bajo de todo el continente, según los últimos datos de Eurostat relativos a 2023. Una proporción que, si no se revierte a medio plazo, supondrá un reto demográfico de primera magnitud y un desafío para la productividad, el crecimiento económico y las cuentas públicas.\n[0] Dado que el INE proyecta que en 2053 habrá 18,8 millones de nativos de esa edad en el país, y que España contará con 12,3 millones de inmigrantes en esa franja de edad; la institución que gobierna Pablo Hernández de Cos calcula que harán falta 24,6 millones de inmigrantes adicionales en edad de trabajar. \"Esto no es una estimación del número de inmigrantes que deberían llegar a España (flujo), sino en cuanto debería haber aumentado el stock en esa fecha\", puntualizan.\n[1] Y es que registran una tasa de sobrecualificación del 56%, frente al 34,4% de los nacionales y el 42,3% de los ciudadanos de otros países europeos. Es decir, más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación. Solo Grecia (69,6%) e Italia (64,1%) tiene una tasa mayor a la española, que supera en casi 25 puntos porcentuales la alemana (31,3%).\n[1] Los datos confirman que España atrae profesionales con menor nivel de cualificación que la gran mayoría de nuestros vecinos y muy por debajo de los nacionales. Esto, a priori, alienta la idea de que para mejorar estas tasas hay que facilitar que las empresas puedan ir a terceros países a contratar directamente trabajadores cualificados. Sin embargo, este análisis no tiene en cuenta la situación que atraviesan los inmigrantes cualificados que ya están en España.\n[1] Las dificultades para encontrar mano de obra han reactivado en los últimos años la petición por parte de las empresas de atraer inmigrantes de mayor cualificación. Esta idea ha calado en el Ministerio de Inclusión, Seguridad Social y Migraciones, cuya titular, Elma Saiz, está trabajando en flexibilizar los requisitos que permiten la contratación de estos profesionales de países de fuera de la Unión Europea o incluso 'robárselos' a otros países miembros. Pero este plan choca con la realidad que se encuentran estos trabajadores preparados al llegar a nuestro país, donde arrastran una tasa de sobrecualificación del 56%, es decir, de empleos en categorías muy por debajo de las que les corresponde.\n[2] Sobre esto, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, que son necesarios para sacar adelante un modelo (“erróneo”, en opinión del economista) intensivo en mano de obra, que coloca a mucha gente en el turismo y la restauración. Es un sistema, agrega, “que produce precariedad, desigualdad y pobreza”. Para él, “habría que hacer una política migratoria más controlada y orientada a que vengan personas cualificadas, pero los empresarios no los traen porque los trámites burocráticos son brutales”.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación según los datos del Banco de España [0]. Según el informe anual del Banco de España, alrededor del 80% de los inmigrantes que acaban de llegar al país (que llevan menos de 1 año) no tiene título universitario y el 70% trabaja en puestos sin cualificación [0]. Esto sugiere que una gran proporción de inmigrantes en España están trabajando en empleos que no corresponden a su nivel de cualificación.\n\nAdemás, según los datos de Eurostat, tan sólo un 23,1% de los extranjeros residentes en el país en edad de trabajar cuenta con una titulación universitaria, lo que es el quinto porcentaje más bajo de todo el continente [0]. Esto indica que la mayoría de los inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados.\n\n**Contradicciones a la afirmación**\n\nSin embargo, hay evidencia que sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa. Según los datos del INE, la tasa de sobrecualificación de los inmigrantes en España es del 56%, lo que significa que más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación [1]. Esto sugiere que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.\n\nAdemás, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, pero también sugiere que hay una necesidad de atraer personas cualificadas [2]. Esto sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" parece ser parcialmente verdadera. Los datos del Banco de España y Eurostat sugieren que una gran proporción de inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados. Sin embargo, los datos del INE y el economista José Carlos Díez sugieren que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación. Por lo tanto, la afirmación es **falsa**. La afirmación no es del todo precisa ya que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5197058919984556,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5197058919984556,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:44:39",
+                    "run_time": 2.5197058919984556,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación según los datos del Banco de España [0]. Según el informe anual del Banco de España, alrededor del 80% de los inmigrantes que acaban de llegar al país (que llevan menos de 1 año) no tiene título universitario y el 70% trabaja en puestos sin cualificación [0]. Esto sugiere que una gran proporción de inmigrantes en España están trabajando en empleos que no corresponden a su nivel de cualificación.\n\nAdemás, según los datos de Eurostat, tan sólo un 23,1% de los extranjeros residentes en el país en edad de trabajar cuenta con una titulación universitaria, lo que es el quinto porcentaje más bajo de todo el continente [0]. Esto indica que la mayoría de los inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados.\n\n**Contradicciones a la afirmación**\n\nSin embargo, hay evidencia que sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa. Según los datos del INE, la tasa de sobrecualificación de los inmigrantes en España es del 56%, lo que significa que más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación [1]. Esto sugiere que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.\n\nAdemás, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, pero también sugiere que hay una necesidad de atraer personas cualificadas [2]. Esto sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" parece ser parcialmente verdadera. Los datos del Banco de España y Eurostat sugieren que una gran proporción de inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados. Sin embargo, los datos del INE y el economista José Carlos Díez sugieren que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación. Por lo tanto, la afirmación es **falsa**. La afirmación no es del todo precisa ya que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\nArticle: **Análisis de la afirmación**\n\n**Soporte a la afirmación**\n\nLa mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación según los datos del Banco de España [0]. Según el informe anual del Banco de España, alrededor del 80% de los inmigrantes que acaban de llegar al país (que llevan menos de 1 año) no tiene título universitario y el 70% trabaja en puestos sin cualificación [0]. Esto sugiere que una gran proporción de inmigrantes en España están trabajando en empleos que no corresponden a su nivel de cualificación.\n\nAdemás, según los datos de Eurostat, tan sólo un 23,1% de los extranjeros residentes en el país en edad de trabajar cuenta con una titulación universitaria, lo que es el quinto porcentaje más bajo de todo el continente [0]. Esto indica que la mayoría de los inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados.\n\n**Contradicciones a la afirmación**\n\nSin embargo, hay evidencia que sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa. Según los datos del INE, la tasa de sobrecualificación de los inmigrantes en España es del 56%, lo que significa que más de la mitad trabajan en puestos por debajo de la categoría profesional que les correspondería por su titulación [1]. Esto sugiere que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación.\n\nAdemás, el economista José Carlos Díez indica que se están trayendo extranjeros de muy baja cualificación, pero también sugiere que hay una necesidad de atraer personas cualificadas [2]. Esto sugiere que la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" puede no ser del todo precisa.\n\n**Conclusión**\n\nEn conclusión, la afirmación \"la mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\" parece ser parcialmente verdadera. Los datos del Banco de España y Eurostat sugieren que una gran proporción de inmigrantes en España no tienen la cualificación necesaria para trabajar en empleos más cualificados. Sin embargo, los datos del INE y el economista José Carlos Díez sugieren que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación. Por lo tanto, la afirmación es **falsa**. La afirmación no es del todo precisa ya que no todos los inmigrantes en España están trabajando en empleos por debajo de su cualificación."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La mayoría de inmigrantes en España trabajan en empleos por debajo de su cualificación\", \"categories\": [\"Economía\", \"Inmigración\", \"Trabajo\"], \"label\": \"Fake\", \"main_claim\": \"La mayoría de inmigrantes en España no trabajan en empleos por debajo de su cualificación\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00581783,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

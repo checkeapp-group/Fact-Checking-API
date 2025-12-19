@@ -1,0 +1,602 @@
+{
+    "question": "Los países de mayoría musulmana no acogen a refugiados",
+    "answer": "La afirmación sostiene que los países con mayoría musulmana no acogen a refugiados. No obstante, los datos disponibles indican que **algunos países musulmanes sí acogen refugiados**, aunque no todos los países musulmanes acogen a refugiados. Por ejemplo, **Tunisia, Turquía y Líbano** han sido receptores de refugiados en diferentes momentos, aunque Turquía es un país con mayoría musulmana y acogió a miles de refugiados sirios. Además, **Irán, Arabia Saudí y Qatar** han acogido refugiados sirios y afganos, aunque en menor medida. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen. \n\n**Contraste de evidencias**: \n1. **Tunisia** ha acogido a refugiados sirios, afganos y palestinos, aunque no es un país con mayoría musulmana. \n2. **Turquía**, con mayoría musulmana, ha acogido a miles de refugiados sirios, aunque no es un país con mayoría musulmana. \n3. **Irán** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana. \n4. **Arabia Saudí** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana. \n5. **Qatar** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana. \n\n**Conclusión**: La afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen. Por ejemplo, **Tunisia, Turquía, Irán, Arabia Saudí y Qatar** han acogido a refugiados en diferentes momentos. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {},
+    "related_questions": {},
+    "metadata": {
+        "title": "Los países de mayoría musulmana no acogen a refugiados",
+        "categories": [
+            "Política",
+            "Refugiados",
+            "Migración"
+        ],
+        "label": "Fake",
+        "main_claim": "Algunos países musulmanes sí acogen refugiados, como Turquía, Irán o Arabia Saudí, aunque no todos los países musulmanes acogen a refugiados.",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.6699642079984187,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.6699642079984187,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 16:10:15",
+                    "run_time": 2.6699642079984187,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos países de mayoría musulmana no acogen a refugiados\n\n**Critical Research Questions:**\n1. ¿Cuántos refugiados acogieron en 2025 los países con mayoría musulmana?\n2. ¿Cómo comparan los datos de acogida de refugiados de países musulmanes con los de países no musulmanes?\n3. ¿Qué países musulmanes han acogido refugiados en 2025 y cuántos?\n4. ¿Existen casos concretos de refugiados acogidos en países musulmanes?\n5. ¿Cuáles son las políticas migratorias de países musulmanes en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"estadísticas de acogida de refugiados 2025 por países con mayoría musulmana\", \"comparativa de refugiados acogidos por países musulmanes vs no musulmanes 2025\", \"países musulmanes que acogieron refugiados 2025 y número de refugiados\", \"casos concretos de refugiados acogidos en países musulmanes 2025\", \"políticas migratorias de países musulmanes 2025 ONU datos\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.8902125179993163,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.8902125179993163,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 16:10:19",
+                    "run_time": 3.8902125179993163,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "estadísticas de acogida de refugiados 2025 por países con mayoría musulmana",
+                                "comparativa de refugiados acogidos por países musulmanes vs no musulmanes 2025",
+                                "países musulmanes que acogieron refugiados 2025 y número de refugiados",
+                                "casos concretos de refugiados acogidos en países musulmanes 2025",
+                                "políticas migratorias de países musulmanes 2025 ONU datos"
+                            ],
+                            "results": {
+                                "estadísticas de acogida de refugiados 2025 por países con mayoría musulmana | comparativa de refugiados acogidos por países musulmanes vs no musulmanes 2025 | países musulmanes que acogieron refugiados 2025 y número de refugiados | casos concretos de refugiados acogidos en países musulmanes 2025 | políticas migratorias de países musulmanes 2025 ONU datos": [
+                                    {
+                                        "text": "La afirmación aparece con frecuencia en redes sociales y en distintos idiomas. ¿Qué dicen los hechos? ¿Tienen ciertos grupos religiosos una representación desproporcionada entre los refugiados? ¿Dónde solicitan asilo?\n\nLas políticas de migración y asilo han sido temas clave en las campañas electorales y los debates políticos de los últimos años y meses en países como Alemania, EE. UU., Países Bajos y Polonia. A menudo, estos debates se vuelven emocionales y abunda la desinformación.\n\nEl \"Fondo de Solidaridad \", un componente importante del nuevo Pacto de Migración y Asilo de la Unión Europea, entrará en vigor a mediados de 2026.\n\nEn virtud de este marco, los Estados miembros que se enfrentan a una alta presión migratoria pueden optar por la ayuda del fondo común. Una evaluación reciente de la Comisión Europea indica que Alemania, entre otros países, puede solicitar una exención para no aceptar más solicitantes de asilo hasta finales de 2026.\n\nLa UE está debatiendo actualmente la distribución de migrantes y solicitantes de asilo. Por lo tanto, una antigua afirmación está volviendo a encontrar terreno fértil y resurgiendo en redes sociales.\n\nLa composición de la población mundial de refugiados\n\nAfirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.\n\nDW verifica: Falso\n\nMuchos videos han circulado en redes sociales repitiendo la misma afirmación falsa de que \"el 85% de los refugiados son musulmanes\". Imagen: tiktok\n\nEsta misma afirmación ha aparecido en alemán , chino , portugués , neerlandés , francés , italiano y español , e incluye publicaciones en varias plataformas de redes sociales.\n\nA finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR). Para la primera parte de esta afirmación, que \"el 85% de los refugiados son musulmanes\", necesitamos datos sobre la composición religiosa de los refugiados en el mundo.\n\nACNUR, la agencia de la ONU para los refugiados y fuente principal de estadísticas sobre refugiados a nivel mundial, creó el Buscador de Datos de Refugiados , que recopila estadísticas sobre la población refugiada. Sin embargo, no recopila datos sobre su afiliación religiosa.\n\nACNUR obtiene sus datos de sus operaciones y de los Gobiernos, que a menudo no recopilan información sobre la religión de los refugiados para proteger su privacidad. Además, dado que la recopilación de este tipo de datos es potencialmente perjudicial, el sistema de registro de ACNUR, PRIMES , solo los recopila si son relevantes para determinar la condición de refugiado de una persona.\n\nEn el caso de los migrantes, encontramos datos sobre su origen religioso: el Pew Research Center, un centro de estudios sin fines de lucro con sede en Washington, se centra en las características demográficas y sociales de los migrantes. Realizó un estudio sobre la composición religiosa de los migrantes a nivel mundial . En él, se observa que el 47 % de todos los migrantes son cristianos y el 29 % musulmanes, una cifra significativamente inferior al 85 %. Sin embargo, los refugiados constituyen un grupo diferente de los migrantes . Y en el caso de los refugiados, no pudimos encontrar estudios similares. La migración suele entenderse como movimientos voluntarios, pero los refugiados no pueden regresar a sus hogares y necesitan protección bajo el derecho internacional.\n\nDada la mayoría religiosa de los países de origen de los refugiados, solo podemos estimar si la afirmación que circula es probable. Sin embargo, Janis Kreuder, de la ACNUR, advierte que debemos \"considerar que no todos los ciudadanos de un país tienen la misma probabilidad de convertirse en refugiados. Véase, por ejemplo, el caso de los refugiados rohinyá de Myanmar, que son mayoritariamente musulmanes, mientras que Myanmar es un país de mayoría budista\".\n\nTeniendo esto en cuenta, podemos, en el mejor de los casos, determinar tendencias. El informe Tendencias Globales 2024 de ACNUR muestra que los venezolanos y los ucranianos, ambos países de mayoría cristiana, constituyen una parte significativa de la población total de refugiados.\n\nEdgar Scrase, de ACNUR, escribe que \"dado que los ucranianos y los venezolanos por sí solos representan casi un tercio de todos los refugiados, incluyendo a otras personas que necesitan protección internacional, es probable que la proporción real de refugiados musulmanes sea mucho menor\".\n\nPor otro lado, entre los países de origen de la mayoría de los refugiados, algunos son mayoritariamente musulmanes, como Siria, Afganistán y Sudán.\n\nEs importante destacar que, según ACNUR, no existen los datos exhaustivos necesarios para afirmar que el 85 % de los refugiados son musulmanes.\n\n¿Dónde solicitan asilo los refugiados?\n\nEn junio de este año, había 8,42 millones de solicitantes de asilo. Un solicitante de asilo es una persona que busca protección internacional ante peligros en su país de origen, pero cuya solicitud de asilo no se ha resuelto legalmente.\n\nLa afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.\n\nLos refugiados afganos huyen principalmente a países vecinos como Pakistán e Irán. Imagen: SANAULLAH SEIAM/AFP/Getty Images\n\nLa segunda mitad de la afirmación probablemente se refiere a los 57 miembros de la Organización para la Cooperación Islámica (OCI) . Eran 56 hasta que Siria fue restituida en marzo de 2025. Este grupo incluye tanto a los Estados que han declarado el islam como religión oficial del Estado como a los países de mayoría musulmana. Edgar Scrase afirma que al menos siete de los principales países de acogida son predominantemente musulmanes (Bangladesh, Irán, Líbano, Jordania, Turquía, Chad y Pakistán) y, en conjunto, albergan a cerca del 30 % de todos los refugiados . Todos estos países forman parte de la OCI.\n\nEs importante destacar que, de todas las personas que huyen de conflictos y persecución, la mayoría permanece en sus países de origen . Cuando salen al extranjero, se dirigen predominantemente a países vecinos. Al igual que el año anterior, para junio de 2025, dos de cada tres refugiados se encontraban en países vecinos.\n\nEn muchos casos, los países vecinos tienen afiliaciones religiosas similares. Por ejemplo, los refugiados de Siria, un país de mayoría musulmana, se han dirigido principalmente a Turquía, otro país predominantemente musulmán. Lo mismo ocurre con los refugiados afganos, que huyen principalmente a Pakistán e Irán.\n\nPor lo tanto, los refugiados musulmanes solicitan asilo en países de mayoría musulmana, incluidos los que forman parte de la OCI.\n\n(rml/el)",
+                                        "metadata": {
+                                            "url": "https://www.dw.com/es/dw-verifica-son-musulmanes-la-mayor%C3%ADa-de-los-refugiados-d%C3%B3nde-piden-asilo/a-74872906",
+                                            "source": "www.dw.com",
+                                            "favicon": "https://www.dw.com/images/icons/favicon-16x16.png",
+                                            "title": "DW verifica: es falso que \"85% de refugiados son ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.dw.com",
+                                            "snippet": "A finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A finales de 2024, 123,2 millones de personas habían debido desplazarse, una cifra récord impulsada en gran medida por los conflictos prolongados en Sudán, Myanmar y Ucrania. 73,5 millones de personas están desarraigadas en sus propios países, y 42,7 millones se han refugiados más allá de sus fronteras.\n\nCon 13,5 millones de personas desplazadas por más de trece años de brutal conflicto civil, Siria solía representar la mayor crisis de desplazados del mundo. Pero ya no es así.\n\nEn diciembre del año pasado, el derrocamiento del régimen de Bashar al Assad por las fuerzas de la oposición reavivó la esperanza de que la mayoría de los sirios pudieran volver pronto a sus hogares. Hasta mayo, 500.000 refugiados y 1,2 millones de desplazados internos habían regresado a sus zonas de origen.\n\nPero esa no es la única razón por la que Siria ha dejado de ser la mayor crisis de desplazados del mundo.\n\nSudán bate un sombrío récord\n\nMás de dos años de guerra civil han hecho que Sudán supere a Siria con 14,3 millones de personas desarraigadas desde abril de 2022, de las cuales 11,6 millones son desplazados internos, lo que supone un tercio de toda la población sudanesa y representa la mayor crisis de desplazamiento interno jamás registrada.\n\nEl último informe de la Agencia de la ONU para los Refugiados (ACNUR), Global Trends, publicado este jueves, pone de relieve la magnitud del problema, señalando unos desplazamientos “insosteniblemente altos”, pero también contiene “rayos de esperanza”, a pesar del impacto inmediato de los recortes de ayuda en las capitales de todo el mundo este año.\n\n“Vivimos en un momento de intensa volatilidad en las relaciones internacionales, en el que la guerra moderna crea un paisaje frágil y desgarrador marcado por un agudo sufrimiento humano”, declaró el Alto Comisionado de la ONU para los Refugiados, Filippo Grandi.\n\n42,7 millones de refugiados que viven más allá de sus fronteras\n\nA finales de 2024, 123,2 millones de personas estaban desplazadas en el mundo, lo que representa una cifra récord de una década, impulsada en gran medida por los conflictos prolongados en Sudán, Myanmar y Ucrania.\n\nUnas 73,5 millones de personas en todo el mundo han huido dentro de sus propios países, y de los 42,7 millones de refugiados que viven más allá de sus fronteras, el 73% están acogidos en países de ingresos bajos y medios, y el 67% en países vecinos.\n\nEn el continente americano, el desplazamiento también ha escalado hasta los 21,9 millones de personas (el 17,6% del total mundial).\n\nHaití ha triplicado su población desplazada interna en lo que va de 2024, superando el millón de personas, mientras que Colombia mantiene una de las cifras más altas del mundo, con cerca de siete millones de desplazados internos.\n\nEl número de venezolanos desplazados aumentó un 2% con respecto al año anterior. A finales de 2024, había 370.200 refugiados y 5,9 millones de personas necesitadas de protección. La mayoría de ellos están en otros países latinoamericanos.\n\nEn busca de un lugar donde vivir en paz\n\nSadeqa y su hijo son refugiados que se han enfrentado a repetidos desplazamientos. Huyeron de Myanmar después de que el marido de Sadeqa fuera asesinado en 2024. En Bangladesh, vivieron en un campo de refugiados para musulmanes rohingya, pero el campo estaba abarrotado, lo que les llevó a huir de nuevo en barco.\n\nSadeqa se embarcó sin saber adónde iba. Finalmente, la embarcación fue rescatada tras semanas en el mar, y ahora, ella y su hijo viven en Indonesia.\n\n“Buscamos un lugar donde podamos vivir en paz”, dijo.\n\nPese a las innumerables historias como esta, el Alto Comisionado Grandi considera que hay “rayos de esperanza” en el informe. Este año, 188.800 refugiados fueron reasentados permanentemente en países de acogida, la cifra más alta en 40 años.\n\nAdemás, 9,8 millones de personas regresaron a sus hogares en 2024, incluidos 1,6 millones de refugiados y 8,2 millones de desplazados internos, la mayoría en Afganistán y Siria.\n\nSoluciones duraderas\n\nAunque los 8,2 millones de desplazados internos que regresan a sus hogares representan la segunda cifra más alta registrada en un solo año, el informe señala que los retornados siguen teniendo dificultades.\n\nPor ejemplo, muchos de los refugiados afganos y haitianos que regresaron a sus hogares el año pasado fueron deportados de sus países de acogida.\n\nEl informe subraya que los retornos deben ser voluntarios y que hay que mantener la dignidad y la seguridad de los retornados una vez que llegan a su zona de origen. Para ello es necesario consolidar la paz a largo plazo y avanzar hacia un desarrollo sostenible más amplio.\n\n“La búsqueda de la paz debe estar en el centro de todos los esfuerzos por encontrar soluciones duraderas para los refugiados y otras personas obligadas a huir de sus hogares”, afirmó Grandi.\n\nRecortes “brutales” de financiación\n\nEn la última década, el número de personas desplazadas por la fuerza en todo el mundo se ha duplicado, pero los niveles de financiación de ACNUR se mantienen prácticamente invariables.\n\nEl informe explica que esta falta de aumento de los recursos financieros pone en peligro a comunidades desplazadas, ya de por sí vulnerables, y desestabiliza aún más la paz regional.\n\n“La situación es insostenible, y deja aún más vulnerables a los refugiados y a otras personas que huyen del peligro”, apuntó ACNUR.",
+                                        "metadata": {
+                                            "url": "https://news.un.org/es/story/2025/06/1539431",
+                                            "source": "news.un.org",
+                                            "favicon": "https://news.un.org/es/themes/custom/un_base_theme/favicon.ico",
+                                            "title": "Las personas desplazadas en el mundo superan los 120 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://news.un.org",
+                                            "snippet": "73,5 millones de personas están desarraigadas en sus propios países, y 42,7 millones se han refugiados más allá de sus fronteras. Con 13,5 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A finales de 2023 en el mundo había 37,6 millones de refugiados, según la Agencia de la ONU para los Refugiados (ACNUR) y su misión especial en Palestina (UNRWA), un récord histórico que triplica los datos de hace una década. Dos terceras partes provienen de apenas cuatro países: Afganistán, Siria, Palestina y Ucrania. Pero ¿qué hay de sus destinos?\n\nAl contrario de lo que muchas tesis xenófobas sostienen, los refugiados buscan establecerse en países cercanos y con costumbres similares a las suyas. Así, el 69% de las personas que huyen de conflictos y persecuciones son acogidas por las naciones vecinas, por lo que no es de extrañar que los cinco países con más refugiados sean, por orden, Irán, Turquía, Jordania, Alemania y Palestina, según datos de ACNUR y UNRWA.\n\nEntre los quince primeros países receptores de refugiados solo encontramos cuatro europeos: Alemania —que en 2015 abrió sus fronteras a cientos de miles de sirios—, Polonia, Rusia y Francia, entre los que suman 5,45 millones de refugiados acogidos. En comparación, Irán ha recibido por sí sola a 3,76 millones de personas, la mayoría de ellas de origen afgano.\n\nEl número de refugiados ha aumentado considerablemente a raíz de la guerra en Ucrania, que en dos años de conflicto ha expulsado a casi seis millones de personas del país. De ellas, 1,2 millones se encuentran en territorio ruso, un millón en Alemania y 955.000 en Polonia.\n\nPor su parte, la ocupación israelí de Palestina ha dado lugar a que, de los seis millones de refugiados palestinos, casi dos millones y medio vivan en campos de refugiados establecidos en territorio oficialmente reconocido como parte del Estado palestino. La Franja de Gaza acogía, a mediados de 2023, a casi un millón y medio de refugiados palestinos, mientras que en Cisjordania residían otros 871.000.\n\nTurquía es el segundo país del mundo con un mayor número de refugiados acogidos, la mayoría de ellos de origen sirio. Desde el inicio de la guerra civil en 2011, más de tres millones de refugiados de Siria se han instalado en el país vecino. Algo parecido ha ocurrido en Jordania con Palestina: desde la primera guerra árabe-israelí de 1948, el país árabe ha recibido a más de dos millones de refugiados palestinos.\n\nLíbano, a pesar de ser un país de reducido tamaño, acoge también a un millón y medio de desplazados sirios —de los cuales solo 800.000 están registrados como refugiados por Naciones Unidas— y a unos 450 mil palestinos.\n\nA pesar de que 147 países han firmado la Convención Internacional sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967, la falta de ratificación por parte de algunos de los países que más refugiados acogen, como Líbano, Jordania, Bangladés o Pakistán, crea importantes obstáculos a la hora de garantizar una protección adecuada a las personas que buscan refugio.\n\nAsimismo, Turquía, aunque signataria, solo ofrece asilo a refugiados europeos. Esta cláusula deja desamparados a los millones de sirios residentes en el país, y ha sido fuertemente criticada por la comunidad internacional.\n\nPese a ello, la Unión Europea suscribió en 2016 un acuerdo migratorio con Turquía a través del cual todas las personas que llegan de forma irregular a las islas del Egeo, incluidos solicitantes de asilo, son devueltas al país de Oriente Próximo a cambio de grandes sumas de dinero.",
+                                        "metadata": {
+                                            "url": "https://elordenmundial.com/mapas-y-graficos/paises-receptores-refugiados/",
+                                            "source": "elordenmundial.com",
+                                            "favicon": "https://elordenmundial.com/wp-content/uploads/2018/04/cropped-logo-sq-32x32.png",
+                                            "title": "¿Qué países acogen más refugiados? - Mapas",
+                                            "type": "web_search",
+                                            "base_url": "https://elordenmundial.com",
+                                            "snippet": "Irán, Turquía y Jordania han recibido a más de tres millones de refugiados cada uno. El 69% se establece en países vecinos."
+                                        }
+                                    },
+                                    {
+                                        "text": "Hace ocho años ya que más de 750.000 musulmanes rohingya huyeron de Myanmar y se instalaron en campamentos precarios y “provisionales” en Bangladés; la crisis, no solo sigue sin resolverse, si no que el flujo de personas que huyen no ha disminuido.\n\nLos rohingya, una minoría musulmana que durante mucho tiempo ha sido privada de la ciudadanía y de derechos básicos en Myanmar, huyeron de varias oleadas de violencia que culminaron en 2017 con lo que Zeid Ra’ad al-Hussein, entonces Alto Comisionado de la ONU para los Derechos Humanos, describió como un “ejemplo de manual de limpieza étnica”.\n\nAl cruzar hacia Bangladés, encontraron refugio de emergencia en lo que hoy es, posiblemente, el asentamiento de refugiados más grande del mundo: Cox’s Bazar.\n\nPero lo que comenzó como una respuesta temporal se ha convertido en una crisis prolongada. Pocos rohingyas ven un camino seguro para regresar a Myanmar, donde la junta militar que gobierna continúa persiguiendo a las minorías y enfrenta su propia rebelión armada.\n\nEn Bangladés, las oportunidades de educación y empleo siguen siendo limitadas, mientras los incidentes de seguridad, la trata de personas y las tensiones con las comunidades locales agravan la situación.\n\nONU/Manuel Elias La presidenta de la Asamblea General, Annalena Baerbock (en pantalla), se dirige a la conferencia de alto nivel de la Asamblea General sobre la situación de los musulmanes rohingya y otras minorías en Myanmar. .\n\nUna desesperación prevenible\n\nEste martes, líderes mundiales, funcionarios de la ONU y grupos de la sociedad civil se reunieron en Nueva York para abordar no solo la emergencia humanitaria, sino también el estancamiento geopolítico que la perpetúa.\n\nLa primera en intervenir fue la presidenta de la Asamblea General, quien destacó la grave situación de los más de cinco millones de rohingyas desplazados. Se refirió al sufrimiento de hombres, mujeres y niños que viven en campamentos donde la falta de alimentos, agua, salud y educación es crítica.\n\nAnnalena Baerbock alertó sobre el impacto devastador de los recortes presupuestarios, que han dejado a más de 800.000 niños sin escuela y han incrementado los riesgos de explotación, matrimonios infantiles y violencia basada en género.\n\nSubrayó que esta desesperación es prevenible y pidió a los Estados miembros actuar con urgencia. Propuso cuatro prioridades:\n\nacceso sin restricciones a la ayuda humanitaria\n\napoyo internacional sostenido\n\nfinanciamiento adecuado\n\ncreación de condiciones para el retorno seguro y digno de los rohingyas.\n\nConcluyó instando a pasar de las palabras a la acción para igualar la resiliencia del pueblo rohingya.\n\nEn un mensaje leído por el jefe de Gabinete Courtney Rattray, el Secretario General de la ONU denunció décadas de exclusión, violencia y despojo de derechos que han dejado a más de un millón de rohingyas desplazados, muchos en Bangladés, donde visitó recientemente el campamento de Cox’s Bazar.\n\nAntónio Guterres hizo un llamado a la acción inmediata en tres áreas:\n\nrespeto al derecho internacional\n\nacceso humanitario sin restricciones dentro de Myanmar\n\nmayor inversión para cubrir necesidades básicas y fomentar la autosuficiencia\n\nInsistió en que la solución definitiva debe incluir justicia, ciudadanía plena para los rohingyas y una transición democrática en Myanmar. Recalcó que, sin inclusión y paz real, no puede haber solución duradera.\n\nLa impunidad ha permitido décadas de atrocidades\n\nWai Wai Nu, fundadora de Women's Peace Network, denunció la impunidad que ha permitido décadas de atrocidades contra los rohingyas y otras minorías en Myanmar. Afirmó que “el genocidio no terminó en 2017, sino que se ha intensificado”, con crímenes de guerra por parte del Ejército y del Ejército Arakan.\n\nExigió el fin de la violencia, justicia efectiva y el regreso seguro de los rohingyas con plenos derechos. Urgió a establecer un corredor humanitario, imponer sanciones a los perpetradores y rechazar las elecciones falsas del régimen militar.\n\nConcluyó que la paz duradera solo es posible con justicia, inclusión, y una democracia federal que garantice igualdad para todos.\n\n© OCHA/Siegfried Modola Una vista general muestra un campamento de desplazados internos cerca de la ciudad de Dimawhso, en el estado de Kayah (Karenni), al este de Myanmar.\n\nLa crisis política creciente en Myanmar\n\nEn Myanmar, la población está sumida en la violencia y la inestabilidad tras un golpe militar el 1 de febrero de 2021.\n\nMiles de civiles han sido asesinados, millones desplazados y más de la mitad de la población necesita asistencia humanitaria. Los desastres naturales, como inundaciones y terremotos, han agravado aún más la presión sobre una infraestructura ya frágil.\n\nLas minorías étnicas, incluidos los rohingya, kachin, shan y chin, han sido desproporcionadamente afectadas.\n\nSe acusa al Ejército de violaciones sistemáticas de los derechos humanos, muchas de las cuales probablemente constituyan crímenes de lesa humanidad, incluyendo detenciones arbitrarias, torturas y ejecuciones extrajudiciales. Escuelas, hospitales y lugares de culto también han sido blanco de ataques indiscriminados.",
+                                        "metadata": {
+                                            "url": "https://news.un.org/es/story/2025/09/1540508",
+                                            "source": "news.un.org",
+                                            "favicon": "https://news.un.org/es/themes/custom/un_base_theme/favicon.ico",
+                                            "title": "Tras un éxodo masivo, el limbo: los refugiados rohingya ...",
+                                            "type": "web_search",
+                                            "base_url": "https://news.un.org",
+                                            "snippet": "Los rohingya, minoría musulmana perseguida en Myanmar, sufren desplazamiento, violencia y falta de derechos. Más de un millón vive en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Inmigración: cómo en 10 años en Europa se pasó de la política de acogida de Merkel a hablarse de una \"invasión\" de extranjeros\n\nFuente de la imagen, Getty Images\n\nAutor, Fergal Keane Título del autor, Corresponsal especial, BBC\n\n13 septiembre 2025\n\nTiempo de lectura: 12 min\n\nEl día que aparecieron, apenas podía creer lo que veía. Una tras otra, una pequeña embarcación llegaba desde el lado turco. \"Tengo tantos recuerdos que me vienen a la mente ahora\", dice Paris Louamis, de 50 años, hotelero en la isla griega de Lesbos. \"Había gente de Siria, Afganistán, de muchos países\".\n\nCorría agosto de 2015 y Europa presenciaba el mayor movimiento de población desde el final de la Segunda Guerra Mundial. Más de un millón de personas llegarían a la UE en los meses siguientes, impulsadas por la violencia en Siria, Afganistán, Irak y otros lugares.\n\nPresencié las llegadas a Lesbos y conocí a Paris Laoumis mientras ayudaba a solicitantes de asilo exhaustos cerca de su hotel.\n\n\"Estoy orgulloso de lo que hicimos entonces\", me dice. Junto con voluntarios internacionales, proporcionó comida y ropa a los que llegaban.\n\nFuente de la imagen, Jeff J Mitchell/Getty Images Pie de foto, Más de un millón de migrantes y refugiados cruzaron a Europa en 2015, lo que desató una crisis mientras los países luchaban por hacer frente a la afluencia.\n\nHoy la playa está tranquila. No hay solicitantes de asilo. Pero Paris está preocupado. Cree que es posible otra crisis. Con el aumento de llegadas durante los meses de verano, el ministro de Migración de su país ha advertido del riesgo de una \"invasión\", con miles de personas procedentes de países como Sudán, Egipto, Bangladesh y Yemen.\n\n\"Claro que me preocupa. Veo el sufrimiento de la gente. No vienen aquí, pero lo vemos en Creta (la isla más grande de Grecia), adonde ha llegado gente. Así que es posible que con las guerras venga más gente\".\n\nEn 2015, seguí a los solicitantes de asilo mientras subían a los ferries, caminaban penosamente bajo el calor por las vías del tren, atravesaban campos de maíz, bajaban por caminos rurales y por carreteras, abriéndose paso a través de los Balcanes y continuando hacia Alemania y Escandinavia.\n\nSaltar Podcast y continuar leyendo Improbable El nuevo podcast de BBC Mundo sobre un amor que triunfó contra todo pronóstico Episodios Fin de Podcast\n\nEl número de personas que entraron en Alemania se disparó de 76.000 en julio a 170.000 el mes siguiente.\n\nEl último día de agosto la canciller Angela Merkel declaró: \"Wir schaffen das\" (podemos hacerlo), lo que muchos interpretaron como una señal de abrir los brazos a los solicitantes de asilo.\n\n\"Alemania es un país fuerte\", dijo. \"La motivación con la que abordamos estas cuestiones debe ser: ¡hemos logrado tanto, podemos hacerlo! Podemos hacerlo, y cuando algo se interpone en nuestro camino, hay que superarlo, hay que trabajar en ello\".\n\nPero las intensas emociones de aquel verano, cuando las multitudes recibían a los solicitantes de asilo en las carreteras del norte, parecen pertenecer a una época muy distinta.\n\nAquella proclamación optimista pronto se convirtió en un lastre político para Merkel.\n\nSus opositores políticos y algunos líderes europeos sintieron que sus palabras actuaban como un imán para los solicitantes de asilo hacia la UE.\n\nEn 15 días, la canciller se vio obligada a imponer controles en las fronteras alemanas debido a la afluencia de solicitantes de asilo.\n\nY una década después, la preocupación por la migración se ha convertido en un problema político importante en muchos países europeos.\n\nLas causas son complejas y varían de un país a otro, pero las preocupaciones en torno a la seguridad, las dificultades económicas y la desilusión con los partidos gobernantes han tenido un papel fundamental en la configuración de la actitud hacia quienes llegan huyendo de la guerra, el hambre y la desesperación económica.\n\nFuente de la imagen, Sean Gallup/Getty Images Pie de foto, La canciller Angela Merkel declaró \"Wir schaffen das\" - \"Podemos hacerlo\" - ampliamente visto como una bienvenida abierta a los solicitantes de asilo.\n\nEsto ha impulsado el auge de los partidos de extrema derecha y ha visto a partidos de centro -e incluso de izquierda- luchar por imponer controles a la migración, temiendo una derrota electoral a manos de la derecha populista.\n\nDatos del Instituto Atlas de Asuntos Internacionales muestran cómo el apoyo a los partidos de extrema derecha en Europa casi se duplicó en dos ciclos electorales, alcanzando el 27,6%.\n\nDesde 2015, cuando el ACNUR afirma que más de un millón de personas entraron en Europa por las rutas de asilo, se ha producido un drástico descenso en las llegadas.\n\nSin embargo, desde 2016, el promedio de personas que entran en Europa se ha mantenido en torno a las 200.000 al año. En lo que va de 2025, se ha registrado la llegada de un total de 96.200 solicitantes de asilo.\n\nEntonces, ¿pueden los nuevos y estrictos controles reducir aún más el número de personas que intentan llegar a Europa? ¿O acaso los conflictos globales y la desesperación económica hacen inevitable su flujo continuo, con fluctuaciones en las cifras?\n\nLa firme postura de Hungría\n\nEn Hungría, el gobierno de extrema derecha del primer ministro Viktor Orban ha adoptado una de las estrategias más duras en materia de migración.\n\nEn septiembre de 2015, presencié la construcción de la primera valla de Hungría en la frontera con Serbia y vi cómo cientos de personas se apresuraban a cruzar a la UE antes de que se les impidiera el paso.\n\nEsta semana, en Budapest, me reuní con el ministro húngaro para la UE, János Bóka, quien afirmó que la postura de Hungría se ha visto reivindicada por las medidas restrictivas que se están implementando en Reino Unido -donde el gobierno planea dificultar que los refugiados traigan a sus familiares al país-, así como en países como Irlanda, Dinamarca y Suecia.\n\nPie de foto, Hungría comenzó a construir una valla de cuatro metros de altura a lo largo de su frontera sur de 175 kilómetros en junio de 2015.\n\n\"Nos sentimos reivindicados no solo por lo que ocurre en otros países europeos. Esto, por supuesto, también es una señal de que tomamos el camino correcto hace 10 años, y que ahora vemos que la mayoría de los países están haciendo lo que hemos hecho durante los últimos 10 años\", dice.\n\nHungría devuelve inmediatamente a las personas que llegan a la frontera sin permiso de entrada. Solo pueden solicitar asilo en Belgrado, la capital serbia, o en Kiyv, en la Ucrania devastada por la guerra.\n\nLa abogada de derechos humanos Timea Kovács afirma que esto, en la práctica, imposibilita la entrada a la UE a través de Hungría. \"Básicamente, no hay forma legal de entrar en territorio húngaro como refugiado\", afirma.\n\nFuente de la imagen, MARTIN BERTRAND/Hans Lucas/AFP via Getty Images Pie de foto, La UE multa ahora a Hungría con un millón de euros diarios por incumplir sus obligaciones de asilo. El ministro János Bóka insiste en que la política no cambiará.\n\nComo resultado, Hungría está recibiendo una multa de un millón de euros al día por incumplir sus responsabilidades con los solicitantes de asilo según la legislación de la UE.\n\nEl ministro de la UE, Bóka, afirma que el país no está dispuesto a cambiar su política. \"Si es el precio que pagamos por la protección de nuestras fronteras y el mantenimiento de la paz y la estabilidad en Hungría, es un precio que vale la pena pagar\".\n\nPero ni siquiera estas medidas restrictivas han logrado detener por completo la entrada de solicitantes de asilo.\n\nLa policía austriaca declaró a la BBC que se detectaban entre 20 y 50 personas cada día intentando entrar ilegalmente en su país desde Hungría. Esta es solo la cifra de los que son detectados.\n\nEn un viaje a la frontera con Serbia, escuché la frustración de un grupo de guardias húngaros.\n\nDejamos la carretera asfaltada y seguimos a una patrulla por un camino de tierra que se adentraba en el bosque. Los árboles se cerraban formando un túnel natural. La brillante luz del sol dio paso a las sombras.\n\nLos hombres del vehículo que nos precedía llevaban escopetas.\n\n\"Un gran circo\"\n\nVestidos con camuflaje militar, Sándor Nagy y Eric Molner son ciudadanos voluntarios, pagados por el Estado para patrullar el lado húngaro de la frontera con Serbia.\n\n\"Me siento triste y enojado, y sobre todo, preocupado por lo que se avecina\", dice Sandor. Cree que Europa no está logrando impedir que la gente cruce sus fronteras.\n\n\"Para ser honesto, lo que vivimos aquí es básicamente un gran circo. Lo que vemos es que la defensa fronteriza aquí es principalmente un espectáculo, una cuestión política\".\n\nPie de foto, Patrullas ciudadanas como Sandor Nagy y Eric Molner (en la foto) reciben pagos del estado para proteger la frontera de Hungría con Serbia.\n\nSalimos a un espacio abierto donde aparece una valla fronteriza de 3,6 metros de altura, rematada con alambre de púas y equipada con sensores y cámaras para detectar cruces ilegales.\n\n\"Simplemente la cortan, y los grupos entran a la fuerza por varios puntos a la vez; esto ha sido así durante años\". El problema, argumenta, radica en el crimen organizado, que siempre va un paso por delante de las autoridades.\n\n\"Esta valla no detiene a nadie a largo plazo... Retrasa el flujo, pero no puede detenerlo\".\n\nUn aluvión de abusos\n\nCon el crecimiento del tráfico ilegal de personas, se ha producido una avalancha de abusos contra los derechos humanos, según Naciones Unidas.\n\nLos traficantes de personas abandonan a la gente en el desierto del Sahara, a otros los hacinan en embarcaciones peligrosas.\n\nAlgunos de los que logran cruzar se ven obligados a regresar al desierto por las fuerzas de seguridad locales.\n\nMás de 32.000 personas han muerto intentando llegar a Europa en los últimos 10 años, incluyendo 1.300 muertos o desaparecidos este año.\n\nSegún la Organización Internacional para las Migraciones de Naciones Unidas, \"gran parte de esto ocurre en una situación de casi total impunidad\".\n\nFuente de la imagen, Carl Court/Getty Images Pie de foto, Más de 32.000 personas han muerto intentando llegar a Europa en la última década\n\nEl verano de 2015 no fue solo un verano de bienvenida. Impulsó cambios inmediatos en las estrategias de varios estados europeos.\n\nNo solo con la construcción de la valla en Hungría, sino también, entre otros ejemplos, con el despliegue de la policía antidisturbios en Croacia y la detención de migrantes en Eslovenia.\n\nPara marzo de 2016, seis meses después de la declaración de Merkel, la UE había llegado a un acuerdo con Turquía para impedir que los migrantes cruzaran a Grecia y Bulgaria.\n\nDesde entonces, la UE ha llegado a acuerdos con países como Marruecos, Túnez, Libia y Egipto para evitar que sus países se utilicen como puntos de lanzamiento hacia Europa.\n\nActualmente, existen numerosos casos bien documentados de solicitantes de asilo que son devueltos a través de las fronteras de la UE por la policía y la guardia costera.\n\nEl pasado enero, el Tribunal Europeo de Derechos Humanos declaró a Grecia culpable de devoluciones ilegales y sistemáticas de solicitantes de asilo a Turquía.\n\nFuente de la imagen, Paula Bronstein/Getty Images Pie de foto, Hay numerosos casos bien documentados de solicitantes de asilo que son devueltos a través de las fronteras de la UE por la policía y los guardias costeros.\n\nGerasimos Tsourapa, profesor de Relaciones Internacionales de la Universidad de Birmingham, describe la política de tercerizar el asilo como un cambio drástico para Europa.\n\n\"La idea de que la migración se puede aprovechar para obtener dinero, ayuda u otras concesiones, algo bastante excepcional en Europa en 2016, se ha convertido en un patrón\", dice.\n\n\"La diplomacia migratoria es contagiosa. Una vez alcanzado el acuerdo, la lógica se extiende\".\n\nAquí también hay una paradoja, afirma. \"Estamos restringiendo el asilo, manteniendo las fronteras cerradas, pero también necesitamos encontrar trabajadores migrantes para cubrir la escasez y apoyar a nuestra economía nacional\".\n\nUna Suecia en transformación\n\nLa persistente preocupación pública ha provocado un aumento del apoyo a los partidos de extrema derecha en toda la UE, incluso en lugares como Suecia, que históricamente se ha enorgullecido de ser una nación acogedora para quienes huyen de la persecución.\n\nEl partido Demócratas de Suecia, de extrema derecha, obtuvo el 20,5 % de los votos en las elecciones generales de 2022, lo que los convirtió en el segundo partido más grande del país.\n\nA cambio de apoyar a un gobierno de coalición minoritario, han visto cómo gran parte de su plataforma antimigratoria moldeaba la política gubernamental.\n\nLa reunificación familiar de los migrantes se ha dificultado, al igual que las condiciones para la residencia permanente, y las cuotas de asilo se han reducido sustancialmente.\n\nPie de foto, El refugiado sirio Abdulmenem Alsatouf recuerda su llegada a Suecia y la cálida bienvenida que recibió en 2015.\n\nPara la última etapa de mi viaje, fui a la ciudad de Karlstad, en el oeste de Suecia, un lugar pintoresco a orillas del río Klarälven, la vía fluvial más larga de Escandinavia.\n\nEl refugiado sirio Abdulmenem Alsatouf, de 44 años, recordó la bienvenida que recibió aquí en 2015.\n\nEso ha cambiado, dice. \"Al principio nos trataban muy bien. Pero después de unos años, y tras el cambio de gobierno, las cosas cambiaron. Se volvieron más racistas\".\n\nCita incidentes de abuso racista, como el de un vecino que dejó un cerdo de juguete frente a la casa de esta familia devotamente musulmana.\n\nConocí a Abdulmenem y a su familia hace diez años, cuando intentaban llegar a Europa desde Turquía. Recuerdo su esperanza de una nueva vida. Ahora su esposa, Nour, dice que preferiría estar en Siria.\n\n\"Nos miran como si solo viniéramos aquí para sacarles el dinero o vivir de su ayuda. Pero no es cierto. Cuando llegué, estudié sueco durante dos años, aprendí el idioma y terminé la escuela. Luego me puse a trabajar: limpiando, cocinando, cuidando niños. Pago impuestos aquí, como cualquiera. Formo parte de esta sociedad\".\n\n¿Por qué la opinión pública sueca se ha inclinado hacia la derecha en materia de inmigración?\n\nUna de las razones más citadas en los medios locales y por los políticos es la delincuencia, en concreto el auge del crimen organizado, donde jóvenes perpetradores son utilizados para cometer actos de violencia extrema.\n\nDesde 2013, la tasa de delitos con armas de fuego en el país se ha más que duplicado.\n\nLas personas nacidas en el extranjero y sus hijos nacidos en Suecia están sobrerrepresentadas en las estadísticas de delincuencia.\n\nSin embargo, el Ministerio de Asuntos Exteriores sueco advierte contra un análisis simplista de las cifras.\n\nAfirma que los bajos niveles de educación, el desempleo, la segregación social y el trauma de guerra de los refugiados son algunas de las causas, no el hecho de ser migrante.\n\nAfuera del museo cultural local, donde él y su aprendiz pintaban las paredes, conocí a Daniel Hessarp, de 46 años, quien se encuentra entre el 60% de los suecos que, según las encuestas de opinión, están preocupados por la delincuencia.\n\n\"Vemos las estadísticas de los delitos, quiénes los cometen, etc. Así que ahí tienen la respuesta. Antes no teníamos esto en Suecia\".\n\nPie de foto, Daniel Hessarp, residente de Karlstad, se encuentra entre la mayoría de los suecos que dicen estar preocupados por la delincuencia.\n\nEl aprendiz, Theo Bergsten, de 20 años, dijo que no se oponía a la inmigración porque \"aprendes de, ellos aprenden de ti... así que también es muy agradable\". Sin embargo, señaló que el aumento de la delincuencia era una \"parte triste\" de la historia.\n\nMaria Moberg Stephenson, profesora titular de Trabajo Social en la Universidad de Karlstad, afirma que las redes sociales han permitido que el mensaje de la extrema derecha prospere y encuentre nuevo apoyo entre quienes se sienten excluidos de la sociedad.\n\n\"Los Demócratas de Suecia son muy claros con nosotros: no quieren solicitantes de asilo. De hecho, quieren que la gente se vaya de Suecia. Y todo el gobierno está, de alguna manera, marcando la pauta para ser un país hostil. Ahora es más aceptable no ser hospitalario\".\n\nTumbas marcadas con un \"Desconocido\"\n\nDe vuelta en Lesbos, visité un lugar que he llegado a conocer tras muchos años de informar sobre problemas migratorios allí.\n\nA unos 30 minutos en coche del aeropuerto de Mitilene, en medio de olivares, se encuentran las tumbas de los solicitantes de asilo que murieron intentando llegar aquí o en los campos de refugiados establecidos después de 2015.\n\nNumerosas tumbas están marcadas simplemente como \"Desconocido\", el último lugar de descanso de quienes creyeron que Europa les ofrecería una vida mejor.\n\nCuando las visité, había tres tumbas recientes y una cuarta abierta esperando el enterriero. Es un recordatorio aleccionador de que las personas desesperadas seguirán intentando llegar a Europa, a pesar de los enormes riesgos.\n\nEn lo que va de año, el número de solicitantes de asilo detectados intentando llegar a Europa ha disminuido un 20%.\n\nLas cifras pueden aumentar y disminuir, pero las crisis globales que impulsan la migración no van a desaparecer. Ese es el desafío fundamental para los políticos, independientemente del partido que esté en el poder.\n\nInformación adicional de Bruno Boelpaep, Nick Thorpe, Daphne Tolis y David McIlveen\n\nHaz clic aquí para leer más historias de BBC News Mundo.\n\nSuscríbete aquí a nuestro nuevo newsletter para recibir cada viernes una selección de nuestro mejor contenido de la semana.",
+                                        "metadata": {
+                                            "url": "https://www.bbc.com/mundo/articles/cj9zlppxpkjo",
+                                            "source": "www.bbc.com",
+                                            "favicon": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/mundo/images/icons/icon-192x192.png",
+                                            "title": "Inmigración: cómo en 10 años en Europa se pasó de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bbc.com",
+                                            "snippet": "Más de un millón de migrantes y refugiados cruzaron a Europa en 2015, lo que desató una crisis mientras los países luchaban por hacer frente a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\n\n\n\n\n\n\nPor Ignacio Montes de Oca\n\nSe habla de una invasión musulmana a Europa y de la instalación de un califato en varios países de ese continente. Vamos a ir a las cifras para tener más certezas sobre la existencia de una bomba demográfica y el volumen de la avalancha migratoria. Sale nota solo con datos.\n\n\n\n\n\nVamos a centrarnos en las grandes potencias económicas y militares como Alemania. Francia y el Reino Unido por su peso dentro de la comunidad europea, citaremos a casos como España, Polonia e Italia para tener una mirada más completa. Luego con potencias como EEUU, Rusia y China. En la Unión Europea viven unos 25 millones de musulmanes, sin contar a la población turca. Sobre un total de 448 millones de habitantes de la UE, representan cerca de un 5% de la población. Veamos ahora en qué países se concentran las mayores proporciones de población islámica. Siempre tomando cifras oficiales, en Francia, hay 6,77 millones de musulmanes, lo cual representa un 10% de la población. En Alemania, hay 3 millones de islámicos, o sea el 3,57% de sus habitantes. En el Reino Unido, 3,2 millones, es decir el 5% del total.\n\nEl porcentaje es del 2% en España de acuerdo con el censo del INE de 2021. En Polonia es del 0,02% y en Italia del 5%. Los países con mayor proporción de musulmanes son Kosovo (92%) Albania (82,1%) y Bosnia Herzegovina (50,1%). Turquía, que no es parte de la UE, tiene un 98%. Es un error usual confundir el número total de migrantes con el número de llegados musulmanes. O sumar la población islámica de Turquía, Bosnia Herzegovina y Albania para exagerar la presencia general de esa religión en toda Europa. A veces, no es un error inocente.\n\nEn donde hay una fuerte presencia islámica es en Rusia; el 11.25% de su población y podría superar el 50% en el año 2050. En total, viven 14 millones de islamitas en Rusia, un 56% de los que viven en toda Europa, aunque dentro de una población de 149 millones.\n\nLa población musulmana de EEUU se estima en 3,4 millones, más que en Alemania o en el Reino Unido. En China, hay 24 millones de musulmanes, principalmente en la región de Sinkiang. Si el número marca el grado de riesgo, el problema no es solo europeo. Es importante marcar la cuestión de las proporciones y el número considerando las alertas sobre la islamización europea o, como advirtió Vance, el vice republicano, porque se trata de países con armas nucleares. Le erró con el Reino Unido, debería mirar hacia Rusia.\n\nYa tenemos una definición porque, tanto para acceder al poder ejecutivo como para cambiar las leyes en el Parlamento, se necesita más del 50% de los votos y por ahora no pareciera haber una perspectiva de mayorías islámicas. En el Parlamento Europeo, su presencia es casi nula. Para salvar la situación, los creyentes del riesgo islámico dirán que la oleada migratoria está convirtiendo a Europa en una nueva Meca.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPues bien, vamos a las estadísticas de la Comisión Europea que miden los flujos migratorios para saber cuánto hay de realidad y cuanto de mito. Lo primero que hay que definir es cuántos extranjeros viven en el territorio comunitario. Claro que entre ellos habrá musulmanes, católicos, budistas y ateos. Pero es un buen punto de partida para saber si realmente Europa está “perdiendo su identidad”. La proporción de habitantes nacidos en el extranjero de la UE es del 8.5% de la población. Es una proporción menor que la de Suiza (30.7%), Australia (29,2%), Islandia (20,1%), Israel (19,1%) y los EEUU (14%). Estas cifras no incluyen a los nacidos en otro estado comunitario. Las cifras de China son más bajas: 1 millón de extranjeros sobre 1.412 millones, un 0.07%. En Rusia, es del 8%. España tiene 6,7 millones de extranjeros, un 13,8%, Alemania 23 millones sobre 83,2 millones, un 26%. Francia 8,6 millones, un 18,24%. Si recordamos las cifras de población islámica surge una diferencia importante y se debe a que la inmigración no es predominantemente musulmana en ninguno de los casos. La respuesta es sencilla: no solo llegan musulmanes a Europa y la idea de invasión islámica se debilita.\n\nVamos a los solicitantes de asilo en 2022, una categoría que suele ser usada por los migrantes que reclaman permiso de residencia por motivos humanitarios. Aquí las nacionalidades se hacen aún más variadas. La primera corresponde a los sirios, con 183.035 solicitudes. Luego, vienen los afganos, con 100.935, y turcos, con 89.965. Pero luego aparecen dos países latinoamericanos: venezolanos, con 67.085 aplicaciones, y colombianos, con 62.015. Atrás, pakistaníes, marroquíes, egipcios, peruanos, iraquíes, georgianos, guineanos, marfileños y rusos. Si prestamos atención a las nacionalidades predominantes surge que la mayoría no son precisamente de países donde se aplique la Sharía. Los sirios provienen del baasismo sunita y nacionalista árabe. Los afganos huyeron del integrismo talibán. Egipto es una nación sunita secular.\n\nLos ucranianos huyen de la invasión rusa y apenas una porción tártara es islámica. América Latina no es un área musulmana y menos aún en Georgia y Rusia. Guinea y Costa de Marfil son mayormente católicos. Quedan del lado del Islam Siria, Pakistán, Bangladesh, Marruecos e Irak. Veamos ahora la inmigración ilegal, porque la tentación es suponer que la construcción del califato se corrobora por ese lado. La nacionalidad predominante es la siria, con un 27,8% del total. Lejos le sigue la proveniente de Guinea, la senegalesa, afgana y tunecina. El resto se distribuye en porcentajes menores al 4% que impide reforzar la idea de una migración que construya una masa homogénea en términos de nacionalidad, raza o religión. Menos aún hay una presencia salafista relevante que es la que sostiene la idea del califato.\n\nEntre enero y septiembre de 2023 crecieron los cruces ilegales en un 18% con relación al mismo periodo de 2022 con un total de 281.872 traspasos. Las entradas irregulares por mar crecieron un 83% y las terrestres un 30%. Sobre 448 millones de habitantes de la UE, es un 0,062%. Es aquí donde cruje la idea conspiranoica del “Gran Reemplazo” que supone que desde una entidad manejada por seres de parpadeo horizontal y piel escamosa se quiere reemplazar a la raza blanca lepeniana para doblegarla bajo el peso de un nuevo mestizaje liderado por el Islam.\n\n\n\n\n\n\n\n\n\nEn realidad, los que atacan a los reptilianos iluminatis como el que escribe esta nota, no tienen en cuenta la cuestión demográfica que explica los cambios étnicos mucho mejor que las teorías charco, amplias pero muy poco profundas. Hablemos de índices de fertilidad.\n\nHay un número “mágico” que es 2,1 hijos por mujer. Si el índice de fertilidad está por encima, la población de un país crecerá. Si está por debajo, no hay que ser un Stephen Hawkins para deducirlo, se va a contraer. Y es lo que sucede con la mayor parte de las sociedades europeas. En la actualidad, casi todos los países europeos están por debajo del 2,1 de fertilidad. Esto no tiene que ver con una conspiración de Soros y Bill Gates, sino con una decisión cada vez más recurrente de renunciar a la paternidad o tener una cantidad menor de hijos. Las explicaciones para este fenómeno son variadas y van desde la preferencia por el consumo y las ideas narcisistas, el mayor costo del sustento de una familia o del acceso a la vivienda. Otros, prefieren culpar a los LGBT y a sustancias volcadas en el aire y los alimentos.\n\nMientras se busca una respuesta, la población disminuye y, de no ser por la migración, lo haría a un ritmo más elevado. Tampoco las comunidades migrantes aportan tasas de natalidad más altas luego de su llegada. El acceso a un mayor ingreso parece tener efectos anticonceptivos. En el mapa de la fertilidad, se observa que Francia está en un 1,79. En 2023, nacieron 678.000 niños menos que en 2022 y la migración islámica no pujó lo suficiente para elevarlo. Es el índice más bajo desde el año 1946, cuando el tema migratorio no era un problema.\n\nAlemania tuvo un índice de fertilidad del 1,46 en 2023, su peor registro desde 2013 con 682.000 nuevos niños y una caída del 6,12% desde el año anterior. Tampoco ayudaron las madres extranjeras; apenas un 15,8 % parió un tercer hijo, mientras que entre las migrantes fue del 26,4%. En el Reino Unido la tasa está en 1,49 y el promedio en la UE fue de 1,46 en 2022. Los casos más dramáticos se dan en Malta (1,08), España (1,16), Ucrania (1,16) e Italia (1,24). Los mejores registros están por debajo del 2,1: Georgia (1,83), Moldavia (1,81) y Francia (1,79).\n\nEs decir que, al estar debajo de la tasa de reemplazo, la migración viene a remediar huecos en el sistema económico y social en donde la oferta y demanda actúan de un modo que va más allá de las elucubraciones sobre planes malthusianos de seres oscuros a escala planetaria.\n\nEs más, de acuerdo con un estudio publicado en Lancet, para el año 2100 el 97% de los países tendrá tasas regresivas de fertilidad. Lo que le sucede a Europa también afecta al resto del mundo. La tasa de China es de 1,16, la de EEUU de 1,66 y la de Rusia de 1,49.\n\nEn del Sahel africano hay una tasa de fertilidad de 5,5. El promedio de áfrica es de 4,7. Si no se revierte la tendencia, en el 2050, predice el artículo en Lancet, el promedio mundial será de 1,44 y de 1,37 en 2100. En ese momento, uno de cada dos niños nacerá en el Sahel. No encontré ningún estudio serio o estadística oficial que indique, salvo en Rusia, que la tasa de fertilidad en la población musulmana vaya a provocar una mayoría islámica en los países de la UE. Por el contrario, sus tasas tienden a equiparar al del resto de las comunidades.\n\nDescartando toda idea conspiraloca hasta que sea probada y documentada, las migraciones se seguirán produciendo de manera tan natural como se dan las migraciones en el Kalahari de antílopes, cebras, ñus y turistas sacando fotos desde una zona de menos recursos a otra donde abunden. Esto es fácil de probar con números. Sabemos que el Sahel es zona de sobreabundancia de fertilidad. El ingreso per cápita en dólares de sus países es de 585,4 en Níger, de 830 en Burkina faso, 833 en Mali, 761 en Chad y 1,102 en Sudán. En la UE el ingreso per cápita promedio en 2023 es de U$S 41.000. De 66.038 en Alemania, 58.756 en Francia, 49.791 en Reino Unido, 30.220 en España y de 56.386 en Suecia. El de EEUU es de 76.329, el de Rusia 15.720 y el de China 12.720. Así es el ecosistema del Kalahari económico.\n\nSi vamos a los países de mayor migración hacia la UE, la diferencia es igual de acentuada. El ingreso per cápita de Siria es de 420 dólares, de 430 en Afganistán y de 5.137 en Irak, aunque las guerras internas y matanzas en estos países le dan otro motivo a la migración.\n\nLo más parecido a un plan para forzar la migración está en la política de Rusia para recolectar migrantes en Medio Oriente, África y Bangladesh para arrojarlos contra la frontera de los países bálticos y Polonia. Aquí se cuenta: https://x.com/nachomdeo/status/1726938629241500077\n\nLa UE recibió 6 millones de ucranianos por la invasión rusa y 2,6 millones de kurdos por la represión turca, iraní y siria. Las guerras civiles en Siria y Afganistán generaron la migración de 8,4 y 5,8 millones respectivamente y la dictadura chavista venezolana, 7,7 millones.\n\n\n\n\n\n\n\n\n\nLa UE recibió hasta 2021 a menos del 10% de los refugiados que generaron los conflictos en todo el mundo. La segunda invasión rusa a Ucrania en 2022 duplicó esa cantidad y la elevó a 7 millones. El país con mayor cantidad no pertenece a la UE, es Turquía con 3,8 millones. Hay un dato real y es que las migraciones se dispararon desde la década de 1990. De acuerdo con la oficina de migraciones de la ONU, entre 1990 y 2020 en Europa pasó de 49,6 millones a 86,7 millones. En América del Norte de 27,6 a 58,7 millones y en Asia de 48,2 a 85,6 millones.\n\nPero esas migraciones son un fenómeno de larga data y esas tres décadas no provocaron un cambio categórico en la composición étnica ni modificaron las mayorías religiosas de los países receptores. Pasaron cuatro años desde entonces y no hay signos de otras alteraciones. Hay otro dato importante y es que además de recibir inmigrantes, Europa también atraviesa un proceso de emigración hacia otros continentes. De acuerdo con Eurostat, en 2021 2,25 millones inmigraron a la UE, pero 1,12 emigraron a otras regiones. El saldo es de 1,14 millones.\n\nRevisemos más cifras de inmigración legal e ilegal. En 2022 hubo 3,4 millones de migrantes regulares y 326.217 irregulares. De los permisos otorgados, el 34% fue por motivos laborales, el 13% por educación, el 26% por lazos familiares y apenas el 13% por pedidos de asilo. Los permisos legales fueron otorgados en 2022, en orden de importancia, a ucranianos, bielorrusos, indios, marroquíes, sirios, turcos, rusos, brasileros, afganos y chinos. Si hay una mayoría de permisos otorgados a islámicos, no es posible observarla en las estadísticas. No es una cuestión menor porque la supuesta avalancha migratoria en nombre de Mahoma que rinde bien en las redes es un factor menor frente a la aceptación por la vía legal de nuevos residentes. Así se bajan tres tonos a las alarmas sobre invasiones, califatos y guerras civiles. Hay otra cifra compensatoria y es la de expulsiones de migrantes. En 2021, 345.000 extranjeros recibieron la orden de dejar el territorio comunitario. En 2022, la cifra se elevó a 431.200, un 27% más. De ese total, 77.600 fueron obligados a regresar a sus países de origen. En el primer semestre de 2023 se emitieron órdenes de rechazo para 217.000 inmigrantes La cifra de expulsados a países que no forman parte de la UE en el mismo periodo que de 38.900: el número de expulsados y efectivamente deportados creció un 16% y un 23% respectivamente.\n\nCon todos estos datos podemos asegurar que la “Teoría del Gran Reemplazo” es producto de la pereza intelectual para buscar datos o creer en dirigentes que usan los temores que genera la migración para exacerbar a las masas y recolectar pescaditos políticos. Queda revisar el otro mito y es la cuestión del desplazamiento de la población local con la llegada de los nuevos migrantes y su grado de asimilación. Vamos a las estadísticas de Eurostat para ver que sucede con los migrantes una vez que llegan a territorio europeo.\n\nHay sectores en donde hay superabundancia de migrantes. Por ejemplo, en el trabajo doméstico en donde hay un 0,7% de ciudadanos de la UE y un 7,6% de extranjeros. La proporción en el hotelería es de 4,2% para los locales y 11,3% para los extranjeros. El patrón se repite en la construcción en donde hay un 6,6% de trabajadores locales y un 9,9% de extranjeros, en las tareas de limpieza con un 2,9% a 11,4%, en la minería, manufactura y transporte con un 0,6% a 2,5% y en la pesca y tareas forestales con 0,7% a 2,4%.\n\nLa situación inversa se da en la administración pública y de defensa en donde hay un 7,7% de locales frente al 1,1% extranjero, en la educación con un 7,6% a 3,9%, en las finanzas con un 6,8% al 2,6% y en la salud con un 3,1% frente al 1,5%. El califato, no avanza asalariado. Si medimos ingresos de locales y migrantes la cuestión es similar. El salario de un trabajador local está en un promedio anual de Є19.506, algo más bajo que el del migrante nacido en Europa que es de Є20.714 y bastante por encima del migrante de fuera de la UE que es de Є15.503.\n\n\n\n\n\n\n\n\n\nEn acceso a la vivienda y la tasa de hacinamiento, un factor crucial para el arraigo y la asimilación, el local tiene un riesgo del 13,9% frente al 20,5% del migrante europeo y el 32,9 % del proveniente de país ajeno a la UE. El califato, no avanza en el frente inmobiliario.\n\nSi observamos el riesgo de caer en la pobreza, el trabajador local tiene más certidumbre con un 13,8% de posibilidades de evitarla. El migrante europeo, un 27,3%. El extracomunitario, un 46,2%. Si el califato quiere imponerse, está haciendo un esfuerzo bastante pobre. Las cifras indican que el grado de penetración de los migrantes en las estructuras clave de la administración y la economía son muy bajas en general y en particular la presencia musulmana o su peso social y político no es tan fuerte como indican los alarmistas. En donde si hay una corroboración del impacto negativo es en las cifras de delito. En Francia, el 77% de los casos de violación fueron cometidos por inmigrantes. En enero de 2024, el ministro del interior reconoció la sobrerrepresentación extranjera en el incremento de delitos. En septiembre de 2023 Suecia decidió darle intervención al ejército para combatir a los grupos criminales organizados formados por extranjeros. Francia, el Reino Unido y los países nórdicos reformularon sus leyes migratorias para acelerar la deportación de migrantes que delinquen. No obstante, esa circunstancia fue tomada por los grupos más reactivos a la migración para magnificar el problema y construir la idea de un peligro inminente que pone en riesgo a la civilización europea. Aunque las cifras no los respaldan, sus campañas en las redes cobran mucho vuelo.\n\nAsí, proliferaron videos de unos miles de musulmanes en un acto para anunciar que un país estaba a punto de convertirse en una nación islámica. O las manifestaciones de un grupo de imbéciles antisemitas para denunciar un califato inminente. Todo vale, menos la información real. No hay que negar el éxito de la exageración de la presencia musulmana y el impacto de la migración. El planteo de una lucha urgente a todo o nada entre la población blanca y cristiana contra una yihad migratoria convoca apoyos crecientes entre los usuarios de redes. Más aún si se le acoplan las teorías más alocadas y se les quita todo datos verificables. Irónicamente, para denunciar a una yihad se apela a una cuestión de fe para responder con una cruzada de calibre semejante. Pero los datos aun desmienten el tamaño del peligro.\n\nConfieso que al plantear el tema pensé en corroborar la idea de un riesgo de califato europeo en el horizonte para hacerme millonario en clics, dado que los posteos en esa dirección parecieran tener un éxito inusitado. Pero hago periodismo, no demagogia. Disculpas si he ofendido\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://www.pucara.org/post/europa-va-camino-a-convertirse-en-un-califato-datos-que-resuelven-dudas-y-despejan-temores",
+                                            "source": "www.pucara.org",
+                                            "favicon": "https://static.wixstatic.com/media/faeb1f_361bcd92813a43eb81ced2da208b7a08%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/faeb1f_361bcd92813a43eb81ced2da208b7a08%7Emv2.png",
+                                            "title": "¿Europa va camino a convertirse en un califato? Datos que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.pucara.org",
+                                            "snippet": "Los países con mayor proporción de musulmanes son Kosovo (92%) Albania (82,1%) y Bosnia Herzegovina (50,1%). Turquía, que no es parte de la UE, ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.36909692700101,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.36909692700101,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 16:10:22",
+                    "run_time": 3.36909692700101,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuántos refugiados acogieron en 2025 los países con mayoría musulmana?": [
+                                {
+                                    "A finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR). Para la primera parte de esta afirmación, que \"el 85% de los refugiados son musulmanes\", necesitamos datos sobre la composición religiosa de los refugiados en el mundo.": null
+                                },
+                                {
+                                    "La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.": null
+                                },
+                                {
+                                    "Afirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.": null
+                                }
+                            ],
+                            "¿Cómo comparan los datos de acogida de refugiados de países musulmanes con los de países no musulmanes?": [
+                                {
+                                    "La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.": null
+                                },
+                                {
+                                    "Afirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.": null
+                                },
+                                {
+                                    "Es importante destacar que, según ACNUR, no existen los datos exhaustivos necesarios para afirmar que el 85 % de los refugiados son musulmanes.": null
+                                }
+                            ],
+                            "¿Qué países musulmanes han acogido refugiados en 2025 y cuántos?": [
+                                {
+                                    "A finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR). Para la primera parte de esta afirmación, que \"el 85% de los refugiados son musulmanes\", necesitamos datos sobre la composición religiosa de los refugiados en el mundo.": null
+                                },
+                                {
+                                    "La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.": null
+                                },
+                                {
+                                    "Afirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.": null
+                                }
+                            ],
+                            "¿Existen casos concretos de refugiados acogidos en países musulmanes?": [
+                                {
+                                    "Por lo tanto, los refugiados musulmanes solicitan asilo en países de mayoría musulmana, incluidos los que forman parte de la OCI.": null
+                                },
+                                {
+                                    "Por otro lado, entre los países de origen de la mayoría de los refugiados, algunos son mayoritariamente musulmanes, como Siria, Afganistán y Sudán.": null
+                                },
+                                {
+                                    "La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.": null
+                                }
+                            ],
+                            "¿Cuáles son las políticas migratorias de países musulmanes en 2025?": [
+                                {
+                                    "A finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR). Para la primera parte de esta afirmación, que \"el 85% de los refugiados son musulmanes\", necesitamos datos sobre la composición religiosa de los refugiados en el mundo.": null
+                                },
+                                {
+                                    "La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.": null
+                                },
+                                {
+                                    "Afirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.030298923000373,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.030298923000373,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 16:10:33",
+                    "run_time": 9.030298923000373,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos países de mayoría musulmana no acogen a refugiados\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuántos refugiados acogieron en 2025 los países con mayoría musulmana?\n¿Cómo comparan los datos de acogida de refugiados de países musulmanes con los de países no musulmanes?\n¿Qué países musulmanes han acogido refugiados en 2025 y cuántos?\n¿Existen casos concretos de refugiados acogidos en países musulmanes?\n¿Cuáles son las políticas migratorias de países musulmanes en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] A finales de junio de 2025, había 42,5 millones de refugiados y 8,4 millones de solicitantes de asilo en todo el mundo, según el Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR). Para la primera parte de esta afirmación, que \"el 85% de los refugiados son musulmanes\", necesitamos datos sobre la composición religiosa de los refugiados en el mundo.\n[0] La afirmación viral asegura que los refugiados musulmanes no solicitan asilo \"en los 56 Estados musulmanes\". Dado que no existen cifras exhaustivas sobre todos los refugiados musulmanes, no podemos determinar exactamente dónde solicitan asilo. Nuevamente, solo podemos hacer estimaciones basadas en los datos disponibles.\n[0] Afirmación: Como se ve en esta publicación viral en TikTok , se afirma que \"el 85 % de los refugiados del mundo son musulmanes\" y que \"no buscan asilo en los 56 países musulmanes\". Parte de esta afirmación ha circulado al menos desde 2019 , pero recientemente ha cobrado nueva fuerza.\n[0] Es importante destacar que, según ACNUR, no existen los datos exhaustivos necesarios para afirmar que el 85 % de los refugiados son musulmanes.\n[0] Por lo tanto, los refugiados musulmanes solicitan asilo en países de mayoría musulmana, incluidos los que forman parte de la OCI.\n[0] Por otro lado, entre los países de origen de la mayoría de los refugiados, algunos son mayoritariamente musulmanes, como Siria, Afganistán y Sudán.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los países de mayoría musulmana no acogen a refugiados"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación: \"Los países de mayoría musulmana no acogen a refugiados\"**  \n\nLa afirmación sostiene que los países con mayoría musulmana no acogen a refugiados. No obstante, los datos disponibles indican que **algunos países musulmanes sí acogen refugiados**, aunque no todos los países musulmanes acogen a refugiados. Por ejemplo, **Tunisia, Turquía y Líbano** han sido receptores de refugiados en diferentes momentos, aunque Turquía es un país con mayoría musulmana y acogió a miles de refugiados sirios. Además, **Irán, Arabia Saudí y Qatar** han acogido refugiados sirios y afganos, aunque en menor medida. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen.  \n\n**Contraste de evidencias**:  \n1. **Tunisia** ha acogido a refugiados sirios, afganos y palestinos, aunque no es un país con mayoría musulmana.  \n2. **Turquía**, con mayoría musulmana, ha acogido a miles de refugiados sirios, aunque no es un país con mayoría musulmana.  \n3. **Irán** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n4. **Arabia Saudí** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n5. **Qatar** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n\n**Conclusión**: La afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen. Por ejemplo, **Tunisia, Turquía, Irán, Arabia Saudí y Qatar** han acogido a refugiados en diferentes momentos. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.9029411990013614,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.9029411990013614,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 16:10:35",
+                    "run_time": 1.9029411990013614,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los países de mayoría musulmana no acogen a refugiados\nArticle: **Análisis de la afirmación: \"Los países de mayoría musulmana no acogen a refugiados\"**  \n\nLa afirmación sostiene que los países con mayoría musulmana no acogen a refugiados. No obstante, los datos disponibles indican que **algunos países musulmanes sí acogen refugiados**, aunque no todos los países musulmanes acogen a refugiados. Por ejemplo, **Tunisia, Turquía y Líbano** han sido receptores de refugiados en diferentes momentos, aunque Turquía es un país con mayoría musulmana y acogió a miles de refugiados sirios. Además, **Irán, Arabia Saudí y Qatar** han acogido refugiados sirios y afganos, aunque en menor medida. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen.  \n\n**Contraste de evidencias**:  \n1. **Tunisia** ha acogido a refugiados sirios, afganos y palestinos, aunque no es un país con mayoría musulmana.  \n2. **Turquía**, con mayoría musulmana, ha acogido a miles de refugiados sirios, aunque no es un país con mayoría musulmana.  \n3. **Irán** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n4. **Arabia Saudí** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n5. **Qatar** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n\n**Conclusión**: La afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen. Por ejemplo, **Tunisia, Turquía, Irán, Arabia Saudí y Qatar** han acogido a refugiados en diferentes momentos. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los países de mayoría musulmana no acogen a refugiados\nArticle: **Análisis de la afirmación: \"Los países de mayoría musulmana no acogen a refugiados\"**  \n\nLa afirmación sostiene que los países con mayoría musulmana no acogen a refugiados. No obstante, los datos disponibles indican que **algunos países musulmanes sí acogen refugiados**, aunque no todos los países musulmanes acogen a refugiados. Por ejemplo, **Tunisia, Turquía y Líbano** han sido receptores de refugiados en diferentes momentos, aunque Turquía es un país con mayoría musulmana y acogió a miles de refugiados sirios. Además, **Irán, Arabia Saudí y Qatar** han acogido refugiados sirios y afganos, aunque en menor medida. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen.  \n\n**Contraste de evidencias**:  \n1. **Tunisia** ha acogido a refugiados sirios, afganos y palestinos, aunque no es un país con mayoría musulmana.  \n2. **Turquía**, con mayoría musulmana, ha acogido a miles de refugiados sirios, aunque no es un país con mayoría musulmana.  \n3. **Irán** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n4. **Arabia Saudí** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n5. **Qatar** ha acogido a refugiados sirios y afganos, aunque no es un país con mayoría musulmana.  \n\n**Conclusión**: La afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen. Por ejemplo, **Tunisia, Turquía, Irán, Arabia Saudí y Qatar** han acogido a refugiados en diferentes momentos. Por tanto, la afirmación es **parcialmente falsa**, ya que no todos los países musulmanes acogen a refugiados, pero algunos sí lo hacen."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los países de mayoría musulmana no acogen a refugiados\", \"categories\": [\"Política\", \"Refugiados\", \"Migración\"], \"label\": \"Fake\", \"main_claim\": \"Algunos países musulmanes sí acogen refugiados, como Turquía, Irán o Arabia Saudí, aunque no todos los países musulmanes acogen a refugiados.\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

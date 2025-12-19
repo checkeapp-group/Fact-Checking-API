@@ -1,0 +1,625 @@
+{
+    "question": "La energía nuclear no produce emisiones de CO2 durante la generación de electricidad",
+    "answer": "Se encuentra evidencia que sugiere que la generación de electricidad en centrales nucleares no emite gases de efecto invernadero directamente durante el proceso de generación de electricidad ([1]). De hecho, según [1], las emisiones de ciclo de vida de la generación de energía eléctrica a partir de centrales nucleares son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferiores a las de la generación solar fotovoltaica (43 g CO2e/kWh). Esto sugiere que la energía nuclear es una fuente de electricidad relativamente limpia en términos de emisiones de CO2.\n\nSin embargo, también se encuentra evidencia que sugiere que la energía nuclear no es tan limpia como se podría pensar. Según [2], las emisiones de CO2 en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), pero al final del día en realidad son mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh). Esto sugiere que, aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido.\n\n**En conclusión, la afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera. Aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido. Por lo tanto, la afirmación es **falsa**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.idealista.com/news/inmobiliario/vivienda/2025/06/30/850701-energia-nuclear-bajo-la-lupa-razones-a-favor-y-en-contra-segun-los-expertos",
+            "source": "www.idealista.com",
+            "favicon": "https://st1.idealista.com/news/news9/themes/custom/idealista_news/favicon.ico"
+        },
+        "2": {
+            "url": "https://www.greenpeace.org/mexico/blog/10822/por-que-la-energia-nuclear-no-es-limpia/",
+            "source": "www.greenpeace.org",
+            "favicon": "https://www.greenpeace.org/mexico/wp-content/themes/planet4-master-theme/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La energía nuclear no produce emisiones de CO2 durante la generación de electricidad",
+        "categories": [
+            "Energía",
+            "Ciencia",
+            "Medio ambiente"
+        ],
+        "label": "Fake",
+        "main_claim": "La energía nuclear emite más CO2 que las energías renovables por cada kWh producido",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.9527734610001062,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.9527734610001062,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:43:52",
+                    "run_time": 1.9527734610001062,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa energía nuclear no produce emisiones de C02 durante la generación de electricidad\n\n**Critical Research Questions:**\n1. ¿Cuál es la cantidad de CO2 producida por la generación de electricidad en las centrales nucleares en el mundo en 2025?\n2. ¿Cómo compara la producción de CO2 en centrales nucleares con otras fuentes de energía como la energía eólica o solar?\n3. ¿Qué dicen los expertos sobre la producción de CO2 en centrales nucleares?\n4. ¿Qué evidencia existe sobre la producción de CO2 en centrales nucleares en comparación con otras fuentes de energía?\n5. ¿Qué son los principales críticos de la afirmación de que la energía nuclear no produce emisiones de CO2?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"emisiones CO2 centrales nucleares 2025 datos oficiales\", \"complicaciones CO2 centrales nucleares vs energía eólica vs energía solar\", \"expertos producción CO2 centrales nucleares análisis críticos\", \"estudios comparativos CO2 centrales nucleares vs otras fuentes de energía\", \"críticos afirmación energía nuclear no produce emisiones CO2\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 40.62376767599926,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 40.62376767599926,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:34",
+                    "run_time": 40.62376767599926,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "emisiones CO2 centrales nucleares 2025 datos oficiales",
+                                "complicaciones CO2 centrales nucleares vs energía eólica vs energía solar",
+                                "expertos producción CO2 centrales nucleares análisis críticos",
+                                "estudios comparativos CO2 centrales nucleares vs otras fuentes de energía",
+                                "críticos afirmación energía nuclear no produce emisiones CO2"
+                            ],
+                            "results": {
+                                "emisiones CO2 centrales nucleares 2025 datos oficiales | complicaciones CO2 centrales nucleares vs energía eólica vs energía solar | expertos producción CO2 centrales nucleares análisis críticos | estudios comparativos CO2 centrales nucleares vs otras fuentes de energía | críticos afirmación energía nuclear no produce emisiones CO2": [
+                                    {
+                                        "text": "Radiografía 2025 de la energía nuclear en España: evolución, retos, precios e integración en el mix energético.\n\nEspaña llega a 2025 con un mix eléctrico en plena transformación: renovables en crecimiento récord, debate político sobre seguridad de suministro tras incidentes de tensión, y discusiones sobre si prolongar la vida de algunas centrales nucleares o mantener la hoja de ruta de cierre.\n\nBreve evolución y situación actual: ¿dónde estamos a día de hoy?\n\nEn 2025 la flota nuclear española sigue siendo la heredada de décadas anteriores: siete reactores operativos repartidos en cinco emplazamientos (Almaraz I y II, Ascó I y II, Cofrentes, Trillo y Vandellós II). Bajo la política vigente, España mantiene una hoja de ruta de cierre escalonado de su parque nuclear hacia 2035, con las primeras paradas previstas entre 2027 y 2028, aunque ese calendario está siendo cuestionado por la reciente tensión sobre seguridad de suministro.\n\nAl mismo tiempo, la aportación de renovables creció de forma notable: Red Eléctrica reportó que las renovables cerraron 2024 aportando alrededor del 56–57% de la generación eléctrica, el porcentaje más alto hasta la fecha, lo que sitúa a la nuclear como una fuente estable pero relativa menor frente al salto renovable.\n\n¿Qué ha cambiado en los últimos años?\n\nFortalecimiento de las energías renovables: rápida incorporación de la energía eólica y solar ha elevado su participación y aumentado la variabilidad del sistema. REE documenta incrementos importantes en generación renovable y capacidad instalada en 2023–2024.\n\nDebate sobre prorrogar centrales: ante problemas de tensión y episodios de riesgo de suministro, empresas y actores regionales han comenzado a presionar para estudiar extensiones de vida operacional (especialmente Almaraz). Además, existen trabajos técnicos y comerciales para evaluar la renovación de equipos y el almacenamiento intermedio del combustible.\n\nante problemas de tensión y episodios de riesgo de suministro, empresas y actores regionales han comenzado a presionar para estudiar extensiones de vida operacional (especialmente Almaraz). Además, existen trabajos técnicos y comerciales para evaluar la renovación de equipos y el almacenamiento intermedio del combustible. Mayor atención regulatoria y de seguridad: el Consejo de Seguridad Nuclear (CSN) ha seguido actualizando exigencias y aprobando modificaciones de planes de emergencia interior para las centrales, reflejando un foco renovado en seguridad operativa.\n\nPrincipales desafíos\n\nMarco político y decisión sobre el cierre vs prórroga: la política oficial sigue contemplando un cierre progresivo hacia 2035; sin embargo, la presión por seguridad de suministro y episodios adversos en la red han generado una conversación política y técnica sobre la posible solicitud de prórrogas para algunas plantas. Esto levanta un dilema clásico: seguridad energética a corto/medio plazo versus objetivos de transición y costes socioeconómicos a largo plazo.\n\nla política oficial sigue contemplando un cierre progresivo hacia 2035; sin embargo, la presión por seguridad de suministro y episodios adversos en la red han generado una conversación política y técnica sobre la posible solicitud de prórrogas para algunas plantas. Esto levanta un dilema clásico: seguridad energética a corto/medio plazo versus objetivos de transición y costes socioeconómicos a largo plazo. Seguridad y licenciamiento: cualquier extensión exige evaluaciones regulatorias rigurosas (CSN) y, inversión en modernización de sistemas, seguridad y gestión de combustible gastado. El CSN ha mostrado en 2025 un papel activo en revisar planes y pedir marcos regulatorios robustos.\n\ncualquier extensión exige evaluaciones regulatorias rigurosas (CSN) y, inversión en modernización de sistemas, seguridad y gestión de combustible gastado. El CSN ha mostrado en 2025 un papel activo en revisar planes y pedir marcos regulatorios robustos. Gestión de residuos y desmantelamiento: el ciclo final (almacenamiento intermedio y definitivo, financiación del desmantelamiento) sigue siendo un argumento central en cualquier debate de prolongación y en la planificación de SMR o nuevas tecnologías. Asociaciones del sector insisten en que los modelos de financiación incorpore claramente todos estos costes.\n\nel ciclo final (almacenamiento intermedio y definitivo, financiación del desmantelamiento) sigue siendo un argumento central en cualquier debate de prolongación y en la planificación de SMR o nuevas tecnologías. Asociaciones del sector insisten en que los modelos de financiación incorpore claramente todos estos costes. Percepción pública y política fiscal: la fiscalidad, tasas medioambientales y la percepción pública local (empleo regional, riesgos) condicionan decisiones: algunas administraciones regionales han planteado reducir cargas fiscales a ciertas instalaciones para mantener empleos y actividad económica, lo que añade presión política.\n\nImpacto en precios y mercado: ¿cómo influye la nuclear en la factura?\n\nEstabilidad frente a volatilidad renovable: la nuclear aporta energía de base, con costes marginales bajos una vez amortizada la central, lo que ayuda a contener precios en periodos de escasa renovable. Sin embargo, la creciente penetración renovable incrementa la volatilidad intradiaria y hace que el precio horario dependa más de viento/sol. En esta línea, informes de la CNMC y consultoras destacan que la volatilidad mayorista ha aumentado en 2024–2025.\n\nla nuclear aporta energía de base, con costes marginales bajos una vez amortizada la central, lo que ayuda a contener precios en periodos de escasa renovable. Sin embargo, la creciente penetración renovable incrementa la volatilidad intradiaria y hace que el precio horario dependa más de viento/sol. En esta línea, informes de la CNMC y consultoras destacan que la volatilidad mayorista ha aumentado en 2024–2025. Efecto sobre emisiones y coste social del CO₂: eliminar nuclear sin alternativas de baja emisión obligaría a recurrir más a ciclos combinados (gas) en momentos de escasez renovable, elevando emisiones y, potencialmente, costes asociados al CO₂. Estudios sectoriales estiman que la nuclear evita emisiones significativas cada año.\n\neliminar nuclear sin alternativas de baja emisión obligaría a recurrir más a ciclos combinados (gas) en momentos de escasez renovable, elevando emisiones y, potencialmente, costes asociados al CO₂. Estudios sectoriales estiman que la nuclear evita emisiones significativas cada año. Presión fiscal y costes específicos: la discusión pública también se centra en impuestos y tasas específicas tales como la ecotasa, que influyen en la rentabilidad operativa y en la decisión de las utilities sobre prórrogas o inversiones.\n\n¿Y la integración nuclear en el mix energético?\n\nFuente de respaldo baja en carbono: útil para garantizar un bloque de generación estable y ayudar a suavizar la curva cuando las renovables caen.\n\nútil para garantizar un bloque de generación estable y ayudar a suavizar la curva cuando las renovables caen. Compatibilidad con renovables: su funcionamiento en régimen de base puede complementar picos renovables, pero la arquitectura futura del sistema (almacenamiento, gestión de demanda, interconexiones) definirá cuánto se necesite operativamente. REE muestra que las renovables ya cubren la mayoría del crecimiento en 2024, lo que obliga a rediseñar la flexibilidad del sistema.\n\n¿Qué le depara a la energía nuclear en el horizonte 2030?\n\nDecisión política sobre prórrogas: en 2025 siguen las presiones técnicas y políticas para solicitar extensiones (Almaraz es el foco principal). La decisión requerirá equilibrar seguridad del suministro, requisitos regulatorios y coste social.\n\nen 2025 siguen las presiones técnicas y políticas para solicitar extensiones (Almaraz es el foco principal). La decisión requerirá equilibrar seguridad del suministro, requisitos regulatorios y coste social. Modernización y exigencias regulatorias: cualquier prolongación necesitará inversiones y la aprobación estricta del CSN.\n\ncualquier prolongación necesitará inversiones y la aprobación estricta del CSN. Gestión del mix y mercados: el incremento de renovables obliga a diseñar mecanismos (almacenamiento, demand response, mercados intradiarios) que permitan convivir con potencia de base nuclear sin fricciones de mercado. CNMC y consultoras advierten sobre la mayor volatilidad y la necesidad de instrumentos de gestión.\n\nel incremento de renovables obliga a diseñar mecanismos (almacenamiento, demand response, mercados intradiarios) que permitan convivir con potencia de base nuclear sin fricciones de mercado. CNMC y consultoras advierten sobre la mayor volatilidad y la necesidad de instrumentos de gestión. Economía y fiscalidad local: decisiones fiscales regionales y nacionales influirán en la viabilidad económica de prolongaciones o inversiones en nuevas tecnologías.\n\n¿Quieres saber más? Conoce el Informe para la moratoria de la central nuclear de Cofrentes\n\nhttps://www.camaravalencia.com/wp-content/uploads/2025/04/Informe-prorroga-Cofrentes-160425.pdf",
+                                        "metadata": {
+                                            "url": "https://negociosostenible.camaravalencia.com/ambiental/tendencias/radiografia-2025-de-la-energia-nuclear-en-espana-evolucion-retos-precios-e-integracion-en-el-mix-energetico/",
+                                            "source": "negociosostenible.camaravalencia.com",
+                                            "favicon": "https://negociosostenible.camaravalencia.com/wp-content/uploads/2024/02/cropped-logo_favicon_verde-32x32.png",
+                                            "title": "Radiografía 2025 de la energía nuclear en España: evolución ...",
+                                            "type": "web_search",
+                                            "base_url": "https://negociosostenible.camaravalencia.com",
+                                            "snippet": "Radiografía 2025 de la energía nuclear en España: evolución, retos, precios e integración en el mix energético. · Debate sobre prorrogar ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Informe de la Industri a Nuclear Mundial (WNISR, por sus siglas en inglés), pone de manifiesto que actualmente, las energías renovables son más competitivas que la energía nuclear. De hecho, informa de que los costes nivelados de la energía solar cayeron un 90 % y los de la eólica, un 72 %.\n\nAdemás, la capacidad de generación de la energía solar crece más rápido que la de cualquier otro tipo de energía, siendo su capacidad total global de entre 848,5 GW y 942 GW (según las fuentes). Por tanto, la solar lidera en ese aspecto, seguida muy de cerca por los 823.5 de la eólica. Aún así, es esta última la primera en producción anual con 1850 TWh, frente a los 1.032 TWh de la solar (datos de 2021).\n\nPara Sama Bilbao y León, director general de la Asociación Nuclear Mundial (WNA), “La guerra en Ucrania ha dejado muy clara la fragilidad de la cadena de suministro de combustibles fósiles, lo que pone de aliviar las preocupaciones que ya se habían expuesto como consecuencia de la pandemia. En muchas regiones los precios de la energía están aumentando, lo que alimenta la inflación y agrava la pobreza energética. Temerosos de perder el acceso a las importaciones de gas y de enfrentar apagones y escasez de energía, los gobiernos están pidiendo que se reinicien las centrales eléctricas de carbón.”\n\nSegún el informe, desde 2012 las centrales nucleares tienen un tiempo medio de construcción de 9.2 años , un dato que la WNA pone en 7 años y medio. De todos los modos, la construcción de nuevas centrales nucleares, las centrales existentes que utilizan combustibles fósiles durante la emisión de dióxido de carbono.\n\nSchneider ha añadido: “Para proteger el clima, debemos reducir la mayor cantidad de emisiones de dióxido de carbono al menor coste y en el menor tiempo posible”.\n\nLos costes nivelados de las energías renovables se reducen\n\nEn cuanto a los costes nivelados , que son el resultado de comparar el coste total de construcción y operación de una planta con la producción que generará durante su vida útil, en los últimos años se ha visto como se han reducido en un 90% para la solar y en un 72% para la eólica, mientras que para la nuclear…han alcanzado un 36%.\n\nPor su parte, la WNA ha asegurado en un comunicado que existen estudios que demuestran que la energía nuclear provee de forma más rápida que otras formas de generación de bajas emisiones, así como que en muchos países la nuclear suministra más energía de bajas emisiones por año que las energías eólica y solar. En referencia al tiempo de construcción de centrales nucleares, también aseguró que es posible levantar centrales en cuatro años construyendo los reactores en secuencia.\n\nPrecios de la energia nuclear\n\nEn la comparativa entre nuclear y renovables, es indiscutible que el precio de la nuclear no puede competir con el de las energías limpias El informe WNISR cifra el coste de generación solar en 36 dólares por megavatio hora, mientras que la eólica cuesta entre 38 $/ MWh. En cambio, la energía nuclear está casi en el doble, en los 67 dólares por megavatio hora, aumentando un 36 % desde 2009.\n\nConclusiones\n\nComo conclusión, 2021 y 2022 han demostrado una vez más que las energías renovables superan a la energía nuclear en términos de costes, y como se muestra a lo largo de este informe, la energía nuclear tarda en aprovechar. Por lo tanto, aunque recientemente se ha prestado más atención a la energía nuclear, es el uso de energía renovable, como se demuestra gráficamente en la UE, lo que se está promoviendo como solución de suministro.\n\nEl informe concluye con una cita de Antonio Gueterres, Secretario General de las Naciones Unidas:\n\n«Todavía somos adictos a los combustibles fósiles: El único camino verdadero hacia la seguridad energética, precios estables de la energía, prosperidad y un planeta habitable radica en dejar los combustibles fósiles y acelerar la transición a las energías renovables».",
+                                        "metadata": {
+                                            "url": "https://www.energynews.es/comparativa-nuclear-y-renovables/",
+                                            "source": "www.energynews.es",
+                                            "favicon": "https://www.energynews.es/wp-content/uploads/2021/10/cropped-site-icon-32x32.png",
+                                            "title": "Los datos de la comparativa entre la nuclear y las renovables",
+                                            "type": "web_search",
+                                            "base_url": "https://www.energynews.es",
+                                            "snippet": "En la comparativa entre nuclear y renovables, es indiscutible que el precio de la nuclear no puede competir con el de las energías limpias El ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Puntos clave\n\nLa infraestructura obsoleta, los planes no realizados y los altos costos continúan limitando el papel de la energía nuclear en la descarbonización rápida, mientras que la energía solar y eólica se están expandiendo rápidamente y superando a la nuclear en nueva capacidad y generación.\n\nCasi el 40% de toda la energía nuclear propuesta hasta ahora ha sido cancelada: se han cancelado 566 gigavatios (GW) de capacidad nuclear en todo el mundo, más de lo que actualmente está en funcionamiento (401 GW) o retirado (116 GW) en conjunto.\n\nEl sector nuclear europeo ha perdido 122 GW de capacidad planificada debido a cancelaciones, una cifra superior al parque nuclear en funcionamiento de cualquier país del mundo. Se han retirado otros 68 GW, y el 90 % de los reactores restantes tienen más de 35 años. En cambio, la capacidad eólica y solar a gran escala europea, en construcción o en fase de preconstrucción, supera a la nuclear en una proporción de más de 13 a 1.\n\nLa moratoria de Australia sobre la energía nuclear, los largos plazos de desarrollo proyectados, los altos costos, la falta de experiencia y la fuerte preferencia pública y política por las energías renovables significan que es poco probable que la energía nuclear desempeñe un papel importante a la hora de llenar el vacío dejado por la eliminación gradual del carbón planificada en el país para 2038.\n\nLimitar el calentamiento a 1.5 °C es el objetivo internacionalmente reconocido el Acuerdo de París, como se reafirmó en las recientes cumbres climáticas de la ONU. Sin embargo, las evaluaciones científicas indican que es probable que se supere este umbral. dentro de los próximos tres años, lo que subraya la urgente necesidad de una rápida descarbonización. En este contexto, la inminente ruptura del objetivo está impulsando un cambio generalizado hacia el abandono de los combustibles fósiles y la energía nuclear. Se ha reevaluado como una posible opción energética baja en carbono.La energía nuclear, aunque no está clasificada como renovable, ha experimentado un mayor apoyo político e inversión en los últimos años. COP28 y COP29 reconoció formalmente su papel potencial y 31 países se comprometieron a triplicar la capacidad nuclear mundial para 2050.\n\nLos datos completos y basados ​​en citas de GEM Rastreador Global de Energía Nuclear (GNPT) Monitorea no solo las centrales nucleares en funcionamiento, sino que también mapea de forma única toda la cartera de proyectos en desarrollo, incluyendo los cancelados. A menudo ignoradas en otros conjuntos de datos, las cancelaciones de proyectos nucleares representan el 38% de toda la capacidad propuesta hasta la fecha: unos 566 GW, equivalentes a casi el 120% de... Toda la capacidad de generación de energía de la India De todas las fuentes. Este informe se centra en Europa, donde la infraestructura nuclear es extensa pero obsoleta, y en Australia, donde se ha debatido sobre la energía nuclear, pero aún no se ha implementado. En ambas jurisdicciones, el GNPT indica que el nuevo despliegue nuclear no es una estrategia viable para cumplir los objetivos climáticos.\n\nEuropa: los planes de energía eólica y solar superan a la nuclear en catorce a uno\n\nEl papel de la energía nuclear en la descarbonización europea se ve limitado por el envejecimiento de las infraestructuras, los plazos de construcción prolongados, el aumento de los costes y la fuerte competencia de las energías renovables. De toda la capacidad nuclear planificada para Europa, dos quintas partes se han cancelado (25%) o retirado (15%), mientras que solo el 2% está actualmente en construcción. Solo las cancelaciones europeas suman 112 GW de capacidad, superando la capacidad nuclear operativa de cualquier país del mundo. Datos del GNPT revelan que los proyectos nucleares enfrentan constantemente altos riesgos de retrasos, sobrecostos y abandono. Por ejemplo, la unidad 3 de El proyecto Olkiluoto de Finlandia Se necesitaron 17 años para completarse, mientras que la unidad 4 se canceló en 2015. No se espera que la mayoría de los proyectos actualmente en desarrollo comiencen a operar hasta la próxima década, lo que anula su posible contribución al objetivo climático de 1.5 °C. En contraste, solar y viento industria ya lo han demostrado implementación rápida y escalable y reducciones de emisiones mensurables, que ofrecen beneficios climáticos a corto plazo.\n\nFigura 1 y XNUMX\n\nGNPT de GEM Muestra que, a septiembre de 2025, Europa opera 157 gigavatios (GW) de capacidad nuclear, de los cuales más del 90 % proviene de reactores con más de 35 años de antigüedad. Los retiros están reduciendo constantemente la capacidad operativa total. En Francia, el mayor operador nuclear del continente, la generación ha disminuido debido a problemas de mantenimiento e interrupciones imprevistas, incluyendo Una ola de calor récord en julio de 2025 que interrumpió la refrigeración del reactorEn comparación con 2005, la producción nuclear francesa fue 16% más bajo En 2024, incluso después de la incorporación de su primera unidad nueva en casi dos décadas. En toda la UE, la participación de la energía nuclear en la generación de electricidad cayó del 25 % en 2005 a menos del 20 % en 2024. De los 9.3 GW de nueva capacidad nuclear europea en construcción, Los datos del GEM muestran que la mayor parte se destina a reemplazar unidades que se retiran en lugar de ampliar la capacidad total.\n\nProyectos recientes de reactores europeos como Olkiluoto 3 de Finlandia, Flamanville 3 de Francia y Hinkley Point C del Reino Unido deben acudir experimentó retrasos de más de diez años y sobrecostes considerablesTodos emplean el diseño del Reactor Presurizado Europeo (EPR), cuya complejidad única y la falta de métodos de construcción estandarizados han llevado a una implementación ineficiente. Se están realizando esfuerzos para desarrollar SMR en una variedad Europea países de alta calidad que incluyen el Reino Unido y Francia, pero todavía no hay SMR comerciales en funcionamiento y es poco probable que se produzcan los primeros despliegues antes principios de la década de 2030 debido a regulatorios, cost y aceptación pública barreras\n\nPor el contrario, la implementación de energías renovables continúa a gran escala. Rastreador de potencia integrado global de GEM Indica que más de 600 GW de capacidad eólica y solar a escala de servicios públicos se encuentran en fase de preconstrucción o construcción en toda Europa, lo que, en conjunto, es más de catorce veces mayor que la capacidad nuclear. Incluso considerando los factores de mayor capacidad de la generación nuclear, se espera que las incorporaciones planificadas de energía eólica y solar contribuyan sustancialmente a la descarbonización. Se espera que gran parte de esta capacidad renovable esté operativa mucho antes de los nuevos proyectos nucleares, gracias a los proyectos renovables. tiempos de entrega Normalmente, oscila entre uno y cuatro años, en comparación con una década o más para la energía nuclear. En la UE, concretamente, a mediados de 2025, la generación solar total (22.1%) ya ha superado nuclear (21.8%) por primera vez. Almacenamiento en baterías, impulsado por la disminución de los costos, está en camino de expandirse de 22 GWh en 2024 a aproximadamente 120 GWh Para 2029, se promoverá una mayor integración de las energías renovables. Al mismo tiempo, energía hidroeléctrica de almacenamiento por bombeo sigue siendo una piedra angular de la capacidad de almacenamiento de energía a gran escala.\n\nFigura 2 y XNUMX\n\nLa eliminación gradual del carbón en Australia para 2038 hace inviable el cronograma nuclear\n\nAustralia es otra economía importante donde es poco probable que la energía nuclear contribuya a los objetivos de reducción de emisiones en las próximas una o dos décadas, a pesar de los recientes llamamientos de algunos actores políticos para que se revisen los planes nucleares. La prolongada moratoria del país sobre la energía nuclear, reflejada en GNPT de GEM La ausencia total de instalaciones operativas o prospectivas pone de relieve el potencial limitado de la energía nuclear como opción de descarbonización a corto plazo, especialmente en contraste con la sólida expansión de la capacidad eólica y solar del país.\n\nAustralia planea retirar toda su flota de centrales eléctricas de carbón —que actualmente suministra alrededor de la mitad de la electricidad del país— para 2038. Esta transición requerirá el despliegue de fuentes de energía de reemplazo rápidas, confiables y rentables dentro de los próximos trece años. Los datos del GEM muestran que, históricamente, los nuevos reactores nucleares han tenido una duración media de poco menos de ocho años. desde el inicio de la construcción hasta su finalización desde mediados de la década de 1960, excluyendo los períodos previos a la construcción y los proyectos cancelados. Estimaciones de la Organización de Investigación Científica e Industrial de la Commonwealth (CSIRO) que los plazos de construcción de las plantas nucleares en Australia probablemente serán al menos cinco años más largos que el promedio mundial, lo que resultará en un período de construcción esperado de aproximadamente trece años desde la colocación de las primeras piedras hasta la puesta en servicio.\n\nFigura 3 y XNUMX\n\nPara alcanzar la fase operativa en 2038, los nuevos proyectos nucleares deberían comenzar su construcción antes de finales de este año. Si se consideran las extensas fases de preconstrucción, que suelen durar varios años, la viabilidad de introducir nueva capacidad nuclear en Australia dentro del plazo requerido para reemplazar las centrales eléctricas de carbón que se están retirando se vuelve extremadamente improbable.\n\nLa energía nuclear también sigue siendo una de las formas de generación de electricidad de mayor costo por megavatio-hora, con retrasos y cancelaciones que a menudo transfieren el riesgo financiero a los contribuyentes. A estos problemas se suman la falta de mano de obra australiana con formación nuclear y la ausencia de... marcos regulatorios para la entrega segura y oportuna de proyectos. La opinión pública y las políticas públicas desafían aún más las perspectivas de la energía nuclear. La mayoría de los australianos... múltiples proveedoresmantener La moratoria actual, reafirmada en recientes investigaciones parlamentarias, y la política energética nacional prioriza la energía eólica, solar y el almacenamiento. En los últimos diez años, Australia ha añadido más de 21 GW de nueva capacidad eólica y solar a escala de servicios públicos, y el objetivo del gobierno de... 43% Se considera ampliamente que la reducción de emisiones para 2030 es alcanzable mediante el despliegue sostenido de energía eólica, solar y de almacenamiento, que siguen siendo menos costoso y más rápido de escalar que la energía nuclear.\n\nConclusión\n\nLos altos costos y los largos plazos de construcción de las nuevas centrales nucleares limitan considerablemente el impacto en los objetivos de descarbonización a corto plazo. La energía eólica y solar están alcanzando una rápida escala y una mayor rentabilidad, lo que las convierte en esenciales para la reducción inmediata de emisiones necesaria para la trayectoria de 1.5 °C. Los SMR aún no se han probado comercialmente, y los riesgos actuales y las tasas de implementación de la energía nuclear en general son insuficientes para los objetivos climáticos de 2030. Una descarbonización robusta y el éxito de las acciones para alcanzar la reducción de emisiones requerirán una planificación tecnológicamente neutral y a nivel de sistema, que incluya una evaluación realista del papel propuesto para la energía nuclear.\n\nAcerca del rastreador mundial de energía nuclear\n\nEl Rastreador Global de Energía Nuclear (GNPT) es un conjunto de datos mundial sobre instalaciones de energía nuclear. El GNPT cataloga todas las unidades de centrales nucleares, independientemente de su capacidad y estado, incluyendo las que se encuentran en operación, anunciadas, en preconstrucción, en construcción, archivadas, canceladas, inactivas o retiradas.\n\njose bernardi\n\nGerente de Proyecto, Global Nuclear Power Tracker\n\n[email protected]",
+                                        "metadata": {
+                                            "url": "https://globalenergymonitor.org/es/report/nuclear-outpaced-fourteen-to-one-by-wind-and-solar-in-europe/",
+                                            "source": "globalenergymonitor.org",
+                                            "favicon": "https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-32x32.png",
+                                            "title": "La energía nuclear es superada catorce a una por la eólica ...",
+                                            "type": "web_search",
+                                            "base_url": "https://globalenergymonitor.org",
+                                            "snippet": "Europa: los planes de energía eólica y solar superan a la nuclear en catorce a uno. El papel de la energía nuclear en la descarbonización ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El apagón del 28 de abril fue un momento histórico para la España del siglo XXI. Las causas aún no están del todo claras y se apunta a un fallo grave del control de tensión o a errores técnicos que impidieron que la red eléctrica soportara un aumento de voltaje, entre otros motivos.\n\nAquel día se reavivó un debate que lleva años en el tribunal de la opinión pública: apostar por la energía nuclear en España o cercenarla y utilizar otras fuentes de energía. Otros países con más presencia en las nucleares como Francia ven el rumbo tomado en nuestro país como una temeridad. ¿Es así?\n\nEn este artículo vamos a contrastar posturas y desmontar mitos sobre la energía nuclear. Para ello, hemos entrevistado a Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE) y a Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España.\n\n¿Cuántas centrales nucleares hay en funcionamiento en España? ¿Qué fuentes de energía se deberían impulsar y serían suficientes para cubrir la demanda energética total? ¿Es mejor que otras fuentes de energía? ¿Qué ocurre con los residuos que genera? Respondemos estas y otras preguntas.\n\nCuántas centrales nucleares hay en España\n\nSegún datos de la Sociedad Nuclear Española (SNE), actualmente, hay 416 reactores nucleares funcionando en todo el mundo, 61 se encuentran en fase de construcción y 215 han sido definitivamente clausurados. En el caso de España, hay 7 reactores nucleares operando —Almaraz I, Almaraz II, Ascó I, Ascó II, Cofrentes, Trillo y Vandellós II—, ninguno en construcción y tres que han cesado su actividad de forma definitiva: José Cabrera, Santa María de Garoña y Vandellós I.\n\n¿Es falso lo que dice el Gobierno de que no hay Uranio en España?\n\nSegún la edición de 2024 del Libro Rojo del Uranio que publica cada dos años la Agencia Internacional de la Energía Atómica (IAEA) y la Agencia de Energía Nuclear (NEA), España dispone de unas 34.350 toneladas de Uranio.\n\nLa Ley 7/2021 de Cambio Climático y Transición Energética en su artículo 10º impide otorgar la concesión de nuevas licencias para explorar o explotar minerales radiactivos es la que limita su extracción a fecha de hoy.\n\n¿Por qué es beneficiosa la energía nuclear?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nLas centrales nucleares generan energía eléctrica 24 horas al día, siete días a la semana, un 85 % de las horas del año. Lo hacen además sin emitir gases de efecto invernadero, contribuyendo con ello a combatir el calentamiento global.\n\nPoseen una densidad de potencia enorme lo que les permite ocupar una cantidad mínima de terreno y los residuos operacionales que se generan son técnicamente gestionables sin riesgo ni para las personas ni para el medio ambiente. Un ejemplo podría ser la central nuclear Vandellós II, en la que todo el combustible utilizado en sus 37 años de operación está almacenado en una piscina que tiene el área de un campo de baloncesto.\n\nDestacaría también que sus costes de producción están menos expuestos a la variación de precio de las materias primas a nivel internacional y, de no ser por la carga fiscal que soportan en la actualidad en España, podrían contribuir a una reducción del precio que\n\n¿Por qué es mala la energía nuclear?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nLa energía nuclear es cara, lenta, sucia, peligrosa y tóxica para las renovables\n\nCara : Si la energía nuclear asumiera realmente los costes de la contaminación que genera —desde la gestión de residuos hasta el desmantelamiento de plantas— el precio final sería mucho más elevado. Es una tecnología altamente subvencionada que oculta costes ocultos a largo plazo.\n\nLenta : Frente a la urgencia climática, la energía nuclear llega demasiado tarde. Construir nuevas centrales nucleares requiere décadas y, en la práctica, siempre se enfrentan a retrasos y sobrecostes. No es una solución eficaz a corto ni medio plazo.\n\nSucia : La energía nuclear rompe el compromiso con las generaciones futuras. Deja residuos radiactivos que seguirán siendo peligrosos durante siglos, cuya gestión sigue sin tener una solución definitiva y segura.\n\nPeligrosa : Lejos de aportar resiliencia, la nuclear puede convertirse en un problema en momentos críticos. En apagones, sequías, terremotos, tsunamis o conflictos armados, las centrales pueden paralizarse o suponer un riesgo añadido. No es una fuente flexible ni segura en escenarios de emergencia. Aunque el riesgo de accidente puede ser bajo en países democráticos y estables, ni la democracia ni la estabilidad están garantizadas para siempre. Y si se multiplican las centrales, también se multiplica el riesgo. Una sociedad verdaderamente resiliente se prepara para lo peor, y lo peor es mucho menos probable si no hay centrales nucleares.\n\nTóxica para las renovables : La energía nuclear no es lo suficientemente flexible para integrarse con eficiencia en un sistema dominado por fuentes renovables. Su rigidez impide aprovechar al máximo el potencial de la solar y la eólica, y limita la evolución hacia un modelo energético limpio y dinámico.\n\n¿Es más limpia y eficiente que otras fuentes de energía?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nLa generación de energía eléctrica a partir de centrales nucleares no emite gases de efecto invernadero. Sus emisiones de ciclo de vida son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferior a las de la generación solar fotovoltaica (43 g CO2e/kWh).\n\nSu eficiencia proviene esencialmente de dos factores: a) opera 24/7 más de un 85 % de las horas del año y; b) su enorme densidad de potencia le permite ocupar un espacio físico muy limitado cuando comparada con otras tecnologías de producción eléctrica, 0,3 m2/MWh frente a los 19 m2/MWh de la solar fotovoltaica o los 99 m2/MWh de la eólica terrestre.\n\n¿Es la energía nuclear más dañina que otras, por ejemplo, las fósiles?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nTodo sistema de producción de energía tiene externalidades negativas. Las fósiles genera unas externalidades tremendamente dañinas (sobre todo Gas de Efecto invernadero pero también vertidos y polución local) no solo al quemar el gas o el petróleo en sus plantas sino también requieren de una industria, a del petróleo, carbón y gas que va esparciendo esas externalidades desde que esa materia prima fósil sale del pozo hasta que llega a la planta ya refinada.\n\nLa energía nuclear también tiene externalidades, quizás no emite el CO2 de manera directa pero si generan residuos radiactivos que son peligrosos y que van a seguir siéndolo miles de años. Además también depende de la industria de extracción refinado y enriquecedora de uranio que también genera grandes problemas medioambientales y consume mucha energía.\n\nAdemás teniendo en cuenta el balance completo de emisiones, las nucleares también emiten CO2 más que las renovables y menos que los fósiles. Todos los procesos para disponer de una pastilla de uranio (de la minería al enriquecimiento en uranio-235 y sus transportes) requieren el uso de combustibles fósiles. Más la construcción, clausura de la central y tratamiento de sus residuos radiactivos. Esas emisiones se cifran en 66 grCO2e/KWh, aproximadamente un 15% de las de una central de gas en ciclo combinado de la misma potencia. Pero son un 600% superiores a las de la eólica.\n\n¿Qué ocurre con los residuos generados por la energía nuclear?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nLos residuos de muy baja, baja y media actividad se acondicionan en las propias centrales para que sea segura su manipulación y transporte. La Empresa Nacional de Residuos (ENRESA) toma posesión de ellos y los transporta a su almacén situado en El Cabril, en la provincia de Córdoba.\n\nLos residuos de alta actividad, que son esencialmente el combustible nuclear irradiado, se almacenan en las piscinas de combustible gastado de las propias centrales nucleares y tras un período de enfriamiento y decaimiento de su actividad son colocados en contenedores especiales y transportados a los almacenes temporales situados también en las centrales. La solución final para este combustible pasa por un almacén geológico profundo que ya está operativo en países como Finlandia y que en España se ha planificado para el año 2073.\n\n¿Qué riesgos concretos tiene la energía nuclear?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nLos residuos radiactivos siguen siendo un problema que duran milenios para los cuales no hay solución definitiva:\n\nLa probabilidad de accidente nuclear aumenta en un parque nuclear envejecido : Las centrales nucleares españolas registran una avería cada 11 días. Si se produce un accidente grave afectará a millones de personas durante décadas.\n\nLa energía nuclear civil es usada como arma de guerra y además está estrechamente relacionada con los usos militares : el riesgo que suponen las centrales nucleares como objetivo militar (Ucrania o Irán) es alto. Además. La tecnología necesaria para la producción de energía nuclear también puede utilizarse para la fabricación de armas nucleares.\n\nEncarecen la factura de la luz: El problema que enfrenta el sector nuclear es que su electricidad es más cara de producir que la generada con tecnologías renovables + almacenamiento y eso lo pagamos en la factura. Según costes estimados son de entorno 120 €/MWh muy por encima de los 30-40 €/MWh energías solar fotovoltaica y eólica.\n\nPerjudican la transición energética : Las centrales españolas no se diseñaron para reducir potencia por debajo del 70%, ni para hacerlo rápido, tal y como necesita el acompañamiento a la producción renovable.\n\nFinancian guerras y regímenes autoritarios Las centrales nucleares son completamente dependientes de la importación de combustible nuclear de la esfera de influencia rusa.\n\nAlargar las centrales o construir nuevas es una tapadera para captar dinero público : La nuclear lleva décadas estancada, no ha crecido en lo que llevamos de siglo, es más, ha ido perdiendo cuota, el objetivo de la industria nuclear es seguir acaparando fondos públicos en abundancia manteniendo con vida los viejos reactores o proyectos fallidos como los SMR.\n\nLas centrales nucleares no solo no nos protegen de apagones sino que se vuelven un problema en sí mismas: Por su tamaño y operativa restringida han demostrado la incapacidad de la energía nuclear para impedir o resolver un apagón. Los reactores tardaron más de una semana en funcionar con normalidad.\n\n¿Es posible otro Chernóbil?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nChernóbil es una central que tuvo en su momento en operación 4 reactores tipo RBMK-1000, con una tecnología muy distinta de las que tenemos en España en la actualidad. Aquella central no cumplía con medidas de seguridad como tener un reactor confinado en un edificio de contención que sí tienen nuestras instalaciones. Todas las centrales nucleares en España son operadas de manera rigurosa, con la seguridad como pilar, y con organismos nacionales e internacionales que velan también por ese objetivo y que nos permiten afirmar con rotundidad que nuestras centrales son seguras. Y no solo eso, sino que podemos ir más allá y decir que lo son más que cuando empezaron a operar, por todas las modificaciones y mejoras que se han hecho en las instalaciones a lo largo de los años, además de la formación exhaustiva de los profesionales que trabajan en ellas.\n\n¿Por qué hay gente en contra de la energía nuclear?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nLa mayoría de personas que tienen la oportunidad de visitar una central nuclear en operación suelen irse con una idea bastante distinta de la que tenían al llegar, pero no es fácil poder hacer estas visitas y seguramente, a la industria nuclear en España le ha faltado más apertura y divulgación sobre todo en sus inicios porque lo que estamos viendo es que, a mayor información y conocimiento, mayor aceptación.\n\nEl sector nuclear es en la actualidad un sector moderno y puntero que utiliza tecnología avanzada en todos sus procesos tanto en operación como en recargas de combustible, que emplea de los mejores y más bien preparados profesionales que hay en la actualidad, que a su vez trabajan siempre de una manera muy rigurosa y sometida a distintos niveles de supervisión y que está haciendo, además, un importante ejercicio de información y transparencia para llegar a la sociedad y cambiar esa visión negativa.\n\n¿Cuál es el modelo de energía del futuro y cuál es el actual?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nHace unos años Greenpeace lanzó el modelo energético 3.0 (no sólo eléctrico) para lograr la transformación completa del sistema energético actual hacia uno inteligente, eficiente y 100% renovable. Ahora estamos con una actualización, el energía 4.0.\n\nGreenpeace propone para España:\n\nSuministro del 100% de la demanda de energía final total con energías renovables no más tarde de 2050, reducción de la demanda de energía final en un 55% respecto a 2007 para 2030 y alcanzar niveles cero de emisiones en el sector energético antes de 2050.\n\nIntegración en el sistema energético de la edificación y de un sistema de transporte inteligente.\n\nEvolucionar desde una economía dependiente de la venta de productos a una basada en la prestación de servicios.\n\nEliminación de todas las subvenciones a las energías sucias e ineficientes, e internalización de los costes externos.\n\nMarco jurídico definido, previsible y estable, con rango de ley, para las energías renovables y la eficiencia energética.\n\nIntegrar plenamente la demanda en la operación del sistema, permitir la entrada de los agregadores de demanda y de las centrales de potencia virtuales y regular el derecho al autoconsumo de energía limpia.\n\nEn la actualidad, desgraciadamente seguimos dependiendo un 80% de combustibles fósiles a efectos de energía primaria. El sistema eléctrico está avanzando hacia la descarbonización, siendo casi un 60% renovable (sin nuclear que no es renovable).\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nTal y como se está viendo en los modelos que se están proyectando, el reto es conseguir una electrificación que se sustente en generación libre de emisiones y para ello, los países están optando mayoritariamente por un sistema que combine nuclear y renovables, es decir generación firme que aporta inercia al sistema eléctrico y un precio previsible al estar menos expuesta a las variaciones de precios de las materias primas, combinada con generación intermitente. Para ello se deberá desarrollar también una capacidad adicional importante en almacenamiento de energía, que minimice las pérdidas en energía generada que no puede consumirse de manera inmediata.\n\nPensamos que la energía nuclear tiene que estar de apoyo en la actualidad, pero también en el futuro.\n\n¿Qué os parece el resurgimiento de la energía nuclear en algunos países europeos como Francia, o el reciente debate en la UE sobre incluirla como energía verde?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nLa energía nuclear es una energía que lleva estancada más de tres décadas y las nuevas centrales modulares son antieconómicas e igualmente peligrosas Francia es un caso especial y camina en solitario y casi todo a nivel discursivo pues su proyectos estrella, el reactor de 3 generación Flamanville3 ha sido su primera y única incorporación en 25 años· El proyecto acumulaba ya 12 años de retraso y enormes sobrecostes.\n\nDe momento la industria está luchando en EU en alargar las viejas centrales con la esperanza de un hipotético “renacer mundial de la energía nuclear”. Por ejemplo, esta estrategia de captación nuclear de fondos públicos es el alargamiento del funcionamiento de las centrales de Bélgica. Dicha extensión costará a las arcas públicas belgas y europeas unos 32.000 millones en ayudas en 10 años por dos reactores\n\nSolo China, mediante ingentes inyecciones de dinero público en su programa nuclear nuevo, ha conseguido sostener las cifras de potencia nuclear instalada en el mundo y maquillar la decadencia de la energía nuclear en el resto del globo. Las cifras chinas son muy interesantes a este respecto. Entre 2019 y 2021 la generación nuclear china aumentó 30 TWh producto de 4,5 GW de nueva potencia nuclear. En esos mismos dos años la generación solar en China aumentó unos 52 TWh, casi el doble, y la generación eólica aumentó 125 TWh, cuatro veces más. La solar y la eólica incrementaron seis veces más su generación que la energía nuclear en el país del mundo que más apuesta por la nuclear. Y no he contado la capacidad hidroeléctrica instalada estos dos años (32 GW). Creemos que estos datos se explican solos, la apuesta china es clara.\n\nLa realidad es que generación nuclear no ha crecido en lo que llevamos de siglo, es más, ha ido perdiendo cuota de generación desde entonces. Su edad de oro acabó a finales de los años 70. Desde los años 80, y sobre todo desde el accidente de Chernóbil, los desarrollos nucleares se redujeron de forma importante. Se han seguido conectando centrales a partir de los 90 (muchas proyectadas antes de Chernóbil y no paralizadas), pero el inicio de la construcción de reactores quedó bajo mínimos y se equilibró con los reactores que se cerraban, de ahí su estancamiento. La energía nuclear es la única energía que tiene una curva de aprendizaje negativa, es decir, que conforme más se desarrolla más cara es. Hoy en día es mucho más caro hacer un reactor nuclear que hace cuatro décadas, mientras energías como la solar o la eólica son decenas de veces más baratas.\n\nRespecto al plan nuclear europeo o mundial, es claro como lo es el sexto informe del IPCC. La tendencia para la energía nuclear es negativa, cuando se habla de las opciones de mitigación cara al año 2030, el IPCC destaca como energías fundamentales la solar y la eólica. La energía nuclear aparece en un lugar subalterno con otras energías y con una capacidad muy limitada para la mitigación. Más claro se puede ver esto en la reciente estrategia europea REPowerEU la generación nuclear en 2030 va a ser menor a la generación nuclear actual.\n\n¿Si se cierran todas las centrales nucleares de España, qué podría pasar?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nSi se mantiene el actual calendario de cierre ordenado de todo el parque nuclear español, tal y como está diseñado el modelo a fecha de hoy en España, su aporte será cubierto por ciclos combinados, es decir cambiaremos la generación nuclear por generación a partir de gas. Esto es debido a que la red seguirá necesitando de generación síncrona que le aporte la inercia necesaria para hacer frente a fluctuaciones de frecuencia y tensión, y no siempre se puede contar con la generación hidráulica, expuesta a la meteorología. Mayor uso de gas se puede traducir en mayor importación, incrementando la dependencia energética de España de otros países y un incremento de las emisiones de gases de efecto invernadero, esencialmente dióxido de carbono y óxidos de nitrógeno.\n\nLos países están optando mayoritariamente por un sistema que combine nuclear y renovables. Desde el punto de vista de la Sociedad Nuclear Española este debería ser el camino que siguiese también España. Nos estamos quedando rotundamente solos con el posicionamiento de cierre de centrales y consideramos que este no es el modelo que necesitamos como país.\n\nLas centrales nucleares generan energía eléctrica 24 horas al día, 7 días a la semana sin emitir gases de efecto invernadero, contribuyendo con ello a combatir el calentamiento global. Prescindir de un recurso que tenemos disponible, cuando hay muchos otros países en el mundo que lo que están haciendo es proyectar y construir centrales precisamente para electrificar sin aumentar, o reduciendo, sus emisiones, no tiene mucho sentido. Vamos a cerrar centrales nucleares que funcionan de manera segura y fiable sin ninguna razón técnica para ello.\n\nLa industria española necesita de energía eléctrica firme y a precios competitivos, para que por una parte pueda realizar las inversiones necesarias para minimizar su dependencia de los combustibles fósiles, pero para que también pueda competir a nivel internacional con la industria de otros países. Ante este objetivo, la energía nuclear, que aporta energía firme 24/7 un 85% de las horas del año, es un recurso valiosísimo que ya tenemos y del que es absurdo prescindir.\n\n¿Cuál creéis que fue el motivo del apagón?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nTras la caída del sistema energético hace ya semanas, son muchas las incógnitas que continúan en el aire.\n\nParece que ahora con los informes del gobierno y red eléctrica vamos a tener un poco de luz. El informe del gobierno (que omite los nombres de plantas y propietarios concretos) señala a la planta solar en Badajoz, según el diario.es, fue la Núñez de Balboa (de Iberdrola y es la segunda mayor planta de España). El informe habla del comportamiento anómalo de sus sistemas de control, pero como está todo tachado es difícil de entender si se refiere a la misma planta o a otra. de cualquier manera como todo sistema complejo hay numerosas causantes agravantes que es difícil discernir. Pero, en resumen, por lo que sabemos, cómo de un incendio se tratase, la chispa fue esta oscilación de esta planta solar pero el combustible lo puso falta de regulación de las plantas convencionales y el oxígeno se lo dio las desconexiones anómalas de otras plantas más pequeñas cuando empezó a caer todo\n\nHay muchos debates sobre los que habrá que profundizar en este sentido: el rol de las nucleares, el rol de gas, la transparencia del sector, el papel de las eléctricas (los intereses que hay detrás), el papel y gestión de las redes eléctricas, las interconexiones, la posibilidad de ser autónomos con energía solar en casa, las comunidades energéticas, el papel de la hidroeléctrica, etc.\n\nEn cualquier caso, aunque sea a raíz del apagón, es bueno y necesario que se hable de energía. Esta crisis ha hecho más evidente que nunca cuánto necesitamos la electricidad para nuestra vida diaria. Tenemos que aprovechar este momento para debatir y decidir conjuntamente qué cambios hay que hacer en el sistema eléctrico y energético para que sea renovable y así nos garantice los servicios que nos presta y el futuro de la vida en este planeta.\n\nEsta conversación no puede darse sólo en los despachos gubernamentales y de las grandes eléctricas: tiene que darse también en la calle, donde estamos las personas más interesadas en tener servicios energéticos suficientes para una vida digna. Servicios asequibles, limpios y seguros.\n\n¿Consideráis que es más viable una transición energética basada 100% en renovables sin apoyo nuclear?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nSí, la energía nuclear no va a encontrar su sitio como respaldo para las renovables. Las centrales españolas no se diseñaron para reducir potencia por debajo del 70%, ni para hacerlo rápido. La generación renovable y nuclear \"chocan\" entre ellas. La energía renovable no es continua, genera mucho en determinados momentos y poco en otros. Necesita energías que complementen esa irregularidad, que puede ser almacenamientos o energías de rápida respuesta como la hidroeléctrica o los ciclos de gas. La energía nuclear funciona generando la máxima potencia siempre y no debe alterar ese funcionamiento y, si lo hace, tiene que hacerlo a velocidades muy lentas que no pueden responder a la generación renovable. Cuando tengamos más potencia renovable en el sistema y se tenga los siete reactores activos, tendremos cada vez más horas en las que habrá que decidir qué energía parar, si la nuclear o la renovable, porque todo no cabe en el sistema.\n\nPor ejemplo la CN de Trillo ha funcionado la primavera pasada 31 días al 61%. Esto es novedoso, y podría conllevar problemas sobre el núcleo y sobre algunos componentes de las centrales, un impacto que el CSN ha decidido que tiene que ser evaluado y autorizado. Lo que sí están provocando las nucleares es la expulsión de la red de parte de la producción renovable, puesto que no pueden reducir con rapidez y seguridad su potencia. Como la energía nuclear no debe ni parar ni bajar de potencia, a nivel técnico lo lógico parece parar la renovable. El problema es que este criterio lógico desde el punto de vista técnico es un criterio malo a nivel económico y social: la energía solar y eólica tienen un \"combustible\" gratis, usar el viento y el sol no cuesta nada, si no lo usas lo desperdicias. Pero generar electricidad nuclear consume uranio, consume recursos y tiene coste de combustible y por unidad generada. Parar la renovable para dar cabida a la nuclear.\n\nPara poder combatir con éxito el cambio climático y la amenaza nuclear necesitamos poner a las personas y el planeta en el centro de cómo producimos, consumimos y distribuimos la energía. Necesitamos construir un nuevo sistema energético en el que se reemplacen los combustibles sucios (carbón, petróleo, gas y uranio) por energías renovables y se apueste por la eficiencia, el ahorro y las soluciones tecnológicas inteligentes que aseguren una transición justa para las personas que trabajan en estos sectores y las comunidades que actualmente dependen de las Pero además estas renovables deben ser respetuosas con la biodiversidad y las personas, generando el mayor impacto positivo al territorio y participado al máximo por la sociedad.\n\nSe trata de un modelo no solo basado en tecnologías renovables de todos los tipos, es un modelo en el que el control sobre la energía no es un privilegio de las grandes empresas energéticas, sino un derecho ciudadano, donde cada hogar pueda ser dueño de su energía, producir, consumir, acumular e intercambiar en su justo valor y en libertad.\n\nEn el sistema eléctrico desde Greenpeace proponemos que en 2030 casi el 100% de la electricidad sea renovable. El Gobierno planea llegar solo al 74%, pero actualmente no se instala todo lo necesario para lograrlo. Además la instalación de sistemas de almacenamiento y otros sistemas de regulación eléctrica va retrasada Si queremos frenar el cambio climático, además de apostar por la eficiencia y el ahorro, es urgente un despliegue renovable masivo con la máxima participación social y la correcta protección medioambiental.\n\nAdemás la descarbonización del transporte, la industria y el sector primario o la edificación va mucho más lenta y es ahí donde también hay que poner especialmente el foco. Para lograrlo hace falta voluntad política.\n\n¿Cuáles son los retos energéticos a los que se enfrenta España? Si hubiese más centrales nucleares, ¿se reduciría la factura de la luz?\n\nResponde Paulo Domingues Santos, presidente de la Sociedad Nuclear Española (SNE):\n\nEl mayor reto energético al que se enfrenta España es probablemente minimizar la dependencia de terceros países y lograr una garantía de suministro y unos precios competitivos para su energía eléctrica, para que se pueda llevar a cabo la electrificación de su economía. En este contexto pensamos que la energía eléctrica de origen nuclear cumple con todos los requisitos para contribuir a la superación de estos retos.\n\nEl precio es sin duda un tema importante y que preocupa a la sociedad, pero en él influyen múltiples factores y aunque ciertamente la nuclear puede contribuir a la estabilidad de precios, me gustaría también poner el foco en otro aspecto muy relevante y en el cual las centrales nucleares tienen un papel a destacar: la seguridad de suministro. Por su diseño, estas instalaciones aportan a la red generación síncrona, es decir la inercia necesaria para hacer frente a fluctuaciones de frecuencia y tensión. Este es un aspecto muy relevante y otro de los aspectos positivos de disponer de energía nuclear como fuente de generación.\n\n¿Veremos algún día a España 100% abastecida de renovables?\n\nResponde Francisco del Pozo Campos, coordinador de campaña contra los combustibles fósiles de Greenpeace España:\n\nEl modelo energético 3.0 para lograr la transformación completa del sistema energético actual hacia uno inteligente, eficiente y 100% renovables dice claramente que es factible, la actual ley de clima, aunque menos ambiciosa, tiende también a ello. Los ahorros en fósiles del exterior son tan grandes, el equivalente según el año a todo lo ingresado en turismo, que solo por lo puramente económico merece la pena.",
+                                        "metadata": {
+                                            "url": "https://www.idealista.com/news/inmobiliario/vivienda/2025/06/30/850701-energia-nuclear-bajo-la-lupa-razones-a-favor-y-en-contra-segun-los-expertos",
+                                            "source": "www.idealista.com",
+                                            "favicon": "https://st1.idealista.com/news/news9/themes/custom/idealista_news/favicon.ico",
+                                            "title": "Energía nuclear bajo la lupa: razones a favor y en contra ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.idealista.com",
+                                            "snippet": "La generación de energía eléctrica a partir de centrales nucleares no emite gases de efecto invernadero. Sus emisiones de ciclo de vida son ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Tanto las centrales nucleares como las centrales eléctricas alimentadas con carbón trabajan para producir calor con el fin de crear vapor que impulse las turbinas generadoras de electricidad. Mientras que el carbón genera más de un tercio de la electricidad en el mundo, la energía nucleoeléctrica tiene la capacidad de llenar el vacío causado por los cierres de centrales de carbón y puede proporcionar electricidad de carga base las 24 horas en cualquier situación meteorológica para complementar la energía eólica y solar, cuya generación de electricidad depende en todo momento del estado del tiempo. La electricidad de carga base es la cantidad mínima de energía eléctrica que se necesita para abastecer la red eléctrica en todo momento.\n\nEn 2003, el Gobierno provincial de Ontario se comprometió a eliminar gradualmente, durante los siguientes 12 años, la totalidad de sus casi 9000 MW de capacidad de carbón, lo que correspondía en ese momento al 25 % de su generación de electricidad. Ontario renovó y volvió a poner en funcionamiento dos unidades de la central nuclear de Pickering para la producción de 1030 MW y cuatro unidades de la central nuclear de Bruce para producir 3000 MW. También se añadieron a la canasta energética de esa provincia 5500 MW a las energías renovables no hidroeléctricas y la misma cantidad a la capacidad de gas natural.\n\nActualmente más del 90 % de la producción de electricidad de esta provincia de 14,5 millones de personas está libre de emisiones de carbono y su canasta energética garantiza la estabilidad de su red eléctrica y la seguridad física del suministro con fuentes de carga de base y fuentes intermitentes de energía. Las centrales nucleares están particularmente bien acondicionadas para soportar energías renovables variables, como la solar y la eólica, gracias a su capacidad para funcionar de forma flexible, ajustando la producción a la demanda y la disponibilidad de energía de otras fuentes de la red.",
+                                        "metadata": {
+                                            "url": "https://www.iaea.org/es/newscenter/news/de-que-manera-la-energia-nuclear-puede-reemplazar-al-carbon-en-la-transicion-a-una-energia-limpia",
+                                            "source": "www.iaea.org",
+                                            "favicon": "https://www.iaea.org/themes/custom/iaea_2025/build/assets/favicon/favicon.ico",
+                                            "title": "¿De qué manera la energía nuclear puede reemplazar al ...",
+                                            "type": "web_search",
+                                            "base_url": "http://www.iaea.org",
+                                            "snippet": "Las centrales nucleares están particularmente bien acondicionadas para soportar energías renovables variables, como la solar y la eólica, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Esta afirmación parece clara: el cambio climático de origen humano requiere que nos pongamos manos a la obra para realizar otro cambio rápido: uno que nos lleve hacia una economía neutra en CO 2 .\n\nEl debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?\n\nEsa adaptación es fundamental si realmente queremos mantener el aumento de la temperatura media global por debajo de 2?C, o, preferiblemente, por debajo de 1.5?C (en comparación con los niveles preindustriales).\n\nPara 2050, la economía global debería ser neutra en emisiones de CO 2 . Conseguir ese ambicioso objetivo requiere medidas de mitigación del cambio climático a corto y medio plazo. Un cambio que influiría de manera contundente en el sistema de suministro de energía, que actualmente se basa principalmente en el uso de combustibles fósiles.\n\nUn reciente estudio publicado por científicos del Institute of Safety- and Risk Sciences de la Universidad de Ciencias y Recursos Naturales en Viena, Austria, pone de manifiesto el valor que en la actualidad y en un futuro puede tener la energía nuclear como fuente de energía limpia.\n\nLa energía nuclear como fuente de energía limpia para sustituir a los combustibles fósiles en la lucha contra el cambio climático a debate.\n\nLa energía nuclear reduce poco la emisión de gases de efecto invernadero\n\nUna de esas alternativas, es el uso de la energía nuclear. Su uso es un tema que trae cola por el debate que suscita cada vez que se plantea como fuente de suministro de energía. Muchos expertos en la materia consideran que la contribución de la energía nuclear a la mitigación del cambio climático es y será muy limitada.\n\nSegún la planificación actual, la energía nuclear evitaría anualmente como máximo entre el 2 y el 3 por ciento de las emisiones globales de gases de efecto invernadero entre los años 2020 y 2040. Además, resulta complicado que su red se pueda ampliar para convertirse en la principal fuente de generación de electricidad en el futuro.\n\nLa energía nuclear evitaría anualmente solo entre el 2% o 3% de las emisiones globales de gases de efecto invernadero entre 2020 y 2040\n\nLos escenarios de expansión que se han valorado requieren un aumento en la extracción del uranio en el que se basa esta tecnología. Sin embargo, en este punto existen dos importantes limitaciones.\n\nLimitaciones de la energía nuclear como fuente de energía del futuro\n\n– En primer lugar, el nivel de producción de uranio difícilmente podría mantenerse al ritmo necesario durante la fase de expansión. La causa de esto es que la cantidad total disponible es limitada. Con escenarios limitados las nuevas plantas de energía nuclear se quedarían sin combustible durante su vida útil planificada.\n\n– En segundo lugar, la nueva generación de reactores reproductores rápidos prometen una solución al problema de los recursos limitados de uranio 235. El inconveniente es que no estarán disponibles para su despliegue comercial antes de la década de 2040 a 2050.\n\nLos planes de futuro de las centrales nucleares en general no insinúan escenarios de expansión. Más bien se plantea reemplazar las centrales que están fuera de servicio por nuevas construcciones. Posiblemente sean combinadas con la extensión de la vida útil de los reactores actualmente en funcionamiento.\n\nTampoco hay que olvidar que los reactores nucleares actuales, por muy seguros que sean, siempre conllevan un riesgo residual de accidentes graves y catastróficos. Estos accidentes llevan intrínsecas grandes emisiones de materiales radiactivos.\n\nLos reactores de nueva generación sí que contemplan reducir el riesgo residual. Aún así, incluso con las tecnologías futuras actualmente previstas, no se puede excluir por completo una catástrofe nuclear.\n\nCambiaremos las centrales nucleares por otras fuentes de energía limpia\n\nHoy en día, la contribución de la energía nuclear a la mitigación del cambio climático es pequeña según la planificación actual. Además, se va a mantener en ese nivel en un futuro cercano o incluso a medio plazo.\n\nLas estrategias de expansión nuclear no son factibles debido sobre todo a las limitaciones de los recursos que se requieren. Además, la nueva tecnología nuclear libre de limitaciones no estará disponible para el período de acción crítico que empieza ya y se extiende hasta 2050.\n\nEl tiempo de investigación, licencias, planificación y construcción de la industria nuclear alargan excesivamente los plazos. A eso hay que sumar el elevado coste que supone la construcción de una central nuclear.\n\nLa energía eólica y la solar llegan pisando fuerte como fuentes alternativas de energía limpia y podría acabar sustituyendo gran parte de la generación de energía nuclear en un futuro.\n\nLa planificación a día de hoy mantendría la capacidad nuclear en el nivel actual a base de extender el tiempo de vida de los reactores existentes. Sin embargo, los expertos consideran que, dada la contribución limitada que aportan a la mitigación del cambio climático, su eliminación también sería una opción factible.\n\nEstá en nuestras manos decidir, dados los inconvenientes del uso de la energía nuclear, si debemos seguir apostando por ella como fuente de energía. Tal vez sea el momento de empezar a apostar de forma mucho más contundente por otras tecnologías de mitigación del cambio climático. Otras que son más eficientes que la energía nuclear.",
+                                        "metadata": {
+                                            "url": "https://www.eltiempo.es/noticias/energia-nuclear-contra-el-cambio-climatico-si-o-no",
+                                            "source": "www.eltiempo.es",
+                                            "favicon": "https://www.eltiempo.es/frontend/favicon.png",
+                                            "title": "Energía nuclear contra el cambio climático: ¿Sí o no?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eltiempo.es",
+                                            "snippet": "Según la planificación actual, la energía nuclear evitaría anualmente como máximo entre el 2 y el 3 por ciento de las emisiones globales de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El hecho de que la energía nuclear emita pocos gases de efecto invernadero no quiere decir que estemos hablando de energía limpia; al contrario, su generación puede ser tan nociva como las energías más contaminantes.\n\nA propósito del Día Internacional contra los Ensayos Nucleares, que las Naciones Unidas conmemora cada 29 de agosto, queremos desmontar alguna información imprecisa que hay sobre este tipo de energía.\n\nEs muy común escuchar que la energía nuclear es una energía limpia ya que no genera ninguna emisión de CO2 y produce altas cantidades de energía a un bajo costo. Esta es una idea difundida por las empresas del sector energético que pretenden incentivar su generación, sin embargo, la información es imprecisa.\n\nSi bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que cualquiera de las energías renovables por cada kWh producido, ya que un reactor nuclear necesita un combustible para generar electricidad y la obtención de este combustible sí emite gases de efecto invernadero.\n\nEn todas las etapas del ciclo nuclear se consumen grandes cantidades de combustibles fósiles. Desde la minería del uranio, la fabricación del concentrado, el enriquecimiento, la fabricación del combustible, la construcción de las centrales nucleares, su mantenimiento y posterior desmantelamiento y hasta la gestión de los residuos radiactivos, requiere de carbón.\n\nEntonces, si bien es cierto que las emisiones en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), al final del día en realidad son mucho mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh), de acuerdo con el artículo “Centrales nucleares, emisiones de CO2 y cambio climático” de la Universidad Politécnica de Cataluña.\n\nEl ucranio, por otra parte, no es un recurso renovable. De acuerdo con datos recopilados por Greenpeace España, las reservas de uranio alcanzan sólo para unas pocas décadas más (considerando el ritmo de consumo actual, para los cerca de 440 reactores actualmente en funcionamiento en todo el mundo; pero duraría aún menos si se aumentase el parque nuclear mundial.\n\nAdemás, la energía nuclear crea residuos peligrosos para la salud y el medio ambiente que se mantienen radiactivos durante cientos de miles de años. La industria atómica no ha sido capaz de encontrar una solución técnica satisfactoria y segura para este grave problema. En su funcionamiento rutinario emiten al medio ambiente, a través de sus residuos, radiactividad. Estos residuos pueden ser en forma líquida (que se traslada al mar, a los ríos y embalses, de los que depende para su refrigeración), en forma gaseosa que va directamente a la atmósfera, o en forma sólida, cuyo manejo es un grave problema en nuestro país. Esa contaminación está ahí y puede tener efectos negativos para la salud, aunque esa radiactividad no se pueda sentir, no se pueda tocar, ni ver, ni oír, ni oler, de acuerdo con el informe de Greenpeace “¿Por qué digo no a la energía nuclear?”\n\nA esto se suma que, como el tan conocido caso de Chernobyl o las explosiones atómicas de Hiroshima y Nagasaki, los accidentes nucleares arruinan regiones enteras. Las centrales nucleares, por otra parte, consumen grandes cantidades de agua, ya que la usan tanto en los reactores para refrigerar núcleos y condensadores, como en sus piscinas de combustible gastado, necesitan agua en abundancia. Esto genera desabasto de agua en las localidades en las que se asientan las centrales.\n\nEn resumen, la energía nuclear tiene uno de los costos nivelados (que incluye todos los costos relevantes asociados con la construcción y operación, exceptuando impuestos y subsidios) más altos. De acuerdo con el informe “El camino de México hacia la justicia energética”, de Greenpeace, las tecnologías con mayores costos nivelados son la solar fotovoltaica (techos solares), la nuclear, la solar térmica de concentración y las carboeléctricas. Mientras que las tecnologías con menores costos nivelados son la solar fotovoltaica utility (a escala), la eólica, las hidroeléctricas, la biomasa y el ciclo combinado.\n\nDesde Greenpeace creemos que es posible adoptar un modelo de energía que tenga los costos medio ambientales, sociales y de salud humana más bajos. No podemos seguir alimentando un sistema que, en lugar de desarrollar vida, la destruya lentamente.\n\nFirma para que ese modelo sea una realidad:",
+                                        "metadata": {
+                                            "url": "https://www.greenpeace.org/mexico/blog/10822/por-que-la-energia-nuclear-no-es-limpia/",
+                                            "source": "www.greenpeace.org",
+                                            "favicon": "https://www.greenpeace.org/mexico/wp-content/themes/planet4-master-theme/favicon.ico",
+                                            "title": "¿Por qué la energía nuclear no es limpia?",
+                                            "type": "web_search",
+                                            "base_url": "https://www.greenpeace.org",
+                                            "snippet": "Si bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.0056184099994425,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.0056184099994425,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:38",
+                    "run_time": 4.0056184099994425,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la cantidad de CO2 producida por la generación de electricidad en las centrales nucleares en el mundo en 2025?": [
+                                {
+                                    "La energía nuclear evitaría anualmente solo entre el 2% o 3% de las emisiones globales de gases de efecto invernadero entre 2020 y 2040": null
+                                },
+                                {
+                                    "Según la planificación actual, la energía nuclear evitaría anualmente como máximo entre el 2 y el 3 por ciento de las emisiones globales de gases de efecto invernadero entre los años 2020 y 2040. Además, resulta complicado que su red se pueda ampliar para convertirse en la principal fuente de generación de electricidad en el futuro.": null
+                                },
+                                {
+                                    "El debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?": null
+                                }
+                            ],
+                            "¿Cómo compara la producción de CO2 en centrales nucleares con otras fuentes de energía como la energía eólica o solar?": [
+                                {
+                                    "La generación de energía eléctrica a partir de centrales nucleares no emite gases de efecto invernadero. Sus emisiones de ciclo de vida son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferior a las de la generación solar fotovoltaica (43 g CO2e/kWh).": null
+                                },
+                                {
+                                    "Además teniendo en cuenta el balance completo de emisiones, las nucleares también emiten CO2 más que las renovables y menos que los fósiles. Todos los procesos para disponer de una pastilla de uranio (de la minería al enriquecimiento en uranio-235 y sus transportes) requieren el uso de combustibles fósiles. Más la construcción, clausura de la central y tratamiento de sus residuos radiactivos. Esas emisiones se cifran en 66 grCO2e/KWh, aproximadamente un 15% de las de una central de gas en ciclo combinado de la misma potencia. Pero son un 600% superiores a las de la eólica.": null
+                                },
+                                {
+                                    "Entonces, si bien es cierto que las emisiones en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), al final del día en realidad son mucho mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh), de acuerdo con el artículo “Centrales nucleares, emisiones de CO2 y cambio climático” de la Universidad Politécnica de Cataluña.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos sobre la producción de CO2 en centrales nucleares?": [
+                                {
+                                    "El debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?": null
+                                },
+                                {
+                                    "Es muy común escuchar que la energía nuclear es una energía limpia ya que no genera ninguna emisión de CO2 y produce altas cantidades de energía a un bajo costo. Esta es una idea difundida por las empresas del sector energético que pretenden incentivar su generación, sin embargo, la información es imprecisa.": null
+                                },
+                                {
+                                    "Si bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que cualquiera de las energías renovables por cada kWh producido, ya que un reactor nuclear necesita un combustible para generar electricidad y la obtención de este combustible sí emite gases de efecto invernadero.": null
+                                }
+                            ],
+                            "¿Qué evidencia existe sobre la producción de CO2 en centrales nucleares en comparación con otras fuentes de energía?": [
+                                {
+                                    "Si bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que cualquiera de las energías renovables por cada kWh producido, ya que un reactor nuclear necesita un combustible para generar electricidad y la obtención de este combustible sí emite gases de efecto invernadero.": null
+                                },
+                                {
+                                    "Es muy común escuchar que la energía nuclear es una energía limpia ya que no genera ninguna emisión de CO2 y produce altas cantidades de energía a un bajo costo. Esta es una idea difundida por las empresas del sector energético que pretenden incentivar su generación, sin embargo, la información es imprecisa.": null
+                                },
+                                {
+                                    "El debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?": null
+                                }
+                            ],
+                            "¿Qué son los principales críticos de la afirmación de que la energía nuclear no produce emisiones de CO2?": [
+                                {
+                                    "Es muy común escuchar que la energía nuclear es una energía limpia ya que no genera ninguna emisión de CO2 y produce altas cantidades de energía a un bajo costo. Esta es una idea difundida por las empresas del sector energético que pretenden incentivar su generación, sin embargo, la información es imprecisa.": null
+                                },
+                                {
+                                    "El debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?": null
+                                },
+                                {
+                                    "Si bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que cualquiera de las energías renovables por cada kWh producido, ya que un reactor nuclear necesita un combustible para generar electricidad y la obtención de este combustible sí emite gases de efecto invernadero.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 7.301177395000195,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 7.301177395000195,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:47",
+                    "run_time": 7.301177395000195,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa energía nuclear no produce emisiones de C02 durante la generación de electricidad\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la cantidad de CO2 producida por la generación de electricidad en las centrales nucleares en el mundo en 2025?\n¿Cómo compara la producción de CO2 en centrales nucleares con otras fuentes de energía como la energía eólica o solar?\n¿Qué dicen los expertos sobre la producción de CO2 en centrales nucleares?\n¿Qué evidencia existe sobre la producción de CO2 en centrales nucleares en comparación con otras fuentes de energía?\n¿Qué son los principales críticos de la afirmación de que la energía nuclear no produce emisiones de CO2?\n\n3. Here are the text sources you should use as your source of information:\n[0] La energía nuclear evitaría anualmente solo entre el 2% o 3% de las emisiones globales de gases de efecto invernadero entre 2020 y 2040\n[0] Según la planificación actual, la energía nuclear evitaría anualmente como máximo entre el 2 y el 3 por ciento de las emisiones globales de gases de efecto invernadero entre los años 2020 y 2040. Además, resulta complicado que su red se pueda ampliar para convertirse en la principal fuente de generación de electricidad en el futuro.\n[0] El debate de la Comisión Europea sobre si la energía nuclear puede ser considerada como ‘energía limpia’ está en boca de todos. Esto sucede porque la energía nuclear no emite CO2 . ¿Pero realmente es una solución real para luchar contra los efectos del calentamiento global y el cambio climático?\n[1] La generación de energía eléctrica a partir de centrales nucleares no emite gases de efecto invernadero. Sus emisiones de ciclo de vida son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferior a las de la generación solar fotovoltaica (43 g CO2e/kWh).\n[1] Además teniendo en cuenta el balance completo de emisiones, las nucleares también emiten CO2 más que las renovables y menos que los fósiles. Todos los procesos para disponer de una pastilla de uranio (de la minería al enriquecimiento en uranio-235 y sus transportes) requieren el uso de combustibles fósiles. Más la construcción, clausura de la central y tratamiento de sus residuos radiactivos. Esas emisiones se cifran en 66 grCO2e/KWh, aproximadamente un 15% de las de una central de gas en ciclo combinado de la misma potencia. Pero son un 600% superiores a las de la eólica.\n[2] Entonces, si bien es cierto que las emisiones en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), al final del día en realidad son mucho mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh), de acuerdo con el artículo “Centrales nucleares, emisiones de CO2 y cambio climático” de la Universidad Politécnica de Cataluña.\n[2] Es muy común escuchar que la energía nuclear es una energía limpia ya que no genera ninguna emisión de CO2 y produce altas cantidades de energía a un bajo costo. Esta es una idea difundida por las empresas del sector energético que pretenden incentivar su generación, sin embargo, la información es imprecisa.\n[2] Si bien la energía nuclear no emite gases de efecto invernadero al mismo nivel que la energía de fuentes fósiles, en realidad emite más CO2 que cualquiera de las energías renovables por cada kWh producido, ya que un reactor nuclear necesita un combustible para generar electricidad y la obtención de este combustible sí emite gases de efecto invernadero.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La energía nuclear no produce emisiones de C02 durante la generación de electricidad"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**La afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera.**\n\nSe encuentra evidencia que sugiere que la generación de electricidad en centrales nucleares no emite gases de efecto invernadero directamente durante el proceso de generación de electricidad ([1]). De hecho, según [1], las emisiones de ciclo de vida de la generación de energía eléctrica a partir de centrales nucleares son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferiores a las de la generación solar fotovoltaica (43 g CO2e/kWh). Esto sugiere que la energía nuclear es una fuente de electricidad relativamente limpia en términos de emisiones de CO2.\n\nSin embargo, también se encuentra evidencia que sugiere que la energía nuclear no es tan limpia como se podría pensar. Según [2], las emisiones de CO2 en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), pero al final del día en realidad son mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh). Esto sugiere que, aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido.\n\n**En conclusión, la afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera. Aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido. Por lo tanto, la afirmación es **falsa**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.1571607280002354,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.1571607280002354,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:44:48",
+                    "run_time": 1.1571607280002354,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La energía nuclear no produce emisiones de C02 durante la generación de electricidad\nArticle: **La afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera.**\n\nSe encuentra evidencia que sugiere que la generación de electricidad en centrales nucleares no emite gases de efecto invernadero directamente durante el proceso de generación de electricidad ([1]). De hecho, según [1], las emisiones de ciclo de vida de la generación de energía eléctrica a partir de centrales nucleares son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferiores a las de la generación solar fotovoltaica (43 g CO2e/kWh). Esto sugiere que la energía nuclear es una fuente de electricidad relativamente limpia en términos de emisiones de CO2.\n\nSin embargo, también se encuentra evidencia que sugiere que la energía nuclear no es tan limpia como se podría pensar. Según [2], las emisiones de CO2 en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), pero al final del día en realidad son mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh). Esto sugiere que, aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido.\n\n**En conclusión, la afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera. Aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido. Por lo tanto, la afirmación es **falsa**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La energía nuclear no produce emisiones de C02 durante la generación de electricidad\nArticle: **La afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera.**\n\nSe encuentra evidencia que sugiere que la generación de electricidad en centrales nucleares no emite gases de efecto invernadero directamente durante el proceso de generación de electricidad ([1]). De hecho, según [1], las emisiones de ciclo de vida de la generación de energía eléctrica a partir de centrales nucleares son equivalentes a las de la generación eólica (13 g CO2e/kWh) y significativamente inferiores a las de la generación solar fotovoltaica (43 g CO2e/kWh). Esto sugiere que la energía nuclear es una fuente de electricidad relativamente limpia en términos de emisiones de CO2.\n\nSin embargo, también se encuentra evidencia que sugiere que la energía nuclear no es tan limpia como se podría pensar. Según [2], las emisiones de CO2 en la fase de generación de electricidad a partir de la energía nuclear (66 gCO2/kWh) son menores que las producidas si la electricidad se obtiene a partir de carbón (1.000 gCO2/kWh), diésel (778 gCO2/kWh), o gas natural (440 gCO2/kWh), pero al final del día en realidad son mayores que las producidas con energías renovables, como la fotovoltaica (30 gCO2/kWh) o la eólica (9 gCO2/kWh). Esto sugiere que, aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido.\n\n**En conclusión, la afirmación de que la energía nuclear no produce emisiones de CO2 durante la generación de electricidad es parcialmente verdadera. Aunque la energía nuclear no emite gases de efecto invernadero directamente, sí emite más CO2 que las energías renovables por cada kWh producido. Por lo tanto, la afirmación es **falsa**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La energía nuclear no produce emisiones de CO2 durante la generación de electricidad\", \"categories\": [\"Energía\", \"Ciencia\", \"Medio ambiente\"], \"label\": \"Fake\", \"main_claim\": \"La energía nuclear emite más CO2 que las energías renovables por cada kWh producido\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

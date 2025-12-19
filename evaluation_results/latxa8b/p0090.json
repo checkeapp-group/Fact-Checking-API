@@ -1,0 +1,649 @@
+{
+    "question": "En España no hay uranio y por tanto tiene que importarlo",
+    "answer": "**En primer lugar, hay evidencia de que España cuenta con reservas de uranio en su subsuelo, especialmente en la provincia de Salamanca (** [1] **). Estos recursos han sido geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Aunque no existe ninguna actividad extractiva activa desde principios de los años 2000, la existencia de estas reservas sugiere que España no carece completamente de uranio. Además, según se menciona en el texto, estos recursos podrían ser explotados en un futuro, lo que permitiría garantizar el suministro de uranio para los próximos 20 años (** [1] **).**\n\n**Además, hay evidencia de que España cuenta con la tecnología precisa para tratar el uranio y una industria capaz de procesarlo (** [2] **). Esto sugiere que, en teoría, España podría ser capaz de extraer y procesar el uranio de sus reservas internas, reduciendo así su dependencia de las importaciones. Sin embargo, la renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural (** [2] **).**\n\n**En cuanto a la importación de uranio, hay evidencia de que España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales (** [1] **). Esto sugiere que, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugiere que España podría reducir su dependencia de las importaciones en el futuro.**\n\n**En resumen, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugieren que España podría reducir su dependencia de las importaciones en el futuro. Por lo tanto, la afirmación original es parcialmente verdadera, ya que España no carece completamente de uranio, pero sí depende en gran medida de las importaciones para satisfacer su demanda.**",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://tiempodeinversion.com/analisis/el-uranio-vuelve-al-tablero-energetico-pero-espana-se-queda-fuera/",
+            "source": "tiempodeinversion.com",
+            "favicon": "https://tiempodeinversion.com/wp-content/uploads/2020/03/cropped-tiempo-de-inversion-32x32.png"
+        },
+        "2": {
+            "url": "https://primigea.es/uranio-en-espana-ausencia-real-o-prohibicion-voluntaria/",
+            "source": "primigea.es",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "En España no hay uranio y por tanto tiene que importarlo",
+        "categories": [
+            "Medio ambiente",
+            "Energía",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "España no carece completamente de uranio, pero depende en gran medida de las importaciones para satisfacer su demanda",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.6714149350009393,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.6714149350009393,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:10:08",
+                    "run_time": 1.6714149350009393,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEn España no hay uranio y por tanto tiene que importarlo\n\n**Critical Research Questions:**\n1. ¿Cuál es la cantidad de uranio extraído y procesado en España en 2025?\n2. ¿Cuál es la demanda de uranio en España para la generación de energía nuclear y otros usos industriales?\n3. ¿Cuál es la cantidad de uranio importado por España en 2025 y sus fuentes de suministro?\n4. ¿Qué opinan los expertos en energía nuclear sobre la situación del uranio en España?\n5. ¿Cuál es la política energética de España en relación con el uranio y cómo afecta a la producción y el uso de este elemento?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"explotación y procesamiento de uranio en España 2025 datos oficiales\", \"demanda de uranio en España para generación de energía nuclear y usos industriales informe oficial\", \"importación de uranio por España 2025 fuentes de suministro principales\", \"opinión de expertos en energía nuclear sobre la situación del uranio en España\", \"política energética de España sobre uranio 2025 impacto en producción y uso\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 4.837536951999937,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 4.837536951999937,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:10:13",
+                    "run_time": 4.837536951999937,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "explotación y procesamiento de uranio en España 2025 datos oficiales",
+                                "demanda de uranio en España para generación de energía nuclear y usos industriales informe oficial",
+                                "importación de uranio por España 2025 fuentes de suministro principales",
+                                "opinión de expertos en energía nuclear sobre la situación del uranio en España",
+                                "política energética de España sobre uranio 2025 impacto en producción y uso"
+                            ],
+                            "results": {
+                                "explotación y procesamiento de uranio en España 2025 datos oficiales | demanda de uranio en España para generación de energía nuclear y usos industriales informe oficial | importación de uranio por España 2025 fuentes de suministro principales | opinión de expertos en energía nuclear sobre la situación del uranio en España | política energética de España sobre uranio 2025 impacto en producción y uso": [
+                                    {
+                                        "text": "Resumen\n\nLas transiciones ecológica y digital hacia un modelo de generación basado en fuentes de energías renovables y procesos de producción neutros en carbono exigen una adecuada provisión de materias primas fundamentales, cuya satisfacción se ve complicada en el contexto actual de inestabilidad y competitividad estratégica global.\n\nLas materias primas fundamentales son materias primas de gran importancia económica para la Unión Europea (UE), cuyo suministro presenta un elevado riesgo de sufrir interrupciones debido a la concentración de las fuentes y a la falta de sustitutos adecuados y asequibles.\n\nEl artículo 19 del Reglamento (UE) 2024/1252 del Parlamento Europeo y del Consejo, de 11 de abril de 2024, por el que se establece un marco para garantizar un suministro seguro y sostenible de materias primas fundamentales y por el que se modifican los Reglamentos (UE) n.° 168/2013, (UE) 2018/858, (UE) 2018/1724 y (UE) 2019/1020, en adelante, Reglamento de materias primas fundamentales, impone a los Estados Miembros(en adelante, EEMM) el llevar a cabo un programa nacional de exploración minera (PNEM), específico para materias primas fundamentales. Este programa deberá presentarse a la Comisión Europea a más tardar el 24 de mayo de 2025 y se actualizará al menos cada cinco años.\n\nEl citado reglamento también establece las medidas que deberán llevar a cabo los EEMM dentro de los Programas Nacionales de Exploración para aumentar la información disponible sobre los depósitos de materias primas fundamentales, como, por ejemplo, campañas geoquímicas, estudios geocientíficos, etc.\n\nPor otro lado, el artículo 27 “Valorización de materias primas fundamentales procedentes de residuos de extracción” establece que los EEMM crearán una base de datos de las instalaciones de residuos de extracción cerradas o abandonadas que sean susceptibles de contener cantidades de materias primas fundamentales que podrían valorizarse técnicamente.\n\nEl Reglamento también determina los plazos y las actividades a realizar en función de la información disponible y la viabilidad económica de la recuperación de las materias primas fundamentales en las instalaciones de residuos de extracción. Estas actividades pueden, y deben, ser consideradas como parte de un concepto amplio de exploración minera pues, al fin y al cabo, se persigue conocer la existencia, y posible producción futura, de estas materias primas fundamentales.\n\nPor su parte, y de forma pionera, la Hoja de Ruta para la gestión sostenible de las materias primas minerales aprobada por Consejo de Ministros el 30 de agosto de 2022, ya contempla en su medida 17, la mejora del conocimiento sobre la existencia de los recursos minerales en España, a través de un programa nacional de investigación público-privada de los recursos minerales, y la importancia de desarrollar medidas para fomentar la recuperación y la comercialización de las materias primas minerales desechadas en las instalaciones de residuos de industrias extractivas, en su medida 13 “Aprovechamiento de escombreras mineras”.\n\nTeniendo en cuenta todo lo anterior, este Programa Nacional de Exploración Minera se configura como instrumento para:\n\nDar respuesta a las obligaciones establecidas en el artículo 19 (investigación minera) y 27 (investigación en residuos) del CRMA.\n\nDesarrollar las medidas 17 (investigación minera) y 13 (investigación en residuos) de la Hoja de Ruta.\n\nPlazo de remisión\n\nPlazo para presentar documentación desde el lunes, 14 de abril de 2025 hasta el viernes, 09 de mayo de 2025\n\nPresentación de alegaciones\n\nLas alegaciones deben remitirse exclusivamente a través del siguiente formulario web:\n\nEn caso de dificultades para acceder al formulario, se sugiere abrirlo en una ventana de incógnito del navegador.\n\nSólo serán consideradas las respuestas en las que el remitente esté plenamente identificado (nombre completo junto al DNI o NIF, en función de la personalidad física o jurídica).\n\nUna vez realizada la participación, se puede obtener un PDF con la información remitida, se sugiere guardar dicho PDF. Este documento servirá como justificante de participación en el proceso.\n\nCon carácter general, las aportaciones recibidas se considerarán susceptibles de difusión pública. Las partes de la información remitida que, a juicio del interesado, deban ser tratadas con carácter confidencial y, en consecuencia, no puedan ser difundidas públicamente, deberán ser señaladas e identificadas de manera explícita en el propio texto remitido. A estos efectos, no se tendrán en cuenta los mensajes genéricos de confidencialidad de la información.\n\nLos datos personales que el Ministerio para la Transición Ecológica y el Reto Demográfico recaba son tratados de manera confidencial conforme a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD) y en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales. Con carácter general, las aportaciones realizadas a través de este formulario se considerarán no confidenciales y de libre difusión. Sin embargo, si desea que alguna parte de su aportación sea tratada como confidencial, deberá señalarlo específicamente en sus comentarios y proporcionar una motivación clara para dicha clasificación.\n\nAnexo\n\nBorrador Programa Nacional de Exploración Minera 2025-2029 [PDF][9,8 MB]",
+                                        "metadata": {
+                                            "url": "https://www.miteco.gob.es/es/energia/participacion/2025/detalle-participacion-publica-k-740.html",
+                                            "source": "www.miteco.gob.es",
+                                            "favicon": "https://www.miteco.gob.es/etc.clientlibs/miteco/clientlibs/clientlib-site/resources/images/favicons/apple-touch-icon-57x57.png",
+                                            "title": "Audiencia e información pública sobre la propuesta del ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.miteco.gob.es",
+                                            "snippet": "Por su parte, y de forma pionera, la Hoja de Ruta para la gestión sostenible de las materias primas minerales aprobada por Consejo de Ministros ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Por Vicente Gutiérrez Peinador. Secretario general de Primigea.\n\nHace tan solo unos días, en el marco del debate sobre el futuro energético de España, se afirmó, públicamente y por parte de fuentes oficiales, que nuestro país carece de yacimientos de uranio. Desde Primigea, sin ánimo de avivar la polémica ni entrar en un debate mucho más amplio sobre las decisiones estratégicas relativas al mix energético nacional, creemos que es necesario matizar esta afirmación. Nuestro objetivo es evitar que se consolide en el debate público una idea errónea sobre la realidad de esta materia prima en nuestro país.\n\nEn este sentido, estamos seguros de que España dispone de importantes recursos de un uranio que, además, tiene una calidad contrastada. De hecho, durante décadas, fuimos el segundo productor en Europa de este mineral gracias a explotaciones ubicadas principalmente en Salamanca y Badajoz. Es más, según el Libro Rojo del Uranio de la Agencia Internacional de la Energía, se estiman unas reservas de uranio de 34.400 toneladas en nuestro territorio. Así, no solo contamos con yacimientos de esta materia prima en nuestro país, sino que también poseemos tanto el conocimiento técnico como con la tecnología necesaria para su tratamiento. De hecho, la planta de fabricación de elementos combustibles de Juzbado (Salamanca) continúa suministrando este combustible a la mayoría de nuestras centrales nucleares, aunque lo haga actualmente con material importado.\n\nPor si estos datos no fueran suficientes, el catastro minero del Ministerio para la Transición Ecológica y el Reto Demográfico recoge siete derechos mineros de uranio activos o en trámite, distribuidos en otras provincias tales como Badajoz, Cáceres, Córdoba y Barcelona.\n\nEntonces, ¿por qué no se explota el uranio nacional? La respuesta está en el artículo 10 de la Ley 7/2021, de Cambio Climático y Transición Energética que prohíbe nuevas solicitudes de exploración, investigación y explotación de minerales radiactivos. Recordemos, en este sentido, que esta disposición fue incorporada vía enmienda parlamentaria y no formaba parte del texto original del anteproyecto. Con esta decisión España se suma a una lista muy limitada de territorios —entre los que se cuenta Groenlandia, y algunas provincias australianas o canadienses— donde existe una prohibición explícita de la minería de uranio.\n\nLa normativa española en este aspecto es, pues, una excepción internacional y puede tener consecuencias no deseadas sobre nuestra soberanía energética. En este sentido, desde Primigea, siempre hemos defendido que la seguridad ambiental y la protección de las personas pueden garantizarse mediante mecanismos más sofisticados que por medio de una prohibición general.\n\nUn ejemplo claro es el caso de la empresa Berkeley Minera España, de capital australiano, que tras diez años de trámites ha visto rechazado su proyecto de explotación de uranio en Retortillo (Salamanca). Un contencioso que, actualmente, está siendo objeto de un arbitraje internacional.\n\nTodo ello nos lleva a una conclusión ineludible: España tiene uranio, cuenta con la tecnología precisa para su tratamiento y posee una industria capaz de procesarlo. Lo que nos falta, en este caso, es la autorización necesaria para investigar sobre los yacimientos de este material con los que contamos en nuestro subsuelo y para aprovechar este recurso. Por tanto, no se trata de una ausencia física del mineral, sino de una renuncia voluntaria a explotarlo plasmada en una decisión política explícita.\n\nEn un contexto en el que, desde la Unión Europea, se apuesta por la autonomía estratégica y por la valorización de los recursos propios, en Primigea estamos convencidos de que no podemos permitirnos el lujo de ignorar el potencial energético que yace en nuestro subsuelo.",
+                                        "metadata": {
+                                            "url": "https://primigea.es/uranio-en-espana-ausencia-real-o-prohibicion-voluntaria/",
+                                            "source": "primigea.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Uranio en España: ¿ausencia real o prohibición voluntaria?",
+                                            "type": "web_search",
+                                            "base_url": "https://primigea.es",
+                                            "snippet": "... España, se afirmó, públicamente y por parte de fuentes oficiales, que nuestro país carece de yacimientos de uranio. Desde Primigea, sin ánimo."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los recursos de uranio existentes son suficientes para apoyar el uso sostenible a largo plazo de la energía nuclear para la generación de electricidad con bajas emisiones de carbono, así como para otros usos, como las aplicaciones de calor industrial y la producción de hidrógeno. Sin embargo, tanto la incidencia en la industria de la actual pandemia de COVID-19 como las reducciones recientemente experimentadas en materia de prospección y producción de uranio podrían influir en los suministros disponibles. Invertir a tiempo en técnicas de extracción y procesamiento innovadoras ayudaría a asegurar que los recursos de uranio lleguen al mercado cuando sean necesarios.\n\nEstas son algunas de las principales conclusiones de la última edición de la publicación Uranium – Resources, Production and Demand, también conocida como el “Libro Rojo”, una referencia mundial esencial que elaboran conjuntamente cada dos años la Agencia para la Energía Nuclear (AEN) de la OCDE y el Organismo Internacional de Energía Atómica (OIEA).\n\nLa edición de 2020 del Libro Rojo presenta el examen más reciente, basado en gran medida en información gubernamental oficial, de los aspectos fundamentales del mercado del uranio y ofrece un perfil estadístico de la industria mundial del uranio. Incluye datos sobre los recursos, la prospección, la producción y las existencias de uranio, así como 45 informes nacionales en los que se proporciona información detallada sobre los planes para la apertura de minas, la situación en cuanto a los aspectos ambientales y sociales relacionados con la extracción de uranio y los reglamentos y las políticas nacionales.\n\nDe la lectura del Libro Rojo se desprende que, aunque los recursos mundiales de uranio han aumentado, lo han hecho de forma más modesta que en años anteriores. A 1 de enero de 2019, los recursos convencionales de uranio conocidos ascendían en todo el mundo a 8 070 400 toneladas de uranio metálico (t U). Esta cantidad incluye el conjunto de los recursos de uranio razonablemente asegurados y deducidos que podrían recuperarse a un precio de mercado que oscila entre los 40 y los 260 dólares de los Estados Unidos/kg U (es decir, entre 15 y 100 dólares/lb U 3 O 8 ). En comparación con el total comunicado en la edición de 2018, el aumento es únicamente del 1 %. Una pequeña parte de los cambios globales en los recursos conocidos se refiere a nuevos descubrimientos. La base de recursos de uranio podría aumentar con la incorporación de recursos aún no descubiertos o no convencionales, como el uranio de las rocas fosfóricas.\n\nSiguiendo la tendencia a la baja que lleva años observándose, el gasto nacional a escala mundial en materia de prospección y explotación de minas disminuyó hasta unos 500 millones de dólares en 2018, lo que supone un descenso significativo con respecto a la cifra de 2014, a saber, 2000 millones de dólares. Si bien no se prevé que esa tendencia provoque escasez de uranio, podría augurar problemas a más largo plazo en los mercados.\n\nEntre 2017 y 2018, la producción mundial de las minas de uranio cayó un 10,8 % debido a los recortes de producción resultantes de las deficientes condiciones del mercado, para aumentar ligeramente en un 1 % en 2019, hasta alcanzar las 54 224 t U. Además, los recortes previstos en la producción de uranio a principios de 2020 se agravaron con el inicio de la pandemia de COVID-19, y sus efectos podrían sentirse durante 2021 y en años posteriores.\n\nMientras que algunos productores de uranio redujeron las actividades en algunas instalaciones, otros optaron por interrumpirlas hasta que las condiciones del mercado mejoraran lo suficiente para justificar la reapertura. En la edición de 2020 del Libro Rojo se examinan por vez primera los recursos y la capacidad de producción anual de estas instalaciones que han suspendido temporalmente sus operaciones, denominadas “minas ociosas”. Asimismo, se plantea que la capacidad de producción anual podría aumentar con relativa rapidez si estas instalaciones reanudan la actividad en caso de que mejoren las condiciones del mercado.\n\nEl Libro Rojo también incluye proyecciones de las necesidades de uranio para la generación de energía nucleoeléctrica hasta 2040, así como una evaluación exhaustiva de la relación entre la oferta y la demanda de uranio. Según cómo evolucione el sector de la energía nuclear, las necesidades de uranio relacionadas con los reactores podrían oscilar entre las 56 640 t U/año en un escenario de baja demanda y las 100 224 t U/año en un escenario de alta demanda para 2040. Mientras que las proyecciones en términos de capacidad nuclear varían considerablemente de una región a otra, las previsiones indican que la región de Asia Oriental será la que registre el mayor aumento tanto en lo relativo al sector nuclear como a las necesidades de uranio\n\nTeniendo en cuenta estas proyecciones, la base de recursos de uranio que se describe en el Libro Rojo es más que suficiente para atender la demanda de uranio en los escenarios de baja y alta demanda hasta 2040 y años posteriores. En el caso del escenario de alta demanda, dar respuesta a las necesidades hasta 2040 supondría utilizar alrededor del 28 % del total de la base de recursos conocidos en 2019 recuperables a un costo de 130 dólares/kg U (50 dólares/lb U 3 O 8 ) y el 87 % de los recursos conocidos disponibles a un costo de 80 dólares/kg U (30 dólares/lb U 3 O 8 ). Los suministros futuros se beneficiarían de las oportunas actividades de investigación e innovación para seguir mejorando la prospección del uranio y desarrollar nuevas técnicas de extracción más rentables. Apuntalar el mercado será clave para lograr la inversión industrial necesaria que permita desarrollar y desplegar nuevas tecnologías.\n\nNotas para los editores\n\nLa Agencia para la Energía Nuclear (AEN) es un organismo intergubernamental que opera en el marco de la Organización de Cooperación y Desarrollo Económicos (OCDE). Facilita la cooperación entre los países con infraestructuras de tecnología nuclear avanzadas para que alcancen la excelencia en la seguridad, la tecnología y la ciencia nucleares, las cuestiones ambientales y económicas conexas y el derecho.\n\nEl Organismo Internacional de Energía Atómica (OIEA) es el principal foro mundial intergubernamental de cooperación científica y técnica en la esfera nuclear. Trabaja en favor de los usos pacíficos y tecnológica y físicamente seguros de la ciencia y la tecnología nucleares, contribuyendo así a la paz y la seguridad internacionales y a los Objetivos de Desarrollo Sostenible de las Naciones Unidas.\n\nEl Grupo Mixto AEN/OIEA del Uranio es el encargado de preparar cada edición de Uranium – Resources, Production and Demand. Asimismo, coordina la preparación de evaluaciones periódicas de los suministros mundiales de uranio natural, examina la relación entre esas existencias y las proyecciones de la demanda y recomienda las medidas que podrían adoptarse para garantizar un suministro adecuado de uranio a largo plazo para el desarrollo de la energía nucleoeléctrica.",
+                                        "metadata": {
+                                            "url": "https://www.iaea.org/es/newscenter/pressreleases/recursos-mundiales-de-uranio-son-suficientes",
+                                            "source": "www.iaea.org",
+                                            "favicon": "https://www.iaea.org/themes/custom/iaea_2025/build/assets/favicon/favicon.ico",
+                                            "title": "Según un informe reciente de la AEN y el OIEA, ...",
+                                            "type": "web_search",
+                                            "base_url": "http://www.iaea.org",
+                                            "snippet": "Los recursos de uranio existentes son suficientes para apoyar el uso sostenible a largo plazo de la energía nuclear para la generación de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "6. ¿La energía nuclear es una energía renovable?\n\nTécnicamente no. Las energías renovables provienen de recursos naturales inagotables (sol, viento, agua, geotermia, biomasa). Estos recursos “se reponen más rápido de lo que pueden consumirse”. En cambio, la energía nuclear depende del uranio, un metal finito en la corteza terrestre. Aunque Endesa y la OCDE-AEN destacan que hay reservas de uranio suficientes para “unos 120 años” al ritmo actual, esto implica que no es ilimitado. Por ello, la nuclear no entra en la categoría de energía renovable según los criterios habituales.\n\nSin embargo, tanto la nuclear como las renovables son consideradas energías limpias o bajas en carbono. La confusión surge porque la energía nuclear no emite CO₂ durante su generación (al igual que sol y viento). Como se señaló antes, “no produce gases de efecto invernadero”. Pero un recurso renovable es un ciclo natural constante. Por ejemplo, la solar proviene de la radiación del sol, la eólica del viento (movimiento de aire continuo), la hidroeléctrica del ciclo del agua, etc.. Todas ellas son inagotables a escala humana.\n\nEn cambio, el uranio se extrae de minas; tras varios años de uso en el reactor queda como residuo o se puede reprocesar. Es un recurso mineral, no renovable. Por lo tanto la energía nuclear se clasifica como una fuente de energía no renovable. No obstante, sus impactos de emisiones y su aporte de descarbonización la hacen un complemento importante en la transición. En resumen: la energía nuclear no es renovable, pero sí una fuente baja en carbono, a diferencia del gas y el carbón. Las verdaderas energías renovables incluyen el sol, el viento, las mareas, la biomasa, la geotermia y la hidráulica.\n\n7. Almacenamiento de energía: ¿Qué soluciones existen?\n\nLas tecnologías de almacenamiento energético son clave para una red con mucha energía renovable. En la actualidad existen varias soluciones “estado del arte” y otras emergentes:\n\nBombeo hidroeléctrico : Es la forma de almacenamiento a gran escala más eficiente y extendida. En España hay decenas de plantas reversibles (p.ej. La Muela, Cortes de Pallás) con ~3.3 GW instalados. Aprovechan la infraestructura de embalses: en excedentes energéticos elevan agua (almacenamiento), y la liberan en demanda. Las ventajas son baja pérdida de energía, gran capacidad de acumulación y longevidad de instalación. Con la expansión renovable se está ampliando esta modalidad en proyectos nuevos (p.ej. planes para duplicar la capacidad peninsular a 5 GW en 2028).\n\nBaterías (Li-ion, etc.) : Tras las hidroeléctricas, las baterías son la tecnología más flexible. Operan a escalas desde kW (domésticas) hasta cientos de MW (sistemas interconectados). Proporcionan respuesta instantánea (milisegundos) y permiten gestionamientos puntuales de energía. En el corto plazo son la solución para picos y valles diarios: acumulan sol del mediodía y la suministran en la tarde/noche, por ejemplo. La caída en sus precios en la última década ha sido dramática, lo que impulsa su adopción masiva en grandes almacenes comunitarios y vehículos eléctricos (que a futuro podrían entregar energía a la red).\n\nAlmacenamiento de energía térmica : Son particularmente importantes en plantas termosolares y procesos industriales. Un ejemplo es el uso de sales fundidas o material refractario que acumula calor de alta temperatura. Este calor puede luego generar vapor y electricidad a demanda (e incluso utilizarse para calefacción urbana). Otros métodos incluyen acumuladores de hielo para refrigeración o calentamiento. El almacenamiento térmico puede cubrir escalas de horas a días.\n\nHidrógeno verde y pilas de combustible : Cuando hay excedentes eléctricos prolongados, se produce hidrógeno mediante electrólisis del agua. El H₂ así generado se almacena (en tanques o cavidades subterráneas) y puede reconvertirse a electricidad en pilas de combustible o usarse como combustible industrial o vehicular. El hidrógeno ofrece un almacenamiento de muy larga duración (estacional) y acopla el sistema eléctrico con otros sectores (transporte, industria). Su eficiencia global es aún baja, pero las inversiones en “puertas de hidrógeno” y electrolizadores apuntan a que será parte importante del futuro mix.\n\nOtros sistemas innovadores : Aunque menos extendidos actualmente, destacan las baterías de flujo redox (con alta escalabilidad y vida útil), los volantes de inercia (almacenan energía rotacional para estabilizar la red en segundos) y los supercondensadores (excelentes para micro-picos de potencia). Incluso se exploran sistemas magnéticos o compresores de aire subterráneo (CAES) a gran escala. Cada tecnología aporta valor en diferentes horizontes temporales y costos.\n\nEn España y Europa ya hay ejemplos concretos. Además del bombeo tradicional, se han puesto en marcha baterías en parques solares (p.ej. 50 MW en instalaciones de Navarra) y en subestaciones como amortiguadores de picos. El PERTE de Energías Renovables y Almacenamiento del Gobierno español ha financiado varios proyectos con baterías de largo plazo (horas) y pequeños pilotos de hidrógeno en zonas aisladas. En Europa destacan iniciativas como el proyecto Desertec (almacenamiento térmico en planta solar del Magreb) y grandes baterías de Tesla en Alemania. La UE promueve también la investigación de volantes de inercia superconductores y redes de hidrógeno (“power-to-X”).\n\nEn el plano de futuro, se espera que la combinación de estas tecnologías sostenga una red dominada por renovables. El almacenamiento por bombeo y baterías disminuirá la intermitencia diaria, mientras el hidrógeno permitirá aprovechar excedentes estacionales. La clave es la versatilidad: utilizar el almacenamiento energético más apropiado según la escala y el tipo de demanda. Con visión de innovación, empresas y centros tecnológicos trabajan en baterías de flujo más baratas, redes inteligentes capaces de gestionar miles de puntos de carga, e incluso ideas disruptivas como almacenar energía en hidrógeno líquido criogénico o en materiales químicos avanzados. Pero la base son los sistemas conocidos: hoy en día, los sistemas de almacenamiento de energía activos y en construcción son la mejor garantía para integrar aún más renovables con seguridad.\n\n8. ¿De dónde viene la energía nuclear? ¿Cómo se produce?\n\nLa energía nuclear comercial proviene del ciclo del combustible de uranio. El uranio es un elemento metálico presente en la corteza terrestre (principalmente como mineral). Se extrae en minas (en el mundo hay grandes productores como Kazajistán, Canadá, Australia). España dispone de ciertos yacimientos (Salamanca) con reservas aprovechables, pero su explotación está actualmente prohibida por ley debido a los residuos de minería. Por tanto, España importa casi todo su uranio. Este llega en forma de concentrados (“yellowcake”), que luego se envía a instalaciones de enriquecimiento en el extranjero (EEUU, Rusia, etc.). En ese proceso se aumenta el porcentaje de uranio-235 (de menos del 1% natural a ~3-5%).\n\nEl uranio enriquecido se convierte en pastillas que se agrupan en barras de combustible y se cargan en un reactor nuclear. Ahí, en una planta, los átomos de uranio se parten (fisión) al recibir neutrones, liberando gran calor (y más neutrones) en una reacción en cadena controlada. Ese calor calienta agua para generar vapor. El vapor mueve turbinas conectadas a generadores eléctricos, de modo idéntico al carbón o gas, pero sin quemar combustible fósil. Así se produce la electricidad nuclear de baja emisión. Un reactor típico funciona con el mismo combustible ~3-5 años, y luego ese combustible agotado permanece muy radiactivo. Es entonces almacenado en piscinas o seco, o bien enviado a reprocesado para extraer materiales útiles (combustible reciclado).\n\nEn España no hay minas activas de uranio, por lo que el combustible nuclear procede del extranjero. En 2024, por ejemplo, parte del uranio enriquecido llegó indirectamente vía Estados Unidos procedente de Rusia. Otras fuentes globales son África y América. Este combustible, de altísima densidad energética, alimenta nuestros reactores día tras día.\n\nPara completar el panorama, hay alrededor de 422 reactores en operación en el mundo (33 países), que generan ~10,5% de la electricidad global. Países con uso intensivo nuclear son Francia (≈70% de su electricidad), Estados Unidos (~20%), China, Rusia, India y varios más. China, por ejemplo, tiene 55 reactores activos y construye 19 adicionales. En Europa, Francia, Bélgica, Reino Unido y Suecia mantienen una proporción alta (30-70%), mientras Alemania y otros la han eliminado por ley. En América, EEUU acaba de extender permisos hasta 2050 en algunos sitios, y México, Brasil y Argentina la usan también. Las nuevas tecnologías nucleares incluyen reactores más pequeños (SMR) o avanzados de sodio/litio que prometen mayor seguridad.\n\nEjemplos de energía nuclear: Además de España, muchos países son paradigmáticos. Francia es el caso más extremo en Europa, ya que invirtió masivamente desde los años 70 en nucleares (actualmente 56 reactores operativos, ~75 GW, producción ~295 TWh en 2022). Otro ejemplo es Estados Unidos, con 92 reactores ~100 GW que aportan ~800 TWh anuales. En Asia, Japón (tras Fukushima redujo su parque, pero planea reabrir unidades) y Corea del Sur (24 reactores, 30% su electricidad) son referentes. La creciente demanda está reimpulsando lugares nuevos: Emiratos Árabes (con 4 reactores inaugurados en 2021) y Egipto (lanzó su primer reactor en 2022) son ejemplos de países que comienzan su programa nuclear. Estos proyectos internacionales muestran tanto la escala de la tecnología como sus desafíos (plazos de construcción largos, rigor regulatorio, inversión elevada).\n\nEn resumen, la energía nuclear “viene” del uranio: un metal mineral cuyo ciclo industrial es complejo. España obtiene su electricidad nuclear a partir de la fisión de ese uranio importado, bajo estrictos controles. Las centrales nucleares españolas operan desde el sureste (Cofrentes) hasta el oeste (Almaraz), convirtiendo el ciclo del uranio en emisiones mínimas de carbono. A nivel mundial, decenas de miles de millones de personas en cientos de ciudades se benefician de centrales como Flamanville (Francia), Three Mile Island o Olkiluoto (Finlandia), y ahora muchos ven oportunidades en nuevos diseños más seguros (Reactores modulares pequeños, reactores de cuarta generación).\n\n9. Conclusión\n\nLa crisis energética y el apagón de abril de 2025 han evidenciado los límites de nuestro sistema actual, pero también señalan oportunidades enormes para la innovación. La energía nuclear aparece en el debate con luces y sombras: ofrece bajas emisiones y estabilidad a cambio de desafíos técnicos y sociales. Las renovables eólica y solar prometen ser “el futuro”, pero sin avanzar en almacenamiento y red inteligente el sistema seguirá siendo vulnerable. El sector de la energía debe aprovechar este momento crítico para innovar: investigar almacenamiento de largo plazo, reforzar redes, desarrollar la cadena de fabricación nuclear (de fuel y equipos) y mejorar la gestión del consumo. Como advierten analistas, debemos intensificar la inversión en baterías y en tecnologías de red al ritmo de expansión renovable.\n\nEn España, esto implica planificar con visión estratégica. Se requiere colaboración entre gobiernos, industria y centros de I+D para poner en marcha proyectos pilotos (reactores modulares, parques de baterías nacionales, producción de hidrógeno) antes de 2030. También es esencial fomentar la formación de técnicos e ingenieros en los nuevos ámbitos energéticos y elevar la conciencia ciudadana: cada empresa y hogar debe adoptar medidas de eficiencia y ahorro. Debemos entender que “la energía no es infinita ni gratis”: cada consumo irresponsable expone la fragilidad del sistema. El conocimiento es poder, por lo que campañas educativas sobre la gestión energética ayudarán a sensibilizar.\n\nEn definitiva, la oportunidad está en nuestras manos. La transición energética no es sólo un cambio tecnológico sino un reto colectivo. Impulsar proyectos sostenibles, optimizar la cadena industrial y educar a profesionales y consumidores resultará decisivo para salir reforzados de la crisis. La «conciencia energética» debe consolidarse como valor social: utilizar energías renovables y nucleares de forma combinada puede crear un sistema más robusto y limpio. Que el apagón de 2025 sea el catalizador de una modernización urgente: invertir en innovación, como recomienda el informe de Red Eléctrica, es preparar el futuro energético seguro que necesitamos. Solo así se garantizará un abastecimiento sostenible y competitivo para las próximas décadas.",
+                                        "metadata": {
+                                            "url": "https://ede.madrid/crisis-energetica-apagon-y-dilema-nuclear-en-espana/",
+                                            "source": "ede.madrid",
+                                            "favicon": "https://ede.madrid/wp-content/uploads/cropped-favicon-ede-32x32.png",
+                                            "title": "Artículo | Crisis energética y energía nuclear tras el apagón ...",
+                                            "type": "web_search",
+                                            "base_url": "https://ede.madrid",
+                                            "snippet": "España no cuenta con minas activas de uranio, depende de su importación para alimentar sus centrales nucleares, clave en la transición energética y reducción de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El uranio vuelve al tablero energético… pero España se queda fuera.- España cuenta con reservas de uranio en su subsuelo, especialmente concentradas en la provincia de Salamanca. Estos recursos están geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Sin embargo, desde principios de los años 2000 no existe ninguna actividad extractiva activa.\n\nEl caso más reciente, y el que más expectación generó, fue el proyecto de Retortillo, promovido por Berkeley Minera España. Considerado el intento más avanzado de reactivar la minería de uranio en el país, quedó paralizado en 2021 tras la negativa del Gobierno a conceder la autorización de la planta de tratamiento, alegando riesgos medioambientales y falta de garantías.\n\nInversión perdida y oportunidades desaprovechadas\n\nLa decisión tuvo consecuencias directas. Según los planes presentados por Berkeley, la mina habría supuesto una inversión superior a los 250 millones de euros, la creación de más de 400 empleos directos y una notable inyección económica en una zona castigada por la despoblación. Además, se estimaba que su producción podría haber cubierto cerca del 60% de la demanda anual de uranio en España durante al menos dos décadas.\n\nEn su lugar, el país sigue dependiendo por completo del exterior: España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales, dependiendo del precio internacional del mineral. Este modelo implica un doble coste: económico y estratégico.\n\nHasta 60 millones de ahorro anual… enterrados\n\nUna simulación realista apunta a que, si España lograra sustituir la mitad de sus importaciones de uranio por producción nacional, el ahorro directo podría situarse entre 40 y 60 millones de euros anuales. A eso se sumarían beneficios indirectos como la reducción de costes logísticos, generación de empleo, recaudación fiscal y atracción de inversión extranjera.\n\nEn el contexto actual, ese ahorro no es marginal. El precio del uranio se ha disparado desde los 25 dólares por libra de 2020 a más de 85 dólares en 2025, un crecimiento del 240%. Esta subida responde a una combinación de factores: la revalorización de la energía nuclear como fuente libre de emisiones, el impacto del conflicto en Ucrania sobre los suministros desde Rusia y Kazajistán, y el nuevo enfoque europeo hacia la seguridad energética.\n\nEuropa apuesta… mientras España bloquea\n\nEl contraste con otros países de la Unión Europea es evidente. Mientras España mantiene cerradas sus reservas, Francia ha incrementado la inversión en reciclaje de combustible nuclear y reactivado estudios en antiguos yacimientos. República Checa mantiene en activo su mina de Rožná —la única explotación funcional en Europa durante los últimos años— y estudia su ampliación. Por su parte, Hungría aprobó en 2024 una legislación para facilitar el aprovechamiento de sus recursos en la región de Pécs.\n\nEstos países no ven el uranio únicamente como un componente energético, sino como un activo estratégico dentro del marco de autonomía energética que promueve la UE. España, en cambio, sigue dependiendo al 100% del exterior.\n\nENUSA: una infraestructura latente\n\nEspaña no solo tiene uranio bajo tierra. También cuenta con una estructura institucional que, en su día, gestionó todo el ciclo nuclear. La Empresa Nacional del Uranio (ENUSA), fundada en 1972, fue durante décadas la responsable de extraer, procesar y fabricar combustible nuclear a partir de recursos nacionales.\n\nEn los años 80, ENUSA inauguró la planta de Juzbado (Salamanca), aún operativa, aunque hoy depende exclusivamente de uranio importado. La empresa cesó su actividad minera en el año 2000, coincidiendo con el desplome de los precios internacionales y el endurecimiento de las normativas ambientales. Desde entonces, se dedica a la restauración ambiental de antiguas minas, a la producción de combustible y a servicios técnicos asociados al ciclo nuclear.\n\nUn mapa bajo tierra… y sin uso\n\nPese a no haber minas activas, el potencial geológico del país permanece intacto. Al menos cinco zonas cuentan con yacimientos identificados: Retortillo y Alameda de Gardón, con permisos tramitados hasta su paralización; Saelices el Chico, antigua mina nacional con reservas pendientes de valoración; Andújar y Cardeña (en Jaén y Córdoba), con antecedentes históricos; la zona de Nisa y Valencia de Alcántara (Cáceres), con indicios en rocas graníticas; y zonas del Pirineo catalán, donde se hallaron vetas en los años 70.\n\nNinguna de ellas está actualmente en explotación ni en fase de exploración avanzada.\n\nUn debate pendiente en el nuevo mapa energético\n\nLa renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural. Mientras el contexto geopolítico y económico cambia —y Europa se rearma energéticamente—, el uranio español sigue bajo tierra, sin uso ni estrategia.\n\nEl país que durante décadas lideró parte del ciclo nuclear europeo a través de ENUSA hoy opta por la dependencia total. Y con los precios del mineral disparados, el empleo rural necesitado de alternativas y los aliados comunitarios reactivando sus minas, quizá no tarde en reabrirse un debate que parecía cerrado.\n\n🎯 El uranio vuelve al tablero energético… pero España se queda fuera, en tiempodeinversion.com",
+                                        "metadata": {
+                                            "url": "https://tiempodeinversion.com/analisis/el-uranio-vuelve-al-tablero-energetico-pero-espana-se-queda-fuera/",
+                                            "source": "tiempodeinversion.com",
+                                            "favicon": "https://tiempodeinversion.com/wp-content/uploads/2020/03/cropped-tiempo-de-inversion-32x32.png",
+                                            "title": "▷ El uranio vuelve al tablero energético... pero España se ...",
+                                            "type": "web_search",
+                                            "base_url": "https://tiempodeinversion.com",
+                                            "snippet": "- España cuenta con reservas de uranio en su subsuelo, especialmente concentradas en la provincia de Salamanca. Estos recursos están ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las declaraciones de Pedro Sánchez el miércoles en el Congreso de los Diputados, en las que afirmó que “España no produce uranio”, provocaron una lluvia de críticas y reavivaron la controversia sobre la energía nuclear y la minería de uranio.\n\nEl presidente del Gobierno matizó después que los yacimientos fueron abandonados por su “inviabilidad económica” y su impacto contaminante, además de señalar que la capacidad para procesar y enriquecer uranio se concentra en Rusia y China. Pero, ¿realmente se ajustan estas explicaciones a la realidad de los recursos y las alternativas que España tiene a su disposición?\n\nSegún la empresa pública Enusa, el 86% del uranio que consume hoy España proviene de países bajo la influencia de Rusia. Aunque nuestro país no cuenta con actividad minera de uranio, alberga uno de los yacimientos más grandes de Europa: la mina de Retortillo, en Salamanca.\n\nEspaña posee aproximadamente 34.400 toneladas de uranio, lo que equivale a 89 millones de libras de triuranio octóxido, el compuesto utilizado en la industria nuclear, según el Red Book 2022. Estos recursos están bajo los derechos mineros de la empresa australiana Berkeley, encargada del proyecto de Retortillo.\n\nDe ese total, 54,6 millones de libras han demostrado ser económicamente viables y técnicamente factibles, lo que podría representar alrededor de 18 años de suministro de uranio para el 100% del parque nuclear español.\n\nNo obstante, en 2021 el Ministerio para la Transición Ecológica, bajo la dirección de Teresa Ribera, rechazó la iniciativa después de recibir un informe negativo del Consejo de Seguridad Nuclear (CSN), que recomendaba no conceder la licencia.\n\nEl motivo no fue económico, como señaló Sánchez, sino por riesgos medioambientales asociados. En particular, los relacionados con la gestión de residuos radiactivos y la posible contaminación de aguas subterráneas, que eran demasiado elevados. Aunque Berkeley Minera España presentó modificaciones para mitigar estos riesgos, el Gobierno mantuvo su decisión.\n\nDe hecho, la empresa australiana ha interpuesto una demanda ante el CIADI (Centro Internacional de Arreglo de Diferencias Relativas a Inversiones) contra el Estado español.\n\nEn su defensa, sostiene que la negativa del Gobierno no siguió el procedimiento legalmente establecido, al no considerar los informes de mejora presentados junto a la solicitud inicial. La empresa busca que un organismo independiente valore su propuesta de manera integral.\n\nEl uranio, en los planes de Europa\n\nEspaña carece de plantas de enriquecimiento de uranio, tal y como señaló Pedro Sánchez, pero puede acceder a la capacidad europea. En Europa, dos grandes actores dominan este mercado: Urenco -conformado por Reino Unido, Alemania y los Países Bajos- y Orano -la principal empresa francesa del sector-.\n\nSi bien Rusia y China desempeñan un papel importante en la conversión y enriquecimiento de este recurso, “el mercado global de uranio natural y procesado es bastante diversificado”, tal y como recoge la Comisión Europea en su hoja de ruta para acabar con la dependencia energética de Rusia, presentada este martes.\n\nLo que sí advierte la Comisión es que “un obstáculo importante es la concentración de los servicios de conversión y enriquecimiento de uranio, necesarios para transformar el uranio procesado en combustible nuclear, en un número limitado de empresas”.\n\nEuropa cuenta con instalaciones propias, pero estas resultan insuficientes para satisfacer la demanda, especialmente en el contexto de resurgimiento de la energía nuclear que vive el continente desde 2022.\n\nLos baluartes del enriquecimiento de uranio en Europa ya han puesto en marcha planes para ampliar su capacidad. En diciembre de 2023, Urenco aprobó una inversión para aumentar un 15% la producción de su planta de Almelo (Países Bajos). Además, está modernizando e incrementando sus instalaciones en Gronau (Alemania) y Eunice (Estados Unidos).\n\nPor su parte, Orano aprobó en octubre de 2023 una inversión de aproximadamente 1.700 millones de euros para incrementar en más de un 30% la capacidad de la planta Georges Besse 2, ubicada en Tricastin (Francia). Esta inversión cuenta con el respaldo del Banco Europeo de Inversiones (BEI), que formalizó en marzo de este 2025 un préstamo de 400 millones de euros para financiar la ampliación.\n\nPero \"la primera nueva instalación de enriquecimiento no se espera antes de 2027\", alerta Bruselas en su estrategia para cortar lazos con Rusia. Además, \"la industria global de conversión de uranio enfrenta obstáculos para aumentar la producción debido a la complejidad tecnológica y a las incertidumbres del mercado\", añade.\n\nPor esta razón, y lejos de tratarlo como un sector de escasa relevancia estratégica -tal como ha insinuado el presidente del Gobierno español-, la Comisión Europea ha anunciado su intención de impulsar una \"acción sistemática\" entre los Estados miembros para \"eliminar los suministros de combustible nuclear, servicios de combustible y repuestos provenientes de Rusia y reemplazarlos, con el tiempo, con alternativas totalmente europeas\".\n\nLa Comisión buscará hacer que \"las importaciones rusas de uranio enriquecido sean menos viables económicamente, presentando, el próximo mes, medidas comerciales sobre la importación de uranio enriquecido\".\n\nEsto \"equilibrará las condiciones y alentará decisiones políticas y empresariales en los Estados miembros pertinentes para acelerar la inversión y el fortalecimiento de la capacidad, desarrollar una cadena de valor de la UE y diversificar gradualmente lejos de Rusia, permitiendo suministros de otros socios internacionales\", ha apuntado en su reciente hoja de ruta.\n\nAsí, requerirá que los Estados miembros desarrollen planes nacionales con acciones concretas y plazos, y recomienda que \"los Estados miembros presenten sus primeros planes nacionales antes de finales de 2025, \"con el objetivo de proporcionar tranquilidad y previsibilidad a los actores económicos al tomar decisiones de inversión para disponer de suficiente capacidad de conversión y enriquecimiento de uranio\".",
+                                        "metadata": {
+                                            "url": "https://www.elespanol.com/invertia/empresas/energia/20250508/recurso-espana-anos-suministro-plan-europeo-cortar-rusia-claves-debate-uranio/1003743746680_0.html",
+                                            "source": "www.elespanol.com",
+                                            "favicon": "https://s2.elespanol.com/2020/02/26/favicon-invertia.ico",
+                                            "title": "Recurso en España para 18 años de suministro y un plan ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elespanol.com",
+                                            "snippet": "Según la empresa pública Enusa, el 86% del uranio que consume hoy España proviene de países bajo la influencia de Rusia. Aunque nuestro país no ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El renacimiento de la energía nuclear es un hecho. El impacto de la bomba atómica y los desastres nucleares han puesto freno durante muchos años a la expansión de esta energía tan 'eficiente'. Tras décadas de muy mala prensa, críticas despiadadas y planes para reducir el peso de la nuclear en el mix energético, la inversión para relanzar este tipo de fuente de energía está comenzando a despuntar con fuerza. Este cambio de postura de muchos países es el resultado del nuevo entorno geopolítico y de la realidad energética a la que se enfrenta el mundo. La guerra de Ucrania y el propio avance de las energías renovables (aunque parezca contradictorio esto último) han demostrado que la independencia energética y la transición hacia un modelo sostenible resulta imposible, hoy en día, sin una energía estable y parcialmente limpia como la nuclear.\n\nCon este giro, el uranio se ha convertido en 'oro' por su importancia para alimentar este boom. Países como España cuentan con grandes reservas de uranio, sin embargo, no se usa ni un gramo del uranio patrio para alimentar los reactores nucleares del país. Algo similar sucede en varios países de Europa, que en lugar de usar sus propias reservas se ven forzados a importar uranio de Chad, Níger e incluso Rusia. Todo esto con un precio de la materia prima avanzando con fuerza quedándose en los 88,6 dólares la libra frente a los 19 que cotizaba en 2019 o los 48 de 2023. ¿Por qué España y Europa no usan sus vastas reservas de uranio?\n\nEspaña cuenta con las segundas reservas de uranio más importantes de la Unión Europea, de unas 28.500 toneladas, frente a las 125.000 de República Checa (sin tener en cuenta las reservas que Dinamarca tiene en el territorio de Groenlandia y que no explota), con capacidad para cubrir la demanda nacional y no depender de las importaciones procedentes de Rusia y \"otros países cuya fiabilidad jurídica es cuestionable\", según reveló hace tiempo Berkeley Minera España, una empresa que tiene intereses en el territorio nacional. En cualquier caso, España sería indispensable para convertir a Europa en una potencia del uranio con 200.000 toneladas en sus entrañas (más de 300.000 sumando a Groenlandia). Aunque aún estaría muy lejos del músculo australiano (2 millones de toneladas) pero tendría la mitad que Rusia, uno de los grandes agentes del mercado.\n\nDe este modo, la empresa minera australiana considera que España podría ser \"independiente energéticamente\" de este material para el suministro de las centrales nucleares nacionales durante más de 10 años y, en 18 meses, suministrar el uranio suficiente para cubrir las importaciones. Esto resulta realmente interesante en un momento en el que el precio del uranio se ha disparado y cuesta más de 89 dólares la libra, cuando en el periodo 2020-2022 apenas superaba los 20 dólares la libra.\n\nSin embargo, tanto el gobierno de España como sus críticos defienden la no utilización de estos recursos debido, en primer lugar, a la contaminación que genera. En segunda instancia, creen que levantar un proyecto, por muchas reservas que tenga España no encaja con el modelo energético al que va el país basado en renovables y en el que no ven a la energía nuclear (y de hecho, quieren cerrar todos los reactores para 2035). Al mismo tiempo, los costes asociados a la minería plantean problemas que solo se resuelven en proyectos a largo plazo.\n\nLa independencia de Europa pasa por Salamanca\n\nCon estos precios y en medio de las sanciones de Occidente a Rusia resultaría interesante realizar un análisis de la rentabilidad del uranio español, puesto que en las últimas décadas se ha considerado este como uno de los grandes problemas. El consenso de los expertos admitía hace años que aunque España tiene yacimientos de uranio, las reservas no son tan abundantes ni de tan alta calidad como las de otros países que lideran la producción mundial. La extracción de uranio de estos yacimientos puede no ser económicamente viable debido a los costes asociados con la minería y el procesamiento del mineral.\n\nPero a los precios actuales y con los problemas derivados de la guerra entre Rusia y Ucrania, la propia Berkeley afirmó a finales de 2023 que tiene el potencial para construir sus instalaciones en Retortillo, provincia de Salamanca, \"en menos de 24 meses\" y, en este corto periodo, la mina supliría \"totalmente\" la importación de uranio procedente de Rusia \"e incluso de otros países con gran inseguridad jurídica\".\n\nBerkeley lleva años inmerso en un conflicto por el Uranio de esta región y, de hecho, ha abierto un arbitraje internacional contra España. El país en 2022 acabó con este proyecto con una ley de cambio climático en el que vetaban la concesión de nuevos permisos tanto de explotación como de exploración. Según explicaba el mismo texto legislativo, \"los proyectos relacionados con la minería de uranio dan lugar a unos materiales residuales que tienen la consideración de residuos radiactivos\". En ese sentido, \"dada la larga vida de los mismos (...) debido a sus prejuicios y coste, no se otorgarán nuevos permisos de exploración, investigación o concesiones de explotación\".\n\n\"Solo con el proyecto de Salamanca se produciría un 15% del consumo de los reactores de la UE\"\n\nEn declaraciones a elEconomista.es, la empresa minera deja claro que buscarán negociar la reactivación de la mina y dicen que sería clave para cortar vínculos con Rusia y garantizar el suministro no solo de España, sino de Europa. \"En 24 meses podríamos estar produciendo el 40% de lo que consumen las centrales nucleares españolas\". Además, la firma indica que \"este proyecto permitiría explotar 25.000 toneladas de uranio, por lo que, si tenemos en cuenta que el consumo de toda España es de 1.250 toneladas al año, tendríamos asegurado el suministro para los próximos 20 años\".\n\nPara Berkeley, estas cifras se traducen en que \"solo con el proyecto de Salamanca se produciría un 15% del consumo de los reactores de la UE\". En ese sentido, la firma lamenta que \"España no está apostando por aprovechar estos recursos, lo que es un error con graves consecuencias para ella misma y para Europa\" pues \"necesitamos uranio para abastecer nuestras centrales y garantizar el suministro, ya que actualmente hay una importante dependencia de terceros\". La empresa señala que esto es de especial interés en el \"contexto geopolítico y económico actual, pues la energía nuclear ha ganado peso por su estabilidad y bajas emisiones, con grandes desarrollos en Europa en los últimos dos años\".\n\nRespecto a la decisión de abandonar la minería de esta materia prima, Francisco del Pozo, coordinador de energía en Greenpeace, defiende en declaraciones a elEconomista.es la medida, alegando que la mina solo tendría sentido si España tuviera un proyecto nuclear. \"Considerando el cierre nuclear hacia el que se dirige España, no tiene sentido que produzcamos uranio\". Del Pozo defiende que \"de los siete reactores nucleares varios no están funcionando porque ya no sale a cuenta y, a medio plazo, el único objetivo que tendría seguir abriendo minas o mantener las que tenemos sería para exportar, algo que no vemos\". Además el gobierno se ha puesto en marcha el pasado mes de diciembre un plan para ir cerrando paulatinamente todas las centrales operativas entre los años 2027-2035.\n\nMina de uranio en Retortillo, Salamanca\n\n\"La energía nuclear es la energía del pasado, aunque el uranio en las prospecciones minerales no es altamente radiactivo, emite partículas nocivas y todo el proceso de este tipo de energía produce carbono, una huella muy relevante\", aseveran desde Greenpeace. En cualquier caso, el argumento fundamental es que la energía nuclear tendría poco encaje con la estrategia hacia las renovables que está siguiendo España. El motivo es que las renovables producen cada vez más energía y lo que necesitan son fuentes alternativas de respaldo que puedan activarse rápidamente cuando la producción eólica y solar baje. Sin embargo, la nuclear no encaja aquí, pues se trata de un suministro que \"necesita tiempo y regularidad\".\n\n\"Las renovables y la nuclear no encajan bien, no tiene capacidad de alternancia y la renovable es más barata\", sentencia Del Pozo. Según los datos de la Agencia Internacional de la Energía el coste en EEUU de la energía solar fue de 1,7 dólares por kilovatio y de 1,32 dólares para la solar. En el caso de la nuclear este fue de entre 6,95 dólares y 7,5 dólares. Sin embargo, los expertos de Lazard matizan que en las comparativas de precios de la energía no se suele tener en cuenta que el coste de almacenamiento no está incluido y que este tipo de tecnologías aún no produce de forma tan masiva como para ser el gran protagonista del mix energético en todo momento. De hecho, los últimos datos de la Comisión Europea muestran que las renovables solo representaron el 17,2% de la producción, frente al 57% que supusieron el gas y el petróleo. La nuclear representó un 12,8%.\n\nRusia, el principal suministrador\n\nLa caída de producción de uranio no es algo exclusivo de España, aunque no se haya dado una prohibición como en el país ibérico, la realidad es que las minas del viejo continente cada vez ofrecen cifras más débiles. Desde que en 2015 se tocó un techo de 4.492 toneladas métricas, hasta quedarse en escasas 3.188 toneladas métricas. Incluso con la guerra de Ucrania, que provocó riesgos de que su principal suministrador, Rusia, ha optado por diversificar su suministro, aunque ha seguido comprando masivamente al gigante euroasiático.\n\nAunque Rusia solo posee el 5% del suministro mundial del uranio, sus empresas extienden sus redes por toda la cadena de suministro. De hecho, la Corporación Estatal de Energía Nuclear Rosatom controla el 40% de las de la capacidad de enriquecimiento. Desde 2022 Europa ha incrementado para alejarse de la dependencia rusa las compras a Kazajistán (26,8% del total) y Níger (25%). Canadá ha seguido siendo uno de sus principales bastiones, representando cerca del 22% de su abastecimiento. Rusia redujo su presencia hasta representar el 16,89%.",
+                                        "metadata": {
+                                            "url": "https://www.eleconomista.es/energia/noticias/12845383/06/24/por-que-espana-reniega-de-su-uranio-en-pleno-despertar-nuclear-solo-salamanca-abasteceria-el-15-de-toda-la-ue.html",
+                                            "source": "www.eleconomista.es",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Por qué España reniega de su uranio en pleno despertar ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eleconomista.es",
+                                            "snippet": "Países como España cuentan con grandes reservas de uranio, sin embargo, no se usa ni un gramo del uranio patrio para alimentar los reactores ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Resumen\n\nEl 23 de febrero de 2021, el Consejo de Ministros aprobó el Acuerdo para la mejora del proceso de negociación e incorporación del derecho de la Unión Europea al ordenamiento jurídico interno. Este Acuerdo tiene como finalidad mejorar la participación del Reino de España en los procesos de elaboración normativa en la Unión Europea (fase ascendente) y mejorar su aplicación y transposición (fase descendente).\n\nPara ello se prevé la elaboración de un estudio de impacto sobre las propuestas legislativas de la Comisión Europea (EIPLE). Durante el proceso de elaboración del EIPLE se lleva a cabo un proceso de participación pública para que los ciudadanos, grupos de interés, asociaciones empresariales y sindicales, gabinetes de estudios, expertos o cualquier sector que se considere afectado por la propuesta legislativa puedan expresar su criterio.\n\nEsta consulta tiene por objeto recabar la opinión de los actores mencionados sobre la propuesta legislativa de la Comisión que, por las competencias atribuidas a este Ministerio, recae en su ámbito de actuación.\n\nLos problemas que se pretenden solucionar con la iniciativa.\n\nLa necesidad y oportunidad de su aprobación.\n\nLos objetivos de la norma.\n\nLas posibles soluciones alternativas regulatorias y no regulatorias.\n\nEn cumplimiento de lo anterior y de acuerdo con lo dispuesto en la Orden PRE/1590/2016, de 3 de octubre, por la se publica el Acuerdo del Consejo de ministros, de 30 de septiembre de 2016, por el que se dictan instrucciones para habilitar la participación pública en el proceso de elaboración normativa a través de los portales web de los departamentos ministeriales, se abre un periodo de consulta pública respecto al presente proyecto normativo.\n\n1. Antecedentes\n\nEl 6 de mayo de 2025 la Comisión Europea publicó la Comunicación al Parlamento Europeo, al Consejo, al Comité Económico y Social Europeo y al Comité de las Regiones: Roadmap towards ending Russian energy imports en línea con su Comunicación REPowerEU Plan del 18 de mayo de 2022 y los paquetes de sanciones aprobados por la UE desde la invasión rusa de Ucrania en febrero de 2022\n\nEl 17 de junio de 2025 se publicó en la página web de la Comisión Europea un proyecto de reglamento para modificar de nuevo el Reglamento (UE) 2017/1938 a fin de eliminar gradualmente las importaciones de gas ruso. La base jurídica son los artículos 207 y 194(2) del TFUE, relativos a medidas de política comercial y energía\n\nEsta propuesta de reglamento recoge las medidas sistemáticas para eliminar las importaciones restantes de gas, petróleo y energía nuclear procedentes de la Federación de Rusia. Se incluyen prohibiciones a las importaciones de gas (por gasoducto en forma de GN y en forma de GNL) y el uso de las terminales de GNL, así como la obligación de presentar planes nacionales para la eliminación de las importaciones de gas y petróleo (a los EEMM que importan de Rusia).\n\nEstas prohibiciones de importación entran en vigor de forma gradual, afectando primero a partir del 1 de enero de 2026 a nuevos contratos de gas, a partir del 17 de junio de 2026 a contratos a corto plazo de gas y, por último, a partir del 1 de enero de 2028 a contratos a largo plazo de gas.\n\nAsimismo, refuerza la transparencia y trazabilidad, incluyendo los planes nacionales e incrementando la cooperación con las autoridades aduaneras para la monitorización y el intercambio de información.\n\n2. Problemas que se pretenden solucionar con la nueva norma\n\nLa dependencia de la UE de las importaciones de energía rusa supone una amenaza para la seguridad económica de la Unión. Por ello, poco después de la invasión rusa de Ucrania en febrero de 2022, la Comisión publicó la Comunicación «REPowerEU: Acción conjunta de la UE para una energía más asequible, segura y sostenible». En ella se esbozaba el compromiso de la UE de eliminar gradualmente la dependencia europea de las importaciones de energía rusa y se enumeraba una serie de medidas para alcanzar este objetivo. La Comunicación fue acogida por los representantes de los Estados miembros de la UE como parte de la «Declaración de Versalles», en marzo de 2022.\n\nEl referido plan REPowerEU presentaba un conjunto de acciones y recursos destinados a alcanzar los objetivos descritos en la Comunicación anterior. Se diseñó para abordar y cumplir eficazmente los objetivos de la Comunicación anterior a través de tres objetivos clave: promover el ahorro energético, fomentar la producción de energía limpia y diversificar el suministro energético.\n\nA pesar de los importantes avances logrados en el marco del plan REPowerEU y de las sanciones impuestas desde la invasión de Ucrania por parte de Rusia, la UE experimentó un repunte de las importaciones de gas ruso en 2024. Por lo tanto, el 6 de mayo de 2025, la Comisión presentó la hoja de ruta REPowerEU, en la que se establece una eliminación coordinada, segura y gradual de las importaciones de gas, petróleo y energía nuclear rusos.\n\n3. Posibles soluciones alternativas, regulatorias y no regulatorias\n\nComo alternativas posibles a partir del 1 de enero de 2026:\n\nNo establecer ninguna prohibición, para lo cual no habría que promulgar norma alguna.\n\nDilatar o acortar el calendario propuesto para la prohibición de los respectivos plazos de contratos de aprovisionamiento de gas ruso\n\nMantener la reducción gradual tal como propone la Comisión en su propuesta.\n\n4. Contenido de la Consulta Pública Previa\n\nCon el objetivo recabar la opinión de los distintos agentes del sector afectados potencialmente por la propuesta de Reglamento del Parlamento Europeo y del Consejo sobre la eliminación gradual de las importaciones de gas natural ruso, la mejora del seguimiento de las posibles dependencias energéticas y la modificación del Reglamento (UE) 2017/1938, se abre esta consulta pública previa, que busca evaluar las cuestiones técnicas, económicas y regulatorios y su afección a la seguridad, sostenibilidad y competencia del sector.\n\nPlazo de remisión\n\nPlazo para presentar documentación desde el viernes, 24 de octubre de 2025 hasta el viernes, 07 de noviembre de 2025\n\nPresentación de alegaciones\n\nLas alegaciones deberán remitirse mediante correo electrónico a la dirección bzn-SGH@miteco.es indicando en el asunto: “Consulta pública previa reglamento phase out”.\n\nSólo serán consideradas las respuestas en las que el remitente esté plenamente identificado (nombre completo junto al DNI o CIF en función de la personalidad física o jurídica).\n\nCon carácter general las aportaciones recibidas se considerarán susceptibles de difusión pública. Las partes de la información remitida que, a juicio del interesado, deban ser tratadas con carácter confidencial y, en consecuencia, no puedan ser difundidas públicamente, deberán ser señaladas e identificadas de manera explícita en el propio texto remitido. A estos efectos, no se tendrán en cuenta los mensajes genéricos de confidencialidad de la información.",
+                                        "metadata": {
+                                            "url": "https://www.miteco.gob.es/es/energia/participacion/2025/detalle-participacion-publica-k-784.html",
+                                            "source": "www.miteco.gob.es",
+                                            "favicon": "https://www.miteco.gob.es/etc.clientlibs/miteco/clientlibs/clientlib-site/resources/images/favicons/apple-touch-icon-57x57.png",
+                                            "title": "Consulta pública previa de la propuesta de Reglamento del ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.miteco.gob.es",
+                                            "snippet": "Esta propuesta de reglamento recoge las medidas sistemáticas para eliminar las importaciones restantes de gas, petróleo y energía nuclear ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Radiografía 2025 de la energía nuclear en España: evolución, retos, precios e integración en el mix energético.\n\nEspaña llega a 2025 con un mix eléctrico en plena transformación: renovables en crecimiento récord, debate político sobre seguridad de suministro tras incidentes de tensión, y discusiones sobre si prolongar la vida de algunas centrales nucleares o mantener la hoja de ruta de cierre.\n\nBreve evolución y situación actual: ¿dónde estamos a día de hoy?\n\nEn 2025 la flota nuclear española sigue siendo la heredada de décadas anteriores: siete reactores operativos repartidos en cinco emplazamientos (Almaraz I y II, Ascó I y II, Cofrentes, Trillo y Vandellós II). Bajo la política vigente, España mantiene una hoja de ruta de cierre escalonado de su parque nuclear hacia 2035, con las primeras paradas previstas entre 2027 y 2028, aunque ese calendario está siendo cuestionado por la reciente tensión sobre seguridad de suministro.\n\nAl mismo tiempo, la aportación de renovables creció de forma notable: Red Eléctrica reportó que las renovables cerraron 2024 aportando alrededor del 56–57% de la generación eléctrica, el porcentaje más alto hasta la fecha, lo que sitúa a la nuclear como una fuente estable pero relativa menor frente al salto renovable.\n\n¿Qué ha cambiado en los últimos años?\n\nFortalecimiento de las energías renovables: rápida incorporación de la energía eólica y solar ha elevado su participación y aumentado la variabilidad del sistema. REE documenta incrementos importantes en generación renovable y capacidad instalada en 2023–2024.\n\nDebate sobre prorrogar centrales: ante problemas de tensión y episodios de riesgo de suministro, empresas y actores regionales han comenzado a presionar para estudiar extensiones de vida operacional (especialmente Almaraz). Además, existen trabajos técnicos y comerciales para evaluar la renovación de equipos y el almacenamiento intermedio del combustible.\n\nante problemas de tensión y episodios de riesgo de suministro, empresas y actores regionales han comenzado a presionar para estudiar extensiones de vida operacional (especialmente Almaraz). Además, existen trabajos técnicos y comerciales para evaluar la renovación de equipos y el almacenamiento intermedio del combustible. Mayor atención regulatoria y de seguridad: el Consejo de Seguridad Nuclear (CSN) ha seguido actualizando exigencias y aprobando modificaciones de planes de emergencia interior para las centrales, reflejando un foco renovado en seguridad operativa.\n\nPrincipales desafíos\n\nMarco político y decisión sobre el cierre vs prórroga: la política oficial sigue contemplando un cierre progresivo hacia 2035; sin embargo, la presión por seguridad de suministro y episodios adversos en la red han generado una conversación política y técnica sobre la posible solicitud de prórrogas para algunas plantas. Esto levanta un dilema clásico: seguridad energética a corto/medio plazo versus objetivos de transición y costes socioeconómicos a largo plazo.\n\nla política oficial sigue contemplando un cierre progresivo hacia 2035; sin embargo, la presión por seguridad de suministro y episodios adversos en la red han generado una conversación política y técnica sobre la posible solicitud de prórrogas para algunas plantas. Esto levanta un dilema clásico: seguridad energética a corto/medio plazo versus objetivos de transición y costes socioeconómicos a largo plazo. Seguridad y licenciamiento: cualquier extensión exige evaluaciones regulatorias rigurosas (CSN) y, inversión en modernización de sistemas, seguridad y gestión de combustible gastado. El CSN ha mostrado en 2025 un papel activo en revisar planes y pedir marcos regulatorios robustos.\n\ncualquier extensión exige evaluaciones regulatorias rigurosas (CSN) y, inversión en modernización de sistemas, seguridad y gestión de combustible gastado. El CSN ha mostrado en 2025 un papel activo en revisar planes y pedir marcos regulatorios robustos. Gestión de residuos y desmantelamiento: el ciclo final (almacenamiento intermedio y definitivo, financiación del desmantelamiento) sigue siendo un argumento central en cualquier debate de prolongación y en la planificación de SMR o nuevas tecnologías. Asociaciones del sector insisten en que los modelos de financiación incorpore claramente todos estos costes.\n\nel ciclo final (almacenamiento intermedio y definitivo, financiación del desmantelamiento) sigue siendo un argumento central en cualquier debate de prolongación y en la planificación de SMR o nuevas tecnologías. Asociaciones del sector insisten en que los modelos de financiación incorpore claramente todos estos costes. Percepción pública y política fiscal: la fiscalidad, tasas medioambientales y la percepción pública local (empleo regional, riesgos) condicionan decisiones: algunas administraciones regionales han planteado reducir cargas fiscales a ciertas instalaciones para mantener empleos y actividad económica, lo que añade presión política.\n\nImpacto en precios y mercado: ¿cómo influye la nuclear en la factura?\n\nEstabilidad frente a volatilidad renovable: la nuclear aporta energía de base, con costes marginales bajos una vez amortizada la central, lo que ayuda a contener precios en periodos de escasa renovable. Sin embargo, la creciente penetración renovable incrementa la volatilidad intradiaria y hace que el precio horario dependa más de viento/sol. En esta línea, informes de la CNMC y consultoras destacan que la volatilidad mayorista ha aumentado en 2024–2025.\n\nla nuclear aporta energía de base, con costes marginales bajos una vez amortizada la central, lo que ayuda a contener precios en periodos de escasa renovable. Sin embargo, la creciente penetración renovable incrementa la volatilidad intradiaria y hace que el precio horario dependa más de viento/sol. En esta línea, informes de la CNMC y consultoras destacan que la volatilidad mayorista ha aumentado en 2024–2025. Efecto sobre emisiones y coste social del CO₂: eliminar nuclear sin alternativas de baja emisión obligaría a recurrir más a ciclos combinados (gas) en momentos de escasez renovable, elevando emisiones y, potencialmente, costes asociados al CO₂. Estudios sectoriales estiman que la nuclear evita emisiones significativas cada año.\n\neliminar nuclear sin alternativas de baja emisión obligaría a recurrir más a ciclos combinados (gas) en momentos de escasez renovable, elevando emisiones y, potencialmente, costes asociados al CO₂. Estudios sectoriales estiman que la nuclear evita emisiones significativas cada año. Presión fiscal y costes específicos: la discusión pública también se centra en impuestos y tasas específicas tales como la ecotasa, que influyen en la rentabilidad operativa y en la decisión de las utilities sobre prórrogas o inversiones.\n\n¿Y la integración nuclear en el mix energético?\n\nFuente de respaldo baja en carbono: útil para garantizar un bloque de generación estable y ayudar a suavizar la curva cuando las renovables caen.\n\nútil para garantizar un bloque de generación estable y ayudar a suavizar la curva cuando las renovables caen. Compatibilidad con renovables: su funcionamiento en régimen de base puede complementar picos renovables, pero la arquitectura futura del sistema (almacenamiento, gestión de demanda, interconexiones) definirá cuánto se necesite operativamente. REE muestra que las renovables ya cubren la mayoría del crecimiento en 2024, lo que obliga a rediseñar la flexibilidad del sistema.\n\n¿Qué le depara a la energía nuclear en el horizonte 2030?\n\nDecisión política sobre prórrogas: en 2025 siguen las presiones técnicas y políticas para solicitar extensiones (Almaraz es el foco principal). La decisión requerirá equilibrar seguridad del suministro, requisitos regulatorios y coste social.\n\nen 2025 siguen las presiones técnicas y políticas para solicitar extensiones (Almaraz es el foco principal). La decisión requerirá equilibrar seguridad del suministro, requisitos regulatorios y coste social. Modernización y exigencias regulatorias: cualquier prolongación necesitará inversiones y la aprobación estricta del CSN.\n\ncualquier prolongación necesitará inversiones y la aprobación estricta del CSN. Gestión del mix y mercados: el incremento de renovables obliga a diseñar mecanismos (almacenamiento, demand response, mercados intradiarios) que permitan convivir con potencia de base nuclear sin fricciones de mercado. CNMC y consultoras advierten sobre la mayor volatilidad y la necesidad de instrumentos de gestión.\n\nel incremento de renovables obliga a diseñar mecanismos (almacenamiento, demand response, mercados intradiarios) que permitan convivir con potencia de base nuclear sin fricciones de mercado. CNMC y consultoras advierten sobre la mayor volatilidad y la necesidad de instrumentos de gestión. Economía y fiscalidad local: decisiones fiscales regionales y nacionales influirán en la viabilidad económica de prolongaciones o inversiones en nuevas tecnologías.\n\n¿Quieres saber más? Conoce el Informe para la moratoria de la central nuclear de Cofrentes\n\nhttps://www.camaravalencia.com/wp-content/uploads/2025/04/Informe-prorroga-Cofrentes-160425.pdf",
+                                        "metadata": {
+                                            "url": "https://negociosostenible.camaravalencia.com/ambiental/tendencias/radiografia-2025-de-la-energia-nuclear-en-espana-evolucion-retos-precios-e-integracion-en-el-mix-energetico/",
+                                            "source": "negociosostenible.camaravalencia.com",
+                                            "favicon": "https://negociosostenible.camaravalencia.com/wp-content/uploads/2024/02/cropped-logo_favicon_verde-32x32.png",
+                                            "title": "Radiografía 2025 de la energía nuclear en España: evolución ...",
+                                            "type": "web_search",
+                                            "base_url": "https://negociosostenible.camaravalencia.com",
+                                            "snippet": "España llega a 2025 con un mix eléctrico en plena transformación: renovables en crecimiento récord, debate político sobre seguridad de ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.0078119700010575,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.0078119700010575,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:10:16",
+                    "run_time": 3.0078119700010575,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la cantidad de uranio extraído y procesado en España en 2025?": [
+                                {
+                                    "En declaraciones a elEconomista.es, la empresa minera deja claro que buscarán negociar la reactivación de la mina y dicen que sería clave para cortar vínculos con Rusia y garantizar el suministro no solo de España, sino de Europa. \"En 24 meses podríamos estar produciendo el 40% de lo que consumen las centrales nucleares españolas\". Además, la firma indica que \"este proyecto permitiría explotar 25.000 toneladas de uranio, por lo que, si tenemos en cuenta que el consumo de toda España es de 1.250 toneladas al año, tendríamos asegurado el suministro para los próximos 20 años\".": null
+                                },
+                                {
+                                    "Estos países no ven el uranio únicamente como un componente energético, sino como un activo estratégico dentro del marco de autonomía energética que promueve la UE. España, en cambio, sigue dependiendo al 100% del exterior.": null
+                                },
+                                {
+                                    "Todo ello nos lleva a una conclusión ineludible: España tiene uranio, cuenta con la tecnología precisa para su tratamiento y posee una industria capaz de procesarlo. Lo que nos falta, en este caso, es la autorización necesaria para investigar sobre los yacimientos de este material con los que contamos en nuestro subsuelo y para aprovechar este recurso. Por tanto, no se trata de una ausencia física del mineral, sino de una renuncia voluntaria a explotarlo plasmada en una decisión política explícita.": null
+                                }
+                            ],
+                            "¿Cuál es la demanda de uranio en España para la generación de energía nuclear y otros usos industriales?": [
+                                {
+                                    "Estos países no ven el uranio únicamente como un componente energético, sino como un activo estratégico dentro del marco de autonomía energética que promueve la UE. España, en cambio, sigue dependiendo al 100% del exterior.": null
+                                },
+                                {
+                                    "En su lugar, el país sigue dependiendo por completo del exterior: España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales, dependiendo del precio internacional del mineral. Este modelo implica un doble coste: económico y estratégico.": null
+                                },
+                                {
+                                    "Todo ello nos lleva a una conclusión ineludible: España tiene uranio, cuenta con la tecnología precisa para su tratamiento y posee una industria capaz de procesarlo. Lo que nos falta, en este caso, es la autorización necesaria para investigar sobre los yacimientos de este material con los que contamos en nuestro subsuelo y para aprovechar este recurso. Por tanto, no se trata de una ausencia física del mineral, sino de una renuncia voluntaria a explotarlo plasmada en una decisión política explícita.": null
+                                }
+                            ],
+                            "¿Cuál es la cantidad de uranio importado por España en 2025 y sus fuentes de suministro?": [
+                                {
+                                    "En declaraciones a elEconomista.es, la empresa minera deja claro que buscarán negociar la reactivación de la mina y dicen que sería clave para cortar vínculos con Rusia y garantizar el suministro no solo de España, sino de Europa. \"En 24 meses podríamos estar produciendo el 40% de lo que consumen las centrales nucleares españolas\". Además, la firma indica que \"este proyecto permitiría explotar 25.000 toneladas de uranio, por lo que, si tenemos en cuenta que el consumo de toda España es de 1.250 toneladas al año, tendríamos asegurado el suministro para los próximos 20 años\".": null
+                                },
+                                {
+                                    "En España no hay minas activas de uranio, por lo que el combustible nuclear procede del extranjero. En 2024, por ejemplo, parte del uranio enriquecido llegó indirectamente vía Estados Unidos procedente de Rusia. Otras fuentes globales son África y América. Este combustible, de altísima densidad energética, alimenta nuestros reactores día tras día.": null
+                                },
+                                {
+                                    "En su lugar, el país sigue dependiendo por completo del exterior: España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales, dependiendo del precio internacional del mineral. Este modelo implica un doble coste: económico y estratégico.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en energía nuclear sobre la situación del uranio en España?": [
+                                {
+                                    "El uranio vuelve al tablero energético… pero España se queda fuera.- España cuenta con reservas de uranio en su subsuelo, especialmente concentradas en la provincia de Salamanca. Estos recursos están geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Sin embargo, desde principios de los años 2000 no existe ninguna actividad extractiva activa.": null
+                                },
+                                {
+                                    "La renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural. Mientras el contexto geopolítico y económico cambia —y Europa se rearma energéticamente—, el uranio español sigue bajo tierra, sin uso ni estrategia.": null
+                                },
+                                {
+                                    "Con estos precios y en medio de las sanciones de Occidente a Rusia resultaría interesante realizar un análisis de la rentabilidad del uranio español, puesto que en las últimas décadas se ha considerado este como uno de los grandes problemas. El consenso de los expertos admitía hace años que aunque España tiene yacimientos de uranio, las reservas no son tan abundantes ni de tan alta calidad como las de otros países que lideran la producción mundial. La extracción de uranio de estos yacimientos puede no ser económicamente viable debido a los costes asociados con la minería y el procesamiento del mineral.": null
+                                }
+                            ],
+                            "¿Cuál es la política energética de España en relación con el uranio y cómo afecta a la producción y el uso de este elemento?": [
+                                {
+                                    "Todo ello nos lleva a una conclusión ineludible: España tiene uranio, cuenta con la tecnología precisa para su tratamiento y posee una industria capaz de procesarlo. Lo que nos falta, en este caso, es la autorización necesaria para investigar sobre los yacimientos de este material con los que contamos en nuestro subsuelo y para aprovechar este recurso. Por tanto, no se trata de una ausencia física del mineral, sino de una renuncia voluntaria a explotarlo plasmada en una decisión política explícita.": null
+                                },
+                                {
+                                    "Estos países no ven el uranio únicamente como un componente energético, sino como un activo estratégico dentro del marco de autonomía energética que promueve la UE. España, en cambio, sigue dependiendo al 100% del exterior.": null
+                                },
+                                {
+                                    "La renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural. Mientras el contexto geopolítico y económico cambia —y Europa se rearma energéticamente—, el uranio español sigue bajo tierra, sin uso ni estrategia.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.672226026999851,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.672226026999851,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:10:27",
+                    "run_time": 9.672226026999851,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEn España no hay uranio y por tanto tiene que importarlo\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la cantidad de uranio extraído y procesado en España en 2025?\n¿Cuál es la demanda de uranio en España para la generación de energía nuclear y otros usos industriales?\n¿Cuál es la cantidad de uranio importado por España en 2025 y sus fuentes de suministro?\n¿Qué opinan los expertos en energía nuclear sobre la situación del uranio en España?\n¿Cuál es la política energética de España en relación con el uranio y cómo afecta a la producción y el uso de este elemento?\n\n3. Here are the text sources you should use as your source of information:\n[0] En declaraciones a elEconomista.es, la empresa minera deja claro que buscarán negociar la reactivación de la mina y dicen que sería clave para cortar vínculos con Rusia y garantizar el suministro no solo de España, sino de Europa. \"En 24 meses podríamos estar produciendo el 40% de lo que consumen las centrales nucleares españolas\". Además, la firma indica que \"este proyecto permitiría explotar 25.000 toneladas de uranio, por lo que, si tenemos en cuenta que el consumo de toda España es de 1.250 toneladas al año, tendríamos asegurado el suministro para los próximos 20 años\".\n[0] Con estos precios y en medio de las sanciones de Occidente a Rusia resultaría interesante realizar un análisis de la rentabilidad del uranio español, puesto que en las últimas décadas se ha considerado este como uno de los grandes problemas. El consenso de los expertos admitía hace años que aunque España tiene yacimientos de uranio, las reservas no son tan abundantes ni de tan alta calidad como las de otros países que lideran la producción mundial. La extracción de uranio de estos yacimientos puede no ser económicamente viable debido a los costes asociados con la minería y el procesamiento del mineral.\n[1] Estos países no ven el uranio únicamente como un componente energético, sino como un activo estratégico dentro del marco de autonomía energética que promueve la UE. España, en cambio, sigue dependiendo al 100% del exterior.\n[1] En su lugar, el país sigue dependiendo por completo del exterior: España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales, dependiendo del precio internacional del mineral. Este modelo implica un doble coste: económico y estratégico.\n[1] El uranio vuelve al tablero energético… pero España se queda fuera.- España cuenta con reservas de uranio en su subsuelo, especialmente concentradas en la provincia de Salamanca. Estos recursos están geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Sin embargo, desde principios de los años 2000 no existe ninguna actividad extractiva activa.\n[1] La renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural. Mientras el contexto geopolítico y económico cambia —y Europa se rearma energéticamente—, el uranio español sigue bajo tierra, sin uso ni estrategia.\n[2] Todo ello nos lleva a una conclusión ineludible: España tiene uranio, cuenta con la tecnología precisa para su tratamiento y posee una industria capaz de procesarlo. Lo que nos falta, en este caso, es la autorización necesaria para investigar sobre los yacimientos de este material con los que contamos en nuestro subsuelo y para aprovechar este recurso. Por tanto, no se trata de una ausencia física del mineral, sino de una renuncia voluntaria a explotarlo plasmada en una decisión política explícita.\n[3] En España no hay minas activas de uranio, por lo que el combustible nuclear procede del extranjero. En 2024, por ejemplo, parte del uranio enriquecido llegó indirectamente vía Estados Unidos procedente de Rusia. Otras fuentes globales son África y América. Este combustible, de altísima densidad energética, alimenta nuestros reactores día tras día.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "En España no hay uranio y por tanto tiene que importarlo"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**La afirmación en cuestión sugiere que España carece de uranio y, por lo tanto, debe importarlo. Sin embargo, la evidencia disponible en los textos proporcionados sugiere que esta afirmación no es del todo precisa.**\n\n**En primer lugar, hay evidencia de que España cuenta con reservas de uranio en su subsuelo, especialmente en la provincia de Salamanca ( [1] ). Estos recursos han sido geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Aunque no existe ninguna actividad extractiva activa desde principios de los años 2000, la existencia de estas reservas sugiere que España no carece completamente de uranio. Además, según se menciona en el texto, estos recursos podrían ser explotados en un futuro, lo que permitiría garantizar el suministro de uranio para los próximos 20 años ( [1] ).**\n\n**Además, hay evidencia de que España cuenta con la tecnología precisa para tratar el uranio y una industria capaz de procesarlo ( [2] ). Esto sugiere que, en teoría, España podría ser capaz de extraer y procesar el uranio de sus reservas internas, reduciendo así su dependencia de las importaciones. Sin embargo, la renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural ( [2] ).**\n\n**En cuanto a la importación de uranio, hay evidencia de que España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales ( [1] ). Esto sugiere que, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugiere que España podría reducir su dependencia de las importaciones en el futuro.**\n\n**En resumen, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugieren que España podría reducir su dependencia de las importaciones en el futuro. Por lo tanto, la afirmación original es parcialmente verdadera, ya que España no carece completamente de uranio, pero sí depende en gran medida de las importaciones para satisfacer su demanda.**\n\nLa afirmación es **verdadera**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.6008042770008615,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.6008042770008615,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:10:29",
+                    "run_time": 1.6008042770008615,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: En España no hay uranio y por tanto tiene que importarlo\nArticle: **La afirmación en cuestión sugiere que España carece de uranio y, por lo tanto, debe importarlo. Sin embargo, la evidencia disponible en los textos proporcionados sugiere que esta afirmación no es del todo precisa.**\n\n**En primer lugar, hay evidencia de que España cuenta con reservas de uranio en su subsuelo, especialmente en la provincia de Salamanca ( [1] ). Estos recursos han sido geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Aunque no existe ninguna actividad extractiva activa desde principios de los años 2000, la existencia de estas reservas sugiere que España no carece completamente de uranio. Además, según se menciona en el texto, estos recursos podrían ser explotados en un futuro, lo que permitiría garantizar el suministro de uranio para los próximos 20 años ( [1] ).**\n\n**Además, hay evidencia de que España cuenta con la tecnología precisa para tratar el uranio y una industria capaz de procesarlo ( [2] ). Esto sugiere que, en teoría, España podría ser capaz de extraer y procesar el uranio de sus reservas internas, reduciendo así su dependencia de las importaciones. Sin embargo, la renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural ( [2] ).**\n\n**En cuanto a la importación de uranio, hay evidencia de que España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales ( [1] ). Esto sugiere que, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugiere que España podría reducir su dependencia de las importaciones en el futuro.**\n\n**En resumen, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugieren que España podría reducir su dependencia de las importaciones en el futuro. Por lo tanto, la afirmación original es parcialmente verdadera, ya que España no carece completamente de uranio, pero sí depende en gran medida de las importaciones para satisfacer su demanda.**\n\nLa afirmación es **verdadera**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: En España no hay uranio y por tanto tiene que importarlo\nArticle: **La afirmación en cuestión sugiere que España carece de uranio y, por lo tanto, debe importarlo. Sin embargo, la evidencia disponible en los textos proporcionados sugiere que esta afirmación no es del todo precisa.**\n\n**En primer lugar, hay evidencia de que España cuenta con reservas de uranio en su subsuelo, especialmente en la provincia de Salamanca ( [1] ). Estos recursos han sido geológicamente evaluados desde hace décadas y forman parte de una tradición minera que se remonta a mediados del siglo XX. Aunque no existe ninguna actividad extractiva activa desde principios de los años 2000, la existencia de estas reservas sugiere que España no carece completamente de uranio. Además, según se menciona en el texto, estos recursos podrían ser explotados en un futuro, lo que permitiría garantizar el suministro de uranio para los próximos 20 años ( [1] ).**\n\n**Además, hay evidencia de que España cuenta con la tecnología precisa para tratar el uranio y una industria capaz de procesarlo ( [2] ). Esto sugiere que, en teoría, España podría ser capaz de extraer y procesar el uranio de sus reservas internas, reduciendo así su dependencia de las importaciones. Sin embargo, la renuncia a desarrollar estos recursos, más allá de las legítimas preocupaciones ambientales, coloca a España en una posición de debilidad estructural ( [2] ).**\n\n**En cuanto a la importación de uranio, hay evidencia de que España importa entre 1.000 y 1.300 toneladas de uranio al año, a un coste estimado de 80 a 120 millones de euros anuales ( [1] ). Esto sugiere que, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugiere que España podría reducir su dependencia de las importaciones en el futuro.**\n\n**En resumen, aunque España no carece completamente de uranio, la cantidad disponible en el país no es suficiente para satisfacer la demanda, lo que obliga a importarlo. Sin embargo, la existencia de reservas internas y la capacidad de procesar el uranio sugieren que España podría reducir su dependencia de las importaciones en el futuro. Por lo tanto, la afirmación original es parcialmente verdadera, ya que España no carece completamente de uranio, pero sí depende en gran medida de las importaciones para satisfacer su demanda.**\n\nLa afirmación es **verdadera**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"En España no hay uranio y por tanto tiene que importarlo\", \"categories\": [\"Medio ambiente\", \"Energía\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"España no carece completamente de uranio, pero depende en gran medida de las importaciones para satisfacer su demanda\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,671 @@
+{
+    "question": "La NASA ha logrado desviar la órbita de un asteroide",
+    "answer": "La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART (Double Asteroid Redirection Test), que se estrelló contra el asteroide Dimorphos en septiembre de 2022. Esta acción modificó el período orbital de Dimorphos, su satélite, demostrando que una nave espacial puede alterar la trayectoria de un objeto espacial de grandes dimensiones [1]. La misión se enmarcaba en el proyecto de defensa de asteroides de la NASA, que busca evaluar técnicas para prevenir impactos potencialmente peligrosos [1]. \n\nSin embargo, el éxito técnico de DART ha generado controversia. Nuevas investigaciones han cuestionado si la estrategia de desviación mediante impactos es segura a largo plazo, ya que podría redirigir fragmentos del asteroide a la Tierra en el futuro, lo que plantea riesgos imprevistos [2]. Aunque la misión DART fue celebrada como un avance en la defensa planetaria, también ha abierto preguntas sobre los efectos secundarios de este tipo de intervenciones [3]. Además, el ensayo de la NASA no garantiza que el método sea efectivo en todos los casos, especialmente si el asteroide es demasiado grande o se descompone en múltiples fragmentos [4]. \n\nEn conclusión, la afirmación de que la NASA ha logrado desviar la órbita de un asteroide es **verdadera** en cuanto a la realización de la misión DART y sus resultados preliminares, pero **parcialmente cuestionable** en cuanto a la seguridad y efectividad a largo plazo de la técnica. El proyecto continúa avanzando con la misión Hera de la ESA (2026), que estudiará en detalle las consecuencias de la intervención de DART [3].",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://starwalk.space/es/news/should-you-worry-about-an-asteroid-hitting-earth",
+            "source": "starwalk.space",
+            "favicon": "https://starwalk.space/favicon.ico"
+        },
+        "2": {
+            "url": "https://okdiario.com/ciencia/cientificos-no-salen-asombro-nasa-desvio-asteroide-2022-ahora-arrepienten-15498929",
+            "source": "okdiario.com",
+            "favicon": "https://okdiario.com/img/i/apple-icon-57x57.png"
+        },
+        "3": {
+            "url": "https://eldoce.tv/tendencias/2025/09/10/alerta-que-riesgos-tiene-desviar-un-asteroide-segun-los-cientificos/",
+            "source": "eldoce.tv",
+            "favicon": "https://eldoce.tv/favicon.ico"
+        },
+        "4": {
+            "url": "https://monplaneta.cat/es/astronomia-es/dos-estudios-revelan-la-mejor-defensa-de-la-tierra-contra-meteoritos-99104/",
+            "source": "monplaneta.cat",
+            "favicon": "https://monplaneta.cat/app/uploads/sites/20/2022/03/recurso-57-57x57.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "La NASA ha logrado desviar la órbita de un asteroide",
+        "categories": [
+            "Ciencia",
+            "Espacio",
+            "Defensa planetaria"
+        ],
+        "label": "True",
+        "main_claim": "La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART, pero sus efectos a largo plazo son parcialmente cuestionables",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.682652209000025,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.682652209000025,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:15:53",
+                    "run_time": 4.682652209000025,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLa NASA ha logrado desviar la órbita de un asteroide\n\n**Critical Research Questions:**\n1. ¿Cuáles son los últimos proyectos de la NASA relacionados con la defensa de asteroides y cuáles han sido sus resultados?\n2. ¿Existe evidencia de experimentos exitosos de la NASA en la Tierra para desviar la órbita de un asteroide?\n3. ¿Cuál es el estado actual de los asteroides observados, como el asteroide Didymos, tras el proyecto DART de 2022?\n4. ¿Existen estudios científicos o informes que cuestionen la eficacia de los métodos de desviación de asteroides utilizados por la NASA?\n5. ¿Qué actualizaciones ha publicado la NASA en 2025 sobre proyectos o resultados relacionados con la defensa de asteroides?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"últimos proyectos de defensa de asteroides de la NASA 2025 resultados\", \"experimentos exitosos de desviación de asteroides de la NASA en Tierra 2025\", \"estado actual de asteroides observados como Didymos tras el proyecto DART 2025\", \"estudios científicos que cuestionan la eficacia de los métodos de desviación de asteroides de la NASA 2025\", \"actualizaciones de la NASA 2025 sobre proyectos de defensa de asteroides\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 3.348747742999876,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 3.348747742999876,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:15:57",
+                    "run_time": 3.348747742999876,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "últimos proyectos de defensa de asteroides de la NASA 2025 resultados",
+                                "experimentos exitosos de desviación de asteroides de la NASA en Tierra 2025",
+                                "estado actual de asteroides observados como Didymos tras el proyecto DART 2025",
+                                "estudios científicos que cuestionan la eficacia de los métodos de desviación de asteroides de la NASA 2025",
+                                "actualizaciones de la NASA 2025 sobre proyectos de defensa de asteroides"
+                            ],
+                            "results": {
+                                "últimos proyectos de defensa de asteroides de la NASA 2025 resultados | experimentos exitosos de desviación de asteroides de la NASA en Tierra 2025 | estado actual de asteroides observados como Didymos tras el proyecto DART 2025 | estudios científicos que cuestionan la eficacia de los métodos de desviación de asteroides de la NASA 2025 | actualizaciones de la NASA 2025 sobre proyectos de defensa de asteroides": [
+                                    {
+                                        "text": "El investigador analiza el valor científico del cometa interestelar 3I/ATLAS. También explica su relevancia para el estudio del Sistema Solar.\n\nNació en Zamora en 2004. Es estudiante de Periodismo en la Universidad Complutense de Madrid y este es su primer trabajo en el mundo de la comunicación. Llega como becario a Diario AS en 2025, y es parte del equipo de AS América.\n\nNació en Zamora en 2004. Es estudiante de Periodismo en la Universidad Complutense de Madrid y este es su primer trabajo en el mundo de la comunicación. Llega como becario a Diario AS en 2025, y es parte del equipo de AS América.\n\nJosep Maria Trigo es miembro del Grupo de Asteroides, Cometas y Meteoritos del Instituto de Ciencias del Espacio (CSIC) y del Institut d’Estudis Espacials de Catalunya (IEEC). El investigador analiza la relevancia científica del cometa interestelar 3I/ATLAS, uno de los escasos visitantes procedentes de otros sistemas estelares detectados en el Sistema Solar. A lo largo de la conversación, explica por qué este objeto es clave para comprender los procesos de formación planetaria, cómo se estudia el comportamiento de cometas y asteroides, y cuál es el papel de la investigación y las misiones espaciales en la vigilancia, detección temprana y mitigación del riesgo de impacto sobre la Tierra.\n\nPregunta: El cometa 3I/ATLAS es solo el tercer visitante interestelar identificado en nuestro Sistema Solar. ¿Qué características lo convierten en un objeto especialmente valioso para la investigación científica?\n\nRespuesta: La verdad es que conforme hemos ido aprendiendo del 3I/ATLAS, ha ganado interés. Primero por ser un auténtico superviviente que ha viajado por el medio interestelar desde que salió despedido de su sistema planetario hace miles de millones de años. Segundo porque muestra propiedades bastante inusuales en los cometas del sistema solar. Tercero porque a pesar de ello, su afinidad espectral con ciertos cuerpos del sistema solar lo convierte en un eslabón perdido tremendamente importante.\n\nEl cometa 3I/ATLAS en el centro de esta imagen en que las estrellas se aprecian como arcos debido al rápido movimiento del cometa. En el recuadro sup.dcho. se muestra el entorno filtrado del cometa para evidenciar la cola y los chorros que se desprenden del núcleo\n\nP: ¿Cuál es el principal reto al predecir el comportamiento de un cometa cuando se acerca al perihelio, y cómo afecta eso a su visibilidad desde la Tierra?\n\nR: Se ha hablado largo y tendido sobre los efectos no gravitatorios, principalmente producidos por el efecto de retroceso que generan los chorros de gas y polvo que genera el cometa. Sin embargo, esos efectos, también conocidos en otros cometas, son bastante mínimos. 3I/ATLAS entró al Sistema Solar desde una órbita hiperbólica con una velocidad de 58 km/s relativa al Sol y saldrá siguiendo una órbita similar, sin grandes perturbaciones.\n\nP: En su trabajo liderando la Red Española de Investigación sobre Bólidos y Meteoritos (SPMN), ¿qué le ha sorprendido más en el estudio de bólidos o meteoritos que provienen de cometas respecto a los que provienen de asteroides?\n\nR: Llevamos a cabo una labor diaria para identificar aquellas bolas de fuego que pueden generar meteoritos. La mayoría no lo hace porque la atmósfera es un excelente escudo contra estos rapidísimos proyectiles. La mayoría de rocas que nos llegan de asteroides se desintegran conforme alcanzan las capas más densas de la atmósfera. Sólo aquellas con un tamaño en torno al metro y una masa inicial de toneladas que posean menor velocidad de entrada pueden llegar a producir caídas de meteoritos, aunque mayoritariamente sin ser un riesgo dada la fragmentación progresiva que experimentan. Respecto a los cometas, sus fragmentos son agregados frágiles y se desintegran sin producir meteoritos.\n\nP: En relación con los asteroides: ¿cómo evaluamos el riesgo de impacto para la Tierra, y qué papel tienen ustedes como investigadores en ese proceso de vigilancia y alerta?\n\nR: Se evalúa en términos estadísticos en función de los asteroides conocidos. Desde el ICE-CSIC y el IEEC participamos activamente en el International Asteroid Warning Network (IAWN), participando activamente en el estudio astrométrico de nuevos objetos para precisar sus órbitas. Estuvimos, por ejemplo, entre los primeros grupos científicos participantes en la mejora de la órbita del cometa interestelar 3I/ATLAS.\n\nP: Volviendo al cometa ATLAS: Los cometas interestelares ofrecen una oportunidad única para comparar la química y la física de otros sistemas estelares con la nuestra. ¿Qué preguntas fundamentales sobre el origen de los sistemas planetarios podría ayudarnos a responder 3I/ATLAS?\n\nR: Tal y como hemos descubierto, su afinidad espectral con ciertos cuerpos primitivos de los que proceden las condritas carbonáceas del grupo Renazzo, posiblemente algunos objetos remotos conocidos como transneptunianos (TNO), ejemplifica que los procesos formativos de esos cuerpos formados más allá de los planetas gigantes y, particularmente, la química en otros remotos lugares de la galaxia debe ser similar a la que conocemos en nuestro entorno local.\n\nP: ¿Hasta qué punto los cometas pueden diferenciarnos entre cuerpos que provienen del sistema solar vs. visitantes interestelares, y qué criterios observacionales utilizamos para ello?\n\nR: Podemos emplear un conjunto muy extenso de técnicas observacionales para determinar las características y propiedades del objeto que observamos. Necesitamos descubrirlos con suficiente antelación para que los espectros de reflexión nos proporcionen información sobre sus componentes minerales.\n\nP: Usted también ha trabajado en la divulgación del riesgo de impacto por asteroides y cometas (por ejemplo, su libro La Tierra en peligro. El impacto de asteroides y cometas). ¿Cuál considera que es el mayor desafío para que la sociedad comprenda esta amenaza sin caer en alarmismos?\n\nLos científicos estamos aquí para ayudar\" Josep M. Trigo\n\nR: El mayor desafío posiblemente esté en que el público entienda que los científicos estamos aquí para ayudar. Deben seguirse las informaciones que tanto la ESA, la NASA y otros organismos públicos generan sobre el riesgo de impacto sin caer en alarmismos. La mayoría de científicos somos parte y estamos al servicio de la sociedad. No tiene sentido hacer caso a especulaciones y supuestas tramas que ocultan datos. La ciencia tiene sus limitaciones iniciales porque necesita tiempo para tomar medidas y analizar los datos, pero al final siempre acaba imponiéndose sobre quien solo busca salir en las noticias, para vender más libros y seguir engañando al público.\n\nP: ¿Qué papel juegan las misiones espaciales (o deberían jugar) en la mitigación del riesgo de impacto de un asteroide o cometa, y qué casos de estudio le parecen más prometedores?\n\nR: Un papel fundamental. Sin ellas no tendríamos imágenes directas de esos pequeños cuerpos ni tampoco muestras para estudio en nuestros laboratorios de esos cuerpos. Las misiones espaciales nos permiten descubrir otros mundos tal y como son, reconstruyendo sus formas y dimensiones pero también aprendiendo sobre sus propiedades físicas y composición.\n\nP: En cuanto a meteoritos: ¿cuál ha sido, en su experiencia, uno de los hallazgos más significativos en España o en Europa que haya aportado información clave sobre la evolución del Sistema Solar?\n\nR: Desde el establecimiento de nuestro proyecto de la Red Española de Investigación sobre Bólidos y Meteoritos hemos conseguido identificar cuatro nuevas caídas en España, caracterizando y dando nombre a esos meteoritos. La mayoría de caídas corresponden a una clase que denominamos condritas. Son las baldosas formativas de los planetas que conocemos, con edades de formación decenas de millones de años anteriores a nuestro planeta.\n\nP: ¿Cómo se coordina la vigilancia de chatarra espacial, bólidos, meteoritos y asteroides en España y Europa? ¿Qué mejoras cree que serían necesarias?\n\nR: Analizando día a día decenas de vídeos para establecer los eventos más significativos. En un futuro tenderemos a uniformizar el proceso y a automatizar el sistema de detección y procesado para que sea un proceso más sistemático e independiente.\n\nP: En el caso de un objeto detectable que podría tener riesgo de impacto, ¿cuál sería la ventana de tiempo usual para intervenir y qué tecnologías están al alcance hoy?\n\nR: En ese caso hablaríamos de asteroides. Los que contribuirían a riesgo real, aquellos de varias decenas de metros de diámetro, ya son detectables con semanas de margen. Eso nos permite poder mejorar sus órbitas y predecir posibles lugares de impacto para desarrollar sistemas paliativos. Sin embargo, no hay ningún asteroide conocido que suponga un riesgo significativo hoy por hoy. Si se descubriese alguno nuevo, como ejemplifica el asteroide Apolo 2024 YR4 de entre 40 y 90 metros de diámetro, tendríamos en torno a varios años de margen para desviarlo con un impactador cinético como DART (NASA).\n\nP: ¿Cómo cree que evolucionará en los próximos 10-20 años la detección y seguimiento de pequeños cuerpos (asteroides, cometas, meteoroides) gracias a nuevos telescopios o misiones?\n\nR: Vamos a desarrollar nuevas misiones espaciales que buscarán su detección temprana sin el sesgo que impone la observación desde el suelo. Por otro lado, misiones como Comet Interceptor de la ESA nos permitirán estudiar de cerca algún próximo visitante interestelar.\n\nP: ¿Qué mensaje le daría a un joven estudiante que quiera dedicarse a la meteorítica, vigilancia de asteroides o defensa planetaria?\n\nR: Pues que es un momento excelente para formarse en este campo. Puede llegar a trabajar con nosotros tanto desde la física o la química como a través de la ingeniería aeroespacial. Para mí, formar doctores de excelencia en estos campos lo considero el mejor legado. Ahora, que se apueste un poco más para darles oportunidades en nuestro país.\n\nP: ¿Qué tema de investigación suyo actual cree que debería conocer la sociedad y los medios, pero que aún no recibe la atención que merece?\n\nR: Ahora mismo me gustaría que el público llegase a valorar como se merece el estudio pionero que estamos haciendo desde Barcelona de meteoritos Antárticos de la NASA, muestras retornas por misiones espaciales y rocas lunares. Pienso que desde el ICE-CSIC estamos asentando las bases de la exploración espacial de futuras generaciones, con una mirada abierta al origen de la vida, pero también a retos tecnológicos que están a la vuelta de la esquina, como la minería espacial.\n\n¡Tus opiniones importan! Comenta en los artículos y suscríbete gratis a nuestra newsletter y a las alertas informativas en la App o el canal de WhatsApp. ¿Buscas licenciar contenido? Haz clic aquí",
+                                        "metadata": {
+                                            "url": "https://as.com/actualidad/ciencia/josep-m-trigo-3iatlas-es-un-eslabon-perdido-tremendamente-importante-para-entender-otros-sistemas-planetarios-f202512-n/",
+                                            "source": "as.com",
+                                            "favicon": "https://static.as.com/dist/resources/images/favicon/favicon.ico",
+                                            "title": "Josep M. Trigo, investigador del CSIC: “3I/ATLAS es un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://as.com",
+                                            "snippet": "El investigador analiza la relevancia científica del cometa interestelar 3I/ATLAS, uno de los escasos visitantes procedentes de otros sistemas ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El cometa interestelar 3I/ATLAS se ha convertido en el protagonista de una de las campañas de observación más ambiciosas de los últimos años. Aunque su paso por las cercanías de la Tierra se producirá a una distancia totalmente segura, su seguimiento se ha transformado en un auténtico ensayo general de cooperación internacional en defensa planetaria.\n\nEste objeto, que alcanzará su punto de máxima aproximación el viernes 19 de diciembre, pasará a unos 270 millones de kilómetros de nuestro planeta. No hay riesgo de impacto, pero sí una oportunidad muy valiosa: poner a prueba, bajo el paraguas de Naciones Unidas, las técnicas más avanzadas para detectar, medir y predecir la trayectoria de cometas y asteroides que, en otros casos, sí podrían representar una amenaza real.\n\nUna campaña de la ONU para seguir al cometa 3I/ATLAS\n\nLa protagonista institucional de este operativo es la Red Internacional de Alerta de Asteroides (IAWN), una iniciativa respaldada por la ONU que coordina observatorios, agencias espaciales y astrónomos de todo el mundo. Su función habitual es centralizar la vigilancia de objetos cercanos a la Tierra (NEO) que puedan suponer un riesgo, pero en este caso el enfoque es diferente: aprovechar un visitante inocuo para entrenar mejor los sistemas de aviso temprano.\n\nLa campaña sobre 3I/ATLAS está coordinada técnicamente por la NASA y cuenta con la participación de más de 80 observatorios internacionales, incluidos centros europeos y numerosas instalaciones profesionales y amateurs repartidas por todo el planeta. Es la primera vez que la IAWN organiza un seguimiento coordinado de un objeto de origen interestelar desde que arrancaron sus programas de observación en 2017.\n\nSegún ha explicado James Bauer, investigador principal dentro de la red y profesor del departamento de astronomía de la Universidad de Maryland, el foco no está en lanzar alarmas, sino en reforzar las capacidades técnicas de astrometría, es decir, la medición precisa de posiciones en el cielo de cometas y asteroides. En sus propias palabras, se busca que la comunidad utilice las técnicas «más modernas y avanzadas» disponibles.\n\nEl despliegue impulsado por la ONU y la IAWN se enmarca también en un contexto más amplio de simulacros de defensa planetaria, en los que se ensayan protocolos de coordinación entre agencias, centros científicos y autoridades. El paso de 3I/ATLAS se emplea como escenario realista, pero sin el estrés añadido de un peligro inmediato.\n\nQué hace especial al cometa 3I/ATLAS\n\nA pesar de su procedencia exótica, las observaciones indican que se comporta como un cometa «clásico». Presenta una composición compatible con otros cometas conocidos, con agua, dióxido de carbono y otros volátiles que forman una coma activa en torno al núcleo a medida que se acerca al Sol. Esa combinación de rareza en el origen pero comportamiento familiar facilita su comparación con cometas habituales del sistema solar.\n\nOtro de los aspectos que ha despertado interés es que algunos equipos apuntan a que podría tratarse de uno de los cometas interestelares más grandes y antiguos detectados hasta ahora. Aunque estos cálculos siguen afinándose, su tamaño y luminosidad lo convierten en un blanco ideal para telescopios de muy diferentes capacidades, desde grandes instalaciones profesionales hasta observatorios más modestos, incluidos varios situados en Europa y España.\n\nEn cualquier caso, la comunidad científica insiste en un mensaje claro: no existe ningún riesgo de impacto. La distancia mínima prevista, en torno a 270 millones de kilómetros, es superior a la que separa la Tierra del Sol, por lo que la campaña se plantea como un ejercicio de aprendizaje, no como una respuesta a una emergencia.\n\nEste contexto relativamente tranquilo permite que el cometa sirva de campo de pruebas para futuras situaciones más tensas, como la vigilancia de asteroides potencialmente peligrosos tipo Apophis, que será seguido con lupa en su aproximación a finales de esta década, o episodios que generaron inquietud pública, como el paso del cometa YR2024.\n\nNuevas técnicas de astrometría y un reto observacional\n\nUno de los objetivos clave de esta campaña es probar una nueva técnica de astrometría, diseñada específicamente para seguir objetos como 3I/ATLAS. Esta metodología busca reducir los errores en la determinación de su posición exacta y en el cálculo de su órbita, algo esencial para prever con antelación el comportamiento de cualquier NEO.\n\nEl seguimiento de un cometa activo, y además interestelar, no es precisamente un paseo. La variabilidad de su brillo y las continuas fluctuaciones de su coma —la envoltura de gas y polvo que rodea al núcleo— pueden «inflar» el tamaño aparente del objeto y complicar seriamente las mediciones. Es justo en este terreno donde la IAWN quiere poner a prueba y pulir sus herramientas.\n\nSegún han señalado los responsables de la red, la idea es que las técnicas testadas con 3I/ATLAS se apliquen después a otros cuerpos más problemáticos, tanto en términos de posible riesgo como de dificultad de observación. La experiencia acumulada en esta campaña se considera especialmente valiosa para planificar misiones espaciales a asteroides y cometas, del estilo de la que la NASA llevó a cabo con Bennu.\n\nEl trabajo no se limita a la captura de imágenes y puntos de luz en el cielo. Detrás hay un intenso intercambio de información entre equipos de diferentes países, incluidos grupos europeos y españoles, que comparten dudas técnicas, calibraciones y correcciones. Este flujo continuo contribuye a unificar criterios de observación y a reducir las discrepancias entre mediciones.\n\nLa propia IAWN ha avanzado que la complejidad del análisis obligará a retrasar la publicación de los resultados definitivos. Los datos sobre la posición, trayectoria detallada y características físicas del cometa se están sometiendo a un proceso de validación cuidadoso, y no se espera que se difundan en forma de estudio científico completo hasta comienzos del próximo año.\n\nUna red global con récord de participación\n\nMás allá del aspecto puramente técnico, la campaña en torno a 3I/ATLAS está sirviendo para medir el grado real de coordinación internacional frente a un objeto celeste de interés común. La Red Internacional de Alerta de Asteroides reúne a más de 80 observatorios, pero en este caso la participación se ha disparado aún más.\n\nSegún cifras divulgadas por la propia red y recogidas por medios especializados como Live Science, el inicio de la campaña contó con un récord de unos 171 participantes entre instituciones, equipos de investigación y astrónomos ciudadanos. La combinación de grandes telescopios, observatorios pequeños e incluso proyectos de ciencia ciudadana ha permitido obtener una base de datos muy extensa y diversa.\n\nEsta amplia movilización demuestra que existe un interés creciente por los objetos interestelares y, al mismo tiempo, consolida los mecanismos de colaboración que serían necesarios ante un escenario de amenaza real. La ONU, a través de la IAWN, quiere garantizar que la información fluya de forma rápida y fiable entre los distintos actores implicados.\n\nEn Europa, y particularmente en España, varios observatorios han aportado observaciones que se integran en el conjunto global. Aunque muchos de estos centros trabajan de manera discreta, sus datos resultan cruciales para cubrir franjas horarias y condiciones atmosféricas que otros telescopios no pueden aprovechar, reforzando así la cobertura continuada del cometa.\n\nTodo este esfuerzo colectivo no se limita a 3I/ATLAS. La IAWN ya tiene experiencia en campañas anteriores centradas en asteroides potencialmente peligrosos, como Apophis, que ha sido objeto de exhaustivos seguimientos y volverá a situarse en el punto de mira cuando se acerque a la Tierra entre 2027 y 2029. El conocimiento obtenido ahora se aplicará directamente a estos casos.\n\nDefensa planetaria y próximos pasos de la investigación\n\nEl seguimiento intensivo de 3I/ATLAS se integra en un marco más amplio de defensa planetaria organizada. Tanto la NASA como la Agencia Espacial Europea (ESA) llevan tiempo advirtiendo de que los riesgos procedentes del espacio —asteroides, cometas o incluso fenómenos como las tormentas solares— exigen una estrategia de vigilancia y respuesta cada vez más afinada.\n\nLa idea es que, ante la eventual detección de un objeto realmente peligroso, la comunidad internacional disponga ya de protocolos claros, redes de observación engrasadas y métodos de cálculo contrastados. Ensayos como el de 3I/ATLAS permiten poner a prueba esos engranajes en tiempo real, sin las presiones de una cuenta atrás apremiante.\n\nEn términos científicos, el valor del cometa va más allá de la astrometría. Su naturaleza interestelar ofrece pistas sobre la formación y evolución de sistemas planetarios ajenos al nuestro, lo que encaja con uno de los grandes objetivos de la astronomía contemporánea: entender qué ocurre más allá del vecindario solar y cómo se comparan esos entornos con el nuestro.\n\nSegún han adelantado los responsables de la campaña, los resultados provisionales se irán refinando a lo largo de los próximos meses y se espera que los estudios revisados por pares vean la luz a partir de 2026. A partir de ese momento, el resto de la comunidad científica podrá analizar en detalle los métodos utilizados y las conclusiones extraídas.\n\nMientras tanto, las agencias espaciales insisten en lanzar un mensaje tranquilizador al público: 3I/ATLAS no representa ningún peligro para la Tierra. El verdadero impacto de este cometa no será físico, sino tecnológico y científico, al servir como catalizador para mejorar la vigilancia del cielo y la capacidad de reacción ante futuros visitantes menos amistosos.\n\nCon este escenario, el paso de 3I/ATLAS se perfila como un momento clave para la astronomía y la gestión del riesgo espacial: un cometa que no amenaza a nadie, pero que está ayudando a poner a punto las herramientas con las que se vigilarán los próximos objetos cercanos a la Tierra, desde España, Europa y el resto del mundo, en una red global que aspira a no dejar ningún punto ciego en el firmamento.",
+                                        "metadata": {
+                                            "url": "https://www.meteorologiaenred.com/la-onu-convierte-al-cometa-3i-atlas-en-banco-de-pruebas-para-la-defensa-planetaria.html",
+                                            "source": "www.meteorologiaenred.com",
+                                            "favicon": "https://www.meteorologiaenred.com/wp-content/uploads/2020/05/cropped-favicon-1-1.png",
+                                            "title": "La ONU convierte al cometa 3I/ATLAS en banco de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.meteorologiaenred.com",
+                                            "snippet": "La ONU coordina con la NASA el seguimiento del cometa 3I/ATLAS para probar nuevas técnicas de detección y defensa planetaria sin riesgo para ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La NASA estrella con éxito la nave Dart contra el asteroide Dimorphos en una misión histórica para proteger la Tierra\n\nFuente de la imagen, NASA/JHU-APL Pie de foto, Ilustración del impacto entre Dart y Dimorphos.\n\nAutor, Jonathan Amos Título del autor, Corresponsal de Ciencia, BBC\n\n27 septiembre 2022\n\nTiempo de lectura: 4 min\n\nLa sonda Dart de la agencia espacial estadounidense NASA se estrelló contra un asteroide este lunes, destruyéndose a sí misma.\n\nLa colisión fue intencional y diseñada para probar si las rocas espaciales que pueden ser una amenaza para la Tierra podrían se apartadas o desviadas de manera segura.\n\nLa cámara de Dart ofreció una imagen por segundo, justo hasta el momento del impacto con el objetivo, un asteroide de 160 metros de ancho llamado Dimorphos.\n\nPasarán algunas semanas antes de que los científicos de la misión dirigida por la NASA sepan si su experimento funcionó correctamente.\n\nDeterminarán el éxito estudiando los cambios en la órbita de Dimorphos alrededor de otro asteroide conocido como Didymos.\n\nMás de dos docenas de telescopios en la Tierra harán mediciones precisas del sistema de dos rocas.\n\nAntes de la colisión, Dimorphos tardaba aproximadamente 11 horas y 55 minutos en rodear a su compañero de 780 metros de ancho.\n\nEsto debería reducirse unos minutos después de la colisión.\n\nFuente de la imagen, NASA/JHU-JPL\n\nSegún lo planeado\n\nSegún las imágenes llegadas desde una distancia de 11 millones de kilómetros, durante la prueba todo parecía ir exactamente según lo planeado.\n\nLa sonda Dart, que se movía a una velocidad relativa de 22.000 km/h, primero tuvo que distinguir la roca más pequeña de la más grande.\n\nEl software de navegación a bordo luego ajustó la trayectoria con disparos de propulsores para asegurar una colisión frontal.\n\nDart es un acrónimo de Double Asteroid Redirection Test (prueba de redirección de doble asteroide).\n\nFue diseñada para hacer \"exactamente lo que dice (su nombre)\", apuntó a la BBC el líder de la misión, Andy Rivkin, del Laboratorio de Física Aplicada de la Universidad Johns Hopkins.\n\n\"Esta técnica, llamada 'técnica del impactador cinético', podría usarse si hubiera un asteroide que se acercara en algún momento en el futuro\", detalla.\n\n\"Es una idea muy simple: golpeas la nave espacial contra el objeto que te preocupa, y usas la masa y la velocidad de tu nave espacial para cambiar ligeramente la órbita de ese objeto lo suficiente como para que no toque la Tierra\", explica.\n\nAsteroides seleccionados\n\nDimorphos y Didymos fueron elegidos cuidadosamente.\n\nNinguno de los dos estaba en camino a cruzarse con la Tierra antes de la prueba y una pequeña alteración en su relación orbital no habrá aumentado el riesgo de que esto suceda.\n\nPero hay rocas en el espacio que podrían representar un peligro para nosotros.\n\nAunque los estudios han identificado más del 95% de los monstruosos asteroides que podrían provocar una extinción global si chocaran con la Tierra, esto parece que no sucederá con ellos. Sus trayectorias han sido calculadas y no se acercan a nuestro planeta.\n\nSin embargo, hay muchos objetos más pequeños hasta ahora no detectados que podrían causar estragos, aunque solo sea a escala regional.\n\nUn objeto de la escala de Dimorphos causaría un cráter de quizás 1 kilómetro de ancho y un par de cientos de metros de profundidad en la Tierra.\n\nEl daño en los alrededores del impacto sería importante.\n\nDe ahí surge la idea de probar si se puede desviar un asteroide para que vaya un poco más lento o más rápido.\n\nEl cambio de velocidad no tendría que ser tan grande, especialmente si se hace muchos años antes de la esperada colisión con la Tierra.\n\n\"Una analogía es si llevas un reloj de pulsera y lo dañas, y comienza a andar un poco más rápido\", explica Nancy Chabot, científica de la misión Dart.\n\n\"Es posible que no notes el error en el primer o segundo día, pero después de unas pocas semanas comenzarás a notar que el reloj ya no marca la hora correcta\", detalla.\n\nFuente de la imagen, Getty Images\n\nEl envío de imágenes de Dart puede haber terminado abruptamente con el impacto, pero deberíamos obtener imágenes adicionales de una nave espacial espectadora.\n\nUn pequeño satélite italiano siguió a la sonda principal tres minutos por detrás y se alejó a la distancia segura de 50 km.\n\nLos datos del LiciaCube se transmitirán a la Tierra en los próximos días.\n\nDebería haber visto la columna de escombros causada por la colisión de Dart.\n\nDentro de cuatro años, la Agencia Espacial Europea (ESA) tendrá tres naves espaciales, conocidas colectivamente como la misión Hera, en Didymos y Dimorphos para realizar estudios de seguimiento.\n\nAhora puedes recibir notificaciones de BBC Mundo. Descarga la nueva versión de nuestra app y actívalas para no perderte nuestro mejor contenido.",
+                                        "metadata": {
+                                            "url": "https://www.bbc.com/mundo/noticias-63042633",
+                                            "source": "www.bbc.com",
+                                            "favicon": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/mundo/images/icons/icon-192x192.png",
+                                            "title": "La NASA estrella con éxito la nave Dart contra el asteroide ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bbc.com",
+                                            "snippet": "La sonda Dart se estrelló intencionalmente contra el asteroide Dimorphos para ver probar cómo se puede desviar una roca espacial de su ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La NASA ha hecho descubrimientos que podrían cambiar la historia de nuestro Sistema Solar, pero hay misiones que no salen tan bien como algunos esperaban. Un posible de ello es el experimento DART, de septiembre de 2022.\n\nSe trató de una misión sin precedentes para modificar la órbita de un asteroide mediante un impacto controlado. El objetivo fue Dimorphos, satélite del asteroide Didymos, cuya trayectoria se redujo en 32 minutos tras el choque cinético de la nave.\n\nEn su día el ensayo de la NASA fue celebrado como un hito en la defensa planetaria, pero nuevas investigaciones han sembrado dudas: aquel éxito podría esconder riesgos imprevistos para la seguridad de la Tierra.\n\nEl experimento de la NASA que podría generar más problemas de lo esperado\n\nEl ensayo de la NASA probó que la humanidad tiene capacidad de alterar el rumbo de un objeto espacial de grandes dimensiones, lo que se interpretó como un avance frente a potenciales amenazas cósmicas.\n\nSin embargo, los resultados han tenido efectos secundarios que no se habían calculado hace tres años.\n\nPor ejemplo, a principios de julio, un estudio publicado en The Planetary Science Journal reveló que la colisión de DART expulsó más de 30 rocas de gran tamaño a velocidades superiores a los 50 metros por segundo.\n\nEstos fragmentos no se dispersaron de forma aleatoria, sino que siguieron trayectorias definidas, lo que generó un impulso adicional imprevisto. Aunque ninguno alcanzó a la Tierra, la conclusión es clara: la desviación no fue tan controlada como se pensaba y pudo haber representado un peligro.\n\nOtro estudio advirtió los cálculos iniciales de la NASA deben revisarse de cara a futuras misiones, dado que el método aplicado podría desencadenar consecuencias indeseadas en lugar de garantizar seguridad.\n\nPor qué el experimento de la NASA para desviar asteroides es tan peligroso\n\nLas dudas se intensificaron durante el Europlanet Science Congress, celebrado en Helsinki. Allí, varios investigadores pusieron sobre la mesa un riesgo inquietante: golpear un asteroide de forma indiscriminada podría desviar su trayectoria hacia un keyhole gravitatorio.\n\nEs decir, hacia un estrecho corredor espacial donde la gravedad terrestre reconfigura la órbita del objeto. Si esto ocurriera, el asteroide terminaría regresando a una ruta de impacto con nuestro planeta años después del choque inicial.\n\nDicho de otra manera, la consecuencia sería que el asteroide o sus fragmentos serían redirigidos a la Tierra en un futuro. Por todo ello, muchos científicos han coincidido en que el éxito técnico de la misión DART de 2022 no garantiza que la estrategia sea segura en el largo plazo.\n\nLa clave de los científicos para desviar un asteroide que ponga rumbo a la Tierra\n\nEn el pasado hubo asteroides que golpearon la Tierra, por lo que en algún momento es esperable que vuelva a ocurrir. El problema es que no basta con desviarlos, sino que resulta crucial seleccionar el punto preciso de impacto.\n\nPara ello es necesario conocer con detalle la masa, forma, rotación y topografía del objeto. Cualquiera de estos factores puede alterar de forma significativa la trayectoria final tras la colisión.\n\nCon esa idea, los equipos científicos de la NASA han comenzado a elaborar mapas de probabilidad que señalan las áreas más seguras de la superficie.\n\nEstos modelos buscan reducir la posibilidad de que un impacto mal calculado termine reconduciendo el asteroide hacia una futura colisión con la Tierra.",
+                                        "metadata": {
+                                            "url": "https://okdiario.com/ciencia/cientificos-no-salen-asombro-nasa-desvio-asteroide-2022-ahora-arrepienten-15498929",
+                                            "source": "okdiario.com",
+                                            "favicon": "https://okdiario.com/img/i/apple-icon-57x57.png",
+                                            "title": "la NASA desvió un asteroide en 2022, y ahora se arrepienten",
+                                            "type": "web_search",
+                                            "base_url": "https://okdiario.com",
+                                            "snippet": "La NASA tuvo un gran éxito técnico en 2022 cuando la misión DART desvió un asteroide, pero ahora los científicos han encontrado problemas."
+                                        }
+                                    },
+                                    {
+                                        "text": "Prueban en laboratorio un método para desviar asteroides con pulsos de rayos X\n\n4 minutos\n\nRedacción Ciencia, 29 sep (EFE).- Un pulso de rayos X generado por una explosión nuclear podría vaporizar la superficie de un asteroide y, con ello, cambiar su trayectoria, según una prueba de laboratorio, lo que sugiere que esta tecnología podría utilizarse en futuras misiones de defensa planetaria.\n\nEl estudio que expone esta técnica e imitó la desviación de un modelo de asteroide corrió a cargo de un equipo de los Laboratorios Nacionales Sandia (EE.UU) y que publica Nature Physics.\n\nExisten diversas ideas sobre cómo desviar un asteroide que amenace la Tierra. Recientemente la técnica del impactador cinético mostró su eficacia con la misión DART de la NASA, en la que una sonda se estrelló contra el asteroide Dimorphos y desvió su órbita respecto al asteroide que orbita, Didymos.\n\nEl nuevo estudio, encabezado por Nathan Moore, exploró la posibilidad de utilizar los rayos X de una explosión nuclear para calentar rápidamente la superficie del objeto, haciendo que se vaporice, se expanda en el vacío adyacente y con ello cambiar su dirección de movimiento.\n\nLos investigadores realizaron en el laboratorio una prueba de concepto (estudio de viabilidad) en la que probaron a imitar el efecto del impacto de un artefacto nuclear contra un asteroide para lo que usaron rayos X que apuntaban a dos simulacros de asteroide de 12 milímetros de ancho en el vacío.\n\nUna de las muestras usadas era de cuarzo y la otra sílice fundida, dos formas del óxido de sicilio (SiO2), las cuales se cree que abunda en muchos asteroides, indicó a EFE Moore.\n\nEn ambos experimentos, observaron que los pulsos de rayos X calentaban la superficie de los modelos de asteroides, dando lugar a un penacho de vapor que transfería impulso a los objetivos de cuarzo y sílice y generaba velocidades de unos 69,5 metros por segundo y 70,3 metros por segundo, respectivamente.\n\nLos investigadores utilizaron estas mediciones para realizar simulaciones numéricas sobre cómo se podría escalar este método de desvío de asteroides y sugirieron que los objetos cercanos a la Tierra con un diámetro de unos 4 kilómetros podrían desviarse con la estrategia del impactador nuclear.\n\nMoore señaló que la prueba con estos minerales es “solo un punto de partida. Será necesario examinar otros minerales en el futuro para construir una biblioteca completa de posibles respuestas de los asteroides”.\n\nAunque hay muchas ideas diferentes sobre cómo desviar asteroides, para Moore, “la principal ventaja de la explosión nuclear es que son las más potentes y pueden desviar los asteroides más grandes en el menor tiempo posible”.\n\nPara el investigador, esto “podría ser importante en cualquier situación de emergencia», por ejemplo si se detecta un asteroide cerca de la Tierra y no hay mucho tiempo de aviso previo.\n\nEsta técnica pasaría por lanzar un cohete de algún tipo para interceptar el asteroide, cuanto más grande fuera antes habría que desviarlo, y lo ideal es que estuviera “lo más lejos posible de la Tierra, a millones de kilómetros o más, ilustró Moore.\n\nHasta aquí, todo es una prueba de concepto realizada en laboratorio, pero el investigador indicó que “una de las ventajas de una estrategia de interceptación nuclear para desviar asteroides es que gran parte de la tecnología necesaria ya existe”.\n\nEn todo caso, hizo hincapié en el carácter experimental del estudio, pues aún hay cosa que no saben, entre las que citó cómo podrían responder los distintos materiales de los asteroides.\n\n“Estamos iniciando esta investigación. Esa es una de las principales aportaciones de nuestro trabajo. Con este enfoque experimental, podemos empezar a desarrollar esa comprensión”, concluyó Moore. EFE\n\ncr/ads",
+                                        "metadata": {
+                                            "url": "https://www.swissinfo.ch/spa/prueban-en-laboratorio-un-m%C3%A9todo-para-desviar-asteroides-con-pulsos-de-rayos-x/87602149",
+                                            "source": "www.swissinfo.ch",
+                                            "favicon": "https://www.swissinfo.ch/spa/wp-content/client-mu-plugins/swissinfo-wp-customizations/resources/svg/swi-site-icon.svg?ver=1764663738",
+                                            "title": "Prueban en laboratorio un método para desviar asteroides ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.swissinfo.ch",
+                                            "snippet": "Esta técnica pasaría por lanzar un cohete de algún tipo para interceptar el asteroide, cuanto más grande fuera antes habría que desviarlo, y lo ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "This imagery from NASA’s Hubble Space Telescope from Oct. 8, 2022, shows the debris blasted from the surface of Dimorphos 285 hours after the asteroid was intentionally impacted by NASA’s DART spacecraft on Sept. 26. The shape of that tail has changed over time. Scientists are continuing to study this material and how it moves in space, in order to better understand the asteroid. Credits: NASA/ESA/STScI/Hubble",
+                                        "metadata": {
+                                            "url": "https://www.nasa.gov/news-release/el-impacto-de-dart-cambi%C3%B3-el-movimiento-de-un-asteroide-en-el-espacio/",
+                                            "source": "www.nasa.gov",
+                                            "favicon": "https://www.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+                                            "title": "El impacto de DART cambió el movimiento de un asteroide ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.nasa.gov",
+                                            "snippet": "Ahora, el equipo de investigación ha confirmado que el impacto de la nave alteró la órbita de Dimorphos alrededor de Didymos en 32 minutos, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "De vez en cuando, los medios de comunicación producen docenas de titulares alarmantes sobre rocas espaciales dirigidas hacia nuestro planeta. Pero, ¿realmente existe una gran posibilidad de que un asteroide impacte la Tierra en un futuro cercano? En este artículo, encontrarás respuestas a las preguntas más urgentes sobre asteroides potencialmente peligrosos. Por cierto, puedes avistar los asteroides con Sky Tonight – rastrea qué parte del cielo están atravesando, aunque es poco probable que los veas.\n\nContenido\n\nAsteroides que se dirigen hacia la Tierra en 2025: ¿impactarán nuestro planeta?\n\nAquí tienes una lista de asteroides que se acercarán a nuestro planeta en el futuro cercano. En este momento, no hay evidencia de que ninguno de estos asteroides colisionará con la Tierra. Hemos incluido solo aquellos que pasarán a menos de 5 distancias lunares de la Tierra. Una distancia lunar (384,399 km) es la distancia promedio de la Luna a la Tierra.\n\n18 de diciembre de 2025: 2015 XX168\n\nTamaño: 20 m - 45 m\n\nMagnitud: 25.6\n\nDistancia de aproximación cercana: 4.7 DL\n\nAsteroides famosos predichos para impactar la Tierra\n\nLas noticias sobre un asteroide que se dirige a la Tierra con posibilidad de impacto despiertan gran interés. De hecho, en septiembre de 2025, hay 2.493 asteroides potencialmente peligrosos, pero solo unos pocos aparecen en los titulares. Discutamos los asteroides más famosos que se aproximan a la Tierra en un futuro cercano y veamos si alguno de ellos representa una amenaza para nuestro planeta.\n\n13 de abril de 2029: Apophis\n\nApophis es un gran asteroide cercano a la Tierra, de aproximadamente 370 metros de diámetro (del tamaño del Edificio Empire State). Orbita el Sol aproximadamente cada 324 días.\n\nSe acercará a nuestro planeta en 2029, 2036 y 2068. Los cálculos iniciales sugirieron una posible colisión con la Tierra en 2029. Sin embargo, observaciones posteriores han confirmado que Apophis no colisionará con nuestro planeta por al menos los próximos 100 años. Lee nuestro artículo para conocer todos los detalles sobre el asteroide Apophis.\n\n23 de mayo de 2036: 2003 MH4\n\n2003 MH4 es un gran asteroide cercano a la Tierra descubierto el 26 de junio de 2003. Tiene aproximadamente 366 metros de diámetro (un poco más grande que la Torre Eiffel). El asteroide orbita el Sol aproximadamente cada 2,7 años. Recientemente se ha vuelto un tema candente en los medios de comunicación debido a su próximo sobrevuelo por la Tierra.\n\nEl 23 de mayo de 2036, 2003 MH4 pasará de forma segura cerca de la Tierra a una distancia de 0.4 UA, lo que equivale a unos 6.676.580 km o 17 distancias lunares. Puede parecer bastante lejos, pero en la escala del espacio, está bastante cerca. No se espera que el asteroide colisione con nuestro planeta, por lo que actualmente no figura en las listas de riesgo de la NASA ni de la ESA. Sin embargo, su proximidad a la Tierra, junto con su gran tamaño, permite a los científicos clasificarlo como un asteroide potencialmente peligroso (PHA). Este estado se otorga a todos los asteroides que superan los 140 metros de diámetro y se acercan a la Tierra a menos de 0.5 UA, o 7,5 millones de kilómetros. No significa que 2003 MH4 vaya a impactar la Tierra algún día; solo requiere una vigilancia más cercana.\n\n14 de febrero de 2046: 2023 DW\n\nEl asteroide 2023 DW fue descubierto el 26 de febrero de 2023. Según la NASA, tiene unos 50 metros de diámetro, que es aproximadamente el mismo ancho que un campo de fútbol americano. Se mueve a una velocidad de 25 km/s y completa una órbita alrededor del Sol en 271 días.\n\nEn febrero de 2023, se predijo que el asteroide tenía posibilidades de colisionar con la Tierra el 14 de febrero de 2046. Fue agregado a la Lista de Riesgos de la ESA (un catálogo de objetos que probablemente impactarán la Tierra) y clasificado con un 1 en la escala de Torino (los otros 1,450 asteroides en la lista tenían una clasificación de escala de 0). Sin embargo, ya en mediados de marzo de 2023, la ESA bajó la calificación a 0 y luego lo eliminó de la lista. NASA hizo lo mismo: 2023 DW ahora está en la lista de objetos para los cuales \"todos los impactos potenciales previamente detectados han sido eliminados\". Por lo tanto, parece que tenemos suerte, y el asteroide 2023 DW no impactará la Tierra.\n\n22 de diciembre de 2047: 2024 YR4\n\nEl asteroide 2024 YR4 fue descubierto por el telescopio ATLAS el 27 de diciembre de 2024. Con un diámetro aproximado de 44-100 metros, es comparable en tamaño a un edificio alto (15-30 pisos). El asteroide completa una órbita alrededor del Sol aproximadamente cada 4 años. Poco después de su descubrimiento, los astrónomos se dieron cuenta de que ya había pasado cerca de la Tierra el 25 de diciembre de 2024, a una distancia de 830,000 kilómetros (aproximadamente 2.15 veces la distancia a la Luna).\n\nEl asteroide 2024 YR4 fue considerado inicialmente como el que tenía la probabilidad más alta registrada de impactar la Tierra el 22 de diciembre de 2032. Un seguimiento más detallado ha reducido significativamente ese riesgo. La NASA ha concluido que el objeto no representa una amenaza significativa para la Tierra. Sin embargo, todavía aparece en la lista de riesgo de la ESA con una fecha de impacto ajustada al 22 de diciembre de 2047. Las estimaciones actuales de impacto son de 1 en 142.045 (~0,0007%). Además, las observaciones del Telescopio Espacial James Webb revelan que el 2024 YR4 tiene un 3,8% de probabilidad de impactar la Luna en 2032. Lee nuestro artículo para aprender todos los detalles sobre el asteroide.\n\n24 de septiembre de 2182: Bennu\n\nEl asteroide 101955 Bennu fue descubierto el 11 de septiembre de 1999 por la encuesta LINEAR. Con un diámetro de unos 480 metros, tiene aproximadamente el tamaño de la Central Park Tower en Nueva York, el edificio residencial más alto del mundo. Bennu orbita alrededor del Sol cada 1.2 años, acercándose a la Tierra cada seis años.\n\nBennu ha sido estudiado de cerca, especialmente después de que la misión OSIRIS-REx de la NASA recolectara muestras de su superficie en 2020. El 24 de septiembre de 2023, la nave espacial regresó exitosamente una muestra de Bennu a la Tierra, la cual ha sido analizada por investigadores de todo el mundo. Los resultados indican que Bennu contiene los bloques constructivos de la vida, incluyendo el aminoácido simple glicina y minerales portadores de agua, proporcionando valiosos insights sobre los orígenes de la vida.\n\nLos cálculos iniciales sugerían una pequeña posibilidad de impacto a finales del siglo XXII, con la mayor probabilidad ocurriendo el 24 de septiembre de 2182. Los científicos de la NASA ahora estiman una probabilidad del 0.037% (1 en 2,700) de que Bennu impacte la Tierra en esa fecha. Bennu es actualmente uno de los dos objetos en la parte superior de la lista de riesgos Sentry de la NASA, aunque su probabilidad de impacto sigue siendo muy baja.\n\n16 de marzo de 2880: 29075 (1950 DA)\n\nEl asteroide 29075 (1950 DA) fue avistado por primera vez el 23 de febrero de 1950, pero luego se perdió durante décadas antes de ser redescubierto en 2000. Mide 1.3 kilómetros de diámetro – lo suficientemente grande como para causar un daño catastrófico si alguna vez impacta la Tierra. 1950 DA sigue una órbita de 2.2 años alrededor del Sol.\n\nLas predicciones tempranas sugerían un impacto potencial el 16 de marzo de 2880, con una probabilidad mayor que el promedio en comparación con otros asteroides conocidos. Sin embargo, cálculos más precisos desde entonces han reducido el riesgo, y los expertos ahora creen que el asteroide probablemente no impactará la Tierra en absoluto. Junto con Bennu, 1950 DA encabeza la lista de riesgos Sentry de la NASA, con una probabilidad de impacto estimada de 1 en 2,600 (~0.039%) en el año 2880. Los científicos continúan monitoreando su trayectoria para asegurar predicciones precisas en los próximos siglos.\n\n¿Dónde obtender las últimas noticias sobre asteroides que se dirigen a la Tierra?\n\nPuedes aprender fácilmente si algún asteroide se acercará a nuestro planeta en el futuro. Abre el sitio web del Centro de Planetas Menores y busca la lista de aproximaciones cercanas en la parte inferior derecha de la página principal. Contiene todos los asteroides conocidos que pasarán cerca de la Tierra en los próximos meses. Además del nombre del asteroide y de la fecha de aproximación cercana, puedes averiguar su tamaño (en metros) y la distancia a la que estará de la Tierra (en distancias lunares). La distancia lunar es la distancia media entre la Tierra y la Luna que equivale aproximadamente a 400 000 kilómetros.\n\nEl Panel de Vigilancia de Asteroides de la NASA proporciona información similar pero con referencias visuales, lo que hace que sea más fácil imaginar el tamaño del asteroide. Tenga en cuenta que solo muestra las próximas cinco aproximaciones.\n\nSi estás interesado en un asteroide específico, utiliza el navegador de bases de datos de cuerpos pequeños del Laboratorio de Propulsión a Reacción de la NASA. Escribe el nombre o número del asteroide y recibirás información extensa sobre su órbita, parámetros físicos y las circunstancias del descubrimiento.\n\nPuede rastrear la posición de un asteroide usando la aplicación Sky Tonight. Toque el icono de la lupa y escriba el nombre en la barra de búsqueda. Cuando el asteroide aparezca en los resultados de búsqueda, toque el icono azul de objetivo situado junto a su nombre. Sky Tonight le mostrará la ubicación actual del asteroide en el cielo.\n\nUsa Sky Tonight para rastrear asteroides que se dirigen a la Tierra. © Vito Technology, Inc\n\n¿Cuáles son las posibilidades de que un asteroide golpee la Tierra?\n\nDesde el punto de vista de los astrónomos, las colisiones entre cuerpos celestes son normales. Y puede que le sorprenda que ocurran con bastante frecuencia. Los asteroides pequeños (alrededor de 1 m de diámetro) golpean la Tierra cada dos semanas; como puede ver, no sucede nada especial.\n\nLos asteroides impactan la Tierra sorprendentemente a menudo (cada 2 semanas) sin consecuencias significativas. © Vito Technology\n\nSin embargo, un gran asteroide puede causar una catástrofe mundial: toneladas de polvo y cenizas se elevarían hacia el cielo y bloquearían el Sol durante varios años. Las cosechas se echarían a perder y se generarían incendios forestales, lo que llevaría a una hambruna masiva. Lo bueno es que, según la NASA, los asteroides de más de 100 metros que pueden causar daños locales golpean la Tierra aproximadamente cada 10 000 años. Las rocas espaciales de más de 1 kilómetro que podrían amenazar la vida en nuestro planeta aparecen sólo una vez cada unos pocos millones de años.\n\nEn otras palabras, existe una muy pequeña posibilidad de que un asteroide te dañe a lo largo de tu vida. A pesar de eso, siempre es bueno estar preparado. Echemos un vistazo a las medidas que toman los astrónomos para garantizar la seguridad de la Tierra.\n\nEstadísticamente, es mucho más probable que mueras por causas más terrenales que por un impacto de asteroide. © Vito Technology\n\n¿Cómo diferenciamos los asteroides peligrosos de los no peligrosos?\n\nSe han descubierto más de 1 millón de asteroides, y no vale la pena preocuparse por cada uno de ellos. Los científicos prestan especial atención a los llamados asteroides potencialmente peligrosos. Para ser clasificado como potencialmente peligroso, un asteroide debe cumplir con dos criterios principales.\n\nPrimero, debe tener una distancia mínima de intersección orbital (MOID, por sus siglas en inglés) con la Tierra de 0.05 UA o menos . Un asteroide con tal órbita es capaz de acercarse peligrosamente a nuestro planeta.\n\nEn segundo lugar, debe tener una magnitud absoluta de 22,0 o menos. Se estima que los asteroides más pequeños de tal brillo tienen un tamaño de 110 a 240 metros: es suficiente como para causar un daño local significativo en caso de impacto.\n\nPara medir la peligrosidad potencial de un asteroide, se usan la Escala de Turín y la Escala de Palermo. La escala de Turín se utiliza para comunicar la peligrosidad potencial de un eventual impacto de asteroide contra nuestro planeta al público en general. En esta escala simple, a un objeto se le asigna un valor de 0 a 10 en función de la probabilidad de colisión y la energía cinética de la posible colisión. La escala de Palermo es una escala similar, pero más compleja; es utilizada principalmente por astrónomos profesionales.\n\nLas órbitas de los cuerpos celestes cambian debido a la influencia de la gravedad del Sol, los planetas y otros asteroides. Por lo tanto, tan pronto como un asteroide es denominado como potencialmente peligroso, los científicos lo rastrean y realizan cálculos de alta precisión. Si un asteroide es observado durante diez años, su órbita se puede calcular con 200 años de anticipación.\n\n¿Qué tamaño de asteroide es peligroso?\n\nComo hemos dicho antes, no todos los impactos de asteroides pueden llevar al desastre. Entonces, ¿un asteroide de qué tamaño puede causar daños graves? Para responder a esta pregunta, veamos algunos ejemplos.\n\nEl cuerpo que formó cráter de Chicxulub y causó la extinción masiva en la Tierra hace 65 millones de años tenía unos 10 kilómetros de diámetro . Este mismo asteroide presumiblemente puso fin a la era de los dinosaurios.\n\ny causó la extinción masiva en la Tierra hace 65 millones de años tenía unos . Este mismo asteroide presumiblemente puso fin a la era de los dinosaurios. El cuerpo de Tunguska que explotó en el aire y aplastó 80 millones de árboles de taiga en 1908 tenía unos 100 metros de diámetro . El evento de Tunguska es el mayor evento registrado de impacto en la Tierra en la historia.\n\nque explotó en el aire y aplastó 80 millones de árboles de taiga en 1908 tenía unos . El evento de Tunguska es el mayor evento registrado de impacto en la Tierra en la historia. Finalmente, el meteoro de Cheliábinsk que entró en la atmósfera terrestre en 2013 tenía unos 20 metros de diámetro. Este asteroide ni siquiera llegó a la superficie de la Tierra, pero la explosión que produjo aún dañó más de 7000 edificios. Para obtener más información sobre estos tres famosos asteroides, ve nuestro video.\n\nPuedes sacar las conclusiones tú mismo. Incluso rocas espaciales comparativamente pequeñas como el meteoro de Cheliábinsk pueden causar daños locales. Los asteroides de más de 1 kilómetro podrían tener efectos en todo el mundo, como provocar un cambio climático a largo plazo. Para una mejor comprensión visual, vea nuestra infografía, en la que comparamos el tamaño de los asteroides con las posibles consecuencias del impacto.\n\n¿Se dirige un asteroide a la Tierra? ¿Qué tan grande debe ser un asteroide para destruir una ciudad? Echa un vistazo a esta infografía para conocer datos interesantes sobre asteroides peligrosos. Ver Infografía\n\n¿Cuántos asteroides potencialmente peligrosos hay?\n\nA partir de septiembre de 2025, los astrónomos han detectado 2,493 asteroides potencialmente peligrosos, de los cuales 155 tienen más de 1 kilómetro de diámetro. El asteroide potencialmente peligroso más grande conocido es (53319) 1999 JM8: se estima que tiene alrededor de 7 kilómetros de diámetro.\n\nEnfatizamos que estos datos no significan que todos estos asteroides eventualmente golpearán la Tierra, sólo que tienen el potencial para hacerlo. Ninguno de estos asteroides presenta un riesgo suficiente de impacto en los próximos 100 años. Puedes encontrar información más específica en el sitio web del CNEOS de la NASA. Allí hay una tabla que resume todos los posibles eventos de impacto y proporciona calificaciones de peligro utilizando las escalas de Turín y Palermo.\n\n¿Cómo podemos detectar asteroides próximos a la Tierra?\n\nAproximadamente 40 millones de objetos cercanos a la Tierra de menos de 30 metros de ancho aún están por descubrirse. ¡Suena como mucho trabajo! La buena noticia es que la mayoría de los NEOs más grandes, que pueden representar la mayor amenaza para la Tierra, ya han sido encontrados. © Vito Technology\n\nEn los últimos 30 años, hemos logrado un progreso considerable en el descubrimiento de asteroides cercanos a la Tierra: los astrónomos reportan nuevos objetos casi a diario. Hay muchos proyectos que siempre están trabajando para detectar objetos próximos a la Tierra (NEOs, por sus siglas en inglés): asteroides y cometas que pasan cerca de la órbita terrestre. Mencionemos sólo algunos de estos proyectos.\n\nATLAS es el sistema de última alerta de impacto terrestre de asteroides construido en Hawái. Consiste en dos telescopios de 0,5 metros de altura ubicados a 160 km de distancia que exploran el cielo cada noche despejada. Entre otros objetos próximos a la Tierra, ATLAS descubrió el famoso cometa ATLAS (C/2019 Y4 ATLAS).\n\nCatalina Sky Survey (CSS) está ubicado en la sierra de Santa Catalina en Arizona, EE. UU. Este programa astronómico se enfoca específicamente en detectar asteroides potencialmente peligrosos y estimar y predecir los riesgos de impacto.\n\nAdemás de los telescopios terrestres, también hay un telescopio espacial que funciona en la órbita de la Tierra. Se llama el Explorador de Infrarrojos de Campo Amplio de Objetos Próximos a la Tierra o NEOWISE. Actualmente NEOWISE está buscando asteroides que potencialmente podrían chocar con la Tierra. Entre sus muchos descubrimientos se encuentra el del cometa C/2020 F3 (NEOWISE), visible a simple vista.\n\nDurante los últimos diez años los telescopios terrestres y el telescopio NEOWISE han detectado miles de objetos próximos a la Tierra y han realizado importantes contribuciones a nuestro conocimiento del seguimiento de asteroides y cometas. Según los datos recientes, más del 90 % de los asteroides cercanos a la Tierra de más de 1 km de diámetro (lo suficientemente grandes como para tener consecuencias globales) ya se han descubierto. Sin embargo, aproximadamente la mitad de los pequeños asteroides solo se descubren cuando ya han pasado por la Tierra. A veces, los astrónomos detectan un asteroide solo unos días antes de su acercamiento a la Tierra, como ocurrió con el asteroide 2024 XA1 que pasó sobre Siberia en diciembre de 2024. Actualmente, es lo mejor que podemos hacer.\n\n¿Cómo podemos evitar que los asteroides lleguen a la Tierra?\n\nLa humanidad está trabajando en formas de desviar asteroides que se dirigen a la Tierra. © Vito Technology\n\nEntonces, ¿qué podemos hacer si hay un asteroide que se dirige a la Tierra? Los científicos están trabajando en formas de defender el planeta. La buena noticia es que tenemos una serie de posibles soluciones y, al menos, una de ellas ya fue probada con éxito. La no muy buena noticia es que no podemos desplegar ninguna de ellas en un instante. Una misión espacial de este tipo tarda varios años desde su aprobación hasta su lanzamiento. Esto significa que debemos detectar un asteroide peligroso varios años (o mejor una década) antes de que se acerque a la Tierra si queremos hacer una nave espacial que nos ayudará a evitar la colisión con él. Por eso es tan importante encontrar tantos objetos próximos a la Tierra como sea posible y calcular sus órbitas con anticipación. Estas son algunas de las ideas que tenemos en este momento acerca de cómo evitar el impacto.\n\nDART\n\nLa prueba de redireccionamiento de un asteroide binario (Double Asteroid Redirection Test, DART) fue la misión de la NASA que probó las tecnologías para prevenir el impacto de un asteroide. El objetivo de la misión fue el asteroide Dimorphos, la luna menor del asteroide binario Didymos cercano a la Tierra. En septiembre de 2022, la nave espacial de DART se estrelló contra la luna menor (que tiene un tamaño aproximado de 160 m), cambiando así su velocidad y período orbital. Esta misión demostró que una roca espacial peligrosa podría ser desviada en el futuro.\n\nTractor gravitatorio\n\nEste método emplea una nave espacial que acompañaría a un asteroide durante varios años y usaría su atracción gravitacional para desviar la roca de su curso lentamente. Los tractores gravitatorios pueden trabajar con asteroides de cualquier forma y composición. Estos son sumamente controlables, lo que hace posible garantizar que un asteroide sea desviado hacia una órbita segura. Sin embargo, es posible que no puedan mover a los asteroides más grandes (más de 500 metros de diámetro), que representan la mayor amenaza para la Tierra.\n\nPintado por pulverización\n\nCuando se trata de desviar asteroides, el pintado es diferente de lo que piensa inmediatamente. Sin embargo, la idea se basa en un fenómeno del mundo real conocido como el efecto Yarkovsky, que describe cómo la luz solar afecta la órbita de un asteroide. En resumen, las superficies más oscuras tienden a reflejar menos, y las superficies más claras tienden a reflejar más. Al cambiar la cantidad de luz que emite un asteroide, podríamos cambiar su trayectoria. El método carece de precisión y tomaría años o incluso décadas para mostrar cualquier algún efecto notable. Por otro lado, si algo sale mal, los científicos tendrán tiempo suficiente para recalcular y volver a intentarlo.\n\nArma nuclear\n\nUna bomba nuclear podría ser una opción de último minuto cuando un asteroide está a punto de golpear la Tierra, y no habría tiempo para desplegar otras opciones. La idea es hacer estallar un explosivo nuclear a la distancia adecuada de un asteroide (no en su superficie) para empujarlo fuera de su trayectoria actual. Los pros son que la misión se puede llevar a cabo relativamente rápido utilizando tecnologías ya existentes (podríamos armar un cohete con una ojiva nuclear y lanzarlo desde una plataforma de lanzamiento convencional). Los contras son que un asteroide puede romperse en pedazos, lo que podría causar aún más daño.\n\n¿Está Júpiter protegiendo a la Tierra de ser golpeada por un asteroide?\n\nLa idea de que Júpiter protege a la Tierra de los asteroides es un tema de debate científico en curso, y la respuesta es tanto sí como no, dependiendo del contexto.\n\nPor un lado, como el planeta más grande del Sistema Solar, Júpiter tiene un campo gravitacional inmenso. Esto le permite actuar como una “aspiradora cósmica”, atrayendo o desviando asteroides, cometas y otros escombros que de otro modo podrían cruzar la órbita de la Tierra. Muchos objetos del Sistema Solar exterior son desviados o capturados por Júpiter antes de que puedan amenazar a la Tierra . Un buen ejemplo de esto es el cometa Shoemaker-Levy 9, que se estrelló contra Júpiter en 1994 en lugar de continuar a través del Sistema Solar. Además, Júpiter juega un papel crucial en mantener la estructura del cinturón de asteroides, una región ubicada entre Marte y Júpiter que contiene la mayoría de los asteroides conocidos. Su potente atracción gravitacional contrarresta la influencia del Sol, ayudando a estabilizar las órbitas de los asteroides (al menos la mayoría de las veces).\n\nPor otro lado, las simulaciones sugieren que, aunque Júpiter es efectivo en desviar cometas de largo período de la Nube de Oort, también puede atraer cometas y asteroides de corto período hacia la Tierra. Bajo la influencia de la gravedad de Júpiter, estos objetos – que de otro modo no habrían venido cerca de nosotros – pueden ser desviados hacia nuevas órbitas que aumentan sus posibilidades de impactar los planetas terrestres.\n\nEn resumen, el enorme tamaño y la influencia gravitacional de Júpiter ayudan a reducir la frecuencia de los impactos de asteroides en la Tierra. Sin embargo, su rol no es exclusivamente el de un escudo: ocasionalmente puede dirigir objetos hacia nosotros. Así que, la mejor defensa que tenemos somos nosotros mismos.\n\nEspero que se sienta seguro (o al menos más preparado) después de leer este artículo. Ahora que ha aprendido mucho acerca de los asteroides, disfrute de nuestro cuestionario para poner a prueba sus conocimientos.\n\n¿Pueden los asteroides tener anillos? ¿Existe un asteroide nombrado en honor a James Bond? ¡Participa en nuestro quiz para ampliar tus conocimientos sobre los asteroides! ¡Responde a las preguntas!\n\nPara resumir: ¿Impactará un asteroide la Tierra en 2025?\n\n¡Definitivamente! Dale dos semanas o menos. Los asteroides pequeños impactan la Tierra todo el tiempo, pero son tan pequeños que apenas hacen mella. Los asteroides más grandes podrían traer problemas mayores, pero este año, todos ellos se espera que pasen rozando la Tierra sin riesgo de impacto. Por ahora, no hay nada de que preocuparse, por lo que puede rastrear los asteroides más brillantes a través de Sky Tonight y observarlos sin temor a que golpeen la Tierra.",
+                                        "metadata": {
+                                            "url": "https://starwalk.space/es/news/should-you-worry-about-an-asteroid-hitting-earth",
+                                            "source": "starwalk.space",
+                                            "favicon": "https://starwalk.space/favicon.ico",
+                                            "title": "Asteroide impactará la Tierra 2025 | Meteoro se dirige a la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://starwalk.space",
+                                            "snippet": "No se espera que el asteroide colisione con nuestro planeta, por lo que actualmente no figura en las listas de riesgo de la NASA ni de la ESA. Sin embargo, su ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Dos nuevos estudios de la comunidad científica señalan que la defensa de la Tierra contra un asteroide convertido en un meteorito que amenace con estrellarse, como es el caso del 2024 YR4 que está generando tanta expectación en los últimos días, se basaría en el desvío del objeto gigante por la acción de múltiples impactadores pequeños, en lugar de uno de grandes dimensiones. Los investigadores han analizado los resultados de la misión DART (Double Asteroid Redirection Test) de la NASA para observar cuál sería la mejor defensa planetaria ante un eventual impacto de un asteroide.\n\nEl primero de los estudios está realizado por un equipo de investigadores del Departamento de Ciencia y Tecnología Aeroespacial del Politécnico de Milán, dirigido por el profesor Fabio Ferrari y con Paolo Panicucci y Carmine Giordano, en colaboración con el Instituto Tecnológico de Georgia; mientras que el segundo está coordinado por el profesor Masatoshi Hirabayashi del Georgia Tech y ha contado con la colaboración de Fabio Ferrari. «Utilizamos las imágenes y simulaciones numéricas del telescopio espacial Hubble para cuantificar un mecanismo viable de la evolución de las partículas eyectadas y estimamos con éxito la masa, la velocidad y el tamaño de las partículas eyectadas», explicó el profesor Ferrari.\n\n2024 YR4, el asteroide que amenaza con impactar contra la Tierra | ESA\n\nMúltiples impactos\n\nLos investigadores señalan que la forma más eficaz de poder desviar un asteroide que se dirija contra la Tierra como meteorito es realizar múltiples impactos contra él. «Si el impacto es grande, más material eyectado sale de la superficie, pero se ve más afectado por las inclinaciones de la superficie. Este proceso hace que el material eyectado se desvíe de la dirección ideal, lo que reduce el empuje del asteroide», señala el profesor Masatoshi Hirabayashi. «El envío de múltiples impactadores más pequeños no solo resulta en un mayor empuje del asteroide, sino que también potencialmente ahorra costos operativos y aumenta la flexibilidad táctica para la desviación», añade.\n\nEl profesor Fabio Ferrari explica que «entender los procesos de impacto y las consecuencias es crucial para comprender las propiedades de los asteroides, su evolución natural y destino y, en última instancia, para diseñar acciones de mitigación con fines de defensa planetaria».",
+                                        "metadata": {
+                                            "url": "https://monplaneta.cat/es/astronomia-es/dos-estudios-revelan-la-mejor-defensa-de-la-tierra-contra-meteoritos-99104/",
+                                            "source": "monplaneta.cat",
+                                            "favicon": "https://monplaneta.cat/app/uploads/sites/20/2022/03/recurso-57-57x57.png",
+                                            "title": "Nuevos estudios revelan estrategias para desviar asteroides",
+                                            "type": "web_search",
+                                            "base_url": "https://monplaneta.cat",
+                                            "snippet": "Investigadores de Milán y Georgia Tech proponen usar impactadores pequeños para desviar asteroides, basándose en la misión DART de la NASA, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Un estudio presentado en un congreso científico en Helsinki advierte que cambiar la trayectoria de un asteroide peligroso no siempre garantiza la seguridad del planeta. Lejos de resolver el problema, una desviación mal planificada podría reactivar el riesgo con el paso del tiempo.\n\nEl principal riesgo está en las llamadas “cerraduras gravitacionales”, zonas invisibles en el espacio donde la atracción de la Tierra puede alterar la órbita del objeto desviado y, eventualmente, dirigirlo de vuelta hacia nosotros. Esto convierte cada intervención en una operación de altísima precisión.\n\n+ MIRÁ MÁS: Sin luz ni agua: cómo es y dónde está la capilla cordobesa elegida como la mejor obra religiosa del mundo\n\nRahil Makadia, investigador asociado a la Nasa, explicó que incluso un desvío exitoso debe tener en cuenta estas regiones críticas. Si se las ignora, el mismo asteroide podría convertirse en una amenaza nuevamente dentro de algunas décadas, repitiendo el ciclo de peligro.\n\nLa misión DART de la Nasa, en 2022, fue el primer intento exitoso de modificar la trayectoria de un asteroide. Aunque el resultado fue alentador, abrió nuevas preguntas sobre los efectos secundarios de este tipo de impactos. La ESA lanzará la misión Hera en 2026 para estudiar en detalle las consecuencias de esa intervención.\n\nCon estos hallazgos, los expertos insisten en que desviar un asteroide no se trata solo de moverlo, sino de hacerlo con una estrategia que contemple todos los escenarios futuros. De lo contrario, lo que hoy parece una solución podría convertirse en una amenaza aplazada.",
+                                        "metadata": {
+                                            "url": "https://eldoce.tv/tendencias/2025/09/10/alerta-que-riesgos-tiene-desviar-un-asteroide-segun-los-cientificos/",
+                                            "source": "eldoce.tv",
+                                            "favicon": "https://eldoce.tv/favicon.ico",
+                                            "title": "Alerta: qué riesgos tiene desviar un asteroide según los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://eldoce.tv",
+                                            "snippet": "Un estudio presentado en un congreso científico en Helsinki advierte que cambiar la trayectoria de un asteroide peligroso no siempre garantiza ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El cometa interestelar 3I/ATLAS no supone una amenaza de impacto para la Tierra, ni tampoco pasará especialmente cerca. Sin embargo, su visita al Sistema Solar entre noviembre de 2025 y enero de 2026 se ha convertido en una oportunidad única: una campaña internacional coordinada por la International Asteroid Warning Network (IAWN) reúne a agencias espaciales y observatorios de todo el mundo para poner a prueba, en condiciones reales, su capacidad de respuesta ante objetos potencialmente peligrosos.\n\nLo interesante de 3I/ATLAS no es solo su origen interestelar, algo poco frecuente, sino el contexto en el que se observa. Su trayectoria, a gran distancia de nuestro planeta, permite trabajar con rigor científico y sin el componente de pánico que suele acompañar a cualquier noticia sobre “rocas espaciales” que se acercan demasiado.\n\nDefensa planetaria: prepararse cuando no hay urgencia\n\n3I/ATLAS ha vuelto a colocar el foco en un ámbito que suele pasar desapercibido hasta que salta una alarma: la defensa planetaria. No se trata de reaccionar a un peligro inminente, sino de construir sistemas robustos de vigilancia, análisis y coordinación cuando no hay urgencia.\n\nEsa es la gran clave de este ejercicio. La preparación efectiva no se improvisa en mitad de una crisis, se construye antes: afinando protocolos, descubriendo fallos de coordinación, ajustando herramientas y verificando que los flujos de datos funcionan incluso cuando el ritmo de trabajo se acelera. El cometa ofrece un escenario perfecto para todo ello, sin la presión de una cuenta atrás real.\n\nUn “test de estrés” para la observación y la toma de decisiones\n\nLos objetos de origen interestelar suelen llegar al Sistema Solar con geometrías orbitales y velocidades muy diferentes a las de los asteroides y cometas “habituales”. Desde el punto de vista operativo, esto los convierte en un excelente “test de estrés” para los sistemas de observación y para toda la cadena de decisiones: desde la detección inicial hasta la evaluación del riesgo y la comunicación al público.\n\nEn este marco, la campaña de 3I/ATLAS permite comprobar cómo responden los sistemas informáticos, cómo se integran datos de distintos observatorios y cómo se revisan los modelos cuando entran nuevas mediciones. La idea no es solo “ver” al cometa, sino demostrar que la maquinaria global funciona de forma coordinada, rápida y fiable.\n\nLa IAWN como engranaje de coordinación internacional\n\nLa International Asteroid Warning Network actúa como el engranaje central de coordinación. Su misión no es dramatizar el fenómeno, sino ordenar el proceso. Esto implica estandarizar el tipo de datos que se comparten, coordinar ventanas de observación entre telescopios de distintos países, impulsar validaciones cruzadas y reducir al máximo la incertidumbre de los cálculos orbitales.\n\nEn defensa planetaria, la incertidumbre es un enemigo silencioso. Cuanto menos precisa sea la información sobre la posición y trayectoria de un objeto, más difícil será proyectar escenarios, valorar riesgos o, si fuera necesario, diseñar una posible respuesta. El caso de 3I/ATLAS obliga a todos los actores a trabajar con criterios comunes, algo crucial para el futuro.\n\nAstrometría de precisión: medir bien, compartir rápido y corregir mejor\n\nEl núcleo técnico de la campaña se centra en mejorar la astrometría, es decir, la medición exacta de la posición del cometa a lo largo del tiempo. En un cometa activo, esta tarea es especialmente compleja: la coma de gas y polvo puede “desdibujar” el centro del objeto en las imágenes, y la propia actividad puede introducir pequeñas desviaciones respecto a la órbita que se obtendría solo por gravedad.\n\nPor eso, 3I/ATLAS es un ejercicio completo. No solo pone a prueba telescopios y software, sino también acuerdos sobre cómo tratar las imágenes, qué calidad mínima deben tener los datos y cómo se integran las correcciones. Medir bien, compartir rápido y corregir con consistencia es, en la práctica, el corazón de cualquier sistema de alerta temprana.\n\nEl papel de las grandes agencias espaciales refuerza la dimensión multidisciplinar de este tipo de campañas. Su contribución va más allá de confirmar que “el cometa está ahí”: se trata de caracterizarlo mejor, combinando observaciones desde tierra con datos en distintas longitudes de onda para comprender su actividad, su composición y su comportamiento.\n\nAl mismo tiempo, estos ejercicios sirven para validar flujos de trabajo internos: cómo se actualizan efemérides, cómo se coordinan equipos internacionales, cómo se emiten avisos técnicos y cómo se informa a los medios y al público sin caer en el alarmismo ni minimizar los riesgos. En un futuro escenario de amenaza real, estos procesos marcarán la diferencia entre una respuesta ordenada y el caos.\n\nUna disciplina de continuidad, no de reacción\n\nLa principal lección de 3I/ATLAS es sencilla, pero exige constancia: la seguridad planetaria es una disciplina de continuidad, no de reacción. Los simulacros y campañas como esta obligan a detectar fallos de coordinación, discrepancias metodológicas y puntos débiles de comunicación cuando todavía se está a tiempo de corregirlos.\n\nTambién ponen de relieve un reto de fondo: mantener la inversión, modernizar la infraestructura de observación y actualizar protocolos cuando la amenaza no está en titulares. Sostener este esfuerzo en el tiempo es tan importante como cualquier gran titular sobre misiones de desviación de asteroides.\n\n3I/ATLAS no es un anuncio de catástrofe, sino una oportunidad estratégica. Es un recordatorio de que el universo no necesita intención para representar un riesgo y de que la mejor respuesta humana combina ciencia, cooperación internacional y transparencia informativa. Si algún día el objeto en cuestión no es tan benigno, la diferencia no la marcará la suerte, sino el trabajo acumulado en ejercicios como este. Lo que hoy se ensaya con un visitante lejano puede ser, mañana, la base de una respuesta eficaz ante una amenaza real.",
+                                        "metadata": {
+                                            "url": "https://www.negocios.com/articulo/geociencia-espacio/mayor-simulacro-global-defensa-planetaria-impulsado-nasa-3i-atlas/20251217181606475280.html",
+                                            "source": "www.negocios.com",
+                                            "favicon": "https://www.negocios.com/media/negocios/images/2025/07/18/2025071809461736495.png",
+                                            "title": "Defensa planetaria en 2025: simulacro global ante un ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.negocios.com",
+                                            "snippet": "La red IAWN impulsa entre noviembre de 2025 y enero de 2026 un simulacro internacional sin precedentes para probar sistemas de alerta ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.5419707310002195,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.5419707310002195,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:16:00",
+                    "run_time": 3.5419707310002195,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los últimos proyectos de la NASA relacionados con la defensa de asteroides y cuáles han sido sus resultados?": [
+                                {
+                                    "Existen diversas ideas sobre cómo desviar un asteroide que amenace la Tierra. Recientemente la técnica del impactador cinético mostró su eficacia con la misión DART de la NASA, en la que una sonda se estrelló contra el asteroide Dimorphos y desvió su órbita respecto al asteroide que orbita, Didymos.": null
+                                },
+                                {
+                                    "Entonces, ¿qué podemos hacer si hay un asteroide que se dirige a la Tierra? Los científicos están trabajando en formas de defender el planeta. La buena noticia es que tenemos una serie de posibles soluciones y, al menos, una de ellas ya fue probada con éxito. La no muy buena noticia es que no podemos desplegar ninguna de ellas en un instante. Una misión espacial de este tipo tarda varios años desde su aprobación hasta su lanzamiento. Esto significa que debemos detectar un asteroide peligroso varios años (o mejor una década) antes de que se acerque a la Tierra si queremos hacer una nave espacial que nos ayudará a evitar la colisión con él. Por eso es tan importante encontrar tantos objetos próximos a la Tierra como sea posible y calcular sus órbitas con anticipación. Estas son algunas de las ideas que tenemos en este momento acerca de cómo evitar el impacto.": null
+                                },
+                                {
+                                    "Dos nuevos estudios de la comunidad científica señalan que la defensa de la Tierra contra un asteroide convertido en un meteorito que amenace con estrellarse, como es el caso del 2024 YR4 que está generando tanta expectación en los últimos días, se basaría en el desvío del objeto gigante por la acción de múltiples impactadores pequeños, en lugar de uno de grandes dimensiones. Los investigadores han analizado los resultados de la misión DART (Double Asteroid Redirection Test) de la NASA para observar cuál sería la mejor defensa planetaria ante un eventual impacto de un asteroide.": null
+                                }
+                            ],
+                            "¿Existe evidencia de experimentos exitosos de la NASA en la Tierra para desviar la órbita de un asteroide?": [
+                                {
+                                    "Existen diversas ideas sobre cómo desviar un asteroide que amenace la Tierra. Recientemente la técnica del impactador cinético mostró su eficacia con la misión DART de la NASA, en la que una sonda se estrelló contra el asteroide Dimorphos y desvió su órbita respecto al asteroide que orbita, Didymos.": null
+                                },
+                                {
+                                    "El ensayo de la NASA probó que la humanidad tiene capacidad de alterar el rumbo de un objeto espacial de grandes dimensiones, lo que se interpretó como un avance frente a potenciales amenazas cósmicas.": null
+                                },
+                                {
+                                    "En su día el ensayo de la NASA fue celebrado como un hito en la defensa planetaria, pero nuevas investigaciones han sembrado dudas: aquel éxito podría esconder riesgos imprevistos para la seguridad de la Tierra.": null
+                                }
+                            ],
+                            "¿Cuál es el estado actual de los asteroides observados, como el asteroide Didymos, tras el proyecto DART de 2022?": [
+                                {
+                                    "Existen diversas ideas sobre cómo desviar un asteroide que amenace la Tierra. Recientemente la técnica del impactador cinético mostró su eficacia con la misión DART de la NASA, en la que una sonda se estrelló contra el asteroide Dimorphos y desvió su órbita respecto al asteroide que orbita, Didymos.": null
+                                },
+                                {
+                                    "La prueba de redireccionamiento de un asteroide binario (Double Asteroid Redirection Test, DART) fue la misión de la NASA que probó las tecnologías para prevenir el impacto de un asteroide. El objetivo de la misión fue el asteroide Dimorphos, la luna menor del asteroide binario Didymos cercano a la Tierra. En septiembre de 2022, la nave espacial de DART se estrelló contra la luna menor (que tiene un tamaño aproximado de 160 m), cambiando así su velocidad y período orbital. Esta misión demostró que una roca espacial peligrosa podría ser desviada en el futuro.": null
+                                },
+                                {
+                                    "Dicho de otra manera, la consecuencia sería que el asteroide o sus fragmentos serían redirigidos a la Tierra en un futuro. Por todo ello, muchos científicos han coincidido en que el éxito técnico de la misión DART de 2022 no garantiza que la estrategia sea segura en el largo plazo.": null
+                                }
+                            ],
+                            "¿Existen estudios científicos o informes que cuestionen la eficacia de los métodos de desviación de asteroides utilizados por la NASA?": [
+                                {
+                                    "En su día el ensayo de la NASA fue celebrado como un hito en la defensa planetaria, pero nuevas investigaciones han sembrado dudas: aquel éxito podría esconder riesgos imprevistos para la seguridad de la Tierra.": null
+                                },
+                                {
+                                    "Dos nuevos estudios de la comunidad científica señalan que la defensa de la Tierra contra un asteroide convertido en un meteorito que amenace con estrellarse, como es el caso del 2024 YR4 que está generando tanta expectación en los últimos días, se basaría en el desvío del objeto gigante por la acción de múltiples impactadores pequeños, en lugar de uno de grandes dimensiones. Los investigadores han analizado los resultados de la misión DART (Double Asteroid Redirection Test) de la NASA para observar cuál sería la mejor defensa planetaria ante un eventual impacto de un asteroide.": null
+                                },
+                                {
+                                    "Dicho de otra manera, la consecuencia sería que el asteroide o sus fragmentos serían redirigidos a la Tierra en un futuro. Por todo ello, muchos científicos han coincidido en que el éxito técnico de la misión DART de 2022 no garantiza que la estrategia sea segura en el largo plazo.": null
+                                }
+                            ],
+                            "¿Qué actualizaciones ha publicado la NASA en 2025 sobre proyectos o resultados relacionados con la defensa de asteroides?": [
+                                {
+                                    "Dos nuevos estudios de la comunidad científica señalan que la defensa de la Tierra contra un asteroide convertido en un meteorito que amenace con estrellarse, como es el caso del 2024 YR4 que está generando tanta expectación en los últimos días, se basaría en el desvío del objeto gigante por la acción de múltiples impactadores pequeños, en lugar de uno de grandes dimensiones. Los investigadores han analizado los resultados de la misión DART (Double Asteroid Redirection Test) de la NASA para observar cuál sería la mejor defensa planetaria ante un eventual impacto de un asteroide.": null
+                                },
+                                {
+                                    "Las noticias sobre un asteroide que se dirige a la Tierra con posibilidad de impacto despiertan gran interés. De hecho, en septiembre de 2025, hay 2.493 asteroides potencialmente peligrosos, pero solo unos pocos aparecen en los titulares. Discutamos los asteroides más famosos que se aproximan a la Tierra en un futuro cercano y veamos si alguno de ellos representa una amenaza para nuestro planeta.": null
+                                },
+                                {
+                                    "La misión DART de la Nasa, en 2022, fue el primer intento exitoso de modificar la trayectoria de un asteroide. Aunque el resultado fue alentador, abrió nuevas preguntas sobre los efectos secundarios de este tipo de impactos. La ESA lanzará la misión Hera en 2026 para estudiar en detalle las consecuencias de esa intervención.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 14.966112541000257,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 14.966112541000257,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:16:16",
+                    "run_time": 14.966112541000257,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLa NASA ha logrado desviar la órbita de un asteroide\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los últimos proyectos de la NASA relacionados con la defensa de asteroides y cuáles han sido sus resultados?\n¿Existe evidencia de experimentos exitosos de la NASA en la Tierra para desviar la órbita de un asteroide?\n¿Cuál es el estado actual de los asteroides observados, como el asteroide Didymos, tras el proyecto DART de 2022?\n¿Existen estudios científicos o informes que cuestionen la eficacia de los métodos de desviación de asteroides utilizados por la NASA?\n¿Qué actualizaciones ha publicado la NASA en 2025 sobre proyectos o resultados relacionados con la defensa de asteroides?\n\n3. Here are the text sources you should use as your source of information:\n[0] Existen diversas ideas sobre cómo desviar un asteroide que amenace la Tierra. Recientemente la técnica del impactador cinético mostró su eficacia con la misión DART de la NASA, en la que una sonda se estrelló contra el asteroide Dimorphos y desvió su órbita respecto al asteroide que orbita, Didymos.\n[1] Entonces, ¿qué podemos hacer si hay un asteroide que se dirige a la Tierra? Los científicos están trabajando en formas de defender el planeta. La buena noticia es que tenemos una serie de posibles soluciones y, al menos, una de ellas ya fue probada con éxito. La no muy buena noticia es que no podemos desplegar ninguna de ellas en un instante. Una misión espacial de este tipo tarda varios años desde su aprobación hasta su lanzamiento. Esto significa que debemos detectar un asteroide peligroso varios años (o mejor una década) antes de que se acerque a la Tierra si queremos hacer una nave espacial que nos ayudará a evitar la colisión con él. Por eso es tan importante encontrar tantos objetos próximos a la Tierra como sea posible y calcular sus órbitas con anticipación. Estas son algunas de las ideas que tenemos en este momento acerca de cómo evitar el impacto.\n[1] La prueba de redireccionamiento de un asteroide binario (Double Asteroid Redirection Test, DART) fue la misión de la NASA que probó las tecnologías para prevenir el impacto de un asteroide. El objetivo de la misión fue el asteroide Dimorphos, la luna menor del asteroide binario Didymos cercano a la Tierra. En septiembre de 2022, la nave espacial de DART se estrelló contra la luna menor (que tiene un tamaño aproximado de 160 m), cambiando así su velocidad y período orbital. Esta misión demostró que una roca espacial peligrosa podría ser desviada en el futuro.\n[1] Las noticias sobre un asteroide que se dirige a la Tierra con posibilidad de impacto despiertan gran interés. De hecho, en septiembre de 2025, hay 2.493 asteroides potencialmente peligrosos, pero solo unos pocos aparecen en los titulares. Discutamos los asteroides más famosos que se aproximan a la Tierra en un futuro cercano y veamos si alguno de ellos representa una amenaza para nuestro planeta.\n[2] Dos nuevos estudios de la comunidad científica señalan que la defensa de la Tierra contra un asteroide convertido en un meteorito que amenace con estrellarse, como es el caso del 2024 YR4 que está generando tanta expectación en los últimos días, se basaría en el desvío del objeto gigante por la acción de múltiples impactadores pequeños, en lugar de uno de grandes dimensiones. Los investigadores han analizado los resultados de la misión DART (Double Asteroid Redirection Test) de la NASA para observar cuál sería la mejor defensa planetaria ante un eventual impacto de un asteroide.\n[3] El ensayo de la NASA probó que la humanidad tiene capacidad de alterar el rumbo de un objeto espacial de grandes dimensiones, lo que se interpretó como un avance frente a potenciales amenazas cósmicas.\n[3] En su día el ensayo de la NASA fue celebrado como un hito en la defensa planetaria, pero nuevas investigaciones han sembrado dudas: aquel éxito podría esconder riesgos imprevistos para la seguridad de la Tierra.\n[3] Dicho de otra manera, la consecuencia sería que el asteroide o sus fragmentos serían redirigidos a la Tierra en un futuro. Por todo ello, muchos científicos han coincidido en que el éxito técnico de la misión DART de 2022 no garantiza que la estrategia sea segura en el largo plazo.\n[4] La misión DART de la Nasa, en 2022, fue el primer intento exitoso de modificar la trayectoria de un asteroide. Aunque el resultado fue alentador, abrió nuevas preguntas sobre los efectos secundarios de este tipo de impactos. La ESA lanzará la misión Hera en 2026 para estudiar en detalle las consecuencias de esa intervención.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "La NASA ha logrado desviar la órbita de un asteroide"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART (Double Asteroid Redirection Test), que se estrelló contra el asteroide Dimorphos en septiembre de 2022. Esta acción modificó el período orbital de Dimorphos, su satélite, demostrando que una nave espacial puede alterar la trayectoria de un objeto espacial de grandes dimensiones [1]. La misión se enmarcaba en el proyecto de defensa de asteroides de la NASA, que busca evaluar técnicas para prevenir impactos potencialmente peligrosos [1].  \n\nSin embargo, el éxito técnico de DART ha generado controversia. Nuevas investigaciones han cuestionado si la estrategia de desviación mediante impactos es segura a largo plazo, ya que podría redirigir fragmentos del asteroide a la Tierra en el futuro, lo que plantea riesgos imprevistos [3]. Aunque la misión DART fue celebrada como un avance en la defensa planetaria, también ha abierto preguntas sobre los efectos secundarios de este tipo de intervenciones [4]. Además, el ensayo de la NASA no garantiza que el método sea efectivo en todos los casos, especialmente si el asteroide es demasiado grande o se descompone en múltiples fragmentos [2].  \n\nEn conclusión, la afirmación de que la NASA ha logrado desviar la órbita de un asteroide es **verdadera** en cuanto a la realización de la misión DART y sus resultados preliminares, pero **parcialmente cuestionable** en cuanto a la seguridad y efectividad a largo plazo de la técnica. El proyecto continúa avanzando con la misión Hera de la ESA (2026), que estudiará en detalle las consecuencias de la intervención de DART [4]."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.55495743199981,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.55495743199981,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 13:16:19",
+                    "run_time": 3.55495743199981,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: La NASA ha logrado desviar la órbita de un asteroide\nArticle: La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART (Double Asteroid Redirection Test), que se estrelló contra el asteroide Dimorphos en septiembre de 2022. Esta acción modificó el período orbital de Dimorphos, su satélite, demostrando que una nave espacial puede alterar la trayectoria de un objeto espacial de grandes dimensiones [1]. La misión se enmarcaba en el proyecto de defensa de asteroides de la NASA, que busca evaluar técnicas para prevenir impactos potencialmente peligrosos [1].  \n\nSin embargo, el éxito técnico de DART ha generado controversia. Nuevas investigaciones han cuestionado si la estrategia de desviación mediante impactos es segura a largo plazo, ya que podría redirigir fragmentos del asteroide a la Tierra en el futuro, lo que plantea riesgos imprevistos [3]. Aunque la misión DART fue celebrada como un avance en la defensa planetaria, también ha abierto preguntas sobre los efectos secundarios de este tipo de intervenciones [4]. Además, el ensayo de la NASA no garantiza que el método sea efectivo en todos los casos, especialmente si el asteroide es demasiado grande o se descompone en múltiples fragmentos [2].  \n\nEn conclusión, la afirmación de que la NASA ha logrado desviar la órbita de un asteroide es **verdadera** en cuanto a la realización de la misión DART y sus resultados preliminares, pero **parcialmente cuestionable** en cuanto a la seguridad y efectividad a largo plazo de la técnica. El proyecto continúa avanzando con la misión Hera de la ESA (2026), que estudiará en detalle las consecuencias de la intervención de DART [4].\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: La NASA ha logrado desviar la órbita de un asteroide\nArticle: La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART (Double Asteroid Redirection Test), que se estrelló contra el asteroide Dimorphos en septiembre de 2022. Esta acción modificó el período orbital de Dimorphos, su satélite, demostrando que una nave espacial puede alterar la trayectoria de un objeto espacial de grandes dimensiones [1]. La misión se enmarcaba en el proyecto de defensa de asteroides de la NASA, que busca evaluar técnicas para prevenir impactos potencialmente peligrosos [1].  \n\nSin embargo, el éxito técnico de DART ha generado controversia. Nuevas investigaciones han cuestionado si la estrategia de desviación mediante impactos es segura a largo plazo, ya que podría redirigir fragmentos del asteroide a la Tierra en el futuro, lo que plantea riesgos imprevistos [3]. Aunque la misión DART fue celebrada como un avance en la defensa planetaria, también ha abierto preguntas sobre los efectos secundarios de este tipo de intervenciones [4]. Además, el ensayo de la NASA no garantiza que el método sea efectivo en todos los casos, especialmente si el asteroide es demasiado grande o se descompone en múltiples fragmentos [2].  \n\nEn conclusión, la afirmación de que la NASA ha logrado desviar la órbita de un asteroide es **verdadera** en cuanto a la realización de la misión DART y sus resultados preliminares, pero **parcialmente cuestionable** en cuanto a la seguridad y efectividad a largo plazo de la técnica. El proyecto continúa avanzando con la misión Hera de la ESA (2026), que estudiará en detalle las consecuencias de la intervención de DART [4]."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"La NASA ha logrado desviar la órbita de un asteroide\", \"categories\": [\"Ciencia\", \"Espacio\", \"Defensa planetaria\"], \"label\": \"True\", \"main_claim\": \"La NASA ha logrado desviar la órbita de un asteroide mediante la misión DART, pero sus efectos a largo plazo son parcialmente cuestionables\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,642 @@
+{
+    "question": "Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo",
+    "answer": "**Argumentos a favor de la afirmación** \nSegún el estudio mencionado, los inmigrantes en España cobran un 29,3 % menos que los nativos, lo que constituye una brecha salarial comparable a la de Canadá (27,5 %) pero superior a la de países como Noruega, Alemania o Suecia [1]. Esta diferencia se atribuye principalmente a la limitación del acceso de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados, lo que explica tres cuartas partes de la brecha salarial [2]. Además, los inmigrantes suelen trabajar en sectores de rápido crecimiento pero con salarios bajos, como turismo, cuidados, agricultura y construcción, así como en pymes, lo que afecta negativamente a su retribución [2]. También se observa que los inmigrantes africanos y de Oriente Medio presentan una brecha salarial más elevada (26,1 % y 23,7 %, respectivamente) en comparación con los procedentes de Europa o América del Norte (9 %) [3]. \n\n**Argumentos en contra de la afirmación** \nEl estudio también destaca que la brecha salarial entre inmigrantes y nativos se debe principalmente al acceso limitado a sectores y empleos mejor remunerados, en lugar de a una desigualdad salarial por el mismo trabajo [1]. Esto implica que, en algunos casos, los inmigrantes perciben salarios similares a los nativos cuando realizan el mismo empleo en la misma empresa, pero no tienen acceso a estos puestos debido a factores como la discriminación o la estructura del mercado laboral [1]. Además, los inmigrantes tienen un acceso limitado al empleo público, que en España suele ser estable y bien remunerado, lo que podría explicar parte de la brecha salarial [2]. \n\n**Conclusión** \nLa afirmación es **parcialmente cierta**. Los inmigrantes en España cobran menos dinero en general, especialmente en sectores y ocupaciones con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores. En muchos casos, la diferencia se debe a la limitación del acceso a empleos mejor remunerados y a la estructura del mercado laboral [1]. Además, existen diferencias salariales según el origen de los inmigrantes, siendo más elevadas en los procedentes de África Subsahariana y Oriente Medio [3]. Por tanto, la afirmación es incompleta, ya que no todos los inmigrantes cobran menos por el mismo trabajo, sino que la brecha salarial se debe a factores adicionales como la selección de empleos y la discriminación.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.levante-emv.com/sociedad/2025/07/16/inmigrantes-espana-ganan-29-trabajadores-119767419.html",
+            "source": "www.levante-emv.com",
+            "favicon": "https://www.levante-emv.com/cds-statics/LMV/favicons/android-icon-48x48.png"
+        },
+        "2": {
+            "url": "https://www.iese.edu/es/insight/articulos/inmigracion-brecha-salarial-espana/",
+            "source": "www.iese.edu",
+            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg"
+        },
+        "3": {
+            "url": "https://www.ecoavant.com/actualidad/inmigrantes-en-europa-norteamerica-ganan-18-menos-nativos-aqui-las-razones_15428_102.html",
+            "source": "www.ecoavant.com",
+            "favicon": "https://www.ecoavant.com/uploads/static/ecoavant/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo",
+        "categories": [
+            "Sociedad",
+            "Economía",
+            "Inmigración"
+        ],
+        "label": "True",
+        "main_claim": "Los inmigrantes en España cobran menos dinero en general, especialmente en sectores con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.8390891550006927,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.8390891550006927,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:54:56",
+                    "run_time": 3.8390891550006927,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLos inmigrantes en España cobran menos dinero por realizar el mismo trabajo\n\n**Critical Research Questions:**\n1. ¿Cuáles son los salarios medios de los inmigrantes en España en 2025 según el INE?\n2. ¿Cómo se comparan los salarios de inmigrantes sudamericanos con los de nacionales en la EPA de 2025?\n3. ¿Existen diferencias salariales entre inmigrantes africanos y europeos en España?\n4. ¿Cuáles son las políticas de empleo y salarios mínimos aplicadas a inmigrantes en España?\n5. ¿Qué sectores presentan mayor brecha salarial entre inmigrantes y nacionales?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"salarios medios inmigrantes España 2025 INE datos oficiales\", \"comparación salarios inmigrantes sudamericanos nacionales EPA 2025\", \"diferencias salariales inmigrantes africanos europeos España 2025\", \"políticas empleo salarios mínimos inmigrantes España 2025\", \"brecha salarial sectores inmigrantes nacionales España 2025\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 4.009300344998337,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 4.009300344998337,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:01",
+                    "run_time": 4.009300344998337,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "salarios medios inmigrantes España 2025 INE datos oficiales",
+                                "comparación salarios inmigrantes sudamericanos nacionales EPA 2025",
+                                "diferencias salariales inmigrantes africanos europeos España 2025",
+                                "políticas empleo salarios mínimos inmigrantes España 2025",
+                                "brecha salarial sectores inmigrantes nacionales España 2025"
+                            ],
+                            "results": {
+                                "salarios medios inmigrantes España 2025 INE datos oficiales | comparación salarios inmigrantes sudamericanos nacionales EPA 2025 | diferencias salariales inmigrantes africanos europeos España 2025 | políticas empleo salarios mínimos inmigrantes España 2025 | brecha salarial sectores inmigrantes nacionales España 2025": [
+                                    {
+                                        "text": "Con la inmigración en el centro de la actualidad en España debido a la extrema derecha, por la propuesta de expulsiones masivas de Vox y los ataques de odio registrados en Torrepacheco, la revista científica Nature ha publicado un estudio internacional que cuantifica en un 18% de media las brechas salariales entre los trabajadores migrantes y los nativos en nueve países receptores de trabajadores extranjeros. Esta diferencia se debe en su mayor parte a la segregación de los trabajadores extranjeros en empleos peor pagados, aunque también detectan desigualdad retributiva para el mismo empleo (-4,6%). España sobresale como es el país con una mayor diferencia salarial, del 29%, muy cerca de Canadá, 28%, y a una gran distancia del país con menos brecha, Suecia, del 7%.\n\nLa investigación, dirigida por el profesor de la Universidad de Oslo Are Skeie Hermansen junto a investigadores de más de una docena de universidades a nivel internacional (en España, Marta Elvira de IESE Business School), ha analizado datos administrativos de 13,5 millones de trabajadores inmigrantes y nativos de los nueve países de renta alta y receptores de migración estudiados: Alemania, Canadá, Dinamarca, España, Estados Unidos, Francia, Noruega, Países Bajos y Suecia.\n\n\n\n\n\n\n\nAunque la existencia de salarios inferiores entre los trabajadores migrantes es algo ya constatado en otros estudios, la principal novedad de esta investigación radica en el análisis comparado con datos reales de estos nueve países, así como la conclusión compartida de que tres cuartas partes de la desigualdad salarial se debe a la segregación en empleos de bajos salarios, un resultado persistente pese a las múltiples diferencias entre los países de destino.\n\nEspaña destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.\n\nLos inmigrantes africanos enfrentan la mayor brecha\n\nEl estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).\n\nAunque el estudio no se detiene en desentrañar cuáles son las causas que están detrás de estas diferencias salariales, o de los distintos datos dado el país de origen y de destino, los investigadores mencionan que los salarios más bajos de los inmigrantes a menudo se atribuyen a “déficits en el capital humano” adquirido en origen, como la limitada competencia lingüística o formativa, así como los problemas para convalidar las cualificaciones educativas de los países de procedencia y los de destino, entre otras.\n\nCon datos de varios países sobre los hijos de los trabajadores migrantes (no España), nacidos ya en el país de destino, el estudio destaca que la brecha económica se reduce drásticamente, hasta el 5,7% respecto a los salarios de los hijos de los nativos, aunque hay que destacar que no se elimina del todo, persistiendo así cierto traslado generacional en las desventajas retributivas. En el caso de los inmigrantes cuyos padres proceden de África subsahariana, la brecha en la segunda generación es todavía del 11,8%, y en los hijos de personas de Latinoamérica, del 10%.\n\n“En un contexto en que el crecimiento demográfico en la mayor parte de las economías avanzadas dependerá de manera casi exclusiva de la inmigración, la temática del artículo es claramente actual y relevante. Disponer de información detallada sobre el desempeño de los inmigrantes en el mercado de trabajo del país de acogida permite poder identificar las políticas más adecuadas para mejorar su integración laboral y, por tanto, su calidad de vida”, destaca Raúl Ramos, catedrático de Economía Aplicada de la Universitat de Barcelona & IZA Research Fellow a SMC.\n\nRamos añade que la investigación “no permite concluir si esta asimilación segmentada asociada a las limitaciones en el acceso a los puestos de trabajo mejor remunerados se debe a comportamientos discriminatorios o a otro tipo de factores, pero sin duda, es una línea de investigación que merece la pena abordar en el futuro”.",
+                                        "metadata": {
+                                            "url": "https://www.eldiario.es/economia/trabajadores-inmigrantes-cobran-29-personas-nacidas-espana_1_12466752.html",
+                                            "source": "www.eldiario.es",
+                                            "favicon": "https://www.eldiario.es/favicon.png",
+                                            "title": "Los trabajadores inmigrantes cobran un 29% menos que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eldiario.es",
+                                            "snippet": "España sobresale como es el país con una mayor diferencia salarial, del 29%, muy cerca de Canadá, 28%, y a una gran distancia del país con ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A medida que muchos países se enfrentan al envejecimiento de la población, la caída de la natalidad, la escasez de mano de obra y las presiones fiscales, la capacidad de integrar con éxito a la población migrante se está convirtiendo en una cuestión cada vez más urgente.\n\nSin embargo, nuestro nuevo estudio revela que los salarios de los inmigrantes en Europa y Norteamérica son casi un 18 % inferiores a los de los nativos. Para llegar a esta conclusión, hemos analizado los salarios de 13,5 millones de personas en nueve países: Canadá, Dinamarca, Francia, Alemania, Países Bajos, Noruega, España, Suecia y Estados Unidos. Los datos corresponden al periodo comprendido entre 2016 y 2019.\n\nLa población migrante en estos territorios ganaba menos principalmente porque no podía acceder a puestos de trabajo mejor remunerados. Tres cuartas partes de la brecha salarial se debían a la falta de acceso a empleos bien pagados, mientras que solo una cuarta parte se atribuía a las diferencias salariales entre los migrantes y los trabajadores nativos en el mismo empleo.\n\nLos autores\n\nLos países de altos ingresos que examinamos en Europa y América del Norte se enfrentan a retos demográficos similares, con bajas tasas de fertilidad que provocan el envejecimiento de la población y la escasez de mano de obra. Es poco probable que las medidas natalistas cambien este destino demográfico, pero unas políticas de inmigración sólidas pueden ayudar.\n\nEn todos estos países, con instituciones laborales y poblaciones migrantes muy diferentes, se da un hecho común: no están aprovechando el capital humano de los inmigrantes.\n\nMarcadas diferencias regionales\n\nComo apuntábamos, hemos constatado que los inmigrantes ganan un 17,9 % menos que los nativos, aunque la diferencia salarial varía mucho de un Estado a otro. En España, un país que ha acogido a un gran número de inmigrantes en los últimos años, esa diferencia supera el 29 %. En Suecia, donde muchos inmigrantes encuentran trabajo en el sector público, es solo del 7 %. Estos resultados no incluyen a aquellos desempleados ni a los que trabajan en la economía informal.\n\nEl lugar de nacimiento también influye. Las diferencias salariales medias más elevadas se registraban entre los migrantes procedentes del África subsahariana (26,1 %) y de Oriente Medio y el norte de África (23,7 %). En el caso de aquellos procedentes de Europa, América del Norte y otros países occidentales, la diferencia salarial media con respecto a los nativos era mucho más modesta, del 9 %.\n\nLos autores\n\nAdemás, nuestros resultados sugieren que los hijos de inmigrantes tenían perspectivas salariales sustancialmente mejores que sus padres. En los países en los que se disponía de datos sobre la segunda generación –Canadá, Dinamarca, Alemania, Países Bajos, Noruega y Suecia–, la diferencia se redujo con el tiempo: su descendencia ganaba de media un 5,7 % menos que los trabajadores con padres nativos.\n\nDifícil acceso a empleos mejor remunerados\n\nMás allá de cuantificar la brecha, queríamos comprender las raíces de las disparidades salariales. Para crear mejores políticas, es importante saber si los inmigrantes cobran menos que los nativos cuando realizan el mismo trabajo en la misma empresa, o si estas diferencias se deben a que los extranjeros suelen trabajar en empleos peor remunerados.\n\nCon un amplio margen, descubrimos que los inmigrantes acaban trabajando en sectores, ocupaciones y empresas con salarios más bajos; tres cuartas partes de la diferencia se debía a este tipo de selección en el mercado laboral. La diferencia salarial por el mismo trabajo en la misma empresa era solo del 4,6 % de media en los nueve países.\n\nEstas desigualdades representan un fracaso de la política de inmigración a la hora de integrar a los migrantes, ya que estos se ven relegados a trabajos en los que no pueden aportar todo su potencial. Nuestros análisis descartan que la falta de acceso a trabajos mejor remunerados sea simplemente un reflejo de la diferencia de cualificación entre los inmigrantes y los trabajadores nativos. También hemos constatado que la magnitud de la brecha salarial y el papel fundamental del acceso desigual a los empleos bien remunerados es similar para los inmigrantes con y sin estudios universitarios.\n\nEsto significa que la diferencia salarial entre inmigrantes y nativos representa en gran medida una ineficiencia del mercado y unas políticas fallidas, con importantes consecuencias sociales tanto para la población migrante como para los países que la acogen.\n\nImplicaciones políticas\n\nAunque las políticas para garantizar la misma remuneración por un mismo trabajo pueden parecer una solución viable, no cerrarán la brecha salarial de los inmigrantes. Esto se debe a que solo ayudan a quienes ya han conseguido un empleo, mientras los migrantes se enfrentan a barreras laborales que comienzan mucho antes incluso de solicitar un puesto de trabajo. Entre ellas se incluyen los complicados procesos de validación de títulos universitarios u otras cualificaciones, y la exclusión de las redes profesionales.\n\nPor lo tanto, las políticas deben centrarse en facilitar el acceso a mejores puestos de trabajo.\n\nPara que esto sea posible, los gobiernos deben invertir en programas como la formación lingüística, la educación y la formación profesional para los inmigrantes. Deben garantizar que estos tengan acceso temprano a información sobre empleo, redes profesionales, asistencia en la búsqueda de trabajo y referencias de empleadores. Deben implementar un reconocimiento estandarizado y transparente de los títulos y credenciales extranjeras, ayudando a los inmigrantes a acceder a puestos de trabajo que se ajusten a sus habilidades y formación.\n\nEsto es especialmente importante para Europa, que se apresura a atraer –y retener– a inmigrantes cualificados que pueden estar reconsiderando su decisión de irse a Estados Unidos en la era Trump. En la Unión Europea, alrededor del 40 % de los inmigrantes no comunitarios con estudios universitarios tienen empleos que no requieren un título, lo que supone una infrautilización de las competencias conocida como desperdicio de cerebros.\n\nAlgunos países ya están tomando medidas para remediar esta situación. La Ley de Inmigración Cualificada de Alemania, que entró en vigor en 2024, permite a los titulados extranjeros trabajar mientras se reconoce oficialmente su título. En 2025, Francia reformó su permiso Passeport Talent para atraer a profesionales cualificados y hacer frente a la escasez de mano de obra, especialmente en el sector sanitario.\n\nEste tipo de políticas contribuyen a garantizar que los trabajadores extranjeros puedan aportar todo su potencial y que los países puedan aprovechar al máximo los beneficios de la inmigración en términos de aumento de la productividad, mayores ingresos fiscales y reducción de las desigualdades.\n\nSi los migrantes no pueden acceder a buenos puestos de trabajo, sus competencias quedan infrautilizadas y la sociedad sale perdiendo. Una política de inmigración inteligente no termina en la frontera, sino que comienza allí.\n\nMarta M. Elvira, IESE Business School (Universidad de Navarra); Are Skeie Hermansen, University of Oslo y Andrew Penner, University of California, Irvine.",
+                                        "metadata": {
+                                            "url": "https://www.ecoavant.com/actualidad/inmigrantes-en-europa-norteamerica-ganan-18-menos-nativos-aqui-las-razones_15428_102.html",
+                                            "source": "www.ecoavant.com",
+                                            "favicon": "https://www.ecoavant.com/uploads/static/ecoavant/favicon.ico",
+                                            "title": "Brecha salarial entre inmigrantes y nativos",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ecoavant.com",
+                                            "snippet": "Como apuntábamos, hemos constatado que los inmigrantes ganan un 17,9 % menos que los nativos, aunque la diferencia salarial varía mucho de un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Reformas favorables a la familia : Ampliar la reunificación para incluir a los dependientes de hasta 26 años y a las parejas con pruebas más sencillas, minimizando las barreras de reubicación y aumentando el atractivo para el talento global en las organizaciones medianas.\n\nRequisitos de cumplimiento más estrictos : Implementar el seguimiento digital del tiempo antes de octubre de 2025 y los informes anuales sobre igualdad salarial para las empresas con más de 50 empleados a fin de evitar multas de hasta 187 515 €, al tiempo que se da prioridad a los sectores con escasez de personal, como el de las ciencias, la tecnología, la ingeniería y las matemáticas (STEM), para agilizar las aprobaciones.\n\nUmbrales salariales ajustados : Alinear las ofertas con el SMI de 2025 de 1184 € al mes; más alto para los nómadas digitales (2762 € al mes) y las tarjetas azules de la UE (40 000-54 000 € al año) para garantizar la elegibilidad para el visado y evitar el rechazo de las solicitudes.\n\nAmpliación de la duración de los permisos para garantizar la estabilidad : los permisos de trabajo iniciales para ciudadanos no pertenecientes a la UE tienen ahora una duración de un año, con renovaciones de hasta cuatro años, lo que allana el camino para obtener la residencia de larga duración de diez años tras cinco años, lo que resulta ideal para retener el talento y reducir los ciclos administrativos de recursos humanos.\n\nEspaña, conocida por su sólida economía y sectores en rápida expansión, como la tecnología, la sanidad y las energías renovables, sigue atrayendo a profesionales cualificados de todo el mundo.\n\nSin embargo, las reformas migratorias de 2025, que entrarán en vigor el 20 de mayo de 2025, en virtud del Real Decreto 1155/2024, introducen cambios importantes en las categorías de permisos de trabajo, los períodos de validez y los requisitos de cumplimiento de los empleadores. Estas actualizaciones están diseñadas para agilizar la atracción de talento cualificado y reforzar la supervisión, pero también exigen a los empleadores que se adapten rápidamente para evitar retrasos o riesgos de incumplimiento.\n\nEsta guía describe los elementos clave de las reformas de los permisos de trabajo en España para 2025 y explica su impacto en los empleadores. Tanto si una organización contrata a un ingeniero altamente cualificado como si traslada un equipo de proyecto a Barcelona, este marco de cumplimiento ofrece pasos claros y viables para gestionar los nuevos procesos de manera eficiente. Con la plataforma de inmigración tecnológica de Jobbatical, los empleadores pueden simplificar todas las etapas de la contratación global y garantizar que su estrategia de personal se mantenga a la vanguardia de las normativas en constante evolución.\n\n‍\n\nPor qué las reformas de 2025 son importantes para los empleadores\n\nEl sistema de inmigración español está evolucionando para hacer frente a la escasez de mano de obra en sectores clave, como el científico-técnico, la hostelería, la construcción, la agricultura y la pesca. Las reformas dan prioridad a la agilización de los trámites, la ampliación de la duración de los permisos y las políticas favorables a la familia, con el fin de hacer que el país resulte más atractivo para los talentos no pertenecientes a la UE. Para los equipos de RR. HH. de las empresas medianas, esto significa:\n\nAcceso más fácil al talento global : las vías de contratación simplificadas reducen los obstáculos administrativos.\n\n: las vías de contratación simplificadas reducen los obstáculos administrativos. Mayores riesgos de incumplimiento : Los nuevos requisitos de seguimiento y notificación digitales conllevan multas más elevadas por incumplimiento.\n\n: Los nuevos requisitos de seguimiento y notificación digitales conllevan multas más elevadas por incumplimiento. Implicaciones en los costes: la actualización de los umbrales salariales podría afectar a la presupuestación de los puestos patrocinados.\n\nCon un aumento del 46,2 % en las solicitudes de permisos de residencia y trabajo solo en la primera mitad de 2025, la competencia por los mejores profesionales es feroz. Los empleadores que dominen estas reformas podrán asegurarse una ventaja competitiva, cubrir puestos más rápidamente y fomentar la diversidad en sus equipos. Sin embargo, cometer errores, como pasar por alto los nuevos protocolos de igualdad, podría dar lugar a auditorías o retrasos. ¿Está listo para trazar su camino hacia el futuro?\n\nCambios clave en el panorama de los permisos de trabajo en España para 2025\n\nLas reformas modifican múltiples aspectos del proceso de obtención de visados de trabajo. A continuación se ofrece una breve descripción general de las novedades más importantes para los empleadores:\n\n1. Periodos de validez ampliados para una mayor estabilidad\n\nAtrás quedaron los días de permisos cortos y fragmentados. Los permisos de trabajo iniciales para ciudadanos no pertenecientes a la UE ahora están estandarizados en un año, lo que proporciona una base sólida para la incorporación. Las renovaciones pasan a ser de cuatro años (en lugar de dos), lo que ofrece a los empleados una seguridad a más largo plazo y reduce la frecuencia de renovación para su equipo de recursos humanos.\n\nVía de residencia de larga duración : tras cinco años de residencia continua (permiso inicial + renovación), los trabajadores pueden optar a un permiso de larga duración de 10 años, lo que acelera el proceso de obtención de la ciudadanía. Esto fomenta la retención, ya que el talento invierte en España a largo plazo.\n\n: tras cinco años de residencia continua (permiso inicial + renovación), los trabajadores pueden optar a un permiso de larga duración de 10 años, lo que acelera el proceso de obtención de la ciudadanía. Esto fomenta la retención, ya que el talento invierte en España a largo plazo. Flexibilidad a corto plazo: ahora se pueden expedir determinados permisos, como los traslados dentro de la misma empresa o los puestos de trabajo estacionales, por un período inferior a 90 días, lo que resulta ideal para las contrataciones basadas en proyectos.\n\nConsejo para el empleador: Adapte los términos del contrato a estas duraciones para minimizar las interrupciones. Para las empresas medianas, esto significa presupuestar menos ciclos administrativos al año.\n\n2. Umbrales salariales actualizados para reflejar la realidad del mercado\n\nLos requisitos salariales se han recalibrado al salario mínimo interprofesional (SMI) de 2025 , que es de 1184 € al mes. Esto influye directamente en la elegibilidad para obtener un visado:\n\nTipo de visado Requisito de salario mínimo Implicaciones para los empleadores Permiso de trabajo estándar Al menos el salario mínimo interprofesional (1184 € al mes) Garantiza que los roles básicos cumplan los umbrales sin pagar de más. Visado para nómadas digitales 200 % del SMI (aproximadamente 2762 € al mes o 33 144 € al año) Atrae a trabajadores remotos; los empleadores deben verificar las políticas de trabajo remoto y las cláusulas contractuales. Tarjeta Azul de la UE / Altamente cualificado 40 000 € al año (puestos técnicos); 54 000 € al año (puestos directivos) Dirigido a ejecutivos y personal especializado; justifica una remuneración superior para los sectores con escasez de personal.\n\nEstos umbrales promueven una remuneración justa y se ajustan al crecimiento económico de España. El incumplimiento de estos requisitos puede invalidar las solicitudes, por lo que es recomendable revisar las ofertas de empleo con antelación.\n\n3. Mejora de las obligaciones de cumplimiento de los empleadores\n\nLas reformas hacen hincapié en la transparencia y la equidad, introduciendo herramientas e informes obligatorios a partir de octubre de 2025:\n\nSeguimiento digital del tiempo : Todas las empresas deben implementar sistemas certificados para registrar las horas de trabajo en tiempo real, incluso para los ejecutivos. Las autoridades deben tener acceso a ellos cuando lo soliciten.\n\n: Todas las empresas deben implementar sistemas certificados para registrar las horas de trabajo en tiempo real, incluso para los ejecutivos. Las autoridades deben tener acceso a ellos cuando lo soliciten. Informes sobre igualdad salarial y diversidad : Las empresas con más de 50 empleados deben presentar informes anuales sobre las diferencias salariales entre hombres y mujeres, con explicaciones sobre las disparidades. Implemente planes de igualdad y protocolos LGBT+ para evitar multas de hasta 187 515 €.\n\n: Las empresas con más de 50 empleados deben presentar informes anuales sobre las diferencias salariales entre hombres y mujeres, con explicaciones sobre las disparidades. Implemente planes de igualdad y protocolos LGBT+ para evitar multas de hasta 187 515 €. Contratación específica por sector: aprobaciones más fáciles para la contratación en ocupaciones con escasez de mano de obra, pero los empleadores deben demostrar pruebas del mercado laboral (por ejemplo, que no hay candidatos adecuados de la UE).\n\nConsejo profesional para directores de RR. HH.: intégrelos en su manual de movilidad global. Herramientas como la plataforma Jobbatical automatizan las comprobaciones de cumplimiento normativo y señalan los riesgos antes de la presentación.\n\n4. Reunificación familiar: mayor apoyo para los equipos que se trasladan\n\nPara aumentar el atractivo, las políticas familiares son más inclusivas:\n\nLos hijos dependientes pueden afiliarse hasta los 26 años si están estudiando o desempleados.\n\naños si están estudiando o desempleados. Las parejas no casadas y los padres se enfrentan a pruebas de dependencia simplificadas, lo que reduce el papeleo.\n\nLos familiares de residentes de larga duración o ciudadanos españoles obtienen derechos laborales inmediatos.\n\nEsto reduce las fricciones relacionadas con la reubicación, lo que le ayuda a atraer talento orientado a la familia. Para los empleadores, significa tener en cuenta los visados para cónyuges a la hora de hacer ofertas.\n\n5. Otros cambios notables\n\nVisado para solicitantes de empleo : Reducido a un año (desde dos), lo que fomenta una inserción laboral más rápida.\n\n: Reducido a (desde dos), lo que fomenta una inserción laboral más rápida. Cierre del programa Golden Visa : No se aceptarán nuevas solicitudes basadas en propiedades inmobiliarias; se dará prioridad a las vías para trabajadores cualificados.\n\n: No se aceptarán nuevas solicitudes basadas en propiedades inmobiliarias; se dará prioridad a las vías para trabajadores cualificados. Derechos laborales de los estudiantes: hasta 30 horas semanales, lo que abre vías para la contratación de titulados.\n\nUna hoja de ruta paso a paso sobre el cumplimiento normativo para empleadores\n\nCumplir con la normativa no tiene por qué ser una tarea abrumadora. Siga esta hoja de ruta por fases, diseñada específicamente para organizaciones medianas:\n\nPaso 1: Evalúe sus necesidades de contratación (antes de presentar la solicitud)\n\nIdentificar puestos en sectores con escasez de personal para aprovechar las aprobaciones por vía rápida.\n\nRevisa las ofertas salariales en función de los umbrales de 2025. Utiliza nuestra calculadora salarial Jobbatical para obtener información rápida.\n\nRealizar auditorías internas: garantizar que los sistemas de seguimiento digital estén implantados para octubre de 2025.\n\nPaso 2: Preparar la documentación (fase de solicitud)\n\nReúna pruebas: prueba del mercado laboral, contrato de trabajo y cualificaciones.\n\nPara las familias: Incluya pruebas de dependencia desde el principio para evitar retrasos.\n\nEnvíelo a través del portal online unificado de España; el trámite de los permisos estándar suele tardar entre 20 y 30 días.\n\nPaso 3: Incorporación y supervisión (posterior a la aprobación)\n\nFormar al departamento de RR. HH. en materia de informes sobre igualdad; programar presentaciones anuales.\n\nRealiza un seguimiento de los vencimientos de los permisos con recordatorios automáticos: el panel de control de Jobbatical se encarga de ello sin esfuerzo.\n\nSupervisar las renovaciones: solicitar 60 días antes de la fecha de vencimiento para obtener prórrogas de cuatro años sin interrupciones.\n\nPaso 4: Optimizar para la retención (en curso)\n\nApoye las trayectorias a largo plazo: oriente a los empleados hacia los hitos de residencia de cinco años.\n\nMedir el retorno de la inversión: realizar un seguimiento de cómo las reformas reducen el tiempo de contratación (el objetivo es un 15 % más rápido en 2025).\n\nSi sigues estos pasos, reducirás los riesgos y podrás acceder al talento que hay en España. Recuerda que las multas por incumplimiento han subido, así que no dejes que la burocracia frene tu crecimiento.\n\nAprovecha la oportunidad: asóciate con Jobbatical para una inmigración sin complicaciones.\n\nLas reformas de los permisos de trabajo en España para 2025 auguran una época dorada para los empleadores que buscan expandirse por Europa. Con visados más largos, ventajas familiares y contratación selectiva, el escenario está listo para que las empresas medianas creen equipos diversos y de alto rendimiento. Pero el éxito depende de una orientación experta, y ahí es donde Jobbatical destaca.\n\nNuestra plataforma integral agiliza las solicitudes de permisos de trabajo, el seguimiento del cumplimiento normativo y la logística de la reubicación, lo que permite a los equipos de RR. HH. ahorrar hasta un 40 % en tiempo de tramitación. Desde la comprobación de la elegibilidad para obtener un visado hasta la asistencia para la reunificación familiar, hemos ayudado a cientos de empresas a atraer talento a España sin complicaciones.\n\n¿Listo para reformar su estrategia de contratación? Reserve hoy mismo una demostración gratuita y trazaremos juntos su hoja de ruta hacia una movilidad global eficiente y conforme con la normativa.\n\n‍\n\n‍",
+                                        "metadata": {
+                                            "url": "https://www.jobbatical.com/es/blog/spain-work-permit-reforms-2025",
+                                            "source": "www.jobbatical.com",
+                                            "favicon": "https://cdn.prod.website-files.com/63d7d217c3ede67b816b3fd7/63e5fe50bb251914e757161e_Fav%20Icon-%20256px.png",
+                                            "title": "Reformas al permiso de trabajo en España para 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://www.jobbatical.com",
+                                            "snippet": "Umbrales salariales ajustados: Alinear las ofertas con el SMI de 2025 de 1184 € al mes; más alto para los nómadas digitales (2762 € al mes) y ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El Salario Mínimo Interprofesional (SMI) para 2025 se ha fijado en 1.184 euros mensuales, según el Real Decreto 87/2025 de 11 de febrero de 2025, publicado en el BOE de 12 de febrero de 2025.\n\nEste incremento del 4,41% supone una mejora en las condiciones salariales de miles de trabajadoras y trabajadores, especialmente migrantes, quienes representan un porcentaje significativo de la población que percibe el SMI en sectores clave como la agricultura, la hostelería, la construcción y el trabajo doméstico.\n\nEl SMI y su impacto en las trabajadoras y los trabajadores migrantes\n\nEl aumento del Salario Mínimo Interprofesional tiene un impacto directo en la población migrante en España, ya que muchas/os desempeñan empleos en sectores con altos niveles de precariedad y bajos salarios. Según datos recientes, una gran parte de las personas extranjeras empleadas en el país trabajan en sectores como:\n\nAgricultura\n\nHostelería y restauración\n\nTrabajo doméstico y cuidados\n\nConstrucción\n\nTransporte y logística\n\nPara estos colectivos, el incremento del 4,41% en el SMI significa una leve mejora en su poder adquisitivo y estabilidad económica.\n\nCondiciones especiales para temporeras y temporeros y empleadas y empleados del hogar\n\nEl Real Decreto 87/2025 de 11 de febrero de 2025, publicado en el BOE el 12 de febrero de 2025, también regula el salario mínimo para trabajador@s temporales y emplead@s del hogar, sectores donde la presencia de personas migrantes es especialmente alta:\n\nTrabajador@s eventuales y temporer@s (cuyo contrato no supere los 120 días ) recibirán un salario de 56,08 euros por jornada trabajada .\n\n(cuyo contrato no supere los ) recibirán un salario de . Personas empleadas del hogar que trabajan por horas en régimen externo tendrán un salario mínimo de 9,26 euros por hora trabajada.\n\nEstos ajustes buscan mejorar la situación de sectores tradicionalmente precarizados, donde una gran parte de la mano de obra es de origen extranjero.",
+                                        "metadata": {
+                                            "url": "https://poruntrabajodignougt.org/el-aumento-del-smi-en-2025-impacto-en-la-poblacion-migrante-en-espana/",
+                                            "source": "poruntrabajodignougt.org",
+                                            "favicon": "https://poruntrabajodignougt.org/wp-content/uploads/2022/02/cropped-favicon_trabajo_digno-32x32.png",
+                                            "title": "El aumento del SMI en 2025: impacto en la población ...",
+                                            "type": "web_search",
+                                            "base_url": "https://poruntrabajodignougt.org",
+                                            "snippet": "El aumento del SMI en 2025, se ha fijado en 1.184 euros mensuales, y su impacto en la población migrante en España."
+                                        }
+                                    },
+                                    {
+                                        "text": "¡Importante novedad! Migraciones aprueba la nueva orden (GECCO) de contratación de personas extranjeras para 2025.\n\nLa Orden ISM/1488/2024 regula la gestión colectiva de contrataciones en origen para este año.\n\n¿Qué cambia en 2025? Te lo contamos más abajo. Así es el nuevo plan 2025 para contratar a trabajadores extranjeros:\n\n¿Qué es la Orden de contratación de personas extranjeras?\n\nEs una normativa diseñada para responder a las demandas del mercado laboral español garantizando mano de obra en sectores esenciales.\n\nEl objetivo es captar a personas trabajadoras extranjeras para sectores productivos, principalmente el sector agrícola, a través de un sistema de migración circular.\n\nLa selección de personal se realiza en sus países de origen a partir de ofertas genéricas presentadas por una o varias empresas.\n\nLos contratos pueden ser estacionales, temporales o plurianuales.",
+                                        "metadata": {
+                                            "url": "https://www.grupo2000.es/asi-es-el-nuevo-plan-2025-para-contratar-a-trabajadores-extranjeros/",
+                                            "source": "www.grupo2000.es",
+                                            "favicon": "https://www.grupo2000.es/wp-content/uploads/2025/05/cropped-isotipo_grupo2000-32x32.png",
+                                            "title": "Así es el nuevo plan 2025 para contratar a trabajadores ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.grupo2000.es",
+                                            "snippet": "El objetivo es captar a personas trabajadoras extranjeras para sectores productivos, principalmente el sector agrícola, a través de un sistema de migración ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Principales cambios del nuevo Reglamento de Extranjería\n\nShare on:\n\n03 febrero, 2025\n\nEn noviembre, el Gobierno aprobó un nuevo Reglamento de Extranjería que entrará en vigor el próximo 20 de mayo del vigente año. La nueva normativa establece mejoras, pero no logra un cambio sustancial y definitivo, dejando atrás objetivos clave que habíamos propuesto las organizaciones sociales que trabajamos por los derechos de las personas migrantes y refugiadas.\n\nComo aspectos positivos destacan la reducción en un año del tiempo exigido para solicitar la regularización de la situación administrativa por arraigo, la flexibilización de requisitos o el desarrollo de los visados como vía regular de entrada. Sin embargo, este nuevo Reglamento de Extranjería también supone un grave retroceso para las personas solicitantes de asilo que se encuentran pendientes de resolución o admisión, ya que las deja en situación administrativa irregular si sus peticiones son denegadas, y no tiene en cuenta algunas de las propuestas de las principales organizaciones sociales que trabajan con personas migrantes y refugiadas en España.\n\nA continuación, resumimos los principales cambios en la residencia por arraigo que trae esta nueva normativa que condicionará la vida de miles de personas que forman parte de la sociedad:\n\nRégimen transitorio\n\nDurante el primer año desde la entrada en vigor del nuevo Reglamento de Extranjería (del 20 de mayo de 2025 al 20 de mayo de 2026), habrá un periodo transitorio al que se pueden acoger las personas solicitantes de asilo, siempre y cuando cumplan los siguientes requisitos.\n\nEstar en situación irregular a 20 de mayo de 2025 por denegación firme de la solicitud de protección internacional. Es decir, haber recibido la notificación de la resolución del Ministerio del Interior antes del 20/03/2025 y no haber presentado recurso, o, habiéndolo presentado, tener ya una respuesta negativa o desistir del mismo.\n\npor denegación firme de la solicitud de protección internacional. Es decir, haber recibido la notificación de la resolución del Ministerio del Interior antes del 20/03/2025 y no haber presentado recurso, o, habiéndolo presentado, tener ya una respuesta negativa o desistir del mismo. Llevar seis meses en situación irregular antes de la solicitud del arraigo\n\nantes de la solicitud del arraigo Cumplir los demás requisitos de los arraigos , en resumen: Sociolaboral: uno o más contratos laborales de mínimo 20 horas semanales y salario mínimo interprofesional proporcional. Social: familiares en primer grado línea directa, cónyuge o pareja residentes legales o informe de esfuerzo de integración. Asimismo, será necesario disponer de medios económicos familiares o por cuenta propia equivalentes al 100 % del Indicador Público de Renta de Efectos Múltiples (IPREM) Socioformativo: informe de esfuerzo de integración y estar matriculado o cursando en centros acreditados ciertos estudios\n\n, en resumen:\n\nArraigo Segunda Oportunidad\n\nAutorización de residencia y trabajo por cuenta propia o cuenta ajena de un año de duración, siempre que cumpla estos requisitos:\n\nNo ser solicitante de protección internacional\n\nDos años en España (no cuenta el tiempo como solicitante de protección internacional)\n\n(no cuenta el tiempo como solicitante de protección internacional) Haber sido titular de una autorización de residencia (no por circunstancias excepcionales) los últimos dos años, que no haya podido renovarse por causas distintas a ser una amenaza para la seguridad nacional, orden y salud públicos.\n\nArraigo sociolaboral\n\nAutorización de residencia y trabajo (cuenta propia o cuenta ajena) de un año de duración. Si cumple los siguientes requisitos:\n\nNo ser solicitante de protección internacional\n\nDos años en España (no cuenta el tiempo como solicitante de protección internacional)\n\n(no cuenta el tiempo como solicitante de protección internacional) Uno o más contratos laborales de mínimo 20 horas semanales y salario mínimo interprofesional que sea proporcional.\n\nArraigo social\n\nAutorización de residencia y trabajo por cuenta propia o cuenta ajena de un año de duración, si cumple los siguientes requisitos:\n\nNo ser solicitante de protección internacional\n\nDos años residiendo en España (no cuenta el tiempo como solicitante de protección internacional)\n\n(no cuenta el tiempo como solicitante de protección internacional) Familiares en primer grado línea directa, cónyuge o pareja residentes legales o informe de esfuerzo de integración\n\nresidentes legales o informe de esfuerzo de integración Medios económicos de familiares o por cuenta propia equivalentes al 100% del IPREM.\n\nArraigo socioformativo\n\nAutorización de residencia y trabajo por cuenta ajena (30 horas semanales) de un año de duración. Requisitos:\n\nNo ser solicitante de protección internacional\n\nDos años de residencia en España (no cuenta el tiempo como solicitante de protección internacional)\n\n(no cuenta el tiempo como solicitante de protección internacional) Informe de esfuerzo de integración\n\nEstar matriculado o estar cursando en centros acreditados estudios de educación secundaria postobligatoria, certificados profesionales de Formación Profesional de grado C, enseñanzas obligatorias para adultos o formación SEPE para empleos del catálogo de difícil cobertura\n\nArraigo familiar\n\nAutorización de residencia y trabajo de cinco años. Requisitos:",
+                                        "metadata": {
+                                            "url": "https://www.cear.es/noticias/principales-cambios-del-nuevo-reglamento-de-extranjeria/",
+                                            "source": "www.cear.es",
+                                            "favicon": "https://www.cear.es/wp-content/uploads/2016/11/logoR.jpg",
+                                            "title": "Principales cambios del nuevo Reglamento de Extranjería",
+                                            "type": "web_search",
+                                            "base_url": "https://www.cear.es",
+                                            "snippet": "En noviembre, el Gobierno aprobó un nuevo Reglamento de Extranjería que entrará en vigor el próximo 20 de mayo del vigente año."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los autores descubrieron que la brecha salarial de los inmigrantes se debe principalmente a su acceso limitado a sectores, ocupaciones y empresas con salarios más altos. La selección de los inmigrantes para los trabajos peor pagados explica tres cuartas partes de la brecha, mientras que la parte restante corresponde a la desigualdad salarial por el mismo trabajo.\n\nLa brecha salarial de los inmigrantes se reduce con el tiempo\n\nEn los países con datos disponibles –Alemania, Canadá, Dinamarca, Países Bajos, Noruega y Suecia–, los investigadores también han estudiado la situación salarial de los hijos de los inmigrantes nacidos en esos territorios para determinar si los patrones de desigualdad se perpetúan de una generación a otra.\n\nEn esta segunda generación, la brecha total se reduce al 5,7%, aunque, de nuevo, se observan diferencias entre países: Noruega (8,7%), Alemania (7,7%), Países Bajos (5,5%), Suecia (5,3%), Dinamarca (5,2%) y Canadá (1,9%). Por regiones, donde más persiste la brecha es entre los hijos de inmigrantes del África Subsahariana (11,8%), Latinoamérica (10,3%) y Oriente Medio y África del Norte (7,8). En cuanto a las causas, cerca del 80% de la brecha se debe a la selección diferencial y tan solo el 1,1%, a la desigualdad salarial por el mismo trabajo.\n\nLa brecha salarial de los inmigrantes en España, la más alta\n\nEspaña destaca por tener una brecha salarial especialmente alta, pese a que la inmigración ha contribuido significativamente al crecimiento económico en los últimos años.\n\nEn comparación con otros países del estudio, España cuenta con una fuerte presencia de inmigrantes desde hace menos tiempo, por lo que aún le queda camino por recorrer para integrarlos plenamente en su mercado laboral. La inmigración creció mucho a principios de los 2000, se estabilizó tras la crisis financiera de 2008 y volvió a dispararse en 2018. Los nacidos en el extranjero representan actualmente el 18% de la población, un porcentaje que, según proyecciones oficiales, aumentará al 39% dentro de 50 años.\n\nLos inmigrantes trabajan en su mayoría en turismo, cuidados, agricultura y construcción, sectores de rápido crecimiento pero bajos salarios, y en pymes. Sus contratos suelen ser temporales o de media jornada, lo que afecta al salario. Además, tienen un acceso limitado al empleo público, que en España suele ser estable y está bien remunerado.\n\nPor otro lado, la inmensa mayoría de los inmigrantes son de África del Norte y Latinoamérica, aunque existe un número relativamente más pequeño de trabajadores extranjeros bien pagados, originarios del resto de Europa y de Norteamérica.",
+                                        "metadata": {
+                                            "url": "https://www.iese.edu/es/insight/articulos/inmigracion-brecha-salarial-espana/",
+                                            "source": "www.iese.edu",
+                                            "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/01/Website_icon.svg",
+                                            "title": "Por qué los inmigrantes ganan un 18% menos y cómo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.iese.edu",
+                                            "snippet": "El acceso limitado a empleos bien remunerados explica el 75% de la brecha salarial inmigrante, según un estudio en Europa y Norteamérica."
+                                        }
+                                    },
+                                    {
+                                        "text": "Los trabajadores inmigrantes en España ganan un 29,3 % menos que los empleados nativos, según un estudio conocido este miércoles que pone de manifiesto que esto se debe a las dificultades para acceder a puestos de trabajo mejor remunerados en sectores, profesiones y empresas. La brecha salarial es comparable a la que se observa en Canadá (27,5 %), pero mayor a la de otros países europeos como Noruega, Alemania o Suecia.\n\nEstas son algunas de las conclusiones de una investigación publicada hoy por la revista Nature que analiza datos de empleadores y empleados de 13,5 millones de personas de nueve países receptores de inmigrantes en Europa y Norteamérica: Canadá, Dinamarca, Francia, Alemania, Países Bajos, Noruega, España, Suecia y Estados Unidos.\n\nDirigido por Are Skeie Hermansen, de la Universidad de Oslo, el estudio ha sido elaborado por investigadores de más de una docena de universidades de todo el mundo; y por parte española participa IESE Business School.\n\nEl estudio pretende cuantificar la brecha salarial entre inmigrantes y nativos en los nueve países, así como identificar el origen de las disparidades salariales: si los inmigrantes ganan menos porque acaban en industrias, ocupaciones y empresas con salarios más bajos, o si ganan menos porque se les paga menos que a los no inmigrantes por realizar el mismo trabajo en la misma empresa.\n\nEl artículo documenta que la brecha salarial entre inmigrantes y nativos, que se situó en general y de media en un 17,9 %, no se debe principalmente a la desigualdad salarial por el mismo trabajo, sino al acceso limitado de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados (lo que se conoce como clasificación).\n\nMás concretamente, un 75 % de la diferencia se debía a la clasificación en empleos con salarios más bajos y el resto a diferencias salariales por el mismo trabajo y en la misma empresa (lo que se conoce como desigualdad dentro del trabajo).\n\nLa brecha salarial variaba mucho entre los países para los inmigrantes de primera generación. España (29,3 %) y Canadá (27,5 %) tenían las mayores brechas. Noruega (20,3 %), Alemania (19,6 %), Francia (18,9 %) y los Países Bajos (15,4 %) registraron diferencias medias.\n\nLas diferencias más pequeñas en relación con los locales se encontraron en Estados Unidos (10,6 %), Dinamarca (9,2 %) y Suecia (7,0 %).\n\nInmigrantes de segunda generación\n\nEn los países donde se disponía de datos (Canadá, Dinamarca, Alemania, Países Bajos, Noruega y Suecia), los investigadores también analizaron a los hijos de los inmigrantes para descubrir si los mismos patrones de ingresos se mantenían a lo largo de las generaciones.\n\nEn el caso de la segunda generación, la brecha general se había reducido a un 5,7 %, pero seguía persistiendo, especialmente en el caso de los hijos de inmigrantes procedentes de África y Oriente Medio. La diferencia salarial dentro del mismo puesto de trabajo era, en promedio, de un 1,1 %.\n\nPara los autores del estudio, la investigación tiene importantes implicaciones políticas, ya que indica si las medidas de integración deben centrarse en la igualdad salarial por el mismo trabajo o en mejorar el acceso a puestos de trabajo mejor remunerados.\n\nEstos resultados ponen de relieve la importancia de las políticas destinadas a mejorar el acceso, mediante medidas como la formación lingüística, el desarrollo de competencias, la ayuda en la búsqueda de empleo, las oportunidades de educación nacional, el reconocimiento de títulos extranjeros y la mejora del acceso a la información y las redes relevantes para el empleo.\n\nLas políticas dirigidas a combatir los prejuicios de los empleadores en las decisiones de contratación y promoción también pueden ser eficaces, señalan los autores.",
+                                        "metadata": {
+                                            "url": "https://www.levante-emv.com/sociedad/2025/07/16/inmigrantes-espana-ganan-29-trabajadores-119767419.html",
+                                            "source": "www.levante-emv.com",
+                                            "favicon": "https://www.levante-emv.com/cds-statics/LMV/favicons/android-icon-48x48.png",
+                                            "title": "Los inmigrantes en España ganan un 29 % menos que ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.levante-emv.com",
+                                            "snippet": "Los trabajadores inmigrantes en España ganan un 29,3 % menos que los empleados nativos, según un estudio conocido este miércoles que pone de ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.5424984410001343,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.5424984410001343,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:04",
+                    "run_time": 2.5424984410001343,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los salarios medios de los inmigrantes en España en 2025 según el INE?": [
+                                {
+                                    "Como apuntábamos, hemos constatado que los inmigrantes ganan un 17,9 % menos que los nativos, aunque la diferencia salarial varía mucho de un Estado a otro. En España, un país que ha acogido a un gran número de inmigrantes en los últimos años, esa diferencia supera el 29 %. En Suecia, donde muchos inmigrantes encuentran trabajo en el sector público, es solo del 7 %. Estos resultados no incluyen a aquellos desempleados ni a los que trabajan en la economía informal.": null
+                                },
+                                {
+                                    "Los trabajadores inmigrantes en España ganan un 29,3 % menos que los empleados nativos, según un estudio conocido este miércoles que pone de manifiesto que esto se debe a las dificultades para acceder a puestos de trabajo mejor remunerados en sectores, profesiones y empresas. La brecha salarial es comparable a la que se observa en Canadá (27,5 %), pero mayor a la de otros países europeos como Noruega, Alemania o Suecia.": null
+                                },
+                                {
+                                    "España destaca por tener una brecha salarial especialmente alta, pese a que la inmigración ha contribuido significativamente al crecimiento económico en los últimos años.": null
+                                }
+                            ],
+                            "¿Cómo se comparan los salarios de inmigrantes sudamericanos con los de nacionales en la EPA de 2025?": [
+                                {
+                                    "El lugar de nacimiento también influye. Las diferencias salariales medias más elevadas se registraban entre los migrantes procedentes del África subsahariana (26,1 %) y de Oriente Medio y el norte de África (23,7 %). En el caso de aquellos procedentes de Europa, América del Norte y otros países occidentales, la diferencia salarial media con respecto a los nativos era mucho más modesta, del 9 %.": null
+                                },
+                                {
+                                    "El estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).": null
+                                },
+                                {
+                                    "Más allá de cuantificar la brecha, queríamos comprender las raíces de las disparidades salariales. Para crear mejores políticas, es importante saber si los inmigrantes cobran menos que los nativos cuando realizan el mismo trabajo en la misma empresa, o si estas diferencias se deben a que los extranjeros suelen trabajar en empleos peor remunerados.": null
+                                }
+                            ],
+                            "¿Existen diferencias salariales entre inmigrantes africanos y europeos en España?": [
+                                {
+                                    "Los trabajadores inmigrantes en España ganan un 29,3 % menos que los empleados nativos, según un estudio conocido este miércoles que pone de manifiesto que esto se debe a las dificultades para acceder a puestos de trabajo mejor remunerados en sectores, profesiones y empresas. La brecha salarial es comparable a la que se observa en Canadá (27,5 %), pero mayor a la de otros países europeos como Noruega, Alemania o Suecia.": null
+                                },
+                                {
+                                    "España destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.": null
+                                },
+                                {
+                                    "El estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).": null
+                                }
+                            ],
+                            "¿Cuáles son las políticas de empleo y salarios mínimos aplicadas a inmigrantes en España?": [
+                                {
+                                    "El aumento del Salario Mínimo Interprofesional tiene un impacto directo en la población migrante en España, ya que muchas/os desempeñan empleos en sectores con altos niveles de precariedad y bajos salarios. Según datos recientes, una gran parte de las personas extranjeras empleadas en el país trabajan en sectores como:": null
+                                },
+                                {
+                                    "Los inmigrantes trabajan en su mayoría en turismo, cuidados, agricultura y construcción, sectores de rápido crecimiento pero bajos salarios, y en pymes. Sus contratos suelen ser temporales o de media jornada, lo que afecta al salario. Además, tienen un acceso limitado al empleo público, que en España suele ser estable y está bien remunerado.": null
+                                },
+                                {
+                                    "Como apuntábamos, hemos constatado que los inmigrantes ganan un 17,9 % menos que los nativos, aunque la diferencia salarial varía mucho de un Estado a otro. En España, un país que ha acogido a un gran número de inmigrantes en los últimos años, esa diferencia supera el 29 %. En Suecia, donde muchos inmigrantes encuentran trabajo en el sector público, es solo del 7 %. Estos resultados no incluyen a aquellos desempleados ni a los que trabajan en la economía informal.": null
+                                }
+                            ],
+                            "¿Qué sectores presentan mayor brecha salarial entre inmigrantes y nacionales?": [
+                                {
+                                    "Los autores descubrieron que la brecha salarial de los inmigrantes se debe principalmente a su acceso limitado a sectores, ocupaciones y empresas con salarios más altos. La selección de los inmigrantes para los trabajos peor pagados explica tres cuartas partes de la brecha, mientras que la parte restante corresponde a la desigualdad salarial por el mismo trabajo.": null
+                                },
+                                {
+                                    "El artículo documenta que la brecha salarial entre inmigrantes y nativos, que se situó en general y de media en un 17,9 %, no se debe principalmente a la desigualdad salarial por el mismo trabajo, sino al acceso limitado de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados (lo que se conoce como clasificación).": null
+                                },
+                                {
+                                    "Más allá de cuantificar la brecha, queríamos comprender las raíces de las disparidades salariales. Para crear mejores políticas, es importante saber si los inmigrantes cobran menos que los nativos cuando realizan el mismo trabajo en la misma empresa, o si estas diferencias se deben a que los extranjeros suelen trabajar en empleos peor remunerados.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 19.869763013999545,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 19.869763013999545,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:24",
+                    "run_time": 19.869763013999545,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLos inmigrantes en España cobran menos dinero por realizar el mismo trabajo\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los salarios medios de los inmigrantes en España en 2025 según el INE?\n¿Cómo se comparan los salarios de inmigrantes sudamericanos con los de nacionales en la EPA de 2025?\n¿Existen diferencias salariales entre inmigrantes africanos y europeos en España?\n¿Cuáles son las políticas de empleo y salarios mínimos aplicadas a inmigrantes en España?\n¿Qué sectores presentan mayor brecha salarial entre inmigrantes y nacionales?\n\n3. Here are the text sources you should use as your source of information:\n[0] Como apuntábamos, hemos constatado que los inmigrantes ganan un 17,9 % menos que los nativos, aunque la diferencia salarial varía mucho de un Estado a otro. En España, un país que ha acogido a un gran número de inmigrantes en los últimos años, esa diferencia supera el 29 %. En Suecia, donde muchos inmigrantes encuentran trabajo en el sector público, es solo del 7 %. Estos resultados no incluyen a aquellos desempleados ni a los que trabajan en la economía informal.\n[0] El lugar de nacimiento también influye. Las diferencias salariales medias más elevadas se registraban entre los migrantes procedentes del África subsahariana (26,1 %) y de Oriente Medio y el norte de África (23,7 %). En el caso de aquellos procedentes de Europa, América del Norte y otros países occidentales, la diferencia salarial media con respecto a los nativos era mucho más modesta, del 9 %.\n[0] Más allá de cuantificar la brecha, queríamos comprender las raíces de las disparidades salariales. Para crear mejores políticas, es importante saber si los inmigrantes cobran menos que los nativos cuando realizan el mismo trabajo en la misma empresa, o si estas diferencias se deben a que los extranjeros suelen trabajar en empleos peor remunerados.\n[1] Los trabajadores inmigrantes en España ganan un 29,3 % menos que los empleados nativos, según un estudio conocido este miércoles que pone de manifiesto que esto se debe a las dificultades para acceder a puestos de trabajo mejor remunerados en sectores, profesiones y empresas. La brecha salarial es comparable a la que se observa en Canadá (27,5 %), pero mayor a la de otros países europeos como Noruega, Alemania o Suecia.\n[1] El artículo documenta que la brecha salarial entre inmigrantes y nativos, que se situó en general y de media en un 17,9 %, no se debe principalmente a la desigualdad salarial por el mismo trabajo, sino al acceso limitado de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados (lo que se conoce como clasificación).\n[2] España destaca por tener una brecha salarial especialmente alta, pese a que la inmigración ha contribuido significativamente al crecimiento económico en los últimos años.\n[2] Los inmigrantes trabajan en su mayoría en turismo, cuidados, agricultura y construcción, sectores de rápido crecimiento pero bajos salarios, y en pymes. Sus contratos suelen ser temporales o de media jornada, lo que afecta al salario. Además, tienen un acceso limitado al empleo público, que en España suele ser estable y está bien remunerado.\n[2] Los autores descubrieron que la brecha salarial de los inmigrantes se debe principalmente a su acceso limitado a sectores, ocupaciones y empresas con salarios más altos. La selección de los inmigrantes para los trabajos peor pagados explica tres cuartas partes de la brecha, mientras que la parte restante corresponde a la desigualdad salarial por el mismo trabajo.\n[3] El estudio también constata diferencias entre la brecha salarial que enfrentan los trabajadores extranjeros según su origen. Las mayores desventajas las sufren los inmigrantes de África Subsahariana (−26%), Oriente Medio y Norte de África (−24%), seguidos de Asia (20%) y Latinoamérica (-18,5%). Los trabajadores que proceden de otros países europeos y de Norteamérica presentan un dato muy inferior (9%).\n[3] España destaca como el país con una mayor brecha salarial total (29%) y, además, también presenta una de las mayores desigualdades retributivas en el mismo empleo (definido como misma ocupación y empleador). Esta diferencia, en apariencia no justicada por el empleo, podría ser una muestra de discriminación hacia los trabajadores migrantes.\n[4] El aumento del Salario Mínimo Interprofesional tiene un impacto directo en la población migrante en España, ya que muchas/os desempeñan empleos en sectores con altos niveles de precariedad y bajos salarios. Según datos recientes, una gran parte de las personas extranjeras empleadas en el país trabajan en sectores como:\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Argumentos a favor de la afirmación**  \nSegún el estudio mencionado, los inmigrantes en España cobran un 29,3 % menos que los nativos, lo que constituye una brecha salarial comparable a la de Canadá (27,5 %) pero superior a la de países como Noruega, Alemania o Suecia [1]. Esta diferencia se atribuye principalmente a la limitación del acceso de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados, lo que explica tres cuartas partes de la brecha salarial [2]. Además, los inmigrantes suelen trabajar en sectores de rápido crecimiento pero con salarios bajos, como turismo, cuidados, agricultura y construcción, así como en pymes, lo que afecta negativamente a su retribución [2]. También se observa que los inmigrantes africanos y de Oriente Medio presentan una brecha salarial más elevada (26,1 % y 23,7 %, respectivamente) en comparación con los procedentes de Europa o América del Norte (9 %) [0].  \n\n**Argumentos en contra de la afirmación**  \nEl estudio también destaca que la brecha salarial entre inmigrantes y nativos se debe principalmente al acceso limitado a sectores y empleos mejor remunerados, en lugar de a una desigualdad salarial por el mismo trabajo [1]. Esto implica que, en algunos casos, los inmigrantes perciben salarios similares a los nativos cuando realizan el mismo empleo en la misma empresa, pero no tienen acceso a estos puestos debido a factores como la discriminación o la estructura del mercado laboral [1]. Además, los inmigrantes tienen un acceso limitado al empleo público, que en España suele ser estable y bien remunerado, lo que podría explicar parte de la brecha salarial [2].  \n\n**Conclusión**  \nLa afirmación es **parcialmente cierta**. Los inmigrantes en España cobran menos dinero en general, especialmente en sectores y ocupaciones con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores. En muchos casos, la diferencia se debe a la limitación del acceso a empleos mejor remunerados y a la estructura del mercado laboral [1]. Además, existen diferencias salariales según el origen de los inmigrantes, siendo más elevadas en los procedentes de África Subsahariana y Oriente Medio [0]. Por tanto, la afirmación es incompleta, ya que no todos los inmigrantes cobran menos por el mismo trabajo, sino que la brecha salarial se debe a factores adicionales como la selección de empleos y la discriminación."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.5039469090006605,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.5039469090006605,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:55:27",
+                    "run_time": 3.5039469090006605,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo\nArticle: **Argumentos a favor de la afirmación**  \nSegún el estudio mencionado, los inmigrantes en España cobran un 29,3 % menos que los nativos, lo que constituye una brecha salarial comparable a la de Canadá (27,5 %) pero superior a la de países como Noruega, Alemania o Suecia [1]. Esta diferencia se atribuye principalmente a la limitación del acceso de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados, lo que explica tres cuartas partes de la brecha salarial [2]. Además, los inmigrantes suelen trabajar en sectores de rápido crecimiento pero con salarios bajos, como turismo, cuidados, agricultura y construcción, así como en pymes, lo que afecta negativamente a su retribución [2]. También se observa que los inmigrantes africanos y de Oriente Medio presentan una brecha salarial más elevada (26,1 % y 23,7 %, respectivamente) en comparación con los procedentes de Europa o América del Norte (9 %) [0].  \n\n**Argumentos en contra de la afirmación**  \nEl estudio también destaca que la brecha salarial entre inmigrantes y nativos se debe principalmente al acceso limitado a sectores y empleos mejor remunerados, en lugar de a una desigualdad salarial por el mismo trabajo [1]. Esto implica que, en algunos casos, los inmigrantes perciben salarios similares a los nativos cuando realizan el mismo empleo en la misma empresa, pero no tienen acceso a estos puestos debido a factores como la discriminación o la estructura del mercado laboral [1]. Además, los inmigrantes tienen un acceso limitado al empleo público, que en España suele ser estable y bien remunerado, lo que podría explicar parte de la brecha salarial [2].  \n\n**Conclusión**  \nLa afirmación es **parcialmente cierta**. Los inmigrantes en España cobran menos dinero en general, especialmente en sectores y ocupaciones con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores. En muchos casos, la diferencia se debe a la limitación del acceso a empleos mejor remunerados y a la estructura del mercado laboral [1]. Además, existen diferencias salariales según el origen de los inmigrantes, siendo más elevadas en los procedentes de África Subsahariana y Oriente Medio [0]. Por tanto, la afirmación es incompleta, ya que no todos los inmigrantes cobran menos por el mismo trabajo, sino que la brecha salarial se debe a factores adicionales como la selección de empleos y la discriminación.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo\nArticle: **Argumentos a favor de la afirmación**  \nSegún el estudio mencionado, los inmigrantes en España cobran un 29,3 % menos que los nativos, lo que constituye una brecha salarial comparable a la de Canadá (27,5 %) pero superior a la de países como Noruega, Alemania o Suecia [1]. Esta diferencia se atribuye principalmente a la limitación del acceso de los inmigrantes a sectores, ocupaciones y empresas mejor remunerados, lo que explica tres cuartas partes de la brecha salarial [2]. Además, los inmigrantes suelen trabajar en sectores de rápido crecimiento pero con salarios bajos, como turismo, cuidados, agricultura y construcción, así como en pymes, lo que afecta negativamente a su retribución [2]. También se observa que los inmigrantes africanos y de Oriente Medio presentan una brecha salarial más elevada (26,1 % y 23,7 %, respectivamente) en comparación con los procedentes de Europa o América del Norte (9 %) [0].  \n\n**Argumentos en contra de la afirmación**  \nEl estudio también destaca que la brecha salarial entre inmigrantes y nativos se debe principalmente al acceso limitado a sectores y empleos mejor remunerados, en lugar de a una desigualdad salarial por el mismo trabajo [1]. Esto implica que, en algunos casos, los inmigrantes perciben salarios similares a los nativos cuando realizan el mismo empleo en la misma empresa, pero no tienen acceso a estos puestos debido a factores como la discriminación o la estructura del mercado laboral [1]. Además, los inmigrantes tienen un acceso limitado al empleo público, que en España suele ser estable y bien remunerado, lo que podría explicar parte de la brecha salarial [2].  \n\n**Conclusión**  \nLa afirmación es **parcialmente cierta**. Los inmigrantes en España cobran menos dinero en general, especialmente en sectores y ocupaciones con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores. En muchos casos, la diferencia se debe a la limitación del acceso a empleos mejor remunerados y a la estructura del mercado laboral [1]. Además, existen diferencias salariales según el origen de los inmigrantes, siendo más elevadas en los procedentes de África Subsahariana y Oriente Medio [0]. Por tanto, la afirmación es incompleta, ya que no todos los inmigrantes cobran menos por el mismo trabajo, sino que la brecha salarial se debe a factores adicionales como la selección de empleos y la discriminación."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Los inmigrantes en España cobran menos dinero por realizar el mismo trabajo\", \"categories\": [\"Sociedad\", \"Economía\", \"Inmigración\"], \"label\": \"True\", \"main_claim\": \"Los inmigrantes en España cobran menos dinero en general, especialmente en sectores con salarios bajos, pero la brecha salarial no siempre se debe a que realicen el mismo trabajo con salarios inferiores\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

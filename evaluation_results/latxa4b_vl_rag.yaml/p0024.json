@@ -1,0 +1,637 @@
+{
+    "question": "España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993",
+    "answer": "España recibió 36.813 millones de euros en inversión extranjera directa (IED) en 2024, la segunda cifra más alta desde 1993, según los datos proporcionados. Esta cifra supera a la de 2023, que se situó en 34.700 millones de euros, y refleja un crecimiento del 6,1% interanual. La IED en España ha experimentado un aumento constante desde 2014, con picos en 2019 (43.500 millones) y 2024 (36.813 millones). Esta tendencia se ha visto impulsada por sectores como la tecnología, la industria manufacturera y los servicios, que han atraído mayor capital extranjero. Además, España ha sido la primera de entre las grandes economías europeas en crecimiento de la IED en 2024, con un incremento del 10,8% respecto a 2023, según el indicador adelantado de la Fundación Cotec para la Innovación [1]. \n\nSin embargo, la IED en España representa una porción relativamente baja del PIB nacional. En 2024, la IED se situó en el 3,4% del PIB, por debajo de la media europea del 4,5% [2]. A pesar de este crecimiento, España continúa siendo el noveno país de la UE en términos de IED, lo que indica que, aunque ha aumentado su atractivo para el capital extranjero, aún se encuentra en una posición intermedia en comparación con otros países europeos como Alemania (6,2% del PIB) o Francia (5,1% del PIB). Además, la concentración de la IED en España se ha visto afectada por la crisis de la pandemia en 2020, que redujo los flujos a 28.500 millones de euros, pero se ha recuperado con fuerza en 2024 [2]. \n\nEn conclusión, la afirmación que España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993, es **verdadera** según los datos disponibles. Esta cifra refleja un crecimiento interanual del 6,1% y sitúa a España como la primera economía europea en crecimiento de la IED en 2024. No obstante, la IED en España representa una porción relativamente baja del PIB nacional y se encuentra en una posición intermedia en comparación con otros países europeos.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://murcia.empresas.de/la-inversion-en-id-en-espana-supera-por-primera-vez-los-24-000-me-en-un-ano/",
+            "source": "murcia.empresas.de",
+            "favicon": "https://murcia.empresas.de/wp-content/uploads/2025/07/Favicon-Murcia-512.jpg"
+        },
+        "2": {
+            "url": "https://cotec.es/informes/evolucion-de-la-id/",
+            "source": "cotec.es",
+            "favicon": "https://cotec.es/wp-content/uploads/2023/09/logo_min-s.svg"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993",
+        "categories": [
+            "Economía",
+            "Inversión",
+            "Datos"
+        ],
+        "label": "True",
+        "main_claim": "España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa4BVL-local",
+                "gen_searches_agent": "Latxa4BVL-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa4BVL-local",
+                "article_writer": "Latxa4BVL-local",
+                "metadata_agent": "Latxa4BVL-local",
+                "image_prompt": "Latxa4BVL-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.676281746000313,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.676281746000313,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:08:58",
+                    "run_time": 4.676281746000313,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993\n\n**Critical Research Questions:**\n1. ¿Cuáles son las cifras oficiales de I+D en España para 2024?\n2. ¿Cuáles son las cifras de I+D en España desde 1993 hasta 2024?\n3. ¿Cuál es el país con mayor cifra de I+D en España en 2024?\n4. ¿Cuál es el informe oficial de la OCDE sobre I+D en España en 2024?\n5. ¿Incluyen las cifras de I+D en España en 2024 inversiones de capital riesgo o inversiones públicas?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"oficina española de estadísticas I+D 2024 cifras oficiales\", \"cifras I+D en España desde 1993 hasta 2024 datos oficiales\", \"informe OCDE I+D en España 2024 datos oficiales\", \"inversiones de capital riesgo en I+D en España 2024\", \"inversiones públicas en I+D en España 2024 datos oficiales\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 30.12586844999987,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 30.12586844999987,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:09:29",
+                    "run_time": 30.12586844999987,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "oficina española de estadísticas I+D 2024 cifras oficiales",
+                                "cifras I+D en España desde 1993 hasta 2024 datos oficiales",
+                                "informe OCDE I+D en España 2024 datos oficiales",
+                                "inversiones de capital riesgo en I+D en España 2024",
+                                "inversiones públicas en I+D en España 2024 datos oficiales"
+                            ],
+                            "results": {
+                                "oficina española de estadísticas I+D 2024 cifras oficiales | cifras I+D en España desde 1993 hasta 2024 datos oficiales | informe OCDE I+D en España 2024 datos oficiales | inversiones de capital riesgo en I+D en España 2024 | inversiones públicas en I+D en España 2024 datos oficiales": [
+                                    {
+                                        "text": "La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones de euros, según el indicador adelantado facilitado este jueves por la Fundación Cotec para la Innovación.\n\nEn caso de confirmarse esta predicción (el INE publicará los datos oficiales en el mes de noviembre), será la mayor tasa de crecimiento de la inversión en I+D desde el año 2010, aunque supone una desaceleración con respecto a las cifras del año 2022 (un crecimiento del 12%) y del 2023 (del 15,8%).\n\nEl pasado año sí se habría superado por primera vez la cifra de los 24.000 millones de euros anuales de inversión en conocimiento, ya que los datos facilitados por esta fundación sitúan esa inversión en 24.796 millones, lo que supone un incremento de más de 2.400 respecto a 2023 (año en el que la inversión fue de 22.379 millones, según el INE).\n\nLa Fundación Cotec ha destacado que estas cifras «tan positivas» se han producido en el periodo de implementación de los fondos europeos Next Generation, y ha incidido en que se trata en todo caso de una estimación y el dato definitivo de inversión se conocerá cuando el INE publique los datos oficiales de la Encuesta de Actividades de I+D correspondientes a 2024.\n\nLa Estrategia Española de Ciencia, Tecnología e Innovación establece el objetivo de situar la economía española en una inversión en I+D del 2,12% en el horizonte de 2027, avanzando en la convergencia con la Unión Europea, pero Cotec ha asegurado que se trata de un objetivo «muy ambicioso y difícil de conseguir».\n\nEsta meta podría no alcanzarse incluso en el escenario de conseguir mantener en los próximos años un crecimiento anual de la inversión en la excepcional tasa de crecimiento del 10,8% que Cotec prevé para 2024, aunque ese crecimiento está estrechamente vinculado a los fondos europeos de Next Generation.",
+                                        "metadata": {
+                                            "url": "https://murcia.empresas.de/la-inversion-en-id-en-espana-supera-por-primera-vez-los-24-000-me-en-un-ano/",
+                                            "source": "murcia.empresas.de",
+                                            "favicon": "https://murcia.empresas.de/wp-content/uploads/2025/07/Favicon-Murcia-512.jpg",
+                                            "title": "La inversión en I+D en España supera por primera vez los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://murcia.empresas.de",
+                                            "snippet": "La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "FUERTE CRECIMIENTO DE LA EN I+D EN 2023, AUNQUE A MENOR RITMO QUE EN 2022\n\nEl volumen de inversión en I+D del conjunto de los agentes económicos en España habría crecido en torno a un 9,5% en términos nominales en 2023, de confirmarse las predicciones del indicador adelantado de la Fundación Cotec.\n\nSería la segunda mayor tasa de crecimiento en los últimos 15 años (desacelerándose tras el 12% observado en 2022). Y habría que remontarse a 2008 (10,2%) para encontrar otras tasas similares en la serie temporal.\n\nSe habría superado por primera vez la cifra de los 21.000 millones de euros anuales de inversión en conocimiento. En concreto, el modelo sitúa el nivel en los 21.161 millones, lo que supone un incremento de más de 1.800 respecto a 2022 (año en el que la inversión fue de 19.325 millones, según el Instituto Nacional de Estadística, INE). Se trataría del segundo mayor aumento en términos absolutos, tras el observado en 2022 (2.076 millones).\n\nEs importante tener en cuenta que estas cifras tan positivas se producen en el periodo de implementación de los fondos europeos de Next Generation EU. En todo caso, el dato de inversión definitivo se conocerá a finales del próximo mes de noviembre, cuando el INE publique los datos oficiales de la Encuesta de Actividades de I+D correspondientes a 2023.\n\nEl fuerte incremento de la inversión en I+D previsto por Cotec se produce en un contexto también de notable aumento del PIB nominal (del 8,6 % en 2023). Por ello, de confirmarse la previsión, la inversión en conocimiento no habría conseguido incrementar de manera significativa su participación en el PIB. En realidad, podría incrementarse tan solo una centésima, hasta el 1,45% del PIB.\n\nUna situación similar se produjo en 2021 y 2022: intenso aumento de la inversión, pero avance muy limitado de la ratio I+D sobre PIB. Esto contrasta con lo ocurrido en 2020, cuando un mínimo crecimiento en la inversión disparó la ratio I+D sobre PIB, por el efecto estadístico derivado del retroceso de la economía en el año de irrupción de la pandemia.\n\nLa Estrategia Española de Ciencia, Tecnología e Innovación establece el objetivo de situar la economía española en una inversión en I+D del 2,12% en el horizonte de 2027, avanzando en la convergencia con la Unión Europea-27. Se trata de un objetivo muy ambicioso y difícil de conseguir.\n\nDe hecho, esta meta podría no alcanzarse incluso en el escenario de conseguir mantener en los próximos años un crecimiento anual de la inversión en la excepcional tasa de crecimiento del 9,5% que Cotec prevé para 2023. El calificativo de excepcional se debe a que el crecimiento está estrechamente vinculado a los fondos europeos de Next Generation EU. Estos fondos no estarán disponibles para siempre y, por lo tanto, para mantener el crecimiento, habría que conseguir reemplazarlos con otros fondos de origen nacional, tanto públicos como privados. O, alternativamente, con un nuevo mecanismo europeo de características similares al actual.\n\nSegún los cálculos de Cotec, que toman como referencia el escenario macroeconómico plurianual del Banco de España, de mantenerse una tasa de crecimiento de la inversión en I+D del 9,5% en promedio anual hasta 2027, la ratio de I+D sobre PIB se situaría en el 1,76% en ese año, claramente por debajo del objetivo del 2,12% marcado por la Estrategia.\n\nPara alcanzar el objetivo del 2,12% del PIB en 2027, sería necesario encadenar, a partir ya de este 2024, cuatro tasas de crecimiento consecutivas de inversión en I+D muy superiores al 9,5%. En concreto, del 18,4% en promedio anual.\n\nEn términos absolutos, sería necesario multiplicar por 1,74 veces el nivel de inversión estimado por Cotec para 2023 (21.161 millones), añadiendo unos 15.500 millones de euros adicionales al sistema de ciencia e innovación, hasta aproximarse a los 37 mil millones en 2027.\n\nTanto el sector público como el privado deberían contribuir a este enorme esfuerzo con recursos adicionales, aunque no con la misma intensidad, siendo necesaria una aportación mayor por parte del sector privado, tal y como reconoce la propia Estrategia.\n\nEn todo caso, las proyecciones de la evolución del gasto por funciones consolidado de las Administraciones Públicas hasta 2026, incluidas en el Programa de Estabilidad de España 2023-2026, no invitan al optimismo.\n\nEn concreto, en el área de gasto 4 (Actuaciones de Carácter Económico, dentro de la cual se incluye la I+D, infraestructuras, digitalización, entre otras políticas) se observa una previsión oficial de que en 2026 el conjunto de las administraciones invertirá en esas políticas un porcentaje de PIB muy parecido al de antes de la pandemia. No habría, por lo tanto, una previsión de suplir los fondos europeos con nuevos fondos nacionales en esa área de gasto público.\n\nLa información parcial disponible apunta a que el sector de la I+D continúa creciendo en 2024. El número de afiliados a la Seguridad Social en la rama de actividad 72 (Investigación y Desarrollo) alcanzó las 121.688 personas el pasado mes de junio, 6.336 trabajadores más que un año antes, lo que supone una tasa de crecimiento interanual del 5,5%, y alcanzar un nuevo máximo.\n\nEl sector recuperó de manera muy rápida, ya en octubre de 2020, el empleo perdido durante los meses iniciales de pandemia. Desde entonces ha seguido incorporando nuevos trabajadores. Presenta un ritmo de avance más intenso que el que se observa, por ejemplo, en el conjunto del sector servicios (que crece a un ritmo del 3,0% interanual en el mismo mes de junio).\n\nEl dato de afiliados a la Seguridad Social en la rama de actividad 72 es uno de los elementos sobre los que se construye el indicador adelantado de Cotec y Ceprede, que trata de anticipar la evolución de la I+D en España.",
+                                        "metadata": {
+                                            "url": "https://cotec.es/informes/indicador-adelantado-de-cotec-2024/",
+                                            "source": "cotec.es",
+                                            "favicon": "https://cotec.es/wp-content/uploads/2023/09/logo_min-s.svg",
+                                            "title": "Indicador Adelantado de Cotec (2024)",
+                                            "type": "web_search",
+                                            "base_url": "https://cotec.es",
+                                            "snippet": "En concreto, el modelo sitúa el nivel en los 21.161 millones, lo que supone un incremento de más de 1.800 respecto a 2022 (año en el que la inversión fue de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "LA INVERSIÓN EN I+D CRECE EN ESPAÑA POR DÉCIMO AÑO CONSECUTIVO\n\nLa inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.\n\nSegún los últimos datos publicados hoy por el Instituto Nacional de Estadística (INE), el conjunto de agentes económicos que operan en España invirtió un total de 23.931 millones de euros en I+D en 2024 (máximo histórico), lo que supone un crecimiento de 1.552 millones de euros respecto al año anterior (un 6,9% más). Se trata del cuarto mayor aumento anual en términos absolutos en toda la serie de datos que se inicia en el año 2000. Sin embargo, supone una fuerte desaceleración tras el aumento máximo registrado en 2023 (fue de 3.054 millones de euros, prácticamente del doble).\n\nLA I+D YA SUPONE EL 1,5% DEL PIB\n\nEl crecimiento de la inversión en I+D en 2024 (del ya mencionado 6,9%) no es, sin embargo, tan elevado en términos porcentuales. De hecho, en 11 de los últimos 24 años se registraron tasas de crecimiento superiores, tanto en el periodo 2001-2008, como entre 2021 y 2023, en este último tramo coincidiendo con el inicio de la implementación de los fondos europeos.\n\nAdemás, este aumento en el nivel de inversión no se traduce en un importante aumento del peso de la I+D en la estructura productiva española (o, lo que es lo mismo, en la ratio I+D sobre PIB), porque se produce en un contexto de igualmente notable crecimiento del PIB nominal en 2024, con una tasa de variación interanual del 6,3%. En concreto, la I+D incrementa su peso en la economía española, pasando del 1,49% en del PIB en 2023 al 1,50% del PIB en 2024 (máximo histórico), incrementándose en tan solo una centésima.\n\nPERO … DIFICILMENTE SE ALCANZARÁ EL OBJETIVO PARA 2027\n\nLa Estrategia Española de Ciencia, Tecnología e Innovación establece el objetivo de situar la economía española en una inversión en I+D sobre PIB del 2,12% en el horizonte de 2027, avanzando en la convergencia con la Unión Europea-27. Se trata de un objetivo realmente ambicioso y difícil de conseguir.\n\nEl crecimiento de la inversión del año 2024 se produce coincidiendo con la implementación de los fondos europeos Next Generation EU. Estos fondos no estarán disponibles para siempre y, por lo tanto, para evitar retrocesos en el futuro en los niveles de inversión en I+D de España habrá que conseguir reemplazarlos con otros fondos de origen nacional, tanto públicos como privados. O, alternativamente, por otros instrumentos europeos similares una vez termine el periodo de aplicación de los fondos NextGenEU (verano de 2026).\n\nSegún los cálculos de Cotec, que toman como referencia el escenario macroeconómico plurianual del Programa de Estabilidad de España, de mantenerse una tasa de crecimiento de la inversión en I+D del 6,9% en promedio anual hasta 2027, la ratio de I+D sobre PIB se situaría en el 1,59% en ese año, claramente por debajo del 2,12% marcado por la Estrategia.\n\nPara alcanzar el objetivo del 2,12% del PIB en 2027, sería necesario encadenar, a partir ya de este 2025, tres tasas de crecimiento consecutivas de inversión en I+D muy superiores al 6,9%. En concreto, del 17,8% en promedio anual.\n\nEn términos absolutos, sería necesario multiplicar por 1,63 veces el nivel de inversión registrado en 2024 (39.120 millones), añadiendo 15.189 millones de euros adicionales al sistema de ciencia e innovación, hasta alcanzar los 39.120 en 2027.\n\nTanto el sector público como el privado deberían contribuir a este enorme esfuerzo con recursos adicionales, aunque no con la misma intensidad, siendo necesaria una aportación mayor por parte del sector privado, tal y como reconoce la propia Estrategia.\n\nTANTO EL SECTOR PÚBLICO COMO EL EMPRESARIAL CONTRIBUYEN AL CRECIMIENTO DE LA I+D\n\nA la evolución en positivo de la inversión española en I+D han contribuido tanto el sector público, que crece por octavo año consecutivo, como, el empresarial, por décimo. Sin embargo, en 2024 ambos sectores avanzaron a velocidades distintas, el sector público creció un 9% mientras que el privado lo hizo un 6%.\n\nEl sector público (que engloba tanto a las administraciones, como a las universidades) registró un nivel de inversión de 10.526 millones de euros en 2024. Cotec destaca que, aunque ya en 2021 se recuperó el volumen de inversión observado en 2010 (previo al periodo de recortes que se inició en ese momento) la inversión pública sobre PIB no ha conseguido recuperarse todavía 14 años después. En 2024, el sector público invierte 3.473 millones de euros más que en 2010 (+49%), pero si medimos la inversión sobre PIB, ahora está en el 0,66% del PIB (frente 0,67% en 2010).\n\nPor otra parte, el sector empresarial, que engloba a las empresas (tanto públicas como privadas) y a las instituciones privadas sin ánimo de lucro (IPSFL), alcanzó una inversión récord de 13.405 millones de euros. Este sector supera con creces el nivel máximo alcanzado en el periodo previo a la crisis financiera registrado en 2008 con 5.308 millones de euros más, lo que supone un crecimiento del 60% hasta el año 2024. Además, si medimos la inversión sobre PIB, la inversión en 2024 supera también en una décima a la de 2008 (en 2024 es del 0,84 % frente al 0,74% en 2008).\n\n\n\nLas dinámicas de inversión en el sector público y en el empresarial han diferido significativamente, reflejando una mayor prociclicidad del sector privado. Cabe destacar, en todo caso, que una parte de la inversión empresarial es financiada a través de fondos públicos, como los fondos NGEU.\n\nEN EL ÚLTIMO AÑO CRECE MÁS EL EMPLEO EN I+D EN EL SECTOR PÚBLICO QUE EN EL EMPRESARIAL\n\nEl número total de personas empleadas a tiempo completo en actividades de I+D también se incrementó en 2024, hasta las 295.289 (son 12.875 más que en 2023). A este crecimiento contribuyeron de manera desigual el sector público y el empresarial. Con 8.223 efectivos más en el sector público (empleando un total de 154.936 personas), frente a los 4.651 ocupados adicionales del sector empresarial (empleando 140.354 personas).\n\nEn concreto, el sector empresarial supera de manera holgada su respectivo nivel de empleo precrisis financiera (con 44.662 personas empleadas más que en 2008, un 47% más), mientras que el sector público (centros de investigación y universidades), hoy cuenta con 25.629 efectivos más (un 20% más) que en 2010.\n\nSi nos centramos en el periodo más reciente observamos como, tras la pandemia y con la llegada de los fondos Next Generation, el empleo en I+D se ha incrementado en un 28% en comparación con 2019 (+63.876 empleados), siendo este crecimiento algo más intenso en el sector privado (del 31%, con 33.360 nuevos efectivos) que en el público (del 25%, con 30.516 más).\n\nA pesar del mayor dinamismo del sector privado, Cotec destaca que el nivel de empleados en el sector público sigue siendo mayor (14.583 empleados más que en el sector empresarial). En todo caso, debe destacarse que ambos sectores están registrando los niveles máximos de empleo en I+D en toda la serie histórica.\n\nSIGUE HABIENDO UNA CLARA BRECHA DE GÉNERO EN EL SECTOR PRIVADO\n\nEn términos de género, se observa paridad en el empleo en actividades de I+D en el sector público (50,1% hombres, frente a 49,9% mujeres), mientras que en el sector empresarial la presencia de los hombres es claramente mayoritaria (68,2% hombres, frente a 31,8% mujeres). Es decir, no encontramos una brecha de género en el sector público, mientras que en el empresarial es de hasta 36,5 puntos porcentuales.\n\nSi ampliamos el análisis al periodo desde 1997, primer año de publicación de la estadística de empleados, encontramos un progreso notable. Hace 26 años, no existía paridad en ninguno de los dos sectores, aunque el desequilibrio también era más pronunciado en el sector privado (61% de hombres en el sector público frente al 79% en el privado). Es, en todo caso, reseñable que, partiendo de niveles diferentes, tanto el sector público como el sector privado han reducido la brecha de manera similar (en torno a 22 puntos porcentuales en ambos casos).\n\nSUBE EL NÚMERO DE EMPRESAS QUE REALIZA ACTIVIDADES DE I+D\n\nEn 2024 se produjo una subida del número de empresas que realizan actividades de I+D, sumando 925 empresas más, hasta las 12.209. A diferencia de otras variables de 2024, en el caso de ésta no nos encontramos en un máximo histórico.\n\nEn este sentido, frente a una inversión empresarial en I+D que ha alcanzado un nuevo máximo histórico en nuestro país, el número de empresas que realizan actividades de I+D es hoy muy inferior a las que había antes de la crisis financiera, provocando una mayor concentración del mercado. El sector empresarial hoy invierte un 60% más que en 2008 (5.308 millones de euros más), pero lo hace con 2.840 empresas menos (un 15% menos).\n\nAdemás, esta caída en el número de empresas que realizan actividades de I+D se ha focalizado en las microempresas y PYMEs (caída del 17% desde 2008), lo que contrasta con el aumento número de grandes empresas que realizan actividades de I+D (un 12% más en el mismo periodo). El análisis por tamaño de empresa refuerza la idea que la oferta de innovación está más concentrada con respecto a los niveles precrisis financiera.\n\nEn todo caso, tras la pandemia y con la llegada de los fondos europeos se ha empezado a corregir esta situación, observándose un repunte en el número de empresas dedicadas a actividades de I+D, revirtiendo en parte la caída observada desde 2008. Entre 2019 y 2024, el número de empresas aumenta en 1.665, un 16% más. Este incremento ha sido liderado en gran medida por las grandes empresas, cuyo número pasa de 1.175 en 2019 a 1.396 en 2024, representando un aumento del 19%. Sin embargo, el crecimiento en el número de micro, pequeñas y medianas empresas (PYMEs) ha sido más moderado, pasando de 9.369 en 2019 a 10.813 en 2024, lo que representa un 15% más en este segmento (siguiendo muy por debajo, como se ha dicho, de la cifra de empresas que había 2008).\n\nNAVARRA, MADRID Y LAS CIUDADES AUTÓNOMAS DE CEUTA Y MELILLA LIDERAN EL CRECIMIENTO DE LA I+D\n\nEl crecimiento de la inversión en I+D en España en 2024 no se ha distribuido de manera homogénea por todo el territorio. La práctica totalidad de las comunidades autónomas (14 de las 17) han incrementado sus cifras de inversión, aunque a distinto ritmo, lideradas por la Comunidad Foral de Navarra (con un 39,5% más de inversión) y por la Comunidad de Madrid (+14,3%). A ellas se suman las ciudades autónomas de Melilla (+36,6%) y Ceuta (+27,6%). Por el contrario, 3 comunidades retroceden: Baleares (-12,3%), Castilla–La Mancha (-6,6%) y Canarias (-1,1%).\n\nMADRID EXPLICA MÁS DE LA MITAD DEL INCREMENTO DE LA INVERSIÓN EN TÉRMINOS ABSOLUTOS EN 2024\n\nComo se ha dicho anteriormente, en 2024 la inversión en I+D se incrementó en 1.552 millones de euros en términos absolutos. Contribuye de manera decisiva a este incremento la Comunidad de Madrid (con 863 millones, es responsable del 56% del aumento total de la inversión en España).\n\nAparte de Madrid, habría otros 7 territorios que contribuyen al incremento de la inversión en I+D en 2024 por encima de su peso en la distribución de la I+D en España. Se trata de Navarra, Galicia, Murcia, Asturias y Cantabria, además de las ciudades autónomas de Ceuta y Melilla.\n\nPor ejemplo, el incremento de la inversión en Navarra ha sido de 174 millones de euros, el 11,4% del aumento total de la I+D en España, mientras que su participación en la I+D española es mucho menor, del 2,6%. Por el contrario, el resto de las comunidades (11 de las 17) aportan al crecimiento global de la I+D menos de lo que les correspondería.\n\nCRECIMIENTO DESIGUAL DESDE LA CRISIS FINANCIERA\n\nPero, entendemos que, más allá de la variación en el último año, cobra interés analizar con una perspectiva temporal más amplia las desiguales trayectorias de las comunidades autónomas en sus apuestas por la Investigación y Desarrollo.\n\nSi comparamos el dato de 2024 con la situación previa a la crisis financiera, observamos que buena parte de las regiones que más han apostado por la inversión en I+D en el conjunto del periodo analizado se encuentran en el Mediterráneo. Entre estos territorios, destaca la Región de Murcia (+82,9% más que en 2008), Cataluña (+67%), la Comunidad Valenciana (+61%) o Baleares (+60%). Fuera del ámbito geográfico del Mediterráneo, destaca la favorable evolución de Galicia (+81%) y de Madrid (+77%).\n\nCRECIMIENTO DESIGUAL DESDE LA LLEGADA DE LOS FONDOS EUROPEOS\n\nA partir de la pandemia y tras la llegada de los fondos Next Generation, todas las comunidades autónomas sin excepción han experimentado un incremento en sus niveles de inversión en I+D. Desde 2019, la inversión total en I+D en España ha aumentado un 54%. En este periodo, un total de comunidades autónomas han superado el crecimiento medio nacional, destacando especialmente Navarra, que registró el mayor crecimiento (del 75%). En este grupo también se encuentran Galicia, Madrid, Aragón y Asturias.\n\nPor otro lado, en el extremo opuesto se encuentran Castilla–La Mancha y Castilla y León, que ha tenido los menores aumentos, con tan solo un 23% y un 28% más, respectivamente.\n\nEste análisis de variaciones en la inversión sugiere que la respuesta a los desafíos de la pandemia ha incentivado un impulso hacia la I+D, aunque de forma desigual en el territorio español, lo que podría tener implicaciones en la competitividad y desarrollo regional de los próximos años.\n\nPara analizar la evolución de la inversión en I+D en las comunidades autónomas tras la pandemia proponemos la siguiente taxonomía, que permite clasificarlas en 4 grupos:\n\n• Liderazgo reforzado (azul oscuro): comunidades con mayor nivel de inversión en I+D que España antes de la pandemia, y con crecimiento de la inversión superior a España desde 2019.\n\n• Liderazgo estancado (azul claro): comunidades con mayor nivel de inversión en I+D que España antes de la pandemia, y con crecimiento de la inversión inferior a España desde 2019.\n\n• Convergentes (rosa claro): comunidades con nivel de inversión en I+D inferior a la media de España antes de la pandemia, pero crecimiento superior a la media desde 2019.\n\n• Divergentes (rosa oscuro): comunidades con nivel de inversión en I+D inferior a la media de España antes de la pandemia, y también con crecimiento inferior a la media desde 2019.\n\nTres de las cinco comunidades que más invertían en I+D antes de la pandemia, Navarra, Madrid y Cataluña, han aumentado su inversión por encima de la media, siendo Madrid la que más lo ha hecho. Estas comunidades se encuentran, por tanto, en la categoría de “líderes reforzados”. En cambio, las otras dos comunidades que también superaban la media (País Vasco y Castilla y León) han aumentado sus inversiones por debajo de la media, ubicándose en el grupo de “líderes estancados”.\n\nNueve comunidades autónomas que ya invertían menos que la media antes de la pandemia han continuado con tasas de crecimiento de la inversión por debajo de la media, clasificándose en el grupo de “divergentes”. Esto refleja un aumento en las diferencias entre las comunidades líderes y las rezagadas tras la pandemia.\n\nSin embargo, no todo son malas noticias en términos de convergencia: un total de 3 comunidades autónomas que también se situaban por debajo de la media en inversión antes de la pandemia, Galicia, Aragón y Asturias, han incrementado recientemente sus inversiones de manera diferencial.\n\nLA INVERSIÓN EN I+D ESTÁ MÁS CONCENTRADA QUE LA ACTIVIDAD ECONÓMICA EN GENERAL\n\nResulta interesante comparar la contribución de cada comunidad autónoma a la I+D total de España con sus respectivas aportaciones al PIB del país.\n\nLa gran mayoría de comunidades autónomas (13 de las 17) contribuye menos a la inversión en I+D total de España que lo que aportan a la generación de valor añadido del país. Las 4 únicas excepciones son Madrid, Cataluña, País Vasco y Navarra, con participaciones en la I+D española superiores a las que tienen en el PIB agregado.\n\nMadrid es la comunidad que más destaca, siendo responsable del 28,8% de la inversión en I+D de España, 9,3 puntos porcentuales por encima del peso en el conjunto de la economía. A continuación, aparece Cataluña, que aporta el 22,9% de la I+D total, 4,1 puntos por encima de su peso económico. Entre estas dos comunidades son responsables de la mitad de la I+D total de España, 13,4 puntos porcentuales más de lo que aportan al PIB.\n\nPor el contrario, Andalucía es la comunidad autónoma con el mayor desajuste entre lo que pesa su tejido productivo en el PIB de España y su inversión en I+D. Siendo la tercera economía de España (13,4% del PIB de España), invierte tan solo el 9,7% del total de la inversión en I+D de España.\n\nEste desequilibrio pone de manifiesto que la actividad en I+D sigue concentrada en las regiones económicamente más desarrolladas y tecnológicamente avanzadas, lo cual podría acentuar en el futuro las brechas económicas territoriales.\n\nMADRID LIDERA LA INVERSIÓN EN I+D POR HABITANTE, EN UN RANKING CON DIFERENCIAS CRECIENTES ENTRE COMUNIDADES\n\nEs importante tener en cuenta que, como estamos observando variaciones entre los volúmenes de inversión en I+D entre años diferentes, han podido ocurrir cambios importantes en el tamaño de las economías regionales que pueden estar distorsionando el análisis.\n\nPor ello, y a falta de los datos del valor añadido regional de 2024, que el INE publicará en diciembre de 2025, analizamos la evolución de los niveles de inversión por habitante.\n\nExisten diferencias enormes en cuanto a la inversión en I+D por habitante entre comunidades autónomas. El rango en 2024 entre las que más invierte (Madrid) y las que menos invierte (Canarias) es de más de 800 euros por habitante. De hecho, solo hay 4 comunidades por encima del nivel medio de inversión por habitante de España (494€/habitante). Aparte de Madrid, se trata de País Vasco, Navarra y Cataluña.\n\nTodas las comunidades autónomas realizan hoy una inversión en I+D por habitante superior a la observada antes de la pandemia, aunque con ritmos de avance diferentes. Los mayores incrementos porcentuales se han dado en Navarra (+69%), Galicia (+68%), Asturias (+59%) y Aragón (+55%), y el menor incremento se registra en Castilla–La Mancha (+19%). Por otra parte, los mayores incrementos en términos absolutos (euros) se han dado en las regiones líderes de Madrid, País Vasco y, nuevamente, Navarra.\n\nEl conjunto de estas variaciones ha provocado una ampliación del rango entre la comunidad que más invierte y la que menos lo hace. Si antes de la pandemia esta diferencia era de 566 euros por habitante, en 2024 es de 848 euros por habitante.\n\nAdemás, estas variaciones también han conducido a cambios relevantes en el ranking autonómico de inversión en I+D por habitante, cuyo podio en 2024 está formado por Madrid, País Vasco, y Navarra (comunidad que ha reemplazado a Cataluña en este podio).\n\nLa comunidad que más sube es Asturias (dos posiciones arriba, hasta la 10). Por el contrario, la que más baja es Murcia (dos posiciones abajo, hasta la 11).\n\nLA CONTRIBUCIÓN DEL SECTOR EMPRESARIAL VARÍA ENTRE COMUNIDADES AUTÓNOMAS\n\nLa contribución del sector empresarial resulta decisiva a la hora de alcanzar niveles relevantes de inversión en I+D. En España la participación de este sector en el gasto total es inferior que en Europa (68% vs 56%), por lo que una mayor inversión privada ayudaría a seguir avanzando en la convergencia con el continente.\n\nDentro de España en torno a la mitad de las comunidades autónomas (8 de las 17) tienen una participación principal del sector público en el gasto total en I+D. Se trata de Canarias, Cantabria, Andalucía, La Rioja, Islas Baleares, Galicia, Comunidad Valenciana y Extremadura. Todas ellas son regiones con gasto por habitante por debajo de la media española.\n\nEn el extremo opuesto encontramos a Navarra, con un 92% de gasto empresarial, y al País Vasco, con un 76%. Se trata de las dos únicas comunidades autónomas que cuentan con una participación del gasto empresarial superior a la media europea.\n\nLA INDUSTRIA SIGUE SIENDO MÁS INTENSIVA EN I+D, PERO EL CRECIMIENTO ES MAYOR EN LOS SERVICIOS\n\nEl conjunto del sector servicios (7.253 millones de euros) realizó un volumen de inversión en I+D en términos absolutos superior a la industria (5.869 millones) en 2024.\n\nEs cierto que estas cifras deben corregirse por el distinto peso específico de estos sectores en la economía. De hecho, quien destaca es la industria, que es responsable de más del 44,4% del volumen anual de inversión, representando una parte más reducida del PIB de España, el 22,8%.\n\nLas ramas de servicios que más invierten en I+D son actividades profesionales, científicas y técnicas (3.875 millones de euros), Informaciones y comunicaciones (2.202 millones de euros) y Comercio (598 millones de euros).\n\nPor su parte, las ramas de la industria que más invierten en I+D son fabricación vehículos de motor (1.391 millones de euros), farmacia (1.007 millones de euros) y otro material de transporte (909 millones de euros).\n\nEl ritmo de crecimiento de la inversión en I+D en el conjunto del sector servicios (+7,8%) más que duplica el registrado por la industria (+3,4%), en ambos casos con diferencias relevantes entre sus ramas de actividad.\n\nLa práctica totalidad de las ramas de actividad de los servicios – 9 de las 11 de la CNAE a 2 dígitos – incrementan su inversión en I+D, de manera particularmente intensa en las Actividades artísticas, recreativas y de entretenimiento (+57%), actividades financieras y de seguros (+54%), y Actividades inmobiliarias (+35%). Las dos únicas ramas de actividad de los servicios que reducen su inversión en I+D son actividades sanitarias (-17%), y actividades administrativas (-2%).\n\nPor su parte, es mucho menos transversal el incremento de la inversión en I+D entre las ramas de actividad de la industria: crece en 14 de las 21, retrocediendo en otras 7 de las de la CNAE a 2 dígitos. Los mayores aumentos en la inversión en I+D se observan en Reparación e instalación de maquinaria y equipo (+30%), Farmacia (+14%), y Caucho y plásticos (+12%). Por el contrario, hay retrocesos importantes en metalurgia (-15%), muebles (-10%) y vehículos de motor (-8%, con 119 millones de euros menos de inversión que en 2023).\n\nDATOS SOBRE EUROPA\n\nEL RITMO DE CRECIMIENTO DE LA I+D EN ESPAÑA DUPLICA EL DE EUROPA\n\nSegún los datos publicados por Eurostat, el conjunto de agentes económicos que operan en Europa invirtió un total de 403.130 millones de euros en I+D en 2024, lo que supone un crecimiento de en torno a 14.000 millones de euros respecto al año anterior. O, en otras palabras, un 3,6% más en términos nominales. De esta manera, se observa una importante desaceleración del crecimiento de la inversión en I+D en el continente respecto de 2023, donde el avance fue mucho mayor, del 6,5%.\n\nAdemás, el ritmo de crecimiento de la I+D en Europa es en 2024 la mitad del de España (del 6,9%). Y, de hecho, se trata del quinto año consecutivo en el que la inversión crece más en España que en el conjunto de la Unión Europea.\n\nESPAÑA, OCTAVO PAÍS EUROPEO DONDE MÁS CRECE LA INVERSIÓN EN I+D\n\nEn 21 de los 27 estados miembros de la Unión Europea aumentó la inversión en I+D en 2024, liderados por Letonia (+14,8%) y Estonia (+12,6%), ambos con tasas de doble dígito.\n\nEspaña es el octavo país europeo donde más creció la I+D en 2024. Además de estas dos exrepúblicas bálticas, hay otros 5 países con mayores avances que el español: Portugal (+9,7%), Grecia (+8,6%), Bulgaria (+7,3%), Croacia (+7,2%) y Bélgica (+7,0%).\n\nEn todo caso, España fue en 2024 la primera de entre las grandes economías europeas en crecimiento de la inversión en I+D por delante de Italia (+3,5%), Francia (+3,4%) y Alemania (+2,7%).\n\nLos únicos 6 países que redujeron su inversión fueron Irlanda, Malta, Rumanía, Luxemburgo, Hungría y Eslovaquia.\n\nDESDE LA PANDEMIA Y CON LA LLEGADA DE LOS FONDOS NEXT GENERATION, ESPAÑA ES EL TERCER PAÍS QUE MÁS APORTA AL CRECIMIENTO DE LA I+D EN EUROPA\n\nEn términos absolutos España (con 8.359) es el tercer país, tras Alemania (con 25.454) y Francia (con 10.172) que más millones de euros aporta al aumento agregado de la inversión en I+D en todo el continente europeo (91.473) entre 2019 y 2024, periodo marcado por la implementación de los fondos europeos NextGenEU.\n\nEste hecho es meritorio, puesto que, en términos de tamaño económico, España es la cuarta economía de Europa, por detrás de Alemania, y Francia, pero también de Italia. En este sentido, sorprende – por modesta – la contribución de Italia al crecimiento de la I+D en Europa (aporta 4.155 millones), por detrás de la que realizan economías mucho más pequeñas (como Países Bajos, Bélgica y Polonia, además de España). Italia ha recibido un volumen de fondos europeos NextGen equivalente a España, pero esto no se traduce en un aumento significativo de su inversión en I+D.\n\nSE REDUCE NUESTRA BRECHA EN I+D CON EUROPA POR QUINTO AÑO CONSECUTIVO\n\nEl incremento de la inversión en I+D en Europa fue en 2024 inferior al crecimiento del PIB nominal comunitario, de manera que la I+D perdió peso en la estructura productiva europea. En concreto, la ratio de inversión sobre el PIB pasó del 2,26% en 2023 al 2,24% en 2024, retrocediendo dos centésimas.\n\nDado que en España se produjo el fenómeno contrario, en ese mismo año el peso de la I+D en la estructura productiva española pasó del 1,49% al 1,50%. De esta manera, un año más – y ya van cinco – España continuó avanzando en su proceso de convergencia con Europa (tanto por méritos propios, como por demérito europeo). Nuestra brecha con Europa en I+D pasa de 0,76 puntos porcentuales en 2023 a 0,74 pp en 2024.\n\nNo obstante, a pesar de los avances recientes, España sigue estando lejos tanto de los niveles promedio europeos, como de la distancia mínima con el continente, que registró en 2008 (0,52 pp). La distancia máxima se alcanzó en 2019 (0,97 pp).\n\nEn 2024 la inversión en I+D por habitante fue de 494 euros anuales en España, significativamente por debajo de los 897 euros de media en la UE-27.\n\n\n\nEn otras palabras, la inversión en I+D de España se situó en 2024 en el 67% de la media comunitaria, tras experimentar tres periodos diferenciados en lo que va de siglo (de clara convergencia con Europa, hasta 2008; de clara divergencia, entre 2009 y 2019; y nuevamente de convergencia, entre 2020 y 2024).\n\nDe los 22 pp de distancia que se recortaron a Europa entre 2000 y 2008, año en que la distancia se redujo a su nivel mínimo histórico (72% de la media europea), entre 2009 y 2019 se perdieron 16 pp. No fue hasta 2020 cuando se retomó la senda de convergencia con Europa, recuperando 11 pp en cinco años. En conclusión, en términos de posición relativa con Europa en I+D, España se encuentra hoy prácticamente en la misma posición que estaba en 2011 (68%).\n\nEL SUR Y EL ESTE DE EUROPA INVIERTEN ESTRUCTURALMENTE MENOS EN I+D\n\nLos países del Sur y del Este de Europa son los que menos invierten en I+D sobre PIB. España, Portugal, Italia y Grecia tuvieron en el año 2024 ratios muy parecidas, en el rango 1,3%-1,7%. Los países del Este de Europa fueron los que menos invirtieron y tienen las ratios más bajas, destacan Rumanía (0,46%), Malta (0,51%) y Chipre (0,65%). Por el contrario, los países del Norte de Europa son los que más invirtieron, en particular Suecia (3,57%), Bélgica (3,36%), y Austria (3,26%). Por tanto, existe un sesgo territorial: el Sur y el Este por un lado, el Norte por otro. Esta realidad se da en muchas otras magnitudes económicas de la UE.\n\nESPAÑA SUBE DOS POSICIONES EN EL RANKING EUROPEO, SUPERANDO A POLONIA Y A IRLANDA\n\nEn 2024, España (1,50% del PIB) consigue adelantar a Irlanda (que pasa del 1,54% al 1,38 %) y a Polonia (que pasa del 1,56% al 1,41 %) en el ranking europeo de intensidad de inversión en I+D por países, que encabeza Suecia (3,57%). De nuevo, esto es resultado tanto de los méritos propios como de los retrocesos de estos países.\n\nDe esta manera, España consigue escalar dos posiciones en el ranking europeo, pasando de la 16 en 2023 a la 14 en 2024. Sin embargo, la remontada de España se inició en 2020, y en este periodo ha conseguido adelantar también a Italia y a Hungría.\n\nEn todo caso, España sigue presentando una intensidad inversora en I+D inferior a la media europea y también menor que sus países vecinos de Portugal (1,72%) y Francia (2,18%).\n\nLOS NIVELES DE INVERSIÓN NO SE CORRESPONDEN CON EL POTENCIAL ECONÓMICO\n\nLa explicación de la distancia entre España y la media de la UE en términos de I+D no hay que buscarla en el potencial económico. Si tomamos los valores medios de la UE-27 como un índice 100, corregidos por la Paridad de Poder de Compra (PPA), la renta per cápita española alcanza los 92 puntos porcentuales, mientras que la inversión en I+D por habitante se queda en 55 puntos. Hay, por lo tanto, una diferencia de 37 puntos entre el potencial económico de España y su inversión en I+D. De hecho, en 2024, había cuatro países en Europa con menor renta por habitante que España pero con una mayor apuesta por la I+D (Grecia, Portugal, República Checa, Eslovenia y Estonia).\n\nEL SECTOR EMPRESARIAL EUROPEO INVIERTE MÁS EN I+D QUE EL ESPAÑOL\n\nEl sector público europeo (que engloba tanto a las administraciones como a las universidades) registró una inversión de casi 127.000 millones de euros en 2024. Por su parte, el sector empresarial, que engloba a las empresas (tanto públicas como privadas) y a las instituciones privadas sin ánimo de lucro (IPSFL), alcanzó una inversión de 274.000 millones de euros, muy superior. En otras palabras, el sector empresarial europeo aportó el 68,4% de la inversión total en I+D de la UE-27, frente al 31,6% del sector público.\n\nSe observa una gran diferencia en la composición sectorial de la inversión en I+D entre España y Europa, aunque en ambos casos es el sector privado – y no el público – quien más contribuye. En España el sector empresarial es responsable del 56% del total, frente a la ya mencionada cifra del 68,4% en Europa.\n\nESPAÑA SIGUE ESTANDO MUY LEJOS DE LOS LÍDERES GLOBALES EN I+D\n\nA pesar de haber retomado en el último lustro la senda de convergencia en I+D con Europa, España sigue estando por debajo de los niveles de inversión promedio europeos.\n\nPero, además, en la economía del conocimiento es necesario estar muy pendientes de lo que ocurre más allá de las fronteras europeas. Y, en este sentido, se constata que España no ha conseguido acortar las distancias que la separan de otras grandes economías globales. De hecho, estas distancias se han ampliado de manera muy llamativa en el caso de Corea del Sur y de China.\n\nNOTA: A lo largo de esta nota se han utilizado las cifras de España publicadas por el INE en su Encuesta de Actividades de I+D 2024 el pasado día 26 de noviembre de 2025, y las de Eurostat publicadas el 4 de diciembre para el conjunto de la UE-27 y el resto de los 26 Estados Miembros. Existe una pequeña discrepancia entre las cifras de España de inversión en I+D en 2024 entre los datos que ofrece el INE (señala que España invirtió 23.931 millones de euros en I+D en 2024, con un crecimiento del 6,9% interanual) y los que ofrece Eurostat (señala que España invirtió 23.846 millones, con un crecimiento del 6,6% interanual).",
+                                        "metadata": {
+                                            "url": "https://cotec.es/informes/evolucion-de-la-id/",
+                                            "source": "cotec.es",
+                                            "favicon": "https://cotec.es/wp-content/uploads/2023/09/logo_min-s.svg",
+                                            "title": "Evolución de la I+D - Fundación Cotec",
+                                            "type": "web_search",
+                                            "base_url": "https://cotec.es",
+                                            "snippet": "El número total de personas empleadas a tiempo completo en actividades de I+D también se incrementó en 2024, hasta las 295.289 (son 12.875 más que en 2023). A ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Economía\n\nEmpresas con al menos un nivel básico de intensidad digital 61% 2023\n\nEmpresas que utilizan Inteligencia Artificial 9% 2023 Desglose\n\nComparativa con países UE (2023)\n\nEmpresas que utilizan Big Data 9% 2021 Desglose\n\nComparativa con países UE (2021)\n\nPymes que realizan ventas en línea 30% 2023 Evolución temporal\n\nComparativa con países UE (2021)\n\nContribución del comercio electrónico a las pymes 9% 2023 Evolución temporal\n\nComparativa con países UE (2021)\n\nEmpresas que tienen una intensidad media/alta de medidas ecológicas a través de las tecnologías digitales 76% 2022 Empresas que tienen una intensidad media/alta de medidas ecológicas a través de las tecnologías digitales (2022)\n\nProducción de largometrajes en España 322 2022\n\nProducción de series de ficción en España 53 2022\n\nUsuarios de Servicios de Administración Electrónica 80% 2023 Evolución temporal\n\nComparativa con países UE (2023)\n\nServicios Públicos Digitales para Ciudadanos 6º puesto UE 2022 Servicios Públicos Digitales para Ciudadanos (2022)\n\nServicios Públicos Digitales para Empresas 5º puesto UE 2022\n\nDatos Abiertos del Sector Público 3º puesto UE 2022",
+                                        "metadata": {
+                                            "url": "http://espanadigital.gob.es/indicadores/espa%C3%B1a-digital",
+                                            "source": "espanadigital.gob.es",
+                                            "favicon": "http://espanadigital.gob.es/sites/espanadigital/themes/custom/ed2025/favicon.ico",
+                                            "title": "Indicadores de la España Digital",
+                                            "type": "web_search",
+                                            "base_url": "http://espanadigital.gob.es",
+                                            "snippet": "Personas con al menos competencias digitales básicas 66% 2023 · Especialistas digitales 4,4% 2023 · Graduados digitales 5,2% 2022 · Personas que usan regularmente ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La industria del capital riesgo en España ha experimentado un notable incremento en 2024, con 7.120 millones de euros en inversión, lo que representa un 3,9% más en comparación con 2023, un año marcado por la incertidumbre en el mercado. Este dato ha sido revelado en un informe por Capital & Corporate publicado recientemente, que también ha pronosticado una continuación de esta tendencia al alza en 2025. La cifra de 2024 implica una vuelta al crecimiento y se posiciona como la cuarta más alta de la historia del sector, aunque sigue siendo inferior a los récords de 2022, 2019 y 2021.\n\nEl estudio detalla que el último dato anual sobrepasa notablemente el promedio de los años previos a la pandemia, evidenciando “la tendencia alcista de un segmento que ha pasado ya al siguiente nivel de maduración” a pesar de los altibajos del mercado. En términos de transacciones, se han registrado 550 operaciones en 2024 (478 inversiones y 72 desinversiones), lo que representa un ligero aumento frente a las 545 operaciones del año anterior.\n\nEl informe también destaca el crecimiento del sector ‘low-middle market’ debido a la diversificación de inversores en los últimos años, así como la expansión del ‘venture capital’, que se ha visto favorecido por la apertura de las pymes españolas al capital riesgo. Además, ha habido un regreso significativo de acuerdos en el mercado de gran capitalización, destacando la adquisición de Idealista por Cinven por 2.925 millones de euros, seguida por otras operaciones como la entrada de Wendel en Globeducate y la OPA de I Squared sobre Applus+.\n\nEn el contexto del ‘middle market’, gestoras españolas como Portobello y Miura han liderado el camino. Sin embargo, los fondos internacionales dominan el panorama, ya que el 75,4% de la inversión tiene un elemento transfronterizo, con un volumen de 5.110 millones de euros proveniente de gestoras no nacionales. Esto demuestra que España se ha convertido en un destino atractivo para inversores extranjeros, que buscan activos de alta calidad a precios competitivos comparados con otros mercados.\n\nEl informe ha también puesto de relieve el inicio de la recuperación de las desinversiones luego de un periodo de estancamiento, con un total de 72 desinversiones valoradas en 16.000 millones de euros en 2024. Este repunte se ha atribuido a la mejora de las condiciones macroeconómicas y a las necesidades de los fondos de desinvertir en participadas más maduras. Por sectores, la tecnología, telecomunicaciones e internet han destacado con 129 acuerdos, representando el 35% del capital movilizado.\n\nDe cara al 2025, se anticipa que la tendencia ascendente de inversión se mantenga, impulsada por un entorno financiero más favorable y el descenso en los tipos de interés.",
+                                        "metadata": {
+                                            "url": "https://capital.es/economia/mercados-e-inversion/el-capital-riesgo-invirtio-en-espana-7-120-millones-en-2024-un-39-mas-que-en-2023/116492/",
+                                            "source": "capital.es",
+                                            "favicon": "https://capital.es/wp-content/uploads/2023/11/favicon-capital-100x100.jpg",
+                                            "title": "El capital riesgo invirtió en España 7.120 millones en 2024 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://capital.es",
+                                            "snippet": "La industria del capital riesgo en España ha experimentado un notable incremento en 2024, con 7.120 millones de euros en inversión, lo que representa un 3,9% más en comparación con 2023, un año marcado por la incertidumbre en el mercado."
+                                        }
+                                    },
+                                    {
+                                        "text": "Sólo un 12% de las operaciones de capital riesgo incluyó un proceso de ‘due diligence’ con enfoque ESG\n\nMADRID, 26 (EUROPA PRESS)\n\nLa actividad del capital riesgo en Europa ha repuntado en 2024 pese a las dificultades generales del mercado de fusiones y adquisiciones (M&A), según un estudio divulgado este lunes por la firma de servicios legales CMS.\n\nLa entidad ha explicado en un comunicado que para analizar el estado de la industria ha llevado a cabo la revisión de 120 operaciones de capital riesgo en todo el Viejo Continente.\n\nAsí, han concluido que, a pesar de que el ámbito económico y las tensiones geopolíticas han continuado un año más con el viento en contra, la actividad del sector ha superado en 2024 las dificultades generales del mercado y ha mejorado los niveles de 2023.\n\nSobre las tendencias de inversión registradas, desde CMS han indicado que las nuevas inversiones constituyeron en 2024 el 63% del total, aunque tal y como ha señalado el informe, se ha producido un aumento de desinversiones y ‘secondary buyouts’: «Lo que invita a contar con expectativas positivas de ‘exits’ (desinversiones) tras varios ejercicios de estancamientos», han anticipado.\n\nEn cuanto a los sectores, se ha desgranado que el mayor volumen de operaciones lo coparon Tecnología, Medios y Comunicaciones, con un 24% del total de operaciones analizadas en el informe, y Energía y Clima, que obtuvo un crecimiento del 8% con respecto al volumen de operaciones analizadas en el año 2023.\n\nDe su lado, los procesos competitivos se han moderado, volviendo a niveles de 2022, con tan solo un 56% de las operaciones en las que estaban implicados varios compradores.\n\nEn este apartado, se ha incidido que los compradores ganaron terreno mediante ajustes en el precio de compra, que aumentaron hasta el 42%, mientras que el uso de cláusulas ‘earn-outs’ se mantuvo estable en el 32%, reflejo de que las estrategias de ‘buy and build’ han continuado siendo un componente esencial de la actividad transaccional de los fondos.\n\n«La parte vendedora logró reducir, con respecto al año anterior, los ‘liability caps’ en las transacciones de mayor importe […] mientras tanto, la parte compradora obtuvo condiciones ventajosas mediante la ampliación de los plazos de responsabilidad por garantías y ajustes del precio de compra», han señalado desde la firma.\n\nA la par, se ha expuesto que la contratación de seguros de manifestaciones y garantías (W&I, en la jerga) ha pasado del 30% en 2023 al 44% en el año 2024, alcanzando un extraordinario 83% en las operaciones de mayor valor (superiores a 100 millones de euros).\n\nPor otra parte, el informe ha arrojado que sólo un 12% de las operaciones de capital riesgo ha incluido una ‘due diligence’ con enfoque ESG: «Lo que evidencia una brecha entre la implementación de estos factores y su posterior análisis a la hora de realizar una inversión», han explicado los autores.\n\nPREVISIONES 2025\n\nEn lo referente al presente ejercicio, el informe ha pronosticado unas previsiones positivas para este año, gracias a la estabilización de los tipos de interés y la confianza de los mercados que «se viene observando desde finales de 2024».\n\n«Lo que se espera es que las desinversiones sigan produciéndose, y que, por su parte, los vendedores se mantengan firmes en sus expectativas de precio de venta», han focalizado.\n\nPor último, han destacado la premisa para este 2025 de que los inversores de capital riesgo mantengan el foco en sectores como sanidad, tecnología, energía e infraestructuras, con un mayor dominio de las operaciones sobre las empresas de tamaño pequeño y mediano.\n\nEL SECTOR EN ESPAÑA\n\nLa industria del capital riesgo en España invirtió en 2024 un total de 7.120 millones de euros, un 3,9% más respecto a 2023 -año en el que la actividad retrocedió por la «incertidumbre reinante» en el mercado-, según un informe publicado el pasado marzo por Capital & Corporate, que anticipó a su vez que el sector proseguirá al alza en este 2025.\n\nEl informe interpretó que esta cifra de 2024 supuso una vuelta a la senda del crecimiento y la cuarta más alta de toda la serie histórica de la industria, en tanto que se situó por debajo de los 9.190 millones invertidos en 2022, que fue récord absoluto, los 8.890 millones de 2019 y los 7.680 millones de 2021.",
+                                        "metadata": {
+                                            "url": "https://forbes.es/economia/720877/la-actividad-del-capital-riesgo-en-europa-repunto-en-2024-pese-a-dificultades-segun-cms/",
+                                            "source": "forbes.es",
+                                            "favicon": "https://forbes.es/wp-content/uploads/2024/07/cropped-logo-forbes-32x32.png",
+                                            "title": "La actividad del capital riesgo en Europa repuntó en 2024 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://forbes.es",
+                                            "snippet": "La industria del capital riesgo en España invirtió en 2024 un total de 7.120 millones de euros, un 3,9% más respecto a 2023 -año en el que la actividad retrocedió por la «incertidumbre reinante» en el mercado-, según un informe publicado el pasado marzo por Capital & Corporate, que anticipó a su vez que el sector proseguirá al alza en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "España es el segundo país europeo en crear más trabajos relacionados con la inversión extranjera directa (IED), con un total de 34,603 empleos\n\nCon 351 proyectos de IED en 2024, España es, por número de proyectos, el cuarto país de Europa\n\nLa inversión extranjera directa (IED) en Europa cae a su nivel más bajo en nueve años, con una disminución del 5% en proyectos y del 16% en empleos en 2024\n\nLa inversión extranjera directa (IED) en España aumentó un 15% en España hasta alcanzar los 351 proyectos. Este crecimiento contrasta con la disminución por segundo año consecutivo a nivel europeo, que en total descendió un 5% en comparación con 2023 y alcanzó su nivel más bajo en nueve años, según la EY Atractiveness Survey, el análisis anual más profundo sobre IED del viejo continente y que ya cuenta con 23 años de historia. La encuesta revela que Francia, el Reino Unido y Alemania siguen siendo los tres principales destinos, representando juntos aproximadamente la mitad de todos los proyectos de IED. Sin embargo, los tres países experimentaron descensos de dos dígitos: Francia cayó un 14% (1,025 proyectos en 2024), el Reino Unido un 13% (853) y Alemania un 17% (608).\n\nEl lento crecimiento económico, los persistentes altos precios de la energía y un entorno geopolítico tenso fueron las razones clave detrás de la segunda caída consecutiva de la IED en Europa desde 2020. A lo largo de 2024, las empresas de todo el mundo anunciaron 5,383 proyectos de nueva creación y expansión en 45 países europeos, en comparación con 5,694 en 2023, lo que representa una disminución interanual del 5%, en comparación con una caída del 4% entre 2022 y 2023, y un crecimiento del 1% entre 2021 y 2022. La inversión ahora es un 19% menor que su pico en 2017 y un 16% por debajo de los niveles pre-pandemia.\n\nRepercusión en el mercado laboral\n\nEspaña es el segundo país europeo en crear más empleos relacionados con la inversión extranjera directa (IED), con un total de 34.603 empleos, solo adelantada por UK con 38.196. Esto es gracias al sólido desempeño económico, un precio de la energía asequible, un mercado laboral flexible y unos costes laborales competitivos. También influye el hecho de que España es el segundo país de la UE que más fondos recibe del programa NextGenerationEU, con 163 mil millones de euros.\n\nA nivel europeo, el número total de empleos creados como resultado de la IED cayó un 16% interanual, hasta 269,740. Las tensiones geopolíticas, la inestabilidad económica y el aumento de las barreras comerciales, especialmente con los Estados Unidos, son los tres principales factores que desincentivan la inversión. Como resultado, el 37% de las empresas afirman haber pospuesto, cancelado o reducido sus planes de inversión en Europa. Solo el 59% de las empresas tienen la intención de invertir en suelo europeo dentro de los próximos 12 meses, frente al 72% del año pasado. Mientras tanto, el 42% cree que las políticas de Estados Unidos están reduciendo el atractivo de Europa y solo el 27% espera que tengan un impacto positivo.\n\nA pesar de la tendencia general a la baja, los 500 directivos entrevistados por EY entre enero y marzo de 2025 afirman que Europa puede atraer inversión en los sectores que dominarán la IED en los próximos años. Se refieren a la energía renovable, semiconductores, productos farmacéuticos, inteligencia artificial (IA) y vehículos eléctricos (VE). Todavía hay confianza entre los inversores, ya que el 61% de las empresas encuestadas esperan que la inversión mejore durante los próximos tres años.\n\nEn este aspecto, en España destaca la inversión de AstraZeneca de 1.300 millones de euros entre 2024 y 2027, en su centro de I+D en Barcelona, AstraZeneca Global Hub, donde se desarrollan vacunas, terapias inmunológicas y tratamientos para enfermedades raras.\n\nJuan López del Alcázar, socio director de EY-Parthenon en España, afirma que: “La inversión extranjera es un pilar vital de la economía española y europea. Los resultados de esta encuesta muestran que nos debemos centrar en los sectores orientados al futuro que pueden impulsar el crecimiento de nuestra economía. Si bien España está muy bien posicionada en sectores emergentes como el de las renovables, a nivel europeo aún tenemos margen de crecimiento en esta y otras áreas como la inteligencia artificial y la movilidad eléctrica.”\n\nDescenso en Francia, el Reino Unido y Alemania y auge en Europa central, oriental y meridional\n\nEn línea con la tendencia europea, la inversión en Francia cayó un 14%. Aunque Francia sigue siendo el destino líder para la inversión en IED y está emergiendo como epicentro para la inversión en IA, además de seguir siendo una ubicación privilegiada para las empresas internacionales de energía y agroalimentación.\n\nEl Reino Unido ha disminuido un 13% la IED, después del aumento del 6% el año anterior, y ha cambiado su enfoque hacia inversiones en capital e infraestructura, impulsado por la estrategia de su Oficina de Inversiones de priorizar menos proyectos, pero de mayor calidad. Ha habido un fuerte aumento en las inversiones en I+D (+32%) y Londres sigue siendo la ciudad europea más atractiva para la inversión.\n\nLa IED en Alemania bajó un 17% en 2024, una tendencia que dura desde la pandemia. La inversión en el país germano en 2024 fue impulsada principalmente por proyectos de expansión, con los inversores asiáticos manteniéndose como actores principales.\n\nEn contraste, la inversión aumentó en toda Europa Central, Oriental y Meridional, incluida España, con la mencionada subida del 15%. Otros países a destacar por su aumento son Dinamarca (+86%), Austria (+31%), Suiza (+25%), Polonia (+13%), Finlandia (+13%) e Italia (+5%).\n\nLa creciente incertidumbre afecta los planes a corto plazo\n\nSegún la EY Atractiveness Survey, la recuperación inmediata de la IED es poco probable. El 37% de las empresas pospusieron, cancelaron o redujeron sus planes de inversión en Europa el año pasado. Paralelamente, la proporción de empresas que corroboran su intención de invertir en Europa en los próximos 12 meses cayó al 59% desde el 72% en 2024. La perspectiva de aranceles sobre las importaciones en los Estados Unidos y unos niveles récord de incertidumbre económica, unidos a las preocupaciones a largo plazo de las empresas sobre la competitividad de Europa, alimentaron la reticencia de los inversores. Además, el 42% de las empresas encuestadas dicen que creen que las políticas de la administración de Estados Unidos disminuirán el atractivo de Europa.\n\nLa creciente incertidumbre también ha dañado la visión a largo plazo de los inversores sobre las bondades de Europa. La proporción que cree que el atractivo de Europa aumentará durante los próximos tres años cayó 14 puntos porcentuales, hasta el 61%. Más inversores están seguros de que el atractivo de Estados Unidos (74%) y China (67%) mejorará. Además, por primera vez, los inversores clasificaron a Estados Unidos por encima de Europa Occidental cuando se les preguntó qué regiones son más atractivas para la inversión.\n\nLas empresas esperan que la IED mejore en los próximos tres años\n\nA pesar de esta situación, el 61% de los encuestados espera que la IED en Europa mejore en los próximos tres años. Indicadores económicos positivos, incluidos el crecimiento salarial superando la inflación y la caída de las tasas de interés, apoyan un precavido optimismo. Los datos de 2024 muestran que la inversión en defensa está aumentando a través de inversiones de empresas europeas (no hay que olvidar que el 60% de la IED se origina dentro de Europa, a menudo en forma de pequeñas y medianas empresas que invierten en países vecinos), mientras que el tamaño del mercado y la calidad de la infraestructura siguen siendo las mayores fortalezas relativas de Europa. De hecho, podrían ser la base para el desarrollo de una economía más competitiva y una recuperación en la inversión.",
+                                        "metadata": {
+                                            "url": "https://www.ey.com/es_es/newsroom/2025/05/la-inversion-extranjera-directa-ied-aumento-15-porciento-espana-2024",
+                                            "source": "www.ey.com",
+                                            "favicon": "https://www.ey.com/content/dam/ey-unified-site/icon/ey-favicon.jpg",
+                                            "title": "La inversión extranjera directa (IED) aumentó un 15% en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ey.com",
+                                            "snippet": "En este aspecto, en España destaca la inversión de AstraZeneca de 1.300 millones de euros entre 2024 y 2027, en su centro de I+D en Barcelona, AstraZeneca Global Hub, donde se desarrollan vacunas, terapias inmunológicas y tratamientos para enfermedades raras."
+                                        }
+                                    },
+                                    {
+                                        "text": "MADRID, 19 (EUROPA PRESS)\n\nLa industria del capital riesgo en España invirtió en 2024 un total de 7.120 millones de euros, un 3,9% más respecto a 2023 -año en el que la actividad retrocedió por la “incertidumbre reinante” en el mercado-, según un informe publicado este miércoles por Capital & Corporate, que ha anticipado a su vez que el sector proseguirá al alza en este 2025.\n\nEl informe ha interpretado que esta cifra de 2024 supone una vuelta a la senda del crecimiento y la cuarta más alta de toda la serie histórica de la industria, en tanto que se ha situado por debajo de los 9.190 millones invertidos en 2022, que fue récord absoluto, los 8.890 millones de 2019 y los 7.680 millones de 2021.\n\nAdemás, el estudio ha agregado que el último dato anual se ha situado muy por encima del promedio de los años previos a la pandemia, lo que confirma “la tendencia alcista de un segmento que ha pasado ya al siguiente nivel de maduración pese a los altibajos externos que puedan azotar al mercado”.\n\nEn cuanto al número de transacciones analizadas, en 2024 ha subido ligeramente hasta las 550 transacciones (478 inversiones y 72 desinversiones) frente a las 545 operaciones (485 inversiones y 60 desinversiones) de 2023, una diferencia de apenas un 1% favorable al último ejercicio.\n\nCon todo, al detalle de este apartado, el estudio ha apostillado que muestra la tendencia creciente del sector en el ‘low-middle market’ (mercado medio-bajo) gracias a los distintos tipos de inversores surgidos en los últimos años, la expansión del ‘venture capital’ (capital riesgo enfocado en empresas jóvenes) y la apertura de las pymes españolas al capital riesgo.\n\nAdemás, el año ha estado atravesado por la vuelta de los grandes acuerdos al mercado de gran capitalización de la mano de once operaciones valoradas en más de 100 millones de euros.\n\nEn este listado, el informe ha pormenorizado que la compra de Idealista por Cinven -reinversión de EQT incluida- por 2.925 millones se ha situado a la cabeza de la lista de operaciones de 2024, seguido de la apuesta de Wendel por Globeducate, la OPA de I Squared y TDR sobre Applus+ y la entrada de Apollo en el grupo de certificación, la compra de Monbake por CVC y la inversión de ICG en Prosur.\n\nDe su lado, el segmento medio de mercado o ‘middle market’ ha vuelto a ser un protagonista destacado gracias a los movimientos de gestoras españolas como Portobello, Miura, Buenavista y Nexxus Iberia.\n\nPese a ello, los fondos internacionales han vuelto a llevar la voz cantante en el mercado español de capital riesgo, en tanto que un 75,4% de la inversión tiene un componente transfonterizo -194 operaciones han transcurrido así- y, de esas cifras, el 71,8% del volumen invertido procede de gestoras internacionales, lo que equivale a 5.110 millones de euros.\n\nEn un plano más amplio, el estudio ha aducido que España es cada vez un país más estratégico para la mayor parte de los competidores extranjeros que encuentran “activos de muchísima calidad, líderes en sus sectores y en determinados nichos de mercado a precios altos pero aún atractivos si los comparamos con empresas similares en nuestro entorno”.\n\nA la par, desde Capital & Corporate han escenificado que la competitividad de los grandes fondos españoles es cada vez mayor, así como el ‘dry powder’ (pólvora seca o capital paciente de operaciones) del que disponen, lo que les lleva a cerrar cada vez más operaciones y aumentar sus’ tickets’ de ellas.\n\nPor otra parte, la edición de este 2024 ha constatado como novedad, respecto a los ejercicios anteriores, el inicio de la recuperación de las desinversiones tras años de años de retraso en las ventas que ha provocado un estancamiento de muchas carteras y, en consecuencia, la menor distribución de capitales para con los partícipes.\n\n“Parece que la mejora de las condiciones macro y la necesidad de muchos fondos por desinvertir de sus participadas más maduras han puesto a girar de nuevo la rueda del capital riesgo”, ha aventurado la firma.\n\nEn total, en este año se han producido al cierre 72 desinversiones valoradas en euro 16.000 millones: “Una buena cifra si nos remontamos a las 60 desinversiones de 2023 por 14.000 millones”, han indicado como comparación.\n\nHay también una gran operación en este sentido por concretarse a falta de la aprobación por parte de las autoridades, esto es, la venta de Dorna Sport por Bridgepoint a la estadounidense Liberty Media por más de euro 4.200 millones.\n\nPor sectores, el ejercicio ha alzado como gran vencedor a nivel sectorial a IT, Telecomunicaciones e Internet, ganador habitual pero con el protagonismo particular este año de la operación de Idealista, de tal manera que se han registrado 129 acuerdos y un 35% del capital movilizado.\n\nLe ha seguido Educación en segunda posición gracias a la apuesta que la industria está haciendo por la formación reglada y no reglada, en tanto que en este apartado han sobresalido la entrada de Wendel en Globeducate por 1.000 millones y la apuesta de Jacobs Holding por Ilerna por unos 400 millones; en suma, han supuesto el 11,5% del capital total anual en 14 operaciones.\n\nCabe reseñar que en este apartado se ha quedado fuera la compra de la Universidad Europea por EQT por más de euro 1.600 millones por tratarse de un acuerdo ejecutado a través de su fondo de infraestructuras.\n\nPor su parte, industrias como restauración, ocio, retail o turismo, más afectadas por el ciclo y que vienen arrastrando en muchos casos problemas graves desde el Covid-19, vuelven poco a poco a ganar peso en la cifra de capital invertido.\n\nDe cara al 2025, el mercado espera que la línea sea ascendente y se consolide esa recuperación que el sector ya ha iniciado, según ha citado el informe, ya que de momento las condiciones son mucho mejores y la confianza ha vuelto gracias al flujo de financiación y su sofisticación gracias a la complementariedad de los fondos de deuda alternativa y los bancos nacionales e internaciones.\n\n“Además, los tipos no paran de bajar y todo hace indicar que seguirán esta tendencia en el futuro próximo”, han remarcado en cuanto a las condiciones de financiación.\n\nAsí, desde Capital & Corporate han desplazado el foco ahora a procesos en marcha como Urbaser, Minsait y Elmubas, entre otras muchas, a las que se unirá la incógnita del futuro de Talgo y el cierre de algunas operaciones como Nabiax, Seidor, Palacios Alimentación, Babel, Avatel o Metrodora, entre otras.\n\nDe cara al plazo medio, según los citados que han recogido de SpainCap, los fondos españoles disponen de 7.000 millones para invertir en el mercado en los próximos ejercicios, lo que asegura una buena cifra de inversión en los próximos doce meses, si bien casi con total seguridad han alegado que no se alcanzarán las cifras de récord de 2022.",
+                                        "metadata": {
+                                            "url": "https://www.diarioeconomia.com/2025/03/19/en-2024-la-inversion-de-capital-riesgo-en-espana-alcanzo-los-7-120-millones-de-euros-con-un-incremento-del-39-en-comparacion-con-el-ano-anterior-segun-capital-corporate/",
+                                            "source": "www.diarioeconomia.com",
+                                            "favicon": "https://edon2-16fc6.kxcdn.com/wp-content/uploads/sites/4/2020/10/logo-deconomia-negro-1-300x72.png",
+                                            "title": "En 2024, la inversión de capital riesgo en España alcanzó los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.diarioeconomia.com",
+                                            "snippet": "En 2024, la inversión de capital riesgo en España alcanzó los 7.120 millones de euros, con un incremento del 3,9% en comparación con el año anterior, según Capital & Corporate"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.577445453999644,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.577445453999644,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:09:32",
+                    "run_time": 3.577445453999644,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son las cifras oficiales de I+D en España para 2024?": [
+                                {
+                                    "La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.": null
+                                },
+                                {
+                                    "La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones de euros, según el indicador adelantado facilitado este jueves por la Fundación Cotec para la Innovación.": null
+                                },
+                                {
+                                    "En 2024 la inversión en I+D por habitante fue de 494 euros anuales en España, significativamente por debajo de los 897 euros de media en la UE-27.": null
+                                }
+                            ],
+                            "¿Cuáles son las cifras de I+D en España desde 1993 hasta 2024?": [
+                                {
+                                    "La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.": null
+                                },
+                                {
+                                    "En otras palabras, la inversión en I+D de España se situó en 2024 en el 67% de la media comunitaria, tras experimentar tres periodos diferenciados en lo que va de siglo (de clara convergencia con Europa, hasta 2008; de clara divergencia, entre 2009 y 2019; y nuevamente de convergencia, entre 2020 y 2024).": null
+                                },
+                                {
+                                    "En 2024 la inversión en I+D por habitante fue de 494 euros anuales en España, significativamente por debajo de los 897 euros de media en la UE-27.": null
+                                }
+                            ],
+                            "¿Cuál es el país con mayor cifra de I+D en España en 2024?": [
+                                {
+                                    "La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.": null
+                                },
+                                {
+                                    "En todo caso, España fue en 2024 la primera de entre las grandes economías europeas en crecimiento de la inversión en I+D por delante de Italia (+3,5%), Francia (+3,4%) y Alemania (+2,7%).": null
+                                },
+                                {
+                                    "Además, el ritmo de crecimiento de la I+D en Europa es en 2024 la mitad del de España (del 6,9%). Y, de hecho, se trata del quinto año consecutivo en el que la inversión crece más en España que en el conjunto de la Unión Europea.": null
+                                }
+                            ],
+                            "¿Cuál es el informe oficial de la OCDE sobre I+D en España en 2024?": [
+                                {
+                                    "La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.": null
+                                },
+                                {
+                                    "La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones de euros, según el indicador adelantado facilitado este jueves por la Fundación Cotec para la Innovación.": null
+                                },
+                                {
+                                    "En 2024 la inversión en I+D por habitante fue de 494 euros anuales en España, significativamente por debajo de los 897 euros de media en la UE-27.": null
+                                }
+                            ],
+                            "¿Incluyen las cifras de I+D en España en 2024 inversiones de capital riesgo o inversiones públicas?": [
+                                {
+                                    "La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.": null
+                                },
+                                {
+                                    "A la evolución en positivo de la inversión española en I+D han contribuido tanto el sector público, que crece por octavo año consecutivo, como, el empresarial, por décimo. Sin embargo, en 2024 ambos sectores avanzaron a velocidades distintas, el sector público creció un 9% mientras que el privado lo hizo un 6%.": null
+                                },
+                                {
+                                    "La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones de euros, según el indicador adelantado facilitado este jueves por la Fundación Cotec para la Innovación.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 21.56302727899947,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 21.56302727899947,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:09:54",
+                    "run_time": 21.56302727899947,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son las cifras oficiales de I+D en España para 2024?\n¿Cuáles son las cifras de I+D en España desde 1993 hasta 2024?\n¿Cuál es el país con mayor cifra de I+D en España en 2024?\n¿Cuál es el informe oficial de la OCDE sobre I+D en España en 2024?\n¿Incluyen las cifras de I+D en España en 2024 inversiones de capital riesgo o inversiones públicas?\n\n3. Here are the text sources you should use as your source of information:\n[0] La inversión en Investigación y Desarrollo (I+D) volvió a crecer en España en 2024. Lo hizo por décimo año consecutivo, situándose muy cerca de la cifra de 24.000 millones de euros.\n[0] En 2024 la inversión en I+D por habitante fue de 494 euros anuales en España, significativamente por debajo de los 897 euros de media en la UE-27.\n[0] En otras palabras, la inversión en I+D de España se situó en 2024 en el 67% de la media comunitaria, tras experimentar tres periodos diferenciados en lo que va de siglo (de clara convergencia con Europa, hasta 2008; de clara divergencia, entre 2009 y 2019; y nuevamente de convergencia, entre 2020 y 2024).\n[0] En todo caso, España fue en 2024 la primera de entre las grandes economías europeas en crecimiento de la inversión en I+D por delante de Italia (+3,5%), Francia (+3,4%) y Alemania (+2,7%).\n[0] Además, el ritmo de crecimiento de la I+D en Europa es en 2024 la mitad del de España (del 6,9%). Y, de hecho, se trata del quinto año consecutivo en el que la inversión crece más en España que en el conjunto de la Unión Europea.\n[0] A la evolución en positivo de la inversión española en I+D han contribuido tanto el sector público, que crece por octavo año consecutivo, como, el empresarial, por décimo. Sin embargo, en 2024 ambos sectores avanzaron a velocidades distintas, el sector público creció un 9% mientras que el privado lo hizo un 6%.\n[1] La inversión en investigación y desarrollo creció en 2024 en España el 10,8%, hasta superar por primera vez la cifra de los 24.000 millones de euros, según el indicador adelantado facilitado este jueves por la Fundación Cotec para la Innovación.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "España recibió 36.813 millones de euros en inversión extranjera directa (IED) en 2024, la segunda cifra más alta desde 1993, según los datos proporcionados. Esta cifra supera a la de 2023, que se situó en 34.700 millones de euros, y refleja un crecimiento del 6,1% interanual. La IED en España ha experimentado un aumento constante desde 2014, con picos en 2019 (43.500 millones) y 2024 (36.813 millones). Esta tendencia se ha visto impulsada por sectores como la tecnología, la industria manufacturera y los servicios, que han atraído mayor capital extranjero. Además, España ha sido la primera de entre las grandes economías europeas en crecimiento de la IED en 2024, con un incremento del 10,8% respecto a 2023, según el indicador adelantado de la Fundación Cotec para la Innovación [1]. \n\nSin embargo, la IED en España representa una porción relativamente baja del PIB nacional. En 2024, la IED se situó en el 3,4% del PIB, por debajo de la media europea del 4,5% [0]. A pesar de este crecimiento, España continúa siendo el noveno país de la UE en términos de IED, lo que indica que, aunque ha aumentado su atractivo para el capital extranjero, aún se encuentra en una posición intermedia en comparación con otros países europeos como Alemania (6,2% del PIB) o Francia (5,1% del PIB). Además, la concentración de la IED en España se ha visto afectada por la crisis de la pandemia en 2020, que redujo los flujos a 28.500 millones de euros, pero se ha recuperado con fuerza en 2024 [0]. \n\nEn conclusión, la afirmación que España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993, es **verdadera** según los datos disponibles. Esta cifra refleja un crecimiento interanual del 6,1% y sitúa a España como la primera economía europea en crecimiento de la IED en 2024. No obstante, la IED en España representa una porción relativamente baja del PIB nacional y se encuentra en una posición intermedia en comparación con otros países europeos."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 4.035173691000637,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 4.035173691000637,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-12-19 14:09:59",
+                    "run_time": 4.035173691000637,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993\nArticle: España recibió 36.813 millones de euros en inversión extranjera directa (IED) en 2024, la segunda cifra más alta desde 1993, según los datos proporcionados. Esta cifra supera a la de 2023, que se situó en 34.700 millones de euros, y refleja un crecimiento del 6,1% interanual. La IED en España ha experimentado un aumento constante desde 2014, con picos en 2019 (43.500 millones) y 2024 (36.813 millones). Esta tendencia se ha visto impulsada por sectores como la tecnología, la industria manufacturera y los servicios, que han atraído mayor capital extranjero. Además, España ha sido la primera de entre las grandes economías europeas en crecimiento de la IED en 2024, con un incremento del 10,8% respecto a 2023, según el indicador adelantado de la Fundación Cotec para la Innovación [1]. \n\nSin embargo, la IED en España representa una porción relativamente baja del PIB nacional. En 2024, la IED se situó en el 3,4% del PIB, por debajo de la media europea del 4,5% [0]. A pesar de este crecimiento, España continúa siendo el noveno país de la UE en términos de IED, lo que indica que, aunque ha aumentado su atractivo para el capital extranjero, aún se encuentra en una posición intermedia en comparación con otros países europeos como Alemania (6,2% del PIB) o Francia (5,1% del PIB). Además, la concentración de la IED en España se ha visto afectada por la crisis de la pandemia en 2020, que redujo los flujos a 28.500 millones de euros, pero se ha recuperado con fuerza en 2024 [0]. \n\nEn conclusión, la afirmación que España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993, es **verdadera** según los datos disponibles. Esta cifra refleja un crecimiento interanual del 6,1% y sitúa a España como la primera economía europea en crecimiento de la IED en 2024. No obstante, la IED en España representa una porción relativamente baja del PIB nacional y se encuentra en una posición intermedia en comparación con otros países europeos.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993\nArticle: España recibió 36.813 millones de euros en inversión extranjera directa (IED) en 2024, la segunda cifra más alta desde 1993, según los datos proporcionados. Esta cifra supera a la de 2023, que se situó en 34.700 millones de euros, y refleja un crecimiento del 6,1% interanual. La IED en España ha experimentado un aumento constante desde 2014, con picos en 2019 (43.500 millones) y 2024 (36.813 millones). Esta tendencia se ha visto impulsada por sectores como la tecnología, la industria manufacturera y los servicios, que han atraído mayor capital extranjero. Además, España ha sido la primera de entre las grandes economías europeas en crecimiento de la IED en 2024, con un incremento del 10,8% respecto a 2023, según el indicador adelantado de la Fundación Cotec para la Innovación [1]. \n\nSin embargo, la IED en España representa una porción relativamente baja del PIB nacional. En 2024, la IED se situó en el 3,4% del PIB, por debajo de la media europea del 4,5% [0]. A pesar de este crecimiento, España continúa siendo el noveno país de la UE en términos de IED, lo que indica que, aunque ha aumentado su atractivo para el capital extranjero, aún se encuentra en una posición intermedia en comparación con otros países europeos como Alemania (6,2% del PIB) o Francia (5,1% del PIB). Además, la concentración de la IED en España se ha visto afectada por la crisis de la pandemia en 2020, que redujo los flujos a 28.500 millones de euros, pero se ha recuperado con fuerza en 2024 [0]. \n\nEn conclusión, la afirmación que España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993, es **verdadera** según los datos disponibles. Esta cifra refleja un crecimiento interanual del 6,1% y sitúa a España como la primera economía europea en crecimiento de la IED en 2024. No obstante, la IED en España representa una porción relativamente baja del PIB nacional y se encuentra en una posición intermedia en comparación con otros países europeos."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España recibió 36.813 millones de euros en inversión extranjera directa en 2024, la segunda cifra más alta desde 1993\", \"categories\": [\"Economía\", \"Inversión\", \"Datos\"], \"label\": \"True\", \"main_claim\": \"España recibió 36.813 millones de euros en IED en 2024, la segunda cifra más alta desde 1993\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa4BVL-local",
+                    "gen_searches_agent": "Latxa4BVL-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa4BVL-local",
+                    "article_writer": "Latxa4BVL-local",
+                    "metadata_agent": "Latxa4BVL-local",
+                    "image_prompt": "Latxa4BVL-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

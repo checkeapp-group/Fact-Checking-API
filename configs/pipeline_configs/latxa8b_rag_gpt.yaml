@@ -1,0 +1,46 @@
+# Sample configuration file for fact-checking workflows
+# This file shows all configurable parameters for the workflows
+
+# Workflow type
+workflow_type: "FactCheckingWithPipelineWorkflow"
+
+# Model configuration - specify different models for each agent
+models:
+  critical_question_agent: "Latxa8B-local"           # Model for generating searches and questions
+  gen_searches_agent: "Latxa8B-local"           # Model for generating searches and questions
+  web_search_provider: "serper"         # Web search provider
+  embedding: "text-embedding-3-large"   # Embedding model for RAG (only used in RAG workflow)
+  question_agent: "Latxa8B-local"         # Model for answering questions
+  article_writer: "Latxa8B-local"         # Model for writing fact-check articles
+  metadata_agent: "Latxa8B-local"         # Model for extracting metadata
+  image_prompt: "Latxa8B-local"           # Model for generating image descriptions
+  image_model: "flux-replicate"           # Image model for generating images
+# Web search configuration
+web_search:
+  top_k: 5                              # Number of results to return per query
+  max_searches: 5                       # Maximum number of searches to perform
+  ban_domains: null                     # List of domains to exclude (null for no restrictions)
+  download_text: true                   # Whether to download full text content
+
+# RAG configuration (only used in RAG workflow)
+rag:
+  do_rag: True
+  chunk_size: 128                       # Character window for text chunking
+  chunk_overlap: 0                      # Overlap between consecutive chunks
+  split_separators: ["\n"]              # Separators for text splitting
+  fp16_storage: true                    # Use float16 for memory efficiency
+  l2_normalise: true                    # Perform L2-normalization on embeddings
+  top_k: 3                             # Number of most similar passages to return
+  get_scores: false                     # Whether to include similarity scores
+
+questions:
+  max_questions: 5                      # Maximum number of questions to generate
+
+# Image generation configuration
+image:
+  size: "1280x256"                      # Image size in "WIDTHxHEIGHT" format
+  style: "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+
+# General configuration
+general:
+  max_history_size: null                # Maximum history size for agents (null for unlimited)

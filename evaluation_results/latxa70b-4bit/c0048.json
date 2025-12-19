@@ -1,0 +1,630 @@
+{
+    "question": "Las baterías de coches eléctricos se pueden reciclar",
+    "answer": "**La mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**. Según [1], el reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Además, se menciona que para 2025 se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3%, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo. Esto sugiere que existe un interés y un potencial significativo en el reciclaje de baterías de coches eléctricos.\n\nAdemás, [2] menciona que el reciclaje de baterías de vehículos eléctricos aportará en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. Esto indica que se espera que el reciclaje de baterías de coches eléctricos sea una fuente importante de materiales reciclados en el futuro. Por otro lado, [1] también menciona que las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan preocupaciones ambientales. Esto sugiere que la industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos.\n\nSin embargo, **también existen algunas limitaciones y desafíos en el reciclaje de baterías de coches eléctricos**. Según [3], la baja tasa de reciclaje es un desafío, ya que solo se da una segunda vida al 12% de las baterías en el mundo. Esto se debe principalmente a la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje. Además, [1] menciona que el complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Estos desafíos sugieren que, aunque el reciclaje de baterías de coches eléctricos es posible, todavía existen obstáculos que deben ser superados.\n\nEn conclusión, **la mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**, aunque existen algunos desafíos y limitaciones que deben ser abordados. La industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos, y se espera que el reciclaje de baterías de vehículos eléctricos sea una fuente importante de materiales reciclados en el futuro. Sin embargo, es importante tener en cuenta los desafíos y limitaciones existentes y trabajar para superarlos.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.large-battery.com/es/blog/weee-standard-lithium-battery-recycling-2025/",
+            "source": "www.large-battery.com",
+            "favicon": "https://www.large-battery.com/wp-content/uploads/2025/04/large-favicon.png"
+        },
+        "2": {
+            "url": "https://elperiodicodelaenergia.com/las-baterias-recicladas-de-coche-electrico-aportaran-en-2030-el-84-5-del-litio-para-hacer-nuevas/",
+            "source": "elperiodicodelaenergia.com",
+            "favicon": "https://elperiodicodelaenergia.com/favicon-32x32.png"
+        },
+        "3": {
+            "url": "https://diariodigital.ujaen.es/divulgacion-cientifica/conversation-solo-una-de-cada-diez-se-recicla-el-reto-de-introducir-las",
+            "source": "diariodigital.ujaen.es",
+            "favicon": "https://diariodigital.ujaen.es/themes/custom/ujaen_bootstrap/img/favicon.ico"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Las baterías de coches eléctricos se pueden reciclar",
+        "categories": [
+            "Medio ambiente",
+            "Automoción",
+            "Ciencia"
+        ],
+        "label": "True",
+        "main_claim": "Las baterías de coches eléctricos pueden ser recicladas",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 12.395471143998293,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 12.395471143998293,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:43:15",
+                    "run_time": 12.395471143998293,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLas baterías de coches electricos se pueden reciclar\n\n**Critical Research Questions:**\n1. ¿Cuál es la tasa de reciclaje actual de baterías de coches eléctricos en 2025?\n2. ¿Cómo se comparan las baterías de iones de litio y las baterías de níquel-metal hidruro en términos de reciclabilidad?\n3. ¿Qué dicen los expertos en reciclaje de baterías sobre la viabilidad de reciclar baterías de coches eléctricos?\n4. ¿Cuáles son las principales críticas a la reciclabilidad de baterías de coches eléctricos?\n5. ¿Qué nuevos desarrollos en tecnología de reciclaje de baterías se han producido en 2025?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"tasa de reciclaje baterías coches eléctricos 2025 datos oficiales gobierno\", \"comparación reciclabilidad baterías iones litio níquel-metal hidruro estudios científicos\", \"expertos reciclaje baterías coches eléctricos análisis viabilidad tecnológica\", \"críticas reciclabilidad baterías coches eléctricos artículos académicos investigaciones recientes\", \"nuevos desarrollos tecnología reciclaje baterías 2025 noticias oficiales innovaciones\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 64.66942716599806,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 64.66942716599806,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:44:25",
+                    "run_time": 64.66942716599806,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "tasa de reciclaje baterías coches eléctricos 2025 datos oficiales gobierno",
+                                "comparación reciclabilidad baterías iones litio níquel-metal hidruro estudios científicos",
+                                "expertos reciclaje baterías coches eléctricos análisis viabilidad tecnológica",
+                                "críticas reciclabilidad baterías coches eléctricos artículos académicos investigaciones recientes",
+                                "nuevos desarrollos tecnología reciclaje baterías 2025 noticias oficiales innovaciones"
+                            ],
+                            "results": {
+                                "tasa de reciclaje baterías coches eléctricos 2025 datos oficiales gobierno | comparación reciclabilidad baterías iones litio níquel-metal hidruro estudios científicos | expertos reciclaje baterías coches eléctricos análisis viabilidad tecnológica | críticas reciclabilidad baterías coches eléctricos artículos académicos investigaciones recientes | nuevos desarrollos tecnología reciclaje baterías 2025 noticias oficiales innovaciones": [
+                                    {
+                                        "text": "El reciclaje de baterías de vehículos eléctricos aportarán en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. En concreto, recuperarán 9.400 toneladas de materias primas fundamentales que permitirían fabricar 33.000 baterías sin necesidad de extraer nuevos recursos de este tipo.\n\nEsta es la conclusión a la que llega el V Informe Anual de la entidad sobre tendencias en la industria del reciclaje de residuos de aparatos eléctricos y electrónicos (RAEE) y pilas en España, publicado. A su vez, el texto también refleja que esta actividad aportará el 7,4% y 9,5% de las toneladas de aluminio y níquel que demandará la producción de nuevos aparatos en España dentro de seis años.\n\nRecyclia indica que, en la actualidad, España es \"totalmente dependiente\" del exterior en el suministro de algunas materias primas fundamentales como el aluminio o el níquel y que la dependencia del país \"también es elevada\" en lo que respecta a minerales metálicos (ratio de dependencia del 68%); oro, plata y platino (49%); metales no férreos (33%); y, en menor medida, cobre y zinc (14%). A su vez, denuncia la \"elevada concentración de importaciones\" y especifica que el 85,5% del oro, la plata y el platino y el 68% del níquel importados por nuestro país proceden de Marruecos y Brasil, respectivamente.\n\nEn este marco, el consejero delegado de la entidad José Pérez ha afirmado que la adopción de tecnologías que faciliten las transiciones verde y digital está aumentando \"extraordinariamente\" la demanda de materias primas fundamentales para implementar tecnologías vinculadas con las energías renovables y la movilidad sostenible. Ante esta demanda, el reciclaje de RAEE y pilas se consolida como \"un eslabón clave para una cadena de suministro estable y resiliente en un mercado como el comunitario que aspira a reforzar su autonomía estratégica en 2030\".\n\nTasas de reciclaje en España\n\nAl margen de esto, el informe también ha actualizado los principales datos de recogida y reciclaje de residuos electrónicos y de pilas y baterías en nuestro país con los últimos datos disponibles, correspondientes al año 2021. Así, ha detallado que se recogieron 413.300 toneladas de residuos electrónicos ese año, un 5% más que en 2020.\n\nDe acuerdo con Recyclia, esto supone el 47,8% de las toneladas de aparatos electrónicos puestos en el mercado en el trienio anterior (2018-2020), lo que coloca a España por delante de países de nuestro entorno como Alemania (44,1%) e Italia (36,5%). Además, la tasa de crecimiento de las toneladas de estos residuos recogidas se situó en el 11,32% entre 2019 y 2021. En comparación, fue seis décimas más alta que la media de la Unión Europea (UE) y sólo fue superada por la de Francia, donde la tasa se colocó en un 17,46% en ese espacio de tiempo.\n\nAsimismo, el informe constata que la actividad del reciclaje de RAEE en España tuvo un Valor Añadido Bruto (VAB) de 1.360 millones de euros en 2023, por lo que \"se mantuvo estable\". A su vez, empleó a 23.500 profesionales a jornada completa y aportó 231 millones de euros a las arcas públicas. Por último, incide en que casi todos los productores e importadores de aparatos eléctricos (98,9%) y de pilas y baterías (96,7%) están adheridos a un sistema colectivo para cumplir con su obligación de gestión de estos residuos.",
+                                        "metadata": {
+                                            "url": "https://elperiodicodelaenergia.com/las-baterias-recicladas-de-coche-electrico-aportaran-en-2030-el-84-5-del-litio-para-hacer-nuevas/",
+                                            "source": "elperiodicodelaenergia.com",
+                                            "favicon": "https://elperiodicodelaenergia.com/favicon-32x32.png",
+                                            "title": "Las baterías recicladas de coche eléctrico aportarán en ...",
+                                            "type": "web_search",
+                                            "base_url": "https://elperiodicodelaenergia.com",
+                                            "snippet": "El reciclaje de baterías de vehículos eléctricos aportarán en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Análisis regional del mercado de reciclaje de baterías de vehículos eléctricos:\n\nPerspectivas del mercado de Asia Pacífico\n\nSe prevé que el mercado de reciclaje de baterías de vehículos eléctricos en Asia Pacífico domine una cuota de ingresos superior al 48,5 % para 2035, gracias al auge en la adopción de vehículos eléctricos y al creciente volumen de baterías al final de su vida útil. Los gobiernos de China, Japón y Corea del Sur están implementando estrictas regulaciones de reciclaje y promoviendo la gestión sostenible de baterías. La demanda de materiales críticos como el litio, el cobalto y el níquel está impulsando la inversión en tecnologías avanzadas de reciclaje. Además, la sólida base de fabricación de vehículos eléctricos de la región y la prioridad en la seguridad de los recursos están acelerando la expansión del mercado.\n\nEl mercado de reciclaje de baterías de vehículos eléctricos en China está en expansión debido a las estrictas regulaciones gubernamentales y al rápido crecimiento de la industria de vehículos eléctricos. El gobierno ha implementado políticas que exigen a los fabricantes de automóviles establecer sistemas de reciclaje y aumentar el uso de materiales reciclados en las baterías nuevas. Por ejemplo, en febrero de 2025, CATL firmó un memorando de entendimiento estratégico con Volkswagen para fortalecer su colaboración en la investigación y el desarrollo de baterías. Esta colaboración se centra en la aplicación de nuevos materiales y el desarrollo de componentes, con especial interés en las tecnologías de reciclaje e intercambio de baterías.\n\nEl mercado del reciclaje de baterías de vehículos eléctricos en Corea del Sur está en auge gracias a su sólida presencia en la fabricación de baterías y al impulso de una economía circular. Empresas líderes como LG Energy Solution y SK Innovation están invirtiendo en tecnologías avanzadas de reciclaje para recuperar litio y níquel. Iniciativas gubernamentales como subsidios para infraestructura de reciclaje y regulaciones de eliminación más estrictas están acelerando el crecimiento del sector. Además, Corea del Sur busca reducir la dependencia de materias primas importadas mediante el fortalecimiento de su ecosistema nacional de reciclaje.\n\nPerspectivas del mercado europeo\n\nSe prevé que Europa alcance una cuota de mercado notable en el reciclaje de baterías de vehículos eléctricos entre 2025 y 2035 gracias a las estrictas normativas de la UE que exigen una alta eficiencia de reciclaje y el uso de materiales recuperados en baterías nuevas. El objetivo del país de lograr la independencia energética y reducir la dependencia de minerales críticos importados está impulsando inversiones a gran escala en infraestructura de reciclaje. Los principales fabricantes de automóviles y empresas de baterías están formando alianzas estratégicas para desarrollar sistemas de reciclaje de circuito cerrado. Por ejemplo, en enero de 2025, BMW Group y SK Tes, con sede en Singapur, se asociaron para formar una empresa europea de reciclaje de baterías destinada a recuperar cobalto, níquel y litio de las baterías usadas. Los valiosos materiales recuperados se utilizarán para desarrollar el vehículo eléctrico de próxima generación de BMW, Neue Klasse. Además, la alianza también pretende expandir la colaboración entre Estados Unidos, México y Canadá para 2026. Esto pone de manifiesto la dedicación del país a establecer una economía circular en su sector automovilístico. El enfoque en la sostenibilidad y la neutralidad de carbono está acelerando la adopción de tecnologías avanzadas de reciclaje.\n\nAlemania lidera la expansión del mercado del reciclaje de baterías de vehículos eléctricos gracias a sólidas políticas gubernamentales, inversiones corporativas y un sector automotriz sólido. Empresas líderes en Alemania, como Mercedes-Benz y Volkswagen, están invirtiendo en instalaciones de reciclaje avanzadas para asegurar el suministro de materias primas críticas a nivel nacional. Por ejemplo, en octubre de 2024, Mercedes-Benz inauguró su primera planta de reciclaje de baterías en Kuppenheim (Alemania), como un paso hacia la gestión sostenible de los recursos. Esta planta emplea un proceso hidrometalúrgico mecánico integrado para lograr una tasa de recuperación superior al 96 % de litio, níquel y cobalto. Esta planta opera con neutralidad de carbono neta y utiliza electricidad 100 % verde, en línea con el compromiso del país con la sostenibilidad ambiental. Además, iniciativas gubernamentales como Battery Pass promueven la transparencia en los ciclos de vida de las baterías y fomentan el reciclaje eficiente.\n\nEl mercado británico de reciclaje de baterías de vehículos eléctricos está en auge gracias a la apuesta por la resiliencia y la sostenibilidad de la cadena de suministro nacional. La Institución Faraday, respaldada por el gobierno, financia la investigación de tecnologías de reciclaje de última generación, como la regeneración catódica directa. Empresas como Altilium están ampliando sus operaciones de reciclaje para apoyar la producción de vehículos eléctricos en el Reino Unido, reduciendo así la dependencia de las importaciones de materias primas. A medida que el Reino Unido acelera su transición hacia los vehículos eléctricos, un enfoque de economía circular impulsa nuevas inversiones en el reciclaje de baterías.",
+                                        "metadata": {
+                                            "url": "https://www.researchnester.com/es/reports/electric-vehicle-battery-recycling-market/2012",
+                                            "source": "www.researchnester.com",
+                                            "favicon": "https://www.researchnester.com/front/images/favicon.png",
+                                            "title": "Tamaño y pronóstico del mercado de reciclaje de baterías ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.researchnester.com",
+                                            "snippet": "En 2026, el tamaño de la industria del reciclaje de baterías de vehículos eléctricos se estima en 8.040 millones de dólares. Electric Vehicle ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El proyecto ha conseguido recuperar de manera selectiva el grafito del ánodo, eliminando eficazmente el aglutinante y obteniendo así un material más puro y de mayor calidad. Asimismo, se ha diseñado y construido un reactor versátil basado en procesos electroquímicos selectivos, capaz de extraer los metales del cátodo con alta eficiencia y control del proceso. En paralelo, se han definido protocolos para acondicionar y aprovechar las soluciones del proceso, de modo que esos metales puedan transformarse y reutilizarse. Con todo ello, se han sintetizado de nuevo materiales catódicos que, junto con el grafito reciclado, se han validado experimentalmente en celdas a escala de laboratorio con resultados prometedores.\n\nGracias a la financiación del Ivace+i, se han recuperado el grafito del ánodo y los metales del cátodo de baterías al final de su vida útil, se han transformado en nuevos materiales y se ha validado su uso como componentes de nuevas baterías, un avance clave para la economía circular y para reducir la dependencia de materias primas importadas. Además, Recilion ha tratado baterías procedentes de vehículos eléctricos declarados siniestro tras la dana en la provincia de Valencia, utilizándolas como materia prima real en los ensayos.\n\nEl ITE y Aidimme han culminado con éxito el proyecto Recilion, con el que han demostrado que el reciclaje de baterías de litio puede ser más completo y sostenible que con los métodos convencionales .\n\n“Recilion demuestra que es posible reciclar la batería casi al completo, no solo los materiales más valiosos. Hemos recuperado grafito de alta calidad y metales que ya hemos usado para crear de nuevo material catódico y comprobar su buen desempeño”, señala Laura Cebrián, investigadora del ITE. Además, subraya que “el nuevo reactor y los protocolos definidos permiten extraer y acondicionar metales de forma flexible, pensando en su reutilización directa en la fabricación de materiales para baterías nuevas”.\n\nLos resultados del proyecto apuntan a un menor impacto ambiental gracias a procesos más sostenibles, menor consumo de recursos y mayor aprovechamiento de materiales. También favorecen la autonomía industrial al posibilitar la reintroducción de grafito y metales recuperados en la cadena local de suministro de baterías. ITE y Aidimme han iniciado, además, acciones de transferencia con gestores de residuos y agentes industriales de la Comunitat Valenciana para evaluar su implantación y escalado.\n\nDurante 2024 se dieron los pasos clave que hicieron posibles los resultados actuales del proyecto. Se definió cómo recuperar el grafito del electrodo negativo de la batería, buscando el equilibrio entre eficacia, coste e impacto ambiental. Se desarrolló un procedimiento seguro y controlado para el tratamiento de las celdas, que permite su descarga, apertura y separación de las distintas fracciones de manera eficiente. Con ello, se obtuvo grafito recuperado y listo para las pruebas que permitieron validar su uso.\n\nPara la realización de este proyecto, el ITE ha utilizado sus instalaciones punteras como su planta piloto dedicada al reciclaje, Circular Carbon, y Battery Lab, con el que aborda toda la cadena de valor de las baterías.\n\nRecilion ha contado con el apoyo de la Conselleria de Innovación, Industria, Comercio y Turismo de la Generalitat Valenciana, a través del Ivace, y está cofinanciado por la Unión Europea mediante el Programa Feder Comunitat Valenciana 2021‑2027. Un proyecto que marca un paso decisivo hacia una economía circular de las baterías de litio en la Comunidad Valenciana.",
+                                        "metadata": {
+                                            "url": "https://hazrevista.org/innovacion-social/2025/10/baterias-circulares-proyecto-recilion-convierte-residuos-nuevos-componentes/",
+                                            "source": "hazrevista.org",
+                                            "favicon": "https://hazrevista.org/favicon/favicon-196x196.png",
+                                            "title": "Baterías circulares: el proyecto Recilion convierte residuos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://hazrevista.org",
+                                            "snippet": "Recilion ha conseguido recuperar con éxito grafito y metales de baterías de litio y utilizarlos para fabricar nuevos componentes."
+                                        }
+                                    },
+                                    {
+                                        "text": "La transición energética y tecnológica está, poco a poco, pero con paso firme, tomando cada vez más protagonismo. Lo estamos viendo en las múltiples noticias sectoriales y avances tecnológicos en temas como la movilidad eléctrica o el uso circular en el reciclaje de las baterías. Está claro que un futuro más sostenible está al alcance de nuestra mano, por eso, vamos a explorar brevemente las tendencias y proyecciones para este 2025.\n\nPanorama del mercado\n\nEl crecimiento del mercado de las baterías está siendo progresivo; de hecho, se prevé que el mercado mundial de baterías alcance los 423.900 millones de dólares en 2030. Esto se debe a varios factores clave que harán prosperar esta industria, como lo serán el crecimiento de la movilidad eléctrica, el almacenamiento de energía renovable o la imparable demanda de la eléctrica de consumo.\n\nBaterías y Movilidad Eléctrica\n\nCon el impulso de políticas gubernamentales que favorecen los vehículos de cero emisiones, como incentivos fiscales y regulaciones más estrictas sobre las emisiones de carbono, se espera un aumento masivo en la demanda de baterías, especialmente las de litio, para alimentar los vehículos eléctricos.\n\nLas baterías de estado sólido están también en pleno desarrollo, y en 2025 veremos la carrera de los grandes competidores muy de cerca. Estas baterías serán un elemento revolucionario para los vehículos eléctricos (VE), sobre todo porque podría reducirse el tiempo de carga a un 80% en solamente 15 minutos, sin hablar de la seguridad y la estabilidad térmica. Sí es cierto que aún tienen ciertos desafíos por delante, como el coste, la escalabilidad, la capacidad de producción y la propia tecnología, pero cada vez es una realidad que se vislumbra más cercana.\n\nSi hablamos de cifras globales, en el primer semestre de 2024 se vendieron más de 7 millones de coches eléctricos, lo que supone un aumento cercano al 25% respecto al mismo periodo del año anterior. Asimismo, según las previsiones de Gartner, Inc. a finales de 2025, se espera que circulen 85 millones de vehículos eléctricos (VE) -turismos, autobuses, furgonetas y camiones pesados-, por todo el globo.\n\nLo que sí parece claro, es que en 2025 se seguirá desarrollando esta tecnología, seguiremos viendo cómo los grandes competidores colaboran acelerando el proceso y haciendo pilotos para sacar el producto cuanto antes al mercado.\n\nInnovación y Retos\n\nLas regiones que más se están y seguirán haciendo eco son las asiáticas (China, Japón y Corea del Sur, sobre todo), Europa, Estados Unidos y Canadá. Todos juegan un papel fundamental para que el mercado de las baterías siga su cauce. Vemos que China es el líder en la producción y el consumo de las baterías, impulsada por su enorme mercado de vehículos eléctricos, mientras que Europa y Estados Unidos le siguen, aunque no tan de cerca como se esperaba.\n\nConcretamente, China tiene el 85-95% de la capacidad mundial de fabricación de materiales para cátodos y ánodos de baterías, más del 80% de la capacidad mundial de fabricación de energía solar fotovoltaica y más del 75-90% de la capacidad mundial de transformación de cobalto, grafito y elementos de tierras raras, según el World Energy Outlook 2024.\n\nEuropa, por su parte, ha aprobado estrictas regulaciones para cumplir con los objetivos climáticos de la Unión Europea, así como destinado parte de su inversión en Gigafactorías para así ser menos dependientes de Asia y de toda la capacidad de producción y materiales de los mencionados anteriormente.\n\nFinalmente, Estados Unidos sigue impulsando la producción nacional. Con la reciente presidencia de Donald Trump, las implicaciones podrían ser significativas para el mercado de baterías global. Posibles conflictos comerciales y tecnológicos (sobre todo con China y Europa) podrían tener un impacto notable en la carrera por liderar esta industria.\n\nSi algo tienen en común, es que los gigantes automotrices y empresas tecnológicas de las diferentes regiones están destinando una gran inversión a la industria de las baterías; CATL, LG Chem, Volkswagen, General Motors y Tesla, entre otros.",
+                                        "metadata": {
+                                            "url": "https://cicenergigune.com/es/blog/baterias-2025-tendencias-innovacion-desafios",
+                                            "source": "cicenergigune.com",
+                                            "favicon": "https://cicenergigune.com/apple-touch-icon.png",
+                                            "title": "Las baterías en 2025: Tendencias, Innovación y Desafíos",
+                                            "type": "web_search",
+                                            "base_url": "https://cicenergigune.com",
+                                            "snippet": "Estas baterías serán un elemento revolucionario para los vehículos eléctricos (VE), sobre todo porque podría reducirse el tiempo de carga a un ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Estas tecnologías son bien conocidas y se utilizan cada vez más a escala comercial para producir productos intermedios para la producción de nuevas baterías de iones de litio, como masa negra, sales metálicas de grado batería, material activo de cátodo precursor (pCAM) y CAM.\n\n\n\n\n\nSin embargo, estas tecnologías tienen dificultades para reciclar económicamente cátodos LFP de bajo valor. Con la creciente penetración de esta química en los mercados de vehículos eléctricos (VE) y sistemas de almacenamiento de energía de baterías (BESS), el desarrollo a largo plazo de tecnologías de reciclaje directo de baterías de iones de litio será crucial, dada su propuesta de producción de material catódico reciclado más económico. Además, las tecnologías tradicionales de reciclaje de baterías de iones de litio (LIB) se han centrado en la recuperación de materiales catódicos de alto valor, como el litio, el níquel y el cobalto. Los recicladores podrían capitalizar la comercialización de tecnologías de reciclaje de grafito de grado de batería para aumentar el valor general que podría extraerse del reciclaje de baterías de iones de litio. En el informe de mercado, \"Mercado de reciclaje de baterías de iones de litio 2025-2045: Mercados, pronósticos, tecnologías y actores\", IDTechEx pronostica que el mercado de reciclaje de baterías de iones de litio estará valorado en 52 000 millones de dólares estadounidenses en 2045, basándose en el valor de los materiales que podrían extraerse de las baterías de iones de litio al final de su vida útil (EOL) disponibles y los desechos de fabricación. Sin embargo, es importante destacar que será necesario seguir innovando y avanzando en las tecnologías de reciclaje directo de baterías de iones de litio y de grafito de grado batería para aprovechar todo este valor.\n\n\n\n\n\nEs bien sabido que las baterías de iones de litio (LIB) que adoptan químicas ternarias como el óxido de níquel, manganeso y cobalto (NMC) son más rentables de reciclar que las de LFP debido a la inclusión de níquel y cobalto en el cátodo. Sin embargo, la demanda de LFP está aumentando tanto en los mercados de vehículos eléctricos (VE) como de sistemas de almacenamiento de energía (BESS), donde se priorizan el coste, la seguridad y la vida útil según la aplicación. Por lo tanto, está aumentando la presión para el desarrollo de tecnologías de reciclaje más económicas, lo que beneficiaría enormemente el reciclaje de LFP. En concreto, esto podría incluir tecnologías de reciclaje directo de LIB.\n\n\n\n\n\nEl reciclaje directo implica la reactivación del material de la batería para recuperar la capacidad perdida durante el ciclo. A diferencia de los métodos pirometalúrgicos e hidrometalúrgicos, se evita la degradación de la estructura cristalina de los cátodos de iones de litio. Si el CAM es reparable, puede relitilizarse mediante diversas técnicas, como procesos térmicos, hidrotérmicos y electroquímicos.\n\n\n\n\n\nLas tecnologías de reciclaje directo en desarrollo podrían ofrecer una alternativa más económica a las tecnologías tradicionales de reciclaje de baterías de iones de litio (LIB). Varias empresas clave sugieren estas afirmaciones, como se investiga en el informe de mercado \"Mercado de Reciclaje de Baterías de Ion de Litio 2025-2045\" de IDTechEx. Varias de estas empresas también se encuentran en la fase piloto del desarrollo de tecnología de reciclaje directo de LIB, y algunas están a punto de iniciar la operación comercial de su primera planta de reciclaje directo de LIB.\n\n\n\n\n\nSi bien el reciclaje directo de baterías de iones de litio (LIB) ofrece una solución más económica, dos desafíos clave incluyen demostrar su rendimiento en ciclos prolongados (más de 1000 ciclos) con una pérdida mínima de capacidad, y el supraciclaje de productos químicos para satisfacer la nueva demanda del mercado. Si se utiliza una LIB al final de su vida útil como materia prima para el reciclaje directo, probablemente será necesario supraciclarla a un producto químico más nuevo, ya que la demanda de nuevas sustancias químicas, potencialmente de mayor rendimiento, será menor. Por lo tanto, es probable que el supraciclaje incremente el coste del proceso, debido al procesamiento adicional y a la posible mayor intensidad energética, lo que reduce la viabilidad comercial de la tecnología.\n\n\n\n\n\nSin embargo, los desechos de fabricación de celdas de ion-litio (LIB) procedentes de diferentes etapas del proceso de fabricación también serán una materia prima clave para el reciclaje directo de estas baterías. Los desechos de electrodos, junto con las celdas ensambladas y formadas, pueden formar parte de la materia prima de desechos de fabricación de celdas. Dado que esta materia prima está disponible durante la fabricación de celdas, esta química no requerirá supra-reciclaje. Por lo tanto, esto podría convertirla en la materia prima preferida para las tecnologías de reciclaje directo a mediano plazo, lo que también podría beneficiar el aumento en la adopción de LFP que se observa en los mercados actuales de vehículos eléctricos y BESS. No obstante, dado que la mayor parte de la producción de celdas LFP se realiza en China, es probable que este beneficio específico solo lo alcancen los recicladores chinos de LIB a mediano plazo.\n\n\n\n\n\nIndependientemente de la materia prima, si se pueden minimizar los costos del proceso de reciclaje y se puede demostrar un rendimiento de ciclo extendido de los cátodos reciclados, las tecnologías de reciclaje directo podrían causar un cambio mucho mayor en los mercados de reciclaje de baterías de iones de litio y de producción de cátodos vírgenes en el largo plazo.\n\n\n\n\n\nLa recuperación y el reciclaje comercial del grafito de las baterías de iones de litio (LIB) son limitados debido a su valor comparativamente menor en comparación con los materiales catódicos de mayor valor, y a la dificultad de reciclarlo para obtener un producto con una pureza de grado de batería (>99,95%). Sin embargo, la creciente popularidad de las baterías de iones de litio (LFP), los intentos de establecer cadenas de suministro más localizadas, la continua dependencia de China para el suministro de grafito para baterías y el continuo crecimiento de la demanda de ánodos de grafito, junto con la creciente presión para una industria de baterías de iones de litio más circular, han comenzado a centrar la atención en el reciclaje del grafito de las LIB.\n\n\n\n\n\nVarias empresas clave buscan comercializar tecnologías de reciclaje de grafito de grado de batería. Esto incluye empresas de reciclaje de iones de litio como American Battery Technology Company (ABTC), Ascend Elements y Cylib. Entre las empresas clave especializadas en el reciclaje de grafito se encuentran Green Graphite Technologies, EcoGraf, Graphite One y X-BATT. Algunas de estas empresas afirman que su grafito reciclado es, o casi, de grado de batería, y otras están verificando ánodos que utilizan grafito reciclado en pruebas con clientes (por ejemplo, fabricantes de baterías para vehículos eléctricos). Si bien estas pruebas iniciales parecen prometedoras, es necesario demostrar la pureza del grafito reciclado y el rendimiento del ánodo durante ciclos prolongados (más de 1000 ciclos) para promover la viabilidad comercial de estas tecnologías de reciclaje.\n\n\n\n\n\nEs fundamental que, dado el menor valor del grafito en comparación con otros materiales críticos para baterías, los métodos utilizados para purificar y recuperar el grafito reciclado también tengan que realizarse a bajo costo para garantizar la viabilidad económica de las tecnologías de reciclaje de grafito de grado de batería.\n\n\n\n\n\nLas tecnologías tradicionales de reciclaje de baterías de iones de litio (LIB), incluyendo los procesos mecánicos, hidrometalúrgicos y pirometalúrgicos, están disponibles comercialmente, son bien conocidas y la capacidad para estas tecnologías se está expandiendo globalmente. Sin embargo, el desarrollo de tecnologías de reciclaje directo y de reciclaje de grafito de grado de batería podría ayudar a los recicladores de LIB a lograr una mayor rentabilidad. Estas tecnologías también podrían permitir un reciclaje más económico de baterías de iones de litio (LI-ion) de baja potencia (LFP). Si se demuestra que el rendimiento de los ánodos que utilizan grafito reciclado y el de los cátodos directamente reciclados no es significativamente inferior al de sus homólogos vírgenes, y se mantienen bajos los costos del proceso, estas perspectivas podrían convertirse en una realidad más generalizada a largo plazo. Ambas tecnologías continúan en desarrollo, y algunos recicladores directos de LIB planean poner en marcha pronto su primera planta a escala comercial.\n\n\n\n",
+                                        "metadata": {
+                                            "url": "https://gestoresderesiduos.org/noticias/avances-en-el-reciclaje-de-iones-de-litio-y-recuperacion-de-grafito-para-aplicaciones-en-baterias",
+                                            "source": "gestoresderesiduos.org",
+                                            "favicon": "https://gestoresderesiduos.org/images/favicon.ico",
+                                            "title": "Avances en el reciclaje de iones de litio y recuperación ...",
+                                            "type": "web_search",
+                                            "base_url": "https://gestoresderesiduos.org",
+                                            "snippet": "Las tecnologías de reciclaje directo en desarrollo podrían ofrecer una alternativa más económica a las tecnologías tradicionales de reciclaje de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Mantenimiento de baterías. Washburn HM/Shutterstock (Foto: The Conversation).\n\nDe los smartphones a los vehículos eléctricos, las baterías de litio son componentes tecnológicos críticos para una transición energética sostenible. Como parte de la estrategia europea para lograr la neutralidad climática para 2050, Europa está realizando una firme apuesta por su reciclaje, para contribuir a la economía circular y a la reducción de residuos. España, por su parte, tiene varias plantas y proyectos en marcha para recuperar materias primas con alto valor añadido, como litio, cobalto y níquel.\n\nContexto global: la demanda crece\n\nLa demanda global de baterías, con un crecimiento exponencial impulsado por la movilidad eléctrica y el almacenamiento de energías renovables, requerirá de una producción global equivalente a 2,7 teravatios-hora al año para 2030. Sin embargo, nos enfrentamos a un desafío crítico: la escasez inminente de litio. Porque, a pesar de que las reservas mundiales se estiman en 22 millones de toneladas (suficientes para producir casi 2 500 millones de baterías), la Agencia Internacional de la Energía prevé un desabastecimiento para 2025.\n\nEste hecho se debe principalmente a la dificultad que tiene la industria para extraer litio y procesarlo a un ritmo suficientemente rápido: los nuevos proyectos mineros tardan más de una década en desarrollarse. Ante este desafío, el reciclaje de baterías se presenta como una solución clave, con el potencial de reducir la necesidad de nuevo litio en un 10 % para 2040.\n\nEsto resulta especialmente relevante en Europa, cuya dependencia de la importación de materias primas críticas es muy elevada (100 % en el caso del litio y 98 % en el del grafito natural).\n\nReciclaje en España\n\nEspaña, aunque sin minas de litio en explotación comercial, demuestra su compromiso con la economía circular a través de iniciativas concretas. Por ejemplo, están las plantas de A.3 Aprofitament Assessorament Ambiental en Granollers (Barcelona) y Novolitio en León –con una capacidad de reciclaje estimada de hasta 25 000 toneladas anuales–, o la iniciativa BeeCycle en Navarra.\n\nPor otro lado, el interés de gigantes en el sector, como la empresa china Tianneng, que tiene prevista la implantación de una planta local en Jaén, pone de manifiesto el gran potencial industrial y estratégico de España.\n\nLa reutilización de las baterías es otra solución estratégica, ya que darles una segunda aplicación al final de su vida útil puede reducir las emisiones de carbono en 56 millones de toneladas para 2050, según un estudio reciente liderado por la Universidad de Münster (Alemania).\n\nChina lleva la delantera\n\nSegún un artículo de 2023, solo un reducido número de países tiene empresas capaces de gestionar el ciclo completo del reciclaje, incluyendo recogida, desmontaje y procesado químico y mecánico.\n\nActualmente, China lidera el sector, mientras Europa y Estados Unidos invierten en la ampliación de infraestructuras. En Europa, se reciclan aproximadamente 50 000 toneladas de baterías usadas al año y se estima que, para 2030, alcance una capacidad de unas 420 000 toneladas anuales.\n\nRetos por delante\n\nEl proceso de reciclaje presenta importantes desafíos, como las bajas tasas de recolección, los altos costos de transporte y los posibles problemas de seguridad. Este último aspecto se ha puesto de manifiesto por los incidentes ocurridos recientemente en las plantas de reciclado de baterías de Sant Julià de Llor (Girona), el pasado mes de abril, y Azuqueca de Henares (Guadalajara), en julio.\n\nOtro desafío es la baja tasa de reciclaje: solo se da una segunda vida al 12 % de las baterías en el mundo. Esto se debe principalmente a tres factores: la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje.\n\nAdemás, el transporte de las baterías hasta las plantas de reciclaje impacta directamente en la viabilidad económica del proceso y puede suponer más de un 70 % del coste total.\n\nDe este modo, diversos estudios ponen de manifiesto que la viabilidad económica se alcanza en aquellos supuestos donde el punto de recolección de las baterías y las plantas de reciclado se encuentran dentro del mismo país.\n\nHacia una economía circular avanzada\n\nPara superar estos retos, Europa está impulsando activamente la innovación y una sólida política regulatoria. El Reglamento de Baterías de la UE (2023) fija los objetivos de reciclaje y exige un contenido mínimo de componentes reciclados en las baterías.\n\nLa tecnología también está evolucionando, con investigaciones centradas en el reciclaje directo, que permite preservar la estructura de la batería a la vez que reduce el coste energético y la complejidad del proceso. Además, la robotización minimiza riesgos y dependencia del trabajo manual.\n\nOtra innovación clave es el pasaporte digital de baterías, que permitirá rastrear cada una con datos de composición, origen e historial. Esto facilitará enormemente los procesos de reutilización y reciclaje al final de su vida útil.\n\nManos a la obra\n\nProyectos europeos como BeyondBattRec, RESTORE y RECYCALYSE buscan desarrollar procesos de reciclaje más sostenibles y rentables.\n\nAsí, BeyondBattRec, con la participación de socios españoles como la Universidad de Jaén y Andaltec, aspira a recuperar hasta un 95 % de materiales críticos y a reducir las emisiones de CO₂ del proceso en un 50 %.\n\nPor su parte, RESTORE –liderado por la fundación LEITAT, con participación de las empresas españolas Toratecnica SLU, Indumental Recycling SA y Dlyte Chemicals– tiene como objetivo revolucionar la gestión de los residuos procedentes de baterías al final de su vida útil.\n\nComplementando este esfuerzo, el proyecto RECYCALYSE se enfoca en perfeccionar un sistema de circuito completamente cerrado que recupere y reutilice los materiales directamente, con la empresa española Sustainable Innovations como socio.\n\nAunque afronta retos significativos, el reciclaje de baterías es clave para la autonomía tecnológica de Europa y España. Con iniciativas locales, regulación ambiciosa y nuevas tecnologías, el desafío se convierte en oportunidad: no basta con extraer, hay que recuperar y reutilizar lo ya consumido para garantizar una transición energética y un futuro más sostenibles.\n\nArtículo publicado en The Conversation el 23 de septiembre de 2025",
+                                        "metadata": {
+                                            "url": "https://diariodigital.ujaen.es/divulgacion-cientifica/conversation-solo-una-de-cada-diez-se-recicla-el-reto-de-introducir-las",
+                                            "source": "diariodigital.ujaen.es",
+                                            "favicon": "https://diariodigital.ujaen.es/themes/custom/ujaen_bootstrap/img/favicon.ico",
+                                            "title": "The Conversation: Solo una de cada diez se recicla: el reto de ...",
+                                            "type": "web_search",
+                                            "base_url": "https://diariodigital.ujaen.es",
+                                            "snippet": "Otra innovación clave es el pasaporte digital de baterías, que permitirá rastrear cada una con datos de composición, origen e historial. Esto ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Tendencias emergentes en el reciclaje de baterías de litio y el cumplimiento de la normativa RAEE\n\nDoctor en Ciencias por la Universidad de Hubei, investigador postdoctoral en Ciencia e Ingeniería de Materiales por la Universidad Central del Sur. Investigación a largo plazo en materiales de electrodos de alto rendimiento, baterías a prueba de explosiones y baterías de baja temperatura, con una sólida formación científica y una amplia experiencia práctica.\n\nEl reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Ante el crecimiento de la demanda mundial de baterías, las tecnologías de reciclaje se han vuelto indispensables para reducir el impacto ambiental. La norma RAEE y el cumplimiento normativo de las baterías de litio abordan el creciente desafío de los residuos electrónicos, ya que solo el 22.3 % de los 62 millones de toneladas de residuos electrónicos producidos en 2022 se reciclaron formalmente. Para 2025, se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3 %, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo.\n\nObtenga más información sobre las prácticas de sostenibilidad en Large Power.\n\nPuntos clave\n\nReciclar baterías de iones de litio beneficia al planeta al reutilizar materiales. Además, reduce los residuos y la contaminación.\n\nLos nuevos métodos de reciclaje, como el uso de procesos basados en agua y máquinas inteligentes, hacen que el reciclaje sea mejor y más rápido.\n\nCumplir con la normativa RAEE es importante para las empresas. Estas normas las impulsan a asumir su responsabilidad y a crear productos más fáciles de reciclar.\n\nParte 1: Estado actual del reciclaje de baterías de iones de litio\n\n1.1 Crecimiento del mercado y demanda de reciclaje de baterías\n\nLa industria del reciclaje de baterías de iones de litio está experimentando un crecimiento sin precedentes. Este auge se debe a la creciente adopción de vehículos eléctricos (VE), sistemas de almacenamiento de energía renovable y dispositivos electrónicos portátiles. El mercado mundial de reciclaje de baterías se valoró en 35.50 millones de dólares en 2024 y se proyecta que alcance los 78.91 millones de dólares para 2032, con una tasa de crecimiento anual compuesta (TCAC) del 10.50 % entre 2025 y 2032. Además, se espera que el tamaño del mercado del año base, de 12.55 millones de dólares, se duplique hasta alcanzar los 23.31 millones de dólares para 2033. Estas cifras ponen de manifiesto la creciente demanda de soluciones de reciclaje eficientes para gestionar el creciente volumen de baterías al final de su vida útil.\n\n1.2 Desafíos en el reciclaje de paquetes de baterías de litio\n\nEl reciclaje de baterías de iones de litio presenta varios desafíos. El complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Además, la falta de procesos de reciclaje estandarizados en las distintas regiones dificulta la ampliación de las operaciones. Las preocupaciones sobre seguridad, como el riesgo de fugas térmicas durante la manipulación, añaden otra dificultad. Estos desafíos subrayan la necesidad de avances tecnológicos y marcos regulatorios para optimizar los procesos de reciclaje.\n\n1.3 Brechas en la eficiencia de recuperación y reciclaje de materiales\n\nA pesar de los avances, persisten brechas significativas en las tasas de recuperación de materiales durante el reciclaje de baterías de iones de litio. Mientras que materiales como el cobre y el cobalto alcanzan tasas de recuperación del 95 % y el 90 %, respectivamente, el litio se queda atrás, con un 80 %. Esta disparidad pone de manifiesto las ineficiencias de las tecnologías de reciclaje actuales. El gráfico a continuación ilustra las tasas de recuperación de materiales clave:\n\nEl gráfico destaca el potencial de mejora en la recuperación de litio, crucial para reducir la dependencia de materias primas vírgenes. Los métodos de recuperación mejorada podrían aumentar significativamente la eficiencia general del reciclaje y fomentar la economía circular.\n\nPara las empresas que enfrentan estos desafíos, es importante adoptar tecnologías de reciclaje innovadoras y colaborar con líderes de la industria como Large Power Puede proporcionar soluciones personalizadas. Explore soluciones de baterías personalizadas en Large Power.\n\nParte 2: Avances tecnológicos en el reciclaje\n\n2.1 Innovaciones en las tecnologías de reciclaje de baterías de iones de litio\n\nLa innovación en la tecnología de reciclaje ha transformado la forma de abordar el reciclaje de baterías de iones de litio. Las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan... preocupaciones ambientalesPor ejemplo, los métodos de reciclaje directo han demostrado un rendimiento económico notable, especialmente para las baterías NMC. Estos métodos recuperan materiales valiosos como el níquel, el manganeso y el cobalto sin degradar su calidad.\n\nPor otra parte, el reciclaje hidrometalúrgico ha demostrado ser muy eficaz para Baterías LiFePO4Este proceso utiliza soluciones químicas para extraer metales críticos, garantizando un mínimo de residuos y altas tasas de recuperación. El estado de salud (SOH) de las baterías desempeña un papel crucial en la eficiencia de estos métodos. A medida que aumenta el SOH, el reciclaje directo se vuelve más rentable, lo que lo convierte en la opción preferida para las baterías NMC.\n\nLos principales beneficios de las tecnologías de reciclaje innovadoras incluyen: Tasas de recuperación mejoradas para materiales críticos. Reducción del impacto ambiental mediante prácticas sostenibles. Resultados económicos mejorados según el tipo y estado de la batería.\n\n\n\nEstos avances resaltan la importancia de seleccionar la tecnología adecuada para procesos de reciclaje eficientes. Al adoptar métodos de vanguardia, se puede maximizar la recuperación de materiales y contribuir a una economía circular.\n\n2.2 Recuperación de materiales para metales críticos\n\nLa recuperación de metales críticos como el litio, el cobalto y el níquel es esencial para el reciclaje sostenible de baterías. Estos metales no solo son valiosos, sino también finitos, lo que convierte su recuperación en una prioridad para la industria. Las tecnologías actuales se centran en mejorar las tasas de recuperación para reducir la dependencia de materias primas vírgenes.\n\nPor ejemplo, los procesos hidrometalúrgicos alcanzan altas tasas de recuperación de cobalto y níquel, que a menudo superan el 90 %. Sin embargo, la recuperación de litio aún se encuentra por debajo, con un rendimiento aproximado del 80 %. Esta brecha subraya la necesidad de mayor innovación en las tecnologías de reciclaje.\n\nMetal Índice de recuperación (%) Proceso clave utilizado Litio 80 hidrometalúrgico Cobalto 95 Pirometalúrgico/Hidro Níquel 90 hidrometalúrgico\n\nMejorar las tasas de recuperación de litio es fundamental para reducir el impacto ambiental de la producción de baterías. Al invertir en prácticas avanzadas de reciclaje, puede garantizar un suministro constante de metales críticos y minimizar los residuos.\n\n2.3 Automatización e IA en los procesos de reciclaje\n\nLa automatización y la inteligencia artificial (IA) están revolucionando la industria del reciclaje. Estas tecnologías optimizan las operaciones, reducen costos y mejoran la seguridad. Para el reciclaje de baterías de litio, los sistemas basados en IA pueden identificar y clasificar los componentes de las baterías con una precisión inigualable.\n\nLas métricas de rendimiento validan los beneficios de integrar la IA en los procesos de reciclaje:\n\nMétrico Sistemas de IA Operadores humanos Tiempo promedio de producción 119.10 minutos 528.64 minutos Eficiencia en la planificación 0.5 minutos 23.5 minutos\n\nLos sistemas de IA superan significativamente a los operadores humanos en términos de velocidad y precisión. Además, minimizan los riesgos asociados con la manipulación de materiales peligrosos. La automatización mejora aún más la eficiencia al permitir una operación continua, reducir el tiempo de inactividad y optimizar el uso de recursos.\n\nAl aprovechar la IA y la automatización, puede lograr procesos de reciclaje eficientes que cumplen con los objetivos económicos y ambientales. Estas tecnologías representan el futuro del reciclaje de baterías, ofreciendo soluciones escalables para una industria en crecimiento.\n\nParte 3: Cumplimiento de la norma RAEE y de las baterías de litio\n\n3.1 Actualizaciones de la Directiva RAEE para 2025\n\nLa directiva europea RAEE continúa evolucionando, con importantes actualizaciones previstas para 2025. Estos cambios buscan abordar los crecientes desafíos que plantean los residuos de aparatos eléctricos y electrónicos, en particular en el contexto de las baterías de iones de litio. La directiva hace hincapié en objetivos de recogida más estrictos, mejores estándares de tratamiento y una mayor armonización administrativa.\n\nAspecto Descripción Colección separada Exige la recogida separada de residuos de aparatos eléctricos y electrónicos para mejorar las tasas de reciclaje. Estándares de tratamiento Establece estándares estrictos para el tratamiento adecuado de RAEE para garantizar la seguridad ambiental. Objetivos de colección Establece objetivos específicos para la recogida, valorización y reciclaje de RAEE. Combatir las exportaciones ilegales Su objetivo es evitar la exportación ilegal de residuos haciendo más difícil disfrazar los envíos como legítimos. Armonización Administrativa Reduce las cargas administrativas al unificar los registros nacionales de EEE y los formatos de presentación de informes.\n\nEl principio de Responsabilidad Extendida del Productor (REP) sustenta estas actualizaciones. Este principio exige que los productores financien la recolección y el reciclaje de sus productos, garantizando así la rendición de cuentas durante todo su ciclo de vida. Al adherirse a estas normativas de apoyo, puede alinearse con el principio de «quien contamina paga», que promueve el cumplimiento ambiental y la sostenibilidad.\n\n3.2 Cumplimiento global y colaboración transfronteriza\n\nEl cumplimiento global de la directiva RAEE exige esfuerzos coordinados transfronterizos. Dado que las baterías de iones de litio impulsan industrias de todo el mundo, su reciclaje y eliminación requieren colaboración internacional. Los países que adoptan la directiva europea RAEE como referencia pueden optimizar sus políticas, garantizando la coherencia en la gestión de residuos de aparatos eléctricos y electrónicos.\n\nLa colaboración transfronteriza también desempeña un papel crucial en la lucha contra las exportaciones ilegales. Al compartir datos y armonizar los formatos de presentación de informes, los países pueden rastrear el movimiento de baterías de litio reciclables de forma más eficaz. Este enfoque no solo reduce los riesgos ambientales, sino que también fomenta una economía circular mediante la recuperación de materiales valiosos como el cobalto, el níquel y el litio.\n\nPara apoyar estos esfuerzos, puede aprovechar las asociaciones con líderes de la industria como Large PowerSu experiencia en soluciones de baterías personalizadas garantiza el cumplimiento de los estándares globales al tiempo que optimiza los procesos de reciclaje. Explora soluciones personalizadas en Large Power.\n\n3.3 Implicaciones para fabricantes y recicladores\n\nLas actualizaciones de la directiva RAEE tienen implicaciones de gran alcance para fabricantes y recicladores. Para los fabricantes, la directiva exige diseñar productos teniendo en cuenta la reciclabilidad. Esto incluye el uso de materiales más fáciles de recuperar y garantizar el cumplimiento de los requisitos de la REP. Los recicladores, por su parte, deben invertir en tecnologías avanzadas para cumplir con los estrictos objetivos de recuperación de la directiva.\n\nESTUDIO Hallazgos La influencia de la ecoinversión en el reciclaje de residuos electrónicos Identifica brechas en los marcos logísticos y legales que afectan las tasas de reciclaje en Serbia. Favot y otros (2022) Destaca el impacto positivo de la competencia en el desempeño económico. Apostolescu y otros (2022) Demuestra los beneficios económicos y ambientales del reciclaje, incluida la recuperación rentable de metales. Cialani y Mortazavi (2020) Sugiere que el aumento de las tasas de reciclaje no incrementa significativamente los costos para los municipios.\n\nAl alinearse con la directiva RAEE, puede aprovechar las oportunidades económicas y, al mismo tiempo, contribuir a los objetivos de sostenibilidad. Invertir en tecnologías de reciclaje innovadoras y fomentar la colaboración transfronteriza posicionará a su empresa como líder en cumplimiento ambiental.\n\nParte 4: Impactos ambientales y económicos del reciclaje\n\n4.1 Beneficios de sostenibilidad del reciclaje de baterías de iones de litio\n\nReciclar baterías de iones de litio ofrece importantes ventajas ambientales. Al reutilizar materiales críticos, se puede reducir el impacto ambiental en al menos un 58 % en comparación con los métodos de minería tradicionales. Esto incluye menores emisiones de gases de efecto invernadero, menor consumo de agua y menor consumo de energía. Por ejemplo, el consumo de electricidad durante el reciclaje es fundamental para determinar el rendimiento ambiental. El uso de fuentes de energía renovables para el reciclaje puede reducir las emisiones de gases de efecto invernadero hasta cinco veces.\n\nAdoptar prácticas de reciclaje respetuosas con el medio ambiente también minimiza la huella ecológica de la producción de baterías. A medida que crece la demanda de vehículos eléctricos, las soluciones de reciclaje sostenible se vuelven esenciales para reducir los residuos y conservar los recursos. Al priorizar el reciclaje de baterías de iones de litio, contribuye a un medio ambiente más limpio y apoya los objetivos globales de sostenibilidad.\n\n4.2 Oportunidades económicas en la economía circular\n\nLa economía circular para el reciclaje de baterías de litio presenta oportunidades lucrativas para las empresas. Se espera que las aplicaciones de energía limpia representen... 90% de la demanda mundial de litio para 2030, creando un mercado sólido para el litio reciclado. El costo del desmontaje manual de baterías comerciales oscila entre $85 y $106, lo que destaca la viabilidad económica de las operaciones de reciclaje.\n\nTipo de evidencia Descripción Potencial de recuperación Los usos de energía limpia dominarán la demanda de litio, impulsando los mercados de reciclaje. Análisis de costos Los costos del desmontaje manual demuestran la viabilidad económica del reciclaje. Proyecciones futuras Las baterías usadas en EE.UU. podrían alcanzar los 2 millones de toneladas en 2040. Desafíos actuales del reciclaje Las instalaciones se centran en la recuperación de cobalto y níquel, dejando espacio para la optimización del litio.\n\nLos incentivos gubernamentales, como subvenciones y exenciones fiscales, mejoran aún más la rentabilidad de las prácticas circulares. Al invertir en tecnologías de reciclaje, puede aprovechar estas oportunidades y, al mismo tiempo, reducir las emisiones del ciclo de vida y los costos de eliminación.\n\nLos inversores centrados en la integración de ESG pueden potenciar la circularidad de los activos reales, garantizando que la infraestructura de energía renovable pueda reciclarse para reducir las emisiones durante su ciclo de vida.\n\n4.3 Reducción de la dependencia de materias primas vírgenes\n\nEl reciclaje de baterías de litio reduce significativamente la dependencia de materias primas vírgenes. La alta eficiencia de recuperación de materiales críticos, como el cobalto, el níquel y el manganeso, garantiza un suministro constante para la fabricación.\n\nTasa de recuperación de cobalto: 98%\n\nTasa de recuperación de níquel: 98%\n\nTasa de recuperación de manganeso: 98%\n\nTasa de recuperación de litio: 90%, requiriendo procesos adicionales para su optimización.\n\nTasas de recuperación de cobre y acero: 90%\n\nTasas de recuperación de aluminio y grafito: 90%\n\nPara 2050, los materiales reciclados representarán el 65 % del cobalto y el 77 % del litio en la UE. Estos recursos provendrán principalmente de baterías al final de su vida útil y de chatarra de fabricación. El reciclaje no solo conserva recursos finitos, sino que también impulsa la economía circular al transformar los residuos en insumos valiosos para la producción.\n\nExplore soluciones de baterías personalizadas en Large Power.\n\nEl futuro del reciclaje de baterías de litio y el cumplimiento de la normativa RAEE reside en la innovación y la colaboración. Tendencias clave, como los avances en las tecnologías de reciclaje y las directivas RAEE más estrictas, resaltan la creciente importancia de las prácticas sostenibles. Las proyecciones indican que el mercado del reciclaje de baterías de iones de litio crecerá a una tasa de crecimiento anual compuesta (TCAC) del 18.9 % para 2034, impulsado por la adopción de vehículos eléctricos y la demanda de minerales críticos.\n\nAdoptar prácticas de reciclaje sostenibles es esencial para cumplir con las exigencias regulatorias y las expectativas del mercado. Por ejemplo, la Directiva Marco de Residuos de la UE exige normas estrictas de categorización y notificación de residuos. La cooperación internacional puede mejorar aún más la infraestructura de reciclaje y prevenir la gestión inadecuada de residuos.\n\nEl reciclaje de baterías de litio desempeña un papel fundamental en el fomento de la economía circular. Al recuperar materiales valiosos, se puede reducir el impacto ambiental y promover el desarrollo sostenible. Large Power ofrece soluciones personalizadas para ayudarle a alinearse con estos objetivos. Explora soluciones personalizadas en Large Power.\n\nPreguntas Frecuentes\n\n1. ¿Cuáles son los principales beneficios del reciclaje de baterías de iones de litio?\n\nEl reciclaje de baterías de iones de litio reduce el impacto ambiental, conserva materiales críticos y promueve la economía circular. Además, minimiza la dependencia de materias primas vírgenes.\n\n2. ¿Cómo afecta la directiva RAEE a los fabricantes de baterías?\n\nLa directiva RAEE exige a los fabricantes diseñar productos reciclables y cumplir con las normas de Responsabilidad Extendida del Productor (REP). Esto garantiza la rendición de cuentas y promueve prácticas sostenibles.\n\n3. ¿Por qué deberías elegir? Large Power ¿Para soluciones de baterías personalizadas?\n\nLarge Power Ofrece soluciones a medida para el reciclaje y cumplimiento de baterías de litio. Su experiencia garantiza la eficiencia y el cumplimiento de los estándares globales. Explorar soluciones personalizadas at Large Power.",
+                                        "metadata": {
+                                            "url": "https://www.large-battery.com/es/blog/weee-standard-lithium-battery-recycling-2025/",
+                                            "source": "www.large-battery.com",
+                                            "favicon": "https://www.large-battery.com/wp-content/uploads/2025/04/large-favicon.png",
+                                            "title": "Tendencias emergentes en el reciclaje de baterías de litio ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.large-battery.com",
+                                            "snippet": "2.1 Innovaciones en las tecnologías de reciclaje de baterías de iones de litio · Tasas de recuperación mejoradas para materiales críticos."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 5.106516175001161,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 5.106516175001161,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:44:30",
+                    "run_time": 5.106516175001161,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es la tasa de reciclaje actual de baterías de coches eléctricos en 2025?": [
+                                {
+                                    "El reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Ante el crecimiento de la demanda mundial de baterías, las tecnologías de reciclaje se han vuelto indispensables para reducir el impacto ambiental. La norma RAEE y el cumplimiento normativo de las baterías de litio abordan el creciente desafío de los residuos electrónicos, ya que solo el 22.3 % de los 62 millones de toneladas de residuos electrónicos producidos en 2022 se reciclaron formalmente. Para 2025, se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3 %, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo.": null
+                                },
+                                {
+                                    "El reciclaje de baterías de vehículos eléctricos aportarán en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. En concreto, recuperarán 9.400 toneladas de materias primas fundamentales que permitirían fabricar 33.000 baterías sin necesidad de extraer nuevos recursos de este tipo.": null
+                                },
+                                {
+                                    "La transición energética y tecnológica está, poco a poco, pero con paso firme, tomando cada vez más protagonismo. Lo estamos viendo en las múltiples noticias sectoriales y avances tecnológicos en temas como la movilidad eléctrica o el uso circular en el reciclaje de las baterías. Está claro que un futuro más sostenible está al alcance de nuestra mano, por eso, vamos a explorar brevemente las tendencias y proyecciones para este 2025.": null
+                                }
+                            ],
+                            "¿Cómo se comparan las baterías de iones de litio y las baterías de níquel-metal hidruro en términos de reciclabilidad?": [
+                                {
+                                    "La innovación en la tecnología de reciclaje ha transformado la forma de abordar el reciclaje de baterías de iones de litio. Las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan... preocupaciones ambientalesPor ejemplo, los métodos de reciclaje directo han demostrado un rendimiento económico notable, especialmente para las baterías NMC. Estos métodos recuperan materiales valiosos como el níquel, el manganeso y el cobalto sin degradar su calidad.": null
+                                },
+                                {
+                                    "Por ejemplo, los procesos hidrometalúrgicos alcanzan altas tasas de recuperación de cobalto y níquel, que a menudo superan el 90 %. Sin embargo, la recuperación de litio aún se encuentra por debajo, con un rendimiento aproximado del 80 %. Esta brecha subraya la necesidad de mayor innovación en las tecnologías de reciclaje.": null
+                                },
+                                {
+                                    "La recuperación de metales críticos como el litio, el cobalto y el níquel es esencial para el reciclaje sostenible de baterías. Estos metales no solo son valiosos, sino también finitos, lo que convierte su recuperación en una prioridad para la industria. Las tecnologías actuales se centran en mejorar las tasas de recuperación para reducir la dependencia de materias primas vírgenes.": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en reciclaje de baterías sobre la viabilidad de reciclar baterías de coches eléctricos?": [
+                                {
+                                    "El reciclaje de baterías de vehículos eléctricos aportarán en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. En concreto, recuperarán 9.400 toneladas de materias primas fundamentales que permitirían fabricar 33.000 baterías sin necesidad de extraer nuevos recursos de este tipo.": null
+                                },
+                                {
+                                    "Otro desafío es la baja tasa de reciclaje: solo se da una segunda vida al 12 % de las baterías en el mundo. Esto se debe principalmente a tres factores: la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje.": null
+                                },
+                                {
+                                    "La recuperación de metales críticos como el litio, el cobalto y el níquel es esencial para el reciclaje sostenible de baterías. Estos metales no solo son valiosos, sino también finitos, lo que convierte su recuperación en una prioridad para la industria. Las tecnologías actuales se centran en mejorar las tasas de recuperación para reducir la dependencia de materias primas vírgenes.": null
+                                }
+                            ],
+                            "¿Cuáles son las principales críticas a la reciclabilidad de baterías de coches eléctricos?": [
+                                {
+                                    "Otro desafío es la baja tasa de reciclaje: solo se da una segunda vida al 12 % de las baterías en el mundo. Esto se debe principalmente a tres factores: la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje.": null
+                                },
+                                {
+                                    "El reciclaje de baterías de iones de litio presenta varios desafíos. El complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Además, la falta de procesos de reciclaje estandarizados en las distintas regiones dificulta la ampliación de las operaciones. Las preocupaciones sobre seguridad, como el riesgo de fugas térmicas durante la manipulación, añaden otra dificultad. Estos desafíos subrayan la necesidad de avances tecnológicos y marcos regulatorios para optimizar los procesos de reciclaje.": null
+                                },
+                                {
+                                    "La recuperación de metales críticos como el litio, el cobalto y el níquel es esencial para el reciclaje sostenible de baterías. Estos metales no solo son valiosos, sino también finitos, lo que convierte su recuperación en una prioridad para la industria. Las tecnologías actuales se centran en mejorar las tasas de recuperación para reducir la dependencia de materias primas vírgenes.": null
+                                }
+                            ],
+                            "¿Qué nuevos desarrollos en tecnología de reciclaje de baterías se han producido en 2025?": [
+                                {
+                                    "La transición energética y tecnológica está, poco a poco, pero con paso firme, tomando cada vez más protagonismo. Lo estamos viendo en las múltiples noticias sectoriales y avances tecnológicos en temas como la movilidad eléctrica o el uso circular en el reciclaje de las baterías. Está claro que un futuro más sostenible está al alcance de nuestra mano, por eso, vamos a explorar brevemente las tendencias y proyecciones para este 2025.": null
+                                },
+                                {
+                                    "La directiva europea RAEE continúa evolucionando, con importantes actualizaciones previstas para 2025. Estos cambios buscan abordar los crecientes desafíos que plantean los residuos de aparatos eléctricos y electrónicos, en particular en el contexto de las baterías de iones de litio. La directiva hace hincapié en objetivos de recogida más estrictos, mejores estándares de tratamiento y una mayor armonización administrativa.": null
+                                },
+                                {
+                                    "La innovación en la tecnología de reciclaje ha transformado la forma de abordar el reciclaje de baterías de iones de litio. Las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan... preocupaciones ambientalesPor ejemplo, los métodos de reciclaje directo han demostrado un rendimiento económico notable, especialmente para las baterías NMC. Estos métodos recuperan materiales valiosos como el níquel, el manganeso y el cobalto sin degradar su calidad.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 35.963968087002286,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 35.963968087002286,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:45:12",
+                    "run_time": 35.963968087002286,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLas baterías de coches electricos se pueden reciclar\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es la tasa de reciclaje actual de baterías de coches eléctricos en 2025?\n¿Cómo se comparan las baterías de iones de litio y las baterías de níquel-metal hidruro en términos de reciclabilidad?\n¿Qué dicen los expertos en reciclaje de baterías sobre la viabilidad de reciclar baterías de coches eléctricos?\n¿Cuáles son las principales críticas a la reciclabilidad de baterías de coches eléctricos?\n¿Qué nuevos desarrollos en tecnología de reciclaje de baterías se han producido en 2025?\n\n3. Here are the text sources you should use as your source of information:\n[0] El reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Ante el crecimiento de la demanda mundial de baterías, las tecnologías de reciclaje se han vuelto indispensables para reducir el impacto ambiental. La norma RAEE y el cumplimiento normativo de las baterías de litio abordan el creciente desafío de los residuos electrónicos, ya que solo el 22.3 % de los 62 millones de toneladas de residuos electrónicos producidos en 2022 se reciclaron formalmente. Para 2025, se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3 %, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo.\n[0] La innovación en la tecnología de reciclaje ha transformado la forma de abordar el reciclaje de baterías de iones de litio. Las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan... preocupaciones ambientalesPor ejemplo, los métodos de reciclaje directo han demostrado un rendimiento económico notable, especialmente para las baterías NMC. Estos métodos recuperan materiales valiosos como el níquel, el manganeso y el cobalto sin degradar su calidad.\n[0] Por ejemplo, los procesos hidrometalúrgicos alcanzan altas tasas de recuperación de cobalto y níquel, que a menudo superan el 90 %. Sin embargo, la recuperación de litio aún se encuentra por debajo, con un rendimiento aproximado del 80 %. Esta brecha subraya la necesidad de mayor innovación en las tecnologías de reciclaje.\n[0] La recuperación de metales críticos como el litio, el cobalto y el níquel es esencial para el reciclaje sostenible de baterías. Estos metales no solo son valiosos, sino también finitos, lo que convierte su recuperación en una prioridad para la industria. Las tecnologías actuales se centran en mejorar las tasas de recuperación para reducir la dependencia de materias primas vírgenes.\n[0] El reciclaje de baterías de iones de litio presenta varios desafíos. El complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Además, la falta de procesos de reciclaje estandarizados en las distintas regiones dificulta la ampliación de las operaciones. Las preocupaciones sobre seguridad, como el riesgo de fugas térmicas durante la manipulación, añaden otra dificultad. Estos desafíos subrayan la necesidad de avances tecnológicos y marcos regulatorios para optimizar los procesos de reciclaje.\n[0] La directiva europea RAEE continúa evolucionando, con importantes actualizaciones previstas para 2025. Estos cambios buscan abordar los crecientes desafíos que plantean los residuos de aparatos eléctricos y electrónicos, en particular en el contexto de las baterías de iones de litio. La directiva hace hincapié en objetivos de recogida más estrictos, mejores estándares de tratamiento y una mayor armonización administrativa.\n[1] El reciclaje de baterías de vehículos eléctricos aportarán en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. En concreto, recuperarán 9.400 toneladas de materias primas fundamentales que permitirían fabricar 33.000 baterías sin necesidad de extraer nuevos recursos de este tipo.\n[2] La transición energética y tecnológica está, poco a poco, pero con paso firme, tomando cada vez más protagonismo. Lo estamos viendo en las múltiples noticias sectoriales y avances tecnológicos en temas como la movilidad eléctrica o el uso circular en el reciclaje de las baterías. Está claro que un futuro más sostenible está al alcance de nuestra mano, por eso, vamos a explorar brevemente las tendencias y proyecciones para este 2025.\n[3] Otro desafío es la baja tasa de reciclaje: solo se da una segunda vida al 12 % de las baterías en el mundo. Esto se debe principalmente a tres factores: la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Las baterías de coches electricos se pueden reciclar"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**La mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**. Según [0], el reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Además, se menciona que para 2025 se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3%, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo. Esto sugiere que existe un interés y un potencial significativo en el reciclaje de baterías de coches eléctricos.\n\nAdemás, [1] menciona que el reciclaje de baterías de vehículos eléctricos aportará en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. Esto indica que se espera que el reciclaje de baterías de coches eléctricos sea una fuente importante de materiales reciclados en el futuro. Por otro lado, [0] también menciona que las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan preocupaciones ambientales. Esto sugiere que la industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos.\n\nSin embargo, **también existen algunas limitaciones y desafíos en el reciclaje de baterías de coches eléctricos**. Según [3], la baja tasa de reciclaje es un desafío, ya que solo se da una segunda vida al 12% de las baterías en el mundo. Esto se debe principalmente a la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje. Además, [0] menciona que el complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Estos desafíos sugieren que, aunque el reciclaje de baterías de coches eléctricos es posible, todavía existen obstáculos que deben ser superados.\n\nEn conclusión, **la mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**, aunque existen algunos desafíos y limitaciones que deben ser abordados. La industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos, y se espera que el reciclaje de baterías de vehículos eléctricos sea una fuente importante de materiales reciclados en el futuro. Sin embargo, es importante tener en cuenta los desafíos y limitaciones existentes y trabajar para superarlos.\n\nDecisión: **Verdadero**"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 11.144405719998758,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 11.144405719998758,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:45:23",
+                    "run_time": 11.144405719998758,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Las baterías de coches electricos se pueden reciclar\nArticle: **La mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**. Según [0], el reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Además, se menciona que para 2025 se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3%, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo. Esto sugiere que existe un interés y un potencial significativo en el reciclaje de baterías de coches eléctricos.\n\nAdemás, [1] menciona que el reciclaje de baterías de vehículos eléctricos aportará en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. Esto indica que se espera que el reciclaje de baterías de coches eléctricos sea una fuente importante de materiales reciclados en el futuro. Por otro lado, [0] también menciona que las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan preocupaciones ambientales. Esto sugiere que la industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos.\n\nSin embargo, **también existen algunas limitaciones y desafíos en el reciclaje de baterías de coches eléctricos**. Según [3], la baja tasa de reciclaje es un desafío, ya que solo se da una segunda vida al 12% de las baterías en el mundo. Esto se debe principalmente a la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje. Además, [0] menciona que el complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Estos desafíos sugieren que, aunque el reciclaje de baterías de coches eléctricos es posible, todavía existen obstáculos que deben ser superados.\n\nEn conclusión, **la mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**, aunque existen algunos desafíos y limitaciones que deben ser abordados. La industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos, y se espera que el reciclaje de baterías de vehículos eléctricos sea una fuente importante de materiales reciclados en el futuro. Sin embargo, es importante tener en cuenta los desafíos y limitaciones existentes y trabajar para superarlos.\n\nDecisión: **Verdadero**\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Las baterías de coches electricos se pueden reciclar\nArticle: **La mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**. Según [0], el reciclaje de baterías de iones de litio desempeña un papel fundamental en el avance de la sostenibilidad. Además, se menciona que para 2025 se prevé que el mercado del reciclaje de baterías de iones de litio crezca a una tasa anual compuesta del 38.3%, impulsado por las baterías de vehículos eléctricos al final de su vida útil y las políticas de apoyo. Esto sugiere que existe un interés y un potencial significativo en el reciclaje de baterías de coches eléctricos.\n\nAdemás, [1] menciona que el reciclaje de baterías de vehículos eléctricos aportará en 2030 el 84,5% del litio y el 60,2% que precisarán las que se produzcan ese año, según Recyclia. Esto indica que se espera que el reciclaje de baterías de coches eléctricos sea una fuente importante de materiales reciclados en el futuro. Por otro lado, [0] también menciona que las prácticas de reciclaje avanzadas ahora se centran en mejorar la eficiencia y la rentabilidad, a la vez que abordan preocupaciones ambientales. Esto sugiere que la industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos.\n\nSin embargo, **también existen algunas limitaciones y desafíos en el reciclaje de baterías de coches eléctricos**. Según [3], la baja tasa de reciclaje es un desafío, ya que solo se da una segunda vida al 12% de las baterías en el mundo. Esto se debe principalmente a la complejidad química de las baterías, la falta de infraestructura y personal técnico cualificado y la ausencia de normativas claras sobre actores y responsabilidades en el reciclaje. Además, [0] menciona que el complejo diseño de las baterías, que a menudo incluye múltiples capas de materiales como litio, cobalto y níquel, hace que el desmontaje sea laborioso. Estos desafíos sugieren que, aunque el reciclaje de baterías de coches eléctricos es posible, todavía existen obstáculos que deben ser superados.\n\nEn conclusión, **la mayoría de las evidencias sugieren que las baterías de coches eléctricos pueden ser recicladas**, aunque existen algunos desafíos y limitaciones que deben ser abordados. La industria está trabajando para mejorar la viabilidad del reciclaje de baterías de coches eléctricos, y se espera que el reciclaje de baterías de vehículos eléctricos sea una fuente importante de materiales reciclados en el futuro. Sin embargo, es importante tener en cuenta los desafíos y limitaciones existentes y trabajar para superarlos.\n\nDecisión: **Verdadero**"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Las baterías de coches eléctricos se pueden reciclar\", \"categories\": [\"Medio ambiente\", \"Automoción\", \"Ciencia\"], \"label\": \"True\", \"main_claim\": \"Las baterías de coches eléctricos pueden ser recicladas\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

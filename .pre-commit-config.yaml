@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.7.3
+    hooks:
+      - id: ruff
+        name: ruff (lint + fix)
+        args: ["--fix"]
+      - id: ruff-format
+        name: ruff (format)
+
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.9.1
+    hooks:
+      - id: nbqa-ruff
+        name: nbqa-ruff (lint + fix notebooks)
+        args: ["--fix"]
+        additional_dependencies: ["ruff==0.7.3"]
+        files: \.ipynb$
+      - id: nbqa-black
+        name: nbqa-black (format notebooks)
+        additional_dependencies: ["black==24.10.0"]
+        files: \.ipynb$
+
+ci:
+  autofix_prs: true
+  skip: []
+

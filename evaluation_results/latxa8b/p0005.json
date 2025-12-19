@@ -1,0 +1,606 @@
+{
+    "question": "España es el cuarto país de la UE con mayor riesgo de pobreza en 2025",
+    "answer": "Según el informe de la EAPN-Es, el riesgo de pobreza y/o exclusión social en España alcanza en la actualidad al 25,8% de la población, un total de 12,5 millones de personas, lo que sitúa a España entre los países con mayor riesgo de pobreza en la UE. Esto se confirma en el texto [1], donde se menciona que la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nAdemás, según el texto [2], la comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%. Esto sugiere que España sigue siendo uno de los países con mayor riesgo de pobreza en la UE.\n\nAunque el texto [1] menciona que el riesgo de pobreza y/o exclusión social en España alcanza al 25,8% de la población, también se menciona que esta cifra es la más baja en la última década y que refleja la apuesta por políticas sociales de estos últimos años. Esto sugiere que la situación está mejorando y que España no es el cuarto país con mayor riesgo de pobreza en la UE.\n\nAdemás, según el texto [3], el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres. Esto sugiere que la pobreza en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.\n\nEn base a los argumentos presentados, podemos concluir que la afirmación \"España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\" es **falsa**. Aunque el riesgo de pobreza en España es alto, la situación está mejorando y la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024. Además, la desigualdad en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.accem.es/informe-el-estado-de-la-pobreza-2025-de-la-eapn-es-se-reduce-la-pobreza-en-espana-pero-persiste-entre-los-mas-vulnerables/",
+            "source": "www.accem.es",
+            "favicon": "https://www.accem.es/wp-content/uploads/2017/11/Accem-favicon-1.png"
+        },
+        "2": {
+            "url": "https://www.mundoemprende.com/actualidad/espana-a-la-cola-social-de-europa-bruselas-alerta/",
+            "source": "www.mundoemprende.com",
+            "favicon": "https://www.mundoemprende.com/wp-content/uploads/2016/11/cropped-ICONOmundoemprende-32x32.png"
+        },
+        "3": {
+            "url": "https://noticiasobreras.es/2025/10/la-herencia-determina-el-35-de-la-desigualdad-de-ingresos-en-espana/?srsltid=AfmBOooLzrskbCwIw3qDHK9w1u_it3_9rpQOpUMS6fpqGFV3gNE_nS-x",
+            "source": "noticiasobreras.es",
+            "favicon": "https://noticiasobreras.es/wp-content/uploads/2016/07/cropped-logoNNOO_02_pantone_icoredes-32x32.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España es el cuarto país de la UE con mayor riesgo de pobreza en 2025",
+        "categories": [
+            "Economía",
+            "Sociedad",
+            "Política"
+        ],
+        "label": "Fake",
+        "main_claim": "La afirmación de que España es el cuarto país de la UE con mayor riesgo de pobreza en 2025 es falsa",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "youtube.com",
+                    "tiktok.com",
+                    "instagram.com",
+                    "x.com",
+                    "twitter.com",
+                    "pmp.org.es",
+                    "rtve.es",
+                    "feminismo.maldita.es",
+                    "ciencia.nasa.gov",
+                    "oftalmologos.org.ar",
+                    "infobae.com",
+                    "bbva.com",
+                    "albalactanciamaterna.org",
+                    "uoc.edu",
+                    "medlineplus.gov",
+                    "bankinter.com",
+                    "nyc.gov",
+                    "caixabankresearch.com",
+                    "lefebvre.es",
+                    "newtral.es",
+                    "ine.es",
+                    "huffingtonpost.es",
+                    "abc.es",
+                    "normoncontigo.normon.com",
+                    "es.euronews.com",
+                    "observatoriodelalquiler.org",
+                    "lavanguardia.com",
+                    "publico.es",
+                    "nationalgeographic.com.es",
+                    "datosmacro.expansion.com",
+                    "cadenaser.com",
+                    "sistemaelectrico-ree.es",
+                    "efe.com",
+                    "ec-europa-eu.translate.goog",
+                    "lasexta.com",
+                    "maldita.es",
+                    "elplural.com",
+                    "es.weforum.org",
+                    "masquemedicos.com",
+                    "educaweb.com",
+                    "ree.es",
+                    "cambioenergetico.com",
+                    "vozpopuli.com",
+                    "clinicaalemana.cl",
+                    "cancer.gov",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "antena3.com",
+                    "myfisioclinic.com",
+                    "sjme.org",
+                    "verificat.cat",
+                    "theconversation.com",
+                    "xataka.com",
+                    "europapress.es",
+                    "20minutos.es",
+                    "gacetamedica.com",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "instituteforenergyresearch.org",
+                    "lamoncloa.gob.es",
+                    "agrodiario.com",
+                    "jacc.org",
+                    "hopkinsmedicine.org",
+                    "primabiotic.es",
+                    "elpais.com",
+                    "cincodias.elpais.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "observatoriodeladiscapacidad.info",
+                    "sepe.es",
+                    "defensa.gob.es",
+                    "coches.net",
+                    "salud.nih.gov",
+                    "who.int",
+                    "kidshealth.org",
+                    "realinstitutoelcano.org",
+                    "larazon.es",
+                    "theobjective.com",
+                    "verifica.efe.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.969694747000176,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.969694747000176,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:57:38",
+                    "run_time": 1.969694747000176,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña es el cuarto país de la UE con mayor riesgo de pobreza en 2025\n\n**Critical Research Questions:**\n1. ¿Cuáles son los datos oficiales sobre el índice de pobreza en España en 2025 según la Eurostat?\n2. ¿Cómo se compara el índice de pobreza en España con el de otros países de la UE en 2025 según el Banco Mundial?\n3. ¿Qué opinan los expertos en economía y políticas sociales sobre el riesgo de pobreza en España en 2025 según la OCDE?\n4. ¿Qué evidencia existe sobre la tasa de pobreza en España en comparación con otros países de la UE como Francia, Alemania y Italia en 2025 según la Comisión Europea?\n5. ¿Qué son los datos sobre la desigualdad de ingresos en España en 2025 según el Informe de la OCDE sobre la desigualdad de ingresos?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"índice de pobreza en España 2025 Eurostat datos oficiales\", \"índice de pobreza en España vs otros países UE 2025 Banco Mundial\", \"opinión expertos economía políticas sociales riesgo pobreza España 2025 OCDE\", \"tasa pobreza España vs Francia Alemania Italia 2025 Comisión Europea\", \"desigualdad de ingresos España 2025 Informe OCDE desigualdad de ingresos\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 6.038008719999198,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 6.038008719999198,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:57:44",
+                    "run_time": 6.038008719999198,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "índice de pobreza en España 2025 Eurostat datos oficiales",
+                                "índice de pobreza en España vs otros países UE 2025 Banco Mundial",
+                                "opinión expertos economía políticas sociales riesgo pobreza España 2025 OCDE",
+                                "tasa pobreza España vs Francia Alemania Italia 2025 Comisión Europea",
+                                "desigualdad de ingresos España 2025 Informe OCDE desigualdad de ingresos"
+                            ],
+                            "results": {
+                                "índice de pobreza en España 2025 Eurostat datos oficiales | índice de pobreza en España vs otros países UE 2025 Banco Mundial | opinión expertos economía políticas sociales riesgo pobreza España 2025 OCDE | tasa pobreza España vs Francia Alemania Italia 2025 Comisión Europea | desigualdad de ingresos España 2025 Informe OCDE desigualdad de ingresos": [
+                                    {
+                                        "text": "Desde 1990, el Banco Mundial publica estimaciones de la cantidad de personas que viven en la pobreza extrema en todo el mundo. Este parámetro de pobreza se basa en el modo en que los países más pobres del mundo definen la pobreza y normalmente abarca necesidades básicas como alimentación, vestimenta y vivienda. Estas estimaciones también se han incorporado a los Objetivos de Desarrollo Sostenible, así como a los anteriores Objetivos de Desarrollo del Milenio.\n\nAdemás de la línea de pobreza extrema mundial, el Banco Mundial publica una serie de indicadores adicionales para brindar una descripción más exhaustiva de la distribución del ingreso y el consumo en el mundo. La línea de pobreza extrema refleja la manera en que los países más pobres definen la pobreza, lo que resulta menos pertinente en los países de ingreso mediano. Por lo tanto, el Banco Mundial también utiliza líneas de pobreza más altas, que son típicas de los países de ingreso mediano bajo y mediano alto. Por otra parte, también da a conocer una medición de la pobreza social, que es una línea de pobreza relativa que se actualiza con el nivel de ingreso de un país. Por último, la medición de la pobreza multidimensional va más allá del ingreso monetario o el consumo para definir la pobreza.\n\nEstas medidas de la pobreza mundial se utilizan para seguir de cerca los avances en el cumplimiento de los objetivos internacionales establecidos por el Banco Mundial, las Naciones Unidas y otros asociados para el desarrollo. Asimismo, resultan útiles para realizar comparaciones entre países y establecer puntos de referencia. Sin embargo, también es importante destacar sus limitaciones. Por ejemplo, para evaluar el nivel de pobreza y la tendencia de la pobreza de un país en particular, el parámetro adecuado es la línea nacional de pobreza. Del mismo modo, la línea nacional de pobreza debe servir de base para el diálogo sobre políticas o la focalización de los programas para llegar a los más pobres, ya que abarca las dimensiones de la pobreza que son pertinentes dentro de ese contexto específico.",
+                                        "metadata": {
+                                            "url": "https://www.bancomundial.org/es/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines",
+                                            "source": "www.bancomundial.org",
+                                            "favicon": "https://www.bancomundial.org/content/dam/wbr-redesign/logos/wbg-favicon.png",
+                                            "title": "Actualización de junio de 2025 sobre la pobreza mundial",
+                                            "type": "web_search",
+                                            "base_url": "https://www.bancomundial.org",
+                                            "snippet": "La línea de pobreza de los países de ingreso mediano bajo pasó de USD 3,65 a USD 4,20 y la de los países de ingreso mediano alto, de USD 6,85 a ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Mesa con los ponentes Gregorio Izquierdo, director general; Iñigo Fernández de Mesa, presidente del IEE; Francisco Cabrillo, catedrático Emérito de Economía de la Universidad Complutense de Madrid; y Carlos Rodriguez Braun, catedrático de Historia del Pensamiento Económico. (Imagen: IEE)\n\nEn el Índice de Libertad Económica (ILE) del año 2025, España se sitúa entre los países desarrollados con menos libertad económica, estando en la posición 31 de 38 países de la Organización para la Cooperación y el Desarrollo Económico (OCDE), con un nivel de libertad económica inferior en un 7% al promedio de los países desarrollados, según el informe del del Instituto de Estudios Económicos (IEE) La libertad de empresa en España. Índice de Libertad Económica 2025, donde se recogen los resultados del citado Índice, elaborado por la Fundación Heritage y adaptado al contexto español por el IEE.\n\nEsa informe fue presentado este lunes, 29 de septiembre, por el presidente del Instituto de Estudios Económicos, Íñigo Fernández de Mesa; junto a Gregorio Izquierdo, director general del IEE; Carlos Rodríguez Braun, catedrático de Historia del Pensamiento Económico; y Francisco Cabrillo, catedrático Emérito de Economía de la Universidad Complutense de Madrid; donde se indica que España está muy alejada de las primeras posiciones, lo cual condiciona nuestro progreso económico y bienestar.\n\nEl estudio recoge los resultados del Índice de Libertad Económica, elaborado por la Fundación Heritage y adaptado al contexto español por nuestro equipo. “El informe hace una radiografía precisa del estado de economía global que está marcado por una debilidad estructural», indica el presidente del IEE.\n\nPara Fernández de Mesa, es verdad que, en el conjunto del mundo, tenemos la posición 53 de 184 del ranking mundial, pero nuestra referencia deben ser las economías más prósperas, ya que, precisamente la falta de libertad económica en el mundo es lo que explica que los países desarrollados sigan siendo un grupo minoritario en el total.\n\nEn el Índice de Libertad Económica 2025, Fernández de Mesa señala que Singapur se mantiene en primer lugar, seguido de Suiza y Irlanda. Según destaca, EE. UU. continúa en descenso y podría seguir cayendo con la Administración Trump. Por su lado, Argentina registra la mayor mejora gracias a las reformas de Javier Milei y a un entorno macro más estable.\n\nEn su intervención recordó que las políticas que favorecen una mayor libertad en cualquiera de las áreas evaluadas por el Índice de Libertad Económica contribuyen directamente al dinamismo económico, lo que se refleja en una mejora del bienestar general.\n\nEn este contexto, según indicaron los expertos, España ha registrado una puntuación por debajo tanto del promedio de la OCDE como del de la Unión Europea, tanto en el resultado global del índice como en varios de sus componentes específicos. La puntuación obtenida por España en el Índice de Libertad Económica es inferior al resto del promedio de la OCDE en la mayor de las áreas evaluadas, destacando especialmente la ya comentada brecha negativa de distancia en salud fiscal (-27,7 puntos respecto a la media OCDE).\n\nSegún los ponentes, las variables que más nos penalizan son las derivadas del excesivo tamaño del Estado, como son nuestro nivel de gasto público y el persistente desequilibrio fiscal. De hecho, entre los países de la OCDE, España ocupa el puesto 33 de 38 en términos de salud fiscal, con un elevado déficit estructural, una deuda pública creciente y una presión fiscal que afecta tanto a empresas como a familias.\n\nCarlos Rodríguez Braun, coautor del estudio y catedrático de Historia del Pensamiento Económico de la Universidad Complutense de Madrid señala que “no se puede pedir a los empresarios que sean héroes. Así, el catedrático defiende que el Estado es el que es, y nadie puede actuar como si no existiera. Las empresas no pueden ser políticamente neutrales: el poder político puede ir cercenando su libertad.\n\nA su juicio, esta situación limita la capacidad del Estado para responder a crisis, reduce el margen para bajar impuestos y desincentiva la inversión privada. En cuanto al gasto público, su peso excesivo sobre el PIB, en relación a nuestro nivel de renta, interfiere con el desarrollo del sector privado, distorsiona la asignación de recursos y debilita los incentivos a la productividad. Esta expansión del aparato estatal no solo genera ineficiencias, sino que también compromete la sostenibilidad fiscal a largo plazo.\n\nLa Libertad Económica en 2025\n\nOCDE = 100\n\nLa inversión necesita estímulos\n\nEn su exposición señalaron que la actividad empresarial y, especialmente, la inversión, dependen en gran medida del entorno institucional en el que se desarrollan. Este entorno está compuesto por diversos factores, siendo especialmente relevantes aquellos que favorecen una mayor libertad económica y empresarial. Los datos empíricos muestran que los países con mayores niveles de libertad económica utilizan sus recursos de forma más eficiente, lo que contribuye a ampliar el potencial de crecimiento económico.\n\nPara Fernández de Mesa, “la libertad económica y de empresa es el motor del crecimiento, la innovación y el bienestar en las economías avanzadas. Los países que protegen estos principios canalizan mejor sus recursos, generan empleo de calidad y logran mayor prosperidad social. En el contexto actual, caracterizado por una creciente complejidad institucional, transformaciones tecnológicas aceleradas y tensiones geopolíticas, la libertad económica cobra una relevancia estratégica”.\n\nEn su opinión, se debe revertir el deterioro experimentado en el ranking de facilidad inversora, en el que España se sitúa en el puesto 20 de entre los 38 países más avanzados. Esta caída refleja un entorno menos favorable para la inversión empresarial, con mayores restricciones regulatorias y menor seguridad jurídica.\n\n“Resulta especialmente preocupante el deterioro de las condiciones que favorecen la inversión empresarial, lo cual, sin duda explica que sea una de las variables con mayor debilidad de la coyuntura económica, con un nivel en relación al PIB inferior al de la UE, cuando para converger con la misma, tendría que invertir por encima de lo que están haciendo nuestros socios, cuya renta per cápita ya de por sí es mayor que la de España”, apuntó.\n\nLibertad de empresa: mejora relativa pero insuficiente\n\nTambién comentaron que, en el ámbito específico de la libertad de empresa, España está ligeramente por encima del promedio de la OCDE, alcanzando un valor de 102,1 puntos respecto a la media OCDE (base 100) pero muy alejada de las posiciones de cabeza de los países más desarrollados como, por ejemplo, Dinamarca o Australia que tienen una libertad de empresa superior, en un orden de un 11% mayor que España. De cualquier modo, la regulación excesiva representa un obstáculo significativo para el desarrollo empresarial, afectando tanto a la creación de nuevas compañías como a la operativa diaria de las ya establecidas.\n\nSegún señala este informe del IEE, la libertad de empresa favorece la inversión y el crecimiento empresarial, variables que a su vez están muy correlacionadas con la rentabilidad de las empresas. El problema es que la rentabilidad empresarial en España se ha resentido en la última década, en paralelo con la caída de la libertad económica y el aumento de la presión regulatoria, lo que puede estar explicando la debilidad que sufre la inversión empresarial de España, dificultando que podamos aprovechar debidamente los efectos positivos de la reducción de tipos de interés del BCE y de disponibilidad de Fondos Europeos.\n\nEsta situación tiene su reflejo en el deterioro del EBE (Excedente Bruto de Explotación), en términos de contabilidad nacional, que ahora, en 2025, representa menos del 42% del PIB frente el 44% de 2018. Esta menor rentabilidad de las empresas condiciona negativamente su capacidad para invertir en innovación, crecimiento y mejora de la productividad, factores todos ellos que configuran la base de la competitividad a largo plazo.\n\nEl presidente del IEE recordó que el análisis de la libertad de empresa se complementa con unos artículos que reflexionan sobre la necesidad de compatibilizar las distintas responsabilidades que se le están planteando a la empresa dentro de la sociedad con la necesidad de garantizar una rentabilidad suficiente para cubrir tanto el coste de capital, los impuestos que soporta y la prima de riesgo intrínseca de la actividad empresarial.\n\nLos tres ponentes coincidieron en que “debemos evitar acciones que puedan debilitar la eficiencia y competitividad empresarial ya que, si bien las empresas pueden atender a múltiples objetivos, su mayor eficiencia relativa se alcanza en satisfacer los requerimientos que la sociedad impone a través de la demanda cambiante de sus producciones, ya que la compra de los bienes y servicios de las empresas es una transacción voluntaria que mejora el bienestar a través del excedente del consumidor como diferencia entre la utilidad que obtienen y el en el mercado por los productos”.\n\nAl final una de las conclusiones del informe es que “la libertad de empresa no solo es un derecho económico, sino una condición necesaria para el dinamismo del sistema productivo y para la sostenibilidad del crecimiento. Por ello, se debe advertir de los riesgos de una intervención normativa que debilite los derechos de propiedad y distorsione la toma de decisiones empresariales, tal y como señalan y desarrollan los distintos autores, a través de sus artículos en este informe. Por ello, reforzar la libertad de empresa y la claridad en los objetivos corporativos es clave para afrontar los desafíos estructurales de la economía española y garantizar un crecimiento sostenible”.\n\nPara los ponentes, se debe reforzar el principio de la libertad de empresa en las responsabilidades y objetivos que se exige a la empresa, porque, si bien, en el pasado, el debate fue que la rentabilidad, como objetivo único, podía perjudicar otras dimensiones que garantizaban la prosperidad a largo plazo, ahora, es posible que haya que reivindicar la necesidad de preservar la rentabilidad para que las empresas puedan seguir asumiendo su papel indispensable en la sostenibilidad de nuestro medio ambiente y en el bienestar de nuestra sociedad.\n\nFrancisco Cabrillo recuerda que la empresa es “un conjunto de contratos” entre propietarios, directivos y agentes. El Estado regula esas relaciones y garantiza su cumplimiento a través de la justicia, pero su intervención creciente en España genera”.\n\n“De hecho, la rendición de cuentas de las empresas debe ser capaz de compatibilizar todos estos objetivos debidamente. El problema de fondo es que todas estas realidades son complementarias en el medio y largo plazo y no hay sostenibilidad ambiental o social, sin una sostenibilidad financiera que las haga posible en el marco de la empresa”, comentó en su intervención en dicha presentación.",
+                                        "metadata": {
+                                            "url": "https://www.economistjurist.es/zbloque-1/espana-se-situa-entre-los-paises-desarrollados-con-menos-libertad-economica-esta-en-la-posicion-31-de-38-paises-de-la-ocde/",
+                                            "source": "www.economistjurist.es",
+                                            "favicon": "https://www.economistjurist.es/wp-content/uploads/sites/2/2023/01/ej-favicon32x32.png",
+                                            "title": "España se sitúa entre los países desarrollados con menos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.economistjurist.es",
+                                            "snippet": "En el Índice de Libertad Económica (ILE) del año 2025, España se sitúa entre los países desarrollados con menos libertad económica, estando en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Desde Accem compartimos las principales conclusiones del XV Informe Anual ‘El Estado de la Pobreza’, elaborado por la Red de Lucha contra la Pobreza y la Exclusión Social en el Estado Español (EAPN-ES), de la cual forma parte nuestra entidad a nivel estatal y a través de las redes autonómicas. Desde la EAPN-ES se destaca como dato positivo la reducción de la pobreza en España, que presenta la cifra más baja desde 2014, aunque la mejora no ha alcanzado a 4,1 millones de personas en situación más extrema, que viven en hogares con ingresos extraordinariamente bajos.\n\nEl riesgo de pobreza y/o exclusión social en nuestro país alcanza en la actualidad al 25,8 % de la población, un total de 12,5 millones de personas, 200.000 menos que el año anterior. Según destaca la EAPN-Es, se trata de la cifra más baja en la última década, una reducción que refleja la apuesta por políticas sociales de estos últimos años, aunque los datos alertan sobre una problemática estructural: al menos 1 de cada 4 personas se ha mantenido en riesgo de pobreza y/o exclusión social en la última década. La cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nEl informe recoge tanto la tasa AROPE (At risk of poverty and/or exclusion), que hace referencia al porcentaje de población que se encuentra en riesgo de pobreza y/o exclusión social, como sus diferentes componentes: tasa de riesgo de pobreza relativa, la carencia material y social severa y el porcentaje de población con baja intensidad en el empleo. Como novedad en la presente edición, se ha incluido un análisis exhaustivo del impacto de la pobreza asociado a la vivienda, a la composición de las familias, y del alcance de las políticas sociales y económicas frente a la pobreza.\n\nAlgunos datos destacados\n\nPreocupa de forma alarmante la tasa de pobreza infantil en España , con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas.\n\n, con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas. Más de la mitad de la población migrante extracomunitaria se encuentra en riesgo de pobreza o exclusión social.\n\nse encuentra en riesgo de pobreza o exclusión social. El acceso a una vivienda se constata un año más como un factor de empobrecimiento y desigualdad : el gasto en vivienda se lleva más de un tercio de los ingresos de las personas pobres (35,5 %).\n\nse constata un año más como un : el gasto en vivienda se lleva más de un tercio de los ingresos de las personas pobres (35,5 %). La pobreza energética descendió más de 3 puntos en 2024 tras años de máximos históricos. No obstante, el 17,6 % de la población no pudo permitirse mantener la vivienda con una temperatura adecuada.\n\ndescendió más de 3 puntos en 2024 tras años de máximos históricos. No obstante, el 17,6 % de la población no pudo permitirse mantener la vivienda con una temperatura adecuada. Se produce una estrecha relación entre discapacidad y pobreza. Así, según el Informe, el 32,9 % de las personas con discapacidad está en situación de pobreza y/o exclusión social. Esta cifra es especialmente grave durante la edad laboral.\n\nUrge la aprobación del Pacto de Estado contra la Pobreza\n\nPese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.\n\nDesde EAPN-ES destacan la importancia del papel del Estado para reducir las tasas de pobreza, exclusión y desigualdad, y afrontar las consecuencias de las últimas crisis. Según el Informe, el estado del bienestar evitó que 11,1 millones de personas entrasen en situación de pobreza en 2024. Sin las transferencias del Estado, incluidas las pensiones, la tasa de pobreza sería más del doble. Sin embargo, según inciden desde la Red, existe margen de mejora en el alcance y la dotación de las políticas sociales y resulta de urgencia que se lleven cabo medidas estructurales y de amplio consenso político, así como reforzar las políticas de protección social dirigidas a las personas en situación de mayor vulnerabilidad.\n\nPrincipalmente, desde la Red se urge a las formaciones políticas a aprobar el Pacto de Estado contra la Pobreza que se encuentra en tramitación en el Congreso de los Diputados. Como señalan en la entidad, esta iniciativa debe contener medidas que garanticen ingresos dignos en todas las etapas de la vida -entre ellas la prestación universal por crianza-, acceso a una vivienda digna, empleo de calidad, educación inclusiva, políticas de cuidados y corresponsabilidad, propuestas para luchar contra la aporofobia y fomento de la gobernanza. “Los datos y conclusiones del Informe son claros, acabar con la pobreza es una decisión política”, señalan desde la entidad.\n\nDesde Accem, te invitamos a conocer con detalle el XV Informe ‘El Estado de la Pobreza’ en la web de EAPN-ES.\n\n> El Estado de la Pobreza 2025",
+                                        "metadata": {
+                                            "url": "https://www.accem.es/informe-el-estado-de-la-pobreza-2025-de-la-eapn-es-se-reduce-la-pobreza-en-espana-pero-persiste-entre-los-mas-vulnerables/",
+                                            "source": "www.accem.es",
+                                            "favicon": "https://www.accem.es/wp-content/uploads/2017/11/Accem-favicon-1.png",
+                                            "title": "Informe 'El Estado de la Pobreza 2025' de la EAPN-ES",
+                                            "type": "web_search",
+                                            "base_url": "https://www.accem.es",
+                                            "snippet": "Desde la EAPN-ES se destaca como dato positivo la reducción de la pobreza en España, que presenta la cifra más baja desde 2014, aunque la mejora ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "A pesar de los esfuerzos políticos por transmitir una imagen de progreso económico y cohesión social, España vuelve a ser señalada a la cola social de Europa\n\nEl último informe de Bruselas sobre indicadores sociales sitúa al país en una posición preocupante en materias clave como el paro, la pobreza infantil y el acceso a la vivienda.\n\nMientras desde el Gobierno se insiste en el relato de la recuperación, los datos revelan una realidad bien distinta: la exclusión social y la desigualdad siguen profundizándose.\n\nEn este artículo analizamos los detalles del informe, el contexto actual y las perspectivas de futuro para la economía y el tejido social español.\n\nBruselas señala a España a la cola social de Europa: principales riesgos sociales\n\nEl informe de la Comisión Europea, publicado en abril de 2025, subraya varios puntos críticos en España:\n\nAlta tasa de población en riesgo de pobreza, especialmente infantil.\n\nElevada desigualdad de ingresos.\n\nBajo impacto de las prestaciones sociales.\n\nDificultades de acceso a la vivienda.\n\nPersistencia de un elevado nivel de desempleo.\n\nBruselas destaca que algunas medidas recientes, como la subida del salario mínimo interprofesional (SMI) o el impulso a la formación profesional, son pasos positivos, pero insuficientes si no van acompañadas de una implementación eficaz y una mejor coordinación entre administraciones.\n\nLa pobreza infantil: una emergencia creciente\n\nEspaña lidera, junto a Bulgaria y Rumanía, los peores datos de pobreza infantil en la Unión Europea.\n\nEn 2023, la tasa de riesgo de pobreza o exclusión social en menores de edad alcanzó el 34,5%, y en 2024 subió ligeramente hasta el 34,6%.\n\nMás grave aún es la llamada «brecha de pobreza», que mide cuán lejos están los hogares pobres del umbral de pobreza: en España se sitúa en el 32%, muy por encima del 24,4% de media comunitaria.\n\nFactores como la precariedad laboral de los padres, el desempleo estructural y unas ayudas sociales inferiores a la media europea (428 euros por habitante frente a los 878 euros de media) alimentan esta situación.\n\nUn mercado laboral estancado y distorsionado\n\nEl desempleo sigue siendo otro de los grandes lastres. Según Eurostat, España cerró febrero de 2025 con una tasa de paro superior al 11%, siendo el único país de la OCDE que supera el 10%.\n\nAdemás, como denunció recientemente la Fundación de Estudios de Economía Aplicada (Fedea), gran parte de la aparente reducción del paro registrado se debe a un cambio estadístico: ahora muchos trabajadores con contratos fijos discontinuos no se contabilizan como parados, aunque pasen largos periodos sin trabajar.\n\nAsí, en términos de «paro efectivo», España está prácticamente igual que en 2019, antes de la pandemia.\n\nEl drama de la vivienda: inaccesible para muchos\n\nEl informe europeo también pone el foco en el acceso a la vivienda. España destaca negativamente por:\n\nAlto porcentaje de gasto del ingreso familiar destinado a la vivienda.\n\nInsuficiencia de vivienda social.\n\nDificultades para jóvenes y familias vulnerables para emanciparse.\n\nBruselas recuerda que los alquileres han subido más de un 30% en muchas ciudades desde 2015, mientras los salarios apenas han crecido en términos reales.\n\nEsto agrava la exclusión residencial y la precarización de amplios sectores sociales.\n\nPrestaciones sociales: insuficientes y poco eficaces\n\nOtro de los reproches de Bruselas es el bajo impacto de las políticas de protección social.\n\nLas ayudas públicas, incluyendo el Ingreso Mínimo Vital (IMV), no consiguen reducir significativamente las tasas de pobreza.\n\nLa comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%.\n\nAdemás, la burocracia y los retrasos administrativos dificultan que las ayudas lleguen de forma efectiva a quienes las necesitan.\n\n¿Qué responde el Gobierno al aviso de Bruselas de España a la cola social de Europa?\n\nDesde el Ejecutivo, la ministra Yolanda Díaz ha defendido las reformas laborales y sociales impulsadas en los últimos años, asegurando que «España va en la buena dirección» y que «la desigualdad se está reduciendo».\n\nNo obstante, organizaciones como la AIReF han pedido «cautela» a la hora de interpretar los datos y recuerdan que sin cambios estructurales profundos los avances podrían ser temporales.\n\nAdemás, Bruselas advierte que el éxito de las reformas dependerá de su correcta aplicación y de la cooperación entre el Estado central y las comunidades autónomas.\n\nComparativa europea: ¿dónde estamos?\n\nEspaña figura en los peores puestos en varios indicadores sociales de la UE:\n\nTasa de riesgo de pobreza general: 26,5% (UE: 21,6%).\n\nPobreza infantil: 34,6% (UE: 24,8%).\n\nDesempleo: 11,1% (UE: 6%).\n\nAcceso a vivienda social: 2,5% del parque inmobiliario (UE: 9% de media).\n\nSolo algunos países del Este europeo presentan peores cifras globales, pero su tendencia es de mejora, mientras que España se mantiene estancada o incluso retrocede.\n\nLa advertencia de los expertos: crecimiento sin inclusión\n\nEconomistas como Ángel de la Fuente (Fedea) o Santiago Carbó (Funcas) advierten que el crecimiento económico de España, aunque notable en 2024 (+3,2% del PIB), es «probablemente coyuntural» y no se traduce en mejoras sociales estables.\n\nFactores externos como el boom turístico, el impulso de los fondos europeos o la fuerte inmigración explican buena parte del crecimiento, pero no resuelven los problemas estructurales de productividad baja, paro crónico y desigualdad.\n\n¿Qué medidas propone Bruselas?\n\nLa Comisión Europea sugiere varias líneas de actuación:\n\nReforzar las políticas de inclusión social.\n\nMejorar la eficacia de las prestaciones y ayudas públicas.\n\nIncrementar la oferta de vivienda asequible.\n\nApostar por la formación de calidad y la reducción del abandono escolar.\n\nImpulsar políticas activas de empleo adaptadas a las nuevas realidades laborales.\n\nTambién pide una mejor coordinación entre Estado y comunidades autónomas para garantizar que los recursos lleguen de forma eficiente.\n\nConclusión España, a la cola social de Europa: Bruselas alerta del aumento de la pobreza infantil, el paro y la crisis de vivienda\n\nEl diagnóstico de Bruselas es claro: España no está sabiendo traducir su crecimiento económico coyuntural en mejoras sociales reales y sostenibles.\n\nLas tasas de pobreza, exclusión y desempleo siguen siendo alarmantes, y las políticas públicas no logran corregir las desigualdades estructurales.\n\nLa tentación del Gobierno de centrarse en medidas de impacto político inmediato, como subidas del SMI o reducciones de jornada, puede acarrear consecuencias si no se acompaña de estrategias de fondo: inversión en educación, vivienda asequible, innovación y eficiencia del Estado de Bienestar.\n\nLa verdadera recuperación no se mide en cifras macroeconómicas aisladas, sino en la mejora tangible de las condiciones de vida de todos los ciudadanos.\n\nY en ese objetivo, España sigue teniendo un largo camino por recorrer.",
+                                        "metadata": {
+                                            "url": "https://www.mundoemprende.com/actualidad/espana-a-la-cola-social-de-europa-bruselas-alerta/",
+                                            "source": "www.mundoemprende.com",
+                                            "favicon": "https://www.mundoemprende.com/wp-content/uploads/2016/11/cropped-ICONOmundoemprende-32x32.png",
+                                            "title": "España, a la cola social de Europa: Bruselas alerta",
+                                            "type": "web_search",
+                                            "base_url": "https://www.mundoemprende.com",
+                                            "snippet": "El informe de la Comisión Europea, publicado en abril de 2025, subraya varios puntos críticos en España: Alta tasa de población en riesgo de pobreza, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La herencia determina el 35% de la desigualdad de ingresos en España\n\nEn España, el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres.\n\nAsí lo revela el último informe de la OCDE, Tener y no Tener: Cómo Cerrar la Brecha de Oportunidades (To Have and Have Not: How to Bridge the Gap in Opportunities). Esta cifra sitúa a España entre los países desarrollados con menor movilidad social, muy por encima de la media europea del 25%.\n\nEl estudio señala que el lugar de nacimiento y el entorno familiar condicionan fuertemente las oportunidades de vida. En países como Islandia (11%), Dinamarca (13%) o Finlandia (15%), las políticas públicas han logrado reducir el peso del origen en la desigualdad. En cambio, España comparte escenario con Estados Unidos, Portugal y Rumanía, donde el ascensor social parece averiado.\n\nLa vivienda como obstáculo estructural\n\nA esta radiografía se suma el análisis publicado por El Salto Diario, que denuncia la financiarización del mercado inmobiliario como uno de los principales factores que impiden la emancipación de los jóvenes. La vivienda ha dejado de ser un derecho para convertirse en un activo financiero, dominado por fondos de inversión y plataformas turísticas. Esta transformación ha disparado los precios del alquiler —más de un 40% en cinco años— mientras los salarios apenas han crecido.\n\nEl resultado: los jóvenes españoles tardan una media de 30 años en emanciparse, cuatro más que la media europea. Para acceder a una vivienda en propiedad, se requiere el equivalente a cuatro años de salario íntegro solo para la entrada hipotecaria. En el caso del alquiler, el coste puede absorber hasta el 92% del sueldo mensual.\n\nParo juvenil y sobrecualificación\n\nLa situación laboral tampoco ofrece alivio. España registra una de las tasas de paro juvenil más altas de Europa, con un 26,9% en 2024. Además, el 36,2% de los jóvenes ocupados están sobrecualificados para sus puestos, lo que refleja un desajuste entre formación y mercado laboral.\n\nPolíticas públicas insuficientes\n\nAunque el Gobierno ha impulsado medidas como el bono de alquiler joven, ayudas a la compra de vivienda protegida y programas de inserción laboral como la Garantía Juvenil Plus, los expertos advierten que estas iniciativas no abordan el problema estructural. La OCDE recomienda reforzar la inversión en la primera infancia, mejorar la redistribución fiscal y diseñar prestaciones que reduzcan la transmisión intergeneracional de la desigualdad.",
+                                        "metadata": {
+                                            "url": "https://noticiasobreras.es/2025/10/la-herencia-determina-el-35-de-la-desigualdad-de-ingresos-en-espana/?srsltid=AfmBOooLzrskbCwIw3qDHK9w1u_it3_9rpQOpUMS6fpqGFV3gNE_nS-x",
+                                            "source": "noticiasobreras.es",
+                                            "favicon": "https://noticiasobreras.es/wp-content/uploads/2016/07/cropped-logoNNOO_02_pantone_icoredes-32x32.png",
+                                            "title": "La herencia determina el 35% de la desigualdad ...",
+                                            "type": "web_search",
+                                            "base_url": "https://noticiasobreras.es",
+                                            "snippet": "La herencia determina el 35% de la desigualdad de ingresos en España. Redacción / Agencias · 5 octubre 2025 · #EstáPasando."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8213834329999372,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8213834329999372,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:57:46",
+                    "run_time": 1.8213834329999372,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los datos oficiales sobre el índice de pobreza en España en 2025 según la Eurostat?": [
+                                {
+                                    "Pese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.": null
+                                },
+                                {
+                                    "Más grave aún es la llamada «brecha de pobreza», que mide cuán lejos están los hogares pobres del umbral de pobreza: en España se sitúa en el 32%, muy por encima del 24,4% de media comunitaria.": null
+                                },
+                                {
+                                    "El desempleo sigue siendo otro de los grandes lastres. Según Eurostat, España cerró febrero de 2025 con una tasa de paro superior al 11%, siendo el único país de la OCDE que supera el 10%.": null
+                                }
+                            ],
+                            "¿Cómo se compara el índice de pobreza en España con el de otros países de la UE en 2025 según el Banco Mundial?": [
+                                {
+                                    "La comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%.": null
+                                },
+                                {
+                                    "Pese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.": null
+                                },
+                                {
+                                    "Más grave aún es la llamada «brecha de pobreza», que mide cuán lejos están los hogares pobres del umbral de pobreza: en España se sitúa en el 32%, muy por encima del 24,4% de media comunitaria.": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en economía y políticas sociales sobre el riesgo de pobreza en España en 2025 según la OCDE?": [
+                                {
+                                    "Pese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.": null
+                                },
+                                {
+                                    "El riesgo de pobreza y/o exclusión social en nuestro país alcanza en la actualidad al 25,8 % de la población, un total de 12,5 millones de personas, 200.000 menos que el año anterior. Según destaca la EAPN-Es, se trata de la cifra más baja en la última década, una reducción que refleja la apuesta por políticas sociales de estos últimos años, aunque los datos alertan sobre una problemática estructural: al menos 1 de cada 4 personas se ha mantenido en riesgo de pobreza y/o exclusión social en la última década. La cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.": null
+                                },
+                                {
+                                    "Economistas como Ángel de la Fuente (Fedea) o Santiago Carbó (Funcas) advierten que el crecimiento económico de España, aunque notable en 2024 (+3,2% del PIB), es «probablemente coyuntural» y no se traduce en mejoras sociales estables.": null
+                                }
+                            ],
+                            "¿Qué evidencia existe sobre la tasa de pobreza en España en comparación con otros países de la UE como Francia, Alemania y Italia en 2025 según la Comisión Europea?": [
+                                {
+                                    "La comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%.": null
+                                },
+                                {
+                                    "Pese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.": null
+                                },
+                                {
+                                    "Más grave aún es la llamada «brecha de pobreza», que mide cuán lejos están los hogares pobres del umbral de pobreza: en España se sitúa en el 32%, muy por encima del 24,4% de media comunitaria.": null
+                                }
+                            ],
+                            "¿Qué son los datos sobre la desigualdad de ingresos en España en 2025 según el Informe de la OCDE sobre la desigualdad de ingresos?": [
+                                {
+                                    "Así lo revela el último informe de la OCDE, Tener y no Tener: Cómo Cerrar la Brecha de Oportunidades (To Have and Have Not: How to Bridge the Gap in Opportunities). Esta cifra sitúa a España entre los países desarrollados con menor movilidad social, muy por encima de la media europea del 25%.": null
+                                },
+                                {
+                                    "En España, el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres.": null
+                                },
+                                {
+                                    "El desempleo sigue siendo otro de los grandes lastres. Según Eurostat, España cerró febrero de 2025 con una tasa de paro superior al 11%, siendo el único país de la OCDE que supera el 10%.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 8.632406183998683,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 8.632406183998683,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:57:56",
+                    "run_time": 8.632406183998683,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña es el cuarto país de la UE con mayor riesgo de pobreza en 2025\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los datos oficiales sobre el índice de pobreza en España en 2025 según la Eurostat?\n¿Cómo se compara el índice de pobreza en España con el de otros países de la UE en 2025 según el Banco Mundial?\n¿Qué opinan los expertos en economía y políticas sociales sobre el riesgo de pobreza en España en 2025 según la OCDE?\n¿Qué evidencia existe sobre la tasa de pobreza en España en comparación con otros países de la UE como Francia, Alemania y Italia en 2025 según la Comisión Europea?\n¿Qué son los datos sobre la desigualdad de ingresos en España en 2025 según el Informe de la OCDE sobre la desigualdad de ingresos?\n\n3. Here are the text sources you should use as your source of information:\n[0] Pese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.\n[0] El riesgo de pobreza y/o exclusión social en nuestro país alcanza en la actualidad al 25,8 % de la población, un total de 12,5 millones de personas, 200.000 menos que el año anterior. Según destaca la EAPN-Es, se trata de la cifra más baja en la última década, una reducción que refleja la apuesta por políticas sociales de estos últimos años, aunque los datos alertan sobre una problemática estructural: al menos 1 de cada 4 personas se ha mantenido en riesgo de pobreza y/o exclusión social en la última década. La cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n[1] Más grave aún es la llamada «brecha de pobreza», que mide cuán lejos están los hogares pobres del umbral de pobreza: en España se sitúa en el 32%, muy por encima del 24,4% de media comunitaria.\n[1] El desempleo sigue siendo otro de los grandes lastres. Según Eurostat, España cerró febrero de 2025 con una tasa de paro superior al 11%, siendo el único país de la OCDE que supera el 10%.\n[1] La comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%.\n[1] Economistas como Ángel de la Fuente (Fedea) o Santiago Carbó (Funcas) advierten que el crecimiento económico de España, aunque notable en 2024 (+3,2% del PIB), es «probablemente coyuntural» y no se traduce en mejoras sociales estables.\n[2] Así lo revela el último informe de la OCDE, Tener y no Tener: Cómo Cerrar la Brecha de Oportunidades (To Have and Have Not: How to Bridge the Gap in Opportunities). Esta cifra sitúa a España entre los países desarrollados con menor movilidad social, muy por encima de la media europea del 25%.\n[2] En España, el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España es el cuarto país de la UE con mayor riesgo de pobreza en 2025"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSegún el informe de la EAPN-Es, el riesgo de pobreza y/o exclusión social en España alcanza en la actualidad al 25,8% de la población, un total de 12,5 millones de personas, lo que sitúa a España entre los países con mayor riesgo de pobreza en la UE. Esto se confirma en el texto [0], donde se menciona que la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nAdemás, según el texto [1], la comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%. Esto sugiere que España sigue siendo uno de los países con mayor riesgo de pobreza en la UE.\n\n**Argumentos en contra de la afirmación**\n\nAunque el texto [0] menciona que el riesgo de pobreza y/o exclusión social en España alcanza al 25,8% de la población, también se menciona que esta cifra es la más baja en la última década y que refleja la apuesta por políticas sociales de estos últimos años. Esto sugiere que la situación está mejorando y que España no es el cuarto país con mayor riesgo de pobreza en la UE.\n\nAdemás, según el texto [2], el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres. Esto sugiere que la pobreza en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.\n\n**Conclusión**\n\nEn base a los argumentos presentados, podemos concluir que la afirmación \"España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\" es **falsa**. Aunque el riesgo de pobreza en España es alto, la situación está mejorando y la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024. Además, la desigualdad en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.8490262819996133,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.8490262819996133,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 12:57:58",
+                    "run_time": 1.8490262819996133,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\nArticle: **Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSegún el informe de la EAPN-Es, el riesgo de pobreza y/o exclusión social en España alcanza en la actualidad al 25,8% de la población, un total de 12,5 millones de personas, lo que sitúa a España entre los países con mayor riesgo de pobreza en la UE. Esto se confirma en el texto [0], donde se menciona que la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nAdemás, según el texto [1], la comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%. Esto sugiere que España sigue siendo uno de los países con mayor riesgo de pobreza en la UE.\n\n**Argumentos en contra de la afirmación**\n\nAunque el texto [0] menciona que el riesgo de pobreza y/o exclusión social en España alcanza al 25,8% de la población, también se menciona que esta cifra es la más baja en la última década y que refleja la apuesta por políticas sociales de estos últimos años. Esto sugiere que la situación está mejorando y que España no es el cuarto país con mayor riesgo de pobreza en la UE.\n\nAdemás, según el texto [2], el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres. Esto sugiere que la pobreza en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.\n\n**Conclusión**\n\nEn base a los argumentos presentados, podemos concluir que la afirmación \"España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\" es **falsa**. Aunque el riesgo de pobreza en España es alto, la situación está mejorando y la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024. Además, la desigualdad en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\nArticle: **Análisis del statement**\n\n**Argumentos a favor de la afirmación**\n\nSegún el informe de la EAPN-Es, el riesgo de pobreza y/o exclusión social en España alcanza en la actualidad al 25,8% de la población, un total de 12,5 millones de personas, lo que sitúa a España entre los países con mayor riesgo de pobreza en la UE. Esto se confirma en el texto [0], donde se menciona que la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nAdemás, según el texto [1], la comparación con el resto de Europa es preocupante: mientras países como Alemania o Francia consiguen rebajar hasta un 40% su tasa de pobreza gracias a las transferencias sociales, en España la reducción apenas supera el 20%. Esto sugiere que España sigue siendo uno de los países con mayor riesgo de pobreza en la UE.\n\n**Argumentos en contra de la afirmación**\n\nAunque el texto [0] menciona que el riesgo de pobreza y/o exclusión social en España alcanza al 25,8% de la población, también se menciona que esta cifra es la más baja en la última década y que refleja la apuesta por políticas sociales de estos últimos años. Esto sugiere que la situación está mejorando y que España no es el cuarto país con mayor riesgo de pobreza en la UE.\n\nAdemás, según el texto [2], el esfuerzo individual no basta para superar las barreras estructurales que perpetúan la desigualdad. El 35% de la desigualdad de ingresos en el país se debe a circunstancias heredadas, como el nivel educativo y ocupacional de los padres. Esto sugiere que la pobreza en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos.\n\n**Conclusión**\n\nEn base a los argumentos presentados, podemos concluir que la afirmación \"España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\" es **falsa**. Aunque el riesgo de pobreza en España es alto, la situación está mejorando y la cifra de personas en situación de pobreza severa se ha mantenido constante en 2024. Además, la desigualdad en España es un problema complejo que no se puede resolver solo con políticas sociales, y que puede ser influenciado por factores externos."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España es el cuarto país de la UE con mayor riesgo de pobreza en 2025\", \"categories\": [\"Economía\", \"Sociedad\", \"Política\"], \"label\": \"Fake\", \"main_claim\": \"La afirmación de que España es el cuarto país de la UE con mayor riesgo de pobreza en 2025 es falsa\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "youtube.com",
+                        "tiktok.com",
+                        "instagram.com",
+                        "x.com",
+                        "twitter.com",
+                        "pmp.org.es",
+                        "rtve.es",
+                        "feminismo.maldita.es",
+                        "ciencia.nasa.gov",
+                        "oftalmologos.org.ar",
+                        "infobae.com",
+                        "bbva.com",
+                        "albalactanciamaterna.org",
+                        "uoc.edu",
+                        "medlineplus.gov",
+                        "bankinter.com",
+                        "nyc.gov",
+                        "caixabankresearch.com",
+                        "lefebvre.es",
+                        "newtral.es",
+                        "ine.es",
+                        "huffingtonpost.es",
+                        "abc.es",
+                        "normoncontigo.normon.com",
+                        "es.euronews.com",
+                        "observatoriodelalquiler.org",
+                        "lavanguardia.com",
+                        "publico.es",
+                        "nationalgeographic.com.es",
+                        "datosmacro.expansion.com",
+                        "cadenaser.com",
+                        "sistemaelectrico-ree.es",
+                        "efe.com",
+                        "ec-europa-eu.translate.goog",
+                        "lasexta.com",
+                        "maldita.es",
+                        "elplural.com",
+                        "es.weforum.org",
+                        "masquemedicos.com",
+                        "educaweb.com",
+                        "ree.es",
+                        "cambioenergetico.com",
+                        "vozpopuli.com",
+                        "clinicaalemana.cl",
+                        "cancer.gov",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "antena3.com",
+                        "myfisioclinic.com",
+                        "sjme.org",
+                        "verificat.cat",
+                        "theconversation.com",
+                        "xataka.com",
+                        "europapress.es",
+                        "20minutos.es",
+                        "gacetamedica.com",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "instituteforenergyresearch.org",
+                        "lamoncloa.gob.es",
+                        "agrodiario.com",
+                        "jacc.org",
+                        "hopkinsmedicine.org",
+                        "primabiotic.es",
+                        "elpais.com",
+                        "cincodias.elpais.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "observatoriodeladiscapacidad.info",
+                        "sepe.es",
+                        "defensa.gob.es",
+                        "coches.net",
+                        "salud.nih.gov",
+                        "who.int",
+                        "kidshealth.org",
+                        "realinstitutoelcano.org",
+                        "larazon.es",
+                        "theobjective.com",
+                        "verifica.efe.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

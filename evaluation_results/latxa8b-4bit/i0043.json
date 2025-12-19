@@ -1,0 +1,589 @@
+{
+    "question": "Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión",
+    "answer": "* Según el informe [1], las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social. En concreto, se menciona que más de la mitad de esta categoría de familias se encuentra en riesgo de pobreza y/o exclusión social, lo que supone un 50,3 %.\n* El informe [2] destaca que las familias monoparentales están especialmente expuestas a la pobreza debido a que, en muchos casos, cuentan con los ingresos de un solo progenitor. Esto puede aumentar el riesgo de pobreza y exclusión.\n* La ONG \"Save the children\" alertaba en su informe \"Más solas que nunca\" de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, lo que les impide acceder a empleos con mayores jornadas e ingresos.\n* La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, revela que más de la mitad (56%) de las mujeres encabezadas por una familia monoparental dispone de menos de 600 € al mes para sacar adelante a los suyos.\n\n* Aunque se menciona que las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.\n* No se menciona ningún estudio o informe que contradiga la relación entre las familias monoparentales y la pobreza en diferentes países o regiones.\n* Los expertos en políticas sociales y economía no se mencionan en los textos proporcionados para opinar sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales.\n\nEn base a los textos proporcionados, podemos concluir que hay evidencia que sostiene la afirmación de que las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión. Sin embargo, también es cierto que no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias, ni se mencionan estudios o informes que contradigan la relación entre las familias monoparentales y la pobreza. Por lo tanto, la afirmación se considera **VERDADERA**, pero con la limitación de que no se dispone de información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.eapn.es/actualidad/1861/la-pobreza-se-reduce-en-espana-a-minimos-de-una-decada-pero-la-mejora-no-llega-a-las-personas-en-situacion-mas-extrema",
+            "source": "www.eapn.es",
+            "favicon": "https://www.eapn.es/apple-touch-icon.png"
+        },
+        "2": {
+            "url": "https://fundacionadecco.org/blog-diversidad-inclusion/un-56-de-las-familias-monomarentales-en-riesgo-de-pobreza/",
+            "source": "fundacionadecco.org",
+            "favicon": "https://i0.wp.com/fundacionadecco.org/blog-diversidad-inclusion/wp-content/uploads/2021/06/cropped-fav.png?fit=32%2C32&ssl=1"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión",
+        "categories": [
+            "Economía",
+            "Sociedad",
+            "Política"
+        ],
+        "label": "True",
+        "main_claim": "Las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, aunque falta información sobre la tasa de pobreza en comparación con otras categorías de familias",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 2.0577863169983175,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 2.0577863169983175,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:21",
+                    "run_time": 2.0577863169983175,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nLas familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\n\n**Critical Research Questions:**\n1. <?>¿Qué son los datos actuales sobre la tasa de pobreza y exclusión en familias monoparentales en comparación con otras categorías de familias?<?>\n2. <?>¿Qué estudios o informes destacan la relación entre las familias monoparentales y la pobreza en diferentes países o regiones?<?>\n3. <?>¿Qué opinan los expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales?<?>\n4. <?>¿Qué información contrasta con la afirmación de que las familias monoparentales están entre los colectivos con mayor riesgo de pobreza y exclusión?<?>\n5. <?>¿Cómo ha cambiado la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos años?<?>\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"índice de pobreza y exclusión en familias monoparentales vs otras categorías de familias 2025 datos oficiales\", \"estudios sobre la relación entre familias monoparentales y pobreza en diferentes países o regiones\", \"opinión de expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en familias monoparentales\", \"familias monoparentales y pobreza en países desarrollados vs en desarrollo datos oficiales\", \"cambio en la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos 10 años\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 17.733463769000082,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 17.733463769000082,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:39",
+                    "run_time": 17.733463769000082,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "índice de pobreza y exclusión en familias monoparentales vs otras categorías de familias 2025 datos oficiales",
+                                "estudios sobre la relación entre familias monoparentales y pobreza en diferentes países o regiones",
+                                "opinión de expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en familias monoparentales",
+                                "familias monoparentales y pobreza en países desarrollados vs en desarrollo datos oficiales",
+                                "cambio en la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos 10 años"
+                            ],
+                            "results": {
+                                "índice de pobreza y exclusión en familias monoparentales vs otras categorías de familias 2025 datos oficiales | estudios sobre la relación entre familias monoparentales y pobreza en diferentes países o regiones | opinión de expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en familias monoparentales | familias monoparentales y pobreza en países desarrollados vs en desarrollo datos oficiales | cambio en la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos 10 años": [
+                                    {
+                                        "text": "Desde Accem compartimos las principales conclusiones del XV Informe Anual ‘El Estado de la Pobreza’, elaborado por la Red de Lucha contra la Pobreza y la Exclusión Social en el Estado Español (EAPN-ES), de la cual forma parte nuestra entidad a nivel estatal y a través de las redes autonómicas. Desde la EAPN-ES se destaca como dato positivo la reducción de la pobreza en España, que presenta la cifra más baja desde 2014, aunque la mejora no ha alcanzado a 4,1 millones de personas en situación más extrema, que viven en hogares con ingresos extraordinariamente bajos.\n\nEl riesgo de pobreza y/o exclusión social en nuestro país alcanza en la actualidad al 25,8 % de la población, un total de 12,5 millones de personas, 200.000 menos que el año anterior. Según destaca la EAPN-Es, se trata de la cifra más baja en la última década, una reducción que refleja la apuesta por políticas sociales de estos últimos años, aunque los datos alertan sobre una problemática estructural: al menos 1 de cada 4 personas se ha mantenido en riesgo de pobreza y/o exclusión social en la última década. La cifra de personas en situación de pobreza severa se ha mantenido constante en 2024 y alcanza a 4,1 millones de personas, las cuales viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nEl informe recoge tanto la tasa AROPE (At risk of poverty and/or exclusion), que hace referencia al porcentaje de población que se encuentra en riesgo de pobreza y/o exclusión social, como sus diferentes componentes: tasa de riesgo de pobreza relativa, la carencia material y social severa y el porcentaje de población con baja intensidad en el empleo. Como novedad en la presente edición, se ha incluido un análisis exhaustivo del impacto de la pobreza asociado a la vivienda, a la composición de las familias, y del alcance de las políticas sociales y económicas frente a la pobreza.\n\nAlgunos datos destacados\n\nPreocupa de forma alarmante la tasa de pobreza infantil en España , con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas.\n\n, con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas. Más de la mitad de la población migrante extracomunitaria se encuentra en riesgo de pobreza o exclusión social.\n\nse encuentra en riesgo de pobreza o exclusión social. El acceso a una vivienda se constata un año más como un factor de empobrecimiento y desigualdad : el gasto en vivienda se lleva más de un tercio de los ingresos de las personas pobres (35,5 %).\n\nse constata un año más como un : el gasto en vivienda se lleva más de un tercio de los ingresos de las personas pobres (35,5 %). La pobreza energética descendió más de 3 puntos en 2024 tras años de máximos históricos. No obstante, el 17,6 % de la población no pudo permitirse mantener la vivienda con una temperatura adecuada.\n\ndescendió más de 3 puntos en 2024 tras años de máximos históricos. No obstante, el 17,6 % de la población no pudo permitirse mantener la vivienda con una temperatura adecuada. Se produce una estrecha relación entre discapacidad y pobreza. Así, según el Informe, el 32,9 % de las personas con discapacidad está en situación de pobreza y/o exclusión social. Esta cifra es especialmente grave durante la edad laboral.\n\nUrge la aprobación del Pacto de Estado contra la Pobreza\n\nPese a la mejora, España sigue lejos de los compromisos de la Agenda2030. En 2024, 2,8 millones de personas deberían haber salido de la pobreza y la exclusión social, pero los datos actuales se mantienen aún muy alejados de los compromisos internacionales.\n\nDesde EAPN-ES destacan la importancia del papel del Estado para reducir las tasas de pobreza, exclusión y desigualdad, y afrontar las consecuencias de las últimas crisis. Según el Informe, el estado del bienestar evitó que 11,1 millones de personas entrasen en situación de pobreza en 2024. Sin las transferencias del Estado, incluidas las pensiones, la tasa de pobreza sería más del doble. Sin embargo, según inciden desde la Red, existe margen de mejora en el alcance y la dotación de las políticas sociales y resulta de urgencia que se lleven cabo medidas estructurales y de amplio consenso político, así como reforzar las políticas de protección social dirigidas a las personas en situación de mayor vulnerabilidad.\n\nPrincipalmente, desde la Red se urge a las formaciones políticas a aprobar el Pacto de Estado contra la Pobreza que se encuentra en tramitación en el Congreso de los Diputados. Como señalan en la entidad, esta iniciativa debe contener medidas que garanticen ingresos dignos en todas las etapas de la vida -entre ellas la prestación universal por crianza-, acceso a una vivienda digna, empleo de calidad, educación inclusiva, políticas de cuidados y corresponsabilidad, propuestas para luchar contra la aporofobia y fomento de la gobernanza. “Los datos y conclusiones del Informe son claros, acabar con la pobreza es una decisión política”, señalan desde la entidad.\n\nDesde Accem, te invitamos a conocer con detalle el XV Informe ‘El Estado de la Pobreza’ en la web de EAPN-ES.\n\n> El Estado de la Pobreza 2025",
+                                        "metadata": {
+                                            "url": "https://www.accem.es/informe-el-estado-de-la-pobreza-2025-de-la-eapn-es-se-reduce-la-pobreza-en-espana-pero-persiste-entre-los-mas-vulnerables/",
+                                            "source": "www.accem.es",
+                                            "favicon": "https://www.accem.es/wp-content/uploads/2017/11/Accem-favicon-1.png",
+                                            "title": "Informe 'El Estado de la Pobreza 2025' de la EAPN-ES",
+                                            "type": "web_search",
+                                            "base_url": "https://www.accem.es",
+                                            "snippet": "La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La tasa de personas en riesgo de pobreza ha alcanzado en España su máximo histórico (22,2%), tras 4 años estancada en torno al 20%. Por Comunidades Autónomas son Murcia y Andalucía las más afectadas, con una tasa del 37,2% y el 33,3%, respectivamente. Por otra parte, País Vasco (10,2%) y Navarra (11,9%) son las regiones con menor incidencia de pobreza.\n\nUno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.\n\nLa encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, ha profundizado en la situación de los hogares monoparentales encabezados por una mujer, obteniéndose, en efecto, una conclusión: más de la mitad (56%) dispone de menos de 600 € al mes para sacar adelante a los suyos. En la misma línea, sólo un 16% de las encuestadas percibe más de 1.000 € mensuales.\n\nEl empleo se convierte en la variable determinante para superar el riesgo de pobreza o exclusión, y las cifras lo avalan: el porcentaje de mujeres que dispone de menos de 600 euros al mes se eleva al 70% cuando están desempleadas y cae hasta el 30% cuando tienen empleo.\n\nUn 45% de las mujeres que encabezan familias monoparentales, en paro\n\nLa ONG “Save the children” alertaba en su informe “Más solas que nunca”, lanzado el pasado julio, de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, ya que el cuidado de los hijos y la falta de medidas de conciliación les impide optar a empleos con mayores jornadas e ingresos.\n\nLa realidad contrastada por Save The Children se ha confirmado en los resultados de esta encuesta: un 45% de las participantes se encuentra en situación de desempleo, una cifra que casi dobla a la del resto de mujeres de nuestro país (24%). Además, un 12% trabaja días sueltos, sin disponer de la estabilidad necesaria para sacar adelante a su familia. Además, es destacable que un 65% de las mujeres en situación de desempleo lleva más de un año en paro.\n\nPor último, el riesgo de exclusión o pobreza también se refleja en otro indicador: la dificultad para llegar a fin de mes. En este sentido, el 90% de las mujeres encuestadas admite encontrar algún grado de dificultad para terminar cada mensualidad.",
+                                        "metadata": {
+                                            "url": "https://fundacionadecco.org/blog-diversidad-inclusion/un-56-de-las-familias-monomarentales-en-riesgo-de-pobreza/",
+                                            "source": "fundacionadecco.org",
+                                            "favicon": "https://i0.wp.com/fundacionadecco.org/blog-diversidad-inclusion/wp-content/uploads/2021/06/cropped-fav.png?fit=32%2C32&ssl=1",
+                                            "title": "Un 56% de las familias \"monomarentales\", en riesgo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://fundacionadecco.org",
+                                            "snippet": "Por Comunidades Autónomas son Murcia y Andalucía las más afectadas, con una tasa del 37,2% y el 33,3%, respectivamente. Por otra parte, País ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "#EstadoDePobreza\n\nLa pobreza se reduce en España a mínimos de una década, pero la mejora no llega a las personas en situación más extrema\n\n• En España hay 12,5 millones de personas en riesgo de pobreza y/o exclusión social, la cifra más baja desde 2014. Sin embargo, la mejora generalizada no alcanza a las 4,1 millones en situación de pobreza severa.\n\n• El estado del bienestar evitó que 11,1 millones de personas en España entrasen en pobreza en 2024. Aun así, los datos alertan sobre una problemática estructural: al menos 1 de cada 4 personas se ha mantenido en riesgo de pobreza y/o exclusión social en la última década.\n\n• Preocupa de forma alarmante la tasa de pobreza infantil en España, la más alta de la Unión Europea con 2,3 millones de niños, niñas y adolescentes pobres.\n\n• Desde EAPN-ES urgen a las formaciones políticas a aprobar el Pacto de Estado contra la Pobreza que se encuentra en tramitación en el Congreso de los Diputados.\n\n03/06/2025 | EAPN - Notas de prensa\n\nSe ha reducido la extensión de la pobreza en España, pero no su intensidad. Es una de las conclusiones principales del XV Informe Anual ‘El Estado de la Pobreza’ presentado este 4 de junio por la Red de Lucha contra la Pobreza y la Exclusión Social en el Estado Español (EAPN-ES), y construido a partir de los datos de la última Encuesta de Condiciones de Vida.\n\nEl documento recoge tanto la tasa AROPE -personas en riesgo de pobreza y/o exclusión social-, como sus diferentes componentes: tasa de riesgo de pobreza relativa, la carencia material y social severa y el porcentaje de población con baja intensidad en el empleo. Además, en la presente edición, se ha incluido un análisis exhaustivo del impacto de la pobreza asociado a la vivienda, a la composición de las familias, y del alcance de las políticas sociales y económicas frente a la pobreza.\n\nSegún el Informe, el riesgo de pobreza y/o exclusión social se ha reducido en el último año del 26,5 % al 25,8 % de la población, unos 12,5 millones de personas (200.000 menos), la cifra más baja desde 2014. Para EAPN-ES se trata de una reducción importante, que refleja la apuesta por políticas sociales de estos últimos años, pero alertan frente a unas cifras que desde 2014 no han logrado bajar del 25 % de la población. Es decir, al menos 1 de cada 4 personas en nuestro país se ha mantenido en riesgo de pobreza y/o exclusión social en la última década.\n\nAdemás, estas políticas no están alcanzando la intensidad suficiente para proteger a las personas que viven en condiciones más precarias, lo que cronifica su situación y dificulta las posibilidades de salir de la pobreza. Este hecho se constata con la cifra de personas en situación de pobreza severa, que se ha mantenido constante en 2024 y un punto por encima de 2008: 4,1 millones de personas viven en hogares con ingresos inferiores a 644 € al mes por unidad de consumo.\n\nEn el mismo sentido, es importante señalar que la mejoría tampoco llega por igual a toda la población. Cabe destacar el aumento de la brecha de género entre las personas en pobreza, o la situación de la población migrante extracomunitaria: más de la mitad se encuentra en riesgo de pobreza o exclusión social. Y, por supuesto, desde EAPN-ES muestran especial preocupación por la alarmante tasa de pobreza infantil en España, la más alta de la UE con 2,3 millones de niñas, niños y adolescentes pobres.\n\nA eso se suma que, pese a la mejora generalizada, los datos actuales nos mantienen aún muy alejados de los compromisos internacionales adquiridos por los sucesivos Gobiernos en el marco de la Agenda 2030. En el caso de la tasa AROPE, sería del 20,1 %, es decir, 2,8 millones de personas deberían haber salido del riesgo de pobreza y/o exclusión social en 2024.\n\nEL ESTADO DEL BIENESTAR IMPRESCINDIBLE, PERO CON MARGEN DE MEJORA\n\nAunque las cifras aún sean elevadas, desde la Red destacan la importancia del papel del Estado para reducir las tasas de pobreza, exclusión y desigualdad, y afrontar las consecuencias de las últimas crisis. Según el Informe, el estado del bienestar evitó que 11,1 millones de personas entrasen en situación de pobreza en 2024. Sin las transferencias del Estado, incluidas las pensiones, la tasa de pobreza sería más del doble (subiría del 19,7 % al 42,6 %), y 2,6 millones de personas más estarían en situación de pobreza severa.\n\nDentro de las transferencias de las Administraciones públicas analizadas en el XV Informe se incluyen ayudas por familia/hijos, para la vivienda, o los estudios, y prestaciones por desempleo, por vejez, por supervivencia, por enfermedad, por invalidez, y de garantía de renta (IMV y rentas autonómicas).\n\nPese a esta situación, si atendemos a la comparativa con otros países de la UE con estándares de vida similares -Francia o Irlanda-, vemos que el efecto protector del Estado es menor. Esto es más evidente en el caso de la pobreza infantil: las ayudas y prestaciones reducen la tasa de pobreza infantil un 20,2 %, menos de la mitad que la media europea (41,9 %). Por lo tanto, existe margen de mejora en el alcance y la dotación de las políticas sociales, sobre todo en un contexto donde se sitúa a España como la economía desarrollada que más crece, según la Organización para la Cooperación y el Desarrollo Económico​ (OCDE).\n\nPREOCUPA LA POBREZA INFANTIL Y LAS FAMILIAS MONOPARENTALES\n\nComo se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).\n\nFrente a los preocupantes datos de pobreza infantil, desde EAPN-ES piden medidas urgentes y estructurales, como ya han hecho otros países de la UE. Es el caso, por ejemplo, de Bulgaria, Grecia o Rumanía, que incluso con peores tasas de pobreza y/o exclusión social que España, han conseguido reducir la pobreza infantil desde 2015, mientras en nuestro país se ha mantenido alta y constante.\n\nVIVIENDA Y DISCAPACIDAD, FACTORES DE POBREZA\n\nEl acceso a una vivienda se constata un año más como un factor de empobrecimiento y desigualdad para una gran parte de la población, debido especialmente a la crisis de los precios de los alquileres. De hecho, el gasto en vivienda se lleva más de un tercio de los ingresos de las personas pobres (35,5 %), que disponen de 333 € de media tras pagar el alquiler, y de 370 € una vez abonada la cuota de la hipoteca.\n\nCabe destacar también el dato de pobreza energética, que encadenaba años de máximos históricos y que en 2024 descendió más de 3 puntos: el 17,6 % de la población no pudo permitirse mantener la vivienda con una temperatura adecuada. No obstante, pese a la mejora de este año, la pobreza energética ha aumentado un 65,9 % respecto a 2014 y prácticamente se triplica desde 2008 (sube un 196,3 %).\n\nPor otro lado, se ha analizado la estrecha relación de la discapacidad con la pobreza. Así, según el Informe, el 32,9 % de las personas con discapacidad está en situación de pobreza y/o exclusión social. Esta cifra es especialmente grave durante la edad laboral: el 40,7 % de las personas con discapacidad de entre 16 a 64 años está en riesgo de pobreza y/o exclusión social.\n\nURGE UN PACTO DE ESTADO CONTRA LA POBREZA\n\nSegún la investigación de EAPN-ES, las prestaciones asociadas a la garantía de ingresos son las únicas enfocadas claramente a la pobreza. Si tenemos en cuenta las altas y constantes cifras, la tasa intolerable de pobreza infantil, el escaso alcance de las políticas sociales en la población en situación más vulnerable, y los compromisos internacionales, resulta de urgencia que se lleven cabo medidas estructurales y de amplio consenso político.\n\nEn este sentido, desde EAPN-ES urgen a las formaciones políticas a tener “altura de miras” y aprobar en la presente legislatura el Pacto de Estado contra la Pobreza, que se encuentra parado en el Congreso. Como señalan en la entidad, esta iniciativa debe contener medidas que garanticen ingresos dignos en todas las etapas de la vida -entre ellas la prestación universal por crianza-, acceso a una vivienda digna, empleo de calidad, educación inclusiva, políticas de cuidados y corresponsabilidad, propuestas para luchar contra la aporofobia y fomento de la gobernanza.\n\nLos sucesivos Gobiernos han adquirido compromisos internacionales de erradicación de la pobreza desde 2015, una problemática que se encuentra en tercera posición entre las preocupaciones de la ciudadanía española, solo precedida por un mayor apoyo a la salud pública (40 %), y a la economía y la creación de empleo (35 %), según la encuesta del Eurobarómetro de invierno. “Es el momento de aprobar el Pacto, aprovechando el crecimiento económico, los fondos europeos y la propuesta ya a debate en el Congreso. Los datos y conclusiones del Informe son claros, acabar con la pobreza es una decisión política” señalan desde la entidad.\n\nVer de nuevo la rueda de prensa.",
+                                        "metadata": {
+                                            "url": "https://www.eapn.es/actualidad/1861/la-pobreza-se-reduce-en-espana-a-minimos-de-una-decada-pero-la-mejora-no-llega-a-las-personas-en-situacion-mas-extrema",
+                                            "source": "www.eapn.es",
+                                            "favicon": "https://www.eapn.es/apple-touch-icon.png",
+                                            "title": "La pobreza se reduce en España a mínimos de una ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.eapn.es",
+                                            "snippet": "Según el Informe, el riesgo de pobreza y/o exclusión social se ha reducido en el último año del 26,5 % al 25,8 % de la población, unos 12,5 ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La tendencia de mejora de la economía española ha impactado positivamente en la evolución de la exclusión. Una parte importante de la población que se vio afectada por la destrucción de empleo se ha visto beneficiada por el nuevo empleo creado y ha recuperado sus niveles de integración previos a 2008. Sin embargo, la persistencia en la exclusión e incluso empeoramiento de aquellos hogares que peor estaban durante la crisis nos muestra la existencia de profundas fracturas, que van más allá del ciclo económico. La complejidad de la realidad social hace que conviva una cierta mejoría de una parte importante de la población más afectada por la crisis con un recrudecimiento de la situación de las personas más débiles.\n\nEste capítulo aborda la complejidad de las dinámicas de desigualdad en España, tratando de explicar la convivencia en el tiempo de la recuperación de una parte sustancial de los hogares más afectados por la crisis, con el empeoramiento y cronificación de los hogares más excluidos. Esta doble tendencia escapa a los análisis de la evolución de los grandes indicadores como el desempleo o la pobreza y obliga a un estudio en profundidad de los procesos de desigualdad que se originan tanto en el mercado laboral como el resto de esferas de participación en la vida social.\n\nSe analiza el desigual impacto de la exclusión social. En el VII Informe FOESSA en el año 2014 ya se evidenció que la crisis no afectaba a “todos por igual” impactando de manera más intensa a los hogares más débiles. En la etapa actual también comprobamos que la recuperación tampoco ha ofrecido oportunidades a todos los grupos por igual. Las personas más cualificadas, con mayor capital social, son las que han accedido al nuevo empleo creado. Entre la exclusión social, quiénes menos problemas acumulaban antes han superado su situación, mientras que algunos tipos de hogar que acumulaban más desventajas han empeorado. Entre ellos destaca por su gravedad la situación de las familias jóvenes con menores.\n\nY por último trata de avanzar en el conocimiento de las causas de la exclusión y los procesos de desigualdad social que se producen en cada ámbito de participación social.\n\nSe recupera la integración plena y se enquista la exclusión severa\n\nEntre 2008 y 2013 se produjo en España un intenso y duradero proceso de aumento de la fractura social. Tanto es así que en el año 2013 solamente un tercio de la población se encontraba en situaciones de integración plena. Las situaciones de exclusión social y de exclusión social severa llegaron a niveles de alarma: 5 millones de personas, más de una de cada diez, se encontraban en situaciones de exclusión social severa.\n\nDesde 2013, se ha producido un aumento del número de hogares en situación de integración social plena. Es decir, una parte de la vulnerabilidad generada por la crisis ha sido revertida en la recuperación. El 49% de los hogares españoles se encuentran en situación de integración, lo que supone una cifra 12 puntos superior a la de 2013.\n\nJunto con el proceso de mejora de una parte de los hogares vulnerables, se detecta la persistencia de las dificultades de los que peor se encontraban en 2013. La exclusión severa sigue afectando a un 9% de la población, cifra similar a la de 2013 y superior a la de 2007. Esta situación pone de manifiesto un fenómeno grave y es que la recuperación no ha llegado a los hogares que peor estaban, pudiendo hablar de enquistamiento de la exclusión severa generada por la crisis.\n\nHoy 8,5 millones de personas se encuentran en exclusión social, de las cuales 4,1 millones lo están en la exclusión más severa, 1,3 millones más que antes de la crisis (aun descontando el efecto del aumento de la población estaríamos en 1,1millones), esta es la factura que todavía estamos pagando a pesar de la recuperación económica.\n\nSe consolida el eje sur-mediterráneo en la exclusión social\n\nEl estudio de los procesos de exclusión permite identificar los procesos de desigualdad social que los originan. Entre estos procesos están las diferencias de clase social, pero también otras desigualdades profundamente enraizadas en nuestra sociedad, como la desigualdad de género, la discriminación étnica, la desventaja de las personas con discapacidad y las diferencias de oportunidades de los territorios.\n\nDe hecho, en esta fase de recuperación la diversidad territorial de la exclusión nos lleva a enfatizar la importancia de los distintos modelos de integración que coexisten en nuestro país. Y la fuerte diversidad territorial en la que se registran distintas capacidades de desarrollo económico y social.\n\nLa distribución territorial de la exclusión ofrece algunas variaciones en relación al tradicional eje norte-sur de la exclusión social en nuestro país. Esta nueva configuración territorial de la exclusión que supera el eje latitudinal norte-sur, incorporando el eje longitudinal oeste-este ya se detectó en el año 2013, aunque la excepcionalidad de la situación de crisis no permitió añadir este hecho como una característica de la mirada territorial. Sin embargo, 5 años después, el modelo de salida de la crisis afecta de forma particular a las dimensiones de la exclusión social, haciendo que algunas CC.AA presenten una imagen matizada de los análisis exclusivamente basados en la pobreza monetaria. El Eje Sur se extiende hacia el mediterráneo incorporando a Cataluña e Islas Baleares a las comunidades donde la exclusión social es más elevada. Sin embargo, Castilla-La Mancha, una comunidad autónoma tradicionalmente alineada en el eje sur se ubica ahora más cerca de una situación intermedia. Este impacto diferencial en función del territorio es uno de los aspectos que la Fundación FOESSA ha estudiado más a fondo a través de los informes de cada una de las CC.AA que ha realizado en el ámbito del proyecto de este VIII Informe sobre Exclusión y Desarrollo Social[1].\n\n[1] Estos informes pueden consultarse en la serie “Exclusión y desarrollo social en las Comunidades Autónomas” publicada de forma simultánea a este VIII Informe.\n\nCuanto más se concentra la exclusión social mayor es la desigualdad\n\nUno de los rasgos más característicos de los cambios sociales recientes es el crecimiento de la desigualdad. Distintos informes han revelado el crecimiento de las diferencias de renta entre los hogares e individuos de los países ricos. Las formas en que la desigualdad se manifiesta en la estructura social no se ciñen, sin embargo, a una única dimensión, en este caso la monetaria. Igual que el bienestar individual no puede circunscribirse a los logros y límites en el ámbito económico, la desigualdad afecta a parcelas muy variadas, tomando forma a través de varios canales. EL VIII Informe FOESSA contiene una propuesta metodológica de análisis multidimensional de las desigualdades que va más allá del tradicional estudio de las diferencias de renta e incorpora al análisis otros ejes de desigualdad en relación con el empleo, la salud, la discapacidad, la educación, la vivienda, las redes sociales, la participación o el género.\n\nEl análisis de la desigualdad multidimensional desde la perspectiva de la exclusión social en España, concluye que la exclusión en el consumo, en la educación, el conflicto social y el aislamiento social son las dimensiones más significativas para explicar la desigualdad multidimensional. La segmentación de la población estudiada según diferentes características socioeconómicas también ha permitido descubrir elementos específicos de la desigualdad en cada dimensión, como la relación entre la edad de la persona principal del hogar y las dimensiones de consumo, política, vivienda y conflicto social, o la relación entre la desigualdad en distintos ámbitos y el nivel de estudios del sustentador principal. El enfoque multidimensional de la desigualdad en el riesgo de exclusión social ha permitido también descomponer los efectos intra e inter-territoriales, revelando que el componente interno (características de los individuos) explica mucho más las disparidades regionales que las características propias de cada región.\n\nEl cruce entre la pobreza y la exclusión social desvela a un grupo de población muy relevante que no es pobre pero está excluida\n\nAunque no existe una correlación perfecta, las dificultades que impone una renta insuficiente para dar cobertura a las necesidades básicas del hogar suelen ser la puerta de entrada a manifestaciones más extremas de la exclusión social. Los datos permiten refutar el estereotipo habitual que relaciona linealmente los cambios de ciclo económico con las fluctuaciones de los principales indicadores de pobreza. Especialmente preocupante es la evolución de las formas más severas de pobreza, al reflejar los datos disponibles tanto su drástico crecimiento durante la crisis como la resistencia a la baja pese a la reactivación del mercado de trabajo.\n\nEl análisis de los cambios en el tiempo de los perfiles socioeconómicos de la pobreza permite identificar también algunos de sus nuevos rasgos estructurales. Mientras que una de las principales transformaciones es la mejora registrada por las personas mayores, dos cambios en sentido contrario han sido el empeoramiento de los hogares con niños, muy visible cuando los indicadores monetarios se cruzan con los de privación material, y la creciente pérdida del papel de la educación superior como seguro contra la pobreza. La mayor extensión de la pobreza en España se visibiliza especialmente en el caso de los menores de edad –un 40% mayor que en el promedio de la UE– y en los trabajadores de bajos salarios. Los altos niveles de precariedad laboral y la insuficiencia de las remuneraciones y de las horas trabajadas han agravado un problema que ya antes de la crisis era comparativamente peor que en la gran mayoría de países europeos. A ello no resulta ajena la menor capacidad del sistema de prestaciones monetarias para reducir la incidencia de la pobreza. Tanto las tendencias dibujadas como los perfiles de riesgo exigen una mayor inversión de recursos en políticas redistributivas.\n\nSi el análisis en términos de pobreza monetaria nos aporta una imagen complementaria a la que habitualmente se utiliza en términos de los procesos de exclusión social, la asociación entre ambos conceptos es importante, como nos revela el análisis a través de la EINSFOESSA, que establece que el 56% de las personas en situación de exclusión están además en situación de pobreza monetaria, mientras que el 44% de las personas en situación de exclusión no serían pobres desde el punto de vista monetario. A la inversa, el 12,7% de la población que no está en situación de exclusión social es, sin embargo, pobre desde el punto de vista monetario.\n\nEn otros términos, el 63,3% de la población española no se encuentra ni en situación de pobreza monetaria ni en situación de exclusión social, con lo que podríamos hablar de integración sin pobreza. El 9,3% se encuentra en ambas situaciones (exclusión con pobreza), el 9,2% en situación de pobreza, pero no de exclusión (pobreza integrada) y el 7,3% en situación de exclusión, pero no de pobreza (exclusión sin pobreza).\n\nLa mejora del mercado de trabajo es a costa de los trabajadores pobres\n\nUna parte importante de los problemas de exclusión sigue teniendo su origen en las debilidades del mercado de trabajo. Aunque los indicadores de concentración del desempleo en los hogares han mejorado respecto a 2013, siguen manteniéndose en niveles superiores a los de antes de la crisis.\n\nEl desempleo es una realidad persistente y menos protegida. A pesar de la reducción del desempleo, las tasas actuales (15%) son todavía muy elevadas y casi duplican las tasas de paro que se registraban en el periodo previo a la crisis (7,9% en 2007). Las prestaciones por desempleo no han conseguido adaptarse a las nuevas realidades del mercado de trabajo, vinculadas a la extensión de la precariedad y de la inestabilidad laboral. Las trayectorias largas de cotización derivan en una mejor protección por desempleo, mientras que las personas que tienen itinerarios con entradas y salidas del empleo tienen una mayor probabilidad de experimentar desprotección.\n\nLa precariedad del empleo genera exclusión social. El nuevo empleo creado es más desigual que el destruido. Los nuevos mercados, con un fuerte peso de servicios a empresas y a las personas, generan, por un lado, un tipo de empleo muy cualificado, bien retribuido y altamente competitivo, y, por otro, una amplia oferta de empleo inestable, de escasa retribución y cualificación. Esta zona precaria del mercado laboral es de la que entra y sale una parte sustancial de la fuerza laboral en España. La alta temporalidad del empleo, la insuficiencia del número de horas trabajadas y el creciente fenómeno de los itinerarios cíclicos, en los que periodos cortos de empleo se combinan con otros de desempleo, están limitando las posibilidades de integración de muchos colectivos. La mejora general en los indicadores generales de empleo no debe esconder la ausencia de cambios estructurales en el modelo productivo y en las características del mercado de trabajo. Se han intensificado algunos de los rasgos negativos que contribuyen al aumento de la precariedad laboral. Una parte importante de los contratos que se firman corresponden a empleos de baja calidad, persisten altas tasas de sobrecualificación, la eventualidad sigue generando gran inestabilidad en las rentas y en las pautas de gasto de las familias y se están consolidando trabajos que alejan a quienes los llevan a cabo de las situaciones de integración plena. Los hogares en situación de exclusión social se emplean en mayor medida en empleos precarios, temporales y no cualificados y esta situación de clara desventaja afecta, sobre todo, a los hogares encabezados por mujeres, jóvenes, los hogares monoparentales y los trabajadores con bajo nivel de cualificación. Resulta especialmente preocupante que las situaciones de exclusión del empleo se relacionan con una peor situación en ámbitos como la educación, la salud o la vivienda.\n\nLos altos niveles de precariedad laboral y la insuficiencia de las remuneraciones y de las horas trabajadas han agravado un problema que ya antes de la crisis era comparativamente peor que en la gran mayoría de países europeos, el de los trabajadores pobres, que afecta al 14% de las personas ocupadas en nuestro país. La vulnerabilidad se encuentra cada vez más presente en el espacio de aquellas personas y hogares que están trabajando, por lo que contar con un empleo ha dejado de ser sinónimo de integración y bienestar. Así pues, el 12% de la población que está trabajando se encuentra en situación de exclusión social.\n\nLa combinación de precios altos en el acceso a la vivienda y los empleos precarios y de bajas salarios es una característica clave de la exclusión en España\n\nLos problemas de exclusión residencial han vuelto a niveles previos a la crisis, si bien no se ha reducido la presión económica de los hogares más vulnerables, entre los que se encuentran principalmente aquellos que viven en alquiler, como son los jóvenes, los inmigrantes y, en gran medida, las familias monoparentales.\n\nEl haber tenido acceso a la compra de una vivienda marca la diferencia en términos de exclusión social. Existe una estrecha relación entre el acceso en propiedad a la vivienda y la exclusión social, reduciéndose el riesgo de exclusión social hasta tres veces entre los propietarios frente a los arrendatarios. El mantenimiento de precios elevados de alquiler y compra de vivienda mantiene la brecha entre los hogares que accedieron a la propiedad y quienes nunca lo han hecho.\n\nA pesar de que la salida de la crisis ha venido acompañada de una reducción de los niveles de exclusión residencial, la realidad de 1 de cada 10 hogares es de extrema dificultad para afrontar el coste de la vivienda, por encontrarse con una carga excesiva en los gastos de la vivienda. Las dificultades para cubrir los costes de la vivienda afectan, sobre todo, a los hogares en alquiler y a los hogares con dificultad para el pago de suministros.\n\nLa naturaleza del mercado de la vivienda en España es una realidad que nos distingue negativamente del resto de Europa, con una combinación perversa de precios altos en el alquiler y la compra de vivienda, y unos ingresos bajos por el empleo precario. Este doble fenómeno describe una parte sustancial de los procesos de desigualdad en España que afectan a una parte importante de la población joven, muchos de ellos con niños, a población extranjera y en sus manifestaciones más duras a la población en situación de exclusión.\n\nLa inseguridad y la inadecuación de la vivienda demuestran una importante fragilidad residencial. La inseguridad en la vivienda provoca (tenencia en precario, amenaza de expulsión de la vivienda, situaciones de maltrato) una inestabilidad vital importante, asociada a la incertidumbre sobre si se podrá seguir residiendo en dicha vivienda en el corto o medio plazo, y afecta al 4% de los hogares. La inadecuación de la vivienda (deficiencias constructivas, falta de suministros, hacinamiento y barreras arquitectónicas) provoca una situación de falta de confort y de condiciones adecuadas para residir, y afecta al 7% de los hogares.\n\nLa relación entre salud y exclusión es bidireccional\n\nEl gradiente social en los procesos relacionados con la salud implica que ésta es a la vez consecuencia y origen de las diferencias en función de los ingresos, el nivel educativo y la exclusión social. La vinculación entre salud y exclusión es estrecha y bidireccional. Gran parte de la desigualdad en el ámbito sanitario se relaciona con el acceso a prestaciones básicas que no están cubiertas o lo están muy precariamente por el sistema público de salud, como la atención odontológica, la atención óptica, el acceso a las ayudas técnicas, los recursos protésicos y la salud mental, fundamentalmente. La dificultad para acceder a medicamentos, a los servicios socio sanitarios y a un régimen adecuado de alimentación son indicadores que, de manera casi necesaria, se asocian con un deterioro en la salud. Pero en el otro sentido, ciertas situaciones de exclusión pueden tener su origen en problemas de salud y con la aparición y desarrollo de determinadas enfermedades, situaciones que pueden incrementar el riesgo de aislamiento y exclusión social en los individuos que forman parte de un hogar en el cual surgen y persisten cargas asociadas al cuidado de personas enfermas o con algún tipo de discapacidad.\n\nLa exclusión social tiende a duplicarse en las personas con discapacidad. Mientras que no parece haber un gran diferencial en el riesgo de pobreza motivado por la discapacidad, la exclusión social es claramente más elevada entre este colectivo que en el resto de la población. El 30% de las personas con discapacidad se encuentran en situación de exclusión social y un 16% en exclusión social severa, el doble que las personas sin discapacidad.\n\nLas estrategias familiares se mantienen frente a la inadaptación de las políticas sociales\n\nAl inicio de la crisis, las redes familiares y de amistad o solidaridad tuvieron un papel amortiguador que frenó algunas situaciones de pobreza. La prolongación y la severidad de la recesión dejaron a las familias fuertemente sobrecargadas, dándose un progresivo proceso de pérdida de capacidad de ayuda entre las redes de apoyo social. Casi diez años de crisis económica han dejado fuertes cicatrices en los hogares. Las necesidades de las familias siguen siendo muy grandes, sobre todo, en los ámbitos de la alimentación, la salud y el ocio. Como resultado, siguen recurriendo a estrategias de ajuste de los gastos o a la solicitud de ayuda a instituciones o a sus relaciones sociales.\n\nLas estrategias de ajuste de gasto siguen siendo las más importantes. Suponen algunas privaciones importantes, pero, en general, tienen menores implicaciones familiares en el corto plazo, aunque quizá sí en términos de aislamiento en el medio y largo plazo. Se mantiene el ajuste en ocio en un porcentaje importante (37%). Por otro lado, el 18% de los hogares necesitan pedir ayuda económica a familiares y amigos. Por último, casi el 8% de los hogares necesita apoyo de instituciones. El desarrollo de estrategias, en términos generales, muestra una mejoría importante con respecto a 2013, sobre todo en lo que respecta a aquellas vinculadas a reducción de gastos y ajuste de presupuestos, pero la mejora es limitada en la necesidad de pedir apoyos externos. El volumen de hogares que necesita ayuda de amigos o instituciones pone de manifiesto la crudeza que todavía se vive en algunas familias. El riesgo de sobrecarga de las redes sociales es también un indicador de vulnerabilidad importante.\n\nAlgunas de las situaciones de deterioro más reseñables se relacionan con el aumento de la obesidad en las familias más desfavorecidas, la presencia de trastornos mentales en los hogares excluidos o el consumo de drogas o alcohol en las familias afectadas por el desempleo, entre otras. Del mismo modo, la pérdida de relaciones sociales se ha convertido en una realidad cada vez más generalizada desde la crisis y afecta especialmente a los hogares en situación de exclusión. Las dificultades económicas han puesto también de manifiesto los límites de los sistemas de garantía de rentas, con una proporción muy amplia de hogares precarios que han agotado la prestación, les ha sido denegada o están en espera de resolución.\n\nLa participación política se reduce en el espacio de la exclusión… pero a las instituciones de la democracia no parece importarles su voto\n\nUna de las dimensiones menos conocidas de la exclusión social es cómo afecta su extensión a los procesos de participación social y, especialmente, a la participación política. Se constata un estrecho vínculo entre las desigualdades interurbanas y la segregación electoral, con una brecha muy amplia en las ciudades más desiguales entre las áreas ricas, con elevada participación electoral, y las más pobres, con la mayor abstención. Dándose una clara conexión entre la variación en los tramos intermedios de renta y los cambios en la participación electoral, que desciende a medida que los barrios se van empobreciendo. Existe un problema en la representación de los colectivos más frágiles de la sociedad, cuya voz desaparece cada vez más de los procesos electorales.\n\nLa mayoría de las democracias occidentales tienen como rasgo común que los pobres participan menos que los ricos, que los excluidos participan menos que los integrados. Prácticamente nadie incluido en el espacio de integración reconoce no votar nunca, mientras que en los espacios de exclusión hasta un 18% y un 22% reconoce no hacerlo. Las urnas se llenan de votos procedentes de las zonas integradas de las ciudades, donde un 74% vota siempre. La abstención extrema se concentra en los suburbios de las ciudades y en España existen barrios donde el 75% de los habitantes no votan.\n\nPor tanto, las personas con bajos ingresos y en exclusión participan menos en los procesos electorales, registrándose una alta abstención en los barrios más desfavorecidos, y constituyendo un precariado político que se abstiene de participar en los canales tradicionales de representación\n\nLa voz de los colectivos más frágiles de la sociedad, desaparece cada vez más de los procesos electorales, cuestionando la calidad de una democracia representativa, asociada a su sensibilidad para recoger las demandas de todos los ciudadanos e introducirlas en la toma de decisiones políticas.\n\nDesigualdades de género y exclusión social\n\nLas desigualdades de género siguen manifestándose en varias esferas –como en el mercado laboral, el riesgo de pobreza, la vivienda, la salud o la participación y las relaciones sociales. La aparente reducción de las desigualdades en el empleo en los años más duros de la crisis –sin, por otra parte, llegar a desaparecer– no fue fruto de modificaciones estructurales en las relaciones de género sino el efecto coyuntural de una recesión que, en un primer momento, impactó con más fuerza en las profesiones masculinizadas.\n\nLas mujeres no solamente participan en menor medida que los hombres en el mercado de trabajo, sino que tienden a hacerlo en condiciones de desigualdad con referencia tanto al tiempo dedicado al empleo como a los ingresos que éste genera. La brecha salarial de género, de hecho, sigue aumentando conforme disminuye el nivel de la ocupación, lo que obliga a tener en cuenta la dificultad de pensar las desigualdades de género al margen de las socioeconómicas.\n\nEl hecho de que la participación de las mujeres en el mercado laboral no tenga lugar en condiciones de igualdad con respecto a los hombres no impacta únicamente en los ingresos que el empleo genera, sino también al acceso y cuantía de las prestaciones para el desempleo y las pensiones contributivas.\n\nEstas desigualdades en el ámbito laboral son la puerta de entrada a otras en diferentes dimensiones, como revela el mayor riesgo de empobrecimiento de las mujeres, su acceso más precario a la vivienda, las diferencias en el estado de salud y la mayor exposición a situaciones de aislamiento social.\n\nPara comprender las claves del carácter estructural de la exclusión se necesita de un nuevo paso, que centre nuestra mirada en las respuestas que como sociedad se están ofreciendo. Respuestas que se concretan en políticas sociales que se abordan en el cuarto capítulo de este VIII Informe FOESSA.",
+                                        "metadata": {
+                                            "url": "https://www.foessa.es/capitulos/capitulo3/",
+                                            "source": "www.foessa.es",
+                                            "favicon": "https://www.foessa.es/main-files/themes/foessa/static/img/favicon/apple-icon-180x180.png",
+                                            "title": "3. La evolución de la exclusión en España",
+                                            "type": "web_search",
+                                            "base_url": "https://www.foessa.es",
+                                            "snippet": "La prolongación y la severidad de la recesión dejaron a las familias fuertemente sobrecargadas, dándose un progresivo proceso de pérdida de capacidad de ayuda ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.3727502999990975,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.3727502999990975,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:42",
+                    "run_time": 3.3727502999990975,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "<?>¿Qué son los datos actuales sobre la tasa de pobreza y exclusión en familias monoparentales en comparación con otras categorías de familias?<?>": [
+                                {
+                                    ", con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas. Más de la mitad de la población migrante extracomunitaria se encuentra en riesgo de pobreza o exclusión social.": null
+                                },
+                                {
+                                    "Como se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).": null
+                                },
+                                {
+                                    "Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.": null
+                                }
+                            ],
+                            "<?>¿Qué estudios o informes destacan la relación entre las familias monoparentales y la pobreza en diferentes países o regiones?<?>": [
+                                {
+                                    "Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.": null
+                                },
+                                {
+                                    "La ONG “Save the children” alertaba en su informe “Más solas que nunca”, lanzado el pasado julio, de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, ya que el cuidado de los hijos y la falta de medidas de conciliación les impide optar a empleos con mayores jornadas e ingresos.": null
+                                },
+                                {
+                                    "Como se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).": null
+                                }
+                            ],
+                            "<?>¿Qué opinan los expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales?<?>": [
+                                {
+                                    "Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.": null
+                                },
+                                {
+                                    "La ONG “Save the children” alertaba en su informe “Más solas que nunca”, lanzado el pasado julio, de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, ya que el cuidado de los hijos y la falta de medidas de conciliación les impide optar a empleos con mayores jornadas e ingresos.": null
+                                },
+                                {
+                                    "La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, ha profundizado en la situación de los hogares monoparentales encabezados por una mujer, obteniéndose, en efecto, una conclusión: más de la mitad (56%) dispone de menos de 600 € al mes para sacar adelante a los suyos. En la misma línea, sólo un 16% de las encuestadas percibe más de 1.000 € mensuales.": null
+                                }
+                            ],
+                            "<?>¿Qué información contrasta con la afirmación de que las familias monoparentales están entre los colectivos con mayor riesgo de pobreza y exclusión?<?>": [
+                                {
+                                    ", con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas. Más de la mitad de la población migrante extracomunitaria se encuentra en riesgo de pobreza o exclusión social.": null
+                                },
+                                {
+                                    "Como se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).": null
+                                },
+                                {
+                                    "Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.": null
+                                }
+                            ],
+                            "<?>¿Cómo ha cambiado la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos años?<?>": [
+                                {
+                                    "Los problemas de exclusión residencial han vuelto a niveles previos a la crisis, si bien no se ha reducido la presión económica de los hogares más vulnerables, entre los que se encuentran principalmente aquellos que viven en alquiler, como son los jóvenes, los inmigrantes y, en gran medida, las familias monoparentales.": null
+                                },
+                                {
+                                    "Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.": null
+                                },
+                                {
+                                    "Como se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 9.150866045001749,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 9.150866045001749,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:54",
+                    "run_time": 9.150866045001749,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nLas familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n<?>¿Qué son los datos actuales sobre la tasa de pobreza y exclusión en familias monoparentales en comparación con otras categorías de familias?<?>\n<?>¿Qué estudios o informes destacan la relación entre las familias monoparentales y la pobreza en diferentes países o regiones?<?>\n<?>¿Qué opinan los expertos en políticas sociales y economía sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales?<?>\n<?>¿Qué información contrasta con la afirmación de que las familias monoparentales están entre los colectivos con mayor riesgo de pobreza y exclusión?<?>\n<?>¿Cómo ha cambiado la situación de las familias monoparentales en términos de pobreza y exclusión en los últimos años?<?>\n\n3. Here are the text sources you should use as your source of information:\n[0] , con 2,3 millones de niños, niñas y adolescentes pobres, lo que nos coloca a la cabeza de la Unión Europea. La tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales y de las familias numerosas. Más de la mitad de la población migrante extracomunitaria se encuentra en riesgo de pobreza o exclusión social.\n[1] Como se señalaba anteriormente, en EAPN-ES muestran especial preocupación por el riesgo de pobreza y/o exclusión social entre menores de 18 años, que alcanza ya a 2,8 millones de niños, niñas y adolescentes en nuestro país. Además, el Informe revela cómo la tasa AROPE es mayor en las familias con menores: 3 de cada 10 personas en hogares con menores se encuentran en riesgo de pobreza o exclusión social. Especialmente delicadas son las cifras de los hogares monoparentales (más de la mitad está en riesgo de pobreza y/o exclusión social, el 50,3 %), y de las familias numerosas (49,1 % en tasa AROPE).\n[2] Uno de los indicadores que se emplea para calcular esta tasa es los ingresos: percibir menos de 7.961 euros en hogares unipersonales o menos de 16.791 en unidades compuestas por una pareja y dos niños, se consideraría por debajo del umbral de la pobreza. Las familias «monomarentales» están especialmente expuestos a esta situación, debido a que, en numerosos casos, cuentan con los ingresos de un solo progenitor.\n[2] La ONG “Save the children” alertaba en su informe “Más solas que nunca”, lanzado el pasado julio, de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, ya que el cuidado de los hijos y la falta de medidas de conciliación les impide optar a empleos con mayores jornadas e ingresos.\n[2] La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, ha profundizado en la situación de los hogares monoparentales encabezados por una mujer, obteniéndose, en efecto, una conclusión: más de la mitad (56%) dispone de menos de 600 € al mes para sacar adelante a los suyos. En la misma línea, sólo un 16% de las encuestadas percibe más de 1.000 € mensuales.\n[3] Los problemas de exclusión residencial han vuelto a niveles previos a la crisis, si bien no se ha reducido la presión económica de los hogares más vulnerables, entre los que se encuentran principalmente aquellos que viven en alquiler, como son los jóvenes, los inmigrantes y, en gran medida, las familias monoparentales.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Análisis de la afirmación**\n\nLa afirmación \"Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\" puede ser analizada a partir de los siguientes puntos clave:\n\n**Soporte a la afirmación**\n\n* Según el informe [1], las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social. En concreto, se menciona que más de la mitad de esta categoría de familias se encuentra en riesgo de pobreza y/o exclusión social, lo que supone un 50,3 %.\n* El informe [2] destaca que las familias monoparentales están especialmente expuestas a la pobreza debido a que, en muchos casos, cuentan con los ingresos de un solo progenitor. Esto puede aumentar el riesgo de pobreza y exclusión.\n* La ONG \"Save the children\" alertaba en su informe \"Más solas que nunca\" de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, lo que les impide acceder a empleos con mayores jornadas e ingresos.\n* La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, revela que más de la mitad (56%) de las mujeres encabezadas por una familia monoparental dispone de menos de 600 € al mes para sacar adelante a los suyos.\n\n**Contraargumentos a la afirmación**\n\n* Aunque se menciona que las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.\n* No se menciona ningún estudio o informe que contradiga la relación entre las familias monoparentales y la pobreza en diferentes países o regiones.\n* Los expertos en políticas sociales y economía no se mencionan en los textos proporcionados para opinar sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales.\n\n**Conclusión**\n\nEn base a los textos proporcionados, podemos concluir que hay evidencia que sostiene la afirmación de que las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión. Sin embargo, también es cierto que no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias, ni se mencionan estudios o informes que contradigan la relación entre las familias monoparentales y la pobreza. Por lo tanto, la afirmación se considera **VERDADERA**, pero con la limitación de que no se dispone de información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.561023156000374,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.561023156000374,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 13:53:55",
+                    "run_time": 1.561023156000374,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\" puede ser analizada a partir de los siguientes puntos clave:\n\n**Soporte a la afirmación**\n\n* Según el informe [1], las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social. En concreto, se menciona que más de la mitad de esta categoría de familias se encuentra en riesgo de pobreza y/o exclusión social, lo que supone un 50,3 %.\n* El informe [2] destaca que las familias monoparentales están especialmente expuestas a la pobreza debido a que, en muchos casos, cuentan con los ingresos de un solo progenitor. Esto puede aumentar el riesgo de pobreza y exclusión.\n* La ONG \"Save the children\" alertaba en su informe \"Más solas que nunca\" de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, lo que les impide acceder a empleos con mayores jornadas e ingresos.\n* La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, revela que más de la mitad (56%) de las mujeres encabezadas por una familia monoparental dispone de menos de 600 € al mes para sacar adelante a los suyos.\n\n**Contraargumentos a la afirmación**\n\n* Aunque se menciona que las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.\n* No se menciona ningún estudio o informe que contradiga la relación entre las familias monoparentales y la pobreza en diferentes países o regiones.\n* Los expertos en políticas sociales y economía no se mencionan en los textos proporcionados para opinar sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales.\n\n**Conclusión**\n\nEn base a los textos proporcionados, podemos concluir que hay evidencia que sostiene la afirmación de que las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión. Sin embargo, también es cierto que no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias, ni se mencionan estudios o informes que contradigan la relación entre las familias monoparentales y la pobreza. Por lo tanto, la afirmación se considera **VERDADERA**, pero con la limitación de que no se dispone de información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\nArticle: **Análisis de la afirmación**\n\nLa afirmación \"Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\" puede ser analizada a partir de los siguientes puntos clave:\n\n**Soporte a la afirmación**\n\n* Según el informe [1], las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social. En concreto, se menciona que más de la mitad de esta categoría de familias se encuentra en riesgo de pobreza y/o exclusión social, lo que supone un 50,3 %.\n* El informe [2] destaca que las familias monoparentales están especialmente expuestas a la pobreza debido a que, en muchos casos, cuentan con los ingresos de un solo progenitor. Esto puede aumentar el riesgo de pobreza y exclusión.\n* La ONG \"Save the children\" alertaba en su informe \"Más solas que nunca\" de que el 52 por ciento de las mujeres al frente de una familia monoparental se encuentran excluidas del mercado laboral o trabajan en condiciones de precariedad, lo que les impide acceder a empleos con mayores jornadas e ingresos.\n* La encuesta Mujeres con Responsabilidades Famliares no compartidas, de la Fundación Adecco, revela que más de la mitad (56%) de las mujeres encabezadas por una familia monoparental dispone de menos de 600 € al mes para sacar adelante a los suyos.\n\n**Contraargumentos a la afirmación**\n\n* Aunque se menciona que las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias.\n* No se menciona ningún estudio o informe que contradiga la relación entre las familias monoparentales y la pobreza en diferentes países o regiones.\n* Los expertos en políticas sociales y economía no se mencionan en los textos proporcionados para opinar sobre el impacto de la falta de un segundo progenitor en la situación de las familias monoparentales.\n\n**Conclusión**\n\nEn base a los textos proporcionados, podemos concluir que hay evidencia que sostiene la afirmación de que las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión. Sin embargo, también es cierto que no se proporciona información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias, ni se mencionan estudios o informes que contradigan la relación entre las familias monoparentales y la pobreza. Por lo tanto, la afirmación se considera **VERDADERA**, pero con la limitación de que no se dispone de información sobre la tasa de pobreza y exclusión en comparación con otras categorías de familias."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Las familias monoparentales figuran entre los colectivos con mayor riesgo de pobreza y exclusión\", \"categories\": [\"Economía\", \"Sociedad\", \"Política\"], \"label\": \"True\", \"main_claim\": \"Las familias monoparentales están entre los colectivos más vulnerables a la pobreza y la exclusión social, aunque falta información sobre la tasa de pobreza en comparación con otras categorías de familias\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

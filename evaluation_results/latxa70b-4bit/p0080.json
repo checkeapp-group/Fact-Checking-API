@@ -1,0 +1,654 @@
+{
+    "question": "España es el país de Europa donde el recibo de la luz es más barato",
+    "answer": "Según los datos proporcionados por Eurostat, España tiene un precio de electricidad relativamente bajo en comparación con otros países europeos. En la segunda mitad de 2024, el precio medio de la electricidad en España fue de 26,84 euros por 100 kWh, lo que se encuentra por debajo de la media de la UE (28,72 euros por 100 kWh) [1]. Además, en el primer semestre de 2025, el precio de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas (111 €/MWh) [2]. Estos datos sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos.\n\nSin embargo, también hay evidencia que contradice la afirmación de que España es el país de Europa donde el recibo de la luz es más barato. Según los datos de Eurostat, Hungría, Bulgaria y Malta tienen precios de electricidad más bajos que España [1]. En el primer semestre de 2025, el precio de la electricidad en Hungría fue de 10,40 euros por 100 kWh, en Bulgaria fue de 13 euros por 100 kWh y en Malta fue de 12,44 euros por 100 kWh [3]. Estos datos sugieren que España no es el país de Europa donde el recibo de la luz es más barato.\n\nEn base a la evidencia proporcionada, no se puede afirmar categóricamente que España es el país de Europa donde el recibo de la luz es más barato. Si bien los datos de Eurostat sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos, también hay evidencia que muestra que otros países como Hungría, Bulgaria y Malta tienen precios de electricidad más bajos. Por lo tanto, la afirmación es **falsa**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.elboletin.com/la-factura-de-la-luz-estos-son-los-precios-de-la-electricidad-para-los-hogares-de-la-ue/",
+            "source": "www.elboletin.com",
+            "favicon": "https://www.elboletin.com/wp-content/uploads/2021/02/cropped-favi-32x32.png"
+        },
+        "2": {
+            "url": "https://www.energias-renovables.com/panorama/el-precio-de-la-electricidad-en-espa-20251002",
+            "source": "www.energias-renovables.com",
+            "favicon": "https://www.energias-renovables.com/favicon.ico"
+        },
+        "3": {
+            "url": "https://www.smartgridsinfo.es/2025/10/31/primer-semestre-2025-registra-precios-electricidad-estables-hogares-ue",
+            "source": "www.smartgridsinfo.es",
+            "favicon": "https://static.smartgridsinfo.es/media/2016/08/cropped-smartgridsinfo-logo-color-512-512-75x75.png"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "España es el país de Europa donde el recibo de la luz es más barato",
+        "categories": [
+            "Noticias",
+            "Economía",
+            "Europa"
+        ],
+        "label": "Fake",
+        "main_claim": "España no es el país de Europa donde el recibo de la luz es más barato",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa70B",
+                "gen_searches_agent": "Latxa70B",
+                "web_search_provider": "serper",
+                "embedding": "gemini-embedding-001",
+                "question_agent": "Latxa70B",
+                "article_writer": "Latxa70B",
+                "metadata_agent": "Latxa70B",
+                "image_prompt": "Latxa70B",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 17.998699186999147,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 17.998699186999147,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:59:01",
+                    "run_time": 17.998699186999147,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nEspaña es el país de Europa donde el recibo de la luz es más barato\n\n**Critical Research Questions:**\n1. ¿Cuál es el precio promedio del kilovatio-hora (kWh) de electricidad en España en 2025?\n2. ¿Cómo se compara el precio de la electricidad en España con el de otros países europeos como Alemania, Francia o Italia?\n3. ¿Qué dicen los expertos en energía y economía sobre la situación de los precios de la electricidad en España?\n4. ¿Qué evidencia hay de que los precios de la electricidad en España sean más bajos que en otros países europeos?\n5. ¿Cuáles son las razones detrás de los precios de la electricidad en España y cómo se comparan con otros países europeos?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"precio kilovatio-hora electricidad España 2025 datos oficiales gobierno\", \"comparativa precios electricidad España Alemania Francia Italia 2025 datos europeos\", \"análisis expertos energía economía precios electricidad España 2025 estudios investigación\", \"ranking países europeos precios electricidad más bajos 2025 fuente oficial\", \"factores que influyen en los precios de la electricidad en España vs otros países europeos 2025 análisis comparativo\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 21.2054252300004,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 21.2054252300004,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:59:24",
+                    "run_time": 21.2054252300004,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "precio kilovatio-hora electricidad España 2025 datos oficiales gobierno",
+                                "comparativa precios electricidad España Alemania Francia Italia 2025 datos europeos",
+                                "análisis expertos energía economía precios electricidad España 2025 estudios investigación",
+                                "ranking países europeos precios electricidad más bajos 2025 fuente oficial",
+                                "factores que influyen en los precios de la electricidad en España vs otros países europeos 2025 análisis comparativo"
+                            ],
+                            "results": {
+                                "precio kilovatio-hora electricidad España 2025 datos oficiales gobierno | comparativa precios electricidad España Alemania Francia Italia 2025 datos europeos | análisis expertos energía economía precios electricidad España 2025 estudios investigación | ranking países europeos precios electricidad más bajos 2025 fuente oficial | factores que influyen en los precios de la electricidad en España vs otros países europeos 2025 análisis comparativo": [
+                                    {
+                                        "text": "Análisis diario del precio de la luz\n\nPrecio del kWh en el mercado libre\n\nLas compañías de luz más baratas del mercado libre fijan sus propios precios, los cuales variarán en función del tipo de tarifa (precio fijo o discriminación horaria con P1, P2 y P3 en electricidad) y la potencia eléctrica de luz. A diferencia de las ofertas reguladas, estas pueden ofrecer descuentos y ofertas que incentiven la contratación.\n\nA continuación, se muestran las mejores tarifas de luz de los grandes grupos energéticos de España.\n\nPrecio del kWh de Endesa\n\nEl precio del kWh de Endesa cambia de una tarifa a otra, siendo la oferta más económica la Tarifa One Luz. Esta es una tarifa de precio estable que se posiciona como una de las ofertas más competitivas del mercado eléctrico.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nEntre el resto de tarifas de Endesa, la compañía ofrece también la Tarifa One Luz 3 Períodos, una oferta de discriminación horaria con 3 precios del kWh: punta, llano y valle.\n\nLa franja valle es la más económica, mientras que el periodo punta es el más caro de todos, de acuerdo a los tramos horarios de la luz.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\nPrecio del kWh de Iberdrola\n\nEl precio del kWh de Iberdrola también varía en función de la oferta contratada. Esta compañía ofrece tarifas de precio estable y de discriminación horaria, como el Plan Estable y el Plan Online 3 Periodos respectivamente .\n\nPrecios del Plan Estable de Iberdrola Estimación Término de Potencia Término de Consumo 65,78 €/mes P1: 0,1082 €/kW día\n\nP2: 0,0465 €/kW día Fijo: 0,1749 €/kWh\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nPrecios del Plan Online 3 Periodos de Iberdrola Estimación Término de Potencia Término de Consumo 45,91 €/mes P1: 0,0863 €/kW día\n\nP2: 0,0130 €/kW día Punta: 0,1811 €/kWh\n\nValle: 0,0964 €/kWh\n\nLlano: 0,1284 €/kWh\n\n\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\nPrecio del kWh de TotalEnergies\n\nPara conocer cuánto cuesta el kWh de las tarifas de TotalEnergies, se muestran dos ofertas (de un solo precio y con tres precios): la Tarifa A Tu Aire Luz Siempre y la Tarifa A Tu Aire Luz Programa Tu Ahorro.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\nPrecio del kWh de Repsol\n\nDentro del amplio catálogo de las tarifas de luz de Repsol, destacan una de un solo precio, la Tarifa Ahorro Plus, y otra de discriminación horaria en tres precios, la Tarifa Discriminación Horaria.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\nPrecio del kWh de Naturgy\n\nEl precio del kWh de Naturgy en las tarifas de Naturgy es diferente en función de la tarifa contratada, con la Tarifa Por Uso Luz como opción de un solo precio, y la Tarifa Noche, de discriminación horaria en tres precios.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\nPrecio de la electricidad en otras comercializadoras del mercado libre\n\nAdemás de las 5 grandes compañías energéticas del mercado libre en España, te mostramos el precio del kWh de otras de las compañías de luz más rentables del mercado:\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual. Impuestos no incluidos.\n\nCálculos realizados con 4 kW de potencia y 270 kWh de consumo mensual (49% en valle, 26% en llano y 25% en punta). Impuestos no incluidos.\n\n¿Qué es el kWh de luz?\n\nEl kilovatio hora (kWh) es una unidad de medida que se utiliza para contabilizar el consumo de energía eléctrica durante un periodo de tiempo, permitiendo calcular cuánto debe pagar un usuario por la electricidad consumida.\n\nEn la factura, aparece la energía consumida (en kWh) y el precio de dicho kWh, que puede ser fijado por la comercializadora (en el mercado libre) o por el gobierno (en el mercado regulado). Multiplicando ambos valores obtenemos el importe que se paga a la compañía por la electricidad consumida.\n\nEnergía facturada = kWh consumidos * precio del kWh (€/kWh)\n\nAdemás, calcular el consumo de electricidad nos ayudará a conocer nuestros hábitos de consumo, permitiéndonos ser más eficientes y consiguiendo un importante ahorro en la factura.\n\nKilovatio hora (kWh) no es lo mismo que kilovatio (kW) El kWh hace referencia a la energía consumida, mientras que el kW determina la potencia contratada. El término de potencia se calcula multiplicando la potencia contratada por el precio fijo de dicho término.\n\n¿Por qué varía el precio de la luz?\n\nPara analizar cuál es la evolución del precio de la luz en el mercado energético de España, hay que entender que existen diferentes factores que pueden alterar el coste de la electricidad. Entre ellos:\n\nCrisis económicas.\n\nPandemias sanitarias.\n\nCondiciones climáticas.\n\nCambios de los tipos impositivos de la luz.\n\nIncremento de la demanda de electricidad y el consiguiente aumento de los costes de producción.\n\napp TarifaLuzHora: con alertas diarias a las 21:00 Descarga la app gratuita TarifaLuzHora\n\ny consulta el precio de la luz desde tu móvil Descargar app\n\nEstos factores, junto con otros como la geopolítica, el precio de las materias primas o las políticas energéticas, hacen que el precio de la luz varíe constantemente. Por eso, comprender su evolución es clave para tomar decisiones informadas y buscar el máximo ahorro posible.",
+                                        "metadata": {
+                                            "url": "https://tarifaluzhora.es/info/precio-kwh",
+                                            "source": "tarifaluzhora.es",
+                                            "favicon": "https://tarifaluzhora.es/sites/tarifaluzhora.es/files/tlh-icon.ico",
+                                            "title": "Precio kWh España a 01 Noviembre 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://tarifaluzhora.es",
+                                            "snippet": "El precio del kilovatio hora (kWh) medio en España HOY es de 0,1090 €/kWh, con la hora más barata de 12-13 con un precio de 0,0686 €/kWh. La hora más cara es de ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Si el año empezaba con la noticia de la subida del iba, ahora tras la caída de la Red Eléctrica en España y el apagón sufrido, la luz ha subido el miércoles 30 de abril hasta un 450 % superando los 30 € por megavatio.\n\nTienes que aceptarlo: las continuas subidas de la luz han dejado tus bolsillos tiritando. Ahora mismo lo último en lo que quieres pensar es en seguir gastando, ¿verdad?\n\nA pesar de todo, reducir tu factura de la luz es posible y, de hecho, es más fácil de lo que parece. Vamos a darte algunos consejos para hacer frente a esta tendencia y que la próxima subida de la luz no te pille desprevenido. Pero antes, te ponemos en contexto sobre el precio de la luz hoy. ¡Toma nota!\n\n¿Por qué ha subido el precio de la luz en España?\n\nEl último repunte del precio de la electricidad ha sido tan intenso que ha impulsado la mayor subida del IPC en más de un año. La luz se ha convertido en el principal motor de la inflación, encareciendo no solo tu factura, sino también el resto de la cesta de la compra.\n\nA este panorama se sumó el gran apagón del lunes 28 y martes 29 de abril, cuando la caída de la generación eléctrica en España provocó un auténtico terremoto en el mercado mayorista. ¿El resultado? Una subida inmediata de hasta un 450 %, superando los 30 € por megavatio.\n\nLo estamos viendo estos días: basta con una bajada en la generación o un problema puntual para que los precios se disparen. Otro motivo más para plantearse el autoconsumo y dejar de depender de los vaivenes del mercado eléctrico. Otro motivo más para pasarse al autoconsumo y depender menos de los vaivenes del mercado.\n\nHistórico de la subida de la luz en 2025\n\nEl año 2025 comenzaba con una noticia que impactará significativamente a los consumidores españoles: el aumento del IVA en la electricidad del 10 % al 21 %. Esta medida, junto con otros cambios fiscales y regulatorios, supondrá un incremento notable en los costes energéticos tanto para hogares como para empresas.\n\nLa subida del precio de la luz dispara el IPC\n\nComo si no fueran suficientes las subidas del IVA y los vaivenes del mercado eléctrico, el último repunte del precio de la luz ha impulsado la mayor subida del IPC en más de un año. Según los últimos datos, el encarecimiento de la electricidad se ha convertido en el principal motor de esta escalada de la inflación, afectando directamente a la cesta de la compra y al poder adquisitivo de los hogares. Esto demuestra, una vez más, que la volatilidad del mercado energético no solo impacta en tu factura de la luz, sino en el conjunto de la economía.\n\nPara los hogares\n\nIncremento en la factura mensual: Según estimaciones preliminares, el regreso del IVA al 21 % podría aumentar la factura eléctrica de un hogar promedio en un 10 %. Esto afectará especialmente a las familias con ingresos más bajos, para quienes la electricidad representa una proporción significativa de sus gastos mensuales. Reducción de ayudas: Entre enero y marzo de 2025, las bonificaciones para consumidores vulnerables se reducirán al 50 %, y al 65 % para los vulnerables severos. Estas cifras están por debajo de los niveles de apoyo ofrecidos en años anteriores, lo que agrava la situación para los colectivos más afectados.\n\nPara las empresas\n\nCostes operativos más altos: Las empresas, especialmente aquellas de sectores intensivos en energía, como la industria manufacturera o el comercio, se enfrentarán a mayores costes operativos. Esto podría traducirse en precios más altos para los consumidores finales y en una menor competitividad frente a mercados internacionales. Impacto en la inversión: El aumento de los costes energéticos puede disuadir a las empresas de realizar nuevas inversiones, especialmente en un contexto de incertidumbre económica global.\n\nAnte esta situación, es imprescindible trazar nuevas líneas de ahorro que ayuden a mitigar el impacto económico de estas subidas de precios. Explorar opciones de eficiencia energética y fuentes de energía renovable puede ser una medida inteligente para contrarrestar los costos crecientes.\n\n¡Pero tranquilo, tenemos una solución brillante! ¿Quién necesita malabares con las facturas cuando puedes tener placas solares que generan energía inagotable?\n\n¡Pásate al autoconsumo con la empresa de energía solar n.º 1!\n\n¿Por qué se está produciendo la subida de la luz?\n\n¿Por qué sube la luz? Admítelo, te has hecho esta pregunta unas cuantas veces a lo largo del año. El precio de la electricidad en España ha sido durante los últimos cuatro años un auténtico quebradero de cabeza para todo el mundo.\n\nEsta subida impactará directamente en las facturas de luz y gas. A partir de enero, se prevé que estas se incrementen significativamente, especialmente debido a la eliminación de ayudas fiscales y a la aplicación de un nuevo cálculo en la tarifa regulada. Este cambio en el escenario energético podría tener repercusiones en la planificación y presupuesto de muchos hogares y empresas.\n\nDesabastecimiento energético y conflicto en Europa\n\nEl conflicto entre Ucrania y Rusia, el mayor productor de gas a nivel mundial, juega un papel fundamental. De hecho, el inició de la guerra produjo un pico histórico en marzo, cuando se pagaron más de 440 €/MWh en el mercado mayorista.\n\nLa dependencia europea del gas ruso y las restricciones aplicadas a su exportación, ha obligado a España y a otros países europeos a buscar nuevos proveedores como Argelia o Francia, con precios mucho mayores.\n\nAlta dependencia del gas y los combustibles fósiles\n\nEl mercado energético español tiene una alta dependencia del carbón, el gas y el petróleo. El actual contexto geopolítico y las medidas restrictivas aplicadas por el Gobierno han encarecido estas materias primas.\n\nSubida del precio de los derechos de emisión de CO₂\n\nCon el objetivo de reducir a la mitad la dependencia de los combustibles fósiles, los derechos de emisión del CO2 han duplicado su precio provocando el aumento de los costes también en las plantas energéticas y, en definitiva, en el consumidor final.\n\n\n\nBaja producción renovable y mayor demanda en meses de invierno\n\nLa producción solar fotovoltaica disminuye mientras que la demanda eléctrica no para de aumentar mientras las temperaturas medias continúan descendiendo.\n\n¿Qué medidas ha tomado el Gobierno frente a esta subida?\n\nSube la luz y el impacto en el bolsillo del consumidor es innegable. Esta cuestión ha motivado al Gobierno a establecer una serie de medidas para, no frenar, sino más bien contener el ascenso meteórico en el precio de la luz en España.\n\n1. El decreto de la luz, en 2022 se aprobaba el RDL 18/2022 con el objetivo de proteger a los consumidores de energía de la escalada de los precios de la electricidad y el gas natural. Algunas de las medidas han sido:\n\nAplicar una rebaja del 5 % en el IVA de las facturas. *Actualización enero 2025: El Gobierno aumentaba el IVA actual del 10 % al 21 %.\n\ndel en el IVA de las facturas. Ampliar el bono social\n\nReducir los impuestos en la electricidad (costes de potencia y energía)\n\n2. La excepción ibérica, que fija un tope para el precio del gas que se usa para generar electricidad.\n\n3. Subvenciones para autoconsumo y energías renovables.\n\n¿Cuánto ha subido la luz en los últimos años?\n\nLa subida de la luz no deja de sorprendernos pero este dato te va a dejar flipando: El precio de la luz subió un 88% en 2022 en España.\n\nLa Guerra ruso-ucraniana marcaba el inicio de una subida imparable en el precio de la electricidad, condenándonos a sufrir una luz desbocada durante todo el 2022.\n\n.\n\nPara paliar el disparado precio MWh en España, el Gobierno adoptó una serie de medidas que hasta la fecha siguen siendo insuficientes. Porque aunque el comienzo de 2023 auguraba un año bastante relajado, parece que esto no ha sido del todo así.\n\nLa tormenta de noticias sobre la subida del precio de la luz también generó una gran preocupación en la entrada del paso 2024. Desde las alturas de los titulares, nos enterábamos de un cambio drástico en el precio de la electricidad a partir de enero, con un aumento de entre un 7,5 y un 12, 5 %. Esta situación respondía a factores como cambios en las políticas fiscales y en el cálculo de la tarifa regulada.\n\nTendencias en el precio de la electricidad en 2025\n\nUna de las estrategias de las grandes eléctricas de nuestro país ha sido ofrecer tarifas fijas para evitar las fluctuaciones entre tramos horarios.\n\nOtros muchos se resisten y continúan estableciendo horarios para aprovechar las horas valle y disfrutar de su energía a precios más bajos. Parece que es algo a lo que nos hemos acostumbrado pero, ¿por qué deberíamos?\n\nEl impacto del IVA en la subida de la luz de 2025\n\nLa factura de la luz para consumidores con potencias inferiores a 10 kW —prácticamente todos los hogares y muchas pymes— volverá a estar gravada con un IVA del 21 %.\n\nEl pasado 2023 la solución para lidiar con las continuas subidas de la luz fue aplicar una reducción del 5 % en el IVA de las facturas. A comienzos del 2024 aumentaba hasta un 10 % para finalmente volver a gravarse en un 21 % este mismo marzo. ¿Cómo repercute esta subida al consumidor? Pasar de un 5 % a un 21 % de IVA supone un encarecimiento notable mes a mes, que se percibirá aún mayor a final de año. ¡Pero con el autoconsumo esto te va a dar igual! Tu instalación de placas solares te independiza de las grandes eléctricas, blindándote también contra estas continuas subidas de la luz.\n\nPrecio de la luz hoy hora a hora\n\nLa subida de precio del gas en los mercados internacionales motiva la fluctuación del precio de la luz por horas:\n\n00:00 - 01:00 0.04516 €/kWh\n\n01:00 - 02:00 0.04483 €/kWh\n\n02:00 - 03:00 0.0451 €/kWh\n\n03:00 - 04:00 0.04541 €/kWh\n\n04:00 - 05:00 0.04546 €/kWh\n\n05:00 - 06:00 0.04455 €/kWh\n\n06:00 - 07:00 0.04566 €/kWh\n\n07:00 - 08:00 0.04638 €/kWh\n\n08:00 - 09:00 0.07215 €/kWh\n\n09:00 - 10:00 0.06793 €/kWh\n\n10:00 - 11:00 0.11743 €/kWh\n\n11:00 - 12:00 0.11708 €/kWh\n\n12:00 - 13:00 0.11679 €/kWh\n\n13:00 - 14:00 0.11659 €/kWh\n\n14:00 - 15:00 0.06728 €/kWh\n\n15:00 - 16:00 0.06772 €/kWh\n\n16:00 - 17:00 0.06896 €/kWh\n\n17:00 - 18:00 0.07017 €/kWh\n\n18:00 - 19:00 0.12478 €/kWh\n\n19:00 - 20:00 0.1972 €/kWh\n\n20:00 - 21:00 0.21765 €/kWh\n\n21:00 - 22:00 0.20499 €/kWh\n\n22:00 - 23:00 0.15505 €/kWh\n\n23:00 - 24:00 0.09476 €/kWh\n\n¿Cómo afecta la subida del precio de la luz a hogares y empresas?\n\nEl gran perjudicado ha sido el consumidor que ha experimentado un cambio de hábitos en su hogar y su rutina.\n\nA causa de la subida de la luz ha tenido que adaptar sus consumos a horarios nocturnos y fines de semana, incluso también ha reducido el uso de ciertos electrodomésticos como la lavadora o el horno.\n\nEl punto positivo es que la concienciación energética se ha visto reforzada y las energías renovables han cogido más fuerza a medida que esto ocurre.\n\nSoluciones para combatir la subida del precio de la luz\n\nSi se te hace cuesta arriba el ahorro con la subida de la luz, tenemos varios consejos para que puedas seguir disfrutando del café recién hecho por las mañanas, de las duchas interminables y de una vida sin horarios para tus electrodomésticos.\n\nCambios de hábitos ante la subida de la luz\n\nOpta por electrodomésticos en modo ECO, reduce la potencia contratada o cambia de proveedor.\n\nNegocia un precio fijo con tu compañía eléctrica\n\nPara blindarte frente a los posibles vaivenes del mercado, habla con tu compañía y negocia un precio estable entre los 0,15 €/kWh y los 0,20 €/kWh que se mantenga en el tiempo.\n\nInstalar placas solares y producir tu propia energía\n\nEn SotySolar, creemos en crear nuestro propio camino hacia el ahorro. Así que, mientras la subida de la luz se convierte en el tema de moda, nosotros nos mantenemos firmes en nuestra misión de hacer que la energía solar sea la verdadera estrella.\n\nDespués de todo, es posible que estés pagando más por consumos que podrían costarte mucho menos, la solución está en tu tejado.\n\n¡Infórmate sobre la rentabilidad de placas! ¿Es rentable instalar placas solares en una casa? ¿Cómo calculo la rentabilidad de las placas? ¿Qué factores influyen? Todo lo que necesitas saber aquí. Nombre completo Introduzca un nombre válido Email Introduzca un email válido Teléfono Introduzca un teléfono válido Código Postal Introduzca un c.postal válido Acepto la Política de Privacidad de datos Acepto recibir notificaciones de SotySolar Descargar\n\nAprovecha la bajada de precios actual para realizar tu instalación. Y es que el autoconsumo fotovoltaico te catapultará a la independencia energética que tanto deseas.\n\nCon tu instalación fotovoltaica produces y consumes tu propia energía, reduciendo hasta un 70 % tu dependencia de las grandes eléctricas.\n\nEsto significa que la subida de la luz o los cambios en tu tarifa ya no volverán a preocuparte. En cuanto hayas amortizado tus placas solares tu electricidad será totalmente gratis durante el día. ¿No es genial?\n\nLas ofertas, las subvenciones y las ayudas fiscales van a ser tus mejores aliados para una instalación sin sobresaltos financieros. Y si nos apuras, nosotros también, seremos los mejores compañeros en tu viaje al autoconsumo, de modo que ni lo dudes y ¡pide presupuesto! de forma rápida y gratuita. En SotySolar te lo ponemos fácil.",
+                                        "metadata": {
+                                            "url": "https://sotysolar.es/blog/luz-subida-precio-espana",
+                                            "source": "sotysolar.es",
+                                            "favicon": "https://sotysolar.es/logofav-soty.png",
+                                            "title": "¿Por qué sube el precio de la luz en España? Guía 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://sotysolar.es",
+                                            "snippet": "Descubre qué factores hacen subir el precio de la luz en España en 2025: tarifas, impuestos, energía renovable y consejos para ahorrar."
+                                        }
+                                    },
+                                    {
+                                        "text": "Estar al tanto de la evolución del precio de la luz es crucial tanto a nivel personal como empresarial. Gracias a ese dato es posible gestionar eficazmente nuestro consumo y ajustarlo a nuestro presupuesto, adoptando medidas de eficiencia energética y decisiones informadas en relación con nuestro impacto ambiental.\n\nAl conocer y comprender los cambios en el precio de la electricidad, las personas pueden ajustar sus comportamientos y estrategias para minimizar costes y contribuir a un uso más responsable de la energía.\n\nPor todo ello, te contamos cómo evoluciona el precio de la luz en 2025, realizamos una comparativa con respecto a los anteriores años y comentamos las previsiones para el ejercicio en curso.\n\nEl precio de la electricidad en España ha sufrido un incremento importante durante los últimos años, llegando a picos máximos (hasta 160 euros/MWh) en 2022, en relación con la invasión de Ucrania por parte de Rusia, entre otros factores. La inflación, el precio del gas o los derechos de emisión de CO2 han marcado también esta tendencia al alza.\n\nSi nos centramos en los últimos ejercicios, el año 2023 fue testigo de fluctuaciones en el precio de la electricidad, con un cierre competitivo y cambios en la metodología de fijación de precios. El precio medio de la luz cerró el año 2023 en 60,26 euros/MWh.\n\nRespecto al coste de la electricidad en 2024, su evolución fue bastante dinámica, con fluctuaciones significativas a lo largo del año. El precio medio de la factura mensual en 2024 fue de 61,90 euros/MWh. Esto refleja la volatilidad del mercado energético en el pasado año, influenciada por factores como la demanda estacional, la producción de energías renovables y el contexto geopolítico internacional.\n\nGráfica precio electricidad España Mes Precio de la luz en 2023 Precio de la luz en 2024 Precio de la luz en 2025 Enero 56,63 euros/MWh 63,10 euros/MWh 77,53 euros/ MWh Febrero 76,72 euros/MWh 56,81 euros/MWh 81,60 euros/ MWh Marzo 62,22 euros/MWh 52,46 euros/MWh 65,72 euros/ MWh Abril 55,97 euros/MWh 48,85 euros/MWh 58,62 euros/ MWh Mayo 54,97 euros/MWh 54,00 euros/MWh 60,44 euros/MWh Junio 60,50 euros/MWh 55,37 euros/MWh 67,43 euros/MWh Julio 59,64 euros/MWh 60,25 euros/MWh 68,12 euros/MWh Agosto 62,33 euros/MWh 66,42 euros/MWh 67,74 euros/MWh Septiembre 65,19 euros/MWh 62,08 euros/MWh 67,61 euros/MWh Octubre 62,45 euros/MWh 63,06 euros/MWh Noviembre 50,39 euros/MWh 74,60 euros/MWh Diciembre 57,10 euros/MWh 85,57 euros/MWh\n\n¿Cuánto ha subido la luz en los últimos años?\n\nSi nos centramos en el precio de la tarifa regulada de la luz o PVPC, vemos que los precios de la luz han experimentado un importante repunte entre 2021 y 2023, descendiendo durante 2024.\n\nLa subida en aquel momento estuvo vinculada al aumento de los precios de la energía al por mayor en todo el mundo. Se inició en 2021 con motivo de la pandemia de Covid-19, así como por la creciente demanda internacional y la invasión rusa de Ucrania.\n\nEsta tendencia al alza contrasta con un periodo de estabilidad que parte desde 2007 hasta 2020, año en el que se alcanzó el precio mínimo dentro de esta serie de análisis.\n\nEn la actualidad, aunque la tendencia es a la baja, el precio de la luz sigue encontrándose por encima de la media de los últimos años.\n\n¿Cómo va a evolucionar el precio de la luz en 2025?\n\nLa previsión del precio de la luz para 2025 en España apunta a una relativa estabilización, aunque con cierta incertidumbre debido a diversos factores que influyen en el mercado energético.\n\nSe espera que el precio medio anual de la electricidad en el mercado mayorista se mantenga en torno a los 75 euros/MWh. Esta proyección refleja un escenario optimista comparado con los picos históricos experimentados en años anteriores. Sin embargo, es importante tener en cuenta que el mercado energético es volátil y sujeto a múltiples variables.\n\nSe prevé que alrededor del 42% de la energía consumida en España provenga de fuentes renovables. Este aumento en la producción de energía limpia podría reducir los costes y estabilizar los precios.\n\nEl precio de la luz en el mercado regulado cambiará cada 15 minutos\n\nUn factor clave es la implementación del Reglamento Europeo 2017/2195, que obliga desde el 11 de junio de 2025 a publicar los precios de la electricidad cada 15 minutos en lugar de tener un precio de la luz hora a hora, lo que podría conducir a una mayor estabilidad al permitir un ajuste más preciso entre oferta y demanda.\n\n¿Cómo se fija el precio de la electricidad en España?\n\nEl coste de la luz en España se fija a través de un complejo sistema que combina el mercado mayorista y regulaciones gubernamentales. En el mercado mayorista, los productores de energía ofertan electricidad y las comercializadoras la compran para sus clientes mediante un proceso gestionado por el Operador del Mercado Ibérico de Energía (OMIE).\n\nParece un poco lioso, pero no lo es tanto: cada día, para cada periodo del día siguiente, se establece un precio basado en la oferta y la demanda. El precio final lo determina la última oferta necesaria para cubrir la demanda, utilizando el algoritmo Euphemia en toda la Unión Europea.\n\nPara mitigar la volatilidad de este proceso, desde el 1 de enero de 2024 se implementó una nueva fórmula de cálculo para la tarifa regulada de la luz, que afecta a unos 8,5 millones de consumidores. Esta nueva fórmula combina el 25% del precio futuro y el 75% del precio diario, con planes de aumentar gradualmente la ponderación del precio futuro hasta 2026.\n\nEs importante destacar que existen límites máximos para los precios en el mercado mayorista: 3.000 euros/MWh en el mercado diario y 9.999 euros/MWh en el intradiario.\n\nFactores que provocan cambios en el coste de la electricidad\n\nEl precio de la luz sube por diversos factores y razones. El principal motivo es el incremento en el coste del gas natural, combustible fundamental para la generación eléctrica. La crisis geopolítica, especialmente el conflicto entre Rusia y Ucrania, ha interrumpido el suministro de gas, provocando un alza en su precio en toda Europa.\n\nLa demanda energética también juega un papel crucial. Los cambios bruscos de temperatura, como olas de calor o frío intenso, aumentan el consumo de electricidad debido al uso masivo de aires acondicionados y calefacción. Esta mayor demanda obliga a las distribuidoras a incrementar la producción, lo que se refleja en el precio final, especialmente durante las horas pico.\n\nOtro factor importante es la disponibilidad de energías renovables, o en este caso, la no disponibilidad: en períodos de baja producción de energía eólica o solar, se recurre a fuentes más costosas como las plantas de gas o carbón, lo que eleva el precio de la electricidad. Además, el sistema de fijación de precios en el mercado energético español tampoco ayuda a que el precio disminuya.\n\nEl aumento en el coste de los derechos de emisión de CO2 ha impactado en los gastos de las plantas energéticas, repercutiendo en los consumidores. Asimismo, los impuestos sobre la electricidad y las tarifas de distribución pueden incrementar el precio final.\n\nPara terminar, y no por ello menos importante, la reactivación económica post-pandemia ha generado una mayor demanda global de energía, tensionando aún más la oferta disponible y presionando al alza los precios.\n\n¿Cómo ahorrar ante la evolución del precio de la luz?\n\nAnte la evolución del precio de la luz, es importante seguir algunos consejos para ahorrar en la factura eléctrica:\n\nUna de las principales recomendaciones es adaptar el consumo a las horas de menor demanda, aprovechando las tarifas con discriminación horaria. Generalmente, las horas más baratas son las nocturnas y los fines de semana, por lo que programar electrodomésticos de alto consumo como lavadoras o lavavajillas para estos períodos puede generar ahorros significativos.\n\nLa eficiencia energética juega un papel crucial. Sustituir electrodomésticos antiguos por modelos con etiqueta energética A puede reducir el consumo considerablemente.\n\nEl uso de bombillas LED y la instalación de sistemas de domótica para controlar la iluminación y la climatización contribuyen al ahorro.\n\nEn cuanto a la climatización, mantener una temperatura adecuada (entre 19°C y 21°C en invierno y entre 24°C y 26°C en verano) y mejorar el aislamiento térmico de la vivienda son medidas efectivas.\n\nLa instalación de paneles solares también es una opción a considerar.\n\nRevisar periódicamente la potencia contratada y comparar ofertas de diferentes comercializadoras puede llevar a ahorros adicionales.\n\nDesarrollar hábitos de consumo responsable, como apagar luces y aparatos cuando no se usan, utilizar regletas con interruptor para evitar el consumo en espera (standby) y hacer un uso eficiente de los electrodomésticos, contribuye significativamente al ahorro energético y económico.\n\nMedidas de ayuda energética vigentes en 2025\n\nEn 2025, España mantiene diversas medidas de ayuda energética para proteger a los consumidores vulnerables y fomentar la eficiencia energética. Por ejemplo, el Gobierno ha prorrogado hasta el 31 de diciembre el llamado 'escudo social' en materia energética, que incluye varias disposiciones importantes, como el Bono Social Eléctrico.\n\nEn concreto, el bono social supone un descuento en la factura de un 35 % sobre el PVPC para el consumidor vulnerable, y de un 50% sobre el PVPC para el consumidor vulnerable severo. Además, excepcionalmente, hasta el 31 de diciembre de 2025 se aplican los siguientes descuentos del bono social:\n\nDesde el 1 de enero de 2025 y hasta el 30 de junio de 2025, el descuento correspondiente al consumidor vulnerable será del 50%. En el caso del consumidor vulnerable severo, el descuento será del 65%.\n\nDesde el 1 de julio de 2025 y hasta el 31 de diciembre de 2025, el descuento correspondiente al consumidor vulnerable será del 42,5%. En el caso del consumidor vulnerable severo, el descuento será del 57,5%.\n\nTen en cuenta que el PVPC tiene un término de potencia y un término de energía. El descuento por bono social en el término de potencia del PVPC se aplica íntegramente, mientras que el descuento en el término de energía del PVPC solo se aplica hasta un límite de energía consumida, establecido en la normativa.\n\nPara fomentar la eficiencia energética, también se mantienen las deducciones en el IRPF de hasta un 60% por inversiones en este ámbito hasta diciembre de 2025, aplicables en caso de realizar obras de mejora de eficiencia energética que cumplan con ciertos requisitos.\n\nAdemás, se prorroga la deducción del 15% por la adquisición de vehículos eléctricos enchufables y puntos de recarga hasta el 31 de diciembre de 2025.",
+                                        "metadata": {
+                                            "url": "https://www.idealista.com/news/finanzas/hogar/2022/09/22/799070-la-evolucion-del-precio-de-la-luz",
+                                            "source": "www.idealista.com",
+                                            "favicon": "https://st1.idealista.com/news/news9/themes/custom/idealista_news/favicon.ico",
+                                            "title": "La evolución del precio de la luz en 2025 en España",
+                                            "type": "web_search",
+                                            "base_url": "https://www.idealista.com",
+                                            "snippet": "Se espera que el precio medio anual de la electricidad en el mercado mayorista se mantenga en torno a los 75 euros/MWh. Esta proyección refleja ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "AleaSoft Energy Forecasting, 6 de agosto de 2025. Durante el mes de julio, los precios de los principales mercados eléctricos europeos subieron y se mantuvieron por encima de 70 €/MWh en la mayoría de los casos. Los mercados de la península ibérica fueron la excepción, con descensos interanuales y respecto al mes anterior. La producción solar y eólica creció en la mayoría de los mercados eléctricos, alcanzando récords históricos en España, Francia, Portugal e Italia. La demanda aumentó en la península ibérica y Francia, mientras que los precios de los futuros del gas y los derechos de emisión de CO₂ bajaron con respecto a junio.\n\nProducción solar fotovoltaica y producción eólica\n\nEn julio de 2025, la producción solar fotovoltaica aumentó en la mayoría de los principales mercados eléctricos europeos en comparación con el mismo mes del año anterior. El mercado francés registró el mayor incremento, con un 33%. Le siguieron los mercados portugués e italiano, con crecimientos interanuales del 24% y 18%, respectivamente. El mercado español registró el menor incremento, con un 8,3%. El mercado alemán fue la excepción, ya que su producción solar disminuyó un 4,1% respecto a julio de 2024.\n\nAl comparar la producción solar fotovoltaica entre julio y junio de 2025, la mayoría de los mercados eléctricos europeos mostraron aumentos. El mercado portugués lideró con un incremento del 9,0%, mientras que el mercado francés ocupó el segundo lugar con un 4,8%. El mercado español registró el menor crecimiento, con un 1,4%. En cambio, los mercados alemán e italiano redujeron su generación con esta tecnología un 14% y un 4,8%, respectivamente, en relación con el mes anterior.\n\nAdemás, en julio de 2025, tres mercados establecieron su récord histórico de generación mensual de energía fotovoltaica. El mercado español generó 6190 GWh. El mercado francés produjo 4072 GWh y el mercado portugués sumó 800 GWh, logrando también un máximo histórico.\n\nEl aumento interanual de la producción solar respondió principalmente al incremento de la capacidad instalada. Según datos de Red Eléctrica, entre julio de 2024 y julio de 2025 el mercado español añadió 6145 MW de capacidad fotovoltaica. En el mismo período, el mercado portugués incorporó 1038 MW al sistema, de acuerdo con datos de REN.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de ENTSO-E, RTE, REN, Red Eléctrica y TERNA.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de ENTSO-E, RTE, REN, Red Eléctrica y TERNA.\n\nEn julio de 2025, la producción eólica aumentó en los principales mercados energéticos europeos en comparación con julio de 2024. El mercado italiano registró el mayor incremento, con un 53%. Le siguieron los mercados francés y portugués, con crecimientos del 32% y 30%, respectivamente. Los mercados alemán y español mostraron los menores incrementos, del 8,8% y 6,5%, respectivamente.\n\nEn comparación con el mes anterior, la producción eólica también creció en la mayoría de los principales mercados eléctricos de Europa. El mercado italiano lideró nuevamente con un aumento del 45%. El mercado francés registró la menor subida, con un 11%, mientras que los mercados de la península ibérica alcanzaron incrementos del 36%. Por otro lado, el mercado alemán redujo su producción eólica un 28% respecto al mes anterior.\n\nEn julio de 2025, los mercados italiano y portugués registraron su mayor volumen de producción eólica para un mes de julio, con 1824 GWh y 993 GWh, respectivamente.\n\nEl aumento interanual de la producción eólica respondió al incremento de la capacidad instalada. Según datos de Red Eléctrica, entre julio de 2024 y julio de 2025, el mercado español incorporó 1080 MW de capacidad eólica. En el mismo período, el mercado portugués añadió 18 MW al sistema, de acuerdo con datos de REN.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de ENTSO-E, RTE, REN, Red Eléctrica y TERNA.\n\nDemanda eléctrica\n\nEn julio de 2025, la demanda eléctrica aumentó en los mercados eléctricos de la península ibérica y Francia en comparación con el mismo mes del año anterior. El mercado portugués experimentó el mayor incremento, alcanzando un 4,0%, mientras que los mercados francés y español presentaron subidas del 1,2% y 1,4%, respectivamente. Por otro lado, la demanda disminuyó en los mercados italiano, belga, alemán y británico en términos interanuales. El mercado italiano registró la mayor caída, del 3,9%, y el mercado belga la menor, del 0,2%. En los mercados alemán y británico, las disminuciones fueron del 0,7% en ambos casos.\n\nAdemás, según datos provisionales de Red Eléctrica para julio de 2025, la demanda en el mercado español podría haber alcanzado los 21 678 GWh, un nivel no visto desde el verano de 2022.\n\nEn comparación con junio de 2025, la demanda aumentó en la mayoría de los principales mercados eléctricos europeos. Italia registró el mayor incremento, del 6,0%, mientras que Francia mostró la menor subida, del 0,3%. Los mercados español, alemán y británico registraron aumentos del 2,5%, 2,6% y 3,7%, respectivamente. El mercado belga fue la única excepción con una caída del 1,9%.\n\nEn la mayoría de los mercados analizados, julio de 2025 fue más cálido que el mismo mes de 2024. Los aumentos en las temperaturas medias oscilaron entre 0,1°C en España y 2,0°C en Gran Bretaña. En contraste, Alemania e Italia registraron descensos de 0,3°C y 1,1°C, respectivamente.\n\nA medida que avanzaba el verano, las temperaturas medias de julio superaron a las de junio en la mayoría de los países analizados. Francia fue la excepción, con una disminución de 0,1°C respecto al mes anterior. En los demás países, las temperaturas medias aumentaron entre 0,2°C en Alemania y 1,2°C en Reino Unido.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de ENTSO-E, RTE, REN, Red Eléctrica, TERNA, National Grid y ELIA.\n\nMercados eléctricos europeos\n\nEn el mes de julio de 2025, el precio promedio mensual fue superior a 70 €/MWh en la mayoría de los principales mercados eléctricos europeos. Las excepciones fueron los promedios del mercado Nord Pool de los países nórdicos y el mercado EPEX SPOT de Francia, de 32,32 €/MWh y 57,98 €/MWh, respectivamente. En cambio, el mercado N2EX del Reino Unido y el mercado IPEX de Italia registraron los precios mensuales más elevados, de 91,59 €/MWh y 113,13 €/MWh, respectivamente. En el resto de los mercados eléctricos europeos analizados en AleaSoft Energy Forecasting, los promedios estuvieron entre los 70,01 €/MWh del mercado MIBEL de España y los 87,80 €/MWh del mercado EPEX SPOT de Alemania.\n\nEn comparación con el mes de junio, los precios promedio aumentaron en la mayoría de los mercados eléctricos europeos analizados en AleaSoft Energy Forecasting. Los mercados español y portugués fueron las excepciones, con descensos del 3,6% y el 5,5%, respectivamente. El mercado italiano registró el menor incremento, del 1,2%. En cambio, los mercados francés y nórdico alcanzaron las mayores subidas porcentuales de precios, del 42% y el 68%, respectivamente. En el resto de los mercados, los precios subieron entre el 16% del mercado británico y el 37% del mercado alemán.\n\nComparando los precios promedio del mes de julio con los registrados en el mismo mes de 2024, los precios también aumentaron en la mayoría de los mercados. Los mercados español y portugués también fueron las excepciones, con caídas del 3,2% y el 5,4%, respectivamente. En este caso, el mercado italiano sólo aumentó ligeramente, un 0,7%. Por otra parte, el mercado belga alcanzó la mayor subida porcentual de precios, del 52%. En el resto de los mercados, los aumentos de precios estuvieron entre el 11% del mercado británico y el 35% del mercado neerlandés.\n\nComo consecuencia de estas subidas de precios, en julio de 2025, los mercados alemán, belga, británico, francés, italiano, neerlandés y nórdico registraron sus precios mensuales más altos desde abril.\n\nEn el mes de julio de 2025, el incremento de la demanda eléctrica respecto al mes anterior favoreció la subida de los precios en los mercados eléctricos europeos. Además, en el caso del mercado italiano bajó la producción solar, mientras que en el mercado alemán cayó tanto la producción solar como la eólica. En cambio, la producción solar y eólica aumentó en comparación con el mes de junio en España y Portugal, contribuyendo al descenso de los precios en el mercado MIBEL.\n\nPor otra parte, en julio de 2025, los precios del gas y de los derechos de emisión de CO 2 aumentaron respecto a julio de 2024, contribuyendo a la subida interanual de precios en la mayoría de los mercados eléctricos europeos. En el mercado francés, además, la demanda eléctrica aumentó y en el mercado alemán, bajó la producción solar. Sin embargo, la producción solar y eólica aumentó respecto a julio de 2024 en la península ibérica, favoreciendo el descenso de precios en los mercados español y portugués.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de OMIE, EPEX SPOT, Nord Pool y GME.\n\nBrent, combustibles y CO 2\n\nLos futuros de petróleo Brent para el Front‑Month en el mercado ICE registraron un precio promedio mensual de 69,55 $/bbl en el mes de julio de 2025. Según los datos analizados en AleaSoft Energy Forecasting, este valor fue un 0,4% menor al alcanzado por los futuros Front‑Month de junio de 2025, de 69,80 $/bbl. También fue un 17% menor al correspondiente a los futuros Front‑Month negociados en julio de 2024, de 83,88 $/bbl.\n\nLa suspensión de la cooperación de Irán con el Organismo Internacional de la Energía Atómica, así como ataques hutíes en el Mar Rojo y la posibilidad de nuevas sanciones al petróleo ruso, ejercieron su influencia al alza sobre los precios de los futuros de petróleo Brent en julio. Sin embargo, la preocupación por la evolución de la demanda y los incrementos de producción de la OPEP+ contrarrestaron esa subida y contribuyeron al descenso de los precios.\n\nEn cuanto a los futuros de gas TTF en el mercado ICE para el Front‑Month, el valor promedio registrado durante el mes de julio de 2025 por estos futuros fue de 33,96 €/MWh. Según los datos analizados en AleaSoft Energy Forecasting, este es el menor promedio mensual desde agosto de 2024. En comparación con el promedio de los futuros Front‑Month negociados en el mes de junio, de 36,65 €/MWh, el promedio de julio bajó un 7,3%. En cambio, si se compara con los futuros Front‑Month negociados en el mes de julio de 2024, cuando el precio promedio fue de 32,68 €/MWh, hubo un incremento del 3,9%.\n\nEl incremento de la demanda en Asia por una ola de calor en la primera mitad del mes de julio, los problemas en el suministro de gas desde Noruega a finales de mes y la posibilidad de nuevas sanciones a la importación de gas ruso ejercieron su influencia al alza sobre los precios de los futuros de gas TTF durante el mes de julio. Sin embargo, los niveles de suministro y la preocupación por los efectos de las políticas arancelarias sobre la demanda propiciaron que el promedio de julio fuera inferior a 34 €/MWh.\n\nPor lo que respecta a los futuros de derechos de emisión de CO 2 en el mercado EEX para el contrato de referencia de diciembre de 2025, alcanzaron un precio promedio en julio de 71,00 €/t. Según los datos analizados en AleaSoft Energy Forecasting, este precio mensual bajó un 2,8% respecto al promedio del mes de junio, que fue de 73,03 €/t. Si se compara con el promedio del mes de julio de 2024, que fue de 70,85 €/t, el promedio de julio de 2025 fue un 0,2% mayor.\n\nFuente: Elaborado por AleaSoft Energy Forecasting con datos de ICE y EEX.\n\nAnálisis de AleaSoft Energy Forecasting sobre las perspectivas de los mercados de energía en Europa\n\nLa división AleaStorage de AleaSoft Energy Forecasting proporciona soluciones avanzadas para la optimización y gestión de sistemas de almacenamiento de energía. Las soluciones de AleaStorage están dirigidas a proyectos de baterías stand‑alone, sistemas híbridos de tecnologías renovables, como la energía eólica o la solar, con baterías, sistemas híbridos de autoconsumo con baterías y otros sistemas híbridos, como hidráulica, cogeneración o consumo. Los servicios de AleaStorage abarcan desde el cálculo de ingresos y rentabilidad de sistemas con almacenamiento de energía hasta el dimensionamiento del almacenamiento óptimo en sistemas híbridos.\n\nFuente: AleaSoft Energy Forecasting.",
+                                        "metadata": {
+                                            "url": "https://aleasoft.com/es/precios-electricos-europeos-julio-maximos-salvo-mibel/",
+                                            "source": "aleasoft.com",
+                                            "favicon": "https://aleasoft.com/wp-content/uploads/2020/09/favicon-150x150.png",
+                                            "title": "Análisis julio 2025 Los precios de los mercados eléctricos ...",
+                                            "type": "web_search",
+                                            "base_url": "https://aleasoft.com",
+                                            "snippet": "En el mes de julio de 2025, el precio promedio mensual fue superior a 70 €/MWh en la mayoría de los principales mercados eléctricos europeos. Las excepciones ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El mercado anticipa estabilidad a medio plazo, aunque persisten riesgos estacionales (especialmente en gas). En electricidad, la curva de futuros incorpora primas de riesgo ligadas a la meteorología y al precio del CO₂.\n\nTendencias del mercado\n\nDurante septiembre se han consolidado varias tendencias relevantes para el sistema energético español y europeo:\n\nAlmacenamiento energético: Anuncio de 1,4 GW adicionales de baterías de gran escala para 2026, como señal de la necesidad de flexibilidad ante eventos extremos.\n\nVehículo eléctrico y tarifas: Consulta del MITECO sobre nuevos peajes para adaptar tarifas a patrones horarios, promoviendo carga nocturna.\n\nMercado de capacidad: Avances hacia un esquema retributivo por disponibilidad, clave para asegurar el respaldo térmico y fomentar inversión en almacenamiento.\n\nDebate nuclear en Europa: Alemania reabre el debate sobre reintroducir tecnología nuclear avanzada (SMR y Gen-IV).\n\nSequía e hidroeléctrica: Incertidumbre sobre la contribución hidroeléctrica en invierno en España y Portugal ante bajos niveles en embalses.\n\nConclusión\n\nSeptiembre ha sido un mes de reequilibrio en los mercados energéticos, con caídas generalizadas en los precios de electricidad, gas y petróleo. Esta evolución ha estado apoyada por una buena disponibilidad renovable, una demanda moderada y un contexto internacional estable.\n\nSin embargo, el repunte del CO₂, la volatilidad en los precios futuros y los riesgos asociados al invierno invitan a una vigilancia activa. Las señales regulatorias y de inversión muestran una mayor preparación del sistema, pero también refuerzan la necesidad de consolidar marcos que aseguren flexibilidad, seguridad de suministro y sostenibilidad económica del modelo energético.",
+                                        "metadata": {
+                                            "url": "https://konery.com/informe-mercado-energetico-septiembre-2025/",
+                                            "source": "konery.com",
+                                            "favicon": "https://konery.com/wp-content/uploads/2023/08/cropped-favicon-32x32.png",
+                                            "title": "Informe del mercado energético – septiembre 2025",
+                                            "type": "web_search",
+                                            "base_url": "https://konery.com",
+                                            "snippet": "El mes de septiembre ha traído una moderación significativa en los precios del mercado eléctrico español, que se sitúan un 14 % por debajo ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Jueves, 02 de octubre de 2025\n\nUn estudio que acaba de publicar el colectivo multinacional de expertos en energía Ember revela que el fuerte incremento de la aportación eólica y fotovoltaica al mix eléctrico español registrado en los últimos años ha propiciado que la influencia del gas natural en el precio final de la electricidad en el mercado mayorista sea la menor de entre los cinco países europeos con las mayores flotas de gas (en España hay más de 26.000 megavatios de potencia en centrales de ciclo combinado, que queman gas natural -metano- para generar electricidad). Pues bien, según Ember, ese menor peso del gas ha hecho posible que el precio mayorista de la electricidad en España sea un 32% inferior a la media de la UE.\n\nEl informe analiza la influencia de los generadores eléctricos de carbón y gas en los precios mayoristas de la electricidad en España, en comparación con los otros cuatro principales países productores de energía proveniente del gas (Reino Unido, Alemania, Italia y Países Bajos) durante el primer semestre de 2025 y 2019. Y la conclusión es una muy concreta: el fuerte crecimiento de la energía eólica y solar en España ha reducido en un 75% la influencia del gas y el carbón en los precios de la electricidad desde 2019. España -sostienen los autores de este informe- se ha convertido así en uno de los mercados eléctricos más baratos de Europa. El estudio de Ember revela que la caída de la influencia de los combustibles fósiles en nuestro país ha sido mucho más rápida que en otros países que dependen del gas, como Alemania o Italia, donde la influencia del metano en el precio final de la electricidad apenas descendió un 12% y un 13% respectivamente en las horas en las que el precio de la electricidad estaba ligado al coste del gas. Según el doctor Chris Rosslowe, analista senior en Ember, España ha conseguido romper \"el vínculo nefasto entre los precios de la electricidad y la volatilidad de los combustibles fósiles, algo que sus vecinos europeos ansían conseguir”.\n\nEn los mercados eléctricos europeos, el generador más caro en funcionamiento –normalmente de gas o de carbón– fija el precio mayorista de la electricidad por hora, y a medida que aumenta la participación de las renovables más baratas, los combustibles fósiles determinan el precio con menor frecuencia.\n\nPues bien, el análisis de Ember revela que en la primera mitad de 2025 los generadores fósiles influyeron en el precio de la electricidad en España solo en el 19% de las horas, la cifra más baja entre los cinco países europeos con las mayores flotas de gas. Como consecuencia, el precio mayorista de la electricidad en España fue un 32% inferior a la media de la UE, lo que supone \"un cambio radical respecto a 2019, cuando España se encontraba entre los países con la electricidad más cara de Europa, con generadores fósiles que fijaban el precio en el 75% de las horas del primer semestre del año\".\n\nEl giro se ha debido al fuerte crecimiento de las energías renovables: la eólica y la solar han cubierto casi la mitad de la demanda eléctrica del país en el primer semestre de 2025 (46%), frente al 27% en el mismo periodo de 2019. En contraste, la generación fósil apenas representó un 20% de la demanda eléctrica en España, muy por debajo de Alemania (41%) e Italia (43%).\n\nSegún Ember, gracias al fuerte crecimiento de la energía solar y eólica, el desplazamiento de los combustibles fósiles ya se produce en España, normalmente en las horas centrales del día, cuando la generación solar alcanza su máximo, o durante la noche, cuando sopla el viento.\n\nLos datos de Ember\n\n«En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.\n\nEntre diciembre de 2019 y junio de 2025, España duplicó su capacidad eólica y solar, añadiendo más de 40 GW, más que cualquier otro país de la UE excepto Alemania, cuyo mercado eléctrico es el doble de grande\n\nAgosto de 2025 ha sido el primer mes en la historia reciente de España sin generación eléctrica a carbón. Un cambio notable: diez años atrás, en agosto de 2015, el carbón representaba una cuarta parte de la energía del país. La generación de energía a gas en España ha ido disminuyendo desde 2022, representando el 19% de la demanda nacional en la primera mitad de 2025, frente al 26% en el mismo período de 2019»\n\nUna dependencia costosa del gas para estabilizar la red\n\nPese a los avances de España para desligar los precios de la electricidad del gas, el informe advierte que la creciente dependencia de la energía del gas para la estabilización de la red tras el apagón ibérico de abril de 2025 ha tenido un alto coste, lo que pone de relieve la necesidad de invertir en flexibilidad limpia, como baterías e interconexiones.\n\nEl uso de gas para servicios de la red se ha duplicado en mayo de 2025 respecto al mismo mes del año anterior y ha sido responsable del 57% del precio final de la electricidad ese mes, frente al 14% de un año antes. Como consecuencia, los vertimientos de energías renovables -apuntan desde Ember- se han triplicado desde el apagón, pasando del 1,8% en los dos últimos años al 7,2% durante mayo-julio de 2025.\n\n“España corre el riesgo de volver a caer en una dependencia costosa del gas en medio de los temores tras el apagón”, advierte el doctor Rosslowe. “Impulsar las redes y las baterías ayudará a España a liberarse definitivamente de la dependencia de los combustibles fósiles”.\n\nLa nueva manera de operar de REE, tras el apagón, según Ember\n\n«El aumento de la restricción de las energías renovables desperdicia electricidad barata, pero es el aumento de la energía de gas lo que desempeña un papel más importante en el aumento de los costes. El uso de turbinas de gas de ciclo combinado (CCGT) para los servicios de la red aumentó de 7,8 teravatios hora en 2021 a 13,7 TWh en 2024. El parque de CCGT de España desempeña un papel mucho más importante en el equilibrio de la red que en la generación de electricidad. Entre 2021 y 2024, las CCGT proporcionaron solo el 25% de la generación eléctrica de España, pero el 75% de sus necesidades de equilibrio.\n\nLa fuerte dependencia de la red española del gas para la estabilidad de la red es aún más evidente desde el apagón. En mayo, el uso de gas en los mercados de restricciones técnicas se disparó hasta los 2.400 gigavatios hora (GWh), el doble que en mayo de 2024.\n\nEn el año anterior al apagón, el precio medio de estos mercados fue de cinco euros el megavatio hora (5 €/MWh) y supuso el 14% del precio final de la electricidad. Sin embargo, en mayo de 2025, el precio medio subió a 24 €/MWh, lo que supuso el 57% del precio final de la electricidad, ya que los precios mayoristas de la electricidad solo alcanzaron una media de 17 €/MWh. Estos aumentos en los volúmenes y los precios provocaron que el coste de las medidas de equilibrio de la red se duplicara en mayo de 2025 en comparación con el mismo mes del año anterior»\n\nEspaña -destaca el informe- se encuentra rezagada respecto de sus pares europeos en materia de redes y almacenamiento en baterías. Aunque es el cuarto mercado eléctrico más grande de Europa, solo cuenta -concretan los autores del informe- con la décima tercera flota de almacenamiento en baterías (120 MW), \"lo que resulta notablemente pequeño si se tiene en cuenta que España es el cuarto mercado eléctrico más grande, con la quinta mayor penetración de energía eólica y solar, y también uno de los sistemas menos bien conectados del continente\".\n\nEmber vislumbra una ventana de oportunidad: \"las reformas posteriores al apagón -sostienen los autores del estudio- buscan revertir esta situación\".\n\nEl premio es goloso: el auge de la energía eólica y solar -explican en Ember- ha reducido la dependencia de España de las importaciones de combustibles fósiles. En los últimos cinco años (2020-2024), España ha recortado su factura de importaciones en el sector eléctrico más que cualquier otro país de la UE.\n\nLas nuevas plantas solares y eólicas añadidas en España durante este período han evitado -estiman en Ember- la importación de 26.000 millones de metros cúbicos de gas, \"lo que habría costado 13.500 millones de euros, casi cinco veces lo que España invirtió en su red de transporte en esos años\".\n\nSoluciones\n\nExisten alternativas limpias al gas para abordar los problemas de la red española y ayudar a integrar las energías renovables. Y la inversión en esas alternativas limpias puede reducir la presencia, y la influencia, del gas en el sistema eléctrico y en los precios. El problema -apuntan desde Ember- es que \"la inversión en estas soluciones ha sido notablemente lenta en España\".\n\nDurante los cinco años comprendidos entre 2019 y 2024, España ha tenido el gasto en redes más bajo de Europa, \"invirtiendo 30 céntimos en redes por cada euro en energías renovables, frente a la media europea de 70 céntimos, según Bloomberg\".\n\nEmber concreta: 2.900 millones de euros de inversión en la red de transporte durante el quinquenio 2020-2024, según los informes anuales de REE 2020, 2021, 2022, 2023 y 2024 (REE es el operador y transportista único del sistema eléctrico nacional).\n\nEl desarrollo de \"tecnologías de rápida implementación que mejoran la capacidad de la red existente\" también ha sido lento, se queja Ember, que pone un ejemplo comparativo.\n\n«La red peninsular española no cuenta con compensadores síncronos operativos, dispositivos que pueden proporcionar control dinámico de tensión e inercia sin combustibles fósiles. Por el contrario, la red británica opera al menos 12 dispositivos de este tipo, a pesar de tener una menor proporción de energía eólica y solar en la combinación de generación (35% frente al 43% de España en 2024)»\n\nPor último, Ember valora positivamente las propuestas lanzadas desde el Ministerio para la Transición Ecológica y el Reto Demográfico tras el apagón (como respuesta inmediata al apagón, el Gobierno español anunció un paquete de reformas destinadas a [1] mejorar el control de la red, [2] incrementar las exigencias de transparencia para con las distribuidoras y [3] avanzar en las soluciones de flexibilidad limpia.\n\n\"Aunque el paquete fue rechazado inicialmente en el Parlamento por motivos políticos -dice Ember-, las mismas reformas se están llevando a cabo por otros medios. Además, a los pocos días del apagón se aprobaron unos cambios normativos muy esperados, que permiten a las energías renovables participar en el control del voltaje. La rapidez y el contenido de esta respuesta demuestran -concluye el informe- que las energías renovables, respaldadas por la flexibilidad limpia, siguen siendo la opción estratégica para España\".\n\nDesligados: cómo España rompió el vínculo entre el gas y el precio de la electricidad gracias a las energías renovables",
+                                        "metadata": {
+                                            "url": "https://www.energias-renovables.com/panorama/el-precio-de-la-electricidad-en-espa-20251002",
+                                            "source": "www.energias-renovables.com",
+                                            "favicon": "https://www.energias-renovables.com/favicon.ico",
+                                            "title": "El precio de la electricidad en España, un 32% por debajo ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.energias-renovables.com",
+                                            "snippet": "Pues bien, el análisis de Ember revela que en la primera mitad de 2025 los generadores fósiles influyeron en el precio de la electricidad en ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El ‘pool’ cerró 2024 con un precio medio de 63,04 euros por megavatio hora (MWh), con una disminución del 28% sobre 2023\n\nExpertos han apuntado a que el precio de la electricidad inicia 2025 con “una clara tendencia alcista” y que regresa así “la incertidumbre”, ante un repunte en el precio del gas natural.\n\nA pesar de que el denominado ‘pool’ cerró 2024 con un precio medio de 63,04 euros por megavatio hora (MWh), con una disminución del 28% sobre 2023 y con un fuerte descenso del 35,8% sobre su promedio de los últimos cinco años, “el fuerte impulso que ha registrado durante los dos últimos meses, colocándose por encima de los 100 euros/MWh, arroja mucha incertidumbre acerca de cómo evolucionarán los precios en 2025”, según los analistas del grupo ASE.\n\nY es que diciembre cerró con un precio medio de la electricidad de 111,24 euros/MWh, un 6,5% por encima de los 104,43 euros/MWh de noviembre y registrando su valor más alto para un mes desde febrero de 2023.\n\nEl inicio de 2024 apuntaba a una cierta normalización, gracias a una extraordinaria generación renovable y a la fuerte corrección a la baja de los precios internacionales del gas y de las emisiones de CO2 (EUA), lo que llevó en el primer semestre a registrar unos precios de la electricidad de 39,9 euros/MWh en España.\n\nNo obstante, en la segunda parte del año, los precios de la electricidad se han más que duplicado, con un promedio de 86,07 euro/MWh. En este sentido, los analistas de la consultora destacaron que con el inicio del invierno se redujo la generación renovable y el almacenamiento europeo de gas descendió “con más rapidez de lo esperado, provocando un impacto colateral en la subida de los precios de electricidad”.\n\nEl precio de la luz\n\nDe esta manera, los expertos apuntaron a que habrá que “estar muy pendientes del nivel de las reservas de gas con que acabe el invierno Europa” y consideraron que será “clave” para conocer el abastecimiento que requerirá el continente durante 2025.\n\nPor eso, la climatología y la demanda asiática de gas natural licuado (GNL) seguirán marcando la evolución de los precios de la energía, con la volatilidad como protagonista\n\nañadieron.\n\nActualmente, los niveles de almacenamiento de la UE rondan el 72%, 15 puntos menos que hace un año cuando se encontraban al 87%. Desde finales de septiembre, las reservas han caído más de un 20%, esto es más del doble que en los últimos dos años durante el mismo periodo, según estimaron los expertos, que indicaron que, en este contexto de rápido agotamiento de las reservas, los precios del gas de los centros europeos se mueven en torno a los 45 euro/MWh, un 50% más elevados que hace un año.\n\nDemanda renovable y las nucleares\n\nY es que en los dos últimos meses la generación eólica en España ha sido un 24% inferior a su promedio, coincidiendo con los meses de menor radiación solar. A esto se ha unido que, gran parte de ese tiempo, dos centrales nucleares (Ascó I y Ascó II) han estado fuera del sistema. Por tanto, el aumento de la demanda por las bajas temperaturas se ha producido con una generación renovable y nuclear mermadas.\n\nAsí, los analistas de grupo ASE estimaron que a medida que los ciclos combinados de gas (CCG) han ido aumentando su producción, han subido los precios de la electricidad, liderando la casación de los precios marginales en noviembre y diciembre, mientras que las renovables apenas han tenido presencia, a diferencia de la pasada primavera.\n\nAdemás, en 2024 España ha perdido frente a Francia su posición de precio más competitivo entre las grandes economías europeas, que había ostentado los dos últimos años (2022 y 2023).\n\nEste año Francia ha aumentado un 11% su producción nuclear y ha registrado el precio más bajo, con 57,98 euros/MWh. En el lado contrario, Italia (106,31 euros/MWh) fue el más elevado.\n\nLa integración de las renovables\n\nPor otra parte, a lo largo de este año, se han integrado al sistema 7.644 MW de nueva potencia renovable, lo que supone un crecimiento del 14% en el último año. 6.735 MW de ellos corresponden a tecnología solar fotovoltaica (+27%), que marca su valor máximo histórico instalado en un año.\n\nEste crecimiento se produce en un contexto energético en el que la demanda eléctrica se ha reducido en un 0,6% en las horas de radiación y en el que los precios capturados por los generadores en el mercado diario, durante esas horas de radiación, se han desplomado casi un 43,5% hasta los 44,95 euros/MWh.\n\nEn el global de 2024, las variaciones más significativas las registró la generación hidráulica, que aumentó un 37,3% (durante la pasada primavera) y la producción fotovoltaica, que se incrementó un 18,2%. De esta forma, la solar fotovoltaica se colocó como tercera fuente de generación del mix, con un 16,7%, por detrás de la nuclear (19,6%) y de la eólica (22,9%).\n\nAsí, el año pasado la generación renovable creció un 10,1%, estableciendo un récord anual de 149 teravatios hora (TWh) año, lo que supone el 55,9% del mix, frente al 50,4% de 2023.\n\nEl hueco térmico\n\nEn sentido contrario, destacó la disminución del 24% en la producción de electricidad con gas y carbón. El hueco térmico descendió así al 14% del mix en 2024, su nivel más bajo desde que hay registros.\n\nEn lo que respecta a la demanda, aumentó un 0,8%, rompiendo una larga tendencia bajista que se inició en 2019 y que sólo se vio alterada en 2021 por el efecto de la pandemia en 2020.\n\nEste ligero avance de la demanda en 2024 respecto al año pasado tiene como principal impulsor el aumento del consumo de la gran industria, que ha crecido un 2,5% anual.",
+                                        "metadata": {
+                                            "url": "https://nextenergia21.com/expertos-apuntan-a-un-precio-de-la-luz-en-el-inicio-de-2025-en-clara-tendencia-alcista-por-incertidumbre/",
+                                            "source": "nextenergia21.com",
+                                            "favicon": "https://nextenergia21.com/wp-content/uploads/2024/05/ico-100x100.png",
+                                            "title": "Expertos apuntan a un precio de la luz en el inicio de 2025 ...",
+                                            "type": "web_search",
+                                            "base_url": "https://nextenergia21.com",
+                                            "snippet": "Expertos han apuntado a que el precio de la electricidad inicia 2025 con “una clara tendencia alcista” y que regresa así “la incertidumbre”, ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "En el primer semestre de 2025, los precios medios de la electricidad para los hogares de la Unión Europea se mantuvieron prácticamente estables en 28,72 euros por 100 kWh, tras un descenso del 0,5% con respecto a los 28,87 euros del segundo semestre de 2024, según los datos de la Oficina Europea de Estadística (Eurostat) de la Comisión Europea. Esto da continuidad al periodo de estabilidad de precios, aunque siguen estando muy por encima de los niveles previos a la crisis energética de 2022.\n\nLa proporción de impuestos y tasas en las facturas de electricidad aumentó del 24,7% en el segundo semestre de 2024 al 27,6% en el primer semestre de 2025. Como resultado, la disminución de los precios de la electricidad antes de impuestos aún no se ha reflejado en los precios finales para los consumidores.\n\nPrecios de la electricidad doméstica en la UE\n\nLos datos de Eurostat subrayan que hubo grandes diferencias en los precios de la electricidad doméstica entre los países de la UE. Alemania registró los precios de electricidad más altos en el primer semestre de 2025, con 38,35 euros por cada 100 kWh, seguida de Bélgica (35,71 euros) y Dinamarca (34,85 euros). En contraste, los precios más bajos se registraron en Hungría (10,40 euros), Malta (12,44 euros) y Bulgaria (13 euros).\n\nRespecto al primer semestre de 2024, se registraron aumentos de precios significativos en Luxemburgo (+31,3%), Irlanda (+25,9%) y Polonia (+20%). Por otro lado, las mayores reducciones de precios se registraron en Eslovenia (-13,1%), Finlandia (-9,8%) y Chipre (-9,5%).\n\nExpresados en estándar de poder adquisitivo (PPS), los precios de la electricidad fueron más altos para los hogares en Chequia (39,16), Polonia (34,96) e Italia (34,40). Los precios más bajos, también en PPS, se observaron en Malta (13,68), Hungría (15,01) y Finlandia (18,70).\n\nDescenso de los precios de la electricidad no doméstica en la UE\n\nLos precios de la electricidad no doméstica es otro de los datos que se analiza en las estadísticas de Eurostat. Los datos indican que se registra una ligera disminución de los precios.\n\nEn la primera mitad de 2025, los precios de la electricidad no doméstica en la UE mostraron un ligero descenso hasta los 19,02 euros por 100 kWh, frente a los 19,41 de la segunda mitad de 2024. Los datos indican que el número de países con aumentos de precios fue casi igual al de aquellos con descensos.",
+                                        "metadata": {
+                                            "url": "https://www.smartgridsinfo.es/2025/10/31/primer-semestre-2025-registra-precios-electricidad-estables-hogares-ue",
+                                            "source": "www.smartgridsinfo.es",
+                                            "favicon": "https://static.smartgridsinfo.es/media/2016/08/cropped-smartgridsinfo-logo-color-512-512-75x75.png",
+                                            "title": "El primer semestre de 2025 registra precios de la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.smartgridsinfo.es",
+                                            "snippet": "Precios de la electricidad doméstica en la UE​​ En contraste, los precios más bajos se registraron en Hungría (10,40 euros), Malta (12,44 euros) ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "La factura de la luz: estos son los precios de la electricidad para los hogares de la UE\n\nLos precios medios de la electricidad para los hogares europeos bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre.\n\nLos precios medios de la electricidad para los hogares de la UE bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre. Así lo detalla un informe de Eurostat, que señala que estos niveles se mantienen muy por encima de los anteriores a la crisis energética de 2022. Los precios mostraron fuertes variaciones según el país.. En 2024, afirma la Oficina Estadística europea, la proporción de impuestos en las facturas de electricidad aumentó ligeramente, del 24,3% al 25,1% en el segundo semestre, debido a pequeñas subidas de impuestos. Si bien los costes generales de energía y suministro en la UE disminuyeron el año pasado en comparación con 2023, los costes de red aumentaron en 18 países de la UE, lo que resultó en un aumento general de los costes de red en la UE del 8,9% con respecto al año anterior. Fuente: Eurostat Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros. “A pesar de la estabilidad de los promedios de la UE”, las comparaciones entre monedas nacionales indican “fluctuaciones significativas” de precios en algunos países. De esta manera, los precios de la electricidad doméstica aumentaron en Portugal (+14,2% en comparación con el segundo semestre de 2023), Finlandia (+13,6%) y Francia (+12,9%). Mientras tanto, países como Letonia (-17,8%), Países Bajos (-14,3%) y Bélgica (-12,3%) experimentaron reducciones de precios sustanciales. Fuente: Eurostat\n\nLos precios medios de la electricidad para los hogares de la UE bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre. Así lo detalla un informe de Eurostat , que señala que estos niveles se mantienen muy por encima de los anteriores a la crisis energética de 2022. Los precios mostraron fuertes variaciones según el país.\n\nEn 2024, afirma la Oficina Estadística europea, la proporción de impuestos en las facturas de electricidad aumentó ligeramente, del 24,3% al 25,1% en el segundo semestre, debido a pequeñas subidas de impuestos. Si bien los costes generales de energía y suministro en la UE disminuyeron el año pasado en comparación con 2023, los costes de red aumentaron en 18 países de la UE, lo que resultó en un aumento general de los costes de red en la UE del 8,9% con respecto al año anterior.\n\nPor países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros.\n\n“A pesar de la estabilidad de los promedios de la UE”, las comparaciones entre monedas nacionales indican “fluctuaciones significativas” de precios en algunos países. De esta manera, los precios de la electricidad doméstica aumentaron en Portugal (+14,2% en comparación con el segundo semestre de 2023), Finlandia (+13,6%) y Francia (+12,9%).\n\nMientras tanto, países como Letonia (-17,8%), Países Bajos (-14,3%) y Bélgica (-12,3%) experimentaron reducciones de precios sustanciales.",
+                                        "metadata": {
+                                            "url": "https://www.elboletin.com/la-factura-de-la-luz-estos-son-los-precios-de-la-electricidad-para-los-hogares-de-la-ue/",
+                                            "source": "www.elboletin.com",
+                                            "favicon": "https://www.elboletin.com/wp-content/uploads/2021/02/cropped-favi-32x32.png",
+                                            "title": "La factura de la luz: estos son los precios de la electricidad ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.elboletin.com",
+                                            "snippet": "Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) ..."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.1394413259986322,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.1394413259986322,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 18:59:28",
+                    "run_time": 3.1394413259986322,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuál es el precio promedio del kilovatio-hora (kWh) de electricidad en España en 2025?": [
+                                {
+                                    "La previsión del precio de la luz para 2025 en España apunta a una relativa estabilización, aunque con cierta incertidumbre debido a diversos factores que influyen en el mercado energético.": null
+                                },
+                                {
+                                    "Gráfica precio electricidad España Mes Precio de la luz en 2023 Precio de la luz en 2024 Precio de la luz en 2025 Enero 56,63 euros/MWh 63,10 euros/MWh 77,53 euros/ MWh Febrero 76,72 euros/MWh 56,81 euros/MWh 81,60 euros/ MWh Marzo 62,22 euros/MWh 52,46 euros/MWh 65,72 euros/ MWh Abril 55,97 euros/MWh 48,85 euros/MWh 58,62 euros/ MWh Mayo 54,97 euros/MWh 54,00 euros/MWh 60,44 euros/MWh Junio 60,50 euros/MWh 55,37 euros/MWh 67,43 euros/MWh Julio 59,64 euros/MWh 60,25 euros/MWh 68,12 euros/MWh Agosto 62,33 euros/MWh 66,42 euros/MWh 67,74 euros/MWh Septiembre 65,19 euros/MWh 62,08 euros/MWh 67,61 euros/MWh Octubre 62,45 euros/MWh 63,06 euros/MWh Noviembre 50,39 euros/MWh 74,60 euros/MWh Diciembre 57,10 euros/MWh 85,57 euros/MWh": null
+                                },
+                                {
+                                    "«En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.": null
+                                }
+                            ],
+                            "¿Cómo se compara el precio de la electricidad en España con el de otros países europeos como Alemania, Francia o Italia?": [
+                                {
+                                    "Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros.": null
+                                },
+                                {
+                                    "Los precios medios de la electricidad para los hogares de la UE bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre. Así lo detalla un informe de Eurostat, que señala que estos niveles se mantienen muy por encima de los anteriores a la crisis energética de 2022. Los precios mostraron fuertes variaciones según el país.. En 2024, afirma la Oficina Estadística europea, la proporción de impuestos en las facturas de electricidad aumentó ligeramente, del 24,3% al 25,1% en el segundo semestre, debido a pequeñas subidas de impuestos. Si bien los costes generales de energía y suministro en la UE disminuyeron el año pasado en comparación con 2023, los costes de red aumentaron en 18 países de la UE, lo que resultó en un aumento general de los costes de red en la UE del 8,9% con respecto al año anterior. Fuente: Eurostat Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros. “A pesar de la estabilidad de los promedios de la UE”, las comparaciones entre monedas nacionales indican “fluctuaciones significativas” de precios en algunos países. De esta manera, los precios de la electricidad doméstica aumentaron en Portugal (+14,2% en comparación con el segundo semestre de 2023), Finlandia (+13,6%) y Francia (+12,9%). Mientras tanto, países como Letonia (-17,8%), Países Bajos (-14,3%) y Bélgica (-12,3%) experimentaron reducciones de precios sustanciales. Fuente: Eurostat": null
+                                },
+                                {
+                                    "Los datos de Eurostat subrayan que hubo grandes diferencias en los precios de la electricidad doméstica entre los países de la UE. Alemania registró los precios de electricidad más altos en el primer semestre de 2025, con 38,35 euros por cada 100 kWh, seguida de Bélgica (35,71 euros) y Dinamarca (34,85 euros). En contraste, los precios más bajos se registraron en Hungría (10,40 euros), Malta (12,44 euros) y Bulgaria (13 euros).": null
+                                }
+                            ],
+                            "¿Qué dicen los expertos en energía y economía sobre la situación de los precios de la electricidad en España?": [
+                                {
+                                    "Para analizar cuál es la evolución del precio de la luz en el mercado energético de España, hay que entender que existen diferentes factores que pueden alterar el coste de la electricidad. Entre ellos:": null
+                                },
+                                {
+                                    "¿Por qué sube la luz? Admítelo, te has hecho esta pregunta unas cuantas veces a lo largo del año. El precio de la electricidad en España ha sido durante los últimos cuatro años un auténtico quebradero de cabeza para todo el mundo.": null
+                                },
+                                {
+                                    "El precio de la electricidad en España ha sufrido un incremento importante durante los últimos años, llegando a picos máximos (hasta 160 euros/MWh) en 2022, en relación con la invasión de Ucrania por parte de Rusia, entre otros factores. La inflación, el precio del gas o los derechos de emisión de CO2 han marcado también esta tendencia al alza.": null
+                                }
+                            ],
+                            "¿Qué evidencia hay de que los precios de la electricidad en España sean más bajos que en otros países europeos?": [
+                                {
+                                    "Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros.": null
+                                },
+                                {
+                                    "Los precios medios de la electricidad para los hogares de la UE bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre. Así lo detalla un informe de Eurostat, que señala que estos niveles se mantienen muy por encima de los anteriores a la crisis energética de 2022. Los precios mostraron fuertes variaciones según el país.. En 2024, afirma la Oficina Estadística europea, la proporción de impuestos en las facturas de electricidad aumentó ligeramente, del 24,3% al 25,1% en el segundo semestre, debido a pequeñas subidas de impuestos. Si bien los costes generales de energía y suministro en la UE disminuyeron el año pasado en comparación con 2023, los costes de red aumentaron en 18 países de la UE, lo que resultó en un aumento general de los costes de red en la UE del 8,9% con respecto al año anterior. Fuente: Eurostat Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros. “A pesar de la estabilidad de los promedios de la UE”, las comparaciones entre monedas nacionales indican “fluctuaciones significativas” de precios en algunos países. De esta manera, los precios de la electricidad doméstica aumentaron en Portugal (+14,2% en comparación con el segundo semestre de 2023), Finlandia (+13,6%) y Francia (+12,9%). Mientras tanto, países como Letonia (-17,8%), Países Bajos (-14,3%) y Bélgica (-12,3%) experimentaron reducciones de precios sustanciales. Fuente: Eurostat": null
+                                },
+                                {
+                                    "¿Por qué sube la luz? Admítelo, te has hecho esta pregunta unas cuantas veces a lo largo del año. El precio de la electricidad en España ha sido durante los últimos cuatro años un auténtico quebradero de cabeza para todo el mundo.": null
+                                }
+                            ],
+                            "¿Cuáles son las razones detrás de los precios de la electricidad en España y cómo se comparan con otros países europeos?": [
+                                {
+                                    "¿Por qué sube la luz? Admítelo, te has hecho esta pregunta unas cuantas veces a lo largo del año. El precio de la electricidad en España ha sido durante los últimos cuatro años un auténtico quebradero de cabeza para todo el mundo.": null
+                                },
+                                {
+                                    "Para analizar cuál es la evolución del precio de la luz en el mercado energético de España, hay que entender que existen diferentes factores que pueden alterar el coste de la electricidad. Entre ellos:": null
+                                },
+                                {
+                                    "El precio de la electricidad en España ha sufrido un incremento importante durante los últimos años, llegando a picos máximos (hasta 160 euros/MWh) en 2022, en relación con la invasión de Ucrania por parte de Rusia, entre otros factores. La inflación, el precio del gas o los derechos de emisión de CO2 han marcado también esta tendencia al alza.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 48.405185987998266,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 48.405185987998266,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 19:00:19",
+                    "run_time": 48.405185987998266,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nEspaña es el país de Europa donde el recibo de la luz es más barato\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuál es el precio promedio del kilovatio-hora (kWh) de electricidad en España en 2025?\n¿Cómo se compara el precio de la electricidad en España con el de otros países europeos como Alemania, Francia o Italia?\n¿Qué dicen los expertos en energía y economía sobre la situación de los precios de la electricidad en España?\n¿Qué evidencia hay de que los precios de la electricidad en España sean más bajos que en otros países europeos?\n¿Cuáles son las razones detrás de los precios de la electricidad en España y cómo se comparan con otros países europeos?\n\n3. Here are the text sources you should use as your source of information:\n[0] La previsión del precio de la luz para 2025 en España apunta a una relativa estabilización, aunque con cierta incertidumbre debido a diversos factores que influyen en el mercado energético.\n[0] Gráfica precio electricidad España Mes Precio de la luz en 2023 Precio de la luz en 2024 Precio de la luz en 2025 Enero 56,63 euros/MWh 63,10 euros/MWh 77,53 euros/ MWh Febrero 76,72 euros/MWh 56,81 euros/MWh 81,60 euros/ MWh Marzo 62,22 euros/MWh 52,46 euros/MWh 65,72 euros/ MWh Abril 55,97 euros/MWh 48,85 euros/MWh 58,62 euros/ MWh Mayo 54,97 euros/MWh 54,00 euros/MWh 60,44 euros/MWh Junio 60,50 euros/MWh 55,37 euros/MWh 67,43 euros/MWh Julio 59,64 euros/MWh 60,25 euros/MWh 68,12 euros/MWh Agosto 62,33 euros/MWh 66,42 euros/MWh 67,74 euros/MWh Septiembre 65,19 euros/MWh 62,08 euros/MWh 67,61 euros/MWh Octubre 62,45 euros/MWh 63,06 euros/MWh Noviembre 50,39 euros/MWh 74,60 euros/MWh Diciembre 57,10 euros/MWh 85,57 euros/MWh\n[0] El precio de la electricidad en España ha sufrido un incremento importante durante los últimos años, llegando a picos máximos (hasta 160 euros/MWh) en 2022, en relación con la invasión de Ucrania por parte de Rusia, entre otros factores. La inflación, el precio del gas o los derechos de emisión de CO2 han marcado también esta tendencia al alza.\n[1] «En la primera mitad de 2019, los precios de la electricidad en España reflejaban el coste de la generación fósil en el 75% de las horas; ese porcentaje cayó al 19% en el mismo periodo de 2025. Como resultado, el precio medio por hora de la electricidad en España en la primera mitad de 2025 (62 €/MWh) fue inferior al coste de la generación de electricidad con gas, que fue de una media de 111 €/MWh durante el mismo periodo, con un rango de entre 87 y 148 €/MWh.\n[2] Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros.\n[2] Los precios medios de la electricidad para los hogares de la UE bajaron hasta los 28,72 euros por 100 kWh en la segunda mitad de 2024, frente a los 28,89 euros del primer semestre. Así lo detalla un informe de Eurostat, que señala que estos niveles se mantienen muy por encima de los anteriores a la crisis energética de 2022. Los precios mostraron fuertes variaciones según el país.. En 2024, afirma la Oficina Estadística europea, la proporción de impuestos en las facturas de electricidad aumentó ligeramente, del 24,3% al 25,1% en el segundo semestre, debido a pequeñas subidas de impuestos. Si bien los costes generales de energía y suministro en la UE disminuyeron el año pasado en comparación con 2023, los costes de red aumentaron en 18 países de la UE, lo que resultó en un aumento general de los costes de red en la UE del 8,9% con respecto al año anterior. Fuente: Eurostat Por países, expone Eurostat, Alemania registró los precios de electricidad más altos, con 39,43 euros por 100 kWh, seguida de Dinamarca (37,63€) e Irlanda (36,99€). En cambio, los precios más bajos se observaron en Hungría (10,32€), Bulgaria (12,17€) y Malta (13,01€). Respecto a España, fue de 26,84 euros. “A pesar de la estabilidad de los promedios de la UE”, las comparaciones entre monedas nacionales indican “fluctuaciones significativas” de precios en algunos países. De esta manera, los precios de la electricidad doméstica aumentaron en Portugal (+14,2% en comparación con el segundo semestre de 2023), Finlandia (+13,6%) y Francia (+12,9%). Mientras tanto, países como Letonia (-17,8%), Países Bajos (-14,3%) y Bélgica (-12,3%) experimentaron reducciones de precios sustanciales. Fuente: Eurostat\n[3] Los datos de Eurostat subrayan que hubo grandes diferencias en los precios de la electricidad doméstica entre los países de la UE. Alemania registró los precios de electricidad más altos en el primer semestre de 2025, con 38,35 euros por cada 100 kWh, seguida de Bélgica (35,71 euros) y Dinamarca (34,85 euros). En contraste, los precios más bajos se registraron en Hungría (10,40 euros), Malta (12,44 euros) y Bulgaria (13 euros).\n[4] Para analizar cuál es la evolución del precio de la luz en el mercado energético de España, hay que entender que existen diferentes factores que pueden alterar el coste de la electricidad. Entre ellos:\n[5] ¿Por qué sube la luz? Admítelo, te has hecho esta pregunta unas cuantas veces a lo largo del año. El precio de la electricidad en España ha sido durante los últimos cuatro años un auténtico quebradero de cabeza para todo el mundo.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "España es el país de Europa donde el recibo de la luz es más barato"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Argumentos a favor de la afirmación**\n\nSegún los datos proporcionados por Eurostat, España tiene un precio de electricidad relativamente bajo en comparación con otros países europeos. En la segunda mitad de 2024, el precio medio de la electricidad en España fue de 26,84 euros por 100 kWh, lo que se encuentra por debajo de la media de la UE (28,72 euros por 100 kWh) [2]. Además, en el primer semestre de 2025, el precio de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas (111 €/MWh) [1]. Estos datos sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que contradice la afirmación de que España es el país de Europa donde el recibo de la luz es más barato. Según los datos de Eurostat, Hungría, Bulgaria y Malta tienen precios de electricidad más bajos que España [2]. En el primer semestre de 2025, el precio de la electricidad en Hungría fue de 10,40 euros por 100 kWh, en Bulgaria fue de 13 euros por 100 kWh y en Malta fue de 12,44 euros por 100 kWh [3]. Estos datos sugieren que España no es el país de Europa donde el recibo de la luz es más barato.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, no se puede afirmar categóricamente que España es el país de Europa donde el recibo de la luz es más barato. Si bien los datos de Eurostat sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos, también hay evidencia que muestra que otros países como Hungría, Bulgaria y Malta tienen precios de electricidad más bajos. Por lo tanto, la afirmación es **falsa**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 8.762554585999169,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 8.762554585999169,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-11-01 19:00:31",
+                    "run_time": 8.762554585999169,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: España es el país de Europa donde el recibo de la luz es más barato\nArticle: **Argumentos a favor de la afirmación**\n\nSegún los datos proporcionados por Eurostat, España tiene un precio de electricidad relativamente bajo en comparación con otros países europeos. En la segunda mitad de 2024, el precio medio de la electricidad en España fue de 26,84 euros por 100 kWh, lo que se encuentra por debajo de la media de la UE (28,72 euros por 100 kWh) [2]. Además, en el primer semestre de 2025, el precio de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas (111 €/MWh) [1]. Estos datos sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que contradice la afirmación de que España es el país de Europa donde el recibo de la luz es más barato. Según los datos de Eurostat, Hungría, Bulgaria y Malta tienen precios de electricidad más bajos que España [2]. En el primer semestre de 2025, el precio de la electricidad en Hungría fue de 10,40 euros por 100 kWh, en Bulgaria fue de 13 euros por 100 kWh y en Malta fue de 12,44 euros por 100 kWh [3]. Estos datos sugieren que España no es el país de Europa donde el recibo de la luz es más barato.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, no se puede afirmar categóricamente que España es el país de Europa donde el recibo de la luz es más barato. Si bien los datos de Eurostat sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos, también hay evidencia que muestra que otros países como Hungría, Bulgaria y Malta tienen precios de electricidad más bajos. Por lo tanto, la afirmación es **falsa**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: España es el país de Europa donde el recibo de la luz es más barato\nArticle: **Argumentos a favor de la afirmación**\n\nSegún los datos proporcionados por Eurostat, España tiene un precio de electricidad relativamente bajo en comparación con otros países europeos. En la segunda mitad de 2024, el precio medio de la electricidad en España fue de 26,84 euros por 100 kWh, lo que se encuentra por debajo de la media de la UE (28,72 euros por 100 kWh) [2]. Además, en el primer semestre de 2025, el precio de la electricidad en España fue de 62 €/MWh, lo que es inferior al coste de la generación de electricidad con gas (111 €/MWh) [1]. Estos datos sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, también hay evidencia que contradice la afirmación de que España es el país de Europa donde el recibo de la luz es más barato. Según los datos de Eurostat, Hungría, Bulgaria y Malta tienen precios de electricidad más bajos que España [2]. En el primer semestre de 2025, el precio de la electricidad en Hungría fue de 10,40 euros por 100 kWh, en Bulgaria fue de 13 euros por 100 kWh y en Malta fue de 12,44 euros por 100 kWh [3]. Estos datos sugieren que España no es el país de Europa donde el recibo de la luz es más barato.\n\n**Conclusión**\n\nEn base a la evidencia proporcionada, no se puede afirmar categóricamente que España es el país de Europa donde el recibo de la luz es más barato. Si bien los datos de Eurostat sugieren que el precio de la electricidad en España es relativamente bajo en comparación con otros países europeos, también hay evidencia que muestra que otros países como Hungría, Bulgaria y Malta tienen precios de electricidad más bajos. Por lo tanto, la afirmación es **falsa**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"España es el país de Europa donde el recibo de la luz es más barato\", \"categories\": [\"Noticias\", \"Economía\", \"Europa\"], \"label\": \"Fake\", \"main_claim\": \"España no es el país de Europa donde el recibo de la luz es más barato\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.005,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa70B",
+                    "gen_searches_agent": "Latxa70B",
+                    "web_search_provider": "serper",
+                    "embedding": "gemini-embedding-001",
+                    "question_agent": "Latxa70B",
+                    "article_writer": "Latxa70B",
+                    "metadata_agent": "Latxa70B",
+                    "image_prompt": "Latxa70B",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}

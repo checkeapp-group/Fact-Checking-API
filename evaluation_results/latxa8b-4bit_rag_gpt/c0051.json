@@ -1,0 +1,659 @@
+{
+    "question": "Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer",
+    "answer": "La afirmación de que las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer se basa en la idea de que estos productos contienen compuestos químicos que pueden ser cancerígenos. Según el texto [1], algunos estudios han encontrado que las mascarillas quirúrgicas pueden contener pequeñas cantidades de dióxido de titanio, un compuesto que la Agencia Internacional de Investigación sobre el Cáncer (IARC) ha clasificado como \"posiblemente\" carcinógeno cuando se inhala. Además, el estudio mencionado en el texto [1] encontró que las mascarillas distribuidas en Europa contenían niveles de dióxido de titanio que superaban la \"exposición aceptable\".\n\nSin embargo, hay evidencia que sugiere que las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer. El texto [3] menciona que hay una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. Además, el texto [3] afirma que el primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios.\n\nEl texto [4] menciona que un estudio realizado por la investigadora Ethel Eljarrat encontró que las mascarillas de tela reutilizables no desprenden ninguno de los plastificantes, y que las mascarillas quirúrgicas, las FFP2 y FFP3 muestran valores extremadamente bajos de plastificantes desprendidos. Esto sugiere que las mascarillas quirúrgicas desechables no son un riesgo para la salud.\n\nEn resumen, la evidencia disponible es contradictoria y no hay un consenso claro sobre si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Mientras que algunos estudios sugieren que los compuestos químicos presentes en las mascarillas pueden ser cancerígenos, otros estudios han encontrado que las mascarillas no aumentan el riesgo de cáncer. Es importante destacar que la mayoría de los estudios mencionados en los textos proporcionados se refieren a la seguridad de las mascarillas en general, y no específicamente a las mascarillas quirúrgicas desechables.\n\nBasándome en la evidencia disponible, no puedo concluir con certeza si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Sin embargo, considerando que la mayoría de los estudios mencionados en los textos proporcionados sugieren que las mascarillas no aumentan el riesgo de cáncer, yo diría que la afirmación es **falsa**.",
+    "image": {
+        "url": "",
+        "description": ""
+    },
+    "sources": {
+        "1": {
+            "url": "https://www.latercera.com/que-pasa/noticia/fact-checking-mascarillas-tienen-compuesto-que-causa-cancer-estudio-demuestra-que-pacientes-infectados-con-viruela-del-mono-tenian-el-virus-en-el-aire/VX7NLXHJJFBSJOPSTRZOO5MJTE/",
+            "source": "www.latercera.com",
+            "favicon": "https://www.latercera.com/pf/resources/favicon/la-tercera/favicon.ico?d=1074&mxId=00000000"
+        },
+        "2": {
+            "url": "https://www.ondacero.es/noticias/salud/analizan-mascarillas-desechables-usadas-pandemia-descubren-algo-preocupante-bomba-quimica_2025091068c1a0bb02666d2324a4ed92.html",
+            "source": "www.ondacero.es",
+            "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero"
+        },
+        "3": {
+            "url": "https://cancerfactfinder.org/es/estilo-de-vida/uso-de-mascarilla/",
+            "source": "cancerfactfinder.org",
+            "favicon": "https://cancerfactfinder.org/wp-content/uploads/2022/02/favicon.svg"
+        },
+        "4": {
+            "url": "https://www.agenciasinc.es/Noticias/Los-compuestos-plastificantes-de-las-mascarillas-no-suponen-un-riesgo-para-la-salud",
+            "source": "www.agenciasinc.es",
+            "favicon": "https://cdn.agenciasinc.es/bundles/app/images/favicon32.png?v=2025240702"
+        }
+    },
+    "related_questions": {},
+    "metadata": {
+        "title": "Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer",
+        "categories": [
+            "Salud",
+            "Ciencia",
+            "Medicina"
+        ],
+        "label": "Undetermined",
+        "main_claim": "Las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer",
+        "config": {
+            "workflow_type": "FactCheckingWithPipelineWorkflow",
+            "models": {
+                "critical_question_agent": "Latxa8B-local",
+                "gen_searches_agent": "Latxa8B-local",
+                "web_search_provider": "serper",
+                "embedding": "text-embedding-3-large",
+                "question_agent": "Latxa8B-local",
+                "article_writer": "Latxa8B-local",
+                "metadata_agent": "Latxa8B-local",
+                "image_prompt": "Latxa8B-local",
+                "image_model": "flux-replicate"
+            },
+            "web_search": {
+                "top_k": 5,
+                "max_searches": 5,
+                "ban_domains": [
+                    "20minutos.es",
+                    "abc.es",
+                    "agrodiario.com",
+                    "albalactanciamaterna.org",
+                    "antena3.com",
+                    "bankinter.com",
+                    "bbva.com",
+                    "bmcgastroenterol.biomedcentral.com",
+                    "cadenaser.com",
+                    "caixabankresearch.com",
+                    "cambioenergetico.com",
+                    "cancer.gov",
+                    "ciencia.nasa.gov",
+                    "cincodias.elpais.com",
+                    "clinicaalemana.cl",
+                    "coches.net",
+                    "datosmacro.expansion.com",
+                    "defensa.gob.es",
+                    "ec-europa-eu.translate.goog",
+                    "educaweb.com",
+                    "efe.com",
+                    "elblogsalmon.com",
+                    "elconfidencial.com",
+                    "elpais.com",
+                    "elplural.com",
+                    "es.euronews.com",
+                    "es.weforum.org",
+                    "europapress.es",
+                    "feminismo.maldita.es",
+                    "gacetamedica.com",
+                    "hopkinsmedicine.org",
+                    "huffingtonpost.es",
+                    "ine.es",
+                    "infobae.com",
+                    "instagram.com",
+                    "instituteforenergyresearch.org",
+                    "jacc.org",
+                    "kidshealth.org",
+                    "lamoncloa.gob.es",
+                    "larazon.es",
+                    "lasexta.com",
+                    "lavanguardia.com",
+                    "lefebvre.es",
+                    "maldita.es",
+                    "masquemedicos.com",
+                    "medlineplus.gov",
+                    "myfisioclinic.com",
+                    "nationalgeographic.com.es",
+                    "newtral.es",
+                    "normoncontigo.normon.com",
+                    "nyc.gov",
+                    "observatoriodeladiscapacidad.info",
+                    "observatoriodelalquiler.org",
+                    "oftalmologos.org.ar",
+                    "pmp.org.es",
+                    "primabiotic.es",
+                    "publico.es",
+                    "realinstitutoelcano.org",
+                    "ree.es",
+                    "rtve.es",
+                    "salud.nih.gov",
+                    "sepe.es",
+                    "sistemaelectrico-ree.es",
+                    "sjme.org",
+                    "theconversation.com",
+                    "theobjective.com",
+                    "tiktok.com",
+                    "twitter.com",
+                    "uoc.edu",
+                    "verifica.efe.com",
+                    "verificat.cat",
+                    "vozpopuli.com",
+                    "who.int",
+                    "worldwildlife.org",
+                    "www-iaea-org.translate.goog",
+                    "x.com",
+                    "xataka.com",
+                    "youtube.com"
+                ],
+                "download_text": true
+            },
+            "rag": {
+                "do_rag": true,
+                "chunk_size": 128,
+                "chunk_overlap": 0,
+                "split_separators": [
+                    "\n"
+                ],
+                "fp16_storage": true,
+                "l2_normalise": true,
+                "top_k": 3,
+                "get_scores": false
+            },
+            "questions": {
+                "max_questions": 5
+            },
+            "image": {
+                "size": "1280x256",
+                "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+            },
+            "general": {
+                "max_history_size": null
+            }
+        }
+    },
+    "logs": {
+        "GenSearchesAgent": {
+            "stats": {
+                "name": "GenSearchesAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 3.3285460589977447,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 3.3285460589977447,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:08",
+                    "run_time": 3.3285460589977447,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are a search query strategist specialized in fact-checking research. Your task is to generate targeted Google search queries that will efficiently retrieve the information needed to answer critical research questions about a statement.\n\n**Your Mission:**\nYou will receive:\n1. A statement that needs fact-checking\n2. A set of critical research questions designed to verify or challenge the statement\n\nYour goal is to create 3-5 strategic Google search queries that will gather the most relevant information to answer these questions comprehensively.\n\n**Search Strategy Guidelines:**\n\n**1. Optimize for Information Retrieval:**\n- Create searches that target primary sources, official data, and authoritative content\n- Use specific keywords that are likely to return high-quality, credible results\n- Target specific organizations, institutions, or authoritative sources when relevant\n\n**2. Search Query Best Practices:**\n- Use specific entity names, dates, and locations from the original statement\n- Combine multiple concepts in a single search when they're closely related\n- Prioritize searches that can answer multiple questions simultaneously\n- Each search should retrieve different web pages and different information, ensure no duplicated web searches.\n- **NEVER use quotes around phrases** - Write natural search queries without quotation marks\n- **NEVER use site: operators** - Do not restrict searches to specific websites (e.g., avoid site:example.com)\n- Keep searches simple and natural, as if typed directly into Google by a regular user\n\n**3. Coverage and Efficiency:**\n- Ensure your searches collectively address all the critical questions\n- Avoid redundant searches that would return similar information\n- Prioritize searches by importance - start with the most crucial information needed\n- Balance broad searches (for context) with specific searches (for detailed data)\n\n**4. Quality and Credibility Focus:**\n- Design searches to find peer-reviewed studies, official reports, and expert analyses\n- Include terms that help filter for recent, relevant information (add year 2025 when current data is needed)\n- Target comparative analyses and multiple perspectives on controversial topics\n- Look for both supporting and contradicting evidence\n\n**Example Search Strategies:**\n- For claims about statistics: official [topic] statistics 2025 government data\n- For controversial statements: [topic] expert analysis research studies + [topic] criticism opposing views\n- For recent events: [specific event] 2025 official statement news\n- For comparisons: [entity A] vs [entity B] comparison study data\n\n**Output Format:**\nRespond with JSON containing:\n- `\"searches\"`: Array of 3-5 strategic Google search queries\n\n**Example Output:**\n```json\n{\n  \"searches\": [\n    \"official COVID-19 vaccine effectiveness statistics 2024 CDC WHO data\",\n    \"COVID-19 vaccine side effects peer-reviewed studies clinical trials\",\n    \"vaccine hesitancy expert analysis public health research\",\n    \"COVID-19 vaccine safety monitoring systems VAERS Yellow Card\"\n  ]\n}\n```\n\n**Quality Standards:**\n- Each search should be actionable and likely to return relevant, credible results\n- Searches should complement each other without significant overlap\n- Use specific terminology that experts and official sources would use\n- Include temporal qualifiers when recent information is crucial\n- Focus on factual, verifiable information rather than opinions\n\n**Context:** Current year is 2025\n**Language:** All searches should be in Spanish"
+                            },
+                            {
+                                "role": "user",
+                                "content": "**Statement to Fact-Check:**\nMascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\n\n**Critical Research Questions:**\n1. ¿Cuáles son los resultados más recientes de estudios científicos sobre el impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer?\n2. ¿Cuál es la relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos?\n3. ¿Qué opinan los expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables?\n4. ¿Cuáles son los datos de la Organización Mundial de la Salud (OMS) sobre la seguridad de las mascarillas quirúrgicas desechables?\n5. ¿Cuál es la incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas?\n\n**Task:** Generate 3-5 strategic Google search queries that will efficiently gather the information needed to answer these research questions. Focus on finding authoritative sources, official data, and credible evidence that can verify or challenge the statement."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"searches\": [\"impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer estudios recientes 2025\", \"relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos investigaciones actuales\", \"opinión de expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables\", \"seguridad de las mascarillas quirúrgicas desechables OMS informes oficiales 2025\", \"incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas estudios comparativos\"]}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "WebSearchAgent": {
+            "stats": {
+                "name": "WebSearchAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.005,
+                "total_run_time": 7.015487515996938,
+                "average_cost_per_call": 0.005,
+                "average_time_per_call": 7.015487515996938,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:15",
+                    "run_time": 7.015487515996938,
+                    "cost": 0.005,
+                    "history_entry": {
+                        "data": {
+                            "searches": [
+                                "impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer estudios recientes 2025",
+                                "relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos investigaciones actuales",
+                                "opinión de expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables",
+                                "seguridad de las mascarillas quirúrgicas desechables OMS informes oficiales 2025",
+                                "incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas estudios comparativos"
+                            ],
+                            "results": {
+                                "impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer estudios recientes 2025 | relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos investigaciones actuales | opinión de expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables | seguridad de las mascarillas quirúrgicas desechables OMS informes oficiales 2025 | incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas estudios comparativos": [
+                                    {
+                                        "text": "La aparición de la pandemia de COVID-19, con una propagación mundial, provocó un aumento sin precedentes del uso de mascarillas faciales como medida de control indiscutible para frenar eficazmente la transmisión del virus. Las mascarillas, formadas principalmente por polímeros, incorporan diversos aditivos químicos para mejorar sus prestaciones. Estos aditivos, que incluyen entre otros los plastificantes, pueden liberarse durante el uso de la mascarilla por migración o volatilización, lo que supone una nueva fuente de exposición humana a estos compuestos. La exposición a estos plastificantes no provoca efectos adversos inmediatos. Sin embargo, sí que produce una toxicidad crónica, es decir, provoca efectos adversos como resultado de pequeñas dosis diarias (del orden de los ng (10-9 g) o pg (10-12 g)), tales como diversos tipos de cáncer, infertilidad, enfermedades neurodegenerativas, diabetes, obesidad, tiroides, sistema inmunológico …\n\nLos objetivos del estudio eran evaluar la presencia de diferentes familias de plastificantes (que incluyen los ésteres organofosforados, los ftalatos y los alternativos a los ftalatos) en los diferentes tipos de mascarillas utilizadas (quirúrgicas, FFP2, KN95 y reutilizables) y, posteriormente, evaluar el grado de exposición humana a dichos compuestos por inhalación durante el uso de la mascarilla.\n\nLos plastificantes se detectaron en las 36 muestras de mascarillas analizadas, con concentraciones totales que mostraron una variación mínima entre los distintos tipos de mascarillas, con valores promedio entre los 7,27 µg/mascarilla para las quirúrgicas y los 13,9 µg/mascarilla para las FFP2. Sin embargo, si se observaron perfiles distintos de plastificantes en las diferentes mascarillas, aunque siempre con el predominio de los ftalatos.\n\nPara explorar el comportamiento de liberación de los plastificantes, se realizaron experimentos de inhalación en distintas condiciones. Estos experimentos revelaron que las condiciones de alta temperatura fueron las que más favorecieron dichas liberaciones, dando lugar a la liberación de 12 de los 26 compuestos encontrados en las mascarillas. Es importante destacar que las condiciones de alta temperatura aplicadas (35ºC) son precisamente las que mejor simulan la respiración humana, ya que ésta se mueve en torno a los 33-34ºC. Las mascarillas quirúrgicas y FFP2 fueron las que mostraron porcentajes de liberación más elevados, en torno al 4% y 5% respectivamente. A pesar de esta liberación observada, los niveles de exposición a plastificantes por inhalación se mantuvieron por debajo de los umbrales seguros establecidos para estos compuestos, por lo que no parecen presentar un riesgo significativo para la salud de las personas.\n\nSin embargo, es importante destacar que la exposición humana a estos contaminantes se produce por diferentes vías, tales como la inhalación de aires interiores y/o exteriores, la ingesta de alimentos y bebidas o el contacto dérmico. Por lo tanto, si bien los niveles de exposición específicos del uso de mascarillas no son motivo de preocupación, sí es aconsejable intentar minimizarlos pues representan una vía adicional de exposición. Y corremos el riesgo de que la suma de todas las diferentes vías de exposición si pueda llegar a superar los umbrales seguros establecidos para este tipo de contaminantes.",
+                                        "metadata": {
+                                            "url": "https://pti-saludglobal.csic.es/evaluacion-del-riesgo-de-inhalacion-de-plastificantes-por-el-uso-de-mascarillas/",
+                                            "source": "pti-saludglobal.csic.es",
+                                            "favicon": "https://pti-saludglobal.csic.es/wp-content/uploads/2020/04/cropped-Favicono-Simbolo_granado-1-32x32.jpg",
+                                            "title": "Evaluación del riesgo de inhalación de plastificantes por el ...",
+                                            "type": "web_search",
+                                            "base_url": "https://pti-saludglobal.csic.es",
+                                            "snippet": "Las mascarillas quirúrgicas y FFP2 fueron las que mostraron porcentajes de liberación más elevados, en torno al 4% y 5% respectivamente. A pesar de esta ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Faltan pocos meses para que se cumplan seis años del inicio de la pandemia ocasionada por el Covid-19. El uso mundial de mascarillas para limitar su propagación durante meses ha dejado un claro impacto en el medio ambiente, que podría definirse como una bomba química, según sugiere un reciente estudio de la Universidad Coventry (Inglaterra).\n\nA medida que las mascarillas se descomponen, liberan microplásticos y sustancias químicas al medio ambiente. Desde Coventry han analizado cuántos microplásticos y aditivos químicos pueden desprenderse de diferentes tipos de mascarillas desechables, como las quirúrgicas y las filtrantes, que a menudo se emplean en centros sanitarios.\n\nPara ello, los investigadores colocaron mascarillas sin usar en vasos de cristal con agua pura y las dejaron durante 24 horas. Después comprobaron que el agua se había filtrado y posteriormente llevaron las mascarillas al laboratorio para identificar qué tipos y cantidades de microplásticos y productos químicos se habían liberado.\n\nContaminantes presentes desde el proceso de fábrica\n\nLos resultados evidenciaron que las mascarillas liberan estas sustancias sin necesidad de haber sido utilizadas, lo que sugiere que los contaminantes están presentes desde el proceso de fábrica.\n\nDe entre todos los tipos de mascarillas estudiados, los investigadores llegaron a la conclusión de que las filtrantes liberaban de tres a cuatro veces más partículas microplásticas que las mascarillas quirúrgicas estándar.\n\nLas partículas, que eran extremadamente pequeñas, estaban hechas principalmente de polipropileno, un plástico común en la fabricación de estos productos sanitarios. Otros plásticos detectados fueron el polietileno, el poliéster, nailon y PVC, sobre todo en las mascarillas filtrantes.\n\nEste descubrimiento pone en alerta a la comunidad científica del medio ambiente, ya que estos materiales no se descomponen fácilmente y pueden causar daños en los ecosistemas y la fauna.\n\nLiberación de sustancias químicas\n\nPero no solo la liberación de microplásticos es lo que preocupa a los científicos, sino que a través del estudio se descubrió que las mascarillas también liberan sustancias químicas como el bisfenol B. Este tipo de químicos dañan a los peces y otros organismos acuáticos y, además, también podría afectar a las personas si llega a entrar en la cadena alimentaria.\n\n\"Necesitamos replantearnos cómo producimos, usamos y desechamos las mascarillas\", apunta la doctora Anna Bogush y autora principal del estudio. \"No podemos ignorar el coste ambiental que tiene, sobre todo cuando sabemos que los microplásticos y las sustancias que liberan pueden afectar negativamente tanto a las personas como a los ecosistemas\".\n\nPor tanto, desde Coventry animan a seguir concienciando a la población mundial de estos riesgos. \"Tomemos decisiones informadas para proteger nuestra salud y el medio ambiente\".",
+                                        "metadata": {
+                                            "url": "https://www.ondacero.es/noticias/salud/analizan-mascarillas-desechables-usadas-pandemia-descubren-algo-preocupante-bomba-quimica_2025091068c1a0bb02666d2324a4ed92.html",
+                                            "source": "www.ondacero.es",
+                                            "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+                                            "title": "Analizan las mascarillas desechables usadas en la ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.ondacero.es",
+                                            "snippet": "Los resultados evidenciaron que las mascarillas liberan estas sustancias sin necesidad de haber sido utilizadas, lo que sugiere que los ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "El estudio citado no incluye la palabra ‘mascarilla’\n\nEl estudio en cuestión fue publicado en noviembre de 2020 en la revista Cancer Discovery pero no habla de mascarillas. Según el artículo científico, el enriquecimiento de los pulmones con microbios comensales orales se asoció con una enfermedad de etapa avanzada, peor pronóstico y progresión del tumor en pacientes con cáncer de pulmón. Es decir, que la presencia de algunos microbios en los pulmones se correlaciona con una peor progresión del cáncer de pulmón. Pero este estudio no tiene relación con las mascarillas. De hecho, esa palabra ni aparece en el artículo. El estudio se hizo entre marzo de 2013 y octubre de 2018 en personas con cáncer de pulmón.",
+                                        "metadata": {
+                                            "url": "https://ecotoxsan.wordpress.com/2021/01/25/no-un-estudio-no-ha-probado-que-el-uso-de-mascarillas-a-largo-plazo-genera-microbios-que-se-infiltran-en-los-pulmones-y-contribuyen-al-cancer-de-pulmon-en-estadio-avanzado-maldita-es/",
+                                            "source": "ecotoxsan.wordpress.com",
+                                            "favicon": "https://ecotoxsan.wordpress.com/wp-content/uploads/2017/02/cropped-logos-ecotoxsanamb.png?w=32",
+                                            "title": "El estudio citado no incluye la palabra 'mascarilla' - Ecotoxsan",
+                                            "type": "web_search",
+                                            "base_url": "https://ecotoxsan.wordpress.com",
+                                            "snippet": "No, un estudio no ha probado que el uso de mascarillas a largo plazo genera microbios que se infiltran en los pulmones y 'contribuyen al cáncer ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Las bacterias en las mascarillas y la deficiencia de oxígeno por las mascarillas causan cáncer de pulmón\n\nLo que usted podría haber escuchado\n\nEl uso de mascarillas aumenta el riesgo de cáncer.\n\nLo que nos dice la ciencia\n\nExiste una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).\n\nEvidencia epidemiológica\n\nLos Centros para el Control y la Prevención de Enfermedades también respondieron, afirmando que el uso de mascarillas no presenta ningún riesgo más para la salud y es esencial para proteger a las personas del COVID-19. Usar una cubierta facial ayuda a proteger a los demás cuando usted tose, estornuda o habla y rocía microgotas virales en el aire (ALA). Muchas personas no saben que se han infectado y, sin saberlo, propagan el COVID-19 a otros. Como resultado, es importante usar una mascarilla para disminuir la propagación de la enfermedad. No hay evidencia de estudios epidemiológicos que concluyan que el uso de mascarillas está asociado con el cáncer.\n\nEvidencia de laboratorio\n\nNo hay evidencia de estudios de laboratorio que relacionen el uso de mascarillas con el desarrollo del cáncer.\n\n▸Clasificación de carcinógenos de la IARC: No clasificado\n\nCómo reducir su riesgo\n\nAl seleccionar su mascarilla, es importante que no sea tan gruesa como para dificultar la respiración. Los filtros probablemente sean innecesarios y pueden hacer que las mascarillas sean más incómodas. El estándar de oro es la mascarilla N-95, que es 95 % efectiva para proteger al usuario de la inhalación de partículas virales. (ALA). Las mascarillas quirúrgicas son menos efectivas y las mascarillas de tela aún menos. Independientemente, incluso una reducción del 50% en la transmisión es esencial para reducir la propagación de COVID-19 (ALA).\n\nSiempre que use una máscara, asegúrese de que sea nueva y estéril. Si el uso de una mascarilla le causa dificultades para respirar, intente ir a un espacio al aire libre y lejos de las personas para recuperar la respiración (CDC).\n\nConclusión\n\nEl uso de mascarillas no causa cáncer y usar mascarillas para prevenir la transmisión de enfermedades infecciosas (como el COVID-19) es crucial.\n\nCentros para el Control y la Prevención de Enfermedades (CDC): Las mascarillas\n\nMoffitt Cancer Center: El uso de mascarilla\n\nAmerican Lung Association (ALA): Las mascarillas\n\nPublicado el: 7 de julio de 2021\n\nVerificado/actualizado: 22 de agosto de 2022",
+                                        "metadata": {
+                                            "url": "https://cancerfactfinder.org/es/estilo-de-vida/uso-de-mascarilla/",
+                                            "source": "cancerfactfinder.org",
+                                            "favicon": "https://cancerfactfinder.org/wp-content/uploads/2022/02/favicon.svg",
+                                            "title": "Uso de mascarilla",
+                                            "type": "web_search",
+                                            "base_url": "https://cancerfactfinder.org",
+                                            "snippet": "Las bacterias en las mascarillas y la deficiencia de oxígeno por las mascarillas causan cáncer de pulmón · Lo que usted podría haber escuchado."
+                                        }
+                                    },
+                                    {
+                                        "text": "Nada surge de la nada, siempre hay señales, rara vez no tenemos indicios previos que nos indiquen lo que está por llegar, ya sea para bien o para mal. Cuenta una historia (real o falsa) que a principios de los ochenta del siglo pasado, un trabajador del CDC que monitorizaba el uso de antibióticos observó un incremento anormal en el consumo de trimetoprima/sulfametozaxol; inicialmente, fue de forma discreta, pero con el paso de las semanas y los meses fue cada vez mayor, nada extraordinario, pero era algo evidente ante los ojos de quien sabe distinguir pequeñas señales. La distribución no era necesariamente en una sola ciudad, había un incremento en la costa este y oeste del país. Tomó los datos y acudió con su superior, le informó que todo indicaba que una epidemia nueva se estaba desarrollando en el país, él no sabía exactamente de qué se trataba o cuál era el agente infeccioso asociado; sin embargo, para él, algo de origen infeccioso estaba ocurriendo, pocos lo escucharon. Tiempo después, la pandemia por VIH emergió de forma incontenible. Para los gobiernos que mezclaban creencias personales con salud pública fue una sorpresa, para los que separaban esos dos aspectos y los que escucharon al trabajador del CDC solo fue algo esperable. Una vez más, los datos predecían los eventos por venir. Eso es parte de esta historia.\n\nLa dinámica epidemiológica de la mortalidad por cáncer y otras enfermedades se modificará a lo largo de los próximos lustros como efecto secundario a la emergencia de una variable imprevista durante el inicio de la segunda década del siglo XXI: la pandemia por COVID-19.\n\nDurante los años más difíciles de la pandemia, cuando se extendía como un tsunami arrasando todo a su paso, tomando la vida de cientos de miles de personas (incluyendo a los profesionales de la salud), muchos de los programas o servicios de salud fueron redirigidos para atender a la población infectada por SARS-CoV-2, dejando “a la deriva” el cribado, diagnóstico y tratamiento del cáncer. Para cierto tipo de neoplasias, este efecto implicará en la práctica clínica cotidiana una menor tasa de curación o supervivencia global.\n\nParticularmente, en lo que se refiere al cáncer de pulmón tenemos que ser muy acuciosos en la evaluación de la información disponible y el impacto de la pandemia asociada al virus SARS-CoV-2. La mayoría de las “voces” sugieren que tendremos un aumento en la mortalidad. Particularmente, y a manera de hipótesis, difiero de este escenario, al menos en lo que se refiere a muertes por cáncer de pulmón en mi país y probablemente en muchos otros.\n\nEmpecemos con tres datos que a mi parecer son evidentes, se presentan de forma separada pero que potencialmente confluirán “inevitablemente” a lo largo del tiempo:\n\nSi uno revisa los reportes de mortalidad por cáncer de pulmón, en la mayoría de los países la tasa (100,000/habitantes) se incrementa de forma sustancial a partir de la sexta década de la vida, con un incremento notable a lo largo de las subsecuentes décadas. La mayoría de las muertes por COVID-19 se registran en población con edad igual o mayor a 60 años, y conforme se incrementa la edad la tasa mantiene un ascenso constante. Un número elevado de personas que fallecieron por COVID eran portadoras de múltiples enfermedades crónico-degenerativas, incluyendo neumopatías asociadas o no al tabaco.\n\n¿Cómo confluye todo esto?\n\nMe parece que un número elevado de personas con factores de riesgo para cáncer de pulmón, que ya lo tenían, pero no se les había diagnosticado o que potencialmente lo podrían haber desarrollado, fallecieron por COVID-19. Es altamente probable que una persona con una neumopatía crónica que podría desarrollar un cáncer en los próximos años falleciera si se infectó por SARS-CoV-2. Dicho de otra forma, una gran parte de la población con riesgo para morir de COVID es la misma que tenía un riesgo elevado para cáncer de pulmón. Bajo este modelo, veremos una reducción de la mortalidad de forma general y cambios sustanciales en la distribución porcentual de los diferentes subtipos; la redistribución implicaría una reducción porcentual en cáncer de células pequeñas, escamoso y un aumento (porcentual) de tumores con mutaciones o alteraciones accionables, como EGFR, ALK, etc.\n\nCon base en lo anterior, la hipótesis presupone que la tasa de mortalidad por cáncer de pulmón va a presentar una reducción en mayor o menor medida durante la próxima década. Esta idea debe ser tomada con cautela, no se debe interpretar como un éxito, por el contrario, el concepto se sustenta no en una reducción en la mortalidad secundario a un mejor diagnóstico o tratamiento, en realidad se sustenta en que las personas fallecieron por COVID-19 antes de desarrollar un cáncer.\n\nMúltiples variables y escenarios podrían modificar el concepto. Pensar que un retraso o suspensión en los estudios de cribado durante la pandemia podría asociarse a un mayor porcentaje de personas en etapa metastásica y, por lo tanto, un incremento en la mortalidad no me parece un escenario posible. En realidad, el cribado en cáncer de pulmón, si bien demuestra un reducción en la mortalidad al interior de estudio de investigación con una población controlada, en el mundo real, en la mayoría de los países, su impacto es bajo por múltiples razones que no son el motivo de este escrito. Independientemente de los estudios de cribado, sería interesante evaluar qué sucedió con la población de riesgo para cáncer de pulmón con diagnóstico o sospecha de COVID-19, este grupo de personas se sometió de forma masiva a estudios de TC, podríamos pensar que el hallazgo inesperado de un cáncer de pulmón durante una TC por COVID-19 podría quizás incrementar la posibilidad de curación o, por el otro lado, quizás incrementaría la mortalidad ante la imposibilidad de recibir el tratamiento adecuado por la pandemia. Una tercera variable sería pensar que esta población es justamente la que tiene una elevada tasa de mortalidad por COVID. Una variable desconocida, en el momento actual, es el papel que el SARS-CoV-2 podría tener como un virus asociado a neoplasias u otras enfermedades. Por último, hay que considerar que este fenómeno podría extenderse a otras neoplasias fuertemente asociadas al tabaquismo, como podría ser el cáncer de vejiga, entre otros.\n\nEn mi visión, una reducción en la tasa de mortalidad por cáncer de pulmón junto con una redistribución porcentual de los diferentes subtipos sucederá en los próximos años, solo el tiempo nos dirá si esto es cierto o no.\n\nDr. Fernando Aldaco Sarvide\n\nOncólogo Médico\n\nCiudad de México, México",
+                                        "metadata": {
+                                            "url": "https://sciencelink.com/noticias/covid-19-y-mortalidad-por-cancer-de-pulmon-en-los-proximos-anos/",
+                                            "source": "sciencelink.com",
+                                            "favicon": "https://sciencelink.com/favicon.ico",
+                                            "title": "COVID-19 y mortalidad por cáncer de pulmón en los ...",
+                                            "type": "web_search",
+                                            "base_url": "https://sciencelink.com",
+                                            "snippet": "Es altamente probable que una persona con una neumopatía crónica que podría desarrollar un cáncer en los próximos años falleciera si se infectó ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Mascarillas tienen compuesto que causa cáncer\n\nPublicaciones en redes sociales han compartido la afirmación de que un estudio de 12 modelos de mascarillas realizado por investigadores en Bélgica mostró que todas contienen un “compuesto que causa cáncer” en niveles que exceden la “exposición aceptable”.\n\nUn usuario de Facebook compartió una publicación que decía: “En un estudio de 12 máscaras faciales (mascarillas), cada una contenía partículas de dióxido de titanio (TiO2) en al menos una capa, a niveles que excedían el nivel de exposición aceptable y que la Agencia Internacional de Investigación sobre el Cáncer (IARC) clasifica el dióxido de titanio como carcinógeno del Grupo 2B, lo que significa que es “posiblemente cancerígeno para los humanos por inhalación”.\n\nCientíficos dijeron a la agencia Reuters que algunas mascarillas aprobadas en EE.UU. pueden contener pequeñas cantidades de dióxido de titanio. Sin embargo, el estudio probó implementos distribuidas en Europa y no probó si los usuarios de mascarillas inhalaron alguna partícula. La IARC de Naciones Unidas ha clasificado el mineral como “posiblemente” carcinogénico cuando se inhala, y la Agencia Europea de Sustancias Químicas dice que debería etiquetarse como carcinógeno bajo condiciones específicas.\n\nEl dióxido de titanio está aprobado y considerado seguro por la Administración de Drogas y Alimentos de EE.UU. (FDA, su sigla en inglés) en una amplia gama de productos de consumo, pero los reguladores de EE.UU. no han establecido niveles de exposición seguros para inhalar el mineral.\n\nEl estudio citado en las afirmaciones en línea fue publicado en febrero de 2022 y encontró que cada mascarilla contenía dióxido de titanio en un rango entre 791 y 152,345 microgramos (millonésimas de gramo) en total. En la superficie, el rango fue de 17 a 4394 microgramos, y superó sistemáticamente el nivel aceptable de exposición a TiO2 por inhalación (3,6 microgramos), según la suposición de un uso “intensivo” de la máscara, informaron los autores.\n\nSin embargo, el coautor del estudio, Jan Mast, confirmó que su equipo no probó si las personas realmente podían inhalar dióxido de titanio al usar las mascarillas examinadas en el estudio. “No probamos esto. Y hasta donde sabemos, esto aún no se ha investigado en detalle. También porque la medición directa de la liberación de TiO2 no es técnicamente factible”, dijo.\n\nEn resumidas cuentas, aunque algunas mascarillas aprobadas por la FDA pueden contener dióxido de titanio, el estudio citado en las afirmaciones en línea no proporciona evidencia de que liberen dióxido de titanio o que los usuarios puedan inhalar el dióxido de titanio liberado de las máscaras.\n\nEstudio demuestra que paciente infectados con viruela del mono tenían el virus en el aire\n\nUna investigación liderada por científicos del Consejo Superior de Investigaciones Científicas de España (CSIC) muestra por primera vez evidencia de la presencia de altas cantidades de virus de la viruela del mono (monkeypox virus o MPXV por sus siglas en inglés) en muestras de aire y en la saliva de pacientes infectados.\n\nEl trabajo, que aparece publicado en la revista The Lancet Microbe, pone de manifiesto la posibilidad de que el virus pueda transmitirse por vía aérea, aunque el contacto directo, especialmente con lesiones cutáneas de alguien infectado, siga siendo la forma de contagio dominante.\n\nEl virus, del género Orthopoxvirus, puede transmitirse entre animales y seres humanos y los síntomas que provoca son similares a los de la viruela, erradicada en 1980, aunque los de la viruela del mono suelen presentar una menor gravedad, transmisibilidad y mortalidad. La enfermedad es endémica en África central y occidental y se transmite fundamentalmente por contacto estrecho.\n\nVirus de la viruela del mono.\n\nEn mayo de 2022 surgió un brote de viruela del mono a nivel mundial que fue declarado emergencia de salud global por la Organización Mundial de la Salud (OMS). Meses después, aunque la propagación se ha ralentizado, el número de casos detectados, que asciende a más de 79.000, ya supera al total de los registrados en África desde el descubrimiento del virus en 1970. En Europa, y hasta el 8 de noviembre, eran cerca de 25.400 los casos confirmados, según el Centro Europeo para la Prevención y el Control de Enfermedades (ECDC por sus siglas en inglés), mientras que, en España, el brote ha llevado hasta ahora a la confirmación de más de 7.300 casos.\n\n“Los datos epidemiológicos apuntan a que la transmisión del virus de la viruela del mono tiene lugar principalmente por contacto, pero, a la vista de estos nuevos resultados, proponemos no desestimar y vigilar la posibilidad de que se pueda transmitir también a través de las microgotas de saliva y por vía aérea”, indica Antonio Alcamí, investigador del CSIC en el Centro de Biología Molecular Severo Ochoa (CBMSO-CSIC-UAM).\n\nEn este estudio los científicos han analizado muestras de saliva procedentes de 44 pacientes que, entre el 18 de mayo y el 15 de julio de 2022, acudieron a dos centros sanitarios de Madrid (una de las regiones con una de las incidencias más altas del mundo) porque presentaban lesiones cutáneas características de la enfermedad.\n\nTras analizar las muestras de saliva, los investigadores detectaron en el 85% la presencia de ADN viral. “Además, otro dato relevante es que, en el 66% de las muestras, el virus mantenía su capacidad infecciosa”, añade Bruno Hernáez, investigador del CBMSO-CSIC-UAM.\n\nLos encargados del análisis detectaron la presencia del virus retenido en la mayoría de las mascarillas que portaban los pacientes durante la consulta médica. Además, se detectó ADN viral presente en el aire a una distancia de entre dos y tres metros del paciente, que fue posible gracias al empleo de unos filtros de nanofibras desarrollados por el CSIC y la empresa Bioinicia, capaces de capturar el virus.\n\n“Así, hemos podido determinar por PCR la presencia del virus de la viruela del mono en el aire muestreado durante la visita médica del 64% de los pacientes del estudio”, indica Alcamí, quien destaca que, en este caso, lo que no pudieron constatar fue la capacidad infectiva del virus que circulaba por el aire.\n\nLos resultados de esta investigación, enmarcados en la Plataforma Temática Interdisciplinar Salud Global del CSIC (PTI+ Salud Global), se han obtenido gracias a la implicación de equipos del Centro Sanitario Sandoval; el Hospital Universitario Clínico de San Carlos de Madrid; el Instituto de Investigación Germans Trias i Pujol de Badalona; el Centro Nacional de Microbiología (ISCIII), y el Instituto de Agroquímica y Tecnología de Alimentos (IATA-CSIC).\n\nRevisa todos nuestros fact checking en este link.",
+                                        "metadata": {
+                                            "url": "https://www.latercera.com/que-pasa/noticia/fact-checking-mascarillas-tienen-compuesto-que-causa-cancer-estudio-demuestra-que-pacientes-infectados-con-viruela-del-mono-tenian-el-virus-en-el-aire/VX7NLXHJJFBSJOPSTRZOO5MJTE/",
+                                            "source": "www.latercera.com",
+                                            "favicon": "https://www.latercera.com/pf/resources/favicon/la-tercera/favicon.ico?d=1074&mxId=00000000",
+                                            "title": "Fact Checking: ¿Mascarillas tienen compuesto que causa ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.latercera.com",
+                                            "snippet": "A través de redes sociales, ha trascendido que cubreboca no sería 100% seguro y que la viruela podría transmitirse por vía aérea."
+                                        }
+                                    },
+                                    {
+                                        "text": "Investigadores del Instituto de Diagnóstico Ambiental y Estudios del Agua (IDAEA-CSIC) han analizado la presencia de compuestos plastificantes en las mascarillas utilizadas para reducir el contagio por SARS-CoV-2.\n\nLos resultados de su estudio, publicados en la revista Environment International, muestran que las concentraciones de estos denominados ésteres organofosforados (OPE, por sus siglas en inglés) se mantienen por debajo de los valores de riesgo para la salud humana.\n\nEl nivel de compuestos plastificantes liberados por los diferentes tipos de mascarillas utilizadas frente a la covid está por debajo del umbral de riesgo para la salud humana\n\n“Los riesgos cancerígenos y no cancerígenos de la inhalación de los OPE fueron siempre varios órdenes de magnitud inferiores a los niveles del umbral, lo que indica que el uso de mascarillas es seguro con respecto a la contaminación por estos compuestos”, señalan los autores.\n\nEl equipo analizó los niveles de 16 compuestos plastificantes en diversas mascarillas: quirúrgicas, de tela reutilizables, FFP2 desarrolladas por el CSIC, KN95 y FFP3. También se realizaron ensayos de inhalación con maniquís para evaluar la proporción de estas sustancias que se desprendían de la mascarilla y que, por tanto, podía ser respirada.\n\nEn base a nuestros resultados y a las recomendaciones de protección frente al virus, lo más aconsejable es utilizar mascarillas de tela en zonas exteriores y FFP2 en interiores Ethel Eljarrat (IDAEA-CSIC)\n\n“Los resultados indican que las mascarillas de tela reutilizables no desprenden ninguno de estos plastificantes. Por su parte, las mascarillas quirúrgicas, las FFP2 y FFP3 muestran también unos valores extremadamente bajos de plastificantes desprendidos”, indica la investigadora y autora del estudio Ethel Eljarrat.\n\n“Por tanto –concluye–, en base a nuestros resultados y a las recomendaciones de protección frente al virus, lo más aconsejable es utilizar mascarillas de tela en zonas exteriores y FFP2 en espacios interiores”.\n\nImpacto en el medio ambiente\n\nEl trabajo también evaluó el impacto ambiental debido a la generación de residuos, así como a la liberación de compuestos plastificantes al medio ambiente.\n\nTeniendo en cuenta la cantidad de mascarillas que se utilizan a nivel mundial, los autores calcularon que se generan entre 0,2 y 6,3 millones de toneladas de residuos anuales, y se liberan entre 20 y 18.000 kilos de plastificantes organofosforados al medio ambiente.\n\nLas mascarillas de tela reutilizables no desprenden ningún plastificante, y también son la mejor opción desde el punto de vista medioambiental porque son las que generan menor cantidad de residuos\n\n“También desde el punto de vista medioambiental, la mejor opción es el uso de mascarillas reutilizables ya que son las que generan menor cantidad de residuos. Por otro lado, una mala gestión de los residuos de mascarillas puede provocar que los compuestos plastificantes terminen contaminando los ecosistemas acuáticos y terrestres, lo que supone un grave problema medioambiental”, asegura Eljarrat.\n\nEsta investigación está financiada por la Unión Europea, a través del plan de recuperación frente a los efectos de la covid-19 NextGenerationEU. En el marco de este plan, el equipo de investigación formado por Eljarrat y Teresa Moreno realizará un nuevo estudio que incluya diferentes tipos de mascarillas que han ido apareciendo en el mercado en los últimos meses, y evaluando un mayor número de compuestos plastificantes.",
+                                        "metadata": {
+                                            "url": "https://www.agenciasinc.es/Noticias/Los-compuestos-plastificantes-de-las-mascarillas-no-suponen-un-riesgo-para-la-salud",
+                                            "source": "www.agenciasinc.es",
+                                            "favicon": "https://cdn.agenciasinc.es/bundles/app/images/favicon32.png?v=2025240702",
+                                            "title": "Los compuestos plastificantes de las mascarillas no ...",
+                                            "type": "web_search",
+                                            "base_url": "https://www.agenciasinc.es",
+                                            "snippet": "Los compuestos plastificantes de las mascarillas no suponen un riesgo para la salud. Los niveles de sustancias organofosforadas liberadas por ..."
+                                        }
+                                    },
+                                    {
+                                        "text": "Noticias\n\nLa nueva Norma UNE-EN 14683:2025 especifica la fabricación, diseño, requisitos de funcionamiento y métodos de ensayo de mascarillas quirúrgicas previstas para limitar la transmisión de agentes infecciosos, desde el personal médico hasta los pacientes, durante procedimientos quirúrgicos y otros entornos médicos con requisitos similares.\n\nEste documento consta de dos Anexos, que sirven de apoyo para su correcta implementación:\n\nAnexo G (Informativo) Impacto ambiental\n\nAnexo ZA (Informativo) Relación entre esta norma europea y los requisitos generales de seguridad y funcionamiento del Reglamento (UE) 2017/745.\n\nLa Asociación Española de Normalización, UNE, ha sido la encargada de publicar la Norma UNE-EN 14683.",
+                                        "metadata": {
+                                            "url": "https://revista.aenor.com/417/une-en-14683-requisitos-para-mascarillas-quirurgicas.html",
+                                            "source": "revista.aenor.com",
+                                            "favicon": "https://revista.aenor.com/images/favicon_aenor.ico",
+                                            "title": "UNE-EN 14683, requisitos para mascarillas quirúrgicas",
+                                            "type": "web_search",
+                                            "base_url": "https://revista.aenor.com",
+                                            "snippet": "La nueva Norma UNE-EN 14683:2025 especifica la fabricación, diseño, requisitos de funcionamiento y métodos de ensayo de mascarillas quirúrgicas previstas ."
+                                        }
+                                    },
+                                    {
+                                        "text": "© 2020 The Author(s)\n\nSince January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.",
+                                        "metadata": {
+                                            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7205671/",
+                                            "source": "pmc.ncbi.nlm.nih.gov",
+                                            "favicon": "https://pmc.ncbi.nlm.nih.gov/static/img/favicons/apple-touch-icon.png",
+                                            "title": "Implicaciones de la pandemia por COVID-19 sobre el cáncer ...",
+                                            "type": "web_search",
+                                            "base_url": "https://pmc.ncbi.nlm.nih.gov",
+                                            "snippet": "de D Petrova · 2020 · Citado por 27 — Los datos disponibles son aún escasos, pero las sospechas sobre el papel del cáncer en COVID-19 se confirman en los primeros estudios procedentes de China5, 6."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "type": "web_search"
+                    }
+                }
+            ]
+        },
+        "RagAgent": {
+            "stats": {
+                "name": "RagAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.00090519,
+                "total_run_time": 0.8161684660008177,
+                "average_cost_per_call": 0.00090519,
+                "average_time_per_call": 0.8161684660008177,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:18",
+                    "run_time": 0.8161684660008177,
+                    "cost": 0.00090519,
+                    "history_entry": {
+                        "data": {
+                            "¿Cuáles son los resultados más recientes de estudios científicos sobre el impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer?": [
+                                {
+                                    "Existe una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).": null
+                                },
+                                {
+                                    "Publicaciones en redes sociales han compartido la afirmación de que un estudio de 12 modelos de mascarillas realizado por investigadores en Bélgica mostró que todas contienen un “compuesto que causa cáncer” en niveles que exceden la “exposición aceptable”.": null
+                                },
+                                {
+                                    "El estudio en cuestión fue publicado en noviembre de 2020 en la revista Cancer Discovery pero no habla de mascarillas. Según el artículo científico, el enriquecimiento de los pulmones con microbios comensales orales se asoció con una enfermedad de etapa avanzada, peor pronóstico y progresión del tumor en pacientes con cáncer de pulmón. Es decir, que la presencia de algunos microbios en los pulmones se correlaciona con una peor progresión del cáncer de pulmón. Pero este estudio no tiene relación con las mascarillas. De hecho, esa palabra ni aparece en el artículo. El estudio se hizo entre marzo de 2013 y octubre de 2018 en personas con cáncer de pulmón.": null
+                                }
+                            ],
+                            "¿Cuál es la relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos?": [
+                                {
+                                    "Existe una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).": null
+                                },
+                                {
+                                    "El estudio en cuestión fue publicado en noviembre de 2020 en la revista Cancer Discovery pero no habla de mascarillas. Según el artículo científico, el enriquecimiento de los pulmones con microbios comensales orales se asoció con una enfermedad de etapa avanzada, peor pronóstico y progresión del tumor en pacientes con cáncer de pulmón. Es decir, que la presencia de algunos microbios en los pulmones se correlaciona con una peor progresión del cáncer de pulmón. Pero este estudio no tiene relación con las mascarillas. De hecho, esa palabra ni aparece en el artículo. El estudio se hizo entre marzo de 2013 y octubre de 2018 en personas con cáncer de pulmón.": null
+                                },
+                                {
+                                    "Lo que usted podría haber escuchado\nEl uso de mascarillas aumenta el riesgo de cáncer.\nLo que nos dice la ciencia": null
+                                }
+                            ],
+                            "¿Qué opinan los expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables?": [
+                                {
+                                    "“Los riesgos cancerígenos y no cancerígenos de la inhalación de los OPE fueron siempre varios órdenes de magnitud inferiores a los niveles del umbral, lo que indica que el uso de mascarillas es seguro con respecto a la contaminación por estos compuestos”, señalan los autores.": null
+                                },
+                                {
+                                    "Científicos dijeron a la agencia Reuters que algunas mascarillas aprobadas en EE.UU. pueden contener pequeñas cantidades de dióxido de titanio. Sin embargo, el estudio probó implementos distribuidas en Europa y no probó si los usuarios de mascarillas inhalaron alguna partícula. La IARC de Naciones Unidas ha clasificado el mineral como “posiblemente” carcinogénico cuando se inhala, y la Agencia Europea de Sustancias Químicas dice que debería etiquetarse como carcinógeno bajo condiciones específicas.": null
+                                },
+                                {
+                                    "Existe una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).": null
+                                }
+                            ],
+                            "¿Cuáles son los datos de la Organización Mundial de la Salud (OMS) sobre la seguridad de las mascarillas quirúrgicas desechables?": [
+                                {
+                                    "“Los riesgos cancerígenos y no cancerígenos de la inhalación de los OPE fueron siempre varios órdenes de magnitud inferiores a los niveles del umbral, lo que indica que el uso de mascarillas es seguro con respecto a la contaminación por estos compuestos”, señalan los autores.": null
+                                },
+                                {
+                                    "A medida que las mascarillas se descomponen, liberan microplásticos y sustancias químicas al medio ambiente. Desde Coventry han analizado cuántos microplásticos y aditivos químicos pueden desprenderse de diferentes tipos de mascarillas desechables, como las quirúrgicas y las filtrantes, que a menudo se emplean en centros sanitarios.": null
+                                },
+                                {
+                                    "“Los resultados indican que las mascarillas de tela reutilizables no desprenden ninguno de estos plastificantes. Por su parte, las mascarillas quirúrgicas, las FFP2 y FFP3 muestran también unos valores extremadamente bajos de plastificantes desprendidos”, indica la investigadora y autora del estudio Ethel Eljarrat.": null
+                                }
+                            ],
+                            "¿Cuál es la incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas?": [
+                                {
+                                    "Existe una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).": null
+                                },
+                                {
+                                    "“Los riesgos cancerígenos y no cancerígenos de la inhalación de los OPE fueron siempre varios órdenes de magnitud inferiores a los niveles del umbral, lo que indica que el uso de mascarillas es seguro con respecto a la contaminación por estos compuestos”, señalan los autores.": null
+                                },
+                                {
+                                    "El uso de mascarillas no causa cáncer y usar mascarillas para prevenir la transmisión de enfermedades infecciosas (como el COVID-19) es crucial.": null
+                                }
+                            ]
+                        },
+                        "type": "rag"
+                    }
+                }
+            ]
+        },
+        "QuestionAgent": {
+            "stats": {
+                "name": "QuestionAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ArticleWriterAgent": {
+            "stats": {
+                "name": "ArticleWriterAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 17.420583539998916,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 17.420583539998916,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:35",
+                    "run_time": 17.420583539998916,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "You are tasked with generating a fact check for a given statement or question. You will be provided with critical questions and text sources to assist you in this task. Follow these instructions carefully:\n\n1. Here is the statement or question to be fact-checked:\nMascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\n\n2. Here you have a set of critical questions to guide your fact check, you should answer them based on the information provided in the text sources:\n¿Cuáles son los resultados más recientes de estudios científicos sobre el impacto de las mascarillas quirúrgicas desechables en el riesgo de tumores de cáncer?\n¿Cuál es la relación entre el uso de mascarillas y la incidencia de cáncer de pulmón en adultos?\n¿Qué opinan los expertos en oncología sobre el potencial carcinógeno de las mascarillas quirúrgicas desechables?\n¿Cuáles son los datos de la Organización Mundial de la Salud (OMS) sobre la seguridad de las mascarillas quirúrgicas desechables?\n¿Cuál es la incidencia de tumores de cáncer en países con regulaciones estrictas sobre el uso de mascarillas?\n\n3. Here are the text sources you should use as your source of information:\n[0] Existe una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. El primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios (Moffitt Cancer Center). La American Lung Association también afirma que no hay pizca de verdad en la afirmación (ALA).\n[0] Lo que usted podría haber escuchado El uso de mascarillas aumenta el riesgo de cáncer. Lo que nos dice la ciencia\n[0] El uso de mascarillas no causa cáncer y usar mascarillas para prevenir la transmisión de enfermedades infecciosas (como el COVID-19) es crucial.\n[1] Publicaciones en redes sociales han compartido la afirmación de que un estudio de 12 modelos de mascarillas realizado por investigadores en Bélgica mostró que todas contienen un “compuesto que causa cáncer” en niveles que exceden la “exposición aceptable”.\n[1] Científicos dijeron a la agencia Reuters que algunas mascarillas aprobadas en EE.UU. pueden contener pequeñas cantidades de dióxido de titanio. Sin embargo, el estudio probó implementos distribuidas en Europa y no probó si los usuarios de mascarillas inhalaron alguna partícula. La IARC de Naciones Unidas ha clasificado el mineral como “posiblemente” carcinogénico cuando se inhala, y la Agencia Europea de Sustancias Químicas dice que debería etiquetarse como carcinógeno bajo condiciones específicas.\n[2] El estudio en cuestión fue publicado en noviembre de 2020 en la revista Cancer Discovery pero no habla de mascarillas. Según el artículo científico, el enriquecimiento de los pulmones con microbios comensales orales se asoció con una enfermedad de etapa avanzada, peor pronóstico y progresión del tumor en pacientes con cáncer de pulmón. Es decir, que la presencia de algunos microbios en los pulmones se correlaciona con una peor progresión del cáncer de pulmón. Pero este estudio no tiene relación con las mascarillas. De hecho, esa palabra ni aparece en el artículo. El estudio se hizo entre marzo de 2013 y octubre de 2018 en personas con cáncer de pulmón.\n[3] “Los riesgos cancerígenos y no cancerígenos de la inhalación de los OPE fueron siempre varios órdenes de magnitud inferiores a los niveles del umbral, lo que indica que el uso de mascarillas es seguro con respecto a la contaminación por estos compuestos”, señalan los autores.\n[3] “Los resultados indican que las mascarillas de tela reutilizables no desprenden ninguno de estos plastificantes. Por su parte, las mascarillas quirúrgicas, las FFP2 y FFP3 muestran también unos valores extremadamente bajos de plastificantes desprendidos”, indica la investigadora y autora del estudio Ethel Eljarrat.\n[4] A medida que las mascarillas se descomponen, liberan microplásticos y sustancias químicas al medio ambiente. Desde Coventry han analizado cuántos microplásticos y aditivos químicos pueden desprenderse de diferentes tipos de mascarillas desechables, como las quirúrgicas y las filtrantes, que a menudo se emplean en centros sanitarios.\n\n4. Generate a fact check based on the provided text sources. \n    - Use the critical questions to guide your analysis. When referencing information from the text sources, cite them using the format [1], [2], etc., corresponding to their ID numbers.\n    - You MUST include EVERY argument and piece of evidence from the text chunks in your fact check. Do not be selective or summarize just a few points - your analysis should comprehensively gather and present ALL relevant information from the provided sources.\n    - It is CRUCIAL that you actively search for BOTH supporting AND refuting evidence in the text sources. Do not favor one perspective over another.\n    - For each point you make, try to find if there are contrasting viewpoints or contradictory data present in the sources.\n    - Ensure that your fact check is based solely on the information provided in the text sources. If you cannot find relevant information in the text sources to address any part of the statement or critical questions, clearly state that there is insufficient information to make a determination on that specific point. \n    - Use as much detail as possible to support your fact check. \n    - Your task is to present a balanced, comprehensive analysis of the evidence, not to persuade toward any particular conclusion.\n    - Use **markdown bold** to highlight the more important arguments. \n\n5. Structure your fact check in exactly three paragraphs. Paragraphs should only be separated by a blank line. Do not add titles to the paragraphs.\n    - First paragraph: You MUST thoroughly describe ALL arguments and evidence that support the statement or answer the question affirmatively. Make a deliberate effort to find these supporting points even if they are not immediately obvious. If after exhaustive searching you cannot find arguments in favor within the provided text fragments, you must explicitly explain that you have not found any.\n    - Second paragraph: You MUST thoroughly describe ALL arguments and evidence that refute the statement or answer the question negatively. Make a deliberate effort to find these counterpoints even if they are not immediately obvious. If after exhaustive searching you cannot find arguments against within the provided text fragments, you must explicitly explain that you have not found any.\n    - Third paragraph: You must explain your conclusion regarding the truthfulness of the statement or question. Acknowledge the strength of evidence on both sides. When the evidence is mixed, clearly explain the nuances rather than oversimplifying.\n\n6. In your citations and analysis, refer to the text sources by their ID numbers (e.g., [1], [2]). Ensure that you only use information from the provided text sources.\n\n7. End your fact-check with a clear decision on whether the statement is true, false, or undetermined based on the available evidence. If possible, avoid leaving the conclusion as \"undetermined.\" Make an effort to categorize the statement as true or false. If you cannot find evidence to verify the statement, conclude that it is false. If you cannot find evidence to disprove the statement, conclude that it is true. Only say the truth cannot be determined if you find conflicting evidence or strongly opposing viewpoints about the statement.\n\nVery important: \n    - Use **markdown bold** to highlight the more important arguments and key pieces of evidence. This will help draw attention to the most significant points in your fact check.\n    - If you include any technical terms or concepts, make sure to explain them clearly.\n    - If you include any acronyms, make sure to expand them the first time you use them.\n    - The user cannot see the text source or the question. Therefore, make sure your answer is self-contained and provides all the necessary information.\n    - Do make explicit references to the text sources in your answer, the user will not have access to them. So do not say \"As mentioned in the first text sources provided...\" but rather \"There is evidence that...\".\n    - Your paragraphs can be as long as necessary to provide a comprehensive fact check, do not worry about the length.\n    - If no supporting or contradicting evidence is found, state that clearly. If not enough evidence is found to answer the questions above, state that clearly.\n    - ALWAYS present multiple perspectives whenever they exist in the source material, even if one viewpoint appears more dominant.\n\nVery important: Your answer should be in Spanish, even if some of the input chucks are in other languages."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer"
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "**Analisis de la afirmación \"Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer se basa en la idea de que estos productos contienen compuestos químicos que pueden ser cancerígenos. Según el texto [1], algunos estudios han encontrado que las mascarillas quirúrgicas pueden contener pequeñas cantidades de dióxido de titanio, un compuesto que la Agencia Internacional de Investigación sobre el Cáncer (IARC) ha clasificado como \"posiblemente\" carcinógeno cuando se inhala. Además, el estudio mencionado en el texto [1] encontró que las mascarillas distribuidas en Europa contenían niveles de dióxido de titanio que superaban la \"exposición aceptable\".\n\nAdemás, el texto [4] menciona que las mascarillas se descomponen con el tiempo y liberan microplásticos y sustancias químicas al medio ambiente, lo que podría contribuir al aumento del riesgo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, hay evidencia que sugiere que las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer. El texto [0] menciona que hay una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. Además, el texto [0] afirma que el primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios.\n\nEl texto [3] menciona que un estudio realizado por la investigadora Ethel Eljarrat encontró que las mascarillas de tela reutilizables no desprenden ninguno de los plastificantes, y que las mascarillas quirúrgicas, las FFP2 y FFP3 muestran valores extremadamente bajos de plastificantes desprendidos. Esto sugiere que las mascarillas quirúrgicas desechables no son un riesgo para la salud.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible es contradictoria y no hay un consenso claro sobre si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Mientras que algunos estudios sugieren que los compuestos químicos presentes en las mascarillas pueden ser cancerígenos, otros estudios han encontrado que las mascarillas no aumentan el riesgo de cáncer. Es importante destacar que la mayoría de los estudios mencionados en los textos proporcionados se refieren a la seguridad de las mascarillas en general, y no específicamente a las mascarillas quirúrgicas desechables.\n\n**Decisión final**\n\nBasándome en la evidencia disponible, no puedo concluir con certeza si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Sin embargo, considerando que la mayoría de los estudios mencionados en los textos proporcionados sugieren que las mascarillas no aumentan el riesgo de cáncer, yo diría que la afirmación es **falsa**."
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "MetadataAgent": {
+            "stats": {
+                "name": "MetadataAgent",
+                "error_count": 0,
+                "total_calls": 1,
+                "total_cost": 0.0,
+                "total_run_time": 1.983122502999322,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 1.983122502999322,
+                "history_size": 1
+            },
+            "history": [
+                {
+                    "date": "2025-10-31 17:38:37",
+                    "run_time": 1.983122502999322,
+                    "cost": 0.0,
+                    "history_entry": {
+                        "data": [
+                            {
+                                "role": "system",
+                                "content": "Given a fact-checking article, I want you to generate a JSON with the following information:\n1. Article title: The article title corrected for spelling and grammar. Keep the original title if there are no errors.\n2. List of categories: For example, News, Sports, Entertainment, Science, Technology, Environment, Automotive, Politics, etc... Maximum 3 categories.\n3. Label: If the conclusion is \"Fake\", \"True\", or \"Undetermined\", extract it from the last paragraph of the article.\n4. Main claim: Based on the tag, rewrite the article headline. The headline should be a statement that includes the main topic of the article and the fact-checking conclusion. Make it concise and short.\n\nExample:\n{\n\"title\": \"¿Son los coches eléctricos más contaminantes que los coches de gasolina?\",\n\"categories\": [\"Automoción\", \"Medio ambiente\", \"Ciencia\"],\n\"main_claim\": \"Los coches eléctricos no son más contaminantes que los coches de gasolina\",\n\"label\": \"Fake\"\n}\n\nArticle title: Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\nArticle: **Analisis de la afirmación \"Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer se basa en la idea de que estos productos contienen compuestos químicos que pueden ser cancerígenos. Según el texto [1], algunos estudios han encontrado que las mascarillas quirúrgicas pueden contener pequeñas cantidades de dióxido de titanio, un compuesto que la Agencia Internacional de Investigación sobre el Cáncer (IARC) ha clasificado como \"posiblemente\" carcinógeno cuando se inhala. Además, el estudio mencionado en el texto [1] encontró que las mascarillas distribuidas en Europa contenían niveles de dióxido de titanio que superaban la \"exposición aceptable\".\n\nAdemás, el texto [4] menciona que las mascarillas se descomponen con el tiempo y liberan microplásticos y sustancias químicas al medio ambiente, lo que podría contribuir al aumento del riesgo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, hay evidencia que sugiere que las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer. El texto [0] menciona que hay una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. Además, el texto [0] afirma que el primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios.\n\nEl texto [3] menciona que un estudio realizado por la investigadora Ethel Eljarrat encontró que las mascarillas de tela reutilizables no desprenden ninguno de los plastificantes, y que las mascarillas quirúrgicas, las FFP2 y FFP3 muestran valores extremadamente bajos de plastificantes desprendidos. Esto sugiere que las mascarillas quirúrgicas desechables no son un riesgo para la salud.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible es contradictoria y no hay un consenso claro sobre si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Mientras que algunos estudios sugieren que los compuestos químicos presentes en las mascarillas pueden ser cancerígenos, otros estudios han encontrado que las mascarillas no aumentan el riesgo de cáncer. Es importante destacar que la mayoría de los estudios mencionados en los textos proporcionados se refieren a la seguridad de las mascarillas en general, y no específicamente a las mascarillas quirúrgicas desechables.\n\n**Decisión final**\n\nBasándome en la evidencia disponible, no puedo concluir con certeza si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Sin embargo, considerando que la mayoría de los estudios mencionados en los textos proporcionados sugieren que las mascarillas no aumentan el riesgo de cáncer, yo diría que la afirmación es **falsa**.\n\nYour answer should be in Spanish."
+                            },
+                            {
+                                "role": "user",
+                                "content": "Article title: Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\nArticle: **Analisis de la afirmación \"Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\"**\n\n**Argumentos a favor de la afirmación**\n\nLa afirmación de que las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer se basa en la idea de que estos productos contienen compuestos químicos que pueden ser cancerígenos. Según el texto [1], algunos estudios han encontrado que las mascarillas quirúrgicas pueden contener pequeñas cantidades de dióxido de titanio, un compuesto que la Agencia Internacional de Investigación sobre el Cáncer (IARC) ha clasificado como \"posiblemente\" carcinógeno cuando se inhala. Además, el estudio mencionado en el texto [1] encontró que las mascarillas distribuidas en Europa contenían niveles de dióxido de titanio que superaban la \"exposición aceptable\".\n\nAdemás, el texto [4] menciona que las mascarillas se descomponen con el tiempo y liberan microplásticos y sustancias químicas al medio ambiente, lo que podría contribuir al aumento del riesgo de cáncer.\n\n**Argumentos en contra de la afirmación**\n\nSin embargo, hay evidencia que sugiere que las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer. El texto [0] menciona que hay una gran cantidad de evidencia que muestra que el uso prolongado de mascarillas no tiene ningún efecto sobre el riesgo de cáncer. Además, el texto [0] afirma que el primer estudio que hizo esta falsa acusación sobre las mascarillas fue desacreditado por muchos otros estudios.\n\nEl texto [3] menciona que un estudio realizado por la investigadora Ethel Eljarrat encontró que las mascarillas de tela reutilizables no desprenden ninguno de los plastificantes, y que las mascarillas quirúrgicas, las FFP2 y FFP3 muestran valores extremadamente bajos de plastificantes desprendidos. Esto sugiere que las mascarillas quirúrgicas desechables no son un riesgo para la salud.\n\n**Conclusión**\n\nEn resumen, la evidencia disponible es contradictoria y no hay un consenso claro sobre si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Mientras que algunos estudios sugieren que los compuestos químicos presentes en las mascarillas pueden ser cancerígenos, otros estudios han encontrado que las mascarillas no aumentan el riesgo de cáncer. Es importante destacar que la mayoría de los estudios mencionados en los textos proporcionados se refieren a la seguridad de las mascarillas en general, y no específicamente a las mascarillas quirúrgicas desechables.\n\n**Decisión final**\n\nBasándome en la evidencia disponible, no puedo concluir con certeza si las mascarillas quirúrgicas desechables aumentan el riesgo de tumores de cáncer. Sin embargo, considerando que la mayoría de los estudios mencionados en los textos proporcionados sugieren que las mascarillas no aumentan el riesgo de cáncer, yo diría que la afirmación es **falsa**."
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "{\"title\": \"Mascarillas quirúrgicas desechables aumentan riesgo de tumores de cáncer\", \"categories\": [\"Salud\", \"Ciencia\", \"Medicina\"], \"label\": \"Undetermined\", \"main_claim\": \"Las mascarillas quirúrgicas desechables no aumentan el riesgo de tumores de cáncer\"}"
+                            }
+                        ],
+                        "type": "conversation"
+                    }
+                }
+            ]
+        },
+        "ImagePromptAgent": {
+            "stats": {
+                "name": "ImagePromptAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "ImageGenAgent": {
+            "stats": {
+                "name": "ImageGenAgent",
+                "error_count": 0,
+                "total_calls": 0,
+                "total_cost": 0.0,
+                "total_run_time": 0.0,
+                "average_cost_per_call": 0.0,
+                "average_time_per_call": 0.0,
+                "history_size": 0
+            },
+            "history": []
+        },
+        "summary": {
+            "total_cost": 0.00590519,
+            "total_calls": 0,
+            "agents_count": 8,
+            "config": {
+                "workflow_type": "FactCheckingWithPipelineWorkflow",
+                "models": {
+                    "critical_question_agent": "Latxa8B-local",
+                    "gen_searches_agent": "Latxa8B-local",
+                    "web_search_provider": "serper",
+                    "embedding": "text-embedding-3-large",
+                    "question_agent": "Latxa8B-local",
+                    "article_writer": "Latxa8B-local",
+                    "metadata_agent": "Latxa8B-local",
+                    "image_prompt": "Latxa8B-local",
+                    "image_model": "flux-replicate"
+                },
+                "web_search": {
+                    "top_k": 5,
+                    "max_searches": 5,
+                    "ban_domains": [
+                        "20minutos.es",
+                        "abc.es",
+                        "agrodiario.com",
+                        "albalactanciamaterna.org",
+                        "antena3.com",
+                        "bankinter.com",
+                        "bbva.com",
+                        "bmcgastroenterol.biomedcentral.com",
+                        "cadenaser.com",
+                        "caixabankresearch.com",
+                        "cambioenergetico.com",
+                        "cancer.gov",
+                        "ciencia.nasa.gov",
+                        "cincodias.elpais.com",
+                        "clinicaalemana.cl",
+                        "coches.net",
+                        "datosmacro.expansion.com",
+                        "defensa.gob.es",
+                        "ec-europa-eu.translate.goog",
+                        "educaweb.com",
+                        "efe.com",
+                        "elblogsalmon.com",
+                        "elconfidencial.com",
+                        "elpais.com",
+                        "elplural.com",
+                        "es.euronews.com",
+                        "es.weforum.org",
+                        "europapress.es",
+                        "feminismo.maldita.es",
+                        "gacetamedica.com",
+                        "hopkinsmedicine.org",
+                        "huffingtonpost.es",
+                        "ine.es",
+                        "infobae.com",
+                        "instagram.com",
+                        "instituteforenergyresearch.org",
+                        "jacc.org",
+                        "kidshealth.org",
+                        "lamoncloa.gob.es",
+                        "larazon.es",
+                        "lasexta.com",
+                        "lavanguardia.com",
+                        "lefebvre.es",
+                        "maldita.es",
+                        "masquemedicos.com",
+                        "medlineplus.gov",
+                        "myfisioclinic.com",
+                        "nationalgeographic.com.es",
+                        "newtral.es",
+                        "normoncontigo.normon.com",
+                        "nyc.gov",
+                        "observatoriodeladiscapacidad.info",
+                        "observatoriodelalquiler.org",
+                        "oftalmologos.org.ar",
+                        "pmp.org.es",
+                        "primabiotic.es",
+                        "publico.es",
+                        "realinstitutoelcano.org",
+                        "ree.es",
+                        "rtve.es",
+                        "salud.nih.gov",
+                        "sepe.es",
+                        "sistemaelectrico-ree.es",
+                        "sjme.org",
+                        "theconversation.com",
+                        "theobjective.com",
+                        "tiktok.com",
+                        "twitter.com",
+                        "uoc.edu",
+                        "verifica.efe.com",
+                        "verificat.cat",
+                        "vozpopuli.com",
+                        "who.int",
+                        "worldwildlife.org",
+                        "www-iaea-org.translate.goog",
+                        "x.com",
+                        "xataka.com",
+                        "youtube.com"
+                    ],
+                    "download_text": true
+                },
+                "rag": {
+                    "do_rag": true,
+                    "chunk_size": 128,
+                    "chunk_overlap": 0,
+                    "split_separators": [
+                        "\n"
+                    ],
+                    "fp16_storage": true,
+                    "l2_normalise": true,
+                    "top_k": 3,
+                    "get_scores": false
+                },
+                "questions": {
+                    "max_questions": 5
+                },
+                "image": {
+                    "size": "1280x256",
+                    "style": "The style is bold and energetic, using vibrant colors and dynamic compositions to create visually engaging scenes that emphasize activity, culture, and lively atmospheres. Digital art."
+                },
+                "general": {
+                    "max_history_size": null
+                }
+            }
+        }
+    }
+}
