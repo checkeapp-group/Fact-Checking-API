@@ -57,6 +57,7 @@ class VLLM(ApiHandler):
         request_kwargs = {
             "model": self.model,
             "messages": messages,
+            # "extra_body": {"repetition_penalty": 1.1},
         }
 
         # If a Pydantic model is provided, request server-side JSON schema enforcement
